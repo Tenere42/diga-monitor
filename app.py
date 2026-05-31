@@ -11,7 +11,6 @@ import streamlit as st
 
 from src.change_events import DEFAULT_CHANGES_DIR, load_change_events
 from src.scan_history import load_scan_history
-from src.snapshot import DEFAULT_SNAPSHOT_DIR, latest_snapshot_paths, load_snapshot
 
 
 TRACKING_START_DATE = date(2026, 5, 31)
@@ -65,7 +64,7 @@ def main() -> None:
     real_events = [event for event in events if is_real_change_event(event)]
     scan_history = load_scan_history()
 
-    render_status_information(real_events, events, scan_history)
+    render_status_information(real_events, scan_history)
 
     filtered_events = render_filters(real_events)
 
@@ -109,16 +108,60 @@ def render_filters(events: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
 def render_status_information(
     real_events: list[dict[str, Any]],
-    all_events: list[dict[str, Any]],
     scan_history: list[dict[str, Any]],
 ) -> None:
-    cols = st.columns(3)
-    cols[0].markdown("**Tracking aktiv seit:**  \n31.05.2026")
-    cols[1].markdown(
-        f"**Letzter erfolgreicher Scan:**  \n{latest_scan_timestamp(all_events, scan_history)}"
+    st.markdown(
+        """
+        <style>
+        .status-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 1rem;
+            margin: 1rem 0 1.25rem;
+        }
+        .status-item {
+            color: #31333f;
+            font-size: 1rem;
+            line-height: 1.45;
+        }
+        .status-label {
+            font-weight: 600;
+            white-space: nowrap;
+        }
+        .status-value {
+            margin-top: 0.15rem;
+            white-space: nowrap;
+        }
+        @media (max-width: 720px) {
+            .status-grid {
+                grid-template-columns: 1fr;
+            }
+            .status-label,
+            .status-value {
+                white-space: normal;
+            }
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
     )
-    cols[2].markdown(
-        f"**Letzte erkannte Änderung:**  \n{latest_real_change_timestamp(real_events)}"
+    items = [
+        ("Tracking aktiv seit:", "31.05.2026"),
+        ("Letzter erfolgreicher Scan:", latest_scan_timestamp(scan_history)),
+        ("Letzte erkannte Änderung:", latest_real_change_timestamp(real_events)),
+    ]
+    blocks = "\n".join(
+        (
+            "<div class='status-item'>"
+            f"<div class='status-label'>{html.escape(label)}</div>"
+            f"<div class='status-value'>{html.escape(value)}</div>"
+            "</div>"
+        )
+        for label, value in items
+    )
+    st.markdown(
+        f"<div class='status-grid'>{blocks}</div>",
+        unsafe_allow_html=True,
     )
 
 
@@ -455,7 +498,7 @@ def event_new_value(event: dict[str, Any]) -> Any:
     return event.get("new_value", event.get("after_value"))
 
 
-def latest_scan_timestamp(events: list[dict[str, Any]], scan_history: list[dict[str, Any]]) -> str:
+def latest_scan_timestamp(scan_history: list[dict[str, Any]]) -> str:
     history_dates = [
         parsed
         for scan in scan_history
@@ -464,14 +507,8 @@ def latest_scan_timestamp(events: list[dict[str, Any]], scan_history: list[dict[
     if history_dates:
         return max(history_dates).astimezone().strftime("%d.%m.%Y %H:%M")
 
-    snapshot_timestamp = latest_snapshot_timestamp()
-    if snapshot_timestamp:
-        return snapshot_timestamp
+    return "Noch kein erfolgreicher Scan"
 
-    dates = [parsed for event in events if (parsed := parse_datetime(event.get("detected_at")))]
-    if not dates:
-        return "-"
-    return max(dates).astimezone().strftime("%d.%m.%Y %H:%M")
 
 
 def latest_real_change_timestamp(events: list[dict[str, Any]]) -> str:
@@ -479,17 +516,6 @@ def latest_real_change_timestamp(events: list[dict[str, Any]]) -> str:
     if not dates:
         return "Bisher keine Änderungen erkannt"
     return max(dates).astimezone().strftime("%d.%m.%Y %H:%M")
-
-
-def latest_snapshot_timestamp() -> str | None:
-    paths = latest_snapshot_paths(DEFAULT_SNAPSHOT_DIR, limit=1)
-    if not paths:
-        return None
-    snapshot = load_snapshot(paths[0])
-    parsed = parse_datetime(snapshot.created_at)
-    if not parsed:
-        return None
-    return parsed.astimezone().strftime("%d.%m.%Y %H:%M")
 
 
 def event_date(event: dict[str, Any]) -> date | None:
