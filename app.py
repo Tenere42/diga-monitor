@@ -80,12 +80,17 @@ def main() -> None:
 def render_filters(events: list[dict[str, Any]]) -> list[dict[str, Any]]:
    col_dates = st.container()
 
-    event_dates = [event_date(event) for event in events if event_date(event)]
-    min_date = TRACKING_START_DATE
-    max_date = max(event_dates + [TRACKING_START_DATE, date.today()])
+event_dates = [event_date(event) for event in events if event_date(event)]
+min_date = TRACKING_START_DATE
+max_date = max(event_dates + [TRACKING_START_DATE, date.today()])
     with col_dates:
-    selected_range = st.date_input(
-        "Zeitraum",
+        selected_range = st.date_input(
+            "Zeitraum",
+            value=(min_date, max_date),
+            min_value=min_date,
+            max_value=max_date,
+            format="YYYY/MM/DD",
+        )
 
     start_date, end_date = normalize_date_range(selected_range, min_date, max_date)
 
