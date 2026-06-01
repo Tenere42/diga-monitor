@@ -88,13 +88,11 @@ def render_filters(events: list[dict[str, Any]]) -> list[dict[str, Any]]:
         "Zeitraum",
 
     start_date, end_date = normalize_date_range(selected_range, min_date, max_date)
-    query = name_query.strip().lower()
 
     return [
         event
         for event in events
-        if (not query or query in str(event.get("diga_name", "")).lower())
-        and event_date_in_range(event, start_date, end_date)
+        if event_date_in_range(event, start_date, end_date)
     ]
 
 
