@@ -1,9 +1,9 @@
 name: DiGA Monitor
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 */3 * * *"
-  workflow_dispatch:
 
 permissions:
   contents: write
@@ -16,8 +16,6 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-        with:
-          ref: main
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -39,15 +37,21 @@ jobs:
           DIGA_API_TOKEN: ${{ secrets.DIGA_API_TOKEN }}
         run: python -m src.main run --notify
 
-      - name: Create pull request for monitoring outputs
+      - name: Create or update monitoring data pull request
         uses: peter-evans/create-pull-request@v6
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: Update DiGA monitor data
-          title: Update DiGA monitor data
-          body: Automated update of DiGA monitor snapshots and change events.
+          token: ${{ github.token }}
+          commit-message: Update DiGA monitoring data
           branch: automated-monitoring-data
           base: main
+          title: Update DiGA monitoring data
+          body: |
+            Automated DiGA monitoring run.
+
+            This pull request contains only generated monitoring output:
+            - `data/snapshots`
+            - `outputs/changes`
           add-paths: |
             data/snapshots
             outputs/changes
+          delete-branch: false
