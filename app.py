@@ -78,22 +78,14 @@ def main() -> None:
 
 
 def render_filters(events: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    st.subheader("Filter")
-    col_search, col_dates = st.columns([1.4, 1.6])
-
-    with col_search:
-        name_query = st.text_input("DiGA suchen", "")
+   col_dates = st.container()
 
     event_dates = [event_date(event) for event in events if event_date(event)]
     min_date = TRACKING_START_DATE
     max_date = max(event_dates + [TRACKING_START_DATE, date.today()])
     with col_dates:
-        selected_range = st.date_input(
-            "Zeitraum",
-            value=(TRACKING_START_DATE, max_date),
-            min_value=TRACKING_START_DATE,
-            max_value=max_date,
-        )
+    selected_range = st.date_input(
+        "Zeitraum",
 
     start_date, end_date = normalize_date_range(selected_range, min_date, max_date)
     query = name_query.strip().lower()
