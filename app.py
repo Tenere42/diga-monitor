@@ -6,6 +6,7 @@ import html
 from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Any
+from zoneinfo import ZoneInfo
 
 import streamlit as st
 
@@ -14,6 +15,7 @@ from src.scan_history import load_scan_history
 
 
 TRACKING_START_DATE = date(2026, 5, 31)
+DISPLAY_TIMEZONE = ZoneInfo("Europe/Berlin")
 
 CHANGE_LABELS = {
     "new_diga": "Neue DiGA",
@@ -81,20 +83,14 @@ def render_filters(events: list[dict[str, Any]]) -> list[dict[str, Any]]:
     event_dates = [event_date(event) for event in events if event_date(event)]
     min_date = TRACKING_START_DATE
     max_date = max(event_dates + [TRACKING_START_DATE, date.today()])
-
     selected_range = st.date_input(
         "Zeitraum",
-        value=(min_date, max_date),
-        min_value=min_date,
+        value=(TRACKING_START_DATE, max_date),
+        min_value=TRACKING_START_DATE,
         max_value=max_date,
-        format="YYYY/MM/DD",
     )
 
-    start_date, end_date = normalize_date_range(
-        selected_range,
-        min_date,
-        max_date,
-    )
+    start_date, end_date = normalize_date_range(selected_range, min_date, max_date)
 
     return [
         event
@@ -502,7 +498,7 @@ def latest_scan_timestamp(scan_history: list[dict[str, Any]]) -> str:
         if (parsed := parse_datetime(scan.get("scan_timestamp")))
     ]
     if history_dates:
-        return max(history_dates).astimezone().strftime("%d.%m.%Y %H:%M")
+        return format_local_datetime(max(history_dates))
 
     return "Noch kein erfolgreicher Scan"
 
@@ -511,12 +507,12 @@ def latest_real_change_timestamp(events: list[dict[str, Any]]) -> str:
     dates = [parsed for event in events if (parsed := parse_datetime(event.get("detected_at")))]
     if not dates:
         return "Bisher keine Änderungen erkannt"
-    return max(dates).astimezone().strftime("%d.%m.%Y %H:%M")
+    return format_local_datetime(max(dates))
 
 
 def event_date(event: dict[str, Any]) -> date | None:
     parsed = parse_datetime(event.get("detected_at"))
-    return parsed.date() if parsed else None
+    return parsed.astimezone(DISPLAY_TIMEZONE).date() if parsed else None
 
 
 def event_date_in_range(event: dict[str, Any], start_date: date, end_date: date) -> bool:
@@ -548,7 +544,11 @@ def format_datetime(value: Any) -> str:
     parsed = parse_datetime(value)
     if not parsed:
         return str(value or "")
-    return parsed.astimezone().strftime("%d.%m.%Y %H:%M")
+    return format_local_datetime(parsed)
+
+
+def format_local_datetime(value: datetime) -> str:
+    return value.astimezone(DISPLAY_TIMEZONE).strftime("%d.%m.%Y %H:%M")
 
 
 def format_value(value: Any) -> str:
