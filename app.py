@@ -175,10 +175,10 @@ def render_development_warning(events: list[dict[str, Any]]) -> None:
 
 def render_group_summary(groups: list[dict[str, Any]], events: list[dict[str, Any]]) -> None:
     affected_diga = len(groups)
-    adjustments = len(events)
+    adjustments = sum(len(group["events"]) for group in groups)
     st.caption(
         f"{affected_diga} betroffene DiGA · "
-        f"{adjustments} {'einzelne Anpassung' if adjustments == 1 else 'einzelne Anpassungen'}"
+        f"{adjustments} {'fachliche Anpassung' if adjustments == 1 else 'fachliche Anpassungen'}"
     )
 
 
@@ -198,6 +198,8 @@ def render_event_group(group: dict[str, Any]) -> None:
         meta_cols[0].caption(f"Hersteller: {group.get('manufacturer') or 'Nicht verfügbar'}")
         if group.get("bfarm_directory_url"):
             meta_cols[1].link_button("BfArM-Eintrag öffnen", group["bfarm_directory_url"])
+        if group.get("source_update_notice"):
+            st.caption(f"BfArM-Eintrag zuletzt aktualisiert: {group['source_update_notice']}")
 
         for index, event in enumerate(events, start=1):
             if index > 1:
@@ -243,7 +245,6 @@ def render_event_details(event: dict[str, Any]) -> None:
         render_removed_diga(event)
     else:
         render_before_after(event)
-    render_technical_details(event)
 
 
 def render_before_after(event: dict[str, Any]) -> None:
@@ -376,14 +377,6 @@ def render_diff_column(tokens: list[dict[str, str]], side: str) -> str:
         else:
             parts.append(text)
     return "<div style='line-height:1.8'>" + " ".join(parts) + "</div>"
-
-
-def render_technical_details(event: dict[str, Any]) -> None:
-    with st.expander("Technische Details"):
-        st.markdown(f"**Internes Feld:** `{event_field_name(event)}`")
-        if event.get("simulated"):
-            st.markdown(f"**Simulation:** `{event.get('simulation_name', True)}`")
-        st.code(json_dumps(event), language="json")
 
 
 def render_simulation_summary(events: list[dict[str, Any]]) -> None:
@@ -553,34 +546,38 @@ def group_events_by_diga(events: list[dict[str, Any]]) -> list[dict[str, Any]]:
         groups.setdefault(key, []).append(event)
 
     result = []
-    for (_diga_key, group_date), group_events in groups.items():
-        group_events = sorted(
-            group_events,
+    for (_diga_key, group_date), all_group_events in groups.items():
+        business_events = [event for event in all_group_events if not is_metadata_event(event)]
+        if not business_events:
+            continue
+        business_events = sorted(
+            business_events,
             key=lambda event: (
                 parse_datetime(event.get("detected_at")) or datetime.min.replace(tzinfo=timezone.utc),
                 field_label(event),
             ),
             reverse=True,
         )
-        latest_event = group_events[0]
+        latest_event = business_events[0]
         result.append(
             {
                 "date": group_date,
                 "diga_name": latest_event.get("diga_name") or "Unbekannte DiGA",
-                "manufacturer": first_present(group_events, "manufacturer"),
-                "bfarm_directory_url": first_present(group_events, "bfarm_directory_url"),
-                "detected_at": timestamp_value(group_events, "detected_at", latest=True),
+                "manufacturer": first_present(business_events, "manufacturer"),
+                "bfarm_directory_url": first_present(business_events, "bfarm_directory_url"),
+                "detected_at": timestamp_value(business_events, "detected_at", latest=True),
                 "previous_snapshot_timestamp": timestamp_value(
-                    group_events,
+                    business_events,
                     "previous_snapshot_timestamp",
                     latest=False,
                 ),
                 "current_snapshot_timestamp": timestamp_value(
-                    group_events,
+                    business_events,
                     "current_snapshot_timestamp",
                     latest=True,
                 ),
-                "events": group_events,
+                "source_update_notice": source_update_notice_label(all_group_events),
+                "events": business_events,
             }
         )
 
@@ -596,7 +593,7 @@ def event_group_title(group: dict[str, Any]) -> str:
     adjustment_count = len(group.get("events") or [])
     if adjustment_count <= 1:
         return f"Änderung · {name}"
-    return f"{name} · {adjustment_count} Anpassungen"
+    return f"{name} · {adjustment_count} fachliche Anpassungen"
 
 
 def event_diga_key(event: dict[str, Any]) -> str:
@@ -606,6 +603,32 @@ def event_diga_key(event: dict[str, Any]) -> str:
         or event.get("bfarm_directory_url")
         or "unknown"
     ).lower()
+
+
+def is_metadata_event(event: dict[str, Any]) -> bool:
+    field_name = event_field_name(event).lower()
+    metadata_fields = {
+        "source_update_notice",
+        "source_update_notice.checked_sources",
+        "source_update_notice.last_updated_at",
+        "source_update_notice.notice_text",
+    }
+    if field_name in metadata_fields:
+        return True
+    return any(
+        marker in field_name
+        for marker in ("last_updated", "updated_at", "timestamp", "checked_sources")
+    )
+
+
+def source_update_notice_label(events: list[dict[str, Any]]) -> str | None:
+    for event in events:
+        if event_field_name(event) == "source_update_notice.last_updated_at":
+            value = event_new_value(event)
+            if isinstance(value, str):
+                formatted = format_datetime(value)
+                return formatted if formatted != value else None
+    return None
 
 
 def first_present(events: list[dict[str, Any]], key: str) -> Any:
