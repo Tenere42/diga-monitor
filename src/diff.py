@@ -11,6 +11,7 @@ from src.snapshot import Snapshot
 
 
 IDENTITY_KEYS = ("id", "identifier", "url", "name", "title")
+IGNORED_FIELD_PATHS = {"structured_text_sections"}
 
 
 @dataclass
@@ -97,6 +98,9 @@ def display_name(entry: dict[str, Any]) -> str:
 
 
 def diff_values(before: Any, after: Any, path: str = "") -> list[ChangedField]:
+    if path in IGNORED_FIELD_PATHS:
+        return []
+
     if before == after:
         return []
 
@@ -104,6 +108,8 @@ def diff_values(before: Any, after: Any, path: str = "") -> list[ChangedField]:
         changes = []
         for key in sorted(set(before) | set(after)):
             child_path = join_path(path, key)
+            if child_path in IGNORED_FIELD_PATHS:
+                continue
             if key not in before:
                 changes.append(ChangedField(child_path, None, after[key]))
             elif key not in after:

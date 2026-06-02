@@ -509,11 +509,23 @@ def field_label(event_or_field_name: dict[str, Any] | str) -> str:
     if isinstance(event_or_field_name, dict):
         if event_or_field_name.get("user_facing_field_label"):
             return str(event_or_field_name["user_facing_field_label"])
+        context_label = text_context_label(event_or_field_name)
+        if context_label:
+            return context_label
         field_name = event_field_name(event_or_field_name)
     else:
         field_name = event_or_field_name
     root = field_name.split(".", 1)[0]
     return FIELD_LABELS.get(field_name) or FIELD_LABELS.get(root) or root or "Unbekannter Bereich"
+
+
+def text_context_label(event: dict[str, Any]) -> str | None:
+    section_title = event.get("section_title") or event.get("source_area_label")
+    subsection_title = event.get("subsection_title")
+    parts = [str(part) for part in (section_title, subsection_title) if part]
+    if not parts:
+        return None
+    return " > ".join(dict.fromkeys(parts))
 
 
 def event_title_label(event: dict[str, Any]) -> str:

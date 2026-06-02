@@ -116,11 +116,19 @@ def base_event(
         "before_value": before_value,
         "after_value": after_value,
     }
+    if isinstance(entry.get("structured_text_sections"), list):
+        context = context_from_sections(entry["structured_text_sections"], field_name)
+        if context:
+            for key in ("source_area_label", "section_title", "subsection_title"):
+                if context.get(key):
+                    event[key] = context[key]
+            event["user_facing_field_label"] = format_text_context_label(context)
     enrich_event(event)
     return event
 
 
 def enrich_event(event: dict[str, Any]) -> None:
+    apply_text_context(event)
     event["user_facing_field_label"] = event.get("user_facing_field_label") or field_label(str(event.get("changed_field") or event.get("field_name") or ""))
     if event.get("change_type") == "text_change":
         event["text_change_kind"] = classify_text_change(event.get("word_diff") or [])
@@ -146,6 +154,89 @@ def classify_change(field_name: str, before_value: Any, after_value: Any) -> str
     if isinstance(before_value, str) and isinstance(after_value, str):
         return "text_change"
     return "other_field_change"
+
+
+def apply_text_context(event: dict[str, Any]) -> None:
+    field_name = str(event.get("changed_field") or event.get("field_name") or "")
+    if not field_name.startswith("descriptive_texts."):
+        return
+
+    context = find_structured_text_context(event, field_name) or infer_text_context_from_field(field_name)
+    if not context:
+        return
+
+    for key in ("source_area_label", "section_title", "subsection_title"):
+        if context.get(key):
+            event[key] = context[key]
+    event["user_facing_field_label"] = format_text_context_label(context)
+
+
+def find_structured_text_context(event: dict[str, Any], field_name: str) -> dict[str, str] | None:
+    for value_key in ("new_value", "after_value", "previous_value", "before_value"):
+        value = event.get(value_key)
+        if isinstance(value, dict) and isinstance(value.get("structured_text_sections"), list):
+            context = context_from_sections(value["structured_text_sections"], field_name)
+            if context:
+                return context
+    return None
+
+
+def context_from_sections(sections: list[Any], field_name: str) -> dict[str, str] | None:
+    for section in sections:
+        if isinstance(section, dict) and section.get("field_path") == field_name:
+            return {key: str(section[key]) for key in ("source_area_label", "section_title", "subsection_title") if section.get(key)}
+    return None
+
+
+def infer_text_context_from_field(field_name: str) -> dict[str, str] | None:
+    if not field_name.startswith("descriptive_texts."):
+        return None
+    raw_label = field_name.removeprefix("descriptive_texts.")
+    if raw_label.startswith("questionnaire."):
+        raw_label = raw_label.removeprefix("questionnaire.")
+    label = raw_label.split(".", 1)[-1].replace("_", " ")
+    section_title = infer_section_title(label)
+    return {
+        "source_area_label": section_title,
+        "section_title": section_title,
+        "subsection_title": label,
+    }
+
+
+def infer_section_title(label: str) -> str:
+    normalized = label.lower()
+    if any(
+        marker in normalized
+        for marker in (
+            "versorgungseffekt",
+            "nachweis",
+            "pico",
+            "studie",
+            "studiendesign",
+            "erprobungszeitraum",
+            "medizinischer nutzen",
+            "patientenrelevante struktur",
+        )
+    ):
+        return "Informationen zum positiven Versorgungseffekt"
+    if any(marker in normalized for marker in ("datenschutz", "datensicherheit", "datenverarbeitung")):
+        return "Informationen zu Datenschutz und Datensicherheit"
+    if any(marker in normalized for marker in ("zweckbestimmung", "zielsetzung", "wirkungsweise", "inhalt", "nutzung")):
+        return "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    if any(marker in normalized for marker in ("preis", "kosten", "vergütung")):
+        return "Weitere Informationen"
+    return "Beschreibung der DiGA"
+
+
+def format_text_context_label(context: dict[str, str]) -> str:
+    parts = []
+    section_title = context.get("section_title") or context.get("source_area_label")
+    subsection_title = context.get("subsection_title")
+    if section_title:
+        parts.append(section_title)
+    if subsection_title and subsection_title not in parts:
+        parts.append(subsection_title)
+    return " > ".join(parts) if parts else "Beschreibung der DiGA"
 
 
 def classify_text_change(tokens: list[dict[str, str]]) -> str:

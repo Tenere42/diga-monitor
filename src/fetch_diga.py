@@ -77,6 +77,7 @@ def fetch_diga_entries() -> list[dict[str, Any]]:
                 "indication": [],
                 "bfarm_directory_url": directory_url,
                 "descriptive_texts": {},
+                "structured_text_sections": [],
                 "evidence_summary_text": None,
                 "change_history": [],
                 "pricing_information": [],
@@ -239,6 +240,12 @@ def build_records(
         ]
         questionnaire_responses = responses_by_app.get(app_ref, [])
 
+        descriptive_texts = extract_descriptive_texts(
+            health_app,
+            catalog_entry,
+            questionnaire_responses,
+            questionnaires_by_url,
+        )
         records.append(
             {
                 "id": diga_id,
@@ -254,12 +261,8 @@ def build_records(
                     diga_id,
                     urljoin(BASE_URL, f"/de/verzeichnis/{diga_id}"),
                 ),
-                "descriptive_texts": extract_descriptive_texts(
-                    health_app,
-                    catalog_entry,
-                    questionnaire_responses,
-                    questionnaires_by_url,
-                ),
+                "descriptive_texts": descriptive_texts,
+                "structured_text_sections": build_structured_text_sections(descriptive_texts),
                 "evidence_summary_text": extract_evidence_summary_text(
                     questionnaire_responses,
                     questionnaires_by_url,
@@ -449,6 +452,54 @@ def extract_evidence_summary_text(
     if not evidence_parts:
         return None
     return clean_text("\n\n".join(evidence_parts))
+
+
+def build_structured_text_sections(descriptive_texts: dict[str, str]) -> list[dict[str, str]]:
+    sections = []
+    for field_path, text in sorted(descriptive_texts.items()):
+        subsection_title = text_label_from_field_path(field_path)
+        section_title = infer_section_title(subsection_title)
+        sections.append(
+            {
+                "field_path": f"descriptive_texts.{field_path}",
+                "source_area_label": section_title,
+                "section_title": section_title,
+                "subsection_title": subsection_title,
+                "text": text,
+            }
+        )
+    return sections
+
+
+def text_label_from_field_path(field_path: str) -> str:
+    if field_path.startswith("questionnaire."):
+        return field_path.removeprefix("questionnaire.")
+    return field_path.split(".", 1)[-1].replace("_", " ")
+
+
+def infer_section_title(label: str) -> str:
+    normalized = label.lower()
+    if any(
+        marker in normalized
+        for marker in (
+            "versorgungseffekt",
+            "nachweis",
+            "pico",
+            "studie",
+            "studiendesign",
+            "erprobungszeitraum",
+            "medizinischer nutzen",
+            "patientenrelevante struktur",
+        )
+    ):
+        return "Informationen zum positiven Versorgungseffekt"
+    if any(marker in normalized for marker in ("datenschutz", "datensicherheit", "datenverarbeitung")):
+        return "Informationen zu Datenschutz und Datensicherheit"
+    if any(marker in normalized for marker in ("zweckbestimmung", "zielsetzung", "wirkungsweise", "inhalt", "nutzung")):
+        return "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    if any(marker in normalized for marker in ("preis", "kosten", "vergütung")):
+        return "Weitere Informationen"
+    return "Beschreibung der DiGA"
 
 
 def extract_change_history(catalog_entry: dict[str, Any]) -> list[dict[str, Any]]:
