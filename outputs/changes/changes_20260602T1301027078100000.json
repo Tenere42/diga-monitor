@@ -17,9 +17,12 @@
       "new_value": "17 Monate (12 Monate initial, 5 Monate Verlängerung)",
       "previous_snapshot_timestamp": "2026-06-01T23:21:09.838706+00:00",
       "previous_value": "12 Monate",
-      "summary_de": "Im Abschnitt 'Beschreibung der DiGA' wurde Text geändert.",
+      "section_title": "Informationen zum positiven Versorgungseffekt",
+      "source_area_label": "Informationen zum positiven Versorgungseffekt",
+      "subsection_title": "Angabe Erprobungszeitraum (höchstens 12 Monate)",
+      "summary_de": "Im Abschnitt 'Informationen zum positiven Versorgungseffekt > Angabe Erprobungszeitraum (höchstens 12 Monate)' wurde Text geändert.",
       "text_change_kind": "mixed_text_change",
-      "user_facing_field_label": "Beschreibung der DiGA",
+      "user_facing_field_label": "Informationen zum positiven Versorgungseffekt > Angabe Erprobungszeitraum (höchstens 12 Monate)",
       "word_diff": [
         {
           "op": "delete",
@@ -74,9 +77,12 @@
       "new_value": "2026-12-08",
       "previous_snapshot_timestamp": "2026-06-01T23:21:09.838706+00:00",
       "previous_value": "2026-07-08",
-      "summary_de": "Die Formulierung im Abschnitt 'Beschreibung der DiGA' wurde angepasst.",
+      "section_title": "Informationen zum positiven Versorgungseffekt",
+      "source_area_label": "Informationen zum positiven Versorgungseffekt",
+      "subsection_title": "Datum des Endes des Erprobungszeitraumes",
+      "summary_de": "Im Abschnitt 'Informationen zum positiven Versorgungseffekt > Datum des Endes des Erprobungszeitraumes' wurde Text geändert.",
       "text_change_kind": "text_modified",
-      "user_facing_field_label": "Beschreibung der DiGA",
+      "user_facing_field_label": "Informationen zum positiven Versorgungseffekt > Datum des Endes des Erprobungszeitraumes",
       "word_diff": [
         {
           "op": "delete",
