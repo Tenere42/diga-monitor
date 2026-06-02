@@ -1,0 +1,324 @@
+{
+  "created_at": "2026-06-02T13:01:02.707810+00:00",
+  "event_count": 5,
+  "events": [
+    {
+      "after_value": "17 Monate (12 Monate initial, 5 Monate Verlängerung)",
+      "before_value": "12 Monate",
+      "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/02568",
+      "change_type": "text_change",
+      "changed_field": "descriptive_texts.questionnaire.Angabe Erprobungszeitraum (höchstens 12 Monate)",
+      "current_snapshot_timestamp": "2026-06-02T13:01:02.618820+00:00",
+      "detected_at": "2026-06-02T13:01:02.707810+00:00",
+      "diga_id": "02568",
+      "diga_name": "ORIKO ADHS-Therapie",
+      "field_name": "descriptive_texts.questionnaire.Angabe Erprobungszeitraum (höchstens 12 Monate)",
+      "manufacturer": "MiNDNET e-Health Solutions GmbH",
+      "new_value": "17 Monate (12 Monate initial, 5 Monate Verlängerung)",
+      "previous_snapshot_timestamp": "2026-06-01T23:21:09.838706+00:00",
+      "previous_value": "12 Monate",
+      "summary_de": "Im Abschnitt 'Beschreibung der DiGA' wurde Text geändert.",
+      "text_change_kind": "mixed_text_change",
+      "user_facing_field_label": "Beschreibung der DiGA",
+      "word_diff": [
+        {
+          "op": "delete",
+          "text": "12"
+        },
+        {
+          "op": "insert",
+          "text": "17"
+        },
+        {
+          "op": "equal",
+          "text": "Monate"
+        },
+        {
+          "op": "insert",
+          "text": "(12"
+        },
+        {
+          "op": "insert",
+          "text": "Monate"
+        },
+        {
+          "op": "insert",
+          "text": "initial,"
+        },
+        {
+          "op": "insert",
+          "text": "5"
+        },
+        {
+          "op": "insert",
+          "text": "Monate"
+        },
+        {
+          "op": "insert",
+          "text": "Verlängerung)"
+        }
+      ]
+    },
+    {
+      "after_value": "2026-12-08",
+      "before_value": "2026-07-08",
+      "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/02568",
+      "change_type": "text_change",
+      "changed_field": "descriptive_texts.questionnaire.Datum des Endes des Erprobungszeitraumes",
+      "current_snapshot_timestamp": "2026-06-02T13:01:02.618820+00:00",
+      "detected_at": "2026-06-02T13:01:02.707810+00:00",
+      "diga_id": "02568",
+      "diga_name": "ORIKO ADHS-Therapie",
+      "field_name": "descriptive_texts.questionnaire.Datum des Endes des Erprobungszeitraumes",
+      "manufacturer": "MiNDNET e-Health Solutions GmbH",
+      "new_value": "2026-12-08",
+      "previous_snapshot_timestamp": "2026-06-01T23:21:09.838706+00:00",
+      "previous_value": "2026-07-08",
+      "summary_de": "Die Formulierung im Abschnitt 'Beschreibung der DiGA' wurde angepasst.",
+      "text_change_kind": "text_modified",
+      "user_facing_field_label": "Beschreibung der DiGA",
+      "word_diff": [
+        {
+          "op": "delete",
+          "text": "2026-07-08"
+        },
+        {
+          "op": "insert",
+          "text": "2026-12-08"
+        }
+      ]
+    },
+    {
+      "after_value": [
+        {
+          "last_updated": "2026-06-02T09:43:08.192+02:00",
+          "source": "questionnaire_response.423"
+        },
+        {
+          "last_updated": "2026-06-02T09:43:07.260+02:00",
+          "source": "catalog_entry"
+        },
+        {
+          "last_updated": "2026-04-10T14:24:02.861+02:00",
+          "source": "prescription_unit.853"
+        },
+        {
+          "last_updated": "2026-04-10T14:24:02.840+02:00",
+          "source": "prescription_unit.421"
+        },
+        {
+          "last_updated": "2026-04-10T14:24:02.820+02:00",
+          "source": "prescription_unit.420"
+        },
+        {
+          "last_updated": "2025-10-06T23:55:36.916+02:00",
+          "source": "module.419"
+        },
+        {
+          "last_updated": "2025-10-06T23:55:36.884+02:00",
+          "source": "health_app"
+        },
+        {
+          "last_updated": "2025-10-06T23:55:36.861+02:00",
+          "source": "manufacturer"
+        }
+      ],
+      "before_value": [
+        {
+          "last_updated": "2026-04-10T14:24:03.755+02:00",
+          "source": "questionnaire_response.423"
+        },
+        {
+          "last_updated": "2026-04-10T14:24:02.911+02:00",
+          "source": "catalog_entry"
+        },
+        {
+          "last_updated": "2026-04-10T14:24:02.861+02:00",
+          "source": "prescription_unit.853"
+        },
+        {
+          "last_updated": "2026-04-10T14:24:02.840+02:00",
+          "source": "prescription_unit.421"
+        },
+        {
+          "last_updated": "2026-04-10T14:24:02.820+02:00",
+          "source": "prescription_unit.420"
+        },
+        {
+          "last_updated": "2025-10-06T23:55:36.916+02:00",
+          "source": "module.419"
+        },
+        {
+          "last_updated": "2025-10-06T23:55:36.884+02:00",
+          "source": "health_app"
+        },
+        {
+          "last_updated": "2025-10-06T23:55:36.861+02:00",
+          "source": "manufacturer"
+        }
+      ],
+      "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/02568",
+      "change_type": "other_field_change",
+      "changed_field": "source_update_notice.checked_sources",
+      "current_snapshot_timestamp": "2026-06-02T13:01:02.618820+00:00",
+      "detected_at": "2026-06-02T13:01:02.707810+00:00",
+      "diga_id": "02568",
+      "diga_name": "ORIKO ADHS-Therapie",
+      "field_name": "source_update_notice.checked_sources",
+      "manufacturer": "MiNDNET e-Health Solutions GmbH",
+      "new_value": [
+        {
+          "last_updated": "2026-06-02T09:43:08.192+02:00",
+          "source": "questionnaire_response.423"
+        },
+        {
+          "last_updated": "2026-06-02T09:43:07.260+02:00",
+          "source": "catalog_entry"
+        },
+        {
+          "last_updated": "2026-04-10T14:24:02.861+02:00",
+          "source": "prescription_unit.853"
+        },
+        {
+          "last_updated": "2026-04-10T14:24:02.840+02:00",
+          "source": "prescription_unit.421"
+        },
+        {
+          "last_updated": "2026-04-10T14:24:02.820+02:00",
+          "source": "prescription_unit.420"
+        },
+        {
+          "last_updated": "2025-10-06T23:55:36.916+02:00",
+          "source": "module.419"
+        },
+        {
+          "last_updated": "2025-10-06T23:55:36.884+02:00",
+          "source": "health_app"
+        },
+        {
+          "last_updated": "2025-10-06T23:55:36.861+02:00",
+          "source": "manufacturer"
+        }
+      ],
+      "previous_snapshot_timestamp": "2026-06-01T23:21:09.838706+00:00",
+      "previous_value": [
+        {
+          "last_updated": "2026-04-10T14:24:03.755+02:00",
+          "source": "questionnaire_response.423"
+        },
+        {
+          "last_updated": "2026-04-10T14:24:02.911+02:00",
+          "source": "catalog_entry"
+        },
+        {
+          "last_updated": "2026-04-10T14:24:02.861+02:00",
+          "source": "prescription_unit.853"
+        },
+        {
+          "last_updated": "2026-04-10T14:24:02.840+02:00",
+          "source": "prescription_unit.421"
+        },
+        {
+          "last_updated": "2026-04-10T14:24:02.820+02:00",
+          "source": "prescription_unit.420"
+        },
+        {
+          "last_updated": "2025-10-06T23:55:36.916+02:00",
+          "source": "module.419"
+        },
+        {
+          "last_updated": "2025-10-06T23:55:36.884+02:00",
+          "source": "health_app"
+        },
+        {
+          "last_updated": "2025-10-06T23:55:36.861+02:00",
+          "source": "manufacturer"
+        }
+      ],
+      "summary_de": "Im Abschnitt 'Aktualisierungshinweis im DiGA-Verzeichnis' wurde ein Wert geändert.",
+      "user_facing_field_label": "Aktualisierungshinweis im DiGA-Verzeichnis"
+    },
+    {
+      "after_value": "2026-06-02T09:43:08.192+02:00",
+      "before_value": "2026-04-10T14:24:03.755+02:00",
+      "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/02568",
+      "change_type": "text_change",
+      "changed_field": "source_update_notice.last_updated_at",
+      "current_snapshot_timestamp": "2026-06-02T13:01:02.618820+00:00",
+      "detected_at": "2026-06-02T13:01:02.707810+00:00",
+      "diga_id": "02568",
+      "diga_name": "ORIKO ADHS-Therapie",
+      "field_name": "source_update_notice.last_updated_at",
+      "manufacturer": "MiNDNET e-Health Solutions GmbH",
+      "new_value": "2026-06-02T09:43:08.192+02:00",
+      "previous_snapshot_timestamp": "2026-06-01T23:21:09.838706+00:00",
+      "previous_value": "2026-04-10T14:24:03.755+02:00",
+      "summary_de": "Die Formulierung im Abschnitt 'Aktualisierungshinweis im DiGA-Verzeichnis' wurde angepasst.",
+      "text_change_kind": "text_modified",
+      "user_facing_field_label": "Aktualisierungshinweis im DiGA-Verzeichnis",
+      "word_diff": [
+        {
+          "op": "delete",
+          "text": "2026-04-10T14:24:03.755+02:00"
+        },
+        {
+          "op": "insert",
+          "text": "2026-06-02T09:43:08.192+02:00"
+        }
+      ]
+    },
+    {
+      "after_value": "Zuletzt aktualisiert am 02.06.2026 um 07:43",
+      "before_value": "Zuletzt aktualisiert am 10.04.2026 um 12:24",
+      "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/02568",
+      "change_type": "text_change",
+      "changed_field": "source_update_notice.notice_text",
+      "current_snapshot_timestamp": "2026-06-02T13:01:02.618820+00:00",
+      "detected_at": "2026-06-02T13:01:02.707810+00:00",
+      "diga_id": "02568",
+      "diga_name": "ORIKO ADHS-Therapie",
+      "field_name": "source_update_notice.notice_text",
+      "manufacturer": "MiNDNET e-Health Solutions GmbH",
+      "new_value": "Zuletzt aktualisiert am 02.06.2026 um 07:43",
+      "previous_snapshot_timestamp": "2026-06-01T23:21:09.838706+00:00",
+      "previous_value": "Zuletzt aktualisiert am 10.04.2026 um 12:24",
+      "summary_de": "Im Abschnitt 'Aktualisierungshinweis im DiGA-Verzeichnis' wurde Text geändert.",
+      "text_change_kind": "mixed_text_change",
+      "user_facing_field_label": "Aktualisierungshinweis im DiGA-Verzeichnis",
+      "word_diff": [
+        {
+          "op": "equal",
+          "text": "Zuletzt"
+        },
+        {
+          "op": "equal",
+          "text": "aktualisiert"
+        },
+        {
+          "op": "equal",
+          "text": "am"
+        },
+        {
+          "op": "delete",
+          "text": "10.04.2026"
+        },
+        {
+          "op": "insert",
+          "text": "02.06.2026"
+        },
+        {
+          "op": "equal",
+          "text": "um"
+        },
+        {
+          "op": "delete",
+          "text": "12:24"
+        },
+        {
+          "op": "insert",
+          "text": "07:43"
+        }
+      ]
+    }
+  ]
+}
