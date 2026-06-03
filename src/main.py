@@ -36,6 +36,11 @@ def build_parser() -> argparse.ArgumentParser:
     run_parser = subparsers.add_parser("run", help="Fetch, save a snapshot, and compare it with the previous snapshot.")
     run_parser.add_argument("--notify", action="store_true", help="Send an email when real changes are detected.")
     run_parser.add_argument("--dry-run", action="store_true", help="Print the notification email without sending it.")
+    notify_test_parser = subparsers.add_parser(
+        "notify-test",
+        help="Send or preview a test notification email without running a DiGA scan.",
+    )
+    notify_test_parser.add_argument("--dry-run", action="store_true", help="Print the test email without sending it.")
     subparsers.add_parser("fetch", help="Fetch entries and print them without saving a snapshot.")
     subparsers.add_parser("diff", help="Compare the latest two saved snapshots.")
     subparsers.add_parser("snapshots", help="List saved snapshots.")
@@ -91,6 +96,9 @@ def main() -> int:
     if args.command == "run":
         return run_monitor(args.snapshot_dir, notify=args.notify, dry_run=args.dry_run)
 
+    if args.command == "notify-test":
+        return run_notify_test(dry_run=args.dry_run)
+
     if args.command == "simulate":
         return run_simulation_command(args.snapshot_dir, args.scenario, notify=args.notify, dry_run=args.dry_run)
 
@@ -129,6 +137,7 @@ def run_monitor(snapshot_dir: Path, notify: bool = False, dry_run: bool = False)
         changes_path = save_change_events(events, detected_at=detected_at)
         if changes_path:
             print(f"Saved change events: {changes_path}")
+    print(f"Detected change events: {len(events)}")
     append_scan_history(
         scan_timestamp=detected_at,
         number_of_diga=len(entries),
@@ -139,6 +148,35 @@ def run_monitor(snapshot_dir: Path, notify: bool = False, dry_run: bool = False)
         notify_changes(events, dry_run=dry_run)
     print()
     print(render_report(report))
+    return 0
+
+
+def run_notify_test(dry_run: bool = False) -> int:
+    now = datetime.now(timezone.utc).isoformat()
+    event = {
+        "detected_at": now,
+        "diga_id": "notification-test",
+        "diga_name": "Test-DiGA Benachrichtigung",
+        "manufacturer": "DiGA Watch Test",
+        "bfarm_directory_url": "https://diga.bfarm.de/de",
+        "change_type": "text_change",
+        "changed_field": "evidence_summary_text",
+        "field_name": "evidence_summary_text",
+        "previous_value": "Bisheriger Bewertungstext mit einem entfernten Satz.",
+        "new_value": "Bisheriger Bewertungstext.",
+        "previous_snapshot_timestamp": now,
+        "current_snapshot_timestamp": now,
+        "user_facing_field_label": "Bewertungsentscheidung des BfArM",
+        "summary_de": "Test: Im Abschnitt 'Bewertungsentscheidung des BfArM' wurde ein Textabschnitt entfernt.",
+        "text_change_kind": "text_removed",
+        "word_diff": [
+            {"op": "equal", "text": "Bisheriger Bewertungstext"},
+            {"op": "delete", "text": "mit einem entfernten Satz"},
+            {"op": "equal", "text": "."},
+        ],
+    }
+    print("Running notification test with one synthetic real change event.")
+    notify_changes([event], dry_run=dry_run)
     return 0
 
 

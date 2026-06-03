@@ -61,13 +61,13 @@ $env:DIGA_API_TOKEN="your-token"
 
 If no token is set, the scraper requests the same short-lived public token flow used by the directory frontend. It does not use mock data.
 
-## Email Notifications
+## E-Mail Notifications
 
-Email notifications use SMTP and are optional. The monitor sends email only when real DiGA changes are detected. It skips baseline imports, no-change scans, development cleanup events, and simulated events.
+E-Mail Notifications use SMTP and are optional. The monitor sends an email only when real DiGA changes are detected. It skips baseline imports, no-change scans, development cleanup events, and simulated events.
 
 Copy `.env.example` to `.env` locally and fill in your own values. Do not commit `.env`.
 
-Required environment variables:
+Required local environment variables and GitHub Actions Secrets:
 
 ```powershell
 $env:SMTP_HOST="smtp.example.com"
@@ -77,6 +77,18 @@ $env:SMTP_PASSWORD="your-smtp-password"
 $env:EMAIL_FROM="diga-watch@example.com"
 $env:EMAIL_TO="recipient@example.com"
 $env:DASHBOARD_URL="http://localhost:8501"
+```
+
+In GitHub, set the same names under `Settings > Secrets and variables > Actions > Repository secrets`:
+
+```text
+SMTP_HOST
+SMTP_PORT
+SMTP_USERNAME
+SMTP_PASSWORD
+EMAIL_FROM
+EMAIL_TO
+DASHBOARD_URL
 ```
 
 Run with email notification enabled:
@@ -90,6 +102,19 @@ Preview the email without sending it:
 ```powershell
 py -m src.main run --notify --dry-run
 ```
+
+Send or preview a dedicated test notification without running a DiGA scan:
+
+```powershell
+py -m src.main notify-test
+py -m src.main notify-test --dry-run
+```
+
+GitHub Actions logs show one of these statuses during notification handling:
+
+- `Notification skipped because secrets missing: ...`
+- `Notification sent: ...`
+- `Notification failed: ...`
 
 Notification attempts are logged in `outputs/notification_log.json`.
 

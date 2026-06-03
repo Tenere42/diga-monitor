@@ -45,6 +45,14 @@ class SmtpConfig:
     dashboard_url: str
 
 
+class MissingNotificationConfig(ValueError):
+    """Raised when SMTP email notification configuration is incomplete."""
+
+    def __init__(self, missing: list[str]) -> None:
+        self.missing = missing
+        super().__init__(f"Missing email configuration: {', '.join(missing)}")
+
+
 def notify_changes(
     events: list[dict[str, Any]],
     dry_run: bool = False,
@@ -65,7 +73,7 @@ def notify_changes(
             status="skipped",
             error_message="Keine echten Änderungen erkannt.",
         )
-        print("No real changes detected. Email notification skipped.")
+        print_notification_status("Notification skipped: no real changes detected.")
         return False
 
     subject = f"DiGA Watch: {len(real_events)} Änderung(en) erkannt"
@@ -85,20 +93,33 @@ def notify_changes(
             status="skipped",
             error_message="Dry-run: email not sent.",
         )
+        print_notification_status("Notification dry-run: email content printed; no SMTP email sent.")
         return False
 
     try:
         config = load_smtp_config()
         send_email(config, subject, body)
+    except MissingNotificationConfig as exc:
+        message = f"Notification skipped because secrets missing: {', '.join(exc.missing)}"
+        log_notification(
+            recipient=recipient,
+            number_of_changes=len(real_events),
+            subject=subject,
+            status="skipped",
+            error_message=message,
+        )
+        print_notification_status(message)
+        return False
     except Exception as exc:
+        message = f"Notification failed: {exc}"
         log_notification(
             recipient=recipient,
             number_of_changes=len(real_events),
             subject=subject,
             status="failed",
-            error_message=str(exc),
+            error_message=message,
         )
-        print(f"Email notification failed: {exc}")
+        print_notification_status(message, level="warning")
         return False
 
     log_notification(
@@ -107,12 +128,12 @@ def notify_changes(
         subject=subject,
         status="sent",
     )
-    print(f"Email notification sent to {config.email_to}.")
+    print_notification_status(f"Notification sent: {len(real_events)} change event(s) emailed to {config.email_to}.")
     return True
 
 
-def load_smtp_config() -> SmtpConfig:
-    required = [
+def required_smtp_env_vars() -> list[str]:
+    return [
         "SMTP_HOST",
         "SMTP_PORT",
         "SMTP_USERNAME",
@@ -121,9 +142,12 @@ def load_smtp_config() -> SmtpConfig:
         "EMAIL_TO",
         "DASHBOARD_URL",
     ]
-    missing = [name for name in required if not os.getenv(name)]
+
+
+def load_smtp_config() -> SmtpConfig:
+    missing = [name for name in required_smtp_env_vars() if not os.getenv(name)]
     if missing:
-        raise ValueError(f"Missing email configuration: {', '.join(missing)}")
+        raise MissingNotificationConfig(missing)
 
     try:
         port = int(os.environ["SMTP_PORT"])
@@ -152,6 +176,14 @@ def send_email(config: SmtpConfig, subject: str, body: str) -> None:
         smtp.starttls()
         smtp.login(config.username, config.password)
         smtp.send_message(message)
+
+
+def print_notification_status(message: str, level: str = "notice") -> None:
+    if os.getenv("GITHUB_ACTIONS"):
+        annotation = "warning" if level == "warning" else "notice"
+        print(f"::{annotation}::{message}")
+        return
+    print(message)
 
 
 def build_email_body(events: list[dict[str, Any]], dashboard_url: str) -> str:
