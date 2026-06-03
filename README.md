@@ -243,6 +243,33 @@ GitHub Actions cron:
 17 6,12,18 * * *
 ```
 
+## External Scheduler
+
+GitHub Actions scheduled runs can be delayed or skipped by GitHub. For more reliable fixed daily scans, use cron-job.org or a similar external scheduler to trigger the workflow through the GitHub API.
+
+Create 3 external cron jobs and send this request:
+
+```text
+POST https://api.github.com/repos/Tenere42/diga-monitor/dispatches
+```
+
+Body:
+
+```json
+{
+  "event_type": "scheduled-scan"
+}
+```
+
+Headers:
+
+```text
+Authorization: Bearer <GitHub Personal Access Token>
+Accept: application/vnd.github+json
+```
+
+Do not store the token in this repository. Configure it only in the external scheduler's protected secret or header settings.
+
 ## Notes About BfArM Integration
 
 The official BfArM DiGA API is documented as a FHIR-based REST API. The BfArM documentation lists the current DiGA FHIR base URL as `https://diga.bfarm.de/api/fhir/v3.0/` and notes that API users receive a confidential bearer token after approval.

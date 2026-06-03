@@ -2,6 +2,8 @@ name: DiGA Monitor
 
 on:
   workflow_dispatch:
+  repository_dispatch:
+    types: [scheduled-scan]
   schedule:
     - cron: "17 6,12,18 * * *"
 
