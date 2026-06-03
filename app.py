@@ -185,28 +185,26 @@ def render_group_summary(groups: list[dict[str, Any]], events: list[dict[str, An
 def render_event_group(group: dict[str, Any]) -> None:
     events = group["events"]
     with st.container(border=True):
-        st.markdown(f"### {html.escape(event_group_title(group))}")
-        timeline_cols = st.columns(3)
-        timeline_cols[0].markdown(f"**Änderung erkannt:**  \n{format_datetime(group.get('detected_at'))}")
-        timeline_cols[1].markdown(
-            f"**Letzter bekannter Zustand:**  \n{format_datetime(group.get('previous_snapshot_timestamp'))}"
-        )
-        timeline_cols[2].markdown(
-            f"**Neuer Zustand:**  \n{format_datetime(group.get('current_snapshot_timestamp'))}"
-        )
-        meta_cols = st.columns([1, 1])
-        meta_cols[0].caption(f"Hersteller: {group.get('manufacturer') or 'Nicht verfügbar'}")
+        header_cols = st.columns([4, 2, 2, 1.5])
+        header_cols[0].markdown(f"### {html.escape(str(group.get('diga_name') or 'Unbekannte DiGA'))}")
+        header_cols[0].caption(f"Hersteller: {group.get('manufacturer') or 'Nicht verfügbar'}")
+        header_cols[1].markdown("**Fachliche Anpassungen**")
+        header_cols[1].caption(str(len(events)))
+        header_cols[2].markdown("**Änderung erkannt am:**")
+        header_cols[2].caption(format_datetime(group.get("detected_at")))
         if group.get("bfarm_directory_url"):
-            meta_cols[1].link_button("BfArM-Eintrag öffnen", group["bfarm_directory_url"])
+            header_cols[3].link_button("BfArM-Eintrag öffnen", group["bfarm_directory_url"])
         if group.get("source_update_notice"):
             st.caption(f"BfArM-Eintrag zuletzt aktualisiert: {group['source_update_notice']}")
 
+        st.divider()
         for index, event in enumerate(events, start=1):
             if index > 1:
                 st.divider()
-            if len(events) > 1:
-                st.markdown(f"#### Anpassung {index}: {html.escape(field_label(event))}")
-            render_event_details(event)
+            _indent_col, content_col = st.columns([0.04, 0.96])
+            with content_col:
+                render_adjustment_header(index, event)
+                render_event_details(event)
 
 
 def render_event(event: dict[str, Any]) -> None:
@@ -233,10 +231,6 @@ def render_event(event: dict[str, Any]) -> None:
 
 def render_event_details(event: dict[str, Any]) -> None:
     change_type = event.get("change_type", "other_field_change")
-    st.markdown("**Geändert in:**")
-    st.markdown(field_label(event))
-    if event.get("summary_de"):
-        st.markdown(f"**Kurzbeschreibung:**  \n{event['summary_de']}")
     if change_type == "text_change" and event.get("word_diff"):
         render_text_change(event)
     elif change_type == "new_diga":
@@ -247,12 +241,26 @@ def render_event_details(event: dict[str, Any]) -> None:
         render_before_after(event)
 
 
+def render_adjustment_header(index: int, event: dict[str, Any]) -> None:
+    title, path = split_field_label(field_label(event))
+    st.markdown(f"#### Anpassung {index}")
+    st.markdown(f"**{html.escape(title)}**")
+    if path:
+        st.caption(f"Informationspfad: {path}")
+
+
 def render_before_after(event: dict[str, Any]) -> None:
+    before_value = event_previous_value(event)
+    after_value = event_new_value(event)
+    if should_render_compact_value_change(before_value, after_value):
+        st.markdown(render_compact_value_change(before_value, after_value), unsafe_allow_html=True)
+        return
+
     before_col, after_col = st.columns(2)
     before_col.markdown("**Vorher**")
-    render_value_box(before_col, event_previous_value(event))
+    render_value_box(before_col, before_value)
     after_col.markdown("**Nachher**")
-    render_value_box(after_col, event_new_value(event))
+    render_value_box(after_col, after_value)
 
 
 def render_new_diga(event: dict[str, Any]) -> None:
@@ -292,11 +300,17 @@ def render_compact_entry(value: Any, include_status_label: str) -> None:
 
 def render_text_change(event: dict[str, Any]) -> None:
     if event.get("text_change_kind"):
-        st.markdown(f"**{TEXT_KIND_LABELS.get(event['text_change_kind'], 'Text geändert')}**")
+        st.caption(TEXT_KIND_LABELS.get(event["text_change_kind"], "Text geändert"))
     before_tokens, after_tokens, truncated = compact_text_diff(
         event["word_diff"],
         text_change_kind=event.get("text_change_kind"),
     )
+    before_text = tokens_to_plain_text(before_tokens)
+    after_text = tokens_to_plain_text(after_tokens)
+    if not truncated and should_render_compact_value_change(before_text, after_text):
+        st.markdown(render_compact_text_change(before_tokens, after_tokens), unsafe_allow_html=True)
+        return
+
     before_col, after_col = st.columns(2)
     before_col.markdown("**Vorher**")
     before_col.markdown(render_diff_column(before_tokens, side="before"), unsafe_allow_html=True)
@@ -379,6 +393,47 @@ def render_diff_column(tokens: list[dict[str, str]], side: str) -> str:
     return "<div style='line-height:1.8'>" + " ".join(parts) + "</div>"
 
 
+def render_compact_text_change(
+    before_tokens: list[dict[str, str]],
+    after_tokens: list[dict[str, str]],
+) -> str:
+    before_html = render_diff_inline(before_tokens, side="before")
+    after_html = render_diff_inline(after_tokens, side="after")
+    return (
+        "<div style='line-height:1.8'>"
+        "<span style='font-weight:600'>Vorher:</span> "
+        f"{before_html} "
+        "<span style='color:#6b7280;padding:0 0.45rem'>→</span> "
+        "<span style='font-weight:600'>Nachher:</span> "
+        f"{after_html}"
+        "</div>"
+    )
+
+
+def render_diff_inline(tokens: list[dict[str, str]], side: str) -> str:
+    parts = []
+    for token in tokens:
+        op = token.get("op")
+        text = html.escape(token.get("text", ""))
+        if op == "delete" and side == "before":
+            parts.append(f"<mark style='background:#ffd7d7;text-decoration:line-through;padding:0 2px'>{text}</mark>")
+        elif op == "insert" and side == "after":
+            parts.append(f"<mark style='background:#d9f7d9;padding:0 2px'>{text}</mark>")
+        elif op in {"ellipsis", "removed_placeholder", "added_placeholder"}:
+            parts.append(f"<span style='color:#6b7280;font-style:italic'>{text}</span>")
+        else:
+            parts.append(text)
+    return " ".join(parts)
+
+
+def tokens_to_plain_text(tokens: list[dict[str, str]]) -> str:
+    return " ".join(
+        token.get("text", "")
+        for token in tokens
+        if token.get("op") not in {"ellipsis", "removed_placeholder", "added_placeholder"}
+    ).strip()
+
+
 def render_simulation_summary(events: list[dict[str, Any]]) -> None:
     simulated_count = sum(1 for event in events if event.get("simulated"))
     if simulated_count:
@@ -452,6 +507,28 @@ def render_value_box(container: Any, value: Any) -> None:
     container.markdown(render_inline_value(value), unsafe_allow_html=True)
 
 
+def should_render_compact_value_change(before_value: Any, after_value: Any) -> bool:
+    if before_value is None or after_value is None:
+        return False
+    if isinstance(before_value, (dict, list)) or isinstance(after_value, (dict, list)):
+        return False
+    before_text = format_inline_value(before_value).strip()
+    after_text = format_inline_value(after_value).strip()
+    return bool(before_text and after_text and len(before_text) <= 140 and len(after_text) <= 140)
+
+
+def render_compact_value_change(before_value: Any, after_value: Any) -> str:
+    return (
+        "<div style='line-height:1.8'>"
+        "<span style='font-weight:600'>Vorher:</span> "
+        f"{render_inline_value(before_value)} "
+        "<span style='color:#6b7280;padding:0 0.45rem'>→</span> "
+        "<span style='font-weight:600'>Nachher:</span> "
+        f"{render_inline_value(after_value)}"
+        "</div>"
+    )
+
+
 def format_inline_value(value: Any) -> str:
     if isinstance(value, dict):
         return ", ".join(f"{key}: {format_inline_value(item)}" for key, item in value.items() if item is not None)
@@ -519,6 +596,13 @@ def text_context_label(event: dict[str, Any]) -> str | None:
     if not parts:
         return None
     return " > ".join(dict.fromkeys(parts))
+
+
+def split_field_label(label: str) -> tuple[str, str | None]:
+    parts = [part.strip() for part in label.split(" > ") if part.strip()]
+    if len(parts) >= 2:
+        return parts[-1], " > ".join(parts[:-1])
+    return label, None
 
 
 def event_title_label(event: dict[str, Any]) -> str:
