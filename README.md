@@ -219,25 +219,28 @@ The command exits successfully even when no changes are found, making it suitabl
 
 ## Recommended Production Schedule
 
-Run the monitor every 3 hours:
+Run the monitor 3 times per day via GitHub Actions:
 
 ```text
-00:00
-03:00
-06:00
-09:00
-12:00
-15:00
-18:00
-21:00
+06:17 UTC
+12:17 UTC
+18:17 UTC
 ```
 
-OS-specific scheduling is not implemented in the project yet. The CLI is prepared for scheduled execution by external tools.
+During German summer time, this is approximately:
 
-Future deployment with GitHub Actions cron:
+```text
+08:17
+14:17
+20:17
+```
+
+GitHub Actions schedules are defined in UTC. Actual execution can be delayed by GitHub depending on runner availability and platform load.
+
+GitHub Actions cron:
 
 ```yaml
-0 */3 * * *
+17 6,12,18 * * *
 ```
 
 ## Notes About BfArM Integration

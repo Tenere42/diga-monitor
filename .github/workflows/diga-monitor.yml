@@ -3,7 +3,7 @@ name: DiGA Monitor
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */3 * * *"
+    - cron: "17 6,12,18 * * *"
 
 concurrency:
   group: diga-monitor
