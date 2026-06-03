@@ -56,6 +56,25 @@ TEXT_KIND_LABELS = {
 }
 
 EXCERPT_CONTEXT_WORDS = 22
+TECHNICAL_FIELD_MARKERS = (
+    "raw_public_fhir",
+    "fhir",
+    "extension",
+    "resource",
+    "system",
+    "coding",
+    "identifier",
+)
+PRICE_FIELD_MARKERS = (
+    "pricing_information",
+    "price",
+    "preis",
+    "vergütung",
+    "prescription_unit",
+    "public price",
+    "manufacturer price",
+    "price_components",
+)
 
 
 def main() -> None:
@@ -237,30 +256,54 @@ def render_event_details(event: dict[str, Any]) -> None:
         render_new_diga(event)
     elif change_type == "removed_diga":
         render_removed_diga(event)
+    elif is_price_event(event):
+        render_price_change(event)
+    elif is_technical_event(event):
+        render_technical_change(event)
     else:
         render_before_after(event)
 
 
 def render_adjustment_header(index: int, event: dict[str, Any]) -> None:
-    title, path = split_field_label(field_label(event))
+    title, path, internal_label = adjustment_display_info(event)
     st.markdown(f"#### Anpassung {index}")
     st.markdown(f"**{html.escape(title)}**")
     if path:
         st.caption(f"Informationspfad: {path}")
+    if internal_label:
+        st.caption(internal_label)
 
 
 def render_before_after(event: dict[str, Any]) -> None:
     before_value = event_previous_value(event)
     after_value = event_new_value(event)
-    if should_render_compact_value_change(before_value, after_value):
-        st.markdown(render_compact_value_change(before_value, after_value), unsafe_allow_html=True)
-        return
-
     before_col, after_col = st.columns(2)
     before_col.markdown("**Vorher**")
     render_value_box(before_col, before_value)
     after_col.markdown("**Nachher**")
     render_value_box(after_col, after_value)
+
+
+def render_price_change(event: dict[str, Any]) -> None:
+    summary = summarize_price_change(event_previous_value(event), event_new_value(event))
+    if summary:
+        st.markdown(f"**{summary['title']}**")
+        if summary.get("note"):
+            st.caption(summary["note"])
+        render_key_value_columns(summary.get("before", []), summary.get("after", []))
+        return
+    render_before_after(event)
+
+
+def render_technical_change(event: dict[str, Any]) -> None:
+    summary = summarize_technical_change(event)
+    st.caption(summary)
+    before_value = concise_technical_value(event_previous_value(event))
+    after_value = concise_technical_value(event_new_value(event))
+    render_key_value_columns(
+        [("Vorher", before_value)],
+        [("Nachher", after_value)],
+    )
 
 
 def render_new_diga(event: dict[str, Any]) -> None:
@@ -305,12 +348,6 @@ def render_text_change(event: dict[str, Any]) -> None:
         event["word_diff"],
         text_change_kind=event.get("text_change_kind"),
     )
-    before_text = tokens_to_plain_text(before_tokens)
-    after_text = tokens_to_plain_text(after_tokens)
-    if not truncated and should_render_compact_value_change(before_text, after_text):
-        st.markdown(render_compact_text_change(before_tokens, after_tokens), unsafe_allow_html=True)
-        return
-
     before_col, after_col = st.columns(2)
     before_col.markdown("**Vorher**")
     before_col.markdown(render_diff_column(before_tokens, side="before"), unsafe_allow_html=True)
@@ -393,47 +430,6 @@ def render_diff_column(tokens: list[dict[str, str]], side: str) -> str:
     return "<div style='line-height:1.8'>" + " ".join(parts) + "</div>"
 
 
-def render_compact_text_change(
-    before_tokens: list[dict[str, str]],
-    after_tokens: list[dict[str, str]],
-) -> str:
-    before_html = render_diff_inline(before_tokens, side="before")
-    after_html = render_diff_inline(after_tokens, side="after")
-    return (
-        "<div style='line-height:1.8'>"
-        "<span style='font-weight:600'>Vorher:</span> "
-        f"{before_html} "
-        "<span style='color:#6b7280;padding:0 0.45rem'>→</span> "
-        "<span style='font-weight:600'>Nachher:</span> "
-        f"{after_html}"
-        "</div>"
-    )
-
-
-def render_diff_inline(tokens: list[dict[str, str]], side: str) -> str:
-    parts = []
-    for token in tokens:
-        op = token.get("op")
-        text = html.escape(token.get("text", ""))
-        if op == "delete" and side == "before":
-            parts.append(f"<mark style='background:#ffd7d7;text-decoration:line-through;padding:0 2px'>{text}</mark>")
-        elif op == "insert" and side == "after":
-            parts.append(f"<mark style='background:#d9f7d9;padding:0 2px'>{text}</mark>")
-        elif op in {"ellipsis", "removed_placeholder", "added_placeholder"}:
-            parts.append(f"<span style='color:#6b7280;font-style:italic'>{text}</span>")
-        else:
-            parts.append(text)
-    return " ".join(parts)
-
-
-def tokens_to_plain_text(tokens: list[dict[str, str]]) -> str:
-    return " ".join(
-        token.get("text", "")
-        for token in tokens
-        if token.get("op") not in {"ellipsis", "removed_placeholder", "added_placeholder"}
-    ).strip()
-
-
 def render_simulation_summary(events: list[dict[str, Any]]) -> None:
     simulated_count = sum(1 for event in events if event.get("simulated"))
     if simulated_count:
@@ -507,26 +503,25 @@ def render_value_box(container: Any, value: Any) -> None:
     container.markdown(render_inline_value(value), unsafe_allow_html=True)
 
 
-def should_render_compact_value_change(before_value: Any, after_value: Any) -> bool:
-    if before_value is None or after_value is None:
-        return False
-    if isinstance(before_value, (dict, list)) or isinstance(after_value, (dict, list)):
-        return False
-    before_text = format_inline_value(before_value).strip()
-    after_text = format_inline_value(after_value).strip()
-    return bool(before_text and after_text and len(before_text) <= 140 and len(after_text) <= 140)
+def render_key_value_columns(
+    before_rows: list[tuple[str, Any]],
+    after_rows: list[tuple[str, Any]],
+) -> None:
+    before_col, after_col = st.columns(2)
+    before_col.markdown("**Vorher**")
+    render_key_value_rows(before_col, before_rows)
+    after_col.markdown("**Nachher**")
+    render_key_value_rows(after_col, after_rows)
 
 
-def render_compact_value_change(before_value: Any, after_value: Any) -> str:
-    return (
-        "<div style='line-height:1.8'>"
-        "<span style='font-weight:600'>Vorher:</span> "
-        f"{render_inline_value(before_value)} "
-        "<span style='color:#6b7280;padding:0 0.45rem'>→</span> "
-        "<span style='font-weight:600'>Nachher:</span> "
-        f"{render_inline_value(after_value)}"
-        "</div>"
-    )
+def render_key_value_rows(container: Any, rows: list[tuple[str, Any]]) -> None:
+    if not rows:
+        container.markdown("_Keine fachlich darstellbaren Details_")
+        return
+    for label, value in rows:
+        if value is None or value == "":
+            continue
+        container.markdown(f"**{html.escape(label)}:** {render_inline_value(value)}", unsafe_allow_html=True)
 
 
 def format_inline_value(value: Any) -> str:
@@ -577,6 +572,10 @@ def is_real_change_event(event: dict[str, Any]) -> bool:
 
 def field_label(event_or_field_name: dict[str, Any] | str) -> str:
     if isinstance(event_or_field_name, dict):
+        if is_numeric_field_label(event_field_name(event_or_field_name)):
+            return "Nicht zugeordnete Feldänderung"
+        if is_technical_event(event_or_field_name):
+            return technical_field_title(event_or_field_name)
         if event_or_field_name.get("user_facing_field_label"):
             return str(event_or_field_name["user_facing_field_label"])
         context_label = text_context_label(event_or_field_name)
@@ -585,6 +584,10 @@ def field_label(event_or_field_name: dict[str, Any] | str) -> str:
         field_name = event_field_name(event_or_field_name)
     else:
         field_name = event_or_field_name
+        if is_numeric_field_label(field_name):
+            return "Nicht zugeordnete Feldänderung"
+        if is_technical_field_name(field_name):
+            return "Technische Änderung im BfArM-Datenmodell"
     root = field_name.split(".", 1)[0]
     return FIELD_LABELS.get(field_name) or FIELD_LABELS.get(root) or root or "Unbekannter Bereich"
 
@@ -603,6 +606,263 @@ def split_field_label(label: str) -> tuple[str, str | None]:
     if len(parts) >= 2:
         return parts[-1], " > ".join(parts[:-1])
     return label, None
+
+
+def adjustment_display_info(event: dict[str, Any]) -> tuple[str, str | None, str | None]:
+    internal_name = event_field_name(event)
+    if is_price_event(event):
+        return price_field_title(event), None, internal_field_caption(internal_name)
+    if is_numeric_field_label(internal_name):
+        return "Nicht zugeordnete Feldänderung", None, internal_field_caption(internal_name)
+    if is_technical_event(event):
+        return technical_field_title(event), None, internal_field_caption(internal_name)
+
+    label = field_label(event)
+    title, path = split_field_label(label)
+    if is_numeric_field_label(title):
+        return "Nicht zugeordnete Feldänderung", path, f"Interne Feld-ID: {title}"
+    if is_technical_field_name(title):
+        return "Technische Änderung", path, internal_field_caption(internal_name or title)
+    return title, path, None
+
+
+def is_price_event(event: dict[str, Any]) -> bool:
+    haystack = " ".join(
+        str(part).lower()
+        for part in (
+            event.get("change_type"),
+            event_field_name(event),
+            event.get("user_facing_field_label"),
+        )
+        if part
+    )
+    return any(marker in haystack for marker in PRICE_FIELD_MARKERS)
+
+
+def is_technical_event(event: dict[str, Any]) -> bool:
+    field_name = event_field_name(event)
+    label = str(event.get("user_facing_field_label") or "")
+    return (
+        is_numeric_field_label(field_name)
+        or is_numeric_field_label(label)
+        or is_technical_field_name(field_name)
+        or is_technical_field_name(label)
+    )
+
+
+def is_numeric_field_label(value: Any) -> bool:
+    return str(value or "").strip().isdigit()
+
+
+def is_technical_field_name(value: Any) -> bool:
+    normalized = str(value or "").strip().lower()
+    if not normalized:
+        return False
+    return any(marker in normalized for marker in TECHNICAL_FIELD_MARKERS)
+
+
+def technical_field_title(event: dict[str, Any]) -> str:
+    field_name = event_field_name(event).lower()
+    before_value = event_previous_value(event)
+    after_value = event_new_value(event)
+    if field_name == "raw_public_fhir" or field_name.startswith("raw_public_fhir."):
+        if list_items_added(before_value, after_value) or list_items_removed(before_value, after_value):
+            return "Technische Datenstruktur aktualisiert"
+        if "versionid" in field_name.lower():
+            return "Interne Version aktualisiert"
+        return "Technische Änderung im BfArM-Datenmodell"
+    return "Technische Änderung"
+
+
+def price_field_title(event: dict[str, Any]) -> str:
+    summary = summarize_price_change(event_previous_value(event), event_new_value(event))
+    if summary:
+        return str(summary["title"])
+    return "Preis / Vergütung"
+
+
+def internal_field_caption(field_name: str) -> str | None:
+    if not field_name:
+        return None
+    if is_numeric_field_label(field_name):
+        return f"Interne Feld-ID: {field_name}"
+    return f"Internes Feld: {field_name}"
+
+
+def summarize_technical_change(event: dict[str, Any]) -> str:
+    before_value = event_previous_value(event)
+    after_value = event_new_value(event)
+    added_items = list_items_added(before_value, after_value)
+    removed_items = list_items_removed(before_value, after_value)
+    if added_items:
+        return f"Neue interne Ressource hinzugefügt: {', '.join(map(str, added_items))}"
+    if removed_items:
+        return f"Interne Ressource entfernt: {', '.join(map(str, removed_items))}"
+    if "versionid" in event_field_name(event).lower():
+        return "Interne BfArM-Version wurde aktualisiert."
+    return "Technische Änderung im BfArM-Datenmodell."
+
+
+def concise_technical_value(value: Any) -> str:
+    if value is None:
+        return "Kein Wert vorhanden"
+    if isinstance(value, list):
+        simple_items = [str(item) for item in value if not isinstance(item, (dict, list))]
+        if len(simple_items) == len(value):
+            return ", ".join(simple_items) if simple_items else "Keine Einträge"
+        return f"{len(value)} interne Einträge"
+    if isinstance(value, dict):
+        if value.get("id"):
+            return f"Interne Ressource {value['id']}"
+        if value.get("resourceType"):
+            return f"FHIR-Ressource: {value['resourceType']}"
+        return f"{len(value)} interne Felder"
+    return str(value)
+
+
+def list_items_added(before_value: Any, after_value: Any) -> list[Any]:
+    if not isinstance(before_value, list) or not isinstance(after_value, list):
+        return []
+    before_items = {stable_item_key(item) for item in before_value}
+    return [item for item in after_value if stable_item_key(item) not in before_items]
+
+
+def list_items_removed(before_value: Any, after_value: Any) -> list[Any]:
+    if not isinstance(before_value, list) or not isinstance(after_value, list):
+        return []
+    after_items = {stable_item_key(item) for item in after_value}
+    return [item for item in before_value if stable_item_key(item) not in after_items]
+
+
+def stable_item_key(value: Any) -> str:
+    if isinstance(value, (dict, list)):
+        return json_dumps(value)
+    return str(value)
+
+
+def summarize_price_change(before_value: Any, after_value: Any) -> dict[str, Any] | None:
+    before_info = extract_price_info(before_value)
+    after_info = extract_price_info(after_value)
+    if not before_info and not after_info:
+        return None
+
+    before_price = before_info.get("price") if before_info else None
+    after_price = after_info.get("price") if after_info else None
+    before_period = before_info.get("period") if before_info else None
+    after_period = after_info.get("period") if after_info else None
+
+    if before_price and after_price and normalize_price(before_price) != normalize_price(after_price):
+        return {
+            "title": "Preis geändert",
+            "before": [("Preis", before_price)],
+            "after": [("Preis", after_price)],
+        }
+    if after_price and not before_price:
+        return {
+            "title": "Neuer Preiszeitraum ergänzt",
+            "before": [("Preis", "Kein Preiszeitraum vorhanden")],
+            "after": [("Preis", after_price), ("Gültig", after_period)],
+        }
+    if before_price and before_price == after_price and before_period != after_period:
+        return {
+            "title": "Preiszeitraum aktualisiert",
+            "note": "Der Preis bleibt unverändert, aber der Gültigkeitszeitraum wurde angepasst.",
+            "before": [("Preis", before_price), ("Alter Zeitraum", before_period)],
+            "after": [("Preis", after_price), ("Neuer Zeitraum", after_period)],
+        }
+
+    return {
+        "title": "Preis / Vergütung aktualisiert",
+        "before": compact_price_rows(before_info, before_value),
+        "after": compact_price_rows(after_info, after_value),
+    }
+
+
+def extract_price_info(value: Any) -> dict[str, str] | None:
+    if value is None:
+        return None
+    if isinstance(value, str):
+        return {"price": value} if contains_price(value) else {"description": value}
+    if isinstance(value, list):
+        infos = [info for item in value if (info := extract_price_info(item))]
+        if not infos:
+            return {"description": f"{len(value)} Einträge"}
+        return merge_price_infos(infos)
+    if isinstance(value, dict):
+        info: dict[str, str] = {}
+        price = find_first_by_key(value, ("price", "amount", "value", "betrag"))
+        currency = find_first_by_key(value, ("currency", "waehrung", "währung"))
+        if price is not None:
+            info["price"] = " ".join(str(part) for part in (price, currency) if part)
+        period = extract_period(value)
+        if period:
+            info["period"] = period
+        unit = find_first_by_key(value, ("pzn", "prescription_unit", "verordnungseinheit"))
+        if unit is not None:
+            info["Verordnungseinheit"] = str(unit)
+        if info:
+            return info
+        return {"description": "Interne Preisstruktur aktualisiert"}
+    return {"description": str(value)}
+
+
+def merge_price_infos(infos: list[dict[str, str]]) -> dict[str, str]:
+    merged: dict[str, str] = {}
+    for info in infos:
+        for key, value in info.items():
+            if value and key not in merged:
+                merged[key] = value
+    return merged
+
+
+def compact_price_rows(info: dict[str, str] | None, fallback: Any) -> list[tuple[str, Any]]:
+    if not info:
+        return [("Angabe", concise_technical_value(fallback))]
+    labels = {
+        "price": "Preis",
+        "period": "Zeitraum",
+        "description": "Angabe",
+    }
+    return [(labels.get(key, key), value) for key, value in info.items() if value]
+
+
+def contains_price(value: str) -> bool:
+    normalized = value.lower()
+    return "€" in value or "eur" in normalized or any(char.isdigit() for char in value)
+
+
+def normalize_price(value: str) -> str:
+    return value.replace(" ", "").replace(",", ".").lower()
+
+
+def find_first_by_key(value: Any, keys: tuple[str, ...]) -> Any:
+    if isinstance(value, dict):
+        for key, item in value.items():
+            normalized_key = str(key).lower()
+            if any(candidate in normalized_key for candidate in keys) and not isinstance(item, (dict, list)):
+                return item
+        for item in value.values():
+            found = find_first_by_key(item, keys)
+            if found is not None:
+                return found
+    elif isinstance(value, list):
+        for item in value:
+            found = find_first_by_key(item, keys)
+            if found is not None:
+                return found
+    return None
+
+
+def extract_period(value: Any) -> str | None:
+    start = find_first_by_key(value, ("start", "validfrom", "valid_from", "gültig ab", "gueltig_ab"))
+    end = find_first_by_key(value, ("end", "validto", "valid_to", "gültig bis", "gueltig_bis"))
+    if start and end:
+        return f"{start} bis {end}"
+    if start:
+        return f"ab {start}"
+    if end:
+        return f"bis {end}"
+    return None
 
 
 def event_title_label(event: dict[str, Any]) -> str:
