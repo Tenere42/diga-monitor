@@ -56,6 +56,9 @@ TEXT_KIND_LABELS = {
 }
 
 EXCERPT_CONTEXT_WORDS = 22
+LONG_TEXT_CHAR_LIMIT = 400
+LONG_TEXT_WORD_LIMIT = 60
+LONG_TEXT_EXCERPT_CHARS = 500
 TECHNICAL_FIELD_MARKERS = (
     "raw_public_fhir",
     "fhir",
@@ -347,6 +350,10 @@ def render_compact_entry(value: Any, include_status_label: str) -> None:
 def render_text_change(event: dict[str, Any]) -> None:
     if event.get("text_change_kind"):
         st.caption(TEXT_KIND_LABELS.get(event["text_change_kind"], "Text geändert"))
+    if is_long_text_change(event):
+        render_long_text_change(event)
+        return
+
     before_tokens, after_tokens, truncated = compact_text_diff(
         event["word_diff"],
         text_change_kind=event.get("text_change_kind"),
@@ -358,8 +365,86 @@ def render_text_change(event: dict[str, Any]) -> None:
     after_col.markdown(render_diff_column(after_tokens, side="after"), unsafe_allow_html=True)
 
     if truncated:
-        with st.expander("Vollständigen Text anzeigen"):
+        with st.expander("Vollständigen Vorher/Nachher Text anzeigen"):
             render_full_text(event)
+
+
+def render_long_text_change(event: dict[str, Any]) -> None:
+    tokens = event.get("word_diff") if isinstance(event.get("word_diff"), list) else []
+    summary = summarize_long_text_change(event, tokens)
+    st.markdown(f"**{summary}**")
+
+    removed_excerpt = changed_text_excerpt(tokens, "delete")
+    added_excerpt = changed_text_excerpt(tokens, "insert")
+    if removed_excerpt:
+        st.markdown("**Entfernt**")
+        render_change_excerpt_box(removed_excerpt, tone="removed")
+    if added_excerpt:
+        st.markdown("**Hinzugefügt**")
+        render_change_excerpt_box(added_excerpt, tone="added")
+    if not removed_excerpt and not added_excerpt:
+        st.info("Die Textänderung ist umfangreich. Die vollständigen Texte stehen im Aufklapper unten.")
+
+    with st.expander("Vollständigen Vorher/Nachher Text anzeigen"):
+        render_full_text(event)
+
+
+def render_change_excerpt_box(text: str, tone: str) -> None:
+    border_color = "#ef4444" if tone == "removed" else "#16a34a"
+    background = "rgba(239, 68, 68, 0.14)" if tone == "removed" else "rgba(22, 163, 74, 0.14)"
+    st.markdown(
+        (
+            "<div style='"
+            f"border-left:4px solid {border_color};"
+            f"background:{background};"
+            "color:inherit;padding:0.8rem 0.95rem;border-radius:6px;"
+            "line-height:1.65;overflow-wrap:anywhere;white-space:normal;'>"
+            f"{html.escape(text)}"
+            "</div>"
+        ),
+        unsafe_allow_html=True,
+    )
+
+
+def is_long_text_change(event: dict[str, Any]) -> bool:
+    before_text = str(event_previous_value(event) or "")
+    after_text = str(event_new_value(event) or "")
+    return (
+        len(before_text) > LONG_TEXT_CHAR_LIMIT
+        or len(after_text) > LONG_TEXT_CHAR_LIMIT
+        or len(before_text.split()) > LONG_TEXT_WORD_LIMIT
+        or len(after_text.split()) > LONG_TEXT_WORD_LIMIT
+    )
+
+
+def summarize_long_text_change(event: dict[str, Any], tokens: list[dict[str, str]]) -> str:
+    removed_words = changed_word_count(tokens, "delete")
+    added_words = changed_word_count(tokens, "insert")
+    kind = event.get("text_change_kind")
+    if removed_words and not added_words:
+        return f"Text entfernt · ca. {removed_words} Wörter entfernt"
+    if added_words and not removed_words:
+        return f"Text ergänzt · ca. {added_words} Wörter ergänzt"
+    if removed_words or added_words:
+        return f"Text stark angepasst · ca. {removed_words} Wörter entfernt, ca. {added_words} Wörter ergänzt"
+    return TEXT_KIND_LABELS.get(str(kind), "Text stark angepasst")
+
+
+def changed_word_count(tokens: list[dict[str, str]], op: str) -> int:
+    return sum(len(str(token.get("text", "")).split()) for token in tokens if token.get("op") == op)
+
+
+def changed_text_excerpt(tokens: list[dict[str, str]], op: str) -> str:
+    changed_parts = [
+        str(token.get("text", "")).strip()
+        for token in tokens
+        if token.get("op") == op and str(token.get("text", "")).strip()
+    ]
+    text = " ".join(changed_parts)
+    text = " ".join(text.split())
+    if len(text) <= LONG_TEXT_EXCERPT_CHARS:
+        return text
+    return text[:LONG_TEXT_EXCERPT_CHARS].rstrip() + "..."
 
 
 def render_word_diff(tokens: list[dict[str, str]]) -> str:
@@ -368,9 +453,9 @@ def render_word_diff(tokens: list[dict[str, str]]) -> str:
         text = html.escape(token.get("text", ""))
         op = token.get("op")
         if op == "insert":
-            parts.append(f"<span style='background:#d9f7d9;padding:0 2px'>{text}</span>")
+            parts.append(f"<span style='background:rgba(22,163,74,0.18);border-bottom:2px solid #16a34a;padding:0 2px'>{text}</span>")
         elif op == "delete":
-            parts.append(f"<span style='background:#ffd7d7;text-decoration:line-through;padding:0 2px'>{text}</span>")
+            parts.append(f"<span style='background:rgba(239,68,68,0.18);border-bottom:2px solid #ef4444;text-decoration:line-through;padding:0 2px'>{text}</span>")
         else:
             parts.append(text)
     return "<div style='line-height:1.8'>" + " ".join(parts) + "</div>"
@@ -421,9 +506,15 @@ def render_diff_column(tokens: list[dict[str, str]], side: str) -> str:
         op = token.get("op")
         text = html.escape(token.get("text", ""))
         if op == "delete" and side == "before":
-            parts.append(f"<mark style='background:#ffd7d7;text-decoration:line-through;padding:0 2px'>{text}</mark>")
+            parts.append(
+                "<mark style='background:rgba(239,68,68,0.18);color:inherit;"
+                f"border-bottom:2px solid #ef4444;text-decoration:line-through;padding:0 2px'>{text}</mark>"
+            )
         elif op == "insert" and side == "after":
-            parts.append(f"<mark style='background:#d9f7d9;padding:0 2px'>{text}</mark>")
+            parts.append(
+                "<mark style='background:rgba(22,163,74,0.18);color:inherit;"
+                f"border-bottom:2px solid #16a34a;padding:0 2px'>{text}</mark>"
+            )
         elif op == "ellipsis":
             parts.append(f"<span style='color:#6b7280'>{text}</span>")
         elif op in {"removed_placeholder", "added_placeholder"}:
