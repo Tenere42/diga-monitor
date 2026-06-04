@@ -291,8 +291,8 @@ def render_price_change(event: dict[str, Any]) -> None:
         if summary.get("note"):
             st.caption(summary["note"])
         render_key_value_columns(summary.get("before", []), summary.get("after", []))
-        if summary.get("technical_details"):
-            render_technical_source(event)
+        render_price_explanation(summary)
+        render_raw_source(event)
         return
     render_before_after(event)
 
@@ -306,7 +306,7 @@ def render_technical_change(event: dict[str, Any]) -> None:
         [("Vorher", before_value)],
         [("Nachher", after_value)],
     )
-    render_technical_source(event)
+    render_raw_source(event)
 
 
 def render_new_diga(event: dict[str, Any]) -> None:
@@ -527,8 +527,19 @@ def render_key_value_rows(container: Any, rows: list[tuple[str, Any]]) -> None:
         container.markdown(f"**{html.escape(label)}:** {render_inline_value(value)}", unsafe_allow_html=True)
 
 
-def render_technical_source(event: dict[str, Any]) -> None:
-    with st.expander("Technische Quelle anzeigen"):
+def render_price_explanation(summary: dict[str, Any]) -> None:
+    explanation = summary.get("explanation")
+    if not explanation:
+        return
+    with st.expander("Warum wurde diese Änderung erkannt?"):
+        st.markdown(str(explanation))
+        explanation_before = summary.get("explanation_before") or summary.get("before") or []
+        explanation_after = summary.get("explanation_after") or summary.get("after") or []
+        render_key_value_columns(explanation_before, explanation_after)
+
+
+def render_raw_source(event: dict[str, Any]) -> None:
+    with st.expander("Rohdaten anzeigen"):
         details = {
             "changed_field": event.get("changed_field"),
             "field_name": event.get("field_name"),
@@ -729,7 +740,7 @@ def concise_technical_value(value: Any) -> str:
         if value.get("id"):
             return f"Interne Ressource {value['id']}"
         if value.get("resourceType"):
-            return f"FHIR-Ressource: {value['resourceType']}"
+            return f"Interne Datenressource: {value['resourceType']}"
         return f"{len(value)} interne Felder"
     return str(value)
 
@@ -766,6 +777,7 @@ def summarize_price_change(before_value: Any, after_value: Any) -> dict[str, Any
     if before_price and after_price and normalize_price(before_price) != normalize_price(after_price):
         return {
             "title": "Preis geändert",
+            "explanation": "Der Preiswert wurde geändert.",
             "before": [("Preis", before_price)],
             "after": [("Preis", after_price)],
         }
@@ -790,29 +802,48 @@ def summarize_price_period_change(
         return {
             "title": "Preiszeitraum aktualisiert",
             "note": "Der Preiswert selbst wurde nicht verändert.",
+            "explanation": (
+                "Der Preiswert selbst wurde nicht geändert. Das BfArM hat den bisherigen "
+                "Preiszeitraum beendet und einen neuen Preiszeitraum mit identischem Preis angelegt."
+            ),
             "before": price_period_rows(removed),
             "after": price_period_rows(added),
+            "explanation_before": price_period_explanation_rows(removed),
+            "explanation_after": price_period_explanation_rows(added),
         }
 
     if removed and added:
         title = "Preis geändert" if removed_prices != added_prices else "Preis / Vergütung aktualisiert"
         return {
             "title": title,
+            "explanation": (
+                "Der Preiswert wurde geändert."
+                if title == "Preis geändert"
+                else "Die Angaben zu Preis und Zeitraum wurden aktualisiert."
+            ),
             "before": price_period_rows(removed),
             "after": price_period_rows(added),
+            "explanation_before": price_period_explanation_rows(removed),
+            "explanation_after": price_period_explanation_rows(added),
         }
 
     if added:
         return {
             "title": "Neuer Preiszeitraum ergänzt",
+            "explanation": "Ein neuer Preiszeitraum wurde ergänzt.",
             "before": [("Preiszeitraum", "Nicht vorhanden")],
             "after": price_period_rows(added),
+            "explanation_before": [("Preiszeitraum", "Nicht vorhanden")],
+            "explanation_after": price_period_explanation_rows(added),
         }
 
     return {
         "title": "Preiszeitraum entfernt",
+        "explanation": "Ein Preiszeitraum wurde entfernt.",
         "before": price_period_rows(removed),
         "after": [("Preiszeitraum", "Nicht mehr vorhanden")],
+        "explanation_before": price_period_explanation_rows(removed),
+        "explanation_after": [("Preiszeitraum", "Nicht mehr vorhanden")],
     }
 
 
@@ -821,6 +852,10 @@ def technical_price_change_summary() -> dict[str, Any]:
         "title": "Technische Änderung in Preis/Vergütungsdaten",
         "note": (
             "Die BfArM-Datenstruktur zur Vergütung wurde angepasst. "
+            "Eine fachliche Preisänderung konnte nicht eindeutig abgeleitet werden."
+        ),
+        "explanation": (
+            "Die technische Datenstruktur zur Vergütung wurde geändert. "
             "Eine fachliche Preisänderung konnte nicht eindeutig abgeleitet werden."
         ),
         "before": [("Einordnung", "Vorherige interne Preisstruktur")],
@@ -930,6 +965,29 @@ def price_period_rows(periods: list[dict[str, Any]]) -> list[tuple[str, Any]]:
         (f"Preiszeitraum {index}", format_price_period(period))
         for index, period in enumerate(periods, start=1)
     ]
+
+
+def price_period_explanation_rows(periods: list[dict[str, Any]]) -> list[tuple[str, Any]]:
+    if len(periods) == 1:
+        period = periods[0]
+        rows: list[tuple[str, Any]] = [("Preis", period.get("price"))]
+        rows.extend(period_detail_rows(period.get("period")))
+        return rows
+    return price_period_rows(periods)
+
+
+def period_detail_rows(period: Any) -> list[tuple[str, Any]]:
+    if not isinstance(period, dict):
+        return []
+    start = format_date_label(period.get("start"))
+    end = format_date_label(period.get("end"))
+    if start and end:
+        return [("gültig von", f"{start} bis {end}")]
+    if start:
+        return [("gültig seit", start)]
+    if end:
+        return [("gültig bis", end)]
+    return []
 
 
 def format_price_period(period: dict[str, Any]) -> str:
