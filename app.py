@@ -291,6 +291,8 @@ def render_price_change(event: dict[str, Any]) -> None:
         if summary.get("note"):
             st.caption(summary["note"])
         render_key_value_columns(summary.get("before", []), summary.get("after", []))
+        if summary.get("technical_details"):
+            render_technical_source(event)
         return
     render_before_after(event)
 
@@ -304,6 +306,7 @@ def render_technical_change(event: dict[str, Any]) -> None:
         [("Vorher", before_value)],
         [("Nachher", after_value)],
     )
+    render_technical_source(event)
 
 
 def render_new_diga(event: dict[str, Any]) -> None:
@@ -524,6 +527,17 @@ def render_key_value_rows(container: Any, rows: list[tuple[str, Any]]) -> None:
         container.markdown(f"**{html.escape(label)}:** {render_inline_value(value)}", unsafe_allow_html=True)
 
 
+def render_technical_source(event: dict[str, Any]) -> None:
+    with st.expander("Technische Quelle anzeigen"):
+        details = {
+            "changed_field": event.get("changed_field"),
+            "field_name": event.get("field_name"),
+            "before_value": event_previous_value(event),
+            "after_value": event_new_value(event),
+        }
+        st.json(details)
+
+
 def format_inline_value(value: Any) -> str:
     if isinstance(value, dict):
         return ", ".join(f"{key}: {format_inline_value(item)}" for key, item in value.items() if item is not None)
@@ -741,89 +755,219 @@ def stable_item_key(value: Any) -> str:
 
 
 def summarize_price_change(before_value: Any, after_value: Any) -> dict[str, Any] | None:
-    before_info = extract_price_info(before_value)
-    after_info = extract_price_info(after_value)
-    if not before_info and not after_info:
-        return None
+    before_periods = extract_price_periods(before_value)
+    after_periods = extract_price_periods(after_value)
 
-    before_price = before_info.get("price") if before_info else None
-    after_price = after_info.get("price") if after_info else None
-    before_period = before_info.get("period") if before_info else None
-    after_period = after_info.get("period") if after_info else None
+    if before_periods or after_periods:
+        return summarize_price_period_change(before_periods, after_periods)
 
+    before_price = extract_simple_price(before_value)
+    after_price = extract_simple_price(after_value)
     if before_price and after_price and normalize_price(before_price) != normalize_price(after_price):
         return {
             "title": "Preis geändert",
             "before": [("Preis", before_price)],
             "after": [("Preis", after_price)],
         }
-    if after_price and not before_price:
-        return {
-            "title": "Neuer Preiszeitraum ergänzt",
-            "before": [("Preis", "Kein Preiszeitraum vorhanden")],
-            "after": [("Preis", after_price), ("Gültig", after_period)],
-        }
-    if before_price and before_price == after_price and before_period != after_period:
+
+    return technical_price_change_summary()
+
+
+def summarize_price_period_change(
+    before_periods: list[dict[str, Any]],
+    after_periods: list[dict[str, Any]],
+) -> dict[str, Any]:
+    removed = list_price_periods_removed(before_periods, after_periods)
+    added = list_price_periods_added(before_periods, after_periods)
+
+    if not removed and not added:
+        return technical_price_change_summary()
+
+    removed_prices = {period.get("price_key") for period in removed if period.get("price_key")}
+    added_prices = {period.get("price_key") for period in added if period.get("price_key")}
+    same_price = bool(removed_prices and removed_prices == added_prices)
+    if same_price and removed and added:
         return {
             "title": "Preiszeitraum aktualisiert",
-            "note": "Der Preis bleibt unverändert, aber der Gültigkeitszeitraum wurde angepasst.",
-            "before": [("Preis", before_price), ("Alter Zeitraum", before_period)],
-            "after": [("Preis", after_price), ("Neuer Zeitraum", after_period)],
+            "note": "Der Preiswert selbst wurde nicht verändert.",
+            "before": price_period_rows(removed),
+            "after": price_period_rows(added),
+        }
+
+    if removed and added:
+        title = "Preis geändert" if removed_prices != added_prices else "Preis / Vergütung aktualisiert"
+        return {
+            "title": title,
+            "before": price_period_rows(removed),
+            "after": price_period_rows(added),
+        }
+
+    if added:
+        return {
+            "title": "Neuer Preiszeitraum ergänzt",
+            "before": [("Preiszeitraum", "Nicht vorhanden")],
+            "after": price_period_rows(added),
         }
 
     return {
-        "title": "Preis / Vergütung aktualisiert",
-        "before": compact_price_rows(before_info, before_value),
-        "after": compact_price_rows(after_info, after_value),
+        "title": "Preiszeitraum entfernt",
+        "before": price_period_rows(removed),
+        "after": [("Preiszeitraum", "Nicht mehr vorhanden")],
     }
 
 
-def extract_price_info(value: Any) -> dict[str, str] | None:
-    if value is None:
-        return None
-    if isinstance(value, str):
-        return {"price": value} if contains_price(value) else {"description": value}
+def technical_price_change_summary() -> dict[str, Any]:
+    return {
+        "title": "Technische Änderung in Preis/Vergütungsdaten",
+        "note": (
+            "Die BfArM-Datenstruktur zur Vergütung wurde angepasst. "
+            "Eine fachliche Preisänderung konnte nicht eindeutig abgeleitet werden."
+        ),
+        "before": [("Einordnung", "Vorherige interne Preisstruktur")],
+        "after": [("Einordnung", "Neue interne Preisstruktur")],
+        "technical_details": True,
+    }
+
+
+def extract_price_periods(value: Any) -> list[dict[str, Any]]:
     if isinstance(value, list):
-        infos = [info for item in value if (info := extract_price_info(item))]
-        if not infos:
-            return {"description": f"{len(value)} Einträge"}
-        return merge_price_infos(infos)
+        periods: list[dict[str, Any]] = []
+        for item in value:
+            periods.extend(extract_price_periods(item))
+        return periods
+    if not isinstance(value, dict):
+        return []
+
+    period = extract_effective_period(value)
+    amounts = extract_amounts(value)
+    if period and amounts:
+        return [
+            {
+                "price": amount,
+                "price_key": normalize_price(amount),
+                "period": period,
+                "period_key": price_period_key(period),
+            }
+            for amount in amounts
+        ]
+
+    periods: list[dict[str, Any]] = []
+    for item in value.values():
+        periods.extend(extract_price_periods(item))
+    return periods
+
+
+def extract_amounts(value: Any) -> list[str]:
+    amounts: list[str] = []
     if isinstance(value, dict):
-        info: dict[str, str] = {}
-        price = find_first_by_key(value, ("price", "amount", "value", "betrag"))
-        currency = find_first_by_key(value, ("currency", "waehrung", "währung"))
-        if price is not None:
-            info["price"] = " ".join(str(part) for part in (price, currency) if part)
-        period = extract_period(value)
-        if period:
-            info["period"] = period
-        unit = find_first_by_key(value, ("pzn", "prescription_unit", "verordnungseinheit"))
-        if unit is not None:
-            info["Verordnungseinheit"] = str(unit)
-        if info:
-            return info
-        return {"description": "Interne Preisstruktur aktualisiert"}
-    return {"description": str(value)}
+        amount = amount_from_dict(value)
+        if amount:
+            amounts.append(amount)
+        for item in value.values():
+            amounts.extend(extract_amounts(item))
+    elif isinstance(value, list):
+        for item in value:
+            amounts.extend(extract_amounts(item))
+    return list(dict.fromkeys(amounts))
 
 
-def merge_price_infos(infos: list[dict[str, str]]) -> dict[str, str]:
-    merged: dict[str, str] = {}
-    for info in infos:
-        for key, value in info.items():
-            if value and key not in merged:
-                merged[key] = value
-    return merged
+def amount_from_dict(value: dict[str, Any]) -> str | None:
+    if "value" not in value or "currency" not in value:
+        return None
+    amount = value.get("value")
+    currency = value.get("currency")
+    if amount is None or currency is None:
+        return None
+    return f"{format_price_number(amount)} {currency}"
 
 
-def compact_price_rows(info: dict[str, str] | None, fallback: Any) -> list[tuple[str, Any]]:
-    if not info:
-        return [("Angabe", concise_technical_value(fallback))]
-    labels = {
-        "price": "Preis",
-        "period": "Zeitraum",
-        "description": "Angabe",
+def format_price_number(value: Any) -> str:
+    if isinstance(value, float) and value.is_integer():
+        return str(int(value))
+    return str(value).replace(".", ",")
+
+
+def extract_effective_period(value: dict[str, Any]) -> dict[str, str | None] | None:
+    period = value.get("effective_period") or value.get("effectivePeriod") or value.get("period")
+    if not isinstance(period, dict):
+        return None
+    start = period.get("start")
+    end = period.get("end")
+    if not start and not end:
+        return None
+    return {
+        "start": str(start) if start else None,
+        "end": str(end) if end else None,
     }
-    return [(labels.get(key, key), value) for key, value in info.items() if value]
+
+
+def price_period_key(period: dict[str, str | None]) -> str:
+    return f"{period.get('start') or ''}|{period.get('end') or ''}"
+
+
+def list_price_periods_added(
+    before_periods: list[dict[str, Any]],
+    after_periods: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    before_keys = {price_period_identity(period) for period in before_periods}
+    return [period for period in after_periods if price_period_identity(period) not in before_keys]
+
+
+def list_price_periods_removed(
+    before_periods: list[dict[str, Any]],
+    after_periods: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    after_keys = {price_period_identity(period) for period in after_periods}
+    return [period for period in before_periods if price_period_identity(period) not in after_keys]
+
+
+def price_period_identity(period: dict[str, Any]) -> str:
+    return f"{period.get('price_key') or ''}|{period.get('period_key') or ''}"
+
+
+def price_period_rows(periods: list[dict[str, Any]]) -> list[tuple[str, Any]]:
+    return [
+        (f"Preiszeitraum {index}", format_price_period(period))
+        for index, period in enumerate(periods, start=1)
+    ]
+
+
+def format_price_period(period: dict[str, Any]) -> str:
+    price = str(period.get("price") or "Preis nicht angegeben")
+    period_label = format_period_label(period.get("period"))
+    if period_label:
+        return f"{price}, {period_label}"
+    return price
+
+
+def format_period_label(period: Any) -> str:
+    if not isinstance(period, dict):
+        return ""
+    start = format_date_label(period.get("start"))
+    end = format_date_label(period.get("end"))
+    if start and end:
+        return f"gültig von {start} bis {end}"
+    if start:
+        return f"gültig ab {start}"
+    if end:
+        return f"gültig bis {end}"
+    return ""
+
+
+def format_date_label(value: Any) -> str | None:
+    if not isinstance(value, str) or not value:
+        return None
+    try:
+        return datetime.fromisoformat(value[:10]).strftime("%d.%m.%Y")
+    except ValueError:
+        return value
+
+
+def extract_simple_price(value: Any) -> str | None:
+    if isinstance(value, str):
+        return value if contains_price(value) else None
+    amounts = extract_amounts(value)
+    return amounts[0] if amounts else None
 
 
 def contains_price(value: str) -> bool:
@@ -833,36 +977,6 @@ def contains_price(value: str) -> bool:
 
 def normalize_price(value: str) -> str:
     return value.replace(" ", "").replace(",", ".").lower()
-
-
-def find_first_by_key(value: Any, keys: tuple[str, ...]) -> Any:
-    if isinstance(value, dict):
-        for key, item in value.items():
-            normalized_key = str(key).lower()
-            if any(candidate in normalized_key for candidate in keys) and not isinstance(item, (dict, list)):
-                return item
-        for item in value.values():
-            found = find_first_by_key(item, keys)
-            if found is not None:
-                return found
-    elif isinstance(value, list):
-        for item in value:
-            found = find_first_by_key(item, keys)
-            if found is not None:
-                return found
-    return None
-
-
-def extract_period(value: Any) -> str | None:
-    start = find_first_by_key(value, ("start", "validfrom", "valid_from", "gültig ab", "gueltig_ab"))
-    end = find_first_by_key(value, ("end", "validto", "valid_to", "gültig bis", "gueltig_bis"))
-    if start and end:
-        return f"{start} bis {end}"
-    if start:
-        return f"ab {start}"
-    if end:
-        return f"bis {end}"
-    return None
 
 
 def event_title_label(event: dict[str, Any]) -> str:
