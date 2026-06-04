@@ -60,9 +60,7 @@ EXCERPT_CONTEXT_WORDS = 22
 
 def main() -> None:
     st.set_page_config(page_title="DiGA Monitor", layout="wide")
-    st.title("DiGA Monitor")
-    st.markdown("Änderungen im DiGA-Verzeichnis transparent verfolgen")
-    st.caption("Quelle: Offizielles DiGA-Verzeichnis des BfArM")
+    render_page_header()
 
     events = load_change_events(DEFAULT_CHANGES_DIR)
     events = sorted(events, key=lambda event: event.get("detected_at", ""), reverse=True)
@@ -82,6 +80,68 @@ def main() -> None:
     render_group_summary(grouped_events, filtered_events)
     for group in grouped_events:
         render_event_group(group)
+
+
+def render_page_header() -> None:
+    st.markdown(
+        """
+        <style>
+        :root {
+            --diga-header-title: #111827;
+            --diga-header-text: #1f2937;
+            --diga-header-muted: #4b5563;
+            --diga-header-value: #111827;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --diga-header-title: #f9fafb;
+                --diga-header-text: #f3f4f6;
+                --diga-header-muted: #d1d5db;
+                --diga-header-value: #ffffff;
+            }
+        }
+        .diga-page-header {
+            margin-bottom: 1rem;
+        }
+        .diga-page-title {
+            color: var(--diga-header-title);
+            font-size: 2.5rem;
+            font-weight: 700;
+            line-height: 1.15;
+            margin: 0 0 0.35rem;
+        }
+        .diga-page-subtitle {
+            color: var(--diga-header-text);
+            font-size: 1.08rem;
+            line-height: 1.45;
+            margin: 0;
+        }
+        .diga-page-source {
+            color: var(--diga-header-muted);
+            font-size: 0.9rem;
+            line-height: 1.45;
+            margin-top: 0.35rem;
+        }
+        @media (max-width: 720px) {
+            .diga-page-title {
+                font-size: 2rem;
+            }
+            .diga-page-subtitle {
+                font-size: 1rem;
+            }
+            .diga-page-source {
+                font-size: 0.92rem;
+            }
+        }
+        </style>
+        <header class="diga-page-header">
+            <h1 class="diga-page-title">DiGA Monitor</h1>
+            <p class="diga-page-subtitle">Änderungen im DiGA-Verzeichnis transparent verfolgen</p>
+            <div class="diga-page-source">Quelle: Offizielles DiGA-Verzeichnis des BfArM</div>
+        </header>
+        """,
+        unsafe_allow_html=True,
+    )
 
 
 def render_filters(events: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -118,15 +178,18 @@ def render_status_information(
             margin: 1rem 0 1.25rem;
         }
         .status-item {
-            color: #31333f;
+            color: var(--diga-header-value);
             font-size: 1rem;
             line-height: 1.45;
         }
         .status-label {
+            color: var(--diga-header-muted);
             font-weight: 600;
             white-space: nowrap;
         }
         .status-value {
+            color: var(--diga-header-value);
+            font-weight: 500;
             margin-top: 0.15rem;
             white-space: nowrap;
         }
