@@ -56,6 +56,9 @@ TEXT_KIND_LABELS = {
 }
 
 EXCERPT_CONTEXT_WORDS = 22
+LONG_TEXT_CHAR_LIMIT = 400
+LONG_TEXT_WORD_LIMIT = 60
+LONG_TEXT_EXCERPT_CHARS = 500
 
 
 def main() -> None:
@@ -315,32 +318,22 @@ def render_adjustment_header(index: int, event: dict[str, Any]) -> None:
 def render_before_after(event: dict[str, Any]) -> None:
     before_value = event_previous_value(event)
     after_value = event_new_value(event)
-    if should_render_compact_value_change(before_value, after_value):
-        st.markdown(render_compact_value_change(before_value, after_value), unsafe_allow_html=True)
-        return
-
-    before_col, after_col = st.columns(2)
-    before_col.markdown("**Vorher**")
-    render_value_box(before_col, before_value)
-    after_col.markdown("**Nachher**")
-    render_value_box(after_col, after_value)
+    render_before_after_html(value_to_html(before_value), value_to_html(after_value))
 
 
 def render_new_diga(event: dict[str, Any]) -> None:
-    before_col, after_col = st.columns(2)
-    before_col.markdown("**Vorher**")
-    before_col.info("Nicht im DiGA-Verzeichnis vorhanden")
-    after_col.markdown("**Nachher**")
-    after_col.success("Neu im DiGA-Verzeichnis aufgenommen")
+    render_before_after_html(
+        "<p>Nicht im DiGA-Verzeichnis vorhanden</p>",
+        "<p>Neu im DiGA-Verzeichnis aufgenommen</p>",
+    )
     render_compact_entry(event_new_value(event), include_status_label="Status")
 
 
 def render_removed_diga(event: dict[str, Any]) -> None:
-    before_col, after_col = st.columns(2)
-    before_col.markdown("**Vorher**")
-    before_col.info("Im DiGA-Verzeichnis vorhanden")
-    after_col.markdown("**Nachher**")
-    after_col.warning("Nicht mehr im aktuellen DiGA-Verzeichnis vorhanden / gestrichen")
+    render_before_after_html(
+        "<p>Im DiGA-Verzeichnis vorhanden</p>",
+        "<p>Nicht mehr im aktuellen DiGA-Verzeichnis vorhanden / gestrichen</p>",
+    )
     render_compact_entry(event_previous_value(event), include_status_label="Letzter bekannter Status")
 
 
@@ -364,25 +357,94 @@ def render_compact_entry(value: Any, include_status_label: str) -> None:
 def render_text_change(event: dict[str, Any]) -> None:
     if event.get("text_change_kind"):
         st.caption(TEXT_KIND_LABELS.get(event["text_change_kind"], "Text geändert"))
+    if is_long_text_change(event):
+        render_long_text_change(event)
+        return
+
     before_tokens, after_tokens, truncated = compact_text_diff(
         event["word_diff"],
         text_change_kind=event.get("text_change_kind"),
     )
-    before_text = tokens_to_plain_text(before_tokens)
-    after_text = tokens_to_plain_text(after_tokens)
-    if not truncated and should_render_compact_value_change(before_text, after_text):
-        st.markdown(render_compact_text_change(before_tokens, after_tokens), unsafe_allow_html=True)
-        return
-
-    before_col, after_col = st.columns(2)
-    before_col.markdown("**Vorher**")
-    before_col.markdown(render_diff_column(before_tokens, side="before"), unsafe_allow_html=True)
-    after_col.markdown("**Nachher**")
-    after_col.markdown(render_diff_column(after_tokens, side="after"), unsafe_allow_html=True)
+    render_before_after_html(
+        render_diff_column(before_tokens, side="before"),
+        render_diff_column(after_tokens, side="after"),
+    )
 
     if truncated:
-        with st.expander("Vollständigen Text anzeigen"):
+        with st.expander("Vollständigen Vorher/Nachher Text anzeigen"):
             render_full_text(event)
+
+
+def render_long_text_change(event: dict[str, Any]) -> None:
+    tokens = event.get("word_diff") if isinstance(event.get("word_diff"), list) else []
+    st.markdown(f"**{summarize_long_text_change(event, tokens)}**")
+
+    removed_excerpt = changed_text_excerpt(tokens, "delete")
+    added_excerpt = changed_text_excerpt(tokens, "insert")
+    if removed_excerpt or added_excerpt:
+        render_before_after_html(
+            change_excerpt_html(removed_excerpt, tone="removed") if removed_excerpt else "<p>Kein Text entfernt</p>",
+            change_excerpt_html(added_excerpt, tone="added") if added_excerpt else "<p>Kein Text hinzugefügt</p>",
+        )
+    else:
+        st.info("Die Textänderung ist umfangreich. Die vollständigen Texte stehen im Aufklapper unten.")
+
+    with st.expander("Vollständigen Vorher/Nachher Text anzeigen"):
+        render_full_text(event)
+
+
+def change_excerpt_html(text: str, tone: str) -> str:
+    border_color = "#ef4444" if tone == "removed" else "#16a34a"
+    background = "rgba(239, 68, 68, 0.14)" if tone == "removed" else "rgba(22, 163, 74, 0.14)"
+    return (
+        "<div style='"
+        f"border-left:4px solid {border_color};"
+        f"background:{background};"
+        "color:inherit;padding:0.75rem 0.85rem;border-radius:6px;"
+        "line-height:1.65;overflow-wrap:anywhere;white-space:normal;'>"
+        f"{html.escape(text)}"
+        "</div>"
+    )
+
+
+def is_long_text_change(event: dict[str, Any]) -> bool:
+    before_text = str(event_previous_value(event) or "")
+    after_text = str(event_new_value(event) or "")
+    return (
+        len(before_text) > LONG_TEXT_CHAR_LIMIT
+        or len(after_text) > LONG_TEXT_CHAR_LIMIT
+        or len(before_text.split()) > LONG_TEXT_WORD_LIMIT
+        or len(after_text.split()) > LONG_TEXT_WORD_LIMIT
+    )
+
+
+def summarize_long_text_change(event: dict[str, Any], tokens: list[dict[str, str]]) -> str:
+    removed_words = changed_word_count(tokens, "delete")
+    added_words = changed_word_count(tokens, "insert")
+    if removed_words and not added_words:
+        return f"Text entfernt · ca. {removed_words} Wörter entfernt"
+    if added_words and not removed_words:
+        return f"Text ergänzt · ca. {added_words} Wörter ergänzt"
+    if removed_words or added_words:
+        return f"Text stark angepasst · ca. {removed_words} Wörter entfernt, ca. {added_words} Wörter ergänzt"
+    return TEXT_KIND_LABELS.get(str(event.get("text_change_kind")), "Text stark angepasst")
+
+
+def changed_word_count(tokens: list[dict[str, str]], op: str) -> int:
+    return sum(len(str(token.get("text", "")).split()) for token in tokens if token.get("op") == op)
+
+
+def changed_text_excerpt(tokens: list[dict[str, str]], op: str) -> str:
+    changed_parts = [
+        str(token.get("text", "")).strip()
+        for token in tokens
+        if token.get("op") == op and str(token.get("text", "")).strip()
+    ]
+    text = " ".join(changed_parts)
+    text = " ".join(text.split())
+    if len(text) <= LONG_TEXT_EXCERPT_CHARS:
+        return text
+    return text[:LONG_TEXT_EXCERPT_CHARS].rstrip() + "..."
 
 
 def render_word_diff(tokens: list[dict[str, str]]) -> str:
@@ -391,9 +453,15 @@ def render_word_diff(tokens: list[dict[str, str]]) -> str:
         text = html.escape(token.get("text", ""))
         op = token.get("op")
         if op == "insert":
-            parts.append(f"<span style='background:#d9f7d9;padding:0 2px'>{text}</span>")
+            parts.append(
+                "<span style='background:rgba(22,163,74,0.18);color:inherit;"
+                f"border-bottom:2px solid #16a34a;padding:0 2px'>{text}</span>"
+            )
         elif op == "delete":
-            parts.append(f"<span style='background:#ffd7d7;text-decoration:line-through;padding:0 2px'>{text}</span>")
+            parts.append(
+                "<span style='background:rgba(239,68,68,0.18);color:inherit;"
+                f"border-bottom:2px solid #ef4444;text-decoration:line-through;padding:0 2px'>{text}</span>"
+            )
         else:
             parts.append(text)
     return "<div style='line-height:1.8'>" + " ".join(parts) + "</div>"
@@ -444,9 +512,15 @@ def render_diff_column(tokens: list[dict[str, str]], side: str) -> str:
         op = token.get("op")
         text = html.escape(token.get("text", ""))
         if op == "delete" and side == "before":
-            parts.append(f"<mark style='background:#ffd7d7;text-decoration:line-through;padding:0 2px'>{text}</mark>")
+            parts.append(
+                "<mark style='background:rgba(239,68,68,0.18);color:inherit;"
+                f"border-bottom:2px solid #ef4444;text-decoration:line-through;padding:0 2px'>{text}</mark>"
+            )
         elif op == "insert" and side == "after":
-            parts.append(f"<mark style='background:#d9f7d9;padding:0 2px'>{text}</mark>")
+            parts.append(
+                "<mark style='background:rgba(22,163,74,0.18);color:inherit;"
+                f"border-bottom:2px solid #16a34a;padding:0 2px'>{text}</mark>"
+            )
         elif op == "ellipsis":
             parts.append(f"<span style='color:#6b7280'>{text}</span>")
         elif op in {"removed_placeholder", "added_placeholder"}:
@@ -454,47 +528,6 @@ def render_diff_column(tokens: list[dict[str, str]], side: str) -> str:
         else:
             parts.append(text)
     return "<div style='line-height:1.8'>" + " ".join(parts) + "</div>"
-
-
-def render_compact_text_change(
-    before_tokens: list[dict[str, str]],
-    after_tokens: list[dict[str, str]],
-) -> str:
-    before_html = render_diff_inline(before_tokens, side="before")
-    after_html = render_diff_inline(after_tokens, side="after")
-    return (
-        "<div style='line-height:1.8'>"
-        "<span style='font-weight:600'>Vorher:</span> "
-        f"{before_html} "
-        "<span style='color:#6b7280;padding:0 0.45rem'>→</span> "
-        "<span style='font-weight:600'>Nachher:</span> "
-        f"{after_html}"
-        "</div>"
-    )
-
-
-def render_diff_inline(tokens: list[dict[str, str]], side: str) -> str:
-    parts = []
-    for token in tokens:
-        op = token.get("op")
-        text = html.escape(token.get("text", ""))
-        if op == "delete" and side == "before":
-            parts.append(f"<mark style='background:#ffd7d7;text-decoration:line-through;padding:0 2px'>{text}</mark>")
-        elif op == "insert" and side == "after":
-            parts.append(f"<mark style='background:#d9f7d9;padding:0 2px'>{text}</mark>")
-        elif op in {"ellipsis", "removed_placeholder", "added_placeholder"}:
-            parts.append(f"<span style='color:#6b7280;font-style:italic'>{text}</span>")
-        else:
-            parts.append(text)
-    return " ".join(parts)
-
-
-def tokens_to_plain_text(tokens: list[dict[str, str]]) -> str:
-    return " ".join(
-        token.get("text", "")
-        for token in tokens
-        if token.get("op") not in {"ellipsis", "removed_placeholder", "added_placeholder"}
-    ).strip()
 
 
 def render_simulation_summary(events: list[dict[str, Any]]) -> None:
@@ -551,6 +584,79 @@ def render_wrapped_text(value: Any) -> None:
     )
 
 
+def render_before_after_html(before_html: str, after_html: str) -> None:
+    st.markdown(
+        f"""
+        <style>
+        .before-after-grid {{
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 0.85rem;
+            margin-top: 0.35rem;
+        }}
+        .before-after-card {{
+            border: 1px solid rgba(148, 163, 184, 0.45);
+            border-radius: 8px;
+            padding: 0.85rem;
+            background: rgba(148, 163, 184, 0.07);
+            min-width: 0;
+        }}
+        .before-after-label {{
+            color: var(--diga-header-muted, #4b5563);
+            font-size: 0.84rem;
+            font-weight: 700;
+            letter-spacing: 0.02em;
+            margin-bottom: 0.45rem;
+            text-transform: uppercase;
+        }}
+        .before-after-content {{
+            color: inherit;
+            line-height: 1.65;
+            overflow-wrap: anywhere;
+            white-space: normal;
+        }}
+        .before-after-content p {{
+            margin: 0;
+        }}
+        @media (max-width: 720px) {{
+            .before-after-grid {{
+                grid-template-columns: 1fr;
+            }}
+        }}
+        </style>
+        <div class="before-after-grid">
+            <section class="before-after-card">
+                <div class="before-after-label">Vorher</div>
+                <div class="before-after-content">{before_html}</div>
+            </section>
+            <section class="before-after-card">
+                <div class="before-after-label">Nachher</div>
+                <div class="before-after-content">{after_html}</div>
+            </section>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
+def value_to_html(value: Any) -> str:
+    if value is None:
+        return "<p><em>Kein Wert vorhanden</em></p>"
+    if isinstance(value, dict):
+        rows = [
+            f"<p><strong>{html.escape(field_label(str(key)))}:</strong> {html.escape(format_inline_value(item))}</p>"
+            for key, item in value.items()
+            if item is not None
+        ]
+        return "".join(rows) or "<p><em>Keine Angaben</em></p>"
+    if isinstance(value, list):
+        if not value:
+            return "<p><em>Keine Einträge</em></p>"
+        items = "".join(f"<li>{html.escape(format_inline_value(item))}</li>" for item in value)
+        return f"<ul>{items}</ul>"
+    return f"<p>{render_inline_value(value)}</p>"
+
+
 def render_value_box(container: Any, value: Any) -> None:
     if value is None:
         container.markdown("_Kein Wert vorhanden_")
@@ -568,28 +674,6 @@ def render_value_box(container: Any, value: Any) -> None:
             container.markdown(f"- {html.escape(format_inline_value(item))}")
         return
     container.markdown(render_inline_value(value), unsafe_allow_html=True)
-
-
-def should_render_compact_value_change(before_value: Any, after_value: Any) -> bool:
-    if before_value is None or after_value is None:
-        return False
-    if isinstance(before_value, (dict, list)) or isinstance(after_value, (dict, list)):
-        return False
-    before_text = format_inline_value(before_value).strip()
-    after_text = format_inline_value(after_value).strip()
-    return bool(before_text and after_text and len(before_text) <= 140 and len(after_text) <= 140)
-
-
-def render_compact_value_change(before_value: Any, after_value: Any) -> str:
-    return (
-        "<div style='line-height:1.8'>"
-        "<span style='font-weight:600'>Vorher:</span> "
-        f"{render_inline_value(before_value)} "
-        "<span style='color:#6b7280;padding:0 0.45rem'>→</span> "
-        "<span style='font-weight:600'>Nachher:</span> "
-        f"{render_inline_value(after_value)}"
-        "</div>"
-    )
 
 
 def format_inline_value(value: Any) -> str:
