@@ -646,8 +646,8 @@ def render_wrapped_text(value: Any) -> None:
 
 
 def analyze_price_change(before_value: Any, after_value: Any) -> dict[str, Any]:
-    before_periods = extract_price_periods(before_value)
-    after_periods = extract_price_periods(after_value)
+    before_periods = sorted_price_periods(extract_price_periods(before_value))
+    after_periods = sorted_price_periods(extract_price_periods(after_value))
     before_lines = price_period_lines(before_periods)
     after_lines = price_period_lines(after_periods)
     before_amounts = {period["amount"] for period in before_periods if period.get("amount")}
@@ -655,7 +655,7 @@ def analyze_price_change(before_value: Any, after_value: Any) -> dict[str, Any]:
 
     if before_lines or after_lines:
         amount_changed = before_amounts != after_amounts
-        periods_changed = normalize_lines(before_lines) != normalize_lines(after_lines)
+        periods_changed = normalized_price_periods(before_periods) != normalized_price_periods(after_periods)
         if amount_changed:
             title = "Preiswert geändert"
             explanation = "Der Preiswert wurde geändert."
@@ -668,10 +668,10 @@ def analyze_price_change(before_value: Any, after_value: Any) -> dict[str, Any]:
             )
             note = "Hinweis: Der Preiswert selbst wurde nicht verändert."
         else:
-            title = "Keine sichtbare Preisänderung"
+            title = "Keine fachliche Preisänderung"
             explanation = (
-                "Die gespeicherten Vergütungsdaten unterscheiden sich technisch, daraus lässt sich "
-                "aber keine sichtbare fachliche Preisänderung ableiten."
+                "Die enthaltenen Preiszeiträume und Preiswerte sind identisch. Geändert hat sich "
+                "nur die Reihenfolge der Preiszeiträume in den Quelldaten."
             )
             note = None
 
@@ -681,7 +681,7 @@ def analyze_price_change(before_value: Any, after_value: Any) -> dict[str, Any]:
             "explanation": explanation,
             "before_lines": before_lines or ["Keine Preisangaben gefunden"],
             "after_lines": after_lines or ["Keine Preisangaben gefunden"],
-            "show_raw": title == "Keine sichtbare Preisänderung",
+            "show_raw": False,
             "visible_change": periods_changed or amount_changed,
         }
 
@@ -708,14 +708,58 @@ def extract_price_periods(value: Any) -> list[dict[str, str | None]]:
         amounts = find_price_amounts(item)
         text_amounts = find_amounts_in_text(item)
         amount = first_present_value(amounts + text_amounts)
+        amount_number, currency = split_price_amount(amount)
+        raw_start = period.get("start")
+        raw_end = period.get("end")
         periods.append(
             {
                 "amount": amount,
-                "start": format_date_value(period.get("start")),
-                "end": format_date_value(period.get("end")),
+                "amount_number": amount_number,
+                "currency": currency,
+                "start": format_date_value(raw_start),
+                "end": format_date_value(raw_end),
+                "sort_start": normalize_date_sort_key(raw_start),
+                "sort_end": normalize_date_sort_key(raw_end),
             }
         )
     return periods
+
+
+def sorted_price_periods(periods: list[dict[str, str | None]]) -> list[dict[str, str | None]]:
+    return sorted(periods, key=price_period_sort_key)
+
+
+def price_period_sort_key(period: dict[str, str | None]) -> tuple[str, str, str, str]:
+    return (
+        str(period.get("amount_number") or ""),
+        str(period.get("sort_start") or ""),
+        str(period.get("sort_end") or ""),
+        str(period.get("currency") or ""),
+    )
+
+
+def normalized_price_periods(periods: list[dict[str, str | None]]) -> list[tuple[str, str, str, str]]:
+    return [price_period_sort_key(period) for period in sorted_price_periods(periods)]
+
+
+def split_price_amount(value: str | None) -> tuple[str | None, str | None]:
+    if not value:
+        return None, None
+    match = re.search(r"(\d+(?:[.,]\d+)?)\s*([A-Z]{3}|€)", value, flags=re.IGNORECASE)
+    if not match:
+        return normalize_amount_for_sort(value), None
+    amount, currency = match.groups()
+    normalized_currency = "EUR" if currency == "€" or currency.upper() == "EUR" else currency.upper()
+    return normalize_amount_for_sort(amount), normalized_currency
+
+
+def normalize_amount_for_sort(value: Any) -> str:
+    text = str(value).strip().replace(",", ".")
+    try:
+        number = float(text)
+    except ValueError:
+        return text.lower()
+    return f"{number:.6f}"
 
 
 def ensure_list(value: Any) -> list[Any]:
@@ -804,6 +848,21 @@ def format_date_value(value: Any) -> str | None:
     parsed = parse_datetime(text)
     if parsed:
         return parsed.astimezone(DISPLAY_TIMEZONE).strftime("%d.%m.%Y")
+    return text
+
+
+def normalize_date_sort_key(value: Any) -> str:
+    if not value:
+        return ""
+    text = str(value)
+    for candidate in (text[:10], text):
+        try:
+            return datetime.strptime(candidate, "%Y-%m-%d").strftime("%Y-%m-%d")
+        except ValueError:
+            continue
+    parsed = parse_datetime(text)
+    if parsed:
+        return parsed.astimezone(DISPLAY_TIMEZONE).strftime("%Y-%m-%d")
     return text
 
 

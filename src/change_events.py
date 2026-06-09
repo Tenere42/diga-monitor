@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import difflib
 import json
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -72,6 +73,8 @@ def build_change_events(
         entry = new_entries.get(changed_entry.entry_id) or old_entries.get(changed_entry.entry_id) or {}
         for field in changed_entry.fields:
             change_type = classify_change(field.field_path, field.before, field.after)
+            if change_type == "price_change" and not has_semantic_price_change(field.before, field.after):
+                continue
             event = base_event(
                 detected_at=detected_at,
                 change_type=change_type,
@@ -154,6 +157,151 @@ def classify_change(field_name: str, before_value: Any, after_value: Any) -> str
     if isinstance(before_value, str) and isinstance(after_value, str):
         return "text_change"
     return "other_field_change"
+
+
+def has_semantic_price_change(before_value: Any, after_value: Any) -> bool:
+    before_periods = normalized_price_periods(extract_price_periods(before_value))
+    after_periods = normalized_price_periods(extract_price_periods(after_value))
+    if before_periods or after_periods:
+        return before_periods != after_periods
+    return normalize_json_value(before_value) != normalize_json_value(after_value)
+
+
+def extract_price_periods(value: Any) -> list[dict[str, str | None]]:
+    periods = []
+    for item in ensure_list(value):
+        if not isinstance(item, dict):
+            continue
+        period = find_period(item) or {}
+        amount = first_present_value(find_price_amounts(item) + find_amounts_in_text(item))
+        amount_number, currency = split_price_amount(amount)
+        periods.append(
+            {
+                "amount_number": amount_number,
+                "currency": currency,
+                "start": normalize_date_sort_key(period.get("start")),
+                "end": normalize_date_sort_key(period.get("end")),
+            }
+        )
+    return periods
+
+
+def normalized_price_periods(periods: list[dict[str, str | None]]) -> list[tuple[str, str, str, str]]:
+    return sorted(
+        (
+            str(period.get("amount_number") or ""),
+            str(period.get("start") or ""),
+            str(period.get("end") or ""),
+            str(period.get("currency") or ""),
+        )
+        for period in periods
+    )
+
+
+def ensure_list(value: Any) -> list[Any]:
+    if isinstance(value, list):
+        return value
+    if value is None:
+        return []
+    return [value]
+
+
+def find_period(value: Any) -> dict[str, Any] | None:
+    if isinstance(value, dict):
+        for key in ("effective_period", "effectivePeriod", "period"):
+            item = value.get(key)
+            if isinstance(item, dict) and (item.get("start") or item.get("end")):
+                return item
+        for item in value.values():
+            found = find_period(item)
+            if found:
+                return found
+    elif isinstance(value, list):
+        for item in value:
+            found = find_period(item)
+            if found:
+                return found
+    return None
+
+
+def find_price_amounts(value: Any) -> list[str]:
+    amounts = []
+    if isinstance(value, dict):
+        currency = value.get("currency")
+        amount = value.get("value")
+        if currency and isinstance(amount, (int, float, str)) and not isinstance(amount, bool):
+            amounts.append(f"{normalize_amount_for_display(amount)} {currency}")
+        for item in value.values():
+            amounts.extend(find_price_amounts(item))
+    elif isinstance(value, list):
+        for item in value:
+            amounts.extend(find_price_amounts(item))
+    return unique_values(amounts)
+
+
+def find_amounts_in_text(value: Any) -> list[str]:
+    text_values = []
+    if isinstance(value, dict):
+        for item in value.values():
+            text_values.extend(find_amounts_in_text(item))
+    elif isinstance(value, list):
+        for item in value:
+            text_values.extend(find_amounts_in_text(item))
+    elif isinstance(value, str):
+        for amount, currency in re.findall(r"(\d+(?:[.,]\d{1,2})?)\s*(€|EUR)", value, flags=re.IGNORECASE):
+            text_values.append(f"{normalize_amount_for_display(amount)} {'EUR' if currency.upper() == 'EUR' else currency}")
+    return unique_values(text_values)
+
+
+def split_price_amount(value: str | None) -> tuple[str | None, str | None]:
+    if not value:
+        return None, None
+    match = re.search(r"(\d+(?:[.,]\d+)?)\s*([A-Z]{3}|€)", value, flags=re.IGNORECASE)
+    if not match:
+        return normalize_amount_for_sort(value), None
+    amount, currency = match.groups()
+    normalized_currency = "EUR" if currency == "€" or currency.upper() == "EUR" else currency.upper()
+    return normalize_amount_for_sort(amount), normalized_currency
+
+
+def normalize_amount_for_display(value: Any) -> str:
+    if isinstance(value, float) and value.is_integer():
+        return str(int(value))
+    text = str(value).strip()
+    if text.endswith(".0"):
+        return text[:-2]
+    return text.replace(",", ".")
+
+
+def normalize_amount_for_sort(value: Any) -> str:
+    text = str(value).strip().replace(",", ".")
+    try:
+        number = float(text)
+    except ValueError:
+        return text.lower()
+    return f"{number:.6f}"
+
+
+def normalize_date_sort_key(value: Any) -> str:
+    if not value:
+        return ""
+    text = str(value)
+    return text[:10] if re.match(r"^\d{4}-\d{2}-\d{2}", text) else text
+
+
+def first_present_value(values: list[str]) -> str | None:
+    for value in values:
+        if value:
+            return value
+    return None
+
+
+def unique_values(values: list[str]) -> list[str]:
+    return list(dict.fromkeys(value for value in values if value))
+
+
+def normalize_json_value(value: Any) -> str:
+    return json.dumps(value, ensure_ascii=False, sort_keys=True)
 
 
 def apply_text_context(event: dict[str, Any]) -> None:
