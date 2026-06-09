@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import html
+import re
 from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -56,6 +57,8 @@ TEXT_KIND_LABELS = {
 }
 
 EXCERPT_CONTEXT_WORDS = 22
+LONG_TEXT_CONTEXT_WORDS = 36
+MAX_DIFF_EXCERPT_TOKENS = 150
 LONG_TEXT_CHAR_LIMIT = 400
 LONG_TEXT_WORD_LIMIT = 60
 LONG_TEXT_EXCERPT_CHARS = 500
@@ -80,6 +83,9 @@ def main() -> None:
         return
 
     grouped_events = group_events_by_diga(filtered_events)
+    if not grouped_events:
+        st.info("Keine echten Änderungen seit Tracking Beginn erkannt.")
+        return
     render_group_summary(grouped_events, filtered_events)
     for group in grouped_events:
         render_event_group(group)
@@ -299,6 +305,8 @@ def render_event_details(event: dict[str, Any]) -> None:
     change_type = event.get("change_type", "other_field_change")
     if change_type == "text_change" and event.get("word_diff"):
         render_text_change(event)
+    elif change_type == "price_change":
+        render_price_change(event)
     elif change_type == "new_diga":
         render_new_diga(event)
     elif change_type == "removed_diga":
@@ -319,6 +327,29 @@ def render_before_after(event: dict[str, Any]) -> None:
     before_value = event_previous_value(event)
     after_value = event_new_value(event)
     render_before_after_html(value_to_html(before_value), value_to_html(after_value))
+
+
+def render_price_change(event: dict[str, Any]) -> None:
+    analysis = analyze_price_change(event_previous_value(event), event_new_value(event))
+    st.markdown(f"**{html.escape(analysis['title'])}**")
+    if analysis.get("note"):
+        st.caption(str(analysis["note"]))
+
+    render_before_after_html(
+        lines_to_html(analysis["before_lines"]),
+        lines_to_html(analysis["after_lines"]),
+    )
+
+    with st.expander("Warum wurde diese Änderung erkannt?"):
+        st.markdown(analysis["explanation"])
+        if analysis.get("show_raw"):
+            with st.expander("Rohdaten anzeigen"):
+                st.markdown("**Geändertes Feld**")
+                st.write(event_field_name(event))
+                st.markdown("**Vorher**")
+                st.json(event_previous_value(event))
+                st.markdown("**Nachher**")
+                st.json(event_new_value(event))
 
 
 def render_new_diga(event: dict[str, Any]) -> None:
@@ -379,13 +410,19 @@ def render_long_text_change(event: dict[str, Any]) -> None:
     tokens = event.get("word_diff") if isinstance(event.get("word_diff"), list) else []
     st.markdown(f"**{summarize_long_text_change(event, tokens)}**")
 
-    removed_excerpt = changed_text_excerpt(tokens, "delete")
-    added_excerpt = changed_text_excerpt(tokens, "insert")
-    if removed_excerpt or added_excerpt:
+    before_tokens, after_tokens, truncated = compact_text_diff(
+        tokens,
+        context_words=LONG_TEXT_CONTEXT_WORDS,
+        max_tokens=MAX_DIFF_EXCERPT_TOKENS,
+    )
+    if before_tokens or after_tokens:
         render_before_after_html(
-            change_excerpt_html(removed_excerpt, tone="removed") if removed_excerpt else "<p>Kein Text entfernt</p>",
-            change_excerpt_html(added_excerpt, tone="added") if added_excerpt else "<p>Kein Text hinzugefügt</p>",
+            render_diff_column(before_tokens, side="before"),
+            render_diff_column(after_tokens, side="after"),
+            stacked=True,
         )
+        if truncated:
+            st.caption("Es wird nur der relevante Ausschnitt um die Änderung angezeigt.")
     else:
         st.info("Die Textänderung ist umfangreich. Die vollständigen Texte stehen im Aufklapper unten.")
 
@@ -470,6 +507,8 @@ def render_word_diff(tokens: list[dict[str, str]]) -> str:
 def compact_text_diff(
     tokens: list[dict[str, str]],
     text_change_kind: str | None = None,
+    context_words: int = EXCERPT_CONTEXT_WORDS,
+    max_tokens: int = MAX_DIFF_EXCERPT_TOKENS,
 ) -> tuple[list[dict[str, str]], list[dict[str, str]], bool]:
     changed_indexes = [
         index
@@ -479,31 +518,53 @@ def compact_text_diff(
     if not changed_indexes:
         return tokens, tokens, False
 
-    start = max(0, changed_indexes[0] - EXCERPT_CONTEXT_WORDS)
-    end = min(len(tokens), changed_indexes[-1] + EXCERPT_CONTEXT_WORDS + 1)
-    selected = tokens[start:end]
-    truncated_start = start > 0
-    truncated_end = end < len(tokens)
+    windows = build_diff_windows(changed_indexes, len(tokens), context_words, max_tokens)
+    truncated_start = windows[0][0] > 0
+    truncated_end = windows[-1][1] < len(tokens)
 
     before_tokens = [{"op": "ellipsis", "text": "..."}] if truncated_start else []
     after_tokens = [{"op": "ellipsis", "text": "..."}] if truncated_start else []
-    previous_op = None
-    for token in selected:
-        op = token.get("op")
-        if op in {"equal", "delete"}:
-            before_tokens.append(token)
-        if op in {"equal", "insert"}:
-            after_tokens.append(token)
-        elif op == "delete" and previous_op != "delete" and text_change_kind == "text_removed":
-            after_tokens.append({"op": "removed_placeholder", "text": "[Text entfernt]"})
-        elif op == "insert" and previous_op != "insert" and text_change_kind == "text_added":
-            before_tokens.append({"op": "added_placeholder", "text": "[Text ergänzt]"})
-        previous_op = op
+    for window_index, (start, end) in enumerate(windows):
+        if window_index:
+            before_tokens.append({"op": "ellipsis", "text": "..."})
+            after_tokens.append({"op": "ellipsis", "text": "..."})
+        for token in tokens[start:end]:
+            op = token.get("op")
+            if op in {"equal", "delete"}:
+                before_tokens.append(token)
+            if op in {"equal", "insert"}:
+                after_tokens.append(token)
     if truncated_end:
         before_tokens.append({"op": "ellipsis", "text": "..."})
         after_tokens.append({"op": "ellipsis", "text": "..."})
 
-    return before_tokens, after_tokens, truncated_start or truncated_end
+    return before_tokens, after_tokens, truncated_start or truncated_end or len(windows) > 1
+
+
+def build_diff_windows(
+    changed_indexes: list[int],
+    token_count: int,
+    context_words: int,
+    max_tokens: int,
+) -> list[tuple[int, int]]:
+    windows: list[tuple[int, int]] = []
+    for index in changed_indexes:
+        start = max(0, index - context_words)
+        end = min(token_count, index + context_words + 1)
+        if windows and start <= windows[-1][1]:
+            windows[-1] = (windows[-1][0], max(windows[-1][1], end))
+        else:
+            windows.append((start, end))
+
+    selected: list[tuple[int, int]] = []
+    used_tokens = 0
+    for start, end in windows:
+        window_size = end - start
+        if selected and used_tokens + window_size > max_tokens:
+            break
+        selected.append((start, end))
+        used_tokens += window_size
+    return selected or [windows[0]]
 
 
 def render_diff_column(tokens: list[dict[str, str]], side: str) -> str:
@@ -584,7 +645,201 @@ def render_wrapped_text(value: Any) -> None:
     )
 
 
-def render_before_after_html(before_html: str, after_html: str) -> None:
+def analyze_price_change(before_value: Any, after_value: Any) -> dict[str, Any]:
+    before_periods = extract_price_periods(before_value)
+    after_periods = extract_price_periods(after_value)
+    before_lines = price_period_lines(before_periods)
+    after_lines = price_period_lines(after_periods)
+    before_amounts = {period["amount"] for period in before_periods if period.get("amount")}
+    after_amounts = {period["amount"] for period in after_periods if period.get("amount")}
+
+    if before_lines or after_lines:
+        amount_changed = before_amounts != after_amounts
+        periods_changed = normalize_lines(before_lines) != normalize_lines(after_lines)
+        if amount_changed:
+            title = "Preiswert geändert"
+            explanation = "Der Preiswert wurde geändert."
+            note = None
+        elif periods_changed:
+            title = "Preiszeitraum aktualisiert"
+            explanation = (
+                "Der Preiswert selbst wurde nicht geändert. Das BfArM hat den bisherigen "
+                "Preiszeitraum angepasst oder einen neuen Preiszeitraum mit identischem Preis angelegt."
+            )
+            note = "Hinweis: Der Preiswert selbst wurde nicht verändert."
+        else:
+            title = "Keine sichtbare Preisänderung"
+            explanation = (
+                "Die gespeicherten Vergütungsdaten unterscheiden sich technisch, daraus lässt sich "
+                "aber keine sichtbare fachliche Preisänderung ableiten."
+            )
+            note = None
+
+        return {
+            "title": title,
+            "note": note,
+            "explanation": explanation,
+            "before_lines": before_lines or ["Keine Preisangaben gefunden"],
+            "after_lines": after_lines or ["Keine Preisangaben gefunden"],
+            "show_raw": title == "Keine sichtbare Preisänderung",
+            "visible_change": periods_changed or amount_changed,
+        }
+
+    return {
+        "title": "Technische Änderung in Preis-/Vergütungsdaten",
+        "note": None,
+        "explanation": (
+            "Die Datenstruktur zur Vergütung wurde geändert. Eine fachliche Preisänderung "
+            "konnte nicht eindeutig abgeleitet werden."
+        ),
+        "before_lines": ["Nicht eindeutig interpretierbare Vergütungsdaten"],
+        "after_lines": ["Nicht eindeutig interpretierbare Vergütungsdaten"],
+        "show_raw": True,
+        "visible_change": False,
+    }
+
+
+def extract_price_periods(value: Any) -> list[dict[str, str | None]]:
+    periods = []
+    for item in ensure_list(value):
+        if not isinstance(item, dict):
+            continue
+        period = find_period(item) or {}
+        amounts = find_price_amounts(item)
+        text_amounts = find_amounts_in_text(item)
+        amount = first_present_value(amounts + text_amounts)
+        periods.append(
+            {
+                "amount": amount,
+                "start": format_date_value(period.get("start")),
+                "end": format_date_value(period.get("end")),
+            }
+        )
+    return periods
+
+
+def ensure_list(value: Any) -> list[Any]:
+    if isinstance(value, list):
+        return value
+    if value is None:
+        return []
+    return [value]
+
+
+def find_period(value: Any) -> dict[str, Any] | None:
+    if isinstance(value, dict):
+        for key in ("effective_period", "effectivePeriod", "period"):
+            item = value.get(key)
+            if isinstance(item, dict) and (item.get("start") or item.get("end")):
+                return item
+        for item in value.values():
+            found = find_period(item)
+            if found:
+                return found
+    elif isinstance(value, list):
+        for item in value:
+            found = find_period(item)
+            if found:
+                return found
+    return None
+
+
+def find_price_amounts(value: Any) -> list[str]:
+    amounts = []
+    if isinstance(value, dict):
+        currency = value.get("currency")
+        amount = value.get("value")
+        if currency and isinstance(amount, (int, float, str)) and not isinstance(amount, bool):
+            amounts.append(f"{format_amount_value(amount)} {currency}")
+        for item in value.values():
+            amounts.extend(find_price_amounts(item))
+    elif isinstance(value, list):
+        for item in value:
+            amounts.extend(find_price_amounts(item))
+    return unique_values(amounts)
+
+
+def find_amounts_in_text(value: Any) -> list[str]:
+    text_values = []
+    if isinstance(value, dict):
+        for item in value.values():
+            text_values.extend(find_amounts_in_text(item))
+    elif isinstance(value, list):
+        for item in value:
+            text_values.extend(find_amounts_in_text(item))
+    elif isinstance(value, str):
+        for amount, currency in re.findall(r"(\d+(?:[.,]\d{1,2})?)\s*(€|EUR)", value, flags=re.IGNORECASE):
+            text_values.append(f"{format_amount_value(amount)} {'EUR' if currency.upper() == 'EUR' else currency}")
+    return unique_values(text_values)
+
+
+def price_period_lines(periods: list[dict[str, str | None]]) -> list[str]:
+    lines = []
+    for index, period in enumerate(periods, start=1):
+        amount = period.get("amount") or "Preis nicht angegeben"
+        validity = format_validity(period.get("start"), period.get("end"))
+        lines.append(f"Preiszeitraum {index}: {amount}, {validity}")
+    return lines
+
+
+def format_validity(start: str | None, end: str | None) -> str:
+    if start and end:
+        return f"gültig von {start} bis {end}"
+    if start:
+        return f"gültig ab {start}"
+    if end:
+        return f"gültig bis {end}"
+    return "Gültigkeitszeitraum nicht angegeben"
+
+
+def format_date_value(value: Any) -> str | None:
+    if not value:
+        return None
+    text = str(value)
+    for candidate in (text[:10], text):
+        try:
+            return datetime.strptime(candidate, "%Y-%m-%d").strftime("%d.%m.%Y")
+        except ValueError:
+            continue
+    parsed = parse_datetime(text)
+    if parsed:
+        return parsed.astimezone(DISPLAY_TIMEZONE).strftime("%d.%m.%Y")
+    return text
+
+
+def format_amount_value(value: Any) -> str:
+    if isinstance(value, float) and value.is_integer():
+        return str(int(value))
+    text = str(value).strip()
+    if text.endswith(".0"):
+        return text[:-2]
+    return text.replace(",", ".")
+
+
+def lines_to_html(lines: list[str]) -> str:
+    if not lines:
+        return "<p><em>Keine Angaben</em></p>"
+    items = "".join(f"<li>{html.escape(line)}</li>" for line in lines)
+    return f"<ul>{items}</ul>"
+
+
+def normalize_lines(lines: list[str]) -> list[str]:
+    return [" ".join(line.lower().split()) for line in lines]
+
+
+def first_present_value(values: list[str]) -> str | None:
+    for value in values:
+        if value:
+            return value
+    return None
+
+
+def unique_values(values: list[str]) -> list[str]:
+    return list(dict.fromkeys(value for value in values if value))
+
+
+def render_before_after_html(before_html: str, after_html: str, stacked: bool = False) -> None:
+    grid_class = "before-after-grid before-after-grid-stacked" if stacked else "before-after-grid"
     st.markdown(
         f"""
         <style>
@@ -618,13 +873,16 @@ def render_before_after_html(before_html: str, after_html: str) -> None:
         .before-after-content p {{
             margin: 0;
         }}
+        .before-after-grid-stacked {{
+            grid-template-columns: 1fr;
+        }}
         @media (max-width: 720px) {{
             .before-after-grid {{
                 grid-template-columns: 1fr;
             }}
         }}
         </style>
-        <div class="before-after-grid">
+        <div class="{grid_class}">
             <section class="before-after-card">
                 <div class="before-after-label">Vorher</div>
                 <div class="before-after-content">{before_html}</div>
@@ -712,6 +970,8 @@ def is_real_change_event(event: dict[str, Any]) -> bool:
         return False
     if event.get("development") or event.get("is_development") or event.get("baseline_cleanup"):
         return False
+    if is_metadata_event(event):
+        return False
 
     field_name = event_field_name(event).lower()
     before_value = event_previous_value(event)
@@ -778,7 +1038,12 @@ def group_events_by_diga(events: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
     result = []
     for (_diga_key, group_date), all_group_events in groups.items():
-        business_events = [event for event in all_group_events if not is_metadata_event(event)]
+        business_events = [
+            event
+            for event in all_group_events
+            if not is_metadata_event(event) and has_user_visible_change(event)
+        ]
+        business_events = deduplicate_events(business_events)
         if not business_events:
             continue
         business_events = sorted(
@@ -846,10 +1111,46 @@ def is_metadata_event(event: dict[str, Any]) -> bool:
     }
     if field_name in metadata_fields:
         return True
+    if field_name == "raw_public_fhir" or field_name.startswith("raw_public_fhir."):
+        return True
     return any(
         marker in field_name
         for marker in ("last_updated", "updated_at", "timestamp", "checked_sources")
     )
+
+
+def has_user_visible_change(event: dict[str, Any]) -> bool:
+    if event.get("change_type") == "price_change":
+        return bool(analyze_price_change(event_previous_value(event), event_new_value(event))["visible_change"])
+    return normalize_display_value(event_previous_value(event)) != normalize_display_value(event_new_value(event))
+
+
+def deduplicate_events(events: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    deduplicated = []
+    seen = set()
+    for event in events:
+        signature = (
+            event_field_name(event),
+            normalize_display_value(event_previous_value(event)),
+            normalize_display_value(event_new_value(event)),
+        )
+        if signature in seen:
+            continue
+        seen.add(signature)
+        deduplicated.append(event)
+    return deduplicated
+
+
+def normalize_display_value(value: Any) -> str:
+    if isinstance(value, list):
+        return "\n".join(sorted(normalize_display_value(item) for item in value))
+    if isinstance(value, dict):
+        return "\n".join(
+            f"{key}:{normalize_display_value(item)}"
+            for key, item in sorted(value.items())
+            if item is not None
+        )
+    return " ".join(str(value).split())
 
 
 def source_update_notice_label(events: list[dict[str, Any]]) -> str | None:

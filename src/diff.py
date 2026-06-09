@@ -12,6 +12,7 @@ from src.snapshot import Snapshot
 
 IDENTITY_KEYS = ("id", "identifier", "url", "name", "title")
 IGNORED_FIELD_PATHS = {"structured_text_sections"}
+IGNORED_FIELD_PREFIXES = ("raw_public_fhir",)
 
 
 @dataclass
@@ -98,7 +99,7 @@ def display_name(entry: dict[str, Any]) -> str:
 
 
 def diff_values(before: Any, after: Any, path: str = "") -> list[ChangedField]:
-    if path in IGNORED_FIELD_PATHS:
+    if is_ignored_field_path(path):
         return []
 
     if before == after:
@@ -108,7 +109,7 @@ def diff_values(before: Any, after: Any, path: str = "") -> list[ChangedField]:
         changes = []
         for key in sorted(set(before) | set(after)):
             child_path = join_path(path, key)
-            if child_path in IGNORED_FIELD_PATHS:
+            if is_ignored_field_path(child_path):
                 continue
             if key not in before:
                 changes.append(ChangedField(child_path, None, after[key]))
@@ -135,6 +136,12 @@ def diff_values(before: Any, after: Any, path: str = "") -> list[ChangedField]:
         text_diff = unified_text_diff(before, after)
 
     return [ChangedField(path or "<root>", before, after, text_diff)]
+
+
+def is_ignored_field_path(path: str) -> bool:
+    if path in IGNORED_FIELD_PATHS:
+        return True
+    return any(path == prefix or path.startswith(f"{prefix}.") for prefix in IGNORED_FIELD_PREFIXES)
 
 
 def join_path(parent: str, child: str) -> str:
