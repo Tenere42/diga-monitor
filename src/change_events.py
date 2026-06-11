@@ -15,6 +15,20 @@ from src.snapshot import Snapshot
 
 DEFAULT_CHANGES_DIR = Path("outputs/changes")
 
+TEXT_CONTEXT_KEYS = (
+    "main_section",
+    "tab_label",
+    "accordion_title",
+    "source_area_label",
+    "section_title",
+    "subsection_title",
+    "question_label",
+    "field_label",
+    "display_path",
+    "stable_key",
+    "localization_confidence",
+)
+
 FIELD_LABELS = {
     "evidence_summary_text": "Bewertungsentscheidung des BfArM",
     "descriptive_texts": "Beschreibung der DiGA",
@@ -73,6 +87,8 @@ def build_change_events(
         entry = new_entries.get(changed_entry.entry_id) or old_entries.get(changed_entry.entry_id) or {}
         for field in changed_entry.fields:
             change_type = classify_change(field.field_path, field.before, field.after)
+            if is_misclassified_steckbrief_evidence_change(field.field_path, field.before, field.after):
+                continue
             if change_type == "price_change" and not has_semantic_price_change(field.before, field.after):
                 continue
             event = base_event(
@@ -122,7 +138,7 @@ def base_event(
     if isinstance(entry.get("structured_text_sections"), list):
         context = context_from_sections(entry["structured_text_sections"], field_name)
         if context:
-            for key in ("source_area_label", "section_title", "subsection_title"):
+            for key in TEXT_CONTEXT_KEYS:
                 if context.get(key):
                     event[key] = context[key]
             event["user_facing_field_label"] = format_text_context_label(context)
@@ -131,11 +147,30 @@ def base_event(
 
 
 def enrich_event(event: dict[str, Any]) -> None:
+    apply_explicit_text_context(event)
     apply_text_context(event)
     event["user_facing_field_label"] = event.get("user_facing_field_label") or field_label(str(event.get("changed_field") or event.get("field_name") or ""))
     if event.get("change_type") == "text_change":
         event["text_change_kind"] = classify_text_change(event.get("word_diff") or [])
     event["summary_de"] = build_summary(event)
+
+
+def apply_explicit_text_context(event: dict[str, Any]) -> None:
+    field_name = str(event.get("changed_field") or event.get("field_name") or "")
+    if field_name != "evidence_summary_text":
+        return
+    if any(is_steckbrief_evidence_value(value) for value in (event.get("previous_value"), event.get("new_value"))):
+        event["localization_confidence"] = "low"
+        return
+    event.update(
+        {
+            "main_section": "Bewertungsentscheidung des BfArM",
+            "section_title": "Bewertungsentscheidung des BfArM",
+            "display_path": "Bewertungsentscheidung des BfArM",
+            "localization_confidence": "high",
+            "user_facing_field_label": "Bewertungsentscheidung des BfArM",
+        }
+    )
 
 
 def entry_summary(entry: dict[str, Any]) -> dict[str, Any]:
@@ -157,6 +192,19 @@ def classify_change(field_name: str, before_value: Any, after_value: Any) -> str
     if isinstance(before_value, str) and isinstance(after_value, str):
         return "text_change"
     return "other_field_change"
+
+
+def is_misclassified_steckbrief_evidence_change(field_name: str, before_value: Any, after_value: Any) -> bool:
+    if field_name != "evidence_summary_text":
+        return False
+    return any(is_steckbrief_evidence_value(value) for value in (before_value, after_value))
+
+
+def is_steckbrief_evidence_value(value: Any) -> bool:
+    if not isinstance(value, str):
+        return False
+    normalized = value.strip().lower()
+    return normalized.startswith("bitte geben sie hier einen steckbrief") or "steckbrief zu ihrer diga" in normalized
 
 
 def has_semantic_price_change(before_value: Any, after_value: Any) -> bool:
@@ -313,7 +361,7 @@ def apply_text_context(event: dict[str, Any]) -> None:
     if not context:
         return
 
-    for key in ("source_area_label", "section_title", "subsection_title"):
+    for key in TEXT_CONTEXT_KEYS:
         if context.get(key):
             event[key] = context[key]
     event["user_facing_field_label"] = format_text_context_label(context)
@@ -332,7 +380,7 @@ def find_structured_text_context(event: dict[str, Any], field_name: str) -> dict
 def context_from_sections(sections: list[Any], field_name: str) -> dict[str, str] | None:
     for section in sections:
         if isinstance(section, dict) and section.get("field_path") == field_name:
-            return {key: str(section[key]) for key in ("source_area_label", "section_title", "subsection_title") if section.get(key)}
+            return {key: str(section[key]) for key in TEXT_CONTEXT_KEYS if section.get(key)}
     return None
 
 
@@ -345,9 +393,21 @@ def infer_text_context_from_field(field_name: str) -> dict[str, str] | None:
     label = raw_label.split(".", 1)[-1].replace("_", " ")
     section_title = infer_section_title(label)
     return {
+        "main_section": section_title,
+        "tab_label": section_title,
+        "accordion_title": section_title,
         "source_area_label": section_title,
         "section_title": section_title,
         "subsection_title": label,
+        "question_label": label,
+        "field_label": label,
+        "display_path": format_text_context_label(
+            {
+                "section_title": section_title,
+                "subsection_title": label,
+            }
+        ),
+        "localization_confidence": "medium" if label else "low",
     }
 
 
@@ -377,14 +437,16 @@ def infer_section_title(label: str) -> str:
 
 
 def format_text_context_label(context: dict[str, str]) -> str:
+    if context.get("display_path"):
+        return context["display_path"]
     parts = []
-    section_title = context.get("section_title") or context.get("source_area_label")
-    subsection_title = context.get("subsection_title")
+    section_title = context.get("main_section") or context.get("section_title") or context.get("source_area_label")
+    subsection_title = context.get("question_label") or context.get("subsection_title") or context.get("field_label")
     if section_title:
         parts.append(section_title)
     if subsection_title and subsection_title not in parts:
         parts.append(subsection_title)
-    return " > ".join(parts) if parts else "Beschreibung der DiGA"
+    return " > ".join(parts) if parts else "Nicht eindeutig zugeordneter Textabschnitt"
 
 
 def classify_text_change(tokens: list[dict[str, str]]) -> str:

@@ -445,8 +445,10 @@ def extract_evidence_summary_text(
         question_labels = question_text_by_link_id(questionnaire) if questionnaire else {}
         for answer in questionnaire_answers(response):
             label = question_labels.get(answer["link_id"], answer["link_id"])
-            haystack = f"{label} {answer['text']}".lower()
-            if any(keyword in haystack for keyword in evidence_keywords):
+            label_lower = label.lower()
+            if is_steckbrief_question(label_lower):
+                continue
+            if any(keyword in label_lower for keyword in evidence_keywords):
                 evidence_parts.append(f"{label}: {answer['text']}")
 
     if not evidence_parts:
@@ -454,21 +456,55 @@ def extract_evidence_summary_text(
     return clean_text("\n\n".join(evidence_parts))
 
 
+def is_steckbrief_question(label_lower: str) -> bool:
+    return "steckbrief" in label_lower
+
+
 def build_structured_text_sections(descriptive_texts: dict[str, str]) -> list[dict[str, str]]:
     sections = []
     for field_path, text in sorted(descriptive_texts.items()):
-        subsection_title = text_label_from_field_path(field_path)
-        section_title = infer_section_title(subsection_title)
+        context = structural_context_from_field_path(field_path)
         sections.append(
             {
                 "field_path": f"descriptive_texts.{field_path}",
-                "source_area_label": section_title,
-                "section_title": section_title,
-                "subsection_title": subsection_title,
+                "stable_key": stable_text_key("descriptive_texts", field_path, context),
+                "main_section": context["main_section"],
+                "tab_label": context["main_section"],
+                "accordion_title": context["section_title"],
+                "source_area_label": context["main_section"],
+                "section_title": context["section_title"],
+                "subsection_title": context["subsection_title"],
+                "question_label": context["question_label"],
+                "field_label": context["field_label"],
+                "display_path": context["display_path"],
+                "localization_confidence": context["localization_confidence"],
+                "raw_text": text,
                 "text": text,
             }
         )
     return sections
+
+
+def structural_context_from_field_path(field_path: str) -> dict[str, str]:
+    label = text_label_from_field_path(field_path)
+    main_section = main_section_from_field_path(field_path, label)
+    subsection_title = label if label else "Nicht eindeutig zugeordneter Textabschnitt"
+    display_path = " > ".join(
+        part
+        for part in (main_section, subsection_title)
+        if part and part != "Nicht eindeutig zugeordneter Textabschnitt"
+    )
+    if not display_path:
+        display_path = "Nicht eindeutig zugeordneter Textabschnitt"
+    return {
+        "main_section": main_section,
+        "section_title": main_section,
+        "subsection_title": subsection_title,
+        "question_label": label,
+        "field_label": label,
+        "display_path": display_path,
+        "localization_confidence": "high" if label else "low",
+    }
 
 
 def text_label_from_field_path(field_path: str) -> str:
@@ -477,7 +513,15 @@ def text_label_from_field_path(field_path: str) -> str:
     return field_path.split(".", 1)[-1].replace("_", " ")
 
 
-def infer_section_title(label: str) -> str:
+def main_section_from_field_path(field_path: str, label: str) -> str:
+    if field_path.startswith("questionnaire."):
+        return section_from_question_label(label)
+    if field_path.startswith(("health_app.", "catalog_entry.")):
+        return "Beschreibung der DiGA"
+    return "Nicht eindeutig zugeordneter Textabschnitt"
+
+
+def section_from_question_label(label: str) -> str:
     normalized = label.lower()
     if any(
         marker in normalized
@@ -500,6 +544,21 @@ def infer_section_title(label: str) -> str:
     if any(marker in normalized for marker in ("preis", "kosten", "vergütung")):
         return "Weitere Informationen"
     return "Beschreibung der DiGA"
+
+
+def stable_text_key(root: str, field_path: str, context: dict[str, str]) -> str:
+    parts = [
+        root,
+        context.get("main_section", ""),
+        context.get("section_title", ""),
+        context.get("question_label", ""),
+        field_path,
+    ]
+    return "|".join(normalize_stable_key_part(part) for part in parts if part)
+
+
+def normalize_stable_key_part(value: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
 
 
 def extract_change_history(catalog_entry: dict[str, Any]) -> list[dict[str, Any]]:

@@ -321,6 +321,8 @@ def render_adjustment_header(index: int, event: dict[str, Any]) -> None:
     st.markdown(f"**{html.escape(title)}**")
     if path:
         st.caption(f"Informationspfad: {path}")
+    if event.get("localization_confidence") == "low":
+        st.caption("Die Änderung wurde erkannt, konnte aber keinem sichtbaren Abschnitt eindeutig zugeordnet werden.")
 
 
 def render_before_after(event: dict[str, Any]) -> None:
@@ -1056,8 +1058,10 @@ def field_label(event_or_field_name: dict[str, Any] | str) -> str:
 
 
 def text_context_label(event: dict[str, Any]) -> str | None:
-    section_title = event.get("section_title") or event.get("source_area_label")
-    subsection_title = event.get("subsection_title")
+    if event.get("display_path"):
+        return str(event["display_path"])
+    section_title = event.get("main_section") or event.get("section_title") or event.get("source_area_label")
+    subsection_title = event.get("question_label") or event.get("subsection_title") or event.get("field_label")
     parts = [str(part) for part in (section_title, subsection_title) if part]
     if not parts:
         return None
@@ -1162,6 +1166,8 @@ def event_diga_key(event: dict[str, Any]) -> str:
 
 def is_metadata_event(event: dict[str, Any]) -> bool:
     field_name = event_field_name(event).lower()
+    if is_misclassified_steckbrief_evidence_event(event):
+        return True
     metadata_fields = {
         "source_update_notice",
         "source_update_notice.checked_sources",
@@ -1178,6 +1184,22 @@ def is_metadata_event(event: dict[str, Any]) -> bool:
     )
 
 
+def is_misclassified_steckbrief_evidence_event(event: dict[str, Any]) -> bool:
+    if event_field_name(event) != "evidence_summary_text":
+        return False
+    return any(
+        is_steckbrief_evidence_value(value)
+        for value in (event_previous_value(event), event_new_value(event))
+    )
+
+
+def is_steckbrief_evidence_value(value: Any) -> bool:
+    if not isinstance(value, str):
+        return False
+    normalized = value.strip().lower()
+    return normalized.startswith("bitte geben sie hier einen steckbrief") or "steckbrief zu ihrer diga" in normalized
+
+
 def has_user_visible_change(event: dict[str, Any]) -> bool:
     if event.get("change_type") == "price_change":
         return bool(analyze_price_change(event_previous_value(event), event_new_value(event))["visible_change"])
@@ -1187,17 +1209,59 @@ def has_user_visible_change(event: dict[str, Any]) -> bool:
 def deduplicate_events(events: list[dict[str, Any]]) -> list[dict[str, Any]]:
     deduplicated = []
     seen = set()
-    for event in events:
-        signature = (
-            event_field_name(event),
-            normalize_display_value(event_previous_value(event)),
-            normalize_display_value(event_new_value(event)),
-        )
+    for event in sorted(events, key=event_localization_score, reverse=True):
+        signature = duplicate_event_signature(event)
         if signature in seen:
             continue
         seen.add(signature)
         deduplicated.append(event)
-    return deduplicated
+    return sorted(deduplicated, key=lambda event: events.index(event))
+
+
+def duplicate_event_signature(event: dict[str, Any]) -> tuple[str, ...]:
+    if event.get("change_type") == "text_change":
+        changed_phrase = changed_phrase_signature(event)
+        if changed_phrase:
+            return ("text_change", changed_phrase)
+    return (
+        event_field_name(event),
+        normalize_display_value(event_previous_value(event)),
+        normalize_display_value(event_new_value(event)),
+    )
+
+
+def changed_phrase_signature(event: dict[str, Any]) -> str | None:
+    tokens = event.get("word_diff")
+    if not isinstance(tokens, list):
+        return None
+    changed = [
+        str(token.get("text", "")).strip().lower()
+        for token in tokens
+        if token.get("op") in {"insert", "delete"} and str(token.get("text", "")).strip()
+    ]
+    if not changed:
+        return None
+    return " ".join(changed)
+
+
+def event_localization_score(event: dict[str, Any]) -> int:
+    field_name = event_field_name(event)
+    score = 0
+    if field_name.startswith("descriptive_texts."):
+        score += 30
+    if event.get("display_path"):
+        score += 20
+    if event.get("question_label") or event.get("subsection_title"):
+        score += 15
+    if event.get("main_section") or event.get("section_title"):
+        score += 10
+    if field_name == "evidence_summary_text":
+        score += 5
+    if event.get("localization_confidence") == "low":
+        score -= 20
+    if is_misclassified_steckbrief_evidence_event(event):
+        score -= 100
+    return score
 
 
 def normalize_display_value(value: Any) -> str:
