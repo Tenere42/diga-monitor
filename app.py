@@ -1086,7 +1086,7 @@ def is_real_change_event(event: dict[str, Any]) -> bool:
 def field_label(event_or_field_name: dict[str, Any] | str) -> str:
     if isinstance(event_or_field_name, dict):
         if event_or_field_name.get("user_facing_field_label"):
-            return str(event_or_field_name["user_facing_field_label"])
+            return normalize_display_path(str(event_or_field_name["user_facing_field_label"]))
         context_label = text_context_label(event_or_field_name)
         if context_label:
             return context_label
@@ -1099,20 +1099,32 @@ def field_label(event_or_field_name: dict[str, Any] | str) -> str:
 
 def text_context_label(event: dict[str, Any]) -> str | None:
     if event.get("display_path"):
-        return str(event["display_path"])
+        return normalize_display_path(str(event["display_path"]))
     section_title = event.get("main_section") or event.get("section_title") or event.get("source_area_label")
     subsection_title = event.get("question_label") or event.get("subsection_title") or event.get("field_label")
     parts = [str(part) for part in (section_title, subsection_title) if part]
     if not parts:
         return None
-    return " > ".join(dict.fromkeys(parts))
+    return normalize_display_path(" > ".join(dict.fromkeys(parts)))
 
 
 def split_field_label(label: str) -> tuple[str, str | None]:
-    parts = [part.strip() for part in label.split(" > ") if part.strip()]
+    parts = [user_facing_question_label(part.strip()) for part in label.split(" > ") if part.strip()]
     if len(parts) >= 2:
         return parts[-1], " > ".join(parts[:-1])
     return label, None
+
+
+def normalize_display_path(path: str) -> str:
+    parts = [user_facing_question_label(part.strip()) for part in path.split(" > ") if part.strip()]
+    return " > ".join(parts)
+
+
+def user_facing_question_label(label: str) -> str:
+    normalized = label.strip().rstrip(":").lower()
+    if "steckbrief" in normalized and "diga" in normalized:
+        return "Steckbrief der DiGA"
+    return label
 
 
 def event_title_label(event: dict[str, Any]) -> str:

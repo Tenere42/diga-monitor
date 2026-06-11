@@ -390,7 +390,7 @@ def infer_text_context_from_field(field_name: str) -> dict[str, str] | None:
     raw_label = field_name.removeprefix("descriptive_texts.")
     if raw_label.startswith("questionnaire."):
         raw_label = raw_label.removeprefix("questionnaire.")
-    label = raw_label.split(".", 1)[-1].replace("_", " ")
+    label = user_facing_question_label(raw_label.split(".", 1)[-1].replace("_", " "))
     section_title = infer_section_title(label)
     return {
         "main_section": section_title,
@@ -438,7 +438,7 @@ def infer_section_title(label: str) -> str:
 
 def format_text_context_label(context: dict[str, str]) -> str:
     if context.get("display_path"):
-        return context["display_path"]
+        return normalize_display_path(context["display_path"])
     parts = []
     section_title = context.get("main_section") or context.get("section_title") or context.get("source_area_label")
     subsection_title = context.get("question_label") or context.get("subsection_title") or context.get("field_label")
@@ -447,6 +447,18 @@ def format_text_context_label(context: dict[str, str]) -> str:
     if subsection_title and subsection_title not in parts:
         parts.append(subsection_title)
     return " > ".join(parts) if parts else "Nicht eindeutig zugeordneter Textabschnitt"
+
+
+def normalize_display_path(path: str) -> str:
+    parts = [user_facing_question_label(part.strip()) for part in path.split(" > ") if part.strip()]
+    return " > ".join(parts)
+
+
+def user_facing_question_label(label: str) -> str:
+    normalized = label.strip().rstrip(":").lower()
+    if "steckbrief" in normalized and "diga" in normalized:
+        return "Steckbrief der DiGA"
+    return label
 
 
 def classify_text_change(tokens: list[dict[str, str]]) -> str:

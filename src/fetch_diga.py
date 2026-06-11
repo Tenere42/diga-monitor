@@ -486,8 +486,9 @@ def build_structured_text_sections(descriptive_texts: dict[str, str]) -> list[di
 
 
 def structural_context_from_field_path(field_path: str) -> dict[str, str]:
-    label = text_label_from_field_path(field_path)
-    main_section = main_section_from_field_path(field_path, label)
+    raw_label = text_label_from_field_path(field_path)
+    label = user_facing_question_label(raw_label)
+    main_section = main_section_from_field_path(field_path, raw_label)
     subsection_title = label if label else "Nicht eindeutig zugeordneter Textabschnitt"
     display_path = " > ".join(
         part
@@ -511,6 +512,13 @@ def text_label_from_field_path(field_path: str) -> str:
     if field_path.startswith("questionnaire."):
         return field_path.removeprefix("questionnaire.")
     return field_path.split(".", 1)[-1].replace("_", " ")
+
+
+def user_facing_question_label(label: str) -> str:
+    normalized = label.strip().rstrip(":").lower()
+    if "steckbrief" in normalized and "diga" in normalized:
+        return "Steckbrief der DiGA"
+    return label
 
 
 def main_section_from_field_path(field_path: str, label: str) -> str:
