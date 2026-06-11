@@ -100,6 +100,10 @@ def render_page_header() -> None:
             --diga-header-text: #1f2937;
             --diga-header-muted: #4b5563;
             --diga-header-value: #111827;
+            --diga-diff-added-bg: rgba(22, 163, 74, 0.16);
+            --diga-diff-added-border: #16a34a;
+            --diga-diff-removed-bg: rgba(220, 38, 38, 0.16);
+            --diga-diff-removed-border: #dc2626;
         }
         @media (prefers-color-scheme: dark) {
             :root {
@@ -107,6 +111,10 @@ def render_page_header() -> None:
                 --diga-header-text: #f3f4f6;
                 --diga-header-muted: #d1d5db;
                 --diga-header-value: #ffffff;
+                --diga-diff-added-bg: rgba(34, 197, 94, 0.24);
+                --diga-diff-added-border: #22c55e;
+                --diga-diff-removed-bg: rgba(248, 113, 113, 0.24);
+                --diga-diff-removed-border: #f87171;
             }
         }
         .diga-page-header {
@@ -493,13 +501,13 @@ def render_word_diff(tokens: list[dict[str, str]]) -> str:
         op = token.get("op")
         if op == "insert":
             parts.append(
-                "<span style='background:rgba(22,163,74,0.18);color:inherit;"
-                f"border-bottom:2px solid #16a34a;padding:0 2px'>{text}</span>"
+                "<span style='background:var(--diga-diff-added-bg, rgba(22,163,74,0.18));color:inherit;"
+                f"border-bottom:2px solid var(--diga-diff-added-border, #16a34a);padding:0 2px'>{text}</span>"
             )
         elif op == "delete":
             parts.append(
-                "<span style='background:rgba(239,68,68,0.18);color:inherit;"
-                f"border-bottom:2px solid #ef4444;text-decoration:line-through;padding:0 2px'>{text}</span>"
+                "<span style='background:var(--diga-diff-removed-bg, rgba(239,68,68,0.18));color:inherit;"
+                f"border-bottom:2px solid var(--diga-diff-removed-border, #ef4444);text-decoration:line-through;padding:0 2px'>{text}</span>"
             )
         else:
             parts.append(text)
@@ -576,13 +584,13 @@ def render_diff_column(tokens: list[dict[str, str]], side: str) -> str:
         text = html.escape(token.get("text", ""))
         if op == "delete" and side == "before":
             parts.append(
-                "<mark style='background:rgba(239,68,68,0.18);color:inherit;"
-                f"border-bottom:2px solid #ef4444;text-decoration:line-through;padding:0 2px'>{text}</mark>"
+                "<mark style='background:var(--diga-diff-removed-bg, rgba(239,68,68,0.18));color:inherit;"
+                f"border-bottom:2px solid var(--diga-diff-removed-border, #ef4444);text-decoration:line-through;padding:0 2px'>{text}</mark>"
             )
         elif op == "insert" and side == "after":
             parts.append(
-                "<mark style='background:rgba(22,163,74,0.18);color:inherit;"
-                f"border-bottom:2px solid #16a34a;padding:0 2px'>{text}</mark>"
+                "<mark style='background:var(--diga-diff-added-bg, rgba(22,163,74,0.18));color:inherit;"
+                f"border-bottom:2px solid var(--diga-diff-added-border, #16a34a);padding:0 2px'>{text}</mark>"
             )
         elif op == "ellipsis":
             parts.append(f"<span style='color:#6b7280'>{text}</span>")
@@ -637,12 +645,44 @@ def render_wrapped_text(value: Any) -> None:
     text = html.escape(format_value(value))
     text = text.replace("\n", "<br>")
     st.markdown(
-        (
-            "<div style='white-space:normal; overflow-wrap:anywhere; word-break:normal; "
-            "line-height:1.65; border:1px solid #e5e7eb; border-radius:6px; padding:0.85rem; "
-            "background:#fafafa; max-height:28rem; overflow-y:auto;'>"
-            f"{text}</div>"
-        ),
+        f"""
+        <style>
+        .full-text-box {{
+            white-space: normal;
+            overflow-wrap: anywhere;
+            word-break: break-word;
+            line-height: 1.65;
+            border: 1px solid var(--diga-full-text-border, #cbd5e1);
+            border-radius: 8px;
+            padding: 0.85rem;
+            background: var(--diga-full-text-bg, #f8fafc);
+            color: var(--diga-full-text-color, #111827);
+            max-height: 28rem;
+            overflow-y: auto;
+            overflow-x: hidden;
+            margin: 0.35rem 0 1rem;
+        }}
+        .full-text-box * {{
+            color: inherit;
+        }}
+        @media (prefers-color-scheme: dark) {{
+            :root {{
+                --diga-full-text-bg: #111827;
+                --diga-full-text-color: #f9fafb;
+                --diga-full-text-border: #4b5563;
+            }}
+        }}
+        @media (max-width: 720px) {{
+            .full-text-box {{
+                max-height: none;
+                font-size: 0.98rem;
+                line-height: 1.7;
+                padding: 0.8rem;
+            }}
+        }}
+        </style>
+        <div class="full-text-box">{text}</div>
+        """,
         unsafe_allow_html=True,
     )
 
