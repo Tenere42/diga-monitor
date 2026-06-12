@@ -89,6 +89,8 @@ def build_change_events(
             change_type = classify_change(field.field_path, field.before, field.after)
             if is_misclassified_steckbrief_evidence_change(field.field_path, field.before, field.after):
                 continue
+            if is_reclassified_evidence_description_change(field.field_path, field.before, field.after, entry):
+                continue
             if change_type == "price_change" and not has_semantic_price_change(field.before, field.after):
                 continue
             event = base_event(
@@ -205,6 +207,62 @@ def is_steckbrief_evidence_value(value: Any) -> bool:
         return False
     normalized = value.strip().lower()
     return normalized.startswith("bitte geben sie hier einen steckbrief") or "steckbrief zu ihrer diga" in normalized
+
+
+def is_reclassified_evidence_description_change(
+    field_name: str,
+    before_value: Any,
+    after_value: Any,
+    entry: dict[str, Any],
+) -> bool:
+    if field_name != "evidence_summary_text":
+        return False
+    if not isinstance(before_value, str) or not isinstance(after_value, str):
+        return False
+    description_blob = normalized_description_blob(entry)
+    if not description_blob:
+        return False
+    for candidate in removed_text_candidates(before_value, after_value):
+        normalized_candidate = normalize_monitor_text(strip_leading_section_label(candidate))
+        if len(normalized_candidate.split()) < 20:
+            continue
+        if normalized_candidate in description_blob or normalized_candidate[:240] in description_blob:
+            return True
+    return False
+
+
+def normalized_description_blob(entry: dict[str, Any]) -> str:
+    texts = []
+    descriptive_texts = entry.get("descriptive_texts")
+    if isinstance(descriptive_texts, dict):
+        texts.extend(str(value) for value in descriptive_texts.values() if value)
+    structured_sections = entry.get("structured_text_sections")
+    if isinstance(structured_sections, list):
+        texts.extend(str(section.get("text") or section.get("raw_text") or "") for section in structured_sections if isinstance(section, dict))
+    return normalize_monitor_text(" ".join(texts))
+
+
+def removed_text_candidates(before_value: str, after_value: str) -> list[str]:
+    before_words = before_value.split()
+    after_words = after_value.split()
+    matcher = difflib.SequenceMatcher(a=before_words, b=after_words, autojunk=False)
+    candidates = []
+    for tag, start_before, end_before, _start_after, _end_after in matcher.get_opcodes():
+        if tag in {"delete", "replace"}:
+            candidates.append(" ".join(before_words[start_before:end_before]))
+    return candidates
+
+
+def strip_leading_section_label(value: str) -> str:
+    text = value.strip()
+    colon_index = text.find(":")
+    if 0 <= colon_index <= 180:
+        return text[colon_index + 1 :].strip()
+    return text
+
+
+def normalize_monitor_text(value: str) -> str:
+    return " ".join(value.lower().split())
 
 
 def has_semantic_price_change(before_value: Any, after_value: Any) -> bool:

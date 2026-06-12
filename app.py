@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import html
+import json
 import re
 from datetime import date, datetime, timezone
 from pathlib import Path
@@ -1220,6 +1221,8 @@ def is_metadata_event(event: dict[str, Any]) -> bool:
     field_name = event_field_name(event).lower()
     if is_misclassified_steckbrief_evidence_event(event):
         return True
+    if is_reclassified_evidence_description_event(event):
+        return True
     metadata_fields = {
         "source_update_notice",
         "source_update_notice.checked_sources",
@@ -1250,6 +1253,117 @@ def is_steckbrief_evidence_value(value: Any) -> bool:
         return False
     normalized = value.strip().lower()
     return normalized.startswith("bitte geben sie hier einen steckbrief") or "steckbrief zu ihrer diga" in normalized
+
+
+def is_reclassified_evidence_description_event(event: dict[str, Any]) -> bool:
+    if event_field_name(event) != "evidence_summary_text":
+        return False
+    before_value = event_previous_value(event)
+    after_value = event_new_value(event)
+    if not isinstance(before_value, str) or not isinstance(after_value, str):
+        return False
+    entry = current_snapshot_entry(event)
+    if not entry:
+        return False
+    description_blob = normalized_description_blob(entry)
+    if not description_blob:
+        return False
+    for candidate in removed_text_candidates(before_value, after_value):
+        normalized_candidate = normalize_monitor_text(strip_leading_section_label(candidate))
+        if len(normalized_candidate.split()) < 20:
+            continue
+        if normalized_candidate in description_blob or normalized_candidate[:240] in description_blob:
+            return True
+    return False
+
+
+def current_snapshot_entry(event: dict[str, Any]) -> dict[str, Any] | None:
+    snapshot_path = snapshot_path_for_timestamp(event.get("current_snapshot_timestamp"))
+    if not snapshot_path:
+        return None
+    entries = load_snapshot_entries(str(snapshot_path))
+    candidates = [
+        str(event.get("diga_id") or "").lower(),
+        str(event.get("diga_name") or "").lower(),
+        str(event.get("bfarm_directory_url") or "").lower(),
+    ]
+    for entry in entries:
+        entry_keys = {
+            str(entry.get("id") or "").lower(),
+            str(entry.get("identifier") or "").lower(),
+            str(entry.get("name") or "").lower(),
+            str(entry.get("bfarm_directory_url") or "").lower(),
+        }
+        if any(candidate and candidate in entry_keys for candidate in candidates):
+            return entry
+    return None
+
+
+def snapshot_path_for_timestamp(value: Any) -> Path | None:
+    target = parse_datetime(value)
+    if not target:
+        return None
+    candidates = [
+        (abs((parsed - target).total_seconds()), path)
+        for path in SNAPSHOT_DIR.glob(f"{SNAPSHOT_FILENAME_PREFIX}*{SNAPSHOT_FILENAME_SUFFIX}")
+        if (parsed := parse_snapshot_timestamp(path))
+    ]
+    if not candidates:
+        return None
+    _delta, path = min(candidates, key=lambda item: item[0])
+    return path
+
+
+@st.cache_data(show_spinner=False)
+def load_snapshot_entries(path: str) -> list[dict[str, Any]]:
+    with Path(path).open("r", encoding="utf-8") as file:
+        payload = json.load(file)
+    entries = payload.get("entries", [])
+    return entries if isinstance(entries, list) else []
+
+
+def normalized_description_blob(entry: dict[str, Any]) -> str:
+    texts = []
+    descriptive_texts = entry.get("descriptive_texts")
+    if isinstance(descriptive_texts, dict):
+        texts.extend(str(value) for value in descriptive_texts.values() if value)
+    structured_sections = entry.get("structured_text_sections")
+    if isinstance(structured_sections, list):
+        texts.extend(
+            str(section.get("text") or section.get("raw_text") or "")
+            for section in structured_sections
+            if isinstance(section, dict)
+        )
+    return normalize_monitor_text(" ".join(texts))
+
+
+def removed_text_candidates(before_value: str, after_value: str) -> list[str]:
+    before_words = before_value.split()
+    after_words = after_value.split()
+    matcher = difflib_sequence_matcher(before_words, after_words)
+    candidates = []
+    for tag, start_before, end_before, _start_after, _end_after in matcher.get_opcodes():
+        if tag in {"delete", "replace"}:
+            candidates.append(" ".join(before_words[start_before:end_before]))
+    return candidates
+
+
+def difflib_sequence_matcher(before_words: list[str], after_words: list[str]) -> Any:
+    import difflib
+
+    return difflib.SequenceMatcher(a=before_words, b=after_words, autojunk=False)
+
+
+def strip_leading_section_label(value: str) -> str:
+    text = value.strip()
+    colon_index = text.find(":")
+    if 0 <= colon_index <= 180:
+        return text[colon_index + 1 :].strip()
+    return text
+
+
+def normalize_monitor_text(value: str) -> str:
+    return " ".join(value.lower().split())
 
 
 def has_user_visible_change(event: dict[str, Any]) -> bool:
