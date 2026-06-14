@@ -14,7 +14,7 @@ from src.change_events import build_change_events, save_change_events
 from src.diff import diff_snapshots, render_report
 from src.fetch_diga import fetch_diga_entries
 from src.notifications import notify_changes
-from src.render_directory import inspect_rendered_structure_file, render_diga_entry
+from src.render_directory import diff_content_section_files, inspect_rendered_structure_file, render_diga_entry
 from src.scan_history import append_scan_history
 from src.simulations import run_simulation
 from src.snapshot import DEFAULT_SNAPSHOT_DIR, Snapshot, latest_snapshot_paths, list_snapshot_paths, load_snapshot, save_snapshot
@@ -67,6 +67,13 @@ def build_parser() -> argparse.ArgumentParser:
         )
         inspect_parser.add_argument("--file", required=True, type=Path, help="Path to a *_structure.json file.")
         inspect_parser.add_argument("--out", type=Path, help="Optional Markdown output path.")
+    content_diff_parser = subparsers.add_parser(
+        "diff-content-sections",
+        help="Dry-run diff for two rendered DiGA structure JSON files based on content_sections.",
+    )
+    content_diff_parser.add_argument("--before", required=True, type=Path, help="Previous *_structure.json file.")
+    content_diff_parser.add_argument("--after", required=True, type=Path, help="Current *_structure.json file.")
+    content_diff_parser.add_argument("--out", type=Path, help="Optional Markdown output path.")
     simulate_suite_parser = subparsers.add_parser("simulate", help="Generate safe simulated change events.")
     simulate_suite_parser.add_argument(
         "scenario",
@@ -127,6 +134,9 @@ def main() -> int:
 
     if args.command in {"inspect-structure", "inspect-rendered-structure"}:
         return inspect_structure_command(args)
+
+    if args.command == "diff-content-sections":
+        return diff_content_sections_command(args)
 
     if args.command == "simulate":
         return run_simulation_command(args.snapshot_dir, args.scenario, notify=args.notify, dry_run=args.dry_run)
@@ -243,6 +253,15 @@ def inspect_structure_command(args: argparse.Namespace) -> int:
     if args.out:
         print()
         print(f"Markdown preview written to: {args.out}")
+    return 0
+
+
+def diff_content_sections_command(args: argparse.Namespace) -> int:
+    report = diff_content_section_files(args.before, args.after, output_path=args.out)
+    print(report, end="")
+    if args.out:
+        print()
+        print(f"Markdown diff written to: {args.out}")
     return 0
 
 

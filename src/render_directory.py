@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import json
 import re
+from difflib import SequenceMatcher
 from hashlib import sha1
 from datetime import datetime, timezone
 from pathlib import Path
@@ -144,6 +145,155 @@ def inspect_rendered_structure_file(path: Path, output_path: Path | None = None)
     return report
 
 
+def diff_content_section_files(before_path: Path, after_path: Path, output_path: Path | None = None) -> str:
+    """Dry-run diff for rendered content_sections based on stable_key."""
+
+    with before_path.open("r", encoding="utf-8") as file:
+        before_payload = json.load(file)
+    with after_path.open("r", encoding="utf-8") as file:
+        after_payload = json.load(file)
+
+    before_sections = load_diffable_sections(before_payload)
+    after_sections = load_diffable_sections(after_payload)
+    changes = diff_content_sections(before_sections, after_sections)
+    report = render_content_section_diff_report(before_payload, after_payload, changes)
+    if output_path:
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        output_path.write_text(report, encoding="utf-8")
+    return report
+
+
+def load_diffable_sections(payload: dict[str, Any]) -> dict[str, list[dict[str, Any]]]:
+    grouped_sections: dict[str, list[dict[str, Any]]] = {}
+    for section in payload.get("content_sections", []):
+        if not isinstance(section, dict):
+            continue
+        path = [str(part) for part in section.get("path", []) if str(part).strip()]
+        if not is_content_path(path):
+            continue
+        stable_key = str(section.get("stable_key") or "").strip()
+        content = normalize_content_value(section.get("content"))
+        if not stable_key or not content:
+            continue
+        normalized = dict(section)
+        normalized["path"] = path
+        normalized["content"] = content
+        grouped_sections.setdefault(stable_key, []).append(normalized)
+
+    return {
+        stable_key: sorted(group, key=lambda section: section.get("content", ""))
+        for stable_key, group in grouped_sections.items()
+    }
+
+
+def diff_content_sections(
+    before_sections: dict[str, list[dict[str, Any]]],
+    after_sections: dict[str, list[dict[str, Any]]],
+) -> list[dict[str, Any]]:
+    changes: list[dict[str, Any]] = []
+
+    before_keys = set(before_sections)
+    after_keys = set(after_sections)
+
+    for key in sorted(after_keys - before_keys, key=lambda item: display_path(after_sections[item][0])):
+        for section in after_sections[key]:
+            changes.append(section_change("added_section", section=section))
+
+    for key in sorted(before_keys - after_keys, key=lambda item: display_path(before_sections[item][0])):
+        for section in before_sections[key]:
+            changes.append(section_change("removed_section", section=section))
+
+    for key in sorted(before_keys & after_keys, key=lambda item: display_path(after_sections[item][0])):
+        before_group = before_sections[key]
+        after_group = after_sections[key]
+        before_values = [normalize_content_value(section.get("content")) for section in before_group]
+        after_values = [normalize_content_value(section.get("content")) for section in after_group]
+        if before_values == after_values:
+            continue
+        matcher = SequenceMatcher(a=before_values, b=after_values, autojunk=False)
+        for op, i1, i2, j1, j2 in matcher.get_opcodes():
+            if op == "equal":
+                continue
+            before_slice = before_group[i1:i2]
+            after_slice = after_group[j1:j2]
+            if op == "replace" and len(before_slice) == len(after_slice):
+                for before, after in zip(before_slice, after_slice):
+                    changes.append(changed_section(before, after))
+                continue
+            for before in before_slice:
+                changes.append(section_change("removed_section", section=before))
+            for after in after_slice:
+                changes.append(section_change("added_section", section=after))
+
+    return changes
+
+
+def section_change(change_type: str, section: dict[str, Any]) -> dict[str, Any]:
+    content = normalize_content_value(section.get("content"))
+    return {
+        "change_type": change_type,
+        "display_path": display_path(section),
+        "content_type": section.get("content_type", "section"),
+        "before": content if change_type == "removed_section" else "",
+        "after": content if change_type == "added_section" else "",
+        "diff_excerpt": compact_value(content),
+    }
+
+
+def changed_section(before: dict[str, Any], after: dict[str, Any]) -> dict[str, Any]:
+    before_value = normalize_content_value(before.get("content"))
+    after_value = normalize_content_value(after.get("content"))
+    content_type = str(after.get("content_type") or before.get("content_type") or "section")
+    return {
+        "change_type": "changed_field_value" if content_type == "field_value" else "changed_text",
+        "display_path": display_path(after) or display_path(before),
+        "content_type": content_type,
+        "before": before_value,
+        "after": after_value,
+        "diff_excerpt": diff_excerpt(before_value, after_value),
+    }
+
+
+def render_content_section_diff_report(
+    before_payload: dict[str, Any],
+    after_payload: dict[str, Any],
+    changes: list[dict[str, Any]],
+) -> str:
+    lines = [
+        "# Content Sections Diff Dry Run",
+        "",
+        f"Before: {before_payload.get('url', '')} ({before_payload.get('timestamp', '')})",
+        f"After: {after_payload.get('url', '')} ({after_payload.get('timestamp', '')})",
+        "",
+        f"Erkannte Änderungen: {len(changes)}",
+        "",
+    ]
+    if not changes:
+        lines.append("Keine Änderungen in content_sections erkannt.")
+        return "\n".join(lines).rstrip() + "\n"
+
+    for index, change in enumerate(changes, start=1):
+        lines.extend(
+            [
+                f"## {index}. {change_type_label(str(change['change_type']))}",
+                "",
+                f"Display path: {change['display_path']}",
+                f"Content type: {change.get('content_type', '')}",
+                "",
+                "Vorher:",
+                compact_value(str(change.get("before", ""))) or "-",
+                "",
+                "Nachher:",
+                compact_value(str(change.get("after", ""))) or "-",
+                "",
+                "Diff-Auszug:",
+                str(change.get("diff_excerpt") or "-"),
+                "",
+            ]
+        )
+    return "\n".join(lines).rstrip() + "\n"
+
+
 def render_structure_report(payload: dict[str, Any], sections: list[dict[str, Any]]) -> str:
     stats = payload.get("stats") if isinstance(payload.get("stats"), dict) else {}
     paths = [path_tuple(section) for section in sections]
@@ -226,6 +376,54 @@ def is_low_confidence_or_fallback(section: dict[str, Any]) -> bool:
     source_kind = str(section.get("source_kind") or "")
     confidence = str(section.get("localization_confidence") or "")
     return source_kind not in {"", "visible_directory"} or confidence.lower() in {"low", "fallback"}
+
+
+def display_path(section: dict[str, Any]) -> str:
+    return " > ".join(path_tuple(section))
+
+
+def normalize_content_value(value: Any) -> str:
+    return re.sub(r"\s+", " ", str(value or "")).strip()
+
+
+def compact_value(value: str, limit: int = 500) -> str:
+    value = normalize_content_value(value)
+    if len(value) <= limit:
+        return value
+    return f"{value[: limit - 3].rstrip()}..."
+
+
+def diff_excerpt(before: str, after: str, limit: int = 500) -> str:
+    before_words = before.split()
+    after_words = after.split()
+    matcher = SequenceMatcher(a=before_words, b=after_words, autojunk=False)
+    parts: list[str] = []
+    for op, i1, i2, j1, j2 in matcher.get_opcodes():
+        if op == "equal":
+            continue
+        if op in {"delete", "replace"}:
+            removed = " ".join(before_words[i1:i2])
+            if removed:
+                parts.append(f"Entfernt: {compact_value(removed, 180)}")
+        if op in {"insert", "replace"}:
+            added = " ".join(after_words[j1:j2])
+            if added:
+                parts.append(f"Hinzugefügt: {compact_value(added, 180)}")
+        if len(" | ".join(parts)) >= limit:
+            break
+    if not parts:
+        return "Text/Wert geändert."
+    return compact_value(" | ".join(parts), limit)
+
+
+def change_type_label(change_type: str) -> str:
+    labels = {
+        "added_section": "Hinzugefügte Section",
+        "removed_section": "Entfernte Section",
+        "changed_text": "Geänderter Text",
+        "changed_field_value": "Geändertes Feld/Wert-Paar",
+    }
+    return labels.get(change_type, change_type)
 
 
 def dismiss_cookie_banner(page: Any) -> None:

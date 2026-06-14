@@ -172,6 +172,15 @@ python -m src.main inspect-structure --file .\data\rendered_pages\<timestamp>\00
 
 The inspection command prints summary counts, top-level sections, a readable tree of extracted paths, and field/value examples. This is a validation aid before using `content_sections` for production change detection.
 
+Dry-run a future `content_sections` change detection without touching production snapshots or events:
+
+```powershell
+python -m src.main diff-content-sections --before .\data\rendered_pages\<old>\00508_somnio_structure.json --after .\data\rendered_pages\<new>\00508_somnio_structure.json
+python -m src.main diff-content-sections --before .\data\rendered_pages\<old>\00508_somnio_structure.json --after .\data\rendered_pages\<new>\00508_somnio_structure.json --out content_section_diff.md
+```
+
+The dry-run compares `content_sections` by `stable_key`, ignores ordering changes, and reports added sections, removed sections, changed text, and changed field/value pairs.
+
 The rendered archive is only for manual verification. The regular change detection still uses structured snapshot data.
 
 Use a custom snapshot directory:
