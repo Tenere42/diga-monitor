@@ -64,17 +64,21 @@ jobs:
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
           DASHBOARD_URL: ${{ secrets.DASHBOARD_URL }}
           DIGA_API_TOKEN: ${{ secrets.DIGA_API_TOKEN }}
+          DIGA_RENDER_CHANGED_ENTRIES: "true"
         run: python -m src.main run --notify
 
       - name: Commit and push monitoring outputs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -f data/snapshots outputs/changes outputs/scan_history.json
+
+          git add -f data/snapshots outputs/changes outputs/scan_history.json outputs/content_section_dry_run || true
+
           if git diff --cached --quiet; then
             echo "No monitoring changes to commit."
             exit 0
           fi
+
           git commit -m "Update DiGA monitoring data"
           git pull --rebase origin main
           git push origin main
