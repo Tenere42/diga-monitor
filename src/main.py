@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import copy
 import json
+import os
 import sys
 import time
 from datetime import datetime, timezone
@@ -14,7 +15,13 @@ from src.change_events import build_change_events, save_change_events
 from src.diff import diff_snapshots, render_report
 from src.fetch_diga import fetch_diga_entries
 from src.notifications import notify_changes
-from src.render_directory import diff_content_section_files, inspect_rendered_structure_file, render_diga_entry
+from src.render_directory import (
+    diff_content_section_files,
+    diff_content_section_lists,
+    inspect_rendered_structure_file,
+    render_diga_content_sections,
+    render_diga_entry,
+)
 from src.scan_history import append_scan_history
 from src.simulations import run_simulation
 from src.snapshot import DEFAULT_SNAPSHOT_DIR, Snapshot, latest_snapshot_paths, list_snapshot_paths, load_snapshot, save_snapshot
@@ -37,6 +44,13 @@ def build_parser() -> argparse.ArgumentParser:
     run_parser = subparsers.add_parser("run", help="Fetch, save a snapshot, and compare it with the previous snapshot.")
     run_parser.add_argument("--notify", action="store_true", help="Send an email when real changes are detected.")
     run_parser.add_argument("--dry-run", action="store_true", help="Print the notification email without sending it.")
+    run_parser.add_argument(
+        "--with-rendered-structure",
+        action="store_true",
+        help="Optionally render DiGA pages and store visible content_sections in the snapshot.",
+    )
+    run_parser.add_argument("--archive-rendered-pages", action="store_true", help="Also save PDF/PNG rendered page archives.")
+    run_parser.add_argument("--limit", type=int, help="Limit fetched entries for local rendered-structure tests.")
     notify_test_parser = subparsers.add_parser(
         "notify-test",
         help="Send or preview a test notification email without running a DiGA scan.",
@@ -124,7 +138,14 @@ def main() -> int:
         return diff_latest(args.snapshot_dir)
 
     if args.command == "run":
-        return run_monitor(args.snapshot_dir, notify=args.notify, dry_run=args.dry_run)
+        return run_monitor(
+            args.snapshot_dir,
+            notify=args.notify,
+            dry_run=args.dry_run,
+            with_rendered_structure=args.with_rendered_structure or env_flag("DIGA_RENDER_STRUCTURE"),
+            archive_rendered_pages=args.archive_rendered_pages,
+            limit=args.limit,
+        )
 
     if args.command == "notify-test":
         return run_notify_test(dry_run=args.dry_run)
@@ -147,10 +168,22 @@ def main() -> int:
     raise ValueError(f"Unsupported command: {args.command}")
 
 
-def run_monitor(snapshot_dir: Path, notify: bool = False, dry_run: bool = False) -> int:
+def run_monitor(
+    snapshot_dir: Path,
+    notify: bool = False,
+    dry_run: bool = False,
+    with_rendered_structure: bool = False,
+    archive_rendered_pages: bool = False,
+    limit: int | None = None,
+) -> int:
     started = time.perf_counter()
     previous_paths = latest_snapshot_paths(snapshot_dir, limit=1)
     entries = fetch_diga_entries()
+    if limit is not None:
+        entries = entries[: max(limit, 0)]
+        print(f"Limited scan to {len(entries)} DiGA entries.")
+    if with_rendered_structure:
+        enrich_entries_with_rendered_structure(entries, archive_rendered_pages=archive_rendered_pages)
     new_snapshot_path = save_snapshot(entries, snapshot_dir)
     detected_at = datetime.now(timezone.utc).isoformat()
     print(f"Saved snapshot: {new_snapshot_path}")
@@ -169,6 +202,21 @@ def run_monitor(snapshot_dir: Path, notify: bool = False, dry_run: bool = False)
 
     old_snapshot = load_snapshot(previous_paths[0])
     new_snapshot = load_snapshot(new_snapshot_path)
+    if with_rendered_structure:
+        dry_run_report_path = save_content_section_scan_dry_run_report(old_snapshot.entries, new_snapshot.entries, detected_at)
+        if dry_run_report_path:
+            print(f"Saved content_sections dry-run report: {dry_run_report_path}")
+    if limit is not None:
+        append_scan_history(
+            scan_timestamp=detected_at,
+            number_of_diga=len(entries),
+            changes_detected=0,
+            scan_duration_seconds=time.perf_counter() - started,
+        )
+        if notify:
+            notify_changes([], dry_run=dry_run)
+        print("Limited test scan: skipped production snapshot diff and normal change event generation.")
+        return 0
     report = diff_snapshots(old_snapshot, new_snapshot)
     events = []
     if report.has_changes:
@@ -245,6 +293,119 @@ def render_entry_command(args: argparse.Namespace) -> int:
         for path in example_paths[:10]:
             print(f"- {path}")
     return 0
+
+
+def env_flag(name: str) -> bool:
+    return str(os.getenv(name, "")).strip().lower() in {"1", "true", "yes", "on"}
+
+
+def enrich_entries_with_rendered_structure(
+    entries: list[dict[str, object]],
+    archive_rendered_pages: bool = False,
+) -> None:
+    total = len(entries)
+    for index, entry in enumerate(entries, start=1):
+        diga_id = str(entry.get("id") or "")
+        url = str(entry.get("bfarm_directory_url") or "")
+        name = str(entry.get("name") or diga_id)
+        if not diga_id or not url:
+            print(f"[{index}/{total}] Skipping rendered structure: missing id or URL for {name}")
+            continue
+        print(f"[{index}/{total}] Rendering visible structure for {name} ({diga_id})")
+        try:
+            if archive_rendered_pages:
+                rendered = render_diga_entry(url=url, diga_id=diga_id, slug=name, save_pdf=True, save_png=True)
+                structure_path = Path(str(rendered["structure_path"]))
+                with structure_path.open("r", encoding="utf-8") as file:
+                    payload = json.load(file)
+                content_sections = payload.get("content_sections", [])
+                entry["rendered_structure_metadata"] = {
+                    "source_kind": "visible_directory",
+                    "rendered_at": rendered.get("timestamp"),
+                    "accordions_opened": rendered.get("accordions_opened"),
+                    "content_section_count": len(content_sections),
+                    "field_value_count": sum(
+                        1 for section in content_sections if isinstance(section, dict) and section.get("content_type") == "field_value"
+                    ),
+                    "archive": {
+                        "pdf_path": rendered.get("pdf_path"),
+                        "png_path": rendered.get("png_path"),
+                        "structure_path": rendered.get("structure_path"),
+                    },
+                }
+                entry["content_sections"] = content_sections
+            else:
+                rendered = render_diga_content_sections(url=url, diga_id=diga_id)
+                entry["content_sections"] = rendered["content_sections"]
+                entry["rendered_structure_metadata"] = {
+                    key: value for key, value in rendered.items() if key != "content_sections"
+                }
+            print(
+                "    content_sections: "
+                f"{len(entry.get('content_sections') or [])}, "
+                f"field/value pairs: {entry.get('rendered_structure_metadata', {}).get('field_value_count', 0)}"
+            )
+        except Exception as exc:
+            entry["content_sections"] = []
+            entry["rendered_structure_metadata"] = {
+                "source_kind": "visible_directory",
+                "error": str(exc),
+            }
+            print(f"    rendered structure failed: {exc}")
+
+
+def save_content_section_scan_dry_run_report(
+    old_entries: list[dict[str, object]],
+    new_entries: list[dict[str, object]],
+    detected_at: str,
+) -> Path | None:
+    old_by_id = {str(entry.get("id")): entry for entry in old_entries if entry.get("id")}
+    rows = []
+    comparable_entries = 0
+    for entry in new_entries:
+        diga_id = str(entry.get("id") or "")
+        if not diga_id:
+            continue
+        old_entry = old_by_id.get(diga_id)
+        if not old_entry:
+            continue
+        old_sections = old_entry.get("content_sections")
+        new_sections = entry.get("content_sections")
+        if not isinstance(old_sections, list) or not isinstance(new_sections, list):
+            continue
+        comparable_entries += 1
+        changes = diff_content_section_lists(old_sections, new_sections)
+        if not changes:
+            continue
+        rows.append(
+            {
+                "diga_id": diga_id,
+                "diga_name": entry.get("name"),
+                "change_count": len(changes),
+                "change_types": sorted({str(change.get("change_type")) for change in changes}),
+                "display_paths": [str(change.get("display_path")) for change in changes],
+            }
+        )
+
+    if comparable_entries == 0:
+        print("No content_sections dry-run report created because previous snapshot has no content_sections.")
+        return None
+
+    output_dir = Path("outputs/content_section_dry_run")
+    output_dir.mkdir(parents=True, exist_ok=True)
+    timestamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S%fZ")
+    output_path = output_dir / f"content_section_dry_run_{timestamp}.json"
+    payload = {
+        "detected_at": detected_at,
+        "compared_diga": comparable_entries,
+        "diga_with_changes": len(rows),
+        "total_content_section_changes": sum(int(row["change_count"]) for row in rows),
+        "entries": rows,
+    }
+    with output_path.open("w", encoding="utf-8") as file:
+        json.dump(payload, file, ensure_ascii=False, indent=2, sort_keys=True)
+        file.write("\n")
+    return output_path
 
 
 def inspect_structure_command(args: argparse.Namespace) -> int:

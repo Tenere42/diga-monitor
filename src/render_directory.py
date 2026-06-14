@@ -125,6 +125,45 @@ def render_diga_entry(
     return result
 
 
+def render_diga_content_sections(url: str, diga_id: str, timeout_ms: int = 45_000) -> dict[str, Any]:
+    """Render a DiGA detail page and return visible content_sections without writing files."""
+
+    try:
+        from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
+        from playwright.sync_api import sync_playwright
+    except ImportError as exc:  # pragma: no cover - depends on optional package
+        raise RuntimeError(
+            "Playwright is not installed. Install it with `pip install playwright` "
+            "and then run `python -m playwright install chromium`."
+        ) from exc
+
+    with sync_playwright() as playwright:
+        browser = playwright.chromium.launch(headless=True)
+        page = browser.new_page(viewport={"width": 1440, "height": 1800}, device_scale_factor=1)
+        try:
+            page.goto(url, wait_until="networkidle", timeout=timeout_ms)
+        except PlaywrightTimeoutError:
+            page.goto(url, wait_until="domcontentloaded", timeout=timeout_ms)
+            page.wait_for_timeout(2_000)
+
+        dismiss_cookie_banner(page)
+        accordions_opened = open_expandable_sections(page)
+        page.wait_for_timeout(1_000)
+        content_sections = extract_content_sections(page, diga_id)
+        browser.close()
+
+    return {
+        "source_kind": "visible_directory",
+        "rendered_at": datetime.now(timezone.utc).isoformat(),
+        "accordions_opened": accordions_opened,
+        "content_section_count": len(content_sections),
+        "field_value_count": sum(
+            1 for section in content_sections if section.get("content_type") == "field_value"
+        ),
+        "content_sections": content_sections,
+    }
+
+
 def inspect_rendered_structure_file(path: Path, output_path: Path | None = None) -> str:
     """Create a readable validation report for a rendered structure JSON file."""
 
@@ -161,6 +200,15 @@ def diff_content_section_files(before_path: Path, after_path: Path, output_path:
         output_path.parent.mkdir(parents=True, exist_ok=True)
         output_path.write_text(report, encoding="utf-8")
     return report
+
+
+def diff_content_section_lists(
+    before_sections: list[dict[str, Any]],
+    after_sections: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    before_grouped = load_diffable_sections({"content_sections": before_sections})
+    after_grouped = load_diffable_sections({"content_sections": after_sections})
+    return diff_content_sections(before_grouped, after_grouped)
 
 
 def load_diffable_sections(payload: dict[str, Any]) -> dict[str, list[dict[str, Any]]]:

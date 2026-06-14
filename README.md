@@ -181,6 +181,25 @@ python -m src.main diff-content-sections --before .\data\rendered_pages\<old>\00
 
 The dry-run compares `content_sections` by `stable_key`, ignores ordering changes, and reports added sections, removed sections, changed text, and changed field/value pairs.
 
+Run the normal monitor with an optional rendered-structure parallel scan:
+
+```powershell
+python -m src.main run --with-rendered-structure --limit 2
+```
+
+You can also enable it with:
+
+```powershell
+$env:DIGA_RENDER_STRUCTURE="true"
+python -m src.main run
+```
+
+When enabled, the regular FHIR/JSON scan still runs as before. The monitor additionally renders each DiGA detail page with Playwright and stores extracted `content_sections` inside each snapshot entry. These fields are ignored by the production snapshot diff, so the first rendered-structure scan does not create normal change events.
+
+If both the previous and current snapshots contain `content_sections`, the scan writes a separate dry-run report to `outputs/content_section_dry_run/`. This report is only for validation and is not used by the dashboard or email notifications.
+
+For local testing, use `--limit` because Playwright rendering is slower than the normal scan. PDF/PNG archives are not written unless `--archive-rendered-pages` is also passed.
+
 The rendered archive is only for manual verification. The regular change detection still uses structured snapshot data.
 
 Use a custom snapshot directory:

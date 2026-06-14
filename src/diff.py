@@ -11,7 +11,7 @@ from src.snapshot import Snapshot
 
 
 IDENTITY_KEYS = ("id", "identifier", "url", "name", "title")
-IGNORED_FIELD_PATHS = {"structured_text_sections"}
+IGNORED_FIELD_PATHS = {"structured_text_sections", "content_sections", "rendered_structure_metadata"}
 IGNORED_FIELD_PREFIXES = ("raw_public_fhir",)
 
 
