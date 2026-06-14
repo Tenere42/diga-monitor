@@ -163,6 +163,15 @@ This optional prototype opens the real BfArM detail page in Chromium, expands vi
 
 The structure JSON contains the rendered heading outline, extracted `content_sections`, and simple stats such as opened accordions, section count, and field/value count. The section extraction is derived from the visible DOM after rendering, not from FHIR/JSON data.
 
+Inspect a rendered structure file:
+
+```powershell
+python -m src.main inspect-structure --file .\data\rendered_pages\<timestamp>\00508_somnio_structure.json
+python -m src.main inspect-structure --file .\data\rendered_pages\<timestamp>\00508_somnio_structure.json --out structure_preview.md
+```
+
+The inspection command prints summary counts, top-level sections, a readable tree of extracted paths, and field/value examples. This is a validation aid before using `content_sections` for production change detection.
+
 The rendered archive is only for manual verification. The regular change detection still uses structured snapshot data.
 
 Use a custom snapshot directory:

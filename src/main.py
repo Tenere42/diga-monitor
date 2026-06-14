@@ -14,7 +14,7 @@ from src.change_events import build_change_events, save_change_events
 from src.diff import diff_snapshots, render_report
 from src.fetch_diga import fetch_diga_entries
 from src.notifications import notify_changes
-from src.render_directory import render_diga_entry
+from src.render_directory import inspect_rendered_structure_file, render_diga_entry
 from src.scan_history import append_scan_history
 from src.simulations import run_simulation
 from src.snapshot import DEFAULT_SNAPSHOT_DIR, Snapshot, latest_snapshot_paths, list_snapshot_paths, load_snapshot, save_snapshot
@@ -60,6 +60,13 @@ def build_parser() -> argparse.ArgumentParser:
     )
     render_parser.add_argument("--no-pdf", action="store_true", help="Do not write a PDF file.")
     render_parser.add_argument("--no-png", action="store_true", help="Do not write a full-page PNG screenshot.")
+    for command_name in ("inspect-structure", "inspect-rendered-structure"):
+        inspect_parser = subparsers.add_parser(
+            command_name,
+            help="Inspect extracted content_sections from a rendered DiGA structure JSON file.",
+        )
+        inspect_parser.add_argument("--file", required=True, type=Path, help="Path to a *_structure.json file.")
+        inspect_parser.add_argument("--out", type=Path, help="Optional Markdown output path.")
     simulate_suite_parser = subparsers.add_parser("simulate", help="Generate safe simulated change events.")
     simulate_suite_parser.add_argument(
         "scenario",
@@ -117,6 +124,9 @@ def main() -> int:
 
     if args.command == "render-entry":
         return render_entry_command(args)
+
+    if args.command in {"inspect-structure", "inspect-rendered-structure"}:
+        return inspect_structure_command(args)
 
     if args.command == "simulate":
         return run_simulation_command(args.snapshot_dir, args.scenario, notify=args.notify, dry_run=args.dry_run)
@@ -224,6 +234,15 @@ def render_entry_command(args: argparse.Namespace) -> int:
         print("Example paths:")
         for path in example_paths[:10]:
             print(f"- {path}")
+    return 0
+
+
+def inspect_structure_command(args: argparse.Namespace) -> int:
+    report = inspect_rendered_structure_file(args.file, output_path=args.out)
+    print(report, end="")
+    if args.out:
+        print()
+        print(f"Markdown preview written to: {args.out}")
     return 0
 
 

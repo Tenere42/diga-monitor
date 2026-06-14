@@ -124,6 +124,110 @@ def render_diga_entry(
     return result
 
 
+def inspect_rendered_structure_file(path: Path, output_path: Path | None = None) -> str:
+    """Create a readable validation report for a rendered structure JSON file."""
+
+    with path.open("r", encoding="utf-8") as file:
+        payload = json.load(file)
+
+    sections = [
+        section
+        for section in payload.get("content_sections", [])
+        if isinstance(section, dict)
+        and isinstance(section.get("path"), list)
+        and is_content_path([str(part) for part in section.get("path", [])])
+    ]
+    report = render_structure_report(payload, sections)
+    if output_path:
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        output_path.write_text(report, encoding="utf-8")
+    return report
+
+
+def render_structure_report(payload: dict[str, Any], sections: list[dict[str, Any]]) -> str:
+    stats = payload.get("stats") if isinstance(payload.get("stats"), dict) else {}
+    paths = [path_tuple(section) for section in sections]
+    unique_paths = {path for path in paths if path}
+    field_value_count = sum(1 for section in sections if section.get("content_type") == "field_value")
+    fallback_count = sum(1 for section in sections if is_low_confidence_or_fallback(section))
+    top_level_sections = list(dict.fromkeys(path[0] for path in paths if path))
+
+    lines = [
+        "# Rendered DiGA Structure Preview",
+        "",
+        f"URL: {payload.get('url', '')}",
+        f"DiGA-ID: {payload.get('diga_id', '')}",
+        f"Timestamp: {payload.get('timestamp', '')}",
+        "",
+        "## Summary",
+        "",
+        f"- Content sections: {len(sections)}",
+        f"- Field/value pairs: {field_value_count}",
+        f"- Unique display paths: {len(unique_paths)}",
+        f"- Low confidence / fallback items: {fallback_count}",
+        f"- Opened accordions: {stats.get('accordion_count', payload.get('accordions_opened', 0))}",
+        "",
+        "## Top-Level Sections",
+        "",
+    ]
+
+    if top_level_sections:
+        lines.extend(f"- {section}" for section in top_level_sections)
+    else:
+        lines.append("- No top-level sections found")
+
+    lines.extend(["", "## Structure", ""])
+    lines.extend(render_tree_lines(paths))
+
+    lines.extend(["", "## Field/Value Examples", ""])
+    field_examples = [section for section in sections if section.get("content_type") == "field_value"][:20]
+    if field_examples:
+        for section in field_examples:
+            display_path = " > ".join(path_tuple(section))
+            preview = str(section.get("content_preview") or section.get("content") or "")
+            lines.append(f"- **{display_path}**: {preview}")
+    else:
+        lines.append("- No field/value pairs found")
+
+    if fallback_count:
+        lines.extend(["", "## Low Confidence / Fallback Items", ""])
+        for section in sections:
+            if is_low_confidence_or_fallback(section):
+                lines.append(f"- {' > '.join(path_tuple(section))}")
+
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def render_tree_lines(paths: list[tuple[str, ...]]) -> list[str]:
+    unique_paths = list(dict.fromkeys(path for path in paths if path))
+    if not unique_paths:
+        return ["No content sections found"]
+
+    lines: list[str] = []
+    emitted: set[tuple[str, ...]] = set()
+    for path in unique_paths:
+        for depth in range(1, len(path) + 1):
+            prefix = path[:depth]
+            if prefix in emitted:
+                continue
+            emitted.add(prefix)
+            indent = "  " * (depth - 1)
+            label = prefix[-1]
+            marker = "-" if depth == 1 else ">"
+            lines.append(f"{indent}{marker} {label}")
+    return lines
+
+
+def path_tuple(section: dict[str, Any]) -> tuple[str, ...]:
+    return tuple(str(part).strip() for part in section.get("path", []) if str(part).strip())
+
+
+def is_low_confidence_or_fallback(section: dict[str, Any]) -> bool:
+    source_kind = str(section.get("source_kind") or "")
+    confidence = str(section.get("localization_confidence") or "")
+    return source_kind not in {"", "visible_directory"} or confidence.lower() in {"low", "fallback"}
+
+
 def dismiss_cookie_banner(page: Any) -> None:
     """Best-effort handling for consent banners without depending on one vendor."""
 
@@ -526,6 +630,8 @@ def extract_content_sections(page: Any, diga_id: str) -> list[dict[str, Any]]:
 def is_content_path(path: list[str]) -> bool:
     if not path:
         return False
+    if "Gebrauchsanweisung (PDF)" in path:
+        return False
     rejected_roots = {
         "Seiteninhalt",
         "Informationen f\u00fcr Fachkreise",
@@ -534,7 +640,8 @@ def is_content_path(path: list[str]) -> bool:
         "Leichte Sprache",
         "Geb\u00e4rdensprache",
     }
-    return path[0] not in rejected_roots
+    root = path[0]
+    return root not in rejected_roots and not root.lower().startswith("www.")
 
 
 def is_meaningful_example_path(path: Any) -> bool:
