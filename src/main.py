@@ -215,6 +215,15 @@ def render_entry_command(args: argparse.Namespace) -> int:
 
     print("Rendered DiGA entry archive:")
     print(json.dumps(result, ensure_ascii=False, indent=2, sort_keys=True))
+    print()
+    print(f"Opened accordions: {result.get('accordions_opened', 0)}")
+    print(f"Extracted content sections: {result.get('content_section_count', 0)}")
+    print(f"Extracted field/value pairs: {result.get('field_value_count', 0)}")
+    example_paths = result.get("example_paths") or []
+    if example_paths:
+        print("Example paths:")
+        for path in example_paths[:10]:
+            print(f"- {path}")
     return 0
 
 

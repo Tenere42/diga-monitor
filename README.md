@@ -161,6 +161,8 @@ This optional prototype opens the real BfArM detail page in Chromium, expands vi
 - `<diga_id>_<slug>.png`
 - `<diga_id>_<slug>_structure.json`
 
+The structure JSON contains the rendered heading outline, extracted `content_sections`, and simple stats such as opened accordions, section count, and field/value count. The section extraction is derived from the visible DOM after rendering, not from FHIR/JSON data.
+
 The rendered archive is only for manual verification. The regular change detection still uses structured snapshot data.
 
 Use a custom snapshot directory:

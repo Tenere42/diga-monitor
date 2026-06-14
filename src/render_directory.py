@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import json
 import re
+from hashlib import sha1
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -74,7 +75,25 @@ def render_diga_entry(
         page.wait_for_timeout(1_000)
 
         structure = extract_visible_structure(page)
+        content_sections = extract_content_sections(page, diga_id)
+        stats = {
+            "accordion_count": result["accordions_opened"],
+            "visible_structure_count": len(structure),
+            "content_section_count": len(content_sections),
+            "field_value_count": sum(
+                1 for section in content_sections if section.get("content_type") == "field_value"
+            ),
+            "fallback_count": 0,
+        }
         result["visible_structure_count"] = len(structure)
+        result["content_section_count"] = len(content_sections)
+        result["field_value_count"] = stats["field_value_count"]
+        result["example_paths"] = [
+            " > ".join(section.get("path", []))
+            for section in content_sections
+            if is_meaningful_example_path(section.get("path", []))
+        ]
+        result["example_paths"] = result["example_paths"][:10]
         with structure_path.open("w", encoding="utf-8") as file:
             json.dump(
                 {
@@ -82,6 +101,8 @@ def render_diga_entry(
                     "diga_id": diga_id,
                     "timestamp": render_timestamp,
                     "visible_structure": structure,
+                    "content_sections": content_sections,
+                    "stats": stats,
                 },
                 file,
                 ensure_ascii=False,
@@ -136,11 +157,12 @@ def open_expandable_sections(page: Any) -> int:
         """
     )
 
-    for _ in range(5):
+    for _ in range(8):
         clicked_this_round = 0
         locators = page.locator(
             'button[aria-expanded="false"], [role="button"][aria-expanded="false"], '
-            '[aria-controls][aria-expanded="false"]'
+            '[aria-controls][aria-expanded="false"], '
+            'button:has(svg), button:has([class*="chevron" i]), [role="button"]:has(svg)'
         )
         count = min(locators.count(), 80)
         for index in range(count):
@@ -157,41 +179,38 @@ def open_expandable_sections(page: Any) -> int:
         if clicked_this_round == 0:
             break
 
-    accordion_headings = page.locator("h2, h3").filter(
-        has_text=re.compile(
-            "Weitere Informationen|Informationen zum|\u00c4nderungshistorie|Aenderungshistorie|Bewertungsentscheidung",
-            re.IGNORECASE,
-        )
-    )
+    accordion_headings = page.locator("h2, h3, h4")
     count = min(accordion_headings.count(), 80)
-    for index in range(count):
-        heading = accordion_headings.nth(index)
-        try:
-            if not heading.is_visible(timeout=500):
-                continue
-            before_height = page.evaluate("() => document.body.scrollHeight")
-            heading.click(timeout=1_500)
-            page.wait_for_timeout(300)
-            after_height = page.evaluate("() => document.body.scrollHeight")
-            if after_height != before_height:
-                opened += 1
-        except Exception:
+    for _ in range(3):
+        clicked_this_round = 0
+        for index in range(count):
+            heading = accordion_headings.nth(index)
             try:
+                if not heading.is_visible(timeout=500):
+                    continue
                 changed = heading.evaluate(
                     """
                     (node) => {
+                      const clean = (text) => (text || '').replace(/\\s+/g, ' ').trim();
+                      const text = clean(node.innerText || node.textContent);
+                      if (!text || text.length > 180) return false;
                       const before = document.body.scrollHeight;
-                      const target = node.closest('button, [role="button"], summary, div, section') || node;
+                      const expandedBefore = document.querySelectorAll('[aria-expanded="false"]').length;
+                      const target = node.closest('button, [role="button"], summary, [aria-controls], div, section') || node;
                       target.click();
-                      return document.body.scrollHeight !== before;
+                      const expandedAfter = document.querySelectorAll('[aria-expanded="false"]').length;
+                      return document.body.scrollHeight !== before || expandedAfter < expandedBefore;
                     }
                     """
                 )
                 page.wait_for_timeout(300)
                 if changed:
+                    clicked_this_round += 1
                     opened += 1
             except Exception:
                 continue
+        if clicked_this_round == 0:
+            break
     return opened
 
 
@@ -259,6 +278,273 @@ def extract_visible_structure(page: Any) -> list[dict[str, str]]:
         }
         """
     )
+
+
+def extract_content_sections(page: Any, diga_id: str) -> list[dict[str, Any]]:
+    """Extract content sections from the rendered, visible DOM order."""
+
+    raw_sections = page.evaluate(
+        """
+        () => {
+          const root = document.querySelector('main') || document.body;
+          const isVisible = (el) => {
+            const style = window.getComputedStyle(el);
+            const rect = el.getBoundingClientRect();
+            return style && style.visibility !== 'hidden' && style.display !== 'none'
+              && rect.width > 0 && rect.height > 0;
+          };
+          const clean = (text) => (text || '')
+            .replace(/\\u00a0/g, ' ')
+            .replace(/\\s+/g, ' ')
+            .trim();
+          const rejectText = (text) => {
+            if (!text || text.length < 2) return true;
+            const lowered = text.toLowerCase();
+            return [
+              'diga-verzeichnis',
+              'bfarm-eintrag öffnen',
+              'mehr erfahren',
+              'zurück',
+              'menü',
+              'suche',
+              'teilen',
+              'kontakt',
+              'impressum',
+              'datenschutz',
+              'informationen für fachkreise',
+              'hilfe & support',
+              'hilfe und support',
+              'leichte sprache',
+              'gebaerdensprache'
+            ].includes(lowered);
+          };
+          const textOf = (el) => clean(el.innerText || el.textContent);
+          const headingLevel = (el) => {
+            const tag = el.tagName.toLowerCase();
+            if (/^h[1-6]$/.test(tag)) return Number(tag.slice(1));
+            if (el.getAttribute('role') === 'heading') {
+              const level = Number(el.getAttribute('aria-level') || '4');
+              return Number.isFinite(level) ? level : 4;
+            }
+            return 0;
+          };
+          const fontWeight = (el) => {
+            const parsed = Number.parseInt(window.getComputedStyle(el).fontWeight, 10);
+            return Number.isFinite(parsed) ? parsed : 400;
+          };
+          const directText = (el) => Array.from(el.childNodes)
+            .filter((node) => node.nodeType === Node.TEXT_NODE)
+            .map((node) => clean(node.textContent))
+            .filter(Boolean)
+            .join(' ');
+          const isInlineLabel = (el, text) => {
+            const tag = el.tagName.toLowerCase();
+            if (tag === 'dt' || tag === 'label') return true;
+            if (tag !== 'strong' && tag !== 'b') return false;
+            if (text.length > 180) return false;
+            const parentText = textOf(el.parentElement || el);
+            return parentText === text || directText(el.parentElement || el).length === 0;
+          };
+          const isStyledFieldLabel = (el, text) => {
+            const tag = el.tagName.toLowerCase();
+            if (!['p', 'li', 'div', 'span'].includes(tag)) return false;
+            if (text.length > 180) return false;
+            if (/[.!?]$/.test(text)) return false;
+            const ownText = directText(el);
+            if (['div', 'span'].includes(tag) && ownText && ownText !== text) return false;
+            if (el.querySelector('p, li, h1, h2, h3, h4, h5, h6')) return false;
+            if (fontWeight(el) >= 600) return true;
+            const color = window.getComputedStyle(el).color;
+            if (color && color !== window.getComputedStyle(document.body).color) return true;
+            const strongText = clean(Array.from(el.querySelectorAll('strong, b'))
+              .map((node) => node.innerText || node.textContent)
+              .join(' '));
+            return Boolean(strongText && strongText === text);
+          };
+          const nodes = Array.from(root.querySelectorAll([
+            'h1', 'h2', 'h3', 'h4', 'h5', 'h6',
+            '[role="heading"]',
+            'dt', 'dd', 'label', 'p', 'li', 'strong', 'b', 'div', 'span'
+          ].join(','))).filter(isVisible);
+
+          const sections = [];
+          let pathByLevel = {};
+          let current = null;
+          let pendingLabel = null;
+          let seen = new Set();
+
+          const pushCurrent = () => {
+            if (!current) return;
+            current.content = clean(current.contentParts.join(' '));
+            delete current.contentParts;
+            if (!current.content && current.content_type !== 'heading') return;
+            const dedupe = `${current.content_type}|${current.path.join(' > ')}|${current.content}`;
+            if (seen.has(dedupe)) return;
+            seen.add(dedupe);
+            current.content_preview = current.content.length > 240
+              ? `${current.content.slice(0, 237)}...`
+              : current.content;
+            sections.push(current);
+          };
+          const makePath = (level, title) => {
+            const path = [];
+            Object.keys(pathByLevel)
+              .map(Number)
+              .filter((knownLevel) => knownLevel > 1 && knownLevel < level)
+              .sort((a, b) => a - b)
+              .forEach((knownLevel) => {
+                const value = pathByLevel[knownLevel];
+                if (value && !path.includes(value)) path.push(value);
+              });
+            if (title && !path.includes(title)) path.push(title);
+            return path;
+          };
+          const startSection = (level, title, contentType = 'section') => {
+            pushCurrent();
+            Object.keys(pathByLevel).map(Number).forEach((knownLevel) => {
+              if (knownLevel >= level) delete pathByLevel[knownLevel];
+            });
+            pathByLevel[level] = title;
+            current = {
+              path: makePath(level, title),
+              level,
+              title,
+              content: '',
+              content_preview: '',
+              content_type: contentType,
+              source_kind: 'visible_directory',
+              contentParts: []
+            };
+            pendingLabel = null;
+          };
+
+          for (const el of nodes) {
+            const text = textOf(el);
+            if (rejectText(text)) continue;
+            const tag = el.tagName.toLowerCase();
+            const level = headingLevel(el);
+
+            if (level > 0) {
+              if (level === 1) {
+                pathByLevel = { 1: text };
+                pushCurrent();
+                current = null;
+                pendingLabel = null;
+              } else {
+                startSection(Math.min(level, 6), text, 'section');
+              }
+              continue;
+            }
+
+            if (isInlineLabel(el, text)) {
+              pendingLabel = text;
+              continue;
+            }
+            if (isStyledFieldLabel(el, text)) {
+              pendingLabel = text;
+              continue;
+            }
+            if (tag === 'div' || tag === 'span') {
+              continue;
+            }
+
+            if (tag === 'dd' && pendingLabel) {
+              const levelForField = Math.max(...Object.keys(pathByLevel).map(Number).filter(Boolean), 2) + 1;
+              pushCurrent();
+              current = {
+                path: makePath(levelForField, pendingLabel),
+                level: levelForField,
+                title: pendingLabel,
+                content: '',
+                content_preview: '',
+                content_type: 'field_value',
+                source_kind: 'visible_directory',
+                contentParts: [text]
+              };
+              pushCurrent();
+              current = null;
+              pendingLabel = null;
+              continue;
+            }
+
+            if (pendingLabel) {
+              const levelForField = Math.max(...Object.keys(pathByLevel).map(Number).filter(Boolean), 2) + 1;
+              pushCurrent();
+              current = {
+                path: makePath(levelForField, pendingLabel),
+                level: levelForField,
+                title: pendingLabel,
+                content: '',
+                content_preview: '',
+                content_type: 'field_value',
+                source_kind: 'visible_directory',
+                contentParts: [text]
+              };
+              pushCurrent();
+              current = null;
+              pendingLabel = null;
+              continue;
+            } else if (!current) {
+              startSection(2, pathByLevel[2] || pathByLevel[1] || 'Seiteninhalt', 'section');
+            }
+
+            current.contentParts.push(text);
+          }
+          pushCurrent();
+          return sections;
+        }
+        """
+    )
+
+    sections = []
+    for section in raw_sections:
+        path = [str(part) for part in section.get("path", []) if str(part).strip()]
+        title = str(section.get("title") or (path[-1] if path else "")).strip()
+        content = str(section.get("content") or "").strip()
+        if not path or (not title and not content):
+            continue
+        if not is_content_path(path):
+            continue
+        content_type = str(section.get("content_type") or "section")
+        normalized_path = normalize_key_part(" > ".join(path))
+        stable_key = f"{safe_filename(diga_id)}:{normalized_path}:{content_type}"
+        sections.append(
+            {
+                "path": path,
+                "level": int(section.get("level") or len(path)),
+                "title": title,
+                "content": content,
+                "content_preview": str(section.get("content_preview") or content[:240]),
+                "content_type": content_type,
+                "source_kind": "visible_directory",
+                "stable_key": stable_key,
+            }
+        )
+    return sections
+
+
+def is_content_path(path: list[str]) -> bool:
+    if not path:
+        return False
+    rejected_roots = {
+        "Seiteninhalt",
+        "Informationen f\u00fcr Fachkreise",
+        "Hilfe & Support",
+        "Hilfe und Support",
+        "Leichte Sprache",
+        "Geb\u00e4rdensprache",
+    }
+    return path[0] not in rejected_roots
+
+
+def is_meaningful_example_path(path: Any) -> bool:
+    return isinstance(path, list) and len(path) >= 2 and is_content_path([str(part) for part in path])
+
+
+def normalize_key_part(value: str) -> str:
+    value = slugify(value)
+    digest = sha1(value.encode("utf-8")).hexdigest()[:10]
+    return f"{value[:90]}-{digest}"
 
 
 def slugify(value: str) -> str:
