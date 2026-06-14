@@ -14,6 +14,7 @@ from src.change_events import build_change_events, save_change_events
 from src.diff import diff_snapshots, render_report
 from src.fetch_diga import fetch_diga_entries
 from src.notifications import notify_changes
+from src.render_directory import render_diga_entry
 from src.scan_history import append_scan_history
 from src.simulations import run_simulation
 from src.snapshot import DEFAULT_SNAPSHOT_DIR, Snapshot, latest_snapshot_paths, list_snapshot_paths, load_snapshot, save_snapshot
@@ -44,6 +45,21 @@ def build_parser() -> argparse.ArgumentParser:
     subparsers.add_parser("fetch", help="Fetch entries and print them without saving a snapshot.")
     subparsers.add_parser("diff", help="Compare the latest two saved snapshots.")
     subparsers.add_parser("snapshots", help="List saved snapshots.")
+    render_parser = subparsers.add_parser(
+        "render-entry",
+        help="Render one public BfArM DiGA detail page as optional PDF/PNG audit archive.",
+    )
+    render_parser.add_argument("--url", required=True, help="Official BfArM DiGA detail page URL.")
+    render_parser.add_argument("--diga-id", required=True, help="DiGA directory identifier used in output filenames.")
+    render_parser.add_argument("--slug", help="Optional human-readable filename slug, for example somnio.")
+    render_parser.add_argument(
+        "--output-dir",
+        type=Path,
+        default=Path("data/rendered_pages"),
+        help="Directory where rendered page archives are stored.",
+    )
+    render_parser.add_argument("--no-pdf", action="store_true", help="Do not write a PDF file.")
+    render_parser.add_argument("--no-png", action="store_true", help="Do not write a full-page PNG screenshot.")
     simulate_suite_parser = subparsers.add_parser("simulate", help="Generate safe simulated change events.")
     simulate_suite_parser.add_argument(
         "scenario",
@@ -98,6 +114,9 @@ def main() -> int:
 
     if args.command == "notify-test":
         return run_notify_test(dry_run=args.dry_run)
+
+    if args.command == "render-entry":
+        return render_entry_command(args)
 
     if args.command == "simulate":
         return run_simulation_command(args.snapshot_dir, args.scenario, notify=args.notify, dry_run=args.dry_run)
@@ -177,6 +196,25 @@ def run_notify_test(dry_run: bool = False) -> int:
     }
     print("Running notification test with one synthetic real change event.")
     notify_changes([event], dry_run=dry_run)
+    return 0
+
+
+def render_entry_command(args: argparse.Namespace) -> int:
+    try:
+        result = render_diga_entry(
+            url=args.url,
+            diga_id=args.diga_id,
+            output_root=args.output_dir,
+            slug=args.slug,
+            save_pdf=not args.no_pdf,
+            save_png=not args.no_png,
+        )
+    except RuntimeError as exc:
+        print(exc)
+        return 1
+
+    print("Rendered DiGA entry archive:")
+    print(json.dumps(result, ensure_ascii=False, indent=2, sort_keys=True))
     return 0
 
 

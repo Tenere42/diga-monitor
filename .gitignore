@@ -12,6 +12,8 @@ data/snapshots/*
 !data/snapshots/.gitkeep
 data/simulations/*
 !data/simulations/.gitkeep
+data/rendered_pages/*
+!data/rendered_pages/.gitkeep
 
 outputs/*
 !outputs/changes/

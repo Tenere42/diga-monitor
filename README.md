@@ -34,6 +34,7 @@ The app stores local JSON snapshots, compares each new snapshot with the previou
 |   |-- diff.py
 |   |-- fetch_diga.py
 |   |-- main.py
+|   |-- render_directory.py
 |   `-- snapshot.py
 |-- README.md
 `-- requirements.txt
@@ -147,6 +148,21 @@ List saved snapshots:
 python -m src.main snapshots
 ```
 
+Render one official DiGA detail page as a browser archive:
+
+```powershell
+python -m playwright install chromium
+python -m src.main render-entry --url https://diga.bfarm.de/de/verzeichnis/00508 --diga-id 00508 --slug somnio
+```
+
+This optional prototype opens the real BfArM detail page in Chromium, expands visible accordions where possible, and writes audit artifacts to `data/rendered_pages/<timestamp>/`:
+
+- `<diga_id>_<slug>.pdf`
+- `<diga_id>_<slug>.png`
+- `<diga_id>_<slug>_structure.json`
+
+The rendered archive is only for manual verification. The regular change detection still uses structured snapshot data.
+
 Use a custom snapshot directory:
 
 ```powershell
@@ -242,6 +258,14 @@ GitHub Actions cron:
 ```yaml
 17 6,12,18 * * *
 ```
+
+Rendered page archives are not enabled in the scheduled workflow by default. If browser rendering is later activated in GitHub Actions, the workflow must install Chromium with:
+
+```powershell
+python -m playwright install chromium
+```
+
+PDF and PNG archives can become large, so enable this only deliberately and consider whether rendered artifacts should be committed or stored externally.
 
 ## External Scheduler
 
