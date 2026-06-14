@@ -200,6 +200,25 @@ If both the previous and current snapshots contain `content_sections`, the scan 
 
 For local testing, use `--limit` because Playwright rendering is slower than the normal scan. PDF/PNG archives are not written unless `--archive-rendered-pages` is also passed.
 
+Render only DiGA entries where the normal scan detected real changes:
+
+```powershell
+python -m src.main run --render-changed-entries
+```
+
+You can also enable this mode with:
+
+```powershell
+$env:DIGA_RENDER_CHANGED_ENTRIES="true"
+python -m src.main run
+```
+
+This keeps the normal scan fast because Playwright runs only after regular change detection and only for affected DiGA. By default, this writes only `structure.json` files to `data/rendered_pages/<scan_timestamp>/`. Add `--archive-rendered-pages` if PDF and PNG archives should also be saved:
+
+```powershell
+python -m src.main run --render-changed-entries --archive-rendered-pages
+```
+
 The rendered archive is only for manual verification. The regular change detection still uses structured snapshot data.
 
 Use a custom snapshot directory:

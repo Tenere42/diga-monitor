@@ -14,7 +14,7 @@ from pathlib import Path
 from src.change_events import build_change_events, save_change_events
 from src.diff import diff_snapshots, render_report
 from src.fetch_diga import fetch_diga_entries
-from src.notifications import notify_changes
+from src.notifications import is_notifiable_event, notify_changes
 from src.render_directory import (
     diff_content_section_files,
     diff_content_section_lists,
@@ -48,6 +48,11 @@ def build_parser() -> argparse.ArgumentParser:
         "--with-rendered-structure",
         action="store_true",
         help="Optionally render DiGA pages and store visible content_sections in the snapshot.",
+    )
+    run_parser.add_argument(
+        "--render-changed-entries",
+        action="store_true",
+        help="Render only DiGA entries with real detected changes after the normal scan.",
     )
     run_parser.add_argument("--archive-rendered-pages", action="store_true", help="Also save PDF/PNG rendered page archives.")
     run_parser.add_argument("--limit", type=int, help="Limit fetched entries for local rendered-structure tests.")
@@ -143,6 +148,7 @@ def main() -> int:
             notify=args.notify,
             dry_run=args.dry_run,
             with_rendered_structure=args.with_rendered_structure or env_flag("DIGA_RENDER_STRUCTURE"),
+            render_changed_entries=args.render_changed_entries or env_flag("DIGA_RENDER_CHANGED_ENTRIES"),
             archive_rendered_pages=args.archive_rendered_pages,
             limit=args.limit,
         )
@@ -173,6 +179,7 @@ def run_monitor(
     notify: bool = False,
     dry_run: bool = False,
     with_rendered_structure: bool = False,
+    render_changed_entries: bool = False,
     archive_rendered_pages: bool = False,
     limit: int | None = None,
 ) -> int:
@@ -224,6 +231,15 @@ def run_monitor(
         changes_path = save_change_events(events, detected_at=detected_at)
         if changes_path:
             print(f"Saved change events: {changes_path}")
+        if render_changed_entries:
+            rendered_paths = render_changed_entry_archives(
+                events=events,
+                entries=new_snapshot.entries,
+                detected_at=detected_at,
+                archive_rendered_pages=archive_rendered_pages,
+            )
+            if rendered_paths:
+                print(f"Rendered changed DiGA entries: {len(rendered_paths)}")
     print(f"Detected change events: {len(events)}")
     append_scan_history(
         scan_timestamp=detected_at,
@@ -352,6 +368,71 @@ def enrich_entries_with_rendered_structure(
                 "error": str(exc),
             }
             print(f"    rendered structure failed: {exc}")
+
+
+def render_changed_entry_archives(
+    events: list[dict[str, object]],
+    entries: list[dict[str, object]],
+    detected_at: str,
+    archive_rendered_pages: bool = False,
+) -> list[Path]:
+    entries_by_id = {str(entry.get("id")): entry for entry in entries if entry.get("id")}
+    targets: dict[str, dict[str, object]] = {}
+    for event in events:
+        if not isinstance(event, dict) or not is_notifiable_event(event):
+            continue
+        diga_id = str(event.get("diga_id") or "")
+        if not diga_id:
+            continue
+        entry = entries_by_id.get(diga_id, {})
+        url = str(event.get("bfarm_directory_url") or entry.get("bfarm_directory_url") or "")
+        name = str(event.get("diga_name") or entry.get("name") or diga_id)
+        if not url:
+            print(f"Skipping render-on-change for {name}: missing BfArM URL")
+            continue
+        targets[diga_id] = {"id": diga_id, "name": name, "url": url}
+
+    if not targets:
+        print("Render-on-change: no real changed DiGA entries to render.")
+        return []
+
+    timestamp = scan_timestamp_for_path(detected_at)
+    rendered_paths: list[Path] = []
+    for index, target in enumerate(targets.values(), start=1):
+        diga_id = str(target["id"])
+        name = str(target["name"])
+        url = str(target["url"])
+        print(f"[{index}/{len(targets)}] Render-on-change for {name} ({diga_id})")
+        try:
+            result = render_diga_entry(
+                url=url,
+                diga_id=diga_id,
+                slug=name,
+                timestamp=timestamp,
+                save_pdf=archive_rendered_pages,
+                save_png=archive_rendered_pages,
+            )
+        except Exception as exc:
+            print(f"    render-on-change failed: {exc}")
+            continue
+        structure_path = result.get("structure_path")
+        if structure_path:
+            rendered_paths.append(Path(str(structure_path)))
+        print(f"    structure: {structure_path}")
+        if archive_rendered_pages:
+            print(f"    pdf: {result.get('pdf_path')}")
+            print(f"    png: {result.get('png_path')}")
+    return rendered_paths
+
+
+def scan_timestamp_for_path(detected_at: str) -> str:
+    try:
+        parsed = datetime.fromisoformat(detected_at.replace("Z", "+00:00"))
+    except ValueError:
+        parsed = datetime.now(timezone.utc)
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=timezone.utc)
+    return parsed.astimezone(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
 
 
 def save_content_section_scan_dry_run_report(
