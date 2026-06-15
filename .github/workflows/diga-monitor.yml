@@ -72,7 +72,13 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add -f data/snapshots outputs/changes outputs/scan_history.json outputs/content_section_dry_run || true
+          for path in data/snapshots outputs/changes outputs/scan_history.json outputs/content_section_dry_run; do
+            if [ -e "$path" ]; then
+              git add -f "$path"
+            else
+              echo "Monitoring output path not present, skipping: $path"
+            fi
+          done
 
           if git diff --cached --quiet; then
             echo "No monitoring changes to commit."
