@@ -14,7 +14,7 @@ from pathlib import Path
 from src.change_events import build_change_events, save_change_events
 from src.diff import diff_snapshots, render_report
 from src.fetch_diga import fetch_diga_entries
-from src.notifications import is_notifiable_event, notify_changes
+from src.notifications import is_notifiable_event, notify_changes, send_test_notification
 from src.render_directory import (
     diff_content_section_files,
     diff_content_section_lists,
@@ -255,32 +255,8 @@ def run_monitor(
 
 
 def run_notify_test(dry_run: bool = False) -> int:
-    now = datetime.now(timezone.utc).isoformat()
-    event = {
-        "detected_at": now,
-        "diga_id": "notification-test",
-        "diga_name": "Test-DiGA Benachrichtigung",
-        "manufacturer": "DiGA Watch Test",
-        "bfarm_directory_url": "https://diga.bfarm.de/de",
-        "change_type": "text_change",
-        "changed_field": "evidence_summary_text",
-        "field_name": "evidence_summary_text",
-        "previous_value": "Bisheriger Bewertungstext mit einem entfernten Satz.",
-        "new_value": "Bisheriger Bewertungstext.",
-        "previous_snapshot_timestamp": now,
-        "current_snapshot_timestamp": now,
-        "user_facing_field_label": "Bewertungsentscheidung des BfArM",
-        "summary_de": "Test: Im Abschnitt 'Bewertungsentscheidung des BfArM' wurde ein Textabschnitt entfernt.",
-        "text_change_kind": "text_removed",
-        "word_diff": [
-            {"op": "equal", "text": "Bisheriger Bewertungstext"},
-            {"op": "delete", "text": "mit einem entfernten Satz"},
-            {"op": "equal", "text": "."},
-        ],
-    }
-    print("Running notification test with one synthetic real change event.")
-    notify_changes([event], dry_run=dry_run)
-    return 0
+    print("Running SMTP notification configuration and delivery test.")
+    return 0 if send_test_notification(dry_run=dry_run) else 1
 
 
 def render_entry_command(args: argparse.Namespace) -> int:

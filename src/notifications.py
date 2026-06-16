@@ -98,9 +98,10 @@ def notify_changes(
 
     try:
         config = load_smtp_config()
+        print_notification_status("Notification configuration complete.")
         send_email(config, subject, body)
     except MissingNotificationConfig as exc:
-        message = f"Notification skipped because secrets missing: {', '.join(exc.missing)}"
+        message = f"Notification configuration incomplete. Missing: {', '.join(exc.missing)}"
         log_notification(
             recipient=recipient,
             number_of_changes=len(real_events),
@@ -128,7 +129,79 @@ def notify_changes(
         subject=subject,
         status="sent",
     )
-    print_notification_status(f"Notification sent: {len(real_events)} change event(s) emailed to {config.email_to}.")
+    print_notification_status(f"Notification sent to: {config.email_to}")
+    return True
+
+
+def send_test_notification(dry_run: bool = False) -> bool:
+    subject = "DiGA Monitor Test Notification"
+    body = "Dies ist eine Testbenachrichtigung des DiGA Monitors."
+    recipient = os.getenv("EMAIL_TO", "")
+
+    try:
+        config = load_smtp_config()
+        print_notification_status("Notification configuration complete.")
+    except MissingNotificationConfig as exc:
+        message = f"Notification configuration incomplete. Missing: {', '.join(exc.missing)}"
+        log_notification(
+            recipient=recipient,
+            number_of_changes=0,
+            subject=subject,
+            status="failed",
+            error_message=message,
+        )
+        print_notification_status(message, level="warning")
+        return False
+    except Exception as exc:
+        message = f"Notification configuration failed: {exc}"
+        log_notification(
+            recipient=recipient,
+            number_of_changes=0,
+            subject=subject,
+            status="failed",
+            error_message=message,
+        )
+        print_notification_status(message, level="warning")
+        return False
+
+    if dry_run:
+        print("Dry-run: test email would be sent with this content:")
+        print()
+        print(f"To: {config.email_to}")
+        print(f"Subject: {subject}")
+        print()
+        print(body)
+        log_notification(
+            recipient=config.email_to,
+            number_of_changes=0,
+            subject=subject,
+            status="skipped",
+            error_message="Dry-run: test email not sent.",
+        )
+        print_notification_status("Notification test dry-run: email content printed; no SMTP email sent.")
+        return True
+
+    try:
+        send_email(config, subject, body)
+    except Exception as exc:
+        message = f"Notification failed: {exc}"
+        log_notification(
+            recipient=config.email_to,
+            number_of_changes=0,
+            subject=subject,
+            status="failed",
+            error_message=message,
+        )
+        print_notification_status(message, level="warning")
+        return False
+
+    log_notification(
+        recipient=config.email_to,
+        number_of_changes=0,
+        subject=subject,
+        status="sent",
+    )
+    print_notification_status(f"Notification sent to: {config.email_to}")
     return True
 
 

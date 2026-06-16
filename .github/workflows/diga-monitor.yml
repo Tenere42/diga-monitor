@@ -2,6 +2,11 @@ name: DiGA Monitor
 
 on:
   workflow_dispatch:
+    inputs:
+      notification_test:
+        description: "Send notification test email"
+        required: false
+        default: "false"
   repository_dispatch:
     types: [scheduled-scan]
   schedule:
@@ -49,12 +54,25 @@ jobs:
             fi
           done
           if [ ${#missing[@]} -eq 0 ]; then
-            echo "::notice::Notification configuration present."
+            echo "::notice::Notification configuration complete."
           else
-            echo "::notice::Notification skipped because secrets missing: ${missing[*]}"
+            echo "::notice::Notification configuration incomplete. Missing: ${missing[*]}"
           fi
 
+      - name: Run notification test
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.notification_test == 'true' }}
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          DASHBOARD_URL: ${{ secrets.DASHBOARD_URL }}
+        run: python -m src.main notify-test
+
       - name: Run DiGA monitor
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.notification_test != 'true' }}
         env:
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
@@ -68,6 +86,7 @@ jobs:
         run: python -m src.main run --notify
 
       - name: Commit and push monitoring outputs
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.notification_test != 'true' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

@@ -80,7 +80,23 @@ $env:EMAIL_TO="recipient@example.com"
 $env:DASHBOARD_URL="http://localhost:8501"
 ```
 
-In GitHub, set the same names under `Settings > Secrets and variables > Actions > Repository secrets`:
+Use placeholders like these when setting up the values. Do not commit real credentials.
+
+| Secret | Value to enter | Example |
+| --- | --- | --- |
+| `SMTP_HOST` | SMTP server hostname from your mail provider | `smtp.example.com` |
+| `SMTP_PORT` | SMTP port, usually with STARTTLS | `587` |
+| `SMTP_USERNAME` | SMTP login username | `diga-monitor@example.com` |
+| `SMTP_PASSWORD` | SMTP password or app password | `replace-with-provider-app-password` |
+| `EMAIL_FROM` | Sender address shown in the email | `diga-monitor@example.com` |
+| `EMAIL_TO` | Recipient address for alerts | `alerts@example.com` |
+| `DASHBOARD_URL` | Public or local URL of the Streamlit dashboard | `https://your-dashboard.streamlit.app` |
+
+In GitHub, create each value under:
+
+`Settings > Secrets and variables > Actions > New repository secret`
+
+Required secret names:
 
 ```text
 SMTP_HOST
@@ -111,10 +127,16 @@ py -m src.main notify-test
 py -m src.main notify-test --dry-run
 ```
 
+`notify-test` checks the SMTP configuration and sends a message with subject `DiGA Monitor Test Notification`. It exits with a non-zero status if required variables are missing or SMTP delivery fails.
+
+In GitHub Actions, open the `DiGA Monitor` workflow manually with `Run workflow` and set `notification_test` to `true`. This sends only the test email and skips the normal DiGA scan and commit step.
+
 GitHub Actions logs show one of these statuses during notification handling:
 
-- `Notification skipped because secrets missing: ...`
-- `Notification sent: ...`
+- `Notification configuration incomplete. Missing: ...`
+- `Notification configuration complete.`
+- `Notification skipped: no real changes detected.`
+- `Notification sent to: ...`
 - `Notification failed: ...`
 
 Notification attempts are logged in `outputs/notification_log.json`.
