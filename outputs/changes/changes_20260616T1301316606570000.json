@@ -1,0 +1,250 @@
+{
+  "created_at": "2026-06-16T13:01:31.660657+00:00",
+  "event_count": 4,
+  "events": [
+    {
+      "accordion_title": "Beschreibung der DiGA",
+      "after_value": null,
+      "before_value": "Zutreffend",
+      "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/01330",
+      "change_type": "other_field_change",
+      "changed_field": "descriptive_texts.questionnaire.923",
+      "current_snapshot_timestamp": "2026-06-16T13:01:31.386207+00:00",
+      "detected_at": "2026-06-16T13:01:31.660657+00:00",
+      "diga_id": "01330",
+      "diga_name": "Kaia Rückenschmerzen - Rückentraining für Zuhause",
+      "display_path": "Beschreibung der DiGA > 923",
+      "field_label": "923",
+      "field_name": "descriptive_texts.questionnaire.923",
+      "localization_confidence": "medium",
+      "main_section": "Beschreibung der DiGA",
+      "manufacturer": "kaia health software GmbH",
+      "new_value": null,
+      "previous_snapshot_timestamp": "2026-06-16T10:01:38.380743+00:00",
+      "previous_value": "Zutreffend",
+      "question_label": "923",
+      "section_title": "Beschreibung der DiGA",
+      "source_area_label": "Beschreibung der DiGA",
+      "subsection_title": "923",
+      "summary_de": "Im Abschnitt 'Beschreibung der DiGA > 923' wurde ein Wert geändert.",
+      "tab_label": "Beschreibung der DiGA",
+      "user_facing_field_label": "Beschreibung der DiGA > 923"
+    },
+    {
+      "after_value": [
+        {
+          "last_updated": "2026-06-16T15:00:05.343+02:00",
+          "source": "questionnaire_response.192"
+        },
+        {
+          "last_updated": "2026-06-16T15:00:02.817+02:00",
+          "source": "prescription_unit.190"
+        },
+        {
+          "last_updated": "2026-06-16T15:00:02.779+02:00",
+          "source": "prescription_unit.189"
+        },
+        {
+          "last_updated": "2026-06-16T15:00:00.623+02:00",
+          "source": "manufacturer"
+        },
+        {
+          "last_updated": "2025-10-06T23:36:18.671+02:00",
+          "source": "catalog_entry"
+        },
+        {
+          "last_updated": "2025-10-06T23:36:16.831+02:00",
+          "source": "module.188"
+        },
+        {
+          "last_updated": "2025-10-06T23:36:16.785+02:00",
+          "source": "health_app"
+        }
+      ],
+      "before_value": [
+        {
+          "last_updated": "2025-10-06T23:36:20.953+02:00",
+          "source": "questionnaire_response.192"
+        },
+        {
+          "last_updated": "2025-10-06T23:36:18.671+02:00",
+          "source": "catalog_entry"
+        },
+        {
+          "last_updated": "2025-10-06T23:36:18.632+02:00",
+          "source": "prescription_unit.190"
+        },
+        {
+          "last_updated": "2025-10-06T23:36:18.589+02:00",
+          "source": "prescription_unit.189"
+        },
+        {
+          "last_updated": "2025-10-06T23:36:16.831+02:00",
+          "source": "module.188"
+        },
+        {
+          "last_updated": "2025-10-06T23:36:16.785+02:00",
+          "source": "health_app"
+        },
+        {
+          "last_updated": "2025-10-06T23:36:16.744+02:00",
+          "source": "manufacturer"
+        }
+      ],
+      "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/01330",
+      "change_type": "other_field_change",
+      "changed_field": "source_update_notice.checked_sources",
+      "current_snapshot_timestamp": "2026-06-16T13:01:31.386207+00:00",
+      "detected_at": "2026-06-16T13:01:31.660657+00:00",
+      "diga_id": "01330",
+      "diga_name": "Kaia Rückenschmerzen - Rückentraining für Zuhause",
+      "field_name": "source_update_notice.checked_sources",
+      "manufacturer": "kaia health software GmbH",
+      "new_value": [
+        {
+          "last_updated": "2026-06-16T15:00:05.343+02:00",
+          "source": "questionnaire_response.192"
+        },
+        {
+          "last_updated": "2026-06-16T15:00:02.817+02:00",
+          "source": "prescription_unit.190"
+        },
+        {
+          "last_updated": "2026-06-16T15:00:02.779+02:00",
+          "source": "prescription_unit.189"
+        },
+        {
+          "last_updated": "2026-06-16T15:00:00.623+02:00",
+          "source": "manufacturer"
+        },
+        {
+          "last_updated": "2025-10-06T23:36:18.671+02:00",
+          "source": "catalog_entry"
+        },
+        {
+          "last_updated": "2025-10-06T23:36:16.831+02:00",
+          "source": "module.188"
+        },
+        {
+          "last_updated": "2025-10-06T23:36:16.785+02:00",
+          "source": "health_app"
+        }
+      ],
+      "previous_snapshot_timestamp": "2026-06-16T10:01:38.380743+00:00",
+      "previous_value": [
+        {
+          "last_updated": "2025-10-06T23:36:20.953+02:00",
+          "source": "questionnaire_response.192"
+        },
+        {
+          "last_updated": "2025-10-06T23:36:18.671+02:00",
+          "source": "catalog_entry"
+        },
+        {
+          "last_updated": "2025-10-06T23:36:18.632+02:00",
+          "source": "prescription_unit.190"
+        },
+        {
+          "last_updated": "2025-10-06T23:36:18.589+02:00",
+          "source": "prescription_unit.189"
+        },
+        {
+          "last_updated": "2025-10-06T23:36:16.831+02:00",
+          "source": "module.188"
+        },
+        {
+          "last_updated": "2025-10-06T23:36:16.785+02:00",
+          "source": "health_app"
+        },
+        {
+          "last_updated": "2025-10-06T23:36:16.744+02:00",
+          "source": "manufacturer"
+        }
+      ],
+      "summary_de": "Im Abschnitt 'Aktualisierungshinweis im DiGA-Verzeichnis' wurde ein Wert geändert.",
+      "user_facing_field_label": "Aktualisierungshinweis im DiGA-Verzeichnis"
+    },
+    {
+      "after_value": "2026-06-16T15:00:05.343+02:00",
+      "before_value": "2025-10-06T23:36:20.953+02:00",
+      "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/01330",
+      "change_type": "text_change",
+      "changed_field": "source_update_notice.last_updated_at",
+      "current_snapshot_timestamp": "2026-06-16T13:01:31.386207+00:00",
+      "detected_at": "2026-06-16T13:01:31.660657+00:00",
+      "diga_id": "01330",
+      "diga_name": "Kaia Rückenschmerzen - Rückentraining für Zuhause",
+      "field_name": "source_update_notice.last_updated_at",
+      "manufacturer": "kaia health software GmbH",
+      "new_value": "2026-06-16T15:00:05.343+02:00",
+      "previous_snapshot_timestamp": "2026-06-16T10:01:38.380743+00:00",
+      "previous_value": "2025-10-06T23:36:20.953+02:00",
+      "summary_de": "Die Formulierung im Abschnitt 'Aktualisierungshinweis im DiGA-Verzeichnis' wurde angepasst.",
+      "text_change_kind": "text_modified",
+      "user_facing_field_label": "Aktualisierungshinweis im DiGA-Verzeichnis",
+      "word_diff": [
+        {
+          "op": "delete",
+          "text": "2025-10-06T23:36:20.953+02:00"
+        },
+        {
+          "op": "insert",
+          "text": "2026-06-16T15:00:05.343+02:00"
+        }
+      ]
+    },
+    {
+      "after_value": "Zuletzt aktualisiert am 16.06.2026 um 13:00",
+      "before_value": "Zuletzt aktualisiert am 06.10.2025 um 21:36",
+      "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/01330",
+      "change_type": "text_change",
+      "changed_field": "source_update_notice.notice_text",
+      "current_snapshot_timestamp": "2026-06-16T13:01:31.386207+00:00",
+      "detected_at": "2026-06-16T13:01:31.660657+00:00",
+      "diga_id": "01330",
+      "diga_name": "Kaia Rückenschmerzen - Rückentraining für Zuhause",
+      "field_name": "source_update_notice.notice_text",
+      "manufacturer": "kaia health software GmbH",
+      "new_value": "Zuletzt aktualisiert am 16.06.2026 um 13:00",
+      "previous_snapshot_timestamp": "2026-06-16T10:01:38.380743+00:00",
+      "previous_value": "Zuletzt aktualisiert am 06.10.2025 um 21:36",
+      "summary_de": "Im Abschnitt 'Aktualisierungshinweis im DiGA-Verzeichnis' wurde Text geändert.",
+      "text_change_kind": "mixed_text_change",
+      "user_facing_field_label": "Aktualisierungshinweis im DiGA-Verzeichnis",
+      "word_diff": [
+        {
+          "op": "equal",
+          "text": "Zuletzt"
+        },
+        {
+          "op": "equal",
+          "text": "aktualisiert"
+        },
+        {
+          "op": "equal",
+          "text": "am"
+        },
+        {
+          "op": "delete",
+          "text": "06.10.2025"
+        },
+        {
+          "op": "insert",
+          "text": "16.06.2026"
+        },
+        {
+          "op": "equal",
+          "text": "um"
+        },
+        {
+          "op": "delete",
+          "text": "21:36"
+        },
+        {
+          "op": "insert",
+          "text": "13:00"
+        }
+      ]
+    }
+  ]
+}
