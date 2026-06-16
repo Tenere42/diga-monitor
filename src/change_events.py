@@ -40,6 +40,7 @@ FIELD_LABELS = {
     "name": "Name der DiGA",
     "bfarm_directory_url": "BfArM-Verzeichniseintrag",
 }
+UNRESOLVED_FIELD_LABEL = "Nicht eindeutig zugeordneter Eintrag"
 
 
 def build_change_events(
@@ -448,7 +449,8 @@ def infer_text_context_from_field(field_name: str) -> dict[str, str] | None:
     raw_label = field_name.removeprefix("descriptive_texts.")
     if raw_label.startswith("questionnaire."):
         raw_label = raw_label.removeprefix("questionnaire.")
-    label = user_facing_question_label(raw_label.split(".", 1)[-1].replace("_", " "))
+    raw_question_label = raw_label.split(".", 1)[-1].replace("_", " ")
+    label = user_facing_question_label(raw_question_label)
     section_title = infer_section_title(label)
     return {
         "main_section": section_title,
@@ -465,7 +467,7 @@ def infer_text_context_from_field(field_name: str) -> dict[str, str] | None:
                 "subsection_title": label,
             }
         ),
-        "localization_confidence": "medium" if label else "low",
+        "localization_confidence": "low" if is_numeric_internal_label(raw_question_label) else ("medium" if label else "low"),
     }
 
 
@@ -514,9 +516,15 @@ def normalize_display_path(path: str) -> str:
 
 def user_facing_question_label(label: str) -> str:
     normalized = label.strip().rstrip(":").lower()
+    if is_numeric_internal_label(normalized):
+        return UNRESOLVED_FIELD_LABEL
     if "steckbrief" in normalized and "diga" in normalized:
         return "Steckbrief der DiGA"
     return label
+
+
+def is_numeric_internal_label(value: Any) -> bool:
+    return bool(re.fullmatch(r"\d+", str(value or "").strip()))
 
 
 def classify_text_change(tokens: list[dict[str, str]]) -> str:
@@ -587,6 +595,10 @@ def build_summary(event: dict[str, Any]) -> str:
         return "Eine neue DiGA wurde in das Verzeichnis aufgenommen."
     if change_type == "removed_diga":
         return "Eine DiGA ist im aktuellen Verzeichnis nicht mehr vorhanden."
+    if UNRESOLVED_FIELD_LABEL in label:
+        before_text = str(before or "").strip().lower()
+        if before_text == "zutreffend" and after in (None, ""):
+            return "Ein interner Auswahlwert wurde entfernt. Der sichtbare Abschnitt konnte nicht eindeutig zugeordnet werden."
     return f"Im Abschnitt '{label}' wurde ein Wert geändert."
 
 

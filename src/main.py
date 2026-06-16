@@ -6,6 +6,7 @@ import argparse
 import copy
 import json
 import os
+import re
 import sys
 import time
 from datetime import datetime, timezone
@@ -184,6 +185,10 @@ def run_monitor(
     limit: int | None = None,
 ) -> int:
     started = time.perf_counter()
+    if render_changed_entries:
+        print("Render-on-change active: changed DiGA entries will be rendered and text change events will be enriched.")
+    else:
+        print("Render-on-change inactive.")
     previous_paths = latest_snapshot_paths(snapshot_dir, limit=1)
     entries = fetch_diga_entries()
     if limit is not None:
@@ -228,18 +233,20 @@ def run_monitor(
     events = []
     if report.has_changes:
         events = build_change_events(report, old_snapshot, new_snapshot, detected_at)
-        changes_path = save_change_events(events, detected_at=detected_at)
-        if changes_path:
-            print(f"Saved change events: {changes_path}")
         if render_changed_entries:
-            rendered_paths = render_changed_entry_archives(
+            rendered_entries = render_changed_entry_archives(
                 events=events,
                 entries=new_snapshot.entries,
                 detected_at=detected_at,
                 archive_rendered_pages=archive_rendered_pages,
             )
-            if rendered_paths:
-                print(f"Rendered changed DiGA entries: {len(rendered_paths)}")
+            if rendered_entries:
+                enriched_count = enrich_text_events_from_rendered_sections(events, rendered_entries)
+                print(f"Rendered changed DiGA entries: {len(rendered_entries)}")
+                print(f"Enriched text change locations from rendered content_sections: {enriched_count}")
+        changes_path = save_change_events(events, detected_at=detected_at)
+        if changes_path:
+            print(f"Saved change events: {changes_path}")
     print(f"Detected change events: {len(events)}")
     append_scan_history(
         scan_timestamp=detected_at,
@@ -351,7 +358,7 @@ def render_changed_entry_archives(
     entries: list[dict[str, object]],
     detected_at: str,
     archive_rendered_pages: bool = False,
-) -> list[Path]:
+) -> dict[str, dict[str, object]]:
     entries_by_id = {str(entry.get("id")): entry for entry in entries if entry.get("id")}
     targets: dict[str, dict[str, object]] = {}
     for event in events:
@@ -370,10 +377,10 @@ def render_changed_entry_archives(
 
     if not targets:
         print("Render-on-change: no real changed DiGA entries to render.")
-        return []
+        return {}
 
     timestamp = scan_timestamp_for_path(detected_at)
-    rendered_paths: list[Path] = []
+    rendered_entries: dict[str, dict[str, object]] = {}
     for index, target in enumerate(targets.values(), start=1):
         diga_id = str(target["id"])
         name = str(target["name"])
@@ -392,13 +399,219 @@ def render_changed_entry_archives(
             print(f"    render-on-change failed: {exc}")
             continue
         structure_path = result.get("structure_path")
+        content_sections = []
         if structure_path:
-            rendered_paths.append(Path(str(structure_path)))
+            structure_file = Path(str(structure_path))
+            try:
+                with structure_file.open("r", encoding="utf-8") as file:
+                    structure_payload = json.load(file)
+                loaded_sections = structure_payload.get("content_sections")
+                if isinstance(loaded_sections, list):
+                    content_sections = loaded_sections
+            except (OSError, json.JSONDecodeError) as exc:
+                print(f"    could not read rendered structure for enrichment: {exc}")
+            rendered_entries[diga_id] = {
+                "name": name,
+                "url": url,
+                "structure_path": str(structure_path),
+                "content_sections": content_sections,
+            }
         print(f"    structure: {structure_path}")
         if archive_rendered_pages:
             print(f"    pdf: {result.get('pdf_path')}")
             print(f"    png: {result.get('png_path')}")
-    return rendered_paths
+    return rendered_entries
+
+
+def enrich_text_events_from_rendered_sections(
+    events: list[dict[str, object]],
+    rendered_entries: dict[str, dict[str, object]],
+) -> int:
+    enriched_count = 0
+    for event in events:
+        if not isinstance(event, dict) or event.get("change_type") != "text_change":
+            continue
+        diga_id = str(event.get("diga_id") or "")
+        rendered = rendered_entries.get(diga_id) or {}
+        sections = rendered.get("content_sections")
+        if not isinstance(sections, list) or not sections:
+            mark_legacy_fallback(event)
+            continue
+        match = find_best_visible_section_for_text_change(event, sections)
+        if not match:
+            mark_legacy_fallback(event)
+            continue
+
+        display_path = visible_section_display_path(match)
+        if not display_path:
+            mark_legacy_fallback(event)
+            continue
+
+        if event.get("display_path"):
+            event.setdefault("legacy_display_path", event.get("display_path"))
+        if event.get("user_facing_field_label"):
+            event.setdefault("legacy_user_facing_field_label", event.get("user_facing_field_label"))
+        event["display_path"] = display_path
+        event["user_facing_field_label"] = display_path
+        event["source_kind"] = "visible_directory"
+        event["confidence"] = "high"
+        event["localization_confidence"] = "high"
+        event["content_section_stable_key"] = match.get("stable_key")
+        event["content_section_title"] = match.get("title")
+        event["content_section_type"] = match.get("content_type")
+        enriched_count += 1
+    return enriched_count
+
+
+def mark_legacy_fallback(event: dict[str, object]) -> None:
+    if not event.get("source_kind"):
+        event["source_kind"] = "legacy_fallback"
+    event["confidence"] = "legacy_fallback"
+    event["localization_confidence"] = "legacy_fallback"
+
+
+def find_best_visible_section_for_text_change(
+    event: dict[str, object],
+    sections: list[object],
+) -> dict[str, object] | None:
+    candidates = [section for section in sections if is_visible_content_section(section)]
+    if not candidates:
+        return None
+
+    before = event_text(event, "previous_value")
+    after = event_text(event, "new_value")
+    snippets = event_match_snippets(event, before, after)
+    if not snippets:
+        return None
+
+    best_section: dict[str, object] | None = None
+    best_score = 0.0
+    for section in candidates:
+        score = score_visible_section(section, snippets, before, after)
+        if score > best_score:
+            best_score = score
+            best_section = section
+
+    return best_section if best_score >= 0.32 else None
+
+
+def is_visible_content_section(section: object) -> bool:
+    if not isinstance(section, dict):
+        return False
+    content = normalize_match_text(section.get("content") or section.get("value") or "")
+    if not content:
+        return False
+    path = section.get("path")
+    if not isinstance(path, list) or not path:
+        return False
+    first = str(path[0]).strip().lower()
+    if first.startswith("www.") or "gebrauchsanweisung" in first or "seiteninhalt" in first:
+        return False
+    return True
+
+
+def event_text(event: dict[str, object], key: str) -> str:
+    value = event.get(key)
+    if isinstance(value, str):
+        return value
+    if isinstance(value, (int, float)):
+        return str(value)
+    return ""
+
+
+def event_match_snippets(event: dict[str, object], before: str, after: str) -> list[str]:
+    snippets: list[str] = []
+    for token in event.get("word_diff") or []:
+        if not isinstance(token, dict):
+            continue
+        if token.get("op") not in {"equal", "insert"}:
+            continue
+        text = str(token.get("text") or "").strip()
+        if len(text) >= 12:
+            snippets.append(text)
+    if after.strip():
+        snippets.extend(split_match_windows(after))
+    if before.strip():
+        snippets.extend(split_match_windows(before))
+    unique: list[str] = []
+    seen = set()
+    for snippet in snippets:
+        normalized = normalize_match_text(snippet)
+        if len(normalized) < 12 or normalized in seen:
+            continue
+        seen.add(normalized)
+        unique.append(snippet)
+    return unique[:12]
+
+
+def split_match_windows(text: str) -> list[str]:
+    normalized = " ".join(str(text).split())
+    if not normalized:
+        return []
+    if len(normalized) <= 240:
+        return [normalized]
+    sentences = re.split(r"(?<=[.!?])\s+", normalized)
+    windows = [sentence for sentence in sentences if len(sentence) >= 40]
+    if windows:
+        return windows[:6]
+    return [normalized[:240], normalized[-240:]]
+
+
+def score_visible_section(
+    section: dict[str, object],
+    snippets: list[str],
+    before: str,
+    after: str,
+) -> float:
+    section_text = normalize_match_text(section.get("content") or section.get("value") or "")
+    if not section_text:
+        return 0.0
+
+    score = 0.0
+    for snippet in snippets:
+        normalized_snippet = normalize_match_text(snippet)
+        if not normalized_snippet:
+            continue
+        if normalized_snippet in section_text:
+            score = max(score, min(1.0, 0.72 + len(normalized_snippet) / 1000))
+            continue
+        overlap = token_overlap(normalized_snippet, section_text)
+        score = max(score, overlap)
+
+    after_tokens = token_overlap(normalize_match_text(after), section_text)
+    before_tokens = token_overlap(normalize_match_text(before), section_text)
+    score = max(score, after_tokens * 0.95, before_tokens * 0.75)
+    return score
+
+
+def token_overlap(left: str, right: str) -> float:
+    left_tokens = meaningful_tokens(left)
+    if not left_tokens:
+        return 0.0
+    right_tokens = meaningful_tokens(right)
+    if not right_tokens:
+        return 0.0
+    matches = left_tokens & right_tokens
+    return len(matches) / len(left_tokens)
+
+
+def meaningful_tokens(text: str) -> set[str]:
+    return {token for token in re.findall(r"[\wäöüÄÖÜß]{4,}", text.lower()) if token}
+
+
+def normalize_match_text(value: object) -> str:
+    return re.sub(r"\s+", " ", str(value or "")).strip().lower()
+
+
+def visible_section_display_path(section: dict[str, object]) -> str:
+    path = section.get("path")
+    if isinstance(path, list):
+        parts = [str(part).strip() for part in path if str(part).strip()]
+    else:
+        parts = []
+    if not parts and section.get("display_path"):
+        parts = [str(section["display_path"]).strip()]
+    return " > ".join(parts)
 
 
 def scan_timestamp_for_path(detected_at: str) -> str:

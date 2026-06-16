@@ -18,6 +18,7 @@ from src.scan_history import load_scan_history
 
 TRACKING_START_DATE = date(2026, 5, 31)
 DISPLAY_TIMEZONE = ZoneInfo("Europe/Berlin")
+UNRESOLVED_FIELD_LABEL = "Nicht eindeutig zugeordneter Eintrag"
 SNAPSHOT_DIR = Path("data/snapshots")
 SNAPSHOT_FILENAME_PREFIX = "diga_snapshot_"
 SNAPSHOT_FILENAME_SUFFIX = ".json"
@@ -330,6 +331,15 @@ def render_adjustment_header(index: int, event: dict[str, Any]) -> None:
     st.markdown(f"**{html.escape(title)}**")
     if path:
         st.caption(f"Informationspfad: {path}")
+    if is_unresolved_internal_key_event(event):
+        internal_key = internal_field_key(event)
+        if internal_key:
+            st.caption(f"Interner Schlüssel: {internal_key}")
+        if is_removed_choice_value(event):
+            st.caption(
+                "Ein interner Auswahlwert wurde entfernt. "
+                "Der sichtbare Abschnitt konnte nicht eindeutig zugeordnet werden."
+            )
     if event.get("localization_confidence") == "low":
         st.caption("Die Änderung wurde erkannt, konnte aber keinem sichtbaren Abschnitt eindeutig zugeordnet werden.")
 
@@ -1123,9 +1133,44 @@ def normalize_display_path(path: str) -> str:
 
 def user_facing_question_label(label: str) -> str:
     normalized = label.strip().rstrip(":").lower()
+    if is_numeric_internal_label(normalized):
+        return UNRESOLVED_FIELD_LABEL
     if "steckbrief" in normalized and "diga" in normalized:
         return "Steckbrief der DiGA"
     return label
+
+
+def is_numeric_internal_label(value: Any) -> bool:
+    return bool(re.fullmatch(r"\d+", str(value or "").strip()))
+
+
+def internal_field_key(event: dict[str, Any]) -> str | None:
+    candidates = [
+        event.get("question_label"),
+        event.get("field_label"),
+        event.get("subsection_title"),
+    ]
+    for key in ("changed_field", "field_name", "display_path", "user_facing_field_label"):
+        value = event.get(key)
+        if isinstance(value, str):
+            candidates.extend(part.strip() for part in re.split(r"[.>]", value) if part.strip())
+    for candidate in candidates:
+        if is_numeric_internal_label(candidate):
+            return str(candidate).strip()
+    return None
+
+
+def is_unresolved_internal_key_event(event: dict[str, Any]) -> bool:
+    if not internal_field_key(event):
+        return False
+    label = field_label(event)
+    return UNRESOLVED_FIELD_LABEL in label
+
+
+def is_removed_choice_value(event: dict[str, Any]) -> bool:
+    before = event_previous_value(event)
+    after = event_new_value(event)
+    return str(before or "").strip().lower() == "zutreffend" and after in (None, "")
 
 
 def event_title_label(event: dict[str, Any]) -> str:
