@@ -1084,6 +1084,8 @@ def is_real_change_event(event: dict[str, Any]) -> bool:
         return False
     if is_metadata_event(event):
         return False
+    if is_unresolved_technical_fallback_event(event):
+        return False
 
     field_name = event_field_name(event).lower()
     before_value = event_previous_value(event)
@@ -1165,6 +1167,27 @@ def is_unresolved_internal_key_event(event: dict[str, Any]) -> bool:
         return False
     label = field_label(event)
     return UNRESOLVED_FIELD_LABEL in label
+
+
+def is_unresolved_technical_fallback_event(event: dict[str, Any]) -> bool:
+    if event.get("source_kind") == "visible_directory":
+        return False
+    if event.get("display_path") and UNRESOLVED_FIELD_LABEL not in field_label(event):
+        return False
+    if not internal_field_key(event):
+        return False
+
+    confidence = str(event.get("confidence") or event.get("localization_confidence") or "").lower()
+    unresolved_label = is_unresolved_internal_key_event(event)
+    legacy_or_low_confidence = confidence in {"low", "legacy_fallback", "fallback"}
+    historical_unresolved = not confidence and unresolved_label
+    descriptive_questionnaire_key = bool(
+        re.search(r"\bdescriptive_texts\.questionnaire\.\d+\b", event_field_name(event))
+    )
+    if not (legacy_or_low_confidence or historical_unresolved or descriptive_questionnaire_key):
+        return False
+
+    return unresolved_label or descriptive_questionnaire_key
 
 
 def is_removed_choice_value(event: dict[str, Any]) -> bool:
