@@ -2,451 +2,595 @@
   "content_sections": [
     {
       "content": "sinCephalea stellt eine leitliniengerechte Anfallsprophylaxe von Migräne dar. Über eine 12-wöchige Interventionsphase werden die Patientinnen und Patienten schrittweise an die Umsetzung von neuen ernährungsmedizischen Erkenntnissen aus der personalisierten Ernährung herangeführt, sowie über klassische konservative Maßnahmen, wie individuelle Hinweise zu Lebenstilveränderungen unterstützt. sinCephalea erstellt auf Basis individueller Blutzuckerreaktionen auf Nahrungsmittel und Mahlzeiten personalisierte Empfehlungen für eine niedrig-glykämische Ernährung, die in Form eines Ernährungsreports in der App zur Verfügung gestellt werden. Diese personalisierten Ernährungsempfehlungen werden in der App um Lektionen über Migräne und Ernährung sowie weitere bewährte Lebensstilregeln bei Migräne wie bspw. Stressreduktion und Schlafhygiene ergänzt. sinCephalea beinhaltet zudem ein Kopfschmerztagebuch und regelmäßige Migränefragebögen, über die Kopfschmerzen und Migränesymptome sowie die Beeinträchtigung im Alltag festgehalten werden können.",
+      "content_fingerprint": "7cb4da6a0fa4",
       "content_preview": "sinCephalea stellt eine leitliniengerechte Anfallsprophylaxe von Migräne dar. Über eine 12-wöchige Interventionsphase werden die Patientinnen und Patienten schrittweise an die Umsetzung von neuen ernährungsmedizischen Erkenntnissen aus d...",
       "content_type": "field_value",
+      "display_path": "Hinweis: Diese DiGA wurde am 22.01.2026 aus dem Verzeichnis gestrichen. Grund: Entscheidung des Landessozialgerichts Schleswig-Holstein",
       "level": 3,
       "path": [
         "Hinweis: Diese DiGA wurde am 22.01.2026 aus dem Verzeichnis gestrichen. Grund: Entscheidung des Landessozialgerichts Schleswig-Holstein"
       ],
+      "path_hash": "924644cd7eaa",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01775:hinweis-diese-diga-wurde-am-22-01-2026-aus-dem-verzeichnis-gestrichen-grund-ents-ceaecc510f:field_value",
+      "stable_key": "01775:hinweis-diese-diga-wurde-am-22-01-2026-aus-dem-verzeichnis-gestrichen-grund-ents:924644cd7eaa:field_value:0",
       "title": "Hinweis: Diese DiGA wurde am 22.01.2026 aus dem Verzeichnis gestrichen. Grund: Entscheidung des Landessozialgerichts Schleswig-Holstein"
     },
     {
       "content": "Hier finden Sie weitergehende Informationen zur DiGA. Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA. sinCephalea - Migräneprophylaxe 10.10.2022 22.01.2026 Trifft nicht zu Trifft nicht zu App im Apple App Store Deutschland im Google Play Store Deutschland Deutschland und Europäische Union",
+      "content_fingerprint": "1cfdd6c99d4a",
       "content_preview": "Hier finden Sie weitergehende Informationen zur DiGA. Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinis...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01775:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01775:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:0",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Die digitale Gesundheitsanwendung (DiGA) wurde aufgrund der Entscheidung des Landessozialgericht Schleswig-Holstein, Az. LSG SH L 10 KR 21/25 B ER, am 22.01.2026 aus dem Verzeichnis gestrichen.",
+      "content_fingerprint": "f5e452eb1f79",
       "content_preview": "Die digitale Gesundheitsanwendung (DiGA) wurde aufgrund der Entscheidung des Landessozialgericht Schleswig-Holstein, Az. LSG SH L 10 KR 21/25 B ER, am 22.01.2026 aus dem Verzeichnis gestrichen.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Bewertungsentscheidung des BfArM",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Bewertungsentscheidung des BfArM"
       ],
+      "path_hash": "7d463e27c832",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01775:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung--cdc10aad7c:field_value",
+      "stable_key": "01775:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung-:7d463e27c832:field_value:0",
       "title": "Bewertungsentscheidung des BfArM"
     },
     {
       "content": "******************************************************************************************************************** Die Streichung der DiGA vom 11.10.2024 wird mit Wirkung vom 06.11.2024 vorübergehend aufgehoben und die DiGA wird wieder in das Verzeichnis nach § 139e Fünftes Buch Sozialgesetzbuch (SGB V) aufgenommen. ******************************************************************************************************************** Die digitale Gesundheitsanwendung (DiGA) wurde am 11.10.2024 nach Prüfung der Nachweise für positive Versorgungseffekte aus dem Verzeichnis gemäß § 139e Absatz 4 Satz 8 des Fünften Buches Sozialgesetzbuch (SGB V) gestrichen. ******************************************************************************************************************** Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an • Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der Technik und • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) als erfüllt. Die Datenverarbeitung findet laut Hersteller ausschließlich in Deutschland statt. Das BfArM bewertet dieses Vorgehen als konform im Sinne der DiGAV. - Zur Begründung der Versorgungsverbesserung wurde eine einarmige Studie eingereicht, die im November 2021 begann. Die patientenindividuelle Dauer betrug insgesamt 16 Wochen, wobei die ersten 4 Wochen dazu vorgesehen waren, die Ausgangskrankheitsschwere zu erheben. Die weiteren 12 Wochen waren als Interventionsphase und Endpunkterhebung (letzte 4 Wochen) vorgesehen. - Ein erstes Screening umfasste 97 Personen, 26 wurden dabei ausgeschlossen, hauptsächlich da sie die Einschlusskriterien nicht erfüllten. Von den 71 Teilnehmenden wurden 9 im Verlauf der Studie als Drop-out klassifiziert. - Nach 12 Wochen Interventionsphase zeigte sich gemäß der Intention-To-Treat-Population (ITT-Population) eine statistisch signifikante Reduktion der Migränetage, gemessen anhand eines Migränetagebuchs, von durchschnittlich -2,33 Tagen gegenüber der Ausgangskrankheitsschwere (Baseline: 7,78 Tage; Woche 12: 5,55 Tage; Veränderung: -2,33 Tage; 95-%-Konfidenzintervall: -3,10 - 1,37; p-Wert: < 0,001). Die hier gezeigte Reduktion der Anzahl der Migränekopfschmerztage pro Monat über einen Zeitraum von 12 Wochen im intraindividuellen Vergleich zur Baseline kann v. a. in Hinblick auf die Krankheitslast und sozioökonomischen Auswirkungen als Hinweis auf klinisch relevante Verbesserungen angesehen werden. Auch in Bezug auf weitere Endpunkte (kumulative Dauer der Migränekopfschmerzen, Headache Impact Test 6-item (HIT-6) und Migraine Disability Assessment (MIDAS)) ergab sich eine statistisch signifikante Verbesserung nach 12-wöchiger Intervention. - Als Erprobungsstudie mit dem Titel „Wirksamkeit der Digitalen Gesundheitsanwendung sinCephalea in der Prophylaxe von Migränetagen bei Patienten mit episodischer Migräne über einen Zeitraum von zwölf Wochen” soll eine randomisierte kontrollierte Studie mit einem 12-wöchigen Interventionszeitraum durchgeführt werden. Dabei sollen 834 Patientinnen und Patienten im Verhältnis 1 : 1 in 2 Gruppen randomisiert werden. Die Interventionsgruppe erhält die Standardversorgung und Zugang zur DiGA, die Kontrollgruppe erhält die Standardversorgung. Analog zur systematischen Datenauswertung werden die Migränetage pro 4 Wochen als primärer Endpunkt erhoben. Das BfArM bewertet das Studienkonzept grundsätzlich als geeignet, den positiven Versorgungseffekt Verbesserung des Gesundheitszustands nachzuweisen. - Entsprechend bewertet das BfArM die in § 139e des Fünften Buches Sozialgesetzbuch (SGB V) sowie in der DiGAV festgelegten Voraussetzungen zur vorläufigen Aufnahme auf Erprobung in das Verzeichnis nach § 139e Absatz 1 SGB V als erfüllt.",
+      "content_fingerprint": "fc5582d7a7a1",
       "content_preview": "******************************************************************************************************************** Die Streichung der DiGA vom 11.10.2024 wird mit Wirkung vom 06.11.2024 vorübergehend aufgehoben und die DiGA wird wieder...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01775:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01775:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:1",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_fingerprint": "4b8f5a46c1b0",
       "content_preview": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt"
       ],
+      "path_hash": "9af58630166c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01775:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01775:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:9af58630166c:field_value:0",
       "title": "Angaben zum Medizinprodukt"
     },
     {
       "content": "sinCephalea unterstützt in der Prophylaxe von Migräneanfällen. Grundlage ist die Modulation der postprandialen Blutzuckerantwort durch personalisierte niedrig-glykämische Ernährungsempfehlungen. Patientinnen und Patienten erhalten einen Report, der die innerhalb einer vorangegangenen Testphase verzehrten Mahlzeiten, im Hinblick auf ihre postprandiale Blutzuckerantwort bewertet. Aus dieser Bewertung werden Ernährungsempfehlungen abgeleitet, die bei Einhaltung die Reduktion postprandialer Blutzuckerschwankungen erzielen können. Hierdurch wird eine ausreichende Energieversorgung des Gehirns über Glukose gesichert und lokale inflammatorische Prozesse positiv beeinflusst. Das führt zu einer Reduktion der mit Migräne assoziierten Symptome und der Häufigkeit von Migräneanfällen. Risikoklasse I nach MDR Trifft nicht zu Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt. Trifft nicht zu DE-MF-000018844 4260583790132",
+      "content_fingerprint": "1262abb318ab",
       "content_preview": "sinCephalea unterstützt in der Prophylaxe von Migräneanfällen. Grundlage ist die Modulation der postprandialen Blutzuckerantwort durch personalisierte niedrig-glykämische Ernährungsempfehlungen. Patientinnen und Patienten erhalten einen ...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "01775:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01775:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:2",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_fingerprint": "ba6516ebde5f",
       "content_preview": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA"
       ],
+      "path_hash": "6921f5eac91a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01775:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01775:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:6921f5eac91a:field_value:0",
       "title": "Weitere Informationen zur DiGA"
     },
     {
       "content": "sinCephalea ist eine digitale Gesundheitsanwendung (DiGA) zur Prophylaxe von Migräneanfällen. sinCephalea erreicht dies, indem innerhalb einer Testphase mittels eines kontinuierlichen Gewebezuckersensors und eines Ernährungs- und Symptomtagebuches gezielt die Mahlzeiten identifiziert werden, die Blutzuckerschwankungen auslösen. Durch gezielte Anpassung oder Ersetzung dieser Mahlzeiten, können Patientinnen und Patienten im Anschluss an die Testphase mithilfe ihrer personalisierten Empfehlungen ihre Ernährung so umstellen, dass die Blutzuckerschwankungen reduziert werden. Diese sogenannte personalisierte niedrigglykämische Ernährung führt dazu, dass die Ausschüttung von Botenstoffen, die für Migräneattacken verantwortlich gemacht werden, ebenfalls verringert wird. Dadurch wird Migräneanfällen wirksam vorgebeugt. - Der Wirkmechanismus wird durch eine Ernährungsanpassung erzeugt, weshalb sinCephalea weitere positive Nebeneffekte mit sich bringen kann. sinCephalea basiert auf neuesten wissenschaftlichen Erkenntnissen aus der Universität zu Lübeck und dem Weizmann Institut in Israel. Die mit sinCephalea durchgeführte Analyse der Mahlzeiten und ihrem individuellen Einfluss auf die Blutzuckerschwankungen von Patientinnen und Patienten basiert auf eigens vom Hersteller entwickelten und zum Patent angemeldeten Auswertungsverfahren. Hierfür wurden über einen Entwicklungszeitraum von über drei Jahren mehr als 170.000 Blutzuckerkurven analysiert. Die von sinCephalea bereit gestellten Empfehlungen sind individuell und orientieren sich an den Ernährungsgewohnheiten und dem Lebensstil der Patientinnen und Patienten. Dadurch ist die Einhaltung der Empfehlung sehr einfach und gelingt in der Regel langfristig. - Zudem werden Patientinnen und Patienten im Anschluss an die Testphase für weitere drei Monate digital begleitet. In dieser Begleitphase lernen Patientinnen und Patienten in anschaulich aufbereiteten Wissenslektionen und Quizze alles, um mit der Erkrankung besser umgehen zu können. Der Auswertungsreport im Nachgang zur Testphase sowie alle weiteren von Patientinnen und Patienten in den Tagebüchern erfassten Daten sind exportierbar. Der Support von Perfood steht auch über die Test- und Begleitphase hinaus dauerhaft zur Verfügung. Neben der Reduktion von Migränesymptomen kann eine niedrig-glykämische Ernährung positive Einflüsse auf das Körpergewicht, das Risiko einer Erkrankung an Diabetes Mellitus Typ 2, sowie die Ausprägung stiller Entzündungen, sogenannten metabolischen Entzündungen haben. Dadurch werden nicht nur Migränesymptome, sondern auch der allgemeine metabolische Gesundheitszustand von Patientinnen und Patienten verbessert. 1. Personalisierte niedrig-glykämische Ernährungsempfehlungen 2. Ernährungstagebuch 3. Dokumentation von Kopfschmerz-Symptomen 4. Dokumentation von Aktivitäten 5. Dokumentation von Medikamenten 6. Dokumentation des Schlafs 7. Adhärenzbefragung 8. Kursprogramm mit Wissenslektionen und Quizzes zu Migräne 9. Exportierbare Auswertung und Kopfschmerztagebücher für Patientinnen und Patienten und Ärztinnen und Ärzte Die Perfood GmbH wurde aus dem Institut für Ernährungsmedizin der Universitätsklinik Schleswig-Holstein, Campus Lübeck gegründet (Ratzeburger Allee 160, 23538 Lübeck). Die Universität zu Lübeck ist weder Gesellschafterin der Perfood GmbH noch bestehen andere Interessenskonflikte zwischen der Perfood GmbH, sinCephalea und der Universität zu Lübeck. C. Alm-Roijer, M. Stagmo, G. Udén, L. Erhardt, Eur J Cardiovasc Nurs. 3, 321–330 (2004). C. Bernecker et al., European Journal of Neurology. 18, 1233–1239 (2011). S. E. Berry et al., Nat Med. 26, 964–973 (2020). D. Bongiovanni et al., Neurol Sci (2021), doi:10.1007/s10072-021-05078-5. A. E. Bunner, U. Agarwal, J. F. Gonzales, F. Valente, N. D. Barnard, The Journal of Headache and Pain. 15, 69 (2014). C. Cavestro, M. Ferrero, S. Mandrino, M. Di Tavi, E. Rota, Current pharmaceutical design. 25, 2919–2936 (2019). S. Darabaneanu et al., International journal of sports medicine. 32, 455–460 (2011). H.-C. Diener, C. Gaul, P. Kropp, Nervenheilkunde. 37, 689–715 (2018). H.-C. Diener et al., Clinical and Translational Neuroscience. 3, 2514183X18823377 (2019). H.-C. Diener et al., Cephalalgia. 40, 1026–1044 (2020). H. C. Diener et al., Cephalalgia. 41, 279–293 (2021). G. Evcili, Agri (2018), doi:10.5505/agri.2017.62443. P. J. Goadsby, T. Sprenger, Lancet Neurol. 9, 285–298 (2010). P. J. Goadsby et al., Physiological reviews. 97, 553–622 (2017). E. C. Gross, M. Lisicki, D. Fischer, P. S. Sándor, J. Schoenen, Nature Reviews Neurology. 15, 627–643 (2019). H.-J. Gruber et al., Cephalalgia. 30, 593–598 (2010). H. Hanssen et al., Scand J Med Sci Sports. 28, 1103–1112 (2018). 18. T. Korem et al., Cell Metabolism. 25, 1243-1253.e5 (2017). L. S. Krøll, C. S. Hammarlund, M. Linde, G. Gard, R. H. Jensen, Cephalalgia. 38, 1805–1816 (2018). M. E. Lenaerts, J. R. Couch, Minerva Med. 98, 221–231 (2007). R. B. Lipton et al., Neurology. 68, 343–349 (2007). H. Mendes-Soares et al., JAMA network open. 2, e188102 (2019). on behalf of the Food4Me Study, The American Journal of Clinical Nutrition. 104, 288–297 (2016). R. C. Peatfield, V. Glover, J. T. Littlewood, M. Sandler, F. Clifford Rose, Cephalalgia. 4, 179–183 (1984). F. Puledda, K. Shields, Neurotherapeutics. 15, 336–345 (2018). T. Schröder et al., Journal of Clinical Medicine. 11, 1117 (2022). T. J. Steiner, L. J. Stovner, T. Vos, R. Jensen, Z. Katsarava, J Headache Pain. 19, 17 (2018). L. Stovner et al., Cephalalgia􀀀: an international journal of headache. 27, 193–210 (2007). D. Zeevi et al., Cell. 163, 1079–1094 (2015). C. Ziegeler, G. Brauns, T. P. Jürgens, A. May, The journal of headache and pain. 20, 86 (2019).",
+      "content_fingerprint": "983b0ea016f5",
       "content_preview": "sinCephalea ist eine digitale Gesundheitsanwendung (DiGA) zur Prophylaxe von Migräneanfällen. sinCephalea erreicht dies, indem innerhalb einer Testphase mittels eines kontinuierlichen Gewebezuckersensors und eines Ernährungs- und Symptom...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "01775:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01775:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:3",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_fingerprint": "77cea9e6788d",
       "content_preview": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal"
       ],
+      "path_hash": "4c8dba25a53c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01775:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "01775:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:4c8dba25a53c:field_value:0",
       "title": "Beteiligung vom medizinischen Fachpersonal"
     },
     {
       "content": "sinCephalea wird von Patientinnen und Patienten eigenständig verwendet. Die von Patientinnen und Patienten erfassten Informationen können exportiert und mit behandelnden Ärztinnen und Ärzten geteilt werden. Dafür benötigen Ärztinnen und Ärzten keinen eigenen Nutzeraccount und eine Nutzerrolle ist für Ärztinnen, andere Leistungserbringer und Krankenkassen nicht vorgesehen. Nein",
+      "content_fingerprint": "ed549e7154a7",
       "content_preview": "sinCephalea wird von Patientinnen und Patienten eigenständig verwendet. Die von Patientinnen und Patienten erfassten Informationen können exportiert und mit behandelnden Ärztinnen und Ärzten geteilt werden. Dafür benötigen Ärztinnen und ...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "01775:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01775:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:4",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfohlen wird.",
+      "content_fingerprint": "ba2dc6143acd",
       "content_preview": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfoh...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise"
       ],
+      "path_hash": "af464e1a8e2f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01775:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-6922aa5eb2:field_value",
+      "stable_key": "01775:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise:af464e1a8e2f:field_value:0",
       "title": "Anwendungshinweise"
     },
     {
       "content": "Die DiGA kann qualitätsgesichert von Personen zwischen 18 und 65 Jahren angewendet werden, bei denen eine gesicherte ICD-10 Diagnose G43.0 und G43.1 bzw. Diagnose 1.1 und 1.2 der IHS Classification ICHD-3 für Migräne besteht und ausgeschlossen werden kann, dass die Kontraindikationen und Ausschlusskriterien der DiGA vorliegen. - In der App, in der Gebrauchsanweisung und auf der Webseite wird auf die Zweckbestimmung sowie auf Kontraindikationen (E10: Diabetes mellitus Typ 1) und auf weitere, nicht durch Kontraindikationen abgedeckte Ausschlusskriterien (bestehende Insulintherapie) hingewiesen. Beim Starten der DiGA muss aktiv bestätigt werden, dass Kontraindikationen nicht vorliegen und die Gebrauchsanweisung gelesen worden ist. - Eine Verwendung der DiGA für nur ihren bestimmungsgemäßen Gebrauch unter Berücksichtigung von möglichen Fehleingaben und Fehlbedienungen wird durch folgende Maßnahmen sichergestellt: - Die Gebrauchsanweisung enthält Hinweise zur sicheren Anwendung resultierend aus Risikoanalysen nach entsprechenden Standards sowie Angaben zu Verwendungsbeschränkungen zu: - einer Dialysebehandlung während der Testphase - vom Arzt verordnete Ernährungsempfehlungen aufgrund anderer Erkrankungen - Untergewicht (Body Mass Index < 18,5 kg/m2 ) oder einer Ess-/Körperstörung (z.B. Bulimia nervosa, Binge Eating) - Schwangerschaft - ungewollte Gewichtsabnahme - Migräneattacken durch bestimmte Lebensmittel - Veränderung des Stoffwechsels - Barrierefreiheit - Der Anwender erhält Hinweise in der App bei Eingabe von unplausiblen oder unmöglichen Eingabewerten und wird aufgefordert, diese erneut zu überprüfen für eine qualitätsgesicherte Auswertung der Daten. - In der Gebrauchsanweisung und in der App wird darauf hingewiesen, was der Anwender für eine genaue Mahlzeitenauswertung beachten muss, damit die Auswertung zweier Mahlzeiten nicht miteinander kollidiert und verlässliche Aussagen geliefert werden können: - Die Mahlzeit innerhalb von 20 Minuten verzehren - Eine 2-Stunden-Pause vor und nach der Mahlzeit einhalten - Innerhalb dieser 2 Stunden jeweils: nicht schlafen (außer vor dem Frühstück), nichts trinken (außer Wasser), keinen Sport treiben - Die Patientinnen und Patienten haben jederzeit Zugang zum kostenfreien Support des Herstellers. Erreichbarkeit des Kundensupport - Telefonisch von Mo. bis Fr. von 09:00 Uhr bis 17:00 Uhr, per Mail und Kontaktformular Mo. bis So. - Insulintherapie: Bei bestehender Insulintherapie kann nicht gewährleistet werden, dass die Auswertung der Gewebezuckerkurven und der Report eine niedrig-glykämische Ernährung zur Unterstützung der Prophylaxe von Migräneanfällen ermöglicht. - Nicht-periodische Migräne bzw. chronische Migräne Die vorgesehene Mindestdauer der Nutzung ist zwölf Wochen. Trifft nicht zu sinCephalea ist kompatibel mit Blutzuckersensoren, die die Kriterien unter Interoperabilität / Anforderungen an CGM-Systeme erfüllen (https://sincephalea.de/cgmrequirements/). Eine genaue Spezifikation ist im Vesta-Verzeichnis hinterlegt: https://www.vesta-gematik.de/standards/detail/standards/anbindung-von-cgmsystemen-an-digitale-gesundheitsanwendungen-zur-weiterverarbeitung-der-glukosedate/, siehe auch https://sincephalea.de/#kompatibilität. - Kompatibilitätszusagen an die Hard- und Software der Android- und IOS-App: - Hardwarekompatibilität Android-App Android-fähiges Smartphone mit einer Auflösung von mindestens 355 x 500 Software-Pixeln (dies entspricht im Regelfall einer minimalen Displaygröße von 4,7“). Die Kompatibilität in Bezug auf die Bildschirmgröße kann unter https://sincephalea.de/sys/ überprüft werden. Weitere Angaben zur Kompatibilität finden sich unter https://sincephalea.de/#kompatibilitaet - Softwarekompatibilität Android-App Android-Version >=5.1 Auf Androidgeräten muss der aktuellste System WebView installiert sein (https://play.google.com/store/apps/details?id=com.google.android.webview&hl=de) - - Hardwarekompatibilität iOS-App Apple iPhone mit einer Auflösung von mindestens 355 x 500 Software-Pixeln (entspricht 4,7“ Display oder iPhone 6s und höher). Die Kompatibilität in Bezug auf die Bildschirmgröße kann unter https://www.sincephalea.de/sys/ überprüft werden. Weitere Angaben zur Kompatibilität finden sich unter https:// sincephalea.de/. - Softwarekompatibilität iOS-App Apple iPhone mit iOS-Version >= 12 Eine Liste der kompatiblen Endgeräte wird bereitgestellt unter: https://sincephalea.de/kompatibleendgeraete/. Für aktive Nutzer von sinCephalea steht in der App eine Exportfunktion der Daten in einem menschenlesbaren Format (PDF) und in maschinenlesbarer Form zur Verfügung. Der maschinenlesbare Export ist auf Grundlage des Fast Healthcare Interoperability Resources (FHIR) Standard von Health Level 7 (HL7) in der Version v4.0.1 verwendet. Die genaue Spezifkation des Export-Formates steht zum Download bereit unter www.sincephalea.de im Bereich „Interoperabilität“. Die bereitgestellten Profile sind veröffentlicht unter: https://simplifier.net/SinCephalea-Datenexport/ sinCephalea ist kompatibel mit Blutzuckersensoren, die die Kriterien unter Interoperabilität / Anforderungen an CGM-Systeme (https://sincephalea.de/cgmrequirements/) erfüllen. Eine genaue Spezifikation ist im Vesta-Verzeichnis hinterlegt: https://www.vesta-gematik.de/standards/detail/standards/anbindung-von-cgmsystemen-an-digitale-gesundheitsanwendungen-zur-weiterverarbeitung-der-glukosedate/",
+      "content_fingerprint": "e0274af6e92a",
       "content_preview": "Die DiGA kann qualitätsgesichert von Personen zwischen 18 und 65 Jahren angewendet werden, bei denen eine gesicherte ICD-10 Diagnose G43.0 und G43.1 bzw. Diagnose 1.1 und 1.2 der IHS Classification ICHD-3 für Migräne besteht und ausgesch...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "01775:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01775:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:5",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs. weitere, durch Sie selbst aufzubringende Kosten, sofern Sie bestimmte zusätzlich angebotene und von der Verschreibung nicht abgedeckte Leistungen in Anspruch nehmen möchten.",
+      "content_fingerprint": "39d5160ffdea",
       "content_preview": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs....",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis"
       ],
+      "path_hash": "41c28a502494",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01775:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-429bde377d:field_value",
+      "stable_key": "01775:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis:41c28a502494:field_value:0",
       "title": "Angaben zum Preis"
     },
     {
       "content": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage Weitere Nutzung der DiGA für zusätzliche 90 Tage 690,00 € 690,00 € Trifft nicht zu Trifft nicht zu Es fallen keine Mehrkosten für den Patienten an.",
+      "content_fingerprint": "1c245271ffe5",
       "content_preview": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage Weitere Nutzung der DiGA für zusätzliche 90 Tage 690,00 € 690,00 € Trifft nicht zu Trifft nicht zu Es fallen keine Mehrkosten für den Patienten an.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "01775:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01775:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:6",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Verbesserungen für Patienten können entweder medizinischer Art sein (z.B. Verringerung von Schmerzen, Beitrag zur Heilung der Erkrankung) oder den Erkennungs- und Behandlungsprozess direkt unterstützen und erleichtern (z.B. Informationen zur individuellen Erkrankungssituation, Unterstützung bei der Einhaltung der zwischen Patient und Arzt gemeinsam vereinbarten therapeutischen Maßnahmen). Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche Weise dies ggfs. bereits wissenschaftlich nachgewiesen wurde. Falls der positive Versorgungseffekt noch nicht abschließend nachgewiesen aber bereits so plausibel dargelegt wurde, dass die DiGA befristet zur entsprechenden Erprobung aufgenommen wurde, wird angegeben, für welchen Zeitraum dies erfolgt ist. Sofern (auch) ein Nachweis zum Erhalt der Erwerbsfähigkeit für die DiGA erbracht wurde oder eine Nachweisführung geplant ist, finden Sie hier eine Beschreibung und nähere Angaben zum Nachweis sowie zum Studiendesign. Sofern die DiGA (auch) ein diagnostisches Instrument darstellt, also mindestens in Teilen dazu vorgesehen ist, Informationen z.B. für die Erkennung oder Diagnose von Krankheitszuständen zu liefern, hat der Hersteller dies benannt und beschrieben sowie Sensitivität und Spezifität als wichtige Bewertungsgrößen angegeben. Medizinischer Nutzen Verbesserung des Gesundheitszustands Der medizinische Nutzen ist durch eine Reduktion der Migränetage gegenüber der Nichtanwendung der DiGA definiert. Eine geringere Belastung durch Migräne führt zu einer Verbesserung des Gesundheitszustandes. Population: Patientinnen und Patienten mit episodischer Migräne (mit / ohne Aura) zwischen 18 und 65 Jahren. - Intervention: Regelversorgung und Nutzung von sinCephalea über die Dauer von 16 Wochen (Testphase und Interventionsphase) - Comparison: Regelversorgung - Outcome (primär): Anzahl der Migränekopfschmerztage pro 4 Wochen Outcomes (sekundär): Kumulative Dauer der Migränekopfschmerzen in Stunden, HIT-6 (Headache Impact Test 6-item zur Erfassung der Beeinträchtigung im Alltag), MIDAS (Migraine Disability Assessment zur Erfassung der Kopfschmerz-bedingten Beeinträchtigung), EQ-5D-5L (zur Erfassung der Lebensqualität) und PGIC (allgemeiner Eindruck der Patientinnen und Patienten zur Veränderung ihres Allgemeinzustands). Derzeit wird eine konfirmatorische randomisierte klinische Studie (RCT) durchgeführt (Start: 07/2021). Die Studie „Wirksamkeit der Digitalen Gesundheitsanwendung sinCephalea in der Prophylaxe von Migränetagen bei Patient:innen mit episodischer Migräne über einen Zeitraum von zwölf Wochen“ ist eine randomisierte, offene, gegen Regelversorgung kontrollierte Studie. - Das Studiendesign folgt den Empfehlungen der International Headache Society für die Durchführung von Studien mit Medikamenten für die Prophylaxe bei Patientinnen und Patienten mit einer episodischen Migräne sowie den Empfehlungen für die Verwendung von Gesundheitstechnologien bei der Behandlung von Migräne (Diener et al., 2020b, 2021). Nach Einschluss in die Studie erfolgt eine vierwöchige Baselinephase zur prospektiven Erfassung der Erkrankungsschwere und zur Sicherung der Einschluss-/Ausschlusskriterien sowie der Compliance (gemessen an der Ausfüllhäufgkeit der für die Studie notwendigen Fragebögen und des Kopfschmerztagebuches für die Messung der relevanten Endpunkte). Nach Qualifzierung für die Hauptstudie werden die Studienteilnehmer 1:1 auf Intervention und Kontrolle randomisiert. Die Intervention besteht aus Anwendung der DiGA mit der Testphase zur Bestimmung der personalisierten Ernährungsempfehlungen inklusive freier Wahl über die Gewebezuckersensoren sowie 12-wöchiger Anwendung der Ernährungsempfehlungen im Sinne der Ernährungsintervention zusätzlich zur Regelversorgung. Die Kontrollgruppe erhält die Regelversorgung und stellt die Nichtanwendung der DiGA gemäß der Versorgungsrealität dar. Der primäre Endpunkt ist die Veränderung der Zahl der Migränetage pro 4 Wochen (28 Tage) am Ende der Intervention bzw. Kontrolle im Vergleich zur Baselinephase. Universitätsklinikum Schleswig-Holstein, Campus Lübeck Exzellenzzentrum Entzündungsmedizin Institut für Medizinische Biometrie und Statistik Universität zu Lübeck Ratzeburger Allee, 23538 Lübeck Nein 24 Monate (10 Monate intial, 14 Monate Verlängerung)",
+      "content_fingerprint": "7918968f2283",
       "content_preview": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Ve...",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01775:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "01775:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:0",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird. Die Anforderungen an die Datensicherheit werden durch Vorlage eines Zertifikats gemäß § 139e Absatz 10 Fünftes Buch Sozialgesetzbuch nachgewiesen. Detaillierte Informationen zu den einzelnen Anforderungen können Sie auf der Webseite des Bundesamts für Sicherheit in der Informationstechnik unter der Technischen Richtlinie \"BSI TR-03161\" finden: https://www.bsi.bund.de/dok/TR-03161 Bis zur Vorlage des Zertifikats gelten für den Bereich Datensicherheit die Anforderungen der nachfolgend dargestellten Checkliste. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die Nutzung der digitalen Gesundheitsanwendung ist auf ein privates IT-System der nutzenden Person beschränkt. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "d9e1a073a49c",
       "content_preview": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen v...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01775:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "01775:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:0",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit > Datensicherheit",
       "level": 4,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit",
         "Datensicherheit"
       ],
+      "path_hash": "8545f237a1b9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01775:informationen-zu-datenschutz-und-datensicherheit-datensicherheit-14af255f91:field_value",
+      "stable_key": "01775:informationen-zu-datenschutz-und-datensicherheit-datensicherheit:8545f237a1b9:field_value:0",
       "title": "Datensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung greift weder auf Sensoren eines mobilen Endgeräts noch auf externe Hardware zu. Trifft nicht zu Die digitale Gesundheitsanwendung tauscht keine Daten mit externer Hardware aus. Zutreffend Zutreffend Zutreffend Nein",
+      "content_fingerprint": "9361ab3a5b28",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutref...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01775:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "01775:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:1",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der medizinischen Inhalte und die Gewährleistung der Patientensicherheit. Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_fingerprint": "d6d0ea10d54a",
       "content_preview": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der me...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01775:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01775:weitere-informationen:df3724c46c56:section:0",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Interoperabilität",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Interoperabilität"
       ],
+      "path_hash": "43914a1ae1e9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01775:weitere-informationen-angaben-zur-interoperabilitaet-8867f27412:field_value",
+      "stable_key": "01775:weitere-informationen-angaben-zur-interoperabilitaet:43914a1ae1e9:field_value:0",
       "title": "Angaben zur Interoperabilität"
     },
     {
       "content": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versicherten getragenen Sensoren zur Messung und Übertragung von Vitalwerten (Wearables) austauscht. Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "922bba61baf0",
       "content_preview": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versiche...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01775:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01775:weitere-informationen:df3724c46c56:section:1",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Robustheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Robustheit"
       ],
+      "path_hash": "d416c871fdb6",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01775:weitere-informationen-angaben-zur-robustheit-0a511476df:field_value",
+      "stable_key": "01775:weitere-informationen-angaben-zur-robustheit:d416c871fdb6:field_value:0",
       "title": "Angaben zur Robustheit"
     },
     {
       "content": "Zutreffend Zutreffend Trifft nicht zu Die DiGA kommuniziert nicht unmittelbar mit Sensoren. Es können Sensoren unterschiedlicher Hersteller verwendet werden, sofern diese die Kriterien für eine kontinuierliche Blut- oder Gewebezuckermessung erfüllen. Die Sensordaten werden von der Hardware und Software des jeweiligen Herstellers erfasst und verarbeitet. Diese übernimmt auch die direkte Steuerung der Sensoren. Die Sensordaten werden anschließend aus der Software des jeweiligen Herstellers exportiert und durch die antragsgegenständliche DiGA verarbeitet. Alle Hersteller verwenden eine Werkskalibrierung in Kombination mit einer initialen Kalibrierungsphase nach Aktivierung des Sensors. Das entsprechende Vorgehen wird in der jeweiligen Gebrauchsanweisung des Herstellers beschrieben. In der DiGA wird stets auf die Gebrauchsanweisung des jeweiligen Herstellers verwiesen.",
+      "content_fingerprint": "aa9e00f5bf4f",
       "content_preview": "Zutreffend Zutreffend Trifft nicht zu Die DiGA kommuniziert nicht unmittelbar mit Sensoren. Es können Sensoren unterschiedlicher Hersteller verwendet werden, sofern diese die Kriterien für eine kontinuierliche Blut- oder Gewebezuckermess...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "01775:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01775:weitere-informationen:df3724c46c56:section:2",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zum Verbraucherschutz",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zum Verbraucherschutz"
       ],
+      "path_hash": "22c54da8ff9c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01775:weitere-informationen-angaben-zum-verbraucherschutz-05cd17969e:field_value",
+      "stable_key": "01775:weitere-informationen-angaben-zum-verbraucherschutz:22c54da8ff9c:field_value:0",
       "title": "Angaben zum Verbraucherschutz"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "409aa9901d82",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "01775:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01775:weitere-informationen:df3724c46c56:section:3",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zu Nutzerfreundlichkeit und Barrierefreiheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
       ],
+      "path_hash": "a9d890d721a4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01775:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit-8fe873c531:field_value",
+      "stable_key": "01775:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit:a9d890d721a4:field_value:0",
       "title": "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
     },
     {
       "content": "Zutreffend Zutreffend",
+      "content_fingerprint": "f572c2f88946",
       "content_preview": "Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "01775:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01775:weitere-informationen:df3724c46c56:section:4",
       "title": "Weitere Informationen"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Unterstützung der Leistungserbringende",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Unterstützung der Leistungserbringende"
       ],
+      "path_hash": "bdfe86165ef2",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01775:weitere-informationen-unterstuetzung-der-leistungserbringende-d4e78dfd75:field_value",
+      "stable_key": "01775:weitere-informationen-unterstuetzung-der-leistungserbringende:bdfe86165ef2:field_value:0",
       "title": "Unterstützung der Leistungserbringende"
     },
     {
       "content": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen.",
+      "content_fingerprint": "8b7713a3d90e",
       "content_preview": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Triff...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "01775:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01775:weitere-informationen:df3724c46c56:section:5",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Qualität der medizinischen Inhalte",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Qualität der medizinischen Inhalte"
       ],
+      "path_hash": "964eb34f0609",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01775:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte-a6d05ceeb6:field_value",
+      "stable_key": "01775:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte:964eb34f0609:field_value:0",
       "title": "Angaben zur Qualität der medizinischen Inhalte"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "6a8d1dc0aa28",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "01775:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01775:weitere-informationen:df3724c46c56:section:6",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Patientensicherheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Patientensicherheit"
       ],
+      "path_hash": "96d387fa1378",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01775:weitere-informationen-angaben-zur-patientensicherheit-7a67651ccd:field_value",
+      "stable_key": "01775:weitere-informationen-angaben-zur-patientensicherheit:96d387fa1378:field_value:0",
       "title": "Angaben zur Patientensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "477afefea65b",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 7,
       "source_kind": "visible_directory",
-      "stable_key": "01775:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01775:weitere-informationen:df3724c46c56:section:7",
       "title": "Weitere Informationen"
     },
     {
       "content": "Die vorübergehende Aufnahme der DiGA mit Wirkung vom 06.11.2024 wird aufgrund der Entscheidung des Landessozialgericht Schleswig-Holstein, Az. L 10 KR 21/25 B ER aufgehoben und die DiGA aus dem Verzeichnis gemäß § 139e Absatz 4 Satz 8 des Fünften Buches Sozialgesetzbuch (SGB V) gestrichen.",
+      "content_fingerprint": "7e5036d8d6dc",
       "content_preview": "Die vorübergehende Aufnahme der DiGA mit Wirkung vom 06.11.2024 wird aufgrund der Entscheidung des Landessozialgericht Schleswig-Holstein, Az. L 10 KR 21/25 B ER aufgehoben und die DiGA aus dem Verzeichnis gemäß § 139e Absatz 4 Satz 8 de...",
       "content_type": "field_value",
+      "display_path": "Änderungshistorie > 22.01.2026 Status der Listung ist „Gestrichen“",
       "level": 4,
       "path": [
         "Änderungshistorie",
         "22.01.2026 Status der Listung ist „Gestrichen“"
       ],
+      "path_hash": "f021992d6892",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01775:aenderungshistorie-22-01-2026-status-der-listung-ist-gestrichen-c490779bc3:field_value",
+      "stable_key": "01775:aenderungshistorie-22-01-2026-status-der-listung-ist-gestrichen:f021992d6892:field_value:0",
       "title": "22.01.2026 Status der Listung ist „Gestrichen“"
     },
     {
       "content": "Die Streichung der DiGA vom 11.10.2024 wird mit Wirkung vom 06.11.2024 vorübergehend aufgehoben und die DiGA wird wieder in das Verzeichnis nach § 139e Fünftes Buch Sozialgesetzbuch (SGB V) aufgenommen.",
+      "content_fingerprint": "7be1370bc242",
       "content_preview": "Die Streichung der DiGA vom 11.10.2024 wird mit Wirkung vom 06.11.2024 vorübergehend aufgehoben und die DiGA wird wieder in das Verzeichnis nach § 139e Fünftes Buch Sozialgesetzbuch (SGB V) aufgenommen.",
       "content_type": "field_value",
+      "display_path": "Änderungshistorie > 06.11.2024 Status der Listung ist „Vorläufig aufgenommen“",
       "level": 4,
       "path": [
         "Änderungshistorie",
         "06.11.2024 Status der Listung ist „Vorläufig aufgenommen“"
       ],
+      "path_hash": "f46f878f2acc",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01775:aenderungshistorie-06-11-2024-status-der-listung-ist-vorlaeufig-aufgenommen-c13ca69b78:field_value",
+      "stable_key": "01775:aenderungshistorie-06-11-2024-status-der-listung-ist-vorlaeufig-aufgenommen:f46f878f2acc:field_value:0",
       "title": "06.11.2024 Status der Listung ist „Vorläufig aufgenommen“"
     },
     {
       "content": "Die digitale Gesundheitsanwendung (DiGA) wurde am 11.10.2024 nach Prüfung der Nachweise für positive Versorgungseffekte aus dem Verzeichnis gemäß § 139e Absatz 4 Satz 8 des Fünften Buches Sozialgesetzbuch (SGB V) gestrichen.",
+      "content_fingerprint": "5ac9d49831e7",
       "content_preview": "Die digitale Gesundheitsanwendung (DiGA) wurde am 11.10.2024 nach Prüfung der Nachweise für positive Versorgungseffekte aus dem Verzeichnis gemäß § 139e Absatz 4 Satz 8 des Fünften Buches Sozialgesetzbuch (SGB V) gestrichen.",
       "content_type": "field_value",
+      "display_path": "Änderungshistorie > 11.10.2024 Status der Listung ist „Gestrichen“",
       "level": 4,
       "path": [
         "Änderungshistorie",
         "11.10.2024 Status der Listung ist „Gestrichen“"
       ],
+      "path_hash": "91a127b6c729",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01775:aenderungshistorie-11-10-2024-status-der-listung-ist-gestrichen-efe88e4e2c:field_value",
+      "stable_key": "01775:aenderungshistorie-11-10-2024-status-der-listung-ist-gestrichen:91a127b6c729:field_value:0",
       "title": "11.10.2024 Status der Listung ist „Gestrichen“"
     }
   ],
@@ -456,10 +600,10 @@
     "accordions_opened": 0,
     "content_section_count": 36,
     "field_value_count": 18,
-    "rendered_at": "2026-06-22T19:11:39.634474+00:00",
+    "rendered_at": "2026-06-22T20:39:11.966601+00:00",
     "source_kind": "visible_directory"
   },
   "source_kind": "visible_directory",
-  "timestamp": "20260622T190144Z",
+  "timestamp": "20260622T202912Z",
   "url": "https://diga.bfarm.de/de/verzeichnis/01775"
 }

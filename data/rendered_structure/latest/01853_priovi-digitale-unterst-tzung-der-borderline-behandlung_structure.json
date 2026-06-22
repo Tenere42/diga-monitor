@@ -2,974 +2,1274 @@
   "content_sections": [
     {
       "content": "Bei priovi handelt es sich um eine DiGA für Patientinnen und Patienten mit einer Borderline-Persönlichkeitsstörung, die Krankheitssymptome aufweisen und mindestens 18 Jahre alt sind. priovi vermittelt Methoden und Übungen aus der Kognitiven Verhaltenstherapie und baut in diesem Rahmen insbesondere auf den Techniken der Schematherapie auf.",
+      "content_fingerprint": "1e76e0f81aa1",
       "content_preview": "Bei priovi handelt es sich um eine DiGA für Patientinnen und Patienten mit einer Borderline-Persönlichkeitsstörung, die Krankheitssymptome aufweisen und mindestens 18 Jahre alt sind. priovi vermittelt Methoden und Übungen aus der Kogniti...",
       "content_type": "field_value",
+      "display_path": "gaia-group.com/de/",
       "level": 3,
       "path": [
         "gaia-group.com/de/"
       ],
+      "path_hash": "3440976f0f84",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:gaia-group-com-de-8c79d17e94:field_value",
+      "stable_key": "01853:gaia-group-com-de:3440976f0f84:field_value:0",
       "title": "gaia-group.com/de/"
     },
     {
       "content": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_fingerprint": "26290d5ae490",
       "content_preview": "Hier finden Sie weitergehende Informationen zur DiGA.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "a5e395515816",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung:a5e395515816:field_value:0",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_fingerprint": "bfc5ca33598c",
       "content_preview": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:0",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "priovi - digitale Unterstützung der Borderline-Behandlung",
+      "content_fingerprint": "0626796dd748",
       "content_preview": "priovi - digitale Unterstützung der Borderline-Behandlung",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Name der DiGA im DiGA-Verzeichnis",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Name der DiGA im DiGA-Verzeichnis"
       ],
+      "path_hash": "b055b8e1c744",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v-132a49921b:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v:b055b8e1c744:field_value:0",
       "title": "Name der DiGA im DiGA-Verzeichnis"
     },
     {
       "content": "05.03.2023",
+      "content_fingerprint": "3172391931fa",
       "content_preview": "05.03.2023",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Erstmalige Aufnahme in das DiGA-Verzeichnis",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Erstmalige Aufnahme in das DiGA-Verzeichnis"
       ],
+      "path_hash": "3d07f6258e5c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in--0901792b12:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in-:3d07f6258e5c:field_value:0",
       "title": "Erstmalige Aufnahme in das DiGA-Verzeichnis"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Modul",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Modul"
       ],
+      "path_hash": "fdfb704b702c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-modul-0b2f60dd90:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-modul:fdfb704b702c:field_value:0",
       "title": "Modul"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
       ],
+      "path_hash": "46556afef4cb",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-andere-namen-und-modell-ab7acb1427:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-andere-namen-und-modell:46556afef4cb:field_value:0",
       "title": "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
     },
     {
       "content": "Browserbasierte Webanwendung",
+      "content_fingerprint": "c862b048bceb",
       "content_preview": "Browserbasierte Webanwendung",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Art der DiGA",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Art der DiGA"
       ],
+      "path_hash": "600a0be84a95",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga-f41af95c79:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga:600a0be84a95:field_value:0",
       "title": "Art der DiGA"
     },
     {
       "content": "als browserbasierte Webanwendung",
+      "content_fingerprint": "a1a6d386afe6",
       "content_preview": "als browserbasierte Webanwendung",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Die digitale Gesundheitsanwendung ist verfügbar",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Die digitale Gesundheitsanwendung ist verfügbar"
       ],
+      "path_hash": "6d3556c97e9a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit-70a197df25:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit:6d3556c97e9a:field_value:0",
       "title": "Die digitale Gesundheitsanwendung ist verfügbar"
     },
     {
       "content": "Die Datenverarbeitung im Zusammenhang mit der Nutzung von priovi findet in Deutschland statt.",
+      "content_fingerprint": "3408df1a63a5",
       "content_preview": "Die Datenverarbeitung im Zusammenhang mit der Nutzung von priovi findet in Deutschland statt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Standorte der Datenverarbeitung",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Standorte der Datenverarbeitung"
       ],
+      "path_hash": "eee99405da7f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera-426183d1fc:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera:eee99405da7f:field_value:0",
       "title": "Standorte der Datenverarbeitung"
     },
     {
       "content": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) die Anforderungen an",
+      "content_fingerprint": "3877981d2f4e",
       "content_preview": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) die Anforderungen an",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Bewertungsentscheidung des BfArM",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Bewertungsentscheidung des BfArM"
       ],
+      "path_hash": "7d463e27c832",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung--cdc10aad7c:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung-:7d463e27c832:field_value:0",
       "title": "Bewertungsentscheidung des BfArM"
     },
     {
       "content": "• Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der Technik und • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) als erfüllt. Der Hersteller hat bestätigt, dass keine personenbezogenen Daten in ein Land ohne Angemessenheitsbeschluss fließen. Das BfArM bewertet dieses Vorgehen als konform im Sinne der DiGAV. Nach Aufnahme zur Erprobung wurden die Studienergebnisse der Erprobungsstudie zum Ende des Erprobungszeitraums eingereicht. Für die endgültige Aufnahme wurden die Ergebnisse einer einfach verblindeten, randomisierten kontrollierten Studie mit dem Titel „Effectiveness of Priovi, A Digital Self-help Tool, In Patients with Borderline Personality Disorder – a single-blinded Randomized Controlled Trial (EPADIP-BPD)“ vorgelegt. Die primäre Beobachtungsdauer betrug 3 Monate. Nach 6 Monaten erfolgte ein Follow-up. Die Studie ist im Deutschen Register Klinischer Studien (DRKS) unter der Nummer DRKS00028888 registriert und lief vom 03.05.2022 bis zum 03.11.2023. In die Studie wurden Patientinnen und Patienten ab 18 Jahren mit einer diagnostizierten Borderline-Persönlichkeitsstörung (BPS; ICD-10: F60.31) und mindestens moderater Symptomschwere (BSL-23 Score ≥ 1,07) eingeschlossen. Die Interventionsgruppe (IG) erhielt Zugang zur Standardversorgung und zur DiGA. Die Kontrollgruppe (KG) erhielt Zugang zur Standardversorgung und nach 6 Monaten den Zugang zur DiGA. Der primäre Endpunkt war die Veränderung des Schweregrads der Borderline-Symptome gemessen mittels Borderline Symptom List-23 (BSL-23). Die sekundären Endpunkte waren die Veränderung der Lebensqualität in Bezug auf die psychische Gesundheit gemessen mittels Short Form Health Survey-12 (SF-12), die Veränderung der Depressionssymptomatik gemessen mittels Patient Health Questionnaire-9 (PHQ-9), die Veränderung der Ängstlichkeit gemessen mittels Generalized Anxiety Disorder Assessment-7 (GAD-7), die Veränderung der Arbeitsfähigkeit gemessen mittels Work and Social Assessment Scale (WSAS) und die Anzahl an lebensbedrohlichen Ereignissen, Suizidversuchen und Krankenhausaufenthalten. In einem strukturierten klinischen Interview wurden 1226 Personen auf die Eignung zur Studienteilnahme überprüft. 646 Personen wurden dabei ausgeschlossen und 580 Patientinnen und Patienten wurden in die Studie eingeschlossen und randomisiert (IG: 302; KG: 278). Im Verlauf der Studie (bis T1) wurden 50 (8,6 %) Patientinnen und Patienten als Drop-outs identifiziert [IG: 35 (11,6 %); KG: 15 (5,4 %)]. Der primäre Endpunkt und die sekundären Endpunkte wurden zu 2 Zeitpunkten [Baseline (T0) und nach 3 Monaten (T1)] erhoben. Zudem wurden zu allen Endpunkten Follow-up-Daten nach 6 Monaten (T2) und 12 Monaten (T3) erhoben, wobei die Daten zu T3 nicht mehr kontrolliert sind. Im Rahmen der primären Analyse der RCT gemäß Intention-To-Treat-Prinzip (ITT-Prinzip) ergab sich ein statistisch signifikanter und klinisch relevanter Vorteil der IG gegenüber der KG in Bezug auf die Verbesserung des Gesundheitszustands gemessen anhand des BSL-23 [Differenz zu 3 Monaten: -0,19; 95-%-Konfidenzintervall (KI): -0,3 – -0,09; p-Wert: p < 0,001; Cohen’s d: 0,24; 95-%-KI: 0,07 – 0,42]. Die Differenz zwischen den Gruppen war auch bei Anwendung konservativer Methoden zum Ersetzen fehlender Werte relevant. Zusätzlich wurden noch Responderanalysen durchgeführt, die das Ergebnis ebenfalls unterstützen (IG: 24 %, KG: 15,6 %, p = 0,016). Auch für die sekundären Endpunkte Veränderung des Schweregrads der depressiven Symptome gemessen mittels PHQ-9 (Differenz zu 3 Monaten: -1,0; 95-%-KI: -1,8 – -0,3; p-Wert: p = 0,009; Cohen’s d: 0,21; 95-%-KI: 0,04 – 0,38) und Veränderung der Symptomschwere der generellen Ängstlichkeit gemessen mittels GAD-7 (Differenz zu 3 Monaten: -0,7; 95-%-KI: -1,4 – -0,1; p-Wert: p = 0,030; Cohen’s d: 0,23; 95-%-KI: 0,06 – 0,41) konnten signifikante Ergebnisse erzielt werden. Die weiteren sekundären Endpunkte, Veränderung der Lebensqualität in Bezug auf die psychische Gesundheit gemessen mittels SF-12 und Veränderung der sozial- und arbeitsbezogenen Funktionseinschränkungen gemessen mittels WSAS, konnten hingegen keine Effekte zeigen. Die Subgruppenanalysen nach Geschlecht, Schweregrad der BPS, Psychopharmakotherapie und Psychotherapie zeigten konsistent positive, allerdings nicht signifikante Ergebnisse. Die Anzahl an Suizidversuchen konnte in der IG im Vergleich zur KG signifikant gesenkt werden (Differenz zu 3 Monaten: -0,86; 95-%-KI: -1,55 – -0,18; p-Wert: p = 0,014). Bei der Anzahl der Krankenhausaufenthalte und bei der Anzahl von lebensbedrohlichen Ereignissen konnte in der IG im Vergleich zur KG, kein statistisch signifikanter Effekt gezeigt werden. Entsprechend bewertet das BfArM die in § 139e des Fünften Buches Sozialgesetzbuch (SGB V) sowie in der DiGAV festgelegten Voraussetzungen zur endgültigen Aufnahme in das Verzeichnis nach § 139e Absatz 1 SGB V für die Indikation F60.31: Emotional instabile Persönlichkeitsstörung: Borderline-Typ in Bezug auf den positiven Versorgungseffekt „Verbesserung des Gesundheitszustands“ als erfüllt.",
+      "content_fingerprint": "830f1bb7f0b8",
       "content_preview": "• Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der Technik und • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Ge...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:1",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_fingerprint": "4b8f5a46c1b0",
       "content_preview": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt"
       ],
+      "path_hash": "9af58630166c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:9af58630166c:field_value:0",
       "title": "Angaben zum Medizinprodukt"
     },
     {
       "content": "priovi ist dafür bestimmt, therapeutische Techniken und Übungen anzubieten, die auf evidenzbasierten psychologisch-psychotherapeutischen Therapieverfahren beruhen und die für Patienten mit Borderline-Persönlichkeitsstörung geeignet sind, sie beim Management ihrer Borderline-Persönlichkeitsstörung zu unterstützen. priovi ist zur eigenständigen Nutzung in Ergänzung zur üblichen Versorgung von Patienten bestimmt, die mindestens 18 Jahre alt sind. priovi ist weder dafür bestimmt, Behandlungen durch einen Leistungserbringer im Gesundheitswesen zu ersetzen noch dafür bestimmt, Informationen für diagnostische oder therapeutische Entscheidungen zu liefern.",
+      "content_fingerprint": "d8e931f6b3e6",
       "content_preview": "priovi ist dafür bestimmt, therapeutische Techniken und Übungen anzubieten, die auf evidenzbasierten psychologisch-psychotherapeutischen Therapieverfahren beruhen und die für Patienten mit Borderline-Persönlichkeitsstörung geeignet sind,...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Medizinische Zweckbestimmung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Medizinische Zweckbestimmung"
       ],
+      "path_hash": "8bde401e0e97",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:8bde401e0e97:field_value:0",
       "title": "Medizinische Zweckbestimmung"
     },
     {
       "content": "Risikoklasse I nach MDR",
+      "content_fingerprint": "957f4ea485db",
       "content_preview": "Risikoklasse I nach MDR",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Risikoklasse Medizinprodukt",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Risikoklasse Medizinprodukt"
       ],
+      "path_hash": "b60186e2af98",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:b60186e2af98:field_value:0",
       "title": "Risikoklasse Medizinprodukt"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Name der Benannten Stelle",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Name der Benannten Stelle"
       ],
+      "path_hash": "d8a546b6e09b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:d8a546b6e09b:field_value:0",
       "title": "Name der Benannten Stelle"
     },
     {
       "content": "Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt.",
+      "content_fingerprint": "253e4f0d662b",
       "content_preview": "Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:2",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Kennnummer der Benannten Stelle",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Kennnummer der Benannten Stelle"
       ],
+      "path_hash": "f1e2f46935e4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-kennnummer-der-benannte-885261bcc3:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-kennnummer-der-benannte:f1e2f46935e4:field_value:0",
       "title": "Kennnummer der Benannten Stelle"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Identifikationsnummer Eudamed",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Identifikationsnummer Eudamed"
       ],
+      "path_hash": "fc78f31e70f9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-identifikationsnummer-e-c5d45b28a3:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-identifikationsnummer-e:fc78f31e70f9:field_value:0",
       "title": "Identifikationsnummer Eudamed"
     },
     {
       "content": "4260670636510",
+      "content_fingerprint": "0bc902ebf431",
       "content_preview": "4260670636510",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > UDI - Unique Device Identifier im Sinne der MDR",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "UDI - Unique Device Identifier im Sinne der MDR"
       ],
+      "path_hash": "d176d35107d9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-udi-unique-device-ident-16a2c37ee0:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-udi-unique-device-ident:d176d35107d9:field_value:0",
       "title": "UDI - Unique Device Identifier im Sinne der MDR"
     },
     {
       "content": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_fingerprint": "ba6516ebde5f",
       "content_preview": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA"
       ],
+      "path_hash": "6921f5eac91a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:6921f5eac91a:field_value:0",
       "title": "Weitere Informationen zur DiGA"
     },
     {
       "content": "priovi ist eine digitale Gesundheitsanwendung für Patientinnen und Patienten mit einer Borderline-Persönlichkeitsstörung. Es vermittelt Methoden und Übungen aus der Kognitiven Verhaltenstherapie und baut in diesem Rahmen insbesondere auf den Techniken der Schematherapie auf. Es verfolgt dabei ein ganzheitliches Konzept, um die Symptome zu verbessern. Das Programm ist zur Eigenanwendung durch die Patienten bestimmt. priovi besteht aus 10 Modulen. Jedes dieser Module kann in etwa 30-90 Minuten absolviert werden. priovi bietet Informationen und Übungen zu folgenden Themen: + Onboarding I: Einführung in das Programm; Psychoedukation (Teil 1) mit Fokus auf die Symptomatik und möglicher Gründe für die Entwicklung der Borderline-Persönlichkeitsstörung. + Onboarding II: Psychoedukation (Teil 2) mit Fokus auf die Vorstellung von Theorien und Erkenntnissen zu menschlichen Bedürfnissen (z. B. Sicherheit, gesunde menschliche Bindungen). Einführung in die Schematherapie und Schemamodi, die verschiedene emotionale Stadien und Symptombereiche des Patienten beschreiben. Hierbei werden kognitive, emotionale und verhaltenstherapeutische Methoden eingesetzt. + Kind-Modi: Wissensvermittlung zum Erkennen kindlich-unreifer symptomatischer Verhaltensweisen anhand von Beispielen. + Eltern-Modi/Erwachsenen-Modi: Wissensvermittlung über selbstwertschädigende und selbstwertstärkende Muster, die im Schematherapie-Kontext als dysfunktionale Elternmodi und den gesunden Erwachsenenmodus konzeptualisiert werden. + Bewältigungsmodi: Wissensvermittlung über Symptome mit hoher intrapsychischer Funktionalität, in den Termini der Schematherapie Bewältigungsmodi (Vermeidung [distanzierter Beschützermodus]), Überkompensation, Unterwerfung/Aufopferung). + Therapieansätze (Einführung): Einführung in adaptive Bewältigungsmethoden, die auf verschiedene Schemamodi zugeschnitten sind, inkl. Übungsaufgaben. Ziel der Übungen ist es, einen \"Modus-Werkzeugkasten\" zu entwickeln, aus dem jede Nutzerin bzw. jeder Nutzer eine Methode auswählen kann, wenn sie/er das nächste Mal mit einem beliebigen Schemamodus umgehen muss. + Übungen zu Bewältigungsmodi: Angebot kognitiver/kognitiv-behavioraler Trainings für die Modi Vermeidung (distanzierter Beschützermodus), Überkompensation und Unterwerfung/Aufopferung basierend auf den Präferenzen der Nutzerin/des Nutzers. + Übungen zu den Kindermodi: Angebot kognitiver/kognitiv-behaviorale Trainings für den \"verletzlichen\" und den \"wütenden\" Kindermodus basierend auf den Präferenzen der Nutzerin/des Nutzers. + Übungen zu den Eltern-Modi: Angebot kognitiver/kognitiv-behaviorale Trainings für den \"strafenden\" und \"fordernden\" Elternmodus basierend auf den Präferenzen der Nutzerin/des Nutzers. + Zusammenfassung und Motivation zur Umsetzung der verschiedenen Techniken.",
+      "content_fingerprint": "21eee5a5b039",
       "content_preview": "priovi ist eine digitale Gesundheitsanwendung für Patientinnen und Patienten mit einer Borderline-Persönlichkeitsstörung. Es vermittelt Methoden und Übungen aus der Kognitiven Verhaltenstherapie und baut in diesem Rahmen insbesondere auf...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "ef6363788ef3",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:ef6363788ef3:field_value:0",
       "title": "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
     },
     {
       "content": "priovi weist eine Haupt- und mehrere unterstützende Nebenfunktionen auf. Die Hauptfunktion besteht in einem Dialog. Das bedeutet, dass priovi der Nutzerin/dem Nutzer kurze Informationen anbietet und sie/er dann aus einer festgelegten Anzahl von vorgegebenen Antwortmöglichkeiten diejenige auswählt, die sie/ihn am meisten interessiert und/oder am besten zur individuellen Situation passt. priovi geht dann auf diese Antwortmöglichkeit empathisch ein und vermittelt nachfolgend die nächste Information, auf die die Nutzerin/der Nutzer dann wiederum reagieren kann usw. Auf diese Weise entsteht eine Gesprächsdynamik. Die Nutzerin/der Nutzer kann priovi zu jeder Zeit unterbrechen und dann an der Stelle fortfahren, an der sie/er das Programm verlassen hat. Nutzerinnen/Nutzer werden regelmäßig daran erinnert, Pausen einzulegen. priovi verfügt über eine Reihe weiterer Funktionen. Hierzu gehören: + Kurze Textnachrichten als SMS (optional) oder per E-Mail, die wesentliche therapeutische Inhalte kurz und prägnant wiederholen oder zur weiteren Nutzung von priovi motivieren. + Möglichkeit der Selbsteinschätzung des Verlaufs der Beschwerden mit Hilfe von Fragebögen. + Arbeitsblätter, Übungen (Trainings) und Zusammenfassungen (PDF) zur Unterstützung der Umsetzung der Übungen und zum Wiederholen wichtiger Inhalte, die heruntergeladen werden können. + Audios zur Anleitung therapeutischer Übungen oder zur näheren Erläuterung bestimmter Inhalte.",
+      "content_fingerprint": "1bf4176f93ec",
       "content_preview": "priovi weist eine Haupt- und mehrere unterstützende Nebenfunktionen auf. Die Hauptfunktion besteht in einem Dialog. Das bedeutet, dass priovi der Nutzerin/dem Nutzer kurze Informationen anbietet und sie/er dann aus einer festgelegten Anz...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Funktionen der digitalen Gesundheitsanwendung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Funktionen der digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "21931475406b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:21931475406b:field_value:0",
       "title": "Funktionen der digitalen Gesundheitsanwendung"
     },
     {
       "content": "Klinik für Psychiatrie und Psychotherapie der Universität zu Lübeck, Ratzeburger Allee 160, 23538 Lübeck.",
+      "content_fingerprint": "05a3ebe25944",
       "content_preview": "Klinik für Psychiatrie und Psychotherapie der Universität zu Lübeck, Ratzeburger Allee 160, 23538 Lübeck.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
       ],
+      "path_hash": "32d92eb3d0dc",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:32d92eb3d0dc:field_value:0",
       "title": "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
     },
     {
       "content": "Arntz, A. (2012). Imagery rescripting as a therapeutic technique: Review of clinical trials, basic studies, and research agenda. Journal of Experimental Psychopathology, 3(2), 189-208. Farrell, J. M., Shaw, I. A., & Webber, M. A. (2009). A schema-focused approach to group psychotherapy for outpatients with borderline personality disorder: a randomized controlled trial. J Behav Ther Exp Psychiatry., 40(2), 317-328. Giesen-Bloo, J., Van Dyck, R., ... & Arntz, A. (2006). Outpatient psychotherapy for borderline personality disorder: randomized trial of schema-focused therapy vs transference-focused psychotherapy. try. Arch Gen Psychiatry, 63(6), 649-658. Arntz, A. (2006). Outpatient psychotherapy for borderline personality disorder: randomized trial of schemafocused therapy vs transference-focused psychotherapy. try. Arch Gen Psychiatry, 63(6), 649-658. Jacob, G. A., & Arntz, A. (2011). Schematherapie. Psychotherapeut, 56(3), 247-258. Jacob, G. A., & Arntz, A. (2012). Emotion-focused techniques in schema therapy and the role of exposure techniques. In Exposure therapy (pp. 167-181). Springer, New York, NY. Krebs, P., Prochaska, J. O., & Rossi, J. S. (2010). A meta-analysis of computer-tailored interventions for health behavior change. Prev Med, 51(3), 214-221. Lobbestael, J., Arntz, A., & Bernstein, D. P. (2010). Disentangling the relationship between different types of childhood maltreatment and personality disorders. J Pers Disord, 24(3), 285-295. Lustria, M. L. A., Noar, S. M., ... & Lee, J. (2013). A meta-analysis of web-delivered tailored health behavior change interventions. J Health Commun, 18(9), 1039-1069. Nadort, M., Arntz, A., Smit, J. H., ... & van Dyck, R. (2009). Implementation of outpatient schema therapy for borderline personality disorder with versus without crisis support by the therapist outside office hours: A randomized trial. Behav Res Ther, 47(11), 961-973 National Collaborating Centre for Mental Health (UK. (2009). Borderline personality disorder: treatment and management. British Psychological Society. Nebeling, M., & Norrie, M. C. (2013). Responsive design and development: methods, technologies and current issues Web Engineering (pp. 510-513): Springer. Noar, S. M., Benac, C. N., & Harris, M. S. (2007). Does tailoring matter? Meta-analytic review of tailored print health behavior change interventions. Psychol Bull, 133(4), 673. Oldham, J. M. (2005). Guideline Watch: Practice Guideline for the Treatment of Patients with Borderline Personality Disorder, American Psychiatric Association. Rizvi, S. L., Dimeff, L. A., Skutch, J., Carroll, D., & Linehan, M. M. (2011). A pilot study of the DBT coach: an interactive mobile phone application for individuals with borderline personality disorder and substance use disorder. Behav Ther, 42(4), 589-600. Young, J. E., Klosko, J. S., & Weishaar, M. E. (2006). Schema therapy: A practitioner's guide. Guilford Press. Baer, R. A. (2003). Mindfulness training as a clinical intervention: A conceptual and empirical review. Clinical Psychology: Science and Practice, 10(2), 125–143. Beck, J. S., & Beck, A. T. (1995). Cognitive therapy: Basics and beyond (Issue Sirsi) i9780898628470). Guilford press New York. Davis, M., Eshelman, E. R., & McKay, M. (2008). The relaxation and stress reduction workbook. New Harbinger Publications. Deci, E. L., & Ryan, R. M. (2000). The\" what\" and\" why\" of goal pursuits: Human needs and the self-determination of behavior. Psychol Inq, 11(4), 227–268. Epstein, S. (1998). Cognitive-Experiential Self-Theory. In D. F. Barone, M. Hersen, & V. B. Van Hasselt (Eds.), Advanced Personality (pp. 211–238). Springer US. Kabat- Zinn, J., & Kesper-Grossmann, U. (1999) Stressbewältigung durch die Praxis der Achtsamkeit. Arbor Verlag. Ryan, R. M., & Deci, E. L. (2000). The Darker and Brighter Sides of Human Existence: Basic Psychological Needs as a Unifying Concept. Psychol Inq, 11(4), 319–338.",
+      "content_fingerprint": "4ad085917be1",
       "content_preview": "Arntz, A. (2012). Imagery rescripting as a therapeutic technique: Review of clinical trials, basic studies, and research agenda. Journal of Experimental Psychopathology, 3(2), 189-208. Farrell, J. M., Shaw, I. A., & Webber, M. A. (2009)....",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
       ],
+      "path_hash": "ad43221ee27a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:ad43221ee27a:field_value:0",
       "title": "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
     },
     {
       "content": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_fingerprint": "77cea9e6788d",
       "content_preview": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal"
       ],
+      "path_hash": "4c8dba25a53c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:4c8dba25a53c:field_value:0",
       "title": "Beteiligung vom medizinischen Fachpersonal"
     },
     {
       "content": "Diagnosestellung, Information und Aufklärungsgespräch über priovi, Verordnung von priovi, Follow-up im Rahmen der üblichen Therapie, wie zum Beispiel: Frage nach Verlauf der Beschwerden; Nachfrage, ob die Patientin oder der Patient das Programm als hilfreich empfunden hat; Motivation zur weiteren Therapienutzung (Adhärenz).",
+      "content_fingerprint": "51591420d4bb",
       "content_preview": "Diagnosestellung, Information und Aufklärungsgespräch über priovi, Verordnung von priovi, Follow-up im Rahmen der üblichen Therapie, wie zum Beispiel: Frage nach Verlauf der Beschwerden; Nachfrage, ob die Patientin oder der Patient das P...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal > Ärztinnen/ Ärzte",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal",
         "Ärztinnen/ Ärzte"
       ],
+      "path_hash": "736d25ff8830",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:736d25ff8830:field_value:0",
       "title": "Ärztinnen/ Ärzte"
     },
     {
       "content": "Diagnosestellung, Information und Aufklärungsgespräch über priovi, Verordnung von priovi, Follow-up im Rahmen der üblichen Therapie, wie zum Beispiel: Frage nach Verlauf der Beschwerden; Nachfrage, ob die Patientin oder der Patient das Programm als hilfreich empfunden hat; Motivation zur weiteren Therapienutzung (Adhärenz).",
+      "content_fingerprint": "51591420d4bb",
       "content_preview": "Diagnosestellung, Information und Aufklärungsgespräch über priovi, Verordnung von priovi, Follow-up im Rahmen der üblichen Therapie, wie zum Beispiel: Frage nach Verlauf der Beschwerden; Nachfrage, ob die Patientin oder der Patient das P...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal > Psychotherapeutinnen/ Psychotherapeuten",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal",
         "Psychotherapeutinnen/ Psychotherapeuten"
       ],
+      "path_hash": "58675bdbc27c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:58675bdbc27c:field_value:0",
       "title": "Psychotherapeutinnen/ Psychotherapeuten"
     },
     {
       "content": "Nein",
+      "content_fingerprint": "70bb813787b6",
       "content_preview": "Nein",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal > Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal",
         "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
       ],
+      "path_hash": "844ec57e702e",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:844ec57e702e:field_value:0",
       "title": "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
     },
     {
       "content": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfohlen wird.",
+      "content_fingerprint": "ba2dc6143acd",
       "content_preview": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfoh...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise"
       ],
+      "path_hash": "af464e1a8e2f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-6922aa5eb2:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise:af464e1a8e2f:field_value:0",
       "title": "Anwendungshinweise"
     },
     {
       "content": "Gemäß der Zweckbestimmung sollte das Produkt nur bei Patientinnen und Patienten angewendet werden, bei denen eine Borderline-Persönlichkeitsstörung diagnostiziert wurde. - priovi ist zur eigenständigen Nutzung in Ergänzung zur üblichen Versorgung von Patientinnen und Patienten bestimmt, die mindestens 18 Jahre alt sind. Eine Änderung bestehender Medikation und/oder Behandlungen darf nicht ohne Rücksprache mit der Ärztin oder dem Arzt beziehungsweise der Psychotherapeutin oder dem Psychotherapeuten erfolgen. - Patientinnen und Patienten sollten ihre Ärztin/ihren Arzt oder Psychotherapeutin/Psychotherapeuten kontaktieren, wenn sich ihr Befinden oder ihre Stimmung längere Zeit (mehrere Tage/Wochen) nicht bessern oder sich akut verschlechtern sollten.",
+      "content_fingerprint": "84e29e60b38c",
       "content_preview": "Gemäß der Zweckbestimmung sollte das Produkt nur bei Patientinnen und Patienten angewendet werden, bei denen eine Borderline-Persönlichkeitsstörung diagnostiziert wurde. - priovi ist zur eigenständigen Nutzung in Ergänzung zur üblichen V...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Hinweise für eine sichere Anwendung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Hinweise für eine sichere Anwendung"
       ],
+      "path_hash": "ed840310f43d",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw-13263bcc58:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw:ed840310f43d:field_value:0",
       "title": "Hinweise für eine sichere Anwendung"
     },
     {
       "content": "Weitere Ausschlusskriterien sind die Nicht-Verfügbarkeit eines internetfähigen Endgerätes sowie keine ausreichenden Sprachkenntnisse in Deutsch. - Darüber hinaus soll priovi nicht bei Patienten eingesetzt werden, die keine oder nur geringe Borderline-Krankheitssymptome aufweisen, sondern nur bei solchen, bei denen mindestens mittelschwere Krankheitssymptome vorliegen.",
+      "content_fingerprint": "bc60c554f65a",
       "content_preview": "Weitere Ausschlusskriterien sind die Nicht-Verfügbarkeit eines internetfähigen Endgerätes sowie keine ausreichenden Sprachkenntnisse in Deutsch. - Darüber hinaus soll priovi nicht bei Patienten eingesetzt werden, die keine oder nur gerin...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Weitere Ausschlusskriterien",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Weitere Ausschlusskriterien"
       ],
+      "path_hash": "77869fcfae9b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-weit-3d658a5f5f:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-weit:77869fcfae9b:field_value:0",
       "title": "Weitere Ausschlusskriterien"
     },
     {
       "content": "priovi sollte für einen Zeitraum von mindestens 90 Tagen genutzt werden.",
+      "content_fingerprint": "7e38347f1b9f",
       "content_preview": "priovi sollte für einen Zeitraum von mindestens 90 Tagen genutzt werden.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Vom Hersteller für erforderlich gehaltene Mindestdauer",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Vom Hersteller für erforderlich gehaltene Mindestdauer"
       ],
+      "path_hash": "b3d7024bc6a2",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom-:b3d7024bc6a2:field_value:0",
       "title": "Vom Hersteller für erforderlich gehaltene Mindestdauer"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Vom Hersteller für erforderlich gehaltene Höchstdauer",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Vom Hersteller für erforderlich gehaltene Höchstdauer"
       ],
+      "path_hash": "368408cd4f6e",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom-:368408cd4f6e:field_value:0",
       "title": "Vom Hersteller für erforderlich gehaltene Höchstdauer"
     },
     {
       "content": "priovi ist eine webbasierte Applikation. Zur Nutzung werden ein Internetfähiges Endgerät, ein Internetzugang sowie ein aktueller Browser benötigt (Chrome, Edge, Mozilla, Safari). Weiterhin werden eine E-Mail-Adresse sowie und optional eine Mobilnummer für den SMS-Service benötigt. Die aktuellen Browserversionen finden sich auf der Produktwebseite https://priovi.de/ im Kapitel \"Kompatibilitätszusagen in Bezug auf unterstützte Plattformen\".",
+      "content_fingerprint": "8c8d35b8b01d",
       "content_preview": "priovi ist eine webbasierte Applikation. Zur Nutzung werden ein Internetfähiges Endgerät, ein Internetzugang sowie ein aktueller Browser benötigt (Chrome, Edge, Mozilla, Safari). Weiterhin werden eine E-Mail-Adresse sowie und optional ei...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Kompatibilitätszusagen in Bezug auf unterstützte Geräte",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
       ],
+      "path_hash": "cbcc39ae8cdd",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-komp-0b84064997:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-komp:cbcc39ae8cdd:field_value:0",
       "title": "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
     },
     {
       "content": "Zur Herstellung von Datenportabilität und semantischer und technischer Interoperabilität wird als Standard HL7® FHIR® (https://www.hl7.org/fhir/) mit dem MIO DiGA Toolkit in der Version DiGA Toolkit 1.0.0 (https://mio.kbv.de/display/DIGA1X0X0) verwendet. Unter dem Menüpunkt “Persönliche Daten” sehen Nutzer einen Überblick über die von ihnen bearbeiteten Module und den Verlauf ihrer Selbsteinschätzung mittels der Skalen zur Selbsteinschätzung (z. B. Stimmungscheck). Diese Daten können über einen Button “PDF erstellen” als menschenlesbares Format exportiert werden. Die DiGA ermöglicht zudem auf Wunsch des Versicherten einen manuellen oder automatisierten Export in die elektronische Patientenakte (ePA) Version 3.0.",
+      "content_fingerprint": "c9c1c621957d",
       "content_preview": "Zur Herstellung von Datenportabilität und semantischer und technischer Interoperabilität wird als Standard HL7® FHIR® (https://www.hl7.org/fhir/) mit dem MIO DiGA Toolkit in der Version DiGA Toolkit 1.0.0 (https://mio.kbv.de/display/DIGA...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Möglichkeiten von standardisiertem Datenimport und Datenexport",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Möglichkeiten von standardisiertem Datenimport und Datenexport"
       ],
+      "path_hash": "4096563c9e44",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-moeg-b860ee673e:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-moeg:4096563c9e44:field_value:0",
       "title": "Möglichkeiten von standardisiertem Datenimport und Datenexport"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen"
       ],
+      "path_hash": "1bca405661c7",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-anga-c3b43d0732:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-anga:1bca405661c7:field_value:0",
       "title": "Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen"
     },
     {
       "content": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs. weitere, durch Sie selbst aufzubringende Kosten, sofern Sie bestimmte zusätzlich angebotene und von der Verschreibung nicht abgedeckte Leistungen in Anspruch nehmen möchten.",
+      "content_fingerprint": "39d5160ffdea",
       "content_preview": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs....",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis"
       ],
+      "path_hash": "41c28a502494",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-429bde377d:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis:41c28a502494:field_value:0",
       "title": "Angaben zum Preis"
     },
     {
       "content": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "content_fingerprint": "341e24b7c036",
       "content_preview": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis > Preismodell",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis",
         "Preismodell"
       ],
+      "path_hash": "d5d16c880c10",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis-6eb719186f:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis:d5d16c880c10:field_value:0",
       "title": "Preismodell"
     },
     {
       "content": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+      "content_fingerprint": "4c34fe9d1a3e",
       "content_preview": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:3",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "244,00 €",
+      "content_fingerprint": "a0db7d62aa08",
       "content_preview": "244,00 €",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
       ],
+      "path_hash": "351b8e240460",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-kosten-z-b-starterpaket-5641b0bf97:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-kosten-z-b-starterpaket:351b8e240460:field_value:0",
       "title": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
     },
     {
       "content": "244,00 €",
+      "content_fingerprint": "a0db7d62aa08",
       "content_preview": "244,00 €",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Nutzung der DiGA für zusätzliche 90 Tage",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
       ],
+      "path_hash": "003e20a2ca5b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-nutzung-der-dig-7a56e117b7:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-nutzung-der-dig:003e20a2ca5b:field_value:0",
       "title": "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Anmerkungen zum Preismodell",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Anmerkungen zum Preismodell"
       ],
+      "path_hash": "277cd06753d5",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-anmerkungen-zum-f3f338f2f7:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-anmerkungen-zum:277cd06753d5:field_value:0",
       "title": "Weitere Anmerkungen zum Preismodell"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Erläuterung Mehrkosten",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Erläuterung Mehrkosten"
       ],
+      "path_hash": "a3f923587875",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-erlaeuterung-mehrkosten-7813cc6074:field_value",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-erlaeuterung-mehrkosten:a3f923587875:field_value:0",
       "title": "Erläuterung Mehrkosten"
     },
     {
       "content": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_fingerprint": "766782bdbccd",
       "content_preview": "Es fallen keine Mehrkosten für den Patienten an.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01853:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:4",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Verbesserungen für Patienten können entweder medizinischer Art sein (z.B. Verringerung von Schmerzen, Beitrag zur Heilung der Erkrankung) oder den Erkennungs- und Behandlungsprozess direkt unterstützen und erleichtern (z.B. Informationen zur individuellen Erkrankungssituation, Unterstützung bei der Einhaltung der zwischen Patient und Arzt gemeinsam vereinbarten therapeutischen Maßnahmen).",
+      "content_fingerprint": "b689545a79f8",
       "content_preview": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Ve...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "b1d946b15fae",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:informationen-zum-positiven-versorgungseffekt-253662cf50:field_value",
+      "stable_key": "01853:informationen-zum-positiven-versorgungseffekt:b1d946b15fae:field_value:0",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche Weise dies ggfs. bereits wissenschaftlich nachgewiesen wurde. Falls der positive Versorgungseffekt noch nicht abschließend nachgewiesen aber bereits so plausibel dargelegt wurde, dass die DiGA befristet zur entsprechenden Erprobung aufgenommen wurde, wird angegeben, für welchen Zeitraum dies erfolgt ist. Sofern (auch) ein Nachweis zum Erhalt der Erwerbsfähigkeit für die DiGA erbracht wurde oder eine Nachweisführung geplant ist, finden Sie hier eine Beschreibung und nähere Angaben zum Nachweis sowie zum Studiendesign. Sofern die DiGA (auch) ein diagnostisches Instrument darstellt, also mindestens in Teilen dazu vorgesehen ist, Informationen z.B. für die Erkennung oder Diagnose von Krankheitszuständen zu liefern, hat der Hersteller dies benannt und beschrieben sowie Sensitivität und Spezifität als wichtige Bewertungsgrößen angegeben.",
+      "content_fingerprint": "0bf9ee1dc4d9",
       "content_preview": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche We...",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "01853:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:0",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Medizinischer Nutzen",
+      "content_fingerprint": "291175316d3d",
       "content_preview": "Medizinischer Nutzen",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Angaben zum positiven Versorgungseffekt",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Angaben zum positiven Versorgungseffekt"
       ],
+      "path_hash": "56d889aab765",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse-5449921803:field_value",
+      "stable_key": "01853:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse:56d889aab765:field_value:0",
       "title": "Angaben zum positiven Versorgungseffekt"
     },
     {
       "content": "Verbesserung des Gesundheitszustands",
+      "content_fingerprint": "58b8b11779d7",
       "content_preview": "Verbesserung des Gesundheitszustands",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Nähere Angaben zum medizinischen Nutzen",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Nähere Angaben zum medizinischen Nutzen"
       ],
+      "path_hash": "c2ba1d4f6a81",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen--90ce965dee:field_value",
+      "stable_key": "01853:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen-:c2ba1d4f6a81:field_value:0",
       "title": "Nähere Angaben zum medizinischen Nutzen"
     },
     {
       "content": "Reduktion der Borderline-Symptomatik nach drei Monaten.",
+      "content_fingerprint": "91b3a3fa659e",
       "content_preview": "Reduktion der Borderline-Symptomatik nach drei Monaten.",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Beschreibung des medizinischen Nutzens",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Beschreibung des medizinischen Nutzens"
       ],
+      "path_hash": "71ee9147d6be",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut-a677995e79:field_value",
+      "stable_key": "01853:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut:71ee9147d6be:field_value:0",
       "title": "Beschreibung des medizinischen Nutzens"
     },
     {
       "content": "Der Nachweis positiver Versorgungseffekte für priovi wurde im Rahmen einer randomisierten kontrollierten Studie erbracht. - Patient In die klinische Studie wurden 580 erwachsene Patientinnen und Patienten mit einer Borderline-Persönlichkeitsstörung eingeschlossen, bei denen mindestens mittelschwere Krankheitssymptome vorhanden waren. Diese Patientinnen und Patienten wurden zufällig entweder der Interventions- oder Kontrollgruppe zugewiesen. - Intervention Patientinnen und Patienten in der Interventionsgruppe erhielten die übliche medizinische Versorgung und zusätzlich Zugang zum Programm priovi. - Comparison Patientinnen und Patienten in der Kontrollgruppe erhielten die übliche medizinische Versorgung und nach sechs Monaten auch Zugang zu priovi. - Outcomes Zum festgelegten primären Erhebungszeitraum nach 3 Monaten wurden die Krankheitssymptome (ermittelt mittels der Borderline Symptom List-23 [BSL-23]) erhoben. Als weitere Endpunkte wurden depressive Beschwerden, die soziale und arbeitsplatzbezogene Funktionsfähigkeit, Angstbeschwerden sowie die Lebensqualität untersucht. Darüber hinaus wurde geprüft, ob priovi Auswirkungen auf die Anzahl an lebensbedrohlichen Ereignissen, Suizidversuchen und Krankenhausaufenthalten hat.",
+      "content_fingerprint": "b7f58082ddd2",
       "content_preview": "Der Nachweis positiver Versorgungseffekte für priovi wurde im Rahmen einer randomisierten kontrollierten Studie erbracht. - Patient In die klinische Studie wurden 580 erwachsene Patientinnen und Patienten mit einer Borderline-Persönlichk...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Studie/n im PICO-Schema",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Studie/n im PICO-Schema"
       ],
+      "path_hash": "cd33a100690d",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema-2cb668dadb:field_value",
+      "stable_key": "01853:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema:cd33a100690d:field_value:0",
       "title": "Studie/n im PICO-Schema"
     },
     {
       "content": "Die Wirksamkeit von priovi wurde im Rahmen einer randomisierten kontrollierten Studie überprüft. In diese Studie wurden 580 erwachsene Patientinnen und Patienten mit einer Borderline-Persönlichkeitsstörung und mindestens mittelschweren Krankheitssymptomen eingeschlossen. Die Teilnehmenden wurden zufällig entweder der Interventions- oder der Kontrollgruppe zugeordnet. Die Teilnehmenden der Interventionsgruppe erhielten die sonst übliche medizinische Versorgung und zusätzlich Zugang zu priovi, während diejenigen der Kontrollgruppe in den ersten sechs Monaten nur Zugang zur sonst üblichen Versorgung erhielten (nach Abschluss der sechs Monate bekamen sie ebenfalls Zugang zu priovi). Nach drei Monaten zeigte sich, dass die Borderline-Symptome durch priovi signifikant und klinisch bedeutsam stärker reduziert wurden als in der Kontrollgruppe. Die Effekte waren auch nach sechs Monaten nachweisbar. Auch die depressiven und Angstsymptome besserten sich unter priovi signifikant stärker als in der Kontrollgruppe. Ferner traten unter priovi signifikant weniger Suizidversuche auf als in der Kontrollgruppe. - Studienregistrierung: DRKS00028888.",
+      "content_fingerprint": "bd766c69e46a",
       "content_preview": "Die Wirksamkeit von priovi wurde im Rahmen einer randomisierten kontrollierten Studie überprüft. In diese Studie wurden 580 erwachsene Patientinnen und Patienten mit einer Borderline-Persönlichkeitsstörung und mindestens mittelschweren K...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
       ],
+      "path_hash": "045f4d7c860c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u-804896bae6:field_value",
+      "stable_key": "01853:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u:045f4d7c860c:field_value:0",
       "title": "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
     },
     {
       "content": "Universität zu Lübeck, Klinik für Psychiatrie und Psychotherapie, Ratzeburger Allee 160, D-23538 Lübeck",
+      "content_fingerprint": "02e75837a134",
       "content_preview": "Universität zu Lübeck, Klinik für Psychiatrie und Psychotherapie, Ratzeburger Allee 160, D-23538 Lübeck",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
       ],
+      "path_hash": "6deb64749945",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:informationen-zum-positiven-versorgungseffekt-herstellerunabhaengige-institution-85ca65af54:field_value",
+      "stable_key": "01853:informationen-zum-positiven-versorgungseffekt-herstellerunabhaengige-institution:6deb64749945:field_value:0",
       "title": "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
     },
     {
       "content": "Nein",
+      "content_fingerprint": "70bb813787b6",
       "content_preview": "Nein",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Die DiGA enthält ein diagnostisches Instrument",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Die DiGA enthält ein diagnostisches Instrument"
       ],
+      "path_hash": "f07a273683a3",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch-eded43f154:field_value",
+      "stable_key": "01853:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch:f07a273683a3:field_value:0",
       "title": "Die DiGA enthält ein diagnostisches Instrument"
     },
     {
       "content": "12 Monate (9 Monate initial, 3 Monate Verlängerung)",
+      "content_fingerprint": "25c1cea2ee47",
       "content_preview": "12 Monate (9 Monate initial, 3 Monate Verlängerung)",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Länge des Zeitraumes der vorläufigen Aufnahme",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Länge des Zeitraumes der vorläufigen Aufnahme"
       ],
+      "path_hash": "f50c229bb808",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:informationen-zum-positiven-versorgungseffekt-laenge-des-zeitraumes-der-vorlaeuf-d645f91b3b:field_value",
+      "stable_key": "01853:informationen-zum-positiven-versorgungseffekt-laenge-des-zeitraumes-der-vorlaeuf:f50c229bb808:field_value:0",
       "title": "Länge des Zeitraumes der vorläufigen Aufnahme"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird. Die Anforderungen an die Datensicherheit werden durch Vorlage eines Zertifikats gemäß § 139e Absatz 10 Fünftes Buch Sozialgesetzbuch nachgewiesen. Detaillierte Informationen zu den einzelnen Anforderungen können Sie auf der Webseite des Bundesamts für Sicherheit in der Informationstechnik unter der Technischen Richtlinie \"BSI TR-03161\" finden: https://www.bsi.bund.de/dok/TR-03161 Bis zur Vorlage des Zertifikats gelten für den Bereich Datensicherheit die Anforderungen der nachfolgend dargestellten Checkliste.",
+      "content_fingerprint": "32cb1bd13010",
       "content_preview": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen v...",
       "content_type": "field_value",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 3,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "899b23823ae4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:field_value",
+      "stable_key": "01853:informationen-zu-datenschutz-und-datensicherheit:899b23823ae4:field_value:0",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine technische Möglichkeit einer Verknüpfung oder eines Datenaustauschs mit anderen digitalen Gesundheitsanwendungen. Trifft nicht zu Die digitale Gesundheitsanwendung unterstützt keine Offenbarung von Informationen der betroffenen Person oder über die betroffene Person für die Öffentlichkeit oder eine für die betroffene Person nicht eingrenzbare Personengruppe.",
+      "content_fingerprint": "549918f8b174",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutref...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "01853:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:0",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit > Datensicherheit",
       "level": 4,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit",
         "Datensicherheit"
       ],
+      "path_hash": "8545f237a1b9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:informationen-zu-datenschutz-und-datensicherheit-datensicherheit-14af255f91:field_value",
+      "stable_key": "01853:informationen-zu-datenschutz-und-datensicherheit-datensicherheit:8545f237a1b9:field_value:0",
       "title": "Datensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung speichert keine Authentisierungsdaten auf einem Endgerät oder in einer darauf befindlichen Softwarekomponente. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung erlaubt keinen Upload von Dateien. Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Bei der digitalen Gesundheitsanwendung handelt es sich um eine rein webbasierte Anwendung. Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung verarbeitet keine Daten, die durch die nutzende Person oder durch nicht durch die digitale Gesundheitsanwendung kontrollierte Quellen bereitgestellt werden. Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung greift weder auf Sensoren eines mobilen Endgeräts noch auf externe Hardware zu. Trifft nicht zu Die digitale Gesundheitsanwendung tauscht keine Daten mit externer Hardware aus. Zutreffend Zutreffend Zutreffend Nein",
+      "content_fingerprint": "e6c4671a9c34",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung speichert keine Authentisierungsdaten auf einem Endgerä...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01853:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "01853:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:1",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der medizinischen Inhalte und die Gewährleistung der Patientensicherheit.",
+      "content_fingerprint": "0b320ca69209",
       "content_preview": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der me...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen",
       "level": 3,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "f85d7bfd4b8e",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-afe954d9f8:field_value",
+      "stable_key": "01853:weitere-informationen:f85d7bfd4b8e:field_value:0",
       "title": "Weitere Informationen"
     },
     {
       "content": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_fingerprint": "f14ccf82a937",
       "content_preview": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01853:weitere-informationen:df3724c46c56:section:0",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Interoperabilität",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Interoperabilität"
       ],
+      "path_hash": "43914a1ae1e9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-angaben-zur-interoperabilitaet-8867f27412:field_value",
+      "stable_key": "01853:weitere-informationen-angaben-zur-interoperabilitaet:43914a1ae1e9:field_value:0",
       "title": "Angaben zur Interoperabilität"
     },
     {
       "content": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versicherten getragenen Sensoren zur Messung und Übertragung von Vitalwerten (Wearables) austauscht. Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "922bba61baf0",
       "content_preview": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versiche...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01853:weitere-informationen:df3724c46c56:section:1",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Robustheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Robustheit"
       ],
+      "path_hash": "d416c871fdb6",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-angaben-zur-robustheit-0a511476df:field_value",
+      "stable_key": "01853:weitere-informationen-angaben-zur-robustheit:d416c871fdb6:field_value:0",
       "title": "Angaben zur Robustheit"
     },
     {
       "content": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
+      "content_fingerprint": "4b94c32e0d08",
       "content_preview": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digi...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01853:weitere-informationen:df3724c46c56:section:2",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zum Verbraucherschutz",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zum Verbraucherschutz"
       ],
+      "path_hash": "22c54da8ff9c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-angaben-zum-verbraucherschutz-05cd17969e:field_value",
+      "stable_key": "01853:weitere-informationen-angaben-zum-verbraucherschutz:22c54da8ff9c:field_value:0",
       "title": "Angaben zum Verbraucherschutz"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "409aa9901d82",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01853:weitere-informationen:df3724c46c56:section:3",
       "title": "Weitere Informationen"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zu Nutzerfreundlichkeit und Barrierefreiheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
       ],
+      "path_hash": "a9d890d721a4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit-8fe873c531:field_value",
+      "stable_key": "01853:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit:a9d890d721a4:field_value:0",
       "title": "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
     },
     {
       "content": "Die digitale Gesundheitsanwendung wird nicht über eine Plattform für mobile Anwendungen angeboten. Zutreffend Zutreffend",
+      "content_fingerprint": "7f7b01be9354",
       "content_preview": "Die digitale Gesundheitsanwendung wird nicht über eine Plattform für mobile Anwendungen angeboten. Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01853:weitere-informationen:df3724c46c56:section:4",
       "title": "Weitere Informationen"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Unterstützung der Leistungserbringende",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Unterstützung der Leistungserbringende"
       ],
+      "path_hash": "bdfe86165ef2",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-unterstuetzung-der-leistungserbringende-d4e78dfd75:field_value",
+      "stable_key": "01853:weitere-informationen-unterstuetzung-der-leistungserbringende:bdfe86165ef2:field_value:0",
       "title": "Unterstützung der Leistungserbringende"
     },
     {
       "content": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen.",
+      "content_fingerprint": "8b7713a3d90e",
       "content_preview": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Triff...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01853:weitere-informationen:df3724c46c56:section:5",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Qualität der medizinischen Inhalte",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Qualität der medizinischen Inhalte"
       ],
+      "path_hash": "964eb34f0609",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte-a6d05ceeb6:field_value",
+      "stable_key": "01853:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte:964eb34f0609:field_value:0",
       "title": "Angaben zur Qualität der medizinischen Inhalte"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "6a8d1dc0aa28",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01853:weitere-informationen:df3724c46c56:section:6",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Patientensicherheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Patientensicherheit"
       ],
+      "path_hash": "96d387fa1378",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-angaben-zur-patientensicherheit-7a67651ccd:field_value",
+      "stable_key": "01853:weitere-informationen-angaben-zur-patientensicherheit:96d387fa1378:field_value:0",
       "title": "Angaben zur Patientensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "477afefea65b",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 7,
       "source_kind": "visible_directory",
-      "stable_key": "01853:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01853:weitere-informationen:df3724c46c56:section:7",
       "title": "Weitere Informationen"
     }
   ],
@@ -979,10 +1279,10 @@
     "accordions_opened": 0,
     "content_section_count": 75,
     "field_value_count": 59,
-    "rendered_at": "2026-06-22T19:13:03.314852+00:00",
+    "rendered_at": "2026-06-22T20:40:32.371108+00:00",
     "source_kind": "visible_directory"
   },
   "source_kind": "visible_directory",
-  "timestamp": "20260622T190144Z",
+  "timestamp": "20260622T202912Z",
   "url": "https://diga.bfarm.de/de/verzeichnis/01853"
 }

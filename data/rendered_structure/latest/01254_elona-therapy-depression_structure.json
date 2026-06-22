@@ -2,999 +2,1307 @@
   "content_sections": [
     {
       "content": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_fingerprint": "26290d5ae490",
       "content_preview": "Hier finden Sie weitergehende Informationen zur DiGA.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "a5e395515816",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung:a5e395515816:field_value:0",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_fingerprint": "bfc5ca33598c",
       "content_preview": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:0",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "elona therapy Depression",
+      "content_fingerprint": "48162264e3c7",
       "content_preview": "elona therapy Depression",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Name der DiGA im DiGA-Verzeichnis",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Name der DiGA im DiGA-Verzeichnis"
       ],
+      "path_hash": "b055b8e1c744",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v-132a49921b:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v:b055b8e1c744:field_value:0",
       "title": "Name der DiGA im DiGA-Verzeichnis"
     },
     {
       "content": "26.12.2022",
+      "content_fingerprint": "5ffe5a4b9fb1",
       "content_preview": "26.12.2022",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Erstmalige Aufnahme in das DiGA-Verzeichnis",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Erstmalige Aufnahme in das DiGA-Verzeichnis"
       ],
+      "path_hash": "3d07f6258e5c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in--0901792b12:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in-:3d07f6258e5c:field_value:0",
       "title": "Erstmalige Aufnahme in das DiGA-Verzeichnis"
     },
     {
       "content": "Depression",
+      "content_fingerprint": "d1a29dce867a",
       "content_preview": "Depression",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Modul",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Modul"
       ],
+      "path_hash": "fdfb704b702c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-modul-0b2f60dd90:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-modul:fdfb704b702c:field_value:0",
       "title": "Modul"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
       ],
+      "path_hash": "46556afef4cb",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-andere-namen-und-modell-ab7acb1427:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-andere-namen-und-modell:46556afef4cb:field_value:0",
       "title": "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
     },
     {
       "content": "Kombination App / Webanwendung",
+      "content_fingerprint": "157592adae24",
       "content_preview": "Kombination App / Webanwendung",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Art der DiGA",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Art der DiGA"
       ],
+      "path_hash": "600a0be84a95",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga-f41af95c79:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga:600a0be84a95:field_value:0",
       "title": "Art der DiGA"
     },
     {
       "content": "im Apple App Store Deutschland",
+      "content_fingerprint": "5a4cd838fc6e",
       "content_preview": "im Apple App Store Deutschland",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Die digitale Gesundheitsanwendung ist verfügbar",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Die digitale Gesundheitsanwendung ist verfügbar"
       ],
+      "path_hash": "6d3556c97e9a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit-70a197df25:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit:6d3556c97e9a:field_value:0",
       "title": "Die digitale Gesundheitsanwendung ist verfügbar"
     },
     {
       "content": "im Google Play Store Deutschland als browserbasierte Webanwendung",
+      "content_fingerprint": "f9b2cc4aadcb",
       "content_preview": "im Google Play Store Deutschland als browserbasierte Webanwendung",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:1",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Deutschland",
+      "content_fingerprint": "19174e8c9711",
       "content_preview": "Deutschland",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Standorte der Datenverarbeitung",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Standorte der Datenverarbeitung"
       ],
+      "path_hash": "eee99405da7f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera-426183d1fc:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera:eee99405da7f:field_value:0",
       "title": "Standorte der Datenverarbeitung"
     },
     {
       "content": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) die Anforderungen an",
+      "content_fingerprint": "3877981d2f4e",
       "content_preview": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) die Anforderungen an",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Bewertungsentscheidung des BfArM",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Bewertungsentscheidung des BfArM"
       ],
+      "path_hash": "7d463e27c832",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung--cdc10aad7c:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung-:7d463e27c832:field_value:0",
       "title": "Bewertungsentscheidung des BfArM"
     },
     {
       "content": "• Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der Technik und • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Gesundheitsanwendung-Verordnung (DiGAV) als erfüllt. Der Hersteller hat bestätigt, dass keine personenbezogenen Daten in ein Land ohne Angemessenheitsbeschluss fließen. Es wurde eine multizentrische, zweiarmige, randomisierte kontrollierte Studie (RCT) mit einem 12-wöchigen Beobachtungszeitraum mit dem Titel „Randomized controlled trial to test the superiority of blended cognitive behavioral therapy (bCBT) with elona therapy over standard CBT for unipolar depression in adults ‘‘ durchgeführt. Die Studie ist im International Standard Randomised Controlled Trial Number Register (ISRCTN) unter der ID ISRCTN11129335 registriert. Die Studie lief vom 17.08.2023 bis zum 31.05.2024. Die Patientinnen und Patienten der Interventionsgruppe (IG) erhielten zusätzlich zu einer ambulanten Psychotherapie einen Zugang zu elona therapy Depression. Die Patientinnen und Patienten der Kontrollgruppe (KG) erhielten eine ambulante Psychotherapie. Der primäre Endpunkt war die Veränderung des Schweregrads der depressiven Symptome, gemessen anhand des Patient-Health-Questionnaire-9 (PHQ-9). Die sekundären Endpunkte waren Veränderung der Symptomschwere der generellen Ängstlichkeit, gemessen mittels Generalized Anxiety Disorder Assessment-7 (GAD-7), Veränderung der gesundheitsbezogenen Lebensqualität, gemessen anhand der Kurzversion des World Health Organization Quality Of Life (WHOQOL-BREF), Veränderung der allgemeinen Selbstwirksamkeit, gemessen mittels der General Self Efficacy Scale (GSE), Veränderung der depressionsbezogenen Gesundheitskompetenz, gemessen anhand des Depression Literacy Questionnaire (D-Lit), Therapieadhärenz, gemessen mittels einer 4-stufigen Skala, Responder Rate, definiert als Reduktion der depressiven Symptome um mindestens 50 % auf dem PHQ-9, und Fremdrating der Symptomatik, gemessen mittels der Clinical Global Impression Scale (CGI). Die Endpunkte wurden in einer hierarchischen Teststrategie getestet. Diese sekundären Endpunkte sind jedoch als explorative Endpunkte zu betrachten. In die Studie wurden insgesamt 283 Patientinnen und Patienten eingeschlossen und randomisiert (IG: 144; KG: 139). Von den 283 randomisierten Studienteilnehmenden wurden 22 im Verlauf der Studie als Drop-outs identifiziert [IG: 6 (4,2 %); KG: 16 (11,5 %)]. Der primäre Endpunkt und die sekundären Endpunkte wurden zu 2 Zeitpunkten [Baseline (T0) und nach 12 Wochen (T1)] erhoben. Die Imputation fehlender Werte erfolgte primär mittels der konservativen Jump-To-Reference-Methode. Im Rahmen der primären Analyse der RCT gemäß Intention-To-Treat-Prinzip (ITT-Prinzip) ergab sich ein statistisch signifikanter und klinisch relevanter Vorteil der IG gegenüber der KG in Bezug auf die Verbesserung des Gesundheitszustands gemessen anhand des PHQ-9 [adjustierte Differenz zu 12 Wochen: 2,24; 95-%-Konfidenzintervall (KI): 1,19 – 3,29 p-Wert: p < 0,001; Cohens d: 0,62; 95-%-KI: 0,37– 0,86]. Die Responderauswertungen wurden unter Berücksichtigung der Randomisierungsstrata mithilfe des Cochran-Mantel-Haenszel-Tests durchgeführt, wobei die konservative Non-Responder-Imputation vorgenommen wurde. Im Vergleich zur KG verbesserte sich ein größerer Anteil der IG klinisch relevant (Verbesserung im PHQ-9 ≥ 50 %: IG: 40,3 %; KG: 25,9 %; Odds Ratio (OR): 1,89; 95-%-KI: 1,14 – 3,13; Verbesserung im PHQ-9 ≥ 5 Punkte: IG: 69,4 %; KG: 43,9 %; OR: 2,85; 95-%-KI: 1,78 – 4,64). Zudem ergaben die explorativen sekundären Endpunkte ein plausibles Gesamtbild. Mit Ausnahme des Schweregrads der Depression zeigten die Subgruppenanalysen plausible Ergebnisse im PHQ-9. Bezüglich des Schweregrads der Depression zeigen sich deutliche Unterschiede zwischen den Therapiegruppen, wenn milde, moderate und schwere Depressionen betrachtet werden. Die Analysen zeigen, dass der Gesamteffekt hauptsächlich durch den Behandlungseffekt in Patientinnen und Patienten mit moderater Depression bestimmt wird, die die größte Subgruppe darstellen. Die erwartete Linearität des intraindividuellen Therapieeffekts, wie sie auch in der IG zu beobachten ist (d.h. je schwerer die Symptomatik, desto höher der Effekt), ist in der KG nicht festzustellen. Es ist weiterhin unklar, ob es sich bei dieser Beobachtung um eine realistische Abbildung des zu erwarteten Therapieeffekts bei Patientinnen und Patienten mit moderater Depression unter der Standardtherapie handelt oder um einen Zufallsbefund, was für eine Unterschätzung des wahren Therapieeffekts in dieser Gruppe sprechen würde. Aufgrund dieser Unsicherheit kann eine mögliche Überschätzung des Behandlungseffekts nicht ausgeschlossen werden, der möglicherweise dazu führt, dass der Behandlungseffekt der IG im Vergleich zu KG nicht mehr als klinisch relevant einzustufen ist. Nach § 13 Absatz 1 DiGAV bewertet das BfArM im Rahmen einer Abwägungsentscheidung, ob auf Grundlage der vorgelegten Unterlagen positive Versorgungseffekte hinreichend nachgewiesen sind. Trotz der oben beschriebenen gewissen bestehenden Restunsicherheit erscheinen die Studienergebnisse insgesamt positiv für die Anwendung der DiGA in Hinblick auf den positiven Versorgungseffekt „Verbesserung des Gesundheitszustands“. Eine endgültige Aufnahme der DiGA „elona therapy Depression“ für die Indikationen F32.0: Leichte depressive Episode, F32.1: Mittelgradige depressive Episode, F32.2: Schwere depressive Episode ohne psychotische Symptome, F33.0: Rezidivierende depressive Störung, gegenwärtig leichte Episode, F33.1: Rezidivierende depressive Störung, gegenwärtig mittelgradige Episode, F33.2: Rezidivierende depressive Störung, gegenwärtig schwere Episode ohne psychotische Symptome, F34.1: Dysthymia für den positiven Versorgungseffekt „Verbesserung des Gesundheitszustands“ in das Verzeichnis nach § 139e Absatz 1 SGB V wird unterstützt.",
+      "content_fingerprint": "4de4d9f170e4",
       "content_preview": "• Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der Technik und • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Ge...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:2",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_fingerprint": "4b8f5a46c1b0",
       "content_preview": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt"
       ],
+      "path_hash": "9af58630166c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:9af58630166c:field_value:0",
       "title": "Angaben zum Medizinprodukt"
     },
     {
       "content": "elona therapy ist eine digitale Gesundheitsanwendung, die Patient:innen in ambulanter Psychotherapie in der Behandlung von psychischen Erkrankungen (Depression, Angst-/Panikstörungen und Hypochondrische Störungen) durch intelligente Bereitstellung von Therapieinhalten zwischen den regulären Therapiesitzungen unterstützt. Mit elona therapy können Psychotherapeut:innen ihren Patient:innen, Interventionen, hilfreiche Aktivitäten, Übungen und psychoedukative Ressourcen zuweisen, die Patient:innen Informationen und Behandlungstechniken zu ihrer psychischen Erkrankung bieten und durch die elona therapy Smartphone-Applikation auch über die Therapiesitzung hinaus zur Verfügung stehen. Die Inhalte basieren auf aktuellen und evidenzbasierten Therapiemethoden der Psychotherapie. Anhand von psychometrischen Fragebögen und Übungen sowie deren Auswertung werden die Inhalte auf die Bedürfnisse des/der Betroffenen individualisiert. Die Applikation ist dazu bestimmt, die aktive Mitarbeit und Mitgestaltung der Patient:innen in der ambulanten Psychotherapie und die Integration der Therapieinhalte in den Alltag zu stärken und so die Adhärenz zur ambulanten Psychotherapie zu erhöhen, die Symptomatik der Patient:innen zu reduzieren und die Lebensqualität zu steigern.",
+      "content_fingerprint": "6a39349cf7a7",
       "content_preview": "elona therapy ist eine digitale Gesundheitsanwendung, die Patient:innen in ambulanter Psychotherapie in der Behandlung von psychischen Erkrankungen (Depression, Angst-/Panikstörungen und Hypochondrische Störungen) durch intelligente Bere...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Medizinische Zweckbestimmung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Medizinische Zweckbestimmung"
       ],
+      "path_hash": "8bde401e0e97",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:8bde401e0e97:field_value:0",
       "title": "Medizinische Zweckbestimmung"
     },
     {
       "content": "Risikoklasse I nach MDD",
+      "content_fingerprint": "90292b8af58c",
       "content_preview": "Risikoklasse I nach MDD",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Risikoklasse Medizinprodukt",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Risikoklasse Medizinprodukt"
       ],
+      "path_hash": "b60186e2af98",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:b60186e2af98:field_value:0",
       "title": "Risikoklasse Medizinprodukt"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Name der Benannten Stelle",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Name der Benannten Stelle"
       ],
+      "path_hash": "d8a546b6e09b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:d8a546b6e09b:field_value:0",
       "title": "Name der Benannten Stelle"
     },
     {
       "content": "Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt.",
+      "content_fingerprint": "253e4f0d662b",
       "content_preview": "Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:3",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Kennnummer der Benannten Stelle",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Kennnummer der Benannten Stelle"
       ],
+      "path_hash": "f1e2f46935e4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-kennnummer-der-benannte-885261bcc3:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-kennnummer-der-benannte:f1e2f46935e4:field_value:0",
       "title": "Kennnummer der Benannten Stelle"
     },
     {
       "content": "DE-MF-000023345",
+      "content_fingerprint": "13ff57bfaa39",
       "content_preview": "DE-MF-000023345",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Identifikationsnummer Eudamed",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Identifikationsnummer Eudamed"
       ],
+      "path_hash": "fc78f31e70f9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-identifikationsnummer-e-c5d45b28a3:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-identifikationsnummer-e:fc78f31e70f9:field_value:0",
       "title": "Identifikationsnummer Eudamed"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > UDI - Unique Device Identifier im Sinne der MDR",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "UDI - Unique Device Identifier im Sinne der MDR"
       ],
+      "path_hash": "d176d35107d9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-udi-unique-device-ident-16a2c37ee0:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-udi-unique-device-ident:d176d35107d9:field_value:0",
       "title": "UDI - Unique Device Identifier im Sinne der MDR"
     },
     {
       "content": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_fingerprint": "ba6516ebde5f",
       "content_preview": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA"
       ],
+      "path_hash": "6921f5eac91a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:6921f5eac91a:field_value:0",
       "title": "Weitere Informationen zur DiGA"
     },
     {
       "content": "elona therapy Depression besteht aus anerkannten Behandlungselementen der kognitiven Verhaltenstherapie (KVT). So vermittelt elona therapy Depression zum einen psychoedukative Inhalte über die zugrundeliegende psychische Erkrankung (Depression, Angst-/Panikstörungen und Somatoforme Störung) und Lebensführung mit dieser Erkrankung (z. B. Symptome; Komorbiditäten; Modelle zur Entstehung und Aufrechterhaltung; Zusammenhang zwischen Gedanken, Emotionen und Verhalten; Verhaltensanalysen). Gleichermaßen erhalten Betroffene auch Zugriff auf Übungen, Methoden und Techniken, die die ambulante psychotherapeutische Behandlung in den Alltag der Betroffenen verlängern. Für die Behandlung einer Depression fallen darunter etablierte psychotherapeutische Ansätze wie die Verhaltensaktivierung (Aufbau und Planung von Aktivitäten), Kognitive Umstrukturierung (Erkennung, Umgang und Veränderung von automatischen Gedanken, kognitiven Verzerrungen und Grundannahmen), Emotionsregulation (Wissensvermittlung, Umgang und Regulation von Emotionen), Soziale Fertigkeiten und Kompetenzen (Psychoedukation und Verhaltenstraining), Achtsamkeit & Akzeptanz (Reflexion persönlicher Werte, Akzeptanzaufbau unerwünschter Gefühle und Gedanken) sowie Rückfallprophylaxe (Erkennung von Frühwarnsymptomen, Krisenplanerstellung). Für das Modul Depression eignen sich ebenfalls die Inhalte der Entspannung (Progressive Muskelrelaxation, Imagination, Achtsamkeit und Meditation). - Durch die Abfrage regelmäßiger Checkups geht elona therapy Depression individuell auf das Feedback der Betroffenen ein und passt vorgeschlagenen Inhalte (\"Tagesaufgaben\") auf Basis des Therapieforschritts an. - elona therapy Depression ist eine Web- und Smartphone-Applikation, die über das Internet jederzeit vom Endgerät der Betroffenen oder der Leistungserbringenden abgerufen werden kann. Die datenschutzrechtlichen Anforderungen werden erfüllt. Als deutscher Hersteller unterliegen wir dem deutschen Bundesdatenschutzgesetz. Die geltenden datenschutzrechtlichen Anforderungen gemäß diesem Gesetz werden erfüllt.",
+      "content_fingerprint": "f7154ee8b9da",
       "content_preview": "elona therapy Depression besteht aus anerkannten Behandlungselementen der kognitiven Verhaltenstherapie (KVT). So vermittelt elona therapy Depression zum einen psychoedukative Inhalte über die zugrundeliegende psychische Erkrankung (Depr...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "ef6363788ef3",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:ef6363788ef3:field_value:0",
       "title": "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
     },
     {
       "content": "elona therapy Depression setzt sich aus zwei Komponenten mit jeweils unterschiedlichen Funktionen zusammen. - Mit der elona therapy Smartphone-Applikation können Nutzende (d.h. Patientinnen und Patienten) folgende Funktionen nutzen: - Bereich “Heute” – Übungen & Aktivitäten: Patientinnen und Patienten führen die in der Therapiesitzung besprochenen und geplanten Übungen mit Hilfe der Applikation durch, dokumentieren und reflektieren diese. - Bereich “Kurse” – Psychotherapeutische Interventionen: Patientinnen und Patienten rufen psychoedukative Inhalte rund um die Behandlung multimedial ab und bearbeiten psychotherapeutische Interventionen. - Bereich “Journal” – Tagebuch: Patientinnen und Patienten notieren ihren selbst erlebten Fortschritt im Umgang mit der psychischen Erkrankung. In diesem Bereich sehen Patientinnen und Patienten ihre durchgeführten Übungen in einer Wochenansicht. - Verlaufskontrolle & Checkups: Patientinnen und Patienten füllen regelmäßige Checkups zur Messung des Fortschritts in der Applikation aus. - Therapiereflexion: Patientinnen und Patienten nutzen die App, um Therapiesitzungen vorzubereiten und zu reflektieren. - Bereich “Profil”: Patientinnen und Patienten erstellen ihr eigenes Profil und passen Nutzungseinstellungen an. Des Weiteren können Patientinnen und Patienten ihren Fortschritt der aktuellen Woche sowie Auswertungen von durchgeführten Übungen und Aktivitäten einsehen. - Mit der elona therapy Web-Anwendung können Nutzerende (d.h. Leistungserbringende) folgende Funktionen nutzen: - Interventionskatalog: Therapeutinnen und Therapeuten suchen indikationsrelevante Interventionen und rufen entsprechende Übungen ab. - Behandlungsplan: Therapeutinnen und Therapeuten erstellen indikationsspezifische Behandlungspläne für ihre Patientinnen und Patienten. - Zuweisung der Inhalte: Therapeutinnen und Therapeuten weisen ihren Patientinnen und Patienten relevante Inhalte und Übungen in der elona therapy Smartphone-Applikation zu. - Monitoring: Therapeutinnen und Therapeuten erhalten Einblick in den Fortschritt der Patientinnen und Patienten in elona therapy, berichtete Symptome und Emotionen sowie den Stimmungsverlauf der Patientinnen und Patienten. Außerdem können gezielt Verlaufskontrollen aus einem Katalog etablierter Testinstrumente gewählt werden, welche Patientinnen und Patienten dann in der DiGA ausfüllen können.",
+      "content_fingerprint": "b615a5cb952e",
       "content_preview": "elona therapy Depression setzt sich aus zwei Komponenten mit jeweils unterschiedlichen Funktionen zusammen. - Mit der elona therapy Smartphone-Applikation können Nutzende (d.h. Patientinnen und Patienten) folgende Funktionen nutzen: - Be...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Funktionen der digitalen Gesundheitsanwendung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Funktionen der digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "21931475406b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:21931475406b:field_value:0",
       "title": "Funktionen der digitalen Gesundheitsanwendung"
     },
     {
       "content": "Heinrich-Heine-Universität Düsseldorf Institut für Experimentelle Psychologie - Klinische Psychologie - Psycho therapeutische Institutsambulanz der Heinrich-Heine-Universität Düsseldorf - Psychotherapeutische Praxis am Volksgarten",
+      "content_fingerprint": "57ce3bccaabe",
       "content_preview": "Heinrich-Heine-Universität Düsseldorf Institut für Experimentelle Psychologie - Klinische Psychologie - Psycho therapeutische Institutsambulanz der Heinrich-Heine-Universität Düsseldorf - Psychotherapeutische Praxis am Volksgarten",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
       ],
+      "path_hash": "32d92eb3d0dc",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:32d92eb3d0dc:field_value:0",
       "title": "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
     },
     {
       "content": "Modul Depression: Berking M, Rief W. Klinische Psychologie und Psychotherapie für Bachelor: Band I: Grundlagen und Störungswissen. Berlin, Heidelberg: Springer; 2012. - Bohus M, Wolf-Arehult M, Kienast T. Interaktives Skillstraining für Borderline-Patienten: Das Therapeutenmanual. 2nd ed. Stuttgart, New York: Schattauer; 2013. - Brandstätter V, Schüler J, Puca RM, Lozo L. Emotionsregulation. In: Motivation und Emotion: Allgemeine Psychologie für Bachelor. Berlin: Springer; 2013. - Bucay J. Komm, ich erzähl dir eine Geschichte. Frankfurt am Main: Fischer Taschenbuch; 2015. - Faßbinder E, Klein JP, Sipos V, Schweiger U. Therapie-Tools Depression: Mit E-Book inside und Arbeitsmaterial. 1st ed. Weinheim, Basel: Beltz; 2015. - Hautzinger M. Kognitive Verhaltenstherapie bei Depressionen: Mit Online-Materialien. 7th ed. Weinheim: Beltz; 2013. - Kircher T. Kompendium der Psychotherapie. Berlin, Heidelberg: Springer; 2019. Kring AM, Johnson SL, Hautzinger M. Klinische Psychologie: Mit Online-Material. 9th ed. Weinheim: Beltz; 2019. - Linden M, Hautzinger M, editors. Verhaltenstherapiemanual. 6th ed. Heidelberg: Springer; 2008. - Margraf J, Schneider S, editors. Lehrbuch der Verhaltenstherapie. Band 2: Störungen im Erwachsenenalter – Spezielle Indikationen – Glossar. 3rd ed. Berlin, Heidelberg: Springer; 2009. - Neudeck P, Mühlig S. Therapie-Tools Verhaltenstherapie: Therapieplanung, Probatorik, Verhaltensanalyse: mit E-Book inside und Arbeitsmaterial. 2nd ed. Weinheim: Programm PVU Psychologie Verlags Union; 2020. - Schaub A, Roth E, Goldmann U. Kognitiv-psychoedukative Therapie zur Bewältigung von Depressionen: Ein Therapiemanual. 2nd ed. Göttingen: Hogrefe; 2013. - Härter M, Schorr S, Schneider F, editors. S3-Leitlinie, Nationale Versorgungsleitlinie: Unipolare Depression. 2nd ed. Berlin: Springer; 2017. - Stavemann HH, editor. KVT update: Neue Entwicklungen und Behandlungsansätze in der Kognitiven Verhaltenstherapie. 1st ed. Weinheim: Beltz; 2012. - Wittchen H-U, Hoyer J, editors. Klinische Psychologie & Psychotherapie. 2nd ed. Berlin, Heidelberg: Springer; 2011. - Modul Entspannung (indikationsübergreifend): Derra C. Grundlagen der Entspannung. In: Derra C, editor. Progressive Relaxation: Neurobiologische Grundlagen und Praxiswissen für Ärzte und Psychologen. Berlin, Heidelberg: Springer; 2017. - Gräßer M, Hovermann E. Ressourcenübungen für Erwachsene: 60 Bildkarten und 20-seitiges Booklet. Weinheim, Basel: Beltz; 2019. - Kröner-Herwig B, Frettlöh J, Klinger R, Nilges P, editors. Schmerzpsychotherapie: Grundlagen - Diagnostik - Krankheitsbilder - Behandlung. 7th ed. Berlin, Heidelberg, New York: Springer; 2011. - Petermann U, Schomaker, H. Entspannungsverfahren. In: Margraf J, Schneider S, editors. Lehrbuch der Verhaltenstherapie. Band 3: Psychologische Therapie bei Indikationen im Kindes- und Jugendalter. 3rd ed. Berlin, Heidelberg: Springer; 2009. - Petermann F, editor. Entspannungsverfahren: Das Praxishandbuch. Mit E-Book inside. 6th ed. Weinheim: Beltz; 2020. - Reddemann L. Imagination als heilsame Kraft: Zur Behandlung von Traumafolgen mit ressourcenorientierten Verfahren. 2nd ed. Stuttgart: Pfeiffer bei Klett-Cotta; 2001. - Schug S. Therapie-Tools Achtsamkeit: Materialien für Gruppen- und Einzelsetting; mit Audio-Dateien. 1st ed. Weinheim, Basel: Beltz; 2016. - Schug S. Achtsamkeit: 60 Übungskarten für Therapie und Beratung. Weinheim, Basel: Beltz; 2",
+      "content_fingerprint": "b908cda15340",
       "content_preview": "Modul Depression: Berking M, Rief W. Klinische Psychologie und Psychotherapie für Bachelor: Band I: Grundlagen und Störungswissen. Berlin, Heidelberg: Springer; 2012. - Bohus M, Wolf-Arehult M, Kienast T. Interaktives Skillstraining für ...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
       ],
+      "path_hash": "ad43221ee27a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:ad43221ee27a:field_value:0",
       "title": "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
     },
     {
       "content": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_fingerprint": "77cea9e6788d",
       "content_preview": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal"
       ],
+      "path_hash": "4c8dba25a53c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:4c8dba25a53c:field_value:0",
       "title": "Beteiligung vom medizinischen Fachpersonal"
     },
     {
       "content": "Im Rahmen der Nutzung von elona therapy Depression können ärztliche Psychotherapeutinnen und Psychotherapeuten in regelmäßigen Abständen (typischerweise im Rahmen einer Therapiesitzung) eine Individualisierung des Behandlungsprogramms der DiGA vornehmen. Diese Auswahl wird auf Basis der vorliegenden Indikation von der DiGA vorgeschlagen und kann durch die behandelnde Ärztin oder den behandelnden Arzt patientenindividuell und zielgerichtet angepasst werden, sofern erforderlich. elona therapy Depression unterstützt diese Auswahl gleichermaßen mit einer Übersicht von patientenrelevanten Daten zu Symptomatik, Emotionen, und Verhalten. Psychotherapeutinnen und Psychotherapeuten führen in diesem Rahmen ebenso ein Monitoring durch, um fortlaufend die sachgemäße Nutzung (v. a. hinsichtlich Gegenanzeigen) sicherzustellen.",
+      "content_fingerprint": "59b2c8ae75b2",
       "content_preview": "Im Rahmen der Nutzung von elona therapy Depression können ärztliche Psychotherapeutinnen und Psychotherapeuten in regelmäßigen Abständen (typischerweise im Rahmen einer Therapiesitzung) eine Individualisierung des Behandlungsprogramms de...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal > Ärztinnen/ Ärzte",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal",
         "Ärztinnen/ Ärzte"
       ],
+      "path_hash": "736d25ff8830",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:736d25ff8830:field_value:0",
       "title": "Ärztinnen/ Ärzte"
     },
     {
       "content": "Im Rahmen der Nutzung von elona therapy Depression können psychologische Psychotherapeutinnen und Psychotherapeuten in regelmäßigen Abständen (typischerweise im Rahmen einer Therapiesitzung) eine Individualisierung des Behandlungsprogramms der DiGA vornehmen. Diese Auswahl wird auf Basis der vorliegenden Indikation von der DiGA vorgeschlagen und kann durch die behandelnde Psychotherapeutin oder den behandelnden Psychotherapeuten patientenindividuell und zielgerichtet angepasst werden, sofern erforderlich. elona therapy Depression unterstützt diese Auswahl gleichermaßen mit einer Übersicht von patientenrelevanten Daten zu Symptomatik, Emotionen, und Verhalten. Psychotherapeutinnen und Psychotherapeuten führen in diesem Rahmen ebenso ein Monitoring durch, um fortlaufend die sachgemäße Nutzung (v. a. hinsichtlich Gegenanzeigen) sicherzustellen.",
+      "content_fingerprint": "01044c3a4810",
       "content_preview": "Im Rahmen der Nutzung von elona therapy Depression können psychologische Psychotherapeutinnen und Psychotherapeuten in regelmäßigen Abständen (typischerweise im Rahmen einer Therapiesitzung) eine Individualisierung des Behandlungsprogram...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal > Psychotherapeutinnen/ Psychotherapeuten",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal",
         "Psychotherapeutinnen/ Psychotherapeuten"
       ],
+      "path_hash": "58675bdbc27c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:58675bdbc27c:field_value:0",
       "title": "Psychotherapeutinnen/ Psychotherapeuten"
     },
     {
       "content": "Ja",
+      "content_fingerprint": "283c735c8901",
       "content_preview": "Ja",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal > Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal",
         "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
       ],
+      "path_hash": "844ec57e702e",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:844ec57e702e:field_value:0",
       "title": "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal > Erforderliche vertragsärztliche Tätigkeiten in Zusammenhang mit der Nutzung der DiGA als Gebührenordnungsposition",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal",
         "Erforderliche vertragsärztliche Tätigkeiten in Zusammenhang mit der Nutzung der DiGA als Gebührenordnungsposition"
       ],
+      "path_hash": "69a1fe5835ac",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:69a1fe5835ac:field_value:0",
       "title": "Erforderliche vertragsärztliche Tätigkeiten in Zusammenhang mit der Nutzung der DiGA als Gebührenordnungsposition"
     },
     {
       "content": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfohlen wird.",
+      "content_fingerprint": "ba2dc6143acd",
       "content_preview": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfoh...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise"
       ],
+      "path_hash": "af464e1a8e2f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-6922aa5eb2:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise:af464e1a8e2f:field_value:0",
       "title": "Anwendungshinweise"
     },
     {
       "content": "Um sicherzustellen, dass elona therapy Depression nur für ihren zweckbestimmten Gebrauch verwendet wird, werden Leistungserbringende vor dem Gebrauch der digitalen Gesundheitsanwendung geschult. Weiterhin steht sowohl Leistungserbringenden als auch Patientinnen und Patienten ausführliches Informationsmaterial mit Angaben zur Nutzung auf der Website des Herstellers zur Verfügung. Bei etwaigen Rückfragen ist der Hersteller kontaktierbar. - Bei der Anmeldung werden Patientinnen und Patienten durch den Aktivierungscode automatisch als Nutzende der DiGA und der jeweiligen Indikation erkannt. Ein Zugang zur DiGA ohne den Anmeldecode ist ausgeschlossen. In einem automatisierten Onboarding wird bei Patientinnen und Patienten vor dem Start der DiGA geprüft, ob sie aktuell in einer psychotherapeutischen Behandlung und mit ihrer behandelnden Ärztin bzw. Psychotherapeutin oder dem behandelnden Arzt bzw. Psychotherapeuten verbunden sind. Eine Nutzung ohne behandelnde Ärztin bzw. Psychotherapeutin oder behandelnden Arzt bzw. Psychotherapeuten ist ausgeschlossen. Explizit werden gemäß der Zweckbestimmung nur Patientinnen und Patienten zwischen 18-65 Jahren eingeschlossen. - Eine Gebrauchsanweisung ist in der DiGA hinterlegt. Für inhaltliche oder technische Fragen ist ein Support-System eingerichtet, das jederzeit aus der App heraus genutzt werden kann. Bei psychologisch-medizinischen Fragen dient die behandelnde Ärztin bzw. Psychotherapeutin oder behandelnden Arzt bzw. Psychotherapeuten als erste Ansprechpartnerin bzw. Ansprechpartner.",
+      "content_fingerprint": "a11c7bdd04f5",
       "content_preview": "Um sicherzustellen, dass elona therapy Depression nur für ihren zweckbestimmten Gebrauch verwendet wird, werden Leistungserbringende vor dem Gebrauch der digitalen Gesundheitsanwendung geschult. Weiterhin steht sowohl Leistungserbringend...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Hinweise für eine sichere Anwendung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Hinweise für eine sichere Anwendung"
       ],
+      "path_hash": "ed840310f43d",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw-13263bcc58:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw:ed840310f43d:field_value:0",
       "title": "Hinweise für eine sichere Anwendung"
     },
     {
       "content": "elona therapy Depression sollte bei Vorliegen eines suizidalen Risikos nicht angewendet werden. - Bei folgenden Erkrankungen oder Einschränkungen, sollte die Behandlerin bzw. der Behandler konsultiert und gegebenenfalls auf die Ausführung bestimmter Übungen verzichtet werden: - kardiovaskuläre Erkrankungen (z.B. Bluthochdruck in Ruhe, Herz-Kreislaufstörungen): die Beeinflussung der Herzfrequenz kann bei bestehender Herzfunktionsstörung problematisch sein. - pneumologische Erkrankungen: eine bestehende Ateminsuffizienz kann durch die Verringerung der Atemfrequenz bei Entspannung noch zusätzlich verstärkt werden, was zu dysphorischen Gefühlen führen kann. - komorbide schwere dissoziative Symptome: Imaginationsübungen könnten Dissoziationen auslösen. - Eingeschränkte Wirksamkeit Bei schwereren kognitiven Einschränkungen ist der Nutzen von einigen Übungen von elona therapy Depression gegebenenfalls vermindert. Für eine erfolgreiche Anwendung von elona therapy Depression sollten die Inhalte der Übungen von den Patientinnen und Patienten memorisiert und selbstständig eingeübt werden können. Die Behandlerin bzw. der Behandler kann beurteilen, zu welchem Grad eine kognitive Einschränkung vorliegt und die Anwendung gegebenenfalls anpassen. - Eine verminderte Wirksamkeit kann bedingt sein durch folgende Erkrankungen: - Organische, einschließlich psychischer Störungen (ICD-10: F00-F09): psychische Erkrankungen, die mit einer Hirnfunktionsstörung in Verbindung stehen (z. B. Demenz, Delir). - Psychische und Verhaltensstörungen durch psychotrope Substanzen (ICD-10: F10-F19; außer F17.1, F17.2, F17.3): psychische Erkrankungen, die auf den Gebrauch einer oder mehrerer – psychotroper Substanzen zurückgeführt werden können (z.B. Abhängigkeitssyndrom, akute Intoxikation oder Entzugssyndrom). - elona therapy Depression ist mit einem entsprechenden Warnhinweis versehen.",
+      "content_fingerprint": "36a44f431b1d",
       "content_preview": "elona therapy Depression sollte bei Vorliegen eines suizidalen Risikos nicht angewendet werden. - Bei folgenden Erkrankungen oder Einschränkungen, sollte die Behandlerin bzw. der Behandler konsultiert und gegebenenfalls auf die Ausführun...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Weitere Ausschlusskriterien",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Weitere Ausschlusskriterien"
       ],
+      "path_hash": "77869fcfae9b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-weit-3d658a5f5f:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-weit:77869fcfae9b:field_value:0",
       "title": "Weitere Ausschlusskriterien"
     },
     {
       "content": "elona therapy Depression sollte analog zu einer psychotherapeutischen Kurzzeittherapie (bis zu 24 Therapieeinheiten) für einen Zeitraum von mindestens 90 Tagen eingesetzt werden. Es wird darüber hinaus eine längere Nutzung begleitend zu einer psychotherapeutischen Kurzzeit- und auch Langzeittherapie empfohlen, sodass sich neue Verhaltens- und Denkweisen verfestigen können.",
+      "content_fingerprint": "289d0f1a0942",
       "content_preview": "elona therapy Depression sollte analog zu einer psychotherapeutischen Kurzzeittherapie (bis zu 24 Therapieeinheiten) für einen Zeitraum von mindestens 90 Tagen eingesetzt werden. Es wird darüber hinaus eine längere Nutzung begleitend zu ...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Vom Hersteller für erforderlich gehaltene Mindestdauer",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Vom Hersteller für erforderlich gehaltene Mindestdauer"
       ],
+      "path_hash": "b3d7024bc6a2",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom-:b3d7024bc6a2:field_value:0",
       "title": "Vom Hersteller für erforderlich gehaltene Mindestdauer"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Vom Hersteller für erforderlich gehaltene Höchstdauer",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Vom Hersteller für erforderlich gehaltene Höchstdauer"
       ],
+      "path_hash": "368408cd4f6e",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom-:368408cd4f6e:field_value:0",
       "title": "Vom Hersteller für erforderlich gehaltene Höchstdauer"
     },
     {
       "content": "Für den Betrieb der elona therapy Smartphone-Applikation ist ein internetfähiges Smartphone mit dem Betriebssystem Android OS (Version 8.0 oder höher) oder dem Betriebssystem Apple iOS (Version 15.0 oder höher; mind. iPhone 6s oder aktuelleres Modell) erforderlich.",
+      "content_fingerprint": "656abb91b010",
       "content_preview": "Für den Betrieb der elona therapy Smartphone-Applikation ist ein internetfähiges Smartphone mit dem Betriebssystem Android OS (Version 8.0 oder höher) oder dem Betriebssystem Apple iOS (Version 15.0 oder höher; mind. iPhone 6s oder aktue...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Kompatibilitätszusagen in Bezug auf unterstützte Geräte",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
       ],
+      "path_hash": "cbcc39ae8cdd",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-komp-0b84064997:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-komp:cbcc39ae8cdd:field_value:0",
       "title": "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
     },
     {
       "content": "Für den Betrieb der elona therapy Web-Applikation für Behandlerinnen und Behandler ist ein internetfähiger Computer erforderlich. Die Web-Applikation für Behandlerinnen und Behandler ist über alle gängigen Internetbrowser (Chrome, Firefox, Safari, Edge, Opera) abrufbar. Der Hersteller empfiehlt eine Nutzung der folgenden Mindestversionen (Stand 11.04.2023): Google Chrome: 111.0.5563.116 Mozilla Firefox: 111.0.1 Apple Safari: 15.6.1 Microsoft Edge: 111.0.1661.41 Opera: 96.0.4693.50 Informationen zu Kompatibilitäszusagen finden sich in den FAQ des Herstellers, die u. A. über das Ressourcen- Center erreichbar sind: https://www.elona.health/ressourcen-center Für Patientinnen und Patienten: https://elona-health.zammad.com/help/de-de/7-konto-profil-datenschutz/53-welche- technischen-voraussetzungen-mussen-erfullt-sein-um-elona-therapy-zu-verwenden Für Behandlerinnen und Behandler: https://elona-health.zammad.com/help/de-de/11-konto-profil-datenschutz/45-welche- technischen-voraussetzungen-mussen-erfullt-sein-um-elona-therapy-als-behandler-in-zu-verwenden",
+      "content_fingerprint": "f2971d770809",
       "content_preview": "Für den Betrieb der elona therapy Web-Applikation für Behandlerinnen und Behandler ist ein internetfähiger Computer erforderlich. Die Web-Applikation für Behandlerinnen und Behandler ist über alle gängigen Internetbrowser (Chrome, Firefo...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:4",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "elona therapy Depression greift für den den maschinenlesbaren Export von Daten auf den etablierten und weltweit verbreiteten „FHIR®“ (Fast Healthcare Interoperability Resources) Standard zurück (https://hl7.org/fhir/R4/). Die damit erstellten Profile wurden als Teil des folgenden Projektes veröffentlicht: https://simplifier.net/ElonaHealth. Die dazu gehörende technische Dokumentation ist unter dem folgenden Link veröffentlicht: https://simplifier.net/guide/ElonaHealthIG - elona therapy Depression bietet Nutzerinnen und Nutzern ebenso einen menschenlesbaren Export im PDF Format. Dieser enthält sämtliche Daten des Nutzers bzw. der Nutzerin. Der PDF-Export kann über das Profil des Nutzers bzw. der Nutzerin selbstständig erstellt werden.",
+      "content_fingerprint": "830494c8a455",
       "content_preview": "elona therapy Depression greift für den den maschinenlesbaren Export von Daten auf den etablierten und weltweit verbreiteten „FHIR®“ (Fast Healthcare Interoperability Resources) Standard zurück (https://hl7.org/fhir/R4/). Die damit erste...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Möglichkeiten von standardisiertem Datenimport und Datenexport",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Möglichkeiten von standardisiertem Datenimport und Datenexport"
       ],
+      "path_hash": "569132413e54",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-moeglichkeiten-von-stan-a818cc9f27:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-moeglichkeiten-von-stan:569132413e54:field_value:0",
       "title": "Möglichkeiten von standardisiertem Datenimport und Datenexport"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen"
       ],
+      "path_hash": "3e9803f91215",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zu-den-von-der--1e522ad432:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zu-den-von-der-:3e9803f91215:field_value:0",
       "title": "Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen"
     },
     {
       "content": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs. weitere, durch Sie selbst aufzubringende Kosten, sofern Sie bestimmte zusätzlich angebotene und von der Verschreibung nicht abgedeckte Leistungen in Anspruch nehmen möchten.",
+      "content_fingerprint": "39d5160ffdea",
       "content_preview": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs....",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis"
       ],
+      "path_hash": "41c28a502494",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-429bde377d:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis:41c28a502494:field_value:0",
       "title": "Angaben zum Preis"
     },
     {
       "content": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+      "content_fingerprint": "4c34fe9d1a3e",
       "content_preview": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis > Preismodell",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis",
         "Preismodell"
       ],
+      "path_hash": "d5d16c880c10",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis-6eb719186f:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis:d5d16c880c10:field_value:0",
       "title": "Preismodell"
     },
     {
       "content": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "content_fingerprint": "341e24b7c036",
       "content_preview": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:5",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "229,50 €",
+      "content_fingerprint": "b66c34e8564b",
       "content_preview": "229,50 €",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
       ],
+      "path_hash": "351b8e240460",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-kosten-z-b-starterpaket-5641b0bf97:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-kosten-z-b-starterpaket:351b8e240460:field_value:0",
       "title": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
     },
     {
       "content": "229,50 €",
+      "content_fingerprint": "b66c34e8564b",
       "content_preview": "229,50 €",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Nutzung der DiGA für zusätzliche 90 Tage",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
       ],
+      "path_hash": "003e20a2ca5b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-nutzung-der-dig-7a56e117b7:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-nutzung-der-dig:003e20a2ca5b:field_value:0",
       "title": "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Anmerkungen zum Preismodell",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Anmerkungen zum Preismodell"
       ],
+      "path_hash": "277cd06753d5",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-anmerkungen-zum-f3f338f2f7:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-anmerkungen-zum:277cd06753d5:field_value:0",
       "title": "Weitere Anmerkungen zum Preismodell"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Erläuterung Mehrkosten",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Erläuterung Mehrkosten"
       ],
+      "path_hash": "a3f923587875",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-erlaeuterung-mehrkosten-7813cc6074:field_value",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-erlaeuterung-mehrkosten:a3f923587875:field_value:0",
       "title": "Erläuterung Mehrkosten"
     },
     {
       "content": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_fingerprint": "766782bdbccd",
       "content_preview": "Es fallen keine Mehrkosten für den Patienten an.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01254:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:6",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Verbesserungen für Patienten können entweder medizinischer Art sein (z.B. Verringerung von Schmerzen, Beitrag zur Heilung der Erkrankung) oder den Erkennungs- und Behandlungsprozess direkt unterstützen und erleichtern (z.B. Informationen zur individuellen Erkrankungssituation, Unterstützung bei der Einhaltung der zwischen Patient und Arzt gemeinsam vereinbarten therapeutischen Maßnahmen).",
+      "content_fingerprint": "b689545a79f8",
       "content_preview": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Ve...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "b1d946b15fae",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:informationen-zum-positiven-versorgungseffekt-253662cf50:field_value",
+      "stable_key": "01254:informationen-zum-positiven-versorgungseffekt:b1d946b15fae:field_value:0",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche Weise dies ggfs. bereits wissenschaftlich nachgewiesen wurde. Falls der positive Versorgungseffekt noch nicht abschließend nachgewiesen aber bereits so plausibel dargelegt wurde, dass die DiGA befristet zur entsprechenden Erprobung aufgenommen wurde, wird angegeben, für welchen Zeitraum dies erfolgt ist. Sofern (auch) ein Nachweis zum Erhalt der Erwerbsfähigkeit für die DiGA erbracht wurde oder eine Nachweisführung geplant ist, finden Sie hier eine Beschreibung und nähere Angaben zum Nachweis sowie zum Studiendesign. Sofern die DiGA (auch) ein diagnostisches Instrument darstellt, also mindestens in Teilen dazu vorgesehen ist, Informationen z.B. für die Erkennung oder Diagnose von Krankheitszuständen zu liefern, hat der Hersteller dies benannt und beschrieben sowie Sensitivität und Spezifität als wichtige Bewertungsgrößen angegeben.",
+      "content_fingerprint": "0bf9ee1dc4d9",
       "content_preview": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche We...",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "01254:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:0",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Medizinischer Nutzen",
+      "content_fingerprint": "291175316d3d",
       "content_preview": "Medizinischer Nutzen",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Angaben zum positiven Versorgungseffekt",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Angaben zum positiven Versorgungseffekt"
       ],
+      "path_hash": "56d889aab765",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse-5449921803:field_value",
+      "stable_key": "01254:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse:56d889aab765:field_value:0",
       "title": "Angaben zum positiven Versorgungseffekt"
     },
     {
       "content": "Verbesserung des Gesundheitszustands",
+      "content_fingerprint": "58b8b11779d7",
       "content_preview": "Verbesserung des Gesundheitszustands",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Nähere Angaben zum medizinischen Nutzen",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Nähere Angaben zum medizinischen Nutzen"
       ],
+      "path_hash": "c2ba1d4f6a81",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen--90ce965dee:field_value",
+      "stable_key": "01254:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen-:c2ba1d4f6a81:field_value:0",
       "title": "Nähere Angaben zum medizinischen Nutzen"
     },
     {
       "content": "Mit der Nutzung von elona therapy Depression soll eine stärkere Reduktion der Depressionssymptomatik (Verbesserung des Gesundheitszustands) gegenüber Nichtnutzung im Rahmen einer ambulanten Psychotherapie erzielt werden. elona therapy Depression ist dazu bestimmt, die aktive Mitarbeit und Mitgestaltung der Patientinnen und Patienten in der kognitiv-verhaltenstherapeutisch orientierten ambulanten Psychotherapie durch digital bereitgestellte therapeutische Techniken und Übungen, die auf evidenzbasierten Verfahren beruhen, zu verbessern und die Integration von Therapieinhalten in den Alltag zu stärken. Auf diese Weise wird eine stärkere Verringerung depressiver Symptome (gemessen durch den PHQ-9) gegenüber der Regelversorgung erreicht.",
+      "content_fingerprint": "46167990ee50",
       "content_preview": "Mit der Nutzung von elona therapy Depression soll eine stärkere Reduktion der Depressionssymptomatik (Verbesserung des Gesundheitszustands) gegenüber Nichtnutzung im Rahmen einer ambulanten Psychotherapie erzielt werden. elona therapy De...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Beschreibung des medizinischen Nutzens",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Beschreibung des medizinischen Nutzens"
       ],
+      "path_hash": "71ee9147d6be",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut-a677995e79:field_value",
+      "stable_key": "01254:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut:71ee9147d6be:field_value:0",
       "title": "Beschreibung des medizinischen Nutzens"
     },
     {
       "content": "Titel der Studie: Randomisierte kontrollierte Studie zur Erprobung einer digitalen Gesundheitsanwendung für die verzahnte Behandlung von unipolaren Depressionen bei Erwachsenen - Population: Patientinnen und Patienten mit unipolarer Depression, die zwischen 18 und 65 Jahre alt sind und sich aktuell in ambulanter psychotherapeutischer Behandlung befinden. - Intervention: Die Interventionsgruppe nutzt elona therapy Depression zusätzlich zur ambulanten Psychotherapie für einen Zeitraum von 12 Wochen. - Control: 12-wöchige ambulante Psychotherapie - Outcome: Reduktion der Depressionssymptomatik (primär), Reduktion der Angstsymptomatik (sekundär), Verbesserung der Lebensqualität (sekundär), verbesserte depressionsbezogene Gesundheitskompetenz, verbesserte Adhärenz zur Therapie (sekundär), Fremdbeurteilte Reduktion der Depressionssymptomatik (sekundär), Selbstwirksamkeit (sekundär)",
+      "content_fingerprint": "1311f172374c",
       "content_preview": "Titel der Studie: Randomisierte kontrollierte Studie zur Erprobung einer digitalen Gesundheitsanwendung für die verzahnte Behandlung von unipolaren Depressionen bei Erwachsenen - Population: Patientinnen und Patienten mit unipolarer Depr...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Studie/n im PICO-Schema",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Studie/n im PICO-Schema"
       ],
+      "path_hash": "cd33a100690d",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema-2cb668dadb:field_value",
+      "stable_key": "01254:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema:cd33a100690d:field_value:0",
       "title": "Studie/n im PICO-Schema"
     },
     {
       "content": "- Titel: Randomisierte kontrollierte Studie zur Prüfung der Überlegenheit der verzahnten kognitiven Verhaltenstherapie (bCBT) mit elona therapy gegenüber der Standard-CBT bei unipolarer Depression bei Erwachsenen - Prüfungszweck: Der Zweck dieser Studie ist der konfirmatorische Nachweis der sicheren und effektiven Anwendung von elona therapy (Modul Depression) in verzahnter ambulanter Verhaltenstherapie mit Patientinnen und Patienten, die an unipolarer Depression leiden und der Nachweis einer höheren Wirksamkeit im Vergleich zu regulärer face-to-face Verhaltenstherapie. Diese Studie wird zudem als Evidenz zur Unterstützung der klinischen Bewertung im Rahmen der CE-Konformität verwendet. - Primäres Wirksamkeitsziel: Nachweis der größeren Effektivität von elona therapy Depression in Kombination mit regulärer psychotherapeutischer Behandlung (blended CBT; bCBT) im Vergleich zu TAU (d.h. reguläre face-to-face Verhaltenstherapie) bezüglich der Verbesserung der Depressionssymptomatik nach 12 Wochen der Behandlung (Prä-Post-Differenz der PHQ-9 Werte). - Primäres Sicherheitsziel: Es soll gezeigt werden, dass elona therapy Depression weder die Anzahl noch den Schweregrad unerwünschter Ereignisse erhöht. - Sekundäres Wirksamkeitsziel: Nachweis der größeren Effektivität von elona therapy Depression in Kombination mit regulärer psychotherapeutischer Behandlung (bCBT) im Vergleich zu TAU (d.h. reguläre face-to-face Verhaltenstherapie) bezüglich der Verbesserung generalisierter Angstsymptome, Lebenszufriedenheit, Selbstwirksamkeit und depressionsbezogener Gesundheitskompetenz. Zur Prüfung dieser Effekte werden Prä-Post Differenzen in der GAD-7, der Psychologische Gesundheit Subskala des WHOQOL-BREF, der SWE und des D-Lit getestet. Zusätzlich untersucht die Studie, ob Patientinnen und Patienten, die bCBT mit elona therapy Depression erhalten, eine höhere Adhärenz (gemessen aus Patientinnen- bzw. Patienten- und Therapeutinnen- bzw- Therapeutenperspektive) im Vergleich zu Patientinnen und Patienten in der TAU Gruppe zeigen. - Studiendesign: Um die Wirksamkeit und Sicherheit von elona therapy Depression zu testen, ist eine randomisierte, multizentrische, einfach verblindete (Patientinnen und Patienten) kontrollierte Studie (RCT) für Patientinnen und Patienten mit einer klinischen Diagnose von Depression (ICD-10: F32.x, F33.x, F34.1) basierend auf den ICD-10 Kriterien geplant. Der RCT umfasst zwei Arme: beide Arme erhalten wöchentliche Verhaltenstherapie über einen Zeitraum von 12 Wochen. Patientinnen und Patienten, die der Interventionssgruppe zugeordnet sind, erhalten zusätzlich Zugang zu elona therapy Depression. Patientinnen und Patienten, die der Kontrollgruppe zugeordnet sind, erhalten zunächst in den ersten 12 Wochen keinen Zugang zu elona therapy Depression, jedoch im Anschluss an den Beobachtungszeitraum. Patientinnen und Patienten werden einem der beiden Arme zufällig zugeteilt. - Fallzahlen: Basierend auf Poweranalysen in G*Power 3.1 (Faul et al., 2007) sollen 324 Patientinnen und Patienten an der Studie teilnehmen. - Einschreibungsstrategie: Der Beginn der Studie ist für Januar 2023 geplant. Patientinnen und Patienten werden während der ersten zwei Sitzungen ihrer psychotherapeutischen Standardbehandlung (d.h. nach Beendigung der Probatorik) durch die teilnehmenden Psychotherapeutinnen und Psychotherapeuten an den Untersuchungsstandorten eingeschrieben. - Studienablauf und Erhebung: Die Erhebungen finden zu Beginn (T0) und 12 Wochen nach Behandlungsbeginn (T1) statt. Es werden Selbstauskunftsdaten der Patientinnen und Patienten sowie Fremdbeurteilungen durch die Therapeutinnen und Therapeuten online erhoben.",
+      "content_fingerprint": "8f74141ca43f",
       "content_preview": "- Titel: Randomisierte kontrollierte Studie zur Prüfung der Überlegenheit der verzahnten kognitiven Verhaltenstherapie (bCBT) mit elona therapy gegenüber der Standard-CBT bei unipolarer Depression bei Erwachsenen - Prüfungszweck: Der Zwe...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
       ],
+      "path_hash": "045f4d7c860c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u-804896bae6:field_value",
+      "stable_key": "01254:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u:045f4d7c860c:field_value:0",
       "title": "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
     },
     {
       "content": "Institut für Psychologie Friedrich-Alexander Universität Erlangen-Nürnberg",
+      "content_fingerprint": "cfca154e91ac",
       "content_preview": "Institut für Psychologie Friedrich-Alexander Universität Erlangen-Nürnberg",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
       ],
+      "path_hash": "6deb64749945",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:informationen-zum-positiven-versorgungseffekt-herstellerunabhaengige-institution-85ca65af54:field_value",
+      "stable_key": "01254:informationen-zum-positiven-versorgungseffekt-herstellerunabhaengige-institution:6deb64749945:field_value:0",
       "title": "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
     },
     {
       "content": "Nein",
+      "content_fingerprint": "70bb813787b6",
       "content_preview": "Nein",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Die DiGA enthält ein diagnostisches Instrument",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Die DiGA enthält ein diagnostisches Instrument"
       ],
+      "path_hash": "f07a273683a3",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch-eded43f154:field_value",
+      "stable_key": "01254:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch:f07a273683a3:field_value:0",
       "title": "Die DiGA enthält ein diagnostisches Instrument"
     },
     {
       "content": "24 Monate (12 Monate initial, 12 Monate Verlängerung)",
+      "content_fingerprint": "f8a79e4b75f0",
       "content_preview": "24 Monate (12 Monate initial, 12 Monate Verlängerung)",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Länge des Zeitraumes der vorläufigen Aufnahme",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Länge des Zeitraumes der vorläufigen Aufnahme"
       ],
+      "path_hash": "f50c229bb808",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:informationen-zum-positiven-versorgungseffekt-laenge-des-zeitraumes-der-vorlaeuf-d645f91b3b:field_value",
+      "stable_key": "01254:informationen-zum-positiven-versorgungseffekt-laenge-des-zeitraumes-der-vorlaeuf:f50c229bb808:field_value:0",
       "title": "Länge des Zeitraumes der vorläufigen Aufnahme"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird. Die Anforderungen an die Datensicherheit werden durch Vorlage eines Zertifikats gemäß § 139e Absatz 10 Fünftes Buch Sozialgesetzbuch nachgewiesen. Detaillierte Informationen zu den einzelnen Anforderungen können Sie auf der Webseite des Bundesamts für Sicherheit in der Informationstechnik unter der Technischen Richtlinie \"BSI TR-03161\" finden: https://www.bsi.bund.de/dok/TR-03161 Bis zur Vorlage des Zertifikats gelten für den Bereich Datensicherheit die Anforderungen der nachfolgend dargestellten Checkliste.",
+      "content_fingerprint": "32cb1bd13010",
       "content_preview": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen v...",
       "content_type": "field_value",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 3,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "899b23823ae4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:field_value",
+      "stable_key": "01254:informationen-zu-datenschutz-und-datensicherheit:899b23823ae4:field_value:0",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine technische Möglichkeit einer Verknüpfung oder eines Datenaustauschs mit anderen digitalen Gesundheitsanwendungen. Zutreffend",
+      "content_fingerprint": "245e4382adf3",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutref...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "01254:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:0",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit > Datensicherheit",
       "level": 4,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit",
         "Datensicherheit"
       ],
+      "path_hash": "8545f237a1b9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:informationen-zu-datenschutz-und-datensicherheit-datensicherheit-14af255f91:field_value",
+      "stable_key": "01254:informationen-zu-datenschutz-und-datensicherheit-datensicherheit:8545f237a1b9:field_value:0",
       "title": "Datensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung greift weder auf Sensoren eines mobilen Endgeräts noch auf externe Hardware zu. Trifft nicht zu Die digitale Gesundheitsanwendung tauscht keine Daten mit externer Hardware aus. Zutreffend Zutreffend Zutreffend Nein",
+      "content_fingerprint": "9361ab3a5b28",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutref...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01254:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "01254:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:1",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der medizinischen Inhalte und die Gewährleistung der Patientensicherheit.",
+      "content_fingerprint": "0b320ca69209",
       "content_preview": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der me...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen",
       "level": 3,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "f85d7bfd4b8e",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-afe954d9f8:field_value",
+      "stable_key": "01254:weitere-informationen:f85d7bfd4b8e:field_value:0",
       "title": "Weitere Informationen"
     },
     {
       "content": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_fingerprint": "f14ccf82a937",
       "content_preview": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01254:weitere-informationen:df3724c46c56:section:0",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Interoperabilität",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Interoperabilität"
       ],
+      "path_hash": "43914a1ae1e9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-angaben-zur-interoperabilitaet-8867f27412:field_value",
+      "stable_key": "01254:weitere-informationen-angaben-zur-interoperabilitaet:43914a1ae1e9:field_value:0",
       "title": "Angaben zur Interoperabilität"
     },
     {
       "content": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versicherten getragenen Sensoren zur Messung und Übertragung von Vitalwerten (Wearables) austauscht. Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "922bba61baf0",
       "content_preview": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versiche...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01254:weitere-informationen:df3724c46c56:section:1",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Robustheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Robustheit"
       ],
+      "path_hash": "d416c871fdb6",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-angaben-zur-robustheit-0a511476df:field_value",
+      "stable_key": "01254:weitere-informationen-angaben-zur-robustheit:d416c871fdb6:field_value:0",
       "title": "Angaben zur Robustheit"
     },
     {
       "content": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
+      "content_fingerprint": "4b94c32e0d08",
       "content_preview": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digi...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01254:weitere-informationen:df3724c46c56:section:2",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zum Verbraucherschutz",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zum Verbraucherschutz"
       ],
+      "path_hash": "22c54da8ff9c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-angaben-zum-verbraucherschutz-05cd17969e:field_value",
+      "stable_key": "01254:weitere-informationen-angaben-zum-verbraucherschutz:22c54da8ff9c:field_value:0",
       "title": "Angaben zum Verbraucherschutz"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "409aa9901d82",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01254:weitere-informationen:df3724c46c56:section:3",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zu Nutzerfreundlichkeit und Barrierefreiheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
       ],
+      "path_hash": "a9d890d721a4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit-8fe873c531:field_value",
+      "stable_key": "01254:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit:a9d890d721a4:field_value:0",
       "title": "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
     },
     {
       "content": "Zutreffend Zutreffend",
+      "content_fingerprint": "f572c2f88946",
       "content_preview": "Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01254:weitere-informationen:df3724c46c56:section:4",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Unterstützung der Leistungserbringende",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Unterstützung der Leistungserbringende"
       ],
+      "path_hash": "bdfe86165ef2",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-unterstuetzung-der-leistungserbringende-d4e78dfd75:field_value",
+      "stable_key": "01254:weitere-informationen-unterstuetzung-der-leistungserbringende:bdfe86165ef2:field_value:0",
       "title": "Unterstützung der Leistungserbringende"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Qualität der medizinischen Inhalte",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Qualität der medizinischen Inhalte"
       ],
+      "path_hash": "964eb34f0609",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte-a6d05ceeb6:field_value",
+      "stable_key": "01254:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte:964eb34f0609:field_value:0",
       "title": "Angaben zur Qualität der medizinischen Inhalte"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "6a8d1dc0aa28",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01254:weitere-informationen:df3724c46c56:section:5",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Patientensicherheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Patientensicherheit"
       ],
+      "path_hash": "96d387fa1378",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-angaben-zur-patientensicherheit-7a67651ccd:field_value",
+      "stable_key": "01254:weitere-informationen-angaben-zur-patientensicherheit:96d387fa1378:field_value:0",
       "title": "Angaben zur Patientensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "477afefea65b",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "01254:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01254:weitere-informationen:df3724c46c56:section:6",
       "title": "Weitere Informationen"
     },
     {
       "content": "Der Preis der Verordnungseinheit elona therapy Depression 001 hat sich rückwirkend zum 26.12.2023 von 535,49 € auf 229,50 € geändert.",
+      "content_fingerprint": "9df6d9947671",
       "content_preview": "Der Preis der Verordnungseinheit elona therapy Depression 001 hat sich rückwirkend zum 26.12.2023 von 535,49 € auf 229,50 € geändert.",
       "content_type": "field_value",
+      "display_path": "Änderungshistorie > 22.01.2026 Preisänderung",
       "level": 4,
       "path": [
         "Änderungshistorie",
         "22.01.2026 Preisänderung"
       ],
+      "path_hash": "95a16367be5f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01254:aenderungshistorie-22-01-2026-preisaenderung-723c8e7a86:field_value",
+      "stable_key": "01254:aenderungshistorie-22-01-2026-preisaenderung:95a16367be5f:field_value:0",
       "title": "22.01.2026 Preisänderung"
     }
   ],
@@ -1004,10 +1312,10 @@
     "accordions_opened": 0,
     "content_section_count": 77,
     "field_value_count": 60,
-    "rendered_at": "2026-06-22T19:08:05.418176+00:00",
+    "rendered_at": "2026-06-22T20:35:48.494293+00:00",
     "source_kind": "visible_directory"
   },
   "source_kind": "visible_directory",
-  "timestamp": "20260622T190144Z",
+  "timestamp": "20260622T202912Z",
   "url": "https://diga.bfarm.de/de/verzeichnis/01254"
 }

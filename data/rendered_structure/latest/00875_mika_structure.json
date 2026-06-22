@@ -2,425 +2,561 @@
   "content_sections": [
     {
       "content": "Die Mika App ist eine digitale Gesundheitsanwendung zur Unterstützung der Linderung psychischer und psychosomatischer Folgen von Diagnosen und Therapien von Krebs (Malignomen). Die Anwendung erreicht eine Linderung durch Dokumentation von Belastung, Symptomen und Nebenwirkungen im Verlauf sowie ressourcenaktivierender Patientenedukation in den Bereichen Gesundheitskompetenz, Stressmanagement, Bewegung und Ernährung.",
+      "content_fingerprint": "5f3681316a5d",
       "content_preview": "Die Mika App ist eine digitale Gesundheitsanwendung zur Unterstützung der Linderung psychischer und psychosomatischer Folgen von Diagnosen und Therapien von Krebs (Malignomen). Die Anwendung erreicht eine Linderung durch Dokumentation vo...",
       "content_type": "field_value",
+      "display_path": "Fosanis GmbH, Deutschland",
       "level": 3,
       "path": [
         "Fosanis GmbH, Deutschland"
       ],
+      "path_hash": "6ab6ac4dfa87",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00875:fosanis-gmbh-deutschland-870a42aa98:field_value",
+      "stable_key": "00875:fosanis-gmbh-deutschland:6ab6ac4dfa87:field_value:0",
       "title": "Fosanis GmbH, Deutschland"
     },
     {
       "content": "Hier finden Sie weitergehende Informationen zur DiGA. Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA. Mika 25.03.2021 25.03.2022 Trifft nicht zu App im Apple App Store Deutschland im Google Play Store Deutschland Deutschland",
+      "content_fingerprint": "6f9ded73e84a",
       "content_preview": "Hier finden Sie weitergehende Informationen zur DiGA. Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinis...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00875:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00875:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:0",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Die DiGA wurde auf Antrag des Herstellers aus dem Verzeichnis gemäß § 139e Absatz 6 Satz 9 des Fünften Buches Sozialgesetzbuch (SGB V) i. V. m. § 19 der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) gestrichen.",
+      "content_fingerprint": "61020710df52",
       "content_preview": "Die DiGA wurde auf Antrag des Herstellers aus dem Verzeichnis gemäß § 139e Absatz 6 Satz 9 des Fünften Buches Sozialgesetzbuch (SGB V) i. V. m. § 19 der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) gestrichen.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Bewertungsentscheidung des BfArM",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Bewertungsentscheidung des BfArM"
       ],
+      "path_hash": "7d463e27c832",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00875:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung--cdc10aad7c:field_value",
+      "stable_key": "00875:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung-:7d463e27c832:field_value:0",
       "title": "Bewertungsentscheidung des BfArM"
     },
     {
       "content": "************************************************************************************************************************************************************ Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an • Sicherheit und Funktionstauglichkeit des Medizinproduktes • Datenschutz und Datensicherheit nach dem Stand der Technik • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) als erfüllt. - Der Hersteller hat bestätigt, dass keine personenbezogenen Daten in ein Land ohne Angemessenheitsbeschluss, wie nach dem Urteil „Schrems II“ den USA, fließen. - Neben einer Literaturrecherche wurden im Hinblick auf den vom Antragsteller beanspruchten positiven Versorgungseffekt (pVE) Wirksamkeitsdaten einer Stichprobe von 70 Patientinnen ausgewertet. Bei diesen wurden die Parameter Reduktion der Depressivität (PHQ-9), Verbesserung der Lebensqualität und Reduktion der Fatigue (European Organization for Research and Treatment of Cancer- Quality of Life Questionnaire, EORTC-QLQ-C30) und Gesundheitskompetenz (Health Literacy Questionnaire, HLS-EU-Q16) ausgewertet. Es wurde ein patientenindividueller Vergleich vorgenommen. Zusammenfassend weisen die ersten Daten auf eine Reduktion der Depressions- und Fatiguesymptomatik und auf eine Erhöhung der gesundheitsbezogenen Lebensqualität hin. Das BfArM bewertet die vorgelegten Daten im Sinne des § 14 DiGAV als plausible Begründung, dass im Rahmen der Erprobung ein entsprechender positiver Versorgungseffekt nachgewiesen werden kann. Eine Übertragbarkeit der nachgewiesenen Effekte auf Patientinnen und -patienten mit den unter „Patientengruppe“ aufgeführten onkologischen Erkrankungen konnte nachträglich durch eine systematische Literaturrecherche im Rahmen einer Anzeige wesentlicher Veränderungen dargelegt werden. - Die geplante Studie zum Nachweis des medizinischen Nutzens ist eine randomisierte, kontrollierte Studie, die die Interventionsgruppe (DiGA) gegen Standardversorgung der Kontrollgruppe vergleicht. Nach der Interventionszeit von 12 Wochen erhält die Kontrollgruppe Zugang zur DiGA. Die Interventionszeit beträgt 16 Wochen. Das geplante Studiendesign ist aus Sicht des BfArM grundsätzlich geeignet, um den postulierten positiven Versorgungseffekt (Verbesserung der Lebensqualität) abschließend nachzuweisen. - Entsprechend bewertet das BfArM die in §139e SGB V sowie in der DiGAV festgelegten Voraussetzungen zur Aufnahme in das Verzeichnis nach §139e Abs. 1 SGB V als erfüllt.",
+      "content_fingerprint": "279c95a4e148",
       "content_preview": "************************************************************************************************************************************************************ Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachwei...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "00875:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00875:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:1",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_fingerprint": "4b8f5a46c1b0",
       "content_preview": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt"
       ],
+      "path_hash": "9af58630166c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00875:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "00875:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:9af58630166c:field_value:0",
       "title": "Angaben zum Medizinprodukt"
     },
     {
       "content": "Die Mika App ist eine digitale Gesundheitsanwendung zur Unterstützung der Linderung psychischer und psychosomatischer Folgen von Diagnosen und Therapien von Malignomen. Mika erreicht eine Linderung durch Dokumentation von Belastung, Symptomen und Nebenwirkungen im Verlauf sowie ressourcenaktivierender Patientenedukation in folgenden Bereichen: 1. Gesundheitskompetenz 2. Stressmanagement 3. Bewegung 4. Ernährung Risikoklasse I nach MDD",
+      "content_fingerprint": "84486504f3ec",
       "content_preview": "Die Mika App ist eine digitale Gesundheitsanwendung zur Unterstützung der Linderung psychischer und psychosomatischer Folgen von Diagnosen und Therapien von Malignomen. Mika erreicht eine Linderung durch Dokumentation von Belastung, Symp...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "00875:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00875:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:2",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_fingerprint": "ba6516ebde5f",
       "content_preview": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA"
       ],
+      "path_hash": "6921f5eac91a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00875:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "00875:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:6921f5eac91a:field_value:0",
       "title": "Weitere Informationen zur DiGA"
     },
     {
       "content": "Ziel von Mika ist es, Belastungssymptome infolge der Krebsdiagnose- und therapie zu verringern und damit die Lebensqualität zu erhöhen. Dazu bietet Mika einen Belastungstest, basierend auf einem von der Leitlinie empfohlenen Screeninginstrument, und führt Patientinnen und Patienten durch leitlinienkonforme psychoonkologische Interventionen, bestehend aus Psychoedukation, Entspannungsverfahren, Kraft- und Beweglichkeitstraining sowie einem Coping-Skill-Training mit Techniken der Kognitiven Verhaltenstherapie (KVT), Akzeptanz Commitmenttherapie (ACT) und Kreativtherapie. Dieses ressourcenaktivierende Training verbessert das Gesundheitsverhalten, Stressmanagement und die Krankheitsbewältigung. Eine personalisierte Wissensbibliothek bietet weitere psychosoziale und psychoonkologische Unterstützung mit Hilfe von kompakten Informationen zu einzelnen Krebsarten, Leitlinien und supportiven Gesundheitsverhalten. - Check-up: Mit einem leitlinienkonformen Screening-Instrument können Patienten wöchentlich ihre Belastung messen und Belastungsfelder angeben. Nebenwirkungen der Therapie dokumentieren Patienten täglich in einem Symptomtagebuch mit grafischem Verlauf. Optional können auch Daten von Fitnesstrackern, Smartwatches, sowie anderen Gesundheitsapps integriert und dargestellt werden. Ein Export der Daten kann mit dem ärztlichen Behandlungsteam geteilt und besprochen werden, um damit ggf. auch die ärztliche medikamentöse Therapie anzupassen. - - Themenreisen bilden das psychoonkologische Coping-Skill-Training. Es ist modular aufgebaut und beinhaltet Anwendungsübungen zur Belastungsminderung. - - Entdecken: laiengerechte, evidenzbasierte und leitliniengerechte Informationen zu einzelnen Krebsdiagnosen, aktuellen Therapieoptionen, Ernährungswissen, Rezepte, Tipps für den Umgang mit körperlichen Einschränkungen, Einzelübungen für Entspannung und Bewegung. Abteilung für Medizinische Psychologie und Medizinische Soziologie Universitätsklinikum Leipzig AöR Philipp-Rosenthal-Straße 55 04103 Leipzig - Bereich “Resilienz und Gesellschaft“ Leibniz-Institut für Resilienzforschung (LIR) gGmbH Wallstraße 7 55122 Mainz Im Folgenden finden Sie eine Auswahl relevanter Quellen. - A.) Leitlinien 1. Leitlinienprogramm Onkologie (Deutsche Krebsgesellschaft, Deutsche Krebshilfe, AWMF): S3-Leitlinie Früherkennung, Diagnose, Therapie und Nachsorge des Mammakarzinoms, Version 4.3, 2020, AWMF Registernummer: 032-045OL, http://www.leitlinienprogramm-onkologie.de/leitlinien/mammakarzinom/ (abgerufen am: 24.11.2020) 2. Leitlinienprogramm Onkologie (Deutsche Krebsgesellschaft, Deutsche Krebshilfe, AWMF): Diagnostik, Therapie und Nachsorge des Melanoms, Langversion 3.3, 2020, AWMF Registernummer: 032/024OL, http://ww.leitlinienprogrammonkologie.de/leitlinien/melanom/ (abgerufen am: 24.11.2020) 3. Leitlinienprogramm Onkologie (Deutsche Krebsgesellschaft, Deutsche Krebshilfe, AWMF): Prävention, Diagnostik, Therapie und Nachsorge des Lungenkarzinoms, Langversion 1.0, 2018, AWMF-Registernummer: 020/007OL, http://leitlinienprogramm-onkologie.de/Lungenkarzinom.98.0.html (Zugriff am: 24.11.2020) 4. Leitlinienprogramm Onkologie (Deutsche Krebsgesellschaft, Deutsche Krebshilfe, AWMF): S3-Leitlinie Kolorektales Karzinom, Langversion 2.1, 2019, AWMF Registrierungsnummer: 021/007OL, http://www.leitlinienprogrammonkologie.de/leitlinien/kolorektales-karzinom/ [abgerufen am: 24.11.2020] 5. Leitlinienprogramm Onkologie (Deutsche Krebsgesellschaft, Deutsche Krebshilfe, AWMF): S3-Leitlinie Diagnostik, Therapie und Nachsorge maligner Ovarialtumoren, Langversion 4.0, 2020, AWMF-Registernummer: 032/035OL, https://www.leitlinienprogramm-onkologie.de/leitlinien/ovarialkarzinom/, [abgerufen am: 24.11.2020] - B.) Studien 1. Cheong IY; An SY; Cha WC; Rha MY; Kim ST; Chang DK; Hwang JH (2018): Efficacy of Mobile Health Care Application and Wearable Device in Improvement of Physical Performance in Colorectal Cancer Patients Undergoing Chemotherapy. In: Clinical colorectal cancer 17 (2), e353-e362. DOI: 10.1016/j.clcc.2018.02.002. 2. Greer, Joseph A; Jacobs; Pensak N; MacDonald J J.; Fuh, C ; Perez, GK. et al. (2019): Randomized Trial of a Tailored Cognitive-Behavioral Therapy Mobile Application for Anxiety in Patients with Incurable Cancer. In: The oncologist 24 (8), S. 1111–1120. DOI: 10.1634/theoncologist.2018-0536. 3. Gustavell T; Sundberg K; Segersvärd R; Wengström Y; Langius-Eklöf A (2019): Decreased symptom burden following surgery due to support from an interactive app for symptom management for patients with pancreatic and periampullary cancer. In: Acta oncologica (Stockholm, Sweden) 58 (9), S. 1307–1314. DOI: 10.1080/0284186X.2019.1633473. 4. Lozano-Lozano M; Cantarero-Villanueva I; Martin-Martin L; Galiano-Castillo N; Sanchez MJ; Fernández-Lao C et al. (2019): A Mobile System to Improve Quality of Life Via Energy Balance in Breast Cancer Survivors (BENECA mHealth): Prospective Test-Retest Quasiexperimental Feasibility Study. In: JMIR mHealth and uHealth 7 (6), e14136. DOI: 10.2196/14136. 5. Uhm KE; Yoo JS; Chung SH; Lee JD; Lee I; Kim JIl et al. (2017): Effects of exercise intervention in breast cancer patients: is mobile health (mHealth) with pedometer more effective than conventional program using brochure? In: Breast cancer research and treatment 161 (3), S. 443–452. DOI: 10.1007/s10549-016-4065-8. 6. Urech C; Grossert A; Alder J; Scherer S; Handschin B; Kasenda B et al. (2018): Web-Based Stress Management for Newly Diagnosed Patients With Cancer (STREAM): A Randomized, Wait-List Controlled Intervention Study. In: Journal of clinical oncology: official journal of the American Society of Clinical Oncology 36 (8), S. 780–788. DOI: 10.1200/JCO.2017.74.8491. 7. van der Hout A; van Uden-Kraan CF.; Holtmaat K; Jansen F; Lissenberg-Witte BI.; Nieuwenhuijzen G A. P. et al. (2020): Role of eHealth application Oncokompas in supporting self-management of symptoms and healthrelated quality of life in cancer survivors: a randomised, controlled trial. In: The Lancet Oncology 21 (1), S. 80–94. DOI: 10.1016/S1470-2045(19)30675-8.",
+      "content_fingerprint": "3c4376e828c0",
       "content_preview": "Ziel von Mika ist es, Belastungssymptome infolge der Krebsdiagnose- und therapie zu verringern und damit die Lebensqualität zu erhöhen. Dazu bietet Mika einen Belastungstest, basierend auf einem von der Leitlinie empfohlenen Screeningins...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "00875:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00875:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:3",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_fingerprint": "77cea9e6788d",
       "content_preview": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal"
       ],
+      "path_hash": "4c8dba25a53c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00875:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "00875:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:4c8dba25a53c:field_value:0",
       "title": "Beteiligung vom medizinischen Fachpersonal"
     },
     {
       "content": "Nein",
+      "content_fingerprint": "70bb813787b6",
       "content_preview": "Nein",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "00875:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00875:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:4",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfohlen wird.",
+      "content_fingerprint": "ba2dc6143acd",
       "content_preview": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfoh...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise"
       ],
+      "path_hash": "af464e1a8e2f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00875:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-6922aa5eb2:field_value",
+      "stable_key": "00875:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise:af464e1a8e2f:field_value:0",
       "title": "Anwendungshinweise"
     },
     {
       "content": "Gemäß der Zweckbestimmung ist Mika eine Anwendung zur Unterstützung der Linderung psychischer und psychosomatischer Folgen von Diagnosen und Therapien von Malignomen und wird entsprechend auch nur für solche Patienten verordnet. Im Anmeldeprozess werden Patienten durch den Freischaltcode automatisch erkannt. Generell liegen keine Kontraindikation für die Nutzung von Mika vor. Jedoch ist es wichtig, dass die ressourcenaktivierende Trainings (Bewegungsübungen, sowie Achtsamkeits-, Akzeptanz- und Entspannungsübungen) nur nach Rücksprache mit dem Behandlungsteam durchgeführt werden, wenn die folgenden Einschränkungen vorliegen. • Bewegungsübungen: nach einer OP, bei Implantaten oder Knochenmetastasen, sowie bei orthopädischen Einschränkungen • Achtsamkeits-, Akzeptanz- und Entspannungsübungen: in akuten starken Belastungssituationen ohne professionelle psychotherapeutische Begleitung, bei schweren Depressionen, Psychosen und anderen schwerwiegenden psychischen Erkrankungen oder bei starken körperlichen Schmerzen. Entsprechende Warnhinweise finden sich auch jeweils zu Beginn der Übungen in der App. Folgende Hinweise sollte individuell je nach Zustand des Patienten / der Patientin beachtet werden: (diese sind keine absoluten Kontraindikationen) -Nach einer OP muss die Wundheilung im operierten Bereich abgeschlossen sein, bevor die Übungen durchgeführt werden können. -Bei Implantaten muss ärztliches Behandlungsteam bestätigen, dass die Bauchlage wieder möglich ist. -Bei Knochenmetastasen: Wenn die Knochenmetastasen eine Knochenbruchgefährdung darstellen, können Einschränkungen bei bestimmten Übungen (je nach Lokalisation) bestehen, die mit dem ärztlichen Behandlungsteam individuell besprochen werden müssen. -Bei orthopädischen Einschränkungen: Wenn bestimmte Übungen nicht oder nur eingeschränkt möglich sind, dann sollte von einer Ausführung abgesehen werden. - In folgenden Fällen sollte körperliches Training vermieden werden: -bei starken Schmerzen und einer Verstärkung der Schmerzen durch Bewegung -bei Fieber bzw. Temperatur über 38 °C -bei akuten Infektionen -bei Übelkeit und Erbrechen -bei Bewusstseinseinschränkungen und Verwirrtheit -bei Schwindel oder Kreislaufproblemen -bei akuten Blutungen bzw. starker Blutungsneigung: geringe Anzahl von Blutplättchen (Thrombozytenwerte unter 10.000/μl) -bei Blutungsneigung oder -zeichen: zwischen 10.000 und 20.000/μl Thrombozyten -bei Hämoglobinwerten unter 8 g/dl Blut 4 Wochen Trifft nicht zu Android: Mika ist mit Android Geräten der Softwareversion 6.0 aufwärts kompatibel. iOS: Mika ist mit iOS Geräten (iPhone, iPad, iPod Touch) der Softwareversion iOS 12 aufwärts kompatibel. Siehe auf der Mika Website den Abschnitt \"Kompatibilität\" unter: https://www.mitmika.de/mika-description Die App zudem unterstützt die Anbindung weiterer Geräte zur Übertragung von Bewegungs- und Gesundheitsdaten. Es können Daten von Geräten folgender Hersteller eingebunden werden: Fitbit, Garmin, Polar, Withings. Darüber hinaus können auch noch die Daten, die in folgende Applikationen angebunden sind, übernommen werden: Apple Health, GoogleFit. Die Datenportabilität ist durch den Export der vom Nutzer / von der Nutzerin im Bereich Check-Up dokumentierten Daten (Symptome, Befinden) gewährleistet. Dieser Export kann in den App-Einstellungen jederzeit durch den/die Nutzer/in selbst angestoßen werden. Der Export erfolgt im menschenlesbaren Format als PDF und ist ausdruckbar. Um den Anforderungen an die technische und semantische Interoperabilität zu entsprechen, bietet die Fosanis GmbH den Datenexport darüberhinaus auch im FHIR Standard an. Die Daten werden als FHIR-Ressourcen-Bündel (vgl. https://www.hl7.org/fhir/bundle.html) exportiert bestehend aus Patientenprofil (vgl. https://www.hl7.org/fhir/patient.html) und Symptomdaten (als Beobachtungen, vgl. https://www.hl7.org/fhir/observation.html).",
+      "content_fingerprint": "f305525e9a1a",
       "content_preview": "Gemäß der Zweckbestimmung ist Mika eine Anwendung zur Unterstützung der Linderung psychischer und psychosomatischer Folgen von Diagnosen und Therapien von Malignomen und wird entsprechend auch nur für solche Patienten verordnet. Im Anmel...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "00875:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00875:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:5",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs. weitere, durch Sie selbst aufzubringende Kosten, sofern Sie bestimmte zusätzlich angebotene und von der Verschreibung nicht abgedeckte Leistungen in Anspruch nehmen möchten.",
+      "content_fingerprint": "39d5160ffdea",
       "content_preview": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs....",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis"
       ],
+      "path_hash": "41c28a502494",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00875:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-429bde377d:field_value",
+      "stable_key": "00875:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis:41c28a502494:field_value:0",
       "title": "Angaben zum Preis"
     },
     {
       "content": "Weitere Nutzung der DiGA für zusätzliche 90 Tage Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage 499,00 € 499,00 € Trifft nicht zu Trifft nicht zu Es fallen keine Mehrkosten für den Patienten an.",
+      "content_fingerprint": "18226f1484dc",
       "content_preview": "Weitere Nutzung der DiGA für zusätzliche 90 Tage Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage 499,00 € 499,00 € Trifft nicht zu Trifft nicht zu Es fallen keine Mehrkosten für den Patienten an.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "00875:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00875:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:6",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Verbesserungen für Patienten können entweder medizinischer Art sein (z.B. Verringerung von Schmerzen, Beitrag zur Heilung der Erkrankung) oder den Erkennungs- und Behandlungsprozess direkt unterstützen und erleichtern (z.B. Informationen zur individuellen Erkrankungssituation, Unterstützung bei der Einhaltung der zwischen Patient und Arzt gemeinsam vereinbarten therapeutischen Maßnahmen). Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche Weise dies ggfs. bereits wissenschaftlich nachgewiesen wurde. Falls der positive Versorgungseffekt noch nicht abschließend nachgewiesen aber bereits so plausibel dargelegt wurde, dass die DiGA befristet zur entsprechenden Erprobung aufgenommen wurde, wird angegeben, für welchen Zeitraum dies erfolgt ist. Sofern (auch) ein Nachweis zum Erhalt der Erwerbsfähigkeit für die DiGA erbracht wurde oder eine Nachweisführung geplant ist, finden Sie hier eine Beschreibung und nähere Angaben zum Nachweis sowie zum Studiendesign. Sofern die DiGA (auch) ein diagnostisches Instrument darstellt, also mindestens in Teilen dazu vorgesehen ist, Informationen z.B. für die Erkennung oder Diagnose von Krankheitszuständen zu liefern, hat der Hersteller dies benannt und beschrieben sowie Sensitivität und Spezifität als wichtige Bewertungsgrößen angegeben. Medizinischer Nutzen Verbesserung der Lebensqualität Erhöhung der gesundheitsbezogenen Lebensqualität Randomisierte, kontrollierte Studie in der Uniklinik Leipzig (laufend) - Population Geplant ist der Einschluss von 524 Patienten mit malignem Tumor, die älter als 18 Jahre sind. Die Patienten werden zufällig der Interventions- oder Kontrollgruppe zugeordnet. - Intervention Patienten in der Interventionsgruppe erhalten die übliche medizinische Behandlung und zusätzlich die Mika-App als Intervention über 16 Wochen. - Comparison Die Kontrollgruppe erhält die übliche medizinische Versorgung, den s.g. \"Standard of care\", als Kontrolle. Nach 12 Wochen erhält die Kontrollgruppe die Mika-App - Outcome primärer Endpunkt: Lebensqualität sekundäre Endpunkte: Psychische Belastung, psychischer Stress, Fatigue, Progredienzangst, Gesundheitskompetenz, Adhärenz, Selbstmanagement - Ethikvotum: Ethikkommission der Uniklinik Leipzig 369/20-ek Register: DRKS00022996 Eine Veröffentlichung der Ergebnisse ist für 2021 geplant, u.a. auf www.mitmika.de Studie 1: Charité Run-in Studie gynäkologische Onkologie (abgeschlossen), n=70 prospektiv, gruppenkontrolliert, intraindividuell 12 Wochen Intervention mit 4 Befragungszeitpunkten Intervention vs. Kontrolle (5:2) primärer Endpunkt: PHQ-9 (signifikante Verbesserung, hohe Effektstärke) sekundärer Endpunkt: EORTC-QLQ-C30 (signifikante Verbesserung des Symptoms Fatigue), HLS-EU-Q16 (leichte Effektstärke) Ethikvotum: Ethikkommssion der Charité EA_237_19 Register: DRKS00023791 Eine Veröffentlichung der Ergebnisse ist für 2021 geplant, u.a. auf www.mitmika.de - Studie 2: Uniklinik Leipzig (laufend) Population Geplant ist der Einschluss von 524 Patienten mit malignem Tumor, die älter als 18 Jahre sind. Die Patienten werden zufällig der Interventions- oder Kontrollgruppe zugeordnet. Intervention Patienten in der Interventionsgruppe erhalten die übliche medizinische Behandlung und zusätzlich die Mika-App als Intervention über 16 Wochen. Comparison Die Kontrollgruppe erhält die übliche medizinische Versorgung, den sogenannten \"Standard of care\", als Kontrolle. Nach 12 Wochen erhält die Kontrollgruppe die Mika-App Outcome primärer Endpunkt: Lebensqualität sekundäre Endpunkte: Psychische Belastung, psychischer Stress, Fatigue, Progredienzangst, Gesundheitskompetenz, Adhärenz, Selbstmanagement - Ethikvotum: Ethikkommssion der Uniklinik Leipzig 369/20-ek Register: DRKS00022996 Eine Veröffentlichung der Ergebnisse ist für 2021 geplant, u.a. auf www.mitmika.de Clinical Research Organization (CRO) H.P. Zenner Clinical GmbH & Co. KG Bismarckstr. 66 72072 Tübingen Nein 12 Monate",
+      "content_fingerprint": "8a99d52ea967",
       "content_preview": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Ve...",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00875:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "00875:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:0",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird. Die Anforderungen an die Datensicherheit werden durch Vorlage eines Zertifikats gemäß § 139e Absatz 10 Fünftes Buch Sozialgesetzbuch nachgewiesen. Detaillierte Informationen zu den einzelnen Anforderungen können Sie auf der Webseite des Bundesamts für Sicherheit in der Informationstechnik unter der Technischen Richtlinie \"BSI TR-03161\" finden: https://www.bsi.bund.de/dok/TR-03161 Bis zur Vorlage des Zertifikats gelten für den Bereich Datensicherheit die Anforderungen der nachfolgend dargestellten Checkliste. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine technische Möglichkeit einer Verknüpfung oder eines Datenaustauschs mit anderen digitalen Gesundheitsanwendungen. Zutreffend",
+      "content_fingerprint": "88454978621f",
       "content_preview": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen v...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00875:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "00875:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:0",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit > Datensicherheit",
       "level": 4,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit",
         "Datensicherheit"
       ],
+      "path_hash": "8545f237a1b9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00875:informationen-zu-datenschutz-und-datensicherheit-datensicherheit-14af255f91:field_value",
+      "stable_key": "00875:informationen-zu-datenschutz-und-datensicherheit-datensicherheit:8545f237a1b9:field_value:0",
       "title": "Datensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung speichert keine Authentisierungsdaten auf einem Endgerät oder in einer darauf befindlichen Softwarekomponente. Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung sieht keine unterschiedlichen Nutzerrollen vor. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung greift weder auf Sensoren eines mobilen Endgeräts noch auf externe Hardware zu. Trifft nicht zu Die digitale Gesundheitsanwendung tauscht keine Daten mit externer Hardware aus. Zutreffend Zutreffend Zutreffend Nein",
+      "content_fingerprint": "2a1447bdb826",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung speichert keine Authentisierungsdaten auf einem Endgerät oder in e...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "00875:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "00875:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:1",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der medizinischen Inhalte und die Gewährleistung der Patientensicherheit. Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_fingerprint": "d6d0ea10d54a",
       "content_preview": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der me...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00875:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00875:weitere-informationen:df3724c46c56:section:0",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Interoperabilität",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Interoperabilität"
       ],
+      "path_hash": "43914a1ae1e9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00875:weitere-informationen-angaben-zur-interoperabilitaet-8867f27412:field_value",
+      "stable_key": "00875:weitere-informationen-angaben-zur-interoperabilitaet:43914a1ae1e9:field_value:0",
       "title": "Angaben zur Interoperabilität"
     },
     {
       "content": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versicherten getragenen Sensoren zur Messung und Übertragung von Vitalwerten (Wearables) austauscht. Zutreffend",
+      "content_fingerprint": "66ae23eeff50",
       "content_preview": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versiche...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "00875:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00875:weitere-informationen:df3724c46c56:section:1",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Robustheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Robustheit"
       ],
+      "path_hash": "d416c871fdb6",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00875:weitere-informationen-angaben-zur-robustheit-0a511476df:field_value",
+      "stable_key": "00875:weitere-informationen-angaben-zur-robustheit:d416c871fdb6:field_value:0",
       "title": "Angaben zur Robustheit"
     },
     {
       "content": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
+      "content_fingerprint": "4b94c32e0d08",
       "content_preview": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digi...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "00875:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00875:weitere-informationen:df3724c46c56:section:2",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zum Verbraucherschutz",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zum Verbraucherschutz"
       ],
+      "path_hash": "22c54da8ff9c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00875:weitere-informationen-angaben-zum-verbraucherschutz-05cd17969e:field_value",
+      "stable_key": "00875:weitere-informationen-angaben-zum-verbraucherschutz:22c54da8ff9c:field_value:0",
       "title": "Angaben zum Verbraucherschutz"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "409aa9901d82",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "00875:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00875:weitere-informationen:df3724c46c56:section:3",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zu Nutzerfreundlichkeit und Barrierefreiheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
       ],
+      "path_hash": "a9d890d721a4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00875:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit-8fe873c531:field_value",
+      "stable_key": "00875:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit:a9d890d721a4:field_value:0",
       "title": "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
     },
     {
       "content": "Zutreffend Zutreffend",
+      "content_fingerprint": "f572c2f88946",
       "content_preview": "Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "00875:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00875:weitere-informationen:df3724c46c56:section:4",
       "title": "Weitere Informationen"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Unterstützung der Leistungserbringende",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Unterstützung der Leistungserbringende"
       ],
+      "path_hash": "bdfe86165ef2",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00875:weitere-informationen-unterstuetzung-der-leistungserbringende-d4e78dfd75:field_value",
+      "stable_key": "00875:weitere-informationen-unterstuetzung-der-leistungserbringende:bdfe86165ef2:field_value:0",
       "title": "Unterstützung der Leistungserbringende"
     },
     {
       "content": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen.",
+      "content_fingerprint": "8b7713a3d90e",
       "content_preview": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Triff...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "00875:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00875:weitere-informationen:df3724c46c56:section:5",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Qualität der medizinischen Inhalte",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Qualität der medizinischen Inhalte"
       ],
+      "path_hash": "964eb34f0609",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00875:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte-a6d05ceeb6:field_value",
+      "stable_key": "00875:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte:964eb34f0609:field_value:0",
       "title": "Angaben zur Qualität der medizinischen Inhalte"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "6a8d1dc0aa28",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "00875:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00875:weitere-informationen:df3724c46c56:section:6",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Patientensicherheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Patientensicherheit"
       ],
+      "path_hash": "96d387fa1378",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00875:weitere-informationen-angaben-zur-patientensicherheit-7a67651ccd:field_value",
+      "stable_key": "00875:weitere-informationen-angaben-zur-patientensicherheit:96d387fa1378:field_value:0",
       "title": "Angaben zur Patientensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "477afefea65b",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 7,
       "source_kind": "visible_directory",
-      "stable_key": "00875:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00875:weitere-informationen:df3724c46c56:section:7",
       "title": "Weitere Informationen"
     },
     {
       "content": "Die DiGA wurde auf Antrag des Herstellers aus dem DiGA-Verzeichnis gestrichen.",
+      "content_fingerprint": "c75960696a8a",
       "content_preview": "Die DiGA wurde auf Antrag des Herstellers aus dem DiGA-Verzeichnis gestrichen.",
       "content_type": "field_value",
+      "display_path": "Änderungshistorie > 25.03.2022 Status der Listung ist „Gestrichen“",
       "level": 4,
       "path": [
         "Änderungshistorie",
         "25.03.2022 Status der Listung ist „Gestrichen“"
       ],
+      "path_hash": "20f98f62ceb8",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00875:aenderungshistorie-25-03-2022-status-der-listung-ist-gestrichen-abf5a060f6:field_value",
+      "stable_key": "00875:aenderungshistorie-25-03-2022-status-der-listung-ist-gestrichen:20f98f62ceb8:field_value:0",
       "title": "25.03.2022 Status der Listung ist „Gestrichen“"
     }
   ],
@@ -430,10 +566,10 @@
     "accordions_opened": 0,
     "content_section_count": 34,
     "field_value_count": 16,
-    "rendered_at": "2026-06-22T19:04:51.570214+00:00",
+    "rendered_at": "2026-06-22T20:32:26.181787+00:00",
     "source_kind": "visible_directory"
   },
   "source_kind": "visible_directory",
-  "timestamp": "20260622T190144Z",
+  "timestamp": "20260622T202912Z",
   "url": "https://diga.bfarm.de/de/verzeichnis/00875"
 }

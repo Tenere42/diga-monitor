@@ -2,1021 +2,1337 @@
   "content_sections": [
     {
       "content": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_fingerprint": "26290d5ae490",
       "content_preview": "Hier finden Sie weitergehende Informationen zur DiGA.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "a5e395515816",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung:a5e395515816:field_value:0",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_fingerprint": "bfc5ca33598c",
       "content_preview": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:0",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "PINK! Coach",
+      "content_fingerprint": "0bf0755557d1",
       "content_preview": "PINK! Coach",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Name der DiGA im DiGA-Verzeichnis",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Name der DiGA im DiGA-Verzeichnis"
       ],
+      "path_hash": "b055b8e1c744",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v-132a49921b:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v:b055b8e1c744:field_value:0",
       "title": "Name der DiGA im DiGA-Verzeichnis"
     },
     {
       "content": "27.06.2022",
+      "content_fingerprint": "7d2086122fcf",
       "content_preview": "27.06.2022",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Erstmalige Aufnahme in das DiGA-Verzeichnis",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Erstmalige Aufnahme in das DiGA-Verzeichnis"
       ],
+      "path_hash": "3d07f6258e5c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in--0901792b12:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in-:3d07f6258e5c:field_value:0",
       "title": "Erstmalige Aufnahme in das DiGA-Verzeichnis"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Modul",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Modul"
       ],
+      "path_hash": "fdfb704b702c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-modul-0b2f60dd90:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-modul:fdfb704b702c:field_value:0",
       "title": "Modul"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
       ],
+      "path_hash": "46556afef4cb",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-andere-namen-und-modell-ab7acb1427:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-andere-namen-und-modell:46556afef4cb:field_value:0",
       "title": "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
     },
     {
       "content": "App",
+      "content_fingerprint": "fc4a695f02a8",
       "content_preview": "App",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Art der DiGA",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Art der DiGA"
       ],
+      "path_hash": "600a0be84a95",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga-f41af95c79:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga:600a0be84a95:field_value:0",
       "title": "Art der DiGA"
     },
     {
       "content": "im Apple App Store Deutschland",
+      "content_fingerprint": "5a4cd838fc6e",
       "content_preview": "im Apple App Store Deutschland",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Die digitale Gesundheitsanwendung ist verfügbar",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Die digitale Gesundheitsanwendung ist verfügbar"
       ],
+      "path_hash": "6d3556c97e9a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit-70a197df25:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit:6d3556c97e9a:field_value:0",
       "title": "Die digitale Gesundheitsanwendung ist verfügbar"
     },
     {
       "content": "im Google Play Store Deutschland",
+      "content_fingerprint": "860262a8c802",
       "content_preview": "im Google Play Store Deutschland",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:1",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Deutschland",
+      "content_fingerprint": "19174e8c9711",
       "content_preview": "Deutschland",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Standorte der Datenverarbeitung",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Standorte der Datenverarbeitung"
       ],
+      "path_hash": "eee99405da7f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera-426183d1fc:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera:eee99405da7f:field_value:0",
       "title": "Standorte der Datenverarbeitung"
     },
     {
       "content": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) die Anforderungen an • Sicherheit und Funktionstauglichkeit des Medizinproduktes • Datenschutz und Datensicherheit nach dem Stand der Technik • die Qualität des Medizinproduktes, einschließlich Interoperabilität - entsprechend den Vorgaben der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) als erfüllt. Der Hersteller gibt an, dass keine personenbezogenen Daten in ein Land außerhalb der EU oder ohne Angemessenheitsbeschluss fließen. Das BfArM bewertet dieses Vorgehen als konform mit der DiGAV. Nach Aufnahme zur Erprobung wurden die Studienergebnisse der Erprobungsstudie zum Ende des Erprobungszeitraums eingereicht. Mit den zunächst vorgelegten Daten konnte kein positiver Versorgungseffekt für die DiGA nachgewiesen werden. Unter Einschluss der im Widerspruchverfahren vorgelegten Widerspruchsbegründung mitsamt den dazu neu bzw. ergänzend eingereichten Dokumenten erfolgte dann eine erneute Prüfung. - Es wurde eine zweiarmige, randomisiert-kontrollierte Studie (RCT) mit dem Titel „Evaluation positiver Versorgungseffekte des zertifizierten Medizinproduktes PINK! Coach im Rahmen einer multizentrischen, randomisiert-kontrollierten, klinischen Studie“ durchgeführt, die im Deutschen Register Klinischer Studien (DRKS) unter der der Nummer DRKS00028699 registriert ist. - Die Beobachtungsdauer betrug 12 Wochen. Die Interventionsgruppe (IG) erhielt Zugang zur Standardversorgung und der DiGA. Die Kontrollgruppe (KG) erhielt Zugang zur Standardversorgung. Der primäre Endpunkt war der Patient-Health-Questionnaire-9 (PHQ-9) zur Messung der depressiven Symptomatik. Die sekundären Endpunkte waren der International Physical Activity Questionnaire-Short Form (IPAQ-SF), die Resilienzskala-13 (RS-13), der Body-Mass-Index (BMI), der European Health Literacy Survey Questionnaire-16 (HLS-EU-Q16), der EORTC Core Quality of Life Questionnaire (EORTC-QLQ-C30, Fatigue und globale Gesundheit). - Das Full-Analyis-Set (FAS) umfasste zunächst 396 Patientinnen und Patienten (IG: 191; KG: 205). Von den 396 Teilnehmenden wurden 68 Patientinnen und Patienten als Drop-outs zum Zeitpunkt nach 12 Wochen identifiziert (IG: 19,37 %; KG: 15,12 %). Die Endpunkte wurden zu 3 Zeitpunkten nach Baseline [T1 (nach 4 Wochen), T2 (nach 8 Wochen) und T3 (nach 12 Wochen, primärer Endpunkt)] erhoben. Es erfolgte außerdem ein Follow-up nach 6 Monaten (T4). Zwischen T3 und T4 erhielten die Teilnehmenden der KG die DiGA. - Im Rahmen der primären Analyse gemäß Intention-To-Treat-Prinzip (ITT-Prinzip) ergab sich ein statistisch signifikanter und relevanter Vorteil der IG gegenüber der KG in Bezug auf die Verbesserung des Gesundheitszustands, gemessen anhand des PHQ-9 [adjustierte Mittelwertsdifferenz (MWD): 1,52; 95-%-Konfidenzintervall (KI): 0,95 – 2,09; p-Wert: < 0,001; Cohens d: 0,47; 95-%-KI: 0,25 – 0,69]. In den Responderanalysen zeigte sich ein Vorteil für die IG gegenüber der KG [Responsekriterium 50 % Verbesserung von Baseline: 21 % IG; 13 % KG; Odds Ratio (OR): 2,01; 95-%-KI: 1,09 – 3,68; p = 0,024; Responsekriterium 15 % der Skalenspannweite: 14 % IG, 6 % KG; OR: 2,24; 95-%-KI: 0,93 – 5,39; p = 0,072). Die Ergebnisse konnten zu T4 bestätigt werden. Im Rahmen einer Analyse von versorgungsnahen Daten von 1.249 Patientinnen und Patienten konnten diese Ergebnisse bestätigt werden. - In der klinisch relevanten Subgruppenanalyse nach Symptomschwere zu Baseline zeigt sich, dass für Patientinnen und Patienten mit keiner oder minimaler depressiver Symptomatik ein (tendenzieller) Vorteil in der Nutzung der Anwendung ausblieb (adjustierte MWD: 0,18; 95-%-Konfidenzintervall: -0,68 – 1,04; p-Wert: 0,67). Das Fehlen eines Vorteils für die IG gegenüber der KG ist nicht auf die Fallzahl in der Subgruppe zurückzuführen, sondern ist klinisch plausibel. - Aufgrund einer hohen Anzahl an fehlenden und unplausiblen Werten konnte der IPAQ-SF nicht ausgewertet werden. Der BMI wurde aus Kapazitätsgründen in den Studienzentren nicht erhoben. Für den RS-13 ergab sich ein statistisch signifikanter Vorteil in der IG gegenüber der KG. Für den EORTC-QLQ-C30 konnten keine ausreichenden Vorteile in der IG gegenüber der KG gezeigt werden. - Entsprechend bewertet das BfArM die in § 139e des Fünften Buches Sozialgesetzbuch (SGB V) sowie in der DiGAV festgelegten Voraussetzungen zur endgültigen Aufnahme in das Verzeichnis nach § 139e Absatz 1 SGB V für die Indikation C50.: Bösartige Neubildung der Brustdrüse [Mamma] und der Einschränkung auf die Patientengruppe „Patientinnen und Patienten mit mindestens leichter depressiver Symptomatik“ in Bezug auf den positiven Versorgungseffekt „Verbesserung des Gesundheitszustands“ als erfüllt.",
+      "content_fingerprint": "13393cd36369",
       "content_preview": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) die Anforderungen an • Sicherheit und Funktionstauglichkeit des Medizinproduktes ...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Bewertungsentscheidung des BfArM",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Bewertungsentscheidung des BfArM"
       ],
+      "path_hash": "7d463e27c832",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung--cdc10aad7c:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung-:7d463e27c832:field_value:0",
       "title": "Bewertungsentscheidung des BfArM"
     },
     {
       "content": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_fingerprint": "4b8f5a46c1b0",
       "content_preview": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt"
       ],
+      "path_hash": "9af58630166c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:9af58630166c:field_value:0",
       "title": "Angaben zum Medizinprodukt"
     },
     {
       "content": "PINK! Coach ist eine digitale Gesundheitsanwendung zur Eigenanwendung, welche die Stärkung der gesundheitsbezogenen Lebensqualität und der Gesundheitskompetenz unterstützt sowie zur Bewältigung der psychischen, psychosomatischen und somatischen Folgen einer Brustkrebserkrankung während der Therapie und der Nachsorge beiträgt.",
+      "content_fingerprint": "b06a37e49fb6",
       "content_preview": "PINK! Coach ist eine digitale Gesundheitsanwendung zur Eigenanwendung, welche die Stärkung der gesundheitsbezogenen Lebensqualität und der Gesundheitskompetenz unterstützt sowie zur Bewältigung der psychischen, psychosomatischen und soma...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Medizinische Zweckbestimmung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Medizinische Zweckbestimmung"
       ],
+      "path_hash": "8bde401e0e97",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:8bde401e0e97:field_value:0",
       "title": "Medizinische Zweckbestimmung"
     },
     {
       "content": "PINK! Coach unterstützt die Brustkrebspatientinnen und -Patienten bei der Veränderung ihres Lebensstils hin zu mehr Bewegung, gesünderer Ernährung und mentaler Gesundheit gemäß den aktuellen Leitlinien und Empfehlungen. Auf diese Weise werden die Patientinnen und Patienten im Rahmen des Selbstmanagements motiviert, selbstbestimmt und selbstwirksam die Anleitungen zu den Verhaltensänderungen in ihren Alltag zu integrieren. Über Coaching-Module erhält die Patientin/der Patient individualisierte, auf den Leitlinien basierende Informationen, praktische Tipps, Anleitungen und Übungen in den Bereichen Bewegung, Ernährung und mentale Gesundheit. PINK! Coach unterstützt die Anpassung der therapiespezifischen und krankheitsbezogenen Verhaltensweisen durch Nutzung verhaltenswissenschaftlicher Konzepte wie Selbstbeobachtung, Zielsetzung und Zielerreichung. Die Infothek bietet evidenz- und leitlinienbasierte Informationen zu den Themen Brustkrebs und Brustkrebstherapie, sowie zu spezifischen Ernährungskonzepten. Weiterhin werden ein Bewegungsprogramm zur Steigerung der körperlichen Aktivität, welches u.a. gezielte Übungen zur Verbesserung der Nebenwirkungen vorhält, und ein Achtsamkeitsprogramm zur Verbesserung des Befindens angeboten. Mit Hilfe des Chatbots kann die Patientin/der Patient darüber hinaus Schlüsselwörter zu Beschwerden, Symptomen und Nebenwirkungen eingeben und erhält dazu passende evidenzbasierte Informationen und Tipps zur Selbsthilfe mit dem Ziel, Nebenwirkungen zu verbessern. PINK! Coach strukturiert den Alltag der Nutzenden mit täglich wechselnden individuellen Zielen aus den Bereichen Bewegung, Ernährung und mentale Gesundheit und motiviert so zur Verhaltensanpassung. Weitere nützliche Funktionen der App sind die Termin- und Dokumentenverwaltung sowie die Community. Die Anwendung ist zur eigenständigen Nutzung in Ergänzung zur üblichen Versorgung von Patientinnen und Patienten mit der Diagnose Brustkrebs (Mammakarzinom, ICD-10 C50) mit einer mindestens leichten depressiven Symptomatik bestimmt, die mindestens 18 Jahre alt sind. Die Anwendung ist nicht geeignet, Informationen zu liefern, die zu Entscheidungen für diagnostische oder therapeutische Zwecke herangezogen werden, noch ist sie für die Überwachung von physiologischen Prozessen, oder für die Kontrolle von vitalen physiologischen Parametern bestimmt. Die Diagnosestellung, medizinische und therapeutische Empfehlung sowie Behandlung obliegt ausschließlich dem behandelnden Arzt / der behandelnden Ärztin und ist nicht Teil der App.",
+      "content_fingerprint": "61e4107b6b60",
       "content_preview": "PINK! Coach unterstützt die Brustkrebspatientinnen und -Patienten bei der Veränderung ihres Lebensstils hin zu mehr Bewegung, gesünderer Ernährung und mentaler Gesundheit gemäß den aktuellen Leitlinien und Empfehlungen. Auf diese Weise w...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:2",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Risikoklasse I nach MDR",
+      "content_fingerprint": "957f4ea485db",
       "content_preview": "Risikoklasse I nach MDR",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Risikoklasse Medizinprodukt",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Risikoklasse Medizinprodukt"
       ],
+      "path_hash": "9c9d7c240dd4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-risikoklasse-medizinpro-f524843e03:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-risikoklasse-medizinpro:9c9d7c240dd4:field_value:0",
       "title": "Risikoklasse Medizinprodukt"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Name der Benannten Stelle",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Name der Benannten Stelle"
       ],
+      "path_hash": "06f60474cc06",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-benannten-stel-6c42808513:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-benannten-stel:06f60474cc06:field_value:0",
       "title": "Name der Benannten Stelle"
     },
     {
       "content": "Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt.",
+      "content_fingerprint": "253e4f0d662b",
       "content_preview": "Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:3",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Kennnummer der Benannten Stelle",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Kennnummer der Benannten Stelle"
       ],
+      "path_hash": "f1e2f46935e4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-kennnummer-der-benannte-885261bcc3:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-kennnummer-der-benannte:f1e2f46935e4:field_value:0",
       "title": "Kennnummer der Benannten Stelle"
     },
     {
       "content": "DE-MF-000012675",
+      "content_fingerprint": "62e5d017b735",
       "content_preview": "DE-MF-000012675",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Identifikationsnummer Eudamed",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Identifikationsnummer Eudamed"
       ],
+      "path_hash": "fc78f31e70f9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-identifikationsnummer-e-c5d45b28a3:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-identifikationsnummer-e:fc78f31e70f9:field_value:0",
       "title": "Identifikationsnummer Eudamed"
     },
     {
       "content": "(01) 04260767690012(10)1.3.2",
+      "content_fingerprint": "9663a48cd4a0",
       "content_preview": "(01) 04260767690012(10)1.3.2",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > UDI - Unique Device Identifier im Sinne der MDR",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "UDI - Unique Device Identifier im Sinne der MDR"
       ],
+      "path_hash": "d176d35107d9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-udi-unique-device-ident-16a2c37ee0:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-udi-unique-device-ident:d176d35107d9:field_value:0",
       "title": "UDI - Unique Device Identifier im Sinne der MDR"
     },
     {
       "content": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_fingerprint": "ba6516ebde5f",
       "content_preview": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA"
       ],
+      "path_hash": "6921f5eac91a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:6921f5eac91a:field_value:0",
       "title": "Weitere Informationen zur DiGA"
     },
     {
       "content": "Ziel von PINK! Coach ist es, die Patientinnen und Patienten durch eine Anpassung ihrer Gewohnheiten in den Bereichen Bewegung, Ernährung und Geist zu motivieren, selbst zum Therapieerfolg beizutragen. Zahlreiche Studien haben gezeigt, dass physische Aktivität, Normalgewicht (BMI zwischen 18,5 und 25) und brustkrebsspezifische Ernährungsempfehlungen sowie die mentale Gesundheit zu einer signifikanten Verbesserung der Lebensqualität, der körperlichen Leistungsfähigkeit und zur Reduktion therapiebedingter Nebenwirkungen (Fatigue und Depression) führen. Auch die Rezidivprävention und die Verbesserung des Gesamtüberlebens wird von diesen Lebensstilfaktoren beeinflusst. - PINK! Coach unterstützt Brustkrebspatientinnen und -patienten bei der Veränderung ihres Lebensstils hin zu mehr Bewegung, gesünderer Ernährung und mentaler Gesundheit gemäß den aktuellen Leitlinienempfehlungen. Über Coaching Module erhalten die Patientinnen und Patienten pseudoindividualisierte Informationen, praktische Tipps, Anleitungen und Übungen in den Bereichen Bewegung, Ernährung und mentale Gesundheit. Mit Hilfe eines Chatbots können die Nutzerinnen und Nutzer darüber hinaus Fragen zu Beschwerden und Nebenwirkungen stellen und erhalten zutreffende Informationen und Tipps zur Selbsthilfe (Hausmittel) mit dem Ziel die Nebenwirkungen zu verbessern. - PINK! Coach adressiert positive Bewältigungsstrategien und fördert den positiven, kompetenten und souveränen Umgang mit der plötzlich veränderten Lebenssituation. PINK! Coach strukturiert den Alltag mit individuell geeigneten und für die Patientin oder den Patienten definierten Zielen und motiviert zur Verhaltensanpassung. Um eine langfristige, anhaltende Verbesserung der Lebensqualität und des Gesundheitszustandes zu erreichen, zielt PINK! Coach darauf ab, das gesundheitsrelevante Verhalten der Patientinnen und Patienten schrittweise aber nachhaltig zu verändern. Durch die Kombination verschiedener nachfolgend beschriebener Verhaltensänderungstechniken wird die Patientin oder der Patient in der Anpassung der Gewohnheiten unterstützt. - Die Nutzung kann in die folgenden Bereiche unterteilt werden: • Wissensvermittlung zu den Themen Ernährung, Bewegung und mentale Gesundheit • Unterstützung zur Anpassung der therapiespezifischen und krankheitsbezogenen Verhaltensweisen durch Nutzung verhaltenswissenschaftlicher Konzepte wie Selbstbeobachtung, Zielsetzung und -erreichung • Nebenwirkungsmanagement durch Informationen zu Nebenwirkungen und Anleitung zur Selbsthilfe",
+      "content_fingerprint": "206d11751a22",
       "content_preview": "Ziel von PINK! Coach ist es, die Patientinnen und Patienten durch eine Anpassung ihrer Gewohnheiten in den Bereichen Bewegung, Ernährung und Geist zu motivieren, selbst zum Therapieerfolg beizutragen. Zahlreiche Studien haben gezeigt, da...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "ef6363788ef3",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:ef6363788ef3:field_value:0",
       "title": "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
     },
     {
       "content": "Patientinnen und Patienten können PINK! Coach als mobile App auf ihren Smartphones nutzen. PINK! Coach verfügt über folgende Hauptfunktionen: - Check-up: Mit einem leitlinienkonformen Screening-Instrument können die Nutzerinnen und Nutzer 2-wöchentlich ihre Belastung messen und Belastungsfelder angeben. Diese Funktion dient der Selbstbeobachtung und ist freiwillig. Zusätzlich wird regelmäßig der Therapie-Status abgefragt. - Wissensvermittlung: Die zur Verhaltensanpassung notwendigen Informationen, Konzepte und Übungen werden im Rahmen von Artikeln, Kurzvideos und Podcasts systematisch und umfassend vermittelt. Dabei werden die Themen Ernährung, Bewegung und mentale Gesundheit abgedeckt. Die Patientinnen und Patienten können sich so im von PINK! Coach angeleiteten Eigenstudium das notwendige Wissen als Grundverständnis für die Verhaltensintervention aufbauen. Die unterschiedlichen Übungen in den Bereichen Bewegung und mentaler Gesundheit sind auf die individuellen Voraussetzungen abgestimmt. Die Lerneinheiten sind dabei für den mobilen Kontext angepasst und multimedial aufbereitet. - Veränderung: Als Teil des Veränderungsprozesses führt PINK! Coach die Patientinnen und Patienten in eine Selbstbeobachtung, in der sie ihre Ernährung und Bewegung bewusster wahrnehmen. Dies erfolgt auf Basis eines Ernährungs- und Bewegungstrackings. Die Ergebnisse werden dabei wöchentlich und monatlich analysiert und dargestellt, um so die Auswirkungen der einzelnen Entscheidungen für den jeweiligen Erfolg sichtbar zu machen. Ein weiterer wichtiger Aspekt ist das Setzen von (Zwischen-) Zielen. Hierbei wird die Patientin oder der Patient durch eine Auswahl möglicher, zum jeweiligen Zeitpunkt angemessener, Ziele unterstützt. Die Kursinhalte bauen aufeinander auf und führen schrittweise zu einer erfolgreichen Anpassung der Gewohnheiten. - Motivation & automatisiertes Coaching: Um die Veränderungsmotivation der Patientinnen und Patienten zu erhalten und zu stärken, verfügt PINK! Coach über verschiedene motivierende Elemente. Ein Element ist dabei das automatisierte und pseudoindividualisierte Coaching, welches anlassbezogen im Rahmen von Push-Mitteilungen ausgegeben wird. Um eine Motivations- und Leistungssteigerung zu erreichen, erhalten die Nutzerinnen und Nutzer zusätzlich Erfolgsmeldungen nach Erreichen von Zielen und können laufend ihre Erfolgsstatistik einsehen. - Nebenwirkungsmanagement: Über einen Chatbot haben die Patientinnen und Patienten die Möglichkeit sich über die Nebenwirkungen von medikamentösen Tumortherapien (Chemotherapie, Immuntherapie, Antikörpertherapie, Antihormontherapie), Strahlentherapie und Brustkrebs-Operationen zu informieren. Unter der Annahme, dass die eingegebenen Symptome auf Nebenwirkungen der eingenommenen Medikamente beruhen, werden Handlungsempfehlungen angezeigt, wobei es hier primär um Tipps zur Selbsthilfe (d.h. die Anwendung herkömmlicher Hausmittel und Verhaltensweisen) geht. Die Symptome sind nach CTCAE Kriterien differenziert. Bei einer stärkeren Ausprägung der Symptome (Grad 3 und höher) wird direkt darauf verwiesen, den Arzt oder die Ärztin zu kontaktieren ohne weitere Handlungsempfehlungen zu geben.",
+      "content_fingerprint": "a20c36e71634",
       "content_preview": "Patientinnen und Patienten können PINK! Coach als mobile App auf ihren Smartphones nutzen. PINK! Coach verfügt über folgende Hauptfunktionen: - Check-up: Mit einem leitlinienkonformen Screening-Instrument können die Nutzerinnen und Nutze...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Funktionen der digitalen Gesundheitsanwendung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Funktionen der digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "21931475406b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:21931475406b:field_value:0",
       "title": "Funktionen der digitalen Gesundheitsanwendung"
     },
     {
       "content": "An der Entwicklung von PINK! Coach waren viele Expertinnen und Experten sowie folgende medizinische Einrichtung und Organisation beteiligt. Brustzentrum der Ludwig-Maximilian-Universität München (Comprehensive Cancer Center CCC) Campus Großhadern Marchioninistraße 15 81377 München",
+      "content_fingerprint": "19210dec143d",
       "content_preview": "An der Entwicklung von PINK! Coach waren viele Expertinnen und Experten sowie folgende medizinische Einrichtung und Organisation beteiligt. Brustzentrum der Ludwig-Maximilian-Universität München (Comprehensive Cancer Center CCC) Campus G...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
       ],
+      "path_hash": "32d92eb3d0dc",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:32d92eb3d0dc:field_value:0",
       "title": "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
     },
     {
       "content": "Leitlinien • AGO e. V. in der DGGG e.V. sowie in der DKG e.V. Guidelines Breast. Version 2020. https://www.ago-online.de/fileadmin/ago-online/downloads/_leitlinien/kommission_mamma/2021/Alle_aktuellen_Empfehlungen_2021.pdf • Leitlinienprogramm Onkologie (Deutsche Krebsgesellschaft, Deutsche Krebshilfe, AWMF): S3-Leitlinie Früherkennung, Diagnose, Therapie und Nachsorge des Mammakarzinoms, Version 4.4, 2021, AWMF, Registernummer: 032-045OL, https://www.leitlinienprogramm-onkologie.de/fileadmin/user_upload/Downloads/Leitlinien/Mammakarzinom_4_0/Version_4.4/LL_Mammakarzinom_Langversion_4.4.pdf (abgerufen am: 16.12.2021) • Leitlinienprogramm Onkologie (Deutsche Krebgesellschaft, Deutsche Krebshilfe, AWMF): S3-Leitlinie Psychoonkologische Diagnostik, Beratung und Behandlung von erwachsenen Krebspatienten, Version 1.1 – Januar 2014, AWMF Registernummer: 032/051OL, https://www.awmf.org/uploads/tx_szleitlinien/032-051OLl_S3_Psychoonkologische_Beratung_Behandlung_2014-01_abgelaufen.pdf (abgerufen am 16.12.2021) - Relevante Publikationen/Studien • Feigelson HS, Bodelon C, Powers D, Curtis R et al. Body Mass Index and Risk of Second Cancer Among Women With Breast Cancer. J Natl Cancer Inst 2021; 113(9): 1156-1160 • Galante J, Galante I, Bekkers M J, Gallacher J. Effect of kindness-based meditation on health and well-being: a systematic review and meta-analysis. J Consult Clin Psychol. 2014 Dec;82(6):1101-14 • Hsueh EJ, Loh EW, Lin J, Tam KW, Effects of yoga on improving quality of life in patients with breast cancer: a meta-analysis of randomized controlled trials. Breast Cancer. 2021 Mar;28(2):264-276 • Jang H, Chung MS, Kang SS, Park Y. Association between the Dietary Inflammatory Index and Risk for Cancer Recurrence and Mortality among Patients with Breast Cancer. Nutrients 2018; 10(8): 1095 • Khoury B, Sharma M, Rush S E, Fournier C. Mindfulness-based stress reduction for healthy individuals: a meta-analysis. J Psychosom Re. 2015 Jun;78(6):519-28 • Koncz A, Demetrovics Z, Takacs ZK. Meditation interventions efficiently reduce cortisol levels of at-risk samples: a meta-analysis. Health Psychol Rev. 2021 Mar;15(1):56-84 • Lemanne D, Cassileth B, Gubili J. The role of physical activity in cancer prevention, treatment, recovery, and survivorship. Oncology. 2013 Jun;27(6):580 5; • Mehnert et al. One in two cancer patients is significantly distressed: Prevalence and indicators of distress , Psycho􀀀Oncology. 2018 Jan;27(1):75-82 • Mustian KM, Alfano CM, Heckler C, Kleckner AS, Kleckner IR, Leach CR, Mohr D, Palesh OG, Peppone LJ, Piper BF, Scarpato J, Smith T, Sprod LK, Miller SM. Comparison of Pharmaceutical, Psychological, and Exercise Treatments for Cancer-Related Fatigue: A Meta-analysis. JAMA Oncol. 2017 Jul 1;3(7):961-968. • Schell LK, Monsef I, Wöckel A, Skoetz N. Mindfulness􀀀based stress reduction for women diagnosed with breast cancer. Cochrane Database Syst Rev. 2019 Mar 27;3(3):CD011518 • Schmitz KH, Campbell AM, Stuiver MM, Pinto BM, Schwartz AL, Morris GS, Ligibel JA, Cheville A, Galvão DA, Alfano CM, Patel AV, Hue T, Gerber LH, Sallis R, Gusani NJ, Stout NL, Chan L, Flowers F, Doyle C, Helmrich S, Bain W, Sokolof J, Winters-Stone KM, Campbell KL, Matthews CE. Exercise is medicine in oncology: Engaging clinicians to help patients move through cancer. CA Cancer J Clin. 2019 Nov;69(6):468-484. • WCRF/AICR Survivors of breast and other cancers;2021; https://www.wcrf.org/wp-content/uploads/2021/02/Cancer-Survivors.pdf - Eine vollständige Liste ist auf der Anwendungswebsite veröffentlicht: https://www.pink-brustkrebs.de/das-bietet-pink/lp-pink-coach/publikationen",
+      "content_fingerprint": "fec1f060e975",
       "content_preview": "Leitlinien • AGO e. V. in der DGGG e.V. sowie in der DKG e.V. Guidelines Breast. Version 2020. https://www.ago-online.de/fileadmin/ago-online/downloads/_leitlinien/kommission_mamma/2021/Alle_aktuellen_Empfehlungen_2021.pdf • Leitlinienpr...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
       ],
+      "path_hash": "ad43221ee27a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:ad43221ee27a:field_value:0",
       "title": "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
     },
     {
       "content": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_fingerprint": "77cea9e6788d",
       "content_preview": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal"
       ],
+      "path_hash": "4c8dba25a53c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:4c8dba25a53c:field_value:0",
       "title": "Beteiligung vom medizinischen Fachpersonal"
     },
     {
       "content": "Ärztinnen und Ärzte können PINK! Coach ab dem Tag der Diagnose verschreiben. Empfiehlt PINK! Coach bei spezifischen Nebenwirkungen den Besuch bei einem Arzt oder einer Ärztin, sollten Ärztinnen und Ärzte auf die in der App angegebenen Nebenwirkungen eingehen.",
+      "content_fingerprint": "c5b5e53c339d",
       "content_preview": "Ärztinnen und Ärzte können PINK! Coach ab dem Tag der Diagnose verschreiben. Empfiehlt PINK! Coach bei spezifischen Nebenwirkungen den Besuch bei einem Arzt oder einer Ärztin, sollten Ärztinnen und Ärzte auf die in der App angegebenen Ne...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal > Ärztinnen/ Ärzte",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal",
         "Ärztinnen/ Ärzte"
       ],
+      "path_hash": "736d25ff8830",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:736d25ff8830:field_value:0",
       "title": "Ärztinnen/ Ärzte"
     },
     {
       "content": "Auch der behandelnde Psychotherapeut oder die Psychotherapeutin kann PINK! Coach Patientinnen und Patienten mit Brustkrebs verschreiben.",
+      "content_fingerprint": "5b4350b893d7",
       "content_preview": "Auch der behandelnde Psychotherapeut oder die Psychotherapeutin kann PINK! Coach Patientinnen und Patienten mit Brustkrebs verschreiben.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal > Psychotherapeutinnen/ Psychotherapeuten",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal",
         "Psychotherapeutinnen/ Psychotherapeuten"
       ],
+      "path_hash": "58675bdbc27c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:58675bdbc27c:field_value:0",
       "title": "Psychotherapeutinnen/ Psychotherapeuten"
     },
     {
       "content": "Nein",
+      "content_fingerprint": "70bb813787b6",
       "content_preview": "Nein",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal > Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal",
         "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
       ],
+      "path_hash": "844ec57e702e",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:844ec57e702e:field_value:0",
       "title": "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
     },
     {
       "content": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfohlen wird.",
+      "content_fingerprint": "ba2dc6143acd",
       "content_preview": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfoh...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise"
       ],
+      "path_hash": "af464e1a8e2f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-6922aa5eb2:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise:af464e1a8e2f:field_value:0",
       "title": "Anwendungshinweise"
     },
     {
       "content": "1. Um die App nutzen zu können, benötigen Patientinnen und Patienten eine Verordnung des Arztes oder die Genehmigung ihrer Krankenversicherung. Damit wird sichergestellt, dass PINK! Coach nur von Patientinnen und Patienten mit einer Brustkrebsdiagnose genutzt werden kann. 2. Vor der Nutzung muss in der App eine Einwilligungserklärung bestätigt werden. Darüber hinaus wird die Nutzerin oder der Nutzer aufgefordert Rücksprache mit dem behandelnden Arzt oder Ärztin zu halten, wenn bestimmte Einschränkungen für die Durchführung von Achtsamkeits- und Bewegungsübungen oder der Umsetzung von Ernährungstipps bestehen. Um eine Anwendung durch andere Personen zu vermeiden, ist der Zugang zur App durch ein selbst angelegtes Passwort geschützt. Entsprechende Informationen werden auch in der Gebrauchsanweisung beschrieben. 3. Kontextspezifische (Warn-)Hinweise sind ein Bestandteil der Nutzerführung innerhalb der App und unterstützen die korrekte Anwendung. In regelmäßigen Abständen werden beim Öffnen der App personenbezogene Angaben (z.B. Gewicht) und therapiespezifische Fragen erhoben, die für die leitlinienkonforme Personalisierung des Behandlungspfads benötigt werden. 4. Bei Fragen zur App-Nutzung hilft der technische Support jederzeit gerne weiter.",
+      "content_fingerprint": "e7ea7312d107",
       "content_preview": "1. Um die App nutzen zu können, benötigen Patientinnen und Patienten eine Verordnung des Arztes oder die Genehmigung ihrer Krankenversicherung. Damit wird sichergestellt, dass PINK! Coach nur von Patientinnen und Patienten mit einer Brus...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Hinweise für eine sichere Anwendung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Hinweise für eine sichere Anwendung"
       ],
+      "path_hash": "ed840310f43d",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw-13263bcc58:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw:ed840310f43d:field_value:0",
       "title": "Hinweise für eine sichere Anwendung"
     },
     {
       "content": "Aufgrund der Datenlage der Erprobungsstudie kann die DiGA für die folgende Patientengruppe nicht verordnet und erstattet werden: Patientinnen und Patienten mit keiner oder minimaler depressiver Symptomatik. - Weitere Kontraindikationen bzw. Ausschlusskriterien: 1. Kontraindikationen und medizinische Hinweise zu Bewegungsübungen • Die Bewegungsübungen wurden nach den aktuellen medizinischen und bewegungstherapeutischen Leitlinien sorgfältig für Sie ausgewählt. Bitte beachten Sie, dass trotzdem aufgrund Ihrer physischen Situation möglicherweise nicht alle Übungen für Sie in Betracht kommen. • Art und Umfang einer sinnvollen körperlichen Bewegung während der Krebstherapie hängen entscheidend vom Fortschritt der Therapie und von Ihrer individuellen Situation ab. Bitte verstehen Sie die Bewegungsangebote lediglich als Anregung und besprechen Sie vor dem Training mit Ihren behandelnden Ärzten, ob etwas dagegenspricht. - 2. Kontraindikationen und medizinische Hinweise zur Ernährung • Die Ernährungstipps und Rezepte sind nach aktuellen wissenschaftlichen Erkenntnissen gut für Brustkrebspatientinnen und -patienten geeignet. Nehmen Sie jedoch bei Ihrer Ernährung während einer Krebstherapie bitte jederzeit Rücksicht auf Ihre individuelle Konstitution und die Erfordernisse Ihrer Behandlung. • Wenn Sie bestimmte Nahrungsmittelunverträglichkeiten oder Allergien haben (z.B. gegen Nüsse, Milch, Gluten, Fruktose) oder wegen Vorerkrankungen (z.B. Fettstoffwechselstörungen, Diabetes) bestimmte Lebensmittel meiden sollen, kommen einige der Empfehlungen oder Rezepte für Sie möglicherweise nicht in Betracht. • Leiden Sie infolge der Therapie z.B. unter Übelkeit oder Entzündungen der Mundschleimhaut, sollten Sie ebenfalls gewisse Speisen vermeiden. • Bitte nehmen Sie im Zweifelsfall immer zuerst Rücksprache mit den behandelnden Ärzten! Sie kennen Ihre medizinische Gesamtsituation und können am besten beurteilen, welche Nahrungsmittel für Sie geeignet sind. - 3. Kontraindikationen und medizinische Hinweise zu Achtsamkeitsübungen • Die angebotenen Beiträge dienen der seelischen Unterstützung während einer Brustkrebserkrankung. Sie sollen Ihnen dabei helfen, das innere Gleichgewicht zu bewahren und der Krankheit mit Ruhe und Kraft zu begegnen. Bitte beachten Sie dabei, dass es sich bei den Angeboten nicht um eine ärztliche oder psychotherapeutische Behandlung handelt, und dass sie eine solche auch nicht ersetzen. • Bitte wenden Sie sich an Ihren Arzt oder Ärztin oder an eine Psychotherapeutin oder Psychotherapeuten, wenn es Ihnen nicht gut geht, besonders, wenn Sie größere psychische Probleme oder gesundheitliche Beeinträchtigungen feststellen. • Unsere Angebote sind nicht für Sie geeignet, wenn Sie manchmal daran denken, nicht mehr leben zu wollen. Bitte wenden Sie sich in solchen Fällen sowie bei anderweitigen diagnostizierten psychischen Erkrankungen direkt an Ihren behandelnden Arzt oder Ihre Ärztin. • Sollten Sie sich in einer akuten Notlage befinden (z.B. bei konkreten Suizidgedanken), verständigen Sie bitte umgehend den Notarzt unter der Rufnummer 112.",
+      "content_fingerprint": "5c26593f457c",
       "content_preview": "Aufgrund der Datenlage der Erprobungsstudie kann die DiGA für die folgende Patientengruppe nicht verordnet und erstattet werden: Patientinnen und Patienten mit keiner oder minimaler depressiver Symptomatik. - Weitere Kontraindikationen b...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Weitere Ausschlusskriterien",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Weitere Ausschlusskriterien"
       ],
+      "path_hash": "77869fcfae9b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-weit-3d658a5f5f:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-weit:77869fcfae9b:field_value:0",
       "title": "Weitere Ausschlusskriterien"
     },
     {
       "content": "12 Wochen",
+      "content_fingerprint": "1db5ff1a99c3",
       "content_preview": "12 Wochen",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Vom Hersteller für erforderlich gehaltene Mindestdauer",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Vom Hersteller für erforderlich gehaltene Mindestdauer"
       ],
+      "path_hash": "b3d7024bc6a2",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom-:b3d7024bc6a2:field_value:0",
       "title": "Vom Hersteller für erforderlich gehaltene Mindestdauer"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Vom Hersteller für erforderlich gehaltene Höchstdauer",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Vom Hersteller für erforderlich gehaltene Höchstdauer"
       ],
+      "path_hash": "368408cd4f6e",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom-:368408cd4f6e:field_value:0",
       "title": "Vom Hersteller für erforderlich gehaltene Höchstdauer"
     },
     {
       "content": "Die Abwärtskompatibilität ist sowohl für alle gängigen iPhones mit einem iOSBetriebssystem 15.0 und höher als auch für alle gängigen Smartphones mit einem Android-Betriebssystem 10.0 und höher gewährleistet.",
+      "content_fingerprint": "67e903559da6",
       "content_preview": "Die Abwärtskompatibilität ist sowohl für alle gängigen iPhones mit einem iOSBetriebssystem 15.0 und höher als auch für alle gängigen Smartphones mit einem Android-Betriebssystem 10.0 und höher gewährleistet.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Kompatibilitätszusagen in Bezug auf unterstützte Geräte",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
       ],
+      "path_hash": "cbcc39ae8cdd",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-komp-0b84064997:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-komp:cbcc39ae8cdd:field_value:0",
       "title": "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
     },
     {
       "content": "Die Kompatibilitätszusagen von PINK! Coach finden Sie auch auf der PINK! Homepage unter https://www.pink-brustkrebs.de/das-bietet-pink/lp-pink-coach",
+      "content_fingerprint": "e6deac2b6d85",
       "content_preview": "Die Kompatibilitätszusagen von PINK! Coach finden Sie auch auf der PINK! Homepage unter https://www.pink-brustkrebs.de/das-bietet-pink/lp-pink-coach",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:4",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "PINK! Coach erfüllt die Anforderungen an die technische und semantische Interoperabilität. Das interoperable Datenformat basiert auf dem HL7® FHIR® Standard und wird mit dem MIO DiGA Toolkit in der Version 1.1.0 verwendet. Die Schnittstellenbeschreibung ist auf simplifier.net veröffentlicht: https://simplifier.net/pinkcoach. Der Export erfolgt im maschinenlesbaren Standardformat JSON und ist zusätzlich im Nutzerprofil im menschenlesbaren Format als PDF ausdruckbar.",
+      "content_fingerprint": "2bd66a26a840",
       "content_preview": "PINK! Coach erfüllt die Anforderungen an die technische und semantische Interoperabilität. Das interoperable Datenformat basiert auf dem HL7® FHIR® Standard und wird mit dem MIO DiGA Toolkit in der Version 1.1.0 verwendet. Die Schnittste...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Möglichkeiten von standardisiertem Datenimport und Datenexport",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Möglichkeiten von standardisiertem Datenimport und Datenexport"
       ],
+      "path_hash": "569132413e54",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-moeglichkeiten-von-stan-a818cc9f27:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-moeglichkeiten-von-stan:569132413e54:field_value:0",
       "title": "Möglichkeiten von standardisiertem Datenimport und Datenexport"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen"
       ],
+      "path_hash": "3e9803f91215",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zu-den-von-der--1e522ad432:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zu-den-von-der-:3e9803f91215:field_value:0",
       "title": "Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen"
     },
     {
       "content": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs. weitere, durch Sie selbst aufzubringende Kosten, sofern Sie bestimmte zusätzlich angebotene und von der Verschreibung nicht abgedeckte Leistungen in Anspruch nehmen möchten.",
+      "content_fingerprint": "39d5160ffdea",
       "content_preview": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs....",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis"
       ],
+      "path_hash": "41c28a502494",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-429bde377d:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis:41c28a502494:field_value:0",
       "title": "Angaben zum Preis"
     },
     {
       "content": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "content_fingerprint": "341e24b7c036",
       "content_preview": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis > Preismodell",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis",
         "Preismodell"
       ],
+      "path_hash": "d5d16c880c10",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis-6eb719186f:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis:d5d16c880c10:field_value:0",
       "title": "Preismodell"
     },
     {
       "content": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+      "content_fingerprint": "4c34fe9d1a3e",
       "content_preview": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:5",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Die Kosten der Nutzung der App PINK! Coach für 90 Tage betragen 234,50 €.",
+      "content_fingerprint": "f53c53188a9a",
       "content_preview": "Die Kosten der Nutzung der App PINK! Coach für 90 Tage betragen 234,50 €.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
       ],
+      "path_hash": "351b8e240460",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-kosten-z-b-starterpaket-5641b0bf97:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-kosten-z-b-starterpaket:351b8e240460:field_value:0",
       "title": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
     },
     {
       "content": "Die Kosten der Nutzung der App PINK! Coach für 90 Tage betragen 234,50 €.",
+      "content_fingerprint": "f53c53188a9a",
       "content_preview": "Die Kosten der Nutzung der App PINK! Coach für 90 Tage betragen 234,50 €.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Nutzung der DiGA für zusätzliche 90 Tage",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
       ],
+      "path_hash": "003e20a2ca5b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-nutzung-der-dig-7a56e117b7:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-nutzung-der-dig:003e20a2ca5b:field_value:0",
       "title": "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Anmerkungen zum Preismodell",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Anmerkungen zum Preismodell"
       ],
+      "path_hash": "277cd06753d5",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-anmerkungen-zum-f3f338f2f7:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-anmerkungen-zum:277cd06753d5:field_value:0",
       "title": "Weitere Anmerkungen zum Preismodell"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Erläuterung Mehrkosten",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Erläuterung Mehrkosten"
       ],
+      "path_hash": "a3f923587875",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-erlaeuterung-mehrkosten-7813cc6074:field_value",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-erlaeuterung-mehrkosten:a3f923587875:field_value:0",
       "title": "Erläuterung Mehrkosten"
     },
     {
       "content": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_fingerprint": "766782bdbccd",
       "content_preview": "Es fallen keine Mehrkosten für den Patienten an.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01464:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:6",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Verbesserungen für Patienten können entweder medizinischer Art sein (z.B. Verringerung von Schmerzen, Beitrag zur Heilung der Erkrankung) oder den Erkennungs- und Behandlungsprozess direkt unterstützen und erleichtern (z.B. Informationen zur individuellen Erkrankungssituation, Unterstützung bei der Einhaltung der zwischen Patient und Arzt gemeinsam vereinbarten therapeutischen Maßnahmen).",
+      "content_fingerprint": "b689545a79f8",
       "content_preview": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Ve...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "b1d946b15fae",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:informationen-zum-positiven-versorgungseffekt-253662cf50:field_value",
+      "stable_key": "01464:informationen-zum-positiven-versorgungseffekt:b1d946b15fae:field_value:0",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche Weise dies ggfs. bereits wissenschaftlich nachgewiesen wurde. Falls der positive Versorgungseffekt noch nicht abschließend nachgewiesen aber bereits so plausibel dargelegt wurde, dass die DiGA befristet zur entsprechenden Erprobung aufgenommen wurde, wird angegeben, für welchen Zeitraum dies erfolgt ist. Sofern (auch) ein Nachweis zum Erhalt der Erwerbsfähigkeit für die DiGA erbracht wurde oder eine Nachweisführung geplant ist, finden Sie hier eine Beschreibung und nähere Angaben zum Nachweis sowie zum Studiendesign. Sofern die DiGA (auch) ein diagnostisches Instrument darstellt, also mindestens in Teilen dazu vorgesehen ist, Informationen z.B. für die Erkennung oder Diagnose von Krankheitszuständen zu liefern, hat der Hersteller dies benannt und beschrieben sowie Sensitivität und Spezifität als wichtige Bewertungsgrößen angegeben.",
+      "content_fingerprint": "0bf9ee1dc4d9",
       "content_preview": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche We...",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "01464:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:0",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Medizinischer Nutzen",
+      "content_fingerprint": "291175316d3d",
       "content_preview": "Medizinischer Nutzen",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Angaben zum positiven Versorgungseffekt",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Angaben zum positiven Versorgungseffekt"
       ],
+      "path_hash": "56d889aab765",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse-5449921803:field_value",
+      "stable_key": "01464:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse:56d889aab765:field_value:0",
       "title": "Angaben zum positiven Versorgungseffekt"
     },
     {
       "content": "Verbesserung des Gesundheitszustands",
+      "content_fingerprint": "58b8b11779d7",
       "content_preview": "Verbesserung des Gesundheitszustands",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Nähere Angaben zum medizinischen Nutzen",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Nähere Angaben zum medizinischen Nutzen"
       ],
+      "path_hash": "c2ba1d4f6a81",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen--90ce965dee:field_value",
+      "stable_key": "01464:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen-:c2ba1d4f6a81:field_value:0",
       "title": "Nähere Angaben zum medizinischen Nutzen"
     },
     {
       "content": "Verbesserung des Gesundheitszustandes Eine Verbesserung des Gesundheitszustandes wird durch die Verringerung der krankheitsbedingten psychischen Belastung erreicht (gemessen mit PHQ-9 Fragebogen).",
+      "content_fingerprint": "e30ad9f81aa1",
       "content_preview": "Verbesserung des Gesundheitszustandes Eine Verbesserung des Gesundheitszustandes wird durch die Verringerung der krankheitsbedingten psychischen Belastung erreicht (gemessen mit PHQ-9 Fragebogen).",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Beschreibung des medizinischen Nutzens",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Beschreibung des medizinischen Nutzens"
       ],
+      "path_hash": "71ee9147d6be",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut-a677995e79:field_value",
+      "stable_key": "01464:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut:71ee9147d6be:field_value:0",
       "title": "Beschreibung des medizinischen Nutzens"
     },
     {
       "content": "Titel: Evaluation des medizinischen Nutzens und positiver Versorgungseffekte des zertifizierten Medizinproduktes PINK! Coach im Rahmen einer multizentrischen, randomisiert-kontrollierten, klinischen Studie mit Brustkrebs-Patientinnen und Patienten - P – Population Für die prospektive, multizentrische randomisierte kontrollierte Studie (RCT) zum Nachweis positiver Versorgungseffekte wurden n=396 Patientinnen und Patienten mit histologisch gesicherter Diagnose eines Mammakarzinoms analysiert. - I – Intervention Die Patientinnen der Interventionsgruppe erhielten zur üblichen Leitlinien-gerechten Initialtherapie PINK! Coach für die Therapie- und Nachsorgebegleitung. - C – Comparison Die Kontrollgruppe wurde als Standardtherapie geführt und erhielt die App erst nach dem primären Endpunkt (12 Wochen) . Sie dient als „Standard-of-Care“-Vergleich. - O – Outcome Primärer Endpunkt: Psychische Belastung (PHQ-9) Sekundäre Endpunkte: gesundheitsbezogene Lebensqualität und krankheitsspezifische Nebenwirkungen (fatigue und global health subscale scores EORTC-QLQ-C30), Resilienz (RS-13), körperliche Aktivität (IPAQ-SF), BMI",
+      "content_fingerprint": "104738a982fc",
       "content_preview": "Titel: Evaluation des medizinischen Nutzens und positiver Versorgungseffekte des zertifizierten Medizinproduktes PINK! Coach im Rahmen einer multizentrischen, randomisiert-kontrollierten, klinischen Studie mit Brustkrebs-Patientinnen und...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Studie/n im PICO-Schema",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Studie/n im PICO-Schema"
       ],
+      "path_hash": "cd33a100690d",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema-2cb668dadb:field_value",
+      "stable_key": "01464:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema:cd33a100690d:field_value:0",
       "title": "Studie/n im PICO-Schema"
     },
     {
       "content": "Ziel der Studie war die Evaluation des medizinischen Nutzens und positiver Versorgungseffekte des zertifizierten Medizinproduktes PINK! Coach. Durchgeführt wurde eine multizentrische, randomisiert-kontrollierte, klinische Studie mit 396 Brustkrebs-Patientinnen und Patienten. Eine 1:1 Allokation auf Intervention- und Kontrollgruppe sollte einen Vergleich von PINK! Coach zum \"Standard of Care\" ermöglichen. Die Randomisierung erfolgte über eine Befragungs-Software. Die Patientinnen und Patienten wurden an insgesamt 7 Zentren rekrutiert (multizentrisch). - In der Interventionsgruppe erhielten die Patientinnen und Patienten Zugang zur App PINK! Coach. Die Patientinnen und Patienten der Kontrollgruppe erhielten keine studienbedingte Intervention und dienten als Vergleichsgruppe mit Standard of Care bzw. als Wartegruppe. Die Kontrollgruppe erhielt die App nach Erreichen des primären Endpunktes (nach 12 Wochen). - Es wurden insgesamt 6 Messpunkte zur Datenerhebung festgelegt. Dabei wurde zunächst nach Einschluss, vor Randomisierung und Intervention eine Baseline-Datenerfassung durchgeführt. Anschließend folgten T1 nach 4 Wochen, T2 nach 8 Wochen und T3 nach 12 Wochen. Darüber hinaus wird ein Langzeit-Follow-up mit T4 nach 6 Monaten und T5 nach 12 Monaten erhoben. - Zusammenfassung der Studienergebnisse: Der primäre Endpunkt wurde nach 12 Wochen definiert und ergab eine statistisch signifikante, klinisch relevante Reduktion der psychischen Belastung (zweiseitiges 95-%-Konfidenzintervall 0,95 – 2,09; p-Wert: p < 0,001). im gesamten Kollektiv und in allen Subgruppen (EBC/MBC, Therapie/Nachsorge, Chemotherapie/keine Chemotherapie) mit einem Cohen´s d von 0,5. Dies entspricht einem moderat starkem Effekt. Des weiteren konnte die Resilienz im gesamten Kollektiv statistisch signifikant und klinisch relevant erhöht werden (p < 0,05). - Registernummer im Deutschen Register klinischer Studien (DRKS): DRKS00027407",
+      "content_fingerprint": "8f63e75a5399",
       "content_preview": "Ziel der Studie war die Evaluation des medizinischen Nutzens und positiver Versorgungseffekte des zertifizierten Medizinproduktes PINK! Coach. Durchgeführt wurde eine multizentrische, randomisiert-kontrollierte, klinische Studie mit 396 ...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
       ],
+      "path_hash": "045f4d7c860c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u-804896bae6:field_value",
+      "stable_key": "01464:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u:045f4d7c860c:field_value:0",
       "title": "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
     },
     {
       "content": "Der Studienbericht wird innerhalb des ersten Jahres nach Studienabschluss vollumfänglich auf unserer Webseite veröffentlicht.",
+      "content_fingerprint": "eb9db6904f26",
       "content_preview": "Der Studienbericht wird innerhalb des ersten Jahres nach Studienabschluss vollumfänglich auf unserer Webseite veröffentlicht.",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Dies ist/sind die vom Hersteller angeführten Studie/n:",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Dies ist/sind die vom Hersteller angeführten Studie/n:"
       ],
+      "path_hash": "1b2b98450658",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:informationen-zum-positiven-versorgungseffekt-dies-ist-sind-die-vom-hersteller-a-81dc280904:field_value",
+      "stable_key": "01464:informationen-zum-positiven-versorgungseffekt-dies-ist-sind-die-vom-hersteller-a:1b2b98450658:field_value:0",
       "title": "Dies ist/sind die vom Hersteller angeführten Studie/n:"
     },
     {
       "content": "CRO Prof. Dr. HP Zenner Clinical Research Organization Prof. Dr. HP Zenner GmbH Bismarckstr. 66 72072 Tübingen",
+      "content_fingerprint": "4c6ccdcfbce6",
       "content_preview": "CRO Prof. Dr. HP Zenner Clinical Research Organization Prof. Dr. HP Zenner GmbH Bismarckstr. 66 72072 Tübingen",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
       ],
+      "path_hash": "6deb64749945",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:informationen-zum-positiven-versorgungseffekt-herstellerunabhaengige-institution-85ca65af54:field_value",
+      "stable_key": "01464:informationen-zum-positiven-versorgungseffekt-herstellerunabhaengige-institution:6deb64749945:field_value:0",
       "title": "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
     },
     {
       "content": "Nein",
+      "content_fingerprint": "70bb813787b6",
       "content_preview": "Nein",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Die DiGA enthält ein diagnostisches Instrument",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Die DiGA enthält ein diagnostisches Instrument"
       ],
+      "path_hash": "f07a273683a3",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch-eded43f154:field_value",
+      "stable_key": "01464:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch:f07a273683a3:field_value:0",
       "title": "Die DiGA enthält ein diagnostisches Instrument"
     },
     {
       "content": "16 Monate (12 Monate initial, 4 Monate Verlängerung)",
+      "content_fingerprint": "a94d94cf5a7a",
       "content_preview": "16 Monate (12 Monate initial, 4 Monate Verlängerung)",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Länge des Zeitraumes der vorläufigen Aufnahme",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Länge des Zeitraumes der vorläufigen Aufnahme"
       ],
+      "path_hash": "f50c229bb808",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:informationen-zum-positiven-versorgungseffekt-laenge-des-zeitraumes-der-vorlaeuf-d645f91b3b:field_value",
+      "stable_key": "01464:informationen-zum-positiven-versorgungseffekt-laenge-des-zeitraumes-der-vorlaeuf:f50c229bb808:field_value:0",
       "title": "Länge des Zeitraumes der vorläufigen Aufnahme"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird. Die Anforderungen an die Datensicherheit werden durch Vorlage eines Zertifikats gemäß § 139e Absatz 10 Fünftes Buch Sozialgesetzbuch nachgewiesen. Detaillierte Informationen zu den einzelnen Anforderungen können Sie auf der Webseite des Bundesamts für Sicherheit in der Informationstechnik unter der Technischen Richtlinie \"BSI TR-03161\" finden: https://www.bsi.bund.de/dok/TR-03161 Bis zur Vorlage des Zertifikats gelten für den Bereich Datensicherheit die Anforderungen der nachfolgend dargestellten Checkliste.",
+      "content_fingerprint": "32cb1bd13010",
       "content_preview": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen v...",
       "content_type": "field_value",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 3,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "899b23823ae4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:field_value",
+      "stable_key": "01464:informationen-zu-datenschutz-und-datensicherheit:899b23823ae4:field_value:0",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine technische Möglichkeit einer Verknüpfung oder eines Datenaustauschs mit anderen digitalen Gesundheitsanwendungen. Zutreffend",
+      "content_fingerprint": "245e4382adf3",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutref...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "01464:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:0",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit > Datensicherheit",
       "level": 4,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit",
         "Datensicherheit"
       ],
+      "path_hash": "8545f237a1b9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:informationen-zu-datenschutz-und-datensicherheit-datensicherheit-14af255f91:field_value",
+      "stable_key": "01464:informationen-zu-datenschutz-und-datensicherheit-datensicherheit:8545f237a1b9:field_value:0",
       "title": "Datensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung sieht keine unterschiedlichen Nutzerrollen vor. Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung erlaubt keinen Upload von Dateien. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung greift weder auf Sensoren eines mobilen Endgeräts noch auf externe Hardware zu. Trifft nicht zu Die digitale Gesundheitsanwendung tauscht keine Daten mit externer Hardware aus. Zutreffend Zutreffend Zutreffend Nein",
+      "content_fingerprint": "c7ce1fe4b332",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung sieht keine...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01464:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "01464:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:1",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der medizinischen Inhalte und die Gewährleistung der Patientensicherheit.",
+      "content_fingerprint": "0b320ca69209",
       "content_preview": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der me...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen",
       "level": 3,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "f85d7bfd4b8e",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-afe954d9f8:field_value",
+      "stable_key": "01464:weitere-informationen:f85d7bfd4b8e:field_value:0",
       "title": "Weitere Informationen"
     },
     {
       "content": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_fingerprint": "f14ccf82a937",
       "content_preview": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01464:weitere-informationen:df3724c46c56:section:0",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Interoperabilität",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Interoperabilität"
       ],
+      "path_hash": "43914a1ae1e9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-angaben-zur-interoperabilitaet-8867f27412:field_value",
+      "stable_key": "01464:weitere-informationen-angaben-zur-interoperabilitaet:43914a1ae1e9:field_value:0",
       "title": "Angaben zur Interoperabilität"
     },
     {
       "content": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versicherten getragenen Sensoren zur Messung und Übertragung von Vitalwerten (Wearables) austauscht. Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "922bba61baf0",
       "content_preview": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versiche...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01464:weitere-informationen:df3724c46c56:section:1",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Robustheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Robustheit"
       ],
+      "path_hash": "d416c871fdb6",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-angaben-zur-robustheit-0a511476df:field_value",
+      "stable_key": "01464:weitere-informationen-angaben-zur-robustheit:d416c871fdb6:field_value:0",
       "title": "Angaben zur Robustheit"
     },
     {
       "content": "Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
+      "content_fingerprint": "5f89c60c91f1",
       "content_preview": "Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01464:weitere-informationen:df3724c46c56:section:2",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zum Verbraucherschutz",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zum Verbraucherschutz"
       ],
+      "path_hash": "22c54da8ff9c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-angaben-zum-verbraucherschutz-05cd17969e:field_value",
+      "stable_key": "01464:weitere-informationen-angaben-zum-verbraucherschutz:22c54da8ff9c:field_value:0",
       "title": "Angaben zum Verbraucherschutz"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "409aa9901d82",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01464:weitere-informationen:df3724c46c56:section:3",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zu Nutzerfreundlichkeit und Barrierefreiheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
       ],
+      "path_hash": "a9d890d721a4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit-8fe873c531:field_value",
+      "stable_key": "01464:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit:a9d890d721a4:field_value:0",
       "title": "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
     },
     {
       "content": "Zutreffend Zutreffend",
+      "content_fingerprint": "f572c2f88946",
       "content_preview": "Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01464:weitere-informationen:df3724c46c56:section:4",
       "title": "Weitere Informationen"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Unterstützung der Leistungserbringende",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Unterstützung der Leistungserbringende"
       ],
+      "path_hash": "bdfe86165ef2",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-unterstuetzung-der-leistungserbringende-d4e78dfd75:field_value",
+      "stable_key": "01464:weitere-informationen-unterstuetzung-der-leistungserbringende:bdfe86165ef2:field_value:0",
       "title": "Unterstützung der Leistungserbringende"
     },
     {
       "content": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen.",
+      "content_fingerprint": "8b7713a3d90e",
       "content_preview": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Triff...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01464:weitere-informationen:df3724c46c56:section:5",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Qualität der medizinischen Inhalte",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Qualität der medizinischen Inhalte"
       ],
+      "path_hash": "964eb34f0609",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte-a6d05ceeb6:field_value",
+      "stable_key": "01464:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte:964eb34f0609:field_value:0",
       "title": "Angaben zur Qualität der medizinischen Inhalte"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "6a8d1dc0aa28",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01464:weitere-informationen:df3724c46c56:section:6",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Patientensicherheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Patientensicherheit"
       ],
+      "path_hash": "96d387fa1378",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-angaben-zur-patientensicherheit-7a67651ccd:field_value",
+      "stable_key": "01464:weitere-informationen-angaben-zur-patientensicherheit:96d387fa1378:field_value:0",
       "title": "Angaben zur Patientensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "477afefea65b",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 7,
       "source_kind": "visible_directory",
-      "stable_key": "01464:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01464:weitere-informationen:df3724c46c56:section:7",
       "title": "Weitere Informationen"
     },
     {
       "content": "Die digitale Gesundheitsanwendung (DiGA) wurde am 16.11.2023 mit Einschränkung zur depressiven Symptomatik endgültig in das Verzeichnis nach § 139e des Fünften Buches Sozialgesetzbuch (SGB V) aufgenommen. Dies erfolgte auf Basis aller bis zu diesem Zeitpunkt vorgelegten Daten und Dokumente.",
+      "content_fingerprint": "b0f2abdefed6",
       "content_preview": "Die digitale Gesundheitsanwendung (DiGA) wurde am 16.11.2023 mit Einschränkung zur depressiven Symptomatik endgültig in das Verzeichnis nach § 139e des Fünften Buches Sozialgesetzbuch (SGB V) aufgenommen. Dies erfolgte auf Basis aller bi...",
       "content_type": "field_value",
+      "display_path": "Änderungshistorie > 16.11.2023 Status der Listung ist „Dauerhaft aufgenommen“",
       "level": 4,
       "path": [
         "Änderungshistorie",
         "16.11.2023 Status der Listung ist „Dauerhaft aufgenommen“"
       ],
+      "path_hash": "bfa75267c163",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:aenderungshistorie-16-11-2023-status-der-listung-ist-dauerhaft-aufgenommen-dcae97a858:field_value",
+      "stable_key": "01464:aenderungshistorie-16-11-2023-status-der-listung-ist-dauerhaft-aufgenommen:bfa75267c163:field_value:0",
       "title": "16.11.2023 Status der Listung ist „Dauerhaft aufgenommen“"
     },
     {
       "content": "Die digitale Gesundheitsanwendung (DiGA) wurde am 26.10.2023 nach Prüfung der Nachweise für positive Versorgungseffekte aus dem Verzeichnis gemäß § 139e Absatz 4 Satz 8 des Fünften Buches Sozialgesetzbuch (SGB V) gestrichen. Für die DiGA konnte kein positiver Versorgungseffekt nachgewiesen werden.",
+      "content_fingerprint": "fef4edf215a4",
       "content_preview": "Die digitale Gesundheitsanwendung (DiGA) wurde am 26.10.2023 nach Prüfung der Nachweise für positive Versorgungseffekte aus dem Verzeichnis gemäß § 139e Absatz 4 Satz 8 des Fünften Buches Sozialgesetzbuch (SGB V) gestrichen. Für die DiGA...",
       "content_type": "field_value",
+      "display_path": "Änderungshistorie > 26.10.2023 Status der Listung ist „Gestrichen“",
       "level": 4,
       "path": [
         "Änderungshistorie",
         "26.10.2023 Status der Listung ist „Gestrichen“"
       ],
+      "path_hash": "f3a64b4be439",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01464:aenderungshistorie-26-10-2023-status-der-listung-ist-gestrichen-9f70990f9f:field_value",
+      "stable_key": "01464:aenderungshistorie-26-10-2023-status-der-listung-ist-gestrichen:f3a64b4be439:field_value:0",
       "title": "26.10.2023 Status der Listung ist „Gestrichen“"
     }
   ],
@@ -1026,10 +1342,10 @@
     "accordions_opened": 0,
     "content_section_count": 79,
     "field_value_count": 61,
-    "rendered_at": "2026-06-22T19:09:31.218215+00:00",
+    "rendered_at": "2026-06-22T20:37:07.137339+00:00",
     "source_kind": "visible_directory"
   },
   "source_kind": "visible_directory",
-  "timestamp": "20260622T190144Z",
+  "timestamp": "20260622T202912Z",
   "url": "https://diga.bfarm.de/de/verzeichnis/01464"
 }

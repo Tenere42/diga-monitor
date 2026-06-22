@@ -2,953 +2,1249 @@
   "content_sections": [
     {
       "content": "zanadio ist eine Anwendung, die Patientinnen und Patienten durch eine Veränderung Ihrer Gewohnheiten in den Bereichen Bewegung, Ernährung sowie weitere Verhaltensweisen hilft, langfristig ihr Gewicht zu reduzieren. Die DiGA basiert dabei auf dem wissenschaftlichen Konzept der multimodalen, konservativen Adipositastherapie, welche die verschiedenen relevanten Bereiche adressiert und hierdurch eine langfristige, dauerhafte Gewichtsreduktion herbeiführt und die Lebensqualität bei Patientinnen und Patienten erhöht. Das Programm setzt diesen etablierten Behandlungsansatz digital um.",
+      "content_fingerprint": "1d74456b85c0",
       "content_preview": "zanadio ist eine Anwendung, die Patientinnen und Patienten durch eine Veränderung Ihrer Gewohnheiten in den Bereichen Bewegung, Ernährung sowie weitere Verhaltensweisen hilft, langfristig ihr Gewicht zu reduzieren. Die DiGA basiert dabei...",
       "content_type": "field_value",
+      "display_path": "zanadio.de/",
       "level": 3,
       "path": [
         "zanadio.de/"
       ],
+      "path_hash": "18fdb6286ed0",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:zanadio-de-6bf5833bc2:field_value",
+      "stable_key": "00294:zanadio-de:18fdb6286ed0:field_value:0",
       "title": "zanadio.de/"
     },
     {
       "content": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_fingerprint": "26290d5ae490",
       "content_preview": "Hier finden Sie weitergehende Informationen zur DiGA.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "a5e395515816",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:field_value",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung:a5e395515816:field_value:0",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_fingerprint": "bfc5ca33598c",
       "content_preview": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:0",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "zanadio",
+      "content_fingerprint": "4c62e5d56830",
       "content_preview": "zanadio",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Name der DiGA im DiGA-Verzeichnis",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Name der DiGA im DiGA-Verzeichnis"
       ],
+      "path_hash": "b055b8e1c744",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v-132a49921b:field_value",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v:b055b8e1c744:field_value:0",
       "title": "Name der DiGA im DiGA-Verzeichnis"
     },
     {
       "content": "22.10.2020",
+      "content_fingerprint": "a978c9bdc799",
       "content_preview": "22.10.2020",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Erstmalige Aufnahme in das DiGA-Verzeichnis",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Erstmalige Aufnahme in das DiGA-Verzeichnis"
       ],
+      "path_hash": "3d07f6258e5c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in--0901792b12:field_value",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in-:3d07f6258e5c:field_value:0",
       "title": "Erstmalige Aufnahme in das DiGA-Verzeichnis"
     },
     {
       "content": "App",
+      "content_fingerprint": "fc4a695f02a8",
       "content_preview": "App",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Art der DiGA",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Art der DiGA"
       ],
+      "path_hash": "600a0be84a95",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga-f41af95c79:field_value",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga:600a0be84a95:field_value:0",
       "title": "Art der DiGA"
     },
     {
       "content": "im Apple App Store Deutschland",
+      "content_fingerprint": "5a4cd838fc6e",
       "content_preview": "im Apple App Store Deutschland",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Die digitale Gesundheitsanwendung ist verfügbar",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Die digitale Gesundheitsanwendung ist verfügbar"
       ],
+      "path_hash": "6d3556c97e9a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit-70a197df25:field_value",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit:6d3556c97e9a:field_value:0",
       "title": "Die digitale Gesundheitsanwendung ist verfügbar"
     },
     {
       "content": "im Google Play Store Deutschland",
+      "content_fingerprint": "860262a8c802",
       "content_preview": "im Google Play Store Deutschland",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:1",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Deutschland",
+      "content_fingerprint": "19174e8c9711",
       "content_preview": "Deutschland",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Standorte der Datenverarbeitung",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Standorte der Datenverarbeitung"
       ],
+      "path_hash": "eee99405da7f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera-426183d1fc:field_value",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera:eee99405da7f:field_value:0",
       "title": "Standorte der Datenverarbeitung"
     },
     {
       "content": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) die Anforderungen an • Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der Technik und • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) als erfüllt. - Der Hersteller hat bestätigt, dass keine personenbezogenen Daten in ein Land ohne Angemessenheitsbeschluss, wie nach dem Urteil „Schrems II“ den USA, fließen. - Nach Aufnahme zur Erprobung wurden die Studienergebnisse der Erprobungsstudie zum Ende des verlängerten Erprobungszeitraums eingereicht. - Die Studie „Die wissenschaftliche Evaluierung von zanadio - einem ganzheitlichen, digitalen Behandlungsprogramm für Menschen mit Adipositas“ (DRKS00024415) zum Nachweis des medizinischen Nutzens ist eine randomisierte, kontrollierte Studie (RCT) mit einer Beobachtungsdauer von insgesamt 12 Monaten, wobei der primäre Endpunkt nach 9 Monaten erhoben wurde. Die Interventionsgruppe (IG) nutzte die DiGA, die Kontrollgruppe (KG) erhielt keine spezifische Behandlung (Versorgungsrealität) und den Teilnehmenden wurde kommuniziert, ihr Leben wie gehabt weiter zu verfolgen. Dies beinhaltete auch selbst- oder fremd-initiierte Diätversuche, Nutzung von Hilfsmitteln oder Ratgebern, was zu den jeweiligen Messzeitpunkten entsprechend erfasst wurde. - Der primäre Endpunkt war die prozentuale Gewichtsveränderung nach 9 Monaten in Relation zum Ausgangsgewicht. Sekundäre Endpunkte waren die Körperfettverteilung (Taille-Hüft-Verhältnis), das Wohlbefinden (WHO-5-Wohlbefindens-Index), sowie die Lebensqualität (WHOQOL-BREF) von Patientinnen und Patienten - In die Studie wurden initial insgesamt 149 Patientinnen und Patienten, davon 136 weibliche Patientinnen (ca. 91 %) sowie 13 männliche Patienten [davon 7 in der Interventionsgruppe (IG) und 6 in der Kontrollgruppe (KG)], eingeschlossen. Nach 9-monatiger Studiendauer, zu Messzeitpunkt T3, wurden für den primären Endpunkt (prozentuale Gewichtsveränderung) Daten von insgesamt 139 (93,3 %) Studienteilnehmenden erhoben (IG: n = 71; KG: n = 68). - Im Rahmen der Intention-To-Treat-Analyse zeigte sich zum relevanten Zeitpunkt nach 9 Monaten in der IG eine statistisch signifikante und klinisch relevante prozentuale Gewichtsreduktion im Vergleich zur KG mit einer Mittelwertsdifferenz (MWD) von -5,67 [p = 0,001; 95-%-Konfidenzintervall (KI): -7,32, -4,02]. Im sekundären Endpunkt der Körperfettverteilung zeigten sich keine signifikanten Unterschiede im Taille-Hüft-Verhältnis. Im sekundären Endpunkt des Wohlbefindens zeigte sich eine Verbesserung des Wohlbefindens im Vergleich zur KG mit einer MWD von 1,68 (p = 0,048, KI: 0,03, 0,49). Im sekundären Endpunkt der Lebensqualität verbesserte sich die IG ebenfalls signifikant im Vergleich zu KG (MWD = 3,31, p = 0,048, KI: 0,31, 6,31). - Aufgrund der geringen absoluten Anzahl an männlichen Patienten in der RCT und der unklaren Übertragbarkeit der Ergebnisse für männliche Patienten wurde die Verordnungsfähigkeit zunächst auf weibliche Patientinnen eingeschränkt. Im Rahmen einer Einreichung von Daten aus dem Versorgungsalltag [Real-World-Daten (RWD)] konnte gezeigt werden, dass Frauen und Männer gleichermaßen von der Nutzung der DiGA profitieren können. Die Analysen der RWD umfassten 1.674 Patientinnen und 245 Patienten und zeigten statistisch signifikante, klinisch relevante sowie vergleichbare Effekte für beide Geschlechter. - Entsprechend bewertet das BfArM die in § 139e des Fünften Buches Sozialgesetzbuch (SGB V) sowie in der DiGAV festgelegten Voraussetzungen zur endgültigen Aufnahme in das Verzeichnis nach § 139e Absatz 1 SGB V für die Indikationen E66.00 Adipositas durch übermäßige Kalorienzufuhr: Adipositas Grad I (WHO) und E66.01 Adipositas durch übermäßige Kalorienzufuhr: Adipositas Grad II (WHO) in Bezug auf die positiven Versorgungseffekte „Verbesserung des Gesundheitszustands“ sowie „Verbesserung der Lebensqualität“ als erfüllt.",
+      "content_fingerprint": "c539ccb27dc6",
       "content_preview": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) die Anforderungen an • Sicherheit und Funktionstauglichkeit des Medizinproduktes,...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Bewertungsentscheidung des BfArM",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Bewertungsentscheidung des BfArM"
       ],
+      "path_hash": "7d463e27c832",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung--cdc10aad7c:field_value",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung-:7d463e27c832:field_value:0",
       "title": "Bewertungsentscheidung des BfArM"
     },
     {
       "content": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_fingerprint": "4b8f5a46c1b0",
       "content_preview": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt"
       ],
+      "path_hash": "9af58630166c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:9af58630166c:field_value:0",
       "title": "Angaben zum Medizinprodukt"
     },
     {
       "content": "zanadio ist eine Softwarelösung zur multimodalen Therapie von erwachsenen Patienten oder Patientinnen, die an Adipositas oder an abnormen Körperfett-bedingten Komplikationen leiden. Sie werden unterstützt, ihre Lebensgewohnheiten dahingehend zu ändern, dass sich ihre Gesundheit verbessert und die Belastung durch die Auswirkung des abnormen Körperfetts reduziert wird.",
+      "content_fingerprint": "5fe764688e8b",
       "content_preview": "zanadio ist eine Softwarelösung zur multimodalen Therapie von erwachsenen Patienten oder Patientinnen, die an Adipositas oder an abnormen Körperfett-bedingten Komplikationen leiden. Sie werden unterstützt, ihre Lebensgewohnheiten dahinge...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Medizinische Zweckbestimmung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Medizinische Zweckbestimmung"
       ],
+      "path_hash": "8bde401e0e97",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:8bde401e0e97:field_value:0",
       "title": "Medizinische Zweckbestimmung"
     },
     {
       "content": "Risikoklasse IIa nach MDR",
+      "content_fingerprint": "320e2f812e36",
       "content_preview": "Risikoklasse IIa nach MDR",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Risikoklasse Medizinprodukt",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Risikoklasse Medizinprodukt"
       ],
+      "path_hash": "b60186e2af98",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:b60186e2af98:field_value:0",
       "title": "Risikoklasse Medizinprodukt"
     },
     {
       "content": "TÜV Rheinland",
+      "content_fingerprint": "8765550c3db7",
       "content_preview": "TÜV Rheinland",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Name der Benannten Stelle",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Name der Benannten Stelle"
       ],
+      "path_hash": "d8a546b6e09b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:d8a546b6e09b:field_value:0",
       "title": "Name der Benannten Stelle"
     },
     {
       "content": "0197",
+      "content_fingerprint": "be0ad8152d37",
       "content_preview": "0197",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Kennnummer der Benannten Stelle",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Kennnummer der Benannten Stelle"
       ],
+      "path_hash": "7a4e1423425a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:7a4e1423425a:field_value:0",
       "title": "Kennnummer der Benannten Stelle"
     },
     {
       "content": "DE-MF-000005729",
+      "content_fingerprint": "4476aa56badf",
       "content_preview": "DE-MF-000005729",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Identifikationsnummer Eudamed",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Identifikationsnummer Eudamed"
       ],
+      "path_hash": "d5e73676d560",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:d5e73676d560:field_value:0",
       "title": "Identifikationsnummer Eudamed"
     },
     {
       "content": "4260725520108",
+      "content_fingerprint": "589d9d732347",
       "content_preview": "4260725520108",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > UDI - Unique Device Identifier im Sinne der MDR",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "UDI - Unique Device Identifier im Sinne der MDR"
       ],
+      "path_hash": "95f9849b188b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:95f9849b188b:field_value:0",
       "title": "UDI - Unique Device Identifier im Sinne der MDR"
     },
     {
       "content": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_fingerprint": "ba6516ebde5f",
       "content_preview": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA"
       ],
+      "path_hash": "6921f5eac91a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:6921f5eac91a:field_value:0",
       "title": "Weitere Informationen zur DiGA"
     },
     {
       "content": "Ziel der zanadio Anwendung ist es, dass Nutzer durch eine Veränderung Ihrer Gewohnheiten in den Bereichen Bewegung, Ernährung sowie weitere Verhaltensweisen langfristig Ihr Gewicht zu reduzieren. Zahlreiche Studien haben dabei gezeigt, dass bereits eine Gewichtsreduktion um 5-10% des Ausgangsgewichts signifikante gesundheitliche Vorteile mit sich bringt. zanadio basiert dabei auf dem wissenschaftlichen Konzept der multimodalen, konservativen Adipositastherapie, welche die verschiedenen relevanten Bereiche adressiert und hierdurch eine langfristige, dauerhafte Gewichtsreduktion herbeiführt. Das Programm setzt diesen etablierten Behandlungsansatz digital um. Neben einer langfristigen Gewichtsreduktion kann auch eine Verbesserung des Wohlbefindens und der Lebensqualität erzielt werden. Die Nutzung kann in die folgenden Bereiche unterteilt werden: • Wissensvermittlung (E-learning) • Veränderung (Selbstbeobachtung, Zielsetzung & -erreichung) • Motivation & automatisiertes Coaching Wissensvermittlung Die zur Verhaltensänderung notwendigen Informationen und Konzepte werden im Rahmen von e-learning Einheiten vermittelt. Dabei werden die Themen Ernährung, Bewegung und Veränderung/Verhalten abgedeckt. Patientinnen und Patienten können sich so im (teilweise geführten) Eigenstudium das notwendige Wissen aufbauen. Die Lerneinheiten sind dabei für den mobilen Kontext angepasst und multimedial aufbereitet. Veränderung Als Teil des Veränderungsprozesses führt die App die Patientinnen und Patienten in eine Selbstbeobachtungsphase in der er seine Ernährung und Bewegung bewusster wahrnimmt. Dies erfolgt auf Basis eines Ernährungs- und Bewegungstrackings. Die Ergebnisse werden dabei sowohl auf täglicher als auch auf wöchentlicher Sicht aggregiert dargestellt, um so die Auswirkungen der einzelnen Entscheidungen für den jeweiligen Erfolg sichtbar zu machen. Dem gegenübergestellt wird die Entwicklung des Körpergewichts. Ein weiterer wichtiger Aspekt ist das Setzen von (Zwischen-) Zielen. Hierbei werden die Patientinnen und Patienten durch eine Auswahl möglicher, zum jeweiligen Zeitpunkt angemessener Ziele unterstützt. Motivation & automatisiertes Coaching Um die Veränderungsmotivation der Patientinnen und Patienten zu erhalten und zu stärken, verfügt zanadio darüber hinaus über verschiedene motivatorische Elemente. Ein Element ist dabei das automatisierte Coaching, welches anlassbezogen im Rahmen eines \"Coach-Chats\" ausgegeben wird. Im Rahmen dieses Chats haben die Patientinnen und Patienten ferner die Möglichkeit mit einem Support-Mitarbeiter Kontakt aufzunehmen, um bei Problemen im Programmverlauf unterstützt zu werden und so eine hohe Programmcompliance sicherzustellen.",
+      "content_fingerprint": "e9861a1820ba",
       "content_preview": "Ziel der zanadio Anwendung ist es, dass Nutzer durch eine Veränderung Ihrer Gewohnheiten in den Bereichen Bewegung, Ernährung sowie weitere Verhaltensweisen langfristig Ihr Gewicht zu reduzieren. Zahlreiche Studien haben dabei gezeigt, d...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "ef6363788ef3",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:ef6363788ef3:field_value:0",
       "title": "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
     },
     {
       "content": "Um eine langfristige, anhaltende Gewichtsreduktion zu erreichen, zielt die App darauf, dass gesundheitsrelevante Verhalten der Patientinnen und Patienten zu verändern. Durch eine Kombination verschiedener Verhaltensänderungstechniken werden die Patientinnen und Patienten in der Veränderung seiner Gewohnheiten unterstützt. Für die Interaktion der Patientinnen und Patienten ist eine Installation der Softwarelösung auf dem privaten Smartphone vorausgesetzt. Die Nutzung kann in die folgenden Bereiche unterteilt werden: • Wissensvermittlung (\"e-learning\") zu den Themen Ernährung, Bewegung und Veränderung • Veränderung der Verhaltensweisen durch Nutzung verhaltenswissenschaftlicher Konzepte wie Selbstbeobachtung, Zielsetzung und -erreichung • Motivation & automatisiertes Coaching als Unterstützung zur Erreichung der Behandlungsziele",
+      "content_fingerprint": "7a44d81e06a6",
       "content_preview": "Um eine langfristige, anhaltende Gewichtsreduktion zu erreichen, zielt die App darauf, dass gesundheitsrelevante Verhalten der Patientinnen und Patienten zu verändern. Durch eine Kombination verschiedener Verhaltensänderungstechniken wer...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Funktionen der digitalen Gesundheitsanwendung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Funktionen der digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "21931475406b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:21931475406b:field_value:0",
       "title": "Funktionen der digitalen Gesundheitsanwendung"
     },
     {
       "content": "Das vollständige Literaturverzeichnis ist beim Hersteller unter https://zanadio.de/wp-content/uploads/Literaturverzeichnis-zanadio.pdf einsehbar.",
+      "content_fingerprint": "c2b9082d5378",
       "content_preview": "Das vollständige Literaturverzeichnis ist beim Hersteller unter https://zanadio.de/wp-content/uploads/Literaturverzeichnis-zanadio.pdf einsehbar.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
       ],
+      "path_hash": "ad43221ee27a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:ad43221ee27a:field_value:0",
       "title": "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
     },
     {
       "content": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_fingerprint": "77cea9e6788d",
       "content_preview": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal"
       ],
+      "path_hash": "4c8dba25a53c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:4c8dba25a53c:field_value:0",
       "title": "Beteiligung vom medizinischen Fachpersonal"
     },
     {
       "content": "Ja",
+      "content_fingerprint": "283c735c8901",
       "content_preview": "Ja",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal > Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal",
         "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
       ],
+      "path_hash": "844ec57e702e",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:844ec57e702e:field_value:0",
       "title": "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
     },
     {
       "content": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfohlen wird.",
+      "content_fingerprint": "ba2dc6143acd",
       "content_preview": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfoh...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise"
       ],
+      "path_hash": "af464e1a8e2f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-6922aa5eb2:field_value",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise:af464e1a8e2f:field_value:0",
       "title": "Anwendungshinweise"
     },
     {
       "content": "Warnhinweise für eine sichere Anwendung sind der aktuellen Gebrauchsanweisung auf der Seite des Herstellers zu entnehmen: https://zanadio.de/gebrauchsanweisung/",
+      "content_fingerprint": "42ef71894550",
       "content_preview": "Warnhinweise für eine sichere Anwendung sind der aktuellen Gebrauchsanweisung auf der Seite des Herstellers zu entnehmen: https://zanadio.de/gebrauchsanweisung/",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Hinweise für eine sichere Anwendung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Hinweise für eine sichere Anwendung"
       ],
+      "path_hash": "ed840310f43d",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw-13263bcc58:field_value",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw:ed840310f43d:field_value:0",
       "title": "Hinweise für eine sichere Anwendung"
     },
     {
       "content": "- zanadio ist ein Medizinprodukt, es ersetzt keinen Arztbesuch; ärztliche Begleitung wird empfohlen. - Vor Beginn und bei Vorerkrankungen: Rücksprache mit dem behandelnden Arzt halten. Kontraindikationen des Medizinproduktes stellen eine Schwangerschaft, eine Kachexie oder ein Gesundheitszustand dar, der eine primäre Behandlung erfordert, bitte vorher ärztlich abklären. - App nur in sicherer Umgebung nutzen, niemals im Straßenverkehr. - Medizinische Angaben bei der Registrierung müssen vollständig und korrekt sein; falsche oder fehlende Angaben zu bestehenden Erkrankungen können zu einer Gefährdung führen. Bei Fragen oder Unsicherheiten den zanadio-Kundendienst kontaktieren: support@zanadio.de. - Bewegungsübungen nur mit ausreichend Platz, rutschfestem Untergrund; bei Schmerzen/Schwindel sofort abbrechen. - zanadio darf nur über den offiziellen Apple App Store oder Google Play Store installiert werden. Alternative Plattformen sind nicht erlaubt. Dies dient der Sicherheit, dem zuverlässigen Erhalt von Updates und der Nutzung notwendiger Funktionen wie Push-Benachrichtigungen. Bitte App-Updates zeitnah installieren. - Datenschutz beachten: sicheres Passwort, Gerätesperre aktivieren, bei Geräteverlust sofort handeln. - Beachten Sie die Sicherheitsinformationen in den Toolbox-Kategorien „Übung, Ernährung, Verhalten“ unter „Sicherheit“ sowie die roten Infoboxen „Achtung!“ in den Lektionen. Befolgen Sie die Hinweise bei persönlichem Risiko. Bei Unsicherheit oder Fragen wenden Sie sich bitte an eine Ärztin/einen Arzt oder Ihre Ansprechperson. - Ziele realistisch setzen und nicht zu viele gleichzeitig (psychische Überlastung vermeiden). - Tracking-Daten (Bewegung, Ernährung, Gewicht) sorgfältig und korrekt eingeben. - Auf ausreichende Flüssigkeitszufuhr achten; bei dauerhaft starkem Durst ärztlich abklären. - In-App-Chat nicht für Notfälle; bei akuten medizinischen Problemen bitte 112 wählen. - Tests zeigten große Unterschiede bei Aktivitäts- und Gewichtsmessungen. Entscheidungen auf Basis dieser Daten können daher ungenau sein. Bei - Fragen zu einzelnen Geräten wenden Sie sich bitte an support@zanadio.de. Im Falle einer aktiven Krebstherapie soll die Verschreibung der Verhaltenstherapie in Absprache mit dem Onkologen erfolgen.",
+      "content_fingerprint": "013ede94ba4e",
       "content_preview": "- zanadio ist ein Medizinprodukt, es ersetzt keinen Arztbesuch; ärztliche Begleitung wird empfohlen. - Vor Beginn und bei Vorerkrankungen: Rücksprache mit dem behandelnden Arzt halten. Kontraindikationen des Medizinproduktes stellen eine...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:2",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "• Schwangerschaft • Ein Gesundheitszustand, der eine priorisierte Behandlung erfordert und eine Lebensstil-Therapie nicht möglich macht. • Body-mass-index über 40kg/m² (ICD-10 E66.06, E66.07, E66.08) • Alle sekundäre Adipositasformen (Cushing-Syndrom, Prader-Willi Syndrom, Hypogonadismus u.a.) • Manifestierte Hypothyreose sofern nicht im Vorfeld medikamentös behandelt • Körperliche, kognitive oder mentale Beeinträchtigungen, welche die Fähigkeiten einschränken, eine Verhaltenstherapie durchzuführen oder sich ohne Assistenz körperlich betätigen zu können. • Vor kurzem erfolgte bariatrische Operation • Fehlende Veränderungsressourcen (Bereitschaft und Möglichkeit den Lebensstil anzupassen) • Im Falle einer aktiven Krebstherapie soll die Verschreibung der Verhaltenstherapie in Absprache mit dem Onkologen erfolgen.",
+      "content_fingerprint": "5ebe144bfea8",
       "content_preview": "• Schwangerschaft • Ein Gesundheitszustand, der eine priorisierte Behandlung erfordert und eine Lebensstil-Therapie nicht möglich macht. • Body-mass-index über 40kg/m² (ICD-10 E66.06, E66.07, E66.08) • Alle sekundäre Adipositasformen (Cu...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Ausschlusskriterien",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Ausschlusskriterien"
       ],
+      "path_hash": "1e0081a02ca6",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-ausschlusskrite-693acf81d5:field_value",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-ausschlusskrite:1e0081a02ca6:field_value:0",
       "title": "Weitere Ausschlusskriterien"
     },
     {
       "content": "zanadio verfolgt eine langfristige, \"multimodale\" konservative Behandlung, also eine Verhaltensumstellung in den Bereichen Ernährung und Bewegung. Entsprechend den Empfehlungen der letzten evidenzbasierten Leitlinie zur Prävention und Therapie der Adipositas hat es sich gezeigt, dass innerhalb eines solchen konservativen Behandlungsansatzes für Adipositas eine durchschnittliche Gewichtsreduktion von 5-10% des Ausgangsgewichts in einem Zeitraum von 6-12 Monaten erreicht werden kann. Dementsprechend wird als Mindestdauer der Nutzung 6 Monate angesetzt, wobei eine Nutzung für 12 Monate dringend empfohlen wird.",
+      "content_fingerprint": "0710c67a75a6",
       "content_preview": "zanadio verfolgt eine langfristige, \"multimodale\" konservative Behandlung, also eine Verhaltensumstellung in den Bereichen Ernährung und Bewegung. Entsprechend den Empfehlungen der letzten evidenzbasierten Leitlinie zur Prävention und Th...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Vom Hersteller für erforderlich gehaltene Mindestdauer",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Vom Hersteller für erforderlich gehaltene Mindestdauer"
       ],
+      "path_hash": "c8361568278f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-vom-hersteller-fuer-erf-bbada5828c:field_value",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-vom-hersteller-fuer-erf:c8361568278f:field_value:0",
       "title": "Vom Hersteller für erforderlich gehaltene Mindestdauer"
     },
     {
       "content": "Eine allgemeine Höchstdauer der Nutzung ist zum jetzigen Zeitpunkt nicht festlegbar, sie hängt ferner vom patientenindividuellen Fortschritt ab.",
+      "content_fingerprint": "17fd71ecf4e9",
       "content_preview": "Eine allgemeine Höchstdauer der Nutzung ist zum jetzigen Zeitpunkt nicht festlegbar, sie hängt ferner vom patientenindividuellen Fortschritt ab.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Vom Hersteller für erforderlich gehaltene Höchstdauer",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Vom Hersteller für erforderlich gehaltene Höchstdauer"
       ],
+      "path_hash": "5dafed8796c1",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-vom-hersteller-fuer-erf-bbada5828c:field_value",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-vom-hersteller-fuer-erf:5dafed8796c1:field_value:0",
       "title": "Vom Hersteller für erforderlich gehaltene Höchstdauer"
     },
     {
       "content": "Die App unterstützt die Anbindung weiterer Geräte zur Übertragung von Bewegungs- und Körpergewichtsdaten. Es können Daten von Geräten folgender Hersteller eingebunden werden: Fitbit, Garmin, Polar, AppleHealth, Withings, HealthConnect, OmronConnect, Suunto, Oura. Wir raten von der Anbindung von Trackern via Drittapplikationen ab. - Vorsicht: In unseren Tests zeigten eine Reihe von Geräten zur Bewegungs- und Gewichtsmessung hohe Messunterschiede. Entscheidungen auf Basis dieser Daten sind somit potentiell fehlerbehaftet. Bei Fragen zu bestimmten Produkten kontaktieren Sie bitte den Support unter support@zanadio.de Eine aktuelle Liste kompatibler Geräte finden Sie unter: https://zanadio.de/kompatibilitaet/",
+      "content_fingerprint": "2714690dda50",
       "content_preview": "Die App unterstützt die Anbindung weiterer Geräte zur Übertragung von Bewegungs- und Körpergewichtsdaten. Es können Daten von Geräten folgender Hersteller eingebunden werden: Fitbit, Garmin, Polar, AppleHealth, Withings, HealthConnect, O...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Kompatibilitätszusagen in Bezug auf unterstützte Geräte",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
       ],
+      "path_hash": "fdfd0a3e19b3",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-kompatibilitaetszusagen-2e7efe3e1b:field_value",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-kompatibilitaetszusagen:fdfd0a3e19b3:field_value:0",
       "title": "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
     },
     {
       "content": "Feld „Möglichkeiten von standardisiertem Datenimport und Datenexport“ wird befüllt mit: Datenportabilität: zanadio ermöglicht den Patientinnen und Patienten, die über die DiGA erhobenen Daten in einem maschinenlesbaren, interoperablen Format aus der DiGA auszuspielen, sodass die Patientinnen und Patienten oder ein berechtigter Dritter diese Daten in anderen digitale Produkte weiterverarbeiten kann. Interoperabilität: zanadio ermöglicht dem Patienten, therapierelevante Auszüge der über die DiGA erhobenen Daten in menschenlesbarer und ausdruckbarer Form aus der DiGA auszuspielen, sodass er diese zu eigenen Zwecken nutzen oder an einen Arzt weitergeben kann. Die Daten entsprechen dabei dem internationalen FHIR Standard.",
+      "content_fingerprint": "17c74e7ae4ca",
       "content_preview": "Feld „Möglichkeiten von standardisiertem Datenimport und Datenexport“ wird befüllt mit: Datenportabilität: zanadio ermöglicht den Patientinnen und Patienten, die über die DiGA erhobenen Daten in einem maschinenlesbaren, interoperablen Fo...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Möglichkeiten von standardisiertem Datenimport und Datenexport",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Möglichkeiten von standardisiertem Datenimport und Datenexport"
       ],
+      "path_hash": "569132413e54",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-moeglichkeiten-von-stan-a818cc9f27:field_value",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-moeglichkeiten-von-stan:569132413e54:field_value:0",
       "title": "Möglichkeiten von standardisiertem Datenimport und Datenexport"
     },
     {
       "content": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs. weitere, durch Sie selbst aufzubringende Kosten, sofern Sie bestimmte zusätzlich angebotene und von der Verschreibung nicht abgedeckte Leistungen in Anspruch nehmen möchten.",
+      "content_fingerprint": "39d5160ffdea",
       "content_preview": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs....",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis"
       ],
+      "path_hash": "41c28a502494",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-429bde377d:field_value",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis:41c28a502494:field_value:0",
       "title": "Angaben zum Preis"
     },
     {
       "content": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "content_fingerprint": "341e24b7c036",
       "content_preview": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis > Preismodell",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis",
         "Preismodell"
       ],
+      "path_hash": "d5d16c880c10",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis-6eb719186f:field_value",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis:d5d16c880c10:field_value:0",
       "title": "Preismodell"
     },
     {
       "content": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+      "content_fingerprint": "4c34fe9d1a3e",
       "content_preview": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:3",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "218,00 €",
+      "content_fingerprint": "07ba8a56f1af",
       "content_preview": "218,00 €",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
       ],
+      "path_hash": "351b8e240460",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-kosten-z-b-starterpaket-5641b0bf97:field_value",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-kosten-z-b-starterpaket:351b8e240460:field_value:0",
       "title": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
     },
     {
       "content": "218,00 €",
+      "content_fingerprint": "07ba8a56f1af",
       "content_preview": "218,00 €",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Nutzung der DiGA für zusätzliche 90 Tage",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
       ],
+      "path_hash": "003e20a2ca5b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-nutzung-der-dig-7a56e117b7:field_value",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-nutzung-der-dig:003e20a2ca5b:field_value:0",
       "title": "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Anmerkungen zum Preismodell",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Anmerkungen zum Preismodell"
       ],
+      "path_hash": "277cd06753d5",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-anmerkungen-zum-f3f338f2f7:field_value",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-anmerkungen-zum:277cd06753d5:field_value:0",
       "title": "Weitere Anmerkungen zum Preismodell"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Erläuterung Mehrkosten",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Erläuterung Mehrkosten"
       ],
+      "path_hash": "a3f923587875",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-erlaeuterung-mehrkosten-7813cc6074:field_value",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-erlaeuterung-mehrkosten:a3f923587875:field_value:0",
       "title": "Erläuterung Mehrkosten"
     },
     {
       "content": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_fingerprint": "766782bdbccd",
       "content_preview": "Es fallen keine Mehrkosten für den Patienten an.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00294:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:4",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Verbesserungen für Patienten können entweder medizinischer Art sein (z.B. Verringerung von Schmerzen, Beitrag zur Heilung der Erkrankung) oder den Erkennungs- und Behandlungsprozess direkt unterstützen und erleichtern (z.B. Informationen zur individuellen Erkrankungssituation, Unterstützung bei der Einhaltung der zwischen Patient und Arzt gemeinsam vereinbarten therapeutischen Maßnahmen).",
+      "content_fingerprint": "b689545a79f8",
       "content_preview": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Ve...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "b1d946b15fae",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:informationen-zum-positiven-versorgungseffekt-253662cf50:field_value",
+      "stable_key": "00294:informationen-zum-positiven-versorgungseffekt:b1d946b15fae:field_value:0",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche Weise dies ggfs. bereits wissenschaftlich nachgewiesen wurde. Falls der positive Versorgungseffekt noch nicht abschließend nachgewiesen aber bereits so plausibel dargelegt wurde, dass die DiGA befristet zur entsprechenden Erprobung aufgenommen wurde, wird angegeben, für welchen Zeitraum dies erfolgt ist. Sofern (auch) ein Nachweis zum Erhalt der Erwerbsfähigkeit für die DiGA erbracht wurde oder eine Nachweisführung geplant ist, finden Sie hier eine Beschreibung und nähere Angaben zum Nachweis sowie zum Studiendesign. Sofern die DiGA (auch) ein diagnostisches Instrument darstellt, also mindestens in Teilen dazu vorgesehen ist, Informationen z.B. für die Erkennung oder Diagnose von Krankheitszuständen zu liefern, hat der Hersteller dies benannt und beschrieben sowie Sensitivität und Spezifität als wichtige Bewertungsgrößen angegeben.",
+      "content_fingerprint": "0bf9ee1dc4d9",
       "content_preview": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche We...",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "00294:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:0",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Medizinischer Nutzen",
+      "content_fingerprint": "291175316d3d",
       "content_preview": "Medizinischer Nutzen",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Angaben zum positiven Versorgungseffekt",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Angaben zum positiven Versorgungseffekt"
       ],
+      "path_hash": "56d889aab765",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse-5449921803:field_value",
+      "stable_key": "00294:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse:56d889aab765:field_value:0",
       "title": "Angaben zum positiven Versorgungseffekt"
     },
     {
       "content": "Verbesserung des Gesundheitszustands",
+      "content_fingerprint": "58b8b11779d7",
       "content_preview": "Verbesserung des Gesundheitszustands",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Nähere Angaben zum medizinischen Nutzen",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Nähere Angaben zum medizinischen Nutzen"
       ],
+      "path_hash": "c2ba1d4f6a81",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen--90ce965dee:field_value",
+      "stable_key": "00294:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen-:c2ba1d4f6a81:field_value:0",
       "title": "Nähere Angaben zum medizinischen Nutzen"
     },
     {
       "content": "Verbesserung der Lebensqualität",
+      "content_fingerprint": "3112dcf8ae50",
       "content_preview": "Verbesserung der Lebensqualität",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "00294:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "00294:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:1",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Der medizinische Nutzen bezieht sich auf den Behandlungseffekt. Dieser entspricht einer Verbesserung des Gesundheitszustandes durch nachhaltigen und gesunden Gewichtsverlust und einer entsprechenden höheren Lebensqualität und einem verbesserten Wohlbefinden. Spezifisch bezieht sich der medizinische Nutzen auf eine Gewichtsreduktion von mindestens 5% zum Ausgangsgewicht. Eine solche Gewichtsreduktion stellt im Kontext von Adipositas den wesentlichen Faktor für eine Verbesserung des Gesundheitszustandes dar. Der medizinische Nutzen wird nachgewiesen durch den Verlust von Körpergewicht, der Körperfettverteilung, und der Verbesserung der allgemeinen Lebensqualität und des Wohlbefindens.",
+      "content_fingerprint": "74120c43df1f",
       "content_preview": "Der medizinische Nutzen bezieht sich auf den Behandlungseffekt. Dieser entspricht einer Verbesserung des Gesundheitszustandes durch nachhaltigen und gesunden Gewichtsverlust und einer entsprechenden höheren Lebensqualität und einem verbe...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Beschreibung des medizinischen Nutzens",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Beschreibung des medizinischen Nutzens"
       ],
+      "path_hash": "71ee9147d6be",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut-a677995e79:field_value",
+      "stable_key": "00294:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut:71ee9147d6be:field_value:0",
       "title": "Beschreibung des medizinischen Nutzens"
     },
     {
       "content": "Die Patientengruppe die in der Studie untersucht wurde: Personen mit Adipositas (m/w/d) zwischen 18 und 65 Jahren, einem BMI zwischen 30 und 40 kg/m2. - In der Studie erhielt diese Gruppe folgende Therapie: App-basiertes 12-monatiges Behandlungsprogramm (zanadio), welches aus untersuchten Inhalten und Interventionen aus den Bereichen Verhalten, Ernährung und Bewegung besteht und eine konservative, leitliniengerechte Behandlung der Adipositas ermöglicht. zanadio bietet Patientinnen und Patienten eine ganzheitliche Behandlung, die auf eine gesunde und langfristige Änderung des Lebensstiles ausgelegt ist und sich an gültigen, wissenschaftlich anerkannten Leitlinien orientiert. Die Gewichtsreduktion ist Folge einer Verhaltensänderung in Bezug auf Ernährung, Bewegung und weitere gesundheitsrelevante Gewohnheiten. Ziel der Verhaltensänderung ist eine Reduktion der täglichen Kalorienzufuhr durch die Ernährung auf der einen Seite sowie gleichzeitiger Erhöhung des Kalorienbedarfs durch Stärkung des Bewegungsverhaltens, welche im Ergebnis zu einer anhaltenden negativen Kalorienbilanz und somit einem Verlust von Körperfett und einer Gewichtsreduktion führt. - Die Vergleichsgruppe in der Studie war: Nichtbehandelte Patientinnen und Patienten (dies bildete die Versorgungsrealität in Deutschland ab: zum Zeitpunkt der Studie hatten Menschen mit Adipositas in Deutschland keinen Zugang zu einer verschreibungsfähigen konservativen Behandlungsmöglichkeit) - Der Effekt, welcher in dieser Studie gezeigt wurde: Verbesserung des Gesundheitszustandes und damit einhergehend einem verbesserten Wohlbefinden und einer höheren Lebensqualität. Im Rahmen des Behandlungsprogramms zanadio wurde dies durch eine Gewichtsreduktion von mindestens 5% zum Ausgangsgewicht bei Patientinnen und Patienten erreicht, da eine solche Gewichtsreduktion im Kontext von Adipositas den wesentlichen Faktor für eine Verbesserung des Gesundheitszustandes darstellt. Dies wurde nachgewiesen durch den Verlust von Körpergewicht, der Körperfettverteilung und einer Verbesserung der allgemeinen Lebensqualität und des Wohlbefindens.",
+      "content_fingerprint": "cb7676dc429f",
       "content_preview": "Die Patientengruppe die in der Studie untersucht wurde: Personen mit Adipositas (m/w/d) zwischen 18 und 65 Jahren, einem BMI zwischen 30 und 40 kg/m2. - In der Studie erhielt diese Gruppe folgende Therapie: App-basiertes 12-monatiges Beh...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Studie/n im PICO-Schema",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Studie/n im PICO-Schema"
       ],
+      "path_hash": "cd33a100690d",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema-2cb668dadb:field_value",
+      "stable_key": "00294:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema:cd33a100690d:field_value:0",
       "title": "Studie/n im PICO-Schema"
     },
     {
       "content": "Zusammenfassung des Studiendesigns: Um zanadio in Hinblick auf seinen medizinischen Nutzen zu evaluieren, wurde eine 12 -monatige klinische Studie durchgeführt. Der primäre Endpunkt wurde nach 9 und 12 Monaten betrachtet. Der medizinische Nutzen entspricht dabei der Verbesserung des Gesundheitszustandes und damit einhergehend einem verbesserten Wohlbefinden und einer höheren Lebensqualität. Um den positiven Versorgungseffekt nachzuweisen, wurden 149 Teilnehmende mit Adipositas (18-65 Jahre, BMI 30-40 kg/m2, EOSS Klasse 0-2) durch eine zufällige Zuordnung in eine Interventions- und eine Kontrollgruppe eingeteilt. Teilnehmende der Interventionsgruppe erhielten dabei vollen Zugang zum Behandlungsprogramm. Teilnehmende der Kontrollgruppe erhielten keinen Zugang zur App und keine weiteren Informationen oder Instruktionen hinsichtlich Interventionen zur Gewichtsveränderung. Den Teilnehmenden der Kontrollgruppe wurde kommuniziert, ihr Leben wie gewohnt fortzusetzen. - Die Studie dauerte 12 Monate und umfasste 5 Messzeitpunkte: zu Beginn der Studie, nach 3 Monaten, nach 6 Monaten, nach 9 Monaten und nach 12 Monaten. Der primäre Endpunkt wurde nach 9 und 12 Monaten betrachtet. Der primäre Endpunkt (Verbesserung des Gesundheitszustands) wurde durch die prozentuale Veränderung des Gewichts abgebildet. Um Effekte in der Gewichtsentwicklung über den reinen Verlust von Körpergewicht hinaus einordnen zu können, wurde als zusätzlicher Zielparameter die Waist-to-hip ratio (WHR; Taille-Hüft-Verhältnis) bestimmt. Als sekundäre Zielparameter wurden Lebensqualität und Wohlbefinden erfasst (Wohlbefinden: WHO-5 Wellbeing Index; Lebensqualität: WHOQoL-BREF). Die Studie wurde vor Beginn im Deutschen Register Klinischer Studien (DRKS, DRKS00024415) registriert. - Ergebnisse: Zusammenfassend zeigt die klinische Studie, dass das Programm zanadio innerhalb der Nutzungsdauer von 12 Monaten zu einer signifikanten Gewichtsreduktion und einer signifikanten Verbesserung von Lebensqualität und Wohlbefinden führt. Die Interventionsgruppe zeigte einen Gewichtsverlust von durchschnittlich -5,67 % [p = 0,001; 95 % Konfidenzintervall (KI): -7,32, -4,02] innerhalb von 9 Monaten und -7.75% innerhalb von 12 Monaten gegenüber der Kontrollgruppe (p = 0,001; 95 % KI: -9,61, -5,89)). Die Annahme einer Gewichtsreduktion von mindestens 5% konnte damit bestätigt werden. Im sekundären Endpunkt der Körperfettverteilung zeigten sich keine signifikanten Unterschiede im Taille-Hüft-Verhältnis. Im sekundären Endpunkt des Wohlbefindens zeigte sich eine Verbesserung des Wohlbefindens im Vergleich zur Kontrollgruppe mit einer Mittelwertsdifferenz von 1,68 (p = 0,048, KI: 0,03, 0,49) nach 9 Monaten und 1,77 (p = 0,025, KI: 0,31, 3,23) nach 12 Monaten. Im sekundären Endpunkt der Lebensqualität verbesserte sich die IG ebenfalls signifikant im Vergleich zu KG (MWD = 3,31, p = 0,048, KI: 0,31, 6,31), jedoch nicht nach 12 Monaten.",
+      "content_fingerprint": "d332767186d3",
       "content_preview": "Zusammenfassung des Studiendesigns: Um zanadio in Hinblick auf seinen medizinischen Nutzen zu evaluieren, wurde eine 12 -monatige klinische Studie durchgeführt. Der primäre Endpunkt wurde nach 9 und 12 Monaten betrachtet. Der medizinisch...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
       ],
+      "path_hash": "045f4d7c860c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u-804896bae6:field_value",
+      "stable_key": "00294:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u:045f4d7c860c:field_value:0",
       "title": "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
     },
     {
       "content": "Die Studie befindet sich aktuell im wissenschaftlichen Veröffentlichungsprozess, der Veröffentlichungsort wird zeitnah nachgereicht. Ebenfalls ist eine Veröffentlichung auf der Website des Herstellers geplant.",
+      "content_fingerprint": "6a7fefcae160",
       "content_preview": "Die Studie befindet sich aktuell im wissenschaftlichen Veröffentlichungsprozess, der Veröffentlichungsort wird zeitnah nachgereicht. Ebenfalls ist eine Veröffentlichung auf der Website des Herstellers geplant.",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Dies ist/sind die vom Hersteller angeführten Studie/n:",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Dies ist/sind die vom Hersteller angeführten Studie/n:"
       ],
+      "path_hash": "1b2b98450658",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:informationen-zum-positiven-versorgungseffekt-dies-ist-sind-die-vom-hersteller-a-81dc280904:field_value",
+      "stable_key": "00294:informationen-zum-positiven-versorgungseffekt-dies-ist-sind-die-vom-hersteller-a:1b2b98450658:field_value:0",
       "title": "Dies ist/sind die vom Hersteller angeführten Studie/n:"
     },
     {
       "content": "Universität Leipzig Medizinische Fakultät Liebigstraße 27, Haus E 04103 Leipzig - University of Helsinki Behavioural & Brain Sciences Faculty of Medicine, Department of Psychology and Logopedics Haartmaninkatu 3 00290 Helsinki Finland",
+      "content_fingerprint": "528fc3ae64af",
       "content_preview": "Universität Leipzig Medizinische Fakultät Liebigstraße 27, Haus E 04103 Leipzig - University of Helsinki Behavioural & Brain Sciences Faculty of Medicine, Department of Psychology and Logopedics Haartmaninkatu 3 00290 Helsinki Finland",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
       ],
+      "path_hash": "6deb64749945",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:informationen-zum-positiven-versorgungseffekt-herstellerunabhaengige-institution-85ca65af54:field_value",
+      "stable_key": "00294:informationen-zum-positiven-versorgungseffekt-herstellerunabhaengige-institution:6deb64749945:field_value:0",
       "title": "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
     },
     {
       "content": "Nein",
+      "content_fingerprint": "70bb813787b6",
       "content_preview": "Nein",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Die DiGA enthält ein diagnostisches Instrument",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Die DiGA enthält ein diagnostisches Instrument"
       ],
+      "path_hash": "f07a273683a3",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch-eded43f154:field_value",
+      "stable_key": "00294:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch:f07a273683a3:field_value:0",
       "title": "Die DiGA enthält ein diagnostisches Instrument"
     },
     {
       "content": "22 Monate (12 Monate initial, 10 Monate Verlängerung)",
+      "content_fingerprint": "c1e6f9e6acb9",
       "content_preview": "22 Monate (12 Monate initial, 10 Monate Verlängerung)",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Länge des Zeitraumes der vorläufigen Aufnahme",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Länge des Zeitraumes der vorläufigen Aufnahme"
       ],
+      "path_hash": "f50c229bb808",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:informationen-zum-positiven-versorgungseffekt-laenge-des-zeitraumes-der-vorlaeuf-d645f91b3b:field_value",
+      "stable_key": "00294:informationen-zum-positiven-versorgungseffekt-laenge-des-zeitraumes-der-vorlaeuf:f50c229bb808:field_value:0",
       "title": "Länge des Zeitraumes der vorläufigen Aufnahme"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird. Die Anforderungen an die Datensicherheit werden durch Vorlage eines Zertifikats gemäß § 139e Absatz 10 Fünftes Buch Sozialgesetzbuch nachgewiesen. Detaillierte Informationen zu den einzelnen Anforderungen können Sie auf der Webseite des Bundesamts für Sicherheit in der Informationstechnik unter der Technischen Richtlinie \"BSI TR-03161\" finden: https://www.bsi.bund.de/dok/TR-03161 Bis zur Vorlage des Zertifikats gelten für den Bereich Datensicherheit die Anforderungen der nachfolgend dargestellten Checkliste.",
+      "content_fingerprint": "32cb1bd13010",
       "content_preview": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen v...",
       "content_type": "field_value",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 3,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "899b23823ae4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:field_value",
+      "stable_key": "00294:informationen-zu-datenschutz-und-datensicherheit:899b23823ae4:field_value:0",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Das mobile Endgerät der nutzenden Personen wird grundsätzlich als privates IT-System angesehen. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung unterstützt keine Offenbarung von Informationen der betroffenen Person oder über die betroffene Person für die Öffentlichkeit oder eine für die betroffene Person nicht eingrenzbare Personengruppe.",
+      "content_fingerprint": "bfe40dd5b261",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Das mobile Endgerät der nutzenden Personen wird grundsätzlich als privates IT-System ange...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "00294:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:0",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit > Datensicherheit",
       "level": 4,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit",
         "Datensicherheit"
       ],
+      "path_hash": "8545f237a1b9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:informationen-zu-datenschutz-und-datensicherheit-datensicherheit-14af255f91:field_value",
+      "stable_key": "00294:informationen-zu-datenschutz-und-datensicherheit-datensicherheit:8545f237a1b9:field_value:0",
       "title": "Datensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung greift weder auf Sensoren eines mobilen Endgeräts noch auf externe Hardware zu. Trifft nicht zu Die digitale Gesundheitsanwendung tauscht keine Daten mit externer Hardware aus. Zutreffend Zutreffend Zutreffend Nein",
+      "content_fingerprint": "fd406e21060c",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutref...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "00294:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "00294:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:1",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der medizinischen Inhalte und die Gewährleistung der Patientensicherheit.",
+      "content_fingerprint": "0b320ca69209",
       "content_preview": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der me...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen",
       "level": 3,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "f85d7bfd4b8e",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-afe954d9f8:field_value",
+      "stable_key": "00294:weitere-informationen:f85d7bfd4b8e:field_value:0",
       "title": "Weitere Informationen"
     },
     {
       "content": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_fingerprint": "f14ccf82a937",
       "content_preview": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00294:weitere-informationen:df3724c46c56:section:0",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Interoperabilität",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Interoperabilität"
       ],
+      "path_hash": "43914a1ae1e9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-angaben-zur-interoperabilitaet-8867f27412:field_value",
+      "stable_key": "00294:weitere-informationen-angaben-zur-interoperabilitaet:43914a1ae1e9:field_value:0",
       "title": "Angaben zur Interoperabilität"
     },
     {
       "content": "Zutreffend Trifft nicht zu Daten werden nicht direkt ausgetauscht sondern unter Nutzung einer Plattformlösung (Thryve). Zutreffend",
+      "content_fingerprint": "cca16a76021a",
       "content_preview": "Zutreffend Trifft nicht zu Daten werden nicht direkt ausgetauscht sondern unter Nutzung einer Plattformlösung (Thryve). Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00294:weitere-informationen:df3724c46c56:section:1",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Robustheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Robustheit"
       ],
+      "path_hash": "d416c871fdb6",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-angaben-zur-robustheit-0a511476df:field_value",
+      "stable_key": "00294:weitere-informationen-angaben-zur-robustheit:d416c871fdb6:field_value:0",
       "title": "Angaben zur Robustheit"
     },
     {
       "content": "Zutreffend Zutreffend Trifft nicht zu Aufgrund der Verwendung eines Datenaggregators ist kein Testen und/ oder Kalibrieren angebundener Medizingeräte und Sensoren möglich.",
+      "content_fingerprint": "dfbc51ad692e",
       "content_preview": "Zutreffend Zutreffend Trifft nicht zu Aufgrund der Verwendung eines Datenaggregators ist kein Testen und/ oder Kalibrieren angebundener Medizingeräte und Sensoren möglich.",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00294:weitere-informationen:df3724c46c56:section:2",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zum Verbraucherschutz",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zum Verbraucherschutz"
       ],
+      "path_hash": "22c54da8ff9c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-angaben-zum-verbraucherschutz-05cd17969e:field_value",
+      "stable_key": "00294:weitere-informationen-angaben-zum-verbraucherschutz:22c54da8ff9c:field_value:0",
       "title": "Angaben zum Verbraucherschutz"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "409aa9901d82",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00294:weitere-informationen:df3724c46c56:section:3",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zu Nutzerfreundlichkeit und Barrierefreiheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
       ],
+      "path_hash": "a9d890d721a4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit-8fe873c531:field_value",
+      "stable_key": "00294:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit:a9d890d721a4:field_value:0",
       "title": "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
     },
     {
       "content": "Zutreffend Zutreffend",
+      "content_fingerprint": "f572c2f88946",
       "content_preview": "Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00294:weitere-informationen:df3724c46c56:section:4",
       "title": "Weitere Informationen"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Unterstützung der Leistungserbringende",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Unterstützung der Leistungserbringende"
       ],
+      "path_hash": "bdfe86165ef2",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-unterstuetzung-der-leistungserbringende-d4e78dfd75:field_value",
+      "stable_key": "00294:weitere-informationen-unterstuetzung-der-leistungserbringende:bdfe86165ef2:field_value:0",
       "title": "Unterstützung der Leistungserbringende"
     },
     {
       "content": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen.",
+      "content_fingerprint": "8b7713a3d90e",
       "content_preview": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Triff...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00294:weitere-informationen:df3724c46c56:section:5",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Qualität der medizinischen Inhalte",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Qualität der medizinischen Inhalte"
       ],
+      "path_hash": "964eb34f0609",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte-a6d05ceeb6:field_value",
+      "stable_key": "00294:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte:964eb34f0609:field_value:0",
       "title": "Angaben zur Qualität der medizinischen Inhalte"
     },
     {
       "content": "Zutreffend Zutreffend Trifft nicht zu Quellen zum heutigen Zeitpunkt werden angegeben, Studien werden nach Abschluss entsprechend u.a. auf der Website veröffentlicht. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "48b73463260c",
       "content_preview": "Zutreffend Zutreffend Trifft nicht zu Quellen zum heutigen Zeitpunkt werden angegeben, Studien werden nach Abschluss entsprechend u.a. auf der Website veröffentlicht. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00294:weitere-informationen:df3724c46c56:section:6",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Patientensicherheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Patientensicherheit"
       ],
+      "path_hash": "96d387fa1378",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-angaben-zur-patientensicherheit-7a67651ccd:field_value",
+      "stable_key": "00294:weitere-informationen-angaben-zur-patientensicherheit:96d387fa1378:field_value:0",
       "title": "Angaben zur Patientensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "477afefea65b",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 7,
       "source_kind": "visible_directory",
-      "stable_key": "00294:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00294:weitere-informationen:df3724c46c56:section:7",
       "title": "Weitere Informationen"
     },
     {
       "content": "Die Kontraindikationen der Verordnungseinheit zanadio 001 haben sich von E03, E23, E24, E66.06, E66.07, E66.08 zu E03, E23, E24, R64 geändert.",
+      "content_fingerprint": "d51bf6cae636",
       "content_preview": "Die Kontraindikationen der Verordnungseinheit zanadio 001 haben sich von E03, E23, E24, E66.06, E66.07, E66.08 zu E03, E23, E24, R64 geändert.",
       "content_type": "field_value",
+      "display_path": "Änderungshistorie > 24.02.2026 Änderung der Kontraindikationen",
       "level": 4,
       "path": [
         "Änderungshistorie",
         "24.02.2026 Änderung der Kontraindikationen"
       ],
+      "path_hash": "f2a66bd06229",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:aenderungshistorie-24-02-2026-aenderung-der-kontraindikationen-840e787aa1:field_value",
+      "stable_key": "00294:aenderungshistorie-24-02-2026-aenderung-der-kontraindikationen:f2a66bd06229:field_value:0",
       "title": "24.02.2026 Änderung der Kontraindikationen"
     },
     {
       "content": "Das BfArM bewertet die Ergebnisse der Erprobungsstudie als ausreichenden Nachweis für die positiven Versorgungseffekte „Verbesserung des Gesundheitszustands“ sowie „Verbesserung der Lebensqualität“ für weibliche Patienten.",
+      "content_fingerprint": "167212c782b0",
       "content_preview": "Das BfArM bewertet die Ergebnisse der Erprobungsstudie als ausreichenden Nachweis für die positiven Versorgungseffekte „Verbesserung des Gesundheitszustands“ sowie „Verbesserung der Lebensqualität“ für weibliche Patienten.",
       "content_type": "field_value",
+      "display_path": "Änderungshistorie > 15.08.2022 Status der Listung ist „Dauerhaft aufgenommen“",
       "level": 4,
       "path": [
         "Änderungshistorie",
         "15.08.2022 Status der Listung ist „Dauerhaft aufgenommen“"
       ],
+      "path_hash": "3b87af712146",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:aenderungshistorie-15-08-2022-status-der-listung-ist-dauerhaft-aufgenommen-b9dda8be9a:field_value",
+      "stable_key": "00294:aenderungshistorie-15-08-2022-status-der-listung-ist-dauerhaft-aufgenommen:3b87af712146:field_value:0",
       "title": "15.08.2022 Status der Listung ist „Dauerhaft aufgenommen“"
     },
     {
       "content": "Hinweis zum Einschluss männlicher Patienten: Seit dem 20.03.2023 ist die digitale Gesundheitsanwendung zanadio für alle Geschlechter verordnungsfähig. Details zur Begründung können der Bewertungsentscheidung des BfArM entnommen werden.",
+      "content_fingerprint": "5c95cd8d28c7",
       "content_preview": "Hinweis zum Einschluss männlicher Patienten: Seit dem 20.03.2023 ist die digitale Gesundheitsanwendung zanadio für alle Geschlechter verordnungsfähig. Details zur Begründung können der Bewertungsentscheidung des BfArM entnommen werden.",
       "content_type": "section",
+      "display_path": "Änderungshistorie",
       "level": 2,
       "path": [
         "Änderungshistorie"
       ],
+      "path_hash": "1278d32c3364",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00294:aenderungshistorie-e75b358bce:section",
+      "stable_key": "00294:aenderungshistorie:1278d32c3364:section:0",
       "title": "Änderungshistorie"
     }
   ],
@@ -958,10 +1254,10 @@
     "accordions_opened": 0,
     "content_section_count": 74,
     "field_value_count": 56,
-    "rendered_at": "2026-06-22T19:01:58.422057+00:00",
+    "rendered_at": "2026-06-22T20:29:32.376105+00:00",
     "source_kind": "visible_directory"
   },
   "source_kind": "visible_directory",
-  "timestamp": "20260622T190144Z",
+  "timestamp": "20260622T202912Z",
   "url": "https://diga.bfarm.de/de/verzeichnis/00294"
 }

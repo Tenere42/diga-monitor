@@ -2,437 +2,577 @@
   "content_sections": [
     {
       "content": "MindDoc auf Rezept ist eine transdiagnostische digitale Gesundheitsanwendung für Menschen mit leichten bis mittelschweren depressiven Erkrankungen mit und ohne komorbide psychische Erkrankungen. Die App soll dabei helfen, das Befinden über einen längeren Zeitraum zu beobachten, Symptome einzuordnen und eigenständig Strategien anzuwenden, um mit Symptomen umzugehen. Sie ist dafür gedacht, über längere Zeit genutzt zu werden.",
+      "content_fingerprint": "fe60af907e90",
       "content_preview": "MindDoc auf Rezept ist eine transdiagnostische digitale Gesundheitsanwendung für Menschen mit leichten bis mittelschweren depressiven Erkrankungen mit und ohne komorbide psychische Erkrankungen. Die App soll dabei helfen, das Befinden üb...",
       "content_type": "field_value",
+      "display_path": "MindDoc Health GmbH, Deutschland",
       "level": 3,
       "path": [
         "MindDoc Health GmbH, Deutschland"
       ],
+      "path_hash": "8116065c9b86",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01683:minddoc-health-gmbh-deutschland-1cba4533a4:field_value",
+      "stable_key": "01683:minddoc-health-gmbh-deutschland:8116065c9b86:field_value:0",
       "title": "MindDoc Health GmbH, Deutschland"
     },
     {
       "content": "Anwenderinnen und Anwender protokollieren Symptome und Befinden über längere Zeiträume mit Hilfe eines adaptiven Fragensystems. Auf Basis dieser Informationen erhalten Benutzerinnen und Benutzer individualisierte automatisierte Rückmeldungen (Einblicke), die sowohl Symptome, Ressourcen als auch potenzielle Auslöser und Problembereiche widerspiegeln und geeignete Selbstmanagement-Inhalte und Übungen zur Bewältigung von Symptomen und Problemen vorschlagen. Kurse und Übungen basieren auf den Grundlagen der kognitiven Verhaltenstherapie und ihren Weiterentwicklungen und orientieren sich eng an den Behandlungsleitlinien der AWMF (Arbeitsgemeinschaft der Wissenschaftlichen Medizinischen Fachgesellschaften e.V.) sowie wissenschaftlich evaluierten Behandlungskonzepten. Die App ersetzt keine Diagnose oder Therapie, sondern soll bei der Bewältigung psychischer Erkrankungen unterstützen. Sie ist dafür gedacht, über längere Zeit genutzt zu werden.",
+      "content_fingerprint": "fb9c64ab1797",
       "content_preview": "Anwenderinnen und Anwender protokollieren Symptome und Befinden über längere Zeiträume mit Hilfe eines adaptiven Fragensystems. Auf Basis dieser Informationen erhalten Benutzerinnen und Benutzer individualisierte automatisierte Rückmeldu...",
       "content_type": "section",
+      "display_path": "MindDoc Auf Rezept",
       "level": 2,
       "path": [
         "MindDoc Auf Rezept"
       ],
+      "path_hash": "f9d1bd36c0c1",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01683:minddoc-auf-rezept-4ade7984d5:section",
+      "stable_key": "01683:minddoc-auf-rezept:f9d1bd36c0c1:section:0",
       "title": "MindDoc Auf Rezept"
     },
     {
       "content": "Hier finden Sie weitergehende Informationen zur DiGA. Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA. MindDoc Auf Rezept 08.02.2024 25.06.2025 Trifft nicht zu MindDoc auf Rezept MindDoc: Your Companion [EN] MindDoc: Dein Begleiter [DE] App im Apple App Store Deutschland im Google Play Store Deutschland Deutschland",
+      "content_fingerprint": "42688cd055cd",
       "content_preview": "Hier finden Sie weitergehende Informationen zur DiGA. Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinis...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01683:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01683:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:0",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Die DiGA wurde auf Antrag des Herstellers aus dem Verzeichnis gemäß § 139e Absatz 6 Satz 9 des Fünften Buches Sozialgesetzbuch (SGB V) i. V. m. § 19 der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) gestrichen.",
+      "content_fingerprint": "61020710df52",
       "content_preview": "Die DiGA wurde auf Antrag des Herstellers aus dem Verzeichnis gemäß § 139e Absatz 6 Satz 9 des Fünften Buches Sozialgesetzbuch (SGB V) i. V. m. § 19 der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) gestrichen.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Bewertungsentscheidung des BfArM",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Bewertungsentscheidung des BfArM"
       ],
+      "path_hash": "7d463e27c832",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01683:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung--cdc10aad7c:field_value",
+      "stable_key": "01683:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung-:7d463e27c832:field_value:0",
       "title": "Bewertungsentscheidung des BfArM"
     },
     {
       "content": "******************************************************************************************************************** Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an • Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der Technik und • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) als erfüllt. Die Datenverarbeitung findet laut Hersteller ausschließlich in Deutschland statt. Das BfArM bewertet dieses Vorgehen als konform im Sinne der DiGAV. Als Erprobungsstudie läuft derzeit eine randomisierte, kontrollierte Studie (RCT) mit dem Titel „Evaluation einer digitalen Gesundheitsanwendung für Menschen mit leichten bis mittelschweren depressiven Erkrankungen”. Die Erhebungszeitpunkte sind zu Baseline, nach 8 Wochen (primärer Endpunkt) und nach 6 Monaten. Dabei sollen 570 Patientinnen und in die Studie eingeschlossen und im Verhältnis 1 : 1 randomisiert werden. Die Patientinnen und Patienten der Interventionsgruppe (IG) erhalten Zugang zur Standardversorgung und DiGA. Die Kontrollgruppe (KG) erhält Zugang zur Standardversorgung und Zugang zur DiGA nach 6 Monaten (Wartekontrollgruppe). Der primäre Endpunkt ist die depressive Symptomatik, gemessen mittels Patient-Health-Questionnaire-9 (PHQ-9). Zu den sekundären Endpunkten zählen u. a. der PHQ-9 nach 6 Monaten, die Generalized Anxiety Disorder Scale-7 (GAD-7) nach 8 Wochen und 6 Monaten und das Assessment of Quality of Life-8D (AQoL-8D) nach 8 Wochen und 6 Monaten. Das BfArM bewertet das Studienkonzept grundsätzlich als geeignet, den positiven Versorgungseffekt (pVE) „Verbesserung des Gesundheitszustands“ nachzuweisen. Als Begründung der Versorgungsverbesserung wurde eine sekundäre Datenauswertung zu einer RCT mit dem Titel: „App-basiertes unbegleitetes Selbstmanagement für Menschen mit leichter bis mittelschwerer Beeinträchtigung der psychischen Gesundheit“ vorgelegt. Die Erhebungszeitpunkte waren zu Baseline, nach 8 Wochen und nach 6 Monaten. Die Studie wurde beim Deutschen Register Klinischer Studien (DRKS) unter der Nummer DRKS00022531 registriert. Den primären Endpunkt bildete der PHQ-9. Die sekundären Endpunkte umfassten den GAD-7, AQoL-8D und PS-FB. Die RCT umfasste insgesamt 1045 Patientinnen und Patienten mit verschiedenen psychischen Erkrankungen. In die sekundäre Datenauswertung wurden 262 Patientinnen und Patienten mit Depressionen eingeschlossen. Im Studienverlauf ergaben sich 108 fehlende Werte nach 8 Wochen (IG: 40 %; KG: 43 %) und 145 nach 6 Monaten (IG: 62 %; KG: 48 %). Gemäß der Intention-To-Treat-Analyse (ITT-Analyse) reduzierte sich nach 8 Wochen die depressive Symptomatik in der IG statistisch signifikant und klinisch relevant im Vergleich zur KG [adjustierte Mittelwertdifferenz (MWD): 2,03 [95-%-Konfidenzintervall (KI) = 0,88 – 3,18; p-Wert: 0,005; Cohens d: 0,43]. Die sekundären Endpunkte zeigten ebenfalls positive Tendenzen für die IG gegenüber der KG. Nach 6 Monaten waren die Effekte in den Endpunkten weniger ausgeprägt. Im Rahmen von Responderanalysen (Verbesserung um mind. 5 Punkte) konnten ebenfalls Vorteile für die IG gegenüber der KG nach 8 Wochen und 6 Monaten gezeigt werden. Entsprechend bewertet das BfArM die in § 139e des Fünften Buches Sozialgesetzbuch (SGB V) sowie in der DiGAV festgelegten Voraussetzungen zur vorläufigen Aufnahme auf Erprobung in das Verzeichnis nach § 139e Absatz 1 SGB V als erfüllt.",
+      "content_fingerprint": "6a3e9da33f29",
       "content_preview": "******************************************************************************************************************** Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen ...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01683:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01683:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:1",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_fingerprint": "4b8f5a46c1b0",
       "content_preview": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt"
       ],
+      "path_hash": "9af58630166c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01683:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01683:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:9af58630166c:field_value:0",
       "title": "Angaben zum Medizinprodukt"
     },
     {
       "content": "MindDoc auf Rezept ermöglicht es Anwender:innen, Anzeichen und Symptome von häufigen psychischen Erkrankungen in Echtzeit über lange Zeiträume zu protokollieren und zu beobachten. Dies ermöglicht es den Anwender:innen, Muster in ihren Symptomverläufen zu erkennen, die dann mit einer Behandlerin oder einem Behandler geteilt und für das Selbstmanagement angewendet werden können. Die Anwendung ermöglicht es Nutzer:innen, mit Symptomen und damit zusammenhängenden Problemen umzugehen, indem sie evidenzbasierte transdiagnostische Kurse und Übungen zur Verfügung stellt, die dabei helfen, Symptome zu erkennen, einzuordnen und durch selbst initiierte Verhaltensänderungen zu bewältigen. Die Anwendung gibt Nutzer:innen mittels einer allgemeinen Einschätzung zur emotionalen Gesundheit eine regelmäßige Orientierung darüber, ob eine weitere ärztliche oder psychotherapeutische Abklärung angezeigt ist. Eine Zusammenfassung der Protokolle kann mit Behandler:innen geteilt werden, um die Behandlung zu unterstützen. MindDoc auf Rezept ersetzt ausdrücklich keine ärztliche oder psychotherapeutische Diagnostik oder Behandlung, aber kann den Weg zu einer psychiatrischen oder psychotherapeutischen Behandlung vorbereiten und unterstützen. Risikoklasse I nach MDR Trifft nicht zu Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt. Trifft nicht zu DE-MF-000000084 426076368MD1GX",
+      "content_fingerprint": "72fc1f0db1cc",
       "content_preview": "MindDoc auf Rezept ermöglicht es Anwender:innen, Anzeichen und Symptome von häufigen psychischen Erkrankungen in Echtzeit über lange Zeiträume zu protokollieren und zu beobachten. Dies ermöglicht es den Anwender:innen, Muster in ihren Sy...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "01683:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01683:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:2",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_fingerprint": "ba6516ebde5f",
       "content_preview": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA"
       ],
+      "path_hash": "6921f5eac91a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01683:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01683:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:6921f5eac91a:field_value:0",
       "title": "Weitere Informationen zur DiGA"
     },
     {
       "content": "Zielsetzung: MindDoc auf Rezept ist eine app-basierte Intervention für Patientinnen und Patienten mit leichten bis mittelschweren depressiven Erkrankungen mit und ohne komorbide psychische Erkrankungen. Die App soll in Ergänzung zu einer sonst üblichen Behandlung (zum Beispiel beim Haus-, Facharzt oder Psychotherapeuten) eingesetzt werden. Sie zielt darauf ab, depressive Symptome zu reduzieren. Wirkungsweise: Journal: Im Journal beantworten Nutzerinnen und Nutzer bis zu dreimal täglich Fragen zu Symptomen psychischer Erkrankungen basierend auf der der Hierarchischen Taxonomie der Psychopathologie (HiToP), zu Persönlichkeitseigenschaften, zur Lebensgeschichte, zu aktuellen Problemen und Ressourcen. Jeder Fragenblock wird durch eine allgemeine Stimmungsbewertung abgeschlossen. Ergänzend besteht die Möglichkeit, Gefühle und Situationen über eine freie Texteingabe oder definierte Tags zu ergänzen. Einblicke: Auf Basis der im Journal gegebenen Antworten erhalten die Anwender:innen regelmäßig individualisierte automatisierte Rückmeldungen (Einblicke), die auf einzelne Symptome, Ressourcen, potenzielle Auslöser und Problembereiche oder deren Kombinationen eingehen. Ergebnisse: Alle 14 Tage erhalten Anwenderinnen und Anwender eine Gesamteinschätzung ihrer emotionalen Gesundheit. Die emotionale Gesundheit wird in fünf Abstufungen auf dem Spektrum von “Sehr gute emotionale Gesundheit” bis “Kritischer Zustand deiner emotionalen Gesundheit” abgebildet. Selbstmanagement: In diesem Bereich der App können Anwenderinnen und Anwender auf eine umfangreiche Kursbibliothek zugreifen. Um Anwenderinnen und Anwender die Identifikation für sie relevanter Kurse zu erleichtern, werden an geeigneter Stelle individualisierte Kursempfehlungen angezeigt. Diese Empfehlungen werden anhand der Beantwortung der Fragen im Journal generiert. Einige Kurse dienen primär der Psychoedukation, hier sind neben der Depression die häufigsten komorbiden Erkrankungen (Angststörungen, Essstörungen, Schlafstörungen, chronischer Schmerz) abgedeckt. Ein weiterer Teil der Kurse vermittelt Fertigkeiten und Selbstmanagement-Strategien zur eigenständigen Bewältigung von Symptomen und Problemen. Hier wurde ein transdiagnostischer Ansatz zugrunde gelegt, der der Heterogenität und hohen Komorbidität bei psychischen Erkrankungen Rechnung trägt. Alle Inhalte basieren auf den Grundlagen der kognitiven Verhaltenstherapie und ihren Weiterentwicklungen. Die Kursinhalte wurden von Psychologischen Psychotherapeutinnen und Psychotherapeuten entwickelt und orientieren sich eng an den Behandlungsleitlinien der AWMF (Arbeitsgemeinschaft der Wissenschaftlichen Medizinischen Fachgesellschaften e.V.) sowie wissenschaftlich evaluierten Behandlungskonzepten. Inhalt: Die in der App abgedeckten Lernziele umfassen: Aufbau positiver Aktivitäten Identifikation und schrittweise Veränderung von hinderlichen Denkmustern und Grundannahmen Umgang mit Grübeln Wahrnehmung von und Umgang mit Gefühlen Förderung der Entspannungsfähigkeit Förderung von Selbstakzeptanz persönliche Ziel- und Wertklärung Förderung eines funktionalen Umgangs mit Stress Förderung der Problemlösefähigkeit Förderung der sozialen Kompetenz Förderung der Konfliktfähigkeit Förderung von Schlafhygiene und gesunden Schlafgewohnheiten Abbau von Vermeidungsverhalten Förderung von ausgewogenem Ernährungs- und Bewegungsverhalten Rückfallprophylaxe Nutzung: Vorgesehen ist eine tägliche Nutzung über einen Zeitraum von mindestens 8 Wochen, die App kann aber auch darüber hinaus genutzt werden, um weiterhin Symptome zu protokollieren oder gelernte Selbstmanagement-Verhaltensweisen weiter zu festigen. Die Beantwortung der täglichen Fragen im Journal nimmt nur wenige Minuten in Anspruch. Die Kurse sind in kurze Kapitel unterteilt, deren Bearbeitungszeit im Mittel bei 10 Minuten liegt. So können Nutzerinnen und Nutzer die Inhalte in einem ihren persönlichen Ressourcen angepassten Tempo bearbeiten. Die Kernfunktionen der App sind: Kontinuierliche adaptive Protokollierung von Symptomen und damit verbundenen Probleme sowie der persönlichen Ressourcen (Journal) Automatisiertes personalisiertes Feedback (Einblicke) zu Symptomen und relevanten Problembereichen sowie Empfehlungen für Übungen und Kurse innerhalb der App Regelmäßige automatisierte personalisiertes Rückmeldungen über die allgemeine Symptombelastung und den Grad der psychosozialen Beeinträchtigung (Ergebnisse) Kurse und Übungen zur Psychoedukation und zur Bewältigung von Problemen, die häufig zu psychischen Gesundheitsstörungen beitragen (Selbstmanagement) Darüberhinaus wurden Sicherheitsfunktionen implementiert, die bei einer Verschlechterung der Symptomatik oder einem Kritischen Zustand der Emotionalen Gesundheit zum Tragen kommen, dazu gehören Informationen zum Zugang zur Psychotherapeutischen Sprechstunde und zu stationärer Behandlung sowie ein automatisierter Dialog (Chatbot), der unmittelbar ausgelöst wird, nachdem im Journal eine Frage nach Suizidgedanken bejaht wird und der direkt aus der App mit der Telefonseelsorge verbinden kann, wenn Anwenderinnen und Anwender das wünschen. Freie Universität Berlin Fachbereich Erziehungswissenschaft und Psychologie Arbeitsbereich klinisch-psychologische Intervention Schwendenerstr. 27 14195 Berlin Schön Klinik MVZ GmbH Balanstr. 71a 81541 München Bandelow, B., Wiltink, J., Alpers, G. W., Benecke, C., Deckert, J., Eckhardt-Henn, A., . . . Beutel, M. E. (2014). S3-Leitlinie Behandlung von Angststörung. Retrieved from https://www.awmf.org/leitlinien/detail/ll/051-028.html Beck, A. T., Rush, A. J., Shaw, B. F., & Emery, G. (2010). Kognitive Therapie der Depression. Weinheim: Beltz. Beck, J. (2013). Praxis der Kognitiven Verhaltenstherapie. Weinheim: Beltz PVU. Becker, E. S., & Hoyer, J. (2005). Generalisierte Angststörung. Göttingen: Hogrefe. Berking, M. (2017). Training emotionaler Kompetenzen. Berlin: Springer. Bleichardt, G., & Weck, F. (2019). Kognitive Verhaltenstherapie bei Hypochondrie und Gesundheitsangst. Berlin: Springer. Deutsche Gesellschaft für Allgemeinmedizin und Familienmedizin. (2013). S1-Handlungsempfehlung Chronischer Schmerz. https://www.awmf.org/leitlinien/detail/ll/053-036.html Deutsche Gesellschaft für Essstörungen (DGESS), Deutsche Gesellschaft für Kinder- und Jugendpsychiatrie und Psychotherapie (DGKJP), Deutsche Gesellschaft für Psychosomatische Medizin und Psychotherapie (DGPM), Deutsches Kollegium für Psychosomatische Medizin (DKPM), Deutsche Gesellschaft für Psychiatrie Psychotherapie und Nervenheilkunde (DGPPN), & Deutsche Gesellschaft für Psychologie (DGPs). (2019). Gemeinsame S3-Leitlinie Diagnostik und Therapie der Essstörungen. https://www.awmf.org/leitlinien/detail/ll/051-026.html Deutsche Gesellschaft für Schlafforschung und Schlafmedizin. (2017). S3 Leitlinie Nicht erholsamer Schlaf/Schlafstörungen - Insomnie bei Erwachsenen. Retrieved from https://www.awmf.org/leitlinien/detail/ll/063-003.html Deutsches Kollegium für Psychosomatische Medizin, & Deutsche Gesellschaft für Psychosomatische Medizin und Ärztliche Psychotherapie. (2018). S3 Leitlinie \"Funktionelle Körperbeschwerden\". Retrieved from https://www.awmf.org/uploads/tx_szleitlinien/051-001l_S3_Funktionelle_Koerperbeschwerden_2018-11.pdf Bundesärztekammer (BÄK), Kassenärztliche Bundesvereinigung (KBV), Arbeitsgemeinschaft der Wissenschaftlichen Medizinischen Fachgesellschaften (AWMF). Nationale VersorgungsLeitlinie Unipolare Depression Langfassung, Version 3.1. 2022, DOI: 10.6101/AZQ/000496. www.leitlinien.de/depression. Eismann, G., & Lammers, C. (2017). Emotionsregulation. Weinheim: Beltz. Germer, C. K., & Neff, K. D. (2013). Self-compassion in clinical practice. J Clin Psychol, 69(8), 856-867. doi:10.1002/jclp.22021 Hayes, Stephen C.; Strosahl, Kirk D.; Wilson, Kelly G. (2012). Acceptance and Commitment Therapy: The Process and Practice of Mindful Change (2nd ed.). Guilford Press. ISBN 9781609189624. Hinsch, R., & Pfingsten, U. (2015). Das Gruppentraining sozialer Kompetenzen (GSK). Weinheim: Beltz PVU. Hohagen, F., Wahl-Kordon, A., Lotz-Rambaldi, W., Muche-Borowski, C., & Leitlinie, S. (2015). S3-Leitlinie Zwangsstörungen – Langversion. In S3-Leitlinie Zwangsstörungen (S. 1–11). Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-662-44138-1_1 Hoyer, J., & Vogel, D. (2018). Verhaltensaktivierung. Weinheim: Beltz. Jacobi, C., Thiel, A., & Beintner, I. (2016). Anorexia und Bulimia nervosa : ein kognitiv-verhaltenstherapeutisches Behandlungsprogramm. Weinheim: Beltz. Kaluza, G. (2015). Stressbewältigung. Berlin: Springer. Lang, T., Helbig-Lang, S., Westphal, D., Gloster, A. T., & Wittchen, H. U. (2018). Expositionsbasierte Therapie derPanikstörung mit Agoraphobie. Göttingen: Hogrefe. Marx, C. (2016). Nichtorganische Schlafstörungen. Berlin: Springer. Michalak, J., Heidenreich, T., & Williams, J. M. G. (2012). Achtsamkeit. Göttingen: Hogrefe. Stavemann, H. H. (2014). Integrative KVT: Die Therapie emotionaler Turbulenzen. Weinheim: Beltz PVU. Teismann, T., Hanning, S., von Brachel, R., & Willutzki, U. (2017). Kognitive Verhaltenstherapie depressivenGrübelns. Berlin: Springer. Wittchen, H. U., & Hoyer, J. (2011). Klinische Psychologie und Psychotherapie. Berlin: Springer.",
+      "content_fingerprint": "fbd7b2b6b04a",
       "content_preview": "Zielsetzung: MindDoc auf Rezept ist eine app-basierte Intervention für Patientinnen und Patienten mit leichten bis mittelschweren depressiven Erkrankungen mit und ohne komorbide psychische Erkrankungen. Die App soll in Ergänzung zu einer...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "01683:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01683:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:3",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_fingerprint": "77cea9e6788d",
       "content_preview": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal"
       ],
+      "path_hash": "4c8dba25a53c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01683:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "01683:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:4c8dba25a53c:field_value:0",
       "title": "Beteiligung vom medizinischen Fachpersonal"
     },
     {
       "content": "Ärztinnen und Ärzte können ihren Patientinnen und Patienten MindDoc auf Rezept verordnen, wenn eine leichte oder mittelgradige Depression vorliegt. Die Rolle für Ärztinnen und Ärzte innerhalb der Regelversorgung besteht zunächst darin, eine Depression unter Beachtung von möglichen Differentialdiagnosen zu diagnostizieren und basierend auf dieser Indikation unter Abwägung von möglichen Kontraindikationen die Verordnung für die DiGA MinDoc auf Rezept auszustellen. Um die Nutzung der DiGA zu unterstützen, können Patientinnen und Patienten zusätzlich gezielt auf einzelne Kursinhalte von MindDoc auf Rezept hingewiesen werden, die den aktuellen Behandlungsschwerpunkt besonders ergänzen. Außerdem können Patientinnen und Patienten im Verlauf der Nutzung der DiGA Leistungserbringern einen Datenexport in Papierform zur Verfügung stellen, der Auswertungen zur aktuellen Belastung durch Symptome psychischer Erkrankungen enthält und zur weiteren Behandlungsplanung herangezogen werden kann. Psychotherapeutinnen und Psychotherapeuten können ihren Patientinnen und Patienten MindDoc auf Rezept verordnen, wenn eine leichte oder mittelgradige Depression vorliegt. Die Rolle für Psychotherapeutinnen und Psychotherapeuten innerhalb der Regelversorgung besteht zunächst darin, eine Depression unter Beachtung von möglichen Differentialdiagnosen zu diagnostizieren und basierend auf dieser Indikation unter Abwägung von möglichen Kontraindikationen die Verordnung für die DiGA MinDoc auf Rezept auszustellen. Um die Nutzung der DiGA zu unterstützen, können Patientinnen und Patienten zusätzlich gezielt auf einzelne Kursinhalte von MindDoc auf Rezept hingewiesen werden, die den aktuellen Behandlungsschwerpunkt besonders ergänzen. Außerdem können Patientinnen und Patienten im Verlauf der Nutzung der DiGA Leistungserbringern einen Datenexport in Papierform zur Verfügung stellen, der Auswertungen zur aktuellen Belastung durch Symptome psychischer Erkrankungen enthält und zur weiteren Behandlungsplanung herangezogen werden kann. Nein",
+      "content_fingerprint": "4b90d5701122",
       "content_preview": "Ärztinnen und Ärzte können ihren Patientinnen und Patienten MindDoc auf Rezept verordnen, wenn eine leichte oder mittelgradige Depression vorliegt. Die Rolle für Ärztinnen und Ärzte innerhalb der Regelversorgung besteht zunächst darin, e...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "01683:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01683:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:4",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfohlen wird.",
+      "content_fingerprint": "ba2dc6143acd",
       "content_preview": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfoh...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise"
       ],
+      "path_hash": "af464e1a8e2f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01683:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-6922aa5eb2:field_value",
+      "stable_key": "01683:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise:af464e1a8e2f:field_value:0",
       "title": "Anwendungshinweise"
     },
     {
       "content": "Zur Wahrung der Sicherheit der Nutzerinnen und Nutzer und zur Sicherstellung des bestimmungsgemäßen Gebrauchs haben Nutzerinnen und Nutzer die Möglichkeit, über einen Feedback-Button in der App Kontakt zum Support-Team aufzunehmen. Die Rückmeldung erfolgt werktags innerhalb von 24 Stunden. Es erfolgen keine therapeutischen oder diagnostischen Maßnahmen. Bei Hinweisen, dass Nutzerinnen und Nutzer weitergehende Hilfe benötigen, erfolgt die Aufforderung, sich in professionelle Behandlung zu begeben. Ergeben sich aus der kontinuierlichen Selbstbeobachtung innerhalb der App Hinweise auf einen kritischen Zustand der emotionalen Gesundheit erfolgt zudem eine automatisierte Rückmeldung mit dem Hinweis, zeitnah professionelle Hilfe zu suchen und umfangreichen Informationen zu Hilfsangeboten. Zusätzlich kann direkt aus der App eine Verbindung zur Telefonseelsorge hergestellt werden. Bei einer Vorgeschichte mit psychotischen Störungen und Substanzabhängigkeit sollte MindDoc auf Rezept nur nach sorgfältiger fachärztlicher oder psychotherapeutischer Indikationsstellung verordnet werden. Voraussetzung für die Entscheidung ist immer, dass die Behandlerin oder der Behandler mit MindDoc auf Rezept vertraut ist. Ebenso ist die App nicht zur Krisenintervention geeignet und sollte bei Auftreten akuter suizidaler Gedanken und Pläne nicht ohne professionelle Unterstützung genutzt werden. Vorgesehen ist eine tägliche Nutzung über einen Zeitraum von mindestens 8 Wochen, die App kann aber auch darüber hinaus genutzt werden, um weiterhin Symptome zu protokollieren oder gelernte Selbstmanagement-Verhaltensweisen weiter zu festigen. Trifft nicht zu https://minddoc.com/de/de/auf-rezept/compatibility Kompatibilität Android MindDoc auf Rezept ist mit Android Geräten der Software Version Android 7.0 (Android SDK 24) aufwärts kompatibel. iOS MindDoc auf Rezept ist mit iOS Geräten (iPhone, iPad, iPod Touch) der Softwareversion iOS 15.0 aufwärts kompatibel. Interoperabilität MindDoc auf Rezept erfüllt die Anforderungen an die technische und semantische Interoperabilität. Im Rahmen der Anforderungen des Digitale-Versorgung-und-Pflege-Modernisierungs-Gesetzes (DVPMG) ist vorgesehen, dass die Daten aus digitalen Gesundheitsanwendungen (DiGA) auf Wunsch des Versicherten in einem interoperablen Exportformat in die elektronische Patientenakte (ePA) übernommen werden können. Als Grundlage für die Formatierung des Datenexports wird das MIO-DiGA-Toolkit verwendet. MIO DiGA Toolkit v1.1.0 wird von MindDoc verwendet. Dies ist unter dem entsprechenden Abschnitt aufgeführt. MIO (Medizinische Informationsobjekte) schafft mit seinem modularen Aufbau die Möglichkeit, pflegebezogene Daten abzubilden und in die elektronische Patientenakte (ePA) zu integrieren. Datenportabilität Die Datenportabilität wird durch den Export aller relevanten medizinischen Daten sichergestellt. Der Export kann vom Benutzer jederzeit im Profil > Daten & Sicherheit > Datenexport durchgeführt werden. Der Export erfolgt im Standard-PDF-Format, das im Gerät angezeigt und auch vom Patienten ausgedruckt werden kann. Trifft nicht zu",
+      "content_fingerprint": "dd71d6be7100",
       "content_preview": "Zur Wahrung der Sicherheit der Nutzerinnen und Nutzer und zur Sicherstellung des bestimmungsgemäßen Gebrauchs haben Nutzerinnen und Nutzer die Möglichkeit, über einen Feedback-Button in der App Kontakt zum Support-Team aufzunehmen. Die R...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "01683:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01683:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:5",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs. weitere, durch Sie selbst aufzubringende Kosten, sofern Sie bestimmte zusätzlich angebotene und von der Verschreibung nicht abgedeckte Leistungen in Anspruch nehmen möchten.",
+      "content_fingerprint": "39d5160ffdea",
       "content_preview": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs....",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis"
       ],
+      "path_hash": "41c28a502494",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01683:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-429bde377d:field_value",
+      "stable_key": "01683:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis:41c28a502494:field_value:0",
       "title": "Angaben zum Preis"
     },
     {
       "content": "Einmallizenz ohne Hardware 0,00 € Trifft nicht zu Trifft nicht zu Es fallen keine Mehrkosten für den Patienten an.",
+      "content_fingerprint": "6f0d8906567b",
       "content_preview": "Einmallizenz ohne Hardware 0,00 € Trifft nicht zu Trifft nicht zu Es fallen keine Mehrkosten für den Patienten an.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "01683:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01683:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:6",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Verbesserungen für Patienten können entweder medizinischer Art sein (z.B. Verringerung von Schmerzen, Beitrag zur Heilung der Erkrankung) oder den Erkennungs- und Behandlungsprozess direkt unterstützen und erleichtern (z.B. Informationen zur individuellen Erkrankungssituation, Unterstützung bei der Einhaltung der zwischen Patient und Arzt gemeinsam vereinbarten therapeutischen Maßnahmen). Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche Weise dies ggfs. bereits wissenschaftlich nachgewiesen wurde. Falls der positive Versorgungseffekt noch nicht abschließend nachgewiesen aber bereits so plausibel dargelegt wurde, dass die DiGA befristet zur entsprechenden Erprobung aufgenommen wurde, wird angegeben, für welchen Zeitraum dies erfolgt ist. Sofern (auch) ein Nachweis zum Erhalt der Erwerbsfähigkeit für die DiGA erbracht wurde oder eine Nachweisführung geplant ist, finden Sie hier eine Beschreibung und nähere Angaben zum Nachweis sowie zum Studiendesign. Sofern die DiGA (auch) ein diagnostisches Instrument darstellt, also mindestens in Teilen dazu vorgesehen ist, Informationen z.B. für die Erkennung oder Diagnose von Krankheitszuständen zu liefern, hat der Hersteller dies benannt und beschrieben sowie Sensitivität und Spezifität als wichtige Bewertungsgrößen angegeben. Medizinischer Nutzen Verbesserung des Gesundheitszustands Zentrales Interventionsziel von MindDoc auf Rezept ist die Reduktion depressiver Symptomatik operationalisiert mit dem Depressionsmodul des Patient Health Questionnaire (PHQ-9, Kroenke et al., 2001). Der Nachweis des positiven Versorgungseffektesvon MindDoc auf Rezept wird im Rahmen einer randomisierten kontrollierten klinischen Studie erbracht. P – Patients Patientinnen und Patienten mit einer leichten oder mittelgradigen Depression. I – Intervention Zugang zur üblichen medizinischen Versorgung und 365 Tage Monate Zugang zu MindDoc auf Rezept. C – Comparison Zugang zur üblichen medizinischen Versorgung und Zugang zu MindDoc auf Rezept nach Studienende. O - Outcome primärer Endpunkt: Patient Health Questionnaire-9 (PHQ-9) zur Messung der depressiven Symptomatik Die Wirksamkeit und Sicherheit von MindDoc auf Rezept wird im Rahmen einer randomisierten kontrollierten Studie (RCT) untersucht. Die Studie wurde vor Studienbeginn im anerkannten Primärregister für Deutschland, dem Deutschen Register klinischer Studien (DRKS00030852), registriert. Das primäre Ziel der Studie ist es, die Wirksamkeit von MindDoc auf Rezept hinsichtlich der Reduktion depressiver Symptomatik im Vergleich zu einer Warte-Kontrollgruppe inklusive Treatment-as-usual (TAU) zu untersuchen. Die Wirksamkeit wird in einer zweiarmigen randomisierten kontrollierten Studie untersucht, in welcher die Teilnehmerinnen und Teilnehmer zufällig in zwei verschiedene Gruppen randomisiert werden: Teilnehmende der Interventionsgruppe erhalten direkt nach der Randomisierung Zugang MindDoc auf Rezept und nehmen an den Folge-Erhebungen nach 8 Wochen (Post) und nach 6 Monaten (Follow-up) teil. Teilnehmende der Wartekontrollgruppe nehmen zunächst nur an den Folge-Erhebungen teil und erhalten nach Abschluss der letzten Folgeerhebung Zugang zu MindDoc auf Rezept. Die Teilnehmerinnen und Teilnehmer beider Gruppen haben uneingeschränkten Zugang zur Regelversorgung (TAU). Für den Nachweis des medizinischen Nutzens (Verbesserung des Gesundheitszustandes) der DiGA wird ein primärer Endpunkt konfirmatorisch untersucht: die Reduktion der depressiver Symptome. Dieser Endpunkt wird anhand des Depressionsmoduls des Patient Health Questionnaire (PHQ-9, Kroenke et al., 2001). Die Erhebung des primären und aller sekundären Endpunkte gestaltet sich für beide Gruppen (Interventions- und Kontrollgruppe) identisch. Der Studienbericht der Studie wird innerhalb von 12 Monaten nach Abschluss der Studie auf der Homepage des Herstellers veröffentlicht. Schön Klinik Roseneck, in Kooperation mit der Klinik für Psychiatrie und Psychotherapie der Ludwig Maximilians-Universität München, Forschungsbereich: Verhaltenstherapie, Nußbaumstraße 7, 80336 München Fachbereich Erziehungswissenschaft und Psychologie Arbeitsbereich klinisch-psychologische Intervention Freie Universität Berlin Schwendenerstr. 27 14195 Berlin Nein 18 Monate (12 Monate initial, 6 Monate Verlängerung)",
+      "content_fingerprint": "da81fe06c13a",
       "content_preview": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Ve...",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01683:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "01683:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:0",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird. Die Anforderungen an die Datensicherheit werden durch Vorlage eines Zertifikats gemäß § 139e Absatz 10 Fünftes Buch Sozialgesetzbuch nachgewiesen. Detaillierte Informationen zu den einzelnen Anforderungen können Sie auf der Webseite des Bundesamts für Sicherheit in der Informationstechnik unter der Technischen Richtlinie \"BSI TR-03161\" finden: https://www.bsi.bund.de/dok/TR-03161 Bis zur Vorlage des Zertifikats gelten für den Bereich Datensicherheit die Anforderungen der nachfolgend dargestellten Checkliste. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die Nutzung der digitalen Gesundheitsanwendung ist auf ein privates IT-System der nutzenden Person beschränkt. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine technische Möglichkeit einer Verknüpfung oder eines Datenaustauschs mit anderen digitalen Gesundheitsanwendungen. Zutreffend",
+      "content_fingerprint": "a6dd215dba4b",
       "content_preview": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen v...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01683:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "01683:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:0",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit > Datensicherheit",
       "level": 4,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit",
         "Datensicherheit"
       ],
+      "path_hash": "8545f237a1b9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01683:informationen-zu-datenschutz-und-datensicherheit-datensicherheit-14af255f91:field_value",
+      "stable_key": "01683:informationen-zu-datenschutz-und-datensicherheit-datensicherheit:8545f237a1b9:field_value:0",
       "title": "Datensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung sieht keine unterschiedlichen Nutzerrollen vor. Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung erlaubt keinen Upload von Dateien. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung greift weder auf Sensoren eines mobilen Endgeräts noch auf externe Hardware zu. Trifft nicht zu Die digitale Gesundheitsanwendung tauscht keine Daten mit externer Hardware aus. Zutreffend Zutreffend Zutreffend Nein",
+      "content_fingerprint": "c7ce1fe4b332",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung sieht keine...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01683:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "01683:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:1",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der medizinischen Inhalte und die Gewährleistung der Patientensicherheit. Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_fingerprint": "d6d0ea10d54a",
       "content_preview": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der me...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01683:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01683:weitere-informationen:df3724c46c56:section:0",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Interoperabilität",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Interoperabilität"
       ],
+      "path_hash": "43914a1ae1e9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01683:weitere-informationen-angaben-zur-interoperabilitaet-8867f27412:field_value",
+      "stable_key": "01683:weitere-informationen-angaben-zur-interoperabilitaet:43914a1ae1e9:field_value:0",
       "title": "Angaben zur Interoperabilität"
     },
     {
       "content": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versicherten getragenen Sensoren zur Messung und Übertragung von Vitalwerten (Wearables) austauscht. Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "922bba61baf0",
       "content_preview": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versiche...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01683:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01683:weitere-informationen:df3724c46c56:section:1",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Robustheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Robustheit"
       ],
+      "path_hash": "d416c871fdb6",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01683:weitere-informationen-angaben-zur-robustheit-0a511476df:field_value",
+      "stable_key": "01683:weitere-informationen-angaben-zur-robustheit:d416c871fdb6:field_value:0",
       "title": "Angaben zur Robustheit"
     },
     {
       "content": "Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
+      "content_fingerprint": "5f89c60c91f1",
       "content_preview": "Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "01683:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01683:weitere-informationen:df3724c46c56:section:2",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zum Verbraucherschutz",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zum Verbraucherschutz"
       ],
+      "path_hash": "22c54da8ff9c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01683:weitere-informationen-angaben-zum-verbraucherschutz-05cd17969e:field_value",
+      "stable_key": "01683:weitere-informationen-angaben-zum-verbraucherschutz:22c54da8ff9c:field_value:0",
       "title": "Angaben zum Verbraucherschutz"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "409aa9901d82",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "01683:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01683:weitere-informationen:df3724c46c56:section:3",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zu Nutzerfreundlichkeit und Barrierefreiheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
       ],
+      "path_hash": "a9d890d721a4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01683:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit-8fe873c531:field_value",
+      "stable_key": "01683:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit:a9d890d721a4:field_value:0",
       "title": "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
     },
     {
       "content": "Zutreffend Zutreffend",
+      "content_fingerprint": "f572c2f88946",
       "content_preview": "Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "01683:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01683:weitere-informationen:df3724c46c56:section:4",
       "title": "Weitere Informationen"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Unterstützung der Leistungserbringende",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Unterstützung der Leistungserbringende"
       ],
+      "path_hash": "bdfe86165ef2",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01683:weitere-informationen-unterstuetzung-der-leistungserbringende-d4e78dfd75:field_value",
+      "stable_key": "01683:weitere-informationen-unterstuetzung-der-leistungserbringende:bdfe86165ef2:field_value:0",
       "title": "Unterstützung der Leistungserbringende"
     },
     {
       "content": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen.",
+      "content_fingerprint": "8b7713a3d90e",
       "content_preview": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Triff...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "01683:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01683:weitere-informationen:df3724c46c56:section:5",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Qualität der medizinischen Inhalte",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Qualität der medizinischen Inhalte"
       ],
+      "path_hash": "964eb34f0609",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01683:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte-a6d05ceeb6:field_value",
+      "stable_key": "01683:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte:964eb34f0609:field_value:0",
       "title": "Angaben zur Qualität der medizinischen Inhalte"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "6a8d1dc0aa28",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "01683:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01683:weitere-informationen:df3724c46c56:section:6",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Patientensicherheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Patientensicherheit"
       ],
+      "path_hash": "96d387fa1378",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01683:weitere-informationen-angaben-zur-patientensicherheit-7a67651ccd:field_value",
+      "stable_key": "01683:weitere-informationen-angaben-zur-patientensicherheit:96d387fa1378:field_value:0",
       "title": "Angaben zur Patientensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "477afefea65b",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 7,
       "source_kind": "visible_directory",
-      "stable_key": "01683:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01683:weitere-informationen:df3724c46c56:section:7",
       "title": "Weitere Informationen"
     },
     {
       "content": "Die DiGA wurde auf Antrag des Herstellers aus dem Verzeichnis gemäß § 139e Absatz 6 Satz 9 des Fünften Buches Sozialgesetzbuch (SGB V) i. V. m. § 19 der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) gestrichen.",
+      "content_fingerprint": "61020710df52",
       "content_preview": "Die DiGA wurde auf Antrag des Herstellers aus dem Verzeichnis gemäß § 139e Absatz 6 Satz 9 des Fünften Buches Sozialgesetzbuch (SGB V) i. V. m. § 19 der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) gestrichen.",
       "content_type": "field_value",
+      "display_path": "Änderungshistorie > 25.06.2025 Status der Listung ist „Gestrichen“",
       "level": 4,
       "path": [
         "Änderungshistorie",
         "25.06.2025 Status der Listung ist „Gestrichen“"
       ],
+      "path_hash": "22ce70aa0bef",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01683:aenderungshistorie-25-06-2025-status-der-listung-ist-gestrichen-21859bd1ae:field_value",
+      "stable_key": "01683:aenderungshistorie-25-06-2025-status-der-listung-ist-gestrichen:22ce70aa0bef:field_value:0",
       "title": "25.06.2025 Status der Listung ist „Gestrichen“"
     }
   ],
@@ -442,10 +582,10 @@
     "accordions_opened": 0,
     "content_section_count": 35,
     "field_value_count": 16,
-    "rendered_at": "2026-06-22T19:11:03.420391+00:00",
+    "rendered_at": "2026-06-22T20:38:36.746270+00:00",
     "source_kind": "visible_directory"
   },
   "source_kind": "visible_directory",
-  "timestamp": "20260622T190144Z",
+  "timestamp": "20260622T202912Z",
   "url": "https://diga.bfarm.de/de/verzeichnis/01683"
 }

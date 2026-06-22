@@ -2,425 +2,561 @@
   "content_sections": [
     {
       "content": "mebix bietet allen Patientinnen und Patienten mit einer Diabetes Typ 2 eine tertiäre Prävention, um das Risiko akuter gesundheitlicher Komplikationen zu senken. Außerdem unterstützt es die Wirksamkeit der von der Ärztin oder dem Arzt festgelegten Therapie (Therapiebegleitung).",
+      "content_fingerprint": "a6a151c6d253",
       "content_preview": "mebix bietet allen Patientinnen und Patienten mit einer Diabetes Typ 2 eine tertiäre Prävention, um das Risiko akuter gesundheitlicher Komplikationen zu senken. Außerdem unterstützt es die Wirksamkeit der von der Ärztin oder dem Arzt fes...",
       "content_type": "field_value",
+      "display_path": "Vision2B GmbH, Deutschland",
       "level": 3,
       "path": [
         "Vision2B GmbH, Deutschland"
       ],
+      "path_hash": "e637747a0045",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02078:vision2b-gmbh-deutschland-042d4e56ca:field_value",
+      "stable_key": "02078:vision2b-gmbh-deutschland:e637747a0045:field_value:0",
       "title": "Vision2B GmbH, Deutschland"
     },
     {
       "content": "Hier finden Sie weitergehende Informationen zur DiGA. Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA. mebix 14.07.2023 14.07.2025 Trifft nicht zu Trifft nicht zu App im Apple App Store Deutschland im Google Play Store Deutschland Die Datenverarbeitung findet in Deutschland statt.",
+      "content_fingerprint": "08ab86c6d703",
       "content_preview": "Hier finden Sie weitergehende Informationen zur DiGA. Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinis...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02078:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "02078:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:0",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Die digitale Gesundheitsanwendung (DiGA) wurde am 14.07.2025 nach Prüfung der Nachweise für positive Versorgungseffekte aus dem Verzeichnis gemäß § 139e Absatz 4 Satz 8 des Fünften Buches Sozialgesetzbuch (SGB V) gestrichen. Für die DiGA konnte kein positiver Versorgungseffekt nachgewiesen werden.",
+      "content_fingerprint": "b9ab9a01fcdb",
       "content_preview": "Die digitale Gesundheitsanwendung (DiGA) wurde am 14.07.2025 nach Prüfung der Nachweise für positive Versorgungseffekte aus dem Verzeichnis gemäß § 139e Absatz 4 Satz 8 des Fünften Buches Sozialgesetzbuch (SGB V) gestrichen. Für die DiGA...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Bewertungsentscheidung des BfArM",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Bewertungsentscheidung des BfArM"
       ],
+      "path_hash": "7d463e27c832",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02078:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung--cdc10aad7c:field_value",
+      "stable_key": "02078:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung-:7d463e27c832:field_value:0",
       "title": "Bewertungsentscheidung des BfArM"
     },
     {
       "content": "******************************************************************************************************************** Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) die Anforderungen an • Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der Technik und • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) als erfüllt. Die Datenverarbeitung findet laut Hersteller ausschließlich in der Europäischen Union statt. Das BfArM bewertet dieses Vorgehen als konform im Sinne der DiGAV. - Als Erprobungsstudie mit dem Titel „EVALUATION OF THE IMPACT OF MEBIX ON HBA1C IN PATIENTS WITH TYPE 2 DIABETES MELLITUS IN DAILY PRACTICE – EVAMEBIX“ soll eine randomisierte kontrollierte Studie (RCT) mit einem 6-monatigen Beobachtungszeitraum durchgeführt werden. Dabei werden 138 Patientinnen und Patienten im Verhältnis 1 : 1 in 2 Gruppen randomisiert. - Die Patientinnen und Patienten der Interventionsgruppe (IG) erhalten Zugang zur Standardversorgung [Teilnahme am Disease-Management-Programm (DMP)] und der DiGA. Die Patientinnen und Patienten der Kontrollgruppe (KG) erhalten Zugang zur Standardversorgung (Teilnahme am DMP) und zusätzlich eine mebix-Placebo-App. Als primärer Endpunkt gilt HbA1c. Für die sekundären (konfirmatorischen) Endpunkte erfolgt ein hierarchisches Testen. Dieses beinhaltet das Körpergewicht, das Summary of Diabetes Self-care Activities Assessment (SDSCA), den Patient Health Questionnaire-9 (PHQ-9) und den Short-Form-12 [SF-12, Mental Component Score (MCS)]. Darüber hinaus werden noch weitere explorative Endpunkte untersucht [u. a. der Physical Component Score (PCS) des SF-12]. Das BfArM bewertet das Studienkonzept grundsätzlich als geeignet, den positiven Versorgungseffekt (pVE) „Verbesserung des Gesundheitszustands“ nachzuweisen. - Für die Begründung der Versorgungsverbesserung wurde ein kontrollierter intraindividueller Vergleich eingereicht. Die Datenauswertung umfasste 61 Patientinnen und Patienten, die alle Teilnehmende am DMP für Diabetes mellitus, Typ 2 waren. Der Beobachtungszeitraum betrug 3 Monate vor Beginn der Nutzung der DiGA und 3 Monate nach Beginn der Nutzung der DiGA. - Von den 61 in die Datenauswertung eingeschlossenen Teilnehmenden wurden 11 im Verlauf der Studie ausgeschlossen. - Der HbA1c veränderte sich in der 3-monatigen Kontrollphase ohne Nutzung der DiGA von 8,7 % auf 8,5 % (p-Wert: 0,80). Im Vergleich dazu verbesserte sich der HbA1c in der 3-monatigen Interventionsphase statistisch signifikant und klinisch relevant von 8,5 % auf 7,4 % (p-Wert: 0,001). Die Anzahl an Patientinnen und Patienten, die sich außerhalb des leitlinienbasierten Bereichs befanden, reduzierte sich um 18 Patientinnen und Patienten. Des Weiteren zeigten sich relevante Veränderungen bezüglich des Body Mass Indexes (BMI) und des Körpergewichts nach Abschluss der Interventionsphase. Die Daten zeigen vorliegend ausreichende Hinweise in Bezug auf den postulierten pVE „Verbesserung des Gesundheitszustands“ (Absenkung des HbA1c). - Entsprechend bewertet das BfArM die in § 139e des Fünften Buches Sozialgesetzbuch (SGB V) sowie in der DiGAV festgelegten Voraussetzungen zur vorläufigen Aufnahme auf Erprobung in das Verzeichnis nach § 139e Absatz 1 SGB V als erfüllt.",
+      "content_fingerprint": "ee1d03e128b4",
       "content_preview": "******************************************************************************************************************** Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das Bundesinstitut für Arzne...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "02078:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "02078:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:1",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_fingerprint": "4b8f5a46c1b0",
       "content_preview": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt"
       ],
+      "path_hash": "9af58630166c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02078:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "02078:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:9af58630166c:field_value:0",
       "title": "Angaben zum Medizinprodukt"
     },
     {
       "content": "Die mebix App unterstützt und befähigt Patientinnen und Patienten mit Diabetes mellitus, einer Herz-Kreislauf-Erkrankung und/oder Adipositas im Selbstmanagement ihrer chronischen Krankheit. Ziel ist eine Lebensstiländerung und damit eine Modifikation von Risikofaktoren herbeizuführen. Im Selbstmanagement müssen Patientinnen und Patienten lernen sich therapeutische Ziele zu setzen und durch geeignete Maßnahmen (z. B. Aktivität/Bewegung, Ernährung) diese Ziele zu erreichen. Dazu sind anerkannte Leitlinien in die App so implementiert worden, dass die Patientin/der Patient eine konkrete Handlungsanleitung für die nächsten Tage, Monate und Jahre erhält. Dies erfolgt in Form von regelmäßiger krankheitsspezifischer Wissensvermittlung mit Umsetzungsempfehlungen, Erinnerungen und Motivationen für den Alltag, gebündelt mit Wissenstests. In zeitlich getakteten Intervallen werden nach und nach Übungsaufgaben vorgeschlagen (z. B. Anlegen eines Bewegungsplans, Festlegung von individuell erreichbaren Gesundheitszielen, Protokollierung von Vitalwerten und aufgenommenen Nahrungsmitteln, Finden von gesünderen Nahrungsalternativen usw.). Dadurch wird eine gezielte Integration in die Lebenswelt der Patientin/des Patienten ermöglicht ohne diese zu überfordern. - Tägliches, wöchentliches und quartalsweises Feedback zeigen der Patientin/dem Patienten Erfolge bzw. Optimierungspotenzial auf ohne in die therapeutischen Hoheitsgebiete der Ärztinnen und Ärzte einzugreifen. Das Feedback erfolgt in allgemeiner Form z. B. „zu viel Zucker“ oder „Sie trinken zu wenig“. Das Feedback wird von allgemein gültigen Grenz- und Richtwerten abgeleitet. Bei Grenzüberschreitungen und anderen Auffälligkeiten wird der Patientin/ dem Patienten empfohlen, die Ärztin oder den Arzt vor Ort oder über einen telemedizinischen Zugang zu konsultieren. Die Inhalte der App werden von medizinischen Expertinnen und Experten fortlaufend aktualisiert und ergänzt. Risikoklasse I nach MDR Trifft nicht zu Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt. Trifft nicht zu DE-MF-000019021 04262352270005",
+      "content_fingerprint": "9e020df924cc",
       "content_preview": "Die mebix App unterstützt und befähigt Patientinnen und Patienten mit Diabetes mellitus, einer Herz-Kreislauf-Erkrankung und/oder Adipositas im Selbstmanagement ihrer chronischen Krankheit. Ziel ist eine Lebensstiländerung und damit eine...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "02078:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "02078:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:2",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_fingerprint": "ba6516ebde5f",
       "content_preview": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA"
       ],
+      "path_hash": "6921f5eac91a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02078:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "02078:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:6921f5eac91a:field_value:0",
       "title": "Weitere Informationen zur DiGA"
     },
     {
       "content": "mebix ist ein strukturiertes, zielgruppenspezifisches und wissenschaftlich untersuchtes Schulungsprogramm für Patientinnen und Patienten mit Diabetes Typ 2. Im Fokus steht die Umsetzung der gelernten Inhalte in den Alltag. Patientinnen und Patienten mit Diabetes Typ 2 wird angeraten, ihren Lebensstil durch mehr Bewegung und Aktivität sowie durch eine gesündere Ernährung zu verändern. Ein erhöhter Blutzuckerspiegel und das Körpergewicht stellen Risikofaktoren für eine Diabetes Typ 2 dar und lassen sich durch eine gesunde Ernährung und Bewegung positiv beeinflussen. - Der Zusammenhang zwischen den genannten Risikofaktoren und einem Fortschreiten der Diabetes wurde wissenschaftlich untersucht und ist in die Empfehlungen medizinischer Leitlinien eingegangen. Auch die Inhalte der sogenannten Disease-Management-Programme für Patientinnen und Patienten mit Diabetes Typ 2 in Deutschland sehen eine Ernährungsberatung, ggf. Raucherberatung und Motivation zur körperlichen Aktivität vor. - Mit Hilfe von mebix sollen sich die Patientinnen und Patienten Wissen über Ursachen, Therapie und Folgeerkrankungen ihrer Erkrankung aneignen und lernen, durch eine Umstellung ihres Lebensstils die vorliegenden Risikofaktoren positiv zu beeinflussen. - Die folgenden medizinisch relevanten Ziele sollen mit dem Einsatz von mebix erreicht werden: • Schaffung des Bewusstseins für einen gesünderen Lebensstil • Verbesserung relevanter Risikofaktoren (Blutfettwerte, Körpergewicht) • Senkung der Wahrscheinlichkeit von Folgeerkrankungen • Verbesserung der Adhärenz (also der Therapietreue) Um die genannten Ziele erreichen zu können, wurden Empfehlungen medizinischer Leitlinien mit führenden Stoffwechselexperten und Sportmedizinern in mebix umgesetzt. mebix sollte über einen Zeitraum von mindestens 3 Monaten am besten täglich eingesetzt werden. Die Patientin/der Patient legt zunächst – ggf. in Absprache mit der Ärztin/dem Arzt – individuelle Ziele fest, z. B. eine Gewichtsabnahme oder Senkung des Blutdrucks. Das zentrale Element von mebix – der Aufgabenplan – stellt dann täglich Tagesaufgaben aus verschiedenen Bereichen im Therapiekalender bereit. Zu den Bereichen zählen: • Kurzfilme und kleine Wissenstests zur Wissensvermittlung • Dokumentation der Ernährung • Bewegungseinheiten Diese Tagesaufgaben sollen von Patientinnen und Patienten über den Tag verteilt erledigt werden, um längerfristig die gesetzten Ziele zu erreichen. Individuelle Bedürfnisse oder Vorlieben der Patientin/des Patienten können in der Auswahl der Tagesaufgaben berücksichtigt werden. Der Medikamentenplan erinnert die Patientin/den Patienten zudem an seine regelmäßige Medikamenteneinnahme. - Tägliche und wöchentliche Auswertungen zeigen der Patientin/dem Patienten Erfolge bzw. Verbesserungsmöglichkeiten auf. Die Auswertung erfolgt in „allgemeiner Form“ z. B. „zu viel fetthaltige Nahrung“ oder „Sie trinken zu wenig“. Diese Rückmeldung wird von allgemein gültigen Grenz- und Richtwerten abgeleitet. Grenzüberschreitungen werden als „Ratschlag die Ärztin/den Arzt zu konsultieren“ ausgegeben. Aufgrund der allgemein gehaltenen Inhalte der Aufgaben und Übungen besteht kein gesundheitliches Risiko für die Patientin/den Patienten. Die App dient nicht der Diagnose und der Überwachung der Diabetes. 1. Aufgabenplan Die zentrale Funktion von mebix stellt der Aufgabenplan dar, der verschiedene, patientenindividuelle Tagesaufgaben koordiniert und diese der Patientin/dem Patienten zur Durchführung auf dem mebix Startscreen bereitstellt. Die Tagesaufgaben stammen aus den Bereichen Wissensvermittlung, Ernährungsdokumentation, Dokumentation der Vitalwerte, Motivation zu Aktivität/Bewegung und Medikationsplan. - 2. Mediathek – Filmreihen, Kurzfilme und Beiträge sowie Wissenstests In Filmreihen zu den verschiedenen Themen in den Bereichen Koronare Herzkrankheit und Diabetes mellitus Typ 2 wird auf unterhaltsame Weise Wissen vermittelt. Jede Filmreihe besteht aus 1 bis 8 Filmbeiträgen. Jeder Filmbeitrag wird mit einem Wissenstest abgeschlossen. Die Inhalte der Mediathek sind auf den Aufgabenplan der Patientin/des Patienten abgestimmt. Bereits angesehene Filmbeiträge und abgeschlossene Wissenstests werden archiviert und können jederzeit erneut angesehen werden. - 3. Zielfestlegung Patientinnen und Patienten setzen – ggf. in Absprache mit ihrer behandelnden Ärztin oder ihrem behandelnden Arzt – Ziele fest, z. B. eine definierte Gewichtsreduktion. Im Anschluss wählen sie aus den Bereichen Bewegung/Aktivität und Ernährung geeignete Maßnahmen aus, über die die festgelegten Ziele erreicht werden sollen. - 4. Aktivitätsplan Die Patientin/der Patient erhält im Rahmen der Therapie Praxisempfehlungen/ leitlinienbasierte Vorschläge zur Steigerung der Aktivität. Über eine Suchfunktion oder aus der von mebix ausgegebenen Vorschlagsliste können Bewegungseinheiten ausgewählt werden. - 5. Dokumentation der Ernährung Die Dokumentation der Ernährung ermöglicht die Ermittlung der Energie- und Ernährungsbilanz. - 6. Medikamentenplan Der von der Ärztin/vom Arzt festgelegte und in mebix von der Patientin/vom Patienten hinterlegte Medikamentenplan erinnert die Patientin/ den Patienten per Push- Nachricht an eine bevorstehende Medikamenteneinnahme. - 7. Tagebuch Über das Tagebuch werden alle gemessenen und empfundenen Vitalwerte dokumentiert. - Weitere Funktionen von mebix sind: • Abrufbare Tages- und Wochenauswertungen zeigen den Erfolg der Therapie, verdeutlichen Potenziale und motivieren die Patientin/den Patienten zu weiteren Maßnahmen und Aktivitäten • Hilfebutton • Schnittstellenfunktion: Die Synchronisation mit Fitnessdiensten und Gadgets wie bspw. Fitnessbänder, Pulsuhren über Google Fit und Apple Health ist möglich. • Bundesverband Niedergelassener Diabetologen e.V., Schwerpunkt MCR, Hainenbachstr. 25, 89522 Heidenheim an der Brenz • Deutsche Gesellschaft für Prävention und Rehabilitation von Herz-Kreislauferkrankungen e.V., Friedrich-Ebert-Ring 38, 56068 Koblenz • Deutsche Rentenversicherung Rheinland, Königsallee 71, 40215 Düsseldorf • Klinik Roderbirken, Roderbirken 1, 42799 Leichlingen American Diabetes Association, 2. Classification and Diagnosis of Diabetes: Standards of Medical Care in Diabetes—2019. American Diabetes Association. Diabetes Care 2019 Jan; 42(Supplement 1), S13-S28. DOI: 10.2337/dc19-S002 - American Diabetes Association 6. Glycemic Targets: Standards of Medical Care in Diabetes— 2020 Diabetes Care Jan 2020, 43 (Supplement 1), S66-S76. DOI: 10.2337/dc20-S006 - Management of hyperglycaemia in type 2 diabetes, 2018. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD) https://doi.org/10.1007/s00125-018-4729-5 - Nationale Versorgungs-Leitlinie (NVL) Typ-2-Diabetes 2. Auflage, Version 1 AWMF-Register- Nr. nvl-001 Träger: BÄK, KBV, AWMF https://www.awmf.org/uploads/tx_szleitlinien/nvl-001l_S3_Typ_2_Diabetes_2021-03.pdf - Praxisempfehlungen DDGDiabetologie und Stoffwechsel Supplement/ S2 Oktober 2021 16.Jahrgan © 2021. Thieme. All rights reserved. - Landgraf R et al. Therapie des Typ-2-Diabetes... Diabetologie 2021; 16 (Suppl 2): S168–S206 | © 2021. Thieme. All rights reserved. Kulzer B et al. Grundlagen des Diabetesmanagements... Diabetologie 2021; 16 (Suppl 2): S99– S109 | © 2021. Thieme. All rights reserved. - Esefeld K et al. Diabetes, Sport und... Diabetologie 2021; 16 (Suppl 2): S299–S307 | © 2021. Thieme. All rights reserved. Schütt K et al. Diabetes mellitus und... Diabetologie 2021; 16 (Suppl 2): S319–S323 | © 2021. Thieme. All rights reserved. Aberle J et al. Adipositas und Diabetes... Diabetologie 2021; 16 (Suppl 2): S290–S298 | © 2021. Thieme. All rights reserved. Kardiovaskuläres Risikomanagement bei Typ-2-Diabetes 2020 / Risikomanagement Diabetes_herzmedizin 4-2020_korrVerlag.pdf S. Jacob, T. Forst - Interdisziplinäre Leitlinie der Qualität S3 zur„Prävention und Therapie der Adipositas“Federführende Fachgesellschaft: Deutsche Adipositas-Gesellschaft e.V. (DAG) und DDG https://www.awmf.org/uploads/tx_szleitlinien/050- 001l_S3_Adipositas_Prävention_Therapie_2014-11-abgelaufen.pdf - Pocket-Leitlinie: Management der arteriellen Hypertonie (Version 2018) Deutsche Gesellschaft für Kardiologie –Herz-und Kreislaufforschung e.V. (2019)/Deutsche Hochdruckliga e.V. ESC/ESH Pocket Guidelines. Management der arteriellen Hypertonie, Version 2018. Börm Bruckmeier Verlag GmbH, Grünwald Eine vollumfängliche Angabe findet sich hier: https://www.mebix.de/app/quellenangaben",
+      "content_fingerprint": "e7afba188e66",
       "content_preview": "mebix ist ein strukturiertes, zielgruppenspezifisches und wissenschaftlich untersuchtes Schulungsprogramm für Patientinnen und Patienten mit Diabetes Typ 2. Im Fokus steht die Umsetzung der gelernten Inhalte in den Alltag. Patientinnen u...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "02078:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "02078:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:3",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_fingerprint": "77cea9e6788d",
       "content_preview": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal"
       ],
+      "path_hash": "4c8dba25a53c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02078:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "02078:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:4c8dba25a53c:field_value:0",
       "title": "Beteiligung vom medizinischen Fachpersonal"
     },
     {
       "content": "Das medizinische Fachpersonal entscheidet über die Therapie der jeweiligen Patientinnen und Patienten und hat mit mebix ein zusätzliches digitales Instrument zur Therapiebegleitung zur Verfügung. Nein",
+      "content_fingerprint": "615b12f67fa2",
       "content_preview": "Das medizinische Fachpersonal entscheidet über die Therapie der jeweiligen Patientinnen und Patienten und hat mit mebix ein zusätzliches digitales Instrument zur Therapiebegleitung zur Verfügung. Nein",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "02078:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "02078:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:4",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfohlen wird.",
+      "content_fingerprint": "ba2dc6143acd",
       "content_preview": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfoh...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise"
       ],
+      "path_hash": "af464e1a8e2f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02078:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-6922aa5eb2:field_value",
+      "stable_key": "02078:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise:af464e1a8e2f:field_value:0",
       "title": "Anwendungshinweise"
     },
     {
       "content": "mebix ist ein Medizinprodukt, das Menschen mit Typ-2-Diabetes zu einem besseren Selbstmanagement und Lebensstil verhelfen soll. Es wurde entwickelt, um die Patientinnen und Patienten beim Selbstmanagement ihrer Erkrankung zu unterstützen. Bei Nutzenden sollte Diabetes mellitus Typ 2 diagnostiziert worden sein und sie sollten bereit sein, ihr Selbstmanagement zu verbessern. - mebix sollte (gemäß Abschnitt „Medizinische Voraussetzung für die Anwendung“ der Gebrauchsanweisung) nicht bei Personen angewendet werden, die nur unter Aufsicht Bewegungsaktivitäten durchführen können oder die schwere geistige und/oder motorische Einschränkungen haben. - mebix sollte entsprechend seiner Zweckbestimmung zur Unterstützung des Selbstmanagements dieser Patientinnen und Patienten und ergänzend zu der üblichen medizinischen Behandlung eingesetzt werden. - Für eine qualitätsgesicherte Anwendung sind zusätzliche Informationen für den Anwender in der Gebrauchsanweisung im Abschnitt „Wichtige Informationen und Warnhinweise“ aufgeführt: u. a. mebix ist kein Ersatz für medizinische Versorgung; Verwenden Sie die Daten des Originalgeräts, um Ihre Medikation anzupassen; Befolgen Sie die Empfehlungen Ihrer Ärztin/Ihres Arztes; mebix ist nicht für Notfälle gedacht; Beachten Sie Ihren Medikationsplan. - Weiterhin sind im Abschnitt „IT-Sicherheit“ der Gebrauchsanweisung Hinweise für den Anwender formuliert, die die Datensicherheit erhöhen. Trifft nicht zu mebix sollte mindestens 3 Monate angewendet werden, um eine anhaltende Verhaltensveränderung zu erreichen. Trifft nicht zu Android: mebix ist mit Android-Geräten der Softwareversion 10 aufwärts kompatibel. Auf Android Geräten ist ein vorinstallierter Google Play Store nötig. Die Google Fit App ist hilfreich, um Schritte zu synchronisieren. - iOS: mebix ist mit iOS-Geräten (iPhone) der Softwareversion iOS 14 aufwärts kompatibel. - Kompatibilität mit Geräten: mebix verwendet zur Erfassung externer Daten (in unserem Fall nur „Schritte“) die Smartphone-interne Schrittzähler-Funktion, um eine möglichst niedrige technische Hürde für die Nutzerinnen und Nutzer zu gewährleisten. Weitere Informationen befinden sich in der Gebrauchsanweisung unter „Installation - Mindestanforderung an IT- und Nutzungsumgebung“: https://www.mebix.de/app/gebrauchsanweisung bzw. im Bereich Interoperabilität: https://www.mebix.de/app/interoperabilitaet Datenexport: mebix erlaubt einen Datenexport in einem interoperablen Format. Der Export erfolgt in menschenlesbarer Form (PDF) und maschinenlesbarer Form. Der Export in lesbarer Form erfolgt per Klick aus der App heraus als tabellarischer Monatsbericht. - Der Export in maschinenlesbarer Funktion erfolgt gemäß des Standards HL7 FHIR R4 im JSON-Format. Dabei stehen das Patientenprofil (https://www.hl7.org/fhir/patient.html) und Beobachtungsdaten (https://www.hl7.org/fhir/observation.html) als FHIR-Ressourcen-Bundle zur Verfügung. Nutzung des MIO DiGA Toolkits. - Die Dokumentation zum maschinenlesbaren Format ist an dieser Stelle einsehbar: https://simplifier.net/mebixapp Datenimport: mebix verwendet zur Erfassung externer Daten (in unserem Fall nur „Schritte“) die Smartphoneinterne Schrittzähler-Funktion, um eine möglichst niedrige technische Hürde für die Nutzer zu gewährleisten. Trifft nicht zu",
+      "content_fingerprint": "9f6bc4ef8a86",
       "content_preview": "mebix ist ein Medizinprodukt, das Menschen mit Typ-2-Diabetes zu einem besseren Selbstmanagement und Lebensstil verhelfen soll. Es wurde entwickelt, um die Patientinnen und Patienten beim Selbstmanagement ihrer Erkrankung zu unterstützen...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "02078:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "02078:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:5",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs. weitere, durch Sie selbst aufzubringende Kosten, sofern Sie bestimmte zusätzlich angebotene und von der Verschreibung nicht abgedeckte Leistungen in Anspruch nehmen möchten.",
+      "content_fingerprint": "39d5160ffdea",
       "content_preview": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs....",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis"
       ],
+      "path_hash": "41c28a502494",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02078:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-429bde377d:field_value",
+      "stable_key": "02078:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis:41c28a502494:field_value:0",
       "title": "Angaben zum Preis"
     },
     {
       "content": "Weitere Nutzung der DiGA für zusätzliche 90 Tage Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage 499,00 € 499,00 € Trifft nicht zu Trifft nicht zu Es fallen keine Mehrkosten für den Patienten an.",
+      "content_fingerprint": "18226f1484dc",
       "content_preview": "Weitere Nutzung der DiGA für zusätzliche 90 Tage Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage 499,00 € 499,00 € Trifft nicht zu Trifft nicht zu Es fallen keine Mehrkosten für den Patienten an.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "02078:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "02078:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:6",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Verbesserungen für Patienten können entweder medizinischer Art sein (z.B. Verringerung von Schmerzen, Beitrag zur Heilung der Erkrankung) oder den Erkennungs- und Behandlungsprozess direkt unterstützen und erleichtern (z.B. Informationen zur individuellen Erkrankungssituation, Unterstützung bei der Einhaltung der zwischen Patient und Arzt gemeinsam vereinbarten therapeutischen Maßnahmen). Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche Weise dies ggfs. bereits wissenschaftlich nachgewiesen wurde. Falls der positive Versorgungseffekt noch nicht abschließend nachgewiesen aber bereits so plausibel dargelegt wurde, dass die DiGA befristet zur entsprechenden Erprobung aufgenommen wurde, wird angegeben, für welchen Zeitraum dies erfolgt ist. Sofern (auch) ein Nachweis zum Erhalt der Erwerbsfähigkeit für die DiGA erbracht wurde oder eine Nachweisführung geplant ist, finden Sie hier eine Beschreibung und nähere Angaben zum Nachweis sowie zum Studiendesign. Sofern die DiGA (auch) ein diagnostisches Instrument darstellt, also mindestens in Teilen dazu vorgesehen ist, Informationen z.B. für die Erkennung oder Diagnose von Krankheitszuständen zu liefern, hat der Hersteller dies benannt und beschrieben sowie Sensitivität und Spezifität als wichtige Bewertungsgrößen angegeben. Medizinischer Nutzen Verbesserung des Gesundheitszustands Der primäre Nutzen besteht darin, dass die Patientin/der Patient durch die Nutzung von mebix den HbA1c Wert deutlich reduziert. Der sekundäre Nutzen von mebix beinhaltet: - Verbesserungen des Körpergewichts, Nüchternblutzuckers, des Body-Maß-Indexes (BMI) und des Taillenumfangs - Verbesserung der Lebensqualität Patient: Patientinnen und Patienten mit Typ-2-Diabetes Intervention: Anwendung von mebix als Teil des Diabetes-Managements Vergleich: Anwendung einer Placebo-App als Teil des Diabetes-Managements Ergebnis: Veränderungen des HbA1c-Wertes Es wird eine vorläufige Listung beantragt. Während der vorläufigen Listung wird eine randomisierte klinisch kontrollierte verblindete prospektive Studie durchgeführt, um die Wirksamkeit von mebix zur Absenkung des HbA1c in einer Klientel von Patientinnen und Patienten mit Diabetes mellitus Typ 2 zu zeigen. Die Studie wird prospektiv über 6 Monate mit einer verblindeten Kontrollgruppe durchgeführt (Interventionszeitraum). Dazu werden Diabetespatientinnen und Diabetespatienten nach Einschlusskriterien in eine Kontrollgruppe und Interventionsgruppe randomisiert. Die Kontrollgruppe erhält Standardversorgung nach Leitlinien der deutschen Diabetesgesellschaft und DMP-Richtlinien und zusätzlich eine mebix-Placebo-App. Die Interventionsgruppe erhält ebenfalls Standardversorgung nach Leitlinien der deutschen Diabetesgesellschaft und DMP-Richtlinien plus eine zusätzliche Therapieunterstützung durch mebix. - In die Studie werden Patientinnen und Patienten mit Diabetes mellitus Typ 2 in einem HbA1c-Bereich von >/= 7,5 % bis </=11 % eingeschlossen. Dieser HbA1c-Bereich entspricht der Patientengruppe für die mebix angemeldet wird und entspricht den Diagnosen ICD-10 E10 und E11. Die Patientinnen und Patienten werden unabhängig von der bestehenden Diabetesdauer eingeschlossen, und es können auch neu diagnostizierte Diabetespatientinnen und Diabetespatienten in die Studie eingeschlossen werden. Es werden 3 Visiten durchgeführt (Baseline, 3 Monate, 6 Monate), während derer klinische Endpunkte kontrolliert werden. Zur Visite V1 (Baseline) und V3 werden dazu PRO-Endpunkte mit Hilfe von Fragebögen analysiert. Basierend auf der Fallzahlplanung werden 138 Personen geteilt in beide Gruppen in die Studie eingeschlossen. Als Zielkriterium für die Berechnung galt eine HbA1c-Absenkung von 0,4 % HbA1c. - Das Studienende ist mit der Durchführung der Visite selbst 3 (V3) nach durchschnittlicher Beobachtungszeit von 6 Monaten erreicht. Anschließend werden die Daten hinsichtlich des primären Endpunkts und der beschriebenen sekundären Endpunkte analysiert und der Evaluationsbericht dem BfArM zur Verfügung gestellt. - Die Studie wird im deutschen Register für klinische Studien (DRKS) und in der europäischen Datenbank registriert. Das Studiendesign wird publiziert. Die Ergebnisse werden in einem deutschsprachigen und englischsprachigen Peer-reviewed-Journal publiziert. Das Evaluationskonzept wurde herstellerunabhängig vom Lehrstuhls für Prävention und Versorgung des Typ-2-Diabetes am Universitätsklinikum Carl-Gustav-Carus der TU Dresden erstellt. Die Durchführung der Studie erfolgt ebenfalls herstellerunabhängig (kein Einfluss des Herstellers auf die Endpunkte der Studie, als auch wissenschaftliche und medizinische Durchführung der Studie), aber in Kooperation mit dem Hersteller (Anwendung von mebix in der Interventionsgruppe). Dabei werden alle Kriterien nach good clinical practice und ethische Rahmenbedingungen eingehalten. - Department of Medicine III Prevention and Care of Diabetes University of Dresden, Fetscherstr. 74, 01307 Dresden Nein 24 Monate (12 Monate initial, 12 Monate Verlängerung)",
+      "content_fingerprint": "1a5e69ee21dc",
       "content_preview": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Ve...",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02078:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "02078:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:0",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird. Die Anforderungen an die Datensicherheit werden durch Vorlage eines Zertifikats gemäß § 139e Absatz 10 Fünftes Buch Sozialgesetzbuch nachgewiesen. Detaillierte Informationen zu den einzelnen Anforderungen können Sie auf der Webseite des Bundesamts für Sicherheit in der Informationstechnik unter der Technischen Richtlinie \"BSI TR-03161\" finden: https://www.bsi.bund.de/dok/TR-03161 Bis zur Vorlage des Zertifikats gelten für den Bereich Datensicherheit die Anforderungen der nachfolgend dargestellten Checkliste. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine technische Möglichkeit einer Verknüpfung oder eines Datenaustauschs mit anderen digitalen Gesundheitsanwendungen. Trifft nicht zu Die digitale Gesundheitsanwendung unterstützt keine Offenbarung von Informationen der betroffenen Person oder über die betroffene Person für die Öffentlichkeit oder eine für die betroffene Person nicht eingrenzbare Personengruppe.",
+      "content_fingerprint": "d50f3e3f236e",
       "content_preview": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen v...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02078:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "02078:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:0",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit > Datensicherheit",
       "level": 4,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit",
         "Datensicherheit"
       ],
+      "path_hash": "8545f237a1b9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02078:informationen-zu-datenschutz-und-datensicherheit-datensicherheit-14af255f91:field_value",
+      "stable_key": "02078:informationen-zu-datenschutz-und-datensicherheit-datensicherheit:8545f237a1b9:field_value:0",
       "title": "Datensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung sieht keine unterschiedlichen Nutzerrollen vor. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Nein",
+      "content_fingerprint": "9bd451707f5f",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung sieht keine...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "02078:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "02078:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:1",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der medizinischen Inhalte und die Gewährleistung der Patientensicherheit. Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_fingerprint": "d6d0ea10d54a",
       "content_preview": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der me...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02078:weitere-informationen-afe954d9f8:section",
+      "stable_key": "02078:weitere-informationen:df3724c46c56:section:0",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Interoperabilität",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Interoperabilität"
       ],
+      "path_hash": "43914a1ae1e9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02078:weitere-informationen-angaben-zur-interoperabilitaet-8867f27412:field_value",
+      "stable_key": "02078:weitere-informationen-angaben-zur-interoperabilitaet:43914a1ae1e9:field_value:0",
       "title": "Angaben zur Interoperabilität"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Trifft nicht zu Der Hersteller hat keine eigenen Profilierungen vorgenommen. Zutreffend",
+      "content_fingerprint": "45339cdac533",
       "content_preview": "Zutreffend Zutreffend Zutreffend Trifft nicht zu Der Hersteller hat keine eigenen Profilierungen vorgenommen. Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "02078:weitere-informationen-afe954d9f8:section",
+      "stable_key": "02078:weitere-informationen:df3724c46c56:section:1",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Robustheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Robustheit"
       ],
+      "path_hash": "d416c871fdb6",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02078:weitere-informationen-angaben-zur-robustheit-0a511476df:field_value",
+      "stable_key": "02078:weitere-informationen-angaben-zur-robustheit:d416c871fdb6:field_value:0",
       "title": "Angaben zur Robustheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "6a9c5574ad06",
       "content_preview": "Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "02078:weitere-informationen-afe954d9f8:section",
+      "stable_key": "02078:weitere-informationen:df3724c46c56:section:2",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zum Verbraucherschutz",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zum Verbraucherschutz"
       ],
+      "path_hash": "22c54da8ff9c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02078:weitere-informationen-angaben-zum-verbraucherschutz-05cd17969e:field_value",
+      "stable_key": "02078:weitere-informationen-angaben-zum-verbraucherschutz:22c54da8ff9c:field_value:0",
       "title": "Angaben zum Verbraucherschutz"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "409aa9901d82",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "02078:weitere-informationen-afe954d9f8:section",
+      "stable_key": "02078:weitere-informationen:df3724c46c56:section:3",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zu Nutzerfreundlichkeit und Barrierefreiheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
       ],
+      "path_hash": "a9d890d721a4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02078:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit-8fe873c531:field_value",
+      "stable_key": "02078:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit:a9d890d721a4:field_value:0",
       "title": "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
     },
     {
       "content": "Zutreffend Zutreffend",
+      "content_fingerprint": "f572c2f88946",
       "content_preview": "Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "02078:weitere-informationen-afe954d9f8:section",
+      "stable_key": "02078:weitere-informationen:df3724c46c56:section:4",
       "title": "Weitere Informationen"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Unterstützung der Leistungserbringende",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Unterstützung der Leistungserbringende"
       ],
+      "path_hash": "bdfe86165ef2",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02078:weitere-informationen-unterstuetzung-der-leistungserbringende-d4e78dfd75:field_value",
+      "stable_key": "02078:weitere-informationen-unterstuetzung-der-leistungserbringende:bdfe86165ef2:field_value:0",
       "title": "Unterstützung der Leistungserbringende"
     },
     {
       "content": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen.",
+      "content_fingerprint": "8b7713a3d90e",
       "content_preview": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Triff...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "02078:weitere-informationen-afe954d9f8:section",
+      "stable_key": "02078:weitere-informationen:df3724c46c56:section:5",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Qualität der medizinischen Inhalte",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Qualität der medizinischen Inhalte"
       ],
+      "path_hash": "964eb34f0609",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02078:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte-a6d05ceeb6:field_value",
+      "stable_key": "02078:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte:964eb34f0609:field_value:0",
       "title": "Angaben zur Qualität der medizinischen Inhalte"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "6a8d1dc0aa28",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "02078:weitere-informationen-afe954d9f8:section",
+      "stable_key": "02078:weitere-informationen:df3724c46c56:section:6",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Patientensicherheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Patientensicherheit"
       ],
+      "path_hash": "96d387fa1378",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02078:weitere-informationen-angaben-zur-patientensicherheit-7a67651ccd:field_value",
+      "stable_key": "02078:weitere-informationen-angaben-zur-patientensicherheit:96d387fa1378:field_value:0",
       "title": "Angaben zur Patientensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "477afefea65b",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 7,
       "source_kind": "visible_directory",
-      "stable_key": "02078:weitere-informationen-afe954d9f8:section",
+      "stable_key": "02078:weitere-informationen:df3724c46c56:section:7",
       "title": "Weitere Informationen"
     },
     {
       "content": "Die digitale Gesundheitsanwendung (DiGA) wurde am 14.07.2025 nach Prüfung der Nachweise für positive Versorgungseffekte aus dem Verzeichnis gemäß § 139e Absatz 4 Satz 8 des Fünften Buches Sozialgesetzbuch (SGB V) gestrichen. Für die DiGA konnte kein positiver Versorgungseffekt nachgewiesen werden.",
+      "content_fingerprint": "b9ab9a01fcdb",
       "content_preview": "Die digitale Gesundheitsanwendung (DiGA) wurde am 14.07.2025 nach Prüfung der Nachweise für positive Versorgungseffekte aus dem Verzeichnis gemäß § 139e Absatz 4 Satz 8 des Fünften Buches Sozialgesetzbuch (SGB V) gestrichen. Für die DiGA...",
       "content_type": "field_value",
+      "display_path": "Änderungshistorie > 14.07.2025 Status der Listung ist „Gestrichen“",
       "level": 4,
       "path": [
         "Änderungshistorie",
         "14.07.2025 Status der Listung ist „Gestrichen“"
       ],
+      "path_hash": "4f44dc8bbb4a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02078:aenderungshistorie-14-07-2025-status-der-listung-ist-gestrichen-2c52155a06:field_value",
+      "stable_key": "02078:aenderungshistorie-14-07-2025-status-der-listung-ist-gestrichen:4f44dc8bbb4a:field_value:0",
       "title": "14.07.2025 Status der Listung ist „Gestrichen“"
     }
   ],
@@ -430,10 +566,10 @@
     "accordions_opened": 0,
     "content_section_count": 34,
     "field_value_count": 16,
-    "rendered_at": "2026-06-22T19:13:52.106562+00:00",
+    "rendered_at": "2026-06-22T20:41:18.610851+00:00",
     "source_kind": "visible_directory"
   },
   "source_kind": "visible_directory",
-  "timestamp": "20260622T190144Z",
+  "timestamp": "20260622T202912Z",
   "url": "https://diga.bfarm.de/de/verzeichnis/02078"
 }

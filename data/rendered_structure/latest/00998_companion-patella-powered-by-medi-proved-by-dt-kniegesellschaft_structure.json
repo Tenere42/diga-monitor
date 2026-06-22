@@ -2,973 +2,1273 @@
   "content_sections": [
     {
       "content": "companion patella powered by medi - proved by Dt. Kniegesellschaft ist eine Digitale Gesundheitsanwendung für Patientinnen und Patienten mit Vorderem Knieschmerz im Alter von 14- 65 Jahren. Basierend auf persönlichen Angaben des Anwenders zu Schmerz- und Belastungsempfinden wird der bewegungstherapeutische Trainingsplan im Verlauf der Therapie kontinuierlich an die individuellen Bedürfnisse der Nutzenden angepasst. Den Patientinnen und Patienten steht neben dem Trainingsbereich eine Fachbibliothek mit Beiträgen zu ihrem Erkrankungsbild zur Verfügung, die diese edukativ unterstützt. Daten zu Schmerz und Funktionseinschränkungen werden innerhalb der Anwendung regelmäßig erfasst und für die Patientinnen und Patienten und deren behandelnde Ärztinnen und Ärzte graphisch aufbereitet. Die Therapie wurde in Zusammenarbeit mit den Fachspezialisten des Komitees Patellofemoral der Deutschen Kniegesellschaft entwickelt und validiert. Die Anwendungsdauer beträgt 90 Tage.",
+      "content_fingerprint": "adc72289c2ba",
       "content_preview": "companion patella powered by medi - proved by Dt. Kniegesellschaft ist eine Digitale Gesundheitsanwendung für Patientinnen und Patienten mit Vorderem Knieschmerz im Alter von 14- 65 Jahren. Basierend auf persönlichen Angaben des Anwender...",
       "content_type": "field_value",
+      "display_path": "prehapp.de",
       "level": 3,
       "path": [
         "prehapp.de"
       ],
+      "path_hash": "17ba57c8e76e",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:prehapp-de-3e206b2830:field_value",
+      "stable_key": "00998:prehapp-de:17ba57c8e76e:field_value:0",
       "title": "prehapp.de"
     },
     {
       "content": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_fingerprint": "26290d5ae490",
       "content_preview": "Hier finden Sie weitergehende Informationen zur DiGA.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "a5e395515816",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung:a5e395515816:field_value:0",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_fingerprint": "bfc5ca33598c",
       "content_preview": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:0",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "companion patella powered by medi - proved by Dt. Kniegesellschaft",
+      "content_fingerprint": "c9c4d5dd14f2",
       "content_preview": "companion patella powered by medi - proved by Dt. Kniegesellschaft",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Name der DiGA im DiGA-Verzeichnis",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Name der DiGA im DiGA-Verzeichnis"
       ],
+      "path_hash": "b055b8e1c744",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v-132a49921b:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v:b055b8e1c744:field_value:0",
       "title": "Name der DiGA im DiGA-Verzeichnis"
     },
     {
       "content": "04.10.2021",
+      "content_fingerprint": "92f5be9ba325",
       "content_preview": "04.10.2021",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Erstmalige Aufnahme in das DiGA-Verzeichnis",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Erstmalige Aufnahme in das DiGA-Verzeichnis"
       ],
+      "path_hash": "3d07f6258e5c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in--0901792b12:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in-:3d07f6258e5c:field_value:0",
       "title": "Erstmalige Aufnahme in das DiGA-Verzeichnis"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Modul",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Modul"
       ],
+      "path_hash": "fdfb704b702c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-modul-0b2f60dd90:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-modul:fdfb704b702c:field_value:0",
       "title": "Modul"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
       ],
+      "path_hash": "46556afef4cb",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-andere-namen-und-modell-ab7acb1427:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-andere-namen-und-modell:46556afef4cb:field_value:0",
       "title": "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
     },
     {
       "content": "Browserbasierte Webanwendung",
+      "content_fingerprint": "c862b048bceb",
       "content_preview": "Browserbasierte Webanwendung",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Art der DiGA",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Art der DiGA"
       ],
+      "path_hash": "600a0be84a95",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga-f41af95c79:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga:600a0be84a95:field_value:0",
       "title": "Art der DiGA"
     },
     {
       "content": "als browserbasierte Webanwendung",
+      "content_fingerprint": "a1a6d386afe6",
       "content_preview": "als browserbasierte Webanwendung",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Die digitale Gesundheitsanwendung ist verfügbar",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Die digitale Gesundheitsanwendung ist verfügbar"
       ],
+      "path_hash": "6d3556c97e9a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit-70a197df25:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit:6d3556c97e9a:field_value:0",
       "title": "Die digitale Gesundheitsanwendung ist verfügbar"
     },
     {
       "content": "Alle Daten werden ausschließlich in Deutschland verarbeitet.",
+      "content_fingerprint": "96006c8b6aab",
       "content_preview": "Alle Daten werden ausschließlich in Deutschland verarbeitet.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Standorte der Datenverarbeitung",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Standorte der Datenverarbeitung"
       ],
+      "path_hash": "eee99405da7f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera-426183d1fc:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera:eee99405da7f:field_value:0",
       "title": "Standorte der Datenverarbeitung"
     },
     {
       "content": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) die Anforderungen an",
+      "content_fingerprint": "3877981d2f4e",
       "content_preview": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) die Anforderungen an",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Bewertungsentscheidung des BfArM",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Bewertungsentscheidung des BfArM"
       ],
+      "path_hash": "7d463e27c832",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung--cdc10aad7c:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung-:7d463e27c832:field_value:0",
       "title": "Bewertungsentscheidung des BfArM"
     },
     {
       "content": "• Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der Technik und • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Gesundheitsanwendung-Verordnung (DiGAV) als erfüllt. Der Hersteller hat bestätigt, dass keine personenbezogenen Daten in ein Land ohne Angemessenheitsbeschluss fließen. - Nach Aufnahme zur Erprobung wurden die Studienergebnisse der Erprobungsstudie zum Ende des Erprobungszeitraums eingereicht. - Es wurde eine zweiarmige, kontrollierte Studie (RCT) mit dem Titel „Effekte eines individuellen app-basierten Therapieprogramms zur Behandlung des Vorderen Knieschmerzes – eine multizentrische prospektiv-randomisierte Kontrollstudie“ eingereicht, die im Deutschen Register Klinischer Studien unter der der Nummer DRKS00027261 registriert ist. Die Beobachtungsdauer betrug 90 Tage. Die Studie lief vom 10.02.2022 bis zum 26.06.2023. - Die Interventionsgruppe (IG) erhielt Zugang zur DiGA und die Kontrollgruppe (KG) erhielt ärztliche Verordnungen zur konventionellen (analogen) Physiotherapie (Krankengymnastik) laut Heilmittelkatalog. Die beiden primären Endpunkte waren die Veränderung des Schmerzes (stärkster Schmerz der vergangenen 24 Stunden), gemessen anhand der Numerical Pain Rating Scale (NPRS), und die Veränderung der Funktionsbeeinträchtigung, gemessen anhand des Kujala Scores. Die beiden sekundären Endpunkte waren die Anzahl eingetretener unerwünschter Ereignisse sowie die Schmerzmitteleinnahme. - In die Studie wurden insgesamt 140 Patientinnen und Patienten eingeschlossen und randomisiert (IG: 73; KG: 67). Von den eingeschlossenen Studienteilnehmenden wurden 4 (2,86 %) aufgrund ihres Widerrufs der Einwilligung von der Datenanalyse ausgeschlossen (IG: 4,11 %; KG: 1,49 %). Von den verbliebenen 136 Teilnehmenden wurden 4 (2,94 %) Patientinnen und Patienten als Drop-outs zum Zeitpunkt nach 90 Tagen identifiziert (IG: 1,43 %; KG: 4,55 %). Die primären Endpunkte wurden zu drei Zeitpunkten [T1 (nach 30 Tagen), T2 (nach 60 Tagen) und T3 (nach 90 Tagen)] erhoben. - Im Rahmen der primären Analyse der RCT gemäß Intention-to-Treat-Prinzip (ITT-Prinzip) ergab sich ein statistisch signifikanter und klinisch relevanter Vorteil der IG gegenüber der KG in Bezug auf die Verbesserung des Gesundheitszustands gemessen anhand einer Reduktion des Schmerzes [Differenz in der Veränderung der NPRS von Baseline: -1,50; 95-%-Konfidenzintervall (KI): -2,18 – -0,81; p-Wert: p < 0,001; Cohen’s d: -0,60] sowie einer Verbesserung hinsichtlich der Funktionsbeeinträchtigung (Differenz in der Veränderung des Kujala Scores von Baseline: 8,68; 95-%-KI: 3,74 – 13,62; p-Wert: p < 0,001; Cohen’s d: 0,54). Dabei wurde bereits ein konservativer Ansatz zum Ersetzen fehlender Werte gewählt. Die relevanten Subgruppenanalysen (Indikation, Alter, Geschlecht, vorherige Physiotherapie) zeigten konsistente und plausible Ergebnisse. - Hinsichtlich der sekundären Endpunkte traten bei 2 Teilnehmenden der IG unterwünschte Ereignisse in Form eines vorübergehenden Anstiegs der Schmerzsymptomatik auf. Die Intervention konnte jedoch in dem einen Fall nach 14-tägiger Karenz und in dem anderen Fall unvermindert fortgesetzt werden. Die Anzahl an Patientinnen und Patienten mit Schmerzmitteleinnahme reduzierte sich in der IG von 12 (17,14 %) auf 4 (5,80 %) Personen und in der KG von 21 (31,82 %) auf 9 (14,29 %) Personen. - Entsprechend bewertet das BfArM die in § 139e des Fünften Buches Sozialgesetzbuch (SGB V) sowie in der DiGAV festgelegten Voraussetzungen zur endgültigen Aufnahme in das Verzeichnis nach § 139e Absatz 1 SGB V für die Indikationen M22.2 Krankheiten im Patellofemoralbereich, M22.4 Chondromalacia patellae, M76.5 Tendinitis der Patellarsehne, M79.66 Schmerzen in den Extremitäten: Unterschenkel [Fibula, Tibia, Kniegelenk] und S83.0 Luxation der Patella in Bezug auf den positiven Versorgungseffekt „Verbesserung des Gesundheitszustands“ als erfüllt.",
+      "content_fingerprint": "c347b0bf6ab0",
       "content_preview": "• Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der Technik und • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Ge...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:1",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_fingerprint": "4b8f5a46c1b0",
       "content_preview": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt"
       ],
+      "path_hash": "9af58630166c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:9af58630166c:field_value:0",
       "title": "Angaben zum Medizinprodukt"
     },
     {
       "content": "Die Digitale Gesundheitsanwendung companion patella ist ein therapeutisches Trainingsprogramm. Die Nutzung ist für Anwender mit diagnostiziertem „Vorderen Knieschmerz“ vorgesehen. Dabei werden den Nutzern individualisierte Therapieinhalte evidenzbasiert und leitliniengerecht für die ärztlich diagnostizierten Indikationen „Patellofemorales Schmerzsyndrom (PFSS)“, „Patellaspitzensyndrom (PSS)“ und „Patellaerstluxation“ zum Eigentraining bereitgestellt. Basierend auf persönlichen Angaben des Anwenders zu Schmerz- und Belastungsempfinden, wird der bewegungstherapeutische Trainingsplan im Verlauf der Therapie kontinuierlich an die individuellen Bedürfnisse des Nutzers angepasst. Zusätzlich bereitet die Digitale Gesundheitsanwendung Daten zu Krankheitsverlauf und Trainingsaktivität für den Nutzer graphisch auf. Neben der Bewegungstherapie bietet ein edukativer Bereich innerhalb der digitalen Gesundheitsanwendung sowohl krankheitsspezifische als auch allgemeine medizinische Wissensartikel.",
+      "content_fingerprint": "d590ec583a0f",
       "content_preview": "Die Digitale Gesundheitsanwendung companion patella ist ein therapeutisches Trainingsprogramm. Die Nutzung ist für Anwender mit diagnostiziertem „Vorderen Knieschmerz“ vorgesehen. Dabei werden den Nutzern individualisierte Therapieinhalt...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Medizinische Zweckbestimmung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Medizinische Zweckbestimmung"
       ],
+      "path_hash": "8bde401e0e97",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:8bde401e0e97:field_value:0",
       "title": "Medizinische Zweckbestimmung"
     },
     {
       "content": "Risikoklasse I nach MDR",
+      "content_fingerprint": "957f4ea485db",
       "content_preview": "Risikoklasse I nach MDR",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Risikoklasse Medizinprodukt",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Risikoklasse Medizinprodukt"
       ],
+      "path_hash": "b60186e2af98",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:b60186e2af98:field_value:0",
       "title": "Risikoklasse Medizinprodukt"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Name der Benannten Stelle",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Name der Benannten Stelle"
       ],
+      "path_hash": "d8a546b6e09b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:d8a546b6e09b:field_value:0",
       "title": "Name der Benannten Stelle"
     },
     {
       "content": "Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt.",
+      "content_fingerprint": "253e4f0d662b",
       "content_preview": "Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:2",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Kennnummer der Benannten Stelle",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Kennnummer der Benannten Stelle"
       ],
+      "path_hash": "f1e2f46935e4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-kennnummer-der-benannte-885261bcc3:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-kennnummer-der-benannte:f1e2f46935e4:field_value:0",
       "title": "Kennnummer der Benannten Stelle"
     },
     {
       "content": "SRN: DE-MF-000006936",
+      "content_fingerprint": "5282c9b9b71b",
       "content_preview": "SRN: DE-MF-000006936",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Identifikationsnummer Eudamed",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Identifikationsnummer Eudamed"
       ],
+      "path_hash": "fc78f31e70f9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-identifikationsnummer-e-c5d45b28a3:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-identifikationsnummer-e:fc78f31e70f9:field_value:0",
       "title": "Identifikationsnummer Eudamed"
     },
     {
       "content": "4262366780019",
+      "content_fingerprint": "e2a9d6a03eec",
       "content_preview": "4262366780019",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > UDI - Unique Device Identifier im Sinne der MDR",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "UDI - Unique Device Identifier im Sinne der MDR"
       ],
+      "path_hash": "d176d35107d9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-udi-unique-device-ident-16a2c37ee0:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-udi-unique-device-ident:d176d35107d9:field_value:0",
       "title": "UDI - Unique Device Identifier im Sinne der MDR"
     },
     {
       "content": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_fingerprint": "ba6516ebde5f",
       "content_preview": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA"
       ],
+      "path_hash": "6921f5eac91a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:6921f5eac91a:field_value:0",
       "title": "Weitere Informationen zur DiGA"
     },
     {
       "content": "Die Digitale Gesundheitsanwendung companion patella ist ein therapeutisches Trainingsprogramm. Die Nutzung ist für Anwendende mit diagnostiziertem „Vorderen Knieschmerz“ vorgesehen. - Dabei werden den Nutzenden individualisierte Therapieinhalte evidenzbasiert und leitliniengerecht für die ärztlich diagnostizierten Indikationen „Patellofemorales Schmerzsyndrom (PFSS)“, „Patellaspitzensyndrom (PSS)“ und „Patellaerstluxation“ zum Eigentraining bereitgestellt. - Basierend auf persönlichen Angaben des Anwendenden zu Schmerz- und Belastungsempfinden, wird der bewegungstherapeutische Trainingsplan im Verlauf der Therapie kontinuierlich an die individuellen Bedürfnisse der Nutzenden angepasst. - Zusätzlich bereitet die digitale Gesundheitsanwendung Daten zu Krankheitsverlauf und Trainingsaktivität für die Nutzenden graphisch auf. - Neben der Bewegungstherapie bietet ein edukativer Bereich innerhalb der digitalen Gesundheitsanwendung sowohl krankheitsspezifische als auch allgemeine medizinische Wissensartikel. - Die Nutzungszeit von companion patella beträgt üblicherweise pro Therapieeinheit rund 25 Minuten. Den Nutzenden wird ein tägliches Training, unterbrochen durch ggf. vorgegebene Regenerationsphasen, zur Verfügung gestellt. Für den optimalen Trainingserfolg empfehlen wir, jeden Tag eine Trainingseinheit zu absolvieren - mindestens sollten die Nutzenden jedoch dreimal pro Woche trainieren - solange vom Arzt nicht anders verordnet. - Die Gesamtdauer der Nutzung beträgt zunächst 90 Tage, soweit vom behandelnden Arzt nicht anders empfohlen oder angeordnet. - Bei companion patella handelt es sich um ein von Physiotherapeuten, Sportwissenschaftlern und Ärzten entwickeltes videogestütztes Trainingsprogramm bei vorderem Knieschmerz. Nach Diagnosestellung durch eine Ärztin oder einen Arzt [Patellaluxation (M22.2; S83.0), Patellofemorales Schmerzsyndrom (M79.66; M22.2; M22.4) oder Patellaspitzensyndrom (M22.2; M76.5)] wird den Patientinenn und Patienten companion patella von diesem verordnet. - Die Nutzenden erhalten u. a. ein für das jeweils vorliegende Krankheitsbild spezifisches Therapieprogramm, bestehend aus Übungen der Bereiche Mobilisation, Kräftigung und Koordination. Dieses Trainingsprogramm passt sich, basierend auf persönlichen Angaben zu Schmerz- und Belastungsempfinden, im Verlauf des Trainings mithilfe eines Algorithmus kontinuierlich an die Bedürfnisse der Nutzenden an. - Der speziell für das jeweilige Krankheitsbild konzipierte physiotherapeutische Therapieplan hat das Ziel, die Belastungsachse des betroffenen Beins zu stabilisieren sowie die Bewegungskette der unteren Extremität funktionell zu verbessern. Ein Teil des Trainingsprogramms dient daneben der Restrukturierung des verletzen Gewebes der Patellarsehne. - Zusätzlich werden den Nutzenden während ihres gesamten Trainingsprogramms wichtige Informationen zu Krankheitsbild, Krankheitsbewältigung und Therapiepfad in einer Fachbibliothek zur Verfügung gestellt. - Das absolvierte Pensum (inkl. Tests) sowie der Schmerzverlauf wird im Bereich Trainingsstatistik graphisch und statistisch abgebildet und kann dort jederzeit eingesehen werden.",
+      "content_fingerprint": "b18da56b7817",
       "content_preview": "Die Digitale Gesundheitsanwendung companion patella ist ein therapeutisches Trainingsprogramm. Die Nutzung ist für Anwendende mit diagnostiziertem „Vorderen Knieschmerz“ vorgesehen. - Dabei werden den Nutzenden individualisierte Therapie...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "ef6363788ef3",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:ef6363788ef3:field_value:0",
       "title": "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
     },
     {
       "content": "• Onboarding: allgemeine Einführung ins Programm, Erklärungen und Hinweise, Erhebung von Daten (Bewegungseinschränkungen, Diagnose etc.) • Training: allgemeine Informationen zur aktuellen Trainingseinheit, Übersicht der in der Trainingseinheit enthaltenen 4 - 8 Übungen, Videoplayer zum Eigentraining der Übungen (anhand des Nutzendenfeedbacks können die Übungen im Trainingsplan hinsichtlich Intensität und Komplexität individuell angepasst werden) • Trainingsverlauf: Statistik zu Trainings- und Schmerzverlauf, Verbesserung der Kniegelenksfunktion • Bibliothek: allgemeine und spezifische Wissensbeiträge zu Krankheitsbild, Therapie- und Trainingskonzept, Selbsthilfe • Therapiebericht: Nutzenden könnne z. B. für Arztbesuche die wesentlichen Therapiedaten (persönliche Daten, Trainings-, Schmerz- und Kniegelenksfunktionsverlauf) als PDF ausleiten • Menü: allgemeine Informationen zu Hersteller und Software, Datenschutzerklärung, Einstellungen zu persönlichen Daten, Einwilligungen, Gebrauchsanweisung, Sicherheit, Support",
+      "content_fingerprint": "df9c049ba256",
       "content_preview": "• Onboarding: allgemeine Einführung ins Programm, Erklärungen und Hinweise, Erhebung von Daten (Bewegungseinschränkungen, Diagnose etc.) • Training: allgemeine Informationen zur aktuellen Trainingseinheit, Übersicht der in der Trainingse...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Funktionen der digitalen Gesundheitsanwendung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Funktionen der digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "21931475406b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:21931475406b:field_value:0",
       "title": "Funktionen der digitalen Gesundheitsanwendung"
     },
     {
       "content": "Orthopädie/Unfallchirurgie Regiomed Klinikum Lichtenfels Prof.-Arneth-Str. 2b 96215 Lichtenfels - Deutsche Kniegesellschaft e.V. Mühlenbogen 47a 21493 Schwarzenbek - Orthopädie/Unfallchirurgie Sozialstiftung Bamberg Buger Str. 80 96049 Bamberg - OrthoPlus München Alte Börse - Lenbachplatz 2a 80333 München - Orthopädie/Unfallchirurgie Uniklinik Freiburg Hugstetterstr. 55 79106 Freiburg - Sporthopaedicum Berlin Bismarckstr. 45 - 47 10627 Berlin - OrthoPlus Bozen Talfergasse 2c 39100 Bozen – IT - Orthopädisches Facharztzentrum Lich Gottlieb-Daimler-Str. 7a 35423 Lich",
+      "content_fingerprint": "b1ef4e8ce9d8",
       "content_preview": "Orthopädie/Unfallchirurgie Regiomed Klinikum Lichtenfels Prof.-Arneth-Str. 2b 96215 Lichtenfels - Deutsche Kniegesellschaft e.V. Mühlenbogen 47a 21493 Schwarzenbek - Orthopädie/Unfallchirurgie Sozialstiftung Bamberg Buger Str. 80 96049 B...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
       ],
+      "path_hash": "32d92eb3d0dc",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:32d92eb3d0dc:field_value:0",
       "title": "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
     },
     {
       "content": "Eine vollständige Auflistung der verwendeten Literatur finden Sie unter https://medi.biz/companion-patella",
+      "content_fingerprint": "9875a207c7e7",
       "content_preview": "Eine vollständige Auflistung der verwendeten Literatur finden Sie unter https://medi.biz/companion-patella",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
       ],
+      "path_hash": "ad43221ee27a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:ad43221ee27a:field_value:0",
       "title": "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
     },
     {
       "content": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_fingerprint": "77cea9e6788d",
       "content_preview": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal"
       ],
+      "path_hash": "4c8dba25a53c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:4c8dba25a53c:field_value:0",
       "title": "Beteiligung vom medizinischen Fachpersonal"
     },
     {
       "content": "Schritt 1: Bei Verordnung Motivierung der Patientinnen und Patienten, sich mit den Inhalten des Programms auseinanderzusetzen und die neugewonnenen Erkenntnisse und Hinweise sowie Trainingsinhalte praktisch und nachhaltig umzusetzen. Optional: Aufklärung über die Inhalte und Wirkungsweise von Bewegungstherapie beim entsprechenden Krankheitsbild. - Schritt 2: Monitoring (optional) Überprüfen des Therapieberichts über die Entwicklung des Vorderen Knieschmerzes sowie des Fortschritts im Programm. Evaluation des Therapieerfolgs und ggf. Einleitung weiterer Maßnahmen (z. B. zusätzliche Orthese, Kombination mit analoger Physiotherapie etc.) nach 45 Tagen. - Schritt 3: Auswertung Überprüfen des Therapieberichts über die Entwicklung des Vorderen Knieschmerzes, sowie Evaluation des Therapieerfolgs und ggf. Einleitung weiterer Maßnahmen (z. B. zusätzliche Orthese oder Fortsetzung der Therapie bzw. Ergänzung durch Physiotherapie) nach 90 Tagen. Dauer: Befragung im Gespräch für jeweils etwa 8 - 15 Minuten",
+      "content_fingerprint": "a83564c0b2a1",
       "content_preview": "Schritt 1: Bei Verordnung Motivierung der Patientinnen und Patienten, sich mit den Inhalten des Programms auseinanderzusetzen und die neugewonnenen Erkenntnisse und Hinweise sowie Trainingsinhalte praktisch und nachhaltig umzusetzen. Opt...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal > Ärztinnen/ Ärzte",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal",
         "Ärztinnen/ Ärzte"
       ],
+      "path_hash": "736d25ff8830",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:736d25ff8830:field_value:0",
       "title": "Ärztinnen/ Ärzte"
     },
     {
       "content": "Ja",
+      "content_fingerprint": "283c735c8901",
       "content_preview": "Ja",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal > Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal",
         "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
       ],
+      "path_hash": "844ec57e702e",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:844ec57e702e:field_value:0",
       "title": "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal > Erforderliche vertragsärztliche Tätigkeiten in Zusammenhang mit der Nutzung der DiGA als Gebührenordnungsposition",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal",
         "Erforderliche vertragsärztliche Tätigkeiten in Zusammenhang mit der Nutzung der DiGA als Gebührenordnungsposition"
       ],
+      "path_hash": "69a1fe5835ac",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:69a1fe5835ac:field_value:0",
       "title": "Erforderliche vertragsärztliche Tätigkeiten in Zusammenhang mit der Nutzung der DiGA als Gebührenordnungsposition"
     },
     {
       "content": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfohlen wird.",
+      "content_fingerprint": "ba2dc6143acd",
       "content_preview": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfoh...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise"
       ],
+      "path_hash": "af464e1a8e2f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-6922aa5eb2:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise:af464e1a8e2f:field_value:0",
       "title": "Anwendungshinweise"
     },
     {
       "content": "Gemäß der Zweckbestimmung ist das digitale Therapieprogramm companion patella für Personen zwischen 14 und 65 Jahren vorgesehen, die unter Vorderem Knieschmerz (Patellofemorales Schmerzsyndrom; Patellaspitzensyndrom; Patellaerstluxation) leiden. - Durch die ärztliche Verordnung werden sowohl Indikationsstellung sichergestellt, als auch die Einhaltung der Kontraindikationen (Auflistung hier im Verzeichnis) gewährleistet. - Im Rahmen des Registrierungsvorgangs wird in den Nutzungsbedingungen und der darin verlinkten Gebrauchsanweisung auf Kontraindikationen und weitere Hinweise zur sicheren Anwendung hingewiesen. - Zusätzlich kann die Gebrauchsanweisung innerhalb der DiGA und auf der Produktseite von companion patella unter https://medi.biz/companion-patella eingesehen werden.",
+      "content_fingerprint": "27ea253e5d8e",
       "content_preview": "Gemäß der Zweckbestimmung ist das digitale Therapieprogramm companion patella für Personen zwischen 14 und 65 Jahren vorgesehen, die unter Vorderem Knieschmerz (Patellofemorales Schmerzsyndrom; Patellaspitzensyndrom; Patellaerstluxation)...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Hinweise für eine sichere Anwendung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Hinweise für eine sichere Anwendung"
       ],
+      "path_hash": "ed840310f43d",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw-13263bcc58:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw:ed840310f43d:field_value:0",
       "title": "Hinweise für eine sichere Anwendung"
     },
     {
       "content": "Folgende weitere Ausschlusskriterien gelten, sofern die behandelnde Ärztin oder der behandelnde Arzt die körperlichen Übungen der DiGA companion patella im speziellen Fall nicht als unbedenklich erachtet: • Chronische oder Akute Erkrankung des Herzkreislaufsystems • Akuter grippaler Infekt mit Fieber und Schüttelfrost • Akute Verletzung (andernorts) mit eingeschränkter körperlicher Belastung • Schwindel • Geistige Einschränkungen, die dazu führt, dass die Übungsanweisung nicht korrekt verstanden werden kann. • Körperliche Einschränkungen die dazu führt, dass die Übung nicht korrekt durchgeführt werden kann • Einschränkung der Wahrnehmung durch Medikamenteneinnahme (Sehen/Hören/Gleichgewicht) • Einschränkung der Wahrnehmung durch Verletzung oder Erkrankung (Sehen/Hören/Oberflächen-Tiefensensibilität) • Einschränkung der Sehfähigkeit, welche durch ein Hilfsmittel nicht ausgeglichen werden kann • Akute bakterielle (Gelenk-) Infektion - Nur nach Rücksprache mit der Ärztin oder dem Arzt: • Erkrankung mit verminderter muskulärer oder knöcherner Belastbarkeit • Manifeste Osteoporose • Ausgeprägte Atemnot • Diabetes die unter körperlicher Belastung dereguliert • Patellareluxation im Rahmen der Therapie • Starke Schmerzen bei gleichzeitigen Entzündungszeichen oder Funktionsverlust im Kniegelenk (NPRS 9-10)",
+      "content_fingerprint": "c3ae28dfd8d5",
       "content_preview": "Folgende weitere Ausschlusskriterien gelten, sofern die behandelnde Ärztin oder der behandelnde Arzt die körperlichen Übungen der DiGA companion patella im speziellen Fall nicht als unbedenklich erachtet: • Chronische oder Akute Erkranku...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Weitere Ausschlusskriterien",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Weitere Ausschlusskriterien"
       ],
+      "path_hash": "77869fcfae9b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-weit-3d658a5f5f:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-weit:77869fcfae9b:field_value:0",
       "title": "Weitere Ausschlusskriterien"
     },
     {
       "content": "Die Anwendungsdauer richtet sich nach Art der Beschwerde und / oder Dauer der Erkrankung und wird deshalb von der Ärztin oder vom Arzt festgelegt. - Die von den eingesetzten Fachexperten empfohlene Anwendungsdauer beträgt 90 Tage. Eine darüberhinausgehende Anwendung kann im Einzelfall empfehlenswert sein.",
+      "content_fingerprint": "2e614eba3276",
       "content_preview": "Die Anwendungsdauer richtet sich nach Art der Beschwerde und / oder Dauer der Erkrankung und wird deshalb von der Ärztin oder vom Arzt festgelegt. - Die von den eingesetzten Fachexperten empfohlene Anwendungsdauer beträgt 90 Tage. Eine d...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Vom Hersteller für erforderlich gehaltene Mindestdauer",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Vom Hersteller für erforderlich gehaltene Mindestdauer"
       ],
+      "path_hash": "b3d7024bc6a2",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom-:b3d7024bc6a2:field_value:0",
       "title": "Vom Hersteller für erforderlich gehaltene Mindestdauer"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Vom Hersteller für erforderlich gehaltene Höchstdauer",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Vom Hersteller für erforderlich gehaltene Höchstdauer"
       ],
+      "path_hash": "368408cd4f6e",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom-:368408cd4f6e:field_value:0",
       "title": "Vom Hersteller für erforderlich gehaltene Höchstdauer"
     },
     {
       "content": "Für die Nutzung von companion patella werden ein internetfähiges Endgerät (bspw. Smartphone, Tablet- Desktop-PC/Laptop oder Ähnliches - minimale Auflösung von 360 x 640) sowie ein Internetzugang benötigt. Eine stabile Verbindung z. B. über WLAN wird empfohlen. - Geräte-Anforderungen: • iOS-Geräte die vor 2016 veröffentlicht wurden werden offiziell nicht unterstützt. • Min. 4 GB Arbeitsspeicher • Minimale Betriebssystem-Versionen: • Android ab Version 6.0 • iOS ab Version 11 • Windows 7 oder neuer • MacOS 10.10 oder neuer • ChromeOS ab Version 90 - Empfohlene Betriebssystem-Versionen: • Android ab Version 10.0 • iOS ab Version 14.5 • macOS 11.3 oder neuer - Minimale Browser-Anforderungen: • Google Chrome ab Version 88 • Microsoft Edge ab Version 88 • Apple Safari ab Version 14.5 - Es wird empfohlen, immer die aktuelle Version des installierten Browsers zu nutzen. Bei bekannten Sicherheitslücken behalten wir uns vor zum Schutz der Patientinnen und Patienten einzelne Versionen auszusperren. - Diese Angaben finden Sie ebenfalls unter: https://medi.biz/companion-patella",
+      "content_fingerprint": "ac471d4d56e2",
       "content_preview": "Für die Nutzung von companion patella werden ein internetfähiges Endgerät (bspw. Smartphone, Tablet- Desktop-PC/Laptop oder Ähnliches - minimale Auflösung von 360 x 640) sowie ein Internetzugang benötigt. Eine stabile Verbindung z. B. üb...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Kompatibilitätszusagen in Bezug auf unterstützte Geräte",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
       ],
+      "path_hash": "cbcc39ae8cdd",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-komp-0b84064997:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-komp:cbcc39ae8cdd:field_value:0",
       "title": "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
     },
     {
       "content": "companion patella verwendet den Standard FHIR® von HL7® in der Version 4.0.1. - JSON Exporte erfolgen stets als DiagnosticReport Objekte, die alle für die Therapie relevanten Daten enthalten. Die für eine Implementierung erforderlichen Informationen können Sie der offiziellen Dokumentation des Standards entnehmen. - Es wird Gebrauch von folgenden Ressourcen gemacht: DiagnosticReport (https://www.hl7.org/fhir/diagnosticreport.html) Patient (https://hl7.org/fhir/patient.html) Observation (https://www.hl7.org/fhir/observation.html) - Implementierungsleitfaden: https://simplifier.net/guide/implementierungsleitfadencompanionpatella/home",
+      "content_fingerprint": "119e418da45d",
       "content_preview": "companion patella verwendet den Standard FHIR® von HL7® in der Version 4.0.1. - JSON Exporte erfolgen stets als DiagnosticReport Objekte, die alle für die Therapie relevanten Daten enthalten. Die für eine Implementierung erforderlichen I...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Möglichkeiten von standardisiertem Datenimport und Datenexport",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Möglichkeiten von standardisiertem Datenimport und Datenexport"
       ],
+      "path_hash": "4096563c9e44",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-moeg-b860ee673e:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-moeg:4096563c9e44:field_value:0",
       "title": "Möglichkeiten von standardisiertem Datenimport und Datenexport"
     },
     {
       "content": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs. weitere, durch Sie selbst aufzubringende Kosten, sofern Sie bestimmte zusätzlich angebotene und von der Verschreibung nicht abgedeckte Leistungen in Anspruch nehmen möchten.",
+      "content_fingerprint": "39d5160ffdea",
       "content_preview": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs....",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis"
       ],
+      "path_hash": "41c28a502494",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-429bde377d:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis:41c28a502494:field_value:0",
       "title": "Angaben zum Preis"
     },
     {
       "content": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+      "content_fingerprint": "4c34fe9d1a3e",
       "content_preview": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis > Preismodell",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis",
         "Preismodell"
       ],
+      "path_hash": "d5d16c880c10",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis-6eb719186f:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis:d5d16c880c10:field_value:0",
       "title": "Preismodell"
     },
     {
       "content": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "content_fingerprint": "341e24b7c036",
       "content_preview": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:3",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "223,49 €",
+      "content_fingerprint": "dcbff291023c",
       "content_preview": "223,49 €",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
       ],
+      "path_hash": "351b8e240460",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-kosten-z-b-starterpaket-5641b0bf97:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-kosten-z-b-starterpaket:351b8e240460:field_value:0",
       "title": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
     },
     {
       "content": "223,49 €",
+      "content_fingerprint": "dcbff291023c",
       "content_preview": "223,49 €",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Nutzung der DiGA für zusätzliche 90 Tage",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
       ],
+      "path_hash": "003e20a2ca5b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-nutzung-der-dig-7a56e117b7:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-nutzung-der-dig:003e20a2ca5b:field_value:0",
       "title": "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Anmerkungen zum Preismodell",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Anmerkungen zum Preismodell"
       ],
+      "path_hash": "277cd06753d5",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-anmerkungen-zum-f3f338f2f7:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-anmerkungen-zum:277cd06753d5:field_value:0",
       "title": "Weitere Anmerkungen zum Preismodell"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Erläuterung Mehrkosten",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Erläuterung Mehrkosten"
       ],
+      "path_hash": "a3f923587875",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-erlaeuterung-mehrkosten-7813cc6074:field_value",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-erlaeuterung-mehrkosten:a3f923587875:field_value:0",
       "title": "Erläuterung Mehrkosten"
     },
     {
       "content": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_fingerprint": "766782bdbccd",
       "content_preview": "Es fallen keine Mehrkosten für den Patienten an.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00998:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:4",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Verbesserungen für Patienten können entweder medizinischer Art sein (z.B. Verringerung von Schmerzen, Beitrag zur Heilung der Erkrankung) oder den Erkennungs- und Behandlungsprozess direkt unterstützen und erleichtern (z.B. Informationen zur individuellen Erkrankungssituation, Unterstützung bei der Einhaltung der zwischen Patient und Arzt gemeinsam vereinbarten therapeutischen Maßnahmen).",
+      "content_fingerprint": "b689545a79f8",
       "content_preview": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Ve...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "b1d946b15fae",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:informationen-zum-positiven-versorgungseffekt-253662cf50:field_value",
+      "stable_key": "00998:informationen-zum-positiven-versorgungseffekt:b1d946b15fae:field_value:0",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche Weise dies ggfs. bereits wissenschaftlich nachgewiesen wurde. Falls der positive Versorgungseffekt noch nicht abschließend nachgewiesen aber bereits so plausibel dargelegt wurde, dass die DiGA befristet zur entsprechenden Erprobung aufgenommen wurde, wird angegeben, für welchen Zeitraum dies erfolgt ist. Sofern (auch) ein Nachweis zum Erhalt der Erwerbsfähigkeit für die DiGA erbracht wurde oder eine Nachweisführung geplant ist, finden Sie hier eine Beschreibung und nähere Angaben zum Nachweis sowie zum Studiendesign. Sofern die DiGA (auch) ein diagnostisches Instrument darstellt, also mindestens in Teilen dazu vorgesehen ist, Informationen z.B. für die Erkennung oder Diagnose von Krankheitszuständen zu liefern, hat der Hersteller dies benannt und beschrieben sowie Sensitivität und Spezifität als wichtige Bewertungsgrößen angegeben.",
+      "content_fingerprint": "0bf9ee1dc4d9",
       "content_preview": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche We...",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "00998:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:0",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Medizinischer Nutzen",
+      "content_fingerprint": "291175316d3d",
       "content_preview": "Medizinischer Nutzen",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Angaben zum positiven Versorgungseffekt",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Angaben zum positiven Versorgungseffekt"
       ],
+      "path_hash": "56d889aab765",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse-5449921803:field_value",
+      "stable_key": "00998:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse:56d889aab765:field_value:0",
       "title": "Angaben zum positiven Versorgungseffekt"
     },
     {
       "content": "Verbesserung des Gesundheitszustands",
+      "content_fingerprint": "58b8b11779d7",
       "content_preview": "Verbesserung des Gesundheitszustands",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Nähere Angaben zum medizinischen Nutzen",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Nähere Angaben zum medizinischen Nutzen"
       ],
+      "path_hash": "c2ba1d4f6a81",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen--90ce965dee:field_value",
+      "stable_key": "00998:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen-:c2ba1d4f6a81:field_value:0",
       "title": "Nähere Angaben zum medizinischen Nutzen"
     },
     {
       "content": "Der medizinische Nutzen von companion patella bezieht sich auf die Reduktion von Schmerzen und Funktionseinschränkungen im Patellofemoralgelenk.",
+      "content_fingerprint": "b6c52cf978fa",
       "content_preview": "Der medizinische Nutzen von companion patella bezieht sich auf die Reduktion von Schmerzen und Funktionseinschränkungen im Patellofemoralgelenk.",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Beschreibung des medizinischen Nutzens",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Beschreibung des medizinischen Nutzens"
       ],
+      "path_hash": "71ee9147d6be",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut-a677995e79:field_value",
+      "stable_key": "00998:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut:71ee9147d6be:field_value:0",
       "title": "Beschreibung des medizinischen Nutzens"
     },
     {
       "content": "Titel: „Effekte eines individuellen app-basierten Therapieprogramms zur Behandlung des Vorderen Knieschmerzes – eine multizentrische prospektiv- randomisierte Kontrollstudie” - Patient: Patientinnen und Patienten zwischen 14 und 65 Jahren mit diagnostiziertem „Vorderen Knieschmerz“ (Patellofemorales Schmerzsyndrom, Patella(erst)luxation, Patellaspitzensyndrom) - Intervention: Zugang zur DiGA companion patella für eine 90-tägige personalisierte Übungstherapie mit evidenzbasierten Übungen und Edukation - Comparison: Zugang zu Krankengymnastik gemäß Heilmittelkatalog - Outcomes: • Reduktion der Schmerzsymptomatik gemessen mittels Numeric Pain Rating Scale (NPRS) • Verbesserung der Kniegelenksfunktion, gemessen anhand des Kujala Scores",
+      "content_fingerprint": "955e8c9153c0",
       "content_preview": "Titel: „Effekte eines individuellen app-basierten Therapieprogramms zur Behandlung des Vorderen Knieschmerzes – eine multizentrische prospektiv- randomisierte Kontrollstudie” - Patient: Patientinnen und Patienten zwischen 14 und 65 Jahre...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Studie/n im PICO-Schema",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Studie/n im PICO-Schema"
       ],
+      "path_hash": "cd33a100690d",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema-2cb668dadb:field_value",
+      "stable_key": "00998:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema:cd33a100690d:field_value:0",
       "title": "Studie/n im PICO-Schema"
     },
     {
       "content": "In einer klinischen, multizentrischen, prospektiv-randomisierten Studie konnten die Überlegenheit zur Regelversorgung und eine signifikante und klinisch relevante Verbesserung des Gesundheitszustands in beiden Studienendpunkten – Schmerz [Numeric Pain Rating Scale (NPRS)] und Funktion (Kujala Score) – nachgewiesen werden. Die Studie ist im Deutschen Register Klinischer Studien unter der der Nummer DRKS00027261 registriert. - Es wurden Patientinnen und Patienten zwischen 14 und 65 Jahren mit diagnostiziertem Vorderen Knieschmerz und einem Wert von ≥ 4 innerhalb der letzten 24 Stunden auf der NPRS in die zweiarmige Studie eingeschlossen. Die Interventionsgruppe (IG) erhielt die DiGA zur ausschließlichen Nutzung, die Kontrollgruppe (KG) erhielt die Standardversorgung. Die Standardversorgung umfasst 1 – -3 Verordnungen Krankengymnastik mit je 6 Einheiten, während die DiGA eine 90-tägige personalisierte Bewegungstherapie inklusive edukativen Inhalten zum Krankheitsbild umfasste. Die primären Endpunkte waren Schmerz, gemessen anhand der (NPRS, sowie Funktionsbeeinträchtigung des betroffenen Kniegelenks, gemessen anhand des Kujala Scores. Die Hauptanalyse basierte auf dem Intention-to-treat-Prinzip. Es wurden insgesamt 140 Teilnehmende randomisiert. Dabei wurden 73 Patientinnen und Patienten der IG und 67 der KG zugeordnet. - Die Verwendung der DiGA companion patella zeigt im Verlauf der Beobachtung eine Verbesserung des klinischen Outcomes (NPRS = -3.67 +-2.66 und Kujala = 18.04 +-14.05, jeweisl p < 0,001). Sowohl der Schmerz am betroffenen Gelenk als auch die Funktion haben sich dabei in der IG klinisch relevant (MCIDs: NPRS < -1,16, Kujala > +8 – 10) und statistisch signifikant im Vergleich zur KG verbessert (Differenz in der Veränderung der NPRS von Baseline: -1,50; 95-%-Konfidenzintervall (KI): -2,18 – -0,81; p-Wert: p < 0,001; Cohen’s d: -0,60; Differenz in der Veränderung des Kujala Scores von Baseline: 8,68; 95-%-KI: 3,74 – 13,62; p-Wert: p < 0,001; Cohen’s d: 0,54). Eine Überlegenheit zur bisherigen Standardtherapie konnte somit nachgewiesen werden. Es zeigt sich über den Beobachtungszeitraum von 3 Monaten eine mittlere Schmerzreduktion durch die Verwendung von companion patella um 62 %. 17 % der Patientinnen und Patienten (12/70) haben die Studie ohne Schmerzen oder Funktionseinschränkung abgeschlossen (entspricht: NPRS = 0, Kujala Score = 100). - In der KG zeigte sich eine mittlere Schmerzreduktion von 36 %. 8 % der Patientinnen und Patienten (5/66) haben die Studie ohne Schmerzen oder Funktionseinschränkung abgeschlossen (NPRS = 0, Kujala-Score = 100). Die Anzahl an Patientinnen und Patienten mit Schmerzmitteleinnahme reduzierte sich in der IG von 12 (17,14 %) auf 4 (5,80 %) Personen und in der KG von 21 (31,82 %) auf 9 (14,29 %) Personen. - Die Überlegenheit der Intervention mit companion patella gegenüber der Regelversorgung zeigte sich unabhängig von Geschlecht oder Alter der Patientinnen und Patienten.",
+      "content_fingerprint": "1dd1bafb0b63",
       "content_preview": "In einer klinischen, multizentrischen, prospektiv-randomisierten Studie konnten die Überlegenheit zur Regelversorgung und eine signifikante und klinisch relevante Verbesserung des Gesundheitszustands in beiden Studienendpunkten – Schmerz...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
       ],
+      "path_hash": "045f4d7c860c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u-804896bae6:field_value",
+      "stable_key": "00998:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u:045f4d7c860c:field_value:0",
       "title": "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
     },
     {
       "content": "Der Veröffentlichungsprozess in einem Peer Reviewed Journal ist eingeleitet.",
+      "content_fingerprint": "041f165a9a7d",
       "content_preview": "Der Veröffentlichungsprozess in einem Peer Reviewed Journal ist eingeleitet.",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Dies ist/sind die vom Hersteller angeführten Studie/n:",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Dies ist/sind die vom Hersteller angeführten Studie/n:"
       ],
+      "path_hash": "1b2b98450658",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:informationen-zum-positiven-versorgungseffekt-dies-ist-sind-die-vom-hersteller-a-81dc280904:field_value",
+      "stable_key": "00998:informationen-zum-positiven-versorgungseffekt-dies-ist-sind-die-vom-hersteller-a:1b2b98450658:field_value:0",
       "title": "Dies ist/sind die vom Hersteller angeführten Studie/n:"
     },
     {
       "content": "Be on Clinical GmbH Lilienstraße 33 91244 Reichenschwand",
+      "content_fingerprint": "3eb1f0f9c401",
       "content_preview": "Be on Clinical GmbH Lilienstraße 33 91244 Reichenschwand",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
       ],
+      "path_hash": "6deb64749945",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:informationen-zum-positiven-versorgungseffekt-herstellerunabhaengige-institution-85ca65af54:field_value",
+      "stable_key": "00998:informationen-zum-positiven-versorgungseffekt-herstellerunabhaengige-institution:6deb64749945:field_value:0",
       "title": "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
     },
     {
       "content": "Nein",
+      "content_fingerprint": "70bb813787b6",
       "content_preview": "Nein",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Die DiGA enthält ein diagnostisches Instrument",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Die DiGA enthält ein diagnostisches Instrument"
       ],
+      "path_hash": "f07a273683a3",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch-eded43f154:field_value",
+      "stable_key": "00998:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch:f07a273683a3:field_value:0",
       "title": "Die DiGA enthält ein diagnostisches Instrument"
     },
     {
       "content": "24 Monate (12 Monate initial, 12 Monate Verlängerung)",
+      "content_fingerprint": "f8a79e4b75f0",
       "content_preview": "24 Monate (12 Monate initial, 12 Monate Verlängerung)",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Länge des Zeitraumes der vorläufigen Aufnahme",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Länge des Zeitraumes der vorläufigen Aufnahme"
       ],
+      "path_hash": "f50c229bb808",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:informationen-zum-positiven-versorgungseffekt-laenge-des-zeitraumes-der-vorlaeuf-d645f91b3b:field_value",
+      "stable_key": "00998:informationen-zum-positiven-versorgungseffekt-laenge-des-zeitraumes-der-vorlaeuf:f50c229bb808:field_value:0",
       "title": "Länge des Zeitraumes der vorläufigen Aufnahme"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird. Die Anforderungen an die Datensicherheit werden durch Vorlage eines Zertifikats gemäß § 139e Absatz 10 Fünftes Buch Sozialgesetzbuch nachgewiesen. Detaillierte Informationen zu den einzelnen Anforderungen können Sie auf der Webseite des Bundesamts für Sicherheit in der Informationstechnik unter der Technischen Richtlinie \"BSI TR-03161\" finden: https://www.bsi.bund.de/dok/TR-03161 Bis zur Vorlage des Zertifikats gelten für den Bereich Datensicherheit die Anforderungen der nachfolgend dargestellten Checkliste.",
+      "content_fingerprint": "32cb1bd13010",
       "content_preview": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen v...",
       "content_type": "field_value",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 3,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "899b23823ae4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:field_value",
+      "stable_key": "00998:informationen-zu-datenschutz-und-datensicherheit:899b23823ae4:field_value:0",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die Zwecke der Speicherung und die maximale Speicherdauer werden unter Angabe der Gründe, warum diese Zwecke eine Legitimation der weiteren Speicherung personenbezogener Daten darstellen, durch den Hersteller gesondert in der Datenschutzerklärung aufgeführt und begründet (vgl. Datenschutzerklärung companion patella - 8. Löschung oder Beschränkung von personenbezogenen Daten). Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine technische Möglichkeit einer Verknüpfung oder eines Datenaustauschs mit anderen digitalen Gesundheitsanwendungen. Zutreffend",
+      "content_fingerprint": "fcd8b16a8df2",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die Zwecke der Speicher...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "00998:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:0",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit > Datensicherheit",
       "level": 4,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit",
         "Datensicherheit"
       ],
+      "path_hash": "8545f237a1b9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:informationen-zu-datenschutz-und-datensicherheit-datensicherheit-14af255f91:field_value",
+      "stable_key": "00998:informationen-zu-datenschutz-und-datensicherheit-datensicherheit:8545f237a1b9:field_value:0",
       "title": "Datensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Bei der digitalen Gesundheitsanwendung handelt es sich um eine rein webbasierte Anwendung. Trifft nicht zu Es kann hier deswegen \"nicht zutreffend\" angegeben werden, weil companion patella über Web-Protokolle aufrufbar ist (HTTPS und WebSocket). Demzufolge sind Methoden der genutzten Protokolle über offene Netze aufrufbaren Diensten aktiviert (1. Spiegelstrich). - Die Angaben sind im Übrigen: - Sind die zulässigen Zeichenkodierungen so restriktiv wie möglich eingeschränkt? JA - Sind für alle über offene Netze aufrufbaren Dienste Grenzwerte für Zugriffsversuche festgelegt? JA - Ist sichergestellt, dass keine sicherheitsrelevanten Kommentare oder Produkt- und Versionsangaben preisgegeben werden? JA - Werden nicht benötigte Dateien regelmäßig gelöscht? JA - Ist sichergestellt, dass diese Dienste durch Suchmaschinen nicht erfasst werden? JA - Wird auf absolute lokale Pfadangaben verzichtet? JA - Wird ein Abruf von Quelltexten ausgeschlossen? JA Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Trifft nicht zu: Für companion patella wurde ein Penetrationstest durchgeführt. Allerdings entspricht die BSI-Vorgehensweise aus dem Jahr 2003 nicht der vom Hersteller gewählten Methodik, welche dem OWASP Testing Guide folgt. Die Anforderung aus Frage 33 des DiGA-Portals ist - bis auf folgende Abweichung – jedoch grundsätzlich erfüllt: - Die gewählte Vorgehensweise weicht vom in der BSI-Studie beschriebenen Durchführungskonzept ab, wonach vorgegebene sog. I-Module und E-Module zur Ausführung kommen (vgl. https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Studien/Penetrationstest/penetrationstest.pdf?__blob=publicationFile&v=3) - Die gewählte Vorgehensweise folgt stattdessen der praxiserprobten Methodik konform zum OWASP Testing Guide (siehe https://owasp.org/www-project-web-security-testing-guide). Der durchgeführte Penetrationstest ist in der Klassifikation des BSI in folgenden Kriterien beschrieben: • Informationsbasis: White-Box • Aggressivität: abwägend • Umfang: fokussiert • Vorgehensweise: offensichtlich • Technik: Netzwerkzugang • Ausgangspunkt: von außen Trifft nicht zu Die digitale Gesundheitsanwendung greift weder auf Sensoren eines mobilen Endgeräts noch auf externe Hardware zu. Trifft nicht zu Die digitale Gesundheitsanwendung tauscht keine Daten mit externer Hardware aus. Zutreffend Zutreffend Zutreffend Nein",
+      "content_fingerprint": "fd9c11885715",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutref...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "00998:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "00998:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:1",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der medizinischen Inhalte und die Gewährleistung der Patientensicherheit.",
+      "content_fingerprint": "0b320ca69209",
       "content_preview": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der me...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen",
       "level": 3,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "f85d7bfd4b8e",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-afe954d9f8:field_value",
+      "stable_key": "00998:weitere-informationen:f85d7bfd4b8e:field_value:0",
       "title": "Weitere Informationen"
     },
     {
       "content": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_fingerprint": "f14ccf82a937",
       "content_preview": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00998:weitere-informationen:df3724c46c56:section:0",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Interoperabilität",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Interoperabilität"
       ],
+      "path_hash": "43914a1ae1e9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-angaben-zur-interoperabilitaet-8867f27412:field_value",
+      "stable_key": "00998:weitere-informationen-angaben-zur-interoperabilitaet:43914a1ae1e9:field_value:0",
       "title": "Angaben zur Interoperabilität"
     },
     {
       "content": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versicherten getragenen Sensoren zur Messung und Übertragung von Vitalwerten (Wearables) austauscht. Zutreffend",
+      "content_fingerprint": "66ae23eeff50",
       "content_preview": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versiche...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00998:weitere-informationen:df3724c46c56:section:1",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Robustheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Robustheit"
       ],
+      "path_hash": "d416c871fdb6",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-angaben-zur-robustheit-0a511476df:field_value",
+      "stable_key": "00998:weitere-informationen-angaben-zur-robustheit:d416c871fdb6:field_value:0",
       "title": "Angaben zur Robustheit"
     },
     {
       "content": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
+      "content_fingerprint": "4b94c32e0d08",
       "content_preview": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digi...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00998:weitere-informationen:df3724c46c56:section:2",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zum Verbraucherschutz",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zum Verbraucherschutz"
       ],
+      "path_hash": "22c54da8ff9c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-angaben-zum-verbraucherschutz-05cd17969e:field_value",
+      "stable_key": "00998:weitere-informationen-angaben-zum-verbraucherschutz:22c54da8ff9c:field_value:0",
       "title": "Angaben zum Verbraucherschutz"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "409aa9901d82",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00998:weitere-informationen:df3724c46c56:section:3",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zu Nutzerfreundlichkeit und Barrierefreiheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
       ],
+      "path_hash": "a9d890d721a4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit-8fe873c531:field_value",
+      "stable_key": "00998:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit:a9d890d721a4:field_value:0",
       "title": "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
     },
     {
       "content": "Zutreffend Zutreffend",
+      "content_fingerprint": "f572c2f88946",
       "content_preview": "Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00998:weitere-informationen:df3724c46c56:section:4",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Unterstützung der Leistungserbringende",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Unterstützung der Leistungserbringende"
       ],
+      "path_hash": "bdfe86165ef2",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-unterstuetzung-der-leistungserbringende-d4e78dfd75:field_value",
+      "stable_key": "00998:weitere-informationen-unterstuetzung-der-leistungserbringende:bdfe86165ef2:field_value:0",
       "title": "Unterstützung der Leistungserbringende"
     },
     {
       "content": "Zutreffend Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen.",
+      "content_fingerprint": "ca647df24266",
       "content_preview": "Zutreffend Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen.",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00998:weitere-informationen:df3724c46c56:section:5",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Qualität der medizinischen Inhalte",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Qualität der medizinischen Inhalte"
       ],
+      "path_hash": "964eb34f0609",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte-a6d05ceeb6:field_value",
+      "stable_key": "00998:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte:964eb34f0609:field_value:0",
       "title": "Angaben zur Qualität der medizinischen Inhalte"
     },
     {
       "content": "Zutreffend Zutreffend Trifft nicht zu Die entsprechenden wissenschaftlichen Quellen werden angegeben. Studien werden nach Abschluss entsprechend u.a. auf der Website veröffentlicht. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "96cbaff9169a",
       "content_preview": "Zutreffend Zutreffend Trifft nicht zu Die entsprechenden wissenschaftlichen Quellen werden angegeben. Studien werden nach Abschluss entsprechend u.a. auf der Website veröffentlicht. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend ...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00998:weitere-informationen:df3724c46c56:section:6",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Patientensicherheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Patientensicherheit"
       ],
+      "path_hash": "96d387fa1378",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-angaben-zur-patientensicherheit-7a67651ccd:field_value",
+      "stable_key": "00998:weitere-informationen-angaben-zur-patientensicherheit:96d387fa1378:field_value:0",
       "title": "Angaben zur Patientensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "477afefea65b",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 7,
       "source_kind": "visible_directory",
-      "stable_key": "00998:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00998:weitere-informationen:df3724c46c56:section:7",
       "title": "Weitere Informationen"
     }
   ],
@@ -978,10 +1278,10 @@
     "accordions_opened": 0,
     "content_section_count": 75,
     "field_value_count": 59,
-    "rendered_at": "2026-06-22T19:06:14.058088+00:00",
+    "rendered_at": "2026-06-22T20:33:43.874131+00:00",
     "source_kind": "visible_directory"
   },
   "source_kind": "visible_directory",
-  "timestamp": "20260622T190144Z",
+  "timestamp": "20260622T202912Z",
   "url": "https://diga.bfarm.de/de/verzeichnis/00998"
 }

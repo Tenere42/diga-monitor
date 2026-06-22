@@ -2,1041 +2,1365 @@
   "content_sections": [
     {
       "content": "ProHerz ist ein täglicher Therapiebegleiter für Patientinnen und Patienten mit Herzinsuffizienz (ICD-10-Codes I50.02, I50.03, I50,04, I50.11, I50.12, I50.13), der als digitale Basistherapie das Selbstmanagement fördert und zugleich als Frühwarnsystem dient, um Veränderungen der Erkrankung selbstständig frühzeitig erkennen zu können. Dazu werden die täglich von den Patientinnen und Patienten gemessenen Vitalwerte (Gewicht, Blutdruck, Herzfrequenz, Sauerstoffsättigung, Temperatur) in mobilen Endgeräten (Smartphone, Tablet) erfasst und automatisiert analysiert. Die eigenständige Dokumentation und Kontrolle des Gesundheitszustands der Patientinnen und Patienten mit dieser chronischen Erkrankung wird damit möglich. Zusätzlich bietet ProHerz auf Basis dieser Daten und dem individuellen Gesundheits- und Therapieprofil ein digital umgesetztes und personalisiertes Gesundheitscoaching und weitere Funktionen zur Risikoprophylaxe. Mit der täglichen Nutzung von ProHerz werden Patientinnen und Patienten fortlaufend im Umgang mit ihrer Erkrankung unterstützt. Sie werden gezielt zu einem besseren Selbstmanagement befähigt. Ein besonderer Fokus liegt dabei auf der konsequenten Umsetzung einer leitliniengerechten Therapie sowie eines gesundheitsförderlichen und leitliniengerechten Verhaltens. Darüber hinaus unterstützt ProHerz dabei, gesundheitliche Veränderungen frühzeitig wahrzunehmen und richtig einzuordnen. Als digitale Therapiebegleitung ist ProHerz so ein Bestandteil der Basistherapie im Versorgungspfad.",
+      "content_fingerprint": "18067eee534c",
       "content_preview": "ProHerz ist ein täglicher Therapiebegleiter für Patientinnen und Patienten mit Herzinsuffizienz (ICD-10-Codes I50.02, I50.03, I50,04, I50.11, I50.12, I50.13), der als digitale Basistherapie das Selbstmanagement fördert und zugleich als F...",
       "content_type": "field_value",
+      "display_path": "procarement.com/",
       "level": 3,
       "path": [
         "procarement.com/"
       ],
+      "path_hash": "cd26af1b0f75",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:procarement-com-edb253920f:field_value",
+      "stable_key": "01823:procarement-com:cd26af1b0f75:field_value:0",
       "title": "procarement.com/"
     },
     {
       "content": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_fingerprint": "26290d5ae490",
       "content_preview": "Hier finden Sie weitergehende Informationen zur DiGA.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "a5e395515816",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung:a5e395515816:field_value:0",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_fingerprint": "bfc5ca33598c",
       "content_preview": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:0",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "ProHerz",
+      "content_fingerprint": "b06663741b09",
       "content_preview": "ProHerz",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Name der DiGA im DiGA-Verzeichnis",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Name der DiGA im DiGA-Verzeichnis"
       ],
+      "path_hash": "b055b8e1c744",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v-132a49921b:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v:b055b8e1c744:field_value:0",
       "title": "Name der DiGA im DiGA-Verzeichnis"
     },
     {
       "content": "15.05.2023",
+      "content_fingerprint": "1fa14f181fcf",
       "content_preview": "15.05.2023",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Erstmalige Aufnahme in das DiGA-Verzeichnis",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Erstmalige Aufnahme in das DiGA-Verzeichnis"
       ],
+      "path_hash": "3d07f6258e5c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in--0901792b12:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in-:3d07f6258e5c:field_value:0",
       "title": "Erstmalige Aufnahme in das DiGA-Verzeichnis"
     },
     {
       "content": "\"ProHerz DiGA-Modell\"",
+      "content_fingerprint": "aab785294fd5",
       "content_preview": "\"ProHerz DiGA-Modell\"",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Modul",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Modul"
       ],
+      "path_hash": "fdfb704b702c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-modul-0b2f60dd90:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-modul:fdfb704b702c:field_value:0",
       "title": "Modul"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
       ],
+      "path_hash": "46556afef4cb",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-andere-namen-und-modell-ab7acb1427:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-andere-namen-und-modell:46556afef4cb:field_value:0",
       "title": "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
     },
     {
       "content": "App",
+      "content_fingerprint": "fc4a695f02a8",
       "content_preview": "App",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Art der DiGA",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Art der DiGA"
       ],
+      "path_hash": "600a0be84a95",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga-f41af95c79:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga:600a0be84a95:field_value:0",
       "title": "Art der DiGA"
     },
     {
       "content": "im Apple App Store Deutschland",
+      "content_fingerprint": "5a4cd838fc6e",
       "content_preview": "im Apple App Store Deutschland",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Die digitale Gesundheitsanwendung ist verfügbar",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Die digitale Gesundheitsanwendung ist verfügbar"
       ],
+      "path_hash": "6d3556c97e9a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit-70a197df25:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit:6d3556c97e9a:field_value:0",
       "title": "Die digitale Gesundheitsanwendung ist verfügbar"
     },
     {
       "content": "im Google Play Store Deutschland",
+      "content_fingerprint": "860262a8c802",
       "content_preview": "im Google Play Store Deutschland",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:1",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Deutschland",
+      "content_fingerprint": "19174e8c9711",
       "content_preview": "Deutschland",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Standorte der Datenverarbeitung",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Standorte der Datenverarbeitung"
       ],
+      "path_hash": "eee99405da7f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera-426183d1fc:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera:eee99405da7f:field_value:0",
       "title": "Standorte der Datenverarbeitung"
     },
     {
       "content": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) die Anforderungen an",
+      "content_fingerprint": "3877981d2f4e",
       "content_preview": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) die Anforderungen an",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Bewertungsentscheidung des BfArM",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Bewertungsentscheidung des BfArM"
       ],
+      "path_hash": "7d463e27c832",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung--cdc10aad7c:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung-:7d463e27c832:field_value:0",
       "title": "Bewertungsentscheidung des BfArM"
     },
     {
       "content": "• Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der Technik und • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) als erfüllt. Die Datenverarbeitung findet laut Hersteller ausschließlich in der Europäischen Union statt. Das BfArM bewertet dieses Vorgehen als konform im Sinne der DiGAV. Für die endgültige Aufnahme wurden die Ergebnisse einer randomisiert kontrollierten Studie mit dem Titel „CARNA - Evaluationsstudie zur Erhebung eines medizinischen Nutzens und positiver Versorgungseffekte einer App-basierten, leitlinienkonformen Patientenunterstützung bei Herzinsuffizienz.“ (DRKS-ID: DRKS00027949) mit einem 6-monatigen Beobachtungszeitraum eingereicht. Dabei wurden 252 Patientinnen und Patienten im Verhältnis 1 : 1 in 2 Gruppen randomisiert. Die Studie lief vom 21.03.2022 bis zum 20.12.2024. Die Patientinnen und Patienten der Interventionsgruppe (IG) erhielten die übliche Regelversorgung, Zugang zur DiGA und Wearables (u. a. Pulsoximeter und Blutdruckmessgerät). Die Patientinnen und Patienten der Kontrollgruppe (KG) erhielten die Regelversorgung, Zugang zu den Wearables und wurden auf die Notwendigkeit regelmäßiger Messungen hingewiesen. Die 4 primären Endpunkte waren die Veränderungen in der körperlichen Aktivität von Baseline zu Woche 24, gemessen mittels 6-Minute-Walk-Test (6MWT), die Veränderung der Lebensqualität von Baseline zu Woche 24, gemessen mittels Kansas City Cardiomyopathy Questionnaire (KCCQ), die Veränderung der Selbstfürsorge von Baseline zu Woche 24, gemessen mittels 9-item European Heart Failure Self-care Behaviour Scale (9-EHFScBS) und das krankheitsbezogenes Wissen zu Woche 24, gemessen mittels Atlanta Heart Failure Knowledge Test (AHFKT). Die sekundären Endpunkte waren die New-York-Heart-Association-Klassifikation (NYHA-Klassifikation), die Veränderung der gesundheitsbezogenen Lebensqualität von Baseline zu Woche 24, gemessen mittels European Quality of Life 5 Dimensions 5 Level Version (EQ-5D-5L), der Shared Decision-Making Questionnaire-9 (SDM-Q-9) und Inanspruchnahme von ambulanter und stationärer Gesundheitsversorgung. Es wurden 252 Patientinnen und Patienten in die Studie eingeschlossen und randomisiert (IG: 127; KG: 125). Im Verlauf der Studie wurden insgesamt 38 (15 %) Patientinnen und Patienten als Drop-outs identifiziert [IG: 22 (17 %); KG: 16 (13 %)]. Die primären Endpunkte 6MWT, KCCQ, 9-EHFScBS wurden zu 2 Zeitpunkten [Baseline (T0) und nach 24 Wochen (T1, primärer Endpunkt)] erhoben. Der primäre Endpunkt AHFKT wurde nur zu T1 erhoben. Im Rahmen der primären Analyse der RCT gemäß Intention-To-Treat-Prinzip (ITT-Prinzip) mit Single value imputation des Mittelwerts der KG von fehlenden Werten, ergab sich ein zum zweiseitigen Signifikanzniveau von 1,25 % statistisch signifikanter und klinisch relevanter Vorteil der IG gegenüber der KG in Bezug auf die Verbesserung des Gesundheitszustands gemessen anhand des 6MWT [adjustierte Mittelwertsdifferenz zu 24 Wochen: 33,11; 98,75-%-Konfidenzintervall (KI): 5,76 – 60,46; p-Wert: 0,003; Cohen‘s d: 0,38; 95-%-KI: 0,14 – 0,63]. Im Rahmen der primären Analyse der RCT gemäß ITT-Prinzip mit Single value imputation des Mittelwerts der KG von fehlenden Werten, ergab sich ein zum zweiseitigen Signifikanzniveau von 1,25 % statistisch signifikanter und klinisch relevanter Vorteil der IG gegenüber der KG in Bezug auf die Verbesserung der Selbstfürsorge gemessen anhand des 9-EHFScBS [adjustierte Mitttelwertsdifferenz zu 24 Wochen: 5,20; 98,75-%-KI: 0,67 – 9,72; p-Wert: 0,004; Cohen‘s d: 0,37; 95-%-KI: 0,12 – 0,61]. Die Sensitivitätsanalysen für die primären Endpunkte, die Subgruppenanalysen, Responderanalysen und die Ergebnisse der sekundären Endpunkte zeigen konsistente Ergebnisse. Eine endgültige Aufnahme der DiGA „ProHerz“ für die Indikationen I50.02: Rechtsherzinsuffizienz ohne Beschwerden, I50.03: Rechtsherzinsuffizienz mit Beschwerden bei stärkerer Belastung, I50.04: Rechtsherzinsuffizienz mit Beschwerden bei leichterer Belastung I50.11: Linksherzinsuffizienz: Ohne Beschwerden, I50.12: Linksherzinsuffizienz: Mit Beschwerden bei stärkerer Belastung, I50.13: Linksherzinsuffizienz: Mit Beschwerden bei leichterer Belastung für die positiven Versorgungseffekte „Verbesserung des Gesundheitszustands“ und „Ausrichtung der Behandlung an Leitlinien und anerkannten Standards“ in das Verzeichnis nach § 139e Absatz 1 SGB V wird unterstützt.",
+      "content_fingerprint": "bf9142601178",
       "content_preview": "• Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der Technik und • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Ge...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:2",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_fingerprint": "4b8f5a46c1b0",
       "content_preview": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt"
       ],
+      "path_hash": "9af58630166c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:9af58630166c:field_value:0",
       "title": "Angaben zum Medizinprodukt"
     },
     {
       "content": "Die App zielt darauf ab, den Gesundheitszustand, die Lebensqualität und das krankheitsspezifische Wissen der Anwender zu verbessern. Krankheitsspezifisches Wissen und Therapietreue werden gefördert. Daher können Warnzeichen und Abweichungen vom Gesundheitszustand frühzeitig erkannt werden. Durch die App werden Verhaltensänderungen ebenso gefördert wie die Souveränität des Anwenders. Krankheitsspezifische Informationen werden regelmäßig erfasst und dem Patienten in leicht verständlicher Form angezeigt. Darüber hinaus werden die Patienten täglich an die Einnahme ihrer Medikamente erinnert und regelmäßig nach ihrem Wohlbefinden befragt. Basierend auf diesen Informationen und dem individuellen Gesundheits- und Therapieprofil werden dem Patienten speziell aufbereitete medizinische Informationen zugesendet. Dies beinhaltet Informationen über den Gesundheitszustand, spezifische Symptome und über die Behandlung. Ergänzt wird dies durch Informationen zur Ernährung, Bewegung und weitere Themen des Alltags, die durch Pop-ups und Nachrichten vermittelt werden. Dies führt einerseits zu einer Anpassung des individuellen gesundheitsbezogenen Verhaltens, andererseits unterstützt es die Früherkennung von Dekompensationen und anderen Verschlechterungen des Gesundheitszustandes. Alle Informationen können durch den Patienten exportiert und an den Arzt übermittelt werden, was Transparenz über den Gesundheitszustand und die Behandlung über den gewählten Zeitraum schafft. Diese Art von Feedback-Schleifen trainieren den Patienten und lassen ihn aktiver am eigenen Gesundheitsmanagement teilnehmen.",
+      "content_fingerprint": "51853e719ff1",
       "content_preview": "Die App zielt darauf ab, den Gesundheitszustand, die Lebensqualität und das krankheitsspezifische Wissen der Anwender zu verbessern. Krankheitsspezifisches Wissen und Therapietreue werden gefördert. Daher können Warnzeichen und Abweichun...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Medizinische Zweckbestimmung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Medizinische Zweckbestimmung"
       ],
+      "path_hash": "8bde401e0e97",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:8bde401e0e97:field_value:0",
       "title": "Medizinische Zweckbestimmung"
     },
     {
       "content": "Risikoklasse I nach MDR",
+      "content_fingerprint": "957f4ea485db",
       "content_preview": "Risikoklasse I nach MDR",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Risikoklasse Medizinprodukt",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Risikoklasse Medizinprodukt"
       ],
+      "path_hash": "b60186e2af98",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:b60186e2af98:field_value:0",
       "title": "Risikoklasse Medizinprodukt"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Name der Benannten Stelle",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Name der Benannten Stelle"
       ],
+      "path_hash": "d8a546b6e09b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:d8a546b6e09b:field_value:0",
       "title": "Name der Benannten Stelle"
     },
     {
       "content": "Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt.",
+      "content_fingerprint": "253e4f0d662b",
       "content_preview": "Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:3",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Kennnummer der Benannten Stelle",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Kennnummer der Benannten Stelle"
       ],
+      "path_hash": "f1e2f46935e4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-kennnummer-der-benannte-885261bcc3:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-kennnummer-der-benannte:f1e2f46935e4:field_value:0",
       "title": "Kennnummer der Benannten Stelle"
     },
     {
       "content": "DE-MF-000040379",
+      "content_fingerprint": "33b600ee6614",
       "content_preview": "DE-MF-000040379",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Identifikationsnummer Eudamed",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Identifikationsnummer Eudamed"
       ],
+      "path_hash": "fc78f31e70f9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-identifikationsnummer-e-c5d45b28a3:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-identifikationsnummer-e:fc78f31e70f9:field_value:0",
       "title": "Identifikationsnummer Eudamed"
     },
     {
       "content": "426067671_ProHerz_FS",
+      "content_fingerprint": "490c69b331fd",
       "content_preview": "426067671_ProHerz_FS",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Basis UDI-DI im Sinne der MDR",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Basis UDI-DI im Sinne der MDR"
       ],
+      "path_hash": "62eb78726756",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-basis-udi-di-im-sinne-d-af1d25d65e:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-basis-udi-di-im-sinne-d:62eb78726756:field_value:0",
       "title": "Basis UDI-DI im Sinne der MDR"
     },
     {
       "content": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_fingerprint": "ba6516ebde5f",
       "content_preview": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA"
       ],
+      "path_hash": "6921f5eac91a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:6921f5eac91a:field_value:0",
       "title": "Weitere Informationen zur DiGA"
     },
     {
       "content": "ProHerz ist eine patientenzentrierte digitale Gesundheitsanwendung für Herzinsuffizienz-Patientinnen und -Patienten (ICD-10-Codes I50.02, I50.03, I50,04, I50.11, I50.12, I50.13) zur Unterstützung beim Umgang mit ihrer chronischen Erkrankung. Mit der Wirkweise der ProHerz- Funktionen werden Patientinnen und Patienten zum Selbstmanagement ihrer Herzinsuffizienz sowie zum leitliniengerechten und gesundheitsfördernden Verhalten befähigt. Damit sollen Notfallsituationen verhindert werden, die durch eine unzureichende Umsetzung des leitliniengerechten Verhaltens, mangelhaftes Krankheitsverständnis oder Unwissenheit bei der Erkennung und Interpretation von Warnanzeichen durch die Patientinnen und Patienten verursacht werden. Die tägliche Nutzung von ProHerz ermöglicht den Betroffenen, sich zum aktiven Manager ihrer Erkrankung zu entwickeln. Auf folgenden digitalen Hauptfunktionen baut das Konzept auf: Die Funktionen des individuellen Gesundheitsmanagements ermöglichen den Patientinnen und Patienten die eigenständige Dokumentation und Kontrolle ihres Gesundheitszustands. ProHerz erinnert sowohl an die Messung der Vitaldaten als auch an die Einnahme von Medikamenten. Bereits vorhandene Messgeräte (Blutdruckmessgerät, Pulsoximeter, Waage, Körperthermometer) zur Erfassung der Vitalparameter können weiterhin genutzt werden und die Werte manuell in ProHerz eingetragen werden. Bei entsprechender technischer Eignung ist auch eine automatisierte Bluetooth Übertragung möglich. Als digitaler Helfer und Teil der Basistherapie unterstützt ProHerz, Elemente der leitliniengerechten Therapie (wie bspw. die tägliche Gewichtsmessung) konsequent umzusetzen. Auf Basis der erfassten Daten und dem individuellen Gesundheits- und Therapieprofil bietet ProHerz ein digital umgesetztes und personalisiertes Gesundheitscoaching für die Nutzenden. Ausgerichtet an verhaltenswissenschaftlichen Ansätzen und patientenzentrierten Elementen wird damit das individuelle gesundheitsbezogene und leitliniengerechte Verhalten gefördert. Für die Nutzenden wird die Entwicklung ihres Gesundheitszustands leicht verständlich visuell aufbereitet. Zusätzlich gibt es Informationen über den Gesundheitszustand, spezifische Symptome und deren Behandlung. Ergänzend werden individualisierte Nachrichten zur Ernährung, Bewegung und weitere Themen des Alltags angeboten. ProHerz orientiert sich daran, dass krankheitsspezifisches Wissen zur Herzinsuffizienz für das Selbstmanagement, die Selbstfürsorge und die Symptomwahrnehmung essenziell ist. Die Patientinnen und Patienten werden zur Früherkennung von Verschlechterungen des eigenen Gesundheitszustands und einer adäquaten Reaktion auf zu erwartende Dekompensationen befähigt. Zudem wird das Risiko reduziert, dass Symptome zu spät erkannt und deshalb erst mit Verzögerung an die Ärztin und den Arzt gemeldet werden. ProHerz unterstützt bei der Risikoprophylaxe durch eine Algorithmik, die visuell auf abweichende bzw. sich verschlechternde Vitalwerte hinweist. An dieser Stelle kann die behandelnde Ärztin und der behandelnde Arzt eingebunden werden, indem die standardmäßig genutzten Grenzwerte der Versorgungsleitlinie für die Patientinnen und Patienten individuell an die Therapieziele angepasst werden können. ProHerz bietet zusätzlich Informationen zum Umgang mit kritischen Werten. Patientinnen und Patienten werden damit zur aktiven Teilnahme am eigenen Gesundheitsmanagement trainiert. Krankheitsspezifische Dokumente sind immer griffbereit, weil sie komplett in der App abgelegt werden können. Mit entsprechend individuell erstellten Berichten können alle notwendigen Informationen den behandelnden Ärztinnen und Ärzten zeitnah zur Verfügung gestellt werden. Somit besteht volle Transparenz hinsichtlich des aktuellen Gesundheitszustands und der Therapie. Brüche im Informationsfluss werden vermieden und notwendige Schritte zur Umsetzung einer optimalen Therapie können umgehend eingeleitet werden.",
+      "content_fingerprint": "c14f84ee43a4",
       "content_preview": "ProHerz ist eine patientenzentrierte digitale Gesundheitsanwendung für Herzinsuffizienz-Patientinnen und -Patienten (ICD-10-Codes I50.02, I50.03, I50,04, I50.11, I50.12, I50.13) zur Unterstützung beim Umgang mit ihrer chronischen Erkrank...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "ef6363788ef3",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:ef6363788ef3:field_value:0",
       "title": "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
     },
     {
       "content": "Individualisiertes Gesundheitsmanagement • Erinnerung zur Messung der Vitalparameter • Erinnerung an Medikamenteneinnahme • Erinnerungssystem zur Einhaltung des Behandlungsplans • Erinnerung an die tägliche Gewichtsmessung • Erfassung des individuellen Wohlbefindens • Erfassung und Anzeige von Vitalparametern in einem Patientinnen- und Patienten- verständlichem Format • Möglichkeit zur Eingabe von Diagnosen • Möglichkeit zur Eingabe eines Medikationsplans - Individualisiertes Gesundheitscoaching: • Visualisierung von Gesundheitsparametern • Anleitung zur richtigen Interpretation von Vitalzeichen • Medizinische Informationen • Motivation durch Visualisierung von Erfolgen • Bereitstellung krankheitsspezifischer Informationen • In-App-Informationen: Wissenserwerb über die Pathologie, Diagnose und Therapie auf täglicher Basis - Risikoprophylaxe: • Anpassung der Grenzwerte der Vitalparameter und Scores durch die behandelnde Ärztin und den behandelnden Arzt nach Nutzerfreigabe • Informationen zu wichtigen Verhaltensregeln bei kritischen Werten • Hinweis bei abweichenden Vitalwerten • Erstellung eines Medizinischen Berichtes oder Notfallpasses in Berichtsform • Verwaltung und Sammeln von medizinischen Dokumenten im Archiv • Bereitstellung von Dokumenten, Berichterstattung an die Ärztinnen und Ärzte nach Nutzerfreigabe",
+      "content_fingerprint": "41226f4c5588",
       "content_preview": "Individualisiertes Gesundheitsmanagement • Erinnerung zur Messung der Vitalparameter • Erinnerung an Medikamenteneinnahme • Erinnerungssystem zur Einhaltung des Behandlungsplans • Erinnerung an die tägliche Gewichtsmessung • Erfassung de...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Funktionen der digitalen Gesundheitsanwendung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Funktionen der digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "21931475406b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:21931475406b:field_value:0",
       "title": "Funktionen der digitalen Gesundheitsanwendung"
     },
     {
       "content": "Nachfolgend finden Sie eine Auswahl der Quellen für die in der DiGA umgesetzten medizinischen Inhalte und Verfahren: - Bundesärztekammer (BÄK) Arbeitsgemeinschaft der Deutschen Ärztekammern; Kassenärztliche Bundesvereinigung (KBV); Arbeitsgemeinschaft der Wissenschaftlichen Medizinischen Fachgesellschaften (AWMF) Nationale VersorgungsLeitlinie Chronische Herzinsuffizienz [Internet]. 2019 [cited 2021 August 31]. Available from: www.herzinsuffizienz.versorgungsleitlinien.de. DOI: 10.6101/AZQ/000467. - Bundesärztekammer (BÄK), Kassenärztliche Bundesvereinigung (KBV), Arbeitsgemeinschaft der Wissenschaftlichen Medizinischen Fachgesellschaften (AWMF) Herzschwäche Patientenleitlinie zur Nationalen VersorgungsLeitlinie [Internet]. 2022 [cited 2022 October 10]. available from: www.herzinsuffizienz.versorgungsleitlinien.de. DOI: 10.6101/AZQ/000471. - Koehler F, Koehler K, Deckwart O, Prescher S, Wegscheider K, Kirwan B-A et al. Efficacy of telemedical interventional management in patients with heart failure (TIM-HF2): a randomised, controlled, parallel-group, unmasked trial. The Lancet. 2018; 392 (10152): 1047–1057. DOI: 10.1016/S0140-6736(18)31880-4. - Das vollständige Literaturverzeichnis von ProHerz können Sie unter https://procarement.com/wissenschaft einsehen.",
+      "content_fingerprint": "d3dd415bffe4",
       "content_preview": "Nachfolgend finden Sie eine Auswahl der Quellen für die in der DiGA umgesetzten medizinischen Inhalte und Verfahren: - Bundesärztekammer (BÄK) Arbeitsgemeinschaft der Deutschen Ärztekammern; Kassenärztliche Bundesvereinigung (KBV); Arbei...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
       ],
+      "path_hash": "ad43221ee27a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:ad43221ee27a:field_value:0",
       "title": "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
     },
     {
       "content": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_fingerprint": "77cea9e6788d",
       "content_preview": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal"
       ],
+      "path_hash": "4c8dba25a53c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:4c8dba25a53c:field_value:0",
       "title": "Beteiligung vom medizinischen Fachpersonal"
     },
     {
       "content": "• Verordnung und Aufklärungsgespräch durch die Ärztinnen und Ärzte:",
+      "content_fingerprint": "7d736b834d47",
       "content_preview": "• Verordnung und Aufklärungsgespräch durch die Ärztinnen und Ärzte:",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal > Ärztinnen/ Ärzte",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal",
         "Ärztinnen/ Ärzte"
       ],
+      "path_hash": "736d25ff8830",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:736d25ff8830:field_value:0",
       "title": "Ärztinnen/ Ärzte"
     },
     {
       "content": "ProHerz ist eine patientenzentrierte Therapiebegleitung für alle Patientinnen und Patienten mit Herzinsuffizienz (ICD-10-Codes I50.02, I50.03, I50,04, I50.11, I50.12, I50.13) und wird nach der Feststellung der Diagnose verschrieben. Die Betroffenen werden über die Zielsetzung, Wirkungsweise und Nutzen von ProHerz informiert. Mit der Aufklärung wird die Wichtigkeit der täglichen Messungen innerhalb der Therapie herausgestellt. Zudem werden die Patientinnen und Patienten motiviert, sich mit den Inhalten von ProHerz auseinanderzusetzen und diese in die Alltagsroutine zu integrieren. • Individualisierung und Verlaufskontrolle (gemeinsam mit den Ärztinnen und Ärzten): Festlegung, Eingabe und Kontrolle vom Trockengewicht der Patientinnen und Patienten (im rekompensierten Zustand ohne Wassereinlagerung), auf das sich der Algorithmus der App bezieht. Anpassung der standardisierten leitlinienkonformen Grenzwerte der Vitalparameter an die individuellen Therapieziele der Patientinnen und Patienten",
+      "content_fingerprint": "7f5332d98824",
       "content_preview": "ProHerz ist eine patientenzentrierte Therapiebegleitung für alle Patientinnen und Patienten mit Herzinsuffizienz (ICD-10-Codes I50.02, I50.03, I50,04, I50.11, I50.12, I50.13) und wird nach der Feststellung der Diagnose verschrieben. Die ...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:4",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Ja",
+      "content_fingerprint": "283c735c8901",
       "content_preview": "Ja",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
       ],
+      "path_hash": "04da9debc7df",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-erforderlichkeit-vertra-723a5fea2b:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-erforderlichkeit-vertra:04da9debc7df:field_value:0",
       "title": "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Erforderliche vertragsärztliche Tätigkeiten in Zusammenhang mit der Nutzung der DiGA als Gebührenordnungsposition",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Erforderliche vertragsärztliche Tätigkeiten in Zusammenhang mit der Nutzung der DiGA als Gebührenordnungsposition"
       ],
+      "path_hash": "b566c576e35a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-erforderliche-vertragsa-89592869e6:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-erforderliche-vertragsa:b566c576e35a:field_value:0",
       "title": "Erforderliche vertragsärztliche Tätigkeiten in Zusammenhang mit der Nutzung der DiGA als Gebührenordnungsposition"
     },
     {
       "content": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfohlen wird.",
+      "content_fingerprint": "ba2dc6143acd",
       "content_preview": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfoh...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise"
       ],
+      "path_hash": "af464e1a8e2f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-6922aa5eb2:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise:af464e1a8e2f:field_value:0",
       "title": "Anwendungshinweise"
     },
     {
       "content": "ProHerz von ProCarement ist eine Software-Applikation, welche für den Einsatz auf mobilen Endgeräten für Patientinnen und Patienten mit Herzinsuffizienz (ICD-10-Code I50.-) konzipiert wurde.",
+      "content_fingerprint": "6bcf551c854e",
       "content_preview": "ProHerz von ProCarement ist eine Software-Applikation, welche für den Einsatz auf mobilen Endgeräten für Patientinnen und Patienten mit Herzinsuffizienz (ICD-10-Code I50.-) konzipiert wurde.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Hinweise für eine sichere Anwendung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Hinweise für eine sichere Anwendung"
       ],
+      "path_hash": "ed840310f43d",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw-13263bcc58:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw:ed840310f43d:field_value:0",
       "title": "Hinweise für eine sichere Anwendung"
     },
     {
       "content": "Für eine qualitätsgesicherte Anwendung gilt, dass die DiGA ProHerz bei den folgenden Kontraindikationen und weiteren Ausschlusskriterien nicht angewendet werden darf: • Chronische Nierenkrankheit, Stadium 5, ICD-10-Code N18.5 • Personen unter 18 Jahren • Frauen in der Schwangerschaft oder Stillzeit • Personen, mit zu geringen Deutschkenntnissen • Personen mit kognitiver Beeinträchtigung mit der Unfähigkeit eine Einwilligung zu geben • Personen mit der Unfähigkeit oder fehlenden Bereitschaft zur Durchführung der App- Nutzung (z.B. Blindheit, eingeschränkte informelle Selbstbestimmung) • Personen, die ein Herzunterstützungssystem (LVAD, RVAD, BiVAD) implantiert haben Zur Einweisung in die Anwendung stehen dem Verwender die Gebrauchsanweisung, Erklärvideos und der telefonische, technische Support durch das ProCarement CareCenter zur Verfügung. Alle Informationen sind für Patientinnen und Patienten unter https://procarement.com/patientinnen/hilfe/ und für Ärztinnen und Ärzte sowie medizinisches Fachpersonal unter https://procarement.com/hcp/support/ abrufbar.",
+      "content_fingerprint": "e0571140e7ac",
       "content_preview": "Für eine qualitätsgesicherte Anwendung gilt, dass die DiGA ProHerz bei den folgenden Kontraindikationen und weiteren Ausschlusskriterien nicht angewendet werden darf: • Chronische Nierenkrankheit, Stadium 5, ICD-10-Code N18.5 • Personen ...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:5",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Von der Nutzung von ProHerz sind zudem folgende Personen ausgeschlossen: • Personen unter 18 Jahren • Frauen in der Schwangerschaft oder Stillzeit • Personen, mit zu geringen Deutschkenntnissen • Personen mit kognitiver Beeinträchtigung mit der Unfähigkeit eine Einwilligung zu geben • Personen mit der Unfähigkeit oder fehlenden Bereitschaft zur Durchführung der App- Nutzung (z.B. Blindheit, eingeschränkte informelle Selbstbestimmung) • Personen, die ein Herzunterstützungssystem (LVAD, RVAD, BiVAD) implantiert haben • I50.05: Rechtsherzinsuffizienz mit Beschwerden in Ruhe, NYHA-Stadium IV • I50.14: Mit Beschwerden in Ruhe, NYHA-Stadium IV",
+      "content_fingerprint": "4073185353ef",
       "content_preview": "Von der Nutzung von ProHerz sind zudem folgende Personen ausgeschlossen: • Personen unter 18 Jahren • Frauen in der Schwangerschaft oder Stillzeit • Personen, mit zu geringen Deutschkenntnissen • Personen mit kognitiver Beeinträchtigung ...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Ausschlusskriterien",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Ausschlusskriterien"
       ],
+      "path_hash": "1e0081a02ca6",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-ausschlusskrite-693acf81d5:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-ausschlusskrite:1e0081a02ca6:field_value:0",
       "title": "Weitere Ausschlusskriterien"
     },
     {
       "content": "Für nachhaltige Effekte empfehlen wir die Nutzung von mindestens 6 Monaten.",
+      "content_fingerprint": "79543e61250a",
       "content_preview": "Für nachhaltige Effekte empfehlen wir die Nutzung von mindestens 6 Monaten.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Vom Hersteller für erforderlich gehaltene Mindestdauer",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Vom Hersteller für erforderlich gehaltene Mindestdauer"
       ],
+      "path_hash": "c8361568278f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-vom-hersteller-fuer-erf-bbada5828c:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-vom-hersteller-fuer-erf:c8361568278f:field_value:0",
       "title": "Vom Hersteller für erforderlich gehaltene Mindestdauer"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Vom Hersteller für erforderlich gehaltene Höchstdauer",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Vom Hersteller für erforderlich gehaltene Höchstdauer"
       ],
+      "path_hash": "5dafed8796c1",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-vom-hersteller-fuer-erf-bbada5828c:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-vom-hersteller-fuer-erf:5dafed8796c1:field_value:0",
       "title": "Vom Hersteller für erforderlich gehaltene Höchstdauer"
     },
     {
       "content": "• Android Die App ist mit Smartphones und Tablets mit dem Betriebssystem Android ab Version 10.0 kompatibel.",
+      "content_fingerprint": "d4ae26d652a9",
       "content_preview": "• Android Die App ist mit Smartphones und Tablets mit dem Betriebssystem Android ab Version 10.0 kompatibel.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Kompatibilitätszusagen in Bezug auf unterstützte Geräte",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
       ],
+      "path_hash": "fdfd0a3e19b3",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-kompatibilitaetszusagen-2e7efe3e1b:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-kompatibilitaetszusagen:fdfd0a3e19b3:field_value:0",
       "title": "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
     },
     {
       "content": "• iOS Die App ist mit Smartphones und Tablets mit dem Betriebssystem iOS ab Version 13.6 kompatibel. • Achtung Die App ProHerz kann ausschließlich über den Apple App Store bzw. Google Play installiert werden. • Wearables Die App kann mit empfohlenen Messgeräten oder Messgeräten, welche die standardisierte Spezifikation der Bluetooth® Special Interest Group (SIG) ansprechen können, zur Übertragung von Vitalparametern via Bluetooth verbunden bzw. genutzt werden. Ebenfalls ist es für die Nutzerinnen und Nutzer möglich, die eigenen Messgeräte zu nutzen und die Werte jederzeit manuell einzutragen. • ProPortal (Webportal für Ärztinnen und Ärzte) Das Webportal ist mit allen gängigen Browsern in den jeweils aktuellen Versionen kompatibel. • Support Sollten Sie Fragen zur Kompatibilität oder ein Problem bei der Nutzung von ProHerz haben, dann kontaktieren Sie uns bitte als Patientin und Patient unter https://procarement.com/patientinnen/hilfe/ und als Ärztin und Arzt oder medizinisches Fachpersonal unter https://procarement.com/hcp/support/ Genauere Angaben und weitere Informationen zur Kompatibilität von ProHerz können Sie zudem jederzeit unter https://procarement.com/kompatibilitaet abrufen und einsehen.",
+      "content_fingerprint": "83ed4b2a5f08",
       "content_preview": "• iOS Die App ist mit Smartphones und Tablets mit dem Betriebssystem iOS ab Version 13.6 kompatibel. • Achtung Die App ProHerz kann ausschließlich über den Apple App Store bzw. Google Play installiert werden. • Wearables Die App kann mit...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:6",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Für die Datenportabilität haben Patientinnen und Patienten die Möglichkeit einen Auszug sämtlicher in ProHerz hinterlegten Personen- und Gesundheitsdaten zu exportieren. Der Prozess kann entweder direkt aus der App heraus oder über den persönlichen Kontakt mit dem ProCarement Support (z.B. E-Mail) angestoßen werden.",
+      "content_fingerprint": "244b5d7dd0ae",
       "content_preview": "Für die Datenportabilität haben Patientinnen und Patienten die Möglichkeit einen Auszug sämtlicher in ProHerz hinterlegten Personen- und Gesundheitsdaten zu exportieren. Der Prozess kann entweder direkt aus der App heraus oder über den p...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Möglichkeiten von standardisiertem Datenimport und Datenexport",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Möglichkeiten von standardisiertem Datenimport und Datenexport"
       ],
+      "path_hash": "569132413e54",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-moeglichkeiten-von-stan-a818cc9f27:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-moeglichkeiten-von-stan:569132413e54:field_value:0",
       "title": "Möglichkeiten von standardisiertem Datenimport und Datenexport"
     },
     {
       "content": "Zur Herstellung der Interoperabilität in menschenlesbarer Form wird den Patientinnen und Patienten der Export als PDF zur Verfügung gestellt. ProCarement erstellt hierfür eine Datenauszug-Datei und verschlüsselt diese mit einem Passwort. Informationen zu diesem Passwort finden die Nutzerinnen und Nutzer in der zugesandten E-Mail, damit die Daten sicher abgeholt werden können. Zur Herstellung der Interoperabilität in maschinenlesbarer Form ermöglicht ProHerz den Datenaustausch im interoperablen FHIR-Standard. Dafür werden die FHIR-Ressourcen entsprechend des KBV MIO DiGA Toolkit gebündelt als JSON-Datei im Auszug abgelegt. Die Angaben zum FHIR-Profil wurden unter folgendem Link veröffentlicht: https://simplifier.net/proherz . Der Implementierungsleitfaden kann über den ProCarement Support unter support@procarement.com angefragt werden. Zur Datenübertragung der Zusatzgeräte (Blutdruckmessgeräte, Pulsoxymeter, Waage) verwendet die App die standardisierten Spezifikationen der Bluetooth® Special Interest Group (SIG). Genauere Angaben und weitere Informationen zur Interoperabilität und Kompatibilität von ProHerz können zudem jederzeit unter https://procarement.com/kompatibilitaet abgerufen und eingesehen werden.",
+      "content_fingerprint": "89b1281f4c3d",
       "content_preview": "Zur Herstellung der Interoperabilität in menschenlesbarer Form wird den Patientinnen und Patienten der Export als PDF zur Verfügung gestellt. ProCarement erstellt hierfür eine Datenauszug-Datei und verschlüsselt diese mit einem Passwort....",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 7,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:7",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen"
       ],
+      "path_hash": "3e9803f91215",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zu-den-von-der--1e522ad432:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zu-den-von-der-:3e9803f91215:field_value:0",
       "title": "Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen"
     },
     {
       "content": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs. weitere, durch Sie selbst aufzubringende Kosten, sofern Sie bestimmte zusätzlich angebotene und von der Verschreibung nicht abgedeckte Leistungen in Anspruch nehmen möchten.",
+      "content_fingerprint": "39d5160ffdea",
       "content_preview": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs....",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis"
       ],
+      "path_hash": "41c28a502494",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-429bde377d:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis:41c28a502494:field_value:0",
       "title": "Angaben zum Preis"
     },
     {
       "content": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "content_fingerprint": "341e24b7c036",
       "content_preview": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis > Preismodell",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis",
         "Preismodell"
       ],
+      "path_hash": "d5d16c880c10",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis-6eb719186f:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis:d5d16c880c10:field_value:0",
       "title": "Preismodell"
     },
     {
       "content": "458,00 €",
+      "content_fingerprint": "8d3627bdeedd",
       "content_preview": "458,00 €",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis > Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis",
         "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
       ],
+      "path_hash": "a52cea70fa1c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-koste-12efad84b5:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-koste:a52cea70fa1c:field_value:0",
       "title": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis > Weitere Anmerkungen zum Preismodell",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis",
         "Weitere Anmerkungen zum Preismodell"
       ],
+      "path_hash": "1859e5b8f2f3",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-weite-a94dbec841:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-weite:1859e5b8f2f3:field_value:0",
       "title": "Weitere Anmerkungen zum Preismodell"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis > Erläuterung Mehrkosten",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis",
         "Erläuterung Mehrkosten"
       ],
+      "path_hash": "a3e195ade301",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-erlae-be49aad321:field_value",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-erlae:a3e195ade301:field_value:0",
       "title": "Erläuterung Mehrkosten"
     },
     {
       "content": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_fingerprint": "766782bdbccd",
       "content_preview": "Es fallen keine Mehrkosten für den Patienten an.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 8,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01823:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:8",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Verbesserungen für Patienten können entweder medizinischer Art sein (z.B. Verringerung von Schmerzen, Beitrag zur Heilung der Erkrankung) oder den Erkennungs- und Behandlungsprozess direkt unterstützen und erleichtern (z.B. Informationen zur individuellen Erkrankungssituation, Unterstützung bei der Einhaltung der zwischen Patient und Arzt gemeinsam vereinbarten therapeutischen Maßnahmen).",
+      "content_fingerprint": "b689545a79f8",
       "content_preview": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Ve...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "b1d946b15fae",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:informationen-zum-positiven-versorgungseffekt-253662cf50:field_value",
+      "stable_key": "01823:informationen-zum-positiven-versorgungseffekt:b1d946b15fae:field_value:0",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche Weise dies ggfs. bereits wissenschaftlich nachgewiesen wurde. Falls der positive Versorgungseffekt noch nicht abschließend nachgewiesen aber bereits so plausibel dargelegt wurde, dass die DiGA befristet zur entsprechenden Erprobung aufgenommen wurde, wird angegeben, für welchen Zeitraum dies erfolgt ist. Sofern (auch) ein Nachweis zum Erhalt der Erwerbsfähigkeit für die DiGA erbracht wurde oder eine Nachweisführung geplant ist, finden Sie hier eine Beschreibung und nähere Angaben zum Nachweis sowie zum Studiendesign. Sofern die DiGA (auch) ein diagnostisches Instrument darstellt, also mindestens in Teilen dazu vorgesehen ist, Informationen z.B. für die Erkennung oder Diagnose von Krankheitszuständen zu liefern, hat der Hersteller dies benannt und beschrieben sowie Sensitivität und Spezifität als wichtige Bewertungsgrößen angegeben.",
+      "content_fingerprint": "0bf9ee1dc4d9",
       "content_preview": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche We...",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "01823:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:0",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Patientenrelevante Struktur- und Verfahrensverbesserung",
+      "content_fingerprint": "3d6e23bd735d",
       "content_preview": "Patientenrelevante Struktur- und Verfahrensverbesserung",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Angaben zum positiven Versorgungseffekt",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Angaben zum positiven Versorgungseffekt"
       ],
+      "path_hash": "56d889aab765",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse-5449921803:field_value",
+      "stable_key": "01823:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse:56d889aab765:field_value:0",
       "title": "Angaben zum positiven Versorgungseffekt"
     },
     {
       "content": "Medizinischer Nutzen",
+      "content_fingerprint": "291175316d3d",
       "content_preview": "Medizinischer Nutzen",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01823:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "01823:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:1",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Ausrichtung der Behandlung an medizinischen Leitlinien und anerkannten Standards der Medizin",
+      "content_fingerprint": "84739266bbf8",
       "content_preview": "Ausrichtung der Behandlung an medizinischen Leitlinien und anerkannten Standards der Medizin",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Patientenrelevante Struktur- und Verfahrensverbesserungen",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Patientenrelevante Struktur- und Verfahrensverbesserungen"
       ],
+      "path_hash": "435d0aeb3dfa",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:informationen-zum-positiven-versorgungseffekt-patientenrelevante-struktur-und-ve-6612535d44:field_value",
+      "stable_key": "01823:informationen-zum-positiven-versorgungseffekt-patientenrelevante-struktur-und-ve:435d0aeb3dfa:field_value:0",
       "title": "Patientenrelevante Struktur- und Verfahrensverbesserungen"
     },
     {
       "content": "Verbesserung des Gesundheitszustands",
+      "content_fingerprint": "58b8b11779d7",
       "content_preview": "Verbesserung des Gesundheitszustands",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Nähere Angaben zum medizinischen Nutzen",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Nähere Angaben zum medizinischen Nutzen"
       ],
+      "path_hash": "c2ba1d4f6a81",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen--90ce965dee:field_value",
+      "stable_key": "01823:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen-:c2ba1d4f6a81:field_value:0",
       "title": "Nähere Angaben zum medizinischen Nutzen"
     },
     {
       "content": "Die patientenrelevante Verbesserung des Gesundheitszustands durch ProHerz zeigt sich in einer nachweislich gesteigerten körperlichen Leistungsfähigkeit, gemessen über eine größere zurückgelegte Distanz in Metern im 6-Minuten-Gehtest. Durch die Kombination aus individueller Erfassung und Verlaufskontrolle von Vitalparametern, Erinnerungen an leitliniengerechtes Verhalten und personalisiertem Gesundheitscoaching werden Patientinnen und Patienten befähigt, ihr Selbstmanagement zu verbessern und so ihren Gesundheitszustand messbar zu optimieren.",
+      "content_fingerprint": "c619c3ef1cc9",
       "content_preview": "Die patientenrelevante Verbesserung des Gesundheitszustands durch ProHerz zeigt sich in einer nachweislich gesteigerten körperlichen Leistungsfähigkeit, gemessen über eine größere zurückgelegte Distanz in Metern im 6-Minuten-Gehtest. Dur...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Beschreibung des medizinischen Nutzens",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Beschreibung des medizinischen Nutzens"
       ],
+      "path_hash": "71ee9147d6be",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut-a677995e79:field_value",
+      "stable_key": "01823:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut:71ee9147d6be:field_value:0",
       "title": "Beschreibung des medizinischen Nutzens"
     },
     {
       "content": "• Ausrichtung der Behandlung an Leitlinien und anerkannten Standards Die patientenrelevanten Struktur- und Verfahrensverbesserung von ProHerz besteht zum einen in der Ausrichtung der Behandlung an Leitlinien und anerkannten Standards durch die Unterstützung der Patientinnen und Patienten in der Therapietreue und dem Selbstmanagement. ProHerz ermöglicht die Dokumentation und Kontrolle des Gesundheitszustands, stellt basierend auf dem Profil Informationen zur Erkrankung und Handlungsempfehlungen zur Verfügung und erinnert an die Erfassung der Vitalparameter, sowie an die Einnahme von Medikamenten.",
+      "content_fingerprint": "a1eae636966e",
       "content_preview": "• Ausrichtung der Behandlung an Leitlinien und anerkannten Standards Die patientenrelevanten Struktur- und Verfahrensverbesserung von ProHerz besteht zum einen in der Ausrichtung der Behandlung an Leitlinien und anerkannten Standards dur...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Nähere Beschreibung der patientenrelevanten Struktur- und Verfahrensverbesserung",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Nähere Beschreibung der patientenrelevanten Struktur- und Verfahrensverbesserung"
       ],
+      "path_hash": "89a9eaa0bd74",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:informationen-zum-positiven-versorgungseffekt-naehere-beschreibung-der-patienten-859be4691e:field_value",
+      "stable_key": "01823:informationen-zum-positiven-versorgungseffekt-naehere-beschreibung-der-patienten:89a9eaa0bd74:field_value:0",
       "title": "Nähere Beschreibung der patientenrelevanten Struktur- und Verfahrensverbesserung"
     },
     {
       "content": "CARNA - Evaluationsstudie zur Erhebung eines medizinischen Nutzens und positiver Versorgungseffekte einer App-basierten, leitlinienkonformen Patientenunterstützung bei Herzinsuffizienz",
+      "content_fingerprint": "ba8f535fa844",
       "content_preview": "CARNA - Evaluationsstudie zur Erhebung eines medizinischen Nutzens und positiver Versorgungseffekte einer App-basierten, leitlinienkonformen Patientenunterstützung bei Herzinsuffizienz",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Studie/n im PICO-Schema",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Studie/n im PICO-Schema"
       ],
+      "path_hash": "cd33a100690d",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema-2cb668dadb:field_value",
+      "stable_key": "01823:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema:cd33a100690d:field_value:0",
       "title": "Studie/n im PICO-Schema"
     },
     {
       "content": "Patienten: • Erwachsene Patientinnen und Patienten mit diagnostizierter Herzinsuffizienz nach ICD-10-GM (I50.-) Intervention: • Standardversorgung und Nutzung der ProHerz App in Kombination mit zugehörigen Wearables (Blutdruckmessgerät, Pulsoximeter, Waage, Körperthermometer) über 6 Monate. Vergleich: • Standardversorgung und Zugang zu Wearables über 6 Monate. Outcome: • Verbesserung des Gesundheitszustands, gemessen mit dem 6-Minuten Gehtest (6MWT) • Verbesserung der Lebensqualität, gemessen mit dem Kansas City Cardiomyopathy Questionnaire (KCCQ) • Ausrichtung der Behandlung an Leitlinien und anerkannten Standards, gemessen mit dem 9-Item European Heart Failure Self-Care Behaviour Index (EHFScBS) • Verbesserung der Gesundheitskompetenz, gemessen mit dem Atlanta Heart Failure Knowledge Test (AHFKT)",
+      "content_fingerprint": "17f2ba69cc21",
       "content_preview": "Patienten: • Erwachsene Patientinnen und Patienten mit diagnostizierter Herzinsuffizienz nach ICD-10-GM (I50.-) Intervention: • Standardversorgung und Nutzung der ProHerz App in Kombination mit zugehörigen Wearables (Blutdruckmessgerät, ...",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "01823:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "01823:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:2",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Bei der Studie „CARNA“ handelt es sich um eine multizentrische, nationale, prospektive, randomisierte, kontrollierte Studie, in der untersucht wird, ob die Nutzung von ProHerz zu positiven Versorgungseffekten nach dem Digitalen Versorgungsgesetz (DVG) bei Herzinsuffizienz führt.",
+      "content_fingerprint": "2074d05b2838",
       "content_preview": "Bei der Studie „CARNA“ handelt es sich um eine multizentrische, nationale, prospektive, randomisierte, kontrollierte Studie, in der untersucht wird, ob die Nutzung von ProHerz zu positiven Versorgungseffekten nach dem Digitalen Versorgun...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
       ],
+      "path_hash": "045f4d7c860c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u-804896bae6:field_value",
+      "stable_key": "01823:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u:045f4d7c860c:field_value:0",
       "title": "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
     },
     {
       "content": "Insgesamt werden 252 Studienteilnehmer rekrutiert und zufällig der ProHerz- oder der Wartekontrollgruppe zugeordnet (Verhältnis 1:1). Eingeschlossen wurden Studienteilnehmer mit der Diagnose Herzinsuffizienz (ICD-10-Code I50.-) ab 18 Jahren. Während der 6-monatigen Interventionsdauer erhielt die Interventionsgruppe Zugang zur ProHerz Anwendung und den zugehörigen Messgeräten (Blutdruckmessgerät, Pulsoximeter, Waage, Körperthermometer). Die Wartekontrollgruppe verblieb in der Standardbehandlung, dem „standard of care“, erhielt ebenfalls die zugehörigen Messgeräte und nach Abschluss der Studie Zugang zu ProHerz. Messzeitpunkte waren bei Einschluss-Visite und 6 Monate später bei der Ausschluss-Visite. Zudem erfolgte bei den ersten 100 Teilnehmern eine Zwischenuntersuchung nach 3 Monaten. Folgende primäre Endpunkte wurden zu den Messzeitpunkten erhoben, was einen Vorher-Nachher-Vergleich zwischen den Gruppen erlaubte: • 6-Minuten Gehtest (6MWT) zur Ableitung einer Verbesserung des Gesundheitszustands • Kansas City Cardiomyopathy Questionnaire (KCCQ) zur Erfassung einer Änderung der krankheitsspezifischen Lebensqualität • 9-item European Heart Failure Self-care Behaviour Scale (9-EHFScBS) zur Ableitung der Ausrichtung der Behandlung an Leitlinien und anerkannten Standards • 9-item Shared Decision Making Questionnaire (SDM-Q-9) zur Ableitung des leitliniengerechten Verhaltens Für die Analyse des Atlanta Heart Failure Knowledge Tests (AHFKT) zur Ableitung der Gesundheitskompetenz wurde ein Vergleich zwischen Kontroll- und Interventionsgruppe hinsichtlich der Anzahl an richtigen Antworten in der Abschlussuntersuchung gemacht. Die Studie lag der Ethik-Kommission der Bayerischen Landesärztekammer unter der Bearbeitungsnummer 21073 zur berufsethischen und berufsrechtlichen Beratung vor und wurde vor Beginn der Studie im Deutschen Register klinischer Studien unter der ID: DRKS00027949 registriert.",
+      "content_fingerprint": "8e68ed34c0d9",
       "content_preview": "Insgesamt werden 252 Studienteilnehmer rekrutiert und zufällig der ProHerz- oder der Wartekontrollgruppe zugeordnet (Verhältnis 1:1). Eingeschlossen wurden Studienteilnehmer mit der Diagnose Herzinsuffizienz (ICD-10-Code I50.-) ab 18 Jah...",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "01823:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "01823:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:3",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Der Studienbericht wurde vom ZEW – Leibniz-Zentrum für Europäische Wirtschaftsforschung in Mannheim erstellt und ist unter folgendem Link abrufbar: https://www.zew.de/publikationen/evaluation-of-a-smartphone-app-for-heart-failure-patients.",
+      "content_fingerprint": "e55f710c10cb",
       "content_preview": "Der Studienbericht wurde vom ZEW – Leibniz-Zentrum für Europäische Wirtschaftsforschung in Mannheim erstellt und ist unter folgendem Link abrufbar: https://www.zew.de/publikationen/evaluation-of-a-smartphone-app-for-heart-failure-patients.",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Dies ist/sind die vom Hersteller angeführten Studie/n:",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Dies ist/sind die vom Hersteller angeführten Studie/n:"
       ],
+      "path_hash": "1b2b98450658",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:informationen-zum-positiven-versorgungseffekt-dies-ist-sind-die-vom-hersteller-a-81dc280904:field_value",
+      "stable_key": "01823:informationen-zum-positiven-versorgungseffekt-dies-ist-sind-die-vom-hersteller-a:1b2b98450658:field_value:0",
       "title": "Dies ist/sind die vom Hersteller angeführten Studie/n:"
     },
     {
       "content": "Medical Valley Digital Health Application Center GmbH Geisfelder Straße 16 96050 Bamberg Tel.: +49 951 96430065 Mail: info@mv-dmac.de",
+      "content_fingerprint": "1e1a269b004c",
       "content_preview": "Medical Valley Digital Health Application Center GmbH Geisfelder Straße 16 96050 Bamberg Tel.: +49 951 96430065 Mail: info@mv-dmac.de",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
       ],
+      "path_hash": "6deb64749945",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:informationen-zum-positiven-versorgungseffekt-herstellerunabhaengige-institution-85ca65af54:field_value",
+      "stable_key": "01823:informationen-zum-positiven-versorgungseffekt-herstellerunabhaengige-institution:6deb64749945:field_value:0",
       "title": "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
     },
     {
       "content": "Nein",
+      "content_fingerprint": "70bb813787b6",
       "content_preview": "Nein",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Die DiGA enthält ein diagnostisches Instrument",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Die DiGA enthält ein diagnostisches Instrument"
       ],
+      "path_hash": "f07a273683a3",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch-eded43f154:field_value",
+      "stable_key": "01823:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch:f07a273683a3:field_value:0",
       "title": "Die DiGA enthält ein diagnostisches Instrument"
     },
     {
       "content": "24 Monate (12 Monate initial, 12 Monate Verlängerung)",
+      "content_fingerprint": "f8a79e4b75f0",
       "content_preview": "24 Monate (12 Monate initial, 12 Monate Verlängerung)",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Länge des Zeitraumes der vorläufigen Aufnahme",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Länge des Zeitraumes der vorläufigen Aufnahme"
       ],
+      "path_hash": "f50c229bb808",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:informationen-zum-positiven-versorgungseffekt-laenge-des-zeitraumes-der-vorlaeuf-d645f91b3b:field_value",
+      "stable_key": "01823:informationen-zum-positiven-versorgungseffekt-laenge-des-zeitraumes-der-vorlaeuf:f50c229bb808:field_value:0",
       "title": "Länge des Zeitraumes der vorläufigen Aufnahme"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird. Die Anforderungen an die Datensicherheit werden durch Vorlage eines Zertifikats gemäß § 139e Absatz 10 Fünftes Buch Sozialgesetzbuch nachgewiesen. Detaillierte Informationen zu den einzelnen Anforderungen können Sie auf der Webseite des Bundesamts für Sicherheit in der Informationstechnik unter der Technischen Richtlinie \"BSI TR-03161\" finden: https://www.bsi.bund.de/dok/TR-03161 Bis zur Vorlage des Zertifikats gelten für den Bereich Datensicherheit die Anforderungen der nachfolgend dargestellten Checkliste.",
+      "content_fingerprint": "32cb1bd13010",
       "content_preview": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen v...",
       "content_type": "field_value",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 3,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "899b23823ae4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:field_value",
+      "stable_key": "01823:informationen-zu-datenschutz-und-datensicherheit:899b23823ae4:field_value:0",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die Nutzung der digitalen Gesundheitsanwendung ist auf ein privates IT-System der nutzenden Person beschränkt. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine technische Möglichkeit einer Verknüpfung oder eines Datenaustauschs mit anderen digitalen Gesundheitsanwendungen. Zutreffend",
+      "content_fingerprint": "3913b190a8b4",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die Nutzung der digitalen Gesundheitsanwendung ist auf ein privates IT-System der nutzend...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "01823:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:0",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit > Datensicherheit",
       "level": 4,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit",
         "Datensicherheit"
       ],
+      "path_hash": "8545f237a1b9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:informationen-zu-datenschutz-und-datensicherheit-datensicherheit-14af255f91:field_value",
+      "stable_key": "01823:informationen-zu-datenschutz-und-datensicherheit-datensicherheit:8545f237a1b9:field_value:0",
       "title": "Datensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung nutzt keine Konfigurationsdateien bzw. diese sind für den sicheren Betrieb der digitalen Gesundheitsanwendung nicht relevant. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Nein",
+      "content_fingerprint": "362ca5798e7d",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutref...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01823:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "01823:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:1",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der medizinischen Inhalte und die Gewährleistung der Patientensicherheit.",
+      "content_fingerprint": "0b320ca69209",
       "content_preview": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der me...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen",
       "level": 3,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "f85d7bfd4b8e",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-afe954d9f8:field_value",
+      "stable_key": "01823:weitere-informationen:f85d7bfd4b8e:field_value:0",
       "title": "Weitere Informationen"
     },
     {
       "content": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_fingerprint": "f14ccf82a937",
       "content_preview": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01823:weitere-informationen:df3724c46c56:section:0",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Interoperabilität",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Interoperabilität"
       ],
+      "path_hash": "43914a1ae1e9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-angaben-zur-interoperabilitaet-8867f27412:field_value",
+      "stable_key": "01823:weitere-informationen-angaben-zur-interoperabilitaet:43914a1ae1e9:field_value:0",
       "title": "Angaben zur Interoperabilität"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "477afefea65b",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01823:weitere-informationen:df3724c46c56:section:1",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Robustheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Robustheit"
       ],
+      "path_hash": "d416c871fdb6",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-angaben-zur-robustheit-0a511476df:field_value",
+      "stable_key": "01823:weitere-informationen-angaben-zur-robustheit:d416c871fdb6:field_value:0",
       "title": "Angaben zur Robustheit"
     },
     {
       "content": "Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
+      "content_fingerprint": "5f89c60c91f1",
       "content_preview": "Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01823:weitere-informationen:df3724c46c56:section:2",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zum Verbraucherschutz",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zum Verbraucherschutz"
       ],
+      "path_hash": "22c54da8ff9c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-angaben-zum-verbraucherschutz-05cd17969e:field_value",
+      "stable_key": "01823:weitere-informationen-angaben-zum-verbraucherschutz:22c54da8ff9c:field_value:0",
       "title": "Angaben zum Verbraucherschutz"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "409aa9901d82",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01823:weitere-informationen:df3724c46c56:section:3",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zu Nutzerfreundlichkeit und Barrierefreiheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
       ],
+      "path_hash": "a9d890d721a4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit-8fe873c531:field_value",
+      "stable_key": "01823:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit:a9d890d721a4:field_value:0",
       "title": "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
     },
     {
       "content": "Zutreffend Zutreffend",
+      "content_fingerprint": "f572c2f88946",
       "content_preview": "Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01823:weitere-informationen:df3724c46c56:section:4",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Unterstützung der Leistungserbringende",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Unterstützung der Leistungserbringende"
       ],
+      "path_hash": "bdfe86165ef2",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-unterstuetzung-der-leistungserbringende-d4e78dfd75:field_value",
+      "stable_key": "01823:weitere-informationen-unterstuetzung-der-leistungserbringende:bdfe86165ef2:field_value:0",
       "title": "Unterstützung der Leistungserbringende"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Qualität der medizinischen Inhalte",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Qualität der medizinischen Inhalte"
       ],
+      "path_hash": "964eb34f0609",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte-a6d05ceeb6:field_value",
+      "stable_key": "01823:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte:964eb34f0609:field_value:0",
       "title": "Angaben zur Qualität der medizinischen Inhalte"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "6a8d1dc0aa28",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01823:weitere-informationen:df3724c46c56:section:5",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Patientensicherheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Patientensicherheit"
       ],
+      "path_hash": "96d387fa1378",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01823:weitere-informationen-angaben-zur-patientensicherheit-7a67651ccd:field_value",
+      "stable_key": "01823:weitere-informationen-angaben-zur-patientensicherheit:96d387fa1378:field_value:0",
       "title": "Angaben zur Patientensicherheit"
     }
   ],
@@ -1046,10 +1370,10 @@
     "accordions_opened": 0,
     "content_section_count": 81,
     "field_value_count": 60,
-    "rendered_at": "2026-06-22T19:12:27.242397+00:00",
+    "rendered_at": "2026-06-22T20:39:58.311160+00:00",
     "source_kind": "visible_directory"
   },
   "source_kind": "visible_directory",
-  "timestamp": "20260622T190144Z",
+  "timestamp": "20260622T202912Z",
   "url": "https://diga.bfarm.de/de/verzeichnis/01823"
 }

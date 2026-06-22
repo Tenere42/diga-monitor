@@ -2,1010 +2,1322 @@
   "content_sections": [
     {
       "content": "Cara Care für Reizdarm ist eine digitale Gesundheitsanwendung zur Therapie des Reizdarmsyndroms. Die Anwendung dient primär zur Symptomreduktion funktioneller gastrointestinaler Beschwerden. Sekundär sollen krankheitsbezogene Lebensqualität und Gesundheitskompetenz gesteigert, Ängstlichkeit und Depressivität gelindert sowie krankheitsbezogene Arbeits- und Aktivitätseinschränkungen verbessert werden. - Diese Wirkungen werden über ein multimodales Selbsthilfekonzept innerhalb der Anwendung erzielt: Personalisierte Inhalte basierend auf leitlinienkonformen Therapieverfahren aus den Bereichen Ernährung (low-FODMAP-Diät) und Psychotherapie (kognitive Verhaltenstherapie sowie Darm-gerichtete Hypnotherapie) bewirken Änderungen von Lebensstil, Kognitionen, Emotionen und Verhalten, die sich positiv auf die bekannten Pathomechanismen des Reizdarmsyndroms auswirken. Im Rahmen einer Mindestnutzungsdauer von 12 Wochen erarbeiten sich die Nutzenden personalisierte Inhalte in Eigenregie. Dies wird durch multimediale und interaktive Inhalte unterstützt. So erhalten die Nutzenden über das Tracking von Symptomen und Lebensstilfaktoren sowie durch die erneute Abfrage von Symptom- und Lebensqualitätsscores Feedback zum Behandlungsfortschritt, erfahren pädagogische Unterstützung durch regelmäßige Abfrage psychoedukativen Wissens oder setzen sich persönliche Ziele innerhalb der Anwendung. - Cara Care für Reizdarm dient zur alleinstehenden Therapie des Reizdarmsyndroms.",
+      "content_fingerprint": "de2985ac4c40",
       "content_preview": "Cara Care für Reizdarm ist eine digitale Gesundheitsanwendung zur Therapie des Reizdarmsyndroms. Die Anwendung dient primär zur Symptomreduktion funktioneller gastrointestinaler Beschwerden. Sekundär sollen krankheitsbezogene Lebensquali...",
       "content_type": "field_value",
+      "display_path": "cara.care/de/about/",
       "level": 3,
       "path": [
         "cara.care/de/about/"
       ],
+      "path_hash": "c250db0e7b7c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:cara-care-de-about-f9d80f7268:field_value",
+      "stable_key": "01346:cara-care-de-about:c250db0e7b7c:field_value:0",
       "title": "cara.care/de/about/"
     },
     {
       "content": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_fingerprint": "26290d5ae490",
       "content_preview": "Hier finden Sie weitergehende Informationen zur DiGA.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "a5e395515816",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung:a5e395515816:field_value:0",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_fingerprint": "bfc5ca33598c",
       "content_preview": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:0",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Cara Care für Reizdarm",
+      "content_fingerprint": "29e4fa68dee1",
       "content_preview": "Cara Care für Reizdarm",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Name der DiGA im DiGA-Verzeichnis",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Name der DiGA im DiGA-Verzeichnis"
       ],
+      "path_hash": "b055b8e1c744",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v-132a49921b:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v:b055b8e1c744:field_value:0",
       "title": "Name der DiGA im DiGA-Verzeichnis"
     },
     {
       "content": "26.12.2021",
+      "content_fingerprint": "812d20306de2",
       "content_preview": "26.12.2021",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Erstmalige Aufnahme in das DiGA-Verzeichnis",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Erstmalige Aufnahme in das DiGA-Verzeichnis"
       ],
+      "path_hash": "3d07f6258e5c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in--0901792b12:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in-:3d07f6258e5c:field_value:0",
       "title": "Erstmalige Aufnahme in das DiGA-Verzeichnis"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Modul",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Modul"
       ],
+      "path_hash": "fdfb704b702c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-modul-0b2f60dd90:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-modul:fdfb704b702c:field_value:0",
       "title": "Modul"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
       ],
+      "path_hash": "46556afef4cb",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-andere-namen-und-modell-ab7acb1427:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-andere-namen-und-modell:46556afef4cb:field_value:0",
       "title": "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
     },
     {
       "content": "App",
+      "content_fingerprint": "fc4a695f02a8",
       "content_preview": "App",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Art der DiGA",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Art der DiGA"
       ],
+      "path_hash": "600a0be84a95",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga-f41af95c79:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga:600a0be84a95:field_value:0",
       "title": "Art der DiGA"
     },
     {
       "content": "im Apple App Store Deutschland",
+      "content_fingerprint": "5a4cd838fc6e",
       "content_preview": "im Apple App Store Deutschland",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Die digitale Gesundheitsanwendung ist verfügbar",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Die digitale Gesundheitsanwendung ist verfügbar"
       ],
+      "path_hash": "6d3556c97e9a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit-70a197df25:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit:6d3556c97e9a:field_value:0",
       "title": "Die digitale Gesundheitsanwendung ist verfügbar"
     },
     {
       "content": "im Google Play Store Deutschland",
+      "content_fingerprint": "860262a8c802",
       "content_preview": "im Google Play Store Deutschland",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:1",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Deutschland",
+      "content_fingerprint": "19174e8c9711",
       "content_preview": "Deutschland",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Standorte der Datenverarbeitung",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Standorte der Datenverarbeitung"
       ],
+      "path_hash": "eee99405da7f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera-426183d1fc:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera:eee99405da7f:field_value:0",
       "title": "Standorte der Datenverarbeitung"
     },
     {
       "content": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) die Anforderungen an • Sicherheit und Funktionstauglichkeit des Medizinproduktes • Datenschutz und Datensicherheit nach dem Stand der Technik • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) als erfüllt. Der Hersteller gibt an, dass keine personenbezogenen Daten in ein Land außerhalb der EU oder ohne Angemessenheitsbeschluss fließen. Das BfArM bewertet dieses Vorgehen als konform mit der DiGAV. - Nach Aufnahme zur Erprobung wurden die Studienergebnisse der Erprobungsstudie zum Ende des Erprobungszeitraums eingereicht. - Es wurde eine zweiarmige, randomisiert-kontrollierte Studie (RCT) mit dem Titel „Evaluation im Rahmen einer nicht - invasiven, nicht zusätzlich belastenden, prospektiven, multizentrischen, zweiarmigen, randomisierten Studie mit parallelem Gruppendesign“ durchgeführt, die im Deutschen Register Klinischer Studien (DRKS) unter der der Nummer DRKS00026631 registriert ist. - Die Beobachtungsdauer betrug 12 Wochen. Die Interventionsgruppe (IG) erhielt Zugang zur Standardversorgung und der DiGA. Die Kontrollgruppe (KG) erhielt Zugang zur Standardversorgung und „Sham-Version“ der DiGA (beinhaltete Befragungsinstrumente zur Evaluation). Die 5 Endpunkte zur Operationalisierung positiver Versorgungseffekte (pVE) wurden in folgender hierarchischer Teststrategie getestet: Irritable Bowel Syndrome - Severity Scoring System (IBS-SSS), Irritable Bowel Syndrome - Quality Of Life (IBS-QOL), Work Productivity and Activity Impairment questionnaire in Irritable Bowel Syndrome (Arbeitsbeeinträchtigung, WPAI:IBS), WPAI:IBS (Aktivitätsbeeinträchtigung) und European Health Literacy Survey Questionnaire (HLS-EU-Q16). - In die Studie wurden insgesamt 378 Patientinnen und Patienten eingeschlossen und randomisiert (IG: 188; KG: 190). Von den 378 Teilnehmenden wurden 10 Patientinnen und Patienten als Drop-outs zum Zeitpunkt nach 12 Wochen identifiziert, wobei die Drop-outs ausschließlich in der IG verzeichnet wurden (IG: 5,32 %; KG: 0,0 %). Die Endpunkte wurden zu 3 Zeitpunkten nach Baseline [T1 (nach 4 Wochen), T2 (nach 6 Wochen) und T3 (nach 12 Wochen, primärer Endpunkt)] erhoben. - Im Rahmen der primären Analyse gemäß Intention-To-Treat-Prinzip (ITT-Prinzip) ergab sich ein statistisch signifikanter und klinisch relevanter Vorteil der IG gegenüber der KG in Bezug auf die Verbesserung des Gesundheitszustands, gemessen anhand des IBS-SSS [Mittelwertsdifferenz (MWD) in der Änderung von Baseline zu 12 Wochen: -101,88; 95-%-Konfidenzintervall (KI): -123,9 - -79,9; p-Wert: < 0,0001; Cohens d: 0,97]. Des Weiteren ergab sich ein statistisch signifikanter und klinisch relevanter Vorteil der IG gegenüber der KG in Bezug auf die Verbesserung der Lebensqualität, gemessen anhand des IBS-QOL (MWD in der Änderung von Baseline zu 12 Wochen: 19,13; 95-%-KI: 16,2 – 22,1; p-Wert: < 0,0001; Cohens d: 1,36). Für den WPAI:IBS konnten in der Arbeitsbeeinträchtigung (MWD in der Änderung von Baseline zu 12 Wochen: -0,17; 95-%-KI: -0,2 – -0,1; p-Wert: < 0,0001; Cohens d: 0,74) und Aktivitätsbeeinträchtigung (MWD in der Änderung von Baseline zu 12 Wochen: -0,19; 95-%-KI: -0,2 – -0,1; p-Wert: < 0,0001; Cohens d: 0,77) Vorteile für die IG gezeigt werden. Im HLS-EU-Q16 zeigten sich ebenfalls Vorteile für die IG (MWD in der Änderung von Baseline zu 12 Wochen: 1,29; 95-%-KI: 0,7 – 1,8; p-Wert: < 0,0001; Cohens d: 0,48). Die Relevanz der Effekte sämtlicher Endpunkte wurde durch zusätzliche Responderanalysen unterstützt. Die Subgruppenanalysen nach Alter, Geschlecht, Subtyp und Zeit seit Diagnose zeigten konsistente Vorteile für die IG gegenüber der KG. - Entsprechend bewertet das BfArM die in § 139e des Fünften Buches Sozialgesetzbuch (SGB V) sowie in der DiGAV festgelegten Voraussetzungen zur endgültigen Aufnahme in das Verzeichnis nach § 139e Absatz 1 SGB V für die Indikation K58: Reizdarmsyndrom in Bezug auf die positiven Versorgungseffekte „Verbesserung des Gesundheitszustands“, „Verbesserung der Lebensqualität“, „Bewältigung krankheitsbedingter Schwierigkeiten im Alltag“ und „Gesundheitskompetenz“ als erfüllt.",
+      "content_fingerprint": "e5f290cfb90d",
       "content_preview": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) die Anforderungen an • Sicherheit und Funktionstauglichkeit des Medizinproduktes ...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Bewertungsentscheidung des BfArM",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Bewertungsentscheidung des BfArM"
       ],
+      "path_hash": "7d463e27c832",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung--cdc10aad7c:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung-:7d463e27c832:field_value:0",
       "title": "Bewertungsentscheidung des BfArM"
     },
     {
       "content": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_fingerprint": "4b8f5a46c1b0",
       "content_preview": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt"
       ],
+      "path_hash": "9af58630166c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:9af58630166c:field_value:0",
       "title": "Angaben zum Medizinprodukt"
     },
     {
       "content": "Cara Care für Reizdarm ist eine interaktive softwarebasierte medizinische Anwendung für die Eigenanwendung durch Patientinnen und Patienten zur digitalen Behandlung des Reizdarmsyndroms (ICD-10-GM: K58, K58.1, K58.2, K58.3, K58.8). Die Anwendung dient zur Symptomreduktion funktioneller Beschwerden. - Cara Care für Reizdarm ist geeignet für Patientinnen und Patienten zwischen 18 und 70 Jahren und darf nicht angewendet werden, wenn eine Schwangerschaft vorliegt. Für die Anwendung von Cara Care für Reizdarm ist eine ärztliche Diagnose- und Indikationsstellung zwingend erforderlich. Cara Care für Reizdarm ersetzt keine ärztliche Behandlung.",
+      "content_fingerprint": "68f7fbd85aef",
       "content_preview": "Cara Care für Reizdarm ist eine interaktive softwarebasierte medizinische Anwendung für die Eigenanwendung durch Patientinnen und Patienten zur digitalen Behandlung des Reizdarmsyndroms (ICD-10-GM: K58, K58.1, K58.2, K58.3, K58.8). Die A...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Medizinische Zweckbestimmung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Medizinische Zweckbestimmung"
       ],
+      "path_hash": "8bde401e0e97",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:8bde401e0e97:field_value:0",
       "title": "Medizinische Zweckbestimmung"
     },
     {
       "content": "Risikoklasse I nach MDR",
+      "content_fingerprint": "957f4ea485db",
       "content_preview": "Risikoklasse I nach MDR",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Risikoklasse Medizinprodukt",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Risikoklasse Medizinprodukt"
       ],
+      "path_hash": "b60186e2af98",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:b60186e2af98:field_value:0",
       "title": "Risikoklasse Medizinprodukt"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Name der Benannten Stelle",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Name der Benannten Stelle"
       ],
+      "path_hash": "d8a546b6e09b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:d8a546b6e09b:field_value:0",
       "title": "Name der Benannten Stelle"
     },
     {
       "content": "Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt.",
+      "content_fingerprint": "253e4f0d662b",
       "content_preview": "Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:2",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Kennnummer der Benannten Stelle",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Kennnummer der Benannten Stelle"
       ],
+      "path_hash": "f1e2f46935e4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-kennnummer-der-benannte-885261bcc3:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-kennnummer-der-benannte:f1e2f46935e4:field_value:0",
       "title": "Kennnummer der Benannten Stelle"
     },
     {
       "content": "SRN DE-MF-000007353",
+      "content_fingerprint": "3e0795cb9085",
       "content_preview": "SRN DE-MF-000007353",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Identifikationsnummer Eudamed",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Identifikationsnummer Eudamed"
       ],
+      "path_hash": "fc78f31e70f9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-identifikationsnummer-e-c5d45b28a3:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-identifikationsnummer-e:fc78f31e70f9:field_value:0",
       "title": "Identifikationsnummer Eudamed"
     },
     {
       "content": "426238694IBS1017L",
+      "content_fingerprint": "d2d19b4117dc",
       "content_preview": "426238694IBS1017L",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > UDI - Unique Device Identifier im Sinne der MDR",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "UDI - Unique Device Identifier im Sinne der MDR"
       ],
+      "path_hash": "d176d35107d9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-udi-unique-device-ident-16a2c37ee0:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-udi-unique-device-ident:d176d35107d9:field_value:0",
       "title": "UDI - Unique Device Identifier im Sinne der MDR"
     },
     {
       "content": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_fingerprint": "ba6516ebde5f",
       "content_preview": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA"
       ],
+      "path_hash": "6921f5eac91a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:6921f5eac91a:field_value:0",
       "title": "Weitere Informationen zur DiGA"
     },
     {
       "content": "“Cara Care für Reizdarm” kommt als digitale Therapie beim Reizdarmsyndrom zur Anwendung. Die Anwendung dient primär zur Symptomreduktion funktioneller gastrointestinaler Beschwerden. Sekundär sollen krankheitsbezogene Lebensqualität und Gesundheitskompetenz gesteigert, Ängstlichkeit und Depressivität gelindert sowie krankheitsbezogene Arbeits- und Aktivitätseinschränkungen verbessert werden. - Diese Wirkungen werden über ein multimodales Selbsthilfe-Konzept innerhalb der Anwendung erzielt: Personalisierte Inhalte basierend auf leitlinienkonformen Therapieverfahren aus den Bereichen Ernährung (low-FODMAP-Diät) und Psychotherapie (kognitive Verhaltenstherapie sowie Darm-gerichtete Hypnotherapie) bewirken Änderungen von Lebensstil, Kognitionen, Emotionen und Verhalten, die sich positiv auf die bekannten Pathomechanismen des Reizdarmsyndroms auswirken (darunter unter anderem eine veränderte Darmmotilität, eine gastrointestinale Hypersensitivität, ein verändertes Darmmikrobiom, eine Störung der Darm-Hirn-Achse, eine sympathische Überaktivierung sowie eine Immunaktivierung mit geringgradiger Entzündungsaktivität). - Im Rahmen einer Mindestnutzungsdauer von 12 Wochen erarbeiten sich die Nutzenden personalisierte Inhalte in Eigenregie. Dies wird durch multimediale und interaktive Inhalte unterstützt. So erhalten die Nutzenden über das Tracking von Symptomen und Lebensstilfaktoren sowie durch die erneute Abfrage von Symptom- und Lebensqualitätsscores Feedback zum Behandlungsfortschritt, erfahren pädagogische Unterstützung durch regelmäßige Abfrage psychoedukativen Wissens oder setzen sich persönliche Ziele innerhalb der Anwendung.",
+      "content_fingerprint": "5fded551e76e",
       "content_preview": "“Cara Care für Reizdarm” kommt als digitale Therapie beim Reizdarmsyndrom zur Anwendung. Die Anwendung dient primär zur Symptomreduktion funktioneller gastrointestinaler Beschwerden. Sekundär sollen krankheitsbezogene Lebensqualität und ...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "ef6363788ef3",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:ef6363788ef3:field_value:0",
       "title": "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
     },
     {
       "content": "Die Anwendung Cara Care für Reizdarm bedient sich eines evidenzbasierten multimodalen Behandlungskonzepts für die Indikation Reizdarmsyndrom. - Ziel ist das Durchlaufen eines 12-wöchigen personalisierten Therapieplans, der die Nutzung unterschiedlicher Funktionen der Gesundheitsanwendung vorsieht. - Zu diesen Funktionen zählt die Bereitstellung personalisierter Inhalte in Form von Text- oder Audioformaten, die detaillierte Anleitungen bzw. Sitzungen zur Selbsthilfe aus den Bereichen Ernährungstherapie, kognitiver Verhaltenstherapie sowie Darm-gerichteter Hypnose enthalten. Die Personalisierung wird über einen initialen Anamnese-Fragebogen gewährleistet, der die Inhalte anhand eines Algorithmus, in den Nutzerdaten einfließen, bestimmt. - Diese Inhalte werden durch die Anwendung von therapiespezifischen interaktiven Tools im Rahmen des multimodalen Behandlungsansatzes unterstützt. So dienen personalisierte Lebensmittellisten und Rezepte der korrekten Anwendung der diätetischen Intervention; eine Zielsetzungsfunktion hilft Patientinnen und Patienten bei der Umsetzung der verhaltenstherapeutischen Empfehlungen; eine Quiz-Funktion unterstützt eine nachhaltige Wissensvermittlung und ein digitales “Tagebuch” dient über die Nachverfolgung von Nahrungsaufnahme sowie weiteren Lebensstilfaktoren und entsprechenden Symptomen der eigenständigen Behandlungskontrolle durch die Patientinnen und Patienten. Die Erfolgskontrolle erfolgt weiterhin über die wiederholte Abfrage von Reizdarmspezifischen Symptom- und Lebensqualitätsscores, deren Auswertung den Patientinnen und Patienten im Sinne eines Fortschrittsberichts vermittelt wird. Ein “Symptom-Check” in der digitalen Gesundheitsanwendung gibt Hilfestellung bei der Erkennung von “Red-Flag-Symptomen”, die einer ärztlichen Abklärung bedürfen. Des Weiteren steht für die Kontaktaufnahme zum technischen Kundensupport eine Chat-Funktion zur Verfügung.",
+      "content_fingerprint": "bf3395506377",
       "content_preview": "Die Anwendung Cara Care für Reizdarm bedient sich eines evidenzbasierten multimodalen Behandlungskonzepts für die Indikation Reizdarmsyndrom. - Ziel ist das Durchlaufen eines 12-wöchigen personalisierten Therapieplans, der die Nutzung un...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Funktionen der digitalen Gesundheitsanwendung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Funktionen der digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "21931475406b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:21931475406b:field_value:0",
       "title": "Funktionen der digitalen Gesundheitsanwendung"
     },
     {
       "content": "Prof. Dr. med. Martin Storr, Zentrum für Innere Medizin, Gauting und Zentrum für Endoskopie, Starnberg - Division of Gastroenterology, Beth Israel Deaconess Medical Center and Harvard Medical School, Boston, MA, United States",
+      "content_fingerprint": "56b72964b4ea",
       "content_preview": "Prof. Dr. med. Martin Storr, Zentrum für Innere Medizin, Gauting und Zentrum für Endoskopie, Starnberg - Division of Gastroenterology, Beth Israel Deaconess Medical Center and Harvard Medical School, Boston, MA, United States",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
       ],
+      "path_hash": "32d92eb3d0dc",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:32d92eb3d0dc:field_value:0",
       "title": "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
     },
     {
       "content": "Die vollständige Liste aller verwendeten Quellen können in der App im „Programm“-Reiter unter den drei Punkten via “Literaturangaben” abgerufen werden. Darüberhinaus ist die Liste unter https://cara.care/webview/content-sources/ zu finden. Im Folgenden finden Sie einen Auszug der wichtigsten Quellen: - S3-Leitlinie: - Layer P, Andresen V, Allescher H, Bischoff SC, Claßen M, Elsenbruch S, et al. Update S3-Leitlinie Reizdarmsyndrom: Definition, Pathophysiologie, Diagnostik und Therapie. Gemeinsame Leitlinie der Deutschen Gesellschaft für Gastroenterologie, Verdauungs- und Stoffwechselkrankheiten (DGVS) und der Deutschen Gesellschaft für Neurogastroenterologie und Motilität (DGNM) – Juni 2021 – AWMF-Registriernummer: 021/016. Z Gastroenterol. 2021 Dec;59(12):1323–415. – Low-FODMAP-Diät: - Altobelli E, Del Negro V, Angeletti PM, Latella G. Low-FODMAP Diet Improves Irritable Bowel Syndrome Symptoms: A Meta-Analysis. Nutrients. 2017 Aug 26;9(9). - Marsh A, Eslick EM, Eslick GD. Does a diet low in FODMAPs reduce symptoms associated with functional gastrointestinal disorders? A comprehensive systematic review and meta-analysis. Eur J Nutr. 2016 Apr;55(3):897–906. - Schumann D, Klose P, Lauche R, Dobos G, Langhorst J, Cramer H. Low fermentable, oligo-, di-, mono-saccharides and polyol diet in the treatment of irritable bowel syndrome: A systematic review and meta-analysis. Nutrition. 2018 Jan;45:24–31. - Bauch-gerichtete Hypnose und RDS: - Flik CE, Laan W, Zuithoff NPA, van Rood YR, Smout AJPM, Weusten BLAM, et al. Efficacy of individual and group hypnotherapy in irritable bowel syndrome (IMAGINE): a multicentre randomised controlled trial. Lancet Gastroenterol Hepatol. 2019 Jan;4(1):20–31. - Lee HH, Choi YY, Choi M-G. The Efficacy of Hypnotherapy in the Treatment of Irritable Bowel Syndrome: A Systematic Review and Meta-analysis. J Neurogastroenterol Motil. 2014 Apr 30;20(2):152–62. - Moser G, Trägner S, Gajowniczek EE, Mikulits A, Michalski M, Kazemi-Shirazi L, et al. Long-term success of GUT-directed group hypnosis for patients with refractory irritable bowel syndrome: a randomized controlled trial. Am J Gastroenterol. 2013 Apr;108(4):602–9. – Kognitiv-behaviorale Psychotherapie: - Ford AC, Lacy BE, Harris LA, Quigley EMM, Moayyedi P. Effect of Antidepressants and Psychological Therapies in Irritable Bowel Syndrome: An Updated Systematic Review and Meta-Analysis. Am J Gastroenterol. 2019 Jan;114(1):21–39. - Lackner JM, Jaccard J, Keefer L, Brenner DM, Firth RS, Gudleski GD, et al. Improvement in Gastrointestinal Symptoms After Cognitive Behavior Therapy for Refractory Irritable Bowel Syndrome. Gastroenterology. 2018;155(1):47–57. - Laird KT, Tanner-Smith EE, Russell AC, Hollon SD, Walker LS. Comparative efficacy of psychological therapies for improving mental health and daily functioning in irritable bowel syndrome: A systematic review and meta-analysis. Clin Psychol Rev. 2017;51:142–52. - Li L, Xiong L, Zhang S, Yu Q, Chen M. Cognitive-behavioral therapy for irritable bowel syndrome: a meta-analysis. J Psychosom Res. 2014 Jul;77(1):1–12. – Web-basierte, geführte (Selbsthilfe-)Maßnahmen: - Andersson E, Ljótsson B, Smit F, Paxling B, Hedman E, Lindefors N, et al. Cost-effectiveness of internet-based cognitive behavior therapy for irritable bowel syndrome: results from a randomized controlled trial. BMC Public Health. 2011 Apr 7;11:215. - Everitt HA, Landau S, O’Reilly G, Sibelli A, Hughes S, Windgassen S, et al. Assessing telephone-delivered cognitive-behavioural therapy (CBT) and web-delivered CBT versus treatment as usual in irritable bowel syndrome (ACTIB): a multicentre randomised trial. Gut. 2019;68(9):1613–23. - Liegl G, Plessen CY, Leitner A, Boeckle M, Pieh C. Guided self-help interventions for irritable bowel syndrome: a systematic review and meta-analysis. Eur J Gastroenterol Hepatol. 2015 Oct;27(10):1209–21.",
+      "content_fingerprint": "3110c419493b",
       "content_preview": "Die vollständige Liste aller verwendeten Quellen können in der App im „Programm“-Reiter unter den drei Punkten via “Literaturangaben” abgerufen werden. Darüberhinaus ist die Liste unter https://cara.care/webview/content-sources/ zu finde...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
       ],
+      "path_hash": "ad43221ee27a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:ad43221ee27a:field_value:0",
       "title": "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
     },
     {
       "content": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_fingerprint": "77cea9e6788d",
       "content_preview": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal"
       ],
+      "path_hash": "4c8dba25a53c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:4c8dba25a53c:field_value:0",
       "title": "Beteiligung vom medizinischen Fachpersonal"
     },
     {
       "content": "Für Leistungserbringer ist keine Rolle im Sinne einer Nutzung der App vorgesehen. Allerdings können Leistungserbringer neben der Verordnung optional bei der Anwendung der DiGA unterstützen, indem sie Hilfestellungen bei der Anwendung geben und den Therapieverlauf mit den Patientinnen und Patienten reflektieren. - Die Rolle für Ärztinnen und Ärzte innerhalb der Regelversorgung besteht zunächst darin, das Reizdarmsyndrom unter Beachtung von möglichen Differentialdiagnosen zu diagnostizieren und basierend auf dieser Indikation unter Abwägung von möglichen Kontraindikationen die Verordnung für die DiGA Cara Care für Reizdarm auszustellen. Um eine optimale Nutzung der DiGA zu unterstützen, kann die Ärztin bzw. der Arzt die Patientin bzw. den Patienten anleiten, wie die Inhalte der DiGA sinnvoll anzuwenden sind. Außerdem kann die Patientin bzw. der Patient im Verlauf der Nutzung der DiGA Leistungserbringern einen Datenexport in Papierform zur Verfügung stellen, der Auswertungen zur Entwicklung von Symptomschwere und Lebensqualität enthält und im Rahmen eines Gesprächs zum Therapieverlauf Ärztin bzw. Arzt ermöglicht, eine (z.B. medikamentöse) Therapieanpassung außerhalb der DiGA vorzunehmen. Auf dieser Basis können Leistungserbringer beispielsweise auch eruieren, ob eine Folgeverschreibung nötig ist.",
+      "content_fingerprint": "1f1a410b2535",
       "content_preview": "Für Leistungserbringer ist keine Rolle im Sinne einer Nutzung der App vorgesehen. Allerdings können Leistungserbringer neben der Verordnung optional bei der Anwendung der DiGA unterstützen, indem sie Hilfestellungen bei der Anwendung geb...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal > Ärztinnen/ Ärzte",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal",
         "Ärztinnen/ Ärzte"
       ],
+      "path_hash": "736d25ff8830",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:736d25ff8830:field_value:0",
       "title": "Ärztinnen/ Ärzte"
     },
     {
       "content": "Nein",
+      "content_fingerprint": "70bb813787b6",
       "content_preview": "Nein",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal > Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal",
         "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
       ],
+      "path_hash": "844ec57e702e",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:844ec57e702e:field_value:0",
       "title": "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
     },
     {
       "content": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfohlen wird.",
+      "content_fingerprint": "ba2dc6143acd",
       "content_preview": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfoh...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise"
       ],
+      "path_hash": "af464e1a8e2f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-6922aa5eb2:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise:af464e1a8e2f:field_value:0",
       "title": "Anwendungshinweise"
     },
     {
       "content": "Durch folgende in den Behandlungsablauf integrierte Informationen und Kontrollschritte wird eine qualitätsgesicherte Anwendung sichergestellt: - 1. Eine Registrierung und damit Nutzung der App ist nur mittels Zugangscode möglich, den die Patientinnen und Patienten nach Indikationsstellung von Ärztinnen oder Ärzten oder von Krankenkassen nach Diagnosenachweis erhalten. Dadurch wird sichergestellt, dass tatsächlich die entsprechende Indikation zur Nutzung von Cara Care für Reizdarm vorliegt. - 2. Den Patientinnen und Patienten wird eine Bedienungsanleitung zur Verfügung gestellt, in der kommuniziert wird, dass für die Nutzung der DiGA eine ärztliche Indikationsstellung zwingend erforderlich ist. Des Weiteren werden die Patientinnen und Patienten in der Bedienungsanleitung aufgefordert, beim Auftreten von ungewöhnlichen Symptomen medizinischen Rat einzuholen. Neben der Abfrage der Indikation im Registrierungsprozess wird auch die Aufforderung, bei ungewöhnlichen Symptomen eine Ärztin oder einen Arzt zu konsultieren, innerhalb der App-Inhalte erneut kommuniziert. Um eine Anwendung durch andere Personen zu vermeiden, werden die Patientinnen und Patienten zudem aufgefordert, den Zugang zur App durch ein Passwort zu schützen. - 3. Automatisierte Abfragen von Kontraindikationen sowie kontextspezifische Warnhinweise sind ein integraler Bestandteil der Nutzerführung innerhalb der App und unterstützen so deren korrekte Anwendung. In regelmäßigen Abständen von mehreren Wochen werden zu Beginn und während der Therapie anamnestische Angaben, persönliche Präferenzen und krankheitsspezifische Fragebögen erhoben, die für die leitlinienkonforme Personalisierung des Behandlungspfads benötigt werden. Dabei werden vor Freischaltung von Behandlungsmodulen sowie im weiteren Verlauf der Behandlung das Vorliegen von Beschwerden des Reizdarmsyndroms, von Symptomen, die eine unverzügliche medizinische Abklärung erfordern (“Red Flags”), als auch von Kontraindikationen abgefragt. Die Patientinnen und Patienten erhalten entsprechende Warnhinweise, falls die Nutzung der DiGA keine Wirkung verspricht bzw. werden Behandlungsmodule beim Vorliegen von Ausschlusskriterien nicht freigeschaltet. Außerdem werden begonnene Module abgebrochen, falls im Verlauf der Behandlung Kontraindikationen angegeben werden. Die Patientinnen und Patienten werden angehalten, ihre Ärztin/ihren Arzt zu konsultieren, falls das anhand der erhobenen Angaben erforderlich scheint. - 4. Die Kontaktmöglichkeit zum technischen Support unterstützt eine korrekte Anwendung der App. - 5. Es besteht die Möglichkeit, die zusammengefassten Ergebnisse der Erhebungen zu exportieren und einer Ärztin/einem Arzt vorzulegen, wodurch die qualitätsgesicherte Anwendung unterstützt wird.",
+      "content_fingerprint": "d1c15720d987",
       "content_preview": "Durch folgende in den Behandlungsablauf integrierte Informationen und Kontrollschritte wird eine qualitätsgesicherte Anwendung sichergestellt: - 1. Eine Registrierung und damit Nutzung der App ist nur mittels Zugangscode möglich, den die...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Hinweise für eine sichere Anwendung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Hinweise für eine sichere Anwendung"
       ],
+      "path_hash": "ed840310f43d",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw-13263bcc58:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw:ed840310f43d:field_value:0",
       "title": "Hinweise für eine sichere Anwendung"
     },
     {
       "content": "Alter unter 18 Alter über 70 Schwangerschaft",
+      "content_fingerprint": "af64f0ac68df",
       "content_preview": "Alter unter 18 Alter über 70 Schwangerschaft",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Weitere Ausschlusskriterien",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Weitere Ausschlusskriterien"
       ],
+      "path_hash": "77869fcfae9b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-weit-3d658a5f5f:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-weit:77869fcfae9b:field_value:0",
       "title": "Weitere Ausschlusskriterien"
     },
     {
       "content": "12 Wochen",
+      "content_fingerprint": "1db5ff1a99c3",
       "content_preview": "12 Wochen",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Vom Hersteller für erforderlich gehaltene Mindestdauer",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Vom Hersteller für erforderlich gehaltene Mindestdauer"
       ],
+      "path_hash": "b3d7024bc6a2",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom-:b3d7024bc6a2:field_value:0",
       "title": "Vom Hersteller für erforderlich gehaltene Mindestdauer"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Vom Hersteller für erforderlich gehaltene Höchstdauer",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Vom Hersteller für erforderlich gehaltene Höchstdauer"
       ],
+      "path_hash": "368408cd4f6e",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom-:368408cd4f6e:field_value:0",
       "title": "Vom Hersteller für erforderlich gehaltene Höchstdauer"
     },
     {
       "content": "Verweis auf den entsprechenden Abschnitt der Webseite: https://cara.care/de/kompatibilitaet/ - Kompatibilität: Android Cara Care ist mit Android Geräten der Softwareversion Nougat (Version 7.x) aufwärts kompatibel. iOS Cara Care ist mit iOS Geräten (iPhone, iPad, iPod Touch) der Softwareversion iOS 15.1 aufwärts kompatibel.",
+      "content_fingerprint": "4746cc11a546",
       "content_preview": "Verweis auf den entsprechenden Abschnitt der Webseite: https://cara.care/de/kompatibilitaet/ - Kompatibilität: Android Cara Care ist mit Android Geräten der Softwareversion Nougat (Version 7.x) aufwärts kompatibel. iOS Cara Care ist mit ...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Kompatibilitätszusagen in Bezug auf unterstützte Geräte",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
       ],
+      "path_hash": "cbcc39ae8cdd",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-komp-0b84064997:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-komp:cbcc39ae8cdd:field_value:0",
       "title": "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
     },
     {
       "content": "Der Link zur Webseite lautet: https://cara.care/de/kompatibilitaet/ - Datenportabilität: Die Datenportabilität ist gewährleistet durch den Export aller relevanter Therapie- und Gesundheitsdaten zum Therapieverlauf sowie zum Tracking, zur Anamnese und zum Gesundheitsprogramm. Der Export kann durch die Nutzenden jederzeit im Nutzerprofil und der Programmübersicht durchgeführt werden. Der Export erfolgt im maschinenlesbaren Standardformat CSV und ist zusätzlich im menschenlesbaren Format als PDF ausdruckbar. - Interoperabilität: Zur Sicherstellung der Interoperabilität wurden unsere FHIR-Profile in einer FHIR-Registry veröffentlicht und ein Implementierungsleitfaden veröffentlicht. Verlinkung zur FHIR-Registry: https://simplifier.net/caracare",
+      "content_fingerprint": "5affaaa186cc",
       "content_preview": "Der Link zur Webseite lautet: https://cara.care/de/kompatibilitaet/ - Datenportabilität: Die Datenportabilität ist gewährleistet durch den Export aller relevanter Therapie- und Gesundheitsdaten zum Therapieverlauf sowie zum Tracking, zur...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Möglichkeiten von standardisiertem Datenimport und Datenexport",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Möglichkeiten von standardisiertem Datenimport und Datenexport"
       ],
+      "path_hash": "4096563c9e44",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-moeg-b860ee673e:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-moeg:4096563c9e44:field_value:0",
       "title": "Möglichkeiten von standardisiertem Datenimport und Datenexport"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen"
       ],
+      "path_hash": "1bca405661c7",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-anga-c3b43d0732:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-anga:1bca405661c7:field_value:0",
       "title": "Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen"
     },
     {
       "content": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs. weitere, durch Sie selbst aufzubringende Kosten, sofern Sie bestimmte zusätzlich angebotene und von der Verschreibung nicht abgedeckte Leistungen in Anspruch nehmen möchten.",
+      "content_fingerprint": "39d5160ffdea",
       "content_preview": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs....",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis"
       ],
+      "path_hash": "41c28a502494",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-429bde377d:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis:41c28a502494:field_value:0",
       "title": "Angaben zum Preis"
     },
     {
       "content": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+      "content_fingerprint": "4c34fe9d1a3e",
       "content_preview": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis > Preismodell",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis",
         "Preismodell"
       ],
+      "path_hash": "d5d16c880c10",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis-6eb719186f:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis:d5d16c880c10:field_value:0",
       "title": "Preismodell"
     },
     {
       "content": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "content_fingerprint": "341e24b7c036",
       "content_preview": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:3",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "248,00 €",
+      "content_fingerprint": "b4cd7e9d89ca",
       "content_preview": "248,00 €",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
       ],
+      "path_hash": "351b8e240460",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-kosten-z-b-starterpaket-5641b0bf97:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-kosten-z-b-starterpaket:351b8e240460:field_value:0",
       "title": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
     },
     {
       "content": "248,00 €",
+      "content_fingerprint": "b4cd7e9d89ca",
       "content_preview": "248,00 €",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Nutzung der DiGA für zusätzliche 90 Tage",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
       ],
+      "path_hash": "003e20a2ca5b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-nutzung-der-dig-7a56e117b7:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-nutzung-der-dig:003e20a2ca5b:field_value:0",
       "title": "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Anmerkungen zum Preismodell",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Anmerkungen zum Preismodell"
       ],
+      "path_hash": "277cd06753d5",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-anmerkungen-zum-f3f338f2f7:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-anmerkungen-zum:277cd06753d5:field_value:0",
       "title": "Weitere Anmerkungen zum Preismodell"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Erläuterung Mehrkosten",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Erläuterung Mehrkosten"
       ],
+      "path_hash": "a3f923587875",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-erlaeuterung-mehrkosten-7813cc6074:field_value",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-erlaeuterung-mehrkosten:a3f923587875:field_value:0",
       "title": "Erläuterung Mehrkosten"
     },
     {
       "content": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_fingerprint": "766782bdbccd",
       "content_preview": "Es fallen keine Mehrkosten für den Patienten an.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01346:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:4",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Verbesserungen für Patienten können entweder medizinischer Art sein (z.B. Verringerung von Schmerzen, Beitrag zur Heilung der Erkrankung) oder den Erkennungs- und Behandlungsprozess direkt unterstützen und erleichtern (z.B. Informationen zur individuellen Erkrankungssituation, Unterstützung bei der Einhaltung der zwischen Patient und Arzt gemeinsam vereinbarten therapeutischen Maßnahmen).",
+      "content_fingerprint": "b689545a79f8",
       "content_preview": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Ve...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "b1d946b15fae",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:informationen-zum-positiven-versorgungseffekt-253662cf50:field_value",
+      "stable_key": "01346:informationen-zum-positiven-versorgungseffekt:b1d946b15fae:field_value:0",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche Weise dies ggfs. bereits wissenschaftlich nachgewiesen wurde. Falls der positive Versorgungseffekt noch nicht abschließend nachgewiesen aber bereits so plausibel dargelegt wurde, dass die DiGA befristet zur entsprechenden Erprobung aufgenommen wurde, wird angegeben, für welchen Zeitraum dies erfolgt ist. Sofern (auch) ein Nachweis zum Erhalt der Erwerbsfähigkeit für die DiGA erbracht wurde oder eine Nachweisführung geplant ist, finden Sie hier eine Beschreibung und nähere Angaben zum Nachweis sowie zum Studiendesign. Sofern die DiGA (auch) ein diagnostisches Instrument darstellt, also mindestens in Teilen dazu vorgesehen ist, Informationen z.B. für die Erkennung oder Diagnose von Krankheitszuständen zu liefern, hat der Hersteller dies benannt und beschrieben sowie Sensitivität und Spezifität als wichtige Bewertungsgrößen angegeben.",
+      "content_fingerprint": "0bf9ee1dc4d9",
       "content_preview": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche We...",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "01346:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:0",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Medizinischer Nutzen",
+      "content_fingerprint": "291175316d3d",
       "content_preview": "Medizinischer Nutzen",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Angaben zum positiven Versorgungseffekt",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Angaben zum positiven Versorgungseffekt"
       ],
+      "path_hash": "56d889aab765",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse-5449921803:field_value",
+      "stable_key": "01346:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse:56d889aab765:field_value:0",
       "title": "Angaben zum positiven Versorgungseffekt"
     },
     {
       "content": "Patientenrelevante Struktur- und Verfahrensverbesserung",
+      "content_fingerprint": "3d6e23bd735d",
       "content_preview": "Patientenrelevante Struktur- und Verfahrensverbesserung",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01346:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "01346:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:1",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Bewältigung krankheitsbedingter Schwierigkeiten im Alltag",
+      "content_fingerprint": "69d23d91a903",
       "content_preview": "Bewältigung krankheitsbedingter Schwierigkeiten im Alltag",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Patientenrelevante Struktur- und Verfahrensverbesserungen",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Patientenrelevante Struktur- und Verfahrensverbesserungen"
       ],
+      "path_hash": "435d0aeb3dfa",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:informationen-zum-positiven-versorgungseffekt-patientenrelevante-struktur-und-ve-6612535d44:field_value",
+      "stable_key": "01346:informationen-zum-positiven-versorgungseffekt-patientenrelevante-struktur-und-ve:435d0aeb3dfa:field_value:0",
       "title": "Patientenrelevante Struktur- und Verfahrensverbesserungen"
     },
     {
       "content": "Informationen über Gesundheit verstehen und für gesundheitsbezogene Entscheidungen anwenden (Gesundheitskompetenz)",
+      "content_fingerprint": "9c01a5a34cfd",
       "content_preview": "Informationen über Gesundheit verstehen und für gesundheitsbezogene Entscheidungen anwenden (Gesundheitskompetenz)",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "01346:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "01346:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:2",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Verbesserung des Gesundheitszustands",
+      "content_fingerprint": "58b8b11779d7",
       "content_preview": "Verbesserung des Gesundheitszustands",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Nähere Angaben zum medizinischen Nutzen",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Nähere Angaben zum medizinischen Nutzen"
       ],
+      "path_hash": "c2ba1d4f6a81",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen--90ce965dee:field_value",
+      "stable_key": "01346:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen-:c2ba1d4f6a81:field_value:0",
       "title": "Nähere Angaben zum medizinischen Nutzen"
     },
     {
       "content": "Verbesserung der Lebensqualität",
+      "content_fingerprint": "3112dcf8ae50",
       "content_preview": "Verbesserung der Lebensqualität",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "01346:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "01346:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:3",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Der medizinische Nutzen der DiGA Cara Care für Reizdarm liegt in einer Verbesserung des Gesundheitszustands sowie in der Steigerung der Lebensqualität. Die Verbesserung des Gesundheitszustands wird über die Linderung Reizdarm-spezifischer Symptome erreicht. Des Weiteren wird durch die Anwendung der DiGA eine Steigerung der erkrankungsbezogenen Lebensqualität der Patienten erzielt.",
+      "content_fingerprint": "24e87a2af642",
       "content_preview": "Der medizinische Nutzen der DiGA Cara Care für Reizdarm liegt in einer Verbesserung des Gesundheitszustands sowie in der Steigerung der Lebensqualität. Die Verbesserung des Gesundheitszustands wird über die Linderung Reizdarm-spezifische...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Beschreibung des medizinischen Nutzens",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Beschreibung des medizinischen Nutzens"
       ],
+      "path_hash": "71ee9147d6be",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut-a677995e79:field_value",
+      "stable_key": "01346:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut:71ee9147d6be:field_value:0",
       "title": "Beschreibung des medizinischen Nutzens"
     },
     {
       "content": "Die DiGA Cara Care für Reizdarm unterstützt bei der Bewältigung krankheitsbedingter Schwierigkeiten im Alltag, indem Einschränkungen in Bezug auf die Arbeitsproduktivität und die Aktivitäten des täglichen Lebens (z.B. Sport, Studieren, Einkaufen etc.) reduziert werden. Außerdem vermittelt Cara Care für Reizdarm Patientinnen und Patienten verständliche Gesundheitsinformationen und verbessert damit die Gesundheitskompetenz. Gesundheitskompetenz ist die Fähigkeit, sich über Fragen zur Gesundheit zu informieren und gesundheitsförderliche Entscheidungen treffen zu können.",
+      "content_fingerprint": "cc042ca4cfec",
       "content_preview": "Die DiGA Cara Care für Reizdarm unterstützt bei der Bewältigung krankheitsbedingter Schwierigkeiten im Alltag, indem Einschränkungen in Bezug auf die Arbeitsproduktivität und die Aktivitäten des täglichen Lebens (z.B. Sport, Studieren, E...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Nähere Beschreibung der patientenrelevanten Struktur- und Verfahrensverbesserung",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Nähere Beschreibung der patientenrelevanten Struktur- und Verfahrensverbesserung"
       ],
+      "path_hash": "89a9eaa0bd74",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:informationen-zum-positiven-versorgungseffekt-naehere-beschreibung-der-patienten-859be4691e:field_value",
+      "stable_key": "01346:informationen-zum-positiven-versorgungseffekt-naehere-beschreibung-der-patienten:89a9eaa0bd74:field_value:0",
       "title": "Nähere Beschreibung der patientenrelevanten Struktur- und Verfahrensverbesserung"
     },
     {
       "content": "Der Nachweis positiver Versorgungseffekte für Cara Care für Reizdarm wurde im Rahmen einer randomisiert-kontrollierten Studie erbracht. - Patientengruppe: 378 Patientinnen und Patienten im Alter zwischen 18 und 70 Jahren mit der gesicherten Diagnose eines Reizdarmsyndroms. - Interventionsgruppe: Patientinnen und Patienten in der Interventionsgruppe erhielten 12 Wochen Zugang zu Cara Care für Reizdarm und zur üblichen medizinischen Versorgung bei Bedarf. - Kontrollgruppe: Patientinnen und Patienten in der Kontrollgruppe erhielten die übliche medizinische Versorgung und Zugang zu einer App, die nur die Erhebungsfragebögen enthielt. Nach 12 Wochen erhielten auch die Patienten in der Kontrollgruppe Zugang zu Cara Care für Reizdarm. - Ergebnisse: Reduktion der erkrankungsspezifischen Symptomschwere Verbesserung der erkrankungsbezogenen Lebensqualität Reduktion der erkrankungsbezogenen Arbeitsbeeinträchtigung Reduktion der erkrankungsbezogenen Aktivitätsbeeinträchtigung Verbesserung der Gesundheitskompetenz - Für die Gruppe, die Cara Care für Reizdarm nutzte, ergaben sich deutliche Verbesserungen in Bezug auf alle untersuchten Aspekte. Die Kontrollgruppe, die Cara Care für Reizdarm nicht nutzte, verbesserte sich kaum bis gar nicht.",
+      "content_fingerprint": "9bab85b49f5e",
       "content_preview": "Der Nachweis positiver Versorgungseffekte für Cara Care für Reizdarm wurde im Rahmen einer randomisiert-kontrollierten Studie erbracht. - Patientengruppe: 378 Patientinnen und Patienten im Alter zwischen 18 und 70 Jahren mit der gesicher...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Studie/n im PICO-Schema",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Studie/n im PICO-Schema"
       ],
+      "path_hash": "cd33a100690d",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema-2cb668dadb:field_value",
+      "stable_key": "01346:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema:cd33a100690d:field_value:0",
       "title": "Studie/n im PICO-Schema"
     },
     {
       "content": "Die Wirksamkeit von Cara Care für Reizdarm wurde im Rahmen einer randomisiert-kontrollierten klinischen Studie (RCT) untersucht. Die Studie wurde im Deutschen Register klinischer Studien (DRKS) beim DIMDI unter der ID DRKS00026631 registriert. - Nachfolgend sind die wesentlichen Aspekte der Studie zusammengefasst. - Hauptergebnis: Die Anwendung von Cara Care für Reizdarm führte bei Patientinnen und Patienten mit einem Reizdarmsyndrom zu einer signifikant stärkeren Reduktion der Symptomschwere als die übliche medizinische Behandlung allein. Ferner führte die Anwendung zu einer signifikanten Steigerung der Lebensqualität, zu einer signifikanten Reduktion der Einschränkungen in Bezug auf die Arbeitsproduktivität und die täglichen Aktivitäten sowie zu einer signifikanten Steigerung der Gesundheitskompetenz. - Zielsetzung: Zielsetzung der Studie war es zu untersuchen, ob Cara Care für Reizdarm im Vergleich zur Standardbehandlung bessere Wirkungen bei Reizdarmpatienten erzielen kann. - Vorgehen: Die Wirksamkeit von Cara Care für Reizdarm wurde in einer zweiarmigen Studie untersucht, in der die Teilnehmenden 1:1 auf zwei verschiedene Gruppen randomisiert wurden: • eine Interventionsgruppe, in der die Teilnehmenden zusätzlich zur üblichen medizinischen Versorgung Zugang zur DiGA Cara Care für Reizdarm erhielten • eine Kontrollgruppe, in der die Teilnehmenden zusätzlich zur üblichen medizinischen Versorgung Zugang zu einer App erhielten, die nur Fragebögen anzeigte. Nach 12 Wochen erhielten auch die Patientinnen und Patienten in der Kontrollgruppe Zugang zu Cara Care für Reizdarm. - Patientengruppe: In die Studie wurden 378 Patientinnen und Patienten mit einem ärztlich bestätigten Reizdarmsyndrom eingeschlossen. - Ergebnisse: In der Interventionsgruppe konnte die Symptomschwere nach der 90-tägigen Behandlung mit Cara Care für Reizdarm deutlich spürbar reduziert werden. Bei der Kontrollgruppe blieben die Symptome hingegen konstant. Weiterhin konnte auch die Lebensqualität bei der Interventionsgruppe deutlich spürbar gesteigert werden. Auch hier war bei der Kontrollgruppe keine messbare Steigerung vorhanden. Daneben konnten bei der Interventionsgruppe auch Einschränkungen in Bezug auf die Arbeitsproduktivität und die Aktivitäten des alltäglichen Lebens reduziert sowie die Gesundheitskompetenz deutlich gesteigert werden, wohingegen dies bei der Kontrollgruppe nicht messbar war. - Die Studie konnte somit zeigen, dass die DiGA Cara Care für Reizdarm bessere Wirkungen bei Reizdarmpatienten erzielen kann als die Standardbehandlung alleine.",
+      "content_fingerprint": "9bea8fec1f07",
       "content_preview": "Die Wirksamkeit von Cara Care für Reizdarm wurde im Rahmen einer randomisiert-kontrollierten klinischen Studie (RCT) untersucht. Die Studie wurde im Deutschen Register klinischer Studien (DRKS) beim DIMDI unter der ID DRKS00026631 regist...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
       ],
+      "path_hash": "045f4d7c860c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u-804896bae6:field_value",
+      "stable_key": "01346:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u:045f4d7c860c:field_value:0",
       "title": "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
     },
     {
       "content": "IGES Institut GmbH Friedrichstraße 180 10117 Berlin",
+      "content_fingerprint": "16c727784807",
       "content_preview": "IGES Institut GmbH Friedrichstraße 180 10117 Berlin",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
       ],
+      "path_hash": "6deb64749945",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:informationen-zum-positiven-versorgungseffekt-herstellerunabhaengige-institution-85ca65af54:field_value",
+      "stable_key": "01346:informationen-zum-positiven-versorgungseffekt-herstellerunabhaengige-institution:6deb64749945:field_value:0",
       "title": "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
     },
     {
       "content": "Nein",
+      "content_fingerprint": "70bb813787b6",
       "content_preview": "Nein",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Die DiGA enthält ein diagnostisches Instrument",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Die DiGA enthält ein diagnostisches Instrument"
       ],
+      "path_hash": "f07a273683a3",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch-eded43f154:field_value",
+      "stable_key": "01346:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch:f07a273683a3:field_value:0",
       "title": "Die DiGA enthält ein diagnostisches Instrument"
     },
     {
       "content": "23 Monate (12 Monate initial, 11 Monate Verlängerung)",
+      "content_fingerprint": "5aec7164243f",
       "content_preview": "23 Monate (12 Monate initial, 11 Monate Verlängerung)",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Länge des Zeitraumes der vorläufigen Aufnahme",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Länge des Zeitraumes der vorläufigen Aufnahme"
       ],
+      "path_hash": "f50c229bb808",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:informationen-zum-positiven-versorgungseffekt-laenge-des-zeitraumes-der-vorlaeuf-d645f91b3b:field_value",
+      "stable_key": "01346:informationen-zum-positiven-versorgungseffekt-laenge-des-zeitraumes-der-vorlaeuf:f50c229bb808:field_value:0",
       "title": "Länge des Zeitraumes der vorläufigen Aufnahme"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird. Die Anforderungen an die Datensicherheit werden durch Vorlage eines Zertifikats gemäß § 139e Absatz 10 Fünftes Buch Sozialgesetzbuch nachgewiesen. Detaillierte Informationen zu den einzelnen Anforderungen können Sie auf der Webseite des Bundesamts für Sicherheit in der Informationstechnik unter der Technischen Richtlinie \"BSI TR-03161\" finden: https://www.bsi.bund.de/dok/TR-03161 Bis zur Vorlage des Zertifikats gelten für den Bereich Datensicherheit die Anforderungen der nachfolgend dargestellten Checkliste.",
+      "content_fingerprint": "32cb1bd13010",
       "content_preview": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen v...",
       "content_type": "field_value",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 3,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "899b23823ae4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:field_value",
+      "stable_key": "01346:informationen-zu-datenschutz-und-datensicherheit:899b23823ae4:field_value:0",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die Nutzung der digitalen Gesundheitsanwendung ist auf ein privates IT-System der nutzenden Person beschränkt. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine technische Möglichkeit einer Verknüpfung oder eines Datenaustauschs mit anderen digitalen Gesundheitsanwendungen. Trifft nicht zu Die digitale Gesundheitsanwendung unterstützt keine Offenbarung von Informationen der betroffenen Person oder über die betroffene Person für die Öffentlichkeit oder eine für die betroffene Person nicht eingrenzbare Personengruppe.",
+      "content_fingerprint": "880b6a78b0ce",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die Nutzung der digitalen Gesundheitsanwendung ist auf ein privates IT-System der nutzend...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "01346:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:0",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit > Datensicherheit",
       "level": 4,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit",
         "Datensicherheit"
       ],
+      "path_hash": "8545f237a1b9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:informationen-zu-datenschutz-und-datensicherheit-datensicherheit-14af255f91:field_value",
+      "stable_key": "01346:informationen-zu-datenschutz-und-datensicherheit-datensicherheit:8545f237a1b9:field_value:0",
       "title": "Datensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung greift weder auf Sensoren eines mobilen Endgeräts noch auf externe Hardware zu. Trifft nicht zu Die digitale Gesundheitsanwendung tauscht keine Daten mit externer Hardware aus. Zutreffend Zutreffend Zutreffend Nein",
+      "content_fingerprint": "9361ab3a5b28",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutref...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01346:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "01346:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:1",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der medizinischen Inhalte und die Gewährleistung der Patientensicherheit.",
+      "content_fingerprint": "0b320ca69209",
       "content_preview": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der me...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen",
       "level": 3,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "f85d7bfd4b8e",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-afe954d9f8:field_value",
+      "stable_key": "01346:weitere-informationen:f85d7bfd4b8e:field_value:0",
       "title": "Weitere Informationen"
     },
     {
       "content": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_fingerprint": "f14ccf82a937",
       "content_preview": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01346:weitere-informationen:df3724c46c56:section:0",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Interoperabilität",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Interoperabilität"
       ],
+      "path_hash": "43914a1ae1e9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-angaben-zur-interoperabilitaet-8867f27412:field_value",
+      "stable_key": "01346:weitere-informationen-angaben-zur-interoperabilitaet:43914a1ae1e9:field_value:0",
       "title": "Angaben zur Interoperabilität"
     },
     {
       "content": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versicherten getragenen Sensoren zur Messung und Übertragung von Vitalwerten (Wearables) austauscht. Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "922bba61baf0",
       "content_preview": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versiche...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01346:weitere-informationen:df3724c46c56:section:1",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Robustheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Robustheit"
       ],
+      "path_hash": "d416c871fdb6",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-angaben-zur-robustheit-0a511476df:field_value",
+      "stable_key": "01346:weitere-informationen-angaben-zur-robustheit:d416c871fdb6:field_value:0",
       "title": "Angaben zur Robustheit"
     },
     {
       "content": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
+      "content_fingerprint": "4b94c32e0d08",
       "content_preview": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digi...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01346:weitere-informationen:df3724c46c56:section:2",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zum Verbraucherschutz",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zum Verbraucherschutz"
       ],
+      "path_hash": "22c54da8ff9c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-angaben-zum-verbraucherschutz-05cd17969e:field_value",
+      "stable_key": "01346:weitere-informationen-angaben-zum-verbraucherschutz:22c54da8ff9c:field_value:0",
       "title": "Angaben zum Verbraucherschutz"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "409aa9901d82",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01346:weitere-informationen:df3724c46c56:section:3",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zu Nutzerfreundlichkeit und Barrierefreiheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
       ],
+      "path_hash": "a9d890d721a4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit-8fe873c531:field_value",
+      "stable_key": "01346:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit:a9d890d721a4:field_value:0",
       "title": "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
     },
     {
       "content": "Zutreffend Zutreffend",
+      "content_fingerprint": "f572c2f88946",
       "content_preview": "Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01346:weitere-informationen:df3724c46c56:section:4",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Unterstützung der Leistungserbringende",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Unterstützung der Leistungserbringende"
       ],
+      "path_hash": "bdfe86165ef2",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-unterstuetzung-der-leistungserbringende-d4e78dfd75:field_value",
+      "stable_key": "01346:weitere-informationen-unterstuetzung-der-leistungserbringende:bdfe86165ef2:field_value:0",
       "title": "Unterstützung der Leistungserbringende"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Qualität der medizinischen Inhalte",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Qualität der medizinischen Inhalte"
       ],
+      "path_hash": "964eb34f0609",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte-a6d05ceeb6:field_value",
+      "stable_key": "01346:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte:964eb34f0609:field_value:0",
       "title": "Angaben zur Qualität der medizinischen Inhalte"
     },
     {
       "content": "Zutreffend Zutreffend Trifft nicht zu Mit der Durchführung einer Studie wird aktuell begonnen. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "118b6e9c509e",
       "content_preview": "Zutreffend Zutreffend Trifft nicht zu Mit der Durchführung einer Studie wird aktuell begonnen. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01346:weitere-informationen:df3724c46c56:section:5",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Patientensicherheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Patientensicherheit"
       ],
+      "path_hash": "96d387fa1378",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-angaben-zur-patientensicherheit-7a67651ccd:field_value",
+      "stable_key": "01346:weitere-informationen-angaben-zur-patientensicherheit:96d387fa1378:field_value:0",
       "title": "Angaben zur Patientensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "477afefea65b",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "01346:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01346:weitere-informationen:df3724c46c56:section:6",
       "title": "Weitere Informationen"
     }
   ],
@@ -1015,10 +1327,10 @@
     "accordions_opened": 0,
     "content_section_count": 78,
     "field_value_count": 60,
-    "rendered_at": "2026-06-22T19:09:08.753990+00:00",
+    "rendered_at": "2026-06-22T20:36:44.631219+00:00",
     "source_kind": "visible_directory"
   },
   "source_kind": "visible_directory",
-  "timestamp": "20260622T190144Z",
+  "timestamp": "20260622T202912Z",
   "url": "https://diga.bfarm.de/de/verzeichnis/01346"
 }

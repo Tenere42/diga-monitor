@@ -2,996 +2,1304 @@
   "content_sections": [
     {
       "content": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_fingerprint": "26290d5ae490",
       "content_preview": "Hier finden Sie weitergehende Informationen zur DiGA.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "a5e395515816",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung:a5e395515816:field_value:0",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_fingerprint": "bfc5ca33598c",
       "content_preview": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:0",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Kranus Lutera",
+      "content_fingerprint": "1750090068b7",
       "content_preview": "Kranus Lutera",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Name der DiGA im DiGA-Verzeichnis",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Name der DiGA im DiGA-Verzeichnis"
       ],
+      "path_hash": "b055b8e1c744",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v-132a49921b:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v:b055b8e1c744:field_value:0",
       "title": "Name der DiGA im DiGA-Verzeichnis"
     },
     {
       "content": "14.04.2024",
+      "content_fingerprint": "65353f0995a0",
       "content_preview": "14.04.2024",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Erstmalige Aufnahme in das DiGA-Verzeichnis",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Erstmalige Aufnahme in das DiGA-Verzeichnis"
       ],
+      "path_hash": "3d07f6258e5c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in--0901792b12:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in-:3d07f6258e5c:field_value:0",
       "title": "Erstmalige Aufnahme in das DiGA-Verzeichnis"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Modul",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Modul"
       ],
+      "path_hash": "fdfb704b702c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-modul-0b2f60dd90:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-modul:fdfb704b702c:field_value:0",
       "title": "Modul"
     },
     {
       "content": "Kranus Lutera",
+      "content_fingerprint": "1750090068b7",
       "content_preview": "Kranus Lutera",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Name der DiGA (Kurzform)",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Name der DiGA (Kurzform)"
       ],
+      "path_hash": "4c0085f25a54",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-kurzform-be25f49996:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-kurzform:4c0085f25a54:field_value:0",
       "title": "Name der DiGA (Kurzform)"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
       ],
+      "path_hash": "46556afef4cb",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-andere-namen-und-modell-ab7acb1427:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-andere-namen-und-modell:46556afef4cb:field_value:0",
       "title": "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
     },
     {
       "content": "App",
+      "content_fingerprint": "fc4a695f02a8",
       "content_preview": "App",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Art der DiGA",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Art der DiGA"
       ],
+      "path_hash": "600a0be84a95",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga-f41af95c79:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga:600a0be84a95:field_value:0",
       "title": "Art der DiGA"
     },
     {
       "content": "im Apple App Store Deutschland",
+      "content_fingerprint": "5a4cd838fc6e",
       "content_preview": "im Apple App Store Deutschland",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Die digitale Gesundheitsanwendung ist verfügbar",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Die digitale Gesundheitsanwendung ist verfügbar"
       ],
+      "path_hash": "6d3556c97e9a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit-70a197df25:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit:6d3556c97e9a:field_value:0",
       "title": "Die digitale Gesundheitsanwendung ist verfügbar"
     },
     {
       "content": "im Google Play Store Deutschland",
+      "content_fingerprint": "860262a8c802",
       "content_preview": "im Google Play Store Deutschland",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:1",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Unsere Auftragsverarbeiter sitzen ausschließlich in Deutschland und Irland.",
+      "content_fingerprint": "4c19d6286a08",
       "content_preview": "Unsere Auftragsverarbeiter sitzen ausschließlich in Deutschland und Irland.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Standorte der Datenverarbeitung",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Standorte der Datenverarbeitung"
       ],
+      "path_hash": "eee99405da7f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera-426183d1fc:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera:eee99405da7f:field_value:0",
       "title": "Standorte der Datenverarbeitung"
     },
     {
       "content": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) die Anforderungen an",
+      "content_fingerprint": "3877981d2f4e",
       "content_preview": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) die Anforderungen an",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Bewertungsentscheidung des BfArM",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Bewertungsentscheidung des BfArM"
       ],
+      "path_hash": "7d463e27c832",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung--cdc10aad7c:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung-:7d463e27c832:field_value:0",
       "title": "Bewertungsentscheidung des BfArM"
     },
     {
       "content": "• Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der Technik und • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Gesundheitsanwendung-Verordnung (DiGAV) als erfüllt. Der Hersteller hat bestätigt, dass keine personenbezogenen Daten in ein Land ohne Angemessenheitsbeschluss fließen. Es wurde eine zweiarmige randomisierte prospektive kontrollierte Studie (RCT) mit dem Titel ,,Prospektiv randomisierte Studie zur multimodalen Selbstbehandlung von Männern mit Miktionsbeschwerden (LUTS) mit einer digitalen Gesundheitsanwendung.‘‘ (DRKS-ID: DRKS00030935) durchgeführt. Die Beobachtungszeit betrug 12 Wochen. Die Studie lief vom 12.04.2023 bis zum 02.11.2023. Die Interventionsgruppe (IG) erhielt Zugang zur Standardversorgung und DiGA. Die Kontrollgruppe (KG) erhielt Zugang zur Standardversorgung und verzögerten Zugang zur DiGA (Wartekontrollgruppe). Der primäre Endpunkt war die Veränderung der Symptome, gemessen anhand des International Prostate Symptom Score (IPSS). Die sekundären Endpunkten waren die Veränderung der Symptome, gemessen anhand des Overactive Bladder Questionnaire Short Form (OAB-q SF) Teil 1 und die Veränderung der Lebensqualität, gemessen anhand des Overactive Bladder Questionnaire Short Form (OAB-q SF) Teil 2. Die sekundären Endpunkte wurden hierarchisch getestet. In die Studie wurden zunächst insgesamt 241 Patientinnen und Patienten eingeschlossen. 4 Teilnehmende wurden noch vor Randomisierung ausgeschlossen. Es wurden somit 237 Patientinnen und Patienten randomisiert (IG: 112; KG: 125). Nach 12-wöchiger Studiendauer ergab sich zur Abschlussuntersuchung eine Drop-out-Rate von 2,95 % (IG: 5,36 %; KG: 0,80%). Die Endpunkte wurden zu 2 Zeitpunkten [Baseline (t0) und nach 12 Wochen (t1)] erhoben. Im Rahmen der primären Analyse der RCT gemäß Intention-To-Treat-Prinzip (ITT-Prinzip) ergab sich ein statistisch signifikanter und klinisch relevanter Vorteil der IG gegenüber der KG in Bezug auf die Reduktion der Symptomatik gemessen anhand des IPSS (adjustierte Differenz: -7,0; 95-%-Konfidenzintervall (KI): -8,1 - -5,9; p-Wert: < 0,001; Cohens d: 1,46; 95-%-KI: 1,25 – 1,71). Im Rahmen der Responderanalysen zeigten sich ebenfalls deutliche Vorteile [≥ 3 Punkte Verbesserung: Odds Ratio (OR): 14,65; 95-%-KI: 7,81 – 27,48; 30 % Verbesserung: OR: 26,33; 95-%-KI: 11,67 – 59,41]. Zudem ergab sich ein statistisch signifikanter und klinisch relevanter Vorteil der IG gegenüber der KG in Bezug auf die Reduktion der Symptomatik gemessen anhand des OAB-q SF Teil 1 [adjustierte Differenz: -18,6; 95-%- KI: -22,2 – -15,0; p-Wert: < 0,001; Cohens d: 0,94; 95-%-KI: 0,78 – 1,15]. Des Weiteren ergab sich ein statistisch signifikanter und klinisch relevanter Vorteil der IG gegenüber der KG in Bezug auf die Verbesserung der Lebensqualität gemessen anhand des OAB-q SF Teil 2 (adjustierte Differenz: -11,2; 95-%- KI: -13,2 - -9,3; p-Wert: < 0,001; Cohens d: 0,96; 95-%-KI: 0,83 – 1,18). Im Rahmen der Responderanalysen zeigten sich ebenfalls deutliche Vorteile für die IG. Die Subgruppenanalysen zeigten konsistente Effekte in den Endpunkten. Entsprechend bewertet das BfArM die in § 139e des Fünften Buches Sozialgesetzbuch (SGB V) sowie in der DiGAV festgelegten Voraussetzungen zur dauerhaften Aufnahme in das Verzeichnis nach § 139e Absatz 1 SGB V für die Indikationen N40: Prostatahyperplasie und N32.8: Sonstige näher bezeichnete Krankheiten der Harnblase in Bezug auf die positiven Versorgungseffekte „Verbesserung des Gesundheitszustands“ und „Verbesserung der Lebensqualität“ als erfüllt.",
+      "content_fingerprint": "8a99f555ffa0",
       "content_preview": "• Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der Technik und • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Ge...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:2",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_fingerprint": "4b8f5a46c1b0",
       "content_preview": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt"
       ],
+      "path_hash": "9af58630166c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:9af58630166c:field_value:0",
       "title": "Angaben zum Medizinprodukt"
     },
     {
       "content": "Kranus Lutera dient der Behandlung von Symptomatiken der unteren Harnwege (engl. Lower urinary tract symptoms, LUTS).",
+      "content_fingerprint": "a4fdc3ebd35d",
       "content_preview": "Kranus Lutera dient der Behandlung von Symptomatiken der unteren Harnwege (engl. Lower urinary tract symptoms, LUTS).",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Medizinische Zweckbestimmung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Medizinische Zweckbestimmung"
       ],
+      "path_hash": "8bde401e0e97",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:8bde401e0e97:field_value:0",
       "title": "Medizinische Zweckbestimmung"
     },
     {
       "content": "Risikoklasse I nach MDR",
+      "content_fingerprint": "957f4ea485db",
       "content_preview": "Risikoklasse I nach MDR",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Risikoklasse Medizinprodukt",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Risikoklasse Medizinprodukt"
       ],
+      "path_hash": "b60186e2af98",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:b60186e2af98:field_value:0",
       "title": "Risikoklasse Medizinprodukt"
     },
     {
       "content": "PP11745LUTERA43",
+      "content_fingerprint": "f10a6d2c8135",
       "content_preview": "PP11745LUTERA43",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Identifikationsnummer Eudamed",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Identifikationsnummer Eudamed"
       ],
+      "path_hash": "d5e73676d560",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:d5e73676d560:field_value:0",
       "title": "Identifikationsnummer Eudamed"
     },
     {
       "content": "111845381938",
+      "content_fingerprint": "02d6f1602182",
       "content_preview": "111845381938",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > UDI - Unique Device Identifier im Sinne der MDR",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "UDI - Unique Device Identifier im Sinne der MDR"
       ],
+      "path_hash": "95f9849b188b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:95f9849b188b:field_value:0",
       "title": "UDI - Unique Device Identifier im Sinne der MDR"
     },
     {
       "content": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_fingerprint": "ba6516ebde5f",
       "content_preview": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA"
       ],
+      "path_hash": "6921f5eac91a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:6921f5eac91a:field_value:0",
       "title": "Weitere Informationen zur DiGA"
     },
     {
       "content": "Kranus Lutera ist eine digitale Therapie für Männer mit Blasenentleerungsstörungen, auch “Lower Urinary Tract Symptoms” (kurz “LUTS”) genannt. Kranus Lutera bietet eine einzigartige, einfache und personalisierte Therapie über 12 Wochen, die darauf abzielt, Menschen mit Blasenentleerungsstörungen durch eine Vielzahl von Funktionen und personalisierten Ansätzen zu unterstützen. - Die App bietet ein Miktionstagebuch, in dem Patienten ihre Trinkmenge, Mahlzeiten, Miktionsmenge und -häufigkeit sowie Symptome dokumentieren können. Ein intelligenter Algorithmus bietet personalisierte Hinweise, während die optisch vereinfachte Darstellung dem Patienten hilft, Zusammenhänge zu erkennen und ihn motiviert. - Kranus Lutera integriert Beckenboden- und physiotherapeutische Übungen, die sich auf die Fähigkeit zur wiederholten Kontraktion und Entspannung der relevanten Muskulatur konzentrieren. Diese Übungen werden durch Text, Videoanleitungen und interaktive Softwareelemente vermittelt. Zusätzlich werden spezielle physiotherapeutische Übungen wöchentlich vorgeschlagen, um die Grundübungen des Beckenbodens zu unterstützen. - Ein weiterer Schwerpunkt liegt auf dem Blasentraining und der kognitiven Verhaltenstherapie, um die funktionelle Blasenkapazität zu vergrößern und die Miktionsfrequenz zu verringern. Die App bietet wöchentlich neue Inhalte und Ziele. Mentale Übungen, einschließlich Achtsamkeit, Progressive Muskelrelaxation (PMR) und Methoden der Stimuluskontrolle, werden durch wöchentliche Audiosequenzen bereitgestellt, um den Patienten bei der Bewältigung von Symptomen zu unterstützen. - Bei akutem Harndrang ermöglicht Kranus Lutera mit dem “Drang-Stopp”-Button dem Patienten den Zugang zu Kurzversionen der Übungen zur Achtsamkeit, PMR und Gedankenkontrolle. Zudem stehen eine Kurzübung des Beckenbodentrainings sowie unterhaltsame Spiele zur Verfügung, um situative Ablenkung zu bieten und die Kontrolle über den Miktionsreflex zu fördern. - Die Wissens- und Ernährungssektion der App liefert täglich Bildungsinhalte über die Ursachen von Blasenentleerungsstörungen und ernährungsspezifische Zusammenhänge. Die App erklärt weiterhin therapeutische Maßnahmen sowie psychische, habituelle und organische Zusammenhänge. - Teilnehmer haben die Möglichkeit, ihren Symptomverlauf und Therapiefortschritt zu beobachten und werden durch den Erwerb von Fortschrittsauszeichnungen motiviert. Kranus Lutera schafft eine ganzheitliche Unterstützung für Menschen mit Blasenentleerungsstörungen, indem es Informationen, Übungen und personalisierte Hinweise in einer benutzerfreundlichen App vereint.",
+      "content_fingerprint": "35e8f6297190",
       "content_preview": "Kranus Lutera ist eine digitale Therapie für Männer mit Blasenentleerungsstörungen, auch “Lower Urinary Tract Symptoms” (kurz “LUTS”) genannt. Kranus Lutera bietet eine einzigartige, einfache und personalisierte Therapie über 12 Wochen, ...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "ef6363788ef3",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:ef6363788ef3:field_value:0",
       "title": "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
     },
     {
       "content": "Kranus Lutera kann auf dem Smartphone oder Tablet verwendet werden. Um einen langfristigen, anhaltenden Therapieerfolg zu erreichen, zielt die App darauf, das gesundheitsrelevante Verhalten der Patienten zu verändern. - Anwender der App durchlaufen ein 12-wöchiges Programm mit folgenden Inhalten: • Beckenbodentraining • Physiotherapeutischen Übungen • Mentalen Übungen • Blasentraining / kognitive Verhaltenstherapie • Akuter Drangkontrolle • Wissenssektion /Ernährungssektion - Kranus Lutera bietet mit seiner alltagstauglichen und diskreten Funktionalität die Möglichkeit, die Programminhalte von zu Hause oder auch unterwegs zu nutzen. - Kranus Lutera bietet eine zweigleisige Vorgehensweise, um den individuellen Bedürfnissen der Nutzer gerecht zu werden. Einerseits bietet die App einen Akute Drangkontrollmechanismus, der es dem Patienten ermöglicht, in Situationen mit starkem Harndrang auf Kurzversionen von strukturierten Übungen zur Achtsamkeit, PMR und Gedankenkontrolle zuzugreifen. Außerdem kann der Nutzer auf eine Kurzübung des Beckenbodentrainings zurückgreifen oder ein unterhaltsames Spiel wählen, um eine sofortige Ablenkung von der Thematik zu erhalten und eine Kontrolle über den Miktionsreflex zu erlangen. - Andererseits bietet das Programm von Kranus Lutera ein individuell aufbauendes und sich steigerndes Training. Die physiotherapeutischen Übungen, verhaltenstherapeutischen Übungen und mentalen Übungen sind aufeinander abgestimmt und werden im Laufe der Zeit an die Fortschritte des Nutzers angepasst. Das Programm passt sich dynamisch an die Bedürfnisse des Einzelnen an, indem es wöchentlich neue Inhalte und Ziele für die verschiedenen Übungen und Therapieansätze einführt. Dieser progressiv aufbauende Ansatz gewährleistet eine kontinuierliche Herausforderung und Förderung, um die langfristige Wirksamkeit der Therapie zu unterstützen. - Durch die Kombination von akuter Drangkontrolle und einem strukturierten, individuell anpassbaren Trainingsprogramm bietet Kranus Lutera eine umfassende Lösung, die sowohl kurzfristige Bedürfnisse als auch langfristige therapeutische Ziele berücksichtigt.",
+      "content_fingerprint": "5273b85d75ab",
       "content_preview": "Kranus Lutera kann auf dem Smartphone oder Tablet verwendet werden. Um einen langfristigen, anhaltenden Therapieerfolg zu erreichen, zielt die App darauf, das gesundheitsrelevante Verhalten der Patienten zu verändern. - Anwender der App ...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Funktionen der digitalen Gesundheitsanwendung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Funktionen der digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "21931475406b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:21931475406b:field_value:0",
       "title": "Funktionen der digitalen Gesundheitsanwendung"
     },
     {
       "content": "PD Dr. Sandra Schönburg, Universitätsklinik und Poliklinik für Urologie, Ernst-Grube-Str. 40 , 06120 Halle (Saale) - Prof. Dr. Christian Gratzke, Universitätsklinikum Freiburg, Klinik für Urologie, Breisacher Straße 153, 79110 Freiburg",
+      "content_fingerprint": "4933e1970fae",
       "content_preview": "PD Dr. Sandra Schönburg, Universitätsklinik und Poliklinik für Urologie, Ernst-Grube-Str. 40 , 06120 Halle (Saale) - Prof. Dr. Christian Gratzke, Universitätsklinikum Freiburg, Klinik für Urologie, Breisacher Straße 153, 79110 Freiburg",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
       ],
+      "path_hash": "32d92eb3d0dc",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:32d92eb3d0dc:field_value:0",
       "title": "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
     },
     {
       "content": "Leitlinien: Bschleipfer T, Schönburg S. S2e-Leitlinie Diagnostik und Therapie des Benignen Prostatasyndroms (BPS), Langversion 5.0, 2023. - Gravas S., Cornu J.N., Gacci M., Gratzke C., Herrmann T.R.W., Mamoulakis C., et al. EAU Guidelines on Management of Non-Neurogenic Male LUTS Including Benign Prostatic Obstruction.: European Association of Urology; Arnhem, The Netherland: 2022; 2022. - Wissenschaftliche Veröffentlichungen und Artikel: Abdelmoteleb, H., E. R. Jefferies and M. J. Drake (2016). \"Assessment and management of male lower urinary tract symptoms (LUTS).\" Int J Surg 25: 164-171. - Akerla, J., J. S. Pesonen, A. Poyhonen, J. Koskimaki, J. Hakkinen, H. Huhtala, A. Auvinen and T. L. J. Tammela (2022). \"Lower Urinary Tract Symptoms and Mortality among Finnish Men: The Roles of Symptom Severity and Bother.\" J Urol 207(6): 1285-1294. - Albarqouni, L., S. Sanders, J. Clark, K. A. O. Tikkinen and P. Glasziou (2021). \"SelfManagement for Men With Lower Urinary Tract Symptoms: A Systematic Review and MetaAnalysis.\" Ann Fam Med 19(2): 157-167. - Berges, R. (2008). \"[Epidemiology of benign prostatic syndrome. Associated risks and management data in German men over age 50].\" Urologe A 47(2): 141-148. - Bright, E., M. J. Drake and P. Abrams (2011). \"Urinary diaries: evidence for the development and validation of diary content, format, and duration.\" Neurourol Urodyn 30(3): 348-352. - Brown, C. T. and M. Emberton (2009). \"Self-management for men with lower urinary tract symptoms.\" Curr Urol Rep 10(4): 261-266.",
+      "content_fingerprint": "0fdda755f3ec",
       "content_preview": "Leitlinien: Bschleipfer T, Schönburg S. S2e-Leitlinie Diagnostik und Therapie des Benignen Prostatasyndroms (BPS), Langversion 5.0, 2023. - Gravas S., Cornu J.N., Gacci M., Gratzke C., Herrmann T.R.W., Mamoulakis C., et al. EAU Guideline...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
       ],
+      "path_hash": "ad43221ee27a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:ad43221ee27a:field_value:0",
       "title": "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
     },
     {
       "content": "Chapple, C. R., A. J. Wein, P. Abrams, R. R. Dmochowski, F. Giuliano, S. A. Kaplan, K. T. McVary and C. G. Roehrborn (2008). \"Lower urinary tract symptoms revisited: a broader clinical perspective.\" Eur Urol 54(3): 563-569. - Coyne, K. S., C. Payne, S. K. Bhattacharyya, D. A. Revicki, C. Thompson, R. Corey and T. L. Hunt (2004). \"The impact of urinary urgency and frequency on health-related quality of life in overactive bladder: results from a national community survey.\" Value Health 7(4): 455- 463. - Djavan, B., M. Margreiter and S. S. Dianat (2011). \"An algorithm for medical management in male lower urinary tract symptoms.\" Curr Opin Urol 21(1): 5-12. - Heßdörfer, E. (2016). \"Mehr Augenmerk für LUTS.\" Uro-News 20(3) Hut, J., W. K. van der Heide, B. J. Kollen, E. J. Messelink, M. H. Blanker and J. H. Dekker (2017). \"Pelvic floor muscle therapy or alpha-blocking agents for treatment of men with lower urinary tract symptoms: An exploratory randomized controlled trial.\" Int J Urol 24(6): 473-474. - Miernik, A. and C. Gratzke (2020). \"Current Treatment for Benign Prostatic Hyperplasia.\" Dtsch Arztebl Int 117(49): 843-854. - Netto, N. R., Jr., M. L. de Lima, M. R. Netto and C. A. D'Ancona (1999). \"Evaluation of patients with bladder outlet obstruction and mild international prostate symptom score followed up by watchful waiting.\" Urology 53(2): 314-316. - Perchon, L. F., V. L. Pintarelli, E. Bezerra, M. Thiel and M. Dambros (2011). \"Quality of life in elderly men with aging symptoms and lower urinary tract symptoms (LUTS).\" Neurourol Urodyn 30(4): 515-519. - Schmidt, F. and J. W. Thüroff (2019). Funktionsstörungen des unteren Harntraktes – Lower Urinary Tract Symptoms (LUTS) Thieme. - Van Asseldonk, B., J. Barkin and D. S. Elterman (2015). \"Medical therapy for benign prostatic hyperplasia: a review.\" Can J Urol 22 Suppl 1: 7-17. - Widdison, R., A. Rashidi and L. Whitehead (2022). \"Effectiveness of mobile apps to improve urinary incontinence: a systematic review of randomised controlled trials.\" BMC Nurs 21(1): 32. - Yap, T. L., C. Brown, D. A. Cromwell, J. van der Meulen and M. Emberton (2009). \"The impact of selfmanagement of lower urinary tract symptoms on frequency-volume chart measures.\" BJU Int 104(8): 1104-1108. - Vollständige Liste unter: https://www.kranushealth.com/de/lutera/best-studie-leitlinien/",
+      "content_fingerprint": "a36d25572f28",
       "content_preview": "Chapple, C. R., A. J. Wein, P. Abrams, R. R. Dmochowski, F. Giuliano, S. A. Kaplan, K. T. McVary and C. G. Roehrborn (2008). \"Lower urinary tract symptoms revisited: a broader clinical perspective.\" Eur Urol 54(3): 563-569. - Coyne, K. S...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:3",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_fingerprint": "77cea9e6788d",
       "content_preview": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal"
       ],
+      "path_hash": "4c8dba25a53c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:4c8dba25a53c:field_value:0",
       "title": "Beteiligung vom medizinischen Fachpersonal"
     },
     {
       "content": "Grundlegend besteht die Rolle der Ärztin oder des Arztes in der Regelversorgung zunächst darin, die Syptomatiken der unteren Harnwege, auch “Lower Urinary Tract Symptoms” (kurz “LUTS”) genannt, zu diagnostizieren und geeigneten Patienten Kranus Lutera zu verordnen. Patienten können zustimmen, der behandelnden Ärztin/dem behandelnden Arzt einen Datenexport aus der DiGA zukommen zu lassen. So kann eine gemeinsame Auswertung mit dem Patienten erfolgen.",
+      "content_fingerprint": "b7df6f6fdea1",
       "content_preview": "Grundlegend besteht die Rolle der Ärztin oder des Arztes in der Regelversorgung zunächst darin, die Syptomatiken der unteren Harnwege, auch “Lower Urinary Tract Symptoms” (kurz “LUTS”) genannt, zu diagnostizieren und geeigneten Patienten...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal > Ärztinnen/ Ärzte",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal",
         "Ärztinnen/ Ärzte"
       ],
+      "path_hash": "736d25ff8830",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:736d25ff8830:field_value:0",
       "title": "Ärztinnen/ Ärzte"
     },
     {
       "content": "Grundlegend besteht die Rolle der Psychotherapeutinnen / Psychotherapeuten darin, die Syptomatiken der unteren Harnwege, auch “Lower Urinary Tract Symptoms” (kurz “LUTS”) genannt, zu diagnostizieren und geeigneten Patienten Kranus Lutera zu verordnen. Patienten können zustimmen, der behandelnden Psychotherapeutin oder dem behandelnden Psychotherapeuten einen Datenexport aus der DiGA zukommen zu lassen. So kann eine gemeinsame Auswertung mit dem Patienten erfolgen.",
+      "content_fingerprint": "9d04e32154eb",
       "content_preview": "Grundlegend besteht die Rolle der Psychotherapeutinnen / Psychotherapeuten darin, die Syptomatiken der unteren Harnwege, auch “Lower Urinary Tract Symptoms” (kurz “LUTS”) genannt, zu diagnostizieren und geeigneten Patienten Kranus Lutera...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal > Psychotherapeutinnen/ Psychotherapeuten",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal",
         "Psychotherapeutinnen/ Psychotherapeuten"
       ],
+      "path_hash": "58675bdbc27c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:58675bdbc27c:field_value:0",
       "title": "Psychotherapeutinnen/ Psychotherapeuten"
     },
     {
       "content": "Ja",
+      "content_fingerprint": "283c735c8901",
       "content_preview": "Ja",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal > Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal",
         "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
       ],
+      "path_hash": "844ec57e702e",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:844ec57e702e:field_value:0",
       "title": "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal > Erforderliche vertragsärztliche Tätigkeiten in Zusammenhang mit der Nutzung der DiGA als Gebührenordnungsposition",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal",
         "Erforderliche vertragsärztliche Tätigkeiten in Zusammenhang mit der Nutzung der DiGA als Gebührenordnungsposition"
       ],
+      "path_hash": "69a1fe5835ac",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:69a1fe5835ac:field_value:0",
       "title": "Erforderliche vertragsärztliche Tätigkeiten in Zusammenhang mit der Nutzung der DiGA als Gebührenordnungsposition"
     },
     {
       "content": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfohlen wird.",
+      "content_fingerprint": "ba2dc6143acd",
       "content_preview": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfoh...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise"
       ],
+      "path_hash": "af464e1a8e2f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-6922aa5eb2:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise:af464e1a8e2f:field_value:0",
       "title": "Anwendungshinweise"
     },
     {
       "content": "Folgende Punkte stellen eine qualitätsgesicherte Anwendung sicher: - 1. Ärztliche Verordnung und Aufklärung: - Leistungserbringende werden durch die Kranus Health GmbH über \"Kranus Lutera\" sowie über mögliche Kontraindikationen informiert. Dadurch wird sichergestellt, dass die DiGA nur an Patienten verordnet wird, die an der Krankheit gemäß Zweckbestimmung leiden und keine relevanten Kontraindikationen aufweisen. - 2. Registrierungsprozess - Nach dem Registrieren muss der Patient einen Fragebogen mit demographischen sowie krankheitsspezifischen Fragen ausfüllen. Die Fragen umfassen Ausschlusskriterien für die Therapie mit \"Kranus Lutera\", sowie Fragen, die den allgemeinen Gesundheitszustand und die Fitness abfragen. Beispiele hierfür sind Fragen, ob der Patient in der Vergangenheit an Knieproblemen litt. Sollte der Patient angeben, an einem Risikofaktor zu leiden, der relevant ist, wird er in der App dazu aufgefordert, sich vor der Therapie mit \"Kranus Lutera\" an seinen behandelnden Leistungserbringenden zu wenden. Dies stellt einen \"double-check\" Mechanismus dar, da diese Punkte bereits bei der Verordnung der DiGA vom behandelnden Leistungserbringenden abgefragt werden sollten. Gibt der Patient an, in der Vergangenheit an Knieproblemen gelitten zu haben, so wird ein Therapieprogramm zusammengestellt, welches knieschonende Übungen enthält. Gibt der Patient an, dass er nicht sehr fit ist (z.B. durch die Angabe, dass er sportlich nicht aktiv ist), so generiert die DiGA ein Programm, das für sportliche Untrainierte geeignet ist. Durch diese Maßnahmen wird sichergestellt, dass Patienten die für sie geeigneten Übungen durchführen. - Ein weiterer Sicherheitsmechanismus ist die Abfrage einer Trinkmengenbeschränkung. Sollte der Patient beispielsweise aufgrund einer Herzschwäche eine vom Leistungerbringenden festgelegte Trinkmengenbeschränkung haben, kann er diese im Registrierungsprozess eingeben. Die empfohlene tägliche Trinkmenge während der Therapie wird daraufhin entsprechend angepasst. - Die im Registrierungsprozess abgefragten Körpermaße müssen im üblichen Rahmen liegen. Der Patient kann keine unrealistischen Größen oder Gewichte eingeben. - 3. Nutzungshinweise und Instruktionen: - Alle Therapieinhalte verfügen über detaillierte Einleitungen. Die gesamte Therapie, inklusive des Beckenbodentrainings haben außerdem ein detailliertes Einleitungsvideo. - Vor jeder Übungseinheit werden dem Patienten detaillierte Nutzungshinweise und Instruktionsvideos bereitgestellt, um eine korrekte Durchführung zu gewährleisten. Dabei werden die Instruktionen von einem professionellen Sprecher einfach verständlich erklärt, sind aber auch jederzeit in Textform verfügbar. - 4. Feedback und Support für Patienten: - Ein integriertes Feedback-System in der DiGA \"Kranus Lutera\" ermöglicht es den Benutzern, direkt Kontakt mit Kranus Health aufzunehmen und Rückmeldungen zu geben. Diese Rückmeldungen sind ein wesentlicher Bestandteil unserer kontinuierlichen Bemühungen, die Qualität und Benutzerfreundlichkeit der DiGA zu verbessern. Zusätzlich zu diesem Feedback-System können sich Patienten bei Unsicherheiten zum Umgang mit der DiGA jederzeit an den Support von Kranus Health wenden. Die Kontaktdaten sind in der DiGA hinterlegt, und die Erreichbarkeit entspricht den gesetzlichen Vorgaben. - 5. Regelmäßige Wartung und Updates: - Um die Funktionalität und Qualität der DiGA zu gewährleisten, erfolgen regelmäßige Wartungen und Updates, die auch der Behebung von Bugs dienen. - Durch diese Maßnahmen gewährleisten wir eine qualitätsgesicherte Anwendung der DiGA \"Kranus Lutera“.",
+      "content_fingerprint": "74a1a14884b5",
       "content_preview": "Folgende Punkte stellen eine qualitätsgesicherte Anwendung sicher: - 1. Ärztliche Verordnung und Aufklärung: - Leistungserbringende werden durch die Kranus Health GmbH über \"Kranus Lutera\" sowie über mögliche Kontraindikationen informier...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Hinweise für eine sichere Anwendung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Hinweise für eine sichere Anwendung"
       ],
+      "path_hash": "ed840310f43d",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw-13263bcc58:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw:ed840310f43d:field_value:0",
       "title": "Hinweise für eine sichere Anwendung"
     },
     {
       "content": "relative Ausschlusskriterien mit ICD, die im Ermessen des Leistungserbringenden liegen: • Wiederkehrende Unfähigkeit, die Blase ganz oder teilweise zu leeren (R33, Harnverhaltung) • Wiederkehrende Harnwegsinfektionen (N39. 0, Harnwegsinfektion, Lokalisation nicht näher bezeichnet) • Steine in der Harnblase (N21.0, Harnblasenkonkremente) • Blut im Urin (N02. konservativ nicht beherrschbare, rezidivierende Makrohämaturien) - relative Ausschlusskriterien ohne ICD, die im Ermessen des Leistungserbringenden liegen: • Dilatation des oberen Harntraktes, eingeschränkte Nierenfunktion oder Niereninsuffizienz durch obstruktive Blasenentleerungsstörungen • Unfähigkeit physisch am Programm teilzunehmen",
+      "content_fingerprint": "06e5f0c3cb95",
       "content_preview": "relative Ausschlusskriterien mit ICD, die im Ermessen des Leistungserbringenden liegen: • Wiederkehrende Unfähigkeit, die Blase ganz oder teilweise zu leeren (R33, Harnverhaltung) • Wiederkehrende Harnwegsinfektionen (N39. 0, Harnwegsinf...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Weitere Ausschlusskriterien",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Weitere Ausschlusskriterien"
       ],
+      "path_hash": "77869fcfae9b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-weit-3d658a5f5f:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-weit:77869fcfae9b:field_value:0",
       "title": "Weitere Ausschlusskriterien"
     },
     {
       "content": "Ein Behandlungszyklus (90 Tage)",
+      "content_fingerprint": "cbb00619ef15",
       "content_preview": "Ein Behandlungszyklus (90 Tage)",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Vom Hersteller für erforderlich gehaltene Mindestdauer",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Vom Hersteller für erforderlich gehaltene Mindestdauer"
       ],
+      "path_hash": "b3d7024bc6a2",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom-:b3d7024bc6a2:field_value:0",
       "title": "Vom Hersteller für erforderlich gehaltene Mindestdauer"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Vom Hersteller für erforderlich gehaltene Höchstdauer",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Vom Hersteller für erforderlich gehaltene Höchstdauer"
       ],
+      "path_hash": "368408cd4f6e",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom-:368408cd4f6e:field_value:0",
       "title": "Vom Hersteller für erforderlich gehaltene Höchstdauer"
     },
     {
       "content": "Die Anwendungsdauer von Kranus Lutera wird individuell von den Leistungserbringenden basierend auf dem therapeutischen Bedarf festgelegt. Eine generelle Höchstdauer ist explizit nicht definiert.",
+      "content_fingerprint": "f1bcfdee26c1",
       "content_preview": "Die Anwendungsdauer von Kranus Lutera wird individuell von den Leistungserbringenden basierend auf dem therapeutischen Bedarf festgelegt. Eine generelle Höchstdauer ist explizit nicht definiert.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:4",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "iOS - Digitale Gesundheitsanwendungen von Kranus Health sind mit Apple Geräten der Softwareversion iOS 15.x aufwärts kompatibel. - Android - Digitale Gesundheitsanwendungen von Kranus Health sind mit Android Geräten der Softwareversion Android Pie (Version 9.x) aufwärts kompatibel und mit dem Google Play Store kompatibel sind. - Weitere Informationen finden Sie unter: https://www.kranushealth.com/de/kompatibilitaet/",
+      "content_fingerprint": "63f44e50fe08",
       "content_preview": "iOS - Digitale Gesundheitsanwendungen von Kranus Health sind mit Apple Geräten der Softwareversion iOS 15.x aufwärts kompatibel. - Android - Digitale Gesundheitsanwendungen von Kranus Health sind mit Android Geräten der Softwareversion A...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Kompatibilitätszusagen in Bezug auf unterstützte Geräte",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
       ],
+      "path_hash": "fdfd0a3e19b3",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-kompatibilitaetszusagen-2e7efe3e1b:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-kompatibilitaetszusagen:fdfd0a3e19b3:field_value:0",
       "title": "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
     },
     {
       "content": "Die Kranus Lutera App erfüllt die gesetzlichen Anforderungen hinsichtlich der technischen und semantischen Interoperabilität. Die Kranus Lutera App verwendet hierfür ein interoperables Datenformat, das auf dem HL7 FHIR4 KBV Standard basiert. Soweit möglich wird das von der KBV spezifizierte MIO DiGA Toolkit in Version 1.1.0 bei Antragsstellung verwendet. Die Version des MIO DiGA Toolkit wird entsprechend der Weiterentwicklung dieses Standards anpasst, sofern die Vorgaben der Kassenärztlichen Bundesvereinigung (KBV) eine neue Version vorgeben. - Der Nutzer kann seine Daten in dem maschinenlesbaren Standardformat XML, FHIR sowie dem menschenlesbaren Format als PDF runterladen und teilen.",
+      "content_fingerprint": "4a4ef5833ccf",
       "content_preview": "Die Kranus Lutera App erfüllt die gesetzlichen Anforderungen hinsichtlich der technischen und semantischen Interoperabilität. Die Kranus Lutera App verwendet hierfür ein interoperables Datenformat, das auf dem HL7 FHIR4 KBV Standard basi...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Möglichkeiten von standardisiertem Datenimport und Datenexport",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Möglichkeiten von standardisiertem Datenimport und Datenexport"
       ],
+      "path_hash": "569132413e54",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-moeglichkeiten-von-stan-a818cc9f27:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-moeglichkeiten-von-stan:569132413e54:field_value:0",
       "title": "Möglichkeiten von standardisiertem Datenimport und Datenexport"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen"
       ],
+      "path_hash": "3e9803f91215",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zu-den-von-der--1e522ad432:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zu-den-von-der-:3e9803f91215:field_value:0",
       "title": "Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen"
     },
     {
       "content": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs. weitere, durch Sie selbst aufzubringende Kosten, sofern Sie bestimmte zusätzlich angebotene und von der Verschreibung nicht abgedeckte Leistungen in Anspruch nehmen möchten.",
+      "content_fingerprint": "39d5160ffdea",
       "content_preview": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs....",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis"
       ],
+      "path_hash": "41c28a502494",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-429bde377d:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis:41c28a502494:field_value:0",
       "title": "Angaben zum Preis"
     },
     {
       "content": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "content_fingerprint": "341e24b7c036",
       "content_preview": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis > Preismodell",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis",
         "Preismodell"
       ],
+      "path_hash": "d5d16c880c10",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis-6eb719186f:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis:d5d16c880c10:field_value:0",
       "title": "Preismodell"
     },
     {
       "content": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+      "content_fingerprint": "4c34fe9d1a3e",
       "content_preview": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:5",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "240,50 €",
+      "content_fingerprint": "fdca9f945a5e",
       "content_preview": "240,50 €",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
       ],
+      "path_hash": "351b8e240460",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-kosten-z-b-starterpaket-5641b0bf97:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-kosten-z-b-starterpaket:351b8e240460:field_value:0",
       "title": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
     },
     {
       "content": "240,50 €",
+      "content_fingerprint": "fdca9f945a5e",
       "content_preview": "240,50 €",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Nutzung der DiGA für zusätzliche 90 Tage",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
       ],
+      "path_hash": "003e20a2ca5b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-nutzung-der-dig-7a56e117b7:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-nutzung-der-dig:003e20a2ca5b:field_value:0",
       "title": "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Anmerkungen zum Preismodell",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Anmerkungen zum Preismodell"
       ],
+      "path_hash": "277cd06753d5",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-anmerkungen-zum-f3f338f2f7:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-anmerkungen-zum:277cd06753d5:field_value:0",
       "title": "Weitere Anmerkungen zum Preismodell"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Erläuterung Mehrkosten",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Erläuterung Mehrkosten"
       ],
+      "path_hash": "a3f923587875",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-erlaeuterung-mehrkosten-7813cc6074:field_value",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-erlaeuterung-mehrkosten:a3f923587875:field_value:0",
       "title": "Erläuterung Mehrkosten"
     },
     {
       "content": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_fingerprint": "766782bdbccd",
       "content_preview": "Es fallen keine Mehrkosten für den Patienten an.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01644:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:6",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Verbesserungen für Patienten können entweder medizinischer Art sein (z.B. Verringerung von Schmerzen, Beitrag zur Heilung der Erkrankung) oder den Erkennungs- und Behandlungsprozess direkt unterstützen und erleichtern (z.B. Informationen zur individuellen Erkrankungssituation, Unterstützung bei der Einhaltung der zwischen Patient und Arzt gemeinsam vereinbarten therapeutischen Maßnahmen).",
+      "content_fingerprint": "b689545a79f8",
       "content_preview": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Ve...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "b1d946b15fae",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:informationen-zum-positiven-versorgungseffekt-253662cf50:field_value",
+      "stable_key": "01644:informationen-zum-positiven-versorgungseffekt:b1d946b15fae:field_value:0",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche Weise dies ggfs. bereits wissenschaftlich nachgewiesen wurde. Falls der positive Versorgungseffekt noch nicht abschließend nachgewiesen aber bereits so plausibel dargelegt wurde, dass die DiGA befristet zur entsprechenden Erprobung aufgenommen wurde, wird angegeben, für welchen Zeitraum dies erfolgt ist. Sofern (auch) ein Nachweis zum Erhalt der Erwerbsfähigkeit für die DiGA erbracht wurde oder eine Nachweisführung geplant ist, finden Sie hier eine Beschreibung und nähere Angaben zum Nachweis sowie zum Studiendesign. Sofern die DiGA (auch) ein diagnostisches Instrument darstellt, also mindestens in Teilen dazu vorgesehen ist, Informationen z.B. für die Erkennung oder Diagnose von Krankheitszuständen zu liefern, hat der Hersteller dies benannt und beschrieben sowie Sensitivität und Spezifität als wichtige Bewertungsgrößen angegeben.",
+      "content_fingerprint": "0bf9ee1dc4d9",
       "content_preview": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche We...",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "01644:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:0",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Medizinischer Nutzen",
+      "content_fingerprint": "291175316d3d",
       "content_preview": "Medizinischer Nutzen",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Angaben zum positiven Versorgungseffekt",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Angaben zum positiven Versorgungseffekt"
       ],
+      "path_hash": "56d889aab765",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse-5449921803:field_value",
+      "stable_key": "01644:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse:56d889aab765:field_value:0",
       "title": "Angaben zum positiven Versorgungseffekt"
     },
     {
       "content": "Verbesserung des Gesundheitszustands",
+      "content_fingerprint": "58b8b11779d7",
       "content_preview": "Verbesserung des Gesundheitszustands",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Nähere Angaben zum medizinischen Nutzen",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Nähere Angaben zum medizinischen Nutzen"
       ],
+      "path_hash": "c2ba1d4f6a81",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen--90ce965dee:field_value",
+      "stable_key": "01644:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen-:c2ba1d4f6a81:field_value:0",
       "title": "Nähere Angaben zum medizinischen Nutzen"
     },
     {
       "content": "Verbesserung der Lebensqualität",
+      "content_fingerprint": "3112dcf8ae50",
       "content_preview": "Verbesserung der Lebensqualität",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01644:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "01644:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:1",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Die Krankheitssymptome und die Lebensqualität werden durch die aktive Selbstbehandlung (im Gegensatz zur \"passiven\" Einnahme von Medikamenten) der eigenen Erkrankung und durch edukative Inhalte, wie Hintergrundinformationen zur Erkrankung und zur Wirkweise der Therapie, positiv beeinflusst. Die Quantifizierung des Effekts erfolgt über die validierten Fragebögen IPSS (International Prostate Symptom Score) und OAB-q-SF (OverActive Bladder questionnaire Short Form).",
+      "content_fingerprint": "a0a00dd3d3d9",
       "content_preview": "Die Krankheitssymptome und die Lebensqualität werden durch die aktive Selbstbehandlung (im Gegensatz zur \"passiven\" Einnahme von Medikamenten) der eigenen Erkrankung und durch edukative Inhalte, wie Hintergrundinformationen zur Erkrankun...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Beschreibung des medizinischen Nutzens",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Beschreibung des medizinischen Nutzens"
       ],
+      "path_hash": "71ee9147d6be",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut-a677995e79:field_value",
+      "stable_key": "01644:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut:71ee9147d6be:field_value:0",
       "title": "Beschreibung des medizinischen Nutzens"
     },
     {
       "content": "Titel: Prospektiv randomisierte Studie zur multimodalen Selbstbehandlung von Männern mit Miktionsbeschwerden (LUTS) mit einer digitalen Gesundheitsanwendung - Patientenpopulation: Männer ≥ 18 Jahre mit LUTS unterschiedlicher Genese (ICD-10-Codes: N 40 Prostatahyperplasie; N 32.8 Sonstige näher bezeichnete Krankheiten des Harnsystems) - Interventionsgruppe: 12 Wochen Zugang zur DiGA Kranus Lutera zusätzlich zur Standardversorgung. Kontrollgruppe: Zugang zur Standardversorgung - Outcomes: Nachweis der Verbesserung der Krankheitssymptome im IPSS-Score Nachweis der Verbesserung der Krankheitssymptome im OAB-q-SF-Teil 1 Nachweis der Verbesserung der Lebensqualität im OAB-q-SF-Teil 2",
+      "content_fingerprint": "d16129c88dc0",
       "content_preview": "Titel: Prospektiv randomisierte Studie zur multimodalen Selbstbehandlung von Männern mit Miktionsbeschwerden (LUTS) mit einer digitalen Gesundheitsanwendung - Patientenpopulation: Männer ≥ 18 Jahre mit LUTS unterschiedlicher Genese (ICD-...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Studie/n im PICO-Schema",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Studie/n im PICO-Schema"
       ],
+      "path_hash": "cd33a100690d",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema-2cb668dadb:field_value",
+      "stable_key": "01644:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema:cd33a100690d:field_value:0",
       "title": "Studie/n im PICO-Schema"
     },
     {
       "content": "Zweiarmige, randomisierte, kontrollierte, bizentrische, einfach verblindete Studie zur Wirksamkeitsermittlung der digitalen Therapie Kranus Lutera bei “Lower Urinary Tract Symptoms” bei Patienten mit benigner Prostatahyperplasie (BPH) oder überaktiver Blase (“Overactive bladder”/ OAB). - Indikation/Zielpopulation/Erkrankung: Männer ≥ 18 Jahre mit LUTS mit Diagnose N 40 Prostatahyperplasie oder N 32.8 Sonstige näher bezeichnete Krankheiten des Harnsystems nach ICD-10 - Studiendesign/Methodik: Zweiarmige, randomisierte, kontrollierte, bizentrische, einfach verblindete Studie Arm A: Intervention (multimodale Therapie der mittels App Kranus Edera) Arm B: Zugang zur Standardversorgung Dauer der Intervention: 3 Monate - Ziele der klinischen Prüfung/Zielstellung: • Nachweis der Verbesserung der Krankheitssymptome im IPSS-Score (primärer Endpunkt) • Nachweis der Verbesserung der Krankheitssymptome im OAB-q-SF-Teil 1 • Nachweis der Verbesserung der Lebensqualität im OAB-q-SF-Teil 2 - Weitere Endpunkte: • Veränderung der Miktionsfrequenz am Tag • Veränderung der Miktionsfrequenz in der Nacht • Veränderung der Dranginkontinenz Episode • Veränderung des imperativen Harndrangs • Veränderung der funktionellen Blasenkapazität • IPSS-Frage 8, Likert-Skala 1-5 • Verringerung des Anteils von Patienten mit Therapieversagen innerhalb des Studienzeitraums. • Gesamtverbesserung nach Behandlung (Likert Skala von 1-7), Patient Global Impression of Change (PGIC) • Patientenadhärenz - Patientenzahl: 237 Männer mit Diagnose N40 oder N32.8 Interventionsgruppe: n=112 Kontrollgruppe: n=125 - Ergebnisse: Im Vergleich zur Kontrollgruppe zeigte sich bei der Interventionsgruppe eine Verbesserung des primären Endpunktes Symptomreduktion, gemessen am IPSS sowie der sekundären Endpunkte Symptomreduktion und Lebensqualität, gemessen am OAB-q-SF Teil 1 und Teil 2. - Die Interventionsgruppe berichtete eine signifikant größere Reduktion des primären Zielkriteriums Symptomreduktion (IPSS) im Vergleich zur Kontrollgruppe bei der Post-Messung (-7.0 Scorepunkte, 95-%-KI: -8.1 bis -5.9, p < 0.0001) mit einer großen Effektstärke (d =1.46) basierend auf der Konvention nach Cohen (1988). - Es konnte gezeigt werden, dass es sowohl zu einer signifikanten Reduktion der OAB-Symptomatik, gemessen anhand des OAB-q-SF Teil 1 (-18.6, 95-%-KI: -22.2; -15.0, p < 0.0001, Cohen’s d=1,19), als auch zu einer deutlichen Verbesserung der gesundheitsbezogenen Lebensqualität (OAB-q-SF Teil 2) (-11.2, 95-%-KI: -13.2; -9.3, p < 0.0001, Cohen’s d=1,28) kommt. - Zusammenfassend lieferten die drei obigen a-priori-geordneten Zielvariablen somit für die primäre und die beiden Hauptsekundärvariablen unter Kontrolle des multiplen α-Niveaus von 5 % konfirmative und signifikante Behandlungsgruppenunterschiede zu Gunsten der Interventionsgruppe. - Weiterhin zeigten sich positive Resultate bei der Interventionsgruppe bezogen auf die Veränderung der Miktionsfrequenz am Tag und in der Nacht sowie die Veränderung des imperativen Harndrangs. Patienten der Interventionsgruppe zeigten eine Besserung der Lebensqualität, gemessen an der IPSS-Frage 8 und erfuhren weniger Therapieversagen innerhalb des Studienzeitraums nach Definition im Vergleich zur Kontrollgruppe (3,6% vs. 40,8%). Gemessen am Patient Global Impression of Change (PGIC) gaben 92,45% der Interventionsgruppen eine Verbesserung nach Intervention an. Darüber hinaus zeigte sich eine sehr gute Patientenadhärenz: 83,96% der Patienten nutzten die App mehrfach wöchentlich.",
+      "content_fingerprint": "56658e188113",
       "content_preview": "Zweiarmige, randomisierte, kontrollierte, bizentrische, einfach verblindete Studie zur Wirksamkeitsermittlung der digitalen Therapie Kranus Lutera bei “Lower Urinary Tract Symptoms” bei Patienten mit benigner Prostatahyperplasie (BPH) od...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
       ],
+      "path_hash": "045f4d7c860c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u-804896bae6:field_value",
+      "stable_key": "01644:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u:045f4d7c860c:field_value:0",
       "title": "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
     },
     {
       "content": "Die Studie wurde im Deutschen Register Klinischer Studien (DRKS) registriert: DRKS00030935.",
+      "content_fingerprint": "ac7912306360",
       "content_preview": "Die Studie wurde im Deutschen Register Klinischer Studien (DRKS) registriert: DRKS00030935.",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "01644:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "01644:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:2",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Eine Veröffentlichung in einem wissenschaftlichen Journal wird angestrebt. Zusätzlich veröffentlicht Kranus Health den Studienbericht auf der Webseite nach der Publikation. Dies wird innerhalb von 12 Monaten angestrebt. Zusätzlich wird Kranus Health innerhalb von 12 Monaten die Ergebnisse im Studienregister veröffentlichen.",
+      "content_fingerprint": "24968e0f35e6",
       "content_preview": "Eine Veröffentlichung in einem wissenschaftlichen Journal wird angestrebt. Zusätzlich veröffentlicht Kranus Health den Studienbericht auf der Webseite nach der Publikation. Dies wird innerhalb von 12 Monaten angestrebt. Zusätzlich wird K...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Dies ist/sind die vom Hersteller angeführten Studie/n:",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Dies ist/sind die vom Hersteller angeführten Studie/n:"
       ],
+      "path_hash": "1b2b98450658",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:informationen-zum-positiven-versorgungseffekt-dies-ist-sind-die-vom-hersteller-a-81dc280904:field_value",
+      "stable_key": "01644:informationen-zum-positiven-versorgungseffekt-dies-ist-sind-die-vom-hersteller-a:1b2b98450658:field_value:0",
       "title": "Dies ist/sind die vom Hersteller angeführten Studie/n:"
     },
     {
       "content": "Nein",
+      "content_fingerprint": "70bb813787b6",
       "content_preview": "Nein",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Die DiGA enthält ein diagnostisches Instrument",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Die DiGA enthält ein diagnostisches Instrument"
       ],
+      "path_hash": "f07a273683a3",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch-eded43f154:field_value",
+      "stable_key": "01644:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch:f07a273683a3:field_value:0",
       "title": "Die DiGA enthält ein diagnostisches Instrument"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird. Die Anforderungen an die Datensicherheit werden durch Vorlage eines Zertifikats gemäß § 139e Absatz 10 Fünftes Buch Sozialgesetzbuch nachgewiesen. Detaillierte Informationen zu den einzelnen Anforderungen können Sie auf der Webseite des Bundesamts für Sicherheit in der Informationstechnik unter der Technischen Richtlinie \"BSI TR-03161\" finden: https://www.bsi.bund.de/dok/TR-03161 Bis zur Vorlage des Zertifikats gelten für den Bereich Datensicherheit die Anforderungen der nachfolgend dargestellten Checkliste.",
+      "content_fingerprint": "32cb1bd13010",
       "content_preview": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen v...",
       "content_type": "field_value",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 3,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "899b23823ae4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:field_value",
+      "stable_key": "01644:informationen-zu-datenschutz-und-datensicherheit:899b23823ae4:field_value:0",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die Nutzung der digitalen Gesundheitsanwendung ist auf ein privates IT-System der nutzenden Person beschränkt. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine technische Möglichkeit einer Verknüpfung oder eines Datenaustauschs mit anderen digitalen Gesundheitsanwendungen. Trifft nicht zu Die digitale Gesundheitsanwendung unterstützt keine Offenbarung von Informationen der betroffenen Person oder über die betroffene Person für die Öffentlichkeit oder eine für die betroffene Person nicht eingrenzbare Personengruppe.",
+      "content_fingerprint": "880b6a78b0ce",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die Nutzung der digitalen Gesundheitsanwendung ist auf ein privates IT-System der nutzend...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "01644:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:0",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit > Datensicherheit",
       "level": 4,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit",
         "Datensicherheit"
       ],
+      "path_hash": "8545f237a1b9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:informationen-zu-datenschutz-und-datensicherheit-datensicherheit-14af255f91:field_value",
+      "stable_key": "01644:informationen-zu-datenschutz-und-datensicherheit-datensicherheit:8545f237a1b9:field_value:0",
       "title": "Datensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung erlaubt keinen Upload von Dateien. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung greift weder auf Sensoren eines mobilen Endgeräts noch auf externe Hardware zu. Trifft nicht zu Die digitale Gesundheitsanwendung tauscht keine Daten mit externer Hardware aus. Zutreffend Zutreffend Zutreffend Nein",
+      "content_fingerprint": "603ec5b23afb",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu D...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01644:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "01644:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:1",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der medizinischen Inhalte und die Gewährleistung der Patientensicherheit.",
+      "content_fingerprint": "0b320ca69209",
       "content_preview": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der me...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen",
       "level": 3,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "f85d7bfd4b8e",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-afe954d9f8:field_value",
+      "stable_key": "01644:weitere-informationen:f85d7bfd4b8e:field_value:0",
       "title": "Weitere Informationen"
     },
     {
       "content": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_fingerprint": "f14ccf82a937",
       "content_preview": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01644:weitere-informationen:df3724c46c56:section:0",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Interoperabilität",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Interoperabilität"
       ],
+      "path_hash": "43914a1ae1e9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-angaben-zur-interoperabilitaet-8867f27412:field_value",
+      "stable_key": "01644:weitere-informationen-angaben-zur-interoperabilitaet:43914a1ae1e9:field_value:0",
       "title": "Angaben zur Interoperabilität"
     },
     {
       "content": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versicherten getragenen Sensoren zur Messung und Übertragung von Vitalwerten (Wearables) austauscht. Zutreffend Trifft nicht zu Der Hersteller hat keine eigenen Profilierungen vorgenommen. Zutreffend",
+      "content_fingerprint": "7eb62bc8947d",
       "content_preview": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versiche...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01644:weitere-informationen:df3724c46c56:section:1",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Robustheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Robustheit"
       ],
+      "path_hash": "d416c871fdb6",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-angaben-zur-robustheit-0a511476df:field_value",
+      "stable_key": "01644:weitere-informationen-angaben-zur-robustheit:d416c871fdb6:field_value:0",
       "title": "Angaben zur Robustheit"
     },
     {
       "content": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
+      "content_fingerprint": "4b94c32e0d08",
       "content_preview": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digi...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01644:weitere-informationen:df3724c46c56:section:2",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zum Verbraucherschutz",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zum Verbraucherschutz"
       ],
+      "path_hash": "22c54da8ff9c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-angaben-zum-verbraucherschutz-05cd17969e:field_value",
+      "stable_key": "01644:weitere-informationen-angaben-zum-verbraucherschutz:22c54da8ff9c:field_value:0",
       "title": "Angaben zum Verbraucherschutz"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "409aa9901d82",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01644:weitere-informationen:df3724c46c56:section:3",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zu Nutzerfreundlichkeit und Barrierefreiheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
       ],
+      "path_hash": "a9d890d721a4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit-8fe873c531:field_value",
+      "stable_key": "01644:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit:a9d890d721a4:field_value:0",
       "title": "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
     },
     {
       "content": "Zutreffend Zutreffend",
+      "content_fingerprint": "f572c2f88946",
       "content_preview": "Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01644:weitere-informationen:df3724c46c56:section:4",
       "title": "Weitere Informationen"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Unterstützung der Leistungserbringende",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Unterstützung der Leistungserbringende"
       ],
+      "path_hash": "bdfe86165ef2",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-unterstuetzung-der-leistungserbringende-d4e78dfd75:field_value",
+      "stable_key": "01644:weitere-informationen-unterstuetzung-der-leistungserbringende:bdfe86165ef2:field_value:0",
       "title": "Unterstützung der Leistungserbringende"
     },
     {
       "content": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen.",
+      "content_fingerprint": "8b7713a3d90e",
       "content_preview": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Triff...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01644:weitere-informationen:df3724c46c56:section:5",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Qualität der medizinischen Inhalte",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Qualität der medizinischen Inhalte"
       ],
+      "path_hash": "964eb34f0609",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte-a6d05ceeb6:field_value",
+      "stable_key": "01644:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte:964eb34f0609:field_value:0",
       "title": "Angaben zur Qualität der medizinischen Inhalte"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "6a8d1dc0aa28",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01644:weitere-informationen:df3724c46c56:section:6",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Patientensicherheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Patientensicherheit"
       ],
+      "path_hash": "96d387fa1378",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-angaben-zur-patientensicherheit-7a67651ccd:field_value",
+      "stable_key": "01644:weitere-informationen-angaben-zur-patientensicherheit:96d387fa1378:field_value:0",
       "title": "Angaben zur Patientensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "477afefea65b",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 7,
       "source_kind": "visible_directory",
-      "stable_key": "01644:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01644:weitere-informationen:df3724c46c56:section:7",
       "title": "Weitere Informationen"
     }
   ],
@@ -1001,10 +1309,10 @@
     "accordions_opened": 0,
     "content_section_count": 77,
     "field_value_count": 57,
-    "rendered_at": "2026-06-22T19:10:51.378277+00:00",
+    "rendered_at": "2026-06-22T20:38:25.565510+00:00",
     "source_kind": "visible_directory"
   },
   "source_kind": "visible_directory",
-  "timestamp": "20260622T190144Z",
+  "timestamp": "20260622T202912Z",
   "url": "https://diga.bfarm.de/de/verzeichnis/01644"
 }

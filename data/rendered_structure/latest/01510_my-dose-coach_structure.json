@@ -2,425 +2,561 @@
   "content_sections": [
     {
       "content": "My Dose Coach ist eine digitale Gesundheitsanwendung zur Titration von Basalinsulin (langwirksames Insulin), die aus dem My Dose Coach-Webportal für medizinisches Fachpersonal und der My Dose Coach-App für Patientinnen und Patienten besteht. Über das My Dose Coach-Webportal kann das medizinische Fachpersonal einen individuellen Dosisplan für Patientinnen und Patienten erstellen, die Titrationsergebnisse der Patientinnen und Patienten überprüfen sowie den Dosisplan bei Bedarf anpassen.",
+      "content_fingerprint": "f908645f0672",
       "content_preview": "My Dose Coach ist eine digitale Gesundheitsanwendung zur Titration von Basalinsulin (langwirksames Insulin), die aus dem My Dose Coach-Webportal für medizinisches Fachpersonal und der My Dose Coach-App für Patientinnen und Patienten best...",
       "content_type": "field_value",
+      "display_path": "METEDA s.r.l., Italien",
       "level": 3,
       "path": [
         "METEDA s.r.l., Italien"
       ],
+      "path_hash": "f18d54d3a4c5",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01510:meteda-s-r-l-italien-856ed9b524:field_value",
+      "stable_key": "01510:meteda-s-r-l-italien:f18d54d3a4c5:field_value:0",
       "title": "METEDA s.r.l., Italien"
     },
     {
       "content": "Die My Dose Coach-App ermittelt den passenden nächsten Dosierungsschritt anhand der eingegebenen Nüchternblutzuckerwerte und des von dem medizinischen Fachpersonal vorgegebenen Dosisplans, wodurch Patientinnen und Patienten bei der richtigen Dosierung unterstützt werden. Die Erinnerungsfunktionen, die Abfrage des Nüchternblutzuckers und der tatsächlich injizierten Insulindosis sowie die Dokumentation des Spritzzeitpunktes können im Vergleich zu Diabetestagebüchern die Qualität und Dichte der Daten erhöhen. My Dose Coach lässt sich im Versorgungspfad den Kategorien tertiäre Prävention und Therapiebegleitung zuordnen.",
+      "content_fingerprint": "c4c766e428a1",
       "content_preview": "Die My Dose Coach-App ermittelt den passenden nächsten Dosierungsschritt anhand der eingegebenen Nüchternblutzuckerwerte und des von dem medizinischen Fachpersonal vorgegebenen Dosisplans, wodurch Patientinnen und Patienten bei der richt...",
       "content_type": "section",
+      "display_path": "My Dose Coach",
       "level": 2,
       "path": [
         "My Dose Coach"
       ],
+      "path_hash": "fd76c2db7ab2",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01510:my-dose-coach-a1779e4f0f:section",
+      "stable_key": "01510:my-dose-coach:fd76c2db7ab2:section:0",
       "title": "My Dose Coach"
     },
     {
       "content": "Hier finden Sie weitergehende Informationen zur DiGA. Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA. My Dose Coach 16.06.2024 10.01.2025 Trifft nicht zu My Dose Coach DiGA Trifft nicht zu Kombination App / Webanwendung im Apple App Store Deutschland im Google Play Store Deutschland als browserbasierte Webanwendung Der Standort der Datenverarbeitung ist Deutschland.",
+      "content_fingerprint": "a2c1be451a52",
       "content_preview": "Hier finden Sie weitergehende Informationen zur DiGA. Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinis...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01510:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01510:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:0",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Die DiGA wurde auf Antrag des Herstellers aus dem Verzeichnis gemäß § 139e Absatz 6 Satz 9 des Fünften Buches Sozialgesetzbuch (SGB V) i. V. m. § 19 der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) gestrichen. ********************************************************************************************************************",
+      "content_fingerprint": "e9fb7cc06680",
       "content_preview": "Die DiGA wurde auf Antrag des Herstellers aus dem Verzeichnis gemäß § 139e Absatz 6 Satz 9 des Fünften Buches Sozialgesetzbuch (SGB V) i. V. m. § 19 der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) gestrichen. *********************...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Bewertungsentscheidung des BfArM",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Bewertungsentscheidung des BfArM"
       ],
+      "path_hash": "7d463e27c832",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01510:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung--cdc10aad7c:field_value",
+      "stable_key": "01510:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung-:7d463e27c832:field_value:0",
       "title": "Bewertungsentscheidung des BfArM"
     },
     {
       "content": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an • Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der Technik und • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) als erfüllt. Die Datenverarbeitung findet laut Hersteller ausschließlich in der EU statt. Das BfArM bewertet dieses Vorgehen als konform im Sinne der DiGAV. Als Erprobungsstudie mit dem Titel „Randomisierte kontrollierte Studie zur Evaluation der digitalen Gesundheitsanwendung My Dose Coach“ wurde eine zweiarmige, randomisierte, kontrollierte Studie (RCT) mit einem 12-wöchigen Beobachtungzeitraum bereits durchgeführt und abgeschlossen. Dabei wurden 251 Patientinnen und Patienten mit Diabetes mellitus, Typ 2 im Verhältnis 1 : 1 in 2 Gruppen randomisiert. Die Studie wurde beim Deutschen Register Klinischer Studien (DRKS) unter der Nummer DRKS00024861 registriert. Studienteilnehmende, welche in die Interventionsgruppe (IG) randomisiert wurden, nutzten während der 12-wöchigen Studiendauer die DiGA zur Anpassung ihrer Basalinsulin-Dosis. Teilnehmende der Kontrollgruppe (KG) führten die Anpassung ihrer Basalinsulin-Dosis mit einem schriftlichen Titrations-Plan durch (ohne Nutzung der DiGA oder einer anderen Titrations-App). Als primärer Endpunkt galt die Reduktion des HbA1c-Wertes. Zu den sekundären Endpunkten zählten unter anderem der Nüchternblutzucker (NBZ), die Anzahl der Blutglukosemessungen pro Tag, der Diabetes Selfmanagement Questionnaire (DSMQ) und der Problem Areas in Diabetes Questionnaire (PAID). Primäre und sekundäre Ergebnisvariablen wurden hierarchisch getestet. Das BfArM bewertet das Studienkonzept grundsätzlich als geeignet, die positiven Versorgungseffekte (pVE) „Verbesserung des Gesundheitszustands“ und „Adhärenz“ nachzuweisen. Zur Begründung der Versorgungsverbesserung wurde die RCT mit dem Titel „Assessment of the usefulness of the application My Dose Coach in the titration of basal insulin in patients with type 2 diabetes mellitus. Analysis of its effects on glycaemic control, quality of life and economic impact“ vorgelegt. Die RCT umfasste insgesamt 80 Patientinnen und Patienten mit der Diagnose Diabetes mellitus Typ 2. Der Beobachtungszeitraum betrug 12 Wochen, in denen die Patientinnen und Patienten in der IG alle 4 Tage ein Online-Assessment durchführten und insgesamt zu 2 Visiten (Baseline und Woche 12) an das Studienzentrum kamen. Hingegen kamen Teilnehmende der KG alle 2 Wochen zur Kontrolle der Titration an das Zentrum. Die Studie wurde in Mexiko durchgeführt, zur Begründung der Übertragbarkeit auf den deutschen Versorgungskontext wurden eine systematische Literaturrecherche und umfassende Begründung (Vergleich der Patientencharakteristika, Vergleich der Behandlungsrationalen/Leitlinien, Vergleich der Versorgungssituation) eingereicht. Das Screening umfasste 127 Personen. 47 Personen wurden dabei vor der Randomisierung ausgeschlossen. Unter den 80 Teilnehmenden in der Indikation Diabetes mellitus Typ 2 gab es keine Studienabbrecher. Nach 12 Wochen erreichten mehr Patientinnen und Patienten der IG gegenüber der KG den NBZ-Zielbereich von 90 - 130 mg/dl (IG 92,5 %; KG 75 %; p-Wert: 0,034). Der HbA1c wurde in der IG von Baseline um 2,1 % gesenkt, in der KG um 1,7 %. Der Unterschied zwischen IG und KG beträgt 0,4 % (p-Wert: 0,004) und kann als klinisch relevant gelten. In keiner der Gruppen wurde von schweren oder nächtlichen Hypoglykämien berichtet. Die Gesamtzahl hypoglykämischer Ereignisse betrug 8 in der IG und 15 in der KG. Bezüglich der Therapieadhärenz nahm die durchschnittliche Anzahl der Basalinsulinapplikationen und der NBZ-Messungen im Laufe der Zeit ab, dennoch waren innerhalb der 3 Monate sowohl die mittlere Anzahl der Insulinapplikationen (29,0 vs. 28,4; p-Wert: 0,003) als auch die NBZ-Messungen (28,9 vs. 28,4; p: 0,017) in der IG höher als in der KG. Entsprechend bewertet das BfArM die in § 139e des Fünften Buches Sozialgesetzbuch (SGB V) sowie in der DiGAV festgelegten Voraussetzungen zur vorläufigen Aufnahme auf Erprobung in das Verzeichnis nach § 139e Absatz 1 SGB V als erfüllt.",
+      "content_fingerprint": "3fab29bcbe1e",
       "content_preview": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an • Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der ...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01510:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01510:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:1",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_fingerprint": "4b8f5a46c1b0",
       "content_preview": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt"
       ],
+      "path_hash": "9af58630166c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01510:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01510:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:9af58630166c:field_value:0",
       "title": "Angaben zum Medizinprodukt"
     },
     {
       "content": "My Dose Coach ist für die Verwendung durch Patienten mit Typ-2-Diabetes vorgesehen, damit ein Arzt oder eine medizinische Fachkraft (Health Care Provider, HCP) bei der Umsetzung eines Dosisplans helfen und eine Empfehlung für die nächste Dosis eines einmal täglich verabreichten langwirksamen Basalinsulins oder langwirksamen Basalinsulins plus Glucagon-like Peptide-1 (GLP1)-Rezeptor-Agonisten abgeben kann, basierend auf den vom Patienten angegebenen Blutzuckerwerten (BG). Risikoklasse IIa nach MDR IMQ S.p.A. 0051 Trifft nicht zu (01)8055728180000(11)211000(8012)1.3",
+      "content_fingerprint": "c583c927ec75",
       "content_preview": "My Dose Coach ist für die Verwendung durch Patienten mit Typ-2-Diabetes vorgesehen, damit ein Arzt oder eine medizinische Fachkraft (Health Care Provider, HCP) bei der Umsetzung eines Dosisplans helfen und eine Empfehlung für die nächste...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "01510:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01510:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:2",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_fingerprint": "ba6516ebde5f",
       "content_preview": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA"
       ],
+      "path_hash": "6921f5eac91a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01510:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01510:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:6921f5eac91a:field_value:0",
       "title": "Weitere Informationen zur DiGA"
     },
     {
       "content": "My Dose Coach ist eine digitale Anwendung für erwachsene Patientinnen und Patienten mit Typ-2-Diabetes, die einmal täglich lang wirksames Basalinsulin injizieren, unabhängig davon ob zusätzlich noch weitere orale Antidiabetika und/oder GLP-1-Rezeptoragonisten eingenommen werden. Ziel von My Dose Coach ist es, die Ärztin oder den Arzt und die Patientinnen und Patienten bei der Ein- und Umstellungsphase auf Basalinsulin zu unterstützen. Entsprechend der aktuellen deutschen Versorgungsleitlinie (NVL) für Typ-2-Diabetes ist der Einsatz von Basalinsulin angezeigt bei fortschreitender Erkrankung und wenn der Blutzuckerwert nicht mehr mit oralen Antidiabetika oder GLP-1-Rezeptoragonisten adäquat eingestellt werden kann. Um für die Patientin oder den Patienten einen optimalen Kompromiss zwischen glykämischer Kontrolle und dem Auftreten von Hypoglykämien zu finden, ist die Erstellung eines individuellen Dosisplans zur Titration erforderlich. My Dose Coach besteht aus dem My Dose Coach Arzt-Portal und der My Dose Coach Patienten-App. Das My Dose Coach Arzt-Portal unterstützt die Ärztin oder den Arzt auf Basis von evaluierten, vorinstallierten Titrationsalgorithmen, die auf Versorgungsempfehlungen von Diabetes-Fachgesellschaften basieren, den individuellen Dosisplan für die Patientin oder den Patienten festzulegen und mit der Patientin oder dem Patienten zu besprechen. Der Titrationsalgorithmus kann für jede Patientin und jeden Patienten individuell angepasst werden. Die My Dose Coach Patienten-App bietet Patientinnen und Patienten regelmäßige Empfehlungen zu ihrer täglichen Basalinsulindosis basierend auf ihren selbst gemessenen und eingegebenen Nüchternblutzuckerwerten im Rahmen des von der behandelnden Ärztin oder dem behandelnden Arzt vorgegebenen Dosisplans. Voraussetzung für den erfolgreichen Einsatz von My Dose Coach ist, dass Patientin oder Patient und Ärztin oder Arzt gemeinsam Therapieziele vereinbaren und den Therapieerfolg regelmäßig überprüfen. Patientenregistrierung durch die Ärztin oder den Arzt (My Dose Coach Arzt-Portal) Im My Dose Coach Arzt-Portal registriert die Ärztin oder der Arzt die Patientin oder den Patienten, der oder dem er My Dose Coach verschreiben möchte. Bei der Registrierung der Patientin oder des Patienten muss die Ärztin oder der Arzt folgende Angaben zur Patientin oder zum Patienten eintragen: Name, Geschlecht, Körpergewicht, Geburtsdatum, Telefonnummer und E-Mailadresse. - Dosisplanerstellung durch die Ärztin oder den Arzt Zur Erstellung des Dosisplans kann die Ärztin oder der Arzt benutzerdefinierte Vorlagen für ihre oder seine Praxis erstellen oder auf die bereitgestellte Basisvorlage zurückgreifen. Während der Erstellung des Dosisplans legt die Ärztin oder der Arzt die Titrationsregeln und die Dosisplanparameter fest. Zu den Titrationsregeln gehören die Häufigkeit der Dosisanpassung und die Vorgabe, wie oft die Patientin oder der Patient ihren oder seinen Nüchternblutzuckerwert messen soll. Zu den Dosisplanparametern gehören der Insulinname, die Anfangsdosis, die maximale Tagesdosis, die übliche Zeit für die Nüchternblutzuckerkontrolle und der Verabreichungszeitpunkt. Außerdem legt die Ärztin oder der Arzt die Hypoglykämie-Schwelle fest und entscheidet, ob die Patientin oder der Patient sie oder ihn kontaktieren muss, wenn sie oder er eine Hypoglykämie in der My Dose Coach Patienten-App einträgt und ob bei Auftreten einer Hypoglykämie der Dosisplan fortgesetzt werden soll oder nicht. Außerdem hinterlegt die Ärztin oder der Arzt eine Notfallkontaktnummer und kann optional weitere Anweisungen für die Patientin oder den Patienten vermerken. Bevor die Ärztin oder der Arzt die Registrierung der Patientin oder des Patienten abschließen kann, muss die Ärztin oder der Arzt im My Dose Coach Arzt-Portal bestätigten, dass sie oder er die Patientin oder den Patienten im Umgang mit My Dose Coach geschult hat. - Nutzung der My Dose Coach Patienten-App durch die Patientin oder den Patienten Die Patientin oder der Patient lädt die My Dose Coach Patienten-App aus dem Apple- oder Google Play Store herunter. Die von der Ärztin oder dem Arzt bei Anmeldung der Patientin oder des Patienten im Web-Portal generierte SMS (alternativ auch per Email) enthält einen Link, der den Dosisplan in der My Dose Coach Patienten-App aktiviert. Der Link in der SMS ist 72 Stunden gültig. Im Anschluss an die erfolgreiche Anmeldung durchläuft die Patientin oder der Patient eine kurze Schulungseinheit zu folgenden Themen: Ihre tägliche Routine, Neue Dosisempfehlung, Benachrichtigungen und Zusammenfassung. In der Zusammenfassung erhält die Patientin oder der Patient einen Überblick über das für sie oder ihn verschriebene Basalinsulin, die Startdosis, die Uhrzeit der Nüchternblutzuckermessung, den Insulin-Verabreichungszeitpunkt und die Anweisung des medizinischen Fachpersonals. Außerdem muss die Patientin oder der Patient ihr oder sein Einverständnis zu den Nutzungsbedingungen erklären und kann im Anschluss daran die My Dose Coach Patienten-App eigenständig nutzen. Die Patientin oder der Patient erhält auf Basis ihres oder seines täglich eingegebenen selbst gemessenen Nüchternblutzuckerwertes eine automatisierte algorithmusbasierte Insulindosisempfehlung für die nächste anstehende Basalinsulingabe. Neben dem Nüchternblutzuckerwert soll die Patientin oder der Patient die tatsächlich injizierte Insulindosis sowie das Auftreten von Hypoglykämien jeweils mit Datum und Uhrzeit eintragen. Wenn die Patientin oder der Patient einen Blutzuckerwert gleich oder unterhalb der Hypoglykämie-Schwelle erfasst, wird die nächste Dosisempfehlung automatisch nach unten angepasst. Die Patientin oder der Patient hat außerdem die Möglichkeit, ihre oder seine eingegebenen Werte aus der Vergangenheit einzusehen. Zusätzlich bietet die My Dose Coach Patienten-App eine Erinnerungsfunktion, sollte die Patientin oder der Patient ihren oder seinen Nüchternblutzuckerwert nicht eingegeben haben. Prof. Dr. Lutz Heinemann Science-Consulting in Diabetes GmbH Schwerinstraße 36 40477 Düsseldorf Arnolds S et al. Common standards of basal insulin titration in type 2 diabetes.J Diabetes Sci Technol 2013;7:771–788. Aroda V et al. Efficacy and Safety of LixiLan, a Titratable Fixed-Ratio Combination of Insulin Glargine Plus Lixisenatide in Type 2 Diabetes Inadequately Controlled on Basal Insulin and Metformin: The LixiLan-L Randomized Trial.Diabetes Care 2016;39:1972–1980. Berard L et al. Insights into optimal basal insulin titration in type 2 diabetes: Results of a quantitative survey.Diabetes Obes Metab 2018;20:301–308. Bergenstal RM et al. Automated insulin dosing guidance to optimize insulin management in patients with type 2 diabetes: a multicentre, randomised controlled trial. Lancet 2019;393(10176):1138-48. Blonde L et al. Patient-directed titration for achieving glycaemic goals using a once-daily basal insulin analogue: an assessment of two different fasting plasma glucose targets – the TITRATE study.Diabetes Obes Metab 2009;11:623–31. Bundesärztekammer (BÄK), Kassenärztliche Bundesvereinigung (KBV), Arbeitsgemeinschaft der Wissenschaftlichen Medizinischen Fachgesellschaften (AWMF). Nationale VersorgungsLeitlinie Typ-2-Diabetes – Leitlinienreport, 2. Auflage. Version 1. 2021 [cited:2023-07-21].DOI: 10.6101/AZQ/000476. Davies MJ et al. Management of hyperglycemia in type 2 diabetes, 2022. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD).Diabetes Care 2022;45:2753-86 ElSayed N et al. Glycemic Targets: Standards of Care in Diabetes—2023.Diabetes Care 2023;46:S97–S110. Franc S et al. Efficacy of two telemonitoring systems to improve glycaemic control during basal insulin initiation in patients with type 2 diabetes: The TeleDiab‐2 randomized controlled trial. Diabetes Obes Metab 2019;21:2327-32 Luo, Y. et al. Device-supported automated basal insulin titration in adults with type 2 diabetes: a systematic review and meta-analysis of randomized controlled trials.The Lancet Regional Health–Western Pacific 2023;35:100746; https://doi.org/10.1016/j.lanwpc.2023.100746 Mauricio D et al. Glycaemic control and hypoglycaemia burden in patients with type 2 diabetes initiating basal insulin in Europe and the USA.Diabetes Obes Metab 2017;19:1155–64 Philis-Tsimikas A et al. Insulin degludec once-daily in type 2 diabetes: simple or step-wise titration (BEGIN: Once Simple Use).Adv Ther 2013;30:607–622. Polonsky WH et al. Initiating insulin: How to help people with type 2 diabetes start and continue insulin successfully.Int J Clin Pract 2017 Aug;71(8):e12973. Doi: 10.1111/ijcp.12973 Polonsky WH et al. Identifying solutions to psychological insulin resistance: An international study.J Diabetes Complications 2019;33:307–14. Pscherer S et al. Titration of insulin glargine 100 U/mL when added to oral antidiabetic drugs in patients with type 2 diabetes: results of the TOP-1 real-world study.Acta Diabetol 2020;57:89–99. Seufert J et al. Titration and optimization trial for the initiation of insulin glargine 100 U/mL in patients with inadequately controlled type 2 diabetes on oral antidiabetic drugs.Diabetes Obes Metab 2019;21:439–443 Riddle MC et al. New insulin glargine 300 units/mL versus glargine 100 units/mL in people with type 2 diabetes using basal and mealtime insulin: glucose control and hypoglycemia in a 6-month randomized controlled trial (EDITION 1).Diabetes Care 2014;37:2755–2762. Russell-Jones D et al. Identification of barriers to insulin therapy and approaches to overcoming them.Diabetes Obes Metab 2018;20:488–96. Russell‐Jones D et al. Take Control: a randomized trial evaluating the efficacy and safety of self‐versus physicianmanaged titration of insulin glargine 300 U/mL in patients with uncontrolled type 2 diabetes.Diabetes, Obes Metab 2019;21:1615-24. Tamez-Pérez HE et al. Effect of digital-tool-supported basal insulin titration algorithm in reaching glycemic control in patients with type 2 diabetes in Mexico.J Diabetes Sci Technol 2022;16:1513-20",
+      "content_fingerprint": "d4184771fd22",
       "content_preview": "My Dose Coach ist eine digitale Anwendung für erwachsene Patientinnen und Patienten mit Typ-2-Diabetes, die einmal täglich lang wirksames Basalinsulin injizieren, unabhängig davon ob zusätzlich noch weitere orale Antidiabetika und/oder G...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "01510:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01510:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:3",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_fingerprint": "77cea9e6788d",
       "content_preview": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal"
       ],
+      "path_hash": "4c8dba25a53c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01510:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "01510:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:4c8dba25a53c:field_value:0",
       "title": "Beteiligung vom medizinischen Fachpersonal"
     },
     {
       "content": "Im Rahmen der ärztlichen Kontrolle von Patientinnen und Patienten mit Typ-2-Diabetes überprüft die Ärztin oder der Arzt das Erreichen der Blutzucker Zielwerte. Bei fortschreitender Erkrankung und bei Nicht-Erreichen der Blutzucker Zielwerte, trotz Ausschöpfung der nicht-medikamentösen und medikamentösen Maßnahmen verschreibt die Ärztin oder der Arzt der Patientin oder dem Patienten ein Basalinsulin sowie My Dose Coach zur Unterstützung der Titrationsphase. Die Ärztin oder der Arzt muss die genannten Kontraindikationen und Ausschlusskriterien berücksichtigen und prüfen, ob die Patientin oder der Patient in der Lage ist, My Dose Coach zweimal täglich selbstständig zu nutzen. Darüber hinaus ist es Aufgabe der Ärztin oder des Arztes das Titrationsschema sowie die Unterzuckerungs-Schwelle festzulegen und eine von drei definierten Handlungsoptionen im Umgang mit Unterzuckerungen zu wählen: - Die Dosis wird angepasst und der Dosisplan fortgesetzt - Die Dosis wird angepasst, der Dosisplan fortgesetzt und die Ärztin oder der Arzt kontaktiert - Der Dosisplan wird beendet und die Ärztin oder der Arzt kontaktiert - Vor der Übergabe des Dosisplans an die Patientin oder den Patienten ist es Aufgabe der Ärztin oder des Arztes die Patientin oder den Patienten im Umgang mit My Dose Coach über folgende Aspekte aufzuklären: - was Insulin-Titration, also die fortlaufende Optimierung der Insulindosis, bedeutet, - welche Startdosis angewendet werden soll, - wie der personalisierte Dosierungsplan funktioniert, - was Nüchternblutzucker bedeutet, - wie My Dose Coach zur täglichen Erfassung des Nüchternblutzuckerwertes verwendet wird, - wie und wann My Dose Coach verwendet werden kann, um eine Dosisempfehlung abzurufen und die Dosis zu erfassen sowie - welche Ansprechpartner bei Fragen und Problemen kontaktiert werden sollten. - Im Verlauf der Behandlung mit My Dose Coach ist es außerdem Aufgabe der Ärztin oder des Arztes, den Therapiefortschritt der Patientin oder des Patienten regelmäßig zu überwachen und bei Bedarf anzupassen. Nein",
+      "content_fingerprint": "f80122581f6e",
       "content_preview": "Im Rahmen der ärztlichen Kontrolle von Patientinnen und Patienten mit Typ-2-Diabetes überprüft die Ärztin oder der Arzt das Erreichen der Blutzucker Zielwerte. Bei fortschreitender Erkrankung und bei Nicht-Erreichen der Blutzucker Zielwe...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "01510:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01510:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:4",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfohlen wird.",
+      "content_fingerprint": "ba2dc6143acd",
       "content_preview": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfoh...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise"
       ],
+      "path_hash": "af464e1a8e2f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01510:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-6922aa5eb2:field_value",
+      "stable_key": "01510:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise:af464e1a8e2f:field_value:0",
       "title": "Anwendungshinweise"
     },
     {
       "content": "Diagnostik Die behandelnde Ärztin oder der behandelnde Arzt muss beurteilen können, ob die Patientin oder der Patient in der Lage ist, My Dose Coach eigenständig zu nutzen. - Qualifikation der Ärztinnen und Ärzte und des medizinischen Personals Die Behandlung und Verschreibung sollte von einer oder einem in der Behandlung von Typ-2-Diabetes erfahrenen Ärztin oder Arzt eingeleitet und überwacht werden. Der Ärztin oder dem Arzt wird umfassendes Schulungsmaterial zur Verfügung gestellt. - My Dose Coach beinhaltet technische Sicherheitsparameter, die helfen, ein potentiell gesundheitliches Risiko bei der Nutzung zu minimieren: 1. Vermeidung von Eingabefehlern beim Nüchternblutzuckerwert (NBZ) In der My Dose Coach Patienten-App sind Schwellenwerte für den NBZ definiert, die nicht unterschritten werden können. Der gemessene Wert kann nur in einem festen Zeitfenster bis spätestens 3 Stunden nach dem vordefinierten Zeitpunkt der Basalinsulindosisempfehlung eingegebenen werden. Um Fehler zu vermeiden, sind rückwirkende Eingaben oder Änderungen später nicht möglich. - 2. Vermeidung von Eingabefehlern bei der Insulindosis Die My Dose Coach Patienten-App gibt die Empfehlung zur Basalinsulindosis zu einem fest definierten Zeitpunkt, welcher sich am Zeitpunkt der täglichen Basalinsulingabe orientiert. Die tatsächliche Insulingabe kann nur in einem Zeitfenster von drei Stunden vor und nach der Dosisempfehlung eingegeben werden. Durch diesen Mechanismus wird die Patientin oder der Patient unterstützt und trainiert, ihre oder seine Dosisempfehlung abzurufen, die Insulingabe zum richtigen Zeitpunkt durchzuführen und direkt zu dokumentieren. - 3. Vermeidung von Eingabefehlern bei Unterzuckerungen Gibt die Patientin oder der Patient einen NBZ unterhalb einer vordefinierten Schwelle ein, wird dieser automatisch als Unterzuckerung gewertet. Um an dieser Stelle eine Fehleingabe zu vermeiden, wird die Patientin oder der Patient darum gebeten, die Eingabe zu bestätigen. Weiterhin hat die Patientin oder der Patient jederzeit die Möglichkeit, unter Angabe des exakten Blutzuckerwertes und Zeitpunkts das Auftreten einer Unterzuckerung in der App zu dokumentieren. - 4. Umgang mit Unterzuckerungen Bei der Registrierung der Patientin oder des Patienten legt die Ärztin oder der Arzt die Handlungsoption im Umgang mit der Unterzuckerung fest: - Der Dosisplan wird mit angepasster Dosis fortgesetzt - Der Dosisplan wird mit angepasster Dosis fortgesetzt und die Ärztin oder der Arzt kontaktiert - Der Dosisplan wird beendet und die Ärztin oder der Arzt kontaktiert Für den Fall, dass die Ärztin oder der Arzt kontaktiert werden soll, erscheint automatisch eine Nachricht mit der Telefonnummer der Arztpraxis, die direkt aus der Patienten-App angerufen werden kann. - 5. Vermeidung von Fehlnutzung des Dosisplans Die Ärztin oder der Arzt hat jederzeit die Möglichkeit den Dosisplan im Arzt-Portal zu aktualisieren. Schließt die Ärztin oder der Arzt die Aktualisierung ab, erhält die Patientin oder der Patient eine SMS (alternativ per Email) mit einem Link, mit der der Dosisplan in der Patienten-App aktualisiert wird. Um sicherzustellen, dass die Patientin oder der Patient die Aktualisierung des Dosisplans erhält, ist eine Nutzung der Patienten-App nur bei bestehender Internetverbindung möglich. - 6. Vermeidung der Nutzung zu falschen Zwecken Stellt die Ärztin oder der Arzt fest, dass die Patienten-App nicht mehr genutzt werden soll, hat sie oder er jederzeit die Möglichkeit, den Dosisplan zu deaktivieren. Damit verhindert die Ärztin oder der Arzt die weitere Nutzung durch die Patientin oder den Patienten. Die Patienten-App wird automatisch deaktiviert, wenn das Ende der von der Ärztin oder dem Arzt festgelegten Dosierungsperiode erreicht ist. - Im Rahmen der Zertifizierung als Medizinprodukt hat der Hersteller ein umfangreiches Qualitätssicherungssystem aufgebaut, um das Funktionieren der genannten technischen Sicherheitsparameter zu garantieren. - Kognitive oder motorische Einschränkungen oder akute psychische Erkrankung welche nach Einschätzung der behandelnden Ärztin oder des behandelnden Arztes die Fähigkeit der Patientin oder des Patienten zur Durchführung der Diabetestherapie einschränkt - Patientinnen und Patienten, die bereits seit längerem mit einer Basalinsulintitration begonnen haben - Nutzung einer anderen Titrations-App - Behandlung mit anderen Insulinen z.B. kurzwirksames Insulin (Mahlzeiten-Insulin), Mischinsulin, Insulin, das mehr als einmal täglich verabreicht wird - Nicht Vorhandensein eines unterstützten Smartphones - Alter < 18 Jahre Um die Titration der Patientin oder des Patienten optimal zu unterstützen, sollte die Nutzungsdauer mindestens 90 Tage betragen. Diese Mindestnutzungsdauer resultiert aus Erfahrungen der Pilotstudie. Darüber hinaus kann eine längere Nutzung sinnvoll sein. Die geeignete Nutzungsdauer liegt im Ermessen der Ärztin oder des Arztes. Trifft nicht zu My Dose Coach erfordert keine Kompatibilität mit externen Geräten oder Zusatzprodukten. - Folgende Kompatibilitätszusagen finden sich auch auf www.mydosecoach.de unter \"Informationen für Ärzte\" bzw. \"Informationen für Patientinnen und Patienten\": - Um das My Dose Coach-Webportal für Ärztinnen und Ärzte verwenden zu können, müssen Sie über einen Internetzugang verfügen. Das Webportal kann auf einem Computer oder Laptop mit einem der folgenden Webbrowser aufgerufen werden: • Desktop-Versionen von Chrome 68.x bis 76.x. • Desktop-Versionen von Firefox 61.x bis 68.x. • Desktop-Versionen von Internet Explorer 11.x - Es wird empfohlen, das Portal auf einem Computer oder Laptop mit einer Bildschirmauflösung von mindestens 1024 × 768 zu verwenden. - Für die Verwendung von My Dose Coach-App muss jede Patientin und jeder Patient über ein unterstütztes Smartphone (iPhone oder Android) verfügen, auf dem die Patienten-App My Dose Coach heruntergeladen und ausgeführt werden kann. - iPhone My Dose Coach kann mit dem iPhone ab Modell 5 mit iOS 10.0 und höher verwendet werden. - Android My Dose Coach kann mit jedem Android-Smartphone mit Betriebssystem-Version 5.0 oder höher und mit einer Bildschirmgröße/Dichte von mindestens 3,5“/240 DPI verwendet werden. - Die Anwendbarkeit des DiGA MIO Toolkits auf die Parameter von My Dose Coach wurde geprüft. Die Prüfung hat ergeben, dass keine Übereinstimmung zwischen den vorliegenden MIOs und den Parametern in My Dose Coach besteht. Zur Herstellung von Datenportabilität und semantischer und technischer Interoperabilität wurde ein neues Profil nach dem Standard FHIR entwickelt. - Link zur Detailseite des Datenexport-Standards: https://simplifier.net/mydosecoach - Informationen zum menschenlesbaren Datenexport: My Dose Coach erlaubt es den Nutzenden, Auszüge der über die DiGA erhobenen Daten in menschenlesbarer und ausdruckbarer Form aus der DiGA auszuspielen. Dieser Auszug erfolgt im PDF-Format und enthält Datum, Uhrzeit, Kategorien (z.B. Dosisempfehlung, Nüchternblutzucker usw.) sowie die zugehörigen Werte. Trifft nicht zu",
+      "content_fingerprint": "93e48c4a2631",
       "content_preview": "Diagnostik Die behandelnde Ärztin oder der behandelnde Arzt muss beurteilen können, ob die Patientin oder der Patient in der Lage ist, My Dose Coach eigenständig zu nutzen. - Qualifikation der Ärztinnen und Ärzte und des medizinischen Pe...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "01510:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01510:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:5",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs. weitere, durch Sie selbst aufzubringende Kosten, sofern Sie bestimmte zusätzlich angebotene und von der Verschreibung nicht abgedeckte Leistungen in Anspruch nehmen möchten.",
+      "content_fingerprint": "39d5160ffdea",
       "content_preview": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs....",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis"
       ],
+      "path_hash": "41c28a502494",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01510:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-429bde377d:field_value",
+      "stable_key": "01510:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis:41c28a502494:field_value:0",
       "title": "Angaben zum Preis"
     },
     {
       "content": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage Weitere Nutzung der DiGA für zusätzliche 90 Tage 478,80 € 478,80 € Trifft nicht zu Trifft nicht zu Es fallen keine Mehrkosten für den Patienten an.",
+      "content_fingerprint": "023f6c5a2054",
       "content_preview": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage Weitere Nutzung der DiGA für zusätzliche 90 Tage 478,80 € 478,80 € Trifft nicht zu Trifft nicht zu Es fallen keine Mehrkosten für den Patienten an.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "01510:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01510:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:6",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Verbesserungen für Patienten können entweder medizinischer Art sein (z.B. Verringerung von Schmerzen, Beitrag zur Heilung der Erkrankung) oder den Erkennungs- und Behandlungsprozess direkt unterstützen und erleichtern (z.B. Informationen zur individuellen Erkrankungssituation, Unterstützung bei der Einhaltung der zwischen Patient und Arzt gemeinsam vereinbarten therapeutischen Maßnahmen). Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche Weise dies ggfs. bereits wissenschaftlich nachgewiesen wurde. Falls der positive Versorgungseffekt noch nicht abschließend nachgewiesen aber bereits so plausibel dargelegt wurde, dass die DiGA befristet zur entsprechenden Erprobung aufgenommen wurde, wird angegeben, für welchen Zeitraum dies erfolgt ist. Sofern (auch) ein Nachweis zum Erhalt der Erwerbsfähigkeit für die DiGA erbracht wurde oder eine Nachweisführung geplant ist, finden Sie hier eine Beschreibung und nähere Angaben zum Nachweis sowie zum Studiendesign. Sofern die DiGA (auch) ein diagnostisches Instrument darstellt, also mindestens in Teilen dazu vorgesehen ist, Informationen z.B. für die Erkennung oder Diagnose von Krankheitszuständen zu liefern, hat der Hersteller dies benannt und beschrieben sowie Sensitivität und Spezifität als wichtige Bewertungsgrößen angegeben. Medizinischer Nutzen Patientenrelevante Struktur- und Verfahrensverbesserung Einhaltung der gemeinsam von Patientin / Patient und Behandlerin / Behandler gesetzten Therapieziele im Rahmen des Behandlungsprozesses (Adhärenz) Verbesserung des Gesundheitszustands Der medizinische Nutzen von My Dose Coach bezieht sich auf die Verbesserung des Gesundheitszustandes. Sowohl bei der papierbasierten Titration als auch bei der Titration mit My Dose Coach soll durch das Erreichen der Blutzucker-Zielwerte der Gesundheitszustand der Diabetes-Patientin oder des Diabetes-Patienten verbessert werden. Mit “titrieren” und “Titration” ist die fortlaufende Anpassung der Insulindosis an den Bedarf gemeint. Klinische Studien zeigen, dass aufgrund unterschiedlicher Barrieren die Blutzucker- Ziele bei der papierbasierten Titration häufig nicht oder nur unzureichend erreicht werden. Zu den Barrieren gehören die Sorge vor Unterzuckerungen sowie eine Überforderung in Bezug auf die Titrationsregeln. Durch die Verwendung von My Dose Coach zur Unterstützung der Basalinsulintitration werden diese Barrieren größtenteils abgebaut und die Patientin oder der Patient bei der Findung der geeigneten Basalinsulindosis unterstützt. Kern von My Dose Coach ist die automatisierte, algorithmusbasierte Basalinsulindosisempfehlung, die die Umsetzung des von der Ärztin oder dem Arzt festgelegten Dosisplans erleichtert und das Risiko für Fehldosierungen vermindert. Dadurch erreicht die Patientin oder der Patient schneller den angestrebten Blutzucker- Zielkorridor ohne eine Erhöhung des Risikos für Unterzuckerungen. Das zeitige Erreichen des Zielkorridors lässt sich an der entsprechenden Reduktion des HbA1c-Wertes erkennen. Adhärenz Durch die Titration in Kombination mit My Dose Coach werden Barrieren wie z. B. die Komplexität der Titrationsregeln oder die Vorsicht der Patientin oder des Patienten bei der Basalinsulintitration abgebaut. Mit “titrieren” und “Titration” ist die fortlaufende Anpassung der Insulindosis an den Bedarf gemeint. Darüber hinaus unterstützt die Erinnerungsfunktion an die Dokumentation des Nüchternblutzuckerwertes und der Basalinsulingabe die Adhärenz der Patientin oder des Patienten. Die Möglichkeit der Ärztin und des Arztes, jederzeit Einsicht in den Therapiefortschritt zu nehmen, trägt dazu bei, dass die Patientin oder der Patient den Dosisplan umsetzt. Patient Erwachsene Patientinnen und Patienten mit diagnostiziertem Typ-2-Diabetes (ICD-10-GM: E 11), mit HbA1c-Werten zwischen 7,5 % und 10 % und einer Indikation für eine Therapie mit basalem Insulin in Kombination mit oralen Antidiabetika. Dabei findet die Titration des Basalinsulins einmal täglich statt. - Intervention Die Interventionsgruppe nutzte die My Dose Coach Patienten-App zur Anpassung der Basalinsulindosis über einen Zeitraum von 12 Wochen. - Comparison Die Kontrollgruppe erhielt keinen Zugang zu My Dose Coach und passte die Basalinsulindosis entsprechend der schriftlichen Vorgaben der Ärztin oder des Arztes an. - Outcomes Primärer Endpunkt: - Reduktion des HbA1c-Wertes Sekundäre Endpunkte: - Verringerung des „Diabetes Distress‘‘, erhoben mittels Problem Areas in Diabetes (PAID) - Verbessertes Diabetes-Selbstmanagement, erhoben mittels Diabetes Selfmanagement Questionnaire (DSMQ) - Verbessertes diabetes-spezifisches Empowerment, erhoben mittels Diabetes Empowerment Fragebogen - Steigerung der generellen Selbstwirksamkeitserwartung, erhoben mittels General Self-Efficacy scale (GSE) - Steigerung der Therapiezufriedenheit - Steigerung des psychischen Wohlbefindens, erhoben mittels WHO-5-Wohlbefindens-Index (WHO-5) - Darüber hinaus wurden weitere krankheitsspezifische Parameter erhoben wie z.B. der Nüchtern-Glukosewert, Glukosewerte < 70 mg/dl (Hypoglykämien) sowie die Anzahl der Tage bis zum Erreichen des individuellen Therapieziels. - Um die Nutzerfreundlichkeit von My Dose Coach zu evaluieren, wurde in der Interventionsgruppe zusätzlich die Erfahrung mit der Nutzung der My Dose Coach Patienten-App abgefragt. Der Nachweis positiver Versorgungseffekte von My Dose Coach wurde während der 12-monatigen Erprobungsphase erbracht. Bei der durchgeführten Studie handelt es sich um eine prospektive, offene, multizentrische, randomisierte und kontrollierte Studie mit parallelen Gruppen, die von der Ethikkommission bei der Landesärztekammer Baden-Württemberg genehmigt wurde. - Im Rahmen der Studie wurden 251 erwachsene Patientinnen und Patienten mit unzureichender Blutzucker- Kontrolle und mit diagnostiziertem Typ-2-Diabetes, die einmal täglich Basalinsulin titrieren oder titrieren sollten, rekrutiert und in den Interventions- und Kontrollarm randomisiert. Patientinnen und Patienten im Interventionsarm nutzen für die Basalinsulintitration My Dose Coach. Dazu musste die Ärztin oder der Arzt den Titrationsalgorithmus im My Dose Coach Arzt-Portal eingeben und in der My Dose Coach Patienten-App bereitstellen. Patientinnen und Patienten im Kontrollarm erhielten den Titrationsalgorithmus in schriftlicher Form und führten die Diabetestherapie auf konventionelle Weise ohne die Nutzung von My Dose Coach fort. - Ein studienbedingter Eingriff in die Diabetes-Therapie war mit der Studienteilnahme nicht verbunden. Als primärer Endpunkt wurde die Reduktion des HbA1c-Wertes definiert. Der HbA1c-Wert bildet den Grad der Blutzucker- Kontrolle in den vergangenen 12 Wochen ab und spiegelt damit die Verbesserung des Gesundheitszustandes wieder. - Darüber hinaus wurden folgende sekundäre Endpunkte erhoben: - Die Verringerung des „Diabetes-Distress“ erhoben mit dem Problem Areas in Diabetes (PAID) Fragebogen zur Abbildung der Struktur- und Verfahrensverbesserung „Bewältigung krankheitsbedingter Schwierigkeiten im Alltag“ und „Reduzierung der therapiebedingten Aufwände und Belastungen der Patienten“, - Die Verbesserung des Diabetes-Selbstmanagement erhoben mit dem Diabetes Selfmanagement Questionnaire (DSMQ) zur Abbildung der Adhärenz, - Die Steigerung des Empowerments erhoben mit dem Diabetes Empowerment Fragebogen (DES) zur Abbildung der Patientensouveränität, - Die Steigerung der generellen Selbstwirksamkeitserwartung erhoben mit dem Fragebogen zur Selbstwirksamkeitserwartung (GSE) zur Abbildung der Patientensouveränität - Die Verbesserung der Therapiezufriedenheit erhoben mit dem Fragebogen zur Zufriedenheit mit der Diabetestherapie (DTSQ) zur Abbildung der Patientensouveränität sowie der Lebensqualität - Die Verbesserung des psychischen Wohlbefindens erhoben mit dem WHO-5 Fragebogen zur Abbildung der Lebensqualität - Darüber hinaus wurden weitere krankheitsspezifische Parameter erhoben wie z.B. der Nüchtern-Glukosewert, Glukosewerte < 70 mg/dl (Unterzuckerungen) sowie die Anzahl der Tage bis zum Erreichen des individuellen Therapieziels. - Unerwünschte Ereignisse (UE) sowie schwerwiegende unerwünschte Ereignisse (SUE) wurden auf speziellen Formularen entsprechend der gesetzlichen Bestimmungen dokumentiert. Unterzuckerungen wurden gesondert ausgewertet. - Die Erhebung der primären und sekundären Zielvariablen erfolgte zu Studienbeginn und zur Abschlussvisite nach 12 Wochen. - Die Studie ist hier registriert: DRKS - Deutsches Register Klinischer Studien, Studiennummer: (DRKS-ID): DRKS00024861 - Die Studienergebnisse wurden auf der Internetseite des Herstellers, in einer Fachzeitschrift und auf wissenschaftlichen Kongressen veröffentlicht. Hermanns N et al. Lancet Reg Health Eur. 2023; 33:100702. doi:10.1016/j.lanepe.2023.100702. URL: https://www.sciencedirect.com/science/article/pii/S2666776223001217?via%3Dihub Forschungsinstitut Diabetes-Akademie Bad Mergentheim (FIDAM GmbH) Johann-Hammer-Str. 24 97980 Bad Mergentheim Nein 7 Monate (4 Monate initial, 3 Monate Verlängerung)",
+      "content_fingerprint": "74553fa41bc3",
       "content_preview": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Ve...",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01510:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "01510:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:0",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird. Die Anforderungen an die Datensicherheit werden durch Vorlage eines Zertifikats gemäß § 139e Absatz 10 Fünftes Buch Sozialgesetzbuch nachgewiesen. Detaillierte Informationen zu den einzelnen Anforderungen können Sie auf der Webseite des Bundesamts für Sicherheit in der Informationstechnik unter der Technischen Richtlinie \"BSI TR-03161\" finden: https://www.bsi.bund.de/dok/TR-03161 Bis zur Vorlage des Zertifikats gelten für den Bereich Datensicherheit die Anforderungen der nachfolgend dargestellten Checkliste. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine technische Möglichkeit einer Verknüpfung oder eines Datenaustauschs mit anderen digitalen Gesundheitsanwendungen. Trifft nicht zu Die digitale Gesundheitsanwendung unterstützt keine Offenbarung von Informationen der betroffenen Person oder über die betroffene Person für die Öffentlichkeit oder eine für die betroffene Person nicht eingrenzbare Personengruppe.",
+      "content_fingerprint": "d50f3e3f236e",
       "content_preview": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen v...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01510:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "01510:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:0",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit > Datensicherheit",
       "level": 4,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit",
         "Datensicherheit"
       ],
+      "path_hash": "8545f237a1b9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01510:informationen-zu-datenschutz-und-datensicherheit-datensicherheit-14af255f91:field_value",
+      "stable_key": "01510:informationen-zu-datenschutz-und-datensicherheit-datensicherheit:8545f237a1b9:field_value:0",
       "title": "Datensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung erlaubt keinen Upload von Dateien. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung greift weder auf Sensoren eines mobilen Endgeräts noch auf externe Hardware zu. Trifft nicht zu Die digitale Gesundheitsanwendung tauscht keine Daten mit externer Hardware aus. Zutreffend Zutreffend Zutreffend Nein",
+      "content_fingerprint": "603ec5b23afb",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu D...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01510:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "01510:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:1",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der medizinischen Inhalte und die Gewährleistung der Patientensicherheit. Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_fingerprint": "d6d0ea10d54a",
       "content_preview": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der me...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01510:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01510:weitere-informationen:df3724c46c56:section:0",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Interoperabilität",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Interoperabilität"
       ],
+      "path_hash": "43914a1ae1e9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01510:weitere-informationen-angaben-zur-interoperabilitaet-8867f27412:field_value",
+      "stable_key": "01510:weitere-informationen-angaben-zur-interoperabilitaet:43914a1ae1e9:field_value:0",
       "title": "Angaben zur Interoperabilität"
     },
     {
       "content": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versicherten getragenen Sensoren zur Messung und Übertragung von Vitalwerten (Wearables) austauscht. Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "922bba61baf0",
       "content_preview": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versiche...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01510:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01510:weitere-informationen:df3724c46c56:section:1",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Robustheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Robustheit"
       ],
+      "path_hash": "d416c871fdb6",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01510:weitere-informationen-angaben-zur-robustheit-0a511476df:field_value",
+      "stable_key": "01510:weitere-informationen-angaben-zur-robustheit:d416c871fdb6:field_value:0",
       "title": "Angaben zur Robustheit"
     },
     {
       "content": "Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
+      "content_fingerprint": "5f89c60c91f1",
       "content_preview": "Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "01510:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01510:weitere-informationen:df3724c46c56:section:2",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zum Verbraucherschutz",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zum Verbraucherschutz"
       ],
+      "path_hash": "22c54da8ff9c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01510:weitere-informationen-angaben-zum-verbraucherschutz-05cd17969e:field_value",
+      "stable_key": "01510:weitere-informationen-angaben-zum-verbraucherschutz:22c54da8ff9c:field_value:0",
       "title": "Angaben zum Verbraucherschutz"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "409aa9901d82",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "01510:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01510:weitere-informationen:df3724c46c56:section:3",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zu Nutzerfreundlichkeit und Barrierefreiheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
       ],
+      "path_hash": "a9d890d721a4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01510:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit-8fe873c531:field_value",
+      "stable_key": "01510:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit:a9d890d721a4:field_value:0",
       "title": "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
     },
     {
       "content": "Zutreffend Zutreffend",
+      "content_fingerprint": "f572c2f88946",
       "content_preview": "Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "01510:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01510:weitere-informationen:df3724c46c56:section:4",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Unterstützung der Leistungserbringende",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Unterstützung der Leistungserbringende"
       ],
+      "path_hash": "bdfe86165ef2",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01510:weitere-informationen-unterstuetzung-der-leistungserbringende-d4e78dfd75:field_value",
+      "stable_key": "01510:weitere-informationen-unterstuetzung-der-leistungserbringende:bdfe86165ef2:field_value:0",
       "title": "Unterstützung der Leistungserbringende"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Qualität der medizinischen Inhalte",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Qualität der medizinischen Inhalte"
       ],
+      "path_hash": "964eb34f0609",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01510:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte-a6d05ceeb6:field_value",
+      "stable_key": "01510:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte:964eb34f0609:field_value:0",
       "title": "Angaben zur Qualität der medizinischen Inhalte"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine Gesundheitsinformationen an. Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine Gesundheitsinformationen an. Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine Gesundheitsinformationen an. Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine Gesundheitsinformationen an. Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine Gesundheitsinformationen an. Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine Gesundheitsinformationen an.",
+      "content_fingerprint": "13ef31249116",
       "content_preview": "Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine Gesundheitsinformationen an. Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine Gesundheitsinformationen an. Trifft nicht zu Die ...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "01510:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01510:weitere-informationen:df3724c46c56:section:5",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Patientensicherheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Patientensicherheit"
       ],
+      "path_hash": "96d387fa1378",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01510:weitere-informationen-angaben-zur-patientensicherheit-7a67651ccd:field_value",
+      "stable_key": "01510:weitere-informationen-angaben-zur-patientensicherheit:96d387fa1378:field_value:0",
       "title": "Angaben zur Patientensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "477afefea65b",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "01510:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01510:weitere-informationen:df3724c46c56:section:6",
       "title": "Weitere Informationen"
     },
     {
       "content": "Die DiGA wurde auf Antrag des Herstellers aus dem Verzeichnis gemäß § 139e Absatz 6 Satz 9 des Fünften Buches Sozialgesetzbuch (SGB V) i. V. m. § 19 der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) gestrichen.",
+      "content_fingerprint": "61020710df52",
       "content_preview": "Die DiGA wurde auf Antrag des Herstellers aus dem Verzeichnis gemäß § 139e Absatz 6 Satz 9 des Fünften Buches Sozialgesetzbuch (SGB V) i. V. m. § 19 der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) gestrichen.",
       "content_type": "field_value",
+      "display_path": "Änderungshistorie > 10.01.2025 Status der Listung ist „Gestrichen“",
       "level": 4,
       "path": [
         "Änderungshistorie",
         "10.01.2025 Status der Listung ist „Gestrichen“"
       ],
+      "path_hash": "1df18ac2fe9e",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01510:aenderungshistorie-10-01-2025-status-der-listung-ist-gestrichen-07e2dde3a7:field_value",
+      "stable_key": "01510:aenderungshistorie-10-01-2025-status-der-listung-ist-gestrichen:1df18ac2fe9e:field_value:0",
       "title": "10.01.2025 Status der Listung ist „Gestrichen“"
     }
   ],
@@ -430,10 +566,10 @@
     "accordions_opened": 0,
     "content_section_count": 34,
     "field_value_count": 16,
-    "rendered_at": "2026-06-22T19:10:06.111780+00:00",
+    "rendered_at": "2026-06-22T20:37:40.831295+00:00",
     "source_kind": "visible_directory"
   },
   "source_kind": "visible_directory",
-  "timestamp": "20260622T190144Z",
+  "timestamp": "20260622T202912Z",
   "url": "https://diga.bfarm.de/de/verzeichnis/01510"
 }

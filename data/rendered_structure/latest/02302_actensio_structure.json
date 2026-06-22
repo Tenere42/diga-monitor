@@ -2,426 +2,562 @@
   "content_sections": [
     {
       "content": "actensio ist eine digitale Anwendung zur Behandlung von Bluthochdruck (Hypertonie). In der Anwendung werden evidenzbasierte und leitlinienkonforme Inhalte aus dem Bereich der Lebensstilintervention vermittelt. - Neben psychoedukativer Wissensvermittlung lernen die Nutzenden ihr Ernährungsverhalten umzustellen, Schritt für Schritt mehr Bewegung in ihren Alltag zu integrieren und ihr Stressmanagement zu verbessern. actensio ist als Web-Anwendung direkt im Browser sowie als App für Smartphones und Tablets mit den Betriebssystemen iOS und Android verfügbar. - Einordnung in den Versorgungspfad: • Alleinstehende Therapie • Therapiebegleitung",
+      "content_fingerprint": "51e973b8db40",
       "content_preview": "actensio ist eine digitale Anwendung zur Behandlung von Bluthochdruck (Hypertonie). In der Anwendung werden evidenzbasierte und leitlinienkonforme Inhalte aus dem Bereich der Lebensstilintervention vermittelt. - Neben psychoedukativer Wi...",
       "content_type": "field_value",
+      "display_path": "mementor DE GmbH, Deutschland",
       "level": 3,
       "path": [
         "mementor DE GmbH, Deutschland"
       ],
+      "path_hash": "e90ceee2114b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02302:mementor-de-gmbh-deutschland-de431ede3e:field_value",
+      "stable_key": "02302:mementor-de-gmbh-deutschland:e90ceee2114b:field_value:0",
       "title": "mementor DE GmbH, Deutschland"
     },
     {
       "content": "Hier finden Sie weitergehende Informationen zur DiGA. Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA. actensio 30.12.2023 01.10.2025 Trifft nicht zu actensio Trifft nicht zu App Browserbasierte Webanwendung im Apple App Store Deutschland im Google Play Store Deutschland als browserbasierte Webanwendung Deutschland",
+      "content_fingerprint": "0b9a1af8d790",
       "content_preview": "Hier finden Sie weitergehende Informationen zur DiGA. Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinis...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02302:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "02302:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:0",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Die DiGA wurde auf Antrag des Herstellers aus dem Verzeichnis gemäß § 139e Absatz 6 Satz 9 des Fünften Buches Sozialgesetzbuch (SGB V) i. V. m. § 19 der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) gestrichen.",
+      "content_fingerprint": "61020710df52",
       "content_preview": "Die DiGA wurde auf Antrag des Herstellers aus dem Verzeichnis gemäß § 139e Absatz 6 Satz 9 des Fünften Buches Sozialgesetzbuch (SGB V) i. V. m. § 19 der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) gestrichen.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Bewertungsentscheidung des BfArM",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Bewertungsentscheidung des BfArM"
       ],
+      "path_hash": "7d463e27c832",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02302:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung--cdc10aad7c:field_value",
+      "stable_key": "02302:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung-:7d463e27c832:field_value:0",
       "title": "Bewertungsentscheidung des BfArM"
     },
     {
       "content": "******************************************************************************************************************** Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an: • Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der Technik und • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) als erfüllt. Die Datenverarbeitung findet laut Hersteller ausschließlich in Deutschland statt. Das BfArM bewertet dieses Vorgehen als konform im Sinne der DiGAV. - Als Erprobungsstudie ist die Durchführung einer randomisierten, kontrollierten Studie (RCT) mit dem Titel „Untersuchung der Wirksamkeit der digitalen Lebensstilintervention „actensio“ zur Reduzierung des Blutdrucks bei Erwachsenen mit Hypertonie nach sechsmonatiger Nutzung” geplant. Die Erhebungszeitpunkte sind zu Baseline, nach 3 Monaten und nach 6 Monaten (primärer Endpunkt), wobei der Zeitpunkt nach 3 Monaten nicht für alle Endpunkte vorgesehen ist. Dabei sollen 422 Patientinnen und Patienten ab 18 Jahren mit nachgewiesener essentieller Hypertonie in die Studie eingeschlossen und im Verhältnis 1 : 1 randomisiert werden. - Der primäre Endpunkt der Erprobungsstudie ist der systolische Blutdruck, gemessen mittels ambulanter 24-Stunden-Messung. Zu den sekundären Endpunkten zählen der diastolische Blutdruck, die absolute und relative Gewichtsreduktion, der Taillenumfang, der Body-Maß-Index (BMI), die aktive Patientenbeteiligung, gemessen mittels Patient Activation Measure 13 (PAM13-D), die gesundheitsbezogene Lebensqualität, gemessen mittels Short Form 12 Health Survey (SF-12), sowie die Medikamentenadhärenz, gemessen mittels Morisky Medication Adherence Scale, 8 items (MMAS-8). - Die Verbesserung des Gesundheitszustands gilt als nachgewiesen, wenn es im Rahmen der Erprobungsstudie durch die Intervention der DiGA nach 6 Monaten zu einer statistisch signifikanten und klinisch relevanten Senkung des systolischen Blutdrucks gemessen mittels ambulanter 24-Stunden-Messung in der IG im Vergleich zur KG kommt. - Als Begründung der Versorgungsverbesserung und die vorläufige Aufnahme der DiGA in das DiGA-Verzeichnis wurde eine RCT mit dem Titel: „Die Wirksamkeit einer digitalen Lebensstilintervention zur Reduzierung von Bluthochdruck bei Patient:innen mit Hypertonie: Ergebnisse einer Pilot randomisiert kontrollierten Studie“ vorgelegt. Die RCT umfasste insgesamt 102 Patientinnen und Patienten mit essentieller Hypertonie [≥ 135/90 mmHg (zu Hause gemessen)]. Der Beobachtungszeitraum betrug 3 Monate. Die Studie wurde beim Deutschen Register Klinischer Studien unter der Nummer DRKS00030109 registriert. - Den primären Endpunkt bildet der gemittelte systolische Blutdruck (zu Hause gemessen mittels eines einwöchigen Tagebuchs). Die sekundären Endpunkte umfassen die aktive Patientenbeteiligung (PAM13-D), der gemittelte diastolische Blutdruck sowie der Puls. - Ein erstes Screening umfasste 4.244 Personen, die an der Studie interessiert waren. Nach Abschluss der weiteren Screening-Maßnahmen konnten 102 Patientinnen und Patienten randomisiert werden (IG: 52, KG: 50). Im Studienverlauf ergaben sich 22 fehlende Werte für die Endpunkte systolischer Blutdruck, diastolischer Blutdruck und Puls sowie 21 fehlende Werte für den BMI und den PAM-13. - Gemäß der Intention-To-Treat-Analyse (ITT-Analyse) reduzierte sich der systolische Blutdruck in der IG statistisch signifikant und klinisch relevant im Vergleich zur KG [adjustierte Mittelwertdifferenz (MWD): -5,06 mmHg [95-%-Konfidenzintervall (KI) = -8,71 – -1,41; p-Wert: 0,013; Cohens d: 0,57]. Der Gruppenunterschied war auch in einer konservativen Sensitivitätsanalyse relevant. - Für die aktive Patientenbeteiligung zeigte sich eine adjustierte MWD von 3,35 Punkten mit einer Tendenz zur statistischen Signifikanz (95-%-KI = -0,18 – 6,89, p-Wert: 0,064) zum Vorteil der IG gegenüber der KG. Es zeigten sich keine nennenswerten Gruppenunterschiede für den diastolischen Blutdruck, den Puls und den BMI. - Entsprechend bewertet das BfArM die in § 139e des Fünften Buches Sozialgesetzbuch (SGB V) sowie in der DiGAV festgelegten Voraussetzungen zur vorläufigen Aufnahme auf Erprobung in das Verzeichnis nach § 139e Absatz 1 SGB V als erfüllt.",
+      "content_fingerprint": "727217c7fcac",
       "content_preview": "******************************************************************************************************************** Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen ...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "02302:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "02302:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:1",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_fingerprint": "4b8f5a46c1b0",
       "content_preview": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt"
       ],
+      "path_hash": "9af58630166c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02302:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "02302:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:9af58630166c:field_value:0",
       "title": "Angaben zum Medizinprodukt"
     },
     {
       "content": "actensio ist eine Softwareanwendung (App bzw. Webapp) zur Behandlung von Hypertonie. Es handelt sich um ein CE-gekennzeichnetes Medizinprodukt. Mit Hilfe von actensio können Patientinnen und Patienten die Höhe ihres Blutdrucks senken. - actensio basiert auf der Einführung von Lebensstilveränderungen, die in der Behandlungsleitlinie ESC/ESH Pocket Guidelines empfohlen werden. Mit Hilfe eines digitalen Hypertonie-Experten werden die Nutzenden durch das Programm geführt. Die Nutzenden absolvieren verschiedene Trainingsmodule, die sich aus wissensvermittelnden Elementen, Übungen und Fragebögen zusammensetzen. Die Inhalte werden durch audiovisuelle Elemente, z. B. durch Grafikanimationen veranschaulicht. - Mit Hilfe eines digitalen Tagebuches werden Blutdruckdaten aufgezeichnet, um Fortschritte in der Blutdrucksenkung zu verfolgen. Das Tagebuch ermöglicht auch die Dokumentation und Bewertung der empfohlenen Interventionen in den Bereichen Ernährung, körperliche Aktivität, Entspannung, Genussmittel und medizinische Behandlung. Risikoklasse I nach MDD Trifft nicht zu Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt. Trifft nicht zu DE-MF-000007354 Trifft nicht zu",
+      "content_fingerprint": "3ef12852b27e",
       "content_preview": "actensio ist eine Softwareanwendung (App bzw. Webapp) zur Behandlung von Hypertonie. Es handelt sich um ein CE-gekennzeichnetes Medizinprodukt. Mit Hilfe von actensio können Patientinnen und Patienten die Höhe ihres Blutdrucks senken. - ...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "02302:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "02302:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:2",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_fingerprint": "ba6516ebde5f",
       "content_preview": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA"
       ],
+      "path_hash": "6921f5eac91a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02302:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "02302:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:6921f5eac91a:field_value:0",
       "title": "Weitere Informationen zur DiGA"
     },
     {
       "content": "actensio ist eine digitale Anwendung zur Behandlung von Bluthochdruck, die auf dem Smartphone, Tablet oder Computer verwendet werden kann. In der Anwendung werden auf den aktuellen Leitlinien basierende Inhalte im Bereich der Lebensstilintervention vermittelt. Ein digitaler Hypertonie-Coach begleitet die Nutzenden bei der umfassenden Aufklärung und der Vermittlung von Selbstmanagement-Strategien, um eine erfolgreiche Lebensstilintervention mit dem Ziel einer langfristigen Blutdruckkontrolle zu erreichen. - Essentiell für ein erfolgreiches Training mit actensio ist die Bereitschaft und Motivation, sich mit den Inhalten des Programms auseinanderzusetzen und die neu gewonnenen Erkenntnisse und Hinweise auf Verhaltensänderungen praktisch und nachhaltig umzusetzen. Digitaler Blutdruckexperte: Der digitale Blutdruckexperte leitet die Nutzenden durch verschiedene Module des Blutdrucktrainings. In den Modulen werden wissensvermittelnde Elemente, geführte Übungen und Techniken aus dem Bereich der Lebensstilintervention eingesetzt. Die Inhalte werden audiovisuell, z. B. durch Grafikanimationen, veranschaulicht. - Tagebuch: Das Tagebuch setzt sich zusammen aus einem Abendprotokoll und einem Blutdruckprotokoll. Im Abendprotokoll können Daten zu Bewegung, Ernährung, Achtsamkeit, Medikamenten und Genussmitteln festgehalten werden. Das Blutdruckprotokoll dient zur Dokumentation des systolischen und diastolischen Blutdrucks sowie des Pulses. Das digitale Tagebuch ist ein zentrales Instrument des Blutdrucktrainings und wird täglich ausgefüllt. - Module: Die Module umfassen auszugsweise die Themen „Krankheitsbild“, „Behandlung”, „Bewegung”, „Ernährung”, „Genussmittel”, „Stress”, „Achtsamkeit“, „Schlaf”, „Wissenschaftliche Erkenntnisse” und „Entwicklung“. - Auswertung Tagebuch: In regelmäßigen Auswertungen des Tagebuchs können Verläufe und Durchschnittswerte der protokollierten Daten eingesehen werden. - Quiz: Interaktive Quizze sorgen für eine Festigung des Wissens. - Praktische Übungen: Das Programm bietet eine Einführung und Anleitung von Achtsamkeitsübungen wie der „Atem-Meditation” und dem „Body Scan”. - Rezeptbuch: Mit dem Rezeptbuch haben Nutzende die Möglichkeit, Rezeptvorschläge herunterzuladen, die der DASH-Diät zur Senkung des Blutdrucks folgen. - Wochenplaner: Mit Hilfe des Wochenplaners können sich die Nutzenden ganz einfach ihr nächstes Modul oder eine sportliche Aktivität einplanen. Abbott RA, Whear R, Rodgers LR, Bethel A, Thompson Coon J, Kuyken W, et al. Effectiveness of mindfulnessbased stress reduction and mindfulness based cognitive therapy in vascular disease: A systematic review and meta-analysis of randomised controlled trials. Journal of Psychosomatic Research. 2014 May 1;76(5):341–51. - Banzer W. Körperliche Aktivität und Gesundheit: Präventive und therapeutische Ansätze der Bewegungs- und Sportmedizin [Internet]. 1st ed. Springer Berlin, Heidelberg; 2016. XXIV, 435. Available from: https://doi.org/10.1007/978-3-662-50335-5 - Bazzano LA, Green T, Harrison TN, Reynolds K. Dietary Approaches to Prevent Hypertension. Current Hypertension Reports. 2013 Dec 1;15(6):694–702. - Blumenthal JA, Babyak MA, Hinderliter A, Watkins LL, Craighead L, Lin PH, et al. Effects of the DASH Diet Alone and in Combination With Exercise and Weight Loss on Blood Pressure and Cardiovascular Biomarkers in Men and Women With High Blood Pressure: The ENCORE Study. Archives of Internal Medicine. 2010 Jan 25;170(2):126–35. - Bundesärztekammer (BÄK), Kassenärztliche Bundesvereinigung (KBV), Arbeitsgemeinschaft der Wissenschaftlichen Medizinischen Fachgesellschaften (AWMF). Nationale VersorgungsLeitlinie Hypertonie –Langfassung, Version 1.0. 2023. DOI: 10.6101/AZQ/000502. www.leitlinien.de/hypertonie. - Calhoun DA, Harding SM. Sleep and Hypertension. Chest. 2010 Aug;138(2):434–43. - Dorner T, Genser D, Krejs G, Slany J, Watschinger B, Ekmekcioglu C, et al. Hypertonie und Ernährung. Herz. 2013;38(2):153. - Janhsen K, Strube H, Starker A. Hypertonie. Gesundheitsberichterstattung des Bundes, Heft 43. Berlin: Robert Koch-Institut. 2008; - Kennelly SP, Lawlor BA, Kenny RA. Review: Blood pressure and dementia — a comprehensive review. Ther Adv Neurol Disord. 2009 Jul 1;2(4):241–60. - Kord-Varkaneh H, Nazary-Vannani A, Mokhtari Z, Salehi-sahlabadi A, Rahmani J, Clark CCT, et al. The Influence of Fasting and Energy Restricting Diets on Blood Pressure in Humans: A Systematic Review and Meta-Analysis. High Blood Pressure & Cardiovascular Prevention. 2020 Aug 1;27(4):271–80. - Loucks EB, Schuman-Olivier Z, Britton WB, Fresco DM, Desbordes G, Brewer JA, et al. Mindfulness and Cardiovascular Disease Risk: State of the Evidence, Plausible Mechanisms, and Theoretical Framework. Current Cardiology Reports. 2015 Oct 19;17(12):112. - Mancia(Chairperson) G, Kreutz(Co-Chair) R, Brunström M, Burnier M, Grassi G, Januszewicz A, et al. 2023 ESH Guidelines for the management of arterial hypertension The Task Force for the management of arterial hypertension of the European Society of Hypertension Endorsed by the European Renal Association (ERA) and the International Society of Hypertension (ISH). Journal of Hypertension [Internet]. 9900; Available from: https://journals.lww.com/jhypertension/Fulltext/9900/2023_ESH_Guidelines_for_the_management_of_arterial.271.aspx - Pescatello LS, Buchner DM, Jakicic JM, Powell KE, Kraus WE, Bloodgood B, et al. Physical Activity to Prevent and Treat Hypertension: A Systematic Review. Med Sci Sports Exerc. 2019 Jun;51(6):1314–23. - Petersson M. Chapter 22 Cardiovascular effects of oxytocin. In: Progress in Brain Research [Internet]. Elsevier; 2002. p. 281–8. Available from: https://www.sciencedirect.com/science/article/pii/S0079612302390241 - Rainforth MV, Schneider RH, Nidich SI, Gaylord-King C, Salerno JW, Anderson JW. Stress reduction programs in patients with elevated blood pressure: A systematic review and meta-analysis. Current Hypertension Reports. 2007 Dec 1;9(6):520–8. - Riemann D, Baum E, Cohrs S, Crönlein T, Hajak G, Hertenstein E, et al. S3-Leitlinie Nicht erholsamer Schlaf/ Schlafstörungen. Somnologie. 2017 Mar 1;21(1):2–44. - Die vollständige Liste ist unter https://actens.io/quellen/ einsehbar.",
+      "content_fingerprint": "8c0e75e4ca2b",
       "content_preview": "actensio ist eine digitale Anwendung zur Behandlung von Bluthochdruck, die auf dem Smartphone, Tablet oder Computer verwendet werden kann. In der Anwendung werden auf den aktuellen Leitlinien basierende Inhalte im Bereich der Lebensstili...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "02302:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "02302:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:3",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_fingerprint": "77cea9e6788d",
       "content_preview": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal"
       ],
+      "path_hash": "4c8dba25a53c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02302:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "02302:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:4c8dba25a53c:field_value:0",
       "title": "Beteiligung vom medizinischen Fachpersonal"
     },
     {
       "content": "Schritt 1: bei Verordnung Motivierung der Patientinnen und Patienten, sich mit den Inhalten des Programms auseinanderzusetzen und die neu gewonnenen Erkenntnisse und Hinweise sowie Verhaltensänderungen praktisch und nachhaltig umzusetzen. Optional: Aufklärung über die Inhalte und Wirkungsweise einer Lebensstilintervention bei Hypertonie. - Schritt 2: Verlaufskontrolle (optional) Überprüfen des Berichts über die Entwicklung von Blutdruckdaten, Daten zu Bewegung, Ernährung, Achtsamkeit, Medikamente und Genussmittel sowie des Fortschritts im Programm. Hinweis: Der Bericht kann nur von den Patientinnen und Patienten generiert und entweder in Form eines Ausdrucks oder digital übermittelt* werden (s. unten). Die Verlaufskontrolle mittels Bericht aus dem Programm ist optional. Alternativ kann die Verlaufskontrolle auch durch eine Befragung im Gespräch durchgeführt werden. - Schritt 3: Auswertung Überprüfen des Berichts über die Entwicklung von Blutdruckdaten, Daten zu Bewegung, Ernährung, Achtsamkeit, Medikamente und Genussmittel. Evaluation des Therapieerfolgs und ggf. Einleitung weiterer Maßnahmen. Hinweis: Der Bericht kann nur von den Patientinnen und Patienten generiert und entweder in Form eines Ausdrucks oder digital übermittelt werden (s. unten). Die Auswertung mittels Bericht aus dem Programm ist optional. Alternativ kann die Auswertung auch durch eine Befragung im Gespräch durchgeführt werden. - *Digitaler Zugriff auf den Bericht: Wenn Sie den Bericht der Patientinnen und Patienten in digitaler Form einsehen wollen, benötigen Sie ein Gerät mit Internetzugang (Computer, Laptop, Smartphone oder Tablet). Eine Übersicht der unterstützten Webbrowser und Geräte finden Sie auf folgender Website: www.actens.io/geraete. Eine Schulung für den Umgang mit dem Programm ist unter Voraussetzung grundlegender Computer- und Internetkenntnisse nicht erforderlich. Wenn Sie den medizinischen Bericht mit Ihrem behandelnden Fachpersonal teilen möchten, können Sie einen Zugangscode erstellen. Durch den Code kann Ihre Ärztin oder Ihr Arzt 24 Stunden lang auf den medizinischen Bericht zugreifen. Alternativ können Sie einen Zugangslink generieren. Nach Ihrer Freigabe erhält ihr behandelndes Fachpersonal dann 3 Monate lang Zugriff auf den Report. Nein",
+      "content_fingerprint": "6619a38cc842",
       "content_preview": "Schritt 1: bei Verordnung Motivierung der Patientinnen und Patienten, sich mit den Inhalten des Programms auseinanderzusetzen und die neu gewonnenen Erkenntnisse und Hinweise sowie Verhaltensänderungen praktisch und nachhaltig umzusetzen...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "02302:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "02302:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:4",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfohlen wird.",
+      "content_fingerprint": "ba2dc6143acd",
       "content_preview": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfoh...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise"
       ],
+      "path_hash": "af464e1a8e2f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02302:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-6922aa5eb2:field_value",
+      "stable_key": "02302:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise:af464e1a8e2f:field_value:0",
       "title": "Anwendungshinweise"
     },
     {
       "content": "actensio ist eine digitale Anwendung zur Behandlung von Bluthochdruck, deren Interventionen auf leitlinienkonformen Lebensstilveränderungen beruhen. actensio sollte grundsätzlich nur gemäß seiner Zweckbestimmung verwendet werden. Bei der Anmeldung werden Ausschlusskriterien abgefragt. Diese sind wahrheitsgemäß anzugeben. Warnhinweise sind sowohl in der Gebrauchsanweisung als auch im Programmfluss enthalten und sollten nicht ignoriert werden. Bei medizinischen Fragen und Problemen sollte Rücksprache mit den behandelnden medizinischen Fachpersonen getroffen werden. Blutdruckwerte > 180 mmHg systolisch Patientin bzw. Patient ist nicht in der Lage, einen Computer, ein Smartphone oder ein Tablet zu bedienen Schwangerschaft 90 Tage Trifft nicht zu Desktop & Laptop - Windows (10/11 23h2+) - Chrome (v. 108+) - Safari (v. 16.1+) - Firefox (v. 122+) - Edge (v. 122+) - Mobile Geräte - iOS Safari (v. 16.1) - Android Browser (v. 108) mit Android 9.0 oder höher - Chrome for Android (v. 108) mit Android 9.0 oder höher - Chrome for iOS (v. 108) - actensio ist zusätzlich als App im Appstore von Apple und Android erhältlich. Folgende Minimalanforderungen müssen erfüllt sein: - iPhone/iPad/iPod Touch (iOS 16.0 oder höher für Nutzung der App/ iOS 16.0 oder höher für Nutzung über - Chrome für iOS) - Smartphone/Tablet (Android 9.0 oder höher) Damit actensio genutzt werden kann, muss das Gerät mit dem Internet verbunden sein und die folgenden Minimalanforderungen zur Hardware erfüllen: - 1.8 GHz CPU (dual core) - 2 GB RAM - PowerVR GT7600 GPU (oder ähnlich) - 8GB Speicher - Aktivitätstracker: Optional kann für das automatisierte Ausfüllen des Abendprotokolls ein Aktivitätstracker mit eingebunden werden. Aktuell werden alle neueren Tracker folgender Hersteller unterstützt, welche Aktivitätsdaten aufzeichnen können: - Fitbit - Garmin - Polar - Withings - Apple Watch - Nach der Einbindung eines solchen Aktivitätstrackers werden die Daten zur körperlichen Aktivität automatisch mit dem Programm synchronisiert. Die Daten werden nicht direkt mit persönlichen Medizingeräten ausgetauscht, sondern unter Nutzung des Aggregators Thryve. Thryve ist ein deutsches Unternehmen ohne US-Mutterkonzern. Die Verarbeitung der personenbezogenen Daten erfolgt gemäß § 4 Absatz 3 DiGAV. Alle Daten werden über eine öffentlich einsehbare Schnittstelle übertragen (https://thryve.health/api-doc). - Nähere Informationen zur Kompatibilität finden Sie unter https://actens.io/geraete/ mementor nutzt für die Herstellung der Interoperabilität die Version 1.1.0 des MIO DiGA Toolkits. Patientinnen und Patienten haben jederzeit die Möglichkeit, per Klick im Profil, einen sowohl maschinen- als auch menschenlesbaren Export zu erzeugen. Der maschinenlesbare Export basiert auf dem “FHIR”® (Fast Healthcare Interoperability Resources) Standard und beinhaltet Daten zu allen im Programm erfassten Protokollen und Profildaten. Der Export wird im JSON (JavaScript Object Notation) zur Verfügung gestellt. Zudem können Tagebucheinträge im Excel-Format (.xlsx) heruntergeladen werden. Der menschenlesbare Export wird als PDF (A4-Format) zur Verfügung gestellt. Trifft nicht zu",
+      "content_fingerprint": "ce0d2d047d7a",
       "content_preview": "actensio ist eine digitale Anwendung zur Behandlung von Bluthochdruck, deren Interventionen auf leitlinienkonformen Lebensstilveränderungen beruhen. actensio sollte grundsätzlich nur gemäß seiner Zweckbestimmung verwendet werden. Bei der...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "02302:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "02302:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:5",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs. weitere, durch Sie selbst aufzubringende Kosten, sofern Sie bestimmte zusätzlich angebotene und von der Verschreibung nicht abgedeckte Leistungen in Anspruch nehmen möchten.",
+      "content_fingerprint": "39d5160ffdea",
       "content_preview": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs....",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis"
       ],
+      "path_hash": "41c28a502494",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02302:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-429bde377d:field_value",
+      "stable_key": "02302:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis:41c28a502494:field_value:0",
       "title": "Angaben zum Preis"
     },
     {
       "content": "Weitere Nutzung der DiGA für zusätzliche 90 Tage Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage 0,00 € 0,00 € Trifft nicht zu Trifft nicht zu Es fallen keine Mehrkosten für den Patienten an.",
+      "content_fingerprint": "916bfbb14c2f",
       "content_preview": "Weitere Nutzung der DiGA für zusätzliche 90 Tage Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage 0,00 € 0,00 € Trifft nicht zu Trifft nicht zu Es fallen keine Mehrkosten für den Patienten an.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "02302:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "02302:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:6",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Verbesserungen für Patienten können entweder medizinischer Art sein (z.B. Verringerung von Schmerzen, Beitrag zur Heilung der Erkrankung) oder den Erkennungs- und Behandlungsprozess direkt unterstützen und erleichtern (z.B. Informationen zur individuellen Erkrankungssituation, Unterstützung bei der Einhaltung der zwischen Patient und Arzt gemeinsam vereinbarten therapeutischen Maßnahmen). Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche Weise dies ggfs. bereits wissenschaftlich nachgewiesen wurde. Falls der positive Versorgungseffekt noch nicht abschließend nachgewiesen aber bereits so plausibel dargelegt wurde, dass die DiGA befristet zur entsprechenden Erprobung aufgenommen wurde, wird angegeben, für welchen Zeitraum dies erfolgt ist. Sofern (auch) ein Nachweis zum Erhalt der Erwerbsfähigkeit für die DiGA erbracht wurde oder eine Nachweisführung geplant ist, finden Sie hier eine Beschreibung und nähere Angaben zum Nachweis sowie zum Studiendesign. Sofern die DiGA (auch) ein diagnostisches Instrument darstellt, also mindestens in Teilen dazu vorgesehen ist, Informationen z.B. für die Erkennung oder Diagnose von Krankheitszuständen zu liefern, hat der Hersteller dies benannt und beschrieben sowie Sensitivität und Spezifität als wichtige Bewertungsgrößen angegeben. Medizinischer Nutzen Verbesserung des Gesundheitszustands Reduktion des systolischen Blutdrucks Titel: Untersuchung der Wirksamkeit der digitalen Lebensstilintervention „actensio“ zur Reduzierung des Blutdrucks bei Erwachsenen mit Hypertonie nach sechsmonatiger Nutzung - Patient: 422 Patientinnen und Patienten mit der gesicherten Diagnose einer Hypertonie Grad I bis II - Intervention: Die Teilnehmenden der Interventionsgruppe erhalten die digitale Intervention “actensio”, zusätzlich zur Standardversorgung nach Leitlinien der deutschen Gesellschaft für Kardiologie. - Vergleich: Die Teilnehmenden der Kontrollgruppe erhalten die Standardversorgung nach Leitlinien der deutschen Gesellschaft für Kardiologie. - Endpunkt: Gemittelter systolischer Blutdruck einer ambulanten 24-Stunden-Mmessung Die Wirksamkeit von actensio wird in einer randomisiert-kontrollierten Studie untersucht. Insgesamt werden 422 erwachsene Teilnehmende mit essentieller Hypertonie über kardiologische Schwerpunkt- und Hausarztpraxen sowie Studienzentren rekrutiert. Diese werden zufällig einer von 2 Gruppen zugeteilt. Während der 6-monatigen Interventionsdauer erhält eine Gruppe zusätzlich zur Standardversorgung bei Bluthochdruck Zugang zur digitalen Anwendung actensio (Interventionsgruppe). Die andere Gruppe erhält ebenfalls die Standardversorgung und bekommt nach Abschluss der Studie Zugang zu actensio (Kontrollgruppe). - Zum Nachweis des medizinischen Nutzens liegt der Hauptfokus der Studie auf dem systolischen Blutdruck, der nach 6 Monaten mit einer 24-Stunden- Blutdruckmessung gemessen wird. Zusätzlich werden andere wichtige Gesundheitsaspekte, wie der diastolische Blutdruck, Gewichtsreduktion, die gesundheitliche Patientenbeteiligung, die Lebensqualität und Medikamentenadhärenz, betrachtet. Die Teilnehmenden werden zu Beginn der Studie, nach 3 und 6 Monaten untersucht. Die Ergebnisse werden nach einem wissenschaftlichen Ansatz ausgewertet, der sicherstellt, dass alle Teilnehmenden in die Analyse einbezogen werden, auch wenn sie die Studie nicht beendet haben (Intention-To-Treat Ansatz). Die Studie wird nach positivem Ethikvotum im Deutschen Register Klinischer Studien (DRKS) registriert. Der Studienbericht wird innerhalb von 12 Monaten nach Abschluss der Studie auf der Homepage des Herstellers veröffentlicht. Universitätsmedizin Essen Ruhrlandklinik Westdeutsches Lungenzentrum am Universitätsklinikum Essen gGmbH Tüschener Weg 40 45239 Essen Nein 24 Monate (12 Monate initial, 12 Monate Verlängerung)",
+      "content_fingerprint": "51e188b71a84",
       "content_preview": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Ve...",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02302:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "02302:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:0",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird. Die Anforderungen an die Datensicherheit werden durch Vorlage eines Zertifikats gemäß § 139e Absatz 10 Fünftes Buch Sozialgesetzbuch nachgewiesen. Detaillierte Informationen zu den einzelnen Anforderungen können Sie auf der Webseite des Bundesamts für Sicherheit in der Informationstechnik unter der Technischen Richtlinie \"BSI TR-03161\" finden: https://www.bsi.bund.de/dok/TR-03161 Bis zur Vorlage des Zertifikats gelten für den Bereich Datensicherheit die Anforderungen der nachfolgend dargestellten Checkliste. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "2191188ce7c4",
       "content_preview": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen v...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02302:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "02302:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:0",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit > Datensicherheit",
       "level": 4,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit",
         "Datensicherheit"
       ],
+      "path_hash": "8545f237a1b9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02302:informationen-zu-datenschutz-und-datensicherheit-datensicherheit-14af255f91:field_value",
+      "stable_key": "02302:informationen-zu-datenschutz-und-datensicherheit-datensicherheit:8545f237a1b9:field_value:0",
       "title": "Datensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung erlaubt keinen Upload von Dateien. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung greift weder auf Sensoren eines mobilen Endgeräts noch auf externe Hardware zu. Zutreffend Zutreffend Zutreffend Zutreffend Nein",
+      "content_fingerprint": "bf50a884c3b6",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu D...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "02302:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "02302:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:1",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der medizinischen Inhalte und die Gewährleistung der Patientensicherheit. Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_fingerprint": "d6d0ea10d54a",
       "content_preview": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der me...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02302:weitere-informationen-afe954d9f8:section",
+      "stable_key": "02302:weitere-informationen:df3724c46c56:section:0",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Interoperabilität",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Interoperabilität"
       ],
+      "path_hash": "43914a1ae1e9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02302:weitere-informationen-angaben-zur-interoperabilitaet-8867f27412:field_value",
+      "stable_key": "02302:weitere-informationen-angaben-zur-interoperabilitaet:43914a1ae1e9:field_value:0",
       "title": "Angaben zur Interoperabilität"
     },
     {
       "content": "Zutreffend Trifft nicht zu Die Anbindung von Wearables ist optional und die Daten der Wearables werden nicht direkt mit persönlichen Medizingeräten ausgetauscht, sondern unter Nutzung des Aggregators Thryve. Thryve ist ein deutsches Unternehmen ohne US-Mutterkonzern. Die Verarbeitung der personenbezogenen Daten erfolgt gemäß § 4 Absatz 3 DiGAV. Alle Daten werden über eine öffentlich einsehbare Schnittstelle übertragen (https://thryve.health/api-doc). - Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versicherten getragenen Sensoren zur Messung und Übertragung von Vitalwerten (Wearables) austauscht. Zutreffend Trifft nicht zu Der Hersteller hat keine eigenen Profilierungen vorgenommen.",
+      "content_fingerprint": "5790c92693b1",
       "content_preview": "Zutreffend Trifft nicht zu Die Anbindung von Wearables ist optional und die Daten der Wearables werden nicht direkt mit persönlichen Medizingeräten ausgetauscht, sondern unter Nutzung des Aggregators Thryve. Thryve ist ein deutsches Unte...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "02302:weitere-informationen-afe954d9f8:section",
+      "stable_key": "02302:weitere-informationen:df3724c46c56:section:1",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Robustheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Robustheit"
       ],
+      "path_hash": "d416c871fdb6",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02302:weitere-informationen-angaben-zur-robustheit-0a511476df:field_value",
+      "stable_key": "02302:weitere-informationen-angaben-zur-robustheit:d416c871fdb6:field_value:0",
       "title": "Angaben zur Robustheit"
     },
     {
       "content": "Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
+      "content_fingerprint": "5f89c60c91f1",
       "content_preview": "Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "02302:weitere-informationen-afe954d9f8:section",
+      "stable_key": "02302:weitere-informationen:df3724c46c56:section:2",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zum Verbraucherschutz",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zum Verbraucherschutz"
       ],
+      "path_hash": "22c54da8ff9c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02302:weitere-informationen-angaben-zum-verbraucherschutz-05cd17969e:field_value",
+      "stable_key": "02302:weitere-informationen-angaben-zum-verbraucherschutz:22c54da8ff9c:field_value:0",
       "title": "Angaben zum Verbraucherschutz"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "409aa9901d82",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "02302:weitere-informationen-afe954d9f8:section",
+      "stable_key": "02302:weitere-informationen:df3724c46c56:section:3",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zu Nutzerfreundlichkeit und Barrierefreiheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
       ],
+      "path_hash": "a9d890d721a4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02302:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit-8fe873c531:field_value",
+      "stable_key": "02302:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit:a9d890d721a4:field_value:0",
       "title": "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
     },
     {
       "content": "Zutreffend Zutreffend",
+      "content_fingerprint": "f572c2f88946",
       "content_preview": "Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "02302:weitere-informationen-afe954d9f8:section",
+      "stable_key": "02302:weitere-informationen:df3724c46c56:section:4",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Unterstützung der Leistungserbringende",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Unterstützung der Leistungserbringende"
       ],
+      "path_hash": "bdfe86165ef2",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02302:weitere-informationen-unterstuetzung-der-leistungserbringende-d4e78dfd75:field_value",
+      "stable_key": "02302:weitere-informationen-unterstuetzung-der-leistungserbringende:bdfe86165ef2:field_value:0",
       "title": "Unterstützung der Leistungserbringende"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Qualität der medizinischen Inhalte",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Qualität der medizinischen Inhalte"
       ],
+      "path_hash": "964eb34f0609",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02302:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte-a6d05ceeb6:field_value",
+      "stable_key": "02302:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte:964eb34f0609:field_value:0",
       "title": "Angaben zur Qualität der medizinischen Inhalte"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "6a8d1dc0aa28",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "02302:weitere-informationen-afe954d9f8:section",
+      "stable_key": "02302:weitere-informationen:df3724c46c56:section:5",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Patientensicherheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Patientensicherheit"
       ],
+      "path_hash": "96d387fa1378",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02302:weitere-informationen-angaben-zur-patientensicherheit-7a67651ccd:field_value",
+      "stable_key": "02302:weitere-informationen-angaben-zur-patientensicherheit:96d387fa1378:field_value:0",
       "title": "Angaben zur Patientensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "477afefea65b",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "02302:weitere-informationen-afe954d9f8:section",
+      "stable_key": "02302:weitere-informationen:df3724c46c56:section:6",
       "title": "Weitere Informationen"
     },
     {
       "content": "Der Preis der Verordnungseinheit actensio 001 hat sich rückwirkend zum 30.12.2024 von 289,17 € auf 0,00 € geändert.",
+      "content_fingerprint": "6bfacbb6de75",
       "content_preview": "Der Preis der Verordnungseinheit actensio 001 hat sich rückwirkend zum 30.12.2024 von 289,17 € auf 0,00 € geändert.",
       "content_type": "field_value",
+      "display_path": "Änderungshistorie > 19.01.2026 Preisänderung",
       "level": 4,
       "path": [
         "Änderungshistorie",
         "19.01.2026 Preisänderung"
       ],
+      "path_hash": "7b9e2ac6b481",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02302:aenderungshistorie-19-01-2026-preisaenderung-d8557263e2:field_value",
+      "stable_key": "02302:aenderungshistorie-19-01-2026-preisaenderung:7b9e2ac6b481:field_value:0",
       "title": "19.01.2026 Preisänderung"
     },
     {
       "content": "Die DiGA wurde auf Antrag des Herstellers aus dem Verzeichnis gemäß § 139e Absatz 6 Satz 9 des Fünften Buches Sozialgesetzbuch (SGB V) i. V. m. § 19 der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) gestrichen.",
+      "content_fingerprint": "61020710df52",
       "content_preview": "Die DiGA wurde auf Antrag des Herstellers aus dem Verzeichnis gemäß § 139e Absatz 6 Satz 9 des Fünften Buches Sozialgesetzbuch (SGB V) i. V. m. § 19 der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) gestrichen.",
       "content_type": "field_value",
+      "display_path": "Änderungshistorie > 01.10.2025 Status der Listung ist „Gestrichen“",
       "level": 4,
       "path": [
         "Änderungshistorie",
         "01.10.2025 Status der Listung ist „Gestrichen“"
       ],
+      "path_hash": "d850ccb2858b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02302:aenderungshistorie-01-10-2025-status-der-listung-ist-gestrichen-6bce1cd731:field_value",
+      "stable_key": "02302:aenderungshistorie-01-10-2025-status-der-listung-ist-gestrichen:d850ccb2858b:field_value:0",
       "title": "01.10.2025 Status der Listung ist „Gestrichen“"
     }
   ],
@@ -431,10 +567,10 @@
     "accordions_opened": 0,
     "content_section_count": 34,
     "field_value_count": 17,
-    "rendered_at": "2026-06-22T19:15:27.703956+00:00",
+    "rendered_at": "2026-06-22T20:42:50.240154+00:00",
     "source_kind": "visible_directory"
   },
   "source_kind": "visible_directory",
-  "timestamp": "20260622T190144Z",
+  "timestamp": "20260622T202912Z",
   "url": "https://diga.bfarm.de/de/verzeichnis/02302"
 }

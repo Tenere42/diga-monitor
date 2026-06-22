@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import json
 import re
+from collections import Counter
 from difflib import SequenceMatcher
 from hashlib import sha1
 from datetime import datetime, timezone
@@ -346,6 +347,13 @@ def render_structure_report(payload: dict[str, Any], sections: list[dict[str, An
     stats = payload.get("stats") if isinstance(payload.get("stats"), dict) else {}
     paths = [path_tuple(section) for section in sections]
     unique_paths = {path for path in paths if path}
+    stable_keys = [str(section.get("stable_key") or "") for section in sections if str(section.get("stable_key") or "")]
+    stable_key_counts = Counter(stable_keys)
+    duplicate_stable_keys = {
+        stable_key: count
+        for stable_key, count in stable_key_counts.items()
+        if count > 1
+    }
     field_value_count = sum(1 for section in sections if section.get("content_type") == "field_value")
     fallback_count = sum(1 for section in sections if is_low_confidence_or_fallback(section))
     top_level_sections = list(dict.fromkeys(path[0] for path in paths if path))
@@ -362,6 +370,8 @@ def render_structure_report(payload: dict[str, Any], sections: list[dict[str, An
         f"- Content sections: {len(sections)}",
         f"- Field/value pairs: {field_value_count}",
         f"- Unique display paths: {len(unique_paths)}",
+        f"- Unique stable keys: {len(stable_key_counts)}",
+        f"- Duplicate stable keys: {len(duplicate_stable_keys)}",
         f"- Low confidence / fallback items: {fallback_count}",
         f"- Opened accordions: {stats.get('accordion_count', payload.get('accordions_opened', 0))}",
         "",
@@ -392,6 +402,11 @@ def render_structure_report(payload: dict[str, Any], sections: list[dict[str, An
         for section in sections:
             if is_low_confidence_or_fallback(section):
                 lines.append(f"- {' > '.join(path_tuple(section))}")
+
+    if duplicate_stable_keys:
+        lines.extend(["", "## Duplicate Stable Keys", ""])
+        for stable_key, count in sorted(duplicate_stable_keys.items(), key=lambda item: (-item[1], item[0])):
+            lines.append(f"- {stable_key}: {count}")
 
     return "\n".join(lines).rstrip() + "\n"
 
@@ -427,6 +442,8 @@ def is_low_confidence_or_fallback(section: dict[str, Any]) -> bool:
 
 
 def display_path(section: dict[str, Any]) -> str:
+    if section.get("display_path"):
+        return str(section.get("display_path"))
     return " > ".join(path_tuple(section))
 
 
@@ -847,6 +864,7 @@ def extract_content_sections(page: Any, diga_id: str) -> list[dict[str, Any]]:
     )
 
     sections = []
+    section_counts_by_path: dict[tuple[str, str], int] = {}
     for section in raw_sections:
         path = [str(part) for part in section.get("path", []) if str(part).strip()]
         title = str(section.get("title") or (path[-1] if path else "")).strip()
@@ -856,11 +874,24 @@ def extract_content_sections(page: Any, diga_id: str) -> list[dict[str, Any]]:
         if not is_content_path(path):
             continue
         content_type = str(section.get("content_type") or "section")
-        normalized_path = normalize_key_part(" > ".join(path))
-        stable_key = f"{safe_filename(diga_id)}:{normalized_path}:{content_type}"
+        display_path_value = " > ".join(path)
+        readable_path = slugify(display_path_value)
+        path_hash = hash_text(f"{display_path_value}|{title}|{content_type}", length=12)
+        section_count_key = (display_path_value, content_type)
+        section_index_in_path = section_counts_by_path.get(section_count_key, 0)
+        section_counts_by_path[section_count_key] = section_index_in_path + 1
+        content_fingerprint = hash_text(normalize_content_value(content), length=12)
+        stable_key = (
+            f"{safe_filename(diga_id)}:"
+            f"{readable_path}:"
+            f"{path_hash}:"
+            f"{content_type}:"
+            f"{section_index_in_path}"
+        )
         sections.append(
             {
                 "path": path,
+                "display_path": display_path_value,
                 "level": int(section.get("level") or len(path)),
                 "title": title,
                 "content": content,
@@ -868,6 +899,9 @@ def extract_content_sections(page: Any, diga_id: str) -> list[dict[str, Any]]:
                 "content_type": content_type,
                 "source_kind": "visible_directory",
                 "stable_key": stable_key,
+                "path_hash": path_hash,
+                "section_index_in_path": section_index_in_path,
+                "content_fingerprint": content_fingerprint,
             }
         )
     return sections
@@ -898,6 +932,10 @@ def normalize_key_part(value: str) -> str:
     value = slugify(value)
     digest = sha1(value.encode("utf-8")).hexdigest()[:10]
     return f"{value[:90]}-{digest}"
+
+
+def hash_text(value: str, length: int = 12) -> str:
+    return sha1(value.encode("utf-8")).hexdigest()[:length]
 
 
 def slugify(value: str) -> str:

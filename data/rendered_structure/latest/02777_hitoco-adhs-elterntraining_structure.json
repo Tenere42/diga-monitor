@@ -2,1091 +2,1431 @@
   "content_sections": [
     {
       "content": "Die digitale Gesundheitsanwendung hiToco® unterstützt Familien mit Kindern mit einer Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS) dabei, den Alltag mit diesem Störungsbild besser zu bewältigen.",
+      "content_fingerprint": "e8bb24c604e1",
       "content_preview": "Die digitale Gesundheitsanwendung hiToco® unterstützt Familien mit Kindern mit einer Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS) dabei, den Alltag mit diesem Störungsbild besser zu bewältigen.",
       "content_type": "field_value",
+      "display_path": "hitoco.de",
       "level": 3,
       "path": [
         "hitoco.de"
       ],
+      "path_hash": "1a663e993217",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:hitoco-de-8f350edd45:field_value",
+      "stable_key": "02777:hitoco-de:1a663e993217:field_value:0",
       "title": "hitoco.de"
     },
     {
       "content": "Die App stellt eine angeleitete Selbsthilfe dar und umfasst neben psychoedukativen Inhalten auch Elemente einer kognitiven Verhaltenstherapie, welche unter anderem durch Sachartikel und Videos sowie mittels interaktiver Aufgaben und Funktionen (z.B. Tagebücher, Erinnerungen) dargeboten werden. Auf Basis eines individuellen Trainingsplans werden die Nutzerinnen und Nutzer Schritt für Schritt durch die App geführt. Durch die Nutzung von hiToco® lernen Eltern und andere Sorgeberechtigte, ihr Erziehungsverhalten gemeinsam mit ihrem Kind auf interaktive Weise anzupassen. Dies führt zu einer Verringerung des so genannten externalisierenden Problemverhaltens des Kindes (ADHS-Symptome und oppositionelles Verhalten), sowie der damit verbundenen familiären psychosozialen Beeinträchtigungen, wie z. B. dem elterlichen Stress. Die Inhalte der App basieren auf dem in Deutschland weitverbreiteten „THOP“-Manual („Therapieprogramm für Kinder mit hyperkinetischem und oppositionellem Problemverhalten“), dessen Wirksamkeit in mehreren wissenschaftlichen Studien belegt wurde und welches in der bestehenden S3-Leitlinie mit „sehr guter“ Evidenz benannt ist. hiToco® kann als Teil einer multimodalen Therapie eingesetzt werden (Therapiebegleitung), im Rahmen dessen ggf. auch Wartezeiten überbrückt werden müssen (Überbrückung).",
+      "content_fingerprint": "ef12c949737b",
       "content_preview": "Die App stellt eine angeleitete Selbsthilfe dar und umfasst neben psychoedukativen Inhalten auch Elemente einer kognitiven Verhaltenstherapie, welche unter anderem durch Sachartikel und Videos sowie mittels interaktiver Aufgaben und Funk...",
       "content_type": "section",
+      "display_path": "hiToco®: ADHS Elterntraining",
       "level": 2,
       "path": [
         "hiToco®: ADHS Elterntraining"
       ],
+      "path_hash": "687e52772fb9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:hitoco-adhs-elterntraining-f9c3176867:section",
+      "stable_key": "02777:hitoco-adhs-elterntraining:687e52772fb9:section:0",
       "title": "hiToco®: ADHS Elterntraining"
     },
     {
       "content": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_fingerprint": "26290d5ae490",
       "content_preview": "Hier finden Sie weitergehende Informationen zur DiGA.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "a5e395515816",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung:a5e395515816:field_value:0",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_fingerprint": "bfc5ca33598c",
       "content_preview": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:0",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "hiToco®: ADHS Elterntraining",
+      "content_fingerprint": "0742d2e89832",
       "content_preview": "hiToco®: ADHS Elterntraining",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Name der DiGA im DiGA-Verzeichnis",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Name der DiGA im DiGA-Verzeichnis"
       ],
+      "path_hash": "b055b8e1c744",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v-132a49921b:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v:b055b8e1c744:field_value:0",
       "title": "Name der DiGA im DiGA-Verzeichnis"
     },
     {
       "content": "16.07.2025",
+      "content_fingerprint": "b75233bdf5ec",
       "content_preview": "16.07.2025",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Erstmalige Aufnahme in das DiGA-Verzeichnis",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Erstmalige Aufnahme in das DiGA-Verzeichnis"
       ],
+      "path_hash": "3d07f6258e5c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in--0901792b12:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in-:3d07f6258e5c:field_value:0",
       "title": "Erstmalige Aufnahme in das DiGA-Verzeichnis"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Modul",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Modul"
       ],
+      "path_hash": "fdfb704b702c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-modul-0b2f60dd90:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-modul:fdfb704b702c:field_value:0",
       "title": "Modul"
     },
     {
       "content": "hiToco® Elterntraining",
+      "content_fingerprint": "6fa6a8c17ede",
       "content_preview": "hiToco® Elterntraining",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Name der DiGA (Kurzform)",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Name der DiGA (Kurzform)"
       ],
+      "path_hash": "4c0085f25a54",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-kurzform-be25f49996:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-kurzform:4c0085f25a54:field_value:0",
       "title": "Name der DiGA (Kurzform)"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
       ],
+      "path_hash": "46556afef4cb",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-andere-namen-und-modell-ab7acb1427:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-andere-namen-und-modell:46556afef4cb:field_value:0",
       "title": "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
     },
     {
       "content": "App",
+      "content_fingerprint": "fc4a695f02a8",
       "content_preview": "App",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Art der DiGA",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Art der DiGA"
       ],
+      "path_hash": "600a0be84a95",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga-f41af95c79:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga:600a0be84a95:field_value:0",
       "title": "Art der DiGA"
     },
     {
       "content": "im Apple App Store Deutschland",
+      "content_fingerprint": "5a4cd838fc6e",
       "content_preview": "im Apple App Store Deutschland",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Die digitale Gesundheitsanwendung ist verfügbar",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Die digitale Gesundheitsanwendung ist verfügbar"
       ],
+      "path_hash": "6d3556c97e9a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit-70a197df25:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit:6d3556c97e9a:field_value:0",
       "title": "Die digitale Gesundheitsanwendung ist verfügbar"
     },
     {
       "content": "im Google Play Store Deutschland",
+      "content_fingerprint": "860262a8c802",
       "content_preview": "im Google Play Store Deutschland",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:1",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Deutschland",
+      "content_fingerprint": "19174e8c9711",
       "content_preview": "Deutschland",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Standorte der Datenverarbeitung",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Standorte der Datenverarbeitung"
       ],
+      "path_hash": "eee99405da7f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera-426183d1fc:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera:eee99405da7f:field_value:0",
       "title": "Standorte der Datenverarbeitung"
     },
     {
       "content": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an",
+      "content_fingerprint": "779f915c74ee",
       "content_preview": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Bewertungsentscheidung des BfArM",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Bewertungsentscheidung des BfArM"
       ],
+      "path_hash": "7d463e27c832",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung--cdc10aad7c:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung-:7d463e27c832:field_value:0",
       "title": "Bewertungsentscheidung des BfArM"
     },
     {
       "content": "• Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der Technik und • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) als erfüllt. Die Datenverarbeitung findet laut Hersteller ausschließlich in Deutschland statt. Das BfArM bewertet dieses Vorgehen als konform im Sinne der DiGAV. Als Erprobungsstudie soll eine randomisierte kontrollierte Studie (RCT) mit dem Titel “Efficacy of the novel app-based self-help parent management training hiToco® for children with ADHD – a randomized controlled trial (ENOVA)” mit einem Beobachtungszeitraum von 12 Wochen durchgeführt werden. Die Erhebungszeitpunkte sind zu Baseline (T0) sowie nach 12 Wochen (T2). Zusätzlich soll nach 8 Wochen eine Interimsanalyse (T1) durchgeführt werden. Dabei sollen insgesamt 192 teilnehmende Familien, in denen ein Kind die Diagnose Aufmerksamkeitsdefizit-Hyperaktivitätsstörung (ADHS) erhalten hat, im Verhältnis 1 : 1 in 2 Gruppen randomisiert werden. Die Teilnehmenden der Interventionsgruppe (IG) erhalten die Standardtherapie (Treatment As Usual, TAU) und die DiGA. Die Teilnehmenden der Kontrollgruppe KG erhalten TAU. Als primärer Endpunkt gilt die Veränderung des externalisierenden Problemverhaltens des Kindes im Elternurteil nach 12 Wochen im Vergleich zur Baseline gemessen anhand des Summenscores (FBB-ADHS+SSV, 28 Fragen) der Fremdbeurteilungsbögen zur Erfassung von ADHS-Symptomen (FBB-ADHS, Teil A+B, 20 Fragen) und der Störung des Sozialverhaltens [FBB-SSV, Teil A (Oppositionelles Verhalten), 8 Fragen]. Als sekundärer, konfirmatorischer Endpunkt zählt der elterliche Stress gemessen anhand des Family Strain Index (FSI). Weitere explorative Endpunkte sind die Veränderung der ADHS-Symptome des Kindes im Elternurteil nach 12 Wochen im Vergleich zur Baseline gemessen anhand des Fremdbeurteilungsbogens zur Erfassung von ADHS-Symptomen (FBB-ADHS, Teil A+B), die Veränderung der Störung des Sozialverhaltens mit oppositionellem, aufsässigem Verhalten des Kindes im Elternurteil nach 12 Wochen im Vergleich zur Baseline gemessen anhand des Fremdbeurteilungsbogens zur Erfassung von Störungen des Sozialverhaltens [FBB-SSV, Teil A (Oppositionelles Verhalten)], die Veränderung im Fragebogen zum positiven und negativen Erziehungsverhalten nach 12 Wochen im Vergleich zur Baseline gemessen anhand der Assessment Scale of positive and negative-inept parenting behaviour (FPNE) und Veränderung der Funktionsbeeinträchtigung des Kindes im Elternurteil nach 12 Wochen im Vergleich zur Baseline gemessen anhand von Teil F des Fremdbeurteilungsbogens zur Erfassung von ADHS-Symptomen (FBB-ADHS, Teil F). Das BfArM bewertet das Studienkonzept grundsätzlich als geeignet, die positive Versorgungseffekte „Verbesserung des Gesundheitszustands“ und „Reduzierung der therapiebedingten Aufwände und Belastungen der Patienten und ihrer Angehöriger“ nachzuweisen. Als Begründung der Versorgungsverbesserung wurde eine RCT mit dem Titel „Randomized controlled pilot study assessing the effectiveness of the smartphone app medigital® ADHS/OPP“ vorgelegt. Die RCT umfasste insgesamt 65 Teilnehmende mit der Diagnose F98.80 und bzw. oder F90. Der Beobachtungszeitraum betrug 16 Wochen, dabei wurden Daten zu Baseline (T0), nach 8 Wochen (T1), nach 12 Wochen (T2) und nach 16 Wochen (T3) erhoben. Ein erstes Screening umfasste 70 Familien, davon wurden 65 Teilnehmende in die Studie eingeschlossen und 1 : 1 in 2 Gruppen randomisiert. Der IG wurden 34 Teilnehmende (52,3 %), der KG wurden 31 Teilnehmende (47,7 %) zugeteilt. Zwei Teilnehmende (5,9 %) brachen die Teilnahme an der IG ab und wurden im Verlauf der Studie als Drop-out klassifiziert. Gemäß der Intention-To-Treat-Population (ITT-Population) reduzierte sich das externalisierende Problemverhalten der Kinder mittels FBB-ADHS+SVV nach 16 Wochen im Mittel in der IG statistisch signifikant um 0,237 Punkte [95-%-Konfidenzintervall (KI) [0,008; 0,467]], p-Wert: 0,0429) mehr als in der KG. Der elterliche Stress mittels FSI reduzierte sich im Mittel zwischen der IG statistisch signifikant um 2,676 Punkte [95-%-KI (0,608; 4,744); p-Wert = 0,0121] mehr als in der KG. Auch weitere sekundäre Endpunkte (ADHS-Symptome mittels FBB-ADHS, oppositionelles Verhalten mittels FBB-SSV, Erziehungsverhalten mittels FPNE) zeigten einen Vorteil der IG gegenüber der KG. Entsprechend bewertet das BfArM die in § 139e des Fünften Buches Sozialgesetzbuch (SGB V) sowie in der DiGAV festgelegten Voraussetzungen zur vorläufigen Aufnahme auf Erprobung in das Verzeichnis nach § 139e Absatz 1 SGB V für die Indikationen F98.80: Aufmerksamkeitsstörung ohne Hyperaktivität mit Beginn in der Kindheit und Jugend und F90: Hyperkinetische Störungen und in Bezug auf die positiven Versorgungseffekte „Verbesserung des Gesundheitszustands“ und „Reduzierung der therapiebedingten Aufwände und Belastungen der Patienten und ihrer Angehöriger“ als erfüllt.",
+      "content_fingerprint": "49b6a74a0c1d",
       "content_preview": "• Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der Technik und • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Ge...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:2",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_fingerprint": "4b8f5a46c1b0",
       "content_preview": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt"
       ],
+      "path_hash": "9af58630166c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:9af58630166c:field_value:0",
       "title": "Angaben zum Medizinprodukt"
     },
     {
       "content": "Die Medizinproduktesoftware hiToco® unterstützt Familien mit Kindern mit einer Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS) und/oder einer Störung des Sozialverhaltens mit oppositionellem Trotzverhalten (OPP) im Umgang mit diesen Störungsbildern im Alltag. Durch die Nutzung von hiToco® lernen Eltern und andere Sorgeberechtigte, ihr Erziehungsverhalten gemeinsam mit ihrem Kind auf interaktive Weise anzupassen. Dies führt zu einer Linderung des externalisierenden Problemverhaltens des Kindes, einschließlich der Symptome von ADHS und/oder OPP sowie der damit verbundenen psychosozialen Beeinträchtigungen.",
+      "content_fingerprint": "8e23c2538361",
       "content_preview": "Die Medizinproduktesoftware hiToco® unterstützt Familien mit Kindern mit einer Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS) und/oder einer Störung des Sozialverhaltens mit oppositionellem Trotzverhalten (OPP) im Umgang mit diese...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Medizinische Zweckbestimmung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Medizinische Zweckbestimmung"
       ],
+      "path_hash": "8bde401e0e97",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:8bde401e0e97:field_value:0",
       "title": "Medizinische Zweckbestimmung"
     },
     {
       "content": "Risikoklasse I nach MDR",
+      "content_fingerprint": "957f4ea485db",
       "content_preview": "Risikoklasse I nach MDR",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Risikoklasse Medizinprodukt",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Risikoklasse Medizinprodukt"
       ],
+      "path_hash": "b60186e2af98",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:b60186e2af98:field_value:0",
       "title": "Risikoklasse Medizinprodukt"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Name der Benannten Stelle",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Name der Benannten Stelle"
       ],
+      "path_hash": "d8a546b6e09b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:d8a546b6e09b:field_value:0",
       "title": "Name der Benannten Stelle"
     },
     {
       "content": "Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt.",
+      "content_fingerprint": "253e4f0d662b",
       "content_preview": "Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:3",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Kennnummer der Benannten Stelle",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Kennnummer der Benannten Stelle"
       ],
+      "path_hash": "f1e2f46935e4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-kennnummer-der-benannte-885261bcc3:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-kennnummer-der-benannte:f1e2f46935e4:field_value:0",
       "title": "Kennnummer der Benannten Stelle"
     },
     {
       "content": "DE-MF-000010489",
+      "content_fingerprint": "3922c55bb3f3",
       "content_preview": "DE-MF-000010489",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Identifikationsnummer Eudamed",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Identifikationsnummer Eudamed"
       ],
+      "path_hash": "fc78f31e70f9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-identifikationsnummer-e-c5d45b28a3:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-identifikationsnummer-e:fc78f31e70f9:field_value:0",
       "title": "Identifikationsnummer Eudamed"
     },
     {
       "content": "426075549hiTocoCF",
+      "content_fingerprint": "1eb5d2f36458",
       "content_preview": "426075549hiTocoCF",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Basis UDI-DI im Sinne der MDR",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Basis UDI-DI im Sinne der MDR"
       ],
+      "path_hash": "62eb78726756",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-basis-udi-di-im-sinne-d-af1d25d65e:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-basis-udi-di-im-sinne-d:62eb78726756:field_value:0",
       "title": "Basis UDI-DI im Sinne der MDR"
     },
     {
       "content": "(02)4260755490013",
+      "content_fingerprint": "39eb1db60129",
       "content_preview": "(02)4260755490013",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > UDI-DI im Sinne der MDR",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "UDI-DI im Sinne der MDR"
       ],
+      "path_hash": "b126703266c2",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-udi-di-im-sinne-der-mdr-73125832d2:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-udi-di-im-sinne-der-mdr:b126703266c2:field_value:0",
       "title": "UDI-DI im Sinne der MDR"
     },
     {
       "content": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_fingerprint": "ba6516ebde5f",
       "content_preview": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA"
       ],
+      "path_hash": "6921f5eac91a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:6921f5eac91a:field_value:0",
       "title": "Weitere Informationen zur DiGA"
     },
     {
       "content": "Die digitale Gesundheitsanwendung hiToco® unterstützt Familien mit Kindern mit ADHS dabei, den Alltag mit diesem Störungsbild besser zu bewältigen. hiToco® kann als digitales Elterntraining im Rahmen einer multimodalen Therapie eingesetzt werden.",
+      "content_fingerprint": "c11e9a2eac97",
       "content_preview": "Die digitale Gesundheitsanwendung hiToco® unterstützt Familien mit Kindern mit ADHS dabei, den Alltag mit diesem Störungsbild besser zu bewältigen. hiToco® kann als digitales Elterntraining im Rahmen einer multimodalen Therapie eingesetz...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "ef6363788ef3",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:ef6363788ef3:field_value:0",
       "title": "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
     },
     {
       "content": "Durch die Nutzung von hiToco® lernen Eltern und andere Sorgeberechtigte, ihr Erziehungsverhalten gemeinsam mit ihrem Kind auf interaktive Weise anzupassen. Dies führt zu einer Verringerung des externalisierenden Problemverhaltens des Kindes (ADHS-Symptome und oppositionelles Verhalten), sowie der damit verbundenen familiären psychosozialen Beeinträchtigungen, wie z. B. dem elterlichen Stress. Die App stellt eine angeleitete Selbsthilfe dar und umfasst neben psychoedukativen Inhalten auch Elemente einer kognitiven Verhaltenstherapie, welche unter anderem durch Sachartikel und Videos sowie mittels interaktiver Aufgaben und Funktionen (z. B. Erinnerungen, therapeutische Feedbackfunktionen) dargeboten werden. Praktische Werkzeuge helfen dabei, das erlernte Wissen in reale Alltagssituationen überführen zu können. Dabei werden die Nutzerinnen und Nutzer basierend auf einem individuellen Trainingsplans Schritt für Schritt durch die App geführt, wodurch eine strukturierte und lineare Bearbeitung sichergestellt wird. Die Bearbeitung des Trainingsplans erfolgt im eigenen Tempo der Nutzerinnen und Nutzer. Die Inhalte der App basieren auf dem in Deutschland weitverbreiteten „THOP“-Manual („Therapieprogramm für Kinder mit hyperkinetischem und oppositionellem Problemverhalten“), dessen Wirksamkeit in mehreren wissenschaftlichen Studien belegt wurde und welches in der bestehenden S3-Leitlinie mit „sehr guter“ Evidenz benannt ist. Die Inhalte sind in fünf aufeinander aufbauende Module gegliedert, zwei Module zur Psychoedukation und drei Interventionsmodule: Modul 1: Wissenswertes zum Thema ADHS Modul 2: Hilfen bei ADHS Modul 3: Eigene Herausforderungen meistern Modul 4: Stärken aktivieren Modul 5: Verhaltensprobleme lösen",
+      "content_fingerprint": "1e640d3089a5",
       "content_preview": "Durch die Nutzung von hiToco® lernen Eltern und andere Sorgeberechtigte, ihr Erziehungsverhalten gemeinsam mit ihrem Kind auf interaktive Weise anzupassen. Dies führt zu einer Verringerung des externalisierenden Problemverhaltens des Kin...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:4",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "hiToco® ist in die vier Bereiche Home, Wissen, Tools und Support gegliedert. Diese Bereiche bieten die folgenden Funktionen:",
+      "content_fingerprint": "6ebbe52aa876",
       "content_preview": "hiToco® ist in die vier Bereiche Home, Wissen, Tools und Support gegliedert. Diese Bereiche bieten die folgenden Funktionen:",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Funktionen der digitalen Gesundheitsanwendung",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Funktionen der digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "82022247f98d",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-funktionen-der-digitale-90c70ec142:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-funktionen-der-digitale:82022247f98d:field_value:0",
       "title": "Funktionen der digitalen Gesundheitsanwendung"
     },
     {
       "content": "1) Home: Der Startbildschirm bietet einen Überblick über den Trainingsplanfortschritt sowie über die bereits abgeschlossenen und die noch zu absolvierenden Module. Nutzerinnen und Nutzer können einfach auf \"Weiterlesen\" klicken. Dies leitet sie automatisch zum nächsten Artikel innerhalb des Trainingsplans weiter. Durch das Klicken auf die Modul-Symbole gelangen die Nutzerinnen und Nutzer direkt zum jeweiligen Modul. Die Bearbeitung des Trainingsplans erfolgt im eigenen Tempo der Nutzerinnen und Nutzer. Die Module sind jeweils in Kapitel aufgeteilt, die wiederum in kleinere Artikel unterteilt sind. Die Artikel umfassen beispielsweise kurze Texte oder Videos von typischen Eltern-Kind-Situationen oder animierte Videos im Cartoon-Stil. 2) Wissen: Über den Wissensbereich können nach vollständiger Bearbeitung der jeweiligen Module alle Kapitel und Artikel der Module abgerufen werden. So können im Nachgang auch Themen und Inhalte bearbeitet werden, die nicht Teil des initial festgelegten Trainingsplans waren. 3) Tools: Dieser Bereich dient als aktiver Teil zur Anwendung des erlernten Wissens im Alltag. Die Tools können nicht direkt von Anfang an aufgerufen werden, sondern werden erst schrittweise freigegeben, basierend auf dem Bearbeitungsstand im Trainingsplan. Wenn Nutzerinnen und Nutzer ein Tool zum ersten Mal öffnen, wird ein kurzes Tutorial in einer chatähnlichen Form präsentiert. Dies stellt sicher, dass die Eltern den Kontext der Anwendung und die Handhabung der Tools in der Praxis vollständig verstehen, bevor sie diese selbst verwenden. Es werden insgesamt acht Tools angeboten: Meine Einträge, Scheinwerfermodell, Wochenplan, Ablaufplan, Positivtagebuch, Regelplan, Punkteplan, Verhaltenstagebuch. 4) Support: Über den Support-Bereich gibt es die Möglichkeit, den Kundenservice zu kontaktieren. Hier können Anfragen zu technischen Aspekten oder Fragen zum Inhalt des Programms per E-Mail eingereicht werden. Es wird darauf hingewiesen, dass das Feedback auf den Inhalt der App beschränkt ist und keine psychotherapeutischen oder anderen therapeutischen Ratschläge umfasst. Die Nutzerinnen und Nutzer haben hier ebenfalls Zugang zum sog. “Toco Chat”. Es handelt sich dabei um therapeutische Rückkopplungsschlaufen, die basierend auf der Bearbeitung der Inhalte des Trainingsplans, regelmäßig sicherstellen, dass die bearbeiteten Inhalte verstanden wurden, sowie an Therapieaufgaben erinnern und motivieren, diese umzusetzen.",
+      "content_fingerprint": "800c8b2b9217",
       "content_preview": "1) Home: Der Startbildschirm bietet einen Überblick über den Trainingsplanfortschritt sowie über die bereits abgeschlossenen und die noch zu absolvierenden Module. Nutzerinnen und Nutzer können einfach auf \"Weiterlesen\" klicken. Dies lei...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:5",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Univ.-Prof. a.D. Dr. Manfred Döpfner, Dipl.-Psych Universität zu Köln Centrum für Kinder- und Jugendlichenpsychotherapie an der Uniklinik Köln (CEKIP) Klinik für Psychiatrie, Psychosomatik und Psychotherapie des Kindes- und Jugendalters an der Uniklinik Köln Pohligstr. 9, D-50969 Köln -- Prof. Dr. Anja Görtz-Dorten, Dipl.-Psych, Dipl.-Heilpäd. Universität zu Köln Centrum für Kinder- und Jugendlichenpsychotherapie an der Uniklinik Köln (CEKIP) Klinik für Psychiatrie, Psychosomatik und Psychotherapie des Kindes- und Jugendalters an der Uniklinik Köln Pohligstr. 9, D-50969 Köln",
+      "content_fingerprint": "29308e2126a1",
       "content_preview": "Univ.-Prof. a.D. Dr. Manfred Döpfner, Dipl.-Psych Universität zu Köln Centrum für Kinder- und Jugendlichenpsychotherapie an der Uniklinik Köln (CEKIP) Klinik für Psychiatrie, Psychosomatik und Psychotherapie des Kindes- und Jugendalters ...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
       ],
+      "path_hash": "720a637cb5c8",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-und-adresse-beteil-71b7ba97e5:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-und-adresse-beteil:720a637cb5c8:field_value:0",
       "title": "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
     },
     {
       "content": "Baumel, A., et al., Technology-Assisted Parent Training Programs for Children and Adolescents With Disruptive Behaviors: A Systematic Review. J Clin Psychiatry, 2017. 78(8): p. e957-e969.",
+      "content_fingerprint": "dcc417d80b76",
       "content_preview": "Baumel, A., et al., Technology-Assisted Parent Training Programs for Children and Adolescents With Disruptive Behaviors: A Systematic Review. J Clin Psychiatry, 2017. 78(8): p. e957-e969.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
       ],
+      "path_hash": "c806b8db1092",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-literaturquellen-wie-z--8d5491f412:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-literaturquellen-wie-z-:c806b8db1092:field_value:0",
       "title": "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
     },
     {
       "content": "Chu, L., et al., Effects of Combing Group Executive Functioning and Online Parent Training on School-Aged Children With ADHD: A Randomized Controlled Trial. Frontiers in pediatrics, 2022. 9: p. 813305. Coghill, D., et al., The management of ADHD in children and adolescents: bringing evidence to the clinic: perspective from the European ADHD Guidelines Group (EAGG). Eur Child Adolesc Psychiatry, 2023. 32(8): p. 1337-1361. Coghill, D., et al., Impact of attention-deficit/hyperactivity disorder on the patient and family: results from a European survey. Child Adolesc Psychiatry Ment Health, 2008. 2(1): p. 31. Daley, D., et al., Behavioral interventions in attention-deficit/hyperactivity disorder: a meta-analysis of randomized controlled trials across multiple outcome domains. J Am Acad Child Adolesc Psychiatry, 2014. 53(8): p. 835-47, 847 e1-5. DGKJP, DGPPN, and DGPSJ, Long version of the interdisciplinary evidence- and consensus-based (S3) guideline \"Attention-Deficit/Hyperactivity Disorder (ADHD) in children and adolescents, and adults\". 2018. Döpfner, M., S. Schürmann, and J. Frölich, Therapieprogramm für Kinder mit hyperkinetischem und oppositionellem Problemverhalten (THOP). 2019. 6th edition. DuPaul, G.J., et al., Face-to-Face Versus Online Behavioral Parent Training for Young Children at Risk for ADHD: Treatment Engagement and Outcomes. J Clin Child Adolesc Psychol, 2018. 47(sup1): p. S369-S383. Florean, I.S., et al., The Efficacy of Internet-Based Parenting Programs for Children and Adolescents with Behavior Problems: A Meta-Analysis of Randomized Clinical Trials. Clin Child Fam Psychol Rev, 2020. 23(4): p. 510-528. Franke, N., L.J. Keown, and M.R. Sanders, An RCT of an Online Parenting Program for Parents of Preschool-Aged Children With ADHD Symptoms. J Atten Disord, 2020. 24(12): p. 1716-1726. Jendreizik, L.T., E. von Wirth, and M. Doepfner, Familial Factors Associated With Symptom Severity in Children and Adolescents With ADHD: A Meta-Analysis and Supplemental Review. J Atten Disord, 2023. 27(2): p. 124-144. Koerting, J., et al., Barriers to, and facilitators of, parenting programmes for childhood behaviour problems: a qualitative synthesis of studies of parents' and professionals' perceptions. Eur Child Adolesc Psychiatry, 2013. 22(11): p. 653-70. Mackler, J.S., et al., Parenting stress, parental reactions, and externalizing behavior from ages 4 to 10. Journal of Marriage and Family, 2015. 77(2): p. 388-406. McAloon, J. and K. de la Poer Beresford, Online behavioral parenting interventions for disruptive behavioral disorders: A PRISMA based systematic review of clinical trials. Child Psychiatry and Human Development, 2023. 54(2): p. 379-396. Paiva, G.C.d.C., et al., Parent training for disruptive behavior symptoms in attention deficit hyperactivity disorder: a randomized clinical trial. Frontiers in psychology, 2024. 15: p. 1293244. Riedel, O., et al., Prevalence of multimodal treatment in children and adolescents with ADHD in Germany: a nationwide study based on health insurance data. Child Adolesc Psychiatry Ment Health, 2021. 15(1): p. 76. Tarver, J., et al., Are self-directed parenting interventions sufficient for externalising behaviour problems in childhood? A systematic review and meta-analysis. Eur Child Adolesc Psychiatry, 2014. 23(12): p. 1123-37. Theule, J., et al., Parenting stress in Families of children with ADHD: A meta-analysis. Journal of Emotional and Behavioral Disorders, 2010. 21(1). Thongseiratch, T., P. Leijten, and G.J. Melendez-Torres, Online parent programs for children's behavioral problems: a meta-analytic review. Eur Child Adolesc Psychiatry, 2020. 29(11): p. 1555-1568.",
+      "content_fingerprint": "76e8c7c01ffc",
       "content_preview": "Chu, L., et al., Effects of Combing Group Executive Functioning and Online Parent Training on School-Aged Children With ADHD: A Randomized Controlled Trial. Frontiers in pediatrics, 2022. 9: p. 813305. Coghill, D., et al., The management...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:6",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_fingerprint": "77cea9e6788d",
       "content_preview": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal"
       ],
+      "path_hash": "4c8dba25a53c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:4c8dba25a53c:field_value:0",
       "title": "Beteiligung vom medizinischen Fachpersonal"
     },
     {
       "content": "Ärztinnen und Ärzte können zur Wartezeitüberbrückung oder im Rahmen einer multimodalen Therapie die Indikation für die Nutzung der hiToco®-App stellen und diese verschreiben. Ärztinnen und Ärzte können auch während der Nutzung der hiToco®-App die Behandlung und Beratung fortführen.",
+      "content_fingerprint": "700802b7f648",
       "content_preview": "Ärztinnen und Ärzte können zur Wartezeitüberbrückung oder im Rahmen einer multimodalen Therapie die Indikation für die Nutzung der hiToco®-App stellen und diese verschreiben. Ärztinnen und Ärzte können auch während der Nutzung der hiToco...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal > Ärztinnen/ Ärzte",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal",
         "Ärztinnen/ Ärzte"
       ],
+      "path_hash": "736d25ff8830",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:736d25ff8830:field_value:0",
       "title": "Ärztinnen/ Ärzte"
     },
     {
       "content": "Psychotherapeutinnen und Psychotherapeuten können zur Wartezeitüberbrückung oder im Rahmen einer multimodalen Therapie die Indikation für die Nutzung der hiToco®-App stellen und diese verschreiben. Psychotherapeutinnen und Psychotherapeuten können auch während der Nutzung der hiToco®-App die Behandlung und Beratung fortführen.",
+      "content_fingerprint": "c1bac2ae0fd8",
       "content_preview": "Psychotherapeutinnen und Psychotherapeuten können zur Wartezeitüberbrückung oder im Rahmen einer multimodalen Therapie die Indikation für die Nutzung der hiToco®-App stellen und diese verschreiben. Psychotherapeutinnen und Psychotherapeu...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal > Psychotherapeutinnen/ Psychotherapeuten",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal",
         "Psychotherapeutinnen/ Psychotherapeuten"
       ],
+      "path_hash": "58675bdbc27c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:58675bdbc27c:field_value:0",
       "title": "Psychotherapeutinnen/ Psychotherapeuten"
     },
     {
       "content": "Nein",
+      "content_fingerprint": "70bb813787b6",
       "content_preview": "Nein",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal > Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal",
         "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
       ],
+      "path_hash": "844ec57e702e",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:844ec57e702e:field_value:0",
       "title": "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
     },
     {
       "content": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfohlen wird.",
+      "content_fingerprint": "ba2dc6143acd",
       "content_preview": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfoh...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise"
       ],
+      "path_hash": "af464e1a8e2f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-6922aa5eb2:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise:af464e1a8e2f:field_value:0",
       "title": "Anwendungshinweise"
     },
     {
       "content": "Die hiToco®-App richtet sich an Eltern von Kindern im Alter von 4 bis 11 Jahren, die von ADHS betroffen sind.",
+      "content_fingerprint": "a14af497bf93",
       "content_preview": "Die hiToco®-App richtet sich an Eltern von Kindern im Alter von 4 bis 11 Jahren, die von ADHS betroffen sind.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Hinweise für eine sichere Anwendung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Hinweise für eine sichere Anwendung"
       ],
+      "path_hash": "ed840310f43d",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw-13263bcc58:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw:ed840310f43d:field_value:0",
       "title": "Hinweise für eine sichere Anwendung"
     },
     {
       "content": "Durch die folgenden Schritte wird die qualitätsgesicherte Anwendung sichergestellt: Die Freischaltung erfolgt durch Eingabe eines Zugangscodes. Dieser Zugangscode wird von der Krankenkasse ausgegeben. Die Voraussetzung für den Erhalt eines Zugangscodes ist die Verschreibung durch die behandelnden Ärztinnen und Ärzte bzw. durch die behandelnden Psychotherapeutinnen und Psychotherapeuten oder der Diagnosenachweis durch die Familie direkt bei der Krankenkasse. Die App spricht die Familie als System an. Um den Nutzen dieser Anwendung zu erhöhen, sollten in der Familie genügend Zeit und Ressourcen für tägliche Interaktionen zwischen der Nutzerin und dem Nutzer und dem betroffenen Kind vorhanden sein. Grundsätzlich gibt es keine räumlichen oder zeitlichen Vorgaben für die Nutzung von hiToco®. Es wird empfohlen, die App vor allem in Situationen zu nutzen, die eine Beschäftigung mit den Inhalten und eine Reflexion ohne unnötige Unterbrechungen ermöglichen, zum Beispiel abends zu Hause. Die Bearbeitung des Programms erfolgt im eigenen Tempo der Nutzerinnen und Nutzer. Eine regelmäßige Nutzung von hiToco® über einen Zeitraum von 90 Tagen wird empfohlen. Obwohl es sich bei hiToco® um ein geführtes und digitales “Schritt-für-Schritt” Programm handelt, können die Nutzerinnen und Nutzer frustriert oder enttäuscht sein, insbesondere, wenn die praktische Umsetzung des Erlernten im Alltag nicht sofort gelingt. In solchen Fällen wird empfohlen, die Nutzung von hiToco® zu unterbrechen und mit der Ärztin/dem Arzt oder der Therapeutin/dem Therapeuten des Kindes zu sprechen, um die weitere Nutzung zu besprechen. Es wird im empfohlen, die Gebrauchsanweisung vor Beginn der Nutzung von hiToco® zu lesen. Die Gebrauchsanweisung der hiToco®-App ist jederzeit digital auf der Vertriebswebseite sowie direkt aus der App heraus abrufbar. Innerhalb und außerhalb der App ist der technische Support verfügbar, um die korrekte Anwendung der App zu unterstützen.",
+      "content_fingerprint": "b6db3698e87e",
       "content_preview": "Durch die folgenden Schritte wird die qualitätsgesicherte Anwendung sichergestellt: Die Freischaltung erfolgt durch Eingabe eines Zugangscodes. Dieser Zugangscode wird von der Krankenkasse ausgegeben. Die Voraussetzung für den Erhalt ein...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 7,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:7",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "90 Tage",
+      "content_fingerprint": "485af94c45d9",
       "content_preview": "90 Tage",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Vom Hersteller für erforderlich gehaltene Mindestdauer",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Vom Hersteller für erforderlich gehaltene Mindestdauer"
       ],
+      "path_hash": "c8361568278f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-vom-hersteller-fuer-erf-bbada5828c:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-vom-hersteller-fuer-erf:c8361568278f:field_value:0",
       "title": "Vom Hersteller für erforderlich gehaltene Mindestdauer"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Vom Hersteller für erforderlich gehaltene Höchstdauer",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Vom Hersteller für erforderlich gehaltene Höchstdauer"
       ],
+      "path_hash": "5dafed8796c1",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-vom-hersteller-fuer-erf-bbada5828c:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-vom-hersteller-fuer-erf:5dafed8796c1:field_value:0",
       "title": "Vom Hersteller für erforderlich gehaltene Höchstdauer"
     },
     {
       "content": "Benötigt wird ein internetfähiges Smartphone oder Tablet zur Nutzung der Applikation, welches kompatibel ist mit Geräten, die mindestens iOS 15.8 / Android Version 12 unterstützen. Darüber hinaus sind keine sonstigen Produktbetandteile und kein Zubehör erforderlich. Entsprechende Angaben sind unter dem folgenden Link zu finden: https://hitoco.de/weitere-produktinformationen",
+      "content_fingerprint": "555c7893a4a1",
       "content_preview": "Benötigt wird ein internetfähiges Smartphone oder Tablet zur Nutzung der Applikation, welches kompatibel ist mit Geräten, die mindestens iOS 15.8 / Android Version 12 unterstützen. Darüber hinaus sind keine sonstigen Produktbetandteile u...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Kompatibilitätszusagen in Bezug auf unterstützte Geräte",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
       ],
+      "path_hash": "fdfd0a3e19b3",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-kompatibilitaetszusagen-2e7efe3e1b:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-kompatibilitaetszusagen:fdfd0a3e19b3:field_value:0",
       "title": "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
     },
     {
       "content": "hiToco® nutzt für die Herstellung der Interoperabilität die Version 1.1.0 des MIO DiGA Toolkits. Nutzerinnen und Nutzer haben jederzeit die Möglichkeit im Konto per Klick sowohl einen maschinen- als auch einen menschenlesbaren Export zu erzeugen. Außerdem können Nutzerinnen und Nutzer im Bereich „Tools“ jeweils einen menschenlesbaren Export erzeugen. Der maschinenlesbare Export basiert auf dem “FHIR”® (Fast Healthcare Interoperability Resources) Standard und beinhaltet Profildaten und Daten zu allen im Programm erfassten Tagebucheinträgen. Die Profildaten umfassen das Profil des Nutzenden (\"KBV_PR_MIO_DIGA_Patient\") und den DiGA Hersteller (\"KBV_PR_MIO_DIGA_Organization_Manufacturer\"). Zweck der Tagebücher ist es, dass Nutzerinnen und Nutzer Eintragungen machen können, um über Situationen und/oder Verhalten der letzen Tage und Wochen seit Beginn der Nutzung selbstständig reflektieren zu können. Die Tagebucheinträge, (\"Verhaltenstagebuch\", \"Punkteplantagebuch\", \"Wochenplantagebuch\", Regelplantagebuch\", \"Scheinwerfermodelltagebuch\", \"Ablaufplantagebuch\" und \"Positivtagebuch\") werden einzeln exportiert und durch das Profil \"KBV_PR_MIO_DIGA_Observation_Diary_Entry\" dargestellt. Der Export wird im JSON (JavaScript Object Notation) zur Verfügung gestellt. Die menschenlesbaren Exporte werden als PDF (A4-Format) zur Verfügung gestellt.",
+      "content_fingerprint": "61df72b518a8",
       "content_preview": "hiToco® nutzt für die Herstellung der Interoperabilität die Version 1.1.0 des MIO DiGA Toolkits. Nutzerinnen und Nutzer haben jederzeit die Möglichkeit im Konto per Klick sowohl einen maschinen- als auch einen menschenlesbaren Export zu ...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Möglichkeiten von standardisiertem Datenimport und Datenexport",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Möglichkeiten von standardisiertem Datenimport und Datenexport"
       ],
+      "path_hash": "569132413e54",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-moeglichkeiten-von-stan-a818cc9f27:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-moeglichkeiten-von-stan:569132413e54:field_value:0",
       "title": "Möglichkeiten von standardisiertem Datenimport und Datenexport"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen"
       ],
+      "path_hash": "3e9803f91215",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zu-den-von-der--1e522ad432:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zu-den-von-der-:3e9803f91215:field_value:0",
       "title": "Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen"
     },
     {
       "content": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs. weitere, durch Sie selbst aufzubringende Kosten, sofern Sie bestimmte zusätzlich angebotene und von der Verschreibung nicht abgedeckte Leistungen in Anspruch nehmen möchten.",
+      "content_fingerprint": "39d5160ffdea",
       "content_preview": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs....",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis"
       ],
+      "path_hash": "41c28a502494",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-429bde377d:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis:41c28a502494:field_value:0",
       "title": "Angaben zum Preis"
     },
     {
       "content": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "content_fingerprint": "341e24b7c036",
       "content_preview": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis > Preismodell",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis",
         "Preismodell"
       ],
+      "path_hash": "d5d16c880c10",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis-6eb719186f:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis:d5d16c880c10:field_value:0",
       "title": "Preismodell"
     },
     {
       "content": "599,00 €",
+      "content_fingerprint": "a9109fc0dba8",
       "content_preview": "599,00 €",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis > Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis",
         "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
       ],
+      "path_hash": "a52cea70fa1c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-koste-12efad84b5:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-koste:a52cea70fa1c:field_value:0",
       "title": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis > Weitere Anmerkungen zum Preismodell",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis",
         "Weitere Anmerkungen zum Preismodell"
       ],
+      "path_hash": "1859e5b8f2f3",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-weite-a94dbec841:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-weite:1859e5b8f2f3:field_value:0",
       "title": "Weitere Anmerkungen zum Preismodell"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis > Erläuterung Mehrkosten",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis",
         "Erläuterung Mehrkosten"
       ],
+      "path_hash": "a3e195ade301",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-erlae-be49aad321:field_value",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-erlae:a3e195ade301:field_value:0",
       "title": "Erläuterung Mehrkosten"
     },
     {
       "content": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_fingerprint": "766782bdbccd",
       "content_preview": "Es fallen keine Mehrkosten für den Patienten an.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 8,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "02777:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:8",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Verbesserungen für Patienten können entweder medizinischer Art sein (z.B. Verringerung von Schmerzen, Beitrag zur Heilung der Erkrankung) oder den Erkennungs- und Behandlungsprozess direkt unterstützen und erleichtern (z.B. Informationen zur individuellen Erkrankungssituation, Unterstützung bei der Einhaltung der zwischen Patient und Arzt gemeinsam vereinbarten therapeutischen Maßnahmen).",
+      "content_fingerprint": "b689545a79f8",
       "content_preview": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Ve...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "b1d946b15fae",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:informationen-zum-positiven-versorgungseffekt-253662cf50:field_value",
+      "stable_key": "02777:informationen-zum-positiven-versorgungseffekt:b1d946b15fae:field_value:0",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche Weise dies ggfs. bereits wissenschaftlich nachgewiesen wurde. Falls der positive Versorgungseffekt noch nicht abschließend nachgewiesen aber bereits so plausibel dargelegt wurde, dass die DiGA befristet zur entsprechenden Erprobung aufgenommen wurde, wird angegeben, für welchen Zeitraum dies erfolgt ist. Sofern (auch) ein Nachweis zum Erhalt der Erwerbsfähigkeit für die DiGA erbracht wurde oder eine Nachweisführung geplant ist, finden Sie hier eine Beschreibung und nähere Angaben zum Nachweis sowie zum Studiendesign. Sofern die DiGA (auch) ein diagnostisches Instrument darstellt, also mindestens in Teilen dazu vorgesehen ist, Informationen z.B. für die Erkennung oder Diagnose von Krankheitszuständen zu liefern, hat der Hersteller dies benannt und beschrieben sowie Sensitivität und Spezifität als wichtige Bewertungsgrößen angegeben.",
+      "content_fingerprint": "0bf9ee1dc4d9",
       "content_preview": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche We...",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "02777:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:0",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Medizinischer Nutzen",
+      "content_fingerprint": "291175316d3d",
       "content_preview": "Medizinischer Nutzen",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Angaben zum positiven Versorgungseffekt",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Angaben zum positiven Versorgungseffekt"
       ],
+      "path_hash": "56d889aab765",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse-5449921803:field_value",
+      "stable_key": "02777:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse:56d889aab765:field_value:0",
       "title": "Angaben zum positiven Versorgungseffekt"
     },
     {
       "content": "Patientenrelevante Struktur- und Verfahrensverbesserung",
+      "content_fingerprint": "3d6e23bd735d",
       "content_preview": "Patientenrelevante Struktur- und Verfahrensverbesserung",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "02777:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "02777:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:1",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Reduzierung der therapiebedingten Aufwände und Belastungen der Patienten und ihrer Angehöriger",
+      "content_fingerprint": "01462c120e08",
       "content_preview": "Reduzierung der therapiebedingten Aufwände und Belastungen der Patienten und ihrer Angehöriger",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Patientenrelevante Struktur- und Verfahrensverbesserungen",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Patientenrelevante Struktur- und Verfahrensverbesserungen"
       ],
+      "path_hash": "435d0aeb3dfa",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:informationen-zum-positiven-versorgungseffekt-patientenrelevante-struktur-und-ve-6612535d44:field_value",
+      "stable_key": "02777:informationen-zum-positiven-versorgungseffekt-patientenrelevante-struktur-und-ve:435d0aeb3dfa:field_value:0",
       "title": "Patientenrelevante Struktur- und Verfahrensverbesserungen"
     },
     {
       "content": "Verbesserung des Gesundheitszustands",
+      "content_fingerprint": "58b8b11779d7",
       "content_preview": "Verbesserung des Gesundheitszustands",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Nähere Angaben zum medizinischen Nutzen",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Nähere Angaben zum medizinischen Nutzen"
       ],
+      "path_hash": "c2ba1d4f6a81",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen--90ce965dee:field_value",
+      "stable_key": "02777:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen-:c2ba1d4f6a81:field_value:0",
       "title": "Nähere Angaben zum medizinischen Nutzen"
     },
     {
       "content": "Der medizinische Nutzen von hiToco® besteht in der Verbesserung des Gesundheitszustandes des von ADHS betroffenen Kindes durch eine Verringerung des externalisierenden Problemverhaltens gemessen anhand der Skala FBB-ADHS+OPP.",
+      "content_fingerprint": "1e34967bdf76",
       "content_preview": "Der medizinische Nutzen von hiToco® besteht in der Verbesserung des Gesundheitszustandes des von ADHS betroffenen Kindes durch eine Verringerung des externalisierenden Problemverhaltens gemessen anhand der Skala FBB-ADHS+OPP.",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Beschreibung des medizinischen Nutzens",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Beschreibung des medizinischen Nutzens"
       ],
+      "path_hash": "71ee9147d6be",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut-a677995e79:field_value",
+      "stable_key": "02777:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut:71ee9147d6be:field_value:0",
       "title": "Beschreibung des medizinischen Nutzens"
     },
     {
       "content": "Die patientenrelevante Struktur- und Verfahrensverbesserung besteht in der Reduzierung der therapiebedingten Aufwände und Belastungen der Patientinnen und Patienten und ihrer Angehörigen durch eine Verringerung des elterlichen Stresses gemessen anhand des FSI.",
+      "content_fingerprint": "475fae10172a",
       "content_preview": "Die patientenrelevante Struktur- und Verfahrensverbesserung besteht in der Reduzierung der therapiebedingten Aufwände und Belastungen der Patientinnen und Patienten und ihrer Angehörigen durch eine Verringerung des elterlichen Stresses g...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Nähere Beschreibung der patientenrelevanten Struktur- und Verfahrensverbesserung",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Nähere Beschreibung der patientenrelevanten Struktur- und Verfahrensverbesserung"
       ],
+      "path_hash": "89a9eaa0bd74",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:informationen-zum-positiven-versorgungseffekt-naehere-beschreibung-der-patienten-859be4691e:field_value",
+      "stable_key": "02777:informationen-zum-positiven-versorgungseffekt-naehere-beschreibung-der-patienten:89a9eaa0bd74:field_value:0",
       "title": "Nähere Beschreibung der patientenrelevanten Struktur- und Verfahrensverbesserung"
     },
     {
       "content": "Titel der Studie: Efficacy of the novel app-based self-help parent management training hiToco® for children with ADHD –randomized controlled trial (ENOVA) -- P - Population: Familien mit Kindern im Alter von 4 bis 11 Jahren mit bestehender ADHS-Diagnose -- I - Intervention: Im Rahmen des klinischen Routinealltags wird die Interventionsgruppe mit der Standardtherapie (TAU, Treatment as Usual) und zusätzlich mit hiToco® für einen Zeitraum von 12 Wochen behandelt. -- C - Comparison: Im Rahmen des klinischen Routinealltags erhält die Kontrollgruppe TAU über einen Zeitraum von 12 Wochen. -- O - Outcome: Die Hauptmessgröße ist das so genannte externalisierende Problemverhalten des Kindes im Elternurteil nach 12 Wochen gemessen mit dem Fragebogen FBB-ADHS+OPP. Dieser umfasst sowohl die ADHS-Kernsymptomatik als auch oppositionelles Verhalten. Eine zweite wichtige Messgröße ist der elterliche Stress nach 12 Wochen gemessen mithilfe des Fragebogens Family Strain Index (FSI).",
+      "content_fingerprint": "c1e309752f2d",
       "content_preview": "Titel der Studie: Efficacy of the novel app-based self-help parent management training hiToco® for children with ADHD –randomized controlled trial (ENOVA) -- P - Population: Familien mit Kindern im Alter von 4 bis 11 Jahren mit bestehend...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Studie/n im PICO-Schema",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Studie/n im PICO-Schema"
       ],
+      "path_hash": "cd33a100690d",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema-2cb668dadb:field_value",
+      "stable_key": "02777:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema:cd33a100690d:field_value:0",
       "title": "Studie/n im PICO-Schema"
     },
     {
       "content": "Weitere sekundäre Messgrößen umfassen: - ADHS-Symptome - Oppositionelles Verhalten - Funktionseinschränkungen des Kindes - Elterliches Erziehungsverhalten",
+      "content_fingerprint": "31e78b4787a5",
       "content_preview": "Weitere sekundäre Messgrößen umfassen: - ADHS-Symptome - Oppositionelles Verhalten - Funktionseinschränkungen des Kindes - Elterliches Erziehungsverhalten",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "02777:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "02777:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:2",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Als Erprobungsstudie mit dem Titel „Efficacy of the novel app-based self-help parent management training hiToco® for children with ADHD – randomized controlled trial” (ENOVA-Studie) wird eine randomisiert kontrollierte Parallelgruppenstudie mit einem 3-monatigen Beobachtungszeitraum durchgeführt. Teilnehmende Familien werden deutschlandweit im Rahmen der Routineversorgung rekrutiert und über ein zentrales Zentrum aufgeklärt und eingeschlossen. Es werden nur Familien eingeschlossen, die den Ein- und Ausschlusskriterien entsprechen und ihre freiwillige Einwilligung zur Studienteilnahme nach Aufklärung erteilt haben. Sowohl die Eltern des betroffenen Kindes als auch das Kind selbst müssen der Studienteilnahme zustimmen.",
+      "content_fingerprint": "6263cd2f3825",
       "content_preview": "Als Erprobungsstudie mit dem Titel „Efficacy of the novel app-based self-help parent management training hiToco® for children with ADHD – randomized controlled trial” (ENOVA-Studie) wird eine randomisiert kontrollierte Parallelgruppenstu...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
       ],
+      "path_hash": "045f4d7c860c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u-804896bae6:field_value",
+      "stable_key": "02777:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u:045f4d7c860c:field_value:0",
       "title": "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
     },
     {
       "content": "Insgesamt werden 192 Familien mit Kindern im Alter von 4 bis 11 Jahren mit einer bestätigen ADHS-Diagnose im Verhältnis 1:1 zufällig auf 2 Gruppen aufgeteilt. Dies entspricht je 96 Familien in der Interventions- und Kontrollgruppe. Im Rahmen der Routineversorgung erhält die Interventionsgruppe die DiGA zusätzlich zur Standardbehandlung. Die Kontrollgruppe erhält die Standardversorgung, ebenfalls im Rahmen der Routineversorgung. Die Hauptmessgröße stellt das so genannte externalisierende Problemverhalten des Kindes dar und wird nach 12 Wochen durch die Eltern mit Hilfe des Fragebogens FBB-ADHS+OPP bewertet. Zusätzlich wird der elterliche Stress als weitere wichtige Messgröße nach 12 Wochen durch die Eltern anhand des Fragebogens FSI (Family Strain Index) bewertet. Weitere sekundäre Messgrößen sind die ADHS-Symptome (FBB-ADHS Gesamtskala), das oppositionelle Verhalten (FBB-SSV Teil A), das Funktionsniveau des Kindes (FBB-ADHS Teil F) und das Erziehungsverhalten der Eltern (Fragebogen zum Positiven und Negativen Erziehungsverhalten). Alle Ergebnisse werden nach einem wissenschaftlichen Ansatz ausgewertet, der sicherstellt, dass alle Teilnehmenden in die Analyse einbezogen werden, auch wenn sie die Studie nicht beendet haben (Intention-to-treat Ansatz). Die Studie wurde am 28.03.2025 positiv von der Ethikkommission der Medizinischen Fakultät der Universität zu Köln bewertet und am 25.06.2025 im Deutschen Register Klinischer Studien (DRKS) unter der Registrierungsnummer DRKS00036688 vor Beginn der Rekrutierung registriert. Die Ergebnisse der Studie werden nach Studienende veröffentlicht.",
+      "content_fingerprint": "6a8e2432e57b",
       "content_preview": "Insgesamt werden 192 Familien mit Kindern im Alter von 4 bis 11 Jahren mit einer bestätigen ADHS-Diagnose im Verhältnis 1:1 zufällig auf 2 Gruppen aufgeteilt. Dies entspricht je 96 Familien in der Interventions- und Kontrollgruppe. Im Ra...",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "02777:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "02777:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:3",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Es ist geplant die Ergebnisse spätestens 12 Monate nach Abschluss der Studie auf der Webseite www.hitoco.de zu veröffentlichen.",
+      "content_fingerprint": "1d9211817902",
       "content_preview": "Es ist geplant die Ergebnisse spätestens 12 Monate nach Abschluss der Studie auf der Webseite www.hitoco.de zu veröffentlichen.",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Dies ist/sind die vom Hersteller angeführten Studie/n:",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Dies ist/sind die vom Hersteller angeführten Studie/n:"
       ],
+      "path_hash": "1b2b98450658",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:informationen-zum-positiven-versorgungseffekt-dies-ist-sind-die-vom-hersteller-a-81dc280904:field_value",
+      "stable_key": "02777:informationen-zum-positiven-versorgungseffekt-dies-ist-sind-die-vom-hersteller-a:1b2b98450658:field_value:0",
       "title": "Dies ist/sind die vom Hersteller angeführten Studie/n:"
     },
     {
       "content": "Medizinische Fakultät der Universität zu Köln Centrum für Kinder- und Jugendlichenpsychotherapie an der Uniklinik Köln (CEKIP) Klinik und Poliklinik für Psychiatrie, Psychosomatik und Psychotherapie des Kindes- und Jugendalters der Uniklinik Köln Pohligstr. 9 50969 Köln -- Medizinische Fakultät und Uniklinik Köln; Institut für Medizinische Statistik und Bioinformatik (IMSB); AG Medizinische Statistik Kerpener Str. 62 50924 Köln -- Steinbeis-Beratungszentrum medACT – Analysis of Clinical Trials Hermann-von-Vicari-Straße 37 78464 Konstanz -- fbeta GmbH Akazienstraße 31 10823 Berlin",
+      "content_fingerprint": "db5d6a0c4fb6",
       "content_preview": "Medizinische Fakultät der Universität zu Köln Centrum für Kinder- und Jugendlichenpsychotherapie an der Uniklinik Köln (CEKIP) Klinik und Poliklinik für Psychiatrie, Psychosomatik und Psychotherapie des Kindes- und Jugendalters der Unikl...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
       ],
+      "path_hash": "6deb64749945",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:informationen-zum-positiven-versorgungseffekt-herstellerunabhaengige-institution-85ca65af54:field_value",
+      "stable_key": "02777:informationen-zum-positiven-versorgungseffekt-herstellerunabhaengige-institution:6deb64749945:field_value:0",
       "title": "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
     },
     {
       "content": "Nein",
+      "content_fingerprint": "70bb813787b6",
       "content_preview": "Nein",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Die DiGA enthält ein diagnostisches Instrument",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Die DiGA enthält ein diagnostisches Instrument"
       ],
+      "path_hash": "f07a273683a3",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch-eded43f154:field_value",
+      "stable_key": "02777:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch:f07a273683a3:field_value:0",
       "title": "Die DiGA enthält ein diagnostisches Instrument"
     },
     {
       "content": "24 Monate (12 Monate initial, 12 Monate Verlängerung)",
+      "content_fingerprint": "f8a79e4b75f0",
       "content_preview": "24 Monate (12 Monate initial, 12 Monate Verlängerung)",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Länge des Zeitraumes der vorläufigen Aufnahme",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Länge des Zeitraumes der vorläufigen Aufnahme"
       ],
+      "path_hash": "f50c229bb808",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:informationen-zum-positiven-versorgungseffekt-laenge-des-zeitraumes-der-vorlaeuf-d645f91b3b:field_value",
+      "stable_key": "02777:informationen-zum-positiven-versorgungseffekt-laenge-des-zeitraumes-der-vorlaeuf:f50c229bb808:field_value:0",
       "title": "Länge des Zeitraumes der vorläufigen Aufnahme"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird. Die Anforderungen an die Datensicherheit werden durch Vorlage eines Zertifikats gemäß § 139e Absatz 10 Fünftes Buch Sozialgesetzbuch nachgewiesen. Detaillierte Informationen zu den einzelnen Anforderungen können Sie auf der Webseite des Bundesamts für Sicherheit in der Informationstechnik unter der Technischen Richtlinie \"BSI TR-03161\" finden: https://www.bsi.bund.de/dok/TR-03161 Bis zur Vorlage des Zertifikats gelten für den Bereich Datensicherheit die Anforderungen der nachfolgend dargestellten Checkliste.",
+      "content_fingerprint": "32cb1bd13010",
       "content_preview": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen v...",
       "content_type": "field_value",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 3,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "899b23823ae4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:field_value",
+      "stable_key": "02777:informationen-zu-datenschutz-und-datensicherheit:899b23823ae4:field_value:0",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine technische Möglichkeit einer Verknüpfung oder eines Datenaustauschs mit anderen digitalen Gesundheitsanwendungen. Zutreffend",
+      "content_fingerprint": "245e4382adf3",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutref...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "02777:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:0",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit > Datensicherheit",
       "level": 4,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit",
         "Datensicherheit"
       ],
+      "path_hash": "8545f237a1b9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:informationen-zu-datenschutz-und-datensicherheit-datensicherheit-14af255f91:field_value",
+      "stable_key": "02777:informationen-zu-datenschutz-und-datensicherheit-datensicherheit:8545f237a1b9:field_value:0",
       "title": "Datensicherheit"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der medizinischen Inhalte und die Gewährleistung der Patientensicherheit.",
+      "content_fingerprint": "0b320ca69209",
       "content_preview": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der me...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen",
       "level": 3,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "f85d7bfd4b8e",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-afe954d9f8:field_value",
+      "stable_key": "02777:weitere-informationen:f85d7bfd4b8e:field_value:0",
       "title": "Weitere Informationen"
     },
     {
       "content": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_fingerprint": "f14ccf82a937",
       "content_preview": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-afe954d9f8:section",
+      "stable_key": "02777:weitere-informationen:df3724c46c56:section:0",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Interoperabilität",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Interoperabilität"
       ],
+      "path_hash": "43914a1ae1e9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-angaben-zur-interoperabilitaet-8867f27412:field_value",
+      "stable_key": "02777:weitere-informationen-angaben-zur-interoperabilitaet:43914a1ae1e9:field_value:0",
       "title": "Angaben zur Interoperabilität"
     },
     {
       "content": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versicherten getragenen Sensoren zur Messung und Übertragung von Vitalwerten (Wearables) austauscht. Zutreffend Trifft nicht zu Der Hersteller hat keine eigenen Profilierungen vorgenommen. Zutreffend",
+      "content_fingerprint": "7eb62bc8947d",
       "content_preview": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versiche...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-afe954d9f8:section",
+      "stable_key": "02777:weitere-informationen:df3724c46c56:section:1",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Robustheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Robustheit"
       ],
+      "path_hash": "d416c871fdb6",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-angaben-zur-robustheit-0a511476df:field_value",
+      "stable_key": "02777:weitere-informationen-angaben-zur-robustheit:d416c871fdb6:field_value:0",
       "title": "Angaben zur Robustheit"
     },
     {
       "content": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen. Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
+      "content_fingerprint": "7355fa82a7ed",
       "content_preview": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen. Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der ...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-afe954d9f8:section",
+      "stable_key": "02777:weitere-informationen:df3724c46c56:section:2",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zum Verbraucherschutz",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zum Verbraucherschutz"
       ],
+      "path_hash": "22c54da8ff9c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-angaben-zum-verbraucherschutz-05cd17969e:field_value",
+      "stable_key": "02777:weitere-informationen-angaben-zum-verbraucherschutz:22c54da8ff9c:field_value:0",
       "title": "Angaben zum Verbraucherschutz"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "409aa9901d82",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-afe954d9f8:section",
+      "stable_key": "02777:weitere-informationen:df3724c46c56:section:3",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zu Nutzerfreundlichkeit und Barrierefreiheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
       ],
+      "path_hash": "a9d890d721a4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit-8fe873c531:field_value",
+      "stable_key": "02777:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit:a9d890d721a4:field_value:0",
       "title": "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
     },
     {
       "content": "Zutreffend Zutreffend",
+      "content_fingerprint": "f572c2f88946",
       "content_preview": "Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-afe954d9f8:section",
+      "stable_key": "02777:weitere-informationen:df3724c46c56:section:4",
       "title": "Weitere Informationen"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Unterstützung der Leistungserbringende",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Unterstützung der Leistungserbringende"
       ],
+      "path_hash": "bdfe86165ef2",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-unterstuetzung-der-leistungserbringende-d4e78dfd75:field_value",
+      "stable_key": "02777:weitere-informationen-unterstuetzung-der-leistungserbringende:bdfe86165ef2:field_value:0",
       "title": "Unterstützung der Leistungserbringende"
     },
     {
       "content": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen.",
+      "content_fingerprint": "8b7713a3d90e",
       "content_preview": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Triff...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-afe954d9f8:section",
+      "stable_key": "02777:weitere-informationen:df3724c46c56:section:5",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Qualität der medizinischen Inhalte",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Qualität der medizinischen Inhalte"
       ],
+      "path_hash": "964eb34f0609",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte-a6d05ceeb6:field_value",
+      "stable_key": "02777:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte:964eb34f0609:field_value:0",
       "title": "Angaben zur Qualität der medizinischen Inhalte"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "6a8d1dc0aa28",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-afe954d9f8:section",
+      "stable_key": "02777:weitere-informationen:df3724c46c56:section:6",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Patientensicherheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Patientensicherheit"
       ],
+      "path_hash": "96d387fa1378",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-angaben-zur-patientensicherheit-7a67651ccd:field_value",
+      "stable_key": "02777:weitere-informationen-angaben-zur-patientensicherheit:96d387fa1378:field_value:0",
       "title": "Angaben zur Patientensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "477afefea65b",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 7,
       "source_kind": "visible_directory",
-      "stable_key": "02777:weitere-informationen-afe954d9f8:section",
+      "stable_key": "02777:weitere-informationen:df3724c46c56:section:7",
       "title": "Weitere Informationen"
     }
   ],
@@ -1096,10 +1436,10 @@
     "accordions_opened": 0,
     "content_section_count": 85,
     "field_value_count": 62,
-    "rendered_at": "2026-06-22T19:16:02.520672+00:00",
+    "rendered_at": "2026-06-22T20:43:23.712308+00:00",
     "source_kind": "visible_directory"
   },
   "source_kind": "visible_directory",
-  "timestamp": "20260622T190144Z",
+  "timestamp": "20260622T202912Z",
   "url": "https://diga.bfarm.de/de/verzeichnis/02777"
 }

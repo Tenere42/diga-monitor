@@ -2,1012 +2,1324 @@
   "content_sections": [
     {
       "content": "Die DiGA edupression.com® besteht aus dem Medizinprodukte System, edupression.com® System, mit den Medizinprodukten edupression.com® Psychoedukation und edupression.com® Stimmungsdiagramm. Das System ist eine webbasierte Software, die plattformunabhängig mittels gängiger Browser mit Internetverbindung ab- und aufgerufen werden kann (Software-as-a-Service). Die Anwendung leitet Patientinnen und Patienten entlang des “Activity Feeds” durch das Programm und spielt täglich multimedial aufbereitete Informationen und Übungen aus der Psychodedukation zur Selbsthilfe aus. Außerdem enthält sie Elemente der computerbasierten kognitiven Verhaltenstherapie. Wöchentlich können von Patientinnen und Patienten sogenannte Wochenziele bestimmt werden, für die im Laufe der Woche vertiefende Informationen und Empfehlungen für Patientinnen und Patienten angezeigt werden. Patientinnen und Patienten werden täglich erinnert, das Stimmungsdiagramm in Form einer kurzen Umfrage mit Ja/Nein Fragen, auszufüllen und so ihre Stimmung aufzuzeichnen. Berichte geben den Verlauf der Eingaben über die Zeit wieder, so wird Patienten das Stimmungsdiagramm visualisiert oder Ergebnisse aus dem PHQ-9 Fragebogen. Die Berichte können interaktiv angezeigt werden oder sind als portables Datenformat verfügbar. Durch spielerische Elemente werden die Patientinnen und Patienten ermuntert und “belohnt”, der Gesundheitsanwendung weiter zu folgen (Aktivitätspunkte, Abzeichen, Zeugnisse, Summe der Zeit im Programm usw. als Gamification). Eddy, der Therapie-Avatar, begleitet optisch in der Anwendung die Patientinnen und Patienten auf ihrem Weg. In Videos lernen Patientinnen und Patienten Alice kennen, die an einer Depression leidet und durchleben mit ihr den Weg zur Genesung. Zu jedem Kapitel gibt es Booklets im portablen Datenformat (pdf) zum Download zum Nachlesen.",
+      "content_fingerprint": "bfc91b0ce2e7",
       "content_preview": "Die DiGA edupression.com® besteht aus dem Medizinprodukte System, edupression.com® System, mit den Medizinprodukten edupression.com® Psychoedukation und edupression.com® Stimmungsdiagramm. Das System ist eine webbasierte Software, die pl...",
       "content_type": "field_value",
+      "display_path": "edupression.com/",
       "level": 3,
       "path": [
         "edupression.com/"
       ],
+      "path_hash": "9e250f4c6841",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:edupression-com-86ec5fc110:field_value",
+      "stable_key": "01815:edupression-com:9e250f4c6841:field_value:0",
       "title": "edupression.com/"
     },
     {
       "content": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_fingerprint": "26290d5ae490",
       "content_preview": "Hier finden Sie weitergehende Informationen zur DiGA.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "a5e395515816",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung:a5e395515816:field_value:0",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_fingerprint": "bfc5ca33598c",
       "content_preview": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:0",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "edupression.com®",
+      "content_fingerprint": "68dcd7459ce1",
       "content_preview": "edupression.com®",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Name der DiGA im DiGA-Verzeichnis",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Name der DiGA im DiGA-Verzeichnis"
       ],
+      "path_hash": "b055b8e1c744",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v-132a49921b:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v:b055b8e1c744:field_value:0",
       "title": "Name der DiGA im DiGA-Verzeichnis"
     },
     {
       "content": "26.12.2022",
+      "content_fingerprint": "5ffe5a4b9fb1",
       "content_preview": "26.12.2022",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Erstmalige Aufnahme in das DiGA-Verzeichnis",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Erstmalige Aufnahme in das DiGA-Verzeichnis"
       ],
+      "path_hash": "3d07f6258e5c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in--0901792b12:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in-:3d07f6258e5c:field_value:0",
       "title": "Erstmalige Aufnahme in das DiGA-Verzeichnis"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Modul",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Modul"
       ],
+      "path_hash": "fdfb704b702c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-modul-0b2f60dd90:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-modul:fdfb704b702c:field_value:0",
       "title": "Modul"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
       ],
+      "path_hash": "46556afef4cb",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-andere-namen-und-modell-ab7acb1427:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-andere-namen-und-modell:46556afef4cb:field_value:0",
       "title": "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
     },
     {
       "content": "Browserbasierte Webanwendung",
+      "content_fingerprint": "c862b048bceb",
       "content_preview": "Browserbasierte Webanwendung",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Art der DiGA",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Art der DiGA"
       ],
+      "path_hash": "600a0be84a95",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga-f41af95c79:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga:600a0be84a95:field_value:0",
       "title": "Art der DiGA"
     },
     {
       "content": "als browserbasierte Webanwendung",
+      "content_fingerprint": "a1a6d386afe6",
       "content_preview": "als browserbasierte Webanwendung",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Die digitale Gesundheitsanwendung ist verfügbar",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Die digitale Gesundheitsanwendung ist verfügbar"
       ],
+      "path_hash": "6d3556c97e9a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit-70a197df25:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit:6d3556c97e9a:field_value:0",
       "title": "Die digitale Gesundheitsanwendung ist verfügbar"
     },
     {
       "content": "Österreich",
+      "content_fingerprint": "2bbce4e7dedc",
       "content_preview": "Österreich",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Standorte der Datenverarbeitung",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Standorte der Datenverarbeitung"
       ],
+      "path_hash": "eee99405da7f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera-426183d1fc:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera:eee99405da7f:field_value:0",
       "title": "Standorte der Datenverarbeitung"
     },
     {
       "content": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) die Anforderungen an • Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der Technik und • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Gesundheitsanwendung-Verordnung (DiGAV) als erfüllt. Der Hersteller hat bestätigt, dass keine personenbezogenen Daten in ein Land ohne Angemessenheitsbeschluss fließen. - Es wurde eine randomisierte, kontrollierte Studie (RCT) mit einem 12-wöchigen Beobachtungszeitraum mit dem Titel „Klinischen Prüfung der Wirksamkeit des digitalen Selbsthilfeprogramms edupression.com® im Rahmen einer randomisierten, kontrollierten klinischen Studie bei leicht- bis mittelgradig unipolar depressiven Patienten (eFICASY-Studie)“ durchgeführt. Die Studie wurde im Deutschen Register Klinischer Studie (DRKS) unter der Nummer DRKS00032121 sowie im ClinicalTrials.gov unter der ID NCT04839822 registriert. Die Studie lief vom 30.04.2021 bis zum 04.07.2023. - Die Interventionsgruppe (IG) erhielt Zugang zur Standardversorgung und der DiGA edupression.com® und die Kontrollgruppe (KG) erhielt Zugang zur Standardversorgung und eine aktive Kontrollkondition (Stimmungsdiagramm sowie Inhalte und Übungen ohne nachgewiesenen Einfluss auf depressive Symptomatik). - Der primäre Endpunkt war die Veränderung des Schweregrads der depressiven Symptome, gemessen anhand des Patient-Health-Questionnaire-9 (PHQ-9). Die sekundären Endpunkte waren die Veränderung der depressionsbezogenen Gesundheitskompetenz, gemessen anhand des Depression Literacy Questionnaire (D-Lit), die Veränderung der gesundheitsbezogenen Lebensqualität, gemessen anhand der Kurzversion des World Health Organization Quality Of Life (WHOQOL-BREF), sowie die Veränderung der kognitiven und emotionalen Krankheitswahrnehmung, gemessen anhand des Brief Illness Perception Questionnaire (B-IPQ). Die Endpunkte wurden in dieser Reihenfolge in einer hierarchischen Teststrategie getestet. - In die Studie wurden insgesamt 250 Patientinnen und Patienten eingeschlossen und randomisiert (IG: 125; KG: 125). Von den 250 randomisierten Studienteilnehmenden wurden 104 im Verlauf der Studie als Drop-outs identifiziert (IG: 44,0 %; KG: 39,2 %), wobei auch diejenigen Patientinnen und Patienten als Drop-out klassifiziert wurden, die eine durchschnittliche Nutzung < 2 „daily logs“ pro Woche oder eine Nutzungsdauer < 6 Wochen in der jeweiligen Anwendung hatten. Der primäre Endpunkt (PHQ-9) wurde in der Studie zu 7 Zeitpunkten (Baseline und nach 2, 4, 6, 8, 10 und 12 Wochen) erhoben. Die Erhebung des D-Lit sowie der beiden weiteren sekundären Endpunkte (WHOQOL-BREF, B-IPQ) erfolgte zu 3 Zeitpunkten (Baseline und nach 4 und 12 Wochen). Für den Nachweis der positiven Versorgungseffekte war der Zeitpunkt nach 12 Wochen ausschlaggebend. - Im Rahmen der primären Analyse der RCT gemäß Intention-To-Treat-Prinzip (ITT-Prinzip) ergab sich ein statistisch signifikanter und klinisch relevanter Vorteil der IG gegenüber der KG in Bezug auf die Verbesserung des Gesundheitszustands gemessen anhand des PHQ-9 [adjustierte Differenz zu 12 Wochen: -2,3; 95-%-Konfidenzintervall (KI): -3,5 - -1,0; p-Wert: p < 0,001; normierter Beta-Koeffizient (ß-norm): 0,26]. Die Differenz zwischen den Gruppen war auch bei Anwendung konservativer Methoden zum Ersetzen fehlender Werte relevant. Die für Alter (18 - 29, 30 - 41, 42 - 53 und 54 - 65 Jahre), Geschlecht, Teilnahme an der Interimsanalyse, aktuelle Psychopharmakotherapie, aktuelle Psychotherapie und Schweregrad der Depression durchgeführten Subgruppenanalysen zeigten konsistente Ergebnisse. - Im Rahmen der Analyse gemäß ITT-Prinzip ergab sich ein statistisch signifikanter und relevanter Vorteil der IG gegenüber der KG in Bezug auf die Gesundheitskompetenz gemessen anhand des D-Lit (adjustierte Differenz zu 12 Wochen: 0,8; 95-%-KI: 0,2 - 1,4; p-Wert: p = 0,016; ß-norm: 0,19). - In Bezug auf die mittels WHOQOL-BREF gemessene gesundheitsbezogene Lebensqualität weisen die Ergebnisse der Studie in den beiden Domänen psychische und physische Gesundheit auf eher irrelevante, jedoch signifikante Effekte in der IG gegenüber der KG hin. Bei den beiden Domänen soziale Beziehungen und Umwelt zeigten sich hingegen keine Effekte durch die Nutzung der DiGA. In Bezug auf die mittels B-IPQ gemessene Krankheitswahrnehmung zeigten sich in der IG gegenüber der KG kleine und signifikante Effekte. - Entsprechend bewertet das BfArM die in § 139e des Fünften Buches Sozialgesetzbuch (SGB V) sowie in der DiGAV festgelegten Voraussetzungen zur endgültigen Aufnahme in das Verzeichnis nach § 139e Absatz 1 SGB V für die Indikationen F32.0: Leichte depressive Episode, F32.1: Mittelgradige depressive Episode, F33.0: Rezidivierende depressive Störung, gegenwärtig leichte Episode sowie F33.1: Rezidivierende depressive Störung, gegenwärtig mittelgradige Episode für Patientinnen und Patienten im Alter von 18 bis 65 Jahren in Bezug auf die positiven Versorgungseffekte „Verbesserung des Gesundheitszustands“ und „Gesundheitskompetenz“ als erfüllt.",
+      "content_fingerprint": "610320ae4134",
       "content_preview": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) die Anforderungen an • Sicherheit und Funktionstauglichkeit des Medizinproduktes,...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Bewertungsentscheidung des BfArM",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Bewertungsentscheidung des BfArM"
       ],
+      "path_hash": "7d463e27c832",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung--cdc10aad7c:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung-:7d463e27c832:field_value:0",
       "title": "Bewertungsentscheidung des BfArM"
     },
     {
       "content": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_fingerprint": "4b8f5a46c1b0",
       "content_preview": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt"
       ],
+      "path_hash": "9af58630166c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:9af58630166c:field_value:0",
       "title": "Angaben zum Medizinprodukt"
     },
     {
       "content": "Die Zweckbestimmung von edupression.com® orientiert sich an denen der beiden enthaltenen Medizinprodukten: Die von edupression.com® entwickelte online-basierte Psychoedukation für unipolar depressive Patienten basiert auf der zielorientierten und strukturierten Vermittlung präventiv- und krankheitsrelevanter Informationen an Patienten mit einer unipolaren Depression, kombiniert mit psychotherapeutischen Wirkfaktoren, die größtenteils aus Elementen der kognitiven Verhaltenstherapie stammen, mit dem Ziel • der Reduktion depressiver Symptome, • der Verbesserung des Krankheitsverlaufs depressiver Patienten, • der Verbesserung des Funktionsniveaus depressiver Patienten, • der Verbesserung der Behandlungsadhärenz, • der Verbesserung der Remissionsraten depressiver Patienten, • der Verminderung des Rezidivrisikos bei leicht- bis mittelgradig kranken, depressiven Patienten, • präventiver Effekte bei Menschen mit geringer Symptomausprägung. Das edupression.com® Stimmungsdiagramm dient dem Monitoring • von Depressionssymptomen, • Stimmungsinstabilität, • Residualsymptomen unipolar depressiver Patienten • sowie bei Vorliegen von depressiven „sub-threshold Symptomen“, was dem Patienten ein visuelles Feedback über Krankheitsverlauf und Therapieansprechen gibt. Zusätzlich dient das Stimmungsdiagramm zum Monitoring von sich neu entwickelnden depressiven Symptomen im Rahmen eines Rezidivs und unterstützt damit die Früherkennung einer Wiedererkrankung oder eines Rückfalls durch den Patienten. Außerdem unterstützt das edupression.com® Stimmungsdiagramm das Erkennen von zeitlichen Zusammenhängen zwischen depressiver Symptomatik und Faktoren, die einen positiven oder negativen Einfluss auf den Krankheitsverlauf oder das Therapieansprechen haben können durch den Patienten. Damit unterstützt das edupression.com® Stimmungsdiagramm erwünschte Verhaltensänderungen durch den Patienten.",
+      "content_fingerprint": "232e132e2c00",
       "content_preview": "Die Zweckbestimmung von edupression.com® orientiert sich an denen der beiden enthaltenen Medizinprodukten: Die von edupression.com® entwickelte online-basierte Psychoedukation für unipolar depressive Patienten basiert auf der zielorienti...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Medizinische Zweckbestimmung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Medizinische Zweckbestimmung"
       ],
+      "path_hash": "8bde401e0e97",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:8bde401e0e97:field_value:0",
       "title": "Medizinische Zweckbestimmung"
     },
     {
       "content": "Risikoklasse I nach MDD",
+      "content_fingerprint": "90292b8af58c",
       "content_preview": "Risikoklasse I nach MDD",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Risikoklasse Medizinprodukt",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Risikoklasse Medizinprodukt"
       ],
+      "path_hash": "b60186e2af98",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:b60186e2af98:field_value:0",
       "title": "Risikoklasse Medizinprodukt"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Name der Benannten Stelle",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Name der Benannten Stelle"
       ],
+      "path_hash": "d8a546b6e09b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:d8a546b6e09b:field_value:0",
       "title": "Name der Benannten Stelle"
     },
     {
       "content": "Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt.",
+      "content_fingerprint": "253e4f0d662b",
       "content_preview": "Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:1",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Kennnummer der Benannten Stelle",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Kennnummer der Benannten Stelle"
       ],
+      "path_hash": "f1e2f46935e4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-kennnummer-der-benannte-885261bcc3:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-kennnummer-der-benannte:f1e2f46935e4:field_value:0",
       "title": "Kennnummer der Benannten Stelle"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Identifikationsnummer Eudamed",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Identifikationsnummer Eudamed"
       ],
+      "path_hash": "fc78f31e70f9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-identifikationsnummer-e-c5d45b28a3:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-identifikationsnummer-e:fc78f31e70f9:field_value:0",
       "title": "Identifikationsnummer Eudamed"
     },
     {
       "content": "GTIN 9120121540030",
+      "content_fingerprint": "cf42f91d7601",
       "content_preview": "GTIN 9120121540030",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > UDI - Unique Device Identifier im Sinne der MDR",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "UDI - Unique Device Identifier im Sinne der MDR"
       ],
+      "path_hash": "d176d35107d9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-udi-unique-device-ident-16a2c37ee0:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-udi-unique-device-ident:d176d35107d9:field_value:0",
       "title": "UDI - Unique Device Identifier im Sinne der MDR"
     },
     {
       "content": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_fingerprint": "ba6516ebde5f",
       "content_preview": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA"
       ],
+      "path_hash": "6921f5eac91a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:6921f5eac91a:field_value:0",
       "title": "Weitere Informationen zur DiGA"
     },
     {
       "content": "Die Gesundheitsanwendung edupression.com® bietet Patientinnen und Patienten mit unipolarer Depression Selbsthilfe und Therapie im Rahmen der enthaltenen Psychoedukation. Die online-basierte Psychoedukation basiert auf der zielorientierten und strukturierten Vermittlung präventiv- und krankheitsrelevanter Informationen an Patientinnen und Patienten mit einer unipolaren Depression, kombiniert mit psychotherapeutischen Wirkfaktoren, die größtenteils aus Elementen der kognitiven Verhaltenstherapie stammen, mit dem Ziel: • der Reduktion depressiver Symptome, • der Verbesserung des Krankheitsverlaufs depressiver Patienten, • der Verbesserung des Funktionsniveaus depressiver Patienten, • der Verbesserung der Behandlungsadhärenz, • der Verbesserung der Remissionsraten depressiver Patienten, • der Verminderung des Rezidivrisikos bei leicht- bis mittelgradig kranken, depressiven Patienten, • präventiver Effekte bei Menschen mit geringer Symptomausprägung. Das in der Gesundheitsanwendung enthaltene edupression.com® Stimmungsdiagramm dient dem Monitoring, was den Patientinnen und Patienten ein visuelles Feedback über Krankheitsverlauf und Therapieansprechen gibt, und die Früherkennung von depressiven Symptomen im Rahmen eines Reizdivs unterstützt. Das edupression.com® Stimmungsdiagramm unterstützt das Erkennen von zeitlichen Zusammenhängen zwischen depressiver Symptomatik und Faktoren, die einen positiven oder negativen Einfluss auf den Krankheitsverlauf oder das Therapieansprechen haben können. Den Patientinnen und Patienten werden nach einer Einführungsphase (Onboarding) die interaktiven Lern- und Therapieeinheiten der edupression.com® Psychoedukation nacheinander angezeigt. Patientinnen und Patienten werden zum Agieren angeregt (ToDo-Liste, Fragen zu beantworten, den Lernpfad individuell zu gestalten…). Gleichzeitig werden begleitende Posts ausgespielt mit Übungen, Videos, statischen Informationen, Anregungen und Aufmunterungen oder auch Quizze und Fragebögen. In Videos begleitet Alice die Patientinnen und Patienten durch die Lerneinheiten und gibt Einführungen zu bestimmten Themen aus der Psychoedukation. Eddy, ein animierter Avatar, begleitet die Patientinnen und Patienten durch das gesamte Programm. Einmal in der Woche können die Patientinnen und Patienten ein Wochenziel mit vertiefenden Themen aus der Psychoedukation auswählen. Dazu werden täglich entsprechende Post mit Therapieeinheiten und Übungen in einer ToDo-Liste eingespielt. Einmal täglich sollten die Patientinnen und Patienten das Stimmungsdiagramm ausfüllen. Dies wird ihnen als interaktiver Post mit ja/nein-Fragen eingespielt. Im Menü können die Patientinnen und Patienten weitere Funktionen von edupression.com® aufrufen: Berichte können zu den einzelnen Fragebögen und Daten der Patientinnen und Patienten interaktiv angesehen werden und mit einem Behandler (\"Depressionsspezialist\") geteilt werden; gekennzeichnete Lieblingsposts, Lernfortschrittsanzeige mit spielerischen Elementen (Abzeichen, Zertifikate). Patientinnen und Patienten sollten die DiGA edupression.com® täglich für mindestens 3 Monate verwenden (sofern nicht anders von einem Arzt verordnet). Die wöchentliche Mindestnutzung sollte 60 min überschreiten (4-5 Mal pro Woche für jeweils mindestens 10-15 Minuten), da erst ab diesem Zeitaufwand mit klinischen Effekten zu rechnen ist (entsprechend 1 Therapiestunde Face-2-Face Psychotherapie).",
+      "content_fingerprint": "a68f0e6777a2",
       "content_preview": "Die Gesundheitsanwendung edupression.com® bietet Patientinnen und Patienten mit unipolarer Depression Selbsthilfe und Therapie im Rahmen der enthaltenen Psychoedukation. Die online-basierte Psychoedukation basiert auf der zielorientierte...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "ef6363788ef3",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:ef6363788ef3:field_value:0",
       "title": "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
     },
     {
       "content": "Die Gesundheitsanwendung edupression.com® System bietet Menschen, die an unipolarer Depression leiden Hilfe durch Aufklärung über Diagnose und Behandlungsprinzipien, Vermittlung von therapierelevanter Information (z. B. Therapieverfahren, Wirkmechanismen, Chancen und Risiken), von kompensatorischen Kompetenzen bei spezifischen, problembezogenen Defiziten (z. B. soziale Kompetenzen), sowie Unterstützung der Patientinnen und Patienten bei der Entwicklung allgemeiner Selbstmanagement- und Bewältigungskompetenzen (z. B. Problemlösestrategien im Umgang mit Rückfällen). Dies schließt typischerweise auch Elemente aus der kognitiven Verhaltenstherapie mit ein. Die Therapieinhalte werden in spielerischer Weise wiederholt und werden so verinnerlicht. Um die Sicherheit der PatientInnen zu gewährleisten sind technische Sicherheitsvorkehrungen vorhanden (z.B. bei Suizidgedanken wird eine Warnung mit Aufforderung Hilfe zu suchen versandt). Mit dem Stimmungsdiagramm erhalten Patientinnen und Patienten eine graphische Darstellung Ihrer Beschwerden; damit haben sie die Möglichkeit zur Beobachtung des Krankheitsverlaufs bei einer Therapie, aber auch ein Frühwarnsystem, das mögliche Verschlechterungen nach einer Genesung („Remission“) anzeigt. Durch das grafische Feedback des edupression.com® Stimmungsdiagramms erkennen Patientinnen und Patienten unmittelbar Veränderungen der Stimmungslage. Darüber hinaus können sie eine nicht greifbare Erkrankung für sich und ihr soziales Umfeld sichtbar und greifbar machen. Das hilft möglicherweise im Umgang mit Arbeitskollegen, Freunden und Familie und schafft Verständnis für eine noch immer stigmatisierte Erkrankung.",
+      "content_fingerprint": "a75cc8ff5e02",
       "content_preview": "Die Gesundheitsanwendung edupression.com® System bietet Menschen, die an unipolarer Depression leiden Hilfe durch Aufklärung über Diagnose und Behandlungsprinzipien, Vermittlung von therapierelevanter Information (z. B. Therapieverfahren...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Funktionen der digitalen Gesundheitsanwendung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Funktionen der digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "21931475406b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:21931475406b:field_value:0",
       "title": "Funktionen der digitalen Gesundheitsanwendung"
     },
     {
       "content": "Univ.Klinik für Psychiatrie und Psychotherapie, Medizinische Universität Wien",
+      "content_fingerprint": "9bb20076a969",
       "content_preview": "Univ.Klinik für Psychiatrie und Psychotherapie, Medizinische Universität Wien",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
       ],
+      "path_hash": "32d92eb3d0dc",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:32d92eb3d0dc:field_value:0",
       "title": "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
     },
     {
       "content": "NICE - https://www.nice.org.uk/guidance/cg90 S3 Leitlinie - https://www.leitlinien.de/themen/depression",
+      "content_fingerprint": "74d4cb08ea2d",
       "content_preview": "NICE - https://www.nice.org.uk/guidance/cg90 S3 Leitlinie - https://www.leitlinien.de/themen/depression",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
       ],
+      "path_hash": "ad43221ee27a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:ad43221ee27a:field_value:0",
       "title": "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
     },
     {
       "content": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_fingerprint": "77cea9e6788d",
       "content_preview": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal"
       ],
+      "path_hash": "4c8dba25a53c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:4c8dba25a53c:field_value:0",
       "title": "Beteiligung vom medizinischen Fachpersonal"
     },
     {
       "content": "Diagnosestellung vor Verordnung, Information und Aufklärungsgespräch über edupression.com®; Verordnung von edupression.com®; edupression.com® unterstützt zudem das medizinische Gesamtbehandlungskonzept, indem es eine Verbindung von Patientinnen und Patienten zu Ärztinnen und Ärzte als „Depressionsspezialist“ zulässt. Jede weitere Kommunikation mit den Behandelnden findet außerhalb der Anwendung statt. Beispielweise können durch die Nutzung der von edupression.com® bereit gestellten Arzt-Patient Verbindung, Ärztinnen und Ärzte den Verlauf der Beschwerden und auch den erreichten Therapieerfolg einsehen. Bei zu geringem Therapiefortschritt können Ärztinnen und Ärzte dann weitere Schritte zur Therapieintensivierung vorschlagen.",
+      "content_fingerprint": "089e38f595b0",
       "content_preview": "Diagnosestellung vor Verordnung, Information und Aufklärungsgespräch über edupression.com®; Verordnung von edupression.com®; edupression.com® unterstützt zudem das medizinische Gesamtbehandlungskonzept, indem es eine Verbindung von Patie...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal > Ärztinnen/ Ärzte",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal",
         "Ärztinnen/ Ärzte"
       ],
+      "path_hash": "736d25ff8830",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:736d25ff8830:field_value:0",
       "title": "Ärztinnen/ Ärzte"
     },
     {
       "content": "Diagnosestellung vor Verordnung, Information und Aufklärungsgespräch über edupression.com®; Verordnung von edupression.com®; edupression.com® unterstützt zudem das therapeutische Gesamtbehandlungskonzept, indem es eine Verbindung von Patientinnen und Patienten zu Psychotherapeutinnen und Psychotherapeuten als „Depressionsspezialist“ zulässt. Jede weitere Kommunikation mit den Behandelnden findet außerhalb der Anwendung statt. Beispielweise können durch die Nutzung der von edupression.com® bereit gestellten Therapeut-Patient Verbindung, Psychotherapeutinnen und Psychotherapeuten den Verlauf der Beschwerden und auch den erreichten Therapieerfolg einsehen. Bei zu geringem Therapiefortschritt können Psychotherapeutinnen und Psychotherapeuten dann weitere Schritte zur Therapieintensivierung vorschlagen.",
+      "content_fingerprint": "532db7379c5f",
       "content_preview": "Diagnosestellung vor Verordnung, Information und Aufklärungsgespräch über edupression.com®; Verordnung von edupression.com®; edupression.com® unterstützt zudem das therapeutische Gesamtbehandlungskonzept, indem es eine Verbindung von Pat...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal > Psychotherapeutinnen/ Psychotherapeuten",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal",
         "Psychotherapeutinnen/ Psychotherapeuten"
       ],
+      "path_hash": "58675bdbc27c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:58675bdbc27c:field_value:0",
       "title": "Psychotherapeutinnen/ Psychotherapeuten"
     },
     {
       "content": "Nein",
+      "content_fingerprint": "70bb813787b6",
       "content_preview": "Nein",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal > Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal",
         "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
       ],
+      "path_hash": "844ec57e702e",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:844ec57e702e:field_value:0",
       "title": "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
     },
     {
       "content": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfohlen wird.",
+      "content_fingerprint": "ba2dc6143acd",
       "content_preview": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfoh...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise"
       ],
+      "path_hash": "af464e1a8e2f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-6922aa5eb2:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise:af464e1a8e2f:field_value:0",
       "title": "Anwendungshinweise"
     },
     {
       "content": "edupression.com® System enthält online-basierte Psychoedukation für unipolar depressive Patientinnen und Patienten und ein Stimmungsdiagramm zur digitalen Visualisierung des Krankheitsverlaufs und des Therapieansprechens auf Basis von täglichen Eingaben durch die Patientinnen und Patienten. Zur Sicherstellung des richtigen Einsatzes im Rahmen der zulässigen Zweckbestimmung sind in der Gesundheitsanwendung edupression.com® System zahlreiche Maßnahmen implementiert und unterstützen damit die Patientinnen und Patienten und die Leistungserbringenden. Diese Maßnahmen basieren auf Recherchen, Gebrauchstauglichkeitstests und -erfahrung sowie einem Risikomanagement.",
+      "content_fingerprint": "83181f57be7c",
       "content_preview": "edupression.com® System enthält online-basierte Psychoedukation für unipolar depressive Patientinnen und Patienten und ein Stimmungsdiagramm zur digitalen Visualisierung des Krankheitsverlaufs und des Therapieansprechens auf Basis von tä...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Hinweise für eine sichere Anwendung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Hinweise für eine sichere Anwendung"
       ],
+      "path_hash": "ed840310f43d",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw-13263bcc58:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw:ed840310f43d:field_value:0",
       "title": "Hinweise für eine sichere Anwendung"
     },
     {
       "content": "Das edupression.com® System ist nicht geeignet für Patientinnen und Patienten mit einer bipolaren Depression, oder Patientinnen und Patienten mit psychotischen Symptomen bzw. Suizidgedanken. Das edupression.com® System sollte zudem nicht verwendet werden, wenn Patientinnen oder Patienten Schwierigkeiten haben, Online-Inhalten, die für Laien gedacht sind, in deutscher oder englischer Sprache zu folgen.",
+      "content_fingerprint": "213bc4ce3f66",
       "content_preview": "Das edupression.com® System ist nicht geeignet für Patientinnen und Patienten mit einer bipolaren Depression, oder Patientinnen und Patienten mit psychotischen Symptomen bzw. Suizidgedanken. Das edupression.com® System sollte zudem nicht...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Weitere Ausschlusskriterien",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Weitere Ausschlusskriterien"
       ],
+      "path_hash": "77869fcfae9b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-weit-3d658a5f5f:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-weit:77869fcfae9b:field_value:0",
       "title": "Weitere Ausschlusskriterien"
     },
     {
       "content": "3 Monate",
+      "content_fingerprint": "767e01ab56d3",
       "content_preview": "3 Monate",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Vom Hersteller für erforderlich gehaltene Mindestdauer",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Vom Hersteller für erforderlich gehaltene Mindestdauer"
       ],
+      "path_hash": "b3d7024bc6a2",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom-:b3d7024bc6a2:field_value:0",
       "title": "Vom Hersteller für erforderlich gehaltene Mindestdauer"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Vom Hersteller für erforderlich gehaltene Höchstdauer",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Vom Hersteller für erforderlich gehaltene Höchstdauer"
       ],
+      "path_hash": "368408cd4f6e",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom-:368408cd4f6e:field_value:0",
       "title": "Vom Hersteller für erforderlich gehaltene Höchstdauer"
     },
     {
       "content": "Die Anwendung edupression.com® kann mit internetfähigen Endgeräten (Desktop, Tablet, Smartphone) ordnungsgemäß benutzt werden. Die Minimalanforderungen sind auf der Website www.edupression.com zweimal angeführt und öffentlich einsehbar: 1) Unter FAQ (frequently asked questions) – Technische Voraussetzungen: https://edupression.com/faq-de/ 2) Unter Impressum: Information zu den technischen Anforderungen: https://edupression.com/legal-de/ Minimalanforderungen: Desktop Browser Minimum-Version oder höher: Google Chrome 75, Mozilla Firefox 68.8, Microsoft Edge 80, Safari 11. Mobile Browser Minimum-Version oder höher: Google Chrome 83 (Android), Safari 12 (iOS).",
+      "content_fingerprint": "e9f21d429788",
       "content_preview": "Die Anwendung edupression.com® kann mit internetfähigen Endgeräten (Desktop, Tablet, Smartphone) ordnungsgemäß benutzt werden. Die Minimalanforderungen sind auf der Website www.edupression.com zweimal angeführt und öffentlich einsehbar: ...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Kompatibilitätszusagen in Bezug auf unterstützte Geräte",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
       ],
+      "path_hash": "cbcc39ae8cdd",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-komp-0b84064997:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-komp:cbcc39ae8cdd:field_value:0",
       "title": "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
     },
     {
       "content": "Maschinenlesbares, interoperables Format: Eine Schnittstellenspezifikation mit Implementierungsleitfaden für Entwicklerinnen und Entwickler ist seit November 2021 auf der Website www.edupression.com verfügbar und kann genutzt werden: https://edupression.com/legal-de/ > Information zu Interoperabilität - inklusive des Download Links: https://edupression.com/wp-content/uploads/2021/12/Interoperabilitat-Data-Export-Spezifikation-Edupression.pdf Die Schnittstellenspezifikation basiert auf folgendem Standard: FHIR des HL7-Standards (https://hl7.org/fhir/): FHIR Release 4 (v4.0.1) Für die bereitgestellten Profile ist ein Implementierungsleitfaden bei simplifer.net, einem anerkannten Verzeichnis eines FHIR-Registry, publiziert: https://simplifier.net/edupression.comMentalHealthApplication Weiters ist die Schnittstellenspezifikation als Standard bei vesta (gematik GmbH) veröffentlicht: https://www.vesta-gematik.de/standards/detail/standards/definition-des-maschinenlesbarendatenaustausch-von-digitalen-mental-health-anwendungen/",
+      "content_fingerprint": "bfd9e5d89660",
       "content_preview": "Maschinenlesbares, interoperables Format: Eine Schnittstellenspezifikation mit Implementierungsleitfaden für Entwicklerinnen und Entwickler ist seit November 2021 auf der Website www.edupression.com verfügbar und kann genutzt werden: htt...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Möglichkeiten von standardisiertem Datenimport und Datenexport",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Möglichkeiten von standardisiertem Datenimport und Datenexport"
       ],
+      "path_hash": "4096563c9e44",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-moeg-b860ee673e:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-moeg:4096563c9e44:field_value:0",
       "title": "Möglichkeiten von standardisiertem Datenimport und Datenexport"
     },
     {
       "content": "Menschenlesbare und ausdruckbare Form: Über die Menüpunkte a) Berichte und b) Bibliothek /Reiter Meine Dokumente hat der Benutzer die Möglichkeit therapierelevante Auszüge der in edupression.com® erhobenen Daten aufzufinden und zu lesen, sowie über die Download-Funktion diese druckbare und weiterleitbare pdf-Dokumente zu generieren. Als wichtigste Beispiele sind hier anzuführen: Feedback-Gesundheitsberichte (Stimmungsdiagramm, N-Back, Stroop, PHQ-9, Lernbericht), Dokumente (Positive Aktivitäten, Stufenmodell Bericht, Kiesler Kreis, MDQBericht, Therapiesituation). Die DiGA ermöglicht zudem auf Wunsch des Versicherten einen manuellen oder automatisierten Export in die elektronische Patientenakte (ePA) Version 3.0.",
+      "content_fingerprint": "310089b4f6ad",
       "content_preview": "Menschenlesbare und ausdruckbare Form: Über die Menüpunkte a) Berichte und b) Bibliothek /Reiter Meine Dokumente hat der Benutzer die Möglichkeit therapierelevante Auszüge der in edupression.com® erhobenen Daten aufzufinden und zu lesen,...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:2",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen"
       ],
+      "path_hash": "3e9803f91215",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zu-den-von-der--1e522ad432:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zu-den-von-der-:3e9803f91215:field_value:0",
       "title": "Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen"
     },
     {
       "content": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs. weitere, durch Sie selbst aufzubringende Kosten, sofern Sie bestimmte zusätzlich angebotene und von der Verschreibung nicht abgedeckte Leistungen in Anspruch nehmen möchten.",
+      "content_fingerprint": "39d5160ffdea",
       "content_preview": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs....",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis"
       ],
+      "path_hash": "41c28a502494",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-429bde377d:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis:41c28a502494:field_value:0",
       "title": "Angaben zum Preis"
     },
     {
       "content": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+      "content_fingerprint": "4c34fe9d1a3e",
       "content_preview": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis > Preismodell",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis",
         "Preismodell"
       ],
+      "path_hash": "d5d16c880c10",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis-6eb719186f:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis:d5d16c880c10:field_value:0",
       "title": "Preismodell"
     },
     {
       "content": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "content_fingerprint": "341e24b7c036",
       "content_preview": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:3",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "224,80 €",
+      "content_fingerprint": "6d18d61bc097",
       "content_preview": "224,80 €",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
       ],
+      "path_hash": "351b8e240460",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-kosten-z-b-starterpaket-5641b0bf97:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-kosten-z-b-starterpaket:351b8e240460:field_value:0",
       "title": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
     },
     {
       "content": "224,80 €",
+      "content_fingerprint": "6d18d61bc097",
       "content_preview": "224,80 €",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Nutzung der DiGA für zusätzliche 90 Tage",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
       ],
+      "path_hash": "003e20a2ca5b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-nutzung-der-dig-7a56e117b7:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-nutzung-der-dig:003e20a2ca5b:field_value:0",
       "title": "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Anmerkungen zum Preismodell",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Anmerkungen zum Preismodell"
       ],
+      "path_hash": "277cd06753d5",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-anmerkungen-zum-f3f338f2f7:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-anmerkungen-zum:277cd06753d5:field_value:0",
       "title": "Weitere Anmerkungen zum Preismodell"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Erläuterung Mehrkosten",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Erläuterung Mehrkosten"
       ],
+      "path_hash": "a3f923587875",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-erlaeuterung-mehrkosten-7813cc6074:field_value",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-erlaeuterung-mehrkosten:a3f923587875:field_value:0",
       "title": "Erläuterung Mehrkosten"
     },
     {
       "content": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_fingerprint": "766782bdbccd",
       "content_preview": "Es fallen keine Mehrkosten für den Patienten an.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01815:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:4",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Verbesserungen für Patienten können entweder medizinischer Art sein (z.B. Verringerung von Schmerzen, Beitrag zur Heilung der Erkrankung) oder den Erkennungs- und Behandlungsprozess direkt unterstützen und erleichtern (z.B. Informationen zur individuellen Erkrankungssituation, Unterstützung bei der Einhaltung der zwischen Patient und Arzt gemeinsam vereinbarten therapeutischen Maßnahmen).",
+      "content_fingerprint": "b689545a79f8",
       "content_preview": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Ve...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "b1d946b15fae",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:informationen-zum-positiven-versorgungseffekt-253662cf50:field_value",
+      "stable_key": "01815:informationen-zum-positiven-versorgungseffekt:b1d946b15fae:field_value:0",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche Weise dies ggfs. bereits wissenschaftlich nachgewiesen wurde. Falls der positive Versorgungseffekt noch nicht abschließend nachgewiesen aber bereits so plausibel dargelegt wurde, dass die DiGA befristet zur entsprechenden Erprobung aufgenommen wurde, wird angegeben, für welchen Zeitraum dies erfolgt ist. Sofern (auch) ein Nachweis zum Erhalt der Erwerbsfähigkeit für die DiGA erbracht wurde oder eine Nachweisführung geplant ist, finden Sie hier eine Beschreibung und nähere Angaben zum Nachweis sowie zum Studiendesign. Sofern die DiGA (auch) ein diagnostisches Instrument darstellt, also mindestens in Teilen dazu vorgesehen ist, Informationen z.B. für die Erkennung oder Diagnose von Krankheitszuständen zu liefern, hat der Hersteller dies benannt und beschrieben sowie Sensitivität und Spezifität als wichtige Bewertungsgrößen angegeben.",
+      "content_fingerprint": "0bf9ee1dc4d9",
       "content_preview": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche We...",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "01815:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:0",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Medizinischer Nutzen",
+      "content_fingerprint": "291175316d3d",
       "content_preview": "Medizinischer Nutzen",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Angaben zum positiven Versorgungseffekt",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Angaben zum positiven Versorgungseffekt"
       ],
+      "path_hash": "56d889aab765",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse-5449921803:field_value",
+      "stable_key": "01815:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse:56d889aab765:field_value:0",
       "title": "Angaben zum positiven Versorgungseffekt"
     },
     {
       "content": "Patientenrelevante Struktur- und Verfahrensverbesserung",
+      "content_fingerprint": "3d6e23bd735d",
       "content_preview": "Patientenrelevante Struktur- und Verfahrensverbesserung",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01815:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "01815:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:1",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Informationen über Gesundheit verstehen und für gesundheitsbezogene Entscheidungen anwenden (Gesundheitskompetenz)",
+      "content_fingerprint": "9c01a5a34cfd",
       "content_preview": "Informationen über Gesundheit verstehen und für gesundheitsbezogene Entscheidungen anwenden (Gesundheitskompetenz)",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Patientenrelevante Struktur- und Verfahrensverbesserungen",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Patientenrelevante Struktur- und Verfahrensverbesserungen"
       ],
+      "path_hash": "435d0aeb3dfa",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:informationen-zum-positiven-versorgungseffekt-patientenrelevante-struktur-und-ve-6612535d44:field_value",
+      "stable_key": "01815:informationen-zum-positiven-versorgungseffekt-patientenrelevante-struktur-und-ve:435d0aeb3dfa:field_value:0",
       "title": "Patientenrelevante Struktur- und Verfahrensverbesserungen"
     },
     {
       "content": "Verbesserung des Gesundheitszustands",
+      "content_fingerprint": "58b8b11779d7",
       "content_preview": "Verbesserung des Gesundheitszustands",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Nähere Angaben zum medizinischen Nutzen",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Nähere Angaben zum medizinischen Nutzen"
       ],
+      "path_hash": "c2ba1d4f6a81",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen--90ce965dee:field_value",
+      "stable_key": "01815:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen-:c2ba1d4f6a81:field_value:0",
       "title": "Nähere Angaben zum medizinischen Nutzen"
     },
     {
       "content": "Die medizinische Wirksamkeit von edupression.com® wurde durch eine klinische Studie (eFICASY-Studie) nachgewiesen. In dieser Studie wurde der Gesundheitszustand von Patientinnen und Patienten mit Depressionen über einen Zeitraum von 3 Monaten beobachtet und bewertet. Die Verbesserungen im Gesundheitszustand wurden durch regelmäßige Erhebungen mittels des PHQ-9-Fragebogens dokumentiert, einem anerkannten Werkzeug zur Beurteilung der Schwere von Depressionen. Die Studienergebnisse zeigten, dass die Nutzung von edupression.com® bei vielen Patientinnen und Patienten zu einer spürbaren Verringerung ihrer depressiven Beschwerden führte, was das Ziel jeder Depressionstherapie ist. Diese Studienergebnisse bestätigen den medizinischen Nutzen von edupression.com® als eine wirksame Therapie für Menschen, die an Depressionen leiden.",
+      "content_fingerprint": "84fe204739b8",
       "content_preview": "Die medizinische Wirksamkeit von edupression.com® wurde durch eine klinische Studie (eFICASY-Studie) nachgewiesen. In dieser Studie wurde der Gesundheitszustand von Patientinnen und Patienten mit Depressionen über einen Zeitraum von 3 Mo...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Beschreibung des medizinischen Nutzens",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Beschreibung des medizinischen Nutzens"
       ],
+      "path_hash": "71ee9147d6be",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut-a677995e79:field_value",
+      "stable_key": "01815:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut:71ee9147d6be:field_value:0",
       "title": "Beschreibung des medizinischen Nutzens"
     },
     {
       "content": "Neben der Verringerung von depressiven Beschwerden können noch andere Aspekte von antidepressiven Therapien für Patientinnen und Patienten eine wertvolle Hilfe darstellen. Ein solcher Aspekt ist die sogenannte Gesundheitskompetenz. Unter Gesundheitskompetenz versteht man die Fähigkeit, Gesundheitsinformationen zu verstehen und zu nutzen, um gute Entscheidungen für die eigene Gesundheit und die der Familie zu treffen. Es umfasst das Verstehen ärztlicher Anweisungen, das Lesen und Interpretieren von Medikamentenetiketten, das Erkennen der Notwendigkeit medizinischer Versorgung und das Wissen über gesunde Lebensgewohnheiten. Kurz gesagt, ist es die Grundlage dafür, wie wir uns um unsere Gesundheit kümmern und mit medizinischen Fachkräften kommunizieren. Eine Steigerung dieser Gesundheitskompetenz konnte durch edupression.com® in einer klinischen Studie (eFICASY-Studie) nachgewiesen werden. In dieser Studie wurde das Wissen um die Krankheit Depression von Patientinnen und Patienten über einen Zeitraum von 3 Monaten beobachtet und bewertet. Die Verbesserungen im Gesundheitszustand wurden durch mehrmalige Erhebungen mittels eines Fragebogens zur Depressionskompetenz (D-Lit) erfasst, einem anerkannten Werkzeug zur Beurteilung des Depressionswissens. Die Studienergebnisse zeigten, dass die Nutzung von edupression.com® bei vielen Patientinnen und Patienten zu einer relevanten Verbesserung ihrer Depressionskompetenz führte, was ein wichtiges Ziel einer erfolgreichen Depressionstherapie ist. Diese Studienergebnisse bestätigen den Nutzen von edupression.com® für eine Steigerung der Gesundheitskompetenz bei Patientinnen und Patienten mit einer Depression.",
+      "content_fingerprint": "4c2c74f2e69d",
       "content_preview": "Neben der Verringerung von depressiven Beschwerden können noch andere Aspekte von antidepressiven Therapien für Patientinnen und Patienten eine wertvolle Hilfe darstellen. Ein solcher Aspekt ist die sogenannte Gesundheitskompetenz. Unter...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Nähere Beschreibung der patientenrelevanten Struktur- und Verfahrensverbesserung",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Nähere Beschreibung der patientenrelevanten Struktur- und Verfahrensverbesserung"
       ],
+      "path_hash": "89a9eaa0bd74",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:informationen-zum-positiven-versorgungseffekt-naehere-beschreibung-der-patienten-859be4691e:field_value",
+      "stable_key": "01815:informationen-zum-positiven-versorgungseffekt-naehere-beschreibung-der-patienten:89a9eaa0bd74:field_value:0",
       "title": "Nähere Beschreibung der patientenrelevanten Struktur- und Verfahrensverbesserung"
     },
     {
       "content": "Titel: Klinische Prüfung der Wirksamkeit des digitalen Selbsthilfeprogramms edupression.com® im Rahmen einer randomisierten, kontrollierten klinischen Studie bei leicht- bis mittelgradig unipolar depressiven Patienten (eFICASY-Studie) - Patient: Patientinnen und Patienten im Alter zwischen 18 bis 65 Jahren mit einer diagnostizierten leichten bis mittelschweren (rezidivierenden) depressiven Episode. - Intervention: Zugang zur Standardversorgung und DiGA edupression.com® - Comparison: Zugang zur Standardversorgung und aktive Kontrollkondition (Stimmungsdiagramm sowie Inhalte und Übungen ohne nachgewiesenen Einfluss auf depressive Symptomatik) - Outcomes: Primärer Endpunkt: • Veränderung des Schweregrads der depressiven Symptome, gemessen anhand desPatient-Health-Questionnaire-9 (PHQ-9) Sekundäre Endpunkte: • Veränderung der depressionsbezogenen Gesundheitskompetenz, gemessen anhand des Depression Literacy Questionnaire (D-Lit) •Veränderung der gesundheitsbezogenen Lebensqualität, gemessen anhand der Kurzversion des World Health Organization Quality of Life (WHOQOL-BREF) • Veränderung der kognitiven und emotionalen Krankheitswahrnehmung, gemessen anhand des Brief Illness Perception Questionnaire (B-IPQ)",
+      "content_fingerprint": "7e086af761f8",
       "content_preview": "Titel: Klinische Prüfung der Wirksamkeit des digitalen Selbsthilfeprogramms edupression.com® im Rahmen einer randomisierten, kontrollierten klinischen Studie bei leicht- bis mittelgradig unipolar depressiven Patienten (eFICASY-Studie) - ...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Studie/n im PICO-Schema",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Studie/n im PICO-Schema"
       ],
+      "path_hash": "cd33a100690d",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema-2cb668dadb:field_value",
+      "stable_key": "01815:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema:cd33a100690d:field_value:0",
       "title": "Studie/n im PICO-Schema"
     },
     {
       "content": "Für den Nachweis positiver Versorgungseffekte von edupression.com® wurde eine randomisierte kontrollierte klinische Studie mit dem Titel „Klinische Prüfung der Wirksamkeit des digitalen Selbsthilfeprogramms edupression.com® im Rahmen einer randomisierten, kontrollierten klinischen Studie bei leicht- bis mittelgradig unipolar depressiven Patienten (eFICASY-Studie)“ durchgeführt. Diese Studie (kurz eFICASY-Studie) wurde vor Studienbeginn registriert und ist unter folgenden Links abrufbar: https://clinicaltrials.gov/ct2/show/NCT04839822 bzw. https://drks.de/search/de/trial/DRKS00032121. - In dieser Studie wurden 250 Patienten zwischen 18 und 65 Jahren, die an einer leicht bis mittelschweren Depression litten, in zwei Gruppen zufällig aufgeteilt. Die eine Gruppe nutzte edupression.com, während die andere Gruppe eine Art Scheinbehandlung mit einer optisch gleich aussehenden Anwendung erhielt, die eine Depression mit hoher Wahrscheinlichkeit nicht verbessern kann. Beide Gruppen durften außerhalb der Studie eine Standardbehandlung mit Medikamenten oder Psychotherapie erhalten. - Während der 12 Wochen dauernden Studie wurde nachgewiesen, dass die Gruppe, die edupression.com® nutzte, im Allgemeinen eine größere Verbesserung ihrer depressiven Beschwerden und ihrer Depressionskompetenz zeigte als die andere Gruppe. Dies wurde anhand von Fragebögen erfasst, die die Schwere der Depression und die Gesundheitskompetenz der Teilnehmer bewerteten. Die Studie zeigte auch, dass diejenigen, die edupression.com® regelmäßig nutzten, tendenziell eine größere Verbesserung ihrer Depression und ihrer Fähigkeit, mit der Krankheit umzugehen, erfuhren.",
+      "content_fingerprint": "1dc08e8d0b67",
       "content_preview": "Für den Nachweis positiver Versorgungseffekte von edupression.com® wurde eine randomisierte kontrollierte klinische Studie mit dem Titel „Klinische Prüfung der Wirksamkeit des digitalen Selbsthilfeprogramms edupression.com® im Rahmen ein...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
       ],
+      "path_hash": "045f4d7c860c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u-804896bae6:field_value",
+      "stable_key": "01815:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u:045f4d7c860c:field_value:0",
       "title": "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
     },
     {
       "content": "https://clinicaltrials.gov/ct2/show/NCT04839822",
+      "content_fingerprint": "bd12b98f156d",
       "content_preview": "https://clinicaltrials.gov/ct2/show/NCT04839822",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Dies ist/sind die vom Hersteller angeführten Studie/n:",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Dies ist/sind die vom Hersteller angeführten Studie/n:"
       ],
+      "path_hash": "1b2b98450658",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:informationen-zum-positiven-versorgungseffekt-dies-ist-sind-die-vom-hersteller-a-81dc280904:field_value",
+      "stable_key": "01815:informationen-zum-positiven-versorgungseffekt-dies-ist-sind-die-vom-hersteller-a:1b2b98450658:field_value:0",
       "title": "Dies ist/sind die vom Hersteller angeführten Studie/n:"
     },
     {
       "content": "Univ.Klinik für Psychiatrie und Psychotherapie, Medizinische Universität Wien",
+      "content_fingerprint": "9bb20076a969",
       "content_preview": "Univ.Klinik für Psychiatrie und Psychotherapie, Medizinische Universität Wien",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
       ],
+      "path_hash": "6deb64749945",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:informationen-zum-positiven-versorgungseffekt-herstellerunabhaengige-institution-85ca65af54:field_value",
+      "stable_key": "01815:informationen-zum-positiven-versorgungseffekt-herstellerunabhaengige-institution:6deb64749945:field_value:0",
       "title": "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
     },
     {
       "content": "Nein",
+      "content_fingerprint": "70bb813787b6",
       "content_preview": "Nein",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Die DiGA enthält ein diagnostisches Instrument",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Die DiGA enthält ein diagnostisches Instrument"
       ],
+      "path_hash": "f07a273683a3",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch-eded43f154:field_value",
+      "stable_key": "01815:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch:f07a273683a3:field_value:0",
       "title": "Die DiGA enthält ein diagnostisches Instrument"
     },
     {
       "content": "12 Monate (8 Monate initial, 4 Monate Verlängerung)",
+      "content_fingerprint": "8bb4386e54db",
       "content_preview": "12 Monate (8 Monate initial, 4 Monate Verlängerung)",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Länge des Zeitraumes der vorläufigen Aufnahme",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Länge des Zeitraumes der vorläufigen Aufnahme"
       ],
+      "path_hash": "f50c229bb808",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:informationen-zum-positiven-versorgungseffekt-laenge-des-zeitraumes-der-vorlaeuf-d645f91b3b:field_value",
+      "stable_key": "01815:informationen-zum-positiven-versorgungseffekt-laenge-des-zeitraumes-der-vorlaeuf:f50c229bb808:field_value:0",
       "title": "Länge des Zeitraumes der vorläufigen Aufnahme"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird. Die Anforderungen an die Datensicherheit werden durch Vorlage eines Zertifikats gemäß § 139e Absatz 10 Fünftes Buch Sozialgesetzbuch nachgewiesen. Detaillierte Informationen zu den einzelnen Anforderungen können Sie auf der Webseite des Bundesamts für Sicherheit in der Informationstechnik unter der Technischen Richtlinie \"BSI TR-03161\" finden: https://www.bsi.bund.de/dok/TR-03161 Bis zur Vorlage des Zertifikats gelten für den Bereich Datensicherheit die Anforderungen der nachfolgend dargestellten Checkliste.",
+      "content_fingerprint": "32cb1bd13010",
       "content_preview": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen v...",
       "content_type": "field_value",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 3,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "899b23823ae4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:field_value",
+      "stable_key": "01815:informationen-zu-datenschutz-und-datensicherheit:899b23823ae4:field_value:0",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "63070bca91df",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutref...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "01815:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:0",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit > Datensicherheit",
       "level": 4,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit",
         "Datensicherheit"
       ],
+      "path_hash": "8545f237a1b9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:informationen-zu-datenschutz-und-datensicherheit-datensicherheit-14af255f91:field_value",
+      "stable_key": "01815:informationen-zu-datenschutz-und-datensicherheit-datensicherheit:8545f237a1b9:field_value:0",
       "title": "Datensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung speichert keine Authentisierungsdaten auf einem Endgerät oder in einer darauf befindlichen Softwarekomponente. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung greift weder auf Sensoren eines mobilen Endgeräts noch auf externe Hardware zu. Trifft nicht zu Die digitale Gesundheitsanwendung tauscht keine Daten mit externer Hardware aus. Zutreffend Zutreffend Zutreffend Nein",
+      "content_fingerprint": "dcf2cc7f569b",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung speichert keine Authentisierungsdaten auf einem Endgerä...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01815:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "01815:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:1",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der medizinischen Inhalte und die Gewährleistung der Patientensicherheit.",
+      "content_fingerprint": "0b320ca69209",
       "content_preview": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der me...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen",
       "level": 3,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "f85d7bfd4b8e",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-afe954d9f8:field_value",
+      "stable_key": "01815:weitere-informationen:f85d7bfd4b8e:field_value:0",
       "title": "Weitere Informationen"
     },
     {
       "content": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_fingerprint": "f14ccf82a937",
       "content_preview": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01815:weitere-informationen:df3724c46c56:section:0",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Interoperabilität",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Interoperabilität"
       ],
+      "path_hash": "43914a1ae1e9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-angaben-zur-interoperabilitaet-8867f27412:field_value",
+      "stable_key": "01815:weitere-informationen-angaben-zur-interoperabilitaet:43914a1ae1e9:field_value:0",
       "title": "Angaben zur Interoperabilität"
     },
     {
       "content": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versicherten getragenen Sensoren zur Messung und Übertragung von Vitalwerten (Wearables) austauscht. Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "922bba61baf0",
       "content_preview": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versiche...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01815:weitere-informationen:df3724c46c56:section:1",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Robustheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Robustheit"
       ],
+      "path_hash": "d416c871fdb6",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-angaben-zur-robustheit-0a511476df:field_value",
+      "stable_key": "01815:weitere-informationen-angaben-zur-robustheit:d416c871fdb6:field_value:0",
       "title": "Angaben zur Robustheit"
     },
     {
       "content": "Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
+      "content_fingerprint": "5f89c60c91f1",
       "content_preview": "Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01815:weitere-informationen:df3724c46c56:section:2",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zum Verbraucherschutz",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zum Verbraucherschutz"
       ],
+      "path_hash": "22c54da8ff9c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-angaben-zum-verbraucherschutz-05cd17969e:field_value",
+      "stable_key": "01815:weitere-informationen-angaben-zum-verbraucherschutz:22c54da8ff9c:field_value:0",
       "title": "Angaben zum Verbraucherschutz"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "409aa9901d82",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01815:weitere-informationen:df3724c46c56:section:3",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zu Nutzerfreundlichkeit und Barrierefreiheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
       ],
+      "path_hash": "a9d890d721a4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit-8fe873c531:field_value",
+      "stable_key": "01815:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit:a9d890d721a4:field_value:0",
       "title": "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
     },
     {
       "content": "Zutreffend Zutreffend",
+      "content_fingerprint": "f572c2f88946",
       "content_preview": "Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01815:weitere-informationen:df3724c46c56:section:4",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Unterstützung der Leistungserbringende",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Unterstützung der Leistungserbringende"
       ],
+      "path_hash": "bdfe86165ef2",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-unterstuetzung-der-leistungserbringende-d4e78dfd75:field_value",
+      "stable_key": "01815:weitere-informationen-unterstuetzung-der-leistungserbringende:bdfe86165ef2:field_value:0",
       "title": "Unterstützung der Leistungserbringende"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Qualität der medizinischen Inhalte",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Qualität der medizinischen Inhalte"
       ],
+      "path_hash": "964eb34f0609",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte-a6d05ceeb6:field_value",
+      "stable_key": "01815:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte:964eb34f0609:field_value:0",
       "title": "Angaben zur Qualität der medizinischen Inhalte"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "6a8d1dc0aa28",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01815:weitere-informationen:df3724c46c56:section:5",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Patientensicherheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Patientensicherheit"
       ],
+      "path_hash": "96d387fa1378",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-angaben-zur-patientensicherheit-7a67651ccd:field_value",
+      "stable_key": "01815:weitere-informationen-angaben-zur-patientensicherheit:96d387fa1378:field_value:0",
       "title": "Angaben zur Patientensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "477afefea65b",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "01815:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01815:weitere-informationen:df3724c46c56:section:6",
       "title": "Weitere Informationen"
     }
   ],
@@ -1017,10 +1329,10 @@
     "accordions_opened": 0,
     "content_section_count": 78,
     "field_value_count": 62,
-    "rendered_at": "2026-06-22T19:12:03.330391+00:00",
+    "rendered_at": "2026-06-22T20:39:35.486663+00:00",
     "source_kind": "visible_directory"
   },
   "source_kind": "visible_directory",
-  "timestamp": "20260622T190144Z",
+  "timestamp": "20260622T202912Z",
   "url": "https://diga.bfarm.de/de/verzeichnis/01815"
 }

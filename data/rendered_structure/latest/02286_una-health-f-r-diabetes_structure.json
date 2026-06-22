@@ -2,413 +2,545 @@
   "content_sections": [
     {
       "content": "Una Health für Diabetes ist ein täglicher Therapiebegleiter, welcher Personen mit Diabetes Typ 2 beim Selbstmanagement ihrer Erkrankung unterstützen soll. Nutzerinnen und Nutzer werden schrittweise an leitliniengerechte und individuelle Ernährungsempfehlungen und Verhaltensweisen herangeführt, um die Blutzuckerkontrolle, das Gewicht sowie die Lebensqualität zu verbessern. Una Health verbindet die Bereiche Lebensstil, Alltag, Glukose und Therapie.",
+      "content_fingerprint": "f436c7bc6da9",
       "content_preview": "Una Health für Diabetes ist ein täglicher Therapiebegleiter, welcher Personen mit Diabetes Typ 2 beim Selbstmanagement ihrer Erkrankung unterstützen soll. Nutzerinnen und Nutzer werden schrittweise an leitliniengerechte und individuelle ...",
       "content_type": "field_value",
+      "display_path": "Una Health GmbH, Deutschland",
       "level": 3,
       "path": [
         "Una Health GmbH, Deutschland"
       ],
+      "path_hash": "6de09c7b30ab",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02286:una-health-gmbh-deutschland-80523304f7:field_value",
+      "stable_key": "02286:una-health-gmbh-deutschland:6de09c7b30ab:field_value:0",
       "title": "Una Health GmbH, Deutschland"
     },
     {
       "content": "Hier finden Sie weitergehende Informationen zur DiGA. Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA. Una Health für Diabetes 09.02.2024 30.03.2026 Trifft nicht zu Una Health Trifft nicht zu App im Apple App Store Deutschland im Google Play Store Deutschland Deutschland, Belgien und Irland. USA für optionale Push-Benachrichtigungen, die keine Gesundheitsdaten enthalten.",
+      "content_fingerprint": "89bae39fcd2b",
       "content_preview": "Hier finden Sie weitergehende Informationen zur DiGA. Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinis...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02286:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "02286:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:0",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Die digitale Gesundheitsanwendung (DiGA) wurde am 30.03.2026 nach Prüfung der Nachweise für positive Versorgungseffekte aus dem Verzeichnis gemäß § 139e Absatz 4 Satz 8 des Fünften Buches Sozialgesetzbuch (SGB V) gestrichen. Der Grund für die Streichung ist der Ablauf der Frist für die vorläufige Aufnahme zur Erprobung.",
+      "content_fingerprint": "5e8f0aaae40b",
       "content_preview": "Die digitale Gesundheitsanwendung (DiGA) wurde am 30.03.2026 nach Prüfung der Nachweise für positive Versorgungseffekte aus dem Verzeichnis gemäß § 139e Absatz 4 Satz 8 des Fünften Buches Sozialgesetzbuch (SGB V) gestrichen. Der Grund fü...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Bewertungsentscheidung des BfArM",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Bewertungsentscheidung des BfArM"
       ],
+      "path_hash": "7d463e27c832",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02286:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung--cdc10aad7c:field_value",
+      "stable_key": "02286:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung-:7d463e27c832:field_value:0",
       "title": "Bewertungsentscheidung des BfArM"
     },
     {
       "content": "******************************************************************************************************************** Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) die Anforderungen an • Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der Technik und • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) als erfüllt. Die Datenverarbeitung findet laut Hersteller ausschließlich in der Europäischen Union statt. Das BfArM bewertet dieses Vorgehen als konform im Sinne der DiGAV. Für die endgültige Aufnahme ist die Durchführung einer randomisierten, kontrollierten Studie (RCT) mit dem Titel „Evaluation of the impact of Una Health for diabetes app on HbA1c in patients with type 2 diabetes mellitus in daily practice – EVALUNA“ geplant. Die Erhebungszeitpunkte sind zu Baseline, sowie nach 3 und 6 Monaten (primärer Endpunkt) geplant. Dabei werden 188 Patientinnen und Patienten im Verhältnis 1 : 1 in 2 Gruppen randomisiert. - Die Patientinnen und Patienten der Interventionsgruppe (IG) erhalten Zugang zur Standardversorgung [Teilnahme am Disease-Management-Programm (DMP)] und der DiGA. Die Patientinnen und Patienten der Kontrollgruppe (KG) erhalten Zugang zur Standardversorgung (Teilnahme am DMP). Als primärer Endpunkt gilt die Veränderung des HbA1c. Für die sekundären (konfirmatorischen) Endpunkte wird das Benjamini-Hochberg-Verfahren angewandt, um das Multiplizitätsproblem zu adressieren. Zu den sekundären Endpunkten zählen die Veränderung des Körpergewichts, das Summary of Diabetes Self-care Activities Assessment (SDSCA), der Patient Health Questionnaire-9 (PHQ-9) und den Short-Form-12 [SF-12, Mental Component Score (MCS)], sowie der HbA1c-Wert nach 18 Monaten, nach Abschluss eines 12-monatigen Follow-Ups, welches nicht für den Nachweis des positiven Versorgungseffekts herangezogen wird. Darüber hinaus werden noch weitere explorative Endpunkte untersucht [u. a. der Physical Component Score (PCS) des SF-12 ]. Das BfArM bewertet das Studienkonzept grundsätzlich als geeignet, den positiven Versorgungseffekt (pVE) „Verbesserung des Gesundheitszustands“ nachzuweisen. - Die „Verbesserung des Gesundheitszustands“ gilt als nachgewiesen, wenn es im Rahmen der Erprobungsstudie durch die Intervention der DiGA nach 6 Monaten zu einer statistisch signifikanten und klinisch relevanten Absenkung des HbA1c in der IG im Vergleich zur KG kommt. - Als Begründung für die Versorgungsverbesserung wurde ein intraindividueller Vergleich mit 101 Patientinnen und Patienten mit Diabetes mellitus Typ 2 und einem HbA1c zwischen 6.5 % und 11.0 % durchgeführt. Zudem hatte das Studienkollektiv am DMP für Diabetes mellitus Typ 2 teilgenommen. Die Teilnehmenden durchliefen das 3-Monats-Intensivprogramm von Una Health. Der HbA1c wurde zu 3 Zeitpunkten erhoben: 3 Monate vor der Nutzung der DiGA Una Health, zur Baseline bzw. zum Start der Nutzung der DiGA sowie 3 Monate nach Nutzung der DiGA. Darüber hinaus wurden das Körpergewicht und der Taillenumfang erfasst. - Von den 101 in die Datenauswertung eingeschlossenen Teilnehmenden wurden 11 (10,9 %) im Verlauf der Studie als Drop-outs und 7 (6,9 %) Teilnehmende als Lost to follow-up klassifiziert. - Gemäß dem Intention-to-treat- (ITT) Prinzip zeigte sich eine klinisch relevante Senkung des HbA1c-Werts in der Interventionsphase im Vergleich zur Kontrollphase: In der Kontrollphase reduzierte sich der HbA1c im Mittel von 7,63 % auf 7,49 % (-0,15; 95-%-Konfidenzintervall (95-%-KI) = -0,36 - 0,07; p-Wert: > 0,999). Im Vergleich dazu verbesserte sich der HbA1c in der 3-monatigen Interventionsphase statistisch signifikant und klinisch relevant von 7,49 % auf 6,75 % (-0,74; 95-%-KI = -0,92 - -0,56; p-Wert: < 0,001). In der Complete-Case-Population wurden ähnliche Beobachtungen festgestellt. Zusätzlich wurden auch relevante Veränderungen im Körpergewicht und Taillenumfang nach Abschluss der Interventionsphase festgestellt. - Entsprechend bewertet das BfArM die in § 139e des Fünften Buches Sozialgesetzbuch (SGB V) sowie in der DiGAV festgelegten Voraussetzungen zur vorläufigen Aufnahme auf Erprobung in das Verzeichnis nach § 139e Absatz 1 SGB V als erfüllt.",
+      "content_fingerprint": "4387bb273244",
       "content_preview": "******************************************************************************************************************** Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das Bundesinstitut für Arzne...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "02286:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "02286:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:1",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_fingerprint": "4b8f5a46c1b0",
       "content_preview": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt"
       ],
+      "path_hash": "9af58630166c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02286:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "02286:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:9af58630166c:field_value:0",
       "title": "Angaben zum Medizinprodukt"
     },
     {
       "content": "Die Una Health App ist für Personen mit Diabetes Typ 2 vorgesehen, um ihr Wissen über Diabetes Typ 2 zu erweitern und ihren Lebensstil auf eine personalisierte Weise zu verbessern, um so ihre glykämische Kontrolle zu verbessern. Risikoklasse I nach MDR Trifft nicht zu Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt. Trifft nicht zu DE-MF-000029609 PP 13268 111890525602 48",
+      "content_fingerprint": "df5c917197fd",
       "content_preview": "Die Una Health App ist für Personen mit Diabetes Typ 2 vorgesehen, um ihr Wissen über Diabetes Typ 2 zu erweitern und ihren Lebensstil auf eine personalisierte Weise zu verbessern, um so ihre glykämische Kontrolle zu verbessern. Risikokl...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "02286:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "02286:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:2",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_fingerprint": "ba6516ebde5f",
       "content_preview": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA"
       ],
+      "path_hash": "6921f5eac91a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02286:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "02286:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:6921f5eac91a:field_value:0",
       "title": "Weitere Informationen zur DiGA"
     },
     {
       "content": "Die Una Health App ist ein täglicher Therapiebegleiter, welcher Personen mit Diabetes Typ 2 beim Selbstmanagement ihrer Erkrankung unterstützen soll, indem diese schrittweise an leitliniengerechte und individuelle Ernährungsempfehlungen und Verhaltensweisen herangeführt werden und so ihren Gesundheitszustand verbessern. - Nutzerinnen und Nutzer werden während des ganzen Programmverlaufs durch ein verhaltenswissenschaftliches Programm geleitet. Dieses soll relevantes Wissen vermitteln sowie zur Selbstreflexion und persönlichen Zielsetzung anregen und so zu einer effektiven Verhaltensänderung und nachhaltigen Verbesserung der Gesundheit führen. Kurze Wissenslektionen zu Themen wie Verhaltensveränderungen, Diabetes-Managements und Bewegung werden dazu durch tägliche und wöchentliche Ziele und Aufgaben sowie regelmäßige Erinnerungen und Benachrichtigungen ergänzt. - Die digitale Gesundheitsanwendung unterstützt Nutzerinnen und Nutzer dabei, ihren Lebensstil aufbauend auf individuellen Erkenntnissen so umzustellen, dass die Blutzuckerkontrolle verbessert werden kann. Dies wird erreicht, indem vorhergehend gezielt Mahlzeiten, die starke Blutzuckerschwankungen auslösen, identifiziert und darauf basierend personalisierte Ernährungsempfehlungen abgeleitet werden. Das verhaltenswissenschaftliche Programm unterstützt Nutzerinnen und Nutzer bei der langfristigen Umsetzung der Erkenntnisse. Da die Erkenntnisse auf dem individuellen Lebensstil und Stoffwechsel basieren, lassen sich Empfehlungen generell leicht in den Alltag integrieren und die Motivation kann gesteigert werden. - Die Informationen innerhalb der Una Health für Diabetes App können für das eigene Selbstmanagement genutzt oder mit dem betreuenden medizinischen Fachpersonal geteilt werden. Um Nutzerinnen und Nutzer ganzheitlich bei der Umsetzung von positiven und nachhaltigen Gesundheitsverhalten zu unterstützen, umfasst Una Health für Diabetes Funktionen wie: ● Kurze, evidenzbasierte Lektionen zu Themen wie der Verbesserung des Diabetes-Managements, Ernährung und Bewegung oder zur Überwindung von Hindernissen einer Verhaltensänderung ● Wöchentliche Ziele und tägliche Aufgaben, um die Nutzerinnen und Nutzer auf ihrem Weg zu begleiten ● Regelmäßige Erinnerungen und automatisierte Coaching Nachrichten ● Verfolgung und Visualisierung des Fortschritts von Diabetes-relevanten Faktoren wie Bewegung, sowie physiologischer und verhaltensbezogener Messwerte wie Gewicht, Taillenumfang, Stimmung, Stress und Energie ● Ernährungstagebuch und personalisierte Empfehlungen für eine niedrig-glykämischen Ernährung ● Chat-Funktion mit dem Kundendienst des Herstellers bei Fragen zur bestimmungsgemäßen oder sicheren Anwendung des Programms ● Exportfunktion, um die eingetragenen Daten zur Eigennutzung oder für die behandelnde Ärztin bzw. den behandelnden Arzt zu exportieren Medizinische Einrichtung: Medizinische Klinik III, Universitätsklinikum Carl Gustav Carus der TU Dresden Ansprechperson: Prof. Dr. med. habil. Peter E. H. Schwarz, MBA Universitätsklinikum Carl Gustav Carus Fetscherstr. 74 01307 Dresden - Medizinische Einrichtung: Department of Public Health, Aarhus University, and Steno Diabetes Center Aarhus Ansprechperson: Assoc Prof. Dr. Adam Hulman Aarhus Universitetshospital Palle Juul-Jensens Boulevard 11, Indgang A 8200 Aarhus N Denmark - Medizinische Einrichtung: Diabetes Center Berne Ansprechperson: Dr. Martina Rothenbühler Diabetes Center Berne DCB Research AG Freiburgstrasse 3 3010 Bern Switzerland Bundesärztekammer (BÄK), Kassenärztliche Bundesvereinigung (KBV), Arbeitsgemeinschaft der Wissenschaftlichen Medizinischen Fachgesellschaften (AWMF). Nationale VersorgungsLeitlinie Typ-2-Diabetes – Teilpublikation der Langfassung, 2. Auflage. Version 1. 2021 [cited: 2022-06-01]. DOI: 10.6101/AZQ/000475. [www.leitlinien.de/diabetes](http://www.leitlinien.de/diabetes) Cradock, K.A., ÓLaighin, G., Finucane, F.M. et al. Behaviour change techniques targeting both diet and physical activity in type 2 diabetes: A systematic review and meta-analysis. Int J Behav Nutr Phys Act 14, 18 (2017). https://doi.org/10.1186/s12966-016-0436-0 - Davies, M.J., Aroda, V.R., Collins, B.S. et al. Management of hyperglycaemia in type 2 diabetes, 2022. A consensus report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD). Diabetologia (2022). https://doi.org/10.1007/s00125-022-05787-2 - Landgraf R, Aberle J, Birkenfeld AL, et al. Therapie des Typ-2-Diabetes. Diabetologie 2021; 16 (Suppl 2): S168–S206. DOI:10.1055/a-1394-2313 - Landgraf, R., Aberle, J., Birkenfeld, A.L. et al. Therapie des Typ-2-Diabetes. Diabetologie 18, 623–656 (2022). https://doi.org/10.1007/s11428-022-00921-5 S2k-Leitlinie Diagnostik, Therapie und Verlaufskontrolle des Diabetes mellitus im Alter. 2. Auflage 2018 – AWMF-Register-Nr. 057-017. Diabetologie und Stoffwechsel 2018; 13: 423–489 https://doi.org/10.1055/a-0666-0820. - Michie S, van Stralen MM, West R. The behaviour change wheel: a new method for characterising and designing behaviour change interventions. Implement Sci. 2011;6:42. Published 2011 Apr 23. doi:10.1186/1748-5908-6-42 - Upsher R, Onabajo D, Stahl D, Ismail K and Winkley K (2021) The Effectiveness of Behavior Change Techniques Underpinning Psychological Interventions to Improve Glycemic Levels for Adults With Type 2 Diabetes: A Meta-Analysis. Front. Clin. Diabetes Healthc. 2:699038. doi: 10.3389/fcdhc.2021.699038 - van Vugt M, de Wit M, Cleijne WH, Snoek FJ. Use of behavioral change techniques in web-based selfmanagement programs for type 2 diabetes patients: systematic review. J Med Internet Res. 2013;15(12):e279. Published 2013 Dec 13. doi:10.2196/jmir.2800 - Das vollständige Literaturverzeichnis ist beim Hersteller unter https://unahealth.de/quellen einsehbar.",
+      "content_fingerprint": "1da984a0f3e9",
       "content_preview": "Die Una Health App ist ein täglicher Therapiebegleiter, welcher Personen mit Diabetes Typ 2 beim Selbstmanagement ihrer Erkrankung unterstützen soll, indem diese schrittweise an leitliniengerechte und individuelle Ernährungsempfehlungen ...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "02286:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "02286:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:3",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_fingerprint": "77cea9e6788d",
       "content_preview": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal"
       ],
+      "path_hash": "4c8dba25a53c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02286:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "02286:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:4c8dba25a53c:field_value:0",
       "title": "Beteiligung vom medizinischen Fachpersonal"
     },
     {
       "content": "Die Nutzerrolle von Ärztinnen und Ärzten ist in der Regel identisch wie bei einer Verschreibung von Medikamenten oder anderen medizinischen Geräten. ● Bestimmung der Diagnose und Indikation ● Adäquate Information von geeigneten Patientinnen und Patienten überUna Health. Der Hersteller bietet optional Informationsmaterialien und Erläuterungen zu der Versorgung mit der DiGA an. ● Verordnung von Una Health für Diabetes an geeignete Patientinnen und Patienten ● Optional: Überprüfung des Fortschrittes von Patientinnen und Patienten. Hierzu können Patientinnen und Patienten freiwillig einen Bericht über ihren Verlauf erstellen und mit der behandelnden Ärztin oder dem behandelnden Arzt digital oder als Ausdruck teilen. Nein",
+      "content_fingerprint": "bb9ed6ece576",
       "content_preview": "Die Nutzerrolle von Ärztinnen und Ärzten ist in der Regel identisch wie bei einer Verschreibung von Medikamenten oder anderen medizinischen Geräten. ● Bestimmung der Diagnose und Indikation ● Adäquate Information von geeigneten Patientin...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "02286:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "02286:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:4",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfohlen wird.",
+      "content_fingerprint": "ba2dc6143acd",
       "content_preview": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfoh...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise"
       ],
+      "path_hash": "af464e1a8e2f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02286:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-6922aa5eb2:field_value",
+      "stable_key": "02286:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise:af464e1a8e2f:field_value:0",
       "title": "Anwendungshinweise"
     },
     {
       "content": "Die DiGA kann qualitätsgesichert von Personen zwischen 18 und 65 Jahren, oder über 65 Jahren, angewendet werden, bei denen eine gesicherte Diabetes Typ 2 (ICD-10-GM: E11.-) Diagnose besteht. Durch die ärztliche Verordnung oder Beantragung bei der jeweiligen Krankenkasse wird die Indikationsstellung sichergestellt. In der Gebrauchsanweisung sowie auf der Vertriebswebseite (www.unahealth.de) wird auf die Zweckbestimmung, Indikation, Kontraindikationen und weitere Hinweise zur sicheren Anwendung hingewiesen. - Die Patientinnen und Patienten haben jederzeit Zugang zum kostenfreien Kundendienst des Herstellers von Montag bis Freitag von 09:00 Uhr bis 17:00 Uhr oder per E-Mail von Montag bis Sonntag. Weiteres können Patientinnen und Patienten bei Schwierigkeiten mit der Nutzung von Una Health für Diabetes einen Einführungsanruf buchen und über die in der App enthaltene Chat-Funktion Mitarbeitende des Kundendienstes des Herstellers kontaktieren. Die Verwendung von Una Health für Diabetes ist für folgende Patientinnen und Patienten nicht geeignet: ● Schwangerschaft oder Stillen ● Bariatrische Operation innerhalb der letzten 3 Monate 90 Tage Trifft nicht zu Die Una Health für Diabetes App ist mit folgenden Smartphones kompatibel: Apple: ● ab iOS Version 14.0.1 ● und mindestens ein iPhone 7 - Android: ● ab Android Version Oreo 8.0 ● Mindestens 2 GB RAM ● Mindestens 100 MB freier Speicherplatz ● Vorinstallierte Google Play-Dienste und Google Play Store direkt vom Hersteller - Zum einfacheren Erfassen von Schrittedaten können Daten von folgenden Herstellern übertragen werden: Fitbit, Garmin, Polar, Misfit, Withings, Suunto, Oura. Darüber hinaus können auch die mit den folgenden Anwendungen verbundenen Daten übertragen werden: Strava. Wir raten von der Anbindung von Trackern via Drittapplikationen ab. Die Una App Health ist kompatibel mit Blutzucker Messgeräten anderer Hersteller, welche die Spezifikationen gemäss vesta-Standard abrufbar unter folgender URL erfüllen: https://www.vesta-gematik.de/standards/detail/standards/anbindung-von-cgm-systemen-an-digitale-gesundheitsanwendungen-zur-weiterverarbeitung-derglukosedate/. - Weitere Informationen zur Kompatibilität finden sich auf der Webseite des Herstellers unter https://unahealth.de/kompatibilitaet Innerhalb der Una Health App haben alle Nutzerinnen und Nutzer die Möglichkeit, ihre Daten zu exportieren. Una Health nutzt für die Datenportabilität und Interoperabilität den offenen, international anerkannten FHIR Standard (HL7 FHIR r4) und Medizinische Informationsobjekte (MIO) der Kassenärztlichen Bundesvereinigung (KBV) in Version 1.1.0. Die Veröffentlichung der Exportbeschreibung kann bei https://simplifier.net/Una-Health/ eingesehen werden. - Für den Import von Glukosedaten wird der vesta-Standard abrufbar unter folgender Datei genutzt: CGM Systeme - https://unahealth.de/s/CGM_DiGA_link_specification_final_1_0.pdf - Menschenlesbares Exportformat: Wir exportieren Daten in das Office Open XML-Format, allgemein bekannt als docx, das mit Microsoft Word geöffnet, angezeigt und bearbeitet werden kann. Die Datei ist für das Gespräch mit medizinischem Fachpersonal vorgesehen und bietet einen Überblick über die klinischen Daten des Benutzers im Verlauf des Una Health-Programms. Manchmal möchten Benutzer persönliche Notizen hinzufügen, oder Werte in den exportierten Daten hervorheben, weshalb wir uns für ein Format entschieden haben, welches editierbar ist. Die DiGA ermöglicht zudem auf Wunsch des Versicherten einen manuellen oder automatisierten Export in die elektronische Patientenakte (ePA) Version 3.0. Trifft nicht zu",
+      "content_fingerprint": "d9fd177df7e4",
       "content_preview": "Die DiGA kann qualitätsgesichert von Personen zwischen 18 und 65 Jahren, oder über 65 Jahren, angewendet werden, bei denen eine gesicherte Diabetes Typ 2 (ICD-10-GM: E11.-) Diagnose besteht. Durch die ärztliche Verordnung oder Beantragun...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "02286:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "02286:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:5",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs. weitere, durch Sie selbst aufzubringende Kosten, sofern Sie bestimmte zusätzlich angebotene und von der Verschreibung nicht abgedeckte Leistungen in Anspruch nehmen möchten.",
+      "content_fingerprint": "39d5160ffdea",
       "content_preview": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs....",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis"
       ],
+      "path_hash": "41c28a502494",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02286:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-429bde377d:field_value",
+      "stable_key": "02286:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis:41c28a502494:field_value:0",
       "title": "Angaben zum Preis"
     },
     {
       "content": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage Weitere Nutzung der DiGA für zusätzliche 90 Tage 740,00 € 740,00 € Trifft nicht zu Trifft nicht zu Es fallen keine Mehrkosten für den Patienten an.",
+      "content_fingerprint": "1568c0764b64",
       "content_preview": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage Weitere Nutzung der DiGA für zusätzliche 90 Tage 740,00 € 740,00 € Trifft nicht zu Trifft nicht zu Es fallen keine Mehrkosten für den Patienten an.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "02286:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "02286:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:6",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Verbesserungen für Patienten können entweder medizinischer Art sein (z.B. Verringerung von Schmerzen, Beitrag zur Heilung der Erkrankung) oder den Erkennungs- und Behandlungsprozess direkt unterstützen und erleichtern (z.B. Informationen zur individuellen Erkrankungssituation, Unterstützung bei der Einhaltung der zwischen Patient und Arzt gemeinsam vereinbarten therapeutischen Maßnahmen). Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche Weise dies ggfs. bereits wissenschaftlich nachgewiesen wurde. Falls der positive Versorgungseffekt noch nicht abschließend nachgewiesen aber bereits so plausibel dargelegt wurde, dass die DiGA befristet zur entsprechenden Erprobung aufgenommen wurde, wird angegeben, für welchen Zeitraum dies erfolgt ist. Sofern (auch) ein Nachweis zum Erhalt der Erwerbsfähigkeit für die DiGA erbracht wurde oder eine Nachweisführung geplant ist, finden Sie hier eine Beschreibung und nähere Angaben zum Nachweis sowie zum Studiendesign. Sofern die DiGA (auch) ein diagnostisches Instrument darstellt, also mindestens in Teilen dazu vorgesehen ist, Informationen z.B. für die Erkennung oder Diagnose von Krankheitszuständen zu liefern, hat der Hersteller dies benannt und beschrieben sowie Sensitivität und Spezifität als wichtige Bewertungsgrößen angegeben. Medizinischer Nutzen Verbesserung des Gesundheitszustands Die Una Health App ist ein täglicher digitaler Therapiebegleiter, der darauf abzielt, die Kontrolle von Diabetes Typ 2 zu verbessern, indem die Patientinnen und Patienten in die Lage versetzt werden, ihr Selbstmanagement und ihren Lebensstil zu verbessern, was zu einer Verbesserung des Gesundheitszustands führen soll. Der medizinische Nutzen von Una Health besteht in einer Reduktion des Langzeitblutzuckerwertes (HbA1c). Titel der Studie: EVALuation of the impact of Una Health for diabetes app on HbA1c in patients with type 2 diabetes mellitus in daily practice - the EVALUNA trial - Patient: Patientinnen und Patienten mit einem diagnostizierten Diabetes mellitus, Typ 2 (ICD-10-GM: E11.-) ab 18 Jahren und einen HbA1c Wert zur Baseline zwischen ≥ 7.0 % und ≤ 11.0 % - Intervention: Zugang zur Standardversorgung [Teilnahme am Disease-Management-Programm (DMP) Diabetes mellitus, Typ 2] und DiGA Una Health - Comparison: Zugang zur Standardversorgung (DMP) und Zugang zur DiGA Una Health nach 6 Monaten (Wartekontrollgruppe) - Outcome: Primärer Endpunkt: Veränderungen des HbA1c-Wertes Sekundäre Endpunkte: - Veränderung des Körpergewichts - Veränderung des Selbstmanagements der Patientinnen und Patienten, gemessen mittels Summary of Diabetes Self-Care Activities Assessment Tool (SDSCA) - Veränderung der depressiven Symptomatik, gemessen mittels Patient Health Questionnaire-9 (PHQ-9) - Veränderung der Lebensqualität, gemessen mittels Short Form-12 [SF-12, Mental Component Scale (MCS)] - Veränderungen des HbA1c-Wertes nach 18 Monaten Die EVALUNA-Studie, eine prospektive, multizentrische, randomisierte, offene, kontrollierte Ergebnisstudie, wird während der vorläufigen Listung durchgeführt, um die Wirksamkeit von Una Health für Diabetes bei der Senkung des HbA1c-Wertes bei Patientinnen und Patienten mit Diabetes mellitus Typ 2 nachzuweisen. - Die teilnehmenden Personen, bei denen ein Diabetes mellitus, Typ 2 (ICD-10-GM: E11.-) diagnostiziert wurde und die die Zulassungskriterien erfüllen, werden im Verhältnis 1:1 in einen Kontroll- und einen Interventionsarm randomisiert. Die Teilnehmerinnen und Teilnehmer im Kontrollarm erhalten eine Standardversorgung gemäß den Leitlinien der Deutschen Diabetesgesellschaft. Die Teilnehmerinnen und Teilnehmer im Interventionsarm erhalten neben der Standardversorgung zusätzlich eine Therapieunterstützung durch den Einsatz von Una Health für Diabetes. Die Studie wird prospektiv über einen Zeitraum von 6 Monaten durchgeführt, in dem drei Besuche stattfinden (zu Studienbeginn, nach 3 Monaten und nach 6 Monaten). Bei diesen Besuchen werden die klinischen Endpunkte überwacht und die von den Patientinnen und Patienten berichteten Ergebnisse anhand von Fragebögen bewertet. Nach Abschluss der drei Besuche im Rahmen der randomisierten Studie, wird die Randomisierung aufgehoben und alle Teilnehmenden erhalten Una Health für Diabetes für eine 12-monatige Nachbeobachtungsphase (Follow-Up). Der Nachweis des positiven Versorgungseffekts erfolgt nach Abschluss der randomisierten klinischen Studie nach 6 Monaten und nicht nach dem Follow-Up nach 18 Monaten. Auf der Grundlage einer Berechnung der Stichprobengröße, die von einem Beta-Wert von 0,8 ausgeht, um einen Unterschied in der HbA1c-Senkung zwischen den Gruppen von ≥ 0,5 % festzustellen, werden 188 Teilnehmerinnen und Teilnehmer in die Studie aufgenommen. - Die Daten werden dann im Hinblick auf den primären Endpunkt und die vordefinierten sekundären Endpunkte ausgewertet. Die Studie wird im Deutschen Register für Klinische Studien (DRKS) und im EU-Register für Klinische Studien registriert. Die Ergebnisse werden in deutsch- und englischsprachigen Fachzeitschriften mit Peer-Review veröffentlicht. Studienleitung und Ansprechpersonen: Prof. Dr. med. Hans Hauner Prof. Dr. rer. nat. Christina Holzapfel Institut für Ernährungsmedizin Klinikum rechts der Isar Technische Universität München Georg-Brauchle-Ring 62 80992 München Weitere Beteiligung: Prof. Dr. med. habil. Peter E. H. Schwarz, MBA Medizinische Klinik III, Universitätsklinikum Carl Gustav Carus der TU Dresden Universitätsklinikum Carl Gustav Carus Fetscherstr. 74 01307 Dresden Nein 24 Monate (12 Monate initial, 12 Monate Verlängerung)",
+      "content_fingerprint": "8734f02ee7d5",
       "content_preview": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Ve...",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02286:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "02286:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:0",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird. Die Anforderungen an die Datensicherheit werden durch Vorlage eines Zertifikats gemäß § 139e Absatz 10 Fünftes Buch Sozialgesetzbuch nachgewiesen. Detaillierte Informationen zu den einzelnen Anforderungen können Sie auf der Webseite des Bundesamts für Sicherheit in der Informationstechnik unter der Technischen Richtlinie \"BSI TR-03161\" finden: https://www.bsi.bund.de/dok/TR-03161 Bis zur Vorlage des Zertifikats gelten für den Bereich Datensicherheit die Anforderungen der nachfolgend dargestellten Checkliste. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "2191188ce7c4",
       "content_preview": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen v...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02286:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "02286:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:0",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit > Datensicherheit",
       "level": 4,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit",
         "Datensicherheit"
       ],
+      "path_hash": "8545f237a1b9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02286:informationen-zu-datenschutz-und-datensicherheit-datensicherheit-14af255f91:field_value",
+      "stable_key": "02286:informationen-zu-datenschutz-und-datensicherheit-datensicherheit:8545f237a1b9:field_value:0",
       "title": "Datensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung sieht keine unterschiedlichen Nutzerrollen vor. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung greift weder auf Sensoren eines mobilen Endgeräts noch auf externe Hardware zu. Trifft nicht zu Die digitale Gesundheitsanwendung tauscht keine Daten mit externer Hardware aus. Zutreffend Zutreffend Zutreffend Nein",
+      "content_fingerprint": "165757eb7384",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung sieht keine...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "02286:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "02286:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:1",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der medizinischen Inhalte und die Gewährleistung der Patientensicherheit. Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_fingerprint": "d6d0ea10d54a",
       "content_preview": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der me...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02286:weitere-informationen-afe954d9f8:section",
+      "stable_key": "02286:weitere-informationen:df3724c46c56:section:0",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Interoperabilität",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Interoperabilität"
       ],
+      "path_hash": "43914a1ae1e9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02286:weitere-informationen-angaben-zur-interoperabilitaet-8867f27412:field_value",
+      "stable_key": "02286:weitere-informationen-angaben-zur-interoperabilitaet:43914a1ae1e9:field_value:0",
       "title": "Angaben zur Interoperabilität"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "477afefea65b",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "02286:weitere-informationen-afe954d9f8:section",
+      "stable_key": "02286:weitere-informationen:df3724c46c56:section:1",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Robustheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Robustheit"
       ],
+      "path_hash": "d416c871fdb6",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02286:weitere-informationen-angaben-zur-robustheit-0a511476df:field_value",
+      "stable_key": "02286:weitere-informationen-angaben-zur-robustheit:d416c871fdb6:field_value:0",
       "title": "Angaben zur Robustheit"
     },
     {
       "content": "Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung kommuniziert nicht unmittelbar mit Sensoren. Es können Sensoren unterschiedlicher Hersteller verwendet werden. Die Software des jeweiligen Herstellers übernimmt die Steuerung der Sensoren und erfasst und verarbeitet die Sensordaten. Alle Hersteller verwenden eine Werkskalibrierung in Kombination mit einer initialen Kalibrierungsphase nach Aktivierung des Sensors. Das entsprechende Vorgehen wird in der Gebrauchsanweisung des jeweiligen Herstellers beschrieben.",
+      "content_fingerprint": "7a614262a179",
       "content_preview": "Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung kommuniziert nicht unmittelbar mit Sensoren. Es können Sensoren unterschiedlicher Hersteller verwendet werden. Die Software des jeweiligen Herstellers übernimmt die ...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "02286:weitere-informationen-afe954d9f8:section",
+      "stable_key": "02286:weitere-informationen:df3724c46c56:section:2",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zum Verbraucherschutz",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zum Verbraucherschutz"
       ],
+      "path_hash": "22c54da8ff9c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02286:weitere-informationen-angaben-zum-verbraucherschutz-05cd17969e:field_value",
+      "stable_key": "02286:weitere-informationen-angaben-zum-verbraucherschutz:22c54da8ff9c:field_value:0",
       "title": "Angaben zum Verbraucherschutz"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "409aa9901d82",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "02286:weitere-informationen-afe954d9f8:section",
+      "stable_key": "02286:weitere-informationen:df3724c46c56:section:3",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zu Nutzerfreundlichkeit und Barrierefreiheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
       ],
+      "path_hash": "a9d890d721a4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02286:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit-8fe873c531:field_value",
+      "stable_key": "02286:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit:a9d890d721a4:field_value:0",
       "title": "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
     },
     {
       "content": "Zutreffend Zutreffend",
+      "content_fingerprint": "f572c2f88946",
       "content_preview": "Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "02286:weitere-informationen-afe954d9f8:section",
+      "stable_key": "02286:weitere-informationen:df3724c46c56:section:4",
       "title": "Weitere Informationen"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Unterstützung der Leistungserbringende",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Unterstützung der Leistungserbringende"
       ],
+      "path_hash": "bdfe86165ef2",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02286:weitere-informationen-unterstuetzung-der-leistungserbringende-d4e78dfd75:field_value",
+      "stable_key": "02286:weitere-informationen-unterstuetzung-der-leistungserbringende:bdfe86165ef2:field_value:0",
       "title": "Unterstützung der Leistungserbringende"
     },
     {
       "content": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen.",
+      "content_fingerprint": "8b7713a3d90e",
       "content_preview": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Triff...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "02286:weitere-informationen-afe954d9f8:section",
+      "stable_key": "02286:weitere-informationen:df3724c46c56:section:5",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Qualität der medizinischen Inhalte",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Qualität der medizinischen Inhalte"
       ],
+      "path_hash": "964eb34f0609",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02286:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte-a6d05ceeb6:field_value",
+      "stable_key": "02286:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte:964eb34f0609:field_value:0",
       "title": "Angaben zur Qualität der medizinischen Inhalte"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "6a8d1dc0aa28",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "02286:weitere-informationen-afe954d9f8:section",
+      "stable_key": "02286:weitere-informationen:df3724c46c56:section:6",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Patientensicherheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Patientensicherheit"
       ],
+      "path_hash": "96d387fa1378",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02286:weitere-informationen-angaben-zur-patientensicherheit-7a67651ccd:field_value",
+      "stable_key": "02286:weitere-informationen-angaben-zur-patientensicherheit:96d387fa1378:field_value:0",
       "title": "Angaben zur Patientensicherheit"
     },
     {
       "content": "Die digitale Gesundheitsanwendung (DiGA) wurde am 30.03.2026 nach Prüfung der Nachweise für positive Versorgungseffekte aus dem Verzeichnis gemäß § 139e Absatz 4 Satz 8 des Fünften Buches Sozialgesetzbuch (SGB V) gestrichen. Der Grund für die Streichung ist der Ablauf der Frist für die vorläufige Aufnahme zur Erprobung.",
+      "content_fingerprint": "5e8f0aaae40b",
       "content_preview": "Die digitale Gesundheitsanwendung (DiGA) wurde am 30.03.2026 nach Prüfung der Nachweise für positive Versorgungseffekte aus dem Verzeichnis gemäß § 139e Absatz 4 Satz 8 des Fünften Buches Sozialgesetzbuch (SGB V) gestrichen. Der Grund fü...",
       "content_type": "field_value",
+      "display_path": "Änderungshistorie > 30.03.2026 Status der Listung ist „Gestrichen“",
       "level": 4,
       "path": [
         "Änderungshistorie",
         "30.03.2026 Status der Listung ist „Gestrichen“"
       ],
+      "path_hash": "7bdb8f6de098",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "02286:aenderungshistorie-30-03-2026-status-der-listung-ist-gestrichen-f714def39d:field_value",
+      "stable_key": "02286:aenderungshistorie-30-03-2026-status-der-listung-ist-gestrichen:7bdb8f6de098:field_value:0",
       "title": "30.03.2026 Status der Listung ist „Gestrichen“"
     }
   ],
@@ -418,10 +550,10 @@
     "accordions_opened": 0,
     "content_section_count": 33,
     "field_value_count": 16,
-    "rendered_at": "2026-06-22T19:15:15.920608+00:00",
+    "rendered_at": "2026-06-22T20:42:38.522364+00:00",
     "source_kind": "visible_directory"
   },
   "source_kind": "visible_directory",
-  "timestamp": "20260622T190144Z",
+  "timestamp": "20260622T202912Z",
   "url": "https://diga.bfarm.de/de/verzeichnis/02286"
 }

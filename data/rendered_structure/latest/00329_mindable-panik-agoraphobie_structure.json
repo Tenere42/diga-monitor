@@ -2,1042 +2,1370 @@
   "content_sections": [
     {
       "content": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_fingerprint": "26290d5ae490",
       "content_preview": "Hier finden Sie weitergehende Informationen zur DiGA.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "a5e395515816",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:field_value",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung:a5e395515816:field_value:0",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_fingerprint": "bfc5ca33598c",
       "content_preview": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:0",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Mindable: Panik & Agoraphobie",
+      "content_fingerprint": "2f8a19879026",
       "content_preview": "Mindable: Panik & Agoraphobie",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Name der DiGA im DiGA-Verzeichnis",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Name der DiGA im DiGA-Verzeichnis"
       ],
+      "path_hash": "b055b8e1c744",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v-132a49921b:field_value",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v:b055b8e1c744:field_value:0",
       "title": "Name der DiGA im DiGA-Verzeichnis"
     },
     {
       "content": "29.04.2021",
+      "content_fingerprint": "2bb6d83d8c8f",
       "content_preview": "29.04.2021",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Erstmalige Aufnahme in das DiGA-Verzeichnis",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Erstmalige Aufnahme in das DiGA-Verzeichnis"
       ],
+      "path_hash": "3d07f6258e5c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in--0901792b12:field_value",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in-:3d07f6258e5c:field_value:0",
       "title": "Erstmalige Aufnahme in das DiGA-Verzeichnis"
     },
     {
       "content": "Mindable: Panik",
+      "content_fingerprint": "9770a2353e6a",
       "content_preview": "Mindable: Panik",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Name der DiGA (Kurzform)",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Name der DiGA (Kurzform)"
       ],
+      "path_hash": "4c0085f25a54",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-kurzform-be25f49996:field_value",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-kurzform:4c0085f25a54:field_value:0",
       "title": "Name der DiGA (Kurzform)"
     },
     {
       "content": "App",
+      "content_fingerprint": "fc4a695f02a8",
       "content_preview": "App",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Art der DiGA",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Art der DiGA"
       ],
+      "path_hash": "600a0be84a95",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga-f41af95c79:field_value",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga:600a0be84a95:field_value:0",
       "title": "Art der DiGA"
     },
     {
       "content": "im Apple App Store Deutschland",
+      "content_fingerprint": "5a4cd838fc6e",
       "content_preview": "im Apple App Store Deutschland",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Die digitale Gesundheitsanwendung ist verfügbar",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Die digitale Gesundheitsanwendung ist verfügbar"
       ],
+      "path_hash": "6d3556c97e9a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit-70a197df25:field_value",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit:6d3556c97e9a:field_value:0",
       "title": "Die digitale Gesundheitsanwendung ist verfügbar"
     },
     {
       "content": "im Google Play Store Deutschland",
+      "content_fingerprint": "860262a8c802",
       "content_preview": "im Google Play Store Deutschland",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:1",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Serverstandort: Deutschland",
+      "content_fingerprint": "ebc768049dcd",
       "content_preview": "Serverstandort: Deutschland",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Standorte der Datenverarbeitung",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Standorte der Datenverarbeitung"
       ],
+      "path_hash": "eee99405da7f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera-426183d1fc:field_value",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera:eee99405da7f:field_value:0",
       "title": "Standorte der Datenverarbeitung"
     },
     {
       "content": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an • Sicherheit und Funktionstauglichkeit des Medizinproduktes • Datenschutz und Datensicherheit nach dem Stand der Technik • die Qualität des Medizinproduktes, einschließlich Interoperabilität - entsprechend den Vorgaben der Digitale Gesundheitsanwendung-Verordnung (DiGAV) als erfüllt. Der Hersteller hat bestätigt, dass keine personenbezogenen Daten in ein Land ohne Angemessenheitsbeschluss, wie nach dem Urteil „Schrems II“ den USA, fließen. - Nach Aufnahme zur Erprobung wurden die Studienergebnisse der Erprobungsstudie zum Ende des Erprobungszeitraums eingereicht. - Es wurde eine zweiarmige randomisiert kontrollierte Studie (RCT) mit dem Titel „Evaluation eines strukturierten digitalen Selbstmanagementansatzes für Patient:innen mit Panikstörung und/oder Agoraphobie“ vorgelegt, die unter der Nummer DRKS00029090 im Deutschen Register Klinischer Studien (DRKS) registriert wurde. - Die Beobachtungsdauer betrug 8 Wochen. Die Interventionsgruppe (IG) erhielt im Rahmen der Eingangsuntersuchung die Smartphone-basierte „Mindable“ App zur freien Nutzung auf ihr Smartphone. Die Kontrollgruppe (KG) erhielt standardisiert allgemeine Hinweise zu Selbsthilfemöglichkeiten in der Wartezeit auf Psychotherapie auf Basis eines Informationsblattes. Der primäre Endpunkt war die Panik- und Agoraphobie-Skala (PAS). Die 3 sekundären, konfirmatorischen Endpunkte waren der WHO Quality-of-Life-Fragebogen (WHOQOL-BREF), die Sheehan-Disability-Skala (SDS) und der Angst-Kontroll-Fragebogen (AKF). Für die 3 sekundären Endpunkte erfolgte eine Adjustierung des Alpha-Niveaus mittels Bonferroni-Holm-Korrektur. Voraussetzung dafür war, dass der primäre Endpunkt einen statistisch signifikanten Vorteil der IG gegenüber der KG zeigt. - In die Studie wurden initial insgesamt 107 Patientinnen und Patienten eingeschlossen und randomisiert (IG: 57; KG: 50). Nach 8-wöchiger Studiendauer ergab sich zur Abschlussuntersuchung eine Drop-out-Rate von 15,9 % (IG: 19,3 %; KG: 12 %). - Im Rahmen der konservativen Verfahren zum Ersetzen fehlender Werte ergab sich für die Intention-To-Treat-Analyse (ITT-Analyse) ein statistisch signifikanter und klinisch relevanter Vorteil der IG gegenüber der KG in Bezug auf die Verbesserung des Gesundheitszustands gemessen anhand der PAS [adjustierte Differenz in der Veränderung von Baseline: 4,78 ; 95-%-Konfidenzintervall (KI): 1,60 – 7,96; p-Wert: 0,001; Cohens d: 0,64] und in Bezug auf die Patientensouveränität gemessen anhand des AKF (adjustierte Differenz in der Veränderung von Baseline: -5,24; 95-%-KI: -10,81 – -0,33; p-Wert: 0,006; Cohens d: 0,53). Anhand eingereichter Literatur, Real-World-Daten (RWD) und vorgelegter Subgruppenanalysen konnte gezeigt werden, dass die Ergebnisse in den relevanten Subgruppen konsistent waren. Bezüglich der verbleibenden Endpunkte WHOQOL-BREF und SDS konnten keine signifikanten Ergebnisse erzielt werden. Für den WHOQOL-BREF ist hervorzuheben, dass sich jedoch nach Korrektur für Mulitplizität eine Tendenz für signifikante Ergebnisse gezeigt hat. - Im Rahmen einer zweiten RCT zur DiGA wurden ebenfalls der PAS und WHOQOL-BREF untersucht. In der zweiten Studie zeigten sich im WHOQOL-BREF nach 5 Wochen Tendenzen (adjustierte Mittelwertsdifferenz: 4,83; 95-%-KI: -0,36 – 10,01; p-Wert: 0,0298; Cohens d: 0,56), während zum Follow-up nach 8 Wochen ein klarer Vorteil für die IG erkennbar war (adjustierte Mittelwertsdifferenz: 8,86; 95-%-KI: 2,10 – 15,62; p-Wert: 0,0034; Cohens d: 1,03). In Anbetracht der Studienlage ist somit eine Verbesserung der Lebensqualität hinreichend nachgewiesen. - Entsprechend bewertet das BfArM die in § 139e des fünften Buches Sozialgesetzbuch (SGB V) sowie in der DiGAV festgelegten Voraussetzungen zur endgültigen Aufnahme in das Verzeichnis nach § 139e Absatz 1 SGB V für die Indikationen F40.0: Agoraphobie und F41.0: Panikstörung [episodisch paroxysmale Angst] in Bezug auf die positiven Versorgungseffekte „Verbesserung des Gesundheitszustands“, „Verbesserung der Lebensqualität“ und „Patientensouveränität“ als erfüllt.",
+      "content_fingerprint": "3b9a12eea2e2",
       "content_preview": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an • Sicherheit und Funktionstauglichkeit des Medizinproduktes • Datenschutz und Datensicherheit nach dem Stand der T...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Bewertungsentscheidung des BfArM",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Bewertungsentscheidung des BfArM"
       ],
+      "path_hash": "7d463e27c832",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung--cdc10aad7c:field_value",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung-:7d463e27c832:field_value:0",
       "title": "Bewertungsentscheidung des BfArM"
     },
     {
       "content": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_fingerprint": "4b8f5a46c1b0",
       "content_preview": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt"
       ],
+      "path_hash": "9af58630166c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:9af58630166c:field_value:0",
       "title": "Angaben zum Medizinprodukt"
     },
     {
       "content": "Mindable: Panik & Agoraphobie ist eine digitale Gesundheitsanwendung zur Behandlung von Panikstörung und Agoraphobie. Die Anwendung vermittelt evidenzbasierte und leitlinienkonforme Methoden und Inhalte aus dem Bereich der kognitiven Verhaltenstherapie. Die App richtet sich an Erwachsene ab 18 Jahren, die an den Symptomen einer Panikstörung und/oder Agoraphobie leiden.",
+      "content_fingerprint": "ca84c9b4fbca",
       "content_preview": "Mindable: Panik & Agoraphobie ist eine digitale Gesundheitsanwendung zur Behandlung von Panikstörung und Agoraphobie. Die Anwendung vermittelt evidenzbasierte und leitlinienkonforme Methoden und Inhalte aus dem Bereich der kognitiven Ver...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Medizinische Zweckbestimmung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Medizinische Zweckbestimmung"
       ],
+      "path_hash": "8bde401e0e97",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:8bde401e0e97:field_value:0",
       "title": "Medizinische Zweckbestimmung"
     },
     {
       "content": "Risikoklasse I nach MDD",
+      "content_fingerprint": "90292b8af58c",
       "content_preview": "Risikoklasse I nach MDD",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Risikoklasse Medizinprodukt",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Risikoklasse Medizinprodukt"
       ],
+      "path_hash": "b60186e2af98",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:b60186e2af98:field_value:0",
       "title": "Risikoklasse Medizinprodukt"
     },
     {
       "content": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_fingerprint": "ba6516ebde5f",
       "content_preview": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA"
       ],
+      "path_hash": "6921f5eac91a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:6921f5eac91a:field_value:0",
       "title": "Weitere Informationen zur DiGA"
     },
     {
       "content": "Die digitale Gesundheitsanwendung Mindable: Panikstörung und Agoraphobie richtet sich an Menschen ab 18 Jahren, die an den Symptomen einer Agoraphobie und/oder Panikstörung leiden. Das Behandlungsprogramm basiert auf dem verhaltenstherapeutischen Behandlungsmanual \"Expositionsbasierte Therapie der Panikstörung mit Agoraphobie\" (Lang et al., 2018) und wurde in enger Zusammenarbeit mit den Autorinnen und Autoren entwickelt. Neben Psychoedukation liegt der Schwerpunkt des Behandlungsprogramms auf der Gewöhnung an Körpersymptome (Habituation durch gezielte Symptomprovokation), sowie in-vivo Konfrontationen. Darüber hinaus ermöglicht Mindable: Panik & Agoraphobie die systematische Erfassung von Symptomen, Angstverläufen und Verhalten. Ziel ist es Nutzerinnen und Nutzern ein Werkzeug an die Hand zu geben, um ihre Ängste zu bewältigen.",
+      "content_fingerprint": "3d32d09efef8",
       "content_preview": "Die digitale Gesundheitsanwendung Mindable: Panikstörung und Agoraphobie richtet sich an Menschen ab 18 Jahren, die an den Symptomen einer Agoraphobie und/oder Panikstörung leiden. Das Behandlungsprogramm basiert auf dem verhaltenstherap...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "ef6363788ef3",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:ef6363788ef3:field_value:0",
       "title": "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
     },
     {
       "content": "Um langfristige Erfolge zu erzielen, sollte Mindable: Panik & Agoraphobie mindestens einmal pro Woche, im besten Fall täglich, genutzt werden. Dementsprechend sind die Bereitschaft und Eigenmotivation, sich kontinuierlich mit den Inhalten des Programms auseinanderzusetzen und Übungen durchzuführen, Voraussetzung für einen erfolgreichen Behandlungsverlauf.",
+      "content_fingerprint": "7315f2a1aa47",
       "content_preview": "Um langfristige Erfolge zu erzielen, sollte Mindable: Panik & Agoraphobie mindestens einmal pro Woche, im besten Fall täglich, genutzt werden. Dementsprechend sind die Bereitschaft und Eigenmotivation, sich kontinuierlich mit den Inhalte...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:2",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Als Hauptfunktion bietet Mindable: Panik & Agoraphobie drei aufeinander aufbauende Behandlungsbausteine, sowie ein Tagebuch und ein wöchentliches Checkup.",
+      "content_fingerprint": "0b7f9184a41a",
       "content_preview": "Als Hauptfunktion bietet Mindable: Panik & Agoraphobie drei aufeinander aufbauende Behandlungsbausteine, sowie ein Tagebuch und ein wöchentliches Checkup.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Funktionen der digitalen Gesundheitsanwendung",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Funktionen der digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "82022247f98d",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-funktionen-der-digitale-90c70ec142:field_value",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-funktionen-der-digitale:82022247f98d:field_value:0",
       "title": "Funktionen der digitalen Gesundheitsanwendung"
     },
     {
       "content": "Behandlungsbausteine: 1. Psychoedukation: In diesem Behandlungsbaustein werden die Wirkungsmechanismen von Angst und Panik vermittelt. Wir empfehlen zuerst alle Hauptmodule abzuschließen, bevor Nutzerinnen und Nutzer zum nächsten Behandlungsbausteine übergehen. Ergänzt wird die Psychoedukation durch ein Wörterbuch, um Fachbegriffe nachzuschlagen, sowie stetig neue Artikel rund um das Thema Angststörungen und Psychotherapie. 2. Symptomprovokation (interozeptive Exposition): Im zweiten Behandlungsbaustein geht es darum, den Körper an Paniksymptome zu gewöhnen und dadurch eine Reduktion der Symptome zu bewirken. Hierfür stehen zahlreiche Übungen zur Auswahl. Animationen unterstützen bei der Durchführung. Wir empfehlen hierfür alle Übungen einmal durchzuführen und die schwierigsten Übungen regelmäßig zu wiederholen. 3. Konfrontation (in-vivo Exposition): Von der App angeleitet können sich Nutzerinnen und Nutzer wiederholt und gezielt mit angstbesetzten Situationen und Orten konfrontieren. Für jede Situation stehen verschiedene Konfrontationsszenarien zur Verfügung, die als Übungen eingeplant werden können. Darüber hinaus können individuelle Szenarien selbst erstellt werden. Während der Konfrontationsübungen können Nutzerinnen und Nutzer den Angstverlauf in Echtzeit aufzeichnen. Wir empfehlen mindestens 1 Konfrontationen pro Woche durchzuführen. Checkup & Tagebuch: - Wöchentliches Checkup: Alle sieben Tage können Nutzerinnen und Nutzer ihren Symptomverlauf anhand von gezielten Fragen erfassen. - Tagebuch: Nutzerinnen und Nutzer können ihr Verhalten, ihre Empfindungen und angstbezogene Ereignisse im Tagebuch festhalten. Weitere Funktionen: - Statistiken & Historien: Alle Eintragungen, sowie durchgeführte Übungen werden in Statistiken aufbereitet dargestellt und chronologisch in den Historien gespeichert. Sie können jederzeit eingesehen, per Daten-Export geteilt, und zur Nachbesprechung genutzt werden. - Erinnerungsfunktionen und Benachrichtigungen: Diese erinnern sowohl an die Ausführung eingeplanter Übungen, als auch an Checkups und Tagebucheintragungen. - Hausaufgaben & Übungsziele: Diese werden zur intuitiven Orientierung auf dem Home-Screen übersichtlich bereitgestellt und können per Shortcut direkt ausgeführt werden. - Daten-Export: Alle Tagebucheinträge, Statistiken, Verläufe und Historien können u.a. als PDF exportiert werden.",
+      "content_fingerprint": "eb03f29ec855",
       "content_preview": "Behandlungsbausteine: 1. Psychoedukation: In diesem Behandlungsbaustein werden die Wirkungsmechanismen von Angst und Panik vermittelt. Wir empfehlen zuerst alle Hauptmodule abzuschließen, bevor Nutzerinnen und Nutzer zum nächsten Behandl...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:3",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Psychotherapeutische Ambulanz der Jacobs University Bremen (PTA JUB; Hauptverantwortliches Zentrum) Jacobs University Bremen Campus Ring 1 28759 Bremen, Germany Ansprechpartner: Dr. Thomas Lang - Psychotherapeutische Ambulanz der PTA Hamburg Psychotherapieausbildung an der Universität Hamburg Amsinckstraße 41 20097 Hamburg Ansprechpartnerin: Dr. Sylvia Helbig-Lang",
+      "content_fingerprint": "e11fd837deee",
       "content_preview": "Psychotherapeutische Ambulanz der Jacobs University Bremen (PTA JUB; Hauptverantwortliches Zentrum) Jacobs University Bremen Campus Ring 1 28759 Bremen, Germany Ansprechpartner: Dr. Thomas Lang - Psychotherapeutische Ambulanz der PTA Ham...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
       ],
+      "path_hash": "720a637cb5c8",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-und-adresse-beteil-71b7ba97e5:field_value",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-und-adresse-beteil:720a637cb5c8:field_value:0",
       "title": "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
     },
     {
       "content": "Bandelow B, Wiltink J, Alpers GW, Benecke C, Deckert J, Eckhardt-Henn A, et al. Deutsche S3-Leitlinie Behandlung von Angststörungen. 2014 - BPtK. (2018). Ein Jahr nach der Reform der Psychotherapie-Richtlinie, Wartezeiten 2018. - Domhardt, M., Letsch, J., Kybelka, J., Koenigbauer, J., Doebler, P., & Baumeister, H. Are Internet- and mobilebased interventions effective in adults with diagnosed panic disorder and/or agoraphobia? A systematic review and meta-analysis. In Journal of Affective Disorders. 2020;276:169–182. - Gassen, A. Ein Jahr Richtlinienreform: Schnelle Umsetzung durch Psychotherapeuten. Pressemitteilung der KBV.2018. Gloster, A. T., Wittchen, H. U., Einsle, F., Lang, T., Helbig-Lang, S., Fydrich, T., ... & Gerlach, A. L. Psychological treatment for panic disorder with agoraphobia: a randomized controlled trial to examine the role of therapistguided exposure in situ in CBT. Journal of consulting and clinical psychology. 2011;79(3):406. - Helbig-Lang S. Psychotherapeutische Hausaufgaben: Techniken der Verhaltenstherapie: mit E-book inside und Arbeitsmaterial. Beltz Verlag; 2015. Helbig, S., Hähnel, A., Weigel, B. & Hoyer, J. Wartezeit für Psychotherapiepatienten – und wie sie zu nutzen ist. Verhaltenstherapie, 2014;14:294-302. - Lang T, Helbig-Lang,S., Westphal D., Gloster, AT, Wittchen HU. Expositionsbasierte Therapie der Panikstörung mit Agoraphobie. 2nd Edition, Hogrefe Verlag; 2018. - Lang, T., Helbig-Lang, S., & Petermann, F. (2009). Was wirkt in der kognitiven Verhaltenstherapie der Panikstörung mit Agoraphobie? Ein systematisches Review.Zeitschrift für Psychiatrie, Psychologie und Psychotherapie, 57(3), 161-175. - Stech, E. P., Lim, J., Upton, E. L., & Newby, J. M. Internet-delivered cognitive behavioral therapy for panic disorder with or without agoraphobia: a systematic review and meta-analysis. Cognitive Behaviour Therapy. 2020;49(4):270–293.",
+      "content_fingerprint": "75f673f15340",
       "content_preview": "Bandelow B, Wiltink J, Alpers GW, Benecke C, Deckert J, Eckhardt-Henn A, et al. Deutsche S3-Leitlinie Behandlung von Angststörungen. 2014 - BPtK. (2018). Ein Jahr nach der Reform der Psychotherapie-Richtlinie, Wartezeiten 2018. - Domhard...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
       ],
+      "path_hash": "c806b8db1092",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-literaturquellen-wie-z--8d5491f412:field_value",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-literaturquellen-wie-z-:c806b8db1092:field_value:0",
       "title": "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
     },
     {
       "content": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_fingerprint": "77cea9e6788d",
       "content_preview": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal"
       ],
+      "path_hash": "4c8dba25a53c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:4c8dba25a53c:field_value:0",
       "title": "Beteiligung vom medizinischen Fachpersonal"
     },
     {
       "content": "Diagnose, Aufklärung & Verordnung: - Diagnose- und Indikationsstellung, Ausschluss von Kontraindikationen - Verschreibung von Mindable: Panik & Agoraphobie durch Ausstellung eines Rezeptes - Aufklärungsgespräch, sowie das Bereitstellen von Informationen hinsichtlich der Zielsetzung, Wirkungsweise und Nutzung von Mindable: Panik & Agoraphobie.",
+      "content_fingerprint": "e217c78ee177",
       "content_preview": "Diagnose, Aufklärung & Verordnung: - Diagnose- und Indikationsstellung, Ausschluss von Kontraindikationen - Verschreibung von Mindable: Panik & Agoraphobie durch Ausstellung eines Rezeptes - Aufklärungsgespräch, sowie das Bereitstellen v...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal > Ärztinnen/ Ärzte",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal",
         "Ärztinnen/ Ärzte"
       ],
+      "path_hash": "736d25ff8830",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:736d25ff8830:field_value:0",
       "title": "Ärztinnen/ Ärzte"
     },
     {
       "content": "Monitoring & ärztliche Begleitung: Während der Nutzung von Mindable: Panik & Agoraphobie können Ärzt:innen ihre Patient:innen unterstützend begleiten und den klinischen Verlauf überwachen. Übungen und Lerninhalte können gemeinsam vor- und nachbesprochen werden. Konkrete Übungsziele werden vereinbart und in der App festgehalten. Der Therapieverlauf wird anhand der Eingaben innerhalb der Anwendung dokumentiert. Patient:innen können diesen selbst, und somit mit ausdrücklicher Einwilligung, an die jeweilige Ärztinnen und Ärzte übermitteln (z.B. per PDF-Export) oder als Ausdruck bereitstellen. Detailliertere Informationen für Ärzt:innen finden Sie unter: https://www.mindable.health/fachkreise Bei Unklarheiten bieten wir gerne Unterstützung an: support@mindable.health",
+      "content_fingerprint": "8abd4a74beb6",
       "content_preview": "Monitoring & ärztliche Begleitung: Während der Nutzung von Mindable: Panik & Agoraphobie können Ärzt:innen ihre Patient:innen unterstützend begleiten und den klinischen Verlauf überwachen. Übungen und Lerninhalte können gemeinsam vor- un...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:4",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Diagnose, Aufklärung & Verordnung: - Diagnose- und Indikationsstellung, Ausschluss von Kontraindikationen - Verschreibung von Mindable: Panik & Agoraphobie durch Ausstellung eines Rezeptes - Aufklärungsgespräch, sowie das Bereitstellen von Informationen hinsichtlich der Zielsetzung, Wirkungsweise und Nutzung von Mindable: Panik & Agoraphobie.",
+      "content_fingerprint": "e217c78ee177",
       "content_preview": "Diagnose, Aufklärung & Verordnung: - Diagnose- und Indikationsstellung, Ausschluss von Kontraindikationen - Verschreibung von Mindable: Panik & Agoraphobie durch Ausstellung eines Rezeptes - Aufklärungsgespräch, sowie das Bereitstellen v...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Psychotherapeutinnen/ Psychotherapeuten",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Psychotherapeutinnen/ Psychotherapeuten"
       ],
+      "path_hash": "2beed68ae4a5",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-psychotherapeutinnen-ps-4ff088e44d:field_value",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-psychotherapeutinnen-ps:2beed68ae4a5:field_value:0",
       "title": "Psychotherapeutinnen/ Psychotherapeuten"
     },
     {
       "content": "Monitoring & Begleitung während der eigenständigen Nutzung: Während der eigenständigen Nutzung von Mindable: Panik & Agoraphobie können Psychotherapeuten Patienten unterstützend begleiten und den klinischen Verlauf überwachen. Der Behandlungsverlauf wird anhand der Eingaben innerhalb der Anwendung dokumentiert. Patientinnen und Patienten können diesen selbst, und somit mit ausdrücklicher Einwilligung, an die jeweiligen Psychotherapeutinnen und Psychotherapeuten übermitteln (z.B. per PDF-Export) oder als Ausdruck bereitstellen. Genauere Informationen für Psychotherpeut:innen finden Sie hier: https://www.mindable.health/fachkreise Bei Unklarheiten bieten wir gerne Unterstützung an. Schreiben Sie uns einfach eine E-Mail an fachkreise@mindable.health",
+      "content_fingerprint": "5c19a27633c5",
       "content_preview": "Monitoring & Begleitung während der eigenständigen Nutzung: Während der eigenständigen Nutzung von Mindable: Panik & Agoraphobie können Psychotherapeuten Patienten unterstützend begleiten und den klinischen Verlauf überwachen. Der Behand...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:5",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Nein",
+      "content_fingerprint": "70bb813787b6",
       "content_preview": "Nein",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
       ],
+      "path_hash": "04da9debc7df",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-erforderlichkeit-vertra-723a5fea2b:field_value",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-erforderlichkeit-vertra:04da9debc7df:field_value:0",
       "title": "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
     },
     {
       "content": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfohlen wird.",
+      "content_fingerprint": "ba2dc6143acd",
       "content_preview": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfoh...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise"
       ],
+      "path_hash": "af464e1a8e2f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-6922aa5eb2:field_value",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise:af464e1a8e2f:field_value:0",
       "title": "Anwendungshinweise"
     },
     {
       "content": "Mindable: Panik & Agoraphobie sollte nur bei Patientinnen und Patienten angewendet werden, die mindestens 18 Jahre alt sind und unter einer Panikstörung und/oder einer Agoraphobie leiden.",
+      "content_fingerprint": "4a80014f81db",
       "content_preview": "Mindable: Panik & Agoraphobie sollte nur bei Patientinnen und Patienten angewendet werden, die mindestens 18 Jahre alt sind und unter einer Panikstörung und/oder einer Agoraphobie leiden.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Hinweise für eine sichere Anwendung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Hinweise für eine sichere Anwendung"
       ],
+      "path_hash": "ed840310f43d",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw-13263bcc58:field_value",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw:ed840310f43d:field_value:0",
       "title": "Hinweise für eine sichere Anwendung"
     },
     {
       "content": "Nicht angewandt werden sollte Mindable: Panik & Agoraphobie beim Vorliegen einer der folgenden Erkrankungen oder Einschränkungen: - Schizophrenie und Wahn (F20-24, F28, F29) - Bipolare affektive Störung (F31) - Schwere depressive Episode mit psychotischen Symptomen (F32.3) - Rezidivierende depressive Störung, gegenwärtig schwere Episode mit psychotischen Symptomen (F33.3) - Akute Intoxikation (F10.0 - F17.0) - Suizidalität und Suizidversuch Bei folgenden Erkrankungen oder Einschränkungen, sollte eine behandelnde Ärztin oder Arzt oder Psychotherapeutin oder Psychotherapeut konsultiert und gegebenenfalls auf die Ausführung bestimmter Übungen verzichtet werden: - Schwangerschaft - kardiovaskuläre Erkrankungen (z.B. Bluthochdruck in Ruhe, Herz-Kreislaufstörungen) - pneumologische Erkrankungen - photosensitive Epilepsie - Substanzabhängigkeit Mindable: Panik & Agoraphobie ist mit einem entsprechenden Warnhinweis versehen.",
+      "content_fingerprint": "52813808eea1",
       "content_preview": "Nicht angewandt werden sollte Mindable: Panik & Agoraphobie beim Vorliegen einer der folgenden Erkrankungen oder Einschränkungen: - Schizophrenie und Wahn (F20-24, F28, F29) - Bipolare affektive Störung (F31) - Schwere depressive Episode...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:6",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Bei akuten Suizidgedanken sollte umgehend ein Arzt oder Psychotherapeut aufgesucht werden. Mindable: Panik & Agoraphobie kann in diesem Fall keine ausreichende Unterstützung bieten.",
+      "content_fingerprint": "cf761532c3cf",
       "content_preview": "Bei akuten Suizidgedanken sollte umgehend ein Arzt oder Psychotherapeut aufgesucht werden. Mindable: Panik & Agoraphobie kann in diesem Fall keine ausreichende Unterstützung bieten.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Ausschlusskriterien",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Ausschlusskriterien"
       ],
+      "path_hash": "1e0081a02ca6",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-ausschlusskrite-693acf81d5:field_value",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-ausschlusskrite:1e0081a02ca6:field_value:0",
       "title": "Weitere Ausschlusskriterien"
     },
     {
       "content": "Bei folgenden Erkrankungen oder Einschränkungen, sollte eine behandelnde Arzt oder Psychotherapeut konsultiert und gegebenenfalls auf die Ausführung bestimmter Übungen verzichtet werden: - Schwangerschaft - kardiovaskuläre Erkrankungen (z.B. Bluthochdruck in Ruhe, Herz-Kreislaufstörungen) - pneumologische Erkrankungen - photosensitive Epilepsie - Substanzabhängigkeit Mindable: Panik & Agoraphobie ist mit einem entsprechenden Warnhinweis versehen.",
+      "content_fingerprint": "10bc71512d94",
       "content_preview": "Bei folgenden Erkrankungen oder Einschränkungen, sollte eine behandelnde Arzt oder Psychotherapeut konsultiert und gegebenenfalls auf die Ausführung bestimmter Übungen verzichtet werden: - Schwangerschaft - kardiovaskuläre Erkrankungen (...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 7,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:7",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Mindable: Panik & Agoraphobie sollte in einem Zeitraum von mindestens 8 Wochen eingesetzt werden. Es wird darüber hinaus eine längere Nutzung empfohlen, so dass sich Verhaltensänderungen und Lebensstilanpassungen verfestigen können.",
+      "content_fingerprint": "f5a40af51ccb",
       "content_preview": "Mindable: Panik & Agoraphobie sollte in einem Zeitraum von mindestens 8 Wochen eingesetzt werden. Es wird darüber hinaus eine längere Nutzung empfohlen, so dass sich Verhaltensänderungen und Lebensstilanpassungen verfestigen können.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Vom Hersteller für erforderlich gehaltene Mindestdauer",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Vom Hersteller für erforderlich gehaltene Mindestdauer"
       ],
+      "path_hash": "c8361568278f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-vom-hersteller-fuer-erf-bbada5828c:field_value",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-vom-hersteller-fuer-erf:c8361568278f:field_value:0",
       "title": "Vom Hersteller für erforderlich gehaltene Mindestdauer"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Vom Hersteller für erforderlich gehaltene Höchstdauer",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Vom Hersteller für erforderlich gehaltene Höchstdauer"
       ],
+      "path_hash": "5dafed8796c1",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-vom-hersteller-fuer-erf-bbada5828c:field_value",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-vom-hersteller-fuer-erf:5dafed8796c1:field_value:0",
       "title": "Vom Hersteller für erforderlich gehaltene Höchstdauer"
     },
     {
       "content": "Zur Nutzung von Mindable: Panik & Agoraphobie wird ein funktionsfähiges Smartphone oder Tablet-PC mit Internetzugang benötigt. Die App kann mit allen Smartphones/Tablets verwendet werden, welche die Betriebssysteme iOS in der Version ≥ 12 oder Android in der Version ≥ 6 (API Level 23) haben.",
+      "content_fingerprint": "495d238e804c",
       "content_preview": "Zur Nutzung von Mindable: Panik & Agoraphobie wird ein funktionsfähiges Smartphone oder Tablet-PC mit Internetzugang benötigt. Die App kann mit allen Smartphones/Tablets verwendet werden, welche die Betriebssysteme iOS in der Version ≥ 1...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Kompatibilitätszusagen in Bezug auf unterstützte Geräte",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
       ],
+      "path_hash": "fdfd0a3e19b3",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-kompatibilitaetszusagen-2e7efe3e1b:field_value",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-kompatibilitaetszusagen:fdfd0a3e19b3:field_value:0",
       "title": "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
     },
     {
       "content": "Zur Account-Erstellung wird eine gültige E-Mail-Adresse benötigt. Diese muss keinen Rückschluss auf Klarnamen und Identität beinhalten. Während der Erstellung des Accounts, dem Login und dem Laden der Inhalte ist eine Internetverbindung notwendig. Danach sind die Inhalte durch den Offline-Support auch ohne Internetverbindung nutzbar. Dies ermöglicht eine zeit- und ortsunabhängige Nutzung. Mehr Informationen: https://www.mindable.health/impressum/",
+      "content_fingerprint": "022d74f0dcd1",
       "content_preview": "Zur Account-Erstellung wird eine gültige E-Mail-Adresse benötigt. Diese muss keinen Rückschluss auf Klarnamen und Identität beinhalten. Während der Erstellung des Accounts, dem Login und dem Laden der Inhalte ist eine Internetverbindung ...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 8,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:8",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Die Daten können sowohl als PDF, als auch als auch in maschinenlesbarer Form als JSON-Datei (gemäß FHIR-Standard) exportiert werden.",
+      "content_fingerprint": "b453cdbc63e2",
       "content_preview": "Die Daten können sowohl als PDF, als auch als auch in maschinenlesbarer Form als JSON-Datei (gemäß FHIR-Standard) exportiert werden.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Möglichkeiten von standardisiertem Datenimport und Datenexport",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Möglichkeiten von standardisiertem Datenimport und Datenexport"
       ],
+      "path_hash": "569132413e54",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-moeglichkeiten-von-stan-a818cc9f27:field_value",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-moeglichkeiten-von-stan:569132413e54:field_value:0",
       "title": "Möglichkeiten von standardisiertem Datenimport und Datenexport"
     },
     {
       "content": "Nähere Informationen sind auf der Webseite veröffentlicht: https://www.mindable.health/faq/",
+      "content_fingerprint": "14d5d652d913",
       "content_preview": "Nähere Informationen sind auf der Webseite veröffentlicht: https://www.mindable.health/faq/",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 9,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:9",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs. weitere, durch Sie selbst aufzubringende Kosten, sofern Sie bestimmte zusätzlich angebotene und von der Verschreibung nicht abgedeckte Leistungen in Anspruch nehmen möchten.",
+      "content_fingerprint": "39d5160ffdea",
       "content_preview": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs....",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis"
       ],
+      "path_hash": "41c28a502494",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-429bde377d:field_value",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis:41c28a502494:field_value:0",
       "title": "Angaben zum Preis"
     },
     {
       "content": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+      "content_fingerprint": "4c34fe9d1a3e",
       "content_preview": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis > Preismodell",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis",
         "Preismodell"
       ],
+      "path_hash": "d5d16c880c10",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis-6eb719186f:field_value",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis:d5d16c880c10:field_value:0",
       "title": "Preismodell"
     },
     {
       "content": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "content_fingerprint": "341e24b7c036",
       "content_preview": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 10,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:10",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Der Preis für eine Erstverordnung liegt bei 245,50 € (inkl. 19% Mehrwertsteuer) pro Lizenz. Die Lizenz erlaubt die Nutzung für 90 Tage.",
+      "content_fingerprint": "fb078e6f2433",
       "content_preview": "Der Preis für eine Erstverordnung liegt bei 245,50 € (inkl. 19% Mehrwertsteuer) pro Lizenz. Die Lizenz erlaubt die Nutzung für 90 Tage.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
       ],
+      "path_hash": "351b8e240460",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-kosten-z-b-starterpaket-5641b0bf97:field_value",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-kosten-z-b-starterpaket:351b8e240460:field_value:0",
       "title": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
     },
     {
       "content": "Bei einer weiteren Nutzung von Mindable für zusätzliche 90 Tage ist jeweils eine Gebühr von 245,50 € (inkl. 19% Mehrwertsteuer) fällig.",
+      "content_fingerprint": "16848827f463",
       "content_preview": "Bei einer weiteren Nutzung von Mindable für zusätzliche 90 Tage ist jeweils eine Gebühr von 245,50 € (inkl. 19% Mehrwertsteuer) fällig.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Nutzung der DiGA für zusätzliche 90 Tage",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
       ],
+      "path_hash": "003e20a2ca5b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-nutzung-der-dig-7a56e117b7:field_value",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-nutzung-der-dig:003e20a2ca5b:field_value:0",
       "title": "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Erläuterung Mehrkosten",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Erläuterung Mehrkosten"
       ],
+      "path_hash": "a3f923587875",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-erlaeuterung-mehrkosten-7813cc6074:field_value",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-erlaeuterung-mehrkosten:a3f923587875:field_value:0",
       "title": "Erläuterung Mehrkosten"
     },
     {
       "content": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_fingerprint": "766782bdbccd",
       "content_preview": "Es fallen keine Mehrkosten für den Patienten an.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 11,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00329:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:11",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Verbesserungen für Patienten können entweder medizinischer Art sein (z.B. Verringerung von Schmerzen, Beitrag zur Heilung der Erkrankung) oder den Erkennungs- und Behandlungsprozess direkt unterstützen und erleichtern (z.B. Informationen zur individuellen Erkrankungssituation, Unterstützung bei der Einhaltung der zwischen Patient und Arzt gemeinsam vereinbarten therapeutischen Maßnahmen).",
+      "content_fingerprint": "b689545a79f8",
       "content_preview": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Ve...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "b1d946b15fae",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt-253662cf50:field_value",
+      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt:b1d946b15fae:field_value:0",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche Weise dies ggfs. bereits wissenschaftlich nachgewiesen wurde. Falls der positive Versorgungseffekt noch nicht abschließend nachgewiesen aber bereits so plausibel dargelegt wurde, dass die DiGA befristet zur entsprechenden Erprobung aufgenommen wurde, wird angegeben, für welchen Zeitraum dies erfolgt ist. Sofern (auch) ein Nachweis zum Erhalt der Erwerbsfähigkeit für die DiGA erbracht wurde oder eine Nachweisführung geplant ist, finden Sie hier eine Beschreibung und nähere Angaben zum Nachweis sowie zum Studiendesign. Sofern die DiGA (auch) ein diagnostisches Instrument darstellt, also mindestens in Teilen dazu vorgesehen ist, Informationen z.B. für die Erkennung oder Diagnose von Krankheitszuständen zu liefern, hat der Hersteller dies benannt und beschrieben sowie Sensitivität und Spezifität als wichtige Bewertungsgrößen angegeben.",
+      "content_fingerprint": "0bf9ee1dc4d9",
       "content_preview": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche We...",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:0",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Medizinischer Nutzen",
+      "content_fingerprint": "291175316d3d",
       "content_preview": "Medizinischer Nutzen",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Angaben zum positiven Versorgungseffekt",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Angaben zum positiven Versorgungseffekt"
       ],
+      "path_hash": "56d889aab765",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse-5449921803:field_value",
+      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse:56d889aab765:field_value:0",
       "title": "Angaben zum positiven Versorgungseffekt"
     },
     {
       "content": "Patientenrelevante Struktur- und Verfahrensverbesserung",
+      "content_fingerprint": "3d6e23bd735d",
       "content_preview": "Patientenrelevante Struktur- und Verfahrensverbesserung",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:1",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Autonomes Gesundheitshandeln des Patienten (Patientensouveränität)",
+      "content_fingerprint": "4a62a8fe51a6",
       "content_preview": "Autonomes Gesundheitshandeln des Patienten (Patientensouveränität)",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Patientenrelevante Struktur- und Verfahrensverbesserungen",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Patientenrelevante Struktur- und Verfahrensverbesserungen"
       ],
+      "path_hash": "435d0aeb3dfa",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt-patientenrelevante-struktur-und-ve-6612535d44:field_value",
+      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt-patientenrelevante-struktur-und-ve:435d0aeb3dfa:field_value:0",
       "title": "Patientenrelevante Struktur- und Verfahrensverbesserungen"
     },
     {
       "content": "Verbesserung des Gesundheitszustands",
+      "content_fingerprint": "58b8b11779d7",
       "content_preview": "Verbesserung des Gesundheitszustands",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Nähere Angaben zum medizinischen Nutzen",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Nähere Angaben zum medizinischen Nutzen"
       ],
+      "path_hash": "c2ba1d4f6a81",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen--90ce965dee:field_value",
+      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen-:c2ba1d4f6a81:field_value:0",
       "title": "Nähere Angaben zum medizinischen Nutzen"
     },
     {
       "content": "Verbesserung der Lebensqualität",
+      "content_fingerprint": "3112dcf8ae50",
       "content_preview": "Verbesserung der Lebensqualität",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:2",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Die Nutzung von \"Mindable: Panik & Agoraphobie\" reduziert die Angst- und Paniksymptomatik und führt zu einer Verbesserung des Gesundheitszustands.",
+      "content_fingerprint": "befd73a65f4c",
       "content_preview": "Die Nutzung von \"Mindable: Panik & Agoraphobie\" reduziert die Angst- und Paniksymptomatik und führt zu einer Verbesserung des Gesundheitszustands.",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Beschreibung des medizinischen Nutzens",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Beschreibung des medizinischen Nutzens"
       ],
+      "path_hash": "71ee9147d6be",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut-a677995e79:field_value",
+      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut:71ee9147d6be:field_value:0",
       "title": "Beschreibung des medizinischen Nutzens"
     },
     {
       "content": "Des Weiteren konnte nachgewiesen werden, dass durch die Nutzung von “Mindable: Panik & Agoraphobie” eine Verbesserung der gesundheitsbezogenen Lebensqualität erzielt werden kann.",
+      "content_fingerprint": "03dbd0023b83",
       "content_preview": "Des Weiteren konnte nachgewiesen werden, dass durch die Nutzung von “Mindable: Panik & Agoraphobie” eine Verbesserung der gesundheitsbezogenen Lebensqualität erzielt werden kann.",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:3",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Die Nutzung von “Mindable: Panik & Agoraphobie” steigert die Selbstwirksamkeit bzw. angstbezogene Kontrollüberzeugung und erhöht somit die Patientensouveränität des Nutzers / der Nutzerin.",
+      "content_fingerprint": "a354d74048fc",
       "content_preview": "Die Nutzung von “Mindable: Panik & Agoraphobie” steigert die Selbstwirksamkeit bzw. angstbezogene Kontrollüberzeugung und erhöht somit die Patientensouveränität des Nutzers / der Nutzerin.",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Nähere Beschreibung der patientenrelevanten Struktur- und Verfahrensverbesserung",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Nähere Beschreibung der patientenrelevanten Struktur- und Verfahrensverbesserung"
       ],
+      "path_hash": "89a9eaa0bd74",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt-naehere-beschreibung-der-patienten-859be4691e:field_value",
+      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt-naehere-beschreibung-der-patienten:89a9eaa0bd74:field_value:0",
       "title": "Nähere Beschreibung der patientenrelevanten Struktur- und Verfahrensverbesserung"
     },
     {
       "content": "Der Nachweis für den positiven Versorgungseffekt \"Verringerung krankheitsbedingter Einschränkungen im Alltag\" konnte im Rahmen der Studie nicht erbracht werden.",
+      "content_fingerprint": "6ab1f6a6b175",
       "content_preview": "Der Nachweis für den positiven Versorgungseffekt \"Verringerung krankheitsbedingter Einschränkungen im Alltag\" konnte im Rahmen der Studie nicht erbracht werden.",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:4",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Studie 1:",
+      "content_fingerprint": "9e0af74c589e",
       "content_preview": "Studie 1:",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Studie/n im PICO-Schema",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Studie/n im PICO-Schema"
       ],
+      "path_hash": "cd33a100690d",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema-2cb668dadb:field_value",
+      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema:cd33a100690d:field_value:0",
       "title": "Studie/n im PICO-Schema"
     },
     {
       "content": "Titel: „Evaluation eines strukturierten digitalen Selbstmanagementansatzes für Patient:innen mit Panikstörung und/oder Agoraphobie“ Population: Patientinnen und Patienten ab 18 Jahren, die aktuell die diagnostischen Kriterien einer Panikstörung (F41.0) und/oder einer Agoraphobie (F40.0) erfüllen. Intervention: Die Interventionsgruppe nutzt die Mindable-App für 8 Wochen. Control: Wartekontrollgruppe und allgemeine Hinweise zu Selbsthilfemöglichkeiten in der Wartezeit auf Psychotherapie auf Basis eines Informationsblattes Outcome: Primär • Panik und Agoraphobie-Skala Sekundär (konfirmatorisch) • WHO Quality of Life • Sheehan Disability Scale • Angst-Kontroll-Fragebogen Studie 2: Titel: „Smartphone-gestützte Expositionstherapie bei Panikstörung und Agoraphobie: Eine Wirksamkeitsuntersuchung“ Patient: Patientinnen und Patienten ab 18 Jahren mit einer diagnostizierten Panikstörung und/oder Agoraphobie Intervention: Zugang zur Mindable-App für 5 Wochen Comparison: • aktive Kontrollgruppe: Zugang zu App-basierten Entspannungstraining • passive Kontrollgruppe: keine Intervention Outcomes: • primärer Endpunkt: Schweregrad der Symptome einer Panikstörung mit oder ohne Agoraphobie, gemessen anhand der Panik- und Agoraphobie-Skala (PAS) • sekundärer Endpunkt: Lebensqualität, gemessen anhand der World Health Organization Quality of Life Kurzskala (WHOQOL-BREF)",
+      "content_fingerprint": "6c1c39941b38",
       "content_preview": "Titel: „Evaluation eines strukturierten digitalen Selbstmanagementansatzes für Patient:innen mit Panikstörung und/oder Agoraphobie“ Population: Patientinnen und Patienten ab 18 Jahren, die aktuell die diagnostischen Kriterien einer Panik...",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:5",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Studie 1:",
+      "content_fingerprint": "9e0af74c589e",
       "content_preview": "Studie 1:",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
       ],
+      "path_hash": "045f4d7c860c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u-804896bae6:field_value",
+      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u:045f4d7c860c:field_value:0",
       "title": "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
     },
     {
       "content": "In einer randomisiert kontrollierten klinischen Studie mit 107 Erwachsenen, die an Panikstörung oder Agoraphobie litten, wurde die App „Mindable: Panik & Agoraphobie“ getestet. Die Teilnehmenden wurden zufällig in 2 Gruppen eingeteilt: Eine Gruppe erhielt die App für 8 Wochen zur freien Nutzung, die andere hatte Zugang zur üblichen medizinischen Versorgung (Wartekontrollgruppe). Die Gruppe mit der MindablePanik-App zeigte eine deutlich stärkere Verbesserung ihres Gesundheitszustands (Reduktion der Angst- und Paniksymptomatik) im Vergleich zur Kontrollgruppe, gemessen anhand der Panik- und Agoraphobie-Skala (mittlerer Effekt, Cohen’s d = 0,64). Auch die Steigerung der Patientensouveränität war in der App-Gruppe signifikant höher (mittlerer Effekt, Cohen’s d = 53). Studie 2: In einer zweiten randomisiert kontrollierten Studie mit 111 Teilnehmenden und den gleichen Störungen wurde die Mindable-App erneut getestet. Diesmal gab es 3 Gruppen: Eine erhielt die Mindable-App, eine erhielt die Meditations-App „7Mind“ und die dritte hatte Zugang zur üblichen medizinischen Versorgung (Wartekontrollgruppe). Die Mindable-App zeigte erneut signifikante Verbesserungen im Gesundheitszustand (Reduktion der Angst- und Paniksymptomatik) im Vergleich zur Meditations-App „7Mind“ (mittlerer Effekt, Cohen’s d = 0,59) und der Wartekontrollgruppe (mittlerer Effekt, Cohen’s d = 0,70). Zusätzlich konnte die Studie nachweisen, dass die Verwendung der Mindable-App zu einer deutlichen Verbesserung der Lebensqualität bei den Teilnehmenden führte (mittlerer Effekt, Cohen’s d = 0,56). Zusammenfassung: Beide Studien zeigen, dass die Mindable-App bei Menschen mit Panikstörung oder Agoraphobie zu einer signifikanten Verbesserung des Gesundheitszustands führen kann. Die App hat auch positive Auswirkungen auf die Patientensouveränität und die Lebensqualität. Diese Ergebnisse wurden unter realen Bedingungen und mit verschiedenen Analysemethoden bestätigt.",
+      "content_fingerprint": "ff8fbbe5465d",
       "content_preview": "In einer randomisiert kontrollierten klinischen Studie mit 107 Erwachsenen, die an Panikstörung oder Agoraphobie litten, wurde die App „Mindable: Panik & Agoraphobie“ getestet. Die Teilnehmenden wurden zufällig in 2 Gruppen eingeteilt: E...",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:6",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Es wird eine Publikation in einem der folgenden Journale angestrebt: \"Journal of Medical Internet Research\" oder \"Journal of Technology in Human Services\". Zusätzlich werden die Studienergebnisse auf der Website von Mindable Health veröffentlicht: www.mindable.health/forschung",
+      "content_fingerprint": "12cac03ca68f",
       "content_preview": "Es wird eine Publikation in einem der folgenden Journale angestrebt: \"Journal of Medical Internet Research\" oder \"Journal of Technology in Human Services\". Zusätzlich werden die Studienergebnisse auf der Website von Mindable Health veröf...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Dies ist/sind die vom Hersteller angeführten Studie/n:",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Dies ist/sind die vom Hersteller angeführten Studie/n:"
       ],
+      "path_hash": "1b2b98450658",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt-dies-ist-sind-die-vom-hersteller-a-81dc280904:field_value",
+      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt-dies-ist-sind-die-vom-hersteller-a:1b2b98450658:field_value:0",
       "title": "Dies ist/sind die vom Hersteller angeführten Studie/n:"
     },
     {
       "content": "Psychotherapeutische Ambulanz der Jacobs University Bremen (PTA JUB; Hauptverantwortliches Zentrum) Jacobs University Bremen Campus Ring 1 28759 Bremen, Germany - Psychotherapeutische Ambulanz der PTA Hamburg Psychotherapieausbildung an der Universität Hamburg Amsinckstraße 41 20097 Hamburg, Germany - Studienleitung: Dr. Thomas Lang, Dr. Sylvia Helbig-Lang",
+      "content_fingerprint": "381a82622cdb",
       "content_preview": "Psychotherapeutische Ambulanz der Jacobs University Bremen (PTA JUB; Hauptverantwortliches Zentrum) Jacobs University Bremen Campus Ring 1 28759 Bremen, Germany - Psychotherapeutische Ambulanz der PTA Hamburg Psychotherapieausbildung an ...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
       ],
+      "path_hash": "6deb64749945",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt-herstellerunabhaengige-institution-85ca65af54:field_value",
+      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt-herstellerunabhaengige-institution:6deb64749945:field_value:0",
       "title": "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
     },
     {
       "content": "Nein",
+      "content_fingerprint": "70bb813787b6",
       "content_preview": "Nein",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Die DiGA enthält ein diagnostisches Instrument",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Die DiGA enthält ein diagnostisches Instrument"
       ],
+      "path_hash": "f07a273683a3",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch-eded43f154:field_value",
+      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch:f07a273683a3:field_value:0",
       "title": "Die DiGA enthält ein diagnostisches Instrument"
     },
     {
       "content": "24 Monate (12 Monate initial, 12 Monate Verlängerung)",
+      "content_fingerprint": "f8a79e4b75f0",
       "content_preview": "24 Monate (12 Monate initial, 12 Monate Verlängerung)",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Länge des Zeitraumes der vorläufigen Aufnahme",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Länge des Zeitraumes der vorläufigen Aufnahme"
       ],
+      "path_hash": "f50c229bb808",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt-laenge-des-zeitraumes-der-vorlaeuf-d645f91b3b:field_value",
+      "stable_key": "00329:informationen-zum-positiven-versorgungseffekt-laenge-des-zeitraumes-der-vorlaeuf:f50c229bb808:field_value:0",
       "title": "Länge des Zeitraumes der vorläufigen Aufnahme"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird. Die Anforderungen an die Datensicherheit werden durch Vorlage eines Zertifikats gemäß § 139e Absatz 10 Fünftes Buch Sozialgesetzbuch nachgewiesen. Detaillierte Informationen zu den einzelnen Anforderungen können Sie auf der Webseite des Bundesamts für Sicherheit in der Informationstechnik unter der Technischen Richtlinie \"BSI TR-03161\" finden: https://www.bsi.bund.de/dok/TR-03161 Bis zur Vorlage des Zertifikats gelten für den Bereich Datensicherheit die Anforderungen der nachfolgend dargestellten Checkliste.",
+      "content_fingerprint": "32cb1bd13010",
       "content_preview": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen v...",
       "content_type": "field_value",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 3,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "899b23823ae4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:field_value",
+      "stable_key": "00329:informationen-zu-datenschutz-und-datensicherheit:899b23823ae4:field_value:0",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine technische Möglichkeit einer Verknüpfung oder eines Datenaustauschs mit anderen digitalen Gesundheitsanwendungen. Zutreffend",
+      "content_fingerprint": "245e4382adf3",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutref...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "00329:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:0",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit > Datensicherheit",
       "level": 4,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit",
         "Datensicherheit"
       ],
+      "path_hash": "8545f237a1b9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:informationen-zu-datenschutz-und-datensicherheit-datensicherheit-14af255f91:field_value",
+      "stable_key": "00329:informationen-zu-datenschutz-und-datensicherheit-datensicherheit:8545f237a1b9:field_value:0",
       "title": "Datensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die Authentisierung erfolgt nicht unter Nutzung eines Passworts. Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung nutzt keine Sessions. Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung sieht keine unterschiedlichen Nutzerrollen vor. Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung erlaubt keinen Upload von Dateien. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung verarbeitet keine Daten, die durch die nutzende Person oder durch nicht durch die digitale Gesundheitsanwendung kontrollierte Quellen bereitgestellt werden. Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung greift weder auf Sensoren eines mobilen Endgeräts noch auf externe Hardware zu. Trifft nicht zu Die digitale Gesundheitsanwendung tauscht keine Daten mit externer Hardware aus. Zutreffend Zutreffend Zutreffend Nein",
+      "content_fingerprint": "a504d502d6b6",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die Authentisierung erfolgt nicht unter Nutzung eines Passworts. Zutreffend Trifft nicht zu Die digi...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "00329:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "00329:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:1",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der medizinischen Inhalte und die Gewährleistung der Patientensicherheit.",
+      "content_fingerprint": "0b320ca69209",
       "content_preview": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der me...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen",
       "level": 3,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "f85d7bfd4b8e",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-afe954d9f8:field_value",
+      "stable_key": "00329:weitere-informationen:f85d7bfd4b8e:field_value:0",
       "title": "Weitere Informationen"
     },
     {
       "content": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_fingerprint": "f14ccf82a937",
       "content_preview": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00329:weitere-informationen:df3724c46c56:section:0",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Interoperabilität",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Interoperabilität"
       ],
+      "path_hash": "43914a1ae1e9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-angaben-zur-interoperabilitaet-8867f27412:field_value",
+      "stable_key": "00329:weitere-informationen-angaben-zur-interoperabilitaet:43914a1ae1e9:field_value:0",
       "title": "Angaben zur Interoperabilität"
     },
     {
       "content": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versicherten getragenen Sensoren zur Messung und Übertragung von Vitalwerten (Wearables) austauscht. Zutreffend",
+      "content_fingerprint": "66ae23eeff50",
       "content_preview": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versiche...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00329:weitere-informationen:df3724c46c56:section:1",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Robustheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Robustheit"
       ],
+      "path_hash": "d416c871fdb6",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-angaben-zur-robustheit-0a511476df:field_value",
+      "stable_key": "00329:weitere-informationen-angaben-zur-robustheit:d416c871fdb6:field_value:0",
       "title": "Angaben zur Robustheit"
     },
     {
       "content": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
+      "content_fingerprint": "4b94c32e0d08",
       "content_preview": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digi...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00329:weitere-informationen:df3724c46c56:section:2",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zum Verbraucherschutz",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zum Verbraucherschutz"
       ],
+      "path_hash": "22c54da8ff9c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-angaben-zum-verbraucherschutz-05cd17969e:field_value",
+      "stable_key": "00329:weitere-informationen-angaben-zum-verbraucherschutz:22c54da8ff9c:field_value:0",
       "title": "Angaben zum Verbraucherschutz"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "409aa9901d82",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00329:weitere-informationen:df3724c46c56:section:3",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zu Nutzerfreundlichkeit und Barrierefreiheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
       ],
+      "path_hash": "a9d890d721a4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit-8fe873c531:field_value",
+      "stable_key": "00329:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit:a9d890d721a4:field_value:0",
       "title": "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
     },
     {
       "content": "Zutreffend Zutreffend",
+      "content_fingerprint": "f572c2f88946",
       "content_preview": "Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00329:weitere-informationen:df3724c46c56:section:4",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Unterstützung der Leistungserbringende",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Unterstützung der Leistungserbringende"
       ],
+      "path_hash": "bdfe86165ef2",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-unterstuetzung-der-leistungserbringende-d4e78dfd75:field_value",
+      "stable_key": "00329:weitere-informationen-unterstuetzung-der-leistungserbringende:bdfe86165ef2:field_value:0",
       "title": "Unterstützung der Leistungserbringende"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Qualität der medizinischen Inhalte",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Qualität der medizinischen Inhalte"
       ],
+      "path_hash": "964eb34f0609",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte-a6d05ceeb6:field_value",
+      "stable_key": "00329:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte:964eb34f0609:field_value:0",
       "title": "Angaben zur Qualität der medizinischen Inhalte"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "6a8d1dc0aa28",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00329:weitere-informationen:df3724c46c56:section:5",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Patientensicherheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Patientensicherheit"
       ],
+      "path_hash": "96d387fa1378",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-angaben-zur-patientensicherheit-7a67651ccd:field_value",
+      "stable_key": "00329:weitere-informationen-angaben-zur-patientensicherheit:96d387fa1378:field_value:0",
       "title": "Angaben zur Patientensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "477afefea65b",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "00329:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00329:weitere-informationen:df3724c46c56:section:6",
       "title": "Weitere Informationen"
     }
   ],
@@ -1047,10 +1375,10 @@
     "accordions_opened": 0,
     "content_section_count": 82,
     "field_value_count": 54,
-    "rendered_at": "2026-06-22T19:02:42.144946+00:00",
+    "rendered_at": "2026-06-22T20:30:15.327311+00:00",
     "source_kind": "visible_directory"
   },
   "source_kind": "visible_directory",
-  "timestamp": "20260622T190144Z",
+  "timestamp": "20260622T202912Z",
   "url": "https://diga.bfarm.de/de/verzeichnis/00329"
 }

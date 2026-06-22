@@ -2,974 +2,1274 @@
   "content_sections": [
     {
       "content": "Durch die multimodale Therapie reduziert Kaia Rückenschmerzen wirksam die Intensität nicht-spezifischer Rückenschmerzen und verbessert die körperliche Aktivität sowie das Krankheitsverständnis der Patientin bzw. des Patienten. Kaia Rückenschmerzen berücksichtigt die individuellen Voraussetzungen der Patientin bzw. des Patienten wie die körperliche Leistungsfähigkeit, die Schmerzintensität und die Schmerzlokalisation und ermöglicht so eine auf die Patientin bzw. den Patienten individuell angepasste Therapie. In der randomisierten kontrollierten Studie Rise-uP mit 1237 Patientinnen und Patienten mit nicht-spezifischen Rückenschmerzen mit 111 Ärztinnen und Ärzten in 56 Praxen in Deutschland wurde der medizinische Nutzen von Kaia Rückenschmerzen nachgewiesen. Die Patientinnen und Patienten der Interventionsgruppe zeigten eine signifikante und klinisch relevante Reduktion der Schmerzintensität. Des Weiteren zeigten sich signifikante Verbesserungen in der schmerzbedingten Beeinträchtigung, von Angst, Depression und Stress, der Funktionskapazität und der gesundheitsbezogenen Lebensqualität. Kaia Rückenschmerzen kann im Rahmen der Nachsorge, zur Überbrückung von Wartezeiten oder als Teil der Therapie (Therapiebegleitung) eingesetzt werden.",
+      "content_fingerprint": "3cde7fcd59a0",
       "content_preview": "Durch die multimodale Therapie reduziert Kaia Rückenschmerzen wirksam die Intensität nicht-spezifischer Rückenschmerzen und verbessert die körperliche Aktivität sowie das Krankheitsverständnis der Patientin bzw. des Patienten. Kaia Rücke...",
       "content_type": "section",
+      "display_path": "Kaia Rückenschmerzen - Rückentraining für Zuhause",
       "level": 2,
       "path": [
         "Kaia Rückenschmerzen - Rückentraining für Zuhause"
       ],
+      "path_hash": "5e1bcbf1b3e4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:kaia-rueckenschmerzen-rueckentraining-fuer-zuhause-64d42968b4:section",
+      "stable_key": "01330:kaia-rueckenschmerzen-rueckentraining-fuer-zuhause:5e1bcbf1b3e4:section:0",
       "title": "Kaia Rückenschmerzen - Rückentraining für Zuhause"
     },
     {
       "content": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_fingerprint": "26290d5ae490",
       "content_preview": "Hier finden Sie weitergehende Informationen zur DiGA.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "a5e395515816",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung:a5e395515816:field_value:0",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_fingerprint": "bfc5ca33598c",
       "content_preview": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:0",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Kaia Rückenschmerzen - Rückentraining für Zuhause",
+      "content_fingerprint": "6c4a10d200ea",
       "content_preview": "Kaia Rückenschmerzen - Rückentraining für Zuhause",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Name der DiGA im DiGA-Verzeichnis",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Name der DiGA im DiGA-Verzeichnis"
       ],
+      "path_hash": "b055b8e1c744",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v-132a49921b:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v:b055b8e1c744:field_value:0",
       "title": "Name der DiGA im DiGA-Verzeichnis"
     },
     {
       "content": "03.02.2023",
+      "content_fingerprint": "fefa05bd4cae",
       "content_preview": "03.02.2023",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Erstmalige Aufnahme in das DiGA-Verzeichnis",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Erstmalige Aufnahme in das DiGA-Verzeichnis"
       ],
+      "path_hash": "3d07f6258e5c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in--0901792b12:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in-:3d07f6258e5c:field_value:0",
       "title": "Erstmalige Aufnahme in das DiGA-Verzeichnis"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Modul",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Modul"
       ],
+      "path_hash": "fdfb704b702c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-modul-0b2f60dd90:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-modul:fdfb704b702c:field_value:0",
       "title": "Modul"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
       ],
+      "path_hash": "46556afef4cb",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-andere-namen-und-modell-ab7acb1427:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-andere-namen-und-modell:46556afef4cb:field_value:0",
       "title": "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
     },
     {
       "content": "App",
+      "content_fingerprint": "fc4a695f02a8",
       "content_preview": "App",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Art der DiGA",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Art der DiGA"
       ],
+      "path_hash": "600a0be84a95",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga-f41af95c79:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga:600a0be84a95:field_value:0",
       "title": "Art der DiGA"
     },
     {
       "content": "im Apple App Store Deutschland",
+      "content_fingerprint": "5a4cd838fc6e",
       "content_preview": "im Apple App Store Deutschland",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Die digitale Gesundheitsanwendung ist verfügbar",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Die digitale Gesundheitsanwendung ist verfügbar"
       ],
+      "path_hash": "6d3556c97e9a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit-70a197df25:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit:6d3556c97e9a:field_value:0",
       "title": "Die digitale Gesundheitsanwendung ist verfügbar"
     },
     {
       "content": "im Google Play Store Deutschland",
+      "content_fingerprint": "860262a8c802",
       "content_preview": "im Google Play Store Deutschland",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:1",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Deutschland, EU",
+      "content_fingerprint": "1934226f040b",
       "content_preview": "Deutschland, EU",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Standorte der Datenverarbeitung",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Standorte der Datenverarbeitung"
       ],
+      "path_hash": "eee99405da7f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera-426183d1fc:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera:eee99405da7f:field_value:0",
       "title": "Standorte der Datenverarbeitung"
     },
     {
       "content": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an • Sicherheit und Funktionstauglichkeit des Medizinproduktes • Datenschutz und Datensicherheit nach dem Stand der Technik • die Qualität des Medizinproduktes, einschließlich Interoperabilität",
+      "content_fingerprint": "8cb511aef329",
       "content_preview": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an • Sicherheit und Funktionstauglichkeit des Medizinproduktes • Datenschutz und Datensicherheit nach dem Stand der T...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Bewertungsentscheidung des BfArM",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Bewertungsentscheidung des BfArM"
       ],
+      "path_hash": "7d463e27c832",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung--cdc10aad7c:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung-:7d463e27c832:field_value:0",
       "title": "Bewertungsentscheidung des BfArM"
     },
     {
       "content": "entsprechend den Vorgaben der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) als erfüllt. Der Hersteller hat bestätigt, dass keine personenbezogenen Daten in ein Land ohne Angemessenheitsbeschluss, wie nach dem Urteil „Schrems II“ den USA, fließen. Das BfArM bewertet dieses Vorgehen als konform im Sinne der DiGAV. Der Hersteller, Kaia Health Software GmbH, legte zum Nachweis des positiven Versorgungseffekts „Verbesserung des Gesundheitszustands“ eine Cluster-randomisierte kontrollierte Studie mit dem Titel „Rise-uP – Rücken innovative Schmerztherapie mit e-Health für unsere Patienten” (registriert im Deutschen Register Klinischer Studien unter: DRKS00015048) vor. Im Rahmen dieser Studie wurden 1237 Patientinnen und Patienten mit akuten oder subakuten/rezidivierenden unspezifischen Rückenschmerzen in 2 Gruppen randomisiert. Die Interventionsgruppe (IG) erhielt das Versorgungskonzept „Rise-uP“, in welchem die DiGA „Kaia Rückenschmerzen: Schmerztherapie für Zuhause“ im Zentrum steht. Den Patientinnen und Patienten der IG stand ebenfalls die Regelversorgung zur Verfügung (z. B. Physiotherapie). Die Kontrollgruppe (KG) erhielt die Regelversorgung. Die Verbesserung des Gesundheitszustands (Reduktion des Schmerzniveaus) wurde mithilfe der Visuellen Analogskala (VAS, primärer Endpunkt) gemessen. Der primäre Erhebungszeitpunkt war 12 Monate nach Randomisierung. Weitere Messzeitpunkte waren nach 3 und 6 Monaten. Insgesamt zeigte sich eine statistisch signifikante und klinisch relevante Reduktion des Schmerzniveaus mit einer Differenz in der Veränderung Baseline zu 12 Monaten von 0,62 Punkten auf der VAS zu Gunsten der IG im Vergleich zur KG in der Intention-To-Treat-Analyse (ITT-Analyse) [95 % Konfidenzintervall (KI): 0,35; 0,88)]. Die Relevanz des Unterschieds blieb auch bei einer konservativen Sensitivitätsanalyse bestehen. Durch umfangreiche weitergehende Analysen konnte gezeigt werden, dass die Ergebnisse in den Gruppen „akuter Rückenschmerz“ und „subakuter/rezidivierender Rückenschmerz“ konsistent sind. Darüber hinaus waren die Ergebnisse in den Gruppen „abgeschlossene vorherige Physiotherapie“, „begleitende Physiotherapie“ und „ohne begleitende Physiotherapie“ konsistent. Auch nach 3 und 6 Monaten zeigten sich relevante Vorteile der IG gegenüber der KG im primären Endpunkt. Zusätzlich konnten statistisch signifikante Vorteile in den sekundären Endpunkten schmerzbedingte Beeinträchtigungen, gesundheitsbezogene Lebensqualität, depressive und ängstliche Symptomatik und Ausübung von Alltagstätigkeiten gezeigt werden. Im Rahmen der Studie wurde die DiGA bei Patientinnen und Patienten ohne begleitende Physiotherapie, mit begleitender Physiotherapie und mit abgeschlossener Physiotherapie untersucht. Entsprechend kann die DiGA im Rahmen einer Wartezeitüberbrückung (ohne Physiotherapie), als Therapiebegleitung oder nach abgeschlossener Physiotherapie eingesetzt werden. Entsprechend bewertet das BfArM die in § 139e des Fünften Buches Sozialgesetzbuch (SGB V) sowie in der DiGAV festgelegten Voraussetzungen zur endgültigen Aufnahme in das Verzeichnis nach § 139e Absatz 1 SGB V als erfüllt.",
+      "content_fingerprint": "d00e4970a86c",
       "content_preview": "entsprechend den Vorgaben der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) als erfüllt. Der Hersteller hat bestätigt, dass keine personenbezogenen Daten in ein Land ohne Angemessenheitsbeschluss, wie nach dem Urteil „Schrems II“ de...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:2",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_fingerprint": "4b8f5a46c1b0",
       "content_preview": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt"
       ],
+      "path_hash": "9af58630166c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:9af58630166c:field_value:0",
       "title": "Angaben zum Medizinprodukt"
     },
     {
       "content": "Kaia unterstützt Anwender bei der multidisziplinären Rehabilitation von unspezifischen Rückenschmerzen (M54.-), die seit mehr als 4 Wochen anhalten oder wenn im Vorfeld bereits Episoden solcher Rückenschmerzen vorlagen. - Du kannst Kaia Rückenschmerzen mit oder ohne aktuelle direkte Empfehlung oder Überwachung von ärztlicher Seite anwenden und führst die Übungen in Eigenregie durch. Jedoch solltest du dich vor dem Beginn einer ärztlichen Untersuchung unterzogen haben, um auszuschließen, dass deine Rückenschmerzen auf bestimmte Ursachen zurückzuführen sind, die eine spezielle Therapie erfordern und sicherzugehen, dass keine Gegenanzeigen für ein Training wie bei Kaia existieren.",
+      "content_fingerprint": "e956a74c612d",
       "content_preview": "Kaia unterstützt Anwender bei der multidisziplinären Rehabilitation von unspezifischen Rückenschmerzen (M54.-), die seit mehr als 4 Wochen anhalten oder wenn im Vorfeld bereits Episoden solcher Rückenschmerzen vorlagen. - Du kannst Kaia ...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Medizinische Zweckbestimmung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Medizinische Zweckbestimmung"
       ],
+      "path_hash": "8bde401e0e97",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:8bde401e0e97:field_value:0",
       "title": "Medizinische Zweckbestimmung"
     },
     {
       "content": "Risikoklasse IIa nach MDR",
+      "content_fingerprint": "320e2f812e36",
       "content_preview": "Risikoklasse IIa nach MDR",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Risikoklasse Medizinprodukt",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Risikoklasse Medizinprodukt"
       ],
+      "path_hash": "b60186e2af98",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:b60186e2af98:field_value:0",
       "title": "Risikoklasse Medizinprodukt"
     },
     {
       "content": "TÜV SÜD Product Service GmbH",
+      "content_fingerprint": "c905d43a0b3d",
       "content_preview": "TÜV SÜD Product Service GmbH",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Name der Benannten Stelle",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Name der Benannten Stelle"
       ],
+      "path_hash": "d8a546b6e09b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:d8a546b6e09b:field_value:0",
       "title": "Name der Benannten Stelle"
     },
     {
       "content": "0123",
+      "content_fingerprint": "c4b5c86bd577",
       "content_preview": "0123",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Kennnummer der Benannten Stelle",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Kennnummer der Benannten Stelle"
       ],
+      "path_hash": "7a4e1423425a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:7a4e1423425a:field_value:0",
       "title": "Kennnummer der Benannten Stelle"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > Identifikationsnummer Eudamed",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "Identifikationsnummer Eudamed"
       ],
+      "path_hash": "d5e73676d560",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:d5e73676d560:field_value:0",
       "title": "Identifikationsnummer Eudamed"
     },
     {
       "content": "+B942KBP10+$$+72.69+4",
+      "content_fingerprint": "42ddcfdca4f5",
       "content_preview": "+B942KBP10+$$+72.69+4",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt > UDI - Unique Device Identifier im Sinne der MDR",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt",
         "UDI - Unique Device Identifier im Sinne der MDR"
       ],
+      "path_hash": "95f9849b188b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:95f9849b188b:field_value:0",
       "title": "UDI - Unique Device Identifier im Sinne der MDR"
     },
     {
       "content": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_fingerprint": "ba6516ebde5f",
       "content_preview": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA"
       ],
+      "path_hash": "6921f5eac91a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:6921f5eac91a:field_value:0",
       "title": "Weitere Informationen zur DiGA"
     },
     {
       "content": "Zielsetzung - Kaia Rückenschmerzen ist eine digitale Anwendung für erwachsene Patientinnen und Patienten mit nicht-spezifischen Rückenschmerzen. Die Anwendung vermittelt leitlinienbasierte, an das Krankheitsstadium der Patientin bzw. des Patienten angepasste Kerninhalte der multimodalen Therapie. Das Ziel von Kaia Rückenschmerzen ist die Reduktion der Schmerzintensität, die nachweislich in klinischen Studien gezeigt werden konnte und gleichzeitig mit einer Verbesserung der Funktionskapazität sowie der gesundheitsbezogenen Lebensqualität einhergeht. - Wirkungsweise - Kaia Rückenschmerzen vermittelt der Patientin bzw. dem Patienten an jedem Trainingstag wechselnde Maßnahmen zur Behandlung der Rückenschmerzen, welche auf der multimodalen Therapie entsprechend der Nationalen VersorgungsLeitlinie „Nicht-spezifischer Kreuzschmerz“ basieren. Dazu zählen Bewegungstherapie, Entspannungstechniken und Patientenedukation. Durch die multimodale Therapie reduziert Kaia Rückenschmerzen die Intensität nicht-spezifischer Rückenschmerzen und verbessert die körperliche Aktivität sowie das Krankheitsverständnis der Patientin bzw. des Patienten. Kaia Rückenschmerzen berücksichtigt die individuellen Voraussetzungen wie die körperliche Leistungsfähigkeit, die Schmerzintensität und die Schmerzlokalisation und ermöglicht so eine auf die Patientin bzw. den Patienten individuell angepasste Therapie. - Inhalt - Die digitale Anwendung Kaia Rückenschmerzen setzt sich aus den Therapie-Elementen Bewegung, Wissen und Entspannung zusammen. Die Inhalte basieren auf den Vorgaben der Nationalen VersorgungsLeitlinie (NVL). Das Therapie-Element Bewegung ist auf die individuellen Fähigkeiten und Bedürfnisse der Patientin bzw. des Patienten zugeschnitten und wird für jedes Training an die körperliche Leistungsfähigkeit der Patientin bzw. des Patienten angepasst. Das Therapie-Element Wissen gibt jederzeit Zugang zu patientengerecht aufbereiteten Lerninhalten über Rückenschmerzen. Das Therapie-Element Entspannung besteht aus Übungen zum Selbstmanagement und Techniken zur Entspannung und Stressreduktion. - Nutzung - Kaia Rückenschmerzen wird nach ärztlicher Diagnose eigenständig von der Patientin bzw. dem Patienten angewendet. Die Nutzung ist in Bezug auf Ort und Zeit frei wählbar und wird an drei bis sieben Tagen in der Woche empfohlen. Zur Nutzung ist eine Internetverbindung via WLAN oder mobiler Datenverbindung erforderlich.",
+      "content_fingerprint": "9f019b94d139",
       "content_preview": "Zielsetzung - Kaia Rückenschmerzen ist eine digitale Anwendung für erwachsene Patientinnen und Patienten mit nicht-spezifischen Rückenschmerzen. Die Anwendung vermittelt leitlinienbasierte, an das Krankheitsstadium der Patientin bzw. des...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "ef6363788ef3",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:ef6363788ef3:field_value:0",
       "title": "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
     },
     {
       "content": "Beurteilung bei der erstmaligen Nutzung von Kaia Rückenschmerzen - Bei erstmaliger Nutzung von Kaia Rückenschmerzen wird die Patientin bzw. der Patient zur Krankheitssituation und Risikofaktoren befragt. Zunächst werden die Kontraindikationen abgefragt. Bejaht die Patientin bzw. der Patient eine der aufgeführten Kontraindikationen, ist eine Nutzung von Kaia Rückenschmerzen nicht möglich. - Des Weiteren werden die Schmerzlokalisation, die Schmerzintensität, die Einschränkung durch den Schmerz im Alltagsleben, die Besorgnis über eine Intensivierung des Schmerzes durch Bewegung und die Schmerzdauer abgefragt. Auf Basis dieser Angaben ordnet ein Therapiealgorithmus die Patientin bzw. den Patienten einem Behandlungspfad zu. Dieser bestimmt die Übungsauswahl, den Trainingsumfang und den Intensitätsgrad der Übungen. Nach der Beurteilung kann mit der Nutzung von Kaia Rückenschmerzen begonnen werden. - - Das Therapie-Element Bewegung - Das Bewegungstraining ist der Eckpfeiler des Therapieprograms. Es wird empfohlen, dieses an drei bis sieben Tagen pro Woche durchzuführen. Dazu schlägt der Therapiealgorithmus an jedem Tag wechselnde Übungen vor. - Vor Beginn des Bewegungstrainings wird die Patientin bzw. der Patient über die bevorstehenden Übungen und die Dauer der Ausführung informiert. In einem kurzen Video wird die jeweilige Übung erklärt. Es besteht außerdem die Möglichkeit, die Dauer der Einheit anzupassen. - Während des Bewegungstrainings wird die Patientin bzw. der Patient durch ausführliche Anleitungsvideos mit audiovisuellen Hinweisen durch die einzelnen Übungen geführt und kann sich durch den Bewegungscoach in der korrekten und sicheren Ausführung der Übungen unterstützen lassen. - Dazu nutzt der Bewegungscoach Künstliche Intelligenz (KI). Die Bewegungen werden von der Kamera des mobilen Endgeräts erfasst und durch KI-Algorithmen in Echtzeit analysiert und es werden audiovisuelle Anweisungen zur Verbesserung der Bewegungsausführung gegeben. - Im Anschluss an das Bewegungstraining wird die Patientin bzw. der Patient gefragt, ob ihr bzw. ihm die Übung gefallen hat und ob die Schwierigkeit der Übungen reduziert oder erhöht werden soll. Der Therapiealgorithmus berücksichtigt diese Rückmeldungen bei der Einordnung in den Behandlungspfad und der weiteren Zusammenstellung der Übungen. - - Das Therapie-Element Wissen - 3-5-minütige interaktive Wissenseinheiten vermitteln Patientinnen und Patienten relevante Informationen zu Rückenschmerzen - textbasiert und visuell aufbereitet. Die Wissenseinheiten basieren auf den Empfehlungen der Nationalen VersorgungsLeitlinie „Nicht-spezifischer Kreuzschmerz“ (NVL) und sind in patientengerechter Sprache aufbereitet. Ziele sind die Stärkung der Selbstkompetenz der Patientin bzw. des Patienten und die Bewältigung der Erkrankung nicht-spezifische Rückenschmerzen. - - Das Therapie-Element Entspannung - Patientinnen und Patienten erhalten täglich wechselnde Übungen aus zwei evidenzbasierten Verfahren, der progressiven Muskelrelaxation nach Jacobsen und Techniken basierend auf „mindfulness-based stress reduction“ (MBSR) nach Jon Kabat-Zinn. - Die Entspannungsübungen werden in gesprochener Form angeleitet. Ziel ist es, die Patientin bzw. den Patienten zu befähigen, Entspannung herbeizuführen und die Stressbewältigung zu unterstützen. - - Sonstige Funktionen Erinnerungen: Nutzende können festlegen, an welchen Wochentagen sie bzw. er trainieren möchte und Benachrichtigungen aktivieren, die an das Bewegungstraining erinnern. Fortschrittsanzeige: Übersicht über die dokumentierten Gesundheitsdaten zu Schmerzintensität, Schlafqualität und den absolvierten Übungen im Zeitverlauf. Die Auswertung dieser Daten kann als PDF-Datei heruntergeladen werden. Bibliothek: Direkter Zugriff auf bereits absolvierte und von der Patientin bzw. dem Patienten favorisierte Übungen. Hilfe: Durch die Hilfefunktion erhalten Nutzende Zugang zum Kundenservice von Kaia und können direkt aus der DiGA Fragen an den Kundendienst stellen.",
+      "content_fingerprint": "e75c18c1a69e",
       "content_preview": "Beurteilung bei der erstmaligen Nutzung von Kaia Rückenschmerzen - Bei erstmaliger Nutzung von Kaia Rückenschmerzen wird die Patientin bzw. der Patient zur Krankheitssituation und Risikofaktoren befragt. Zunächst werden die Kontraindikat...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Funktionen der digitalen Gesundheitsanwendung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Funktionen der digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "21931475406b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:21931475406b:field_value:0",
       "title": "Funktionen der digitalen Gesundheitsanwendung"
     },
     {
       "content": "Zentrum für interdisziplinäre Schmerzmedizin (ZIS) Klinikum rechts der Isar der Technischen Universität München - Ismaninger Straße 12 81675 München",
+      "content_fingerprint": "37b5179d6e75",
       "content_preview": "Zentrum für interdisziplinäre Schmerzmedizin (ZIS) Klinikum rechts der Isar der Technischen Universität München - Ismaninger Straße 12 81675 München",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
       ],
+      "path_hash": "32d92eb3d0dc",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:32d92eb3d0dc:field_value:0",
       "title": "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
     },
     {
       "content": "Anheyer, D. et al. (2017). Mindfulness-Based Stress Reduction for Treating Low Back Pain: A Systematic Review and Meta-Analysis. Annals of internal medicine, 166(11), 799-807. - Ardito R.B. et al. (2017). Mindfulness-Based Stress Reduction Program on Chronic Low Back Pain: A Study Investigating the Impact on Endocrine, Physical, and Psychologic Functioning. Journal of Alternative and Complementary Medicine, 23(8), 615-623. - Arnold B., Brinkschmidt T., Casser H.R., et al. Multimodale Schmerztherapie für die Behandlung chronischer Schmerzsyndrome. Schmerz 2014;28(5):459-72. DOI: 10.1007/s00482-014-1471-x. - ÄZQ. Nationale VersorgungsLeitlinie Nicht-Spezifischer Kreuzschmerz, 2. Auflage Version 1. https://www.leitlinien.de/themen/kreuzschmerz/2-auflage. Published 2017. - Bernstein, D. A., Borkovec, T. D., & Hazlett-Stevens, H. (2000). New directions in progressive relaxation training: A guidebook for helping professionals.Greenwood Publishing Group. - Brenke, P. D. R. (2012) Funktionelle Schmerztherapie des Bewegungssystems. Springer Berlin Heidelberg. - Brune, K., Beyer, A., & Schäfer, M. (2013). Schmerz: Pathophysiologie—Pharmakologie—Therapie. Springer-Verlag. - Derra, C. (2017). Progressive Relaxation: Neurobiologische Grundlagen und Praxiswissen für Ärzte und Psychologen. Springer-Verlag. - Diezemann, A. (2011). Entspannungsverfahren bei chronischem Schmerz. Der Schmerz, 25(4), 445-453. - Guzman J., Esmail R., Karjalainen K., et al. (2001). Multidisciplinary rehabilitation for chronic low back pain: systematic review. BMJ 2001;322(7301):1511-6. - Heinrich, M., Monstadt, D., & Michel, C. (2009). Psychologische Interventionen in der Behandlung chronischer Rückenschmerzen. Der Orthopäde, 38(10), 937-942.) - Jacobson, E. (1938). Progressive relaxation: A physiological and clinical investigation of muscular states and their significance in psychology and medical practice.University of Chicago Press. - Kamper SJ, Apeldoorn AT, Chiarotto A, et al. Multidisciplinary biopsychosocial rehabilitation for chronic low back pain. Cochrane Database Syst Rev 2014",
+      "content_fingerprint": "9440f3b57da1",
       "content_preview": "Anheyer, D. et al. (2017). Mindfulness-Based Stress Reduction for Treating Low Back Pain: A Systematic Review and Meta-Analysis. Annals of internal medicine, 166(11), 799-807. - Ardito R.B. et al. (2017). Mindfulness-Based Stress Reducti...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA > Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA",
         "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
       ],
+      "path_hash": "ad43221ee27a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:ad43221ee27a:field_value:0",
       "title": "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
     },
     {
       "content": "Kanji N. (2000). Management of pain through autogenic training. Complementary Therapies in Nursing and Midwifery, 6(3), 143-148. - Kohl, F. (2000). Die Progressive Muskelentspannung nach E. Jacobson – ein natürliches Entspannungsverfahren. Ärztezeitschrift für Naturheilverfahren, 41(12), 800-810. - Kröner-Herwig, B., Frettlöh, J., Klinger, R., & Nilges, P. (2011). Schmerzpsychotherapie. 7. Auflage Berlin: Springer Verlag. - Liddle SD, Gracey JH, Baxter GD. Advice for the management of low back pain: a systematic review of randomised controlled trials. Man Ther 2007;12(4):310-27. - National Institute for Health and Care Excellence. Low back pain and sciatica in over 16s: assessment and management. Available from: www.nice.org.uk/guidance/ng59. Published 30. November 2016. - Qaseem A., Wilt T.J., McLean R.M., Forceia M.A.; Clinical Guidelines Committee of the American College of Physicians. Noninvasive treatments for acute, subacute, and chronic low back pain: a clinical practice guideline from the American College of Physicians. Ann Intern Med. 2017;166(7):514-530. - Ramond A., Bouton C., Richard I., et al. Psychosocial risk factors for chronic low back pain in primary care—a systematic review. Fam Pract 2011;28(1):12-21. - Schütze A., Kaiser U., Ettrich U., et al. Evaluation of a multimodal pain therapy at the University Pain Centre Dresden [in German]. Der Schmerz. 2009;23(6):609-617. - Sendera, M., & Sendera, A. (2015). Chronischer Schmerz: Schulmedizinische, komplementärmedizinische und psychotherapeutische Aspekte. Springer-Verlag. - Von Wachter, M., & Hendrischke, A. (2016). Das Manual–Psychoedukation bei chronischem Schmerz. In Psychoedukation bei chronischen Schmerzen (pp. 29-37). Springer Berlin Heidelberg. - Wittchen, H. U., & Hoyer, J. (Eds.). (2011). Klinische Psychologie & Psychotherapie (Lehrbuch mit Online-Materialien). Springer-Verlag. S. 588.",
+      "content_fingerprint": "f7aaa74a619c",
       "content_preview": "Kanji N. (2000). Management of pain through autogenic training. Complementary Therapies in Nursing and Midwifery, 6(3), 143-148. - Kohl, F. (2000). Die Progressive Muskelentspannung nach E. Jacobson – ein natürliches Entspannungsverfahre...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:3",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_fingerprint": "77cea9e6788d",
       "content_preview": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal"
       ],
+      "path_hash": "4c8dba25a53c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:4c8dba25a53c:field_value:0",
       "title": "Beteiligung vom medizinischen Fachpersonal"
     },
     {
       "content": "Der Ablauf der Verschreibung von Kaia Rückenschmerzen ist identisch zu der Verschreibung von Medikamenten oder anderen medizinischen Geräten. Die folgenden Schritte sind hierbei möglich: - 1) Anamnese und Diagnose Im Rahmen der ärztlichen Anamnese schließt die Ärztin bzw. der Arzt spezifische Ursachen für die Rückenschmerzen der Patientin bzw. des Patienten aus, stellt die Diagnose und verordnet Kaia Rückenschmerzen unter Beachtung der Kontraindikationen. - 2) Aufklärung der Patientinnen und Patienten Während des medizinischen Behandlungsgesprächs ist es Aufgabe der Ärztin bzw. des Arztes, Patientinnen und Patienten über den bestimmungsgemäßen Gebrauch, die Zielsetzung, die Wirkungsweise und die Nutzung von Kaia Rückenschmerzen aufzuklären und ihnen eine adäquate Vorstellung zu vermitteln, was mit der Nutzung von Kaia Rückenschmerzen und dem einhergehenden multimodalen Behandlungsansatz verbunden ist. Insbesondere sollte die Ärztin bzw. der Arzt die Patientin bzw. den Patienten dazu anhalten, Kaia Rückenschmerzen regelmäßig über den verordneten Zeitraum zu nutzen. Darüber hinaus können Ärztinnen und Ärzte auf die Informationswebsite von Kaia Health verweisen, auf der Patientinnen und Patienten Hilfe bei der Freischaltung von Kaia Rückenschmerzen bekommen und Informationen zum Kundensupport finden. - 3) Verordnung Die Verordnung von Kaia Rückenschmerzen erfolgt auf dem Muster 16 für die Verordnung von Arznei-, Verband- und Hilfsmitteln. - 4) Verlaufskontrolle (optional) Die Patientin bzw. der Patient nutzt Kaia Rückenschmerzen selbstständig. Während der Nutzung von Kaia Rückenschmerzen haben Patientinnen und Patienten die Möglichkeit, einen Verlaufsbericht als PDF-Datei zu erstellen und diesen mit ihrer Ärztin bzw. ihrem Arzt zu besprechen. Auf Basis des Verlaufsberichtes können sich Ärztinnen und Ärzte einen Überblick über den Fortschritt der Patientin bzw. des Patienten machen und bei Bedarf eine Anpassung der Behandlung vornehmen. - Weitere Informationen unter https://www.kaiahealth.de/rueckenschmerzen/.",
+      "content_fingerprint": "e6554b7340bb",
       "content_preview": "Der Ablauf der Verschreibung von Kaia Rückenschmerzen ist identisch zu der Verschreibung von Medikamenten oder anderen medizinischen Geräten. Die folgenden Schritte sind hierbei möglich: - 1) Anamnese und Diagnose Im Rahmen der ärztliche...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal > Ärztinnen/ Ärzte",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal",
         "Ärztinnen/ Ärzte"
       ],
+      "path_hash": "736d25ff8830",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:736d25ff8830:field_value:0",
       "title": "Ärztinnen/ Ärzte"
     },
     {
       "content": "Nein",
+      "content_fingerprint": "70bb813787b6",
       "content_preview": "Nein",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal > Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal",
         "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
       ],
+      "path_hash": "844ec57e702e",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:844ec57e702e:field_value:0",
       "title": "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
     },
     {
       "content": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfohlen wird.",
+      "content_fingerprint": "ba2dc6143acd",
       "content_preview": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfoh...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise"
       ],
+      "path_hash": "af464e1a8e2f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-6922aa5eb2:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise:af464e1a8e2f:field_value:0",
       "title": "Anwendungshinweise"
     },
     {
       "content": "Diagnostik Kaia Rückenschmerzen darf nur nach gesicherter ärztlicher Diagnose angewendet werden. Es liegt im Ermessen der Ärztin bzw. des Arztes zu beurteilen, ob Kaia Rückenschmerzen für eine Patientin bzw. einen Patienten infrage kommt oder nicht. - Anwendung Kaia Rückenschmerzen beinhaltet Sicherheitsfunktionen, die helfen, ein potenzielles gesundheitliches Risiko bei der Nutzung zu minimieren. Diese Funktionen umfassen die Zugangsbeschränkung, die Zuordnung zu einem angemessenen Behandlungspfad sowie die Anleitung zur korrekten Ausführung der Bewegungsübungen. - Aufklärung über den bestimmungsgemäßen Gebrauch Patientinnen und Patienten werden vor der Erstanwendung in den Herstellerangaben im App/Google Play Store sowie in der Gebrauchsanweisung über die Indikationen und Kontraindikationen zum bestimmungsgemäßen Gebrauch informiert. Bevor eine Patientin bzw. ein Patient mit der Nutzung von Kaia Rückenschmerzen beginnen kann, muss sie bzw. er darüber hinaus bestätigen, dass keine Kontraindikationen vorliegen. - Zuordnung zu einem angemessenen Behandlungspfad Auf Basis der Angaben der Patientin bzw. des Patienten in der Beurteilung vor der ersten Nutzung ordnet ein Therapiealgorithmus sie bzw. ihn einem Behandlungspfad zu. Um eine sichere Anwendung von Kaia Rückenschmerzen zu gewährleisten, berücksichtigt der Therapiealgorithmus kontinuierlich die Angaben der Patientin bzw. des Patienten zu seiner körperlichen Leistungsfähigkeit. Sollten sich die Symptome der Patientin bzw. des Patienten verschlechtern, wird sie bzw. er aufgefordert sich in ärztliche Behandlung zu begeben. Diese Warnfunktion wird aktiv, wenn bei regelmäßiger Erfassung der Schmerzintensität eine signifikante Zunahme dieser festgestellt wird. - Anleitung zur korrekten Ausführung der Bewegungsübungen und Korrektur bei fehlerhafter Ausführung Um die korrekte Ausführung der Bewegungsübungen im häuslichen Umfeld zu unterstützen, wird die Patientin bzw. der Patient durch Videos angeleitet, sowie mittels Audio-Anweisungen während der Durchführung auf die häufigsten Fehler in der Übungsausführung hingewiesen. Sollte sich die Patientin bzw. der Patient unsicher über die korrekte Ausführung der Übung sein, hat er optional die Möglichkeit den auf künstlicher Intelligenz (KI) basierenden Bewegungscoach zu starten. Dieser gibt der Patientin bzw. dem Patienten in Echtzeit audiovisuelle Rückmeldung, ob die Übung korrekt ausgeführt wurde. - Im Rahmen der Zertifizierung als Medizinprodukt hat der Hersteller ein umfangreiches Qualitätssicherungssystem aufgebaut, um die genannten Sicherheitsfunktionen zu garantieren.",
+      "content_fingerprint": "b6befe279d48",
       "content_preview": "Diagnostik Kaia Rückenschmerzen darf nur nach gesicherter ärztlicher Diagnose angewendet werden. Es liegt im Ermessen der Ärztin bzw. des Arztes zu beurteilen, ob Kaia Rückenschmerzen für eine Patientin bzw. einen Patienten infrage kommt...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Hinweise für eine sichere Anwendung",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Hinweise für eine sichere Anwendung"
       ],
+      "path_hash": "ed840310f43d",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw-13263bcc58:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw:ed840310f43d:field_value:0",
       "title": "Hinweise für eine sichere Anwendung"
     },
     {
       "content": "Folgende weitere Ausschlusskriterien gelten, es sei denn, es liegt eine ärztliche Abklärung vor, dass die Anwendung von Kaia Rückenschmerzen im spezifischen Fall der Patientin bzw. des Patienten unbedenklich ist: - Kognitive Einschränkungen, welche die empfohlene Anwendung von Kaia Rückenschmerzen nicht zulassen. - Physische Einschränkungen, welche die empfohlene Anwendung von Kaia Rückenschmerzen nicht zulassen. - Alter > 65 Jahre - Spezifische Ursache für die vorliegende Rückenschmerz-Episode (spezifischer Rückenschmerz) - Nicht-spezifischer chronisch-konstanter Rückenschmerz",
+      "content_fingerprint": "103d34c7f805",
       "content_preview": "Folgende weitere Ausschlusskriterien gelten, es sei denn, es liegt eine ärztliche Abklärung vor, dass die Anwendung von Kaia Rückenschmerzen im spezifischen Fall der Patientin bzw. des Patienten unbedenklich ist: - Kognitive Einschränkun...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Weitere Ausschlusskriterien",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Weitere Ausschlusskriterien"
       ],
+      "path_hash": "77869fcfae9b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-weit-3d658a5f5f:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-weit:77869fcfae9b:field_value:0",
       "title": "Weitere Ausschlusskriterien"
     },
     {
       "content": "Empfehlenswert ist eine Mindestdauer der Nutzung von drei Monaten, da die randomisierte kontrollierte Studie Rise-uP zeigt, dass sich die Schmerzintensität nach dreimonatiger Nutzung von Kaia Rückenschmerzen signifikant gegenüber der Kontrollgruppe reduziert. - Die geeignete Anwendungsdauer hängt vom individuellen Krankheitsstadium der Patientin bzw. des Patienten ab und liegt im Ermessen der behandelnden Ärztin bzw. des behandelnden Arztes unter Berücksichtigung der individuellen Risikofaktoren und Krankheitslast der Patientin bzw. des Patienten.",
+      "content_fingerprint": "096fe6c572eb",
       "content_preview": "Empfehlenswert ist eine Mindestdauer der Nutzung von drei Monaten, da die randomisierte kontrollierte Studie Rise-uP zeigt, dass sich die Schmerzintensität nach dreimonatiger Nutzung von Kaia Rückenschmerzen signifikant gegenüber der Kon...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Vom Hersteller für erforderlich gehaltene Mindestdauer",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Vom Hersteller für erforderlich gehaltene Mindestdauer"
       ],
+      "path_hash": "b3d7024bc6a2",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom-:b3d7024bc6a2:field_value:0",
       "title": "Vom Hersteller für erforderlich gehaltene Mindestdauer"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Vom Hersteller für erforderlich gehaltene Höchstdauer",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Vom Hersteller für erforderlich gehaltene Höchstdauer"
       ],
+      "path_hash": "368408cd4f6e",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom-:368408cd4f6e:field_value:0",
       "title": "Vom Hersteller für erforderlich gehaltene Höchstdauer"
     },
     {
       "content": "Externe Geräte oder Sensoren sind für die Anwendung nicht erforderlich. In der Gebrauchsanweisung unter Rechtliches auf der Kaia Website (https://kaiahealth.de/rechtliches/bedienungsanleitung/) ist eine Übersicht zu den Systemanforderungen für mobile Endgeräte mit iOS oder Android Betriebssystemen zu finden.",
+      "content_fingerprint": "cbcbffc09937",
       "content_preview": "Externe Geräte oder Sensoren sind für die Anwendung nicht erforderlich. In der Gebrauchsanweisung unter Rechtliches auf der Kaia Website (https://kaiahealth.de/rechtliches/bedienungsanleitung/) ist eine Übersicht zu den Systemanforderung...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Kompatibilitätszusagen in Bezug auf unterstützte Geräte",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
       ],
+      "path_hash": "cbcc39ae8cdd",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-komp-0b84064997:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-komp:cbcc39ae8cdd:field_value:0",
       "title": "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
     },
     {
       "content": "Die Datenformate von Kaia Rückenschmerzen werden im FHIR-Standard (HL7 FHIR R4) kodiert. Dieser etablierte und international in der Gesundheitsbranche anerkannte Standard ermöglicht eine definierte und gleichzeitig flexible Ausgabe von verschiedensten Arten von Daten. - Die Ausgabe der FHIR-kompatiblen Daten erfolgt im JSON-Format. JSON ist ein offenes Datenaustauschformat und in RFC 8259 spezifiziert. - Die Beschreibung des semantischen Profils, in dem die Gesundheitsanwendungen von Kaia Health Nutzungsdaten in einem interoperablen Format bereitstellen können, ist auf vesta veröffentlicht: https://www.vesta-gematik.de/standards/detail/standards/fhir-datenexport-format-der-digitalen-gesundheitsanwendungen-von-kaia-health/ - Ein Verweis auf die Website der Gematik, auf der die von Kaia für die Interoperabilität genutzten Profile und Standards eingesehen werden können, findet sich auf der Unternehmenswebsite unter https://www.kaiahealth.de/rechtliches/impressum/.",
+      "content_fingerprint": "65a87f0da8a8",
       "content_preview": "Die Datenformate von Kaia Rückenschmerzen werden im FHIR-Standard (HL7 FHIR R4) kodiert. Dieser etablierte und international in der Gesundheitsbranche anerkannte Standard ermöglicht eine definierte und gleichzeitig flexible Ausgabe von v...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Möglichkeiten von standardisiertem Datenimport und Datenexport",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Möglichkeiten von standardisiertem Datenimport und Datenexport"
       ],
+      "path_hash": "4096563c9e44",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-moeg-b860ee673e:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-moeg:4096563c9e44:field_value:0",
       "title": "Möglichkeiten von standardisiertem Datenimport und Datenexport"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise > Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise",
         "Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen"
       ],
+      "path_hash": "1bca405661c7",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-anga-c3b43d0732:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-anga:1bca405661c7:field_value:0",
       "title": "Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen"
     },
     {
       "content": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs. weitere, durch Sie selbst aufzubringende Kosten, sofern Sie bestimmte zusätzlich angebotene und von der Verschreibung nicht abgedeckte Leistungen in Anspruch nehmen möchten.",
+      "content_fingerprint": "39d5160ffdea",
       "content_preview": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs....",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis"
       ],
+      "path_hash": "41c28a502494",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-429bde377d:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis:41c28a502494:field_value:0",
       "title": "Angaben zum Preis"
     },
     {
       "content": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+      "content_fingerprint": "4c34fe9d1a3e",
       "content_preview": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis > Preismodell",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis",
         "Preismodell"
       ],
+      "path_hash": "d5d16c880c10",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis-6eb719186f:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis:d5d16c880c10:field_value:0",
       "title": "Preismodell"
     },
     {
       "content": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "content_fingerprint": "341e24b7c036",
       "content_preview": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:4",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "221,49 €",
+      "content_fingerprint": "5a4f17ff44a8",
       "content_preview": "221,49 €",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
       ],
+      "path_hash": "351b8e240460",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-kosten-z-b-starterpaket-5641b0bf97:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-kosten-z-b-starterpaket:351b8e240460:field_value:0",
       "title": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
     },
     {
       "content": "221,49 €",
+      "content_fingerprint": "5a4f17ff44a8",
       "content_preview": "221,49 €",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Nutzung der DiGA für zusätzliche 90 Tage",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
       ],
+      "path_hash": "003e20a2ca5b",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-nutzung-der-dig-7a56e117b7:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-nutzung-der-dig:003e20a2ca5b:field_value:0",
       "title": "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Anmerkungen zum Preismodell",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Anmerkungen zum Preismodell"
       ],
+      "path_hash": "277cd06753d5",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-anmerkungen-zum-f3f338f2f7:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-anmerkungen-zum:277cd06753d5:field_value:0",
       "title": "Weitere Anmerkungen zum Preismodell"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Erläuterung Mehrkosten",
       "level": 3,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Erläuterung Mehrkosten"
       ],
+      "path_hash": "a3f923587875",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-erlaeuterung-mehrkosten-7813cc6074:field_value",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-erlaeuterung-mehrkosten:a3f923587875:field_value:0",
       "title": "Erläuterung Mehrkosten"
     },
     {
       "content": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_fingerprint": "766782bdbccd",
       "content_preview": "Es fallen keine Mehrkosten für den Patienten an.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01330:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:5",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Verbesserungen für Patienten können entweder medizinischer Art sein (z.B. Verringerung von Schmerzen, Beitrag zur Heilung der Erkrankung) oder den Erkennungs- und Behandlungsprozess direkt unterstützen und erleichtern (z.B. Informationen zur individuellen Erkrankungssituation, Unterstützung bei der Einhaltung der zwischen Patient und Arzt gemeinsam vereinbarten therapeutischen Maßnahmen).",
+      "content_fingerprint": "b689545a79f8",
       "content_preview": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Ve...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "b1d946b15fae",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:informationen-zum-positiven-versorgungseffekt-253662cf50:field_value",
+      "stable_key": "01330:informationen-zum-positiven-versorgungseffekt:b1d946b15fae:field_value:0",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche Weise dies ggfs. bereits wissenschaftlich nachgewiesen wurde. Falls der positive Versorgungseffekt noch nicht abschließend nachgewiesen aber bereits so plausibel dargelegt wurde, dass die DiGA befristet zur entsprechenden Erprobung aufgenommen wurde, wird angegeben, für welchen Zeitraum dies erfolgt ist. Sofern (auch) ein Nachweis zum Erhalt der Erwerbsfähigkeit für die DiGA erbracht wurde oder eine Nachweisführung geplant ist, finden Sie hier eine Beschreibung und nähere Angaben zum Nachweis sowie zum Studiendesign. Sofern die DiGA (auch) ein diagnostisches Instrument darstellt, also mindestens in Teilen dazu vorgesehen ist, Informationen z.B. für die Erkennung oder Diagnose von Krankheitszuständen zu liefern, hat der Hersteller dies benannt und beschrieben sowie Sensitivität und Spezifität als wichtige Bewertungsgrößen angegeben.",
+      "content_fingerprint": "0bf9ee1dc4d9",
       "content_preview": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche We...",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "01330:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:0",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Medizinischer Nutzen",
+      "content_fingerprint": "291175316d3d",
       "content_preview": "Medizinischer Nutzen",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Angaben zum positiven Versorgungseffekt",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Angaben zum positiven Versorgungseffekt"
       ],
+      "path_hash": "56d889aab765",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse-5449921803:field_value",
+      "stable_key": "01330:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse:56d889aab765:field_value:0",
       "title": "Angaben zum positiven Versorgungseffekt"
     },
     {
       "content": "Verbesserung des Gesundheitszustands",
+      "content_fingerprint": "58b8b11779d7",
       "content_preview": "Verbesserung des Gesundheitszustands",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Nähere Angaben zum medizinischen Nutzen",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Nähere Angaben zum medizinischen Nutzen"
       ],
+      "path_hash": "c2ba1d4f6a81",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen--90ce965dee:field_value",
+      "stable_key": "01330:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen-:c2ba1d4f6a81:field_value:0",
       "title": "Nähere Angaben zum medizinischen Nutzen"
     },
     {
       "content": "Der medizinische Nutzen von Kaia Rückenschmerzen besteht in der Verbesserung des Gesundheitszustands durch die Reduktion der bei Patientinnen und Patienten mit nicht-spezifischen Rückenschmerzen. - Kaia Rückenschmerzen stellt die wesentlichen Inhalte der multimodalen Therapie bestehend aus Bewegungstraining, Entspannung und Edukation für Patientinnen und Patienten mit nicht-spezifischen Rückenschmerzen digital zur Verfügung. - Die digitale Aufbereitung der Kerninhalte der multimodalen Therapie fördert die Eigeninitiative der Patientinnen und Patienten und vereinfacht die frühzeitige Einleitung von leitliniengerechten Behandlungsmaßnahmen bei nicht-spezifischen Rückenschmerzen. - Die Reduktion der Schmerzintensität stellt für Patientinnen und Patienten einen wesentlichen Faktor in der Verbesserung des Gesundheitszustands und der Lebensqualität dar. - Eine Besserung der Schmerzen und die Beibehaltung der körperlichen Aktivität zählen zu den zentralen Behandlungszielen gemäß der Nationalen VersorgungsLeitlinie „Nicht-spezifischer Kreuzschmerz“.",
+      "content_fingerprint": "73223210bea5",
       "content_preview": "Der medizinische Nutzen von Kaia Rückenschmerzen besteht in der Verbesserung des Gesundheitszustands durch die Reduktion der bei Patientinnen und Patienten mit nicht-spezifischen Rückenschmerzen. - Kaia Rückenschmerzen stellt die wesentl...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Beschreibung des medizinischen Nutzens",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Beschreibung des medizinischen Nutzens"
       ],
+      "path_hash": "71ee9147d6be",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut-a677995e79:field_value",
+      "stable_key": "01330:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut:71ee9147d6be:field_value:0",
       "title": "Beschreibung des medizinischen Nutzens"
     },
     {
       "content": "Titel der Studie Rise-uP – Rücken innovative Schmerztherapie mit e-Health für unsere Patienten -–P - Patients In die Studie wurden 1237 erwachsene Patientinnen und Patienten (m/w/d) mit nicht-spezifischen Rückenschmerzen eingeschlossen. -–I - Intervention Alle Patientinnen und Patienten aus der Interventionsgruppe erhielten Zugang zur digitalen Anwendung Kaia Rückenschmerzen über den gesamten Studienzeitraum von 12 Monaten. -–C - Control Patientinnen und Patienten aus der Kontrollgruppe erhielten keinen Zugang zu Kaia Rückenschmerzen und wurden im Rahmen der in Deutschland üblichen Therapie in der Versorgungsrealität behandelt. –-O - Outcome Primärer Endpunkt: Reduktion der Schmerzintensität - Sekundäre Endpunkte: Verringerung der schmerzbedingten Beeinträchtigung (von Korff) Steigerung der gesundheitsbezogenen Lebensqualität (VR-12) Verbesserung der Fähigkeit Alltagstätigkeiten auszuüben (FFbH-R, Funktionskapazität) Verringerung der ängstlichen und depressiven Symptomatik (DASS) - Signifikante Reduktion der Schmerzintensität in der Interventionsgruppe im Vergleich zur Kontrollgruppe. - In der Interventionsgruppe zeigte sich eine durchschnittliche relative Schmerzreduktion von 33 % nach 3 Monaten und 46 % nach 12 Monaten. Die beobachtete Schmerzreduktion in der Interventionsgruppe erreichte somit bereits nach 3 Monaten und zu allen weiteren Beobachtungszeitpunkten die Schwelle der klinischen Relevanz (MCID). Auch in allen sekundären Endpunkten zeigte sich eine statistisch signifikante Verbesserung zu Gunsten der Interventionsgruppe.",
+      "content_fingerprint": "baddf8c08f62",
       "content_preview": "Titel der Studie Rise-uP – Rücken innovative Schmerztherapie mit e-Health für unsere Patienten -–P - Patients In die Studie wurden 1237 erwachsene Patientinnen und Patienten (m/w/d) mit nicht-spezifischen Rückenschmerzen eingeschlossen. ...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Studie/n im PICO-Schema",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Studie/n im PICO-Schema"
       ],
+      "path_hash": "cd33a100690d",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema-2cb668dadb:field_value",
+      "stable_key": "01330:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema:cd33a100690d:field_value:0",
       "title": "Studie/n im PICO-Schema"
     },
     {
       "content": "Studiendesign und Registrierung Der Nachweis des positiven Versorgungseffekts wird auf Basis der cluster-randomisierten kontrollierten Studie mit dem Titel „Rise-uP – Rücken innovative Schmerztherapie mit e-Health für unsere Patienten“ erbracht. Das Studiendesign erhielt ein positives Votum durch die Ethikkommission des Klinikums rechts der Isar der Technischen Universität München (272/17 S). Die Studie wurde beim Deutschen Register klinischer Studien (DRKS) unter der ID DRKS-ID: DRKS00015048 registriert. - Im Rahmen der Studie wurden Hausarztpraxen, die Patientinnen und Patienten mit Rückenschmerzen versorgen, rekrutiert und auf den Interventions- oder den Kontrollarm randomisiert. Es wurden erwachsene Patientinnen und Patienten mit akuten, subakuten und rezidivierenden nicht-spezifischen Rückenschmerzen im Alter von 18-65 Jahren eingeschlossen. Patientinnen und Patienten in der Interventionsgruppe erhielten Zugang zu Kaia Rückenschmerzen. Patientinnen und Patienten in der Kontrollgruppe erhielten keinen Zugang zu Kaia Rückenschmerzen und wurden im Rahmen der in Deutschland üblichen Therapie in der Versorgungsrealität behandelt. - Der Zeitraum der Intervention und die Beobachtungsdauer betrugen 12 Monate mit Datenerhebungen zu Studienbeginn sowie nach 3, 6 und 12 Monaten mittels elektronischer Patiententagebücher. Primärer Endpunkt der Studie war die Reduktion der Schmerzintensität, evaluiert auf einer 11-Punkt-Skala (Numerische Rating-Skala, NRS). Bei der NRS handelt es sich um eine validierte Schmerzskala. Zum jeweiligen Auswertungszeitpunkt wurde ein Schmerzindex aus dem aktuellen sowie dem maximalen und dem durchschnittlichen Schmerzniveau der letzten vier Wochen gebildet. - Sekundäre Endpunkte waren die schmerzbedingte Beeinträchtigung gemessen über den Disability-Score des Fragebogens nach von Korff, die Ausprägung ängstlicher und depressiver Symptomatik gemessen mit dem Depression Anxiety and Stress Scale (DASS), die gesundheitsbezogene Lebensqualität gemessen mit dem Veterans RAND 12 Item Survey (VR-12) sowie die Ausübung von Alltagstätigkeiten gemessen mit dem Funktionsfragebogen Hannover Rücken (FFbH-R). - Ergebnis Insgesamt wurden 1237 Patientinnen und Patienten bei 56 Arztpraxen mit 111 Hausärztinnen und Hausärzten in die Studie eingeschlossen, wovon 930 der Interventions- und 307 der Kontrollgruppe zugeordnet wurden. Nachdem bei der Baseline-Befragung kein signifikanter Unterschied in den erhobenen Daten zum primären Endpunkt vorlag, zeigte sich eine signifikante Reduktion der Schmerzintensität für Patientinnen und Patienten in der Interventionsgruppe zu den Erhebungszeitpunkten nach 3, 6 und 12 Monaten. Zum primären Erhebungszeitpunkt nach 12 Monaten in der ITT-Analyse zeigte sich ein statistisch signifikanter Unterschied (p<0,001) von 0,85 (95 % KI: [1,23; 0,48]) Punkten in der Schmerzreduktion zwischen Interventions- und Kontrollgruppe (IG: -2,55; KG: -1,70). Die durchschnittliche relative Schmerzreduktion betrug in der Interventionsgruppe 46 %, während die Kontrollgruppe durchschnittlich lediglich eine relative Reduktion der Schmerzintensität um 24 % erreichte. Damit erreichte die Schmerzreduktion für Patientinnen und Patienten in der Interventionsgruppe bereits nach 3 Monaten und zu allen weiteren Beobachtungszeitpunkten die Schwelle der klinischen Relevanz (minimal clinically important difference, MCID) und ist somit patientenrelevant. - Die sekundären Endpunkte schmerzbedingte Beeinträchtigung (von Korff), depressive und ängstliche Symptomatik (DASS), gesundheitsbezogene Lebensqualität (VR-12) sowie Funktionskapazität (FFbH-R) wiesen ebenso signifikante Verbesserungen in der Interventionsgruppe im Vergleich zur Kontrollgruppe auf. - Die dargelegte Studie zeigt, dass Kaia Rückenschmerzen die Schmerzen der Patientinnen und Patienten wirksam und langfristig reduzieren kann. Darüber hinaus demonstriert die Studie eine wirtschaftliche Überlegenheit der Interventionsgruppe gegenüber der Kontrollgruppe.",
+      "content_fingerprint": "98fe943adf72",
       "content_preview": "Studiendesign und Registrierung Der Nachweis des positiven Versorgungseffekts wird auf Basis der cluster-randomisierten kontrollierten Studie mit dem Titel „Rise-uP – Rücken innovative Schmerztherapie mit e-Health für unsere Patienten“ e...",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
       ],
+      "path_hash": "045f4d7c860c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u-804896bae6:field_value",
+      "stable_key": "01330:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u:045f4d7c860c:field_value:0",
       "title": "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
     },
     {
       "content": "Priebe, Janosch A., et al. \"Medical App Treatment of Non-Specific Low Back Pain in the 12-month Cluster-Randomized Controlled Trial Rise-uP: Where Clinical Superiority Meets Cost Savings.\" Journal of Pain Research (2024): 2239-2255.",
+      "content_fingerprint": "fdb7f1b06761",
       "content_preview": "Priebe, Janosch A., et al. \"Medical App Treatment of Non-Specific Low Back Pain in the 12-month Cluster-Randomized Controlled Trial Rise-uP: Where Clinical Superiority Meets Cost Savings.\" Journal of Pain Research (2024): 2239-2255.",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Dies ist/sind die vom Hersteller angeführten Studie/n:",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Dies ist/sind die vom Hersteller angeführten Studie/n:"
       ],
+      "path_hash": "1b2b98450658",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:informationen-zum-positiven-versorgungseffekt-dies-ist-sind-die-vom-hersteller-a-81dc280904:field_value",
+      "stable_key": "01330:informationen-zum-positiven-versorgungseffekt-dies-ist-sind-die-vom-hersteller-a:1b2b98450658:field_value:0",
       "title": "Dies ist/sind die vom Hersteller angeführten Studie/n:"
     },
     {
       "content": "Priebe, Janosch A., et al. \"Digital treatment of back pain versus standard of care: the cluster-randomized controlled trial, rise-uP.\" Journal of pain research (2020): 1823-1838.",
+      "content_fingerprint": "354b9ad7af4e",
       "content_preview": "Priebe, Janosch A., et al. \"Digital treatment of back pain versus standard of care: the cluster-randomized controlled trial, rise-uP.\" Journal of pain research (2020): 1823-1838.",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01330:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "01330:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:1",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Nein",
+      "content_fingerprint": "70bb813787b6",
       "content_preview": "Nein",
       "content_type": "field_value",
+      "display_path": "Informationen zum positiven Versorgungseffekt > Die DiGA enthält ein diagnostisches Instrument",
       "level": 3,
       "path": [
         "Informationen zum positiven Versorgungseffekt",
         "Die DiGA enthält ein diagnostisches Instrument"
       ],
+      "path_hash": "f07a273683a3",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch-eded43f154:field_value",
+      "stable_key": "01330:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch:f07a273683a3:field_value:0",
       "title": "Die DiGA enthält ein diagnostisches Instrument"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird. Die Anforderungen an die Datensicherheit werden durch Vorlage eines Zertifikats gemäß § 139e Absatz 10 Fünftes Buch Sozialgesetzbuch nachgewiesen. Detaillierte Informationen zu den einzelnen Anforderungen können Sie auf der Webseite des Bundesamts für Sicherheit in der Informationstechnik unter der Technischen Richtlinie \"BSI TR-03161\" finden: https://www.bsi.bund.de/dok/TR-03161 Bis zur Vorlage des Zertifikats gelten für den Bereich Datensicherheit die Anforderungen der nachfolgend dargestellten Checkliste.",
+      "content_fingerprint": "32cb1bd13010",
       "content_preview": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen v...",
       "content_type": "field_value",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 3,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "899b23823ae4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:field_value",
+      "stable_key": "01330:informationen-zu-datenschutz-und-datensicherheit:899b23823ae4:field_value:0",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die Nutzung der digitalen Gesundheitsanwendung ist auf ein privates IT-System der nutzenden Person beschränkt. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine technische Möglichkeit einer Verknüpfung oder eines Datenaustauschs mit anderen digitalen Gesundheitsanwendungen. Trifft nicht zu Die digitale Gesundheitsanwendung unterstützt keine Offenbarung von Informationen der betroffenen Person oder über die betroffene Person für die Öffentlichkeit oder eine für die betroffene Person nicht eingrenzbare Personengruppe.",
+      "content_fingerprint": "880b6a78b0ce",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die Nutzung der digitalen Gesundheitsanwendung ist auf ein privates IT-System der nutzend...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "01330:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:0",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit > Datensicherheit",
       "level": 4,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit",
         "Datensicherheit"
       ],
+      "path_hash": "8545f237a1b9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:informationen-zu-datenschutz-und-datensicherheit-datensicherheit-14af255f91:field_value",
+      "stable_key": "01330:informationen-zu-datenschutz-und-datensicherheit-datensicherheit:8545f237a1b9:field_value:0",
       "title": "Datensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung sieht keine unterschiedlichen Nutzerrollen vor. Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung erlaubt keinen Upload von Dateien. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung greift weder auf Sensoren eines mobilen Endgeräts noch auf externe Hardware zu. Trifft nicht zu Die digitale Gesundheitsanwendung tauscht keine Daten mit externer Hardware aus. Zutreffend Zutreffend Zutreffend Nein",
+      "content_fingerprint": "c7ce1fe4b332",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung sieht keine...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01330:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "01330:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:1",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der medizinischen Inhalte und die Gewährleistung der Patientensicherheit.",
+      "content_fingerprint": "0b320ca69209",
       "content_preview": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der me...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen",
       "level": 3,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "f85d7bfd4b8e",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-afe954d9f8:field_value",
+      "stable_key": "01330:weitere-informationen:f85d7bfd4b8e:field_value:0",
       "title": "Weitere Informationen"
     },
     {
       "content": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_fingerprint": "f14ccf82a937",
       "content_preview": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01330:weitere-informationen:df3724c46c56:section:0",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Interoperabilität",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Interoperabilität"
       ],
+      "path_hash": "43914a1ae1e9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-angaben-zur-interoperabilitaet-8867f27412:field_value",
+      "stable_key": "01330:weitere-informationen-angaben-zur-interoperabilitaet:43914a1ae1e9:field_value:0",
       "title": "Angaben zur Interoperabilität"
     },
     {
       "content": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versicherten getragenen Sensoren zur Messung und Übertragung von Vitalwerten (Wearables) austauscht. Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "922bba61baf0",
       "content_preview": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versiche...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01330:weitere-informationen:df3724c46c56:section:1",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Robustheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Robustheit"
       ],
+      "path_hash": "d416c871fdb6",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-angaben-zur-robustheit-0a511476df:field_value",
+      "stable_key": "01330:weitere-informationen-angaben-zur-robustheit:d416c871fdb6:field_value:0",
       "title": "Angaben zur Robustheit"
     },
     {
       "content": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
+      "content_fingerprint": "4b94c32e0d08",
       "content_preview": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digi...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01330:weitere-informationen:df3724c46c56:section:2",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zum Verbraucherschutz",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zum Verbraucherschutz"
       ],
+      "path_hash": "22c54da8ff9c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-angaben-zum-verbraucherschutz-05cd17969e:field_value",
+      "stable_key": "01330:weitere-informationen-angaben-zum-verbraucherschutz:22c54da8ff9c:field_value:0",
       "title": "Angaben zum Verbraucherschutz"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "409aa9901d82",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01330:weitere-informationen:df3724c46c56:section:3",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zu Nutzerfreundlichkeit und Barrierefreiheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
       ],
+      "path_hash": "a9d890d721a4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit-8fe873c531:field_value",
+      "stable_key": "01330:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit:a9d890d721a4:field_value:0",
       "title": "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
     },
     {
       "content": "Zutreffend Zutreffend",
+      "content_fingerprint": "f572c2f88946",
       "content_preview": "Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01330:weitere-informationen:df3724c46c56:section:4",
       "title": "Weitere Informationen"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Unterstützung der Leistungserbringende",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Unterstützung der Leistungserbringende"
       ],
+      "path_hash": "bdfe86165ef2",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-unterstuetzung-der-leistungserbringende-d4e78dfd75:field_value",
+      "stable_key": "01330:weitere-informationen-unterstuetzung-der-leistungserbringende:bdfe86165ef2:field_value:0",
       "title": "Unterstützung der Leistungserbringende"
     },
     {
       "content": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Kaia Rückenschmerzen sieht keinen eigenen Datenzugang für einzubeziehende Leistungserbringende vor. Die Patientin oder der Patient kann eigenverantwortlich einen PDF-Export erstellen, der die Evaluation des Behandlungserfolgs durch die Ärztin oder den Arzt unterstützt.",
+      "content_fingerprint": "dbf0b9d9e1d5",
       "content_preview": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Triff...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01330:weitere-informationen:df3724c46c56:section:5",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Qualität der medizinischen Inhalte",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Qualität der medizinischen Inhalte"
       ],
+      "path_hash": "964eb34f0609",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte-a6d05ceeb6:field_value",
+      "stable_key": "01330:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte:964eb34f0609:field_value:0",
       "title": "Angaben zur Qualität der medizinischen Inhalte"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "6a8d1dc0aa28",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01330:weitere-informationen:df3724c46c56:section:6",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Patientensicherheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Patientensicherheit"
       ],
+      "path_hash": "96d387fa1378",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-angaben-zur-patientensicherheit-7a67651ccd:field_value",
+      "stable_key": "01330:weitere-informationen-angaben-zur-patientensicherheit:96d387fa1378:field_value:0",
       "title": "Angaben zur Patientensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "477afefea65b",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 7,
       "source_kind": "visible_directory",
-      "stable_key": "01330:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01330:weitere-informationen:df3724c46c56:section:7",
       "title": "Weitere Informationen"
     }
   ],
@@ -979,10 +1279,10 @@
     "accordions_opened": 0,
     "content_section_count": 75,
     "field_value_count": 56,
-    "rendered_at": "2026-06-22T19:08:57.617358+00:00",
+    "rendered_at": "2026-06-22T20:36:33.566114+00:00",
     "source_kind": "visible_directory"
   },
   "source_kind": "visible_directory",
-  "timestamp": "20260622T190144Z",
+  "timestamp": "20260622T202912Z",
   "url": "https://diga.bfarm.de/de/verzeichnis/01330"
 }

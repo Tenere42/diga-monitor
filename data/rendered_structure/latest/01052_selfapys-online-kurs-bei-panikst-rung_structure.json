@@ -2,425 +2,561 @@
   "content_sections": [
     {
       "content": "Selfapy bietet Betroffenen mit einer Panikstörung einen individuellen Online-Kurs, der auf evidenzbasierten Theorien und Techniken der Kognitiven Verhaltenstherapie basiert. Die therapeutischen Inhalte können über den internetbasierten Kurs von dem oder der Betroffenen selbstständig bearbeitet werden, wobei der Fortschritt durchgängig von einem Psychologen bzw. einer Psychologin überwacht wird. Der Panik-Kurs ist in einzelne Lektionen aufgeteilt, welche sich jeweils mit einem Thema beschäftigen wie beispielsweise dem Umgang der automatischen Gedanken, die hinter einer Angststörung stehen, den Angstreaktionen und körperlichen Symptomen, Expositionsübungen sowie Übungen zur Achtsamkeit. Die Inhalte werden mit Hilfe von anschaulichen Audio- und Videoclips, Texten und Übungen vermittelt. Die Inhalte passen sich individuell an die persönliche Situation des oder der Betroffenen an. Zur Wahrung der Patientensicherheit erfolgt während des Kurses durchgehend eine Überwachung von einer persönlichen Psychologin oder einem persönlichen Psychologen. Bei akutem Bedarf steht dieser bei Fragen zur Verfügung. Es wird empfohlen, mindestens eine Lektion pro Woche zu absolvieren, die ca. 30-45 Minuten dauert. Der Kurs dauert insgesamt 3 Monate.",
+      "content_fingerprint": "effd18f0b4f9",
       "content_preview": "Selfapy bietet Betroffenen mit einer Panikstörung einen individuellen Online-Kurs, der auf evidenzbasierten Theorien und Techniken der Kognitiven Verhaltenstherapie basiert. Die therapeutischen Inhalte können über den internetbasierten K...",
       "content_type": "field_value",
+      "display_path": "Selfapy GmbH, Deutschland",
       "level": 3,
       "path": [
         "Selfapy GmbH, Deutschland"
       ],
+      "path_hash": "368a0d03b028",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01052:selfapy-gmbh-deutschland-55c30270f0:field_value",
+      "stable_key": "01052:selfapy-gmbh-deutschland:368a0d03b028:field_value:0",
       "title": "Selfapy GmbH, Deutschland"
     },
     {
       "content": "Hier finden Sie weitergehende Informationen zur DiGA. Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA. Selfapys Online-Kurs bei Panikstörung 19.06.2021 18.11.2022 Panikstörung Trifft nicht zu Browserbasierte Webanwendung als browserbasierte Webanwendung Deutschland",
+      "content_fingerprint": "8f12cbf89ed6",
       "content_preview": "Hier finden Sie weitergehende Informationen zur DiGA. Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinis...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01052:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01052:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:0",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Die digitale Gesundheitsanwendung (DiGA) wurde am 18.11.2022 nach Prüfung der Nachweise für positive Versorgungseffekte aus dem Verzeichnis gemäß § 139e Absatz 4 Satz 8 des Fünften Buches Sozialgesetzbuch (SGB V) gestrichen. Für die DiGA konnte kein positiver Versorgungseffekt nachgewiesen werden.",
+      "content_fingerprint": "b182f272d53f",
       "content_preview": "Die digitale Gesundheitsanwendung (DiGA) wurde am 18.11.2022 nach Prüfung der Nachweise für positive Versorgungseffekte aus dem Verzeichnis gemäß § 139e Absatz 4 Satz 8 des Fünften Buches Sozialgesetzbuch (SGB V) gestrichen. Für die DiGA...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Bewertungsentscheidung des BfArM",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Bewertungsentscheidung des BfArM"
       ],
+      "path_hash": "7d463e27c832",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01052:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung--cdc10aad7c:field_value",
+      "stable_key": "01052:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung-:7d463e27c832:field_value:0",
       "title": "Bewertungsentscheidung des BfArM"
     },
     {
       "content": "******************************************************************************************************************** Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an • Sicherheit und Funktionstauglichkeit des Medizinproduktes • Datenschutz und Datensicherheit nach dem Stand der Technik • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) als erfüllt. Der Hersteller hat bestätigt, dass keine personenbezogenen Daten in ein Land ohne Angemessenheitsbeschluss, wie nach dem Urteil „Schrems II“ den USA, fließen. Das BfArM bewertet dieses Vorgehen als konform im Sinne der DiGAV. - Zur Begründung einer Versorgungsverbesserung sind Daten von insgesamt n = 316 Patientinnen und Patienten zu 3 Zeitpunkten (T1: Unmittelbar vor Beginn des Programms; T2: 6 Wochen nach Start des Programms; T3: 12 Wochen nach Start des Programms) ausgewertet worden, die mit Selbstauskunftsfragebögen zum Ausmaß der allgemeinen Angstsymptomatik, der Ausprägung der Panik- und Agoraphobiesymptomatik sowie der Lebensqualität erhoben worden sind. Es haben sich dabei eine signifikante Reduktion der Angstsymptomatik und ein signifikanter Anstieg der Lebensqualität vom Beginn der Online-Intervention zu T2 und zu T3 gezeigt. Das BfArM bewertet die vorgelegten Daten als ausreichend im Sinne einer Begründung für eine Versorgungsverbesserung. - In der Erprobungszeit soll zur Evaluation der Wirksamkeit von Selfapys Online-Kurs bei Panikstörung für Patientinnen und Patienten mit einer Panikstörung eine randomisiert kontrollierten Studie mit insgesamt 158 Teilnehmerinnen und Teilnehmern durchgeführt werden. Primär soll gezeigt werden, dass sich die selbsteingeschätzte Panik- und Agoraphobiesymptomatik sich durch die Nutzung von Selfapys Online-Kurs bei Panikstörung über den Verlauf von 12 Wochen signifikant stärker als in einer Wartekontrollgruppe verbessert sowie dass sich die wahrgenommene Lebensqualität durch die Nutzung des Selfapys Online-Kurses bei Panikstörung signifikant stärker über den Verlauf von 12 Wochen als in einer Wartekontrollgruppe erhöht. - Das BfArM bewertet das Studienkonzept grundsätzlich als geeignet, die positiven Versorgungseffekte der Verbesserung des Gesundheitszustands und der Lebensqualität nachzuweisen.",
+      "content_fingerprint": "f98afdbc1e0b",
       "content_preview": "******************************************************************************************************************** Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen ...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01052:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01052:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:1",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_fingerprint": "4b8f5a46c1b0",
       "content_preview": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt"
       ],
+      "path_hash": "9af58630166c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01052:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "01052:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:9af58630166c:field_value:0",
       "title": "Angaben zum Medizinprodukt"
     },
     {
       "content": "Das Medizinprodukt Selfapy dient den folgenden medizinischen Zwecken: 1. Zugang zu passenden und geeigneten (unkritischen/sicheren) Therapietechniken sowie Unterstützung bei der Auswahl und der Durchführung. 2. Dokumentation von Symptomen und der Durchführung von therapeutischen Übungen. 3. Vermittlung von gesundheitsrelevanten Informationen (Psychoedukation). Selfapy basiert auf Methoden der KVT und hat das Ziel, die Symptomatik des Anwendenden zu verbessern. Indikationen Das Medizinprodukt Selfapy bietet eine geeignete Selbsthilfe-Therapie für Patient*innen mit einer der folgenden Indikationen: • Leichte bis mittelgradige depressive Episode: F32, F33 • Generalisierte Angststörung: F41.1 • Panikstörung: F41.0, F40.01 • Binge-Eating-Störung: F50.9, F50.4 • Bulimia Nervosa: F50.2, F50.3 • Anhaltende oder chronische Schmerzstörung: F45.40, F45.41; M5 (Rückenschmerz) Kontraindikationen Das Medizinprodukt Selfapy ist nicht für eine Anwendung vorgesehen bei: • Vorliegen einer bipolaren Störung, oder einer psychotischen Störung (z. B. • Schizophrenie): F2*; F31; F32.3; F33.3 • Vorliegen einer schweren depressiven Episode F32.2; F32.3 • Vorliegen einer akuten Substanzabhängigkeit oder Entzugssyndrom: F1*.2; F1*.3 o • Personen mit akut suizidalen oder selbstverletzenden Tendenzen. • Personen, die für die Anwendung von Selbsthilfe-Therapien ungeeignet sind, aufgrund geistiger, körperlicher oder anderweitig krankheitsbedingter Einschränkungen. • Jugendlichen und Kindern unter 18 Jahren. Körperregionen • Psyche, keine physikalischen Körperbereiche Anwendergruppen • Nicht akut suizidale oder anderweitig für Selbsthilfe-Therapie ungeeignete Erwachsene und Jugendliche Risikoklasse I nach MDD Trifft nicht zu Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt. Trifft nicht zu Trifft nicht zu Trifft nicht zu",
+      "content_fingerprint": "dc20fe3155e8",
       "content_preview": "Das Medizinprodukt Selfapy dient den folgenden medizinischen Zwecken: 1. Zugang zu passenden und geeigneten (unkritischen/sicheren) Therapietechniken sowie Unterstützung bei der Auswahl und der Durchführung. 2. Dokumentation von Symptome...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "01052:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01052:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:2",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_fingerprint": "ba6516ebde5f",
       "content_preview": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA"
       ],
+      "path_hash": "6921f5eac91a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01052:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "01052:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:6921f5eac91a:field_value:0",
       "title": "Weitere Informationen zur DiGA"
     },
     {
       "content": "Selfapy bietet Betroffenen mit einer Panikstörung einen individuellen Online-Kurs, der auf evidenzbasierten Theorien und Techniken der Kognitiven Verhaltenstherapie basiert. Die therapeutischen Inhalte können über den internetbasierten Kurs von dem oder der Betroffenen selbstständig bearbeitet werden, wobei der Fortschritt durchgängig von einer Psychologin oder einem Psychologen überwacht wird. Hierbei lässt sich Selfapys Konzept in den Bereich der “internetbasierten Selbstmanagementintervention” einordnen, deren Wirksamkeit bereits durch zahlreiche Studien nachgewiesen wurde und von vielen Fachgesellschaften Zuspruch findet. Der Panik-Kurs ist in einzelne Lektionen aufgeteilt, welche sich jeweils mit einem Thema beschäftigen wie beispielsweise dem Umgang der automatischen Gedanken, die hinter einer Angststörung stehen, den Angstreaktionen und körperlichen Symptomen, Expositionsübungen, sowie Übungen zur Achtsamkeit. Die Inhalte werden mit Hilfe von anschaulichen Audio- und Videoclips, Texten und Übungen vermittelt. Ein starker Fokus des Kurses liegt auf Transferaufgaben, um neu erworbene Strategien und Techniken in das tägliche Leben zu integrieren. Die Inhalte passen sich individuell an die persönliche Situation des Betroffenen an. Zur Wahrung der Patientensicherheit wird der Betroffene während des Kurses durchgehend von einer persönlichen Psychologin oder einem persönlichen Psychologen überwacht. Bei Bedarf steht dieser bzw. diese bei Fragen zur Verfügung. Der bzw. die Betroffene kann den Kurs von überall, am Computer bzw. Laptop, auf einem Tablet oder auf einem Smartphone bearbeiten. Es wird empfohlen, mindestens eine Lektion pro Woche zu absolvieren, die ca. 30-45 min dauert. Der Kurs dauert insgesamt 3 Monate. Der Online Panik-Kurs begleitet Patientinnen und Patienten mit einer Reihe von Funktionen. Hierzu gehören unter anderem: - Vermittlung der Strategien der Kognitiven Verhaltenstherapie mit anschaulichen Videos, Audios und Texten - Transferaufgaben zur Übertragung der Strategien in den Alltag - Vermittlung von Informationen über die Panikstörung - Individualisierte Inhalte basierend auf Eingaben des Betroffenen - Erfassung von Symptomen anhand von validierten Fragebögen sowie deren Auswertung - Anleitung zur Erstellung von Tagesprotokollen (auch via App möglich) - Download von Modul-Zusammenfassungen als PDF - Download von Arbeitsblättern als PDF - Durchgängige Einbindung durch eine persönliche klinischen Psychologin oder einem persönlichen Psychologen zur Wahrung der - Patientensicherheit und Qualitätssicherung - Beantwortung von Fragen durch persönliche Psychologinnen und Psychologen bei Bedarf - Umfangreiches Warnsystem bei Hinweisen auf temporäre Verschlechterung der Symptomatik - Benachrichtigungsfunktionen Medizinische Hochschule Hannover Lehrstuhl für internationale Gesundheitssystemforschung. Adresse: Medizinische Hochschule Hannover MHH, Carl-Neuberg-Straße 1, 30625 Hannover - Humboldt-Universität zu Berlin, Institut für Psychologie Adresse: Institut für Psychologie der Humboldt-Universität zu Berlin, Rudower Chaussee 18, 12489 Berlin - Institut für Therapie- und Gesundheitsforschung IFT Nord Adresse: IFT-Nord gemeinnützige GmbH Institut für Therapie- und Gesundheitsforschung, Harmsstraße 2, 24114 Kiel - Klinikum Herford, Klinik für Psychiatrie, Psychotherapie & Psychosomatik Adresse: Klinikum Herford, Schwarzenmoorstraße 70, 32049 Herford - ARGORA Klinik Berlin, Tagesklinik und Praxis für Psychosomatik und Psychotherapie Adresse: ARGORA Klinik Berlin, Hardenbergstraße 9A, 10623 Berlin - Psychotherapeutische Praxis Himmelstraße Hamburg Adresse: Himmelstraße 28, 22299 Hamburg - Stiftung MyHandicap gGmbH Adresse: Joseph-Wild-Str. 20, 81829 München Zwick, J., & Hautzinger, M. Panik und Agoraphobie: kognitiv-verhaltenstherapeutisches Manual: mit E-Book inside und Arbeitsmaterial; 2017 - Heinrichs, N. Ratgeber Panikstörung und Agoraphobie. Hogrefe Verlag; 2007 - Justen-Horsten, A., & Paschen, H. Online-Interventionen in Therapie und Beratung: ein Praxisleitfaden: mit E-Book inside. Beltz; 2016 - Lang, T., Helbig-Lang, S., Westphal, D., Gloster, A. T., & Wittchen, H. U. Expositionsbasierte Therapie der Panikstörung mit Agoraphobie. Hogrefe Verlag; 2018 - Knaevelsrud, C., Wagner, B., & Böttche, M. Online-Therapie und-Beratung: Ein Praxisleitfaden zur onlinebasierten Behandlung psychischer Störungen. Hogrefe Verlag; 2016 - Margraf, J., & Schneider, S. Panik: Angstanfälle und ihre Behandlung. Springer-Verlag; 2013",
+      "content_fingerprint": "83f2d02277a8",
       "content_preview": "Selfapy bietet Betroffenen mit einer Panikstörung einen individuellen Online-Kurs, der auf evidenzbasierten Theorien und Techniken der Kognitiven Verhaltenstherapie basiert. Die therapeutischen Inhalte können über den internetbasierten K...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "01052:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01052:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:3",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_fingerprint": "77cea9e6788d",
       "content_preview": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal"
       ],
+      "path_hash": "4c8dba25a53c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01052:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "01052:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:4c8dba25a53c:field_value:0",
       "title": "Beteiligung vom medizinischen Fachpersonal"
     },
     {
       "content": "Ärztinnen und Ärzte können ihren Patientinnen und Patienten Selfapys Online-Kurs empfehlen, wenn diese an einer Panikstörung leiden und keinen Psychotherapieplatz bekommen. Psychotherapeutinnen und Psychotherapeuten können Patientinnen und Patienten (beispielsweise nach der Sprechstunde) Selfapys Online-Kurs bei Panik empfehlen, um die Wartezeit auf den Psychotherapieplatz zu überbrücken. Nein",
+      "content_fingerprint": "5e7f3287240e",
       "content_preview": "Ärztinnen und Ärzte können ihren Patientinnen und Patienten Selfapys Online-Kurs empfehlen, wenn diese an einer Panikstörung leiden und keinen Psychotherapieplatz bekommen. Psychotherapeutinnen und Psychotherapeuten können Patientinnen u...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "01052:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01052:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:4",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfohlen wird.",
+      "content_fingerprint": "ba2dc6143acd",
       "content_preview": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfoh...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise"
       ],
+      "path_hash": "af464e1a8e2f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01052:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-6922aa5eb2:field_value",
+      "stable_key": "01052:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise:af464e1a8e2f:field_value:0",
       "title": "Anwendungshinweise"
     },
     {
       "content": "Sicherstellung der qualitätsgesicherten Anwendung: Selfapy hat ein umfassendes Patientensicherheitskonzept entwickelt. Nutzerinnen und Nutzern werden persönliche Psychologinnen und Psychologen zugeteilt, die sicherstellen, dass der Online-Kurs nur für seinen bestimmungsgemäßen Gebrauch verwendet wird. Diese überwachen den Fortschritt des Teilnehmers bzw. der Teilnehmerin, um im Falle von temporären Verschlechterungen der Symptomatik zu reagieren. Zudem hat Selfapy ein Warnsystem entwickelt, welches bei zu hoher Symptomatik sowie Schlüsselwörtern reagiert und die Nutzerin bzw. den Nutzer an passende Anlaufstellen verweist. Ausschlusskriterien: - Akute Suizidalität - Schwere depressive Episode - Lebenszeitdiagnose einer bipolaren oder psychotischen Störung oder akute psychotische Symptome (ICD-10: - F20; F31; F32.3; F33.3) - Akute Substanzabhängigkeit oder Entzugssyndrom (ICD-10: F10.2; F10.3) - Demenz bei Alzheimer-Krankheit (F00) Suizidalität 90 Tage Trifft nicht zu Sofern nach erstmaliger Verschreibung gute Fortschritte erzielt wurden und nach Einschätzung der Ärztin oder des Arztes von der erneuten Absolvierung des Online-Kurses und seiner Übungen profitiert werden kann, ist eine erneute Nutzungsdauer von 3 Monaten möglich. Unsere Anwendung ist mit den Desktop-Versionen der folgenden Webbrowser kompatibel: - Google Chrome (Version 90.0 oder höher) - Mozilla Firefox (Version 88.0 oder höher) - Safari (Version 14.0 oder höher) - Microsoft Edge (Version 90.0 oder höher) Unsere Anwendung ist mit den Mobile-Versionen der folgenden Webbrowser kompatibel: - Google Chrome (Version 90.0 oder höher) - Safari (Version 14.0 und höher) https://www.selfapy.com/kompatibilitaetsszusagen Nutzerinnen und Nutzer haben die Möglichkeit, einen Auszug ihres bei uns hinterlegten Datensatzes als verschlüsselte und komprimierte html-Datei aus der Anwendung heraus herunterzuladen. Dieser Auszug beinhaltet die Personen- und Gesundheitsdaten, die die Nutzerinnen und Nutzer Selfapy zur Verfügung gestellt haben. Selfapy erfüllt die Anforderungen hinsichtlich der Interoperabilität. Die Schnittstellenspezifikation kann unter folgendem Link eingesehen werden: https://www.vesta-gematik.de/standards/detail/standards/digitale-interventionsprogramme-fuer-psychische-erkrankungen/",
+      "content_fingerprint": "00173f8176f3",
       "content_preview": "Sicherstellung der qualitätsgesicherten Anwendung: Selfapy hat ein umfassendes Patientensicherheitskonzept entwickelt. Nutzerinnen und Nutzern werden persönliche Psychologinnen und Psychologen zugeteilt, die sicherstellen, dass der Onlin...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "01052:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01052:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:5",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs. weitere, durch Sie selbst aufzubringende Kosten, sofern Sie bestimmte zusätzlich angebotene und von der Verschreibung nicht abgedeckte Leistungen in Anspruch nehmen möchten.",
+      "content_fingerprint": "39d5160ffdea",
       "content_preview": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs....",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis"
       ],
+      "path_hash": "41c28a502494",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01052:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-429bde377d:field_value",
+      "stable_key": "01052:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis:41c28a502494:field_value:0",
       "title": "Angaben zum Preis"
     },
     {
       "content": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage Es fällt einmalig eine Gebühr von 0,00 € pro Lizenz (inkl. Mehrwertsteuer) an. Die Lizenz erlaubt die Nutzung von Selfapy für die Dauer von 90 Tagen, sowie Zugang zu den Inhalten für 1 Jahr. Wenn Patientinnen und Patienten weniger als 2 Lektionen bearbeiten, wird die Lizenz den Gesetzlichen Krankenversicherungen nicht in Rechnung gestellt bzw. mit 0 € vergütet. Trifft nicht zu Es fallen keine Mehrkosten für den Patienten an.",
+      "content_fingerprint": "6b5fdc78b145",
       "content_preview": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage Es fällt einmalig eine Gebühr von 0,00 € pro Lizenz (inkl. Mehrwertsteuer) an. Die Lizenz erlaubt die Nutzung von Selfapy für die Dauer von 90 Tagen, sowie Zugang zu den Inhalten für ...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "01052:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "01052:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:6",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Verbesserungen für Patienten können entweder medizinischer Art sein (z.B. Verringerung von Schmerzen, Beitrag zur Heilung der Erkrankung) oder den Erkennungs- und Behandlungsprozess direkt unterstützen und erleichtern (z.B. Informationen zur individuellen Erkrankungssituation, Unterstützung bei der Einhaltung der zwischen Patient und Arzt gemeinsam vereinbarten therapeutischen Maßnahmen). Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche Weise dies ggfs. bereits wissenschaftlich nachgewiesen wurde. Falls der positive Versorgungseffekt noch nicht abschließend nachgewiesen aber bereits so plausibel dargelegt wurde, dass die DiGA befristet zur entsprechenden Erprobung aufgenommen wurde, wird angegeben, für welchen Zeitraum dies erfolgt ist. Sofern (auch) ein Nachweis zum Erhalt der Erwerbsfähigkeit für die DiGA erbracht wurde oder eine Nachweisführung geplant ist, finden Sie hier eine Beschreibung und nähere Angaben zum Nachweis sowie zum Studiendesign. Sofern die DiGA (auch) ein diagnostisches Instrument darstellt, also mindestens in Teilen dazu vorgesehen ist, Informationen z.B. für die Erkennung oder Diagnose von Krankheitszuständen zu liefern, hat der Hersteller dies benannt und beschrieben sowie Sensitivität und Spezifität als wichtige Bewertungsgrößen angegeben. Medizinischer Nutzen Verbesserung des Gesundheitszustands Verbesserung der Lebensqualität - Verbesserung des Gesundheitszustands gemessen anhand der Veränderung der Panik- und Agoraphobiesymptomatik - Steigerung der Lebensqualität Der Nachweis des positiven Versorgungseffektes wird über eine randomisierte, kontrollierte Studie erbracht. Das bedeutet, dass die Patientinnen und Patienten nach dem Zufallsprinzip der Interventions- bzw. Kontrollgruppe zugeordnet werden. Anschließend werden die Ergebnisse der Gruppe, die den Online-Kurs absolviert haben (Interventionsgruppe) mit denen der Gruppe, die den Online-Kurs noch nicht absolviert haben (Kontrollgruppe), verglichen. Weder die Patientinnen und Patienten, noch die Interviewerinnen und Interviewer wissen, welcher Gruppe sie jeweils zugeordnet sind. - Population: Einschlusskriterien - Probandinnen und Probanden zwischen 18 und 65 Jahren, die Kriterien für eine Panikstörung (F40.01; F41.0) erfüllen - Ausreichende Kenntnisse der deutschen Sprache - Ununterbrochener Internetzugang - Ausschlusskriterien: - Schwere depressive Episode - akute Suizidalität - Lebenszeitdiagnose einer bipolaren oder psychotischen Störung - akute Substanzabhängigkeit - Intervention: Die Interventionsgruppe absolviert im Rahmen der Studie den Online-Kurs für Panikstörung („Selfapy“) für 12 Wochen. - Control: Die Kontrollgruppe erhält erst nach einer Wartezeit von 12-Wochen Zugang zu dem Online-Kurs für Panikstörung („Selfapy“). - Outcome: Primäre Endpunkte: - Panik- und Agoraphobiesymptomatik nach 12 Wochen (PAS) - Lebensqualität nach 12 Wochen (WHO-5) - Sekundäre Endpunkte: - Angstsymptome über den Verlauf von 12 Wochen (BAI) - Depressionssymptomatik über den Verlauf von 12 Wochen (PHQ-9) - Bewältigung Krankheitsbedingter Schwierigkeiten im Alltag (WSAS) - Arbeitsfähigkeit (iPCQ, WSAS) - Gesundheitskompetenz (MHLS) - Reduzierung der therapiebedingten Aufwände und Belastungen der Patientinnen und Patienten sowie ihrer Angehörigen - (CSSRI, BADO) - Negative Effekte der Intervention über den Verlauf von 12 Wochen (NEQ) Hintergrund: Panikstörungen sind eine häufig auftretende und belastende Angststörung mit starkem Einfluss auf das Individuum und die Gesellschaft. In Deutschland gibt es neben Hindernissen wie Stigmatisierung auch eine lange durchschnittliche Wartezeit auf eine psychotherapeutische ambulante Behandlung. Online-basierte Selbsthilfeprogramme basierend auf kognitiver Verhaltenstherapie bieten eine vielversprechende Ergänzung des aktuellen Versorgungssystems in der Behandlung von Patientinnen und Patienten mit einer Panikstörung. - Ziel: Die Evaluation der Wirksamkeit des online-basierten Selbsthilfeprogramms „Selfapy” für Patientinnen und Patienten mit einer Panikstörung in einer randomisierten kontrollierten Studie. - Methoden: Insgesamt 158 Teilnehmerinnen und Teilnehmer zwischen 18 und 65 Jahren, die Kriterien für eine Diagnose einer Panikstörung erfüllen, werden zufällig einer von zwei Gruppen zugeteilt: - unmittelbarer Zugang zum Online-Kurs („Selfapy”) oder - Zugang zum Online-Kurs nach 12 Wochen Wartezeit (Wartekontrollgruppe). Das Ausmaß der Belastungen bzw. Symptome wird an drei verschiedenen Zeitpunkten gemessen: Zu Interventionsbeginn, 6 Wochen nach Beginn der Intervention und 12 Wochen nach Beginn der Intervention. - Primäre Endpunkte, die dabei betrachtet werden, sind: - die Ausprägung der Panik- und Agoraphobiesymptomatik (PAS) und - die Lebensqualität (WHO-5). Sekundäre Endpunkte umfassen unter anderem - die Angstsymptomatik (BAI), - Depressionssymptomatik (PHQ-9),Bewältigung Krankheitsbedingter Schwierigkeiten im Alltag (WSAS), - Arbeitsfähigkeit (iPCQ, WSAS),Gesundheitskompetenz (MHLS), - Reduzierung der therapiebedingten Aufwände und Belastungen der Patientinnen und Patienten sowie ihrer Angehörigen (CSSRI, BADO), - Negative Effekte der Intervention (NEQ). - Studienbeginn: 2021 Justus-Liebig-Universität Gießen, Professur für Psychotherapieforschung Nein 17 Monate (12 Monate initial, 5 Monate Verlängerung)",
+      "content_fingerprint": "98b561c2ea51",
       "content_preview": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Ve...",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01052:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "01052:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:0",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird. Die Anforderungen an die Datensicherheit werden durch Vorlage eines Zertifikats gemäß § 139e Absatz 10 Fünftes Buch Sozialgesetzbuch nachgewiesen. Detaillierte Informationen zu den einzelnen Anforderungen können Sie auf der Webseite des Bundesamts für Sicherheit in der Informationstechnik unter der Technischen Richtlinie \"BSI TR-03161\" finden: https://www.bsi.bund.de/dok/TR-03161 Bis zur Vorlage des Zertifikats gelten für den Bereich Datensicherheit die Anforderungen der nachfolgend dargestellten Checkliste. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine technische Möglichkeit einer Verknüpfung oder eines Datenaustauschs mit anderen digitalen Gesundheitsanwendungen. Trifft nicht zu Die digitale Gesundheitsanwendung unterstützt keine Offenbarung von Informationen der betroffenen Person oder über die betroffene Person für die Öffentlichkeit oder eine für die betroffene Person nicht eingrenzbare Personengruppe.",
+      "content_fingerprint": "d50f3e3f236e",
       "content_preview": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen v...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01052:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "01052:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:0",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit > Datensicherheit",
       "level": 4,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit",
         "Datensicherheit"
       ],
+      "path_hash": "8545f237a1b9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01052:informationen-zu-datenschutz-und-datensicherheit-datensicherheit-14af255f91:field_value",
+      "stable_key": "01052:informationen-zu-datenschutz-und-datensicherheit-datensicherheit:8545f237a1b9:field_value:0",
       "title": "Datensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung speichert keine Authentisierungsdaten auf einem Endgerät oder in einer darauf befindlichen Softwarekomponente. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung erlaubt keinen Upload von Dateien. Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Bei der digitalen Gesundheitsanwendung handelt es sich um eine rein webbasierte Anwendung. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung greift weder auf Sensoren eines mobilen Endgeräts noch auf externe Hardware zu. Trifft nicht zu Die digitale Gesundheitsanwendung tauscht keine Daten mit externer Hardware aus. Zutreffend Zutreffend Zutreffend Nein",
+      "content_fingerprint": "8221b3bf6c22",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung speichert keine Authentisierungsdaten auf einem Endgerä...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01052:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "01052:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:1",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der medizinischen Inhalte und die Gewährleistung der Patientensicherheit. Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_fingerprint": "d6d0ea10d54a",
       "content_preview": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der me...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01052:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01052:weitere-informationen:df3724c46c56:section:0",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Interoperabilität",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Interoperabilität"
       ],
+      "path_hash": "43914a1ae1e9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01052:weitere-informationen-angaben-zur-interoperabilitaet-8867f27412:field_value",
+      "stable_key": "01052:weitere-informationen-angaben-zur-interoperabilitaet:43914a1ae1e9:field_value:0",
       "title": "Angaben zur Interoperabilität"
     },
     {
       "content": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versicherten getragenen Sensoren zur Messung und Übertragung von Vitalwerten (Wearables) austauscht. Zutreffend",
+      "content_fingerprint": "66ae23eeff50",
       "content_preview": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versiche...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "01052:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01052:weitere-informationen:df3724c46c56:section:1",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Robustheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Robustheit"
       ],
+      "path_hash": "d416c871fdb6",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01052:weitere-informationen-angaben-zur-robustheit-0a511476df:field_value",
+      "stable_key": "01052:weitere-informationen-angaben-zur-robustheit:d416c871fdb6:field_value:0",
       "title": "Angaben zur Robustheit"
     },
     {
       "content": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
+      "content_fingerprint": "4b94c32e0d08",
       "content_preview": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digi...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "01052:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01052:weitere-informationen:df3724c46c56:section:2",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zum Verbraucherschutz",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zum Verbraucherschutz"
       ],
+      "path_hash": "22c54da8ff9c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01052:weitere-informationen-angaben-zum-verbraucherschutz-05cd17969e:field_value",
+      "stable_key": "01052:weitere-informationen-angaben-zum-verbraucherschutz:22c54da8ff9c:field_value:0",
       "title": "Angaben zum Verbraucherschutz"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "409aa9901d82",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "01052:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01052:weitere-informationen:df3724c46c56:section:3",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zu Nutzerfreundlichkeit und Barrierefreiheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
       ],
+      "path_hash": "a9d890d721a4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01052:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit-8fe873c531:field_value",
+      "stable_key": "01052:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit:a9d890d721a4:field_value:0",
       "title": "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
     },
     {
       "content": "Zutreffend Zutreffend",
+      "content_fingerprint": "f572c2f88946",
       "content_preview": "Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "01052:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01052:weitere-informationen:df3724c46c56:section:4",
       "title": "Weitere Informationen"
     },
     {
       "content": "Trifft nicht zu",
+      "content_fingerprint": "22df552f4c57",
       "content_preview": "Trifft nicht zu",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Unterstützung der Leistungserbringende",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Unterstützung der Leistungserbringende"
       ],
+      "path_hash": "bdfe86165ef2",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01052:weitere-informationen-unterstuetzung-der-leistungserbringende-d4e78dfd75:field_value",
+      "stable_key": "01052:weitere-informationen-unterstuetzung-der-leistungserbringende:bdfe86165ef2:field_value:0",
       "title": "Unterstützung der Leistungserbringende"
     },
     {
       "content": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen.",
+      "content_fingerprint": "8b7713a3d90e",
       "content_preview": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Triff...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "01052:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01052:weitere-informationen:df3724c46c56:section:5",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Qualität der medizinischen Inhalte",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Qualität der medizinischen Inhalte"
       ],
+      "path_hash": "964eb34f0609",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01052:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte-a6d05ceeb6:field_value",
+      "stable_key": "01052:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte:964eb34f0609:field_value:0",
       "title": "Angaben zur Qualität der medizinischen Inhalte"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "6a8d1dc0aa28",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "01052:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01052:weitere-informationen:df3724c46c56:section:6",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Patientensicherheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Patientensicherheit"
       ],
+      "path_hash": "96d387fa1378",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01052:weitere-informationen-angaben-zur-patientensicherheit-7a67651ccd:field_value",
+      "stable_key": "01052:weitere-informationen-angaben-zur-patientensicherheit:96d387fa1378:field_value:0",
       "title": "Angaben zur Patientensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "477afefea65b",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 7,
       "source_kind": "visible_directory",
-      "stable_key": "01052:weitere-informationen-afe954d9f8:section",
+      "stable_key": "01052:weitere-informationen:df3724c46c56:section:7",
       "title": "Weitere Informationen"
     },
     {
       "content": "Die digitale Gesundheitsanwendung (DiGA) wurde am 18.11.2022 nach Prüfung der Nachweise für positive Versorgungseffekte aus dem Verzeichnis gemäß § 139e Absatz 4 Satz 8 des Fünften Buches Sozialgesetzbuch (SGB V) gestrichen. Für die DiGA konnte kein positiver Versorgungseffekt nachgewiesen werden.",
+      "content_fingerprint": "b182f272d53f",
       "content_preview": "Die digitale Gesundheitsanwendung (DiGA) wurde am 18.11.2022 nach Prüfung der Nachweise für positive Versorgungseffekte aus dem Verzeichnis gemäß § 139e Absatz 4 Satz 8 des Fünften Buches Sozialgesetzbuch (SGB V) gestrichen. Für die DiGA...",
       "content_type": "field_value",
+      "display_path": "Änderungshistorie > 18.11.2022 Status der Listung ist „Gestrichen“",
       "level": 4,
       "path": [
         "Änderungshistorie",
         "18.11.2022 Status der Listung ist „Gestrichen“"
       ],
+      "path_hash": "7869ddad114a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "01052:aenderungshistorie-18-11-2022-status-der-listung-ist-gestrichen-18cdc6f24d:field_value",
+      "stable_key": "01052:aenderungshistorie-18-11-2022-status-der-listung-ist-gestrichen:7869ddad114a:field_value:0",
       "title": "18.11.2022 Status der Listung ist „Gestrichen“"
     }
   ],
@@ -430,10 +566,10 @@
     "accordions_opened": 0,
     "content_section_count": 34,
     "field_value_count": 16,
-    "rendered_at": "2026-06-22T19:06:43.371246+00:00",
+    "rendered_at": "2026-06-22T20:34:06.100128+00:00",
     "source_kind": "visible_directory"
   },
   "source_kind": "visible_directory",
-  "timestamp": "20260622T190144Z",
+  "timestamp": "20260622T202912Z",
   "url": "https://diga.bfarm.de/de/verzeichnis/01052"
 }

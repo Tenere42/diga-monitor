@@ -2,413 +2,545 @@
   "content_sections": [
     {
       "content": "PRO-React Onco ist eine Web- und App-basierte digitale Gesundheitsanwendung zur Unterstützung von Brustkrebspatientinnen und -patienten. Mit PRO-React Onco können Patientinnen und Patienten Ihre Beschwerden eigenständig erfassen. In Abhängigkeit zur Erkrankung und der laufenden Therapie werden automatisiert Verhaltenshinweise gegeben, wie dringend die jeweilige Beschwerde mit dem behandelnden Arzt oder der behandelnden Ärztin besprochen werden muss.",
+      "content_fingerprint": "b76f7c03a61a",
       "content_preview": "PRO-React Onco ist eine Web- und App-basierte digitale Gesundheitsanwendung zur Unterstützung von Brustkrebspatientinnen und -patienten. Mit PRO-React Onco können Patientinnen und Patienten Ihre Beschwerden eigenständig erfassen. In Abhä...",
       "content_type": "field_value",
+      "display_path": "CANKADO GmbH, Deutschland",
       "level": 3,
       "path": [
         "CANKADO GmbH, Deutschland"
       ],
+      "path_hash": "2a7eb300ae74",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00961:cankado-gmbh-deutschland-a3bb8ce80b:field_value",
+      "stable_key": "00961:cankado-gmbh-deutschland:2a7eb300ae74:field_value:0",
       "title": "CANKADO GmbH, Deutschland"
     },
     {
       "content": "Hier finden Sie weitergehende Informationen zur DiGA. Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA. CANKADO PRO-React Onco 03.05.2021 21.04.2023 Kombination App / Webanwendung im Apple App Store Deutschland im Google Play Store Deutschland als browserbasierte Webanwendung Nürnberg",
+      "content_fingerprint": "69e50ae1a561",
       "content_preview": "Hier finden Sie weitergehende Informationen zur DiGA. Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinis...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00961:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00961:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:0",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Die digitale Gesundheitsanwendung (DiGA) wurde am 21.04.2023 nach Prüfung der Nachweise für positive Versorgungseffekte aus dem Verzeichnis gemäß § 139e Absatz 4 Satz 8 des Fünften Buches Sozialgesetzbuch (SGB V) gestrichen. Für die DiGA konnte kein positiver Versorgungseffekt nachgewiesen werden.",
+      "content_fingerprint": "29f744c7d597",
       "content_preview": "Die digitale Gesundheitsanwendung (DiGA) wurde am 21.04.2023 nach Prüfung der Nachweise für positive Versorgungseffekte aus dem Verzeichnis gemäß § 139e Absatz 4 Satz 8 des Fünften Buches Sozialgesetzbuch (SGB V) gestrichen. Für die DiGA...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Bewertungsentscheidung des BfArM",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Bewertungsentscheidung des BfArM"
       ],
+      "path_hash": "7d463e27c832",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00961:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung--cdc10aad7c:field_value",
+      "stable_key": "00961:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung-:7d463e27c832:field_value:0",
       "title": "Bewertungsentscheidung des BfArM"
     },
     {
       "content": "******************************************************************************************************************** Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an • Sicherheit und Funktionstauglichkeit des Medizinproduktes • Datenschutz und Datensicherheit nach dem Stand der Technik • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Gesundheitsanwendung-Verordnung (DiGAV) als erfüllt. Der Hersteller hat bestätigt, dass keine personenbezogenen Daten in ein Land ohne Angemessenheitsbeschluss, wie nach dem Urteil „Schrems II“ den USA, fließen. Als Begründung der Versorgungsverbesserung im Rahmen der systematischen Datenauswertung legt der Hersteller einen Sicherheitsbericht der randomisierten, prospektiven, multizentrischen PreCycle-Studie (NCT03220178) vor. Die Sicherheitsanalyse mit 261 randomisierten Patientinnen zeigte eine klinisch relevante Reduktion der SAE-Inzidenz von 31,4 zu 20,6 pro 100 Patientinnen. Evaluiert wurden fortgeschrittene oder metastasierte Brustkrebspatientinnen während systemischer Therapie. Dieser klinischen Beobachtung geht der Schritt der Patientenkompetenz vorweg, also die Fähigkeit, sich als Betroffene selber einzubringen und dadurch aktiv Schritte zu ergreifen. Dies wird vom BfArM als plausibel beurteilt. In der Erprobungszeit soll eine multizentrische, prospektive, zweiarmige Studie für Patientinnen mit Brustkrebs durchgeführt werden. Es erhält sowohl die Interventionsgruppe als auch die Kontrollgruppe Zugang zu zwei unterschiedlichen Ausprägungen der DiGA. Lediglich die Interventionsgruppe erhält nach Eingabe von Symptomen eine Handlungsempfehlung von CANKADO PRO-React Onco (DiGA-Version). Das primäre Studienziel ist zu bestimmen, ob CANKADO PRO-React Onco zu einer verbesserten Handlungsentscheidung der Patientinnen führt. Die behandelnden Ärztinnen und Ärzte werden innerhalb der Studie beurteilen, ob das Kontaktverhalten in der Interventionszeit von sechs Wochen angemessen war. Das BfArM bewertet das Studienkonzept grundsätzlich als geeignet, den positiven Versorgungseffekt der Gesundheitskompetenz nachzuweisen. Entsprechend bewertet das BfArM die in §139e SGB V sowie in der DiGAV festgelegten Voraussetzungen zur Aufnahme in das Verzeichnis nach §139e Abs. 1 SGB V als erfüllt.",
+      "content_fingerprint": "20086550dfee",
       "content_preview": "******************************************************************************************************************** Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen ...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "00961:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00961:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:1",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_fingerprint": "4b8f5a46c1b0",
       "content_preview": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Medizinprodukt",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Medizinprodukt"
       ],
+      "path_hash": "9af58630166c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00961:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "stable_key": "00961:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod:9af58630166c:field_value:0",
       "title": "Angaben zum Medizinprodukt"
     },
     {
       "content": "Die Zweckbestimmung von PRO-React Onco ist die automatisierte, digitale Entscheidungsunterstützung für Patienten mit Krebs, wie dringend eine Kontaktaufnahme mit dem betreuenden Arzt auf Basis der im System eigenständig erfassten Symptome, Beobachtungen bzw. Meldungen angezeigt ist. Risikoklasse I nach MDD",
+      "content_fingerprint": "b0b3aaae49c7",
       "content_preview": "Die Zweckbestimmung von PRO-React Onco ist die automatisierte, digitale Entscheidungsunterstützung für Patienten mit Krebs, wie dringend eine Kontaktaufnahme mit dem betreuenden Arzt auf Basis der im System eigenständig erfassten Symptom...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "00961:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00961:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:2",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_fingerprint": "ba6516ebde5f",
       "content_preview": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Informationen zur DiGA",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Weitere Informationen zur DiGA"
       ],
+      "path_hash": "6921f5eac91a",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00961:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "stable_key": "00961:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z:6921f5eac91a:field_value:0",
       "title": "Weitere Informationen zur DiGA"
     },
     {
       "content": "Mit PRO-React Onco können Patientinnen und Patienten Ihre Beschwerden eigenständig erfassen. In Abhängigkeit zur Erkrankung und der laufenden Therapie werden automatisiert Verhaltenshinweise gegeben, wie dringend die jeweilige Beschwerde mit dem behandelnden Arzt oder der behandelnden Ärztin besprochen werden muss. Hierdurch werden Patientinnen und Patienten ein aktiver Teil ihres eigenen Behandlungsteams. Die Verhaltenshinweise helfen dabei besser zu unterscheiden, welche Beschwerden sofort abgeklärt werden müssen und welche erst beim nächsten regulären Arztkontakt besprochen werden müssen. Zusätzlich hilft PRO-React Onco dem Arzt oder der Ärztin bei der Visitenvorbereitung. Durch die kontinuierliche Dokumentation entsteht ein durchgehendes Bild über den Krankheitsverlauf. So kann der Arzt oder die Ärztin sich besser auf die jeweilige Visite vorbereiten und besser auf die individuelle Situation eingehen. Um auf der einen Seite keinen wichtigen Zeitpunkt zu verpassen und auf der anderen Seite unnötige Dokumentation zu vermeiden, verwendet PRO-React Onco eine spezielle Technologie zur Erkennung auftretender Beschwerden. Auf Basis einer allgemeinen Gesundheitsskala kann das System ermitteln, ob eine Verschlechterung aufgetreten ist und löst eine detaillierte Befragung möglicher Beschwerden aus. Patientinnen und Patienten können PRO-React Onco sowohl über eine App wie auch einen Internetbrowser (Web) benutzen. Auch ist die zeitgleiche Benutzung verschiedener Geräte möglich. PRO-React Onco besteht aus einer dynamischen Beschwerdenerfassung und intelligenten Rückmeldungen an die Patientinnen und Patienten. Die dynamische Erfassung zielt darauf ab, die Patientinnen und Patienten zeitlich und emotional möglichst wenig zu belasten, wenn keine Beschwerden vorliegen, aber zeitgleich keine wichtigen Ereignisse zu verpassen. Hierzu werden die Patientinnen und Patienten täglich per Web oder App aufgefordert ihren allgemeinen Gesundheitszustand auf einer Skala zwischen 0 und 100 zu dokumentieren. Nach einem speziellen Algorithmus erkennt PRO-React Onco Veränderungen im Gesundheitszustand und löst bei Bedarf einen Beschwerdefragebogen aus. Werden hier therapierelevante Beschwerden dokumentiert, erhalten die Patientinnen und Patienten direkt eine entsprechende Verhaltensempfehlung. Hierdurch werden die Patientinnen und Patienten zu einem aktiven Partner in ihrer eigenen Versorgung. An der Entwicklung von PRO-React Onco waren viele medizinischen Einrichtungen und Organisationen beteiligt. Dazu zählen unter anderem die Mitglieder des Steering Committees der PreCycle Studie: AGO-B: - Universitätsklinikum Hamburg-Eppendorf (UKE), Martinistr. 52, 20251 Hamburg - Universitätsmedizin Mainz, Langenbeckstr. 1; 55131 Mainz - Universitätsklinikum, Ernst-Grube-Str. 40, 06120 Halle AGO-TraFo: - Universitätsklinikum Erlangen, Universitätsstr. 21-23, 91054 Erlangen - Universitätsklinikum Schleswig-Holstein (USH), Arnold-Heller Str. 3, 24105 Kiel - Universitätsklinikum Hamburg-Eppendorf (UKE), Martinistr. 52, 20251 Hamburg DGHO: - Onkologische Gemeinschaftspraxis, Elisabethenstr. 19, 88212 Ravensburg - Charité, Campus Benjamin Franklin, Hindenburgdamm 30, 12200 Berlin - Onkologische Gemeinschaftspraxis am Bethanien Krankenhaus, Im Prüfling 17-19, 60389 Frankfurt WSG: - Klinikum der Universtiäts München, Marchioninistr. 15, 81377 München - Universitätsklinikum Essen, Brustzentrum, Hufelandstr. 55, 45122 Essen, Germany - Gynäkologische Gemeinschaftspraxis, Bahnhofsplatz5, 31134 Hildesheim Eine Auflistung finden Sie auch auf der CANKADO Homepage unter folgendem Link: https://diga.cankado.com/research Für die digitalen Gesundheitsanwendung relevante Quellen umfassen unter anderem: Relevante Publikationen: • Degenhardt, Tom, Nadia Harbeck, Peter A. Fasching, Rachel Wuerstlein, Diana Lüftner, Ronald E. Kates, Johannes Schumacher, Claudia Wenzel, Timo Schinkoethe, and Marcus Schmidt. 2020. “Documentation Patterns and Impact on Observed Side Effects of the CANKADO Ehealth Application: An Exploratory Analysis of the PreCycle Trial.” Journal of Clinical Oncology 38 (15_suppl): 2083–2083. https://doi.org/10.1200/JCO.2020.38.15_suppl.2083. • Drewes, Caroline, Thomas Kirkovits, Daniel Schiltz, Timo Schinkoethe, Renate Haidinger, Ursula Goldmann- Posch, Nadia Harbeck, and Rachel Wuerstlein. 2016. “EHealth Acceptance and New Media Preferences for Therapy Assistance Among Breast Cancer Patients.” JMIR Cancer 2 (2): e13. https://doi.org/10.2196/cancer.5711. • Harbeck, Nadia, Rachel Würstlein, and Timo Schinköthe. 2015. “Improved Patient Management Using EHealth Tools: Potential and Pitfalls.” Breast Cancer Manag. 4 (1): 1–5. • Kirkovits, Thomas, Timo Schinkoethe, Caroline Drewes, Caroline Gehring, Ingo Bauerfeind, Nadia Harbeck, and Rachel Wuerstlein. 2016. “EHealth in Modern Patient-Caregiver Communication: High Rate of Acceptance Among Physicians for Additional Support of Breast Cancer Patients During Long-Term Therapy.” JMIR Cancer 2(2): e14. https://doi.org/10.2196/cancer.5132. • Riese, Christoph, Claudia Wenzel, Timo Schinköthe, and Manfred Welslau. 2018. “Patients’ Guidance with Onco-Coaching and CANKADO on Systemic Chemotherapy for Metastatic Colorectal Cancer (POSCA-Study).” In Deutscher Krebskongress. https://doi.org/10.13140/RG.2.2.32215.09121. • Schinköthe, Timo. 2019. “Individualized EHealth Support for Oncological Therapy Management.” Breast Care (Basel, Switzerland) 14 (3): 130–34. https://doi.org/10.1159/000500900. • Wonhöfer, Michaela, Florian Schindler, Manfred Welslau, Rachel Würstlein, Nadia Harbeck, and Timo Schinköthe. 2017. “ESTEPs - EHealth Strategy for Elderly Patients.” In 3. Interdisziplinärer Kongress „Quality of Cancer Care“. • Wonhöfer, Michaela, Manfred Welslau, Rachel Würstlein, Nadia Harbeck, and Timo Schinköthe. 2016. “EHealth Strategy for Elderly Patients (EStEP).” Senologie - Zeitschrift Für Mammadiagnostik Und -Therapie 13 (2). Relevante Studien: • my eSTEPS (NCT04393090) • GeRA (NCT04386629) • Combi-EU (NCT03944356) • CHAPLIN (NCT03911219) • NIS Ribanna (CLEE011ADE03) • PreCycle (NCT03220178) • TPII (NCT03272477) • ELEANOR (NCT04388384) • POSCA (NCT04393116) • PROmetronomic (FoR.UM Nr. 19-02193) • DSMM17 (2017-001616-11) • ADAPTcycle (NCT04055493) Eine Auflistung finden Sie auch auf der CANKADO Homepage unter folgendem Link: https://diga.cankado.com/science",
+      "content_fingerprint": "4fba83aff8ad",
       "content_preview": "Mit PRO-React Onco können Patientinnen und Patienten Ihre Beschwerden eigenständig erfassen. In Abhängigkeit zur Erkrankung und der laufenden Therapie werden automatisiert Verhaltenshinweise gegeben, wie dringend die jeweilige Beschwerde...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "00961:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00961:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:3",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_fingerprint": "77cea9e6788d",
       "content_preview": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Beteiligung vom medizinischen Fachpersonal",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Beteiligung vom medizinischen Fachpersonal"
       ],
+      "path_hash": "4c8dba25a53c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00961:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "stable_key": "00961:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin:4c8dba25a53c:field_value:0",
       "title": "Beteiligung vom medizinischen Fachpersonal"
     },
     {
       "content": "PRO-React Onco hilft der behandelnden Ärztin oder dem behandelnden Arzt bei der Visitenvorbereitung. Durch die kontinuierliche Dokumentation der Patientinnen und Patienten entsteht ein durchgehendes Bild über den Krankheitsverlauf. So kann die Ärztin oder der Arzt sich besser auf die jeweilige Visite vorbereiten und besser auf die individuelle Situation eingehen. Dadurch kann die Patientenbetreuung optimiert werden. Ja Trifft nicht zu",
+      "content_fingerprint": "1b1294b2e08b",
       "content_preview": "PRO-React Onco hilft der behandelnden Ärztin oder dem behandelnden Arzt bei der Visitenvorbereitung. Durch die kontinuierliche Dokumentation der Patientinnen und Patienten entsteht ein durchgehendes Bild über den Krankheitsverlauf. So ka...",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "00961:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00961:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:4",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfohlen wird.",
+      "content_fingerprint": "ba2dc6143acd",
       "content_preview": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfoh...",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Anwendungshinweise",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Anwendungshinweise"
       ],
+      "path_hash": "af464e1a8e2f",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00961:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-6922aa5eb2:field_value",
+      "stable_key": "00961:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise:af464e1a8e2f:field_value:0",
       "title": "Anwendungshinweise"
     },
     {
       "content": "Die benötigten Rahmenbedingungen für eine qualitätsgesicherte Anwendung seitens der Patientinnen und Patienten umfassen das Vorhandensein eines Computers mit Internetanbindung oder eines Android oder Apple Smartphones mit Internetzugang. Die Nutzung von CANKADO PRO-React Onco ist unter folgenden Kriterien ausgeschlossen: - nicht onkologische Patientinnen und Patienten - onkologische Patientinnen und Patienten unter Strahlentherapie, Zell- und Gentherapie, operative Verfahren bzw. alternative Heilmethoden Durch PRO-React Onco werden Patientinnen und Patienten mit Brustkrebs unter systemischer, anti-tumoraler bzw. antihormoneller Therapie in adjuvanter, neoadjuvanter, post-neoadjuvanter oder palliativer Situation unterstützt. Nicht unterstützt werden Patienten unter Strahlentherapie, Zell- und Gentherapie, operative Verfahren bzw. alternative Heilmethoden. In der Regel sind die ersten Monate einer systemischen Krebsbehandlung die kritischste Zeit, in der es besonders wichtig ist, Nebenwirkungen engmaschig zu dokumentieren. Auf Grund dessen wird empfohlen, PRO-React Onco mindestens für die ersten sechs Monate zu verwenden. Jedoch werden onkologische Erkrankungen zunehmend chronifiziert, weshalb eine dauerhafte Nutzung intendiert ist. Bisherige Daten zeigen ein konstantes Nutzungsverhalten über mehr als zwei Jahre hinweg (Degenhardt et al., 2020). - Referenzen: Degenhardt T., Harbeck N., Fasching P.A., Wuerstlein R., Lüftner D., Kates R. E., Schumacher J., Wenzel C., Schinkoethe T., Schmidt M.Documentation patterns and impact on observed side effects of the CANKADO ehealth application: An exploratory analysis of the PreCycle trialJournal of Clinical Oncology 2020:38(15_suppl), 2083DOI: 10.1200/JCO.2020.38.15_suppl.2083 CANKADO PRO-React Onco wurde für eine langfristige Betreuung von Krebspatienten entwickelt und verfügt deswegen über keine Höchstdauer der Nutzung. Eine PRO-React Onco Lizenz ist ohne zeitliche Begrenzung für einen Patienten verwendbar. CANKADO und PRO-React Onco ist zu vielen Plattformen und Geräten kompatibel. Diese umfassen unter anderem: Browser • Chrome • Edge • Firefox • Opera • Safari Betriebssysteme • Windows • Mac • Android • iOS Die Kompatibilitätszusagen von CANKADO und PRO-React Onco finden Sie auch auf der CANKADO Homepage unter folgendem Link: https://diga.cankado.com/kompatibilitat/ Um die Interoperabilität und Portabilität sicher zu stellen, befolgt CANKADO: - Daten Handling, nach GAMP-5 und ICH GCP E6(R2) - Datenexport als FHIR-Ressourcen-Bündel (vgl. https://www.hl7.org/fhir/bundle.html) bestehend aus Patientenprofil (vgl. https://www.hl7.org/fhir/patient.html) und Symptomdaten (als Beobachtungen, vgl.https://www.hl7.org/fhir/observation.html) - Eine Auflistung finden Sie auch auf der CANKADO Homepage unter folgendem Link: https://diga.cankado.com/interfaces",
+      "content_fingerprint": "b52247637bf7",
       "content_preview": "Die benötigten Rahmenbedingungen für eine qualitätsgesicherte Anwendung seitens der Patientinnen und Patienten umfassen das Vorhandensein eines Computers mit Internetanbindung oder eines Android oder Apple Smartphones mit Internetzugang....",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "00961:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00961:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:5",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs. weitere, durch Sie selbst aufzubringende Kosten, sofern Sie bestimmte zusätzlich angebotene und von der Verschreibung nicht abgedeckte Leistungen in Anspruch nehmen möchten.",
+      "content_fingerprint": "39d5160ffdea",
       "content_preview": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs....",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Angaben zum Preis",
       "level": 4,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung",
         "Angaben zum Preis"
       ],
+      "path_hash": "41c28a502494",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00961:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-429bde377d:field_value",
+      "stable_key": "00961:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis:41c28a502494:field_value:0",
       "title": "Angaben zum Preis"
     },
     {
       "content": "Weitere Nutzung der DiGA für zusätzliche 90 Tage Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage 0,00 € 0,00 € Trifft nicht zu Es fallen keine Mehrkosten für den Patienten an.",
+      "content_fingerprint": "ce8710cbeaa5",
       "content_preview": "Weitere Nutzung der DiGA für zusätzliche 90 Tage Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage 0,00 € 0,00 € Trifft nicht zu Es fallen keine Mehrkosten für den Patienten an.",
       "content_type": "section",
+      "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "level": 2,
       "path": [
         "Weitere Informationen zur digitalen Gesundheitsanwendung"
       ],
+      "path_hash": "6a8416b9da1c",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "00961:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "stable_key": "00961:weitere-informationen-zur-digitalen-gesundheitsanwendung:6a8416b9da1c:section:6",
       "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
     },
     {
       "content": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Verbesserungen für Patienten können entweder medizinischer Art sein (z.B. Verringerung von Schmerzen, Beitrag zur Heilung der Erkrankung) oder den Erkennungs- und Behandlungsprozess direkt unterstützen und erleichtern (z.B. Informationen zur individuellen Erkrankungssituation, Unterstützung bei der Einhaltung der zwischen Patient und Arzt gemeinsam vereinbarten therapeutischen Maßnahmen). Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche Weise dies ggfs. bereits wissenschaftlich nachgewiesen wurde. Falls der positive Versorgungseffekt noch nicht abschließend nachgewiesen aber bereits so plausibel dargelegt wurde, dass die DiGA befristet zur entsprechenden Erprobung aufgenommen wurde, wird angegeben, für welchen Zeitraum dies erfolgt ist. Sofern (auch) ein Nachweis zum Erhalt der Erwerbsfähigkeit für die DiGA erbracht wurde oder eine Nachweisführung geplant ist, finden Sie hier eine Beschreibung und nähere Angaben zum Nachweis sowie zum Studiendesign. Sofern die DiGA (auch) ein diagnostisches Instrument darstellt, also mindestens in Teilen dazu vorgesehen ist, Informationen z.B. für die Erkennung oder Diagnose von Krankheitszuständen zu liefern, hat der Hersteller dies benannt und beschrieben sowie Sensitivität und Spezifität als wichtige Bewertungsgrößen angegeben. Patientenrelevante Struktur- und Verfahrensverbesserung Informationen über Gesundheit verstehen und für gesundheitsbezogene Entscheidungen anwenden (Gesundheitskompetenz) Kernfunktionalität von CANKADO PRO-React Onco stellt das Symptomberichtssysteme da. Hierbei liegt der Fokus auf dem Selbstmanagement von Patientinnen und Patienten, indem diese automatisierte Verhaltensempfehlungen erhalten und einordnen können, wie dringend beobachtete Symptome ärztlich abzuklären sind. Hierbei erfolgt die Dokumentation der Patientenbeobachtungen auf Basis der „Common Terminology Criteria for Adverse Events“, kurz CTCAE. CTCAE wurde ursprünglich entwickelt, um im Rahmen von klinischen Studien eine einheitliche Kodierung aller Symptome zu erzielen. In der aktuell verwendeten Version 5 werden insgesamt 838 Symptome voneinander unterschieden. Der Großteil dieser Symptome sind ausschließlich klinisch festzustellen (z.B. Veränderungen im Blutbild). Andere wiederum stellen Eigenbeobachtungen der Patienten dar (z.B. Übelkeit, Schlafstörungen). Von den insgesamt 838 Symptomen sind 89 durch Patienten erfassbar und beschreibbar. - Jedes Symptom der CTCAE-Liste ist einem eindeutigen MedDRA-Code (Medical Dictionary for Regulatory Activities) zugeordnet. Jede Antwortmöglichkeit bei CTCAE wird mit den Werten von 0 bis maximal 5 kodiert, wobei 0 für die Abwesenheit des Symptoms steht und 1 die leichteste Stufe und 4 die höchste Stufe darstellt. Die Stufe 5 steht für Tod durch das Symptom, welche bei PRO-Versionen keine Verwendung findet. CANKADO PRO-React Onco umfasst alle diese 89 Symptomfragen und zusätzlich noch zwei weitere („Medikamente neu hinzugenommen bzw. abgesetzt“ und „sonstige Beschwerden“) und enthält somit maximal 91 Fragen. Da verschiedene Symptome geschlechtsspezifisch sind (z.B. Menstruationsbeschwerden oder Erektionsprobleme) werden diese nur selektiv für Frauen bzw. Männer angezeigt. Patienten, die ihr Geschlecht nicht spezifizieren, erhalten keinerlei geschlechtsspezifische Symptomfragen, während Personen mit diversem Geschlecht alle Symptomfragen angezeigt bekommen. Wurden Symptome erfasst, so erhält der Patient hierauf aufbauende Verhaltensempfehlungen, wie rasch eine Abklärung mit dem betreuenden Zentrum angeraten ist. Die Empfehlung wird für jedes Symptom getrennt nach Schweregrad und Dringlichkeit ausgegeben. Im Rahmen der randomisierten, multi-zentrischen, prospektiven Studie PreCycle konnte für Frauen mit fortgeschrittenem Brustkrebs unter oraler Therapie gezeigt werden, dass diese Form der Dokumentation und Rückmeldung zu einer Reduktion der schweren Nebenwirkungen (SAE, serious adverse events) führt. Insbesondere Frauen in erster Therapielinie profitieren mit einer Reduktion der SAE’s um 59 % verglichen mit der Kontrollgruppe am stärksten von CANKADO PRO-React Onco. Dieser klinischen Beobachtung geht der Schritt der Patientenkompetenz vorweg, also die Fähigkeit sich als Betroffene oder Betroffener selber einzubringen und dadurch aktiv Schritte zu ergreifen. In einer Untersuchung unter Patientinnen und Patienten mit diversen soliden Tumoren bzw. hämatologischen Neoplasien konnte gezeigt werden, dass lediglich 54 % der Meinung sind, dass sie den Zusammenhang von Therapie und Nebenwirkungen verstehen. Der Nachweis des positiven Versorgungseffektes soll innerhalb der “About the Impact on Patient- Empowerment through CANKADO PRO-React Onco” (AIPEC) Studie erbracht werden. AIPEC ist eine multizentrische, prospektive, zweiarmige Studie. - Patient: Das Patientenkollektiv umfasst Patientinnen und Patienten mit Brustkrebs (ICD-10 Kategorie C50). Intervention: Begleitend zur Therapie soll mittels des CANKADO Portals sowohl der allgemeine Gesundheitszustand mit Hilfe des EQ-VAS wie auch die beobachteten Beschwerden dokumentiert werden. Die Interventionsgruppe erhält Verhaltensempfehlungen. Comparison: Auch die Kontrollgruppe dokumentiert sowohl den allgemeinen Gesundheitszustand mit Hilfe des EQ-VAS wie auch die beobachteten Beschwerden mittels des CANKADO Portals. Nach der Dokumentation der Beschwerden werden für die Kontrollgruppe keinen weiteren Funktionalitäten ausgelöst. Outcome: Diese vergleichende Studie soll den positiven Versorgungseffekt von CANKADO PRO-React auf die Gesundheitskompetenz evaluieren. Die randomisierte, multizentrische Phase IV PreCycle Studie (NCT03220178) evaluiert den Effekt von elektronischen Patient-Reported Outcomes (ePRO) Dokumentation auf die Lebensqualität beispielhaft an Patientinnen mit HR+/HER2- fortgeschrittenen oder metastasierten Brustkrebs während systemischer Therapie mit Palbociclib und einem Aromatase Hemmer oder Palbociclib und Fulvestrant. Patienten werden in einem Verhältnis von 2:1 in den active Arm unter Verwendung des CANKADO PRO-React oder in den inform Arm randomisiert. Der primäre Endpunkt ist der Nachweis der Überlegenheit von ersterem hinsichtlich der Dauer bis zur Verschlechterung des Gesundheitszustands für Patienten mit regelmäßiger eHealth Dokumentation. Die Studie startete im Jahr 2017 und ist noch laufend, mit aktuell 81 Zentren. Innerhalb der PreCycle wurde eine systematische Datenauswertung zur Begründung des positiven Versorgungeffekts durchgeführt. Die vorliegenden Daten der Sicherheitsanalyse mit 261 randomisierten Patientinnen vom 15.10.2019 zeigten eine regelmäßige CANKADO Nutzung an 59% (+/-10%) der Tage über 2 Jahre hinweg und eine klinisch relevante Reduktion der SAE Inzidenz von 31,4 zu 20,6 pro 100 Patientinnen (Degenhardt et al., 2020). Dieser klinischen Beobachtung geht der Schritt der Patientenkompetenz vorweg, also die Fähigkeit sich als Betroffene oder Betroffener selber einzubringen und dadurch aktiv Schritte zu ergreifen. In einer Untersuchung unter Patientinnen und Patienten mit diversen soliden Tumoren bzw. hämatologischen Neoplasien konnte gezeigt werden, dass lediglich 54 % der Meinung sind, dass sie den Zusammenhang von Therapie und Nebenwirkungen verstehen. AIPEC ist eine multizentrische, prospektive, zweiarmige Studie für Patientinnen und Patienten mit Brustkrebs. Diese vergleichende Studie soll den positiven Versorgungseffekt von CANKADO PRO-React auf die Gesundheitskompetenz evaluieren. - Referenzen: Degenhardt T., Harbeck N., Fasching P.A., Wuerstlein R., Lüftner D., Kates R. E., Schumacher J., Wenzel C., Schinkoethe T., Schmidt M. Documentation patterns and impact on observed side effects of the CANKADO ehealth application: An exploratory analysis of the PreCycle trial. Journal of Clinical Oncology 2020:38(15_suppl), 2083DOI: 10.1200/JCO.2020.38.15_suppl.2083 Brustzentrum Klinikum der Universität München Nein 24 Monate (12 Monate initial, 12 Monate Verlängerung)",
+      "content_fingerprint": "59a2c60b9243",
       "content_preview": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Ve...",
       "content_type": "section",
+      "display_path": "Informationen zum positiven Versorgungseffekt",
       "level": 2,
       "path": [
         "Informationen zum positiven Versorgungseffekt"
       ],
+      "path_hash": "3298cbc3fcdf",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00961:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "stable_key": "00961:informationen-zum-positiven-versorgungseffekt:3298cbc3fcdf:section:0",
       "title": "Informationen zum positiven Versorgungseffekt"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird. Die Anforderungen an die Datensicherheit werden durch Vorlage eines Zertifikats gemäß § 139e Absatz 10 Fünftes Buch Sozialgesetzbuch nachgewiesen. Detaillierte Informationen zu den einzelnen Anforderungen können Sie auf der Webseite des Bundesamts für Sicherheit in der Informationstechnik unter der Technischen Richtlinie \"BSI TR-03161\" finden: https://www.bsi.bund.de/dok/TR-03161 Bis zur Vorlage des Zertifikats gelten für den Bereich Datensicherheit die Anforderungen der nachfolgend dargestellten Checkliste. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "2191188ce7c4",
       "content_preview": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen v...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00961:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "00961:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:0",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit > Datensicherheit",
       "level": 4,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit",
         "Datensicherheit"
       ],
+      "path_hash": "8545f237a1b9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00961:informationen-zu-datenschutz-und-datensicherheit-datensicherheit-14af255f91:field_value",
+      "stable_key": "00961:informationen-zu-datenschutz-und-datensicherheit-datensicherheit:8545f237a1b9:field_value:0",
       "title": "Datensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung umfasst keine über Web-Protokolle aufrufbaren Dienste. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung greift weder auf Sensoren eines mobilen Endgeräts noch auf externe Hardware zu. Trifft nicht zu Die digitale Gesundheitsanwendung tauscht keine Daten mit externer Hardware aus. Zutreffend Zutreffend Zutreffend Nein",
+      "content_fingerprint": "e0e4780428f4",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutref...",
       "content_type": "section",
+      "display_path": "Informationen zu Datenschutz und Datensicherheit",
       "level": 2,
       "path": [
         "Informationen zu Datenschutz und Datensicherheit"
       ],
+      "path_hash": "564fd5c42e89",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "00961:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "stable_key": "00961:informationen-zu-datenschutz-und-datensicherheit:564fd5c42e89:section:1",
       "title": "Informationen zu Datenschutz und Datensicherheit"
     },
     {
       "content": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der medizinischen Inhalte und die Gewährleistung der Patientensicherheit. Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_fingerprint": "d6d0ea10d54a",
       "content_preview": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der me...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00961:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00961:weitere-informationen:df3724c46c56:section:0",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Interoperabilität",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Interoperabilität"
       ],
+      "path_hash": "43914a1ae1e9",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00961:weitere-informationen-angaben-zur-interoperabilitaet-8867f27412:field_value",
+      "stable_key": "00961:weitere-informationen-angaben-zur-interoperabilitaet:43914a1ae1e9:field_value:0",
       "title": "Angaben zur Interoperabilität"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "6a9c5574ad06",
       "content_preview": "Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 1,
       "source_kind": "visible_directory",
-      "stable_key": "00961:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00961:weitere-informationen:df3724c46c56:section:1",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Robustheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Robustheit"
       ],
+      "path_hash": "d416c871fdb6",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00961:weitere-informationen-angaben-zur-robustheit-0a511476df:field_value",
+      "stable_key": "00961:weitere-informationen-angaben-zur-robustheit:d416c871fdb6:field_value:0",
       "title": "Angaben zur Robustheit"
     },
     {
       "content": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
+      "content_fingerprint": "4b94c32e0d08",
       "content_preview": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digi...",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 2,
       "source_kind": "visible_directory",
-      "stable_key": "00961:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00961:weitere-informationen:df3724c46c56:section:2",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zum Verbraucherschutz",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zum Verbraucherschutz"
       ],
+      "path_hash": "22c54da8ff9c",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00961:weitere-informationen-angaben-zum-verbraucherschutz-05cd17969e:field_value",
+      "stable_key": "00961:weitere-informationen-angaben-zum-verbraucherschutz:22c54da8ff9c:field_value:0",
       "title": "Angaben zum Verbraucherschutz"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "409aa9901d82",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 3,
       "source_kind": "visible_directory",
-      "stable_key": "00961:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00961:weitere-informationen:df3724c46c56:section:3",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zu Nutzerfreundlichkeit und Barrierefreiheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
       ],
+      "path_hash": "a9d890d721a4",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00961:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit-8fe873c531:field_value",
+      "stable_key": "00961:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit:a9d890d721a4:field_value:0",
       "title": "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
     },
     {
       "content": "Zutreffend Zutreffend",
+      "content_fingerprint": "f572c2f88946",
       "content_preview": "Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 4,
       "source_kind": "visible_directory",
-      "stable_key": "00961:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00961:weitere-informationen:df3724c46c56:section:4",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Unterstützung der Leistungserbringende",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Unterstützung der Leistungserbringende"
       ],
+      "path_hash": "bdfe86165ef2",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00961:weitere-informationen-unterstuetzung-der-leistungserbringende-d4e78dfd75:field_value",
+      "stable_key": "00961:weitere-informationen-unterstuetzung-der-leistungserbringende:bdfe86165ef2:field_value:0",
       "title": "Unterstützung der Leistungserbringende"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Qualität der medizinischen Inhalte",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Qualität der medizinischen Inhalte"
       ],
+      "path_hash": "964eb34f0609",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00961:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte-a6d05ceeb6:field_value",
+      "stable_key": "00961:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte:964eb34f0609:field_value:0",
       "title": "Angaben zur Qualität der medizinischen Inhalte"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "6a8d1dc0aa28",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 5,
       "source_kind": "visible_directory",
-      "stable_key": "00961:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00961:weitere-informationen:df3724c46c56:section:5",
       "title": "Weitere Informationen"
     },
     {
       "content": "Zutreffend",
+      "content_fingerprint": "bf1774015478",
       "content_preview": "Zutreffend",
       "content_type": "field_value",
+      "display_path": "Weitere Informationen > Angaben zur Patientensicherheit",
       "level": 4,
       "path": [
         "Weitere Informationen",
         "Angaben zur Patientensicherheit"
       ],
+      "path_hash": "96d387fa1378",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00961:weitere-informationen-angaben-zur-patientensicherheit-7a67651ccd:field_value",
+      "stable_key": "00961:weitere-informationen-angaben-zur-patientensicherheit:96d387fa1378:field_value:0",
       "title": "Angaben zur Patientensicherheit"
     },
     {
       "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_fingerprint": "477afefea65b",
       "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
       "content_type": "section",
+      "display_path": "Weitere Informationen",
       "level": 2,
       "path": [
         "Weitere Informationen"
       ],
+      "path_hash": "df3724c46c56",
+      "section_index_in_path": 6,
       "source_kind": "visible_directory",
-      "stable_key": "00961:weitere-informationen-afe954d9f8:section",
+      "stable_key": "00961:weitere-informationen:df3724c46c56:section:6",
       "title": "Weitere Informationen"
     },
     {
       "content": "Die digitale Gesundheitsanwendung (DiGA) wurde am 21.04.2023 nach Prüfung der Nachweise für positive Versorgungseffekte aus dem Verzeichnis gemäß § 139e Absatz 4 Satz 8 des Fünften Buches Sozialgesetzbuch (SGB V) gestrichen. Für die DiGA konnte kein positiver Versorgungseffekt nachgewiesen werden.",
+      "content_fingerprint": "29f744c7d597",
       "content_preview": "Die digitale Gesundheitsanwendung (DiGA) wurde am 21.04.2023 nach Prüfung der Nachweise für positive Versorgungseffekte aus dem Verzeichnis gemäß § 139e Absatz 4 Satz 8 des Fünften Buches Sozialgesetzbuch (SGB V) gestrichen. Für die DiGA...",
       "content_type": "field_value",
+      "display_path": "Änderungshistorie > 21.04.2023 Status der Listung ist „Gestrichen“",
       "level": 4,
       "path": [
         "Änderungshistorie",
         "21.04.2023 Status der Listung ist „Gestrichen“"
       ],
+      "path_hash": "ec5955cd7424",
+      "section_index_in_path": 0,
       "source_kind": "visible_directory",
-      "stable_key": "00961:aenderungshistorie-21-04-2023-status-der-listung-ist-gestrichen-7e8a8607ca:field_value",
+      "stable_key": "00961:aenderungshistorie-21-04-2023-status-der-listung-ist-gestrichen:ec5955cd7424:field_value:0",
       "title": "21.04.2023 Status der Listung ist „Gestrichen“"
     }
   ],
@@ -418,10 +550,10 @@
     "accordions_opened": 0,
     "content_section_count": 33,
     "field_value_count": 16,
-    "rendered_at": "2026-06-22T19:05:35.283288+00:00",
+    "rendered_at": "2026-06-22T20:33:11.105900+00:00",
     "source_kind": "visible_directory"
   },
   "source_kind": "visible_directory",
-  "timestamp": "20260622T190144Z",
+  "timestamp": "20260622T202912Z",
   "url": "https://diga.bfarm.de/de/verzeichnis/00961"
 }
