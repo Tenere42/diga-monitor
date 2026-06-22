@@ -1,0 +1,935 @@
+{
+  "content_sections": [
+    {
+      "content": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_preview": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:field_value",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_preview": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Kalmeda",
+      "content_preview": "Kalmeda",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Name der DiGA im DiGA-Verzeichnis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v-132a49921b:field_value",
+      "title": "Name der DiGA im DiGA-Verzeichnis"
+    },
+    {
+      "content": "25.09.2020",
+      "content_preview": "25.09.2020",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Erstmalige Aufnahme in das DiGA-Verzeichnis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in--0901792b12:field_value",
+      "title": "Erstmalige Aufnahme in das DiGA-Verzeichnis"
+    },
+    {
+      "content": "Kalmeda Go",
+      "content_preview": "Kalmeda Go",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Modul"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-modul-0b2f60dd90:field_value",
+      "title": "Modul"
+    },
+    {
+      "content": "App",
+      "content_preview": "App",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Art der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga-f41af95c79:field_value",
+      "title": "Art der DiGA"
+    },
+    {
+      "content": "im Google Play Store Deutschland",
+      "content_preview": "im Google Play Store Deutschland",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Die digitale Gesundheitsanwendung ist verfügbar"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit-70a197df25:field_value",
+      "title": "Die digitale Gesundheitsanwendung ist verfügbar"
+    },
+    {
+      "content": "im Apple App Store Deutschland",
+      "content_preview": "im Apple App Store Deutschland",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Hetzner Online GmbH mit Servern in Deutschland (Nürnberg und Falkenstein)",
+      "content_preview": "Hetzner Online GmbH mit Servern in Deutschland (Nürnberg und Falkenstein)",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Standorte der Datenverarbeitung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera-426183d1fc:field_value",
+      "title": "Standorte der Datenverarbeitung"
+    },
+    {
+      "content": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an - • Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der Technik und • die Qualität des Medizinproduktes, einschließlich Interoperabilität - entsprechend den Vorgaben der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) als erfüllt. Die Datenverarbeitung findet laut Hersteller ausschließlich in Deutschland statt. Das BfArM bewertet dieses Vorgehen als konform im Sinne der DiGAV. - Nach Aufnahme zur Erprobung wurden die Studienergebnisse der geplanten Erprobungsstudie zum Ende des Erprobungszeitraums eingereicht. - Der Nachweis des positiven Versorgungseffekts stützt sich auf eine randomisierte kontrollierte klinische Studie (RCT [Kalmeda Tinnitus-Studie; Registriert im Deutschen Register Klinischer Studien unter: DRKS00022973]). In dieser RCT wurde die Kalmeda Tinnitus-App der Interventionsgruppe zur Verfügung gestellt. Teilnehmende in der Kontrollgruppe erhielten die medizinische Regelversorgung und Zugang zur Kalmeda Tinnitus App nach 3 Monaten. Der primäre Endpunkt zur Wirksamkeitsüberprüfung war die Verringerung der Tinnitusbelastung nach 3 Monaten, gemessen anhand des Tinnitusfragebogens nach Göbel und Hiller. In die Studie wurden 188 Patientinnen und Patienten eingeschlossen und randomisiert. Nachträglich musste ein Patient oder eine Patientin aufgrund der Ausschlusskriterien ausgeschlossen werden. Die Auswertung erfolgte anhand der verbliebenen 187 Patientinnen und Patienten. - Zum festgelegten primären Erhebungszeitpunkt nach 3 Monaten zeigte sich eine statistisch signifikante und klinisch relevante Reduzierung der Tinnitusbelastung gemessen anhand des Tinnitusfragebogens nach Göbel und Hiller in der Interventionsgruppe im Vergleich zur Kontrollgruppe (Mittelwertsdifferenz = -10,04; Standardfehler = 1,41; p < 0,0001; 95 % Konfidenzintervall (CI) [-12,69; -7,39]). Der Unterschied zwischen den Gruppen blieb auch bei einer, aus regulatorischer Sicht entscheidenden, Sensitivitätsanalyse fast identisch (Mittelwertsdifferenz = -10,38; Standardfehler = 1,51; p < 0,0001; 95 % CI [-13,34; -7,41]). - Die zur Bewertung vorgelegte Studie konnte daher bei Anwendung der Kalmeda Tinnitus App insgesamt eine signifikante Verbesserung des Gesundheitszustands der Teilnehmenden aufzeigen, sodass der entsprechende positive Versorgungseffekt anerkannt wird. - Entsprechend bewertet das BfArM die in § 139e SGB V sowie in der DiGAV festgelegten Voraussetzungen zur Aufnahme in das Verzeichnis nach §139e Absatz 1 SGB V als erfüllt.",
+      "content_preview": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an - • Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand de...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Bewertungsentscheidung des BfArM"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung--cdc10aad7c:field_value",
+      "title": "Bewertungsentscheidung des BfArM"
+    },
+    {
+      "content": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_preview": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Angaben zum Medizinprodukt"
+    },
+    {
+      "content": "Kognitive Verhaltenstherapie zur Verbesserung der Tinnitusbelastung bei chronischem Tinnitus für Personen, die das 18. Lebensjahr vollendet haben. Gegenanzeigen sind nicht bekannt.",
+      "content_preview": "Kognitive Verhaltenstherapie zur Verbesserung der Tinnitusbelastung bei chronischem Tinnitus für Personen, die das 18. Lebensjahr vollendet haben. Gegenanzeigen sind nicht bekannt.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "Medizinische Zweckbestimmung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Medizinische Zweckbestimmung"
+    },
+    {
+      "content": "Risikoklasse I nach MDR",
+      "content_preview": "Risikoklasse I nach MDR",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "Risikoklasse Medizinprodukt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Risikoklasse Medizinprodukt"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "Name der Benannten Stelle"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Name der Benannten Stelle"
+    },
+    {
+      "content": "Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt.",
+      "content_preview": "Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "04262400320003",
+      "content_preview": "04262400320003",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "UDI - Unique Device Identifier im Sinne der MDR"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-udi-unique-device-ident-16a2c37ee0:field_value",
+      "title": "UDI - Unique Device Identifier im Sinne der MDR"
+    },
+    {
+      "content": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_preview": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Weitere Informationen zur DiGA"
+    },
+    {
+      "content": "Die Kalmeda Tinnitus-App bietet eine kognitive Verhaltenstherapie auf der Basis des Zürcher Ressourcenmodells sowie der Akzeptanz- und Commitment-Therapie für Patienten mit chronischem Tinnitus. Die App beinhaltet fünf Level mit je neun Etappen. Die ersten drei Monate behandeln die Themen „Aufmerksamkeitslenkung“ und „Entspannung“ und verstehen sich als Intensivtherapie, bei der die Patientin / der Patient kontinuierlich seine Bewältigungsstrategien im Umgang mit dem Tinnitus verbessert (Level 1 und 2). Diese Elemente entsprechen den Standards der modernen Verhaltenstherapie bei Tinnitus. Danach werden diese Lernerfahrungen immer wieder aktualisiert und vertieft. Level 3 behandelt schwerpunktmäßig das Thema „Achtsamkeit“, Level 4 das Thema „Akzeptanz“ und Level 5 das Thema „Selbstwirksamkeit“: Die Nutzer entwickeln im Laufe ihres Übungsprogramms die Fähigkeit, für sie nachteilige Denk- und Verhaltensmuster zu erkennen und zu ihrem Vorteil zu verändern. Sie lernen sich Ziele zu setzen und greifen bei deren Verwirklichung auf eigene Ressourcen zurück, lernen aber auch Hilfe von anderen zu erbitten und anzunehmen. Die App-basierte Verhaltenstherapie mit der Tinnitus-App Kalmeda erstreckt sich aufgrund von Mindestbearbeitungszeiträumen für die einzelnen Etappen insgesamt über einen Zeitraum von mindestens sieben Monaten. Ergänzt wird das Übungsprogramm durch beruhigende Natur- und Hintergrundgeräusche, Entspannungsübungen und geführte Meditationen sowie einen Wissensteil.",
+      "content_preview": "Die Kalmeda Tinnitus-App bietet eine kognitive Verhaltenstherapie auf der Basis des Zürcher Ressourcenmodells sowie der Akzeptanz- und Commitment-Therapie für Patienten mit chronischem Tinnitus. Die App beinhaltet fünf Level mit je neun ...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "1. Mein Kalmeda: Verhaltenstherapeutisches Übungsprogramm mit Wissenstexten und -videos, interaktiven Fragebögen, Wissensquiz, Aufgabenstellungen mit Freitexten und Bewertungen, das Programm besteht aus 5 Leveln mit je 9 Etappen, die nacheinander mit einer Mindestbearbeitungszeit durchlaufen werden. 2. Hilfen: Hier notiert sich der Nutzer Hilfen zur Erreichung seiner Ziele, die er jederzeit bearbeiten und löschen kann. Die Hilfen sind unterteilt in Bilder, Haltungen, Wünsche, Stärken, Erfolge, Primer zur automatischen Auslösung von erwünschten Verhaltensweisen und inneren Einstellungen, Bewegungsmuster und eine Helferliste 3. Ziele: Der Nutzer kann sich in einem interaktiven Fragebogen emotional abgesicherte und erreichbare Ziele setzen (z.B. Entspannungs-, Achtsamkeits- oder Akzeptanzziele) und jedem Ziel geeignete Hilfen mit Erinnerungsfunktion zuordnen. Ziele können jederzeit bearbeitet und gelöscht werden. 4. Fortschritte: Hier sieht der Nutzer die wöchentlich abgefragten Gefühlsbilanzen ( Skala für positive und negative Gefühle) und seinen allgemeinen Therapiefortschritt 5. Entspannung: Hier können Entspannungsübungen und geführte Meditationen abgerufen und mit einer Erinnerungsfunktion versehen werden. 6. Sound: Angenehme Natur- und Hintergrundgeräusche dienen zur Akuthilfe bei einer starken Tinnitusbelastung. 7. Wissen: Im Wissensteil findet der Nutzer Erläuterungen aller wichtigen Begriffe rund um seine Behandlung und kann auch direkt individuelle Fragen an seinen Therapeuten stellen.",
+      "content_preview": "1. Mein Kalmeda: Verhaltenstherapeutisches Übungsprogramm mit Wissenstexten und -videos, interaktiven Fragebögen, Wissensquiz, Aufgabenstellungen mit Freitexten und Bewertungen, das Programm besteht aus 5 Leveln mit je 9 Etappen, die nac...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Funktionen der digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Funktionen der digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "HNO-Praxis Duisburg Mülheimerstraße 70 47057 Duisburg - Context Am Stadtwald 26 45219 Essen-Kettwig",
+      "content_preview": "HNO-Praxis Duisburg Mülheimerstraße 70 47057 Duisburg - Context Am Stadtwald 26 45219 Essen-Kettwig",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
+    },
+    {
+      "content": "Andersson G, Cuijpers P, Carlbring P, Heleen R, Hedman E. Guided Internet-based vs. face-to-face cognitive behavior therapy for psychiatric and somatic disorders: a systematic review and meta-analysis. World Psychiatr; 2014 Oct 13(3):288-95. - Brüggemann P, Szczepek A, Rose M, McKenna L, Olze H und Mazurek B. Impact of Multiplie Factors on the Degree of Tinnitus Distress. Frontiers in Systems Neuroscience 2016 Jun 29; 10: 341. - Cima RFF, Mazurek B, Haider H, Kikidis D, Lapira A, Norena, A. A multidisciplinary European guideline for tinnitus: diagnostics, assessment, and treatment. 2019 Mar 19; HNO 67: 10–42. - Cima RFF, Andersson G, Schmidt C, Henry, J. Cognitive-behavioral treatments for tinnitus: a review of literatur. Journal of the American Academy of Audiology. 2014 Mar; 25 (1): 9-61. Cima RFF, Maes I, Joore M, Scheyen D, El Refaie A, Baguely D et al. Specialised treatment based on cognitive behaviour therapy versus usual care for tinnitus: a randomised controlled trial. Lancet. 2012 May 26;379(9830):1951-9. - Hesser H, Westin VZ, Andersson G. Acceptance as a mediator in internet-delivered acceptance and commitment therapy and cognitive behavior therapy for tinnitus. J Behav Med. 2014 Aug; 37(4):756-67. - Hölzel B, Brähler C, editors. Achtsamkeit. München: Barth; 2015 Kreuzer P, Vielsmeier V und Langguth B, Chronic Tinnitus, an interdisciplinary Challenge. Deutsches Ärzteblatt; 2013 Apr 19. 110 (16): 278-284. - Storch M, Krause F. Selbstmanagement-ressourcenorientiert. 5th ed. Bern: Huber; 2014. - Weise C, Kleinstäuber M, Andersson G. Internet-Delivered Cognitive-Behavior Therapy for Tinnitus: A Randomized Controlled Trial. Psychosomatische Medizin. 2016 May;78(4):501-10. - Wengenroth M. Akzeptanz- und Commitmenttherapie. 2nd ed. Weinheim: Beltz; 2017.",
+      "content_preview": "Andersson G, Cuijpers P, Carlbring P, Heleen R, Hedman E. Guided Internet-based vs. face-to-face cognitive behavior therapy for psychiatric and somatic disorders: a systematic review and meta-analysis. World Psychiatr; 2014 Oct 13(3):288...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
+    },
+    {
+      "content": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_preview": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Beteiligung vom medizinischen Fachpersonal"
+    },
+    {
+      "content": "Nach erfolgter Diagnostik eines Tinnitus verschreibt Ihnen die Ärztin / der Arzt diese DiGA.",
+      "content_preview": "Nach erfolgter Diagnostik eines Tinnitus verschreibt Ihnen die Ärztin / der Arzt diese DiGA.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Ärztinnen/ Ärzte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Ärztinnen/ Ärzte"
+    },
+    {
+      "content": "Ihre Psychotherapeutin/ Ihr Psychotherapeut verschreibt Ihnen diese DiGA bei Bedarf.",
+      "content_preview": "Ihre Psychotherapeutin/ Ihr Psychotherapeut verschreibt Ihnen diese DiGA bei Bedarf.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Psychotherapeutinnen/ Psychotherapeuten"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Psychotherapeutinnen/ Psychotherapeuten"
+    },
+    {
+      "content": "Nein",
+      "content_preview": "Nein",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
+    },
+    {
+      "content": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfohlen wird.",
+      "content_preview": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfoh...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-6922aa5eb2:field_value",
+      "title": "Anwendungshinweise"
+    },
+    {
+      "content": "Nebenwirkungen einer kognitiven Verhaltenstherapie sind nicht bekannt. Die Nutzung der verschiedenen App-Funktionen wird innerhalb der App ausführlich erläutert. Eine Gebrauchsanweisung ist in der App hinterlegt. Für inhaltliche oder technische Fragen sind zwei Support-Systeme (medizinisches und technisches) eingerichtet, die jederzeit aus der App heraus genutzt werden können.",
+      "content_preview": "Nebenwirkungen einer kognitiven Verhaltenstherapie sind nicht bekannt. Die Nutzung der verschiedenen App-Funktionen wird innerhalb der App ausführlich erläutert. Eine Gebrauchsanweisung ist in der App hinterlegt. Für inhaltliche oder tec...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Hinweise für eine sichere Anwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw-13263bcc58:field_value",
+      "title": "Hinweise für eine sichere Anwendung"
+    },
+    {
+      "content": "Bei starken kognitive Einschränkungen oder starken psychischen Erkrankungen, wie zum Beispiel Demenz oder akute Psychosen, sollte Kalmeda® nicht verwendet werden, da nicht davon ausgegangen werden kann, dass die Therapie kontinuierlich durchgeführt werden könnte. Die Verwendung von Kalmeda® ist nicht geeignet, für Patientinnen und Patienten, die unter einer Sehbehinderung leiden, die nicht durch Hilfsmittel korrigiert werden kann.",
+      "content_preview": "Bei starken kognitive Einschränkungen oder starken psychischen Erkrankungen, wie zum Beispiel Demenz oder akute Psychosen, sollte Kalmeda® nicht verwendet werden, da nicht davon ausgegangen werden kann, dass die Therapie kontinuierlich d...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Weitere Ausschlusskriterien"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-weit-3d658a5f5f:field_value",
+      "title": "Weitere Ausschlusskriterien"
+    },
+    {
+      "content": "12 Monate",
+      "content_preview": "12 Monate",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Vom Hersteller für erforderlich gehaltene Mindestdauer"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "title": "Vom Hersteller für erforderlich gehaltene Mindestdauer"
+    },
+    {
+      "content": "12 Monate",
+      "content_preview": "12 Monate",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Vom Hersteller für erforderlich gehaltene Höchstdauer"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "title": "Vom Hersteller für erforderlich gehaltene Höchstdauer"
+    },
+    {
+      "content": "Externe Geräte sind im Rahmen der Nutzung von Kalmeda nicht vorgesehen.",
+      "content_preview": "Externe Geräte sind im Rahmen der Nutzung von Kalmeda nicht vorgesehen.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-komp-0b84064997:field_value",
+      "title": "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
+    },
+    {
+      "content": "Zur Möglichkeit des Datenexports für Nutzer und medizinisches Fachpersonal nutzt Kalmeda den internationalen Standard FHIR und das Informationsmodell nach mio der KBV, (https:j 1m io. kbv .de/pages/viewpage .action ?pageld=3335 7839).",
+      "content_preview": "Zur Möglichkeit des Datenexports für Nutzer und medizinisches Fachpersonal nutzt Kalmeda den internationalen Standard FHIR und das Informationsmodell nach mio der KBV, (https:j 1m io. kbv .de/pages/viewpage .action ?pageld=3335 7839).",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Möglichkeiten von standardisiertem Datenimport und Datenexport"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-moeg-b860ee673e:field_value",
+      "title": "Möglichkeiten von standardisiertem Datenimport und Datenexport"
+    },
+    {
+      "content": "Die DiGA ermöglicht zudem auf Wunsch des Versicherten einen manuellen oder automatisierten Export in die elektronische Patientenakte (ePA) Version 3.0.",
+      "content_preview": "Die DiGA ermöglicht zudem auf Wunsch des Versicherten einen manuellen oder automatisierten Export in die elektronische Patientenakte (ePA) Version 3.0.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs. weitere, durch Sie selbst aufzubringende Kosten, sofern Sie bestimmte zusätzlich angebotene und von der Verschreibung nicht abgedeckte Leistungen in Anspruch nehmen möchten.",
+      "content_preview": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs....",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-429bde377d:field_value",
+      "title": "Angaben zum Preis"
+    },
+    {
+      "content": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+      "content_preview": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis",
+        "Preismodell"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis-6eb719186f:field_value",
+      "title": "Preismodell"
+    },
+    {
+      "content": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "content_preview": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "189,00 € / 90 Tage. Da es sich um eine kognitive Verhaltenstherapie handelt, ist eine gewisse Mindestanwendung zur Erzielung eines Therapieerfolges zwingend.",
+      "content_preview": "189,00 € / 90 Tage. Da es sich um eine kognitive Verhaltenstherapie handelt, ist eine gewisse Mindestanwendung zur Erzielung eines Therapieerfolges zwingend.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-kosten-z-b-starterpaket-5641b0bf97:field_value",
+      "title": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
+    },
+    {
+      "content": "189,00 € / 90 Tage bei Folgeverordnung.",
+      "content_preview": "189,00 € / 90 Tage bei Folgeverordnung.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-nutzung-der-dig-7a56e117b7:field_value",
+      "title": "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
+    },
+    {
+      "content": "Die App soll max. vier Mal durch einen Arzt oder Psychotherapeuten verordnet werden, so dass die optimale Therapiedauer zur Anwendung kommt.",
+      "content_preview": "Die App soll max. vier Mal durch einen Arzt oder Psychotherapeuten verordnet werden, so dass die optimale Therapiedauer zur Anwendung kommt.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Anmerkungen zum Preismodell"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-anmerkungen-zum-f3f338f2f7:field_value",
+      "title": "Weitere Anmerkungen zum Preismodell"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Erläuterung Mehrkosten"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-erlaeuterung-mehrkosten-7813cc6074:field_value",
+      "title": "Erläuterung Mehrkosten"
+    },
+    {
+      "content": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_preview": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Verbesserungen für Patienten können entweder medizinischer Art sein (z.B. Verringerung von Schmerzen, Beitrag zur Heilung der Erkrankung) oder den Erkennungs- und Behandlungsprozess direkt unterstützen und erleichtern (z.B. Informationen zur individuellen Erkrankungssituation, Unterstützung bei der Einhaltung der zwischen Patient und Arzt gemeinsam vereinbarten therapeutischen Maßnahmen).",
+      "content_preview": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Ve...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:informationen-zum-positiven-versorgungseffekt-253662cf50:field_value",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche Weise dies ggfs. bereits wissenschaftlich nachgewiesen wurde. Falls der positive Versorgungseffekt noch nicht abschließend nachgewiesen aber bereits so plausibel dargelegt wurde, dass die DiGA befristet zur entsprechenden Erprobung aufgenommen wurde, wird angegeben, für welchen Zeitraum dies erfolgt ist. Sofern (auch) ein Nachweis zum Erhalt der Erwerbsfähigkeit für die DiGA erbracht wurde oder eine Nachweisführung geplant ist, finden Sie hier eine Beschreibung und nähere Angaben zum Nachweis sowie zum Studiendesign. Sofern die DiGA (auch) ein diagnostisches Instrument darstellt, also mindestens in Teilen dazu vorgesehen ist, Informationen z.B. für die Erkennung oder Diagnose von Krankheitszuständen zu liefern, hat der Hersteller dies benannt und beschrieben sowie Sensitivität und Spezifität als wichtige Bewertungsgrößen angegeben.",
+      "content_preview": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche We...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Medizinischer Nutzen",
+      "content_preview": "Medizinischer Nutzen",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Angaben zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse-5449921803:field_value",
+      "title": "Angaben zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Verbesserung des Gesundheitszustands",
+      "content_preview": "Verbesserung des Gesundheitszustands",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Nähere Angaben zum medizinischen Nutzen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen--90ce965dee:field_value",
+      "title": "Nähere Angaben zum medizinischen Nutzen"
+    },
+    {
+      "content": "Durch Kalmeda verbessert sich die Tinnitusbelastung",
+      "content_preview": "Durch Kalmeda verbessert sich die Tinnitusbelastung",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Beschreibung des medizinischen Nutzens"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut-a677995e79:field_value",
+      "title": "Beschreibung des medizinischen Nutzens"
+    },
+    {
+      "content": "Patienten: Patienten mit chronischem Tinnitus Behandlung: Kalmeda Tinnitus-App Vergleich: Patienten die warten und erst nach 3 Monaten die Kalmeda Tinnitus-App anwenden Ergebnis: Signifikante Reduzierung der Tinnitusbelastung",
+      "content_preview": "Patienten: Patienten mit chronischem Tinnitus Behandlung: Kalmeda Tinnitus-App Vergleich: Patienten die warten und erst nach 3 Monaten die Kalmeda Tinnitus-App anwenden Ergebnis: Signifikante Reduzierung der Tinnitusbelastung",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Studie/n im PICO-Schema"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema-2cb668dadb:field_value",
+      "title": "Studie/n im PICO-Schema"
+    },
+    {
+      "content": "Das Studiendesign beruht auf aktuellen Empfehlungen des National Institute for Health and Care Excellence für den Evidenznachweis von digitalen Medizinprodukten („Evidence Standard Framework for Digital Health Technologies“) und wurde von der Ethikkommission der Ärztekammer Nordrhein genehmigt. 187 Studienteilnehmer (90 Frauen, 97 Männer, Durchschnittsalter: 48,2 +/- 12,5 Jahre) mit chronischem Tinnitus aurium wurden nach einem Blockrandomisierungsschema im Verhältnis 1:1 in eine Interventions- (n = 94) und Kontrollgruppe (n = 93) randomisiert. Teilnehmer in der Interventionsgruppe begannen ohne zeitliche Verzögerung mit der Anwendung, Teilnehmer in der Kontrollgruppe nach einer dreimonatigen Wartezeit. Die Gesamtstudiendauer beträgt neun Monate für die Interventionsgruppe, 12 Monate für die Kontrollgruppe. Die Datenerhebung erfolgt an bis zu vier Zeitpunkten über validierte Fragebögen zur Selbsteinschätzung: Tinnitusfragebogen (TF) nach Göbel und Hiller, Patient-Health-Questionnaire-9 (PHQ-9), Perceived-Stress-Questionnaire 20 (PSQ20) und Selbstwirksamkeit-Optimismus-Pessimismus Kurzform (SWOP-K9) Fragebogen. Der primäre Endpunkt ist definiert als der Behandlungsunterschied der mittleren Differenzen des TF-Gesamtscores nach drei Monaten zwischen der Interventionsgruppe und der Kontrollgruppe. - Zum festgelegten primären Erhebungszeitpunkt nach 3 Monaten zeigte sich eine statistisch signifikante und klinisch relevante Reduzierung der Tinnitusbelastung gemessen anhand des Tinnitusfragebogen nach Göbel und Hiller in der Interventionsgruppe im Vergleich zur Kontrollgruppe (Mittelwertsdifferenz = -10,04; Standardfehler = 1,41; p < 0,0001; 95 % Konfidenzintervall (CI) [-12,69; -7,39]). Der Unterschied zwischen den Gruppen blieb auch bei einer, aus regulatorischer Sicht entscheidenden, Sensitivitätsanalyse fast identisch (Mittelwertsdifferenz = -10,38; Standardfehler = 1,51; p < 0,0001; 95 % CI [-13,34; -7,41]). - Der Behandlungsunterschied war unabhängig von Geschlecht und Alter der Patienten, sowie von der Dauer des Tinnitus.",
+      "content_preview": "Das Studiendesign beruht auf aktuellen Empfehlungen des National Institute for Health and Care Excellence für den Evidenznachweis von digitalen Medizinprodukten („Evidence Standard Framework for Digital Health Technologies“) und wurde vo...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u-804896bae6:field_value",
+      "title": "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
+    },
+    {
+      "content": "https://www.kalmeda.de/tinnitus-studie",
+      "content_preview": "https://www.kalmeda.de/tinnitus-studie",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Dies ist/sind die vom Hersteller angeführten Studie/n:"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:informationen-zum-positiven-versorgungseffekt-dies-ist-sind-die-vom-hersteller-a-81dc280904:field_value",
+      "title": "Dies ist/sind die vom Hersteller angeführten Studie/n:"
+    },
+    {
+      "content": "Tinnituszentrums der Charité Luisenstraße 13 10117 Berlin",
+      "content_preview": "Tinnituszentrums der Charité Luisenstraße 13 10117 Berlin",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:informationen-zum-positiven-versorgungseffekt-herstellerunabhaengige-institution-85ca65af54:field_value",
+      "title": "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
+    },
+    {
+      "content": "Nein",
+      "content_preview": "Nein",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Die DiGA enthält ein diagnostisches Instrument"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch-eded43f154:field_value",
+      "title": "Die DiGA enthält ein diagnostisches Instrument"
+    },
+    {
+      "content": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird. Die Anforderungen an die Datensicherheit werden durch Vorlage eines Zertifikats gemäß § 139e Absatz 10 Fünftes Buch Sozialgesetzbuch nachgewiesen. Detaillierte Informationen zu den einzelnen Anforderungen können Sie auf der Webseite des Bundesamts für Sicherheit in der Informationstechnik unter der Technischen Richtlinie \"BSI TR-03161\" finden: https://www.bsi.bund.de/dok/TR-03161 Bis zur Vorlage des Zertifikats gelten für den Bereich Datensicherheit die Anforderungen der nachfolgend dargestellten Checkliste.",
+      "content_preview": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen v...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:field_value",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutref...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit",
+        "Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:informationen-zu-datenschutz-und-datensicherheit-datensicherheit-14af255f91:field_value",
+      "title": "Datensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung sieht keine unterschiedlichen Nutzerrollen vor. Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung erlaubt keinen Upload von Dateien. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung verarbeitet keine Daten, die durch die nutzende Person oder durch nicht durch die digitale Gesundheitsanwendung kontrollierte Quellen bereitgestellt werden. Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung nutzt keine Konfigurationsdateien bzw. diese sind für den sicheren Betrieb der digitalen Gesundheitsanwendung nicht relevant. Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung greift weder auf Sensoren eines mobilen Endgeräts noch auf externe Hardware zu. Trifft nicht zu Die digitale Gesundheitsanwendung tauscht keine Daten mit externer Hardware aus. Zutreffend Zutreffend Zutreffend Nein",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung sieht keine...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der medizinischen Inhalte und die Gewährleistung der Patientensicherheit.",
+      "content_preview": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der me...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-afe954d9f8:field_value",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_preview": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Interoperabilität"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-angaben-zur-interoperabilitaet-8867f27412:field_value",
+      "title": "Angaben zur Interoperabilität"
+    },
+    {
+      "content": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versicherten getragenen Sensoren zur Messung und Übertragung von Vitalwerten (Wearables) austauscht. Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versiche...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Robustheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-angaben-zur-robustheit-0a511476df:field_value",
+      "title": "Angaben zur Robustheit"
+    },
+    {
+      "content": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
+      "content_preview": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digi...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zum Verbraucherschutz"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-angaben-zum-verbraucherschutz-05cd17969e:field_value",
+      "title": "Angaben zum Verbraucherschutz"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit-8fe873c531:field_value",
+      "title": "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Unterstützung der Leistungserbringende"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-unterstuetzung-der-leistungserbringende-d4e78dfd75:field_value",
+      "title": "Unterstützung der Leistungserbringende"
+    },
+    {
+      "content": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen.",
+      "content_preview": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Triff...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Qualität der medizinischen Inhalte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte-a6d05ceeb6:field_value",
+      "title": "Angaben zur Qualität der medizinischen Inhalte"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Patientensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-angaben-zur-patientensicherheit-7a67651ccd:field_value",
+      "title": "Angaben zur Patientensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00350:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    }
+  ],
+  "diga_id": "00350",
+  "name": "Kalmeda",
+  "rendered_structure_metadata": {
+    "accordions_opened": 0,
+    "content_section_count": 71,
+    "field_value_count": 54,
+    "rendered_at": "2026-06-22T19:02:52.063889+00:00",
+    "source_kind": "visible_directory"
+  },
+  "source_kind": "visible_directory",
+  "timestamp": "20260622T190144Z",
+  "url": "https://diga.bfarm.de/de/verzeichnis/00350"
+}

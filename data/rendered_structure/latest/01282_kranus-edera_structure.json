@@ -1,0 +1,1095 @@
+{
+  "content_sections": [
+    {
+      "content": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_preview": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:field_value",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_preview": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Kranus Edera",
+      "content_preview": "Kranus Edera",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Name der DiGA im DiGA-Verzeichnis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v-132a49921b:field_value",
+      "title": "Name der DiGA im DiGA-Verzeichnis"
+    },
+    {
+      "content": "18.12.2021",
+      "content_preview": "18.12.2021",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Erstmalige Aufnahme in das DiGA-Verzeichnis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in--0901792b12:field_value",
+      "title": "Erstmalige Aufnahme in das DiGA-Verzeichnis"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Modul"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-modul-0b2f60dd90:field_value",
+      "title": "Modul"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-andere-namen-und-modell-ab7acb1427:field_value",
+      "title": "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
+    },
+    {
+      "content": "App",
+      "content_preview": "App",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Art der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga-f41af95c79:field_value",
+      "title": "Art der DiGA"
+    },
+    {
+      "content": "im Apple App Store Deutschland",
+      "content_preview": "im Apple App Store Deutschland",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Die digitale Gesundheitsanwendung ist verfügbar"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit-70a197df25:field_value",
+      "title": "Die digitale Gesundheitsanwendung ist verfügbar"
+    },
+    {
+      "content": "im Google Play Store Deutschland",
+      "content_preview": "im Google Play Store Deutschland",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "EU",
+      "content_preview": "EU",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Standorte der Datenverarbeitung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera-426183d1fc:field_value",
+      "title": "Standorte der Datenverarbeitung"
+    },
+    {
+      "content": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an • Sicherheit und Funktionstauglichkeit des Medizinproduktes • Datenschutz und Datensicherheit nach dem Stand der Technik • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) als erfüllt. Der Hersteller gibt an, dass keine personenbezogenen Daten in ein Land außerhalb der EU oder ohne Angemessenheitsbeschluss fließen. Das BfArM bewertet dieses Vorgehen als konform mit der DiGAV. - Nach Aufnahme zur Erprobung wurden die Studienergebnisse der Erprobungsstudie zum Ende des Erprobungszeitraums eingereicht. - Es wurde eine zweiarmige randomisiert kontrollierte Interventionsstudie mit Titel „Prospektiv randomisierte Studie zur multimodalen Selbstbehandlung der erektilen Dysfunktion mit einer digitalen Gesundheitsanwendung“ vorgelegt, die unter der Nummer DRKS00029182 im Deutschen Register Klinischer Studien (DRKS) registriert wurde. - Die Beobachtungsdauer betrug 12 Wochen (T2). Die Interventionsgruppe (IG) erhielt Zugang zur DiGA und der Standardversorgung. Die Kontrollgruppe (KG) erhielt die Standardversorgung und Zugang zur DiGA nach 12 Wochen Wartezeit. Die 3 untersuchten primären Endpunkte waren der International Index of Erectile Function-5 (IIEF-5), der Quality of Life Measure for Men with Erection Difficulties (QoL-Med) und der Patient Activation Measure-13 (PAM-13). Für die 3 primären Endpunkte erfolgte eine Adjustierung des Alpha-Niveaus mittels Bonferroni-Holm-Korrektur. Um die Interpretation des QoL-Med und PAM-13 zu erleichtern, wurden die Werte auf eine Skala von 0 (niedrigster Wert) bis 100 (höchster Wert) transformiert. - In die Studie wurden initial insgesamt 241 Patienten eingeschlossen und randomisiert (IG: 122; KG: 119). Nach 12-wöchiger Studiendauer, zum Messzeitpunkt T2, ergab sich eine Drop-out-Rate von insgesamt ca. 2,5 % (IG: 4,1 %; KG: 0,8 %). - Im Rahmen der konservativen Verfahren zum Ersetzen fehlender Werte ergab sich für die Intention-To-Treat-Analyse (ITT-Analyse) ein statistisch signifikanter und klinisch relevanter Vorteil der IG gegenüber der KG in Bezug auf die Verbesserung des Gesundheitszustands gemessen anhand des IIEF-5 [adjustierte Differenz in der Veränderung von Baseline: 4,2; 95-%-Konfidenzintervall (KI): 3,4 – 5,0; p-Wert: < 0,0001; Cohens d: 1,36] und die Verbesserung der Lebensqualität gemessen anhand des QoL-Med (adjustierte Differenz in der Veränderung von Baseline: 22,6; 95-%-KI: 19,2 – 26,0; p-Wert: < 0,0001; Cohens d: 1,47). Des Weiteren zeigte sich ein statistisch signifikanter und patientenrelevanter Vorteil der IG gegenüber der KG in Bezug auf die Patientensouveränität gemessen anhand des PAM-13 (adjustierte Differenz in der Veränderung von Baseline: 11,3; 95-%-KI: 9,1 – 13,6; p-Wert: < 0,0001; Cohens d: 0,96). Die Ergebnisse der primären Endpunkte waren konsistent in den relevanten Subgruppen. - Neben den positiven Effekten in den primären Endpunkten zeigten sich weitere Vorteile der IG gegenüber der KG in den explorativen sekundären Endpunkten Body Mass Index (BMI) und Bauchumfang. Es zeigten sich keine signifikanten Unterschiede im Waist-to-Hip-Ratio und dem systolischen bzw. diastolischen Blutdruck. - Entsprechend bewertet das BfArM die in § 139e des Fünften Buches Sozialgesetzbuch (SGB V) sowie in der DiGAV festgelegten Voraussetzungen zur endgültigen Aufnahme in das Verzeichnis nach § 139e Absatz 1 SGB V für die Indikation N48.4: Impotenz organischen Ursprungs in Bezug auf die positiven Versorgungseffekte „Verbesserung des Gesundheitszustands“, „Verbesserung der Lebensqualität“ und „Patientensouveränität“ als erfüllt.",
+      "content_preview": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an • Sicherheit und Funktionstauglichkeit des Medizinproduktes • Datenschutz und Datensicherheit nach dem Stand der T...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Bewertungsentscheidung des BfArM"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung--cdc10aad7c:field_value",
+      "title": "Bewertungsentscheidung des BfArM"
+    },
+    {
+      "content": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_preview": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Angaben zum Medizinprodukt"
+    },
+    {
+      "content": "Das Kranus Edera Programm ist für die Selbstbehandlung von Patienten mit erektiler Dysfunktion unterschiedlicher Ätiologie bestimmt. Es umfasst die Komponenten kardiovaskuläres Training, Beckenboden Übungen und psychologischer Support/Sexualtherapie.",
+      "content_preview": "Das Kranus Edera Programm ist für die Selbstbehandlung von Patienten mit erektiler Dysfunktion unterschiedlicher Ätiologie bestimmt. Es umfasst die Komponenten kardiovaskuläres Training, Beckenboden Übungen und psychologischer Support/Se...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "Medizinische Zweckbestimmung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Medizinische Zweckbestimmung"
+    },
+    {
+      "content": "Risikoklasse I nach MDR",
+      "content_preview": "Risikoklasse I nach MDR",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "Risikoklasse Medizinprodukt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Risikoklasse Medizinprodukt"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "Name der Benannten Stelle"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Name der Benannten Stelle"
+    },
+    {
+      "content": "Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt.",
+      "content_preview": "Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Kennnummer der Benannten Stelle"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-kennnummer-der-benannte-885261bcc3:field_value",
+      "title": "Kennnummer der Benannten Stelle"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Identifikationsnummer Eudamed"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-identifikationsnummer-e-c5d45b28a3:field_value",
+      "title": "Identifikationsnummer Eudamed"
+    },
+    {
+      "content": "111744199000",
+      "content_preview": "111744199000",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "UDI - Unique Device Identifier im Sinne der MDR"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-udi-unique-device-ident-16a2c37ee0:field_value",
+      "title": "UDI - Unique Device Identifier im Sinne der MDR"
+    },
+    {
+      "content": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_preview": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Weitere Informationen zur DiGA"
+    },
+    {
+      "content": "Kranus Edera ist eine ganzheitliche Therapie für Männer mit erektiler Dysfunktion. Nutzer der App absolvieren ein 12-Wochen-Programm bestehend aus Beckenbodentraining, physiotherapeutischen Übungen, kardiovaskulärem Ausdauertraining und Übungen zur Achtsamkeit und Körpererfahrung sowie sexualtherapeutischen Inhalten. Der multidisziplinäre Ansatz beinhaltet mehrere Programmelemente, deren Wirksamkeit in der Behandlung von erektiler Dysfunktion in der Fachliteratur vielfach belegt ist. Ergänzend erhalten Patienten täglich Bildungsinhalte, um ihr Verständnis für die zugrundeliegenden Prinzipien der erektilen Funktion und Einfluss von Lebensstilfaktoren, wie z. B. Ernährung oder Stress, auf die erektile Dysfunktion zu verbessern. Kranus Health unterstützt die Umsetzung der Leitlinien durch Änderung des Lebensstils und Reduktion von Risikofaktoren (mehr Bewegung, Körpergewichtsreduktion, Nikotinverzicht). Ziel ist neben der Verbesserung der Erektion eine bessere Gesundheitswahrnehmung und Patientensouveränität. Die Therapie lässt sich gut in den Alltag integrieren und die Anwendung per App erfolgt für Patienten diskret und einfach.",
+      "content_preview": "Kranus Edera ist eine ganzheitliche Therapie für Männer mit erektiler Dysfunktion. Nutzer der App absolvieren ein 12-Wochen-Programm bestehend aus Beckenbodentraining, physiotherapeutischen Übungen, kardiovaskulärem Ausdauertraining und ...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Kranus Edera kann auf dem Smartphone oder Tablet verwendet werden. Um einen langfristigen, anhaltenden Therapieerfolg zu erreichen, zielt die App darauf, das gesundheitsrelevante Verhalten der Patienten zu verändern. Anwender der App durchlaufen ein 12-wöchiges Programm mit folgenden Inhalten: - • Beckenbodentraining • Kardiovaskulärem Training • Physiotherapeutischen Übungen • Mentalen Übungen • Sexualtherapeutischen Übungen • Wissensvermittlung - Im Bereich “Wissen” wird wöchentlich ein neues Thema behandelt. Patienten erhalten täglich neue Informationen u. a. zu Erektionsstörungen, ihren Ursachen und der Behandlung, zu notwendigen Lebensstilveränderungen und der Ernährung, zu Psyche und Partnerschaft sowie Präventionsmaßnahmen. Die App bietet die Möglichkeit, die eingetragenen Daten zu speichern und für den Arzt oder seine eigene Krankenakte im Format “PDF” zu exportieren und wenn nötig auszudrucken.",
+      "content_preview": "Kranus Edera kann auf dem Smartphone oder Tablet verwendet werden. Um einen langfristigen, anhaltenden Therapieerfolg zu erreichen, zielt die App darauf, das gesundheitsrelevante Verhalten der Patienten zu verändern. Anwender der App dur...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Funktionen der digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Funktionen der digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Charité Universitätsmedizin Berlin, Urologische Klinik, Charitéplatz 1, 10117 Berlin, Prof. Dr. K. Miller",
+      "content_preview": "Charité Universitätsmedizin Berlin, Urologische Klinik, Charitéplatz 1, 10117 Berlin, Prof. Dr. K. Miller",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
+    },
+    {
+      "content": "Universitätsklinikum Münster, Abteilung für Klinische und Operative Andrologie, Albert-Schweitzer-Campus 1/Gebäude D11, 48149 Münster, Prof. Dr. S. Kliesch",
+      "content_preview": "Universitätsklinikum Münster, Abteilung für Klinische und Operative Andrologie, Albert-Schweitzer-Campus 1/Gebäude D11, 48149 Münster, Prof. Dr. S. Kliesch",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Für die digitalen Gesundheitsanwendung relevante Quellen umfassen unter anderem: - Leitlinien: Haensch C-A et al., Diagnostik und Therapie der erektilen Dysfunktion, S1-Leitlinie, 2018; in: Deutsche Gesellschaft für Neurologie (Hrsg.), Leitlinien für Diagnostik und Therapie in der Neurologie. Salonia A, Bettocchi C, Carvalho J, Corona G, Jones TH, Kadioǧlu A et al., EAU guidelines on Sexual and Reproductive Health, 2021. - Studien: Boddi V, Castellini G, Casale H, Rastrelli G, Boni L, Corona G, et al. An integrated approach with vardenafil orodispersible tablet and cognitive behavioral sex therapy for treatment of erectile dysfunction: a randomized controlled pilot study. Andrology. 2015;3(5):909-18. Bossio JA, Basson R, Driscoll M, Correia S, Brotto LA. Mindfulness-Based Group Therapy for Men With Situational Erectile Dysfunction: A Mixed-Methods Feasibility Analysis and Pilot Study. J Sex Med. 2018;15(10): Cheng, J. Y., et al. (2007). \"Physical activity and erectile dysfunction: meta-analysis of population-based studies.\" Int J Impot Res 19(3): 245-252 Claes H, Baert L. Pelvic floor exercise versus surgery in the treatment of impotence. Br J Urol. 1993;71(1):52-7. Cohen D., Gonzalez J., Goldstein I. The Role of Pelvic Floor Muscles in Male Sexual Dysfunction and Pelvic Pain. Sex. Med. Rev.. 2016;4(1):53-62. Colpi GM, Negri L, Nappi RE, Chinea B. Perineal floor efficiency in sexually potent and impotent men. Int J Impot Res. 1999;11(3):153-7. Dorey G, Speakman MJ, Feneley RC, Swinkels A, Dunn CD. Pelvic floor exercises for erectile dysfunction. BJU Int. 2005;96(4):595-7. Duca Y, Calogero AE, Cannarella R, Giacone F, Mongioi LM, Condorelli RA, et al. Erectile dysfunction, physical activity and physical exercise: Recommendations for clinical practice. Andrologia. 2019;51(5):e13264. Esposito K, Giugliano F, Di Palo C, Giugliano G, Marfella R, D'Andrea F, et al. Effect of lifestyle changes on erectile dysfunction in obese men: a randomized controlled trial. JAMA. 2004;291(24):2978-84. Gerbild, H., et al. (2018). \"Physical Activity to Improve Erectile Function: A Systematic Review of Intervention Studies.\" Sex Med 6(2): 75-89. Jaderek I., Lew-Starowicz M. A Systematic Review on Mindfulness Meditation-Based Interventions for Sexual Dysfunctions. J. Sex. Med.. 2019;16(10):1581-1596. Kalaitzidou, I., et al. (2014). \"Stress management and erectile dysfunction: a pilot comparative study.\" Andrologia 46(6): 698-702. Kalka D, Domagala Z, Dworak J, Womperski K, Rusiecki L, Marciniak W, et al. Association between physical exercise and quality of erection in men with ischaemic heart disease and erectile dysfunction subjected to physical training. Kardiol Pol. 2013; 71(6):573-80. La Vignera S, Condorelli R, Vicari E, D'Agata R, Calogero AE. Physical activity and erectile dysfunction in middle-aged men. J Androl. 2012;33(2):154-61. Maß, R., Bauer, Renate, Briken, Peer (2014). \"Das Hamburger Modell der Sexualtherapie. Evaluation der Intensivtherapie \" Zeitschrift für Sexualforschung(27 (04)): 352-3702. Maio G, Saraeb S, Marchiori A. Physical activity and PDE5 inhibitors in the treatment of erectile dysfunction: results of a randomized controlled study. J Sex Med. 2010;7(6):2201-8. Myers C., Smith M. Pelvic floor muscle training improves erectile dysfunction and premature ejaculation: a systematic review. Physiotherapy. 2019;105(2):235-243. Rosenbaum T.Y. Pelvic floor involvement in male and female sexual dysfunction and the role of pelvic floor rehabilitation in treatment: A literature review. J. Sex. Med.. 2007;4(1):4-13. Siegel A.L. Pelvic floor muscle training in males: Practical applications. Urology. 2014;84:1-7. Silva AB, Sousa N, Azevedo LF, Martins C. Physical activity and exercise for erectile dysfunction: systematic review and meta-analysis. Br J Sports Med. 2017;51(19):1419-24. Sommer F. Prävention der erektilen Dysfunktion durch gezieltes körperliches Training. Blickpunkt der Mann. 2004;2: 24–27. ...",
+      "content_preview": "Für die digitalen Gesundheitsanwendung relevante Quellen umfassen unter anderem: - Leitlinien: Haensch C-A et al., Diagnostik und Therapie der erektilen Dysfunktion, S1-Leitlinie, 2018; in: Deutsche Gesellschaft für Neurologie (Hrsg.), L...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-literaturquellen-wie-z--8d5491f412:field_value",
+      "title": "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
+    },
+    {
+      "content": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_preview": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Beteiligung vom medizinischen Fachpersonal"
+    },
+    {
+      "content": "Grundlegend besteht die Rolle der Ärztin oder des Arztes in der Regelversorgung zunächst darin, die erektile Dysfunktion zu diagnostizieren und geeigneten Patienten Kranus Edera zu verordnen. Patienten können zustimmen, der behandelnden Ärztin/dem behandelnden Arzt einen Therapiebericht zukommen zu lassen. So kann eine gemeinsame Auswertung mit dem Patienten erfolgen.",
+      "content_preview": "Grundlegend besteht die Rolle der Ärztin oder des Arztes in der Regelversorgung zunächst darin, die erektile Dysfunktion zu diagnostizieren und geeigneten Patienten Kranus Edera zu verordnen. Patienten können zustimmen, der behandelnden ...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Ärztinnen/ Ärzte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Ärztinnen/ Ärzte"
+    },
+    {
+      "content": "Grundlegend besteht die Rolle der Psychotherapeutinnen/Psychotherapeuten darin, die erektile Dysfunktion zu diagnostizieren und geeigneten Patienten Kranus Edera zu verordnen. Patienten können zustimmen, der behandelnden Psychotherapeutin oder dem behandelnden Psychotherapeuten einen Therapiebericht zukommen zu lassen. So kann eine gemeinsame Auswertung mit dem Patienten erfolgen.",
+      "content_preview": "Grundlegend besteht die Rolle der Psychotherapeutinnen/Psychotherapeuten darin, die erektile Dysfunktion zu diagnostizieren und geeigneten Patienten Kranus Edera zu verordnen. Patienten können zustimmen, der behandelnden Psychotherapeuti...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Psychotherapeutinnen/ Psychotherapeuten"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Psychotherapeutinnen/ Psychotherapeuten"
+    },
+    {
+      "content": "Nein",
+      "content_preview": "Nein",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
+    },
+    {
+      "content": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfohlen wird.",
+      "content_preview": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfoh...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-6922aa5eb2:field_value",
+      "title": "Anwendungshinweise"
+    },
+    {
+      "content": "Patienten sollten während der Durchführung der Übungen stets auf korrekte Ausführung achten, dazu werden in der DiGA detaillierte Videos und Instruktionen zu jeder Übung bereitgestellt. Grundsätzlich sollte jeder Patient in der Lage sein sich sportlich zu betätigen, dies wird während der Anmeldephase abgefragt. Die Übungen werden an körperliche Einschränkungen des Patienten angepasst, z. B. Vermeidung von Übungen, welche die Knie belasten, bei Patienten mit Knieproblemen. Die Übungen werden dann automatisch durch andere, gelenkschonende Übungen ersetzt. - In folgenden Fällen sollte körperliches Training vermieden werden: - bei Fieber bzw. Temperatur über 38 °C - bei akuten Infektionen - bei Übelkeit und Erbrechen - bei Bewusstseinseinschränkungen und Verwirrtheit - bei Schwindel oder Kreislaufproblemen",
+      "content_preview": "Patienten sollten während der Durchführung der Übungen stets auf korrekte Ausführung achten, dazu werden in der DiGA detaillierte Videos und Instruktionen zu jeder Übung bereitgestellt. Grundsätzlich sollte jeder Patient in der Lage sein...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Hinweise für eine sichere Anwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw-13263bcc58:field_value",
+      "title": "Hinweise für eine sichere Anwendung"
+    },
+    {
+      "content": "- Mehr als 3 kardiovaskuläre Risikofaktoren (arterielle Hypertonie > 150/90 mmHg, Diabetes mellitus, Dyslipoproteinämie, Nikotinabusus, Bewegungsmangel) - Moderate, stabile oder instabile Angina pectoris - Linksventrikuläre Dysfunktion oder Herzinsuffizienz NYHA III-IV - Herzarrhythmien mit hohem Risiko - Moderate bis schwere Valvulopathien - Kardiomyopathien - Blutdruck über 170/100 mmHg - Herzinfarkt oder Schlaganfall in den letzten 6 Wochen - Z. n. Prostatektomie (Prostataentfernung), Bestrahlung oder Seeds der Prostata - Z. n. größerer Operation im kleinen Becken mit wahrscheinlicher Beeinträchtigung der neurovaskulären Versorgung (z.B. Rektumresektion, Harnblasenentfernung) - Nervenerkrankungen (z. B. Multiple Sklerose (MS), Parkinson, Z. n. Schlaganfall, Demenz, psychiatrische Erkrankungen) - Z. n. Unfall mit Beteiligung des Beckens/des Penis/der Wirbelsäule - Aktuell durchgeführte Autoinjektionstherapie (SKAT, MUSE) - Unfähigkeit physisch am Programm teilzunehmen",
+      "content_preview": "- Mehr als 3 kardiovaskuläre Risikofaktoren (arterielle Hypertonie > 150/90 mmHg, Diabetes mellitus, Dyslipoproteinämie, Nikotinabusus, Bewegungsmangel) - Moderate, stabile oder instabile Angina pectoris - Linksventrikuläre Dysfunktion o...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Weitere Ausschlusskriterien"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-weit-3d658a5f5f:field_value",
+      "title": "Weitere Ausschlusskriterien"
+    },
+    {
+      "content": "12 Wochen",
+      "content_preview": "12 Wochen",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Vom Hersteller für erforderlich gehaltene Mindestdauer"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "title": "Vom Hersteller für erforderlich gehaltene Mindestdauer"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Vom Hersteller für erforderlich gehaltene Höchstdauer"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "title": "Vom Hersteller für erforderlich gehaltene Höchstdauer"
+    },
+    {
+      "content": "Die Anwendungsdauer von Kranus Edera wird individuell vom behandelnden Arzt/der Ärztin basierend auf dem therapeutischen Bedarf festgelegt. Eine generelle Höchstdauer ist explizit nicht definiert.",
+      "content_preview": "Die Anwendungsdauer von Kranus Edera wird individuell vom behandelnden Arzt/der Ärztin basierend auf dem therapeutischen Bedarf festgelegt. Eine generelle Höchstdauer ist explizit nicht definiert.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "iOS Kranus Edera ist mit Apple Geräten der Softwareversion iOS 15.x aufwärts kompatibel. - Android Kranus Edera ist mit Android Geräten der Softwareversion Android Pie (Version 9.x) aufwärts kompatibel, die mit dem Google Play Store kompatibel sind.",
+      "content_preview": "iOS Kranus Edera ist mit Apple Geräten der Softwareversion iOS 15.x aufwärts kompatibel. - Android Kranus Edera ist mit Android Geräten der Softwareversion Android Pie (Version 9.x) aufwärts kompatibel, die mit dem Google Play Store komp...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-kompatibilitaetszusagen-2e7efe3e1b:field_value",
+      "title": "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
+    },
+    {
+      "content": "https://www.kranushealth.com/de/kompatibilitaet",
+      "content_preview": "https://www.kranushealth.com/de/kompatibilitaet",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Nutzenden stehen folgende Möglichkeiten zum Datenexport zur Verfügung: - - Datenexport von personenbezogenen und Gesundheitsdaten im Format \"L7 FHIR\" direkt aus der Kranus Edera App (Datenexport als FHIR-Ressourcen-Bündel (https://www.hl7.org/fhir/bundle.html), bestehend aus Patientenprofil (https://www.hl7.org/fhir/patient.html) und Symptomdaten (https://www.hl7.org/fhir/observation.html)) - Veröffentlichung in einer anerkannten FHIR-Registry: https://simplifier.net/kranusedera - Datenexport von personenbezogenen und Gesundheitsdaten im Format \"PDF\" direkt aus der Kranus Edera App - Website https://www.kranus-health.de/interoperabilitaet",
+      "content_preview": "Nutzenden stehen folgende Möglichkeiten zum Datenexport zur Verfügung: - - Datenexport von personenbezogenen und Gesundheitsdaten im Format \"L7 FHIR\" direkt aus der Kranus Edera App (Datenexport als FHIR-Ressourcen-Bündel (https://www.hl...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Möglichkeiten von standardisiertem Datenimport und Datenexport"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-moeglichkeiten-von-stan-a818cc9f27:field_value",
+      "title": "Möglichkeiten von standardisiertem Datenimport und Datenexport"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zu-den-von-der--1e522ad432:field_value",
+      "title": "Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen"
+    },
+    {
+      "content": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs. weitere, durch Sie selbst aufzubringende Kosten, sofern Sie bestimmte zusätzlich angebotene und von der Verschreibung nicht abgedeckte Leistungen in Anspruch nehmen möchten.",
+      "content_preview": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs....",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-429bde377d:field_value",
+      "title": "Angaben zum Preis"
+    },
+    {
+      "content": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+      "content_preview": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis",
+        "Preismodell"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis-6eb719186f:field_value",
+      "title": "Preismodell"
+    },
+    {
+      "content": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "content_preview": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "235,00 €",
+      "content_preview": "235,00 €",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-kosten-z-b-starterpaket-5641b0bf97:field_value",
+      "title": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
+    },
+    {
+      "content": "235,00 €",
+      "content_preview": "235,00 €",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-nutzung-der-dig-7a56e117b7:field_value",
+      "title": "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Anmerkungen zum Preismodell"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-anmerkungen-zum-f3f338f2f7:field_value",
+      "title": "Weitere Anmerkungen zum Preismodell"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Erläuterung Mehrkosten"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-erlaeuterung-mehrkosten-7813cc6074:field_value",
+      "title": "Erläuterung Mehrkosten"
+    },
+    {
+      "content": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_preview": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Verbesserungen für Patienten können entweder medizinischer Art sein (z.B. Verringerung von Schmerzen, Beitrag zur Heilung der Erkrankung) oder den Erkennungs- und Behandlungsprozess direkt unterstützen und erleichtern (z.B. Informationen zur individuellen Erkrankungssituation, Unterstützung bei der Einhaltung der zwischen Patient und Arzt gemeinsam vereinbarten therapeutischen Maßnahmen).",
+      "content_preview": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Ve...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:informationen-zum-positiven-versorgungseffekt-253662cf50:field_value",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche Weise dies ggfs. bereits wissenschaftlich nachgewiesen wurde. Falls der positive Versorgungseffekt noch nicht abschließend nachgewiesen aber bereits so plausibel dargelegt wurde, dass die DiGA befristet zur entsprechenden Erprobung aufgenommen wurde, wird angegeben, für welchen Zeitraum dies erfolgt ist. Sofern (auch) ein Nachweis zum Erhalt der Erwerbsfähigkeit für die DiGA erbracht wurde oder eine Nachweisführung geplant ist, finden Sie hier eine Beschreibung und nähere Angaben zum Nachweis sowie zum Studiendesign. Sofern die DiGA (auch) ein diagnostisches Instrument darstellt, also mindestens in Teilen dazu vorgesehen ist, Informationen z.B. für die Erkennung oder Diagnose von Krankheitszuständen zu liefern, hat der Hersteller dies benannt und beschrieben sowie Sensitivität und Spezifität als wichtige Bewertungsgrößen angegeben.",
+      "content_preview": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche We...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Medizinischer Nutzen",
+      "content_preview": "Medizinischer Nutzen",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Angaben zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse-5449921803:field_value",
+      "title": "Angaben zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Patientenrelevante Struktur- und Verfahrensverbesserung",
+      "content_preview": "Patientenrelevante Struktur- und Verfahrensverbesserung",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Autonomes Gesundheitshandeln des Patienten (Patientensouveränität)",
+      "content_preview": "Autonomes Gesundheitshandeln des Patienten (Patientensouveränität)",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Patientenrelevante Struktur- und Verfahrensverbesserungen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:informationen-zum-positiven-versorgungseffekt-patientenrelevante-struktur-und-ve-6612535d44:field_value",
+      "title": "Patientenrelevante Struktur- und Verfahrensverbesserungen"
+    },
+    {
+      "content": "Verbesserung des Gesundheitszustands",
+      "content_preview": "Verbesserung des Gesundheitszustands",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Nähere Angaben zum medizinischen Nutzen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen--90ce965dee:field_value",
+      "title": "Nähere Angaben zum medizinischen Nutzen"
+    },
+    {
+      "content": "Verbesserung der Lebensqualität",
+      "content_preview": "Verbesserung der Lebensqualität",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Die Erektionsfähigkeit und Lebensqualität werden durch die aktive Selbstbehandlung (im Gegensatz zur \"passiven\" Einnahme von Medikamenten) der eigenen Erkrankung und durch edukative Inhalte, wie Hintergrundinformationen zur Erkrankung und zur Wirkweise der Therapie, positiv beeinflusst. Die Quantifizierung des Effekts erfolgt über die validierten Fragebögen IIEF-5 (Erektionsfähigkeit) und QoL-Med (Lebensqualität).",
+      "content_preview": "Die Erektionsfähigkeit und Lebensqualität werden durch die aktive Selbstbehandlung (im Gegensatz zur \"passiven\" Einnahme von Medikamenten) der eigenen Erkrankung und durch edukative Inhalte, wie Hintergrundinformationen zur Erkrankung un...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Beschreibung des medizinischen Nutzens"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut-a677995e79:field_value",
+      "title": "Beschreibung des medizinischen Nutzens"
+    },
+    {
+      "content": "Die Patientensouveränität wird durch die aktive Selbstbehandlung (im Gegensatz zur \"passiven\" Einnahme von Medikamenten) der eigenen Erkrankung und durch edukative Inhalte, wie Hintergrundinformationen zur Erkrankung und zur Wirkweise der Therapie, positiv beeinflusst. Die Quantifizierung dieses Einflusses erfolgt über den validierten PAM-13 Fragebogen.",
+      "content_preview": "Die Patientensouveränität wird durch die aktive Selbstbehandlung (im Gegensatz zur \"passiven\" Einnahme von Medikamenten) der eigenen Erkrankung und durch edukative Inhalte, wie Hintergrundinformationen zur Erkrankung und zur Wirkweise de...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Nähere Beschreibung der patientenrelevanten Struktur- und Verfahrensverbesserung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:informationen-zum-positiven-versorgungseffekt-naehere-beschreibung-der-patienten-859be4691e:field_value",
+      "title": "Nähere Beschreibung der patientenrelevanten Struktur- und Verfahrensverbesserung"
+    },
+    {
+      "content": "Titel: Prospektiv randomisierte Studie zur multimodalen Selbstbehandlung der erektilen Dysfunktion mit einer digitalen Gesundheitsanwendung - Patientenpopulation: Männliche Patienten ab 18 Jahren mit einer Impotenz organischen Ursprungs (N48.4).",
+      "content_preview": "Titel: Prospektiv randomisierte Studie zur multimodalen Selbstbehandlung der erektilen Dysfunktion mit einer digitalen Gesundheitsanwendung - Patientenpopulation: Männliche Patienten ab 18 Jahren mit einer Impotenz organischen Ursprungs ...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Studie/n im PICO-Schema"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema-2cb668dadb:field_value",
+      "title": "Studie/n im PICO-Schema"
+    },
+    {
+      "content": "Interventionsgruppe: 12 Wochen Zugang zur DiGA Kranus Edera zusätzlich zur Standardversorgung. Kontrollgruppe: Zugang zur Standardversorgung sowie Zugang zur DiGA nach 12 Wochen Wartezeit. Outcomes (primär): • International Index of Erectile Function-5 (IIEF-5) • Quality of Life Measure for Men with Erection Difficulties (QoL-Med) • Patient Activation Measure-13 (PAM-13)",
+      "content_preview": "Interventionsgruppe: 12 Wochen Zugang zur DiGA Kranus Edera zusätzlich zur Standardversorgung. Kontrollgruppe: Zugang zur Standardversorgung sowie Zugang zur DiGA nach 12 Wochen Wartezeit. Outcomes (primär): • International Index of Erec...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Randomisierte kontrollierte prospektive Studie zur Wirksamkeit der digitalen Therapie Kranus Edera bei Patienten mit erektiler Dysfunktion. - Indikation/Zielpopulation/Erkrankung: Männer > 18 Jahre mit erektiler Dysfunktion, ärztlich gesicherte Diagnose N48.4 Impotenz organischen Ursprungs nach ICD-10-GM - Studiendesign/Methodik: Randomisierte, kontrollierte, 2-armige Studie, einfach verblindet. Arm A: Intervention (multimodale Therapie der erektilen Dysfunktion mit der App Kranus Edera) Arm B: Verzögerte Intervention nach 3 Monaten Dauer der Intervention: 3 Monate - Ziele der klinischen Prüfung/Zielstellung: Primäres Ziel: Verbesserung der erektilen Dysfunktion, Verbesserung der krankheitsbezogenen Lebensqualität, Verbesserung der Patientensouveränität. Sekundäre Ziele: Verbesserung kardiovaskulärer Risikofaktoren - Zielgrößen/-kriterien/Endpunkte: Primäre Endpunkte: klinisch relevante Verbesserung nach Maßgabe der validierten Fragebögen IIEF-5 (für erektile Dysfunktion), QoL-MED (für Lebensqualität) und PAM-13 (für Patientensouveränität). Sekundäre Zielgrößen/Nebenzielkriterien: Blutdruck, Body-Mass-Index, Bauchumfang, relevante Parameter im Blut - Patientenzahl: 241 Männer mit erektiler Dysfunktion Interventionsgruppe: n=122 Kontrollgruppe: n=119 - Ergebnisse: Im Vergleich zur Kontrollgruppe zeigte sich bei der Interventionsgruppe eine Verbesserung aller drei primären Zielvariablen. Sowohl für den IIEF-5-Score, den QoL-Med-Score sowie den PAM 13-Score konnten statistisch signifikante Vorteile von Kranus Edera bei der Veränderung von Baseline zur Woche 12 konfirmativ nachgewiesen werden, unter Kontrolle des multiplen α-Niveaus von 5 % mittels der Bonferroni-Holm-Adjustierung. - IIEF-5: Die Interventionsgruppe verbesserte sich um 4,5 Punkte im IIEF-5 im Vergleich zu 0,2 Punkten der Kontrollgruppe. (p < 0,0001, Konvidenzintervall 3,4 – 5,0). Es zeigte sich ein starker, statistisch signifikanter Effekt nach Cohen’s d von 1.36 (p<.0001). - Qol-Med: In der Interventionsgruppe betrug die mittlere Verbesserung des Scores 21,5% der maximalen Scorepunkte. Der Lebensqualitätsscore der Kontrollgruppe verschlechterte sich um 0.04% der maximalen Scorepunkte. Der Behandlungsunterschied zwischen der Interventions- und der Kontrollgruppe war mit Cohen‘s d=1.47 statistisch signifikant. - PAM-13: In der Interventionsgruppe betrug die mittlere Verbesserung des Scores 11.11% der maximalen Scorepunkte. In der Kontrollgruppe war eine leichte Zunahme dieses Aktivierungsscores um 0.64% der maximalen Scorepunkte zu verzeichnen. Der Behandlungsunterschied zwischen der Interventions- und der Kontrollgruppe war mit Cohen’s d=0.96 statistisch signifikant. - Die Studie wurde im Deutschen Register Klinischer Studien (DRKS) vor Studienstart registriert: DRKS00029182.",
+      "content_preview": "Randomisierte kontrollierte prospektive Studie zur Wirksamkeit der digitalen Therapie Kranus Edera bei Patienten mit erektiler Dysfunktion. - Indikation/Zielpopulation/Erkrankung: Männer > 18 Jahre mit erektiler Dysfunktion, ärztlich ges...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u-804896bae6:field_value",
+      "title": "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
+    },
+    {
+      "content": "Eine Veröffentlichung in einem wissenschaftlichen Journal wird angestrebt.",
+      "content_preview": "Eine Veröffentlichung in einem wissenschaftlichen Journal wird angestrebt.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Dies ist/sind die vom Hersteller angeführten Studie/n:"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:informationen-zum-positiven-versorgungseffekt-dies-ist-sind-die-vom-hersteller-a-81dc280904:field_value",
+      "title": "Dies ist/sind die vom Hersteller angeführten Studie/n:"
+    },
+    {
+      "content": "Charité Universitätsmedizin Berlin Urologische Klinik Charitéplatz 1 10117 Berlin",
+      "content_preview": "Charité Universitätsmedizin Berlin Urologische Klinik Charitéplatz 1 10117 Berlin",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:informationen-zum-positiven-versorgungseffekt-herstellerunabhaengige-institution-85ca65af54:field_value",
+      "title": "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
+    },
+    {
+      "content": "Universitätsklinikum Münster Abteilung für Klinische und Operative Andrologie Albert-Schweitzer-Campus 1 48149 Münster",
+      "content_preview": "Universitätsklinikum Münster Abteilung für Klinische und Operative Andrologie Albert-Schweitzer-Campus 1 48149 Münster",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Nein",
+      "content_preview": "Nein",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Die DiGA enthält ein diagnostisches Instrument"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch-eded43f154:field_value",
+      "title": "Die DiGA enthält ein diagnostisches Instrument"
+    },
+    {
+      "content": "16 Monate (12 Monate initial, 4 Monate Verlängerung)",
+      "content_preview": "16 Monate (12 Monate initial, 4 Monate Verlängerung)",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Länge des Zeitraumes der vorläufigen Aufnahme"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:informationen-zum-positiven-versorgungseffekt-laenge-des-zeitraumes-der-vorlaeuf-d645f91b3b:field_value",
+      "title": "Länge des Zeitraumes der vorläufigen Aufnahme"
+    },
+    {
+      "content": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird. Die Anforderungen an die Datensicherheit werden durch Vorlage eines Zertifikats gemäß § 139e Absatz 10 Fünftes Buch Sozialgesetzbuch nachgewiesen. Detaillierte Informationen zu den einzelnen Anforderungen können Sie auf der Webseite des Bundesamts für Sicherheit in der Informationstechnik unter der Technischen Richtlinie \"BSI TR-03161\" finden: https://www.bsi.bund.de/dok/TR-03161 Bis zur Vorlage des Zertifikats gelten für den Bereich Datensicherheit die Anforderungen der nachfolgend dargestellten Checkliste.",
+      "content_preview": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen v...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:field_value",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die Nutzung ist nur auf das Smartphone/Telefon des Nutzers beschränkt. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Es besteht keine Verbindung zu anderen DiGA oder eine Verkettung mit anderen DiGA. Trifft nicht zu Die DiGA unterstützt keine Offenbarung von Informationen der betroffenen Person oder über die betroffene Person für die Öffentlichkeit oder eine für die betroffene Person nicht eingrenzbare Personengruppe.",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die Nutzung ist nur auf das Smartphone/Telefon des Nutzers beschränkt. Zutreffend Zutreff...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit",
+        "Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:informationen-zu-datenschutz-und-datensicherheit-datensicherheit-14af255f91:field_value",
+      "title": "Datensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die DiGA erlaubt keinen Upload von Dateien. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die DiGA greift werder auf Sensoren eines mobilen Endgeräts noch auf externe Hardware zu. Trifft nicht zu Die DiGA tauscht keine Daten mit externer Hardware aus. Zutreffend Zutreffend Zutreffend Nein",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu D...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der medizinischen Inhalte und die Gewährleistung der Patientensicherheit.",
+      "content_preview": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der me...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-afe954d9f8:field_value",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_preview": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Interoperabilität"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-angaben-zur-interoperabilitaet-8867f27412:field_value",
+      "title": "Angaben zur Interoperabilität"
+    },
+    {
+      "content": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versichertenn genutzten Medizingeräten oder mit vom Versicherten getragenen Sensoren zur Messung und Übertragung von Vitalwerten (Wearables) austauscht. Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versichertenn genutzten Medizingeräten oder mit vom Versich...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Robustheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-angaben-zur-robustheit-0a511476df:field_value",
+      "title": "Angaben zur Robustheit"
+    },
+    {
+      "content": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
+      "content_preview": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digi...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zum Verbraucherschutz"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-angaben-zum-verbraucherschutz-05cd17969e:field_value",
+      "title": "Angaben zum Verbraucherschutz"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit-8fe873c531:field_value",
+      "title": "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Unterstützung der Leistungserbringende"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-unterstuetzung-der-leistungserbringende-d4e78dfd75:field_value",
+      "title": "Unterstützung der Leistungserbringende"
+    },
+    {
+      "content": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen.",
+      "content_preview": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Triff...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Qualität der medizinischen Inhalte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte-a6d05ceeb6:field_value",
+      "title": "Angaben zur Qualität der medizinischen Inhalte"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Patientensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-angaben-zur-patientensicherheit-7a67651ccd:field_value",
+      "title": "Angaben zur Patientensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01282:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    }
+  ],
+  "diga_id": "01282",
+  "name": "Kranus Edera",
+  "rendered_structure_metadata": {
+    "accordions_opened": 0,
+    "content_section_count": 84,
+    "field_value_count": 61,
+    "rendered_at": "2026-06-22T19:08:18.119364+00:00",
+    "source_kind": "visible_directory"
+  },
+  "source_kind": "visible_directory",
+  "timestamp": "20260622T190144Z",
+  "url": "https://diga.bfarm.de/de/verzeichnis/01282"
+}

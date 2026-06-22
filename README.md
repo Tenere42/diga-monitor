@@ -222,6 +222,26 @@ If both the previous and current snapshots contain `content_sections`, the scan 
 
 For local testing, use `--limit` because Playwright rendering is slower than the normal scan. PDF/PNG archives are not written unless `--archive-rendered-pages` is also passed.
 
+Build committed visible baselines for all current DiGA entries:
+
+```powershell
+python -m src.main build-rendered-baseline
+```
+
+For a short local test:
+
+```powershell
+python -m src.main build-rendered-baseline --limit 5
+```
+
+This stores one durable `*_structure.json` baseline per DiGA under:
+
+```text
+data/rendered_structure/latest/
+```
+
+These baseline files are intended to be committed. They represent the visible BfArM directory structure extracted from the rendered page. PDF/PNG archives are not created unless `--archive-rendered-pages` is explicitly passed.
+
 Render only DiGA entries where the normal scan detected real changes:
 
 ```powershell
@@ -235,13 +255,31 @@ $env:DIGA_RENDER_CHANGED_ENTRIES="true"
 python -m src.main run
 ```
 
-This keeps the normal scan fast because Playwright runs only after regular change detection and only for affected DiGA. By default, this writes only `structure.json` files to `data/rendered_pages/<scan_timestamp>/`. Add `--archive-rendered-pages` if PDF and PNG archives should also be saved:
+This keeps the normal scan fast because Playwright runs only after regular change detection and only for affected DiGA. In this mode, FHIR/JSON changes are used only as a trigger. The user-facing change events are generated from the visible BfArM `content_sections` diff against the stored rendered baseline.
+
+The monitor stores durable visible baselines under:
+
+```text
+data/rendered_structure/latest/
+```
+
+When a new DiGA appears and no visible baseline exists yet, the monitor creates the baseline and keeps the user-facing event compact: "Neue DiGA im Verzeichnis". It does not list every `content_section` as a separate change.
+
+When an existing DiGA has a FHIR/JSON-triggered change, the monitor renders the current BfArM page, compares the current `content_sections` against the committed baseline, writes visible diff events if visible changes exist, and then updates the baseline. If FHIR reports a change but the rendered visible structure is unchanged, no fachliche dashboard event is written; the scan log records that there was no visible change.
+
+Current run structures are stored under:
+
+```text
+outputs/rendered_structure/runs/<scan_timestamp>/
+```
+
+Add `--archive-rendered-pages` if PDF and PNG archives should also be saved for manual review:
 
 ```powershell
 python -m src.main run --render-changed-entries --archive-rendered-pages
 ```
 
-The rendered archive is only for manual verification. The regular change detection still uses structured snapshot data.
+PDF/PNG files remain a human-readable audit archive. The dashboard should not show raw FHIR fields such as `descriptive_texts.questionnaire.*`; those fields only trigger rendering and visible-structure comparison.
 
 Use a custom snapshot directory:
 

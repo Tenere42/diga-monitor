@@ -1,0 +1,1007 @@
+{
+  "content_sections": [
+    {
+      "content": "HelloBetter Diabetes ist ein interaktives psychologisches Therapieprogramm zur Reduktion der depressiven Symptomschwere bei Personen mit Diabetes Mellitus Typ 1 oder Typ 2. Anhand einer randomisiert kontrollierten Studie konnte gezeigt werden, dass mit der Teilnahme an diesem Online-Programm depressive Symptomatik wirksam reduziert werden kann. Der 12-wöchige Online-Kurs vermittelt neben fundierter Psychoedukation mittels Texten, Videos und Audios, wirksame Strategien aus der kognitiven Verhaltenstherapie (KVT), u.a. Verhaltensaktivierung und Problemlösetechniken. Darüber hinaus werden diabetesspezifische Themen wie die Gestaltung eines vertrauensvollen ärztlichen Gesprächs, Umgang und Auswirkungen von Diabetes auf die Partnerschaft, der Umgang mit Grübelgedanken rund um die Erkrankung thematisiert sowie diabetes-spezifische Themen wie z.B. Ernährung, Bewegung und gesunder Schlaf thematisiert. Alle Inhalte wurden dabei zielgruppenspezifisch für Betroffene mit Diabetes Mellitus Typ 1 oder Typ 2 angepasst. Zusätzlich gibt es ein Online-Tagebuch und wiederholte Symptom-Checks, um die eigenen Fortschritte festhalten, beobachten und auswerten zu können. Zur Gewährleistung der Patientensicherheit unterstützt eine persönliche, psychologische Ansprechperson die Teilnehmenden während des gesamten Kurses durch Feedback zur akkuraten Durchführung des Programms.",
+      "content_preview": "HelloBetter Diabetes ist ein interaktives psychologisches Therapieprogramm zur Reduktion der depressiven Symptomschwere bei Personen mit Diabetes Mellitus Typ 1 oder Typ 2. Anhand einer randomisiert kontrollierten Studie konnte gezeigt w...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "hellobetter.de/"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:hellobetter-de-24f8ead71e:field_value",
+      "title": "hellobetter.de/"
+    },
+    {
+      "content": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_preview": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:field_value",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_preview": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "HelloBetter Diabetes",
+      "content_preview": "HelloBetter Diabetes",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Name der DiGA im DiGA-Verzeichnis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v-132a49921b:field_value",
+      "title": "Name der DiGA im DiGA-Verzeichnis"
+    },
+    {
+      "content": "11.12.2021",
+      "content_preview": "11.12.2021",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Erstmalige Aufnahme in das DiGA-Verzeichnis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in--0901792b12:field_value",
+      "title": "Erstmalige Aufnahme in das DiGA-Verzeichnis"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Modul"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-modul-0b2f60dd90:field_value",
+      "title": "Modul"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-andere-namen-und-modell-ab7acb1427:field_value",
+      "title": "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
+    },
+    {
+      "content": "Browserbasierte Webanwendung",
+      "content_preview": "Browserbasierte Webanwendung",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Art der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga-f41af95c79:field_value",
+      "title": "Art der DiGA"
+    },
+    {
+      "content": "App",
+      "content_preview": "App",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "als browserbasierte Webanwendung",
+      "content_preview": "als browserbasierte Webanwendung",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Die digitale Gesundheitsanwendung ist verfügbar"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit-70a197df25:field_value",
+      "title": "Die digitale Gesundheitsanwendung ist verfügbar"
+    },
+    {
+      "content": "im Apple App Store Deutschland im Google Play Store Deutschland",
+      "content_preview": "im Apple App Store Deutschland im Google Play Store Deutschland",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Deutschland",
+      "content_preview": "Deutschland",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Standorte der Datenverarbeitung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera-426183d1fc:field_value",
+      "title": "Standorte der Datenverarbeitung"
+    },
+    {
+      "content": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an • Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der Technik und • die Qualität des Medizinproduktes, einschließlich Interoperabilität - entsprechend den Vorgaben der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) als erfüllt. Die Datenverarbeitung findet laut Hersteller ausschließlich in Deutschland statt. Das BfArM bewertet dieses Vorgehen als konform im Sinne der DiGAV. - Der Nachweis des positiven Versorgungseffekts stützt sich auf eine randomisierte kontrollierte klinische Studie (RCT [Online-Intervention zur Bewältigung von depressiver Stimmung bei Personen mit Diabetes mellitus Typ 1 oder Typ 2; Registriert im Deutschen Register Klinischer Studien unter: DRKS00004748]). In dieser RCT wurde das psychologische Online-Programm HelloBetter Diabetes und Depression neben der medizinischen Regelversorgung den Teilnehmenden der Interventionsgruppe zur Verfügung gestellt. Teilnehmende in der Kontrollgruppe erhielten die medizinische Regelversorgung und Zugang zu einem psychoedukativen Online-Programm basierend auf der S3-Richtline zu unipolarer Depression. Die Studie fand im Zeitraum März 2013 bis Januar 2015 statt. In die Studie wurden 254 Patientinnen und Patienten eingeschlossen, die eine Diagnose zu Diabetes mellitus Typ 1 oder Typ 2 hatten, eine erhöhte depressive Symptomatik aufwiesen (Allgemeinen Depressionsskala, ADS ≥ 23) und mindestens 18 Jahre alt waren. - Die Teilnehmenden der Interventionsgruppe zeigten gegenüber der Kontrollgruppe nach 8 Wochen einen signifikant geringeren Schweregrad depressiver Symptome gemessen anhand der ADS (Mittelwertsdifferenz = 8,07; d = 0,94, 95 % CI [0,62-1,25]). Der signifikante Unterschied zwischen den Gruppen blieb auch bei einer, aus regulatorischer Sicht entscheidenden, konservativen Sensitivitätsanalyse bestehen (p < 0,001; d = 0,68, 95 % CI [0,43-0,93]). Der Unterschied zwischen den Gruppen war auch nach 6 Monaten und 12 Monaten statistisch signifikant. - Darüber hinaus ergaben sich signifikante Unterschiede zugunsten der Interventionsgruppe in sekundären Endpunkten wie Sorgen, Verhaltensaktivierung und diabetesbedingtem emotionalem Stress. Diese Ergebnisse können jedoch nur als explorativ angesehen werden und belegen keinen positiven Versorgungseffekt. - Die zur Bewertung vorgelegte Studie konnte daher bei Anwendung von HelloBetter Diabetes und Depression insgesamt eine signifikante Verbesserung des Gesundheitszustands der Teilnehmenden aufzeigen, sodass der entsprechende positive Versorgungseffekt anerkannt wird. - Entsprechend bewertet das BfArM die in § 139e SGB V sowie in der DiGAV festgelegten Voraussetzungen zur Aufnahme in das Verzeichnis nach §139e Absatz 1 SGB V als erfüllt.",
+      "content_preview": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an • Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der ...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Bewertungsentscheidung des BfArM"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung--cdc10aad7c:field_value",
+      "title": "Bewertungsentscheidung des BfArM"
+    },
+    {
+      "content": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_preview": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Angaben zum Medizinprodukt"
+    },
+    {
+      "content": "HelloBetter Diabetes ist ein psychologisches Online-Programm zur Reduktion der depressiven Symptomschwere bei Personen mit komorbidem Diabetes Mellitus Typ 1 oder Typ 2. Der Online-Kurs besteht aus sechs wöchentlich zu absolvierenden Einheiten, zwei optionalen Zusatzeinheiten sowie einer vier Wochen nach Kursende angesetzten Auffrischungseinheit mit einer Bearbeitungsdauer von je 45–60 Minuten. - Neben fundierter Psychoedukation mittels Texten, Videos und Audios vermittelt das Online-Programm wirksame Strategien aus der kognitiven Verhaltenstherapie nach dem aktuellsten Stand wissenschaftlicher Erkenntnisse. Dazu gehören unter anderem Verhaltensaktivierung, Problemlösetechniken, Strategien zur Bewältigung von Grübeln sowie Anleitungen zur Selbstreflexion. Die Übungen werden im Rahmen des Online-Programms erlernt und können in den Alltag integriert werden. Ziele werden so formuliert, dass sie individuell, realistisch und erreichbar sind. Zusätzlich gibt es ein Online-Tagebuch und wiederholte Symptom-Checks, um die eigenen Fortschritte festhalten, beobachten und auswerten zu können. - Das Online-Programm wurde über mehrere Jahre von führenden Expert:innen aus dem Bereich E-Mental-Health entwickelt und in einer randomisiert kontrollierten Studie umfassend untersucht und als wirksam befunden.",
+      "content_preview": "HelloBetter Diabetes ist ein psychologisches Online-Programm zur Reduktion der depressiven Symptomschwere bei Personen mit komorbidem Diabetes Mellitus Typ 1 oder Typ 2. Der Online-Kurs besteht aus sechs wöchentlich zu absolvierenden Ein...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "Medizinische Zweckbestimmung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Medizinische Zweckbestimmung"
+    },
+    {
+      "content": "Risikoklasse I nach MDR",
+      "content_preview": "Risikoklasse I nach MDR",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "Risikoklasse Medizinprodukt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Risikoklasse Medizinprodukt"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "Name der Benannten Stelle"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Name der Benannten Stelle"
+    },
+    {
+      "content": "Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt.",
+      "content_preview": "Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Kennnummer der Benannten Stelle"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-kennnummer-der-benannte-885261bcc3:field_value",
+      "title": "Kennnummer der Benannten Stelle"
+    },
+    {
+      "content": "DE-MF-000006296",
+      "content_preview": "DE-MF-000006296",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Identifikationsnummer Eudamed"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-identifikationsnummer-e-c5d45b28a3:field_value",
+      "title": "Identifikationsnummer Eudamed"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "UDI - Unique Device Identifier im Sinne der MDR"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-udi-unique-device-ident-16a2c37ee0:field_value",
+      "title": "UDI - Unique Device Identifier im Sinne der MDR"
+    },
+    {
+      "content": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_preview": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Weitere Informationen zur DiGA"
+    },
+    {
+      "content": "Zielsetzung: HelloBetter Diabetes ist ein psychologisches Online-Programm zur Reduktion der depressiven Symptomschwere bei Personen mit Diabetes Mellitus Typ 1 oder Typ 2. - Wirkungsweise: Der Online-Kurs basiert auf den Grundprinzipien der kognitiven Verhaltenstherapie (KVT) bei Depressionen. Der Kurs wurde von psychologischen Psychotherapeutinnen und Psychotherapeuten, Wissenschaftlerinnen und Wissenschaftler und Betroffenen entwickelt. In einer randomisiert-kontrollierten klinischen Studie konnte nachgewiesen werden, dass Teilnehmende der Interventionsgruppe nach Abschluss des Kurses im Vergleich zur Kontrollgruppe signifikant geringere depressive Symptome aufwiesen. Dieser positive Effekt scheint auch bis ein Jahr nach Abschluss des Kurses bestehen zu bleiben. - Inhalt: HelloBetter Diabetes besteht aus sechs aufeinander aufbauenden Einheiten, zwei optionalen Zusatzeinheiten sowie einer vier Wochen nach Kursende angesetzten Auffrischungseinheit. Neben fundierter Psychoedukation mittels Texten, Videos und Audios, vermittelt der Online-Kurs wirksame Strategien aus der kognitiven Verhaltenstherapie nach dem aktuellsten Stand wissenschaftlicher Erkenntnisse. Dazu gehören unter anderem Verhaltensaktivierung und Problemlösetechniken. Darüber hinaus werden diabetesspezifische Themen wie die Gestaltung eines vertrauensvollen ärztlichen Gesprächs, Umgang und Auswirkungen von Diabetes auf die Partnerschaft und der Umgang mit Grübelgedanken rund um die Erkrankung thematisiert. Zusätzlich können Teilnehmende im Rahmen von zwei kurzen Zusatzeinheiten (ca. 15-20 Minuten) optional wählen, ob sie sich mit den Themen „Diabetes und Ernährung“ und „Besser Schlafen“ beschäftigen möchten. Die Kurseinheiten bestehen aus anschaulich und interaktiv gestalteten Texten, Videos und Audios, die durch praktische Übungen ergänzt werden. Am Ende einer jeden Kurseinheit gibt es zur Wahrung der Patientensicherheit und des bestimmungsgemäßen Gebrauchs eine schriftliche Rückmeldung durch eine Begleiterin oder einen Begleiter. - Nutzung: Die Benutzung des Online-Kurses erfolgt über einen Webbrowser und/oder über ein mobiles Endgerät. Die Bearbeitung der sechs Kurseinheiten sowie der vier Wochen nach Kursende angesetzten Auffrischungseinheit dauert je ca. 45-60 Minuten und kann flexibel in den Alltag eingebaut werden. Fortschritte können jederzeit zwischengespeichert werden, sodass die Einheit auch zu einem späteren Zeitpunkt unproblematisch fortgeführt werden kann. Zur Verbesserung der Selbstwahrnehmung und Beobachtung des Kursfortschritts sollen die Teilnehmenden täglich ein Stimmungstagebuch führen.",
+      "content_preview": "Zielsetzung: HelloBetter Diabetes ist ein psychologisches Online-Programm zur Reduktion der depressiven Symptomschwere bei Personen mit Diabetes Mellitus Typ 1 oder Typ 2. - Wirkungsweise: Der Online-Kurs basiert auf den Grundprinzipien ...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Informationen: Jede Kurseinheit enthält psychoedukative Informationen zum Thema Depression sowie Übungen zur Verbesserung der depressiven Symptomatik. Zudem wird der Zusammenhang zwischen Depression und Diabetes veranschaulicht und der Umgang mit diabetesspezifischen Sorgen oder Problemen in den Kurs integriert. Die Inhalte werden interaktiv per Video, Audio oder Text vermittelt.",
+      "content_preview": "Informationen: Jede Kurseinheit enthält psychoedukative Informationen zum Thema Depression sowie Übungen zur Verbesserung der depressiven Symptomatik. Zudem wird der Zusammenhang zwischen Depression und Diabetes veranschaulicht und der U...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Funktionen der digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Funktionen der digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Übungen: Mit Hilfe verschiedener praktischer Übungen werden die Teilnehmenden angeregt über ihre eigene Situation zu reflektieren, Veränderungen im Denken und Handeln zu erproben, sowie Erlerntes in den Alltag zu übertragen. Die besonderen Schwerpunkte des Kurses liegen im Aufbau positiver Aktivitäten sowie im Erlernen einer systematischen Problemlösemethode. Stimmungstagebuch: Die Teilnehmenden führen ein digitales Stimmungstagebuch, um zu lernen, das eigene Befinden besser zu beobachten und zu verstehen, wie sich Verhalten und Stimmung gegenseitig beeinflussen. Weitere Eintragungen: Innerhalb des Kurses werden die Teilnehmenden dazu animiert z.B. über ihre persönliche Situation und ihre Ziele zu reflektieren und ihr Verhalten im Einklang mit diesen zu verändern. Diese Erkenntnisse sind den Teilnehmenden jederzeit zugänglich, sodass die persönliche Entwicklungsgeschichte der oder des Teilnehmenden im Zentrum des Kurses steht. Beispielpersonen: Fiktive Personen, an denen sich Teilnehmende orientieren können, begleiten durch den Kurs. Sie geben Hilfestellung bei der Bearbeitung der Übungen und berichten über ihre Erfahrungen, Hindernisse und Fortschritte, die sie mit den Übungen im Hinblick auf die depressive Symptomatik und den Diabetes gemacht haben. Zwischenevaluation: In regelmäßigem Abstand werden Symptomchecks anhand validierter Fragebögen durchgeführt. So können Teilnehmende den Symptomverlauf und Therapiefortschritt beobachten. Feedback: Nach jeder Einheit gibt eine geschulte Begleiterin bzw. ein geschulter Begleiter innerhalb von 2 Werktagen ein schriftliches Feedback zur Wahrung der Patientensicherheit und des bestimmungsgemäßen Gebrauchs. Das Feedback ist nur für die Teilnehmenden persönlich bestimmt.",
+      "content_preview": "Übungen: Mit Hilfe verschiedener praktischer Übungen werden die Teilnehmenden angeregt über ihre eigene Situation zu reflektieren, Veränderungen im Denken und Handeln zu erproben, sowie Erlerntes in den Alltag zu übertragen. Die besonder...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "(1) Innovations-Inkubator, Kompetenztandem Gesundheitstraining.Online, Institut für Psychologie, Leuphana Universität Lüneburg (2) Lehrstuhl für Klinische Psychologie und Psychotherapie, Philipps-Universität Marburg (3) Medizinischen Psychologie und Medizinischen Soziologie, Medizinische Fakultät, Albert-Ludwigs-Universität Freiburg (4) Abteilung für Allgemeinmedizin, Präventive und Rehabilitative Medizin, Philipps-Universität Marburg (5) Department of Medical Psychology, VU University Medical Centre, Amsterdam, The Netherlands (6) Department of Clinical Psychology, VU University, Amsterdam, The Netherlands (7) Institute for Health and Care Research (EMGO), VU University Medical Centre, Amsterdam, The Netherlands",
+      "content_preview": "(1) Innovations-Inkubator, Kompetenztandem Gesundheitstraining.Online, Institut für Psychologie, Leuphana Universität Lüneburg (2) Lehrstuhl für Klinische Psychologie und Psychotherapie, Philipps-Universität Marburg (3) Medizinischen Psy...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-und-adresse-beteil-71b7ba97e5:field_value",
+      "title": "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
+    },
+    {
+      "content": "HelloBetter Diabetes basiert auf Methoden der kognitiven Verhaltenstherapie (KVT). Die zur Anwendung kommenden Inhalte und Methoden des Online-Programms (Psychoedukation, Verhaltensaktivierung, Stärkung der Problemlösekompetenz) sowie deren Wirksamkeit sind unter anderem in der folgenden Literatur näher beschrieben: - Cuijpers P, van Straten A, Warmerdam L: Behavioral activation treatments of depression: a meta-analysis. Clin Psychol Rev 2007, 27:318–326. - Cuijpers P, van Straten A, Warmerdam L: Problem solving therapies for depression: a meta-analysis. Eur Psychiatry 2007, 22:9–15. - Donker T, Griffiths KM, Cuijpers P, Christensen H: Psychoeducation for depression, anxiety and psychological distress: a meta-analysis. BMC Med 2009, 7:79. - Darüber hinaus konzentriert sich das Online-Programm auf relevante diabetes-spezifische Themen, darunter Sorgen und Grübeln über die Erkrankung, Bewegung, die Gestaltung des ärztlichen Gesprächs und Sexualitätund Partnerschaft: - Halle M, Kemmer F, Stumvoll M, Thurm U, Zimmer P: Evidenzbasierte Leitlinie der Deutschen Diabetes-Gesellschaft. Körperliche Aktivität und Diabetes mellitus. http://www.deutsche-diabetes gesellschaft.de/fileadmin/Redakteur/Leitlinien/Evidenzbasierte_Leitlinien/EBL_Bewegung_2008.pdf. - Piette JD, Richardson C, Valenstein M: Addressing the needs of patients with multiple chronic illnesses: the case of diabetes and depression. Am J Manag Care 2004, 10:152–162. - Die Wirksamkeit der KVT bei unipolaren Depressionen wurde in einer Reihe qualitätsgeprüfter Metaanalysen untersucht und belegt: - Cuijpers P, Andersson G, Donker T, van Straten A. Psychological treatment of depression: Results of a series of meta-analyses. Nord J Psychiatry. 2011 Dec;65(6):354-64. - Dobson KS. A meta-analysis of the efficacy of cognitive therapy for depression. J Consult Clin Psychol. 1989 Jun;57(3):414- 9. - Ebenfalls als wirksam erwies sich die KVT bei Menschen mit Diabetes und komorbider Depression: - Baumeister H, Hutter N, Bengel J: Psychological and pharmacological interventions for depression in patients with diabetes mellitus and depression. Cochrane Database Syst Rev 2012, 12;12, CD008381. - Petrak F, Herpertz S: Treatment of depression in diabetes: an update. Curr Opin Psychiatry 2009, 22:211–217. - Die KVT als Therapieform für Menschen mit Depressionen wurde unter anderem in der folgenden Literatur empfohlen: - Bundesärztekammer, Kassenärztliche Bundesvereinigung, Arbeitsgemeinschaft der Wissenschaftlichen Medizinische Fachgesellschaften: Patientenleitlinie zur nationalen Versorgungsleitlinie unipolare depression. Version 1.0 2011 [http://wup/uploads/tx_szleitlinien/nvl-005p_S3_Unipolare_Depression-Patientenversion.pdf]",
+      "content_preview": "HelloBetter Diabetes basiert auf Methoden der kognitiven Verhaltenstherapie (KVT). Die zur Anwendung kommenden Inhalte und Methoden des Online-Programms (Psychoedukation, Verhaltensaktivierung, Stärkung der Problemlösekompetenz) sowie de...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-literaturquellen-wie-z--8d5491f412:field_value",
+      "title": "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
+    },
+    {
+      "content": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_preview": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Beteiligung vom medizinischen Fachpersonal"
+    },
+    {
+      "content": "Ärztinnen und Ärzte können HelloBetter Diabetes empfehlen, um die depressive Symptomschwere bei Personen mit Diabetes Mellitus Typ 1 oder Typ 2 zu reduzieren.",
+      "content_preview": "Ärztinnen und Ärzte können HelloBetter Diabetes empfehlen, um die depressive Symptomschwere bei Personen mit Diabetes Mellitus Typ 1 oder Typ 2 zu reduzieren.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Ärztinnen/ Ärzte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Ärztinnen/ Ärzte"
+    },
+    {
+      "content": "Psychotherapeutinnen und Psychotherapeuten können HelloBetter Diabetes empfehlen, um die depressive Symptomschwere bei Personen mit Diabetes Mellitus Typ 1 oder Typ 2 zu reduzieren.",
+      "content_preview": "Psychotherapeutinnen und Psychotherapeuten können HelloBetter Diabetes empfehlen, um die depressive Symptomschwere bei Personen mit Diabetes Mellitus Typ 1 oder Typ 2 zu reduzieren.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Psychotherapeutinnen/ Psychotherapeuten"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Psychotherapeutinnen/ Psychotherapeuten"
+    },
+    {
+      "content": "Nein",
+      "content_preview": "Nein",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
+    },
+    {
+      "content": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfohlen wird.",
+      "content_preview": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfoh...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-6922aa5eb2:field_value",
+      "title": "Anwendungshinweise"
+    },
+    {
+      "content": "HelloBetter Diabetes ist ein psychologisches Online-Programm zur Reduktion der depressiven Symptomschwere bei Personen mit Diabetes Mellitus Typ 1 oder Typ 2. HelloBetter hat ein umfassendes Patientensicherheitskonzept entwickelt. Allen Teilnehmenden wird eine persönliche Begleitung zugeteilt, welche sicherstellt, dass der Kurs nur für seinen bestimmungsgemäßen Gebrauch verwendet wird. Die Begleitung überwacht den Fortschritt der Teilnehmenden, um auf unerwünschte Ereignisse wie Suizidalität schnell zu reagieren und an geeignete Anlaufstellen zu verweisen.",
+      "content_preview": "HelloBetter Diabetes ist ein psychologisches Online-Programm zur Reduktion der depressiven Symptomschwere bei Personen mit Diabetes Mellitus Typ 1 oder Typ 2. HelloBetter hat ein umfassendes Patientensicherheitskonzept entwickelt. Allen ...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Hinweise für eine sichere Anwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw-13263bcc58:field_value",
+      "title": "Hinweise für eine sichere Anwendung"
+    },
+    {
+      "content": "Ausschlusskriterien des Online-Programms sind: - Suizidalität - Abwesenheit depressiver Beschwerden",
+      "content_preview": "Ausschlusskriterien des Online-Programms sind: - Suizidalität - Abwesenheit depressiver Beschwerden",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Weitere Ausschlusskriterien"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-weit-3d658a5f5f:field_value",
+      "title": "Weitere Ausschlusskriterien"
+    },
+    {
+      "content": "12 Wochen",
+      "content_preview": "12 Wochen",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Vom Hersteller für erforderlich gehaltene Mindestdauer"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "title": "Vom Hersteller für erforderlich gehaltene Mindestdauer"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Vom Hersteller für erforderlich gehaltene Höchstdauer"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "title": "Vom Hersteller für erforderlich gehaltene Höchstdauer"
+    },
+    {
+      "content": "Der Online-Kurs kann über einen Computer, Laptop und/oder ein mobiles Endgerät mit Internetzugang genutzt werden.",
+      "content_preview": "Der Online-Kurs kann über einen Computer, Laptop und/oder ein mobiles Endgerät mit Internetzugang genutzt werden.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-komp-0b84064997:field_value",
+      "title": "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
+    },
+    {
+      "content": "Die Kompatibilitätszusagen sind unter dem Abschnitt „Produktinformationen“ der Website der digitalen Gesundheitsanwendung zu finden.",
+      "content_preview": "Die Kompatibilitätszusagen sind unter dem Abschnitt „Produktinformationen“ der Website der digitalen Gesundheitsanwendung zu finden.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Um Interoperabilität und Portabilität zu gewährleisten, arbeitet HelloBetter mit dem offenen, international anerkannten FHIR Standard (HL7 FHIR r4). Die FHIR Profilierung wurde auf simplifier.net veröffentlicht, unter: https://simplifier.net/guide/ImplementationGuide-HB-Dataexport/Home. Weitere Erläuterungen finden sich auf der Interoperabilitätsseite von HelloBetter, unter: https://hellobetter.de/interoperabilitaet/.",
+      "content_preview": "Um Interoperabilität und Portabilität zu gewährleisten, arbeitet HelloBetter mit dem offenen, international anerkannten FHIR Standard (HL7 FHIR r4). Die FHIR Profilierung wurde auf simplifier.net veröffentlicht, unter: https://simplifier...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Möglichkeiten von standardisiertem Datenimport und Datenexport"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-moeglichkeiten-von-stan-a818cc9f27:field_value",
+      "title": "Möglichkeiten von standardisiertem Datenimport und Datenexport"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zu-den-von-der--1e522ad432:field_value",
+      "title": "Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen"
+    },
+    {
+      "content": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs. weitere, durch Sie selbst aufzubringende Kosten, sofern Sie bestimmte zusätzlich angebotene und von der Verschreibung nicht abgedeckte Leistungen in Anspruch nehmen möchten.",
+      "content_preview": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs....",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-429bde377d:field_value",
+      "title": "Angaben zum Preis"
+    },
+    {
+      "content": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+      "content_preview": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis",
+        "Preismodell"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis-6eb719186f:field_value",
+      "title": "Preismodell"
+    },
+    {
+      "content": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "content_preview": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "222,99 €",
+      "content_preview": "222,99 €",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-kosten-z-b-starterpaket-5641b0bf97:field_value",
+      "title": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
+    },
+    {
+      "content": "222,99 €",
+      "content_preview": "222,99 €",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-nutzung-der-dig-7a56e117b7:field_value",
+      "title": "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Anmerkungen zum Preismodell"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-anmerkungen-zum-f3f338f2f7:field_value",
+      "title": "Weitere Anmerkungen zum Preismodell"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Erläuterung Mehrkosten"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-erlaeuterung-mehrkosten-7813cc6074:field_value",
+      "title": "Erläuterung Mehrkosten"
+    },
+    {
+      "content": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_preview": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Verbesserungen für Patienten können entweder medizinischer Art sein (z.B. Verringerung von Schmerzen, Beitrag zur Heilung der Erkrankung) oder den Erkennungs- und Behandlungsprozess direkt unterstützen und erleichtern (z.B. Informationen zur individuellen Erkrankungssituation, Unterstützung bei der Einhaltung der zwischen Patient und Arzt gemeinsam vereinbarten therapeutischen Maßnahmen).",
+      "content_preview": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Ve...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:informationen-zum-positiven-versorgungseffekt-253662cf50:field_value",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche Weise dies ggfs. bereits wissenschaftlich nachgewiesen wurde. Falls der positive Versorgungseffekt noch nicht abschließend nachgewiesen aber bereits so plausibel dargelegt wurde, dass die DiGA befristet zur entsprechenden Erprobung aufgenommen wurde, wird angegeben, für welchen Zeitraum dies erfolgt ist. Sofern (auch) ein Nachweis zum Erhalt der Erwerbsfähigkeit für die DiGA erbracht wurde oder eine Nachweisführung geplant ist, finden Sie hier eine Beschreibung und nähere Angaben zum Nachweis sowie zum Studiendesign. Sofern die DiGA (auch) ein diagnostisches Instrument darstellt, also mindestens in Teilen dazu vorgesehen ist, Informationen z.B. für die Erkennung oder Diagnose von Krankheitszuständen zu liefern, hat der Hersteller dies benannt und beschrieben sowie Sensitivität und Spezifität als wichtige Bewertungsgrößen angegeben.",
+      "content_preview": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche We...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Medizinischer Nutzen",
+      "content_preview": "Medizinischer Nutzen",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Angaben zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse-5449921803:field_value",
+      "title": "Angaben zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Verbesserung des Gesundheitszustands",
+      "content_preview": "Verbesserung des Gesundheitszustands",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Nähere Angaben zum medizinischen Nutzen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen--90ce965dee:field_value",
+      "title": "Nähere Angaben zum medizinischen Nutzen"
+    },
+    {
+      "content": "Der medizinische Nutzen von HelloBetter Diabetes besteht in einer Reduktion der depressiven Symptome. Das Online-Programm basiert auf den Grundprinzipien der kognitiven Verhaltenstherapie (KVT) bei Depressionen und besteht aus verschiedenen, aufeinander aufbauenden Einheiten, die flexibel in den Alltag eingebunden werden können. - In der zugrundeliegenden Studie konnte die Wirksamkeit von HelloBetter Diabetes uin Bezug auf die depressive Symptomatik nachgewiesen werden. Depressive Symptome wurden mit Hilfe der Allgemeinen Depressionsskala [ADS] gemessen, die ein gängiger Fragebogen ist, um den Schweregrad der depressiven Symptome zu erfassen. - Im Vergleich zu einer Kontrollgruppe waren die depressiven Symptome nach der Anwendung signifikant niedriger. Dabei lag ein großer Effekt vor (Cohen’s d = 0.94, Mittelwertdifferenz auf der Allgemeinen Depressionsskala [ADS] = 8.07 Skalenpunkte).",
+      "content_preview": "Der medizinische Nutzen von HelloBetter Diabetes besteht in einer Reduktion der depressiven Symptome. Das Online-Programm basiert auf den Grundprinzipien der kognitiven Verhaltenstherapie (KVT) bei Depressionen und besteht aus verschiede...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Beschreibung des medizinischen Nutzens"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut-a677995e79:field_value",
+      "title": "Beschreibung des medizinischen Nutzens"
+    },
+    {
+      "content": "Der Nachweis positive Versorgungseffekte des Online-Programms HelloBetter Diabetes wurde im Rahmen einer randomisierten kontrollierten klinischen Studie erbracht (“Online-Programm zur Bewältigung von depressiven Beschwerden bei Personen mit Diabetes mellitus Typ 1 oder Typ 2”; Studienregistrierung: DRKS00004748) - P - Patients In diese Studie wurden 254 Personen mit der Diagnose Diabetes mellitus mit erhöhten depressiven Symptomen eingeschlossen, die mindestens 18 Jahre alt waren. Teilnehmende wurden zufällig entweder der Interventions- oder der Kontrollgruppe zugewiesen. - I - Intervention Teilnehmende in der Interventionsgruppe erhielten die übliche medizinische Versorgung und zusätzlich Zugang zum Online-Programm HelloBetter Diabetes. - C - Control Teilnehmende in der Kontrollgruppe erhielten die übliche medizinische Versorgung und hatten Zugang zu einem Online-Programm welches basierend auf einer anerkannten Leitlinie Wissen über Depressionen vermittelt (Psychoedukation). Nach Abschluss der Studie erhielten Teilnehmende in der Kontrollgruppe ebenfalls Zugang zum Online-Programm HelloBetter Diabetes und Depression. - O - Outcomes Nach der Anwendung mit HelloBetter Diabetes waren die depressiven Symptome im Vergleich zur Kontrollgruppe signifikant niedriger. Dabei lag ein großer Effekt vor (Cohen’s d = 0.94, Mittelwertdifferenz auf der Allgemeinen Depressionsskala [ADS] = 8.07 Skalenpunkte). Gemäß der explorativen Untersuchung scheint dieser Effekt auch über 6 und 12 Monate stabil zu bleiben (d = 0.62 bzw. 0.63; Mittelwertdifferenz auf der ADS = 5.78 bzw. 5.57 Skalenpunkte). - Darüber hinaus scheinen in Bezug auf weitere sekundäre Endpunkte kleine (Verhaltensaktivierung, Problemlösen) bis mittlere (Sorgen, diabetesbedingter emotionaler Stress, Lebensqualität) und große (Depressivität erhoben mit der Hospital Anxiety and Depression Scale) positive Effekte zu bestehen.",
+      "content_preview": "Der Nachweis positive Versorgungseffekte des Online-Programms HelloBetter Diabetes wurde im Rahmen einer randomisierten kontrollierten klinischen Studie erbracht (“Online-Programm zur Bewältigung von depressiven Beschwerden bei Personen ...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Studie/n im PICO-Schema"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema-2cb668dadb:field_value",
+      "title": "Studie/n im PICO-Schema"
+    },
+    {
+      "content": "Die Wirksamkeit von HelloBetter Diabetes wurde im Rahmen einer randomisierten kontrollierten Studie (RCT) untersucht. Die Studie wurde im Deutschen Register Klinischer Studien (DRKS) präspezifiziert und registriert (DRKS00004748). - Ziel der Studie war es zu untersuchen, ob Personen mit Diabetes mellitus (Typ I oder Typ II) und erhöhter depressiver Symptomatik, die HelloBetter Diabetes erhielten, nach der Anwendung weniger depressive Symptome aufwiesen als Teilnehmende in der Kontrollgruppe. - Die Wirksamkeit wurde in einer Studie untersucht, in der die Teilnehmenden im Verhältnis 1:1 zufällig zwei Gruppen zugeteilt wurden: eine Interventionsgruppe und eine Kontrollgruppe. Teilnehmende in der Interventionsgruppe erhielten Zugang zum Online-Programm HelloBetter Diabetes. Teilnehmende in der Kontrollgruppe erhielten Zugang zu einem Online-Programm, welches basierend auf einer anerkannten Leitlinie Wissen über Depressionen vermittelt (Psychoedukation). - In die Studie wurden 254 Diabetes-Patientinnen und Diabetes-Patienten mit erhöhten depressiven Symptomen eingeschlossen. Primärer Endpunkt war die depressive Symptomatik nach 8 Wochen. Die depressive Symptomatik nach 6 und 12 Monaten stellte einen sekundären Endpunkt dar. Darüber hinaus wurden weitere sekundäre Endpunkte erfasst, wie zum Beispiel Verhaltensaktivierung, Problemlösen, Sorgen, diabetesbedingter emotionaler Stress und Lebensqualität. Erhebungen wurden in beiden Gruppen nach 8 Wochen sowie 6 und 12 Monaten durchgeführt . - Hauptergebnis: Zusammenfassend zeigt diese klinische Studie, dass HelloBetter Diabetes zusätzlich zu einer üblichen medizinischen Versorgung depressive Symptome wirksam reduziert. Es konnte gezeigt werden, dass die depressiven Symptome nach der Anwendung signifikant niedriger waren als in der Kontrollgruppe. Dabei lag ein großer Effekt vor (Cohen’s d = 0.94, Mittelwertdifferenz auf der Allgemeinen Depressionsskala [ADS] = 8.07 Skalenpunkte) - Es zeigten sich Hinweise, dass auch nach 6 und 12 Monaten diese Effekte bestehen bleiben(d = 0.62 bzw. 0.63; Mittelwertdifferenz auf der ADS = 5.78 bzw. 5.57 Skalenpunkte). - Ferner zeigten sich Hinweise für positive Effekte auf weitere Endpunkte, wie Sorgen, Verhaltensaktevierung, diabetesbedingtem emotionalen Stress und Lebensqualität.",
+      "content_preview": "Die Wirksamkeit von HelloBetter Diabetes wurde im Rahmen einer randomisierten kontrollierten Studie (RCT) untersucht. Die Studie wurde im Deutschen Register Klinischer Studien (DRKS) präspezifiziert und registriert (DRKS00004748). - Ziel...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u-804896bae6:field_value",
+      "title": "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
+    },
+    {
+      "content": "Veröffentlichung des Studienberichts über die Website des Herstellers: GET.ON Institut für Online Gesundheitstrainings GmbH [Internet]. Hamburg; c2021 [cited 2021 Aug 17]. Studienbericht \"Online-Intervention zur Bewältigung von depressiver Stimmung bei Personen mit Diabetes mellitus Typ 1 oder Typ 2\"; Available from: https://hellobetter.de/online-kurse/diabetes/ - Veröffentlichungen über DRKS Registrierung: DRKS [Internet]. DRKS-ID der Studie: DRKS00004748 [cited 2021 Aug 17]. Available from: https://www.drks.de/drks_web/navigate.do?navigationId=trial.HTML&TRIAL_ID=DRKS00004748",
+      "content_preview": "Veröffentlichung des Studienberichts über die Website des Herstellers: GET.ON Institut für Online Gesundheitstrainings GmbH [Internet]. Hamburg; c2021 [cited 2021 Aug 17]. Studienbericht \"Online-Intervention zur Bewältigung von depressiv...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Dies ist/sind die vom Hersteller angeführten Studie/n:"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:informationen-zum-positiven-versorgungseffekt-dies-ist-sind-die-vom-hersteller-a-81dc280904:field_value",
+      "title": "Dies ist/sind die vom Hersteller angeführten Studie/n:"
+    },
+    {
+      "content": "Nein",
+      "content_preview": "Nein",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Die DiGA enthält ein diagnostisches Instrument"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch-eded43f154:field_value",
+      "title": "Die DiGA enthält ein diagnostisches Instrument"
+    },
+    {
+      "content": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird. Die Anforderungen an die Datensicherheit werden durch Vorlage eines Zertifikats gemäß § 139e Absatz 10 Fünftes Buch Sozialgesetzbuch nachgewiesen. Detaillierte Informationen zu den einzelnen Anforderungen können Sie auf der Webseite des Bundesamts für Sicherheit in der Informationstechnik unter der Technischen Richtlinie \"BSI TR-03161\" finden: https://www.bsi.bund.de/dok/TR-03161 Bis zur Vorlage des Zertifikats gelten für den Bereich Datensicherheit die Anforderungen der nachfolgend dargestellten Checkliste.",
+      "content_preview": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen v...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:field_value",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine technische Möglichkeit einer Verknüpfung oder eines Datenaustauschs mit anderen digitalen Gesundheitsanwendungen. Trifft nicht zu Die digitale Gesundheitsanwendung unterstützt keine Offenbarung von Informationen der betroffenen Person oder über die betroffene Person für die Öffentlichkeit oder eine für die betroffene Person nicht eingrenzbare Personengruppe.",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutref...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit",
+        "Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:informationen-zu-datenschutz-und-datensicherheit-datensicherheit-14af255f91:field_value",
+      "title": "Datensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung greift weder auf Sensoren eines mobilen Endgeräts noch auf externe Hardware zu. Trifft nicht zu Die digitale Gesundheitsanwendung tauscht keine Daten mit externer Hardware aus. Zutreffend Zutreffend Zutreffend Nein",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutref...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der medizinischen Inhalte und die Gewährleistung der Patientensicherheit.",
+      "content_preview": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der me...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-afe954d9f8:field_value",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_preview": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Interoperabilität"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-angaben-zur-interoperabilitaet-8867f27412:field_value",
+      "title": "Angaben zur Interoperabilität"
+    },
+    {
+      "content": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versicherten getragenen Sensoren zur Messung und Übertragung von Vitalwerten (Wearables) austauscht. Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versiche...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Robustheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-angaben-zur-robustheit-0a511476df:field_value",
+      "title": "Angaben zur Robustheit"
+    },
+    {
+      "content": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
+      "content_preview": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digi...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zum Verbraucherschutz"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-angaben-zum-verbraucherschutz-05cd17969e:field_value",
+      "title": "Angaben zum Verbraucherschutz"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit-8fe873c531:field_value",
+      "title": "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Unterstützung der Leistungserbringende"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-unterstuetzung-der-leistungserbringende-d4e78dfd75:field_value",
+      "title": "Unterstützung der Leistungserbringende"
+    },
+    {
+      "content": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen.",
+      "content_preview": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Triff...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Qualität der medizinischen Inhalte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte-a6d05ceeb6:field_value",
+      "title": "Angaben zur Qualität der medizinischen Inhalte"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Patientensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-angaben-zur-patientensicherheit-7a67651ccd:field_value",
+      "title": "Angaben zur Patientensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01376:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    }
+  ],
+  "diga_id": "01376",
+  "name": "HelloBetter Diabetes",
+  "rendered_structure_metadata": {
+    "accordions_opened": 0,
+    "content_section_count": 77,
+    "field_value_count": 58,
+    "rendered_at": "2026-06-22T19:09:19.515477+00:00",
+    "source_kind": "visible_directory"
+  },
+  "source_kind": "visible_directory",
+  "timestamp": "20260622T190144Z",
+  "url": "https://diga.bfarm.de/de/verzeichnis/01376"
+}

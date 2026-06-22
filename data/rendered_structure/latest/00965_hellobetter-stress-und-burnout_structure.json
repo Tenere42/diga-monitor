@@ -1,0 +1,973 @@
+{
+  "content_sections": [
+    {
+      "content": "HelloBetter Stress und Burnout ist ein interaktives, psychologisches Therapieprogramm, das auf eine anhaltende Minderung der Stressbeanspruchung in Bezug auf Schwierigkeiten bei der Lebens- und Arbeitsbewältigung abzielt. Anhand einer randomisiert kontrollierten Studie konnte gezeigt werden, dass mit der Teilnahme an diesem Online-Programm die Stressbeanspruchung nachweislich reduziert wird sowie Verbesserungen in Bereichen der psychischen Gesundheit (Depression, Angst, Schlaf) und arbeitsbezogenen Gesundheit (emotionale Erschöpfung, Arbeitsengagement) erzielt werden. Der Online-Kurs besteht aus sieben wöchentlich zu absolvierenden Einheiten sowie einer vier Wochen nach Kursende angesetzten Auffrischungseinheit mit einer Bearbeitungsdauer von je 45-60 Minuten. Neben fundierter Psychoedukation mittels Texten, Videos und Audios, vermittelt das Online-Programm wirksame Strategien aus der kognitiven Verhaltenstherapie (KVT) nach dem aktuellsten Stand wissenschaftlicher Erkenntnisse. Dazu gehören unter anderem Problemlösetechniken, Verhaltensaktivierung sowie Emotionsregulationsstrategien. Zusätzlich gibt es ein Online-Tagebuch und wiederholte Symptom-Checks, um die eigenen Fortschritte festhalten, beobachten und auswerten zu können. Zur Gewährleistung der Patientensicherheit unterstützt eine persönliche, psychologische Ansprechperson die Teilnehmenden während des gesamten Kurses durch Feedback zur akkuraten Durchführung des Programms.",
+      "content_preview": "HelloBetter Stress und Burnout ist ein interaktives, psychologisches Therapieprogramm, das auf eine anhaltende Minderung der Stressbeanspruchung in Bezug auf Schwierigkeiten bei der Lebens- und Arbeitsbewältigung abzielt. Anhand einer ra...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "hellobetter.de/"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:hellobetter-de-24f8ead71e:field_value",
+      "title": "hellobetter.de/"
+    },
+    {
+      "content": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_preview": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:field_value",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_preview": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "HelloBetter Stress und Burnout",
+      "content_preview": "HelloBetter Stress und Burnout",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Name der DiGA im DiGA-Verzeichnis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v-132a49921b:field_value",
+      "title": "Name der DiGA im DiGA-Verzeichnis"
+    },
+    {
+      "content": "18.10.2021",
+      "content_preview": "18.10.2021",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Erstmalige Aufnahme in das DiGA-Verzeichnis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in--0901792b12:field_value",
+      "title": "Erstmalige Aufnahme in das DiGA-Verzeichnis"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Modul"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-modul-0b2f60dd90:field_value",
+      "title": "Modul"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-andere-namen-und-modell-ab7acb1427:field_value",
+      "title": "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
+    },
+    {
+      "content": "Kombination App / Webanwendung",
+      "content_preview": "Kombination App / Webanwendung",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Art der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga-f41af95c79:field_value",
+      "title": "Art der DiGA"
+    },
+    {
+      "content": "als browserbasierte Webanwendung",
+      "content_preview": "als browserbasierte Webanwendung",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Die digitale Gesundheitsanwendung ist verfügbar"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit-70a197df25:field_value",
+      "title": "Die digitale Gesundheitsanwendung ist verfügbar"
+    },
+    {
+      "content": "im Apple App Store Deutschland im Google Play Store Deutschland",
+      "content_preview": "im Apple App Store Deutschland im Google Play Store Deutschland",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Deutschland",
+      "content_preview": "Deutschland",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Standorte der Datenverarbeitung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera-426183d1fc:field_value",
+      "title": "Standorte der Datenverarbeitung"
+    },
+    {
+      "content": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an",
+      "content_preview": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Bewertungsentscheidung des BfArM"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung--cdc10aad7c:field_value",
+      "title": "Bewertungsentscheidung des BfArM"
+    },
+    {
+      "content": "• Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der Technik und • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) als erfüllt. Der Hersteller hat bestätigt, dass keine personenbezogenen Daten in ein Land ohne Angemessenheitsbeschluss, wie nach dem Urteil „Schrems II“ den USA, fließen. Der Nachweis des positiven Versorgungseffekts stützt sich auf folgende randomisierte kontrollierte klinische Studie (RCT): Heber E., Lehr D., Ebert D.D., Berking M., Riper H. Web-Based and Mobile Stress Management Intervention for Employees: A Randomized Controlled Trial. J Med Internet Res 2016;18(1):e21 doi: 10.2196/jmir.5112. In dieser RCT wurde das psychologische Online-Programm HelloBetter Stress und Burnout (GET.ON Stress) den Teilnehmenden der Interventionsgruppe zur Verfügung gestellt. Teilnehmende in der Kontrollgruppe erhielten die übliche medizinische Versorgung, nach 6 Monaten erhielten sie ebenfalls Zugang zu HelloBetter Stress und Burnout. Die Studie fand im Zeitraum März 2013 bis November 2014 statt, insgesamt wurden 264 Berufstätige mit einer erhöhten Stressbeanspruchung (Perceived Stress Scale [PSS-10] ≥ 22) in die Studie eingeschlossen. Die deutliche Mehrheit der Probandinnen und Probanden zeigte zudem eine schwere emotionale Erschöpfung (Maslach Burnout Inventory [MBI-EE] ≥ 3.5), depressive Symptome (Allgemeine Depressionsskala [ADS] ≥ 16), eine beeinträchtigte psychologische Distanzierung zur Arbeit (Recovery Experience Questionnaire - Subscale Psychological Detachment [REQ-PD]) und eine reduzierte professionelle Effizienz (Utrecht Work Engagement Scale [UWES] und Präsentismus-Tage). Ein Vorhandensein des Syndroms „Burnout“, welches aktuell über den ICD-10-Code Z73 „Probleme mit Bezug auf Schwierigkeiten bei der Lebensbewältigung“ verschlüsselt ist, wird daher anerkannt. Die Probandinnen und Probanden in der Interventionsgruppe zeigten gegenüber der Kontrollgruppe nach 7 Wochen eine signifikant stärkere Reduzierung der Stressbeanspruchung (PSS-10, Effektstärke Cohen´s d = 0,83), zum Zeitpunkt einer Follow-up-Messung nach weiteren 6 Monaten hatte der Effekt weiterhin Bestand (d = 1,02). Zudem zeigte sich nach 7 Wochen eine signifikante Verringerung der emotionalen Erschöpfung (MBI-EE, d = 0,75), eine bessere psychologische Distanzierung (REQ-PD, d = 0,54) sowie eine Erhöhung der professionellen Effizienz (UWES, d = 0,23). Die Effekte waren zum Zeitpunkt der Follow-up-Messung noch größer. Die klinische Studie konnte daher bei Anwendung von HelloBetter Stress und Burnout insgesamt eine signifikante Verbesserung des Gesundheitszustands der Probandinnen und Probanden aufzeigen, sodass der entsprechende positive Versorgungseffekt anerkannt wird. Entsprechend bewertet das BfArM die in § 139e des Fünften Buches Sozialgesetzbuch (SGB V) sowie in der DiGAV festgelegten Voraussetzungen zur Aufnahme in das Verzeichnis nach § 139e Absatz 1 SGB V als erfüllt.",
+      "content_preview": "• Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der Technik und • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Ge...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_preview": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Angaben zum Medizinprodukt"
+    },
+    {
+      "content": "HelloBetter Stress und Burnout ist ein psychologisches Online-Programm, das Informationen und Inhalte zum Umgang mit Stressbelastungen in der Lebens- und Arbeitsbewältigung vermittelt. Ziel des Programms ist es, Fähigkeiten zur Problemlösung und zum hilfreichen Umgang mit Emotionen zu stärken.",
+      "content_preview": "HelloBetter Stress und Burnout ist ein psychologisches Online-Programm, das Informationen und Inhalte zum Umgang mit Stressbelastungen in der Lebens- und Arbeitsbewältigung vermittelt. Ziel des Programms ist es, Fähigkeiten zur Problemlö...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "Medizinische Zweckbestimmung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Medizinische Zweckbestimmung"
+    },
+    {
+      "content": "Medizinische Indikation und Kontraindikationen HelloBetter Stress und Burnout wurde für Erwachsene konzipiert, die die Kriterien der folgenden ICD-10 Zusatzkodierung erfüllen: Z73 Probleme mit Bezug auf Schwierigkeiten bei der Lebensbewältigung. Darüber hinaus ist HelloBetter Stress und Burnout nicht für eine Anwendung vorgesehen bei: Suizidalität; F23 Akute Psychose; F44 Dissoziative Störung. Allgemeine Informationen Das Online-Programm vermittelt Informationen und wirksame Strategien aus der kognitiven Verhaltenstherapie nach dem aktuellsten Stand wissenschaftlicher Erkenntnisse. Dazu gehören unter anderem Problemlösetechniken, Verhaltensaktivierung sowie Übungen zur Emotionsregulation (v. a. Akzeptanz, Selbstunterstützung und Entspannung). Die Inhalte werden durch Texte, Videos und Audios anschaulich dargestellt und können in den Alltag integriert werden. Ziele werden dabei so formuliert, dass sie realistisch und erreichbar sind. Zusätzlich gibt es ein Online-Tagebuch und wiederholte Symptom-Checks, um die eigenen Fortschritte festhalten und reflektieren zu können. Das Online-Programm ist zur eigenständigen Nutzung bestimmt. Es ist nicht dazu geeignet, Informationen für diagnostische oder therapeutische Entscheidungen zu liefern. Ebenfalls ist es nicht zur Überwachung physiologischer Prozesse und vitalphysiologischer Parameter geeignet. Die Diagnosestellung, medizinische und therapeutische Empfehlung sowie Behandlung obliegt ausschließlich den Behandelnden.",
+      "content_preview": "Medizinische Indikation und Kontraindikationen HelloBetter Stress und Burnout wurde für Erwachsene konzipiert, die die Kriterien der folgenden ICD-10 Zusatzkodierung erfüllen: Z73 Probleme mit Bezug auf Schwierigkeiten bei der Lebensbewä...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Risikoklasse I nach MDR",
+      "content_preview": "Risikoklasse I nach MDR",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Risikoklasse Medizinprodukt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-risikoklasse-medizinpro-f524843e03:field_value",
+      "title": "Risikoklasse Medizinprodukt"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Name der Benannten Stelle"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-benannten-stel-6c42808513:field_value",
+      "title": "Name der Benannten Stelle"
+    },
+    {
+      "content": "Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt.",
+      "content_preview": "Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Kennnummer der Benannten Stelle"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-kennnummer-der-benannte-885261bcc3:field_value",
+      "title": "Kennnummer der Benannten Stelle"
+    },
+    {
+      "content": "DE-MF-000006296",
+      "content_preview": "DE-MF-000006296",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Identifikationsnummer Eudamed"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-identifikationsnummer-e-c5d45b28a3:field_value",
+      "title": "Identifikationsnummer Eudamed"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "UDI - Unique Device Identifier im Sinne der MDR"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-udi-unique-device-ident-16a2c37ee0:field_value",
+      "title": "UDI - Unique Device Identifier im Sinne der MDR"
+    },
+    {
+      "content": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_preview": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Weitere Informationen zur DiGA"
+    },
+    {
+      "content": "Zielsetzung: Durch HelloBetter Stress und Burnout soll eine anhaltende Minderung der Stressbeanspruchung und weiterer Symptome erreicht werden. - Wirkungsweise: Der Online-Kurs basiert auf den Strategien und Techniken der kognitiven Verhaltenstherapie. Ausgehend von dem bewährten Transtheoretischen Stress-Modell nach Richard Lazarus vermittelt der Kurs systematische Problemlöse- und Emotionsregulationskompetenzen. Inhaltliche Schwerpunkte bilden dabei die Bewältigung von persönlichen Problemen, das Wahrnehmen und Akzeptieren unangenehmer Gefühle, Entspannungsübungen sowie der Aufbau von positiven und regenerativen Aktivitäten. Der Kurs wurde von psychologischen Psychotherapeutinnen und Psychotherapeuten, Wissenschaftlerinnen und Wissenschaftlern und Betroffenen entwickelt. In einer klinischen Studie konnte nachgewiesen werden, dass Teilnehmende nach dem erfolgreichen Abschluss des Kurses in ihrem Alltag eine geringere Stressbeanspruchung aufwiesen. Ebenso wurde ein positiver Effekt auf weitere relevante Gesundheitsmaße im psychischen und arbeitsbezogenen Bereich (z.B. emotionale Erschöpfung/Burnout) festgestellt. Diese positiven Ergebnisse konnten auch noch 6 Monate nach Kursstart aufrechterhalten werden. - Inhalt: HelloBetter Stress und Burnout besteht aus sieben verschiedenen, aufeinander aufbauenden Einheiten, die flexibel in den Alltag eingebunden werden können. Die verschiedenen Einheiten des Kurses bieten ein breites Angebot an Themen und Strategien, die auf unterschiedliche Aspekte des Stresserlebens fokussieren, wie z. B. Problemlösestrategien, Umgang mit negativen Gefühlen und Entspannungstechniken. Die Kurseinheiten bestehen aus anschaulich und interaktiv gestalteten Texten, Videos und Audios, die durch praktische Übungen ergänzt werden. Am Ende einer jeden Einheit erhalten Teilnehmende eine schriftliche Rückmeldung von ihrer Begleitung. Zusätzlich wird 4 Wochen nach Beendigung des Kurses den Teilnehmenden eine optionale Auffrischungseinheit angeboten. - Nutzung: Die Benutzung des Online-Kurses erfolgt über einen Webbrowser und/oder über ein mobiles Endgerät. Die sieben jeweils ca. einstündigen Kurseinheiten können flexibel in den Alltag eingebaut und Fortschritte jederzeit zwischengespeichert werden, sodass die Einheit auch zu einem späteren Zeitpunkt unproblematisch fortgeführt werden kann. Zur Verbesserung der Selbstwahrnehmung und Beobachtung des Kursfortschritts sollen die Teilnehmenden täglich ein Stresstagebuch führen.",
+      "content_preview": "Zielsetzung: Durch HelloBetter Stress und Burnout soll eine anhaltende Minderung der Stressbeanspruchung und weiterer Symptome erreicht werden. - Wirkungsweise: Der Online-Kurs basiert auf den Strategien und Techniken der kognitiven Verh...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Informationen: Jede Kurseinheit enthält psychoedukative Informationen zum Thema Stress und Übungen zur Verbesserung der Stressbewältigung. Die Inhalte werden interaktiv per Video, Audio oder Text vermittelt. - Übungen: Mit Hilfe verschiedener praktischer Übungen werden die Teilnehmenden angeregt über ihre eigene Situation zu reflektieren, Veränderungen im Denken und Handeln zu erproben sowie Erlerntes in den Alltag zu übertragen. - Stresstagebuch: Die Teilnehmenden führen ein digitales Stresstagebuch, um ihre Stimmung und Stresserleben bewusster wahrzunehmen sowie Veränderungen im Verlauf des Kurses beobachten zu können. - Weitere Eintragungen: Innerhalb des Kurses werden die Teilnehmenden dazu animiert, z. B. ihre persönliche Situation, ihre aktuellen Probleme und Herausforderungen zu reflektieren und ihre Lebenssituation systematisch zu verbessern. Die gewonnenen Erkenntnisse sind den Teilnehmenden jederzeit zugänglich, sodass die persönliche Entwicklungsgeschichte der oder des Teilnehmenden im Zentrum des Kurses steht. - Beispielpersonen: Fiktive Personen, an denen sich Teilnehmende orientieren können, begleiten durch den Kurs, geben Hilfestellung bei der Bearbeitung der Übungen und berichten über ihre Erfahrungen und Fortschritte, die sie mit Stressbewältigung und den Übungen im Kurs gemacht haben. - Zwischenevaluation: In regelmäßigem Abstand werden Symptomscreenings anhand validierter Fragebögen durchgeführt. So können Teilnehmende ihren Symptomverlauf und Therapiefortschritt beobachten. - Feedback: Nach jeder Einheit gibt eine geschulte Begleiterin oder ein geschulter Begleiter innerhalb von 2 Werktagen ein schriftliches Feedback zur Wahrung der Patientensicherheit und des bestimmungsgemäßen Gebrauchs. Das Feedback ist nur für die Teilnehmenden persönlich bestimmt.",
+      "content_preview": "Informationen: Jede Kurseinheit enthält psychoedukative Informationen zum Thema Stress und Übungen zur Verbesserung der Stressbewältigung. Die Inhalte werden interaktiv per Video, Audio oder Text vermittelt. - Übungen: Mit Hilfe verschie...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Funktionen der digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Funktionen der digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Leuphana Universität Lüneburg, Institut für Psychologie, Universitätsallee 1, 21335 Lüneburg Ansprechpartner: Prof. Dr. Dirk Lehr - VU University Amsterdam, Faculty of Behavioural and Movement Sciences, Section of Clinical Psychology, Amsterdam, the Netherlands Ansprechpartner: Prof. Dr. Heleen Riper",
+      "content_preview": "Leuphana Universität Lüneburg, Institut für Psychologie, Universitätsallee 1, 21335 Lüneburg Ansprechpartner: Prof. Dr. Dirk Lehr - VU University Amsterdam, Faculty of Behavioural and Movement Sciences, Section of Clinical Psychology, Am...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
+    },
+    {
+      "content": "Der Kurs basiert auf dem transaktionalen Stressmodell von Lazarus (Lazarus & Folkman, 1984). Das Modell begreift Stress als eine Wechselwirkung zwischen den Anforderungen einer Situation und der subjektiven Verarbeitung der in dieser Situation handelnden Person. Zwischen Stress und Stressreaktion liegt demnach ein subjektiver Bewertungsprozess. Dieser umfasst die primäre Bewertung des Stresspotentials einer Situation sowie die sekundäre Bewertung der Bewältigbarkeit der Situation auf Grundlage persönlicher Ressourcen. Erst wenn ein Reiz als stressend und die eigenen Ressourcen als nicht ausreichend bewertet werden, kommt es zu einer Stressreaktion. Entsprechend werden Copingstrategien zur Stressbewältigung entworfen, bei denen sich zwei Formen unterscheiden lassen. Das problemorientiertes Coping, bei dem versucht wird, die Situation durch aktives Handeln anzupassen sowie das emotionsorientierte Coping, bei dem der intrapsychische Bezug zur Situation verändert werden soll. Abschließend erfolgt eine Neubewertung der Situation. - Das transaktionale Modell und dessen Ansätze werden in folgender Literatur näher beschrieben: - Lazarus R, Folkman S. Stress, appraisal, and coping. New York: Springer Publishing Co; 1984. - Berking M, Whitley B. Affect Regulation Training. New York: Springer New York; 2014. - D'Zurilla T, Nezu A. Problem-solving therapy. Dobson KS, editor. Handbook of cognitive-behavioral therapies. 3rd edition. New York: Guilford Press; 2010. - Malouff JM, Thorsteinsson EB, Schutte NS. The efficacy of problem solving therapy in reducing mental and physical health problems: a meta-analysis. Clin Psychol Rev 2007;27(1):46–57. - Die Behandlung des Burnout-Syndroms über die Stressbewältigung mittels problemorientiertem sowie das emotionsorientiertem Coping wird in folgendem Leitfaden empfohlen: - Lehofer M, Glehr R, Haring C, Jimenez P, Kasper S, Lalouschek W, Marksteiner J, & Musalek M, Sperner-Unterweger B, Titscher G, Weiss E. Burnout & Depression. Ein Leitfaden zur Prävention, Früherkennung und Behandlung. Experten-Statement [Burnout and Depression. A Guideline for Prevention, Early Diagnosis, and Intervention. Experts Statement]. Internationale Zeitschrift für ärztliche Fortbildung 2011;9:2-12. - Weitere umgesetzte Inhalte und Verfahren aus dem Kurs entstammen aus folgender Literatur: - Koch S, Lehr D, Hillert A. Burnout und chronischer beruflicher Stress. 60th ed. Göttingen: Hogrefe; 2015. - Bengel J, Hubert S. Anpassungsstörung und akute Belastungsreaktion. 39th ed. Göttingen: Hogrefe; 2009.",
+      "content_preview": "Der Kurs basiert auf dem transaktionalen Stressmodell von Lazarus (Lazarus & Folkman, 1984). Das Modell begreift Stress als eine Wechselwirkung zwischen den Anforderungen einer Situation und der subjektiven Verarbeitung der in dieser Sit...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
+    },
+    {
+      "content": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_preview": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Beteiligung vom medizinischen Fachpersonal"
+    },
+    {
+      "content": "Ärztinnen und Ärzte können ihren Patientinnen und Patienten HelloBetter Stress und Burnout empfehlen, wenn diese Probleme mit Bezug auf Schwierigkeiten bei der Lebensbewältigung aufweisen (Zusatzkodierung Z73).",
+      "content_preview": "Ärztinnen und Ärzte können ihren Patientinnen und Patienten HelloBetter Stress und Burnout empfehlen, wenn diese Probleme mit Bezug auf Schwierigkeiten bei der Lebensbewältigung aufweisen (Zusatzkodierung Z73).",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Ärztinnen/ Ärzte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Ärztinnen/ Ärzte"
+    },
+    {
+      "content": "Psychotherapeutinnen und Psychotherapeuten können ihren Patientinnen und Patienten HelloBetter Stress und Burnout empfehlen, wenn diese Probleme mit Bezug auf Schwierigkeiten bei der Lebensbewältigung aufweisen (Zusatzkodierung Z73).",
+      "content_preview": "Psychotherapeutinnen und Psychotherapeuten können ihren Patientinnen und Patienten HelloBetter Stress und Burnout empfehlen, wenn diese Probleme mit Bezug auf Schwierigkeiten bei der Lebensbewältigung aufweisen (Zusatzkodierung Z73).",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Psychotherapeutinnen/ Psychotherapeuten"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Psychotherapeutinnen/ Psychotherapeuten"
+    },
+    {
+      "content": "Nein",
+      "content_preview": "Nein",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
+    },
+    {
+      "content": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfohlen wird.",
+      "content_preview": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfoh...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-6922aa5eb2:field_value",
+      "title": "Anwendungshinweise"
+    },
+    {
+      "content": "HelloBetter hat ein umfassendes Patientensicherheitskonzept entwickelt. Jedem Teilnehmenden wird eine persönliche Begleitung zugeteilt, welche sicherstellt, dass der Kurs nur für seinen bestimmungsgemäßen Gebrauch verwendet wird. Die Begleitung überwacht den Fortschritt der Teilnehmenden, um auf unerwünschte Ereignisse wie Suizidalität schnell zu reagieren und an geeignete Anlaufstellen zu verweisen.",
+      "content_preview": "HelloBetter hat ein umfassendes Patientensicherheitskonzept entwickelt. Jedem Teilnehmenden wird eine persönliche Begleitung zugeteilt, welche sicherstellt, dass der Kurs nur für seinen bestimmungsgemäßen Gebrauch verwendet wird. Die Beg...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Hinweise für eine sichere Anwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw-13263bcc58:field_value",
+      "title": "Hinweise für eine sichere Anwendung"
+    },
+    {
+      "content": "Der Online-Kurs HelloBetter Stress und Burnout darf nicht verwendet werden, wenn Suizidalität vorliegt.",
+      "content_preview": "Der Online-Kurs HelloBetter Stress und Burnout darf nicht verwendet werden, wenn Suizidalität vorliegt.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Weitere Ausschlusskriterien"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-weit-3d658a5f5f:field_value",
+      "title": "Weitere Ausschlusskriterien"
+    },
+    {
+      "content": "Der Kurs hat eine Mindestdauer von 12 Wochen.",
+      "content_preview": "Der Kurs hat eine Mindestdauer von 12 Wochen.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Vom Hersteller für erforderlich gehaltene Mindestdauer"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "title": "Vom Hersteller für erforderlich gehaltene Mindestdauer"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Vom Hersteller für erforderlich gehaltene Höchstdauer"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "title": "Vom Hersteller für erforderlich gehaltene Höchstdauer"
+    },
+    {
+      "content": "HelloBetter Stress & Burnout kann als interaktives Online-Programm über einen Computer, Laptop und/oder ein mobiles Endgerät mit Internetzugang genutzt werden. Zur Durchführung über einen Browser (Google Chrome, Mozilla Firefox, Edge oder Safari) wird dieser in einer jeweils aktuellen Version benötigt. Ein problemloser Betrieb mit nicht unterstützten Browsern kann nicht gewährleistet werden. Zur Nutzung des Online-Programms auf dem mobilen Endgerät empfehlen wir die HelloBetter App. Die HelloBetter App unterstützt Smartphones, die mindestens über Android 8 (API Version 26+) bzw. iOS 15.1 verfügen.",
+      "content_preview": "HelloBetter Stress & Burnout kann als interaktives Online-Programm über einen Computer, Laptop und/oder ein mobiles Endgerät mit Internetzugang genutzt werden. Zur Durchführung über einen Browser (Google Chrome, Mozilla Firefox, Edge ode...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-komp-0b84064997:field_value",
+      "title": "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
+    },
+    {
+      "content": "Um Interoperabilität und Portabilität zu gewährleisten, arbeitet HelloBetter mit dem offenen, international anerkannten FHIR Standard (HL7 FHIR r4). Die FHIR Profilierung wurde auf simplifier.net veröffentlicht. Die technische Beschreibung findet sich unter: https://simplifier.net/guide/ImplementationGuide-HB-Dataexport/Home",
+      "content_preview": "Um Interoperabilität und Portabilität zu gewährleisten, arbeitet HelloBetter mit dem offenen, international anerkannten FHIR Standard (HL7 FHIR r4). Die FHIR Profilierung wurde auf simplifier.net veröffentlicht. Die technische Beschreibu...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Möglichkeiten von standardisiertem Datenimport und Datenexport"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-moeg-b860ee673e:field_value",
+      "title": "Möglichkeiten von standardisiertem Datenimport und Datenexport"
+    },
+    {
+      "content": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs. weitere, durch Sie selbst aufzubringende Kosten, sofern Sie bestimmte zusätzlich angebotene und von der Verschreibung nicht abgedeckte Leistungen in Anspruch nehmen möchten.",
+      "content_preview": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs....",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-429bde377d:field_value",
+      "title": "Angaben zum Preis"
+    },
+    {
+      "content": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "content_preview": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis",
+        "Preismodell"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis-6eb719186f:field_value",
+      "title": "Preismodell"
+    },
+    {
+      "content": "Das 12-wöchige Programm kostet einmalig 235,00 €.",
+      "content_preview": "Das 12-wöchige Programm kostet einmalig 235,00 €.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis",
+        "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-koste-12efad84b5:field_value",
+      "title": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis",
+        "Weitere Anmerkungen zum Preismodell"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-weite-a94dbec841:field_value",
+      "title": "Weitere Anmerkungen zum Preismodell"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis",
+        "Erläuterung Mehrkosten"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-erlae-be49aad321:field_value",
+      "title": "Erläuterung Mehrkosten"
+    },
+    {
+      "content": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_preview": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Verbesserungen für Patienten können entweder medizinischer Art sein (z.B. Verringerung von Schmerzen, Beitrag zur Heilung der Erkrankung) oder den Erkennungs- und Behandlungsprozess direkt unterstützen und erleichtern (z.B. Informationen zur individuellen Erkrankungssituation, Unterstützung bei der Einhaltung der zwischen Patient und Arzt gemeinsam vereinbarten therapeutischen Maßnahmen).",
+      "content_preview": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Ve...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:informationen-zum-positiven-versorgungseffekt-253662cf50:field_value",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche Weise dies ggfs. bereits wissenschaftlich nachgewiesen wurde. Falls der positive Versorgungseffekt noch nicht abschließend nachgewiesen aber bereits so plausibel dargelegt wurde, dass die DiGA befristet zur entsprechenden Erprobung aufgenommen wurde, wird angegeben, für welchen Zeitraum dies erfolgt ist. Sofern (auch) ein Nachweis zum Erhalt der Erwerbsfähigkeit für die DiGA erbracht wurde oder eine Nachweisführung geplant ist, finden Sie hier eine Beschreibung und nähere Angaben zum Nachweis sowie zum Studiendesign. Sofern die DiGA (auch) ein diagnostisches Instrument darstellt, also mindestens in Teilen dazu vorgesehen ist, Informationen z.B. für die Erkennung oder Diagnose von Krankheitszuständen zu liefern, hat der Hersteller dies benannt und beschrieben sowie Sensitivität und Spezifität als wichtige Bewertungsgrößen angegeben.",
+      "content_preview": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche We...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Medizinischer Nutzen",
+      "content_preview": "Medizinischer Nutzen",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Angaben zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse-5449921803:field_value",
+      "title": "Angaben zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Verbesserung des Gesundheitszustands",
+      "content_preview": "Verbesserung des Gesundheitszustands",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Nähere Angaben zum medizinischen Nutzen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen--90ce965dee:field_value",
+      "title": "Nähere Angaben zum medizinischen Nutzen"
+    },
+    {
+      "content": "Der primäre medizinische Nutzen von HelloBetter Stress und Burnout besteht in einer Verringerung der Stressbeanspruchung. - In der zugrundeliegenden Studie wurde als primäres Zielkriterium die Stressbeanspruchung mit Hilfe der Perceived Stress Scale (PSS-10) erhoben. Der Fragebogen misst, inwieweit bestimmte Lebenssituationen von den Teilnehmenden als individuell belastend empfunden werden. - Bei der PSS-10 handelt es sich um ein reliables und valides Instrument, dessen psychometrische Eigenschaften als sehr gut bewertet werden können. Basierend auf der Assoziation insbesondere mit relevanten Maßen der psychischen Gesundheit (u. a. Depression und Angst) bildet die mit der PSS-10 erfasste Stressbeanspruchung einen medizinisch relevanten Endpunkt ab. - Im Rahmen der Studie wurde festgestellt, dass Teilnehmende im Vergleich zu einer Wartekontrollgruppe nach der Benutzung des Online-Kurses eine signifikant (p < 0,001) größere Reduktion der Stressbeanspruchung berichteten. Nach der Konvention Cohen’s handelte es sich um eine große Effektstärke (d = 0,83). Dieser Effekt hatte auch nach 6 Monaten noch Bestand bzw. war sogar noch stärker ausgeprägt (d = 1,02). - Weitere signifikante (p < 0,001) positive Effekte zeigten sich in der Studie in der Reduktion von depressiven Symptomen (d = 0,644 nach 7 Wochen und d = 0,95 nach 6 Monaten), Angstsymptomen (d = 0,68 und d = 0,84), Sorgen (d = 0,51 und d = 0,63), des Schweregrads insomnischer Beschwerden (d = 0,40 und d = 0,52) sowie der Abnahme emotionaler Erschöpfung (d = 0,75 und d = 0,86). Weiterhin zeigte sich ein signifikant besseres Arbeitsengagement (d = 0,23 und d = 0,26) und eine bessere psychische Distanzierung zur Arbeit (d = 0,54 und 0,75) und eine bessere Selbsteinschätzung emotionaler Kompetenzen (d = 0,47 - 0,68 und d = 0,49 - 0,87).",
+      "content_preview": "Der primäre medizinische Nutzen von HelloBetter Stress und Burnout besteht in einer Verringerung der Stressbeanspruchung. - In der zugrundeliegenden Studie wurde als primäres Zielkriterium die Stressbeanspruchung mit Hilfe der Perceived ...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Beschreibung des medizinischen Nutzens"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut-a677995e79:field_value",
+      "title": "Beschreibung des medizinischen Nutzens"
+    },
+    {
+      "content": "Der Nachweis positiver Versorgungseffekte für HelloBetter Stress und Burnout wurde im Rahmen einer randomisierten kontrollierten klinischen Studie erbracht (“Online-Training zur beruflichen Stressbewältigung”; Studienregistrierung: DRKS00004749). - P - Patients In diese Studie wurden 264 Arbeitnehmende mit einer erhöhten Stressbeanspruchung eingeschlossen, die mindestens 18 Jahre alt waren. Teilnehmende wurden zufällig entweder der Interventions- oder Kontrollgruppe zugewiesen. Insgesamt wies die Population neben der erhöhten Stressbeanspruchung das klassische klinische Bild eines Burnout-Syndroms im Sinne einer erhöhten emotionalen Erschöpfung und depressiven Symptomatik sowie einer beeinträchtigten psychischen Distanzierung zur Arbeit und reduzierten professionellen Effizienz auf. - I - Intervention Teilnehmende in der Interventionsgruppe erhielten die übliche medizinische Versorgung und zusätzlich Zugang zu HelloBetter Stress und Burnout. - C -Control Teilnehmende in der Kontrollgruppe erhielten die übliche medizinische Versorgung. Nach 6 Monaten erhielten auch die Teilnehmenden in der Kontrollgruppe Zugang zu HelloBetter Stress und Burnout. - O - Outcomes Primäres Outcome: Stressbeanspruchung Zum festgelegten ersten Erhebungszeitpunkt nach 7 Wochen zeigte sich, dass bei Teilnehmenden in der Interventionsgruppe die Stressbeanspruchung signifikant stärker abgenommen hatte als bei Teilnehmenden in der Kontrollgruppe. Der Unterschied zwischen den Gruppen war auch nach 6 Monaten in großem Ausmaß vorhanden. - Sekundäre Outcomes: Depressive Symptome, Angstsymptome, emotionale Erschöpfung, Schlaf (Schweregrad insomnischer Beschwerden), Arbeitsengagement, Selbsteinschätzung emotionaler Kompetenzen, psychische Distanzierung zur Arbeit, Sorgen - Darüber hinaus ergab sich, dass Teilnehmende in der Interventionsgruppe durch HelloBetter Stress und Burnout signifikant weniger depressive Symptome, Angstssymptome, Sorgen und eine geringere emotionale Erschöpfung aufwiesen. Zudem zeigte sich in der Interventionsgruppe ein signifikant größeres Arbeitsengagement sowie besserer Schlaf, eine bessere Selbsteinschätzung emotionaler Kompetenzen und eine bessere psychische Distanzierung zur Arbeit.",
+      "content_preview": "Der Nachweis positiver Versorgungseffekte für HelloBetter Stress und Burnout wurde im Rahmen einer randomisierten kontrollierten klinischen Studie erbracht (“Online-Training zur beruflichen Stressbewältigung”; Studienregistrierung: DRKS0...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Studie/n im PICO-Schema"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema-2cb668dadb:field_value",
+      "title": "Studie/n im PICO-Schema"
+    },
+    {
+      "content": "Für den Nachweis des positiven Versorgungseffekts wurde eine randomisiert kontrollierte Studie (RCT) zur Untersuchung der Wirksamkeit von HelloBetter Stress und Burnout vorgelegt. Die Studie wurde im Deutschen Register Klinischer Studien (DRKS) prä-spezifiziert und registriert (DRKS00004749). - Primäre Zielsetzung der Studie war es zu untersuchen, zu untersuchen, ob Teilnehmende, die den Kurs “HelloBetter Stress und Burnout” erhielten, eine größere Reduktion in der Stressbeanspruchung (sowohl vom Pretest bis zum Posttest, als auch nach 6 Monaten) aufwiesen, als Teilnehmende, die lediglich Zugang zur Regelversorgung (ohne “HelloBetter Stress und Burnout”) hatten. - Die Wirksamkeit wurde in einer zweiarmigen Studie untersucht, in der die Teilnehmenden 1:1 auf zwei verschiedene Gruppen randomisiert wurden: eine Interventionsgruppe, in der die Teilnehmenden zusätzlich zur üblichen medizinischen Versorgung Zugang zum Kurs “HelloBetter Stress und Burnout” erhielten, oder eine Kontrollgruppe, in der die Teilnehmenden die übliche medizinische Versorgung erhielten. - In die Studie wurden 264 Arbeitnehmende mit einer erhöhten Stressbeanspruchung eingeschlossen, die mindestens 18 Jahre alt waren. Primäres Outcome zur Wirksamkeitsüberprüfung war die Stressbeanspruchung. Sekundäre Outcomes umfassten Bereiche der psychischen Gesundheit (z.B. depressive Symptome, Angstsymptome, Schweregrad insomnischer Beschwerden) als auch der arbeitsbezogenen Gesundheit (z.B. emotionale Erschöpfung, Arbeitsengagement). Als Erhebungszeiträume wurden 7 Wochen (Post-Treatment) und 6 Monate (Follow-Up) festgelegt. - Hauptergebnis: Zusammenfassend zeigt diese klinische Studie, dass der Kurs zusätzlich zu einer üblichen medizinischen Versorgung die Stressbeanspruchung wirksamer reduziert als die übliche medizinische Versorgung allein. Die Therapieeffekte waren auch nach sechs Monaten nachweisbar (teilweise sogar etwas stärker ausgeprägt). Die Intention to Treat (ITT) Analyse ergab signifikante (p<0,001) positive Effekte (gemäß der Konvention nach Cohen) der untersuchten Intervention zum den Untersuchungszeitpunkten (nach 7 Wochen und 6 Monaten) bezüglich: - Stressbeanspruchung (d = 0,83 und d = 1,02) - Depressive Symptome (d = 0,64 und d = 0,95) - Angstsymptome (d = 0,68 und d = 0,84) - Emotionale Erschöpfung (d = 0,75 und d = 0,86) - Arbeitsengagement (d = 0,23 und d = 0,26) - Psychische Distanzierung zur Arbeit (d = 0,54 und d = 0,75 - Schweregrad insomnischer Beschwerden (d = 0,40 und d = 0,52) - Sorgen (d = 0,51 und d = 0,63) - Selbsteinschätzung emotionaler Kompetenzen (d = 0,47 - 0,68 und d = 0,49 - 0,87)",
+      "content_preview": "Für den Nachweis des positiven Versorgungseffekts wurde eine randomisiert kontrollierte Studie (RCT) zur Untersuchung der Wirksamkeit von HelloBetter Stress und Burnout vorgelegt. Die Studie wurde im Deutschen Register Klinischer Studien...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u-804896bae6:field_value",
+      "title": "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
+    },
+    {
+      "content": "Veröffentlichung des Studienberichts über die Website des Herstellers: GET.ON Institut für Online Gesundheitstrainings GmbH [Internet]. Hamburg; c2021 [cited 2021 Jun 29]. Studienbericht \"Online-Training zur beruflichen Stressbewältigung\"; Available from: https://hellobetter.de/wp-content/uploads/2021/06/Studienbericht_HelloBetter_Stress_und_Burnout.pdf",
+      "content_preview": "Veröffentlichung des Studienberichts über die Website des Herstellers: GET.ON Institut für Online Gesundheitstrainings GmbH [Internet]. Hamburg; c2021 [cited 2021 Jun 29]. Studienbericht \"Online-Training zur beruflichen Stressbewältigung...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Dies ist/sind die vom Hersteller angeführten Studie/n:"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:informationen-zum-positiven-versorgungseffekt-dies-ist-sind-die-vom-hersteller-a-81dc280904:field_value",
+      "title": "Dies ist/sind die vom Hersteller angeführten Studie/n:"
+    },
+    {
+      "content": "Wirksamkeitspublikation zum Nachweis des positiven Versorgungseffektes: Heber, E., Lehr, D., Ebert, D. D., Berking, M., & Riper, H. (2016). Web-based and mobile stress management intervention for employees: A randomized controlled trial. Journal of Medical Internet Research, 18(1), e21. https://doi.org/10.2196/jmir.5112 Veröffentlichungen über DRKS Registrierung: DRKS [Internet]. DRKS-ID der Studie: DRKS00004749 [cited 2021 Jun 29]. Available from: https://www.drks.de/drks_web/navigate.do?navigationId=trial.HTML&TRIAL_ID=DRKS00004749",
+      "content_preview": "Wirksamkeitspublikation zum Nachweis des positiven Versorgungseffektes: Heber, E., Lehr, D., Ebert, D. D., Berking, M., & Riper, H. (2016). Web-based and mobile stress management intervention for employees: A randomized controlled trial....",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Nein",
+      "content_preview": "Nein",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Die DiGA enthält ein diagnostisches Instrument"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch-eded43f154:field_value",
+      "title": "Die DiGA enthält ein diagnostisches Instrument"
+    },
+    {
+      "content": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird. Die Anforderungen an die Datensicherheit werden durch Vorlage eines Zertifikats gemäß § 139e Absatz 10 Fünftes Buch Sozialgesetzbuch nachgewiesen. Detaillierte Informationen zu den einzelnen Anforderungen können Sie auf der Webseite des Bundesamts für Sicherheit in der Informationstechnik unter der Technischen Richtlinie \"BSI TR-03161\" finden: https://www.bsi.bund.de/dok/TR-03161 Bis zur Vorlage des Zertifikats gelten für den Bereich Datensicherheit die Anforderungen der nachfolgend dargestellten Checkliste.",
+      "content_preview": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen v...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:field_value",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine technische Möglichkeit einer Verknüpfung oder eines Datenaustauschs mit anderen digitalen Gesundheitsanwendungen. Trifft nicht zu Die digitale Gesundheitsanwendung unterstützt keine Offenbarung von Informationen der betroffenen Person oder über die betroffene Person für die Öffentlichkeit oder eine für die betroffene Person nicht eingrenzbare Personengruppe.",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutref...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit",
+        "Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:informationen-zu-datenschutz-und-datensicherheit-datensicherheit-14af255f91:field_value",
+      "title": "Datensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung greift weder auf Sensoren eines mobilen Endgeräts noch auf externe Hardware zu. Trifft nicht zu Die digitale Gesundheitsanwendung tauscht keine Daten mit externer Hardware aus. Zutreffend Zutreffend Zutreffend Nein",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutref...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der medizinischen Inhalte und die Gewährleistung der Patientensicherheit.",
+      "content_preview": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der me...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-afe954d9f8:field_value",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_preview": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Interoperabilität"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-angaben-zur-interoperabilitaet-8867f27412:field_value",
+      "title": "Angaben zur Interoperabilität"
+    },
+    {
+      "content": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versicherten getragenen Sensoren zur Messung und Übertragung von Vitalwerten (Wearables) austauscht. Zutreffend",
+      "content_preview": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versiche...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Robustheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-angaben-zur-robustheit-0a511476df:field_value",
+      "title": "Angaben zur Robustheit"
+    },
+    {
+      "content": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
+      "content_preview": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digi...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zum Verbraucherschutz"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-angaben-zum-verbraucherschutz-05cd17969e:field_value",
+      "title": "Angaben zum Verbraucherschutz"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit-8fe873c531:field_value",
+      "title": "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Unterstützung der Leistungserbringende"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-unterstuetzung-der-leistungserbringende-d4e78dfd75:field_value",
+      "title": "Unterstützung der Leistungserbringende"
+    },
+    {
+      "content": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen.",
+      "content_preview": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Triff...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Qualität der medizinischen Inhalte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte-a6d05ceeb6:field_value",
+      "title": "Angaben zur Qualität der medizinischen Inhalte"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Patientensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-angaben-zur-patientensicherheit-7a67651ccd:field_value",
+      "title": "Angaben zur Patientensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00965:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    }
+  ],
+  "diga_id": "00965",
+  "name": "HelloBetter Stress und Burnout",
+  "rendered_structure_metadata": {
+    "accordions_opened": 0,
+    "content_section_count": 74,
+    "field_value_count": 56,
+    "rendered_at": "2026-06-22T19:05:47.880690+00:00",
+    "source_kind": "visible_directory"
+  },
+  "source_kind": "visible_directory",
+  "timestamp": "20260622T190144Z",
+  "url": "https://diga.bfarm.de/de/verzeichnis/00965"
+}

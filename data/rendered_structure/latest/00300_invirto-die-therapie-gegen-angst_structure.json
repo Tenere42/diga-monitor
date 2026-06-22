@@ -1,0 +1,970 @@
+{
+  "content_sections": [
+    {
+      "content": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_preview": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:field_value",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_preview": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Invirto - Die Therapie gegen Angst",
+      "content_preview": "Invirto - Die Therapie gegen Angst",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Name der DiGA im DiGA-Verzeichnis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v-132a49921b:field_value",
+      "title": "Name der DiGA im DiGA-Verzeichnis"
+    },
+    {
+      "content": "03.12.2020",
+      "content_preview": "03.12.2020",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Erstmalige Aufnahme in das DiGA-Verzeichnis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in--0901792b12:field_value",
+      "title": "Erstmalige Aufnahme in das DiGA-Verzeichnis"
+    },
+    {
+      "content": "Es gibt bei Invirto drei verschiedene Behandlungspfade: - 1. Agoraphobie mit und ohne Panikstörung 2. Soziale Phobie 3. Panikstörung",
+      "content_preview": "Es gibt bei Invirto drei verschiedene Behandlungspfade: - 1. Agoraphobie mit und ohne Panikstörung 2. Soziale Phobie 3. Panikstörung",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Modul"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-modul-0b2f60dd90:field_value",
+      "title": "Modul"
+    },
+    {
+      "content": "App",
+      "content_preview": "App",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Art der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga-f41af95c79:field_value",
+      "title": "Art der DiGA"
+    },
+    {
+      "content": "im Apple App Store Deutschland",
+      "content_preview": "im Apple App Store Deutschland",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Die digitale Gesundheitsanwendung ist verfügbar"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit-70a197df25:field_value",
+      "title": "Die digitale Gesundheitsanwendung ist verfügbar"
+    },
+    {
+      "content": "im Google Play Store Deutschland",
+      "content_preview": "im Google Play Store Deutschland",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Alle Gesundheitsdaten werden ausschließlich innerhalb der Europäischen Union gespeichert und verarbeitet.",
+      "content_preview": "Alle Gesundheitsdaten werden ausschließlich innerhalb der Europäischen Union gespeichert und verarbeitet.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Standorte der Datenverarbeitung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera-426183d1fc:field_value",
+      "title": "Standorte der Datenverarbeitung"
+    },
+    {
+      "content": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an",
+      "content_preview": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Bewertungsentscheidung des BfArM"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung--cdc10aad7c:field_value",
+      "title": "Bewertungsentscheidung des BfArM"
+    },
+    {
+      "content": "• Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der Technik und • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) als erfüllt. Der Hersteller hat bestätigt, dass keine personenbezogenen Daten in ein Land ohne Angemessenheitsbeschluss, wie nach dem Urteil „Schrems II“ den USA, fließen. Nach Aufnahme zur Erprobung wurden die Studienergebnisse der Erprobungsstudie zum Ende des Erprobungszeitraums eingereicht. Es wurde eine zweiarmige randomisiert kontrollierte Interventionsstudie mit Titel „Efficacy of an App-based CBT Featuring Virtual Reality for Anxiety Disorders (ALISA)“ vorgelegt, die unter der Nummer NCT05510804 auf clinicaltrials.gov registriert wurde. Die Beobachtungsdauer betrug 6 Monate (T3). Die Interventionsgruppe (IG) erhielt eine Therapie mit der DiGA (inkl. virtueller Expositions-therapie) und 2 videotelefonische Kontakte mit einer Therapeutin oder einem Therapeuten. Die Kontrollgruppe (KG) hatte eine 6-monatige Wartezeit mit supportiven Bedarfskontakten (möglich alle 4 Wochen). Der primäre Endpunkt war das Beck Angst Inventar (BAI) nach 6 Monaten. Zu den sekundären Endpunkten zählten u. a. der Lebensqualität 1 (L-1), die Liebowitz-Soziale-Angst-Skala (LSAS, nur für soziale Phobien), die Panik and Agoraphobieskala (PAS, Panik- und Agoraphobie Indikationen) und das Beck-Depressions-Inventar-II (BDI-II). In die Studie wurden initial insgesamt 297 Patientinnen und Patienten [103 mit Agoraphobie (72 IG, 31 KG), 84 mit Panikstörung (58 IG, 26 KG) und 110 mit sozialer Phobie (67 IG, 43 KG)] eingeschlossen. Die Teilpopulationen mit Agoraphobie, Panikstörung und sozialer Phobie bestanden zu ca. 68 %, 64 % und 55 % aus weiblichen Patientinnen. Nach 6-monatiger Studiendauer, zum Messzeitpunkt T3, ergaben sich Drop-out-Raten von ca. 15 % für Agoraphobie (18 % IG, 6 % KG), 18 % für Panikstörung (21 % IG, 12 % KG) und 20 % für soziale Phobie (21 % IG, 19 % KG). Im Rahmen der konservativen Verfahren zum Ersetzen fehlender Werte ergab sich für die Intention-To-Treat-Analysen (ITT- Analysen) ein statistisch signifikanter und klinisch relevanter Vorteil der IG gegenüber der KG in Bezug auf den BAI für Agoraphobie [Mittelwertsdifferenz in der Veränderung von Baseline (MWD): 6,64; 95-%-Konfidenzintervall (KI): 2,33 – 10,95; p = 0,0029], Panikstörung (MWD: 6,55; 95-%-KI: 1,38 – 11,71; p = 0,0137). Im PAS ergaben sich ebenfalls relevante Vorteile für die IG gegenüber der KG (Agoraphobie MWD: 7,8; 95-%-KI: 3,8 – 11,9; p = 0,0002; Panikstörung MWD: 6,3; 95-%-KI: 1,9 – 10,7; p = 0,0057). Für die soziale Phobie ergaben sich im BAI erwartungsgemäß (Hinweis: der BAI erfasst nicht die für diese Indikation spezifischen Symptome) geringere Vorteile für die IG gegenüber der KG (MWD: 3,42; 95-%-KI: 0,01 – 6,85; p = 0,0499). Im Gegensatz dazu zeigten sich statistisch signifikante und klinisch relevante Effekte im störungs-spezifischen Endpunkt LSAS, die eindeutig auf einen relevanten medizinischen Nutzen hinweisen (MWD: 15,1; 95-%-KI: 7,3 – 22,8; p = 0,0002). Auch diese Analyse wurde unter einer konservativen Annahme zum Ersetzen fehlender Werte durchgeführt. Im Rahmen der Bewertung zur sozialen Phobie tritt das klinische Gesamtbild, insbesondere die positiven Ergebnisse im LSAS, in den Vordergrund. Der LSAS stellt den klinisch relevanteren Endpunkt für die soziale Phobie dar, sodass die Annahme eines medizinischen Nutzens vorliegend vertretbar ist. Aufgrund der teilweise geringen absoluten Anzahl an männlichen Patienten in den einzelnen Gruppen, wurde der Hersteller um geschlechtsspezifische Analysen seiner Real-World-Daten gebeten. Dabei zeigten sich vergleichbare Effekte für Frauen und Männer, sodass nicht von einer differentiellen Wirksamkeit der DiGA ausgegangen werden kann. Es wurden keine Patientinnen und Patienten über 65 Jahre in die Studie eingeschlossen, weshalb die endgültige Aufnahme auf „Erwachsene zwischen 18 und 65 Jahren“ beschränkt wird. Entsprechend bewertet das BfArM die in § 139e des Fünften Buches Sozialgesetzbuch (SGB V) sowie in der DiGAV festgelegten Voraussetzungen zur endgültigen Aufnahme in das Verzeichnis nach § 139e Absatz 1 SGB V für Erwachsene zwischen 18 und 65 Jahren in Bezug auf den positiven Versorgungseffekt „Verbesserung des Gesundheitszustands“ als erfüllt.",
+      "content_preview": "• Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der Technik und • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Ge...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_preview": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Angaben zum Medizinprodukt"
+    },
+    {
+      "content": "Invirto - Die Therapie gegen Angst ist ein Medizinproduktesystem, das eine Softwareanwendung und eine VR-Brille umfasst. Das Medizinproduktesystem bietet Patient:innen psychotherapeutische Informationen und Strategien an und ermöglicht ihnen eine Behandlung psychischer Störungen (z. B. Angststörungen) zuhause. Invirto kann dabei unterstützen, die Symptome der Erkrankung zu reduzieren.",
+      "content_preview": "Invirto - Die Therapie gegen Angst ist ein Medizinproduktesystem, das eine Softwareanwendung und eine VR-Brille umfasst. Das Medizinproduktesystem bietet Patient:innen psychotherapeutische Informationen und Strategien an und ermöglicht i...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "Medizinische Zweckbestimmung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Medizinische Zweckbestimmung"
+    },
+    {
+      "content": "Risikoklasse I nach MDR",
+      "content_preview": "Risikoklasse I nach MDR",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "Risikoklasse Medizinprodukt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Risikoklasse Medizinprodukt"
+    },
+    {
+      "content": "DE-MF-000019383",
+      "content_preview": "DE-MF-000019383",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "Identifikationsnummer Eudamed"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Identifikationsnummer Eudamed"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "UDI - Unique Device Identifier im Sinne der MDR"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "UDI - Unique Device Identifier im Sinne der MDR"
+    },
+    {
+      "content": "PP12332I.T.A.74",
+      "content_preview": "PP12332I.T.A.74",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "Basis UDI-DI im Sinne der MDR"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Basis UDI-DI im Sinne der MDR"
+    },
+    {
+      "content": "1312332I.T.A.002023",
+      "content_preview": "1312332I.T.A.002023",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "UDI-DI im Sinne der MDR"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "UDI-DI im Sinne der MDR"
+    },
+    {
+      "content": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_preview": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Weitere Informationen zur DiGA"
+    },
+    {
+      "content": "++ Was ist Invirto und kann es bei meiner Angst helfen? Invirto ist eine Therapie gegen Angst, die dir eine professionelle Behandlung einer Angststörung zu Hause ermöglicht. Mit Invirto kannst du also sofort beginnen, etwas gegen deine Angst zu tun. In der App wird dir gezeigt, wie du deine Ängste bewältigen kannst und welche Techniken dir für einen angstfreien Alltag helfen können. Invirto besteht aus der Invirto-App und der Invirto-VR-Brille. Invirto basiert vollständig auf wissenschaftlich für die Angstbehandlung anerkannten Inhalten und stellt eine Therapie gegen Angststörung für zu Hause dar. - ++ Wie funktioniert Invirto? Die Wirksamkeit der sogenannten Verhaltenstherapie mit Expositionstraining gehört gemäß der medizinischen S3-Leitlinie \"Behandlung von Angststörungen\" zu den am besten erforschten Therapien. Mit Invirto bringen wir dir diese leitlinienbasierte Angsttherapie nach Hause. Wir geben dir in Audiolektionen, Therapeutenvideos und Übungen hilfreiche Informationen und Strategien an die Hand, um dir eine Bewältigung deiner Angst zu ermöglichen. Außerdem wirst du mit Hilfe von Simulationen in der virtuellen Realität auf deinem Smartphone neue Erfahrungen mit deiner Angst machen können. - ++ Inhalte von Invirto Die Invirto App bietet dir Inhalte und Zielsetzung für die Behandlung deiner Angststörung wie eine klassische Psychotherapie. Du absolvierst in der App nacheinander Kurseinheiten, die dir die als wissenschaftlich wirksam erwiesene Inhalte von verschiedenen Expertinnen und Experten für die Behandlung von Angststörungen vermitteln. In Lektionen erhältst du in der App Informationen von einer Psychotherapeutin zu deiner Erkrankung, zu Faktoren, die auf die Angst wirken und zu Strategien, wie du gegen die Angst vorgehen kannst. Je mehr du über deine Angststörung weißt, desto besser! Zu jeder Lektion gibt es mindestens ein Experiment, in dem Behandlungsexperten für dich die effektivsten Strategien gegen eine Angststörung zusammengestellt haben. Eine Psychotherapeutin erklärt dir dort, wie du diese Strategien in deinem Alltag anwendest. Mit Invirto soll sich nachhaltig etwas an deiner Angststörung verändern. Deshalb sind diese Experimente besonders wichtig. Sie erlauben es dir, nicht nur theoretisch über deine Angst zu lernen, sondern auch Übungen zur Angstbewältigung in den Alltag zu übertragen. - ++ Wie starte ich mit Invirto? Du startest mit Invirto nach einer Diagnostik durch Ärztinnen oder Psychotherapeutinnen. Falls du bereits eine Diagnostik absolviert oder Fragen zu Invirto hast, kannst du uns eine E-Mail an kontakt@invirto.de schicken.",
+      "content_preview": "++ Was ist Invirto und kann es bei meiner Angst helfen? Invirto ist eine Therapie gegen Angst, die dir eine professionelle Behandlung einer Angststörung zu Hause ermöglicht. Mit Invirto kannst du also sofort beginnen, etwas gegen deine A...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "1. Digitale Verhaltenstherapie mit Expositionstraining für Angststörungen. 2. Auswahlmöglichkeit einer Therapeutin / eines Therapeuten für die begleitenden Lernvideos. 3. Kursprogramm als Video- und Audiolektionen (mehr als 14 Stunden Material). 4. Informationstool, um therapeutische Inhalte und Techniken zu vermitteln. 5. Individuelles Kursprogramm für die Angststörung. 6. Expositionsübungen in der virtuellen Realität, um zu Hause zu üben.",
+      "content_preview": "1. Digitale Verhaltenstherapie mit Expositionstraining für Angststörungen. 2. Auswahlmöglichkeit einer Therapeutin / eines Therapeuten für die begleitenden Lernvideos. 3. Kursprogramm als Video- und Audiolektionen (mehr als 14 Stunden Ma...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Funktionen der digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Funktionen der digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Universitätsklinikum Schleswig-Holstein Zentrum für integrative Psychiatrie Ratzeburger Allee 160 23538 Lübeck",
+      "content_preview": "Universitätsklinikum Schleswig-Holstein Zentrum für integrative Psychiatrie Ratzeburger Allee 160 23538 Lübeck",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
+    },
+    {
+      "content": "1. Bandelow B, Wiltink J, Alpers GW, Benecke C, Deckert J, Eckhardt-Henn A, et al. Deutsche S3-Leitlinie Behandlung von Angststörungen. 2014 - 2. Bennett-Levy JE, Butler GE, Fennell ME, Hackman AE, Mueller ME, Westbrook DE. Oxford guide to behavioural experiments in cognitive therapy. Oxford University Press; 2004 - 3. Hagena S, Gebauer M. Angststörungen. 2014 - 4. Helbig-Lang S. Psychotherapeutische Hausaufgaben: Techniken der Verhaltenstherapie: mit E-book inside und Arbeitsmaterial. Beltz Verlag; 2015 - 5. Lang T, Helbig-Lang S, Westphal D, Gloster AT, Wittchen H-U. Expositionsbasierte Therapie der Panikstörung mit Agoraphobie. Hogrefe Verlag; 2018 - 6. Neudeck P. Expositionsverfahren: Techniken der Verhaltenstherapie: mit E-Book inside und Arbeitsmaterial. Beltz; 2015 - 7. Schweiger U. Metakognitive Therapie bei Angststörungen und Depression. 2012 - 8. Stangier U, Heidenreich T, Peitz M. Soziale Phobien. 2008",
+      "content_preview": "1. Bandelow B, Wiltink J, Alpers GW, Benecke C, Deckert J, Eckhardt-Henn A, et al. Deutsche S3-Leitlinie Behandlung von Angststörungen. 2014 - 2. Bennett-Levy JE, Butler GE, Fennell ME, Hackman AE, Mueller ME, Westbrook DE. Oxford guide ...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
+    },
+    {
+      "content": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_preview": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Beteiligung vom medizinischen Fachpersonal"
+    },
+    {
+      "content": "Als Arzt oder als Ärztin können Sie Invirto verschreiben. Die primären Nutzer von Invirto sind Ihre Patientinnen. - ++ Der Ablauf der Verschreibung - Invirto wird nach einer Diagnostik einer der folgenden Angststörungen von Psychotherapeutinnen oder Ärztinnen verschrieben: Agoraphobie mit oder ohne Panikstörung (F40.00, F40.01), Panikstörung (F41.0) und soziale Phobie (F40.1). Zusätzlich werden die Kontraindikationen konsiliarisch oder durch die behandelnde ÄrztIn selbst ausgeschlossen. - ++ Der Ablauf der Therapie und Inhalte der Versorgung - Nach einer Verschreibung können PatientInnen selbständig mit der Therapie starten. Die PatientInnen sind der hauptsächliche Nutzer der digitalen Gesundheitsanwendung. PatientInnen können während der Nutzung der Applikation Gespräche von PsychotherapeutInnen, PsychiaterInnen oder ÄrztInnen erhalten.",
+      "content_preview": "Als Arzt oder als Ärztin können Sie Invirto verschreiben. Die primären Nutzer von Invirto sind Ihre Patientinnen. - ++ Der Ablauf der Verschreibung - Invirto wird nach einer Diagnostik einer der folgenden Angststörungen von Psychotherape...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Ärztinnen/ Ärzte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Ärztinnen/ Ärzte"
+    },
+    {
+      "content": "Als Psychotherapeut/Psychotherapeutin können Sie Invirto sowohl verschreiben als auch in der eigenen Therapie anbieten. Falls der Verschreibungsprozess neu für Sie ist, kontaktieren Sie uns gerne unter therapie@invirto.de und wir unterstützen Sie gerne. - ++ Der Ablauf der Verschreibung - Invirto wird nach einer Psychodiagnostik einer der folgenden Angststörungen von Psychotherapeutinnen oder Ärztinnen verschrieben: Agoraphobie ohne oder mit Panikstörung (F40.00, F40.01), Panikstörung (F41.0) und soziale Phobie (F40.1). Zusätzlich werden die Kontraindikationen ausgeschlossen. - ++ Der Ablauf der Therapie und Inhalte der Versorgung - Nach einer Verschreibung können PatientInnen selbständig mit der Therapie starten. Die PatientInnen sind der hauptsächliche Nutzer der digitalen Gesundheitsanwendung. PatientInnen können während der Nutzung der Applikation Gespräche von PsychotherapeutInnen, PsychiaterInnen oder ÄrztInnen erhalten.",
+      "content_preview": "Als Psychotherapeut/Psychotherapeutin können Sie Invirto sowohl verschreiben als auch in der eigenen Therapie anbieten. Falls der Verschreibungsprozess neu für Sie ist, kontaktieren Sie uns gerne unter therapie@invirto.de und wir unterst...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Psychotherapeutinnen/ Psychotherapeuten"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Psychotherapeutinnen/ Psychotherapeuten"
+    },
+    {
+      "content": "Ja",
+      "content_preview": "Ja",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Erforderliche vertragsärztliche Tätigkeiten in Zusammenhang mit der Nutzung der DiGA als Gebührenordnungsposition"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Erforderliche vertragsärztliche Tätigkeiten in Zusammenhang mit der Nutzung der DiGA als Gebührenordnungsposition"
+    },
+    {
+      "content": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfohlen wird.",
+      "content_preview": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfoh...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-6922aa5eb2:field_value",
+      "title": "Anwendungshinweise"
+    },
+    {
+      "content": "Qualitätsmerkmale der Invirto-Therapie: - - Kostenloses Einführungstraining und Gesprächsleitfäden für neue Behandelnde - Wiederholte Erhebung von Verlaufsdiagnostik - Vorbereitung auf die Übungsphase und Expositionsübung - Abschlussgespräch zur DiGA",
+      "content_preview": "Qualitätsmerkmale der Invirto-Therapie: - - Kostenloses Einführungstraining und Gesprächsleitfäden für neue Behandelnde - Wiederholte Erhebung von Verlaufsdiagnostik - Vorbereitung auf die Übungsphase und Expositionsübung - Abschlussgesp...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Hinweise für eine sichere Anwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw-13263bcc58:field_value",
+      "title": "Hinweise für eine sichere Anwendung"
+    },
+    {
+      "content": "Eine Behandlung mit Invirto ist nach einer Einzelfallprüfung der folgenden relativen Kontraindikationen durch den behandelnden Arzt oder die behandelnde Ärztin möglich: - • I10-I15: Hypertonie (muss ärztlich eingestellt sein) • G40-G47: Episodische und paroxysmale Krankheiten des Nervensystems (muss stabil eingestellt und vom Neurologen freigegeben sein) • F06.3: Organische affektive Störungen • F06.4: Organische Angststörung • F10.1: Psychische und Verhaltensstörungen durch Alkohol: Schädlicher Gebrauch • F12.1: Psychische und Verhaltensstörungen durch Cannabinoide: Schädlicher Gebrauch • F33.2 Rezidivierende depressive Störung, gegenwärtig schwere Episode ohne psychotische Symptome • F43 Reaktion auf schwere Belastungen und Anpassungsstörungen • F44: Dissoziative Störungen • H90: Hörverlust durch Schallleitungs- oder Schallempfindungsstörung (nach Freigabe durch HNO-Arztes) • Bei allen Herz-, Kreislauferkrankungen (I00-I99), die nicht in den absoluten Kontraindikationen genannt werden sollte eine Abklärung und Freigabe durch den behandelnden Arzt bzw. durch eine Kardiologin erfolgen. • J40-J47: Chronischen Krankheiten der unteren Atemwege • Bestehende oder vermutete Schwangerschaft • Bei akuter Eigengefährdung oder deutlich selbstverletzenden Tendenzen • Bei Rauschzuständen (unter dem Einfluss psychotroper Substanzen) • Bei nicht vorhandener Absprachefähigkeit, Realitätsverlust, Wahn oder Halluzinationen • Bei starken und unkontrollierten dissoziativen Zuständen, bzw. nur bei Vorhandensein antidissoziativer Skills und Fähigkeiten im Umgang mit den Symptomen",
+      "content_preview": "Eine Behandlung mit Invirto ist nach einer Einzelfallprüfung der folgenden relativen Kontraindikationen durch den behandelnden Arzt oder die behandelnde Ärztin möglich: - • I10-I15: Hypertonie (muss ärztlich eingestellt sein) • G40-G47: ...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Weitere Ausschlusskriterien"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-weit-3d658a5f5f:field_value",
+      "title": "Weitere Ausschlusskriterien"
+    },
+    {
+      "content": "Es sollten alle Inhalte der Invirto App absolviert werden. Die Verschreibung von 90 Tagen gibt den Nutzerinnen und Nutzern eine zeitliche Flexibilität für die Module.",
+      "content_preview": "Es sollten alle Inhalte der Invirto App absolviert werden. Die Verschreibung von 90 Tagen gibt den Nutzerinnen und Nutzern eine zeitliche Flexibilität für die Module.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Vom Hersteller für erforderlich gehaltene Mindestdauer"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "title": "Vom Hersteller für erforderlich gehaltene Mindestdauer"
+    },
+    {
+      "content": "Es besteht keine feste Höchstdauer der Nutzung. Diese richtet sich nach der Verordnung und der geplanten Therapiedauer.",
+      "content_preview": "Es besteht keine feste Höchstdauer der Nutzung. Diese richtet sich nach der Verordnung und der geplanten Therapiedauer.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Vom Hersteller für erforderlich gehaltene Höchstdauer"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "title": "Vom Hersteller für erforderlich gehaltene Höchstdauer"
+    },
+    {
+      "content": "Invirto ist ein medizinproduktrechtliches System, bestehend aus der Invirto-App und der Invirto-VR-Brille. Für die Nutzung werden ein eigenes Smartphone und eigene Kopfhörer benötigt. Es ist für Smartphones mit den folgenden Voraussetzungen geeignet: - Betriebssysteme: Android (mindestens Version 8.1) oder iOS (mindestens Version 15.0). - Hardware: Gyroskop muss im Smartphone vorhanden sein. Hinweis: Gyroskope existieren in den meisten gängigen Smartphones. - Freier Speicherplatz: Mindestens 1 GB. - Eigene Kopfhörer müssen mit dem Smartphone (per Kabel oder Bluetooth) verbunden werden können.",
+      "content_preview": "Invirto ist ein medizinproduktrechtliches System, bestehend aus der Invirto-App und der Invirto-VR-Brille. Für die Nutzung werden ein eigenes Smartphone und eigene Kopfhörer benötigt. Es ist für Smartphones mit den folgenden Voraussetzun...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-komp-0b84064997:field_value",
+      "title": "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
+    },
+    {
+      "content": "Gemäß § 20 DSGVO haben Nutzerinnen das Recht Ihre personenbezogenen Daten in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten und zu portieren. Nutzerinnen und Nutzer schicken hierfür eine entsprechende Anfrage an dataprotection@invirto.de und bekommen innerhalb von 10 Werktagen eine Antwort. Link zur Datenschutzerklärung: https://invirto.de/appdatenschutz.html Der Link zur Datenschutzerklärung ist auch in der DiGA hinterlegt.",
+      "content_preview": "Gemäß § 20 DSGVO haben Nutzerinnen das Recht Ihre personenbezogenen Daten in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten und zu portieren. Nutzerinnen und Nutzer schicken hierfür eine entsprechende Anfrage an ...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Möglichkeiten von standardisiertem Datenimport und Datenexport"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-moeg-b860ee673e:field_value",
+      "title": "Möglichkeiten von standardisiertem Datenimport und Datenexport"
+    },
+    {
+      "content": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs. weitere, durch Sie selbst aufzubringende Kosten, sofern Sie bestimmte zusätzlich angebotene und von der Verschreibung nicht abgedeckte Leistungen in Anspruch nehmen möchten.",
+      "content_preview": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs....",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-429bde377d:field_value",
+      "title": "Angaben zum Preis"
+    },
+    {
+      "content": "Kosten (z. B. Starterpaket) mit Hardware für 90 Tage",
+      "content_preview": "Kosten (z. B. Starterpaket) mit Hardware für 90 Tage",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis",
+        "Preismodell"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis-6eb719186f:field_value",
+      "title": "Preismodell"
+    },
+    {
+      "content": "220,00 €",
+      "content_preview": "220,00 €",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis",
+        "Kosten (z. B. Starterpaket) mit Hardware für 90 Tage"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-koste-12efad84b5:field_value",
+      "title": "Kosten (z. B. Starterpaket) mit Hardware für 90 Tage"
+    },
+    {
+      "content": "Gemäß der CE-Zertifizierung der digitalen Gesundheitsanwendung Invirto sind neben der Invirto-App auch die Invirto-VR-Brille Zubehör und damit Teil der System- und Behandlungseinheit. Diese stellt der Hersteller den Nutzern der digitalen Gesundheitsanwendung zur Verfügung. Invirto ist als System und Behandlungseinheit vollständig erstattungsfähig.",
+      "content_preview": "Gemäß der CE-Zertifizierung der digitalen Gesundheitsanwendung Invirto sind neben der Invirto-App auch die Invirto-VR-Brille Zubehör und damit Teil der System- und Behandlungseinheit. Diese stellt der Hersteller den Nutzern der digitalen...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis",
+        "Weitere Anmerkungen zum Preismodell"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-weite-a94dbec841:field_value",
+      "title": "Weitere Anmerkungen zum Preismodell"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis",
+        "Erläuterung Mehrkosten"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-erlae-be49aad321:field_value",
+      "title": "Erläuterung Mehrkosten"
+    },
+    {
+      "content": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_preview": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Verbesserungen für Patienten können entweder medizinischer Art sein (z.B. Verringerung von Schmerzen, Beitrag zur Heilung der Erkrankung) oder den Erkennungs- und Behandlungsprozess direkt unterstützen und erleichtern (z.B. Informationen zur individuellen Erkrankungssituation, Unterstützung bei der Einhaltung der zwischen Patient und Arzt gemeinsam vereinbarten therapeutischen Maßnahmen).",
+      "content_preview": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Ve...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:informationen-zum-positiven-versorgungseffekt-253662cf50:field_value",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche Weise dies ggfs. bereits wissenschaftlich nachgewiesen wurde. Falls der positive Versorgungseffekt noch nicht abschließend nachgewiesen aber bereits so plausibel dargelegt wurde, dass die DiGA befristet zur entsprechenden Erprobung aufgenommen wurde, wird angegeben, für welchen Zeitraum dies erfolgt ist. Sofern (auch) ein Nachweis zum Erhalt der Erwerbsfähigkeit für die DiGA erbracht wurde oder eine Nachweisführung geplant ist, finden Sie hier eine Beschreibung und nähere Angaben zum Nachweis sowie zum Studiendesign. Sofern die DiGA (auch) ein diagnostisches Instrument darstellt, also mindestens in Teilen dazu vorgesehen ist, Informationen z.B. für die Erkennung oder Diagnose von Krankheitszuständen zu liefern, hat der Hersteller dies benannt und beschrieben sowie Sensitivität und Spezifität als wichtige Bewertungsgrößen angegeben.",
+      "content_preview": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche We...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Medizinischer Nutzen",
+      "content_preview": "Medizinischer Nutzen",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Angaben zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse-5449921803:field_value",
+      "title": "Angaben zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Verbesserung des Gesundheitszustands",
+      "content_preview": "Verbesserung des Gesundheitszustands",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Nähere Angaben zum medizinischen Nutzen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen--90ce965dee:field_value",
+      "title": "Nähere Angaben zum medizinischen Nutzen"
+    },
+    {
+      "content": "Invirto hilft Patientinnen und Patienten mit einer Agoraphobie, Panikstörung oder sozialen Phobie dabei, ihre Angstsymptome zu reduzieren. - Angstpatientinnen und Angstpatienten leiden unter körperlichen und psychischen Angstsymptomen und vermeiden aufgrund ihrer Angst viele Orte und Situationen. Das schränkt ihr Leben stark ein. - Invirto setzt genau an dieser Stelle an und hilft Patientinnen und Patienten dabei, ihre Angst zu verstehen, die Vermeidung abzubauen und die angstbesetzten Orte und Situationen wieder aufzusuchen.",
+      "content_preview": "Invirto hilft Patientinnen und Patienten mit einer Agoraphobie, Panikstörung oder sozialen Phobie dabei, ihre Angstsymptome zu reduzieren. - Angstpatientinnen und Angstpatienten leiden unter körperlichen und psychischen Angstsymptomen un...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Beschreibung des medizinischen Nutzens"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut-a677995e79:field_value",
+      "title": "Beschreibung des medizinischen Nutzens"
+    },
+    {
+      "content": "Patient/Population: Patientinnen und Patienten zwischen 18 und 65 Jahren mit Agoraphobie (mit und ohne Panikstörung), Panikstörung oder sozialer Phobie - Intervention: „Invirto“ Behandlung digitale störungsspezifische Verhaltenstherapie mit Expositionstraining - Control: Vergleich gegen aktive Kontrollgruppe (Wartezeit mit bis zu 6 Stunden therapeutischen Kontakten) - Outcomes: Reduktion der Angstsymptomatik; Verbesserung des Funktionsniveaus im Alltag (psychische, soziale und berufliche Funktion); Verbesserung allgemeiner Gesundheitszustand und Lebensqualität nach 6 Monaten",
+      "content_preview": "Patient/Population: Patientinnen und Patienten zwischen 18 und 65 Jahren mit Agoraphobie (mit und ohne Panikstörung), Panikstörung oder sozialer Phobie - Intervention: „Invirto“ Behandlung digitale störungsspezifische Verhaltenstherapie ...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Studie/n im PICO-Schema"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema-2cb668dadb:field_value",
+      "title": "Studie/n im PICO-Schema"
+    },
+    {
+      "content": "Die Wirksamkeit der Invirto Therapie wurde im Rahmen einer klinischen Studie, die durch ein Universitätsklinikum durchgeführt wurde, untersucht. Zur Beurteilung der Wirksamkeit wurden Patientinnen und Patienten mit Angststörungen, die die Invirto Therapie nutzten, mit einer aktiven Kontrollgruppe, welche die Invirto Therapie nicht nutzte, verglichen. - Vorgehen: Die Teilnehmerinnen und Teilnehmer der Studie wurden zufällig einer von zwei Gruppen zugeordnet. Die erste Gruppe erhielt sofort die Invirto Therapie. Die zweite Gruppe erhielt die Invirto Therapie nach einer Wartezeit von 6 Monaten. Während dieser Wartezeit erhielt die zweite Gruppe regelmäßige Gespräche mit einer Psychotherapeutin bzw. einem Psychotherapeuten. Alle Teilnehmerinnen und Teilnehmer beantworteten zu Studienbeginn, nach 2 Monaten sowie nach 6 Monaten Fragebögen. Diese Fragebögen erfassen folgende Endpunkte: - Reduktion der allgemeinen Angstsymptomatik - Reduktion der spezifischen Angstsymptomatik - Reduktion der Depressionssymptomatik - Verbesserung des Funktionsniveaus - Verbesserung der Lebensqualität - Patientinnen und Patienten: Insgesamt nahmen 297 Patientinnen und Patienten an der Studie teil, die an einer Agoraphobie mit/ohne Panikstörung (n=103), einer Panikstörung (n=84) oder einer Sozialen Phobie (n=110) litten und mindestens 18 Jahre alt waren. - Intervention: Die Invirto Therapie besteht aus einer digitalen störungsspezifischen Verhaltenstherapie mit Expositionstraining. - Hauptergebnis (primärer Endpunkt): Die klinische Studie zeigt, dass die Invirto Therapie nach 6 Monaten zu einer signifikanten Reduktion der allgemeinen Angstsymptomatik führt. - Weitere Ergebnisse (sekundäre Endpunkte): Die klinische Studie zeigt außerdem, dass die Invirto Therapie zu einer signifikanten Reduktion der spezifischen Angstsymptome bzw. des Schweregrads von Agoraphobie und Panikstörungen sowie des Schweregrads der Sozialen Phobie nach 6 Monaten führt. Auch begleitende depressive Symptome reduziert die Invirto Therapie signifikant. - Insgesamt zeigt die Studie, dass die Invirto Therapie wirksam bei Angststörungen und begleitender Depression ist.Die Studie wurde im internationalen Studienregister Clinical Trials unter der folgenden Nummer registriert: NCT05510804.",
+      "content_preview": "Die Wirksamkeit der Invirto Therapie wurde im Rahmen einer klinischen Studie, die durch ein Universitätsklinikum durchgeführt wurde, untersucht. Zur Beurteilung der Wirksamkeit wurden Patientinnen und Patienten mit Angststörungen, die di...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u-804896bae6:field_value",
+      "title": "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
+    },
+    {
+      "content": "Für mehr Informationen zu den Ergebnissen siehe Abschnitt “Bewertungsentscheidung des BfArM”.",
+      "content_preview": "Für mehr Informationen zu den Ergebnissen siehe Abschnitt “Bewertungsentscheidung des BfArM”.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Efficacy of an App-based CBT Featuring Virtual Reality for Anxiety Disorders (ALISA), Universitätsklinikum Schleswig-Holstein, Zentrum für integrative Psychiatrie, Campus Lübeck.",
+      "content_preview": "Efficacy of an App-based CBT Featuring Virtual Reality for Anxiety Disorders (ALISA), Universitätsklinikum Schleswig-Holstein, Zentrum für integrative Psychiatrie, Campus Lübeck.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Dies ist/sind die vom Hersteller angeführten Studie/n:"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:informationen-zum-positiven-versorgungseffekt-dies-ist-sind-die-vom-hersteller-a-81dc280904:field_value",
+      "title": "Dies ist/sind die vom Hersteller angeführten Studie/n:"
+    },
+    {
+      "content": "Universitätsklinikum Schleswig-Holstein (UKSH): Das Zentrum für integrative Psychiatrie hat als spezialisiertes Behandlungszentrum für die Behandlung von Angststörungen langjährige Erfahrung in deren Diagnostik, Behandlung und klinische Forschung. In einem durch die UKSH Förderstiftung 2017 geförderten, gemeinsamen Vorläuferprojekt sammelte das Klinikzentrum unter anderem Erfahrung in der Behandlung von Phobien mit Virtual Reality.",
+      "content_preview": "Universitätsklinikum Schleswig-Holstein (UKSH): Das Zentrum für integrative Psychiatrie hat als spezialisiertes Behandlungszentrum für die Behandlung von Angststörungen langjährige Erfahrung in deren Diagnostik, Behandlung und klinische ...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:informationen-zum-positiven-versorgungseffekt-herstellerunabhaengige-institution-85ca65af54:field_value",
+      "title": "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
+    },
+    {
+      "content": "Nein",
+      "content_preview": "Nein",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Die DiGA enthält ein diagnostisches Instrument"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch-eded43f154:field_value",
+      "title": "Die DiGA enthält ein diagnostisches Instrument"
+    },
+    {
+      "content": "24 Monate (12 Monate initial, 12 Monate Verlängerung)",
+      "content_preview": "24 Monate (12 Monate initial, 12 Monate Verlängerung)",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Länge des Zeitraumes der vorläufigen Aufnahme"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:informationen-zum-positiven-versorgungseffekt-laenge-des-zeitraumes-der-vorlaeuf-d645f91b3b:field_value",
+      "title": "Länge des Zeitraumes der vorläufigen Aufnahme"
+    },
+    {
+      "content": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird. Die Anforderungen an die Datensicherheit werden durch Vorlage eines Zertifikats gemäß § 139e Absatz 10 Fünftes Buch Sozialgesetzbuch nachgewiesen. Detaillierte Informationen zu den einzelnen Anforderungen können Sie auf der Webseite des Bundesamts für Sicherheit in der Informationstechnik unter der Technischen Richtlinie \"BSI TR-03161\" finden: https://www.bsi.bund.de/dok/TR-03161 Bis zur Vorlage des Zertifikats gelten für den Bereich Datensicherheit die Anforderungen der nachfolgend dargestellten Checkliste.",
+      "content_preview": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen v...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:field_value",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die Nutzung ist ausschließlich auf privaten, registrierten Geräten zulässig. Bei der Registrierung eines neuen Geräts wird eine E-Mail an die Patientin versandt, mit der diese die Registrierung des neuen Geräts bestätigt. So wird sichergestellt, dass nur von Patienten autorisierte Geräte die Gesundheitsanwendung nutzen können. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die Nutzung ist ausschließlich auf privaten, registrierten Geräten zulässig. Bei der Regi...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit",
+        "Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:informationen-zu-datenschutz-und-datensicherheit-datensicherheit-14af255f91:field_value",
+      "title": "Datensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung sieht keine unterschiedlichen Nutzerrollen vor. Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung erlaubt keinen Upload von Dateien. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung tauscht keine Daten mit externer Hardware aus. Zutreffend Zutreffend Zutreffend Nein",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung sieht keine...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der medizinischen Inhalte und die Gewährleistung der Patientensicherheit.",
+      "content_preview": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der me...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-afe954d9f8:field_value",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_preview": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Interoperabilität"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-angaben-zur-interoperabilitaet-8867f27412:field_value",
+      "title": "Angaben zur Interoperabilität"
+    },
+    {
+      "content": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versicherten getragenen Sensoren zur Messung und Übertragung von Vitalwerten (Wearables) austauscht. Zutreffend",
+      "content_preview": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versiche...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Robustheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-angaben-zur-robustheit-0a511476df:field_value",
+      "title": "Angaben zur Robustheit"
+    },
+    {
+      "content": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
+      "content_preview": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digi...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zum Verbraucherschutz"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-angaben-zum-verbraucherschutz-05cd17969e:field_value",
+      "title": "Angaben zum Verbraucherschutz"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit-8fe873c531:field_value",
+      "title": "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Unterstützung der Leistungserbringende"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-unterstuetzung-der-leistungserbringende-d4e78dfd75:field_value",
+      "title": "Unterstützung der Leistungserbringende"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Qualität der medizinischen Inhalte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte-a6d05ceeb6:field_value",
+      "title": "Angaben zur Qualität der medizinischen Inhalte"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Patientensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-angaben-zur-patientensicherheit-7a67651ccd:field_value",
+      "title": "Angaben zur Patientensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Das BfArM bewertet die Ergebnisse der Erprobungsstudie als ausreichenden Nachweis für den positiven Versorgungseffekt „Verbesserung des Gesundheitszustands“ (siehe Bewertungsentscheidung des BfArM).",
+      "content_preview": "Das BfArM bewertet die Ergebnisse der Erprobungsstudie als ausreichenden Nachweis für den positiven Versorgungseffekt „Verbesserung des Gesundheitszustands“ (siehe Bewertungsentscheidung des BfArM).",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Änderungshistorie",
+        "02.12.2022 Status der Listung ist „Dauerhaft aufgenommen“"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00300:aenderungshistorie-02-12-2022-status-der-listung-ist-dauerhaft-aufgenommen-dd4ae6fe3d:field_value",
+      "title": "02.12.2022 Status der Listung ist „Dauerhaft aufgenommen“"
+    }
+  ],
+  "diga_id": "00300",
+  "name": "Invirto - Die Therapie gegen Angst",
+  "rendered_structure_metadata": {
+    "accordions_opened": 0,
+    "content_section_count": 73,
+    "field_value_count": 58,
+    "rendered_at": "2026-06-22T19:02:09.205134+00:00",
+    "source_kind": "visible_directory"
+  },
+  "source_kind": "visible_directory",
+  "timestamp": "20260622T190144Z",
+  "url": "https://diga.bfarm.de/de/verzeichnis/00300"
+}

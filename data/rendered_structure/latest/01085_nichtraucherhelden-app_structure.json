@@ -1,0 +1,961 @@
+{
+  "content_sections": [
+    {
+      "content": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_preview": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:field_value",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_preview": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "NichtraucherHelden-App",
+      "content_preview": "NichtraucherHelden-App",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Name der DiGA im DiGA-Verzeichnis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v-132a49921b:field_value",
+      "title": "Name der DiGA im DiGA-Verzeichnis"
+    },
+    {
+      "content": "03.07.2021",
+      "content_preview": "03.07.2021",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Erstmalige Aufnahme in das DiGA-Verzeichnis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in--0901792b12:field_value",
+      "title": "Erstmalige Aufnahme in das DiGA-Verzeichnis"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Modul"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-modul-0b2f60dd90:field_value",
+      "title": "Modul"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-andere-namen-und-modell-ab7acb1427:field_value",
+      "title": "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
+    },
+    {
+      "content": "App",
+      "content_preview": "App",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Art der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga-f41af95c79:field_value",
+      "title": "Art der DiGA"
+    },
+    {
+      "content": "im Apple App Store Deutschland",
+      "content_preview": "im Apple App Store Deutschland",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Die digitale Gesundheitsanwendung ist verfügbar"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit-70a197df25:field_value",
+      "title": "Die digitale Gesundheitsanwendung ist verfügbar"
+    },
+    {
+      "content": "im Google Play Store Deutschland",
+      "content_preview": "im Google Play Store Deutschland",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Deutschland",
+      "content_preview": "Deutschland",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Standorte der Datenverarbeitung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera-426183d1fc:field_value",
+      "title": "Standorte der Datenverarbeitung"
+    },
+    {
+      "content": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an • Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der Technik und • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) als erfüllt. Der Hersteller hat bestätigt, dass keine personenbezogenen Daten in ein Land ohne Angemessenheitsbeschluss, wie nach dem Urteil „Schrems II“ den USA, fließen. - Nach Aufnahme zur Erprobung wurden die Studienergebnisse der Erprobungsstudie zum Ende des Erprobungszeitraums eingereicht. - Es wurden die Ergebnisse einer multizentrischen zweiarmigen randomisierten kontrollierten nicht-verblindeten kontrollierten Studie vorgelegt. Die Studie hat den Titel „Untersuchung eines positiven Versorgungseffektes der NichtraucherHelden-App (Medizin) – Durchführung eines Randomized Controlled Trial (RCT)“ und ist registriert im Deutschen Register Klinischer Studien (DRKS) unter der Nummer DRKS-ID DRKS00025933. Die Studiendauer betrug für die Teilnehmenden der Interventionsgruppe nach Beginn des Rauchstopps 6 Monate und für die Kontrollgruppe einheitlich 6 Monate nach einer ärztlichen Kurzberatung. - Die Interventionsgruppe (IG) erhielt die NichtraucherHelden-App nach einer ärztlichen Kurzberatung (brief advice). Die Teilnehmenden der IG konnten nach dem Rauchstopp die NichtraucherHelden-App 3 bis 6 Monate weiternutzen. Die Kontrollgruppe (KG) erhielt ausschließlich eine ärztliche Kurzberatung. - Der primäre Endpunkt war die selbstberichtete Abstinenzquote gemessen anhand einer 7-Tage-Punktprävalenz. Zu den sekundären Endpunkten zählten u. a. die prolongierte selbstberichtete Abstinenz (14 Tage) nach 6 Monaten bei Teilnehmenden mit selbstberichteter Rauchabstinenz, die objektiv gemessene Abstinenzrate (Cotinin-Test) nach 6 Monaten in Teilnehmenden mit selbstberichteter Rauchabstinenz und die gesundheitsbezogene Lebensqualität. Darüber hinaus wurden noch die Atemnot und Hustensymptomatik erhoben. - In die Studie wurden initial insgesamt 661 Patientinnen und Patienten (336 IG; 325 KG) eingeschlossen und randomisiert. Zum Studienende ergab sich eine Drop-out-Rate von 28 % (34 % IG, 22 % KG). Für die insgesamt 6 sekundären Endpunkte erfolgte eine Adjustierung des Alpha-Niveaus mittels Bonferroni-Holm-Korrektur. Voraussetzung dafür war zunächst, dass der primäre Endpunkt einen statistisch signifikanten Vorteil der IG gegenüber der KG zeigt. - Im Rahmen der primären Analyse gemäß Intention-To-Treat-Prinzip (ITT-Prinzip) ergab sich in Bezug auf den primären Endpunkt „selbstberichtete Abstinenzquote“ ein statistisch signifikanter und klinisch relevanter Vorteil der IG gegenüber der KG [Odds Ratio (OR): 2,9; 95-%-Konfidenzintervall (KI): 1,8 – 4,6; p < 0,001]. Bei konservativer Betrachtung fehlender Werte blieb der Unterschied ebenfalls statistisch signifikant und klinisch relevant. Darüber hinaus zeigten die prolongierte Abstinenz und die objektive Abstinenz ebenfalls statistisch signifikante und klinisch relevante Vorteile der IG gegenüber der KG. Die Ergebnisse waren in den relevanten Subgruppen konsistent. Bezüglich der verbleibenden Endpunkte Lebensqualität, Atemnot und Hustensymptomatik konnten keine statistisch signifikanten und/oder klinisch relevanten Ergebnisse gezeigt werden. - Entsprechend bewertet das BfArM die in § 139e des Fünften Buches Sozialgesetzbuch (SGB V) sowie in der DiGAV festgelegten Voraussetzungen zur endgültigen Aufnahme in das Verzeichnis nach § 139e Absatz 1 SGB V für Erwachsene ab 18 Jahren in Bezug auf den positiven Versorgungseffekt „Verbesserung des Gesundheitszustands“ als erfüllt.",
+      "content_preview": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an • Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der ...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Bewertungsentscheidung des BfArM"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung--cdc10aad7c:field_value",
+      "title": "Bewertungsentscheidung des BfArM"
+    },
+    {
+      "content": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_preview": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Angaben zum Medizinprodukt"
+    },
+    {
+      "content": "Die App dient der Überwachung, Behandlung und Linderung einer diagnostizierten Tabakabhängigkeit nach ICD-10 F17.2 der WHO. Durch ein individuell zugeschnittenes kognitiv-verhaltenstherapeutisches Nichtrauchercoaching soll dem Patienten dabei geholfen werden, seine Nikotinabhängigkeit zu überwinden.",
+      "content_preview": "Die App dient der Überwachung, Behandlung und Linderung einer diagnostizierten Tabakabhängigkeit nach ICD-10 F17.2 der WHO. Durch ein individuell zugeschnittenes kognitiv-verhaltenstherapeutisches Nichtrauchercoaching soll dem Patienten ...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "Medizinische Zweckbestimmung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Medizinische Zweckbestimmung"
+    },
+    {
+      "content": "Risikoklasse I nach MDR",
+      "content_preview": "Risikoklasse I nach MDR",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "Risikoklasse Medizinprodukt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Risikoklasse Medizinprodukt"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "Name der Benannten Stelle"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Name der Benannten Stelle"
+    },
+    {
+      "content": "Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt.",
+      "content_preview": "Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Kennnummer der Benannten Stelle"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-kennnummer-der-benannte-885261bcc3:field_value",
+      "title": "Kennnummer der Benannten Stelle"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Identifikationsnummer Eudamed"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-identifikationsnummer-e-c5d45b28a3:field_value",
+      "title": "Identifikationsnummer Eudamed"
+    },
+    {
+      "content": "426239551-001-4",
+      "content_preview": "426239551-001-4",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "UDI - Unique Device Identifier im Sinne der MDR"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-udi-unique-device-ident-16a2c37ee0:field_value",
+      "title": "UDI - Unique Device Identifier im Sinne der MDR"
+    },
+    {
+      "content": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_preview": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Weitere Informationen zur DiGA"
+    },
+    {
+      "content": "Die App dient der Überwachung, Behandlung und Linderung einer diagnostizierten Tabakabhängigkeit. - Raucherinnen und Raucher werden über mehrere Wochen und Monate hinweg täglich beim Rauchen aufhören, also bei der Tabakentwöhnung, unterstützt. Durch ein individuell zugeschnittenes kognitiv-verhaltenstherapeutisches Nichtrauchercoaching soll Patienten dabei geholfen werden, die Nikotinabhängigkeit zu überwinden und dauerhaft rauchfrei zu bleiben. Die Rauchstopp Motivation wird gestärkt, die Vor- und Nachteile des Rauchens und eines Rauchstopps werden besprochen, gesundheitliche Effekte eines Rauchstopps werden hervorgehoben, die Zusammenhänge der psychologischen und physiologischen Abhängigkeit werden erläutert, typische persönliche Raucherrituale werden identifiziert und dazu passende Strategien zum Umgang mit Rauchverlangen erarbeitet. - Die Patientinnen und Patienten bestimmen durch ihre individuellen Daten zu ihrem Rauchverhalten sowie Angaben zu Erfolgszuversicht, Befinden und aktuellen Problemen den Therapieablauf. Der Algorithmus der App wertet diese Eingaben aus und gibt passende Empfehlungen, um den weiteren Therapieverlauf positiv zu beeinflussen, etwa um Entzugssymptome zu lindern und das Befinden zu verbessern. Aufgrund des Patienten-Feedbacks können sich z.B. die Programmdauer, Programmbestandteile und Empfehlungen innerhalb des Programms ändern. Die Patienten beginnen die Therapie mit der Diagnose der individuellen Stärke der Tabakabhängigkeit mittels des Fagerström-Tests. Es folgt das Startmodul, welches aus einem Coaching-Video und einer Aufgabe besteht. Nachfolgend können die einzelnen Module, je nach Bedürfnis der Patientinnen und Patienten, in individueller Geschwindigkeit bis zum Rauchstopp bearbeitet werden. - Die Videos der einzelnen Module müssen angesehen und die Aufgaben bearbeitet werden, bevor die Patienten über das „Heldenbarometer“ ihr Feedback (Stimmung, Erfolgszuversicht, Probleme und Schwierigkeiten) abgeben können. Hier bekommen sie unterschiedliche Fragen gestellt, die den individuellen Therapieablauf und die weiteren Inhalte an die Bedürfnisse der Nutzer anpassen. Die Patienten erhalten eine Auswertung des Heldenbarometers mit Tipps, Motivationshilfen und individuellen Zusatzaufgaben bzw. -materialien. Am Starttag sowie am Tag vor dem Rauchstopp steht den Anwenderinnen und Anwendern lediglich ein Modul zur Bearbeitung zur Verfügung. Ansonsten können bis zum Rauchstopp bis zu drei Module pro Tag durchlaufen werden. Die Anwender können so die Geschwindigkeit der Therapie beeinflussen. Nach dem Rauchstopp wechselt das Programm in einen täglichen Modus. Es stehen jeden Tag Impulse (Videos, Aufgaben und Motivationshilfen) bereit und es wird neben der Stimmung auch nach den konkreten aktuellen Schwierigkeiten bei der Raucherentwöhnung gefragt, um entsprechend individualisierte Ratschläge geben zu können. - In der App finden sich verschiedene Funktionen, die der Motivation, der Rückfallprävention und somit der Stabilisierung der Abstinenz dienen. Im Bereich „Status“ können Patientinnen und Patienten den Rauchstopp-Tag festlegen und die persönliche Statistik der nichtgerauchten Zigaretten, des gesparten Geldes etc. einsehen. Außerdem finden sich hier weitere Motivationselemente (z.B. Wunschzettel-Funktion, Anzeige der Verbesserung der Gesundheit, Awards für Erreichtes). Um Rückfälle zu vermeiden, werden den Patienten im sogenannten Hilfe-Bereich verschiedene Unterstützungen bei akutem Rauchverlagen angeboten (Aufhörgründe, Videos, Audiodateien mit Atem- und Entspannungsübungen, Notfallkontakte und Spiele). Die Patienten können sich auch mit anderen App-Nutzern im Rahmen einer betreuten Community auszutauschen. - Der \"Dranbleiben-Bereich\" wird ab dem Rauchstopp (Modul 8) für Patientinnen und Patienten freigeschaltet und dient der weiteren Stabilisierung und Vorbeugung einer Gewichtszunahme. Hier finden sich verschiedene Fitnessvideos, gesunde Rezepte und Rezeptvideos.",
+      "content_preview": "Die App dient der Überwachung, Behandlung und Linderung einer diagnostizierten Tabakabhängigkeit. - Raucherinnen und Raucher werden über mehrere Wochen und Monate hinweg täglich beim Rauchen aufhören, also bei der Tabakentwöhnung, unters...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Kognitiv-verhaltenstherapeutisches Coaching: - Coaching-Videos, ergänzende Übungen und Podcasts - Feedbackabfrage nach jedem Modul, wodurch Patienten-individuell der weitere Verlauf und Inhalt des Programmes angepasst wird - Hilfe bei akutem Rauchverlangen: - Spezielle Hilfe-Videos - Spiele zum Ablenken - „Call-a-friend“-Funktion („Notfall“-Kontakte) - Atem- und Entspannungsübungen - Community zum Austausch mit anderen Teilnehmerinnen und Teilnehmern - Motivationssprüche und -bilder - persönliche Top 3 Aufhörgründe - Status-Anzeige: - Rauchstoppdatum festlegen - Rauchfrei Statistik (nicht gerauchte Zigaretten, rauchfreie Tage, Ausrutscher, gespartes Geld) - Wünsche-Funktion (Wünsche können hinterlegt werden, die mit gespartem Geld erfüllt werden können) - Anzeige zur gesundheitlichen Verbesserung - Tagebuch-Funktion (Freitext, Zahl der gerauchten Zigaretten, Motivation und Stimmung kann erfasst werden und wird grafisch im Verlauf dargestellt) - Auszeichnungen für Erreichtes (Gamification) - Motivationssprüche und –bilder - Dranbleiben-Bereich: - Fitnessvideos - Gesunde Rezepte und Rezeptvideos",
+      "content_preview": "Kognitiv-verhaltenstherapeutisches Coaching: - Coaching-Videos, ergänzende Übungen und Podcasts - Feedbackabfrage nach jedem Modul, wodurch Patienten-individuell der weitere Verlauf und Inhalt des Programmes angepasst wird - Hilfe bei ak...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Funktionen der digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Funktionen der digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Fiore MC. A Clinical Practice Guideline for Treating Tobacco Use and Dependence: 2008 Update. A U.S. Public Health Service Report. Am J Prev Med. 2008;35(2):158-176.doi:10.1016/j.amepre.2008.04.009 - Arbeitsgemeinschaft der Wissenschaftlichen Medizinischen Fachgesellschaften (AWMF). (2021). S3-Leitlinie “ Rauchen und Tabakabhängigkeit: Screening, Diagnostik und Behandlung” (AWMF-Register Nr. 076-006; AWMFonline). https://www.awmf.org/uploads/tx_szleitlinien/076-006l_S3_Rauchen_Tabakabhaengigkeit-Screening-Diagnostik-Behandlung_2021-01.pdf - Batra A, Buchkemmer G. Tabakentwöhnung - Ein Leitfaden Für Therapeuten. 1. Auflage. Verlag W. Kohlhammer; 2004. - Torchalla I, Schröter M, Batra A. Individualisierte Tabakentwöhnung - Verhaltenstherapeutisches Manual. 1. Auflage. Verlag W. Kohlhammer; 2013. - Batra A, Collins SE, Torchalla I, Schröter M, Buchkremer G. Multidimensional smoker profiles and their prediction of smoking following a pharmacobehavioral intervention. J Subst Abuse Treat. 2008;35(1):41-52.doi:10.1016/j.jsat.2007.08.006 - Erfurt L, Kröger CB. Anwendung von Medikamenten in Kombination mit einem modernen Gruppenprogramm zur Tabakentwöhnung. Gesundheitswesen. 2015;77(2):74-80.doi:10.1055/s-0034-1367039 - Kröger C, Nowak M, Erfurt L. Projektbericht Effektivität von Tabakentwöhnung in Deutschland.; 2011. https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/5_Publikationen/Drogen_und_Sucht/Berichte/Projektbericht_Effektivitaet_von_Tabakentwoehnung_in_Deutschland.pdf - Felten S, Hering T, Ruhr A. Mein Nichtraucher Programm Trainermanual. Vol Version1.2. Gesellschaft für Gesundheitsmanagement GfGM GmbH; 2017. - Hering T, Andres J, Ruhr HJ, Berkling K. Real-Life-Evaluation des Kompakt-Programmes zur Tabakentwöhnung: Mein Nichtraucherprogramm (BdP) unter Alltagsbedingungen. Pneumologie. 2015;69(10):577-582.doi:10.1055/s-0034-1392470 - Lehto T, Oinas-Kukkonen H. Persuasive features in web-based alcohol and smoking interventions: A systematic review of the literature. J Med Internet Res. 2011;13(3):1-19. doi:10.2196/jmir.1559 - Wahle F, Bollhalder L, Kowatsch T, Fleisch E. Toward the Design of Evidence-Based Mental Health Information Systems for People With Depression: A Systematic Literature Review and Meta-Analysis. J Med Internet Res.2017;19(5):e191.doi:10.2196/jmir.7381",
+      "content_preview": "Fiore MC. A Clinical Practice Guideline for Treating Tobacco Use and Dependence: 2008 Update. A U.S. Public Health Service Report. Am J Prev Med. 2008;35(2):158-176.doi:10.1016/j.amepre.2008.04.009 - Arbeitsgemeinschaft der Wissenschaftl...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
+    },
+    {
+      "content": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_preview": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Beteiligung vom medizinischen Fachpersonal"
+    },
+    {
+      "content": "Nach erfolgter Diagnostik verschreibt die Ärztin / der Arzt die DiGA.",
+      "content_preview": "Nach erfolgter Diagnostik verschreibt die Ärztin / der Arzt die DiGA.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Ärztinnen/ Ärzte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Ärztinnen/ Ärzte"
+    },
+    {
+      "content": "Nach erfolgter Diagnostik verschreibt die Psychotherapeutin / der Psychotherapeut die DiGA.",
+      "content_preview": "Nach erfolgter Diagnostik verschreibt die Psychotherapeutin / der Psychotherapeut die DiGA.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Psychotherapeutinnen/ Psychotherapeuten"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Psychotherapeutinnen/ Psychotherapeuten"
+    },
+    {
+      "content": "Nein",
+      "content_preview": "Nein",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
+    },
+    {
+      "content": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfohlen wird.",
+      "content_preview": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfoh...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-6922aa5eb2:field_value",
+      "title": "Anwendungshinweise"
+    },
+    {
+      "content": "Der Einschluss von Studienteilnehmerinnen und -teilnehmern erfolgt ausschließlich über Fachärzte für Lungen- und Bronchialheilkunde sowie über Hausärzte. Diese prüfen in einem Screening-Verfahren entsprechend die Ein- und Ausschlusskriterien, sodass sichergestellt ist, dass keine Personen wider denAusschlusskriterien in die Studie eingeschlossen werden. - Einschlusskriterien: • Diagnostizierte Tabakabhängigkeit nach ICD-10 GM F17.2 • Absicht, mit dem Rauchen aufzuhören • Alter ≥ 18 Jahre • Smartphone / Tablet zur Nutzung der NichtraucherHelden-App • Wohnhaft (Erstwohnsitz) in der Bundesrepublik Deutschland • Gültige private E-Mail-Adresse - Ausschlusskriterien: • Begleitende Alkohol-, Tabletten- oder illegale Drogensucht • Akut-symptomatische psychiatrische Erkrankung • Schwere kognitive Einschränkungen • Demenzielle Erkrankungen • Mangelnde deutsche Sprachkenntnisse • Arbeit in 24h-Schichten (z.B. Rettungsdienst, Feuerwehr) • Teilnahme an einem anderen Programm zur Rauchentwöhnung • Nutzung einer anderen Smartphone App zur Rauchentwöhnung",
+      "content_preview": "Der Einschluss von Studienteilnehmerinnen und -teilnehmern erfolgt ausschließlich über Fachärzte für Lungen- und Bronchialheilkunde sowie über Hausärzte. Diese prüfen in einem Screening-Verfahren entsprechend die Ein- und Ausschlusskrite...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Hinweise für eine sichere Anwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw-13263bcc58:field_value",
+      "title": "Hinweise für eine sichere Anwendung"
+    },
+    {
+      "content": "Die Anwendung bei psychiatrischen Erkrankungen mit Zeichen der akuten Depressivität oder Suizidalität sowie bei Erkrankungen mit akuten deliranten oder akuten psychotischen Störungen wird nicht empfohlen.",
+      "content_preview": "Die Anwendung bei psychiatrischen Erkrankungen mit Zeichen der akuten Depressivität oder Suizidalität sowie bei Erkrankungen mit akuten deliranten oder akuten psychotischen Störungen wird nicht empfohlen.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Weitere Ausschlusskriterien"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-weit-3d658a5f5f:field_value",
+      "title": "Weitere Ausschlusskriterien"
+    },
+    {
+      "content": "Wir empfehlen, die App mindestens 3 Monate zu nutzen, um auch langfristig rauchfrei zu bleiben.",
+      "content_preview": "Wir empfehlen, die App mindestens 3 Monate zu nutzen, um auch langfristig rauchfrei zu bleiben.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Vom Hersteller für erforderlich gehaltene Mindestdauer"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "title": "Vom Hersteller für erforderlich gehaltene Mindestdauer"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Vom Hersteller für erforderlich gehaltene Höchstdauer"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "title": "Vom Hersteller für erforderlich gehaltene Höchstdauer"
+    },
+    {
+      "content": "Die App läuft auf Apple iPhones und Tablets sowie auf Android-basierten Systemen (vgl. Hard- und Softwareanforderung). - Eine Liste mit genaueren Angaben sowie Verweise auf getestete Endgeräte ist zu finden unter: https://www.nichtraucherhelden.de/pages/app-systemanforderungen.jsf",
+      "content_preview": "Die App läuft auf Apple iPhones und Tablets sowie auf Android-basierten Systemen (vgl. Hard- und Softwareanforderung). - Eine Liste mit genaueren Angaben sowie Verweise auf getestete Endgeräte ist zu finden unter: https://www.nichtrauche...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-komp-0b84064997:field_value",
+      "title": "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
+    },
+    {
+      "content": "Der Anwender kann die therapierelevanten Daten der App sowohl in lesbarer, wie auch in technischer Form exportieren. Wir haben dazu einen Vesta-Standard eingereicht: https://www.vesta-gematik.de/standards/detail/standards/datenexport-definition-verhaltenstherapeutische-raucherentwoehnungsprogramme/ Der Vesta-Standard beschreibt ein auf FHIR basiertes Format. Der Datenexport aus der NichtraucherHelden-App kann wahlweise in einem menschenlesbaren Format (PDF) erfolgen oder in einem technischen standardisierten Format. Wir verwenden hierbei den MIO DiGA Standard 1.1.0.",
+      "content_preview": "Der Anwender kann die therapierelevanten Daten der App sowohl in lesbarer, wie auch in technischer Form exportieren. Wir haben dazu einen Vesta-Standard eingereicht: https://www.vesta-gematik.de/standards/detail/standards/datenexport-def...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Möglichkeiten von standardisiertem Datenimport und Datenexport"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-moeg-b860ee673e:field_value",
+      "title": "Möglichkeiten von standardisiertem Datenimport und Datenexport"
+    },
+    {
+      "content": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs. weitere, durch Sie selbst aufzubringende Kosten, sofern Sie bestimmte zusätzlich angebotene und von der Verschreibung nicht abgedeckte Leistungen in Anspruch nehmen möchten.",
+      "content_preview": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs....",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-429bde377d:field_value",
+      "title": "Angaben zum Preis"
+    },
+    {
+      "content": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+      "content_preview": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis",
+        "Preismodell"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis-6eb719186f:field_value",
+      "title": "Preismodell"
+    },
+    {
+      "content": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "content_preview": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "211,00 € für die Erstverschreibung von 90 Tagen",
+      "content_preview": "211,00 € für die Erstverschreibung von 90 Tagen",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-kosten-z-b-starterpaket-5641b0bf97:field_value",
+      "title": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
+    },
+    {
+      "content": "211,00 € für die App-Nutzung weiterer 90 Tage",
+      "content_preview": "211,00 € für die App-Nutzung weiterer 90 Tage",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-nutzung-der-dig-7a56e117b7:field_value",
+      "title": "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
+    },
+    {
+      "content": "Die beiden Verordnungseinheiten unterscheiden sich nur hinsichtlich Erst- und Folgeverordnung. Die Erstverordnung ermöglicht eine Nutzung des Programms für 3 Monate. Mit der Folgeverordnung kann die Nutzung um jeweils weitere 3 Monate verlängert werden.",
+      "content_preview": "Die beiden Verordnungseinheiten unterscheiden sich nur hinsichtlich Erst- und Folgeverordnung. Die Erstverordnung ermöglicht eine Nutzung des Programms für 3 Monate. Mit der Folgeverordnung kann die Nutzung um jeweils weitere 3 Monate ve...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Anmerkungen zum Preismodell"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-anmerkungen-zum-f3f338f2f7:field_value",
+      "title": "Weitere Anmerkungen zum Preismodell"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Erläuterung Mehrkosten"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-erlaeuterung-mehrkosten-7813cc6074:field_value",
+      "title": "Erläuterung Mehrkosten"
+    },
+    {
+      "content": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_preview": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Verbesserungen für Patienten können entweder medizinischer Art sein (z.B. Verringerung von Schmerzen, Beitrag zur Heilung der Erkrankung) oder den Erkennungs- und Behandlungsprozess direkt unterstützen und erleichtern (z.B. Informationen zur individuellen Erkrankungssituation, Unterstützung bei der Einhaltung der zwischen Patient und Arzt gemeinsam vereinbarten therapeutischen Maßnahmen).",
+      "content_preview": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Ve...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:informationen-zum-positiven-versorgungseffekt-253662cf50:field_value",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche Weise dies ggfs. bereits wissenschaftlich nachgewiesen wurde. Falls der positive Versorgungseffekt noch nicht abschließend nachgewiesen aber bereits so plausibel dargelegt wurde, dass die DiGA befristet zur entsprechenden Erprobung aufgenommen wurde, wird angegeben, für welchen Zeitraum dies erfolgt ist. Sofern (auch) ein Nachweis zum Erhalt der Erwerbsfähigkeit für die DiGA erbracht wurde oder eine Nachweisführung geplant ist, finden Sie hier eine Beschreibung und nähere Angaben zum Nachweis sowie zum Studiendesign. Sofern die DiGA (auch) ein diagnostisches Instrument darstellt, also mindestens in Teilen dazu vorgesehen ist, Informationen z.B. für die Erkennung oder Diagnose von Krankheitszuständen zu liefern, hat der Hersteller dies benannt und beschrieben sowie Sensitivität und Spezifität als wichtige Bewertungsgrößen angegeben.",
+      "content_preview": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche We...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Medizinischer Nutzen",
+      "content_preview": "Medizinischer Nutzen",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Angaben zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse-5449921803:field_value",
+      "title": "Angaben zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Verbesserung des Gesundheitszustands",
+      "content_preview": "Verbesserung des Gesundheitszustands",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Nähere Angaben zum medizinischen Nutzen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen--90ce965dee:field_value",
+      "title": "Nähere Angaben zum medizinischen Nutzen"
+    },
+    {
+      "content": "Die NichtraucherHelden-App (Medizin) führt zu einer signifikanten Wirkung bei der selbstberichteten Abstinenz (7-Tages-Punktprävalenz). Die Verbesserung des Gesundheitszustands durch die Anwendung der NichtraucherHelden-App (Medizin) wird durch die Studienergebnisse bestätigt.",
+      "content_preview": "Die NichtraucherHelden-App (Medizin) führt zu einer signifikanten Wirkung bei der selbstberichteten Abstinenz (7-Tages-Punktprävalenz). Die Verbesserung des Gesundheitszustands durch die Anwendung der NichtraucherHelden-App (Medizin) wir...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Beschreibung des medizinischen Nutzens"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut-a677995e79:field_value",
+      "title": "Beschreibung des medizinischen Nutzens"
+    },
+    {
+      "content": "Titel: Untersuchung eines positiven Versorgungseffektes der NichtraucherHelden-App (Medizin) – Durchführung eines Randomized Controlled Trial (RCT) - Patientenpopulation: Patientinnen und Patienten ab 18 Jahren mit einer Tabakabhängigkeit (ICD 10 F17.2) - Interventionsgruppe: ärztliche Kurzberatung (brief advice) und Nutzung der NichtraucherHelden-App - Kontrollgruppe: ärztliche Kurzberatung (brief advice) - Ergebnis (primär): • Selbstberichtete Abstinenzquote gemessen anhand einer 7-Tage-Punktprävalenz Ergebnisse (sekundär): • Prolongierte selbstberichtete Abstinenz (14-Tage) nach 6 Monaten bei Teilnehmenden mit selbstberichteter Abstinenz • Objektiv gemessene Abstinenzrate (Cotinin-Test nach 6 Monaten bei Teilnehmenden mit selbstberichteter Abstinenz)",
+      "content_preview": "Titel: Untersuchung eines positiven Versorgungseffektes der NichtraucherHelden-App (Medizin) – Durchführung eines Randomized Controlled Trial (RCT) - Patientenpopulation: Patientinnen und Patienten ab 18 Jahren mit einer Tabakabhängigkei...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Studie/n im PICO-Schema"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema-2cb668dadb:field_value",
+      "title": "Studie/n im PICO-Schema"
+    },
+    {
+      "content": "Die Studie wurde deutschlandweit, an mehreren Studienzentren, randomisiert, unverblindet und kontrolliert durchgeführt. - Zu Beginn der Studie erhielten beide Studiengruppen, Interventionsgruppe (IG) und Kontrollgruppe (KG), eine Kurzberatung von etwa 3 Minuten, um mit dem Rauchen aufzuhören. Die IG erhielt dann zusätzlich die App als Unterstützung für den Rauchstopp. Nachuntersuchungen fanden 24 Stunden, 4 Wochen, 12 Wochen und 26 Wochen nach dem Rauchstopp statt. - Zum Studieneinschluss wurden sozioökonomische und raucherspezifische Daten erhoben. Die Raucherentwöhnungsrate, Lebensqualität (SF12), Husten und Dyspnoe (mMRC) wurden zu den verschiedenen Nachuntersuchungen über den Zeitraum von 6 Monaten nach dem Rauchstopp untersucht. - Primärer Endpunkt war die selbstberichtete 7-Tage-Abstinenz nach 6 Monaten. Zu den sekundären Endpunkten gehörten verlängerte Abstinenz, objektive Abstinenz, Lebensqualität, Husten und Dyspnoe (Atemnot). Die statistische Auswertung erfolgte mit Standardmethoden wie dem exakten Fisher-Test, z-Tests, t-Tests bzw. Chi-Quadrat-Tests nach dem vorgegebenen statistischen Auswertungsplan. - Zwischen November 2021 und März 2023 wurden 661 Probandinnen und Probanden (IG mit App = 336; KG ohne App = 325) in die Studie eingeschlossen. In der IG hörten deutlich mehr Raucherinnen und Raucher auf zu rauchen als in der KG. Auch die anhaltende Abstinenz über 6 Monate (wiederholte Punktprävalenz), ebenso wie die biochemisch verifizierte Abstinenz, waren in der IG statistisch signifikant besser als in der KG. - Die Studie wurde von den zuständigen Ethikkommissionen genehmigt und beim Deutschen Register Klinischer Studien (DRKS) registriert (DRKS00025933).",
+      "content_preview": "Die Studie wurde deutschlandweit, an mehreren Studienzentren, randomisiert, unverblindet und kontrolliert durchgeführt. - Zu Beginn der Studie erhielten beide Studiengruppen, Interventionsgruppe (IG) und Kontrollgruppe (KG), eine Kurzber...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u-804896bae6:field_value",
+      "title": "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
+    },
+    {
+      "content": "Alexander Rupp, Stephan Rietzler, Maddalena A Di Lellis, Timo Weiland, Claudia Tschirner, Michael Kreuter, Digital Smoking Cessation With a Comprehensive Guideline-Based App - Results of a Nationwide, Multicentric, Parallel, Randomized Controlled Trial in Germany, Nicotine & Tobacco Research, 2024;, ntae009, https://doi.org/10.1093/ntr/ntae009 Link: https://academic.oup.com/ntr/article/doi/10.1093/ntr/ntae009/7577725",
+      "content_preview": "Alexander Rupp, Stephan Rietzler, Maddalena A Di Lellis, Timo Weiland, Claudia Tschirner, Michael Kreuter, Digital Smoking Cessation With a Comprehensive Guideline-Based App - Results of a Nationwide, Multicentric, Parallel, Randomized C...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Dies ist/sind die vom Hersteller angeführten Studie/n:"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:informationen-zum-positiven-versorgungseffekt-dies-ist-sind-die-vom-hersteller-a-81dc280904:field_value",
+      "title": "Dies ist/sind die vom Hersteller angeführten Studie/n:"
+    },
+    {
+      "content": "WIG2 GmbH Scientific Institute for Health Economics and Health System Research Markt 8 04109 Leipzig - novineon CRO GmbH Friedrich-Miescher-Str. 9 72076 Tübingen",
+      "content_preview": "WIG2 GmbH Scientific Institute for Health Economics and Health System Research Markt 8 04109 Leipzig - novineon CRO GmbH Friedrich-Miescher-Str. 9 72076 Tübingen",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:informationen-zum-positiven-versorgungseffekt-herstellerunabhaengige-institution-85ca65af54:field_value",
+      "title": "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
+    },
+    {
+      "content": "Nein",
+      "content_preview": "Nein",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Die DiGA enthält ein diagnostisches Instrument"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch-eded43f154:field_value",
+      "title": "Die DiGA enthält ein diagnostisches Instrument"
+    },
+    {
+      "content": "24 Monate (12 Monate initial, 12 Monate Verlängerung)",
+      "content_preview": "24 Monate (12 Monate initial, 12 Monate Verlängerung)",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Länge des Zeitraumes der vorläufigen Aufnahme"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:informationen-zum-positiven-versorgungseffekt-laenge-des-zeitraumes-der-vorlaeuf-d645f91b3b:field_value",
+      "title": "Länge des Zeitraumes der vorläufigen Aufnahme"
+    },
+    {
+      "content": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird. Die Anforderungen an die Datensicherheit werden durch Vorlage eines Zertifikats gemäß § 139e Absatz 10 Fünftes Buch Sozialgesetzbuch nachgewiesen. Detaillierte Informationen zu den einzelnen Anforderungen können Sie auf der Webseite des Bundesamts für Sicherheit in der Informationstechnik unter der Technischen Richtlinie \"BSI TR-03161\" finden: https://www.bsi.bund.de/dok/TR-03161 Bis zur Vorlage des Zertifikats gelten für den Bereich Datensicherheit die Anforderungen der nachfolgend dargestellten Checkliste.",
+      "content_preview": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen v...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:field_value",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutref...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit",
+        "Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:informationen-zu-datenschutz-und-datensicherheit-datensicherheit-14af255f91:field_value",
+      "title": "Datensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung nutzt keine Sessions. Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung sieht keine unterschiedlichen Nutzerrollen vor. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung greift weder auf Sensoren eines mobilen Endgeräts noch auf externe Hardware zu. Trifft nicht zu Die digitale Gesundheitsanwendung tauscht keine Daten mit externer Hardware aus. Zutreffend Zutreffend Zutreffend Nein",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung nutzt keine Sessions. Zutreffend Zutreffend ...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der medizinischen Inhalte und die Gewährleistung der Patientensicherheit.",
+      "content_preview": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der me...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-afe954d9f8:field_value",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_preview": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Interoperabilität"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-angaben-zur-interoperabilitaet-8867f27412:field_value",
+      "title": "Angaben zur Interoperabilität"
+    },
+    {
+      "content": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versicherten getragenen Sensoren zur Messung und Übertragung von Vitalwerten (Wearables) austauscht. Zutreffend",
+      "content_preview": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versiche...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Robustheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-angaben-zur-robustheit-0a511476df:field_value",
+      "title": "Angaben zur Robustheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
+      "content_preview": "Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zum Verbraucherschutz"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-angaben-zum-verbraucherschutz-05cd17969e:field_value",
+      "title": "Angaben zum Verbraucherschutz"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit-8fe873c531:field_value",
+      "title": "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Unterstützung der Leistungserbringende"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-unterstuetzung-der-leistungserbringende-d4e78dfd75:field_value",
+      "title": "Unterstützung der Leistungserbringende"
+    },
+    {
+      "content": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen.",
+      "content_preview": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Triff...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Qualität der medizinischen Inhalte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte-a6d05ceeb6:field_value",
+      "title": "Angaben zur Qualität der medizinischen Inhalte"
+    },
+    {
+      "content": "Zutreffend Zutreffend Trifft nicht zu Unsere RCT wird erst mit der vorläufigen Aufnahme ins DiGA-Verzeichnis gestartet. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Trifft nicht zu Unsere RCT wird erst mit der vorläufigen Aufnahme ins DiGA-Verzeichnis gestartet. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Patientensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-angaben-zur-patientensicherheit-7a67651ccd:field_value",
+      "title": "Angaben zur Patientensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01085:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    }
+  ],
+  "diga_id": "01085",
+  "name": "NichtraucherHelden-App",
+  "rendered_structure_metadata": {
+    "accordions_opened": 0,
+    "content_section_count": 73,
+    "field_value_count": 57,
+    "rendered_at": "2026-06-22T19:06:58.638899+00:00",
+    "source_kind": "visible_directory"
+  },
+  "source_kind": "visible_directory",
+  "timestamp": "20260622T190144Z",
+  "url": "https://diga.bfarm.de/de/verzeichnis/01085"
+}

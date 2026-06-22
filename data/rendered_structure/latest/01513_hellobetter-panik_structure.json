@@ -1,0 +1,986 @@
+{
+  "content_sections": [
+    {
+      "content": "HelloBetter Panik ist ein interaktives psychologisches Therapieprogramm zur Behandlung und Reduzierung der Symptomschwere einer Panikstörung und Agoraphobie mit Panikstörung. Anhand einer randomisiert kontrollierten Studie konnte der Nachweis eines positiven Versorgungseffekts für Patientinnen und Patienten mit psychotherapeutischer Vorerfahrung erbracht werden. Der 12-wöchige Online-Kurs vermittelt fundierte Psychoedukation in Texten, Videos und Audios sowie wirksame Strategien aus der kognitiven Verhaltenstherapie (KVT). Dazu gehören unter anderem wiederholte Konfrontationen mit inneren und äußeren angstauslösenden Reizen, kognitive Umstrukturierung, Entspannungsübungen und eine Rückfallprophylaxe.",
+      "content_preview": "HelloBetter Panik ist ein interaktives psychologisches Therapieprogramm zur Behandlung und Reduzierung der Symptomschwere einer Panikstörung und Agoraphobie mit Panikstörung. Anhand einer randomisiert kontrollierten Studie konnte der Nac...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "hellobetter.de/"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:hellobetter-de-24f8ead71e:field_value",
+      "title": "hellobetter.de/"
+    },
+    {
+      "content": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_preview": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:field_value",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_preview": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "HelloBetter Panik",
+      "content_preview": "HelloBetter Panik",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Name der DiGA im DiGA-Verzeichnis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v-132a49921b:field_value",
+      "title": "Name der DiGA im DiGA-Verzeichnis"
+    },
+    {
+      "content": "03.04.2022",
+      "content_preview": "03.04.2022",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Erstmalige Aufnahme in das DiGA-Verzeichnis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in--0901792b12:field_value",
+      "title": "Erstmalige Aufnahme in das DiGA-Verzeichnis"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Modul"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-modul-0b2f60dd90:field_value",
+      "title": "Modul"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-andere-namen-und-modell-ab7acb1427:field_value",
+      "title": "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
+    },
+    {
+      "content": "Browserbasierte Webanwendung",
+      "content_preview": "Browserbasierte Webanwendung",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Art der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga-f41af95c79:field_value",
+      "title": "Art der DiGA"
+    },
+    {
+      "content": "App",
+      "content_preview": "App",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "als browserbasierte Webanwendung",
+      "content_preview": "als browserbasierte Webanwendung",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Die digitale Gesundheitsanwendung ist verfügbar"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit-70a197df25:field_value",
+      "title": "Die digitale Gesundheitsanwendung ist verfügbar"
+    },
+    {
+      "content": "im Google Play Store Deutschland im Apple App Store Deutschland",
+      "content_preview": "im Google Play Store Deutschland im Apple App Store Deutschland",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Deutschland",
+      "content_preview": "Deutschland",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Standorte der Datenverarbeitung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera-426183d1fc:field_value",
+      "title": "Standorte der Datenverarbeitung"
+    },
+    {
+      "content": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an",
+      "content_preview": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Bewertungsentscheidung des BfArM"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung--cdc10aad7c:field_value",
+      "title": "Bewertungsentscheidung des BfArM"
+    },
+    {
+      "content": "• Sicherheit und Funktionstauglichkeit des Medizinproduktes • Datenschutz und Datensicherheit nach dem Stand der Technik • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) als erfüllt. Der Hersteller gibt an, dass keine personenbezogenen Daten in ein Land außerhalb der EU oder ohne Angemessenheitsbeschluss fließen. Das BfArM bewertet dieses Vorgehen als konform mit den Vorgaben der DiGAV. Zum Nachweis der Verbesserung des Gesundheitszustands wurde eine zweiarmige, randomisiert-kontrollierte Studie mit Interventions- und Wartekontrollgruppe und insgesamt 92 Teilnehmenden mit Panikstörung oder Agoraphobie mit Panikstörung durchgeführt. Die Patientinnen und Patienten der Interventionsgruppe (IG) hatten zusätzlich zur Regelversorgung Zugang zu HelloBetter Panik, während die Wartekontrollgruppe (KG) (Zugang zu HelloBetter Panik nach 6 Monaten) Zugang zur üblichen Regelversorgung hatte. Der primäre Endpunkt „Schweregrad der Panikstörung und Agoraphobie“ wurde anhand der Panik- und Agoraphobie-Skala (PAS) nach 8- , 12- sowie 24-wöchiger Intervention erhoben. Zu allen 3 Zeitpunkten zeigte sich für Patientinnen und Patienten mit psychotherapeutischer Vorerfahrung eine statistisch signifikante Verbesserung in der IG gegenüber der KG im Sinne einer Verbesserung der Panikstörung und Agoraphobie [PAS nach 8 Wochen: Mittelwertdifferenz (MD) im Gruppenunterschied = 3,84, Cohen‘s d = 0,49, p = 0,022.; 12 Wochen: MD im Gruppenunterschied = 4,75, Cohen’s d = 0,65, p = 0,016; 24 Wochen: MD im Gruppenunterschied = 4,71, Cohen’s d = 0,61, p = 0,019.] Der Effekt hatte auch in entsprechend durchgeführten Sensitivitätsanalysen Bestand. Unterstützend konnten auch für die sekundär untersuchten Endpunkte „Angstsymptome“ (mittels Hamilton-Angst-Skala, HAM-A), „agoraphobische Kognitionen“ (mittels Agoraphobic Cognitions Questionnaire, ACQ) sowie „Angst vor körperlichen Symptomen“ (mittels Body Sensations Questionnaire, BSQ) nach 8 und 12 Wochen signifikante Verbesserungen gezeigt werden. Das BfArM bewertet die vorgelegte Studie als geeignet, den positiven Versorgungseffekt Verbesserung des Gesundheitszustands (Verringerung des Schweregrads der Paniksymptome) nachzuweisen. Entsprechend bewertet das BfArM die in § 139e des Fünften Buches Sozialgesetzbuch (SGB V) sowie in der DiGAV festgelegten Voraussetzungen zur dauerhaften Aufnahme für die Indikationen F41.0: Panikstörung [episodisch paroxysmale Angst] sowie F40.01: Agoraphobie: Mit Panikstörung für Patientinnen und Patienten mit psychotherapeutischer Vorerfahrung in das Verzeichnis nach § 139e Absatz 1 SGB V als erfüllt.",
+      "content_preview": "• Sicherheit und Funktionstauglichkeit des Medizinproduktes • Datenschutz und Datensicherheit nach dem Stand der Technik • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Gesundh...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_preview": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Angaben zum Medizinprodukt"
+    },
+    {
+      "content": "HelloBetter Panik ist ein psychologisches Online-Programm zur Reduktion der Symptomschwere einer Panikstörung und Agoraphobie mit Panikstörung. Der Online-Kurs besteht aus sechs wöchentlich zu absolvierenden Einheiten mit einer Bearbeitungszeit von jeweils etwa 45-60 Minuten. - Neben fundierter Psychoedukation mittels Texten, Videos und Audios vermittelt das Online-Programm wirksame Strategien aus der kognitiven Verhaltenstherapie nach dem aktuellsten Stand wissenschaftlicher Erkenntnisse. Dazu gehören unter anderem wiederholte Konfrontationen mit inneren und äußeren angstauslösenden Reizen, kognitive Umstrukturierung, Entspannungsübungen und eine Rückfallprophylaxe. Die Übungen werden im Rahmen des Online-Programms erlernt und können in den Alltag integriert werden. Ziele werden so formuliert, dass sie individuell, realistisch und erreichbar sind. Zusätzlich gibt es ein Online-Tagebuch und wiederholte Symptom-Checks, um die eigenen Fortschritte festhalten, beobachten und auswerten zu können. - Das Online-Programm wurde über mehrere Jahre von führenden Expert:innen aus dem Bereich E-Mental-Health entwickelt und in einer randomisiert kontrollierten Studie umfassend untersucht und als wirksam befunden.",
+      "content_preview": "HelloBetter Panik ist ein psychologisches Online-Programm zur Reduktion der Symptomschwere einer Panikstörung und Agoraphobie mit Panikstörung. Der Online-Kurs besteht aus sechs wöchentlich zu absolvierenden Einheiten mit einer Bearbeitu...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "Medizinische Zweckbestimmung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Medizinische Zweckbestimmung"
+    },
+    {
+      "content": "Risikoklasse I nach MDR",
+      "content_preview": "Risikoklasse I nach MDR",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "Risikoklasse Medizinprodukt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Risikoklasse Medizinprodukt"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "Name der Benannten Stelle"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Name der Benannten Stelle"
+    },
+    {
+      "content": "Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt.",
+      "content_preview": "Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Kennnummer der Benannten Stelle"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-kennnummer-der-benannte-885261bcc3:field_value",
+      "title": "Kennnummer der Benannten Stelle"
+    },
+    {
+      "content": "DE-MF-000006296",
+      "content_preview": "DE-MF-000006296",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Identifikationsnummer Eudamed"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-identifikationsnummer-e-c5d45b28a3:field_value",
+      "title": "Identifikationsnummer Eudamed"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "UDI - Unique Device Identifier im Sinne der MDR"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-udi-unique-device-ident-16a2c37ee0:field_value",
+      "title": "UDI - Unique Device Identifier im Sinne der MDR"
+    },
+    {
+      "content": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_preview": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Weitere Informationen zur DiGA"
+    },
+    {
+      "content": "Zielsetzung: HelloBetter Panik ist ein psychologisches Online-Programm zur Behandlung und Reduzierung der Symptomschwere einer Panikstörung und Agoraphobie mit Panikstörung.",
+      "content_preview": "Zielsetzung: HelloBetter Panik ist ein psychologisches Online-Programm zur Behandlung und Reduzierung der Symptomschwere einer Panikstörung und Agoraphobie mit Panikstörung.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Wirkungsweise: Das Online-Programm basiert auf der kognitiven Verhaltenstherapie und wurde von Expertinnen und Experten aus der Wissenschaft, Psychologie und Psychotherapie sowie gemeinsam mit Betroffenen entwickelt. In einer randomisierten kontrollierten Studie konnte nachgewiesen werden, dass HelloBetter Panik zur Reduzierung der Symptomschwere einer Panikstörung und Agoraphobie mit Panikstörung beitragen kann. Weiterhin zeigten sich Effekte hinsichtlich agoraphobischer Kognitionen, der Angst vor körperlichen Symptomen und der Vermeidung von unbegleiteten, angstauslösenden Situationen. Inhalt: Neben fundierter Psychoedukation vermittelt das Online-Programm wirksame Strategien aus der kognitiven Verhaltenstherapie nach dem aktuellsten Stand wissenschaftlicher Erkenntnisse. Dazu gehören unter anderem wiederholte Konfrontationen mit inneren und äußeren angstauslösenden Reizen, kognitive Umstrukturierung von Angstgedanken, Entspannungsübungen und eine Rückfallprophylaxe. Nutzung: Der Online-Kurs hat einen modularen Aufbau und besteht aus sechs Einheiten, die flexibel, im eigenen Rhythmus absolviert werden können. Die Bearbeitungszeit einer Einheit beträgt jeweils etwa 45-60 Minuten. Die psychoedukativen Inhalte und Übungen werden in Texten, Bildern, Videos, Audios und Illustrationen vermittelt. Weiterführende Informationen sind an verschiedenen Stellen durch aufklappbare Inhalte zu erhalten, sodass auf unterschiedliche Bedürfnisse und inhaltliche Schwerpunkte eingegangen werden kann. In jeder Einheit sind mehrere freie Textfelder enthalten, durch deren Ausfüllen oder Ankreuzen die Teilnehmenden Gelegenheit zur Beschreibung und Auseinandersetzung mit ihrer persönlichen Situation bekommen. Zu Beginn jeder Übung wird zunächst der Sinn und Zweck erklärt, zum Abschluss gibt es jeweils Gelegenheit zur persönlichen Auswertung und Selbstreflexion. Zudem können die Übungen mittels eines individuell zu erstellenden Trainingsplans in den Alltag integriert werden. Nach jeder Einheit gibt das Progamm eine schriftliche Rückmeldung. Mit Erhalt und Lesen des Feedbacks wird die jeweils nächste Kurseinheit für die Teilnehmenden freigeschaltet. Das Online-Programm ist jederzeit via Online-Login auf der HelloBetter-Plattform verfügbar. Das ermöglicht eine weitestgehend zeit-, orts- und geräteunabhängige Nutzung. Im Verlauf erzielte Fortschritte können jederzeit zwischengespeichert werden, sodass das Online-Programm auch zu einem späteren Zeitpunkt problemlos fortgeführt werden kann. Programminhalte sind zudem über mehrere Wege erreichbar, u. a. über die linke Seitenleiste oder das Dashboard. Über das Ikon „Nachrichten” auf der Navigationsleiste oder über das entsprechende Widget auf dem Dashboard können die Teilnehmenden bei technischen Fragen zum Kurs Kontakt aufnehmen. Das Online-Programm ist für alle Altersklassen ab 18 Jahren konzipiert. Es ist gleichermaßen für weibliche, männliche und nichtbinäre Menschen geeignet, die gegenüber einer Nutzung von webbasierten Programmen offen sind. Gute Kenntnisse der deutschen Sprache sind erforderlich. Psychotherapeutische Vorerfahrungen sind notwendig. Erfahrungen mit der Navigation von Webseiten werden vorausgesetzt.",
+      "content_preview": "Wirkungsweise: Das Online-Programm basiert auf der kognitiven Verhaltenstherapie und wurde von Expertinnen und Experten aus der Wissenschaft, Psychologie und Psychotherapie sowie gemeinsam mit Betroffenen entwickelt. In einer randomisier...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Informationen: HelloBetter Panik integriert fundierte Psychoedukation zu den Themen Angst, Panikstörung und Agoraphobie. Inhaltlich basiert das therapeutische Grundkonzept auf dem psychophysiologischen Modell nach Ehlers & Margraf. Im Speziellen wird den Teilnehmenden als Erklärungsmodell der „Teufelskreis der Angst“ vermittelt, der jeweils an die individuelle Situation angepasst werden kann. Ergänzt wird weitere Psychoedukation zu Entstehungs- und aufrechterhaltenden Bedingungen der Panikstörung und Agoraphobie. - Übungen: Mit Hilfe verschiedener Übungen werden die Teilnehmenden angeregt, über ihre eigene Situation zu reflektieren, Veränderungen im Denken und Handeln zu erproben und Erlerntes in den Alltag zu übertragen. Dazu gehören u. a. wiederholte interozeptive und In-vivo-Expositionen, kognitive Umstrukturierung, Entspannungsübungen und eine Rückfallprophylaxe. - Tagebuch: Die Teilnehmenden können ein Online-Tagebuch führen, mit dem sie ihre allgemeine Stimmung sowie Anspannung und Angst festhalten können. Darüber hinaus können sie auftretende Panikattacken i. S. des Teufelskreismodells der Angst festhalten und auswerten. - Weitere Eintragungen: Innerhalb des Online-Programms werden die Teilnehmenden u. a. mittels freier Textfelder dazu motiviert, über ihre persönliche Situation, ihre Ziele, Gedanken, Gefühle und ihr Verhalten zu reflektieren. Dabei werden die Eingaben der Teilnehmenden über alle Einheiten hinweg berücksichtigt, sodass individuelle Erfahrungen während des Online-Programms gewährleistet werden können. Die Erkenntnisse sind den Teilnehmenden jederzeit zugänglich, so dass die jeweilige persönliche Entwicklungsgeschichte im Zentrum des Online-Programms steht. - Beispielpersonen: Fiktive Kurspartnerinnen und Kurspartner, an denen sich Teilnehmende orientieren können, begleiten durch das Online-Programm, veranschaulichen die Inhalte, berichten über ihre Erfahrungen und Fortschritte und dienen somit als Inspiration und Hilfestellung bei der Bearbeitung der Übungen. Diese Beispielpersonen wurden aus der klinischen Praxis mit Betroffenen heraus entwickelt und beruhen auf den Symptomen und Erfahrungen realer Personen mit Panik- und agoraphobischen Symptomen. Die Teilnehmenden können entscheiden, ob und welche Fallbeispiele sie lesen möchten. - Zwischenevaluation: In regelmäßigem Abstand können die Teilnehmenden mittels validierter Fragebögen Symptoms-Checks bzgl. ihrer angstbezogenen sowie evtl. bestehender depressiver und stressbezogener Beschwerden durchführen. So können Symptomverlauf und Therapiefortschritt beobachtet, dokumentiert und bei Bedarf mit der Hausärztin oder dem Hausarzt und/oder der Psychotherapeutin oder dem Psychotherapeuten besprochen werden. - Feedback: Nach Bearbeitung der einzelnen Kurseinheiten erhalten die Teilnehmenden werktags innerhalb von 24 Stunden eine schriftliche Rückmeldung des Programms. Jegliche Kommunikation im Rahmen dieses Sicherheitskonzepts findet auf einer nach aktuellen Datenschutzstandards verschlüsselten, webbasierten Plattform statt. Nach gelesener Rückmeldung können die Teilnehmenden mit der nächsten Kurseinheit fortfahren.",
+      "content_preview": "Informationen: HelloBetter Panik integriert fundierte Psychoedukation zu den Themen Angst, Panikstörung und Agoraphobie. Inhaltlich basiert das therapeutische Grundkonzept auf dem psychophysiologischen Modell nach Ehlers & Margraf. Im Sp...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Funktionen der digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-funktionen-der-digitale-90c70ec142:field_value",
+      "title": "Funktionen der digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Institut für Psychologie, Lehrstuhl für Klinische Psychologie und Psychotherapie, Friedrich-Alexander Universität Erlangen-Nürnberg (FAU) - Institut für Psychologie, Leuphana Universität Lüneburg - Section of Clinical Psychology, Department of Clinical, Neuro and Developmental Psychology, VU University, Amsterdam, Netherlands",
+      "content_preview": "Institut für Psychologie, Lehrstuhl für Klinische Psychologie und Psychotherapie, Friedrich-Alexander Universität Erlangen-Nürnberg (FAU) - Institut für Psychologie, Leuphana Universität Lüneburg - Section of Clinical Psychology, Departm...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-und-adresse-beteil-71b7ba97e5:field_value",
+      "title": "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
+    },
+    {
+      "content": "HelloBetter Panik basiert auf Methoden der kognitiven Verhaltenstherapie (KVT). Die zur Anwendungkommenden Grundzüge der KVT bei Panikstörung/ Agoraphobie mit Panikstörung (Psychoedukation, interozeptive Exposition, Exposition in vivo, kognitive Umstrukturierung, Rückfallprophylaxe) sind unter anderem in der folgenden Literatur näher beschrieben: - Hagena S, Gebauer M. Therapie-Tools Angststörungen. 1rst ed. Weinheim, Basel: Beltz Verlag; 2014. - Lang T, Helbig-Lang S, Westphal D, Gloster AT, Wittchen HU. Expositionsbasierte Therapie der Panikstörung mit Agoraphobie. Ein Behandlungsmanual. 2nd ed. Göttingen: Hogrefe; 2018. - Margraf J, Schneider S. Lehrbuch der Verhaltenstherapie Band 2. 4th ed. Berlin: Springer; 2018. - Teismann T, Margraf J. Exposition und Konfrontation. 1rst ed. Göttingen: Hogrefe; 2018. - Die Wirksamkeit der KVT bzw. Exposition bei Panikstörung/ Agoraphobie wurde in einer Reihe qualitätsgeprüfter Metaanalysen untersucht und belegt: - Bandelow B, Seidler-Brandler U, Becker A, Wedekind D, Rüther E. Meta-analysis of randomized controlled comparisons of psychopharmacological and psychological treatments for anxiety disorders. World J Biol Psychiatry. 2007;8(3):175-87. - Furukawa TA, Watanabe N, Churchill R. Psychotherapy plus antidepressant for panic disorder with or without agoraphobia: systematic review. Br J Psychiatry. 2006;188:305-12. - Mitte K. A meta-analysis of the efficacy of psycho- and pharmacotherapy in panic disorder with and without agoraphobia. J Affect Disord. 2005b;88(1):27-45. - Norton PJ, Price EC. A meta-analytic review of adult cognitive-behavioral treatment outcome across the anxiety disorders. J Nerv Ment Dis. 2007;195(6):521-31. - Ruhmland M, Margraf J. Effektivität psychologischer Therapien von Panik und Agoraphobie: Meta-Analysen auf Störungsebene. Verhaltenstherapie. 2001;11(1):41-53. German. - van Balkom AJ, Bakker A, Spinhoven P, Blaauw BM, Smeenk S, Ruesink B. A meta-analysis of the treatment of panic disorder with or without agoraphobia: a comparison of psychopharmacological, cognitive-behavioral, and combination treatments. J-Nerv-Ment-Dis. 1997;185(8):510-6. - Westen D, Morrison K. A multidimensional meta-analysis of treatments for depression, panic, and generalized anxiety disorder: an empirical examination of the status of empirically supported therapies. J Consult Clin Psychol. 2001;69(6):875-99. - Die KVT als Therapieform für Menschen mit Panikstörung/ Agoraphobie wird unter anderem in der folgenden Literatur empfohlen: - Bandelow B, Wiltink J, Alpers GW, Benecke C, Deckert J, Eckhardt-Henn A, et al.. Deutsche S3-Leitlinie Behandlung von Angststörungen. Langfassung. In Überarbeitung. 2014. www.awmf.org/leitlinien.html.",
+      "content_preview": "HelloBetter Panik basiert auf Methoden der kognitiven Verhaltenstherapie (KVT). Die zur Anwendungkommenden Grundzüge der KVT bei Panikstörung/ Agoraphobie mit Panikstörung (Psychoedukation, interozeptive Exposition, Exposition in vivo, k...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-literaturquellen-wie-z--8d5491f412:field_value",
+      "title": "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
+    },
+    {
+      "content": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_preview": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Beteiligung vom medizinischen Fachpersonal"
+    },
+    {
+      "content": "Ärztinnen und Ärzte können ihren Patientinnen und Patienten HelloBetter Panik empfehlen und verordnen, wenn diese an einer Panikstörung (ICD-10 F41.0) oder Agoraphobie mit Panikstörung (ICD-10 F40.01) leiden.",
+      "content_preview": "Ärztinnen und Ärzte können ihren Patientinnen und Patienten HelloBetter Panik empfehlen und verordnen, wenn diese an einer Panikstörung (ICD-10 F41.0) oder Agoraphobie mit Panikstörung (ICD-10 F40.01) leiden.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Ärztinnen/ Ärzte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Ärztinnen/ Ärzte"
+    },
+    {
+      "content": "Psychotherapeutinnen und Psychotherapeuten können ihren Patientinnen und Patienten HelloBetter Panik empfehlen und verordnen, wenn diese an einer Panikstörung (ICD-10 F41.0) oder Agoraphobie mit Panikstörung (ICD-10 F40.01) leiden.",
+      "content_preview": "Psychotherapeutinnen und Psychotherapeuten können ihren Patientinnen und Patienten HelloBetter Panik empfehlen und verordnen, wenn diese an einer Panikstörung (ICD-10 F41.0) oder Agoraphobie mit Panikstörung (ICD-10 F40.01) leiden.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Psychotherapeutinnen/ Psychotherapeuten"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Psychotherapeutinnen/ Psychotherapeuten"
+    },
+    {
+      "content": "Nein",
+      "content_preview": "Nein",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
+    },
+    {
+      "content": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfohlen wird.",
+      "content_preview": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfoh...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-6922aa5eb2:field_value",
+      "title": "Anwendungshinweise"
+    },
+    {
+      "content": "HelloBetter hat ein umfassendes Patientensicherheitskonzept entwickelt. Den Teilnehmenden wird eine persönliche, speziell für diesen Zwecke ausgebildete Begleitung zugeteilt, welche sicherstellt, dass das Online-Programm nur für seinen bestimmungsgemäßen Gebrauch verwendet wird. Die Begleitung überwacht den Fortschritt der oder des Teilnehmenden, um eventuelle Kontraindikationen erkennen und auf unerwünschte Ereignisse wie beispielsweise Suizidalität schnell reagieren und an geeignete Anlaufstellen und Hilfsangebote verweisen zu können.",
+      "content_preview": "HelloBetter hat ein umfassendes Patientensicherheitskonzept entwickelt. Den Teilnehmenden wird eine persönliche, speziell für diesen Zwecke ausgebildete Begleitung zugeteilt, welche sicherstellt, dass das Online-Programm nur für seinen b...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Hinweise für eine sichere Anwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw-13263bcc58:field_value",
+      "title": "Hinweise für eine sichere Anwendung"
+    },
+    {
+      "content": "- Patientinnen und Patienten, die im Vorfeld noch keine Psychotherapie erhalten haben. - Suizidalität Zudem darf das Online-Programm beim Vorliegen einer oder mehrerer der folgenden Punkte nur durchgeführt werden, wenn diese vonseiten der Teilnehmenden vorab hausärztlich und/oder fachärztlich sorgfältig abgeklärt und von ärztlicher Seite keine Einwände gegen die Programmteilnahme erhoben wurden. - Herz-Kreislauf-Erkrankungen (z. B. Herzrhythmusstörungen, Angina pectoris) - Krankheiten des Atmungssystems (z. B. Asthma bronchiale) - Stoffwechselerkrankungen (z. B. Hyper-/ Hypothyreose, Diabetes mellitus) - Neurologische Erkrankungen (z. B. Epilepsie, zentraler Schwindel) - Bekannte oder vermutete Schwangerschaft",
+      "content_preview": "- Patientinnen und Patienten, die im Vorfeld noch keine Psychotherapie erhalten haben. - Suizidalität Zudem darf das Online-Programm beim Vorliegen einer oder mehrerer der folgenden Punkte nur durchgeführt werden, wenn diese vonseiten de...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Weitere Ausschlusskriterien"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-weit-3d658a5f5f:field_value",
+      "title": "Weitere Ausschlusskriterien"
+    },
+    {
+      "content": "12 Wochen",
+      "content_preview": "12 Wochen",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Vom Hersteller für erforderlich gehaltene Mindestdauer"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "title": "Vom Hersteller für erforderlich gehaltene Mindestdauer"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Vom Hersteller für erforderlich gehaltene Höchstdauer"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "title": "Vom Hersteller für erforderlich gehaltene Höchstdauer"
+    },
+    {
+      "content": "HelloBetter Panik kann als interaktives Online-Programm über einen Computer, Laptop und/oder ein mobiles Endgerät mit Internetzugang genutzt werden. Zur Durchführung über einen Browser (Google Chrome, Mozilla Firefox, Edge oder Safari) wird dieser in einer jeweils aktuellen Version benötigt. Ein problemloser Betrieb mit nicht unterstützten Browsern kann nicht gewährleistet werden. Zur Nutzung des Online-Programms auf dem mobilen Endgerät empfehlen wir die HelloBetter App (ab Version 1.18.0). Die HelloBetter App unterstützt Smartphones, die über mindestens Android 9 (API Version 28 +) bzw. iOS 12.2 verfügen. Für eine optimale Nutzung wird Android 10 (API Version 29 +) bzw. iOS 13+ empfohlen.",
+      "content_preview": "HelloBetter Panik kann als interaktives Online-Programm über einen Computer, Laptop und/oder ein mobiles Endgerät mit Internetzugang genutzt werden. Zur Durchführung über einen Browser (Google Chrome, Mozilla Firefox, Edge oder Safari) w...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-komp-0b84064997:field_value",
+      "title": "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
+    },
+    {
+      "content": "Um Interoperabilität und Portabilität zu gewährleisten, arbeitet HelloBetter mit dem offenen, international anerkannten FHIR Standard (HL7 FHIR r4). Die FHIR-Profilierung wurde unter https://simplifier.net/hellobetterfordigitalhealthapplications veröffentlicht. Auf der Website der digitalen Gesundheitsanwendung sind die Angaben zur Interoperabilität unter dem Abschnitt „Produktinformationen“ zu finden. Weitere Erläuterungen finden sich auf der Interoperabilitätsseite von HelloBetter (https://hellobetter.de/interoperabilitaet/).",
+      "content_preview": "Um Interoperabilität und Portabilität zu gewährleisten, arbeitet HelloBetter mit dem offenen, international anerkannten FHIR Standard (HL7 FHIR r4). Die FHIR-Profilierung wurde unter https://simplifier.net/hellobetterfordigitalhealthappl...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Möglichkeiten von standardisiertem Datenimport und Datenexport"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-moeg-b860ee673e:field_value",
+      "title": "Möglichkeiten von standardisiertem Datenimport und Datenexport"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-anga-c3b43d0732:field_value",
+      "title": "Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen"
+    },
+    {
+      "content": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs. weitere, durch Sie selbst aufzubringende Kosten, sofern Sie bestimmte zusätzlich angebotene und von der Verschreibung nicht abgedeckte Leistungen in Anspruch nehmen möchten.",
+      "content_preview": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs....",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-429bde377d:field_value",
+      "title": "Angaben zum Preis"
+    },
+    {
+      "content": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "content_preview": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis",
+        "Preismodell"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis-6eb719186f:field_value",
+      "title": "Preismodell"
+    },
+    {
+      "content": "230,00 €",
+      "content_preview": "230,00 €",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis",
+        "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-koste-12efad84b5:field_value",
+      "title": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis",
+        "Weitere Anmerkungen zum Preismodell"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-weite-a94dbec841:field_value",
+      "title": "Weitere Anmerkungen zum Preismodell"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis",
+        "Erläuterung Mehrkosten"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-erlae-be49aad321:field_value",
+      "title": "Erläuterung Mehrkosten"
+    },
+    {
+      "content": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_preview": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Verbesserungen für Patienten können entweder medizinischer Art sein (z.B. Verringerung von Schmerzen, Beitrag zur Heilung der Erkrankung) oder den Erkennungs- und Behandlungsprozess direkt unterstützen und erleichtern (z.B. Informationen zur individuellen Erkrankungssituation, Unterstützung bei der Einhaltung der zwischen Patient und Arzt gemeinsam vereinbarten therapeutischen Maßnahmen).",
+      "content_preview": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Ve...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:informationen-zum-positiven-versorgungseffekt-253662cf50:field_value",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche Weise dies ggfs. bereits wissenschaftlich nachgewiesen wurde. Falls der positive Versorgungseffekt noch nicht abschließend nachgewiesen aber bereits so plausibel dargelegt wurde, dass die DiGA befristet zur entsprechenden Erprobung aufgenommen wurde, wird angegeben, für welchen Zeitraum dies erfolgt ist. Sofern (auch) ein Nachweis zum Erhalt der Erwerbsfähigkeit für die DiGA erbracht wurde oder eine Nachweisführung geplant ist, finden Sie hier eine Beschreibung und nähere Angaben zum Nachweis sowie zum Studiendesign. Sofern die DiGA (auch) ein diagnostisches Instrument darstellt, also mindestens in Teilen dazu vorgesehen ist, Informationen z.B. für die Erkennung oder Diagnose von Krankheitszuständen zu liefern, hat der Hersteller dies benannt und beschrieben sowie Sensitivität und Spezifität als wichtige Bewertungsgrößen angegeben.",
+      "content_preview": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche We...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Medizinischer Nutzen",
+      "content_preview": "Medizinischer Nutzen",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Angaben zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse-5449921803:field_value",
+      "title": "Angaben zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Verbesserung des Gesundheitszustands",
+      "content_preview": "Verbesserung des Gesundheitszustands",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Nähere Angaben zum medizinischen Nutzen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen--90ce965dee:field_value",
+      "title": "Nähere Angaben zum medizinischen Nutzen"
+    },
+    {
+      "content": "Der medizinische Nutzen des Online-Programms HelloBetter Panik ist eine Verringerung des Schweregrads der Paniksymptome, operationalisiert durch die Panik- und Agoraphobie-Skala (PAS; Selbstbeurteilungsversion; Bandelow et al., 1997). Im Rahmen des RCTs konnte nachgewiesen werden, dass Teilnehmende mit psychotherapeutischer Vorerfahrung nach Abschluss des Programms zum Postmesszeitpunkt, wie auch zu den Follow-up Messzeitpunkten nach 3 und 6 Monaten signifikant weniger Paniksymptome aufwiesen.",
+      "content_preview": "Der medizinische Nutzen des Online-Programms HelloBetter Panik ist eine Verringerung des Schweregrads der Paniksymptome, operationalisiert durch die Panik- und Agoraphobie-Skala (PAS; Selbstbeurteilungsversion; Bandelow et al., 1997). Im...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Beschreibung des medizinischen Nutzens"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut-a677995e79:field_value",
+      "title": "Beschreibung des medizinischen Nutzens"
+    },
+    {
+      "content": "Der Nachweis positiver Versorgungseffekte des Online-Programms HelloBetter Panik wurde im Rahmen einer randomisierten kontrollierten klinischen Studie erbracht (“Smartphonebasiertes Online-Training zur Bewältigung von Panikattacken und Agoraphobie”; Studienregistrierung: DRKS00005223). - P - Patients In diese Studie wurden 92 Personen eingeschlossen. Die untersuchte Population in der Studie waren Erwachsene, die unter Symptomen einer Panikstörung oder Agoraphobie mit Panikstörung litten (Werte auf der Panik- und Agoraphobie-Skala [PAS] zwischen 9 und 28). Teilnehmende wurden zufällig entweder der Interventions- oder Kontrollgruppe zugewiesen. - I - Intervention Teilnehmende in der Interventionsgruppe erhielten Zugang zum Online-Programm HelloBetter Panik und hatten zusätzlich uneingeschränkten Zugang zur üblichen medizinischen Versorgung. - C - Control Teilnehmende in der Kontrollgruppe hatten Zugang zur üblichen medizinischen Versorgung. Nach der letzten Erhebung (6 Monate nach Randomisierung) erhielten die Teilnehmenden der Kontrollgruppe ebenfalls Zugang zu HelloBetter Panik. - O - Outcomes Hinsichtlich des primären Endpunktes zeigte sich zum Post-Messzeitpunkt 8 Wochen nach Randomisierung für Patientinnen und Patienten mit psychotherapeutischer Vorerfahrung im Vergleich zur Kontrollgruppe ein signifikant geringerer Schweregrad der Paniksymptome gemessen mit der Panik- und Agoraphobieskala (PAS, Mittelwertdifferenz [MD] = 3,84; Cohen’s d = 0,49). Dieser Effekt wurde zum 3-Monats Follow-up noch stärker (MD = 4,75; d = 0,65) und hielt sich konstant zum Follow-up II nach 6 Monaten (MD = 4,71; d = 0,61). Weiterhin lagen signifikante Zwischengruppeneffekte hinsichtlich sekundärer Endpunkte vor. Zum Post-Messzeitpunkt und zum Follow-up I lag in der Interventionsgruppe eine signifikant geringe Ausprägung agoraphobischer Kognitionen verglichen mit der Kontrollgruppe vor. Ferner zeigte sich in der Interventionsgruppe verglichen zur Kontrollgruppe eine signifikant geringere Ausprägung der Angst vor körperlichen Symptomen zu allen drei Messzeitpunkten.",
+      "content_preview": "Der Nachweis positiver Versorgungseffekte des Online-Programms HelloBetter Panik wurde im Rahmen einer randomisierten kontrollierten klinischen Studie erbracht (“Smartphonebasiertes Online-Training zur Bewältigung von Panikattacken und A...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Studie/n im PICO-Schema"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema-2cb668dadb:field_value",
+      "title": "Studie/n im PICO-Schema"
+    },
+    {
+      "content": "Die Wirksamkeit und Sicherheit von HelloBetter Panik wurde im Rahmen einer randomisierten kontrollierten klinischen Studie untersucht. Die Studie wurde im Deutschen Register Klinischer Studien (DRKS) prä-spezifiziert und registriert: DRKS00005223. Das primäre Ziel der Studie war es, die Wirksamkeit des Online-Programms HelloBetter Panik zur Behandlung von Panikstörung und Agoraphobie mit Panikstörung im Vergleich zu einer Wartelistenkontrollgruppe mit Zugang zur Regelversorgung (TAU; treatment-as-usual) hinsichtlich des Schweregrades der Paniksymptome zu untersuchen. - Bei der Studie handelt es sich um eine zweiarmige randomisierte kontrollierte Studie mit parallelem Design und einer Wartelistenkontrollgruppe. Die Teilnehmenden der Interventionsgruppe erhielten Zugang zum Online-Programm HelloBetter Panik. Die Kontrollgruppe erhielt nach der letzten Erhebung (6 Monate nach Randomisierung) Zugang zu dem Programm. Außerdem hatten beide Studiengruppen Zugang zur Regelversorgung. - In die Studie wurden 92 Patientinnen und Patienten eingeschlossen. Die untersuchte Population in der Studie waren Erwachsene, die unter Symptomen einer Panikstörung (ICD-10 F41.0) oder einer Agoraphobie mit Panikstörung (ICD-10 F40.01) litten (Werte auf der Panik- und Agoraphobie-Skala [PAS] zwischen 9 und 28). - Als primärer Endpunkt wurde der Schweregrad der Panikstörung und Agoraphobie mit Panikstörung, operationalisiert durch die Panik- und Agoraphobie-Skala (PAS; Selbstbeurteilungsversion), erfasst. - Die Erhebungen erfolgten zum Baseline-Messzeitpunkt, zum Post-Messzeitpunkt (8 Wochen nach Randomisierung) und zu zwei Follow-up-Messungen, die 3 und 6 Monate nach Randomisierung stattfanden. - Ergebnisse: Hinsichtlich des primären Endpunktes zeigte sich zum Post-Messzeitpunkt 8 Wochen nach Randomisierung für Patientinnen und Patienten mit psychotherapeutischer Vorerfahrung im Vergleich zur Kontrollgruppe ein signifikant geringerer Schweregrad der Paniksymptome gemessen mit der Panik- und Agoraphobieskala (PAS, Mittelwertdifferenz [MD] = 3,84; Cohen’s d = 0,49). Dieser Effekt wurde zum 3-Monats Follow-up noch stärker (MD = 4,75; d = 0,65) und hielt sich konstant zum Follow-up II nach 6 Monaten (MD = 4,71; d = 0,61). Weiterhin lagen signifikante Zwischengruppeneffekte hinsichtlich sekundärer Endpunkte vor. Zum Post-Messzeitpunkt und zum Follow-up I lag in der Interventionsgruppe eine signifikant geringe Ausprägung agoraphobischer Kognitionen verglichen mit der Kontrollgruppe vor. Ferner zeigte sich in der Interventionsgruppe verglichen zur Kontrollgruppe eine signifikant geringere Ausprägung der Angst vor körperlichen Symptomen zu allen drei Messzeitpunkten.",
+      "content_preview": "Die Wirksamkeit und Sicherheit von HelloBetter Panik wurde im Rahmen einer randomisierten kontrollierten klinischen Studie untersucht. Die Studie wurde im Deutschen Register Klinischer Studien (DRKS) prä-spezifiziert und registriert: DRK...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u-804896bae6:field_value",
+      "title": "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
+    },
+    {
+      "content": "Veröffentlichung des Studienberichts über DRKS Registrierung: DRKS [Internet]. DRKS-ID der Studie: DRKS00005223 [cited 2021 Nov 11]. Available from: https://www.drks.de/drks_web/navigate.do?navigationId=trial.HTML&TRIAL_ID=DRKS00005223 - Wirksamkeitspublikation: Ebenfeld, L., Lehr, D., Ebert, D. D., Stegemann, S. K., Riper, H., Funk, B., & Berking, M. (2021). Evaluating a hybrid web-based training program for panic disorder and agoraphobia: randomized controlled trial. Journal of medical Internet research, 23(3). doi: 10.2196/20829.",
+      "content_preview": "Veröffentlichung des Studienberichts über DRKS Registrierung: DRKS [Internet]. DRKS-ID der Studie: DRKS00005223 [cited 2021 Nov 11]. Available from: https://www.drks.de/drks_web/navigate.do?navigationId=trial.HTML&TRIAL_ID=DRKS00005223 -...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Dies ist/sind die vom Hersteller angeführten Studie/n:"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:informationen-zum-positiven-versorgungseffekt-dies-ist-sind-die-vom-hersteller-a-81dc280904:field_value",
+      "title": "Dies ist/sind die vom Hersteller angeführten Studie/n:"
+    },
+    {
+      "content": "Nein",
+      "content_preview": "Nein",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Die DiGA enthält ein diagnostisches Instrument"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch-eded43f154:field_value",
+      "title": "Die DiGA enthält ein diagnostisches Instrument"
+    },
+    {
+      "content": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird. Die Anforderungen an die Datensicherheit werden durch Vorlage eines Zertifikats gemäß § 139e Absatz 10 Fünftes Buch Sozialgesetzbuch nachgewiesen. Detaillierte Informationen zu den einzelnen Anforderungen können Sie auf der Webseite des Bundesamts für Sicherheit in der Informationstechnik unter der Technischen Richtlinie \"BSI TR-03161\" finden: https://www.bsi.bund.de/dok/TR-03161 Bis zur Vorlage des Zertifikats gelten für den Bereich Datensicherheit die Anforderungen der nachfolgend dargestellten Checkliste.",
+      "content_preview": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen v...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:field_value",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine technische Möglichkeit einer Verknüpfung oder eines Datenaustauschs mit anderen digitalen Gesundheitsanwendungen. Trifft nicht zu Die digitale Gesundheitsanwendung unterstützt keine Offenbarung von Informationen der betroffenen Person oder über die betroffene Person für die Öffentlichkeit oder eine für die betroffene Person nicht eingrenzbare Personengruppe.",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutref...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit",
+        "Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:informationen-zu-datenschutz-und-datensicherheit-datensicherheit-14af255f91:field_value",
+      "title": "Datensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung greift weder auf Sensoren eines mobilen Endgeräts noch auf externe Hardware zu. Trifft nicht zu Die digitale Gesundheitsanwendung tauscht keine Daten mit externer Hardware aus. Zutreffend Zutreffend Zutreffend Nein",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutref...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der medizinischen Inhalte und die Gewährleistung der Patientensicherheit.",
+      "content_preview": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der me...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-afe954d9f8:field_value",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_preview": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Interoperabilität"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-angaben-zur-interoperabilitaet-8867f27412:field_value",
+      "title": "Angaben zur Interoperabilität"
+    },
+    {
+      "content": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versicherten getragenen Sensoren zur Messung und Übertragung von Vitalwerten (Wearables) austauscht. Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versiche...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Robustheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-angaben-zur-robustheit-0a511476df:field_value",
+      "title": "Angaben zur Robustheit"
+    },
+    {
+      "content": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
+      "content_preview": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digi...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zum Verbraucherschutz"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-angaben-zum-verbraucherschutz-05cd17969e:field_value",
+      "title": "Angaben zum Verbraucherschutz"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit-8fe873c531:field_value",
+      "title": "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Unterstützung der Leistungserbringende"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-unterstuetzung-der-leistungserbringende-d4e78dfd75:field_value",
+      "title": "Unterstützung der Leistungserbringende"
+    },
+    {
+      "content": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen.",
+      "content_preview": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Triff...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Qualität der medizinischen Inhalte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte-a6d05ceeb6:field_value",
+      "title": "Angaben zur Qualität der medizinischen Inhalte"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Patientensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-angaben-zur-patientensicherheit-7a67651ccd:field_value",
+      "title": "Angaben zur Patientensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01513:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    }
+  ],
+  "diga_id": "01513",
+  "name": "HelloBetter Panik",
+  "rendered_structure_metadata": {
+    "accordions_opened": 0,
+    "content_section_count": 75,
+    "field_value_count": 57,
+    "rendered_at": "2026-06-22T19:10:17.150994+00:00",
+    "source_kind": "visible_directory"
+  },
+  "source_kind": "visible_directory",
+  "timestamp": "20260622T190144Z",
+  "url": "https://diga.bfarm.de/de/verzeichnis/01513"
+}

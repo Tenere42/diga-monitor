@@ -1,0 +1,933 @@
+{
+  "content_sections": [
+    {
+      "content": "vorvida ist eine digitale Gesundheitsanwendung für Patienten mit schädlichem Alkoholkonsum oder Alkoholabhängigkeit, die mindestens 18 Jahre alt sind. vorvida verfolgt das Ziel, diese Patienten beim Management ihres gesundheitsschädlichen Trinkverhaltens zu unterstützen und die Trinkmenge zu reduzieren. Das Programm soll in Ergänzung zu einer sonst üblichen Behandlung (zum Beispiel beim Haus- oder Facharzt) eingesetzt werden. vorvida basiert auf etablierten psychotherapeutischen Ansätzen und Verfahren insbesondere der kognitiven Verhaltenstherapie (KVT). vorvida ist zur Eigenanwendung durch den Patienten für 180 Tage bestimmt. Die Wirksamkeit von vorvida wurde in einer klinischen Studie untersucht und in einer wissenschaftlichen Fachzeitschrift veröffentlicht. An dieser Studie nahmen 608 Patienten mit schädlichem oder gefährlichem Alkoholgebrauch (Abhängigkeitssyndrom) teil. In dieser Studie zeigte sich, dass bei Patienten, die zusätzlich zu einer sonst üblichen Behandlung vorvida nutzten, der Alkoholkonsum deutlich stärker abgenommen hatte als bei Patienten, die nur eine sonst übliche Behandlung erhielten. Die Verordnungsdauer von vorvida beträgt 90 Tage. Zur Stabilisierung der Effekte ist eine Nutzung für 180 Tage empfohlen.",
+      "content_preview": "vorvida ist eine digitale Gesundheitsanwendung für Patienten mit schädlichem Alkoholkonsum oder Alkoholabhängigkeit, die mindestens 18 Jahre alt sind. vorvida verfolgt das Ziel, diese Patienten beim Management ihres gesundheitsschädliche...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "gaia-group.com/de/"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:gaia-group-com-de-8c79d17e94:field_value",
+      "title": "gaia-group.com/de/"
+    },
+    {
+      "content": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_preview": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:field_value",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_preview": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "vorvida",
+      "content_preview": "vorvida",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Name der DiGA im DiGA-Verzeichnis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v-132a49921b:field_value",
+      "title": "Name der DiGA im DiGA-Verzeichnis"
+    },
+    {
+      "content": "06.05.2021",
+      "content_preview": "06.05.2021",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Erstmalige Aufnahme in das DiGA-Verzeichnis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in--0901792b12:field_value",
+      "title": "Erstmalige Aufnahme in das DiGA-Verzeichnis"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Modul"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-modul-0b2f60dd90:field_value",
+      "title": "Modul"
+    },
+    {
+      "content": "Browserbasierte Webanwendung",
+      "content_preview": "Browserbasierte Webanwendung",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Art der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga-f41af95c79:field_value",
+      "title": "Art der DiGA"
+    },
+    {
+      "content": "als browserbasierte Webanwendung",
+      "content_preview": "als browserbasierte Webanwendung",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Die digitale Gesundheitsanwendung ist verfügbar"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit-70a197df25:field_value",
+      "title": "Die digitale Gesundheitsanwendung ist verfügbar"
+    },
+    {
+      "content": "Deutschland",
+      "content_preview": "Deutschland",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Standorte der Datenverarbeitung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera-426183d1fc:field_value",
+      "title": "Standorte der Datenverarbeitung"
+    },
+    {
+      "content": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an • Sicherheit und Funktionstauglichkeit des Medizinproduktes • Datenschutz und Datensicherheit nach dem Stand der Technik • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Gesundheitsanwendung-Verordnung (DiGAV) als erfüllt.",
+      "content_preview": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an • Sicherheit und Funktionstauglichkeit des Medizinproduktes • Datenschutz und Datensicherheit nach dem Stand der T...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Bewertungsentscheidung des BfArM"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung--cdc10aad7c:field_value",
+      "title": "Bewertungsentscheidung des BfArM"
+    },
+    {
+      "content": "Der Hersteller hat bestätigt, dass keine personenbezogenen Daten in ein Land ohne Angemessenheitsbeschluss, wie nach dem Urteil „Schrems II“ den USA, fließen. Die postulierten positiven Versorgungseffekte Verbesserung des Gesundheitszustands und Patientensouveränität wurden mit der Studie „Vorvida – webbasiertes Selbsthilfeprogramm zur Reduktion des Alkoholkonsums: Eine randomisiert-kontrollierte Wirksamkeitsstudie“ nachgewiesen. Der Alkoholkonsum der Interventionsgruppe, erhoben mittels validierten und etablierten Selbstbeurteilungsfragebögen [Quantity-Frequency-Index (Mengenangaben in Alkohol in g) in den letzten 30 Tagen / Timeline-Follow-Back (Mengenangaben in Alkohol in g) in den letzten 7 Tagen], reduzierte sich innerhalb von drei und sechs Monaten signifikant gegenüber der Kontrollgruppe. Der Kontrollgruppe konnte während der Interventionszeit der Versorgungsrealität entsprechend Behandlungen in Anspruch nehmen und bekam nach sechs Monaten Zugang zur DiGA. Die Patientensouveränität wurde mittels Alkoholabstinenz-Selbstwirksamkeitsfragebogen (AASE-G) als sekundärer Endpunkt in der genannten Studie betrachtet und lieferte ebenfalls signifikante Ergebnisse für die Interventionsgruppe zu den gleichen Erhebungszeitpunkten. In der Publikation zum medizinischen Nutzen dieser Studie (Zill et al. Dtsch Arztebl Int 2019; 116: 127–33) aus dem Jahr 2019 werden verschiedene Limitationen der Studie diskutiert, die das BfArM im Rahmen des Antragsverfahrens bewertet und den Hersteller der DiGA, sowie die Studienleitung der besagten Studie zur Stellungnahme aufgefordert hat. Im Ergebnis der Bewertung stellen die im Artikel genannten Limitationen aus Sicht des BfArM keinen Hinderungsgrund für eine endgültige Aufnahme der DiGA in das Verzeichnis dar. Entsprechend bewertet das BfArM die in §139e SGB V sowie in der DiGAV festgelegten Voraussetzungen zur Aufnahme in das Verzeichnis nach §139e Abs. 1 SGB V als erfüllt.",
+      "content_preview": "Der Hersteller hat bestätigt, dass keine personenbezogenen Daten in ein Land ohne Angemessenheitsbeschluss, wie nach dem Urteil „Schrems II“ den USA, fließen. Die postulierten positiven Versorgungseffekte Verbesserung des Gesundheitszust...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_preview": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Angaben zum Medizinprodukt"
+    },
+    {
+      "content": "vorvida ist dafür bestimmt, therapeutische Techniken und Übungen anzubieten, die auf evidenzbasierten psychologisch-psychotherapeutischen Therapieverfahren beruhen und die für Patienten mit schädlichem Alkoholkonsum oder Alkoholabhängigkeit geeignet sind, sie beim Management ihres gesundheitsschädlichen Trinkverhaltens zu unterstützen.",
+      "content_preview": "vorvida ist dafür bestimmt, therapeutische Techniken und Übungen anzubieten, die auf evidenzbasierten psychologisch-psychotherapeutischen Therapieverfahren beruhen und die für Patienten mit schädlichem Alkoholkonsum oder Alkoholabhängigk...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "Medizinische Zweckbestimmung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Medizinische Zweckbestimmung"
+    },
+    {
+      "content": "vorvida ist zur eigenständigen Nutzung von Patienten bestimmt, die mindestens 18 Jahre alt sind. vorvida ist weder dafür bestimmt, Behandlungen durch einen Leistungserbringer im Gesundheitswesen zu ersetzen noch dafür bestimmt, Informationen für diagnostische oder therapeutische Entscheidungen zu liefern.",
+      "content_preview": "vorvida ist zur eigenständigen Nutzung von Patienten bestimmt, die mindestens 18 Jahre alt sind. vorvida ist weder dafür bestimmt, Behandlungen durch einen Leistungserbringer im Gesundheitswesen zu ersetzen noch dafür bestimmt, Informati...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Risikoklasse I nach MDR",
+      "content_preview": "Risikoklasse I nach MDR",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Risikoklasse Medizinprodukt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-risikoklasse-medizinpro-f524843e03:field_value",
+      "title": "Risikoklasse Medizinprodukt"
+    },
+    {
+      "content": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_preview": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Weitere Informationen zur DiGA"
+    },
+    {
+      "content": "vorvida ist eine digitale Gesundheitsanwendung für Menschen mit schädlichem und gefährlichem Alkoholgebrauch bzw. Abhängigkeitssyndrom, die mindestens 18 Jahre alt sind. vorvida verfolgt das Ziel, den schädlichen bzw. gefährlichen Gebrauch von Alkohol zu reduzieren, Selbstwirksamkeit zu erhöhen und Rückfälle zu vermeiden. Das Programm soll in Ergänzung zu einer sonst üblichen Behandlung (zum Beispiel beim Haus- oder Facharzt) eingesetzt werden. vorvida basiert auf etablierten psychotherapeutischen Ansätzen und Verfahren, insbesondere der kognitiven Verhaltenstherapie (KVT). - vorvida weist folgende Struktur auf: In vier Modulen wird jeweils auf einen der folgenden Schwerpunkte fokussiert: • Motivation zur Veränderung (Vor- und Nachteile des Alkoholkonsums, Aufklärung), • Umgang mit Suchtdruck (cognitive reframing), • Umgang mit Risikosituationen (Techniken zu Ablenkung, Problemlösung und Imagination der Konfrontation), • Umgang mit Rückfällen und Zusammenfassung der Module. - Zunächst werden die Zielsetzung und wesentliche Funktionen des Programms erläutert. Daraufhin vermittelt das Programm folgende Inhalte: • Alternative Aktivitäten. Das Programm schlägt dem Nutzer Aktivitäten und Verhaltensweisen für ein Leben ohne Alkohol vor und motiviert dazu, diese regelmäßig umzusetzen. • Zusammenhang zwischen der eigenen Aufmerksamkeit und dem schädlichen bzw. Suchtverhalten. Das Programm ermutigt den Nutzer dazu, ein Tagebuch über sein Verhalten/Symptome zu führen. • Grundlagen der kognitiven Verhaltenstherapie. Darüber hinaus wird auf die Bedeutung von Selbstbeobachtung und Zielsetzung eingegangen und empfohlen, ein „Logbuch“ über eine Woche zu führen. • Stressmanagement. Es wird mit dem Nutzer erarbeitet, welche konkreten Situationen zu Stress führen und welche Techniken es auf Basis der kognitiven Verhaltenstherapie gibt, mit Stress besser umzugehen. • Umgang mit nicht-hilfreichen Gedanken. vorvida erläutert, wie man nicht-hilfreiche Gedanken erkennt, sich von ihnen distanzieren und durch hilfreichere andere Gedanken ersetzen kann. • Soziale Unterstützung. Es vermittelt Ansätze, das eigene soziale Netzwerk besser zu verstehen und Möglichkeiten zu prüfen, inwieweit dieses Netzwerk einen selbst unterstützen kann. vorvida kann innerhalb eines Zeitraums von 180 Tagen nach erstmaliger Registrierung genutzt werden.",
+      "content_preview": "vorvida ist eine digitale Gesundheitsanwendung für Menschen mit schädlichem und gefährlichem Alkoholgebrauch bzw. Abhängigkeitssyndrom, die mindestens 18 Jahre alt sind. vorvida verfolgt das Ziel, den schädlichen bzw. gefährlichen Gebrau...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "vorvida weist eine Haupt- und mehrere unterstützende Nebenfunktionen auf. Die Hauptfunktion besteht in einem virtuellen Dialog. Das bedeutet, dass vorvida dem Nutzer kurze therapeutisch hilfreiche Informationen anbietet und der Nutzer dann aus einer festgelegten Anzahl von vorgegebenen Antwortmöglichkeiten diejenige auswählt, die ihn/sie am meisten interessiert und/oder am besten zur individuellen Situation passt. vorvida geht dann auf diese Antwortmöglichkeit empathisch ein und vermittelt nachfolgend die nächste Information, auf die der Nutzer dann wiederum reagieren kann usw. Auf diese Weise entsteht eine Dynamik, die dem Gespräch mit einem Arzt oder Therapeuten nachempfunden ist. Der Nutzer kann vorvida zu jeder Zeit unterbrechen und dann an der Stelle fortfahren, an der er/sie das Programm verlassen hat. Nutzer werden regelmäßig daran erinnert, Pausen einzulegen. vorvida verfügt über eine Reihe weiterer Funktionen. Hierzu gehören: • Kurze Textnachrichten als SMS (optional) oder per E-Mail, die wesentliche therapeutische Inhalte kurz und prägnant wiederholen oder zur weiteren Nutzung von vorvida motivieren. • Möglichkeit der Selbstüberprüfung im Hinblick auf die eigene Aufmerksamkeit gegenüber dem eigenen Konsumverhalten. • Arbeitsblätter und Zusammenfassungen (PDF) zur Unterstützung der Umsetzung der Übungen und zum Wiederholen wichtiger Inhalte, die heruntergeladen werden können. • Audios zur Anleitung therapeutischer Übungen oder zur näheren Erläuterung bestimmter Inhalte.",
+      "content_preview": "vorvida weist eine Haupt- und mehrere unterstützende Nebenfunktionen auf. Die Hauptfunktion besteht in einem virtuellen Dialog. Das bedeutet, dass vorvida dem Nutzer kurze therapeutisch hilfreiche Informationen anbietet und der Nutzer da...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Funktionen der digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Funktionen der digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Institut und Poliklinik für Medizinische Psychologie, Universitätsklinikum Hamburg-Eppendorf, Martinistraße 52, 20246, Hamburg",
+      "content_preview": "Institut und Poliklinik für Medizinische Psychologie, Universitätsklinikum Hamburg-Eppendorf, Martinistraße 52, 20246, Hamburg",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
+    },
+    {
+      "content": "Miller, W. R. (1992). Motivational enhancement therapy manual: A clinical research guide for therapists treating individuals with alcohol abuse and dependence (Vol. 2). US Department of Health and Human Services, Public Health Service, Alcohol, Drug Abuse, and Mental Health Administration, National Institute on Alcohol Abuse and Alcoholism. S3-Leitlinie Screening, Diagnose und Behandlung alkoholbezogener Störungen (2016) Mann K., Hoch E., Batra A. (Hrsg.) Kurzintervention bei Patienten mit Alkoholproblemen (2016); BZgA (Hrsg); Auflage: 1.10.06.09 Miller, W. R., & Rollnick, S. (2012). Motivational interviewing: Helping people change. Guilford press. Sobell, L. C., & Sobell, M. B. (2003). Cognitive and Behavioral Practice, 10(3), 214-221. Prochaska, J. O., DiClemente, C. C., & Norcross, J. C. (1993). Addictions Nursing Network, 5(1), 2-16. DiClemente, C. C., Bellino, L. E., & Neavins, T. M. (1999). Motivation for change and alcoholism treatment. Alcohol Research & Health: The Journal of the National Institute on Alcohol Abuse and Alcoholism, 23(2), 86-92. Lindenmeyer, J. (1999). Alkoholabhängigkeit. Hogrefe Verlag. Soyka, M. (2013). Alkoholabhängigkeit: Grundlagen und Therapie. Springer-Verlag. Schuckit, M. A. (2009). The Lancet, 373(9662), 492-501. Kadden, R. (1995). Cognitive-behavioral coping skills therapy manual: A clinical research guide for therapists treating individuals with alcohol abuse and dependence (No. 94). US Department of Health and Human Services, Public Health Service, National Institutes of Health, National Institute on Alcohol Abuse and Alcoholism. O’Donohue, W. T., Fisher, J. E., & Hayes, S. C. (Eds.). (2004). Cognitive behavior therapy: Applying empirically supported techniques in your practice. John Wiley & Sons. Parks, G. A., Marlatt, G. A., & Anderson, B. K. (2004). Cognitive-behavioral alcohol treatment. The essential handbook of treatment and prevention of alcohol problems, 69. Marlatt, G. A., & Witkiewitz, K. (2002). Addictive behaviors, 27(6), 867-886. Ostafin, B. D., & Marlatt, G. A. (2008). Surfing the urge: Experiential acceptance moderates the relation between automatic alcohol motivation and hazardous drinking. Journal of Social and Clinical Psychology, 27(4), 404-418. Ciarrochi, J., & Bailey, A. (2008). A CBT-practitioner’s guide to ACT: How to bridge the gap between cognitive behavioral therapy and acceptance and commitment therapy. New Harbinger Publications. Andrade, J., May, J., & Kavanagh, D. (2012). Journal of Experimental Psychopathology, 3(2), 127-145. Monti, P. M. (Ed.). (2002). Treating alcohol dependence: A coping skills training guide. Guilford Press. Longabaugh, R., & Morgenstern, J. (1999). Alcohol Research & Health, 23(2), 78. D’Zurilla, T. J., & Nezu, A. M. (2010). Problem-solving therapy. Handbook of cognitive-behavioral therapies, 3, 197-225. Monti, P. M., Abrams, D. B., Binkoff, J. A., Zwick, W. R., Liepman, M. R., Nirenberg, T. D., & Rohsenow, D. J. (1990). Journal of studies on alcohol, 51(3), 263-270. Marlatt, G. A., & Witkiewitz, K. (2005). Relapse Prevention for Alcohol and Drug Problems. In G. A. Marlatt & D. M. Donovan (Eds.), Relapse prevention: Maintenance strategies in the treatment of addictive behaviors (p. 1–44). The Guilford Press. Dimeff, L. A., & Marlatt, G. A. (1998). Clinical Psychology: Science and Practice, 5(4), 513-525. Larimer, M. E., Palmer, R. S., & Marlatt, G. A. (1999). Alcohol Research & Health, 23(2), 151. Witkiewitz, K., Marlatt, G. A., & Walker, D. (2005). Journal of cognitive psychotherapy, 19(3), 211-228. Heffner, M., Eifert, G. H., Parker, B. T., Hernandez, D. H., & Sperry, J. A. (2003). Cognitive and Behavioral Practice, 10(4), 378-383. Monti, P. M., & Rohsenow, D. J. (1999). Alcohol Research & Health, 23(2), 107. Mann, T., De Ridder, D., & Fujita, K. (2013). Health Psychology, 32(5), 487.",
+      "content_preview": "Miller, W. R. (1992). Motivational enhancement therapy manual: A clinical research guide for therapists treating individuals with alcohol abuse and dependence (Vol. 2). US Department of Health and Human Services, Public Health Service, A...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
+    },
+    {
+      "content": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_preview": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Beteiligung vom medizinischen Fachpersonal"
+    },
+    {
+      "content": "Diagnosestellung, Information und Aufklärungsgespräch über vorvida, Verordnung von vorvida, Follow-up im Rahmen der üblichen Therapie, wie zum Beispiel: Frage nach Verlauf der Beschwerden; Nachfrage, ob der Patient das Programm als hilfreich empfunden hat; Motivation zur weiteren Therapienutzung (Adhärenz).",
+      "content_preview": "Diagnosestellung, Information und Aufklärungsgespräch über vorvida, Verordnung von vorvida, Follow-up im Rahmen der üblichen Therapie, wie zum Beispiel: Frage nach Verlauf der Beschwerden; Nachfrage, ob der Patient das Programm als hilfr...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Ärztinnen/ Ärzte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Ärztinnen/ Ärzte"
+    },
+    {
+      "content": "Diagnosestellung, Information und Aufklärungsgespräch über vorvida, Verordnung von vorvida, Follow-up im Rahmen der üblichen Therapie, wie zum Beispiel: Frage nach Verlauf der Beschwerden; Nachfrage, ob der Patient das Programm als hilfreich empfunden hat; Motivation zur weiteren Therapienutzung (Adhärenz).",
+      "content_preview": "Diagnosestellung, Information und Aufklärungsgespräch über vorvida, Verordnung von vorvida, Follow-up im Rahmen der üblichen Therapie, wie zum Beispiel: Frage nach Verlauf der Beschwerden; Nachfrage, ob der Patient das Programm als hilfr...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Psychotherapeutinnen/ Psychotherapeuten"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Psychotherapeutinnen/ Psychotherapeuten"
+    },
+    {
+      "content": "Nein",
+      "content_preview": "Nein",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
+    },
+    {
+      "content": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfohlen wird.",
+      "content_preview": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfoh...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-6922aa5eb2:field_value",
+      "title": "Anwendungshinweise"
+    },
+    {
+      "content": "Gemäß der Zweckbestimmung sollte das Produkt nur bei Patienten mit riskantem Alkoholkonsum und Alkoholmissbrauch oder –abhängigkeit angewendet werden, die mindestens 18 Jahre alt sind. Ferner sollte vorvida nur ergänzend zu der sonst üblichen Therapie eingesetzt werden. Eine Änderung bestehender Medikationen und/oder Behandlungen darf nicht ohne Rücksprache mit dem Arzt/ Psychotherapeuten erfolgen. Patienten sollten ihren Arzt oder Psychotherapeuten kontaktieren, wenn sich ihr Befinden oder ihre Stimmung längere Zeit (mehrere Tage/Wochen) nicht bessern oder sich akut verschlechtern sollte. Sollten Gedanken, sich das Leben zu nehmen oder sich Leid zuzufügen, auftreten, wird empfohlen, umgehend einen Arzt oder Psychotherapeuten aufzusuchen. vorvida sollte bei Vorliegen von psychotischen Störungen (z. B. Schizophrenie) oder bei suizidalem Risiko nicht angewendet werden. Erklärung: Ein suizidales Risiko liegt vor, wenn ein Patient in den letzten 90 Tagen die ernsthafte Absicht hatte, sich das Leben zu nehmen (unabhängig davon, ob ein konkreter Plan zur Umsetzung vorlag). Ein Risiko besteht auch, wenn ein Patient in den letzten 12 Monaten versucht hat, sich das Leben zu nehmen.",
+      "content_preview": "Gemäß der Zweckbestimmung sollte das Produkt nur bei Patienten mit riskantem Alkoholkonsum und Alkoholmissbrauch oder –abhängigkeit angewendet werden, die mindestens 18 Jahre alt sind. Ferner sollte vorvida nur ergänzend zu der sonst übl...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Hinweise für eine sichere Anwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw-13263bcc58:field_value",
+      "title": "Hinweise für eine sichere Anwendung"
+    },
+    {
+      "content": "Weitere Ausschlusskriterien sind die Nicht-Verfügbarkeit eines internetfähigen Endgerätes sowie keine ausreichenden Sprachkenntnisse in Deutsch oder Englisch.",
+      "content_preview": "Weitere Ausschlusskriterien sind die Nicht-Verfügbarkeit eines internetfähigen Endgerätes sowie keine ausreichenden Sprachkenntnisse in Deutsch oder Englisch.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Weitere Ausschlusskriterien"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-weit-3d658a5f5f:field_value",
+      "title": "Weitere Ausschlusskriterien"
+    },
+    {
+      "content": "vorvida sollte für einen Zeitraum von mindestens 90 Tagen genutzt werden.",
+      "content_preview": "vorvida sollte für einen Zeitraum von mindestens 90 Tagen genutzt werden.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Vom Hersteller für erforderlich gehaltene Mindestdauer"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "title": "Vom Hersteller für erforderlich gehaltene Mindestdauer"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Vom Hersteller für erforderlich gehaltene Höchstdauer"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "title": "Vom Hersteller für erforderlich gehaltene Höchstdauer"
+    },
+    {
+      "content": "Die Nutzungsdauer von vorvida wird neben dem klinischen Zustand des Patienten von weiteren individuellen Eigenschaften (z. B. Vorerfahrungen mit kognitiver Verhaltenstherapie, persönlicher Nutzen zum Beispiel durch die Umsetzung von Empfehlungen aus dem Programm) abhängen. Aus Herstellersicht würde nichts gegen eine tägliche Nutzung sprechen. Die empfohlene Nutzung von vorvida beträgt ein- bis zweimal wöchentlich für jeweils mindestens eine halbe Stunde.",
+      "content_preview": "Die Nutzungsdauer von vorvida wird neben dem klinischen Zustand des Patienten von weiteren individuellen Eigenschaften (z. B. Vorerfahrungen mit kognitiver Verhaltenstherapie, persönlicher Nutzen zum Beispiel durch die Umsetzung von Empf...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "vorvida ist eine webbasierte Applikation. Zur Nutzung werden ein Internetfähiges Endgerät, ein Internetzugang sowie ein aktueller Browser benötigt (Chrome, Edge, Mozilla, Safari). Weiterhin werden eine E-Mail-Adresse und optional eine Mobilnummer für den SMS-Service benötigt. Die aktuellen Browserversionen finden sich auf der Produktwebseite https://vorvida.de/ im Abschnitt \"Kompatibilitätszusagen Browser/ Nutzungsvoraussetzungen\". Wir empfehlen zudem eine minimale (logische) Auflösung von 320 x 568 Pixel und für die Audios eine Bandbreite von 192 kBit/s.",
+      "content_preview": "vorvida ist eine webbasierte Applikation. Zur Nutzung werden ein Internetfähiges Endgerät, ein Internetzugang sowie ein aktueller Browser benötigt (Chrome, Edge, Mozilla, Safari). Weiterhin werden eine E-Mail-Adresse und optional eine Mo...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-kompatibilitaetszusagen-2e7efe3e1b:field_value",
+      "title": "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
+    },
+    {
+      "content": "Zur Herstellung von Datenportabilität und semantischer und technischer Interoperabilität wird als Standard HL7® FHIR® (https://www.hl7.org/fhir/) mit dem MIO DiGA Toolkit in der Version 1.1.0 verwendet. Unter dem Menüpunkt “Persönliche Daten” sehen Nutzerinnen und Nutzer einen Überblick über die von ihnen bearbeiteten Inhalte und den Verlauf ihrer Selbsteinschätzung mittels der Skalen zur Selbsteinschätzung (z. B. zum Alkoholkonsum). Diese Daten können über einen Button “PDF erstellen” als menschenlesbares Format exportiert werden. Die DiGA ermöglicht zudem auf Wunsch des Versicherten einen manuellen oder automatisierten Export in die elektronische Patientenakte (ePA) Version 3.0.",
+      "content_preview": "Zur Herstellung von Datenportabilität und semantischer und technischer Interoperabilität wird als Standard HL7® FHIR® (https://www.hl7.org/fhir/) mit dem MIO DiGA Toolkit in der Version 1.1.0 verwendet. Unter dem Menüpunkt “Persönliche D...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Möglichkeiten von standardisiertem Datenimport und Datenexport"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-moeglichkeiten-von-stan-a818cc9f27:field_value",
+      "title": "Möglichkeiten von standardisiertem Datenimport und Datenexport"
+    },
+    {
+      "content": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs. weitere, durch Sie selbst aufzubringende Kosten, sofern Sie bestimmte zusätzlich angebotene und von der Verschreibung nicht abgedeckte Leistungen in Anspruch nehmen möchten.",
+      "content_preview": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs....",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-429bde377d:field_value",
+      "title": "Angaben zum Preis"
+    },
+    {
+      "content": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "content_preview": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis",
+        "Preismodell"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis-6eb719186f:field_value",
+      "title": "Preismodell"
+    },
+    {
+      "content": "Es fällt einmalig eine Lizenzgebühr von 185,00 € pro Lizenz (inkl. Mehrwertsteuer) an. Die Lizenz erlaubt die Nutzung von vorvida für die Mindestverordnungsdauer von 90 Tagen.",
+      "content_preview": "Es fällt einmalig eine Lizenzgebühr von 185,00 € pro Lizenz (inkl. Mehrwertsteuer) an. Die Lizenz erlaubt die Nutzung von vorvida für die Mindestverordnungsdauer von 90 Tagen.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis",
+        "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-koste-12efad84b5:field_value",
+      "title": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
+    },
+    {
+      "content": "Bei einer weiteren Nutzung der DiGA für zusätzliche 90 Tage ist eine weitere Verordnung notwendig. Durch diese Verordnung fällt eine Lizenzgebühr von 185,00 € pro Lizenz (inkl. Mehrwertsteuer) an. Die Lizenz erlaubt die Nutzung von vorvida für diese zusätzlichen 90 Tage, so dass dann zusammen mit der Erstverordnung eine Anwendungsdauer von 180 Tagen erreicht wird.",
+      "content_preview": "Bei einer weiteren Nutzung der DiGA für zusätzliche 90 Tage ist eine weitere Verordnung notwendig. Durch diese Verordnung fällt eine Lizenzgebühr von 185,00 € pro Lizenz (inkl. Mehrwertsteuer) an. Die Lizenz erlaubt die Nutzung von vorvi...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis",
+        "Weitere Anmerkungen zum Preismodell"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-weite-a94dbec841:field_value",
+      "title": "Weitere Anmerkungen zum Preismodell"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis",
+        "Erläuterung Mehrkosten"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-erlae-be49aad321:field_value",
+      "title": "Erläuterung Mehrkosten"
+    },
+    {
+      "content": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_preview": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Verbesserungen für Patienten können entweder medizinischer Art sein (z.B. Verringerung von Schmerzen, Beitrag zur Heilung der Erkrankung) oder den Erkennungs- und Behandlungsprozess direkt unterstützen und erleichtern (z.B. Informationen zur individuellen Erkrankungssituation, Unterstützung bei der Einhaltung der zwischen Patient und Arzt gemeinsam vereinbarten therapeutischen Maßnahmen).",
+      "content_preview": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Ve...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:informationen-zum-positiven-versorgungseffekt-253662cf50:field_value",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche Weise dies ggfs. bereits wissenschaftlich nachgewiesen wurde. Falls der positive Versorgungseffekt noch nicht abschließend nachgewiesen aber bereits so plausibel dargelegt wurde, dass die DiGA befristet zur entsprechenden Erprobung aufgenommen wurde, wird angegeben, für welchen Zeitraum dies erfolgt ist. Sofern (auch) ein Nachweis zum Erhalt der Erwerbsfähigkeit für die DiGA erbracht wurde oder eine Nachweisführung geplant ist, finden Sie hier eine Beschreibung und nähere Angaben zum Nachweis sowie zum Studiendesign. Sofern die DiGA (auch) ein diagnostisches Instrument darstellt, also mindestens in Teilen dazu vorgesehen ist, Informationen z.B. für die Erkennung oder Diagnose von Krankheitszuständen zu liefern, hat der Hersteller dies benannt und beschrieben sowie Sensitivität und Spezifität als wichtige Bewertungsgrößen angegeben.",
+      "content_preview": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche We...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Medizinischer Nutzen",
+      "content_preview": "Medizinischer Nutzen",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Angaben zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse-5449921803:field_value",
+      "title": "Angaben zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Patientenrelevante Struktur- und Verfahrensverbesserung",
+      "content_preview": "Patientenrelevante Struktur- und Verfahrensverbesserung",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Autonomes Gesundheitshandeln des Patienten (Patientensouveränität)",
+      "content_preview": "Autonomes Gesundheitshandeln des Patienten (Patientensouveränität)",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Patientenrelevante Struktur- und Verfahrensverbesserungen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:informationen-zum-positiven-versorgungseffekt-patientenrelevante-struktur-und-ve-6612535d44:field_value",
+      "title": "Patientenrelevante Struktur- und Verfahrensverbesserungen"
+    },
+    {
+      "content": "Verbesserung des Gesundheitszustands",
+      "content_preview": "Verbesserung des Gesundheitszustands",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Nähere Angaben zum medizinischen Nutzen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen--90ce965dee:field_value",
+      "title": "Nähere Angaben zum medizinischen Nutzen"
+    },
+    {
+      "content": "Der Nachweis positiver Versorgungseffekte stützt sich auf folgende randomisierte kontrollierte klinische Studie (RCT): Zill JM, Christalle E, Meyer B et al. Wirksamkeit einer Internetintervention zur Reduktion von Alkoholkonsum bei Erwachsenen. Ergebnisse einer randomisierten kontrollierten Studie (Vorvida). Dtsch Arztebl Int 2019; 116: 127-33; DOI: 10.3238/arztebl.2019.0127 (primärer Erhebungszeitpunkt: 12 Wochen) In der Interventionsgruppe wurde nach 12 Wochen ein signifikant niedriger Alkoholkonsum ermittelt im Vergleich zur Kontrollgruppe (ITT-Analyse: Quantity-Frequency-Index (QFI): d = 0,28; F(1,606) = 11,608; p = 0,001; Timeline-Follow-Back (TFB): d = 0,42; F(1,606) = 26,664); p < 0,001). Die Unterschiede waren auch nach 24 Wochen nachweisbar und nahmen im Vergleich zum 12-Wochen Zeitpunkt sogar zu (ITT-Analyse: QFI: Cohen’s d = 0,33; F(1,606) = 15,966; p < 0,001; TFB: Cohen’s d = 0,54; F(1,606) = 44,369); p < 0,001).",
+      "content_preview": "Der Nachweis positiver Versorgungseffekte stützt sich auf folgende randomisierte kontrollierte klinische Studie (RCT): Zill JM, Christalle E, Meyer B et al. Wirksamkeit einer Internetintervention zur Reduktion von Alkoholkonsum bei Erwac...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Beschreibung des medizinischen Nutzens"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut-a677995e79:field_value",
+      "title": "Beschreibung des medizinischen Nutzens"
+    },
+    {
+      "content": "Patientensouveränität: Patientensouveränität wurde in Bezug auf Selbstwirksamkeit mittels Alkoholabstinenz- Selbstwirksamkeitsfragebogen (AASE-G) erhoben. Dieser Fragebogen enthält zwei Subskalen (Versuchung und Zuversicht). Ferner werden 20 Items abgefragt, die auf einer 5-Punkt Likert-Skala beantwortet werden. Die Items erfassen die Versuchung, in bestimmten Situationen zu trinken und die Zuversicht in diesen Situationen nicht zu trinken. Der AASE-G besitzt eine solide Struktur der Subskalen, sowie starke Indices für Reliabilität und Validität (DiClemente CC, Carbonari JP, Montgomery RP, Hughes SO. The Alcohol Abstinence Self-Efficacy scale. J Stud Alcohol. 1994 Mar;55(2):141-8. doi: 10.15288/jsa.1994.55.141. PMID: 8189734). Zum primären Messzeitpunkt (3-Monate) zeigte die Interventionsgruppe signifikant (F(1, 606) = 49,6; p < 0,001; Cohen’s d = 0,57) niedrigere Werte auf der Skala Versuchung (Randmittelwert (MW) = 55,7 ± 0,5 Standardfehler (SE)), als die Kontrollgruppe [KG] (MW = 61,1 ± 0,5 SE). Auf der Skala Zuversicht wies die Interventionsgruppe [IG] signifikant (F(1, 606) = 19,7; p < 0,001; d = 0,36) höhere Werte auf (MW = 56,5 ± 0,6 SE), verglichen mit der Kontrollgruppe (MW = 60,5 ± 0,6 SE). Signifikante Effekte konnten auch noch zum Messzeitpunkt 6-Monate nachgewiesen werden (Versuchung: F(1, 606) = 334,5; p < 0,001; IG: MW = 40,2 ± 1,0 SE; KG: MW = 66,3 ± 1,0 SE // Zuversicht: F(1, 606) = 156,9; p < 0,001; IG: MW = 69,7 ± 1,1 SE; KG: MW = 50,6 ± 1,1 SE). Sie waren mit (Versuchung: d = 1,49 und Zuversicht: d = 1,02) sogar stärker ausgeprägt. Diese Daten wurden im Rahmen eines UKE Forschungskolloquiums, dem Deutschen Suchtkongress 2019 (Wirksamkeit einer Internet Intervention für die Reduktion von Alkoholkonsum bei Erwachsenen (Vorvida): Ergebnisse einer randomisiert-kontrollierten Studie Jördis Maria Zill, Christalle E, Meyer B, Dirmaier J, Härter M – S30_01), sowie der International Conference on Communication in Healthcare 2019 (ICCH; Effectiveness of an internet intervention for the reduction of alcohol consumption in adults (Vorvida): Results of a randomized controlled trial - Eva Christalle; ORALS- SESSION 5D BEHAVIOR CHANGE AND COMMUNICATION IN DIVERSE SETTINGS) vorgestellt. - vorvida erhöht signifikant die Selbstwirksamkeit in Bezug auf mehr Zuversicht sowie das Empfinden von weniger Versuchung im Umgang mit Alkoholkonsum („das Leben selbst meistern können“). In der Forschung und Therapie von Suchterkrankungen gelten Selbstwirksamkeitserwartungen als wesentliche Wirkfaktoren. Sie beziehen sich auf die Zuversicht in eigene Fähigkeiten, eine konstruktive Veränderung des Trinkverhaltens herbeiführen zu können. Somit erhöht vorvida die Patientensouveränität.",
+      "content_preview": "Patientensouveränität: Patientensouveränität wurde in Bezug auf Selbstwirksamkeit mittels Alkoholabstinenz- Selbstwirksamkeitsfragebogen (AASE-G) erhoben. Dieser Fragebogen enthält zwei Subskalen (Versuchung und Zuversicht). Ferner werde...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Nähere Beschreibung der patientenrelevanten Struktur- und Verfahrensverbesserung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:informationen-zum-positiven-versorgungseffekt-naehere-beschreibung-der-patienten-859be4691e:field_value",
+      "title": "Nähere Beschreibung der patientenrelevanten Struktur- und Verfahrensverbesserung"
+    },
+    {
+      "content": "Der Nachweis positiver Versorgungseffekte für vorvida wurde im Rahmen einer randomisierten kontrollierten klinischen Studie erbracht (Zill JM, Christalle E, Meyer B et al. Wirksamkeit einer Internetintervention zur Reduktion von Alkoholkonsum bei Erwachsenen. Ergebnisse einer randomisierten, kontrollierten Studie (Vorvida). Dtsch Arztebl Int 2019; 116: 127-33; DOI: 10.3238/arztebl.2019.0127). P - Patients In diese Studie wurden 608 Patientinnen und Patienten mit schädlichem oder gefährlichem Alkoholgebrauch (Abhängigkeitssyndrom) eingeschlossen, die mindestens 18 Jahre alt waren. Diese Patientinnen und Patienten wurden zufällig entweder der Interventions- oder Kontrollgruppe zugewiesen. I - Intervention Patientinnen und Patienten in der Interventionsgruppe erhielten die übliche medizinische Versorgung und zusätzlich Zugang zum Programm vorvida. C -Control Patientinnen und Patienten in der Kontrollgruppe erhielten die übliche medizinische Versorgung. Nach Ende der Studie, das heißt nach 6 Monaten, erhielten auch die Patientinnen und Patienten in der Kontrollgruppe Zugang zu vorvida. O - Outcomes Zum festgelegten ersten Erhebungszeitraum nach 3 Monaten zeigte sich, dass bei Patientinnen und Patienten in der Interventionsgruppe durch vorvida der Alkoholkonsum signifikant stärker abgenommen hatte als bei Patientinnen und Patienten in der Kontrollgruppe. Die Unterschiede waren auch nach 24 Wochen nachweisbar. Darüber hinaus ergab sich, dass Patientinnen und Patienten in der Interventionsgruppe durch vorvida signifikant weniger Tage pro Monat Sturztrinken betrieben und signifikant weniger Tage pro Monat betrunken waren als Patientinnen und Patienten in der Kontrollgruppe. Zusammenfassend zeigt diese klinische Studie, dass das unbegleitete, webbasierte Programm vorvida zusätzlich zu einer üblichen medizinischen Versorgung den Alkoholkonsum (weniger Konsum pro Tag, weniger Tage mit Sturztrinkverhalten) wirksamer reduziert als eine übliche medizinische Versorgung allein.",
+      "content_preview": "Der Nachweis positiver Versorgungseffekte für vorvida wurde im Rahmen einer randomisierten kontrollierten klinischen Studie erbracht (Zill JM, Christalle E, Meyer B et al. Wirksamkeit einer Internetintervention zur Reduktion von Alkoholk...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Studie/n im PICO-Schema"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema-2cb668dadb:field_value",
+      "title": "Studie/n im PICO-Schema"
+    },
+    {
+      "content": "Die Wirksamkeit von vorvida wurde im Rahmen einer randomisierten kontrollierten Studie (RCT) untersucht und 2019 in folgendem peer-reviewed Journal veröffentlicht: Zill JM, Christalle E, Meyer B et al. Wirksamkeit einer Internetintervention zur Reduktion von Alkoholkonsum bei Erwachsenen. Ergebnisse einer randomisierten kontrollierten Studie (Vorvida). Dtsch Arztebl Int 2019; 116:127-33; DOI: 10.3238/arztebl.2019.0127 Primäre Zielsetzung der Studie war es zu untersuchen, ob das Online Programm vorvida ergänzend zu einer üblichen medizinischen Versorgung bei Patienten mit riskantem Alkoholkonsum und Alkoholmissbrauch oder –abhängigkeit zu einer Reduktion des Alkoholkonsums führt. Die Wirksamkeit von vorvida wurde in einer zweiarmigen Studie untersucht, in der die Teilnehmer 1:1 auf zwei verschiedene Gruppen randomisiert wurden: eine Interventionsgruppe, in der die Teilnehmer zusätzlich zur üblichen medizinischen Versorgung Zugang zum Programm vorvida erhielten, oder eine Kontrollgruppe, in der die Teilnehmer die übliche medizinische Versorgung erhielten. In die Studie wurden 608 Teilnehmer mit schädlichem oder gefährlichem Alkoholgebrauch (Abhängigkeitssyndrom) eingeschlossen, die mindestens 18 Jahre alt waren. Outcome-Parameter zur Wirksamkeitsüberprüfung waren Alkoholkonsummenge, Schwere der Symptome und weitere klinische und soziomedizinische Variablen. Als primärer Erhebungszeitraum wurden drei Monate festgelegt. Ferner erfolgte eine Follow-up Erhebung sechs Monate nach Studienbeginn. Hauptergebnis: Zusammenfassend zeigt diese klinische Studie, dass das unbegleitete, webbasierte Programm vorvida zusätzlich zu einer üblichen medizinischen Versorgung den Alkoholkonsum (weniger Konsum pro Tag, weniger Tage mit Sturztrinkverhalten) wirksamer reduziert als eine übliche medizinische Versorgung allein. Die Therapieeffekte waren auch nach sechs Monaten nachweisbar (und sogar etwas stärker ausgeprägt). Die Intention to Treat (ITT) Analyse ergab signifikante Effekte der untersuchten Intervention zum Hautuntersuchungszeitpunkt nach drei Monaten (t1) bezüglich der Reduktion von: Primärer Endpunkt: o Alkoholkonsum QFI: d = 0,28; F(1,606) = 11,608; p = 0,001. TFB: d = 0,42; F(1,606) = 26,664); p < 0,001. Sekundäre Endpunkte: o Sturztrinken Tage/Monat; d = 0,87; F(1,606) = 114,387; p < 0,001. o Betrunken sein Tage/Monat; d = 0,39; F(1,606) = 297,033; p < 0,001. Es wurden zudem signifikante Effekte bezüglich der Verbesserung der Selbstwirksamkeit gegenüber des Alkoholkonsums verzeichnet. Außerdem verbesserte sich die Fähigkeit zur realistischen Einschätzung der Wirkungserwartung von Alkoholkonsum. Diese Effekte blieben bis zum Zeitpunkt t2, 6 Monate nach Einschluss, bestehen oder verstärkten sich. Im Endpunkt Änderungsbereitschaft wurden keine signifikanten Effekte gefunden. Lediglich zum Zeitpunkt t2 wurde eine verbesserte Änderungsbereitschaft gemessen, die mit Effekten bezüglich verbesserter Zuversicht einherging. Die Zufriedenheit unter den Teilnehmern mit der Intervention war hoch (27,4 [Standardabweichung, SD = 5,3] von 32 möglichen Punkten). Alle Effekte zeigten sich zum Zeitpunkt t2 (6 Monate nach Interventionsbeginn) als stabil bzw. waren stärker ausgeprägt. - Studienregistrierung DRKS-ID der Studie: DRKS00006104 Studienprotokoll Zill et al. (2016); Vorvida: study protocol of a randomized controlled trial testing the effectiveness of Internetbased self-help program for the reduction of alcohol consumption for adults (DOI: DOI 10.1186/s12888-016-0725-9)",
+      "content_preview": "Die Wirksamkeit von vorvida wurde im Rahmen einer randomisierten kontrollierten Studie (RCT) untersucht und 2019 in folgendem peer-reviewed Journal veröffentlicht: Zill JM, Christalle E, Meyer B et al. Wirksamkeit einer Internetintervent...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u-804896bae6:field_value",
+      "title": "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
+    },
+    {
+      "content": "Zill JM, Christalle E, Meyer B et al. Wirksamkeit einer Internetintervention zur Reduktion von Alkoholkonsum bei Erwachsenen. Ergebnisse einer randomisierten kontrollierten Studie (Vorvida). Dtsch Arztebl Int 2019; 116: 127-33; DOI: 10.3238/arztebl.2019.0127 Zill, J.M., Christalle, E., Meyer, B. et al. (2019). Wirksamkeit einer Internet Intervention für die Reduktion von Alkoholkonsum bei Erwachsenen (Vorvida): Ergebnisse einer randomisiert-kontrollierten Studie. Deutscher Suchtkongress 2019 Christalle, E. (2019). Effectiveness of an internet intervention for the reduction of alcohol consumption in adults (Vorvida): Results of a randomized controlled trial. International Conference on Communication in Healthcare.",
+      "content_preview": "Zill JM, Christalle E, Meyer B et al. Wirksamkeit einer Internetintervention zur Reduktion von Alkoholkonsum bei Erwachsenen. Ergebnisse einer randomisierten kontrollierten Studie (Vorvida). Dtsch Arztebl Int 2019; 116: 127-33; DOI: 10.3...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Dies ist/sind die vom Hersteller angeführten Studie/n:"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:informationen-zum-positiven-versorgungseffekt-dies-ist-sind-die-vom-hersteller-a-81dc280904:field_value",
+      "title": "Dies ist/sind die vom Hersteller angeführten Studie/n:"
+    },
+    {
+      "content": "Nein",
+      "content_preview": "Nein",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Die DiGA enthält ein diagnostisches Instrument"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch-eded43f154:field_value",
+      "title": "Die DiGA enthält ein diagnostisches Instrument"
+    },
+    {
+      "content": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird. Die Anforderungen an die Datensicherheit werden durch Vorlage eines Zertifikats gemäß § 139e Absatz 10 Fünftes Buch Sozialgesetzbuch nachgewiesen. Detaillierte Informationen zu den einzelnen Anforderungen können Sie auf der Webseite des Bundesamts für Sicherheit in der Informationstechnik unter der Technischen Richtlinie \"BSI TR-03161\" finden: https://www.bsi.bund.de/dok/TR-03161 Bis zur Vorlage des Zertifikats gelten für den Bereich Datensicherheit die Anforderungen der nachfolgend dargestellten Checkliste.",
+      "content_preview": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen v...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:field_value",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die Nutzung der digitalen Gesundheitsanwendung ist auf ein privates IT-System der nutzenden Person beschränkt. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die Nutzung der digitalen Gesundheitsanwendung ist auf ein privates IT-System der nutzend...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit",
+        "Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:informationen-zu-datenschutz-und-datensicherheit-datensicherheit-14af255f91:field_value",
+      "title": "Datensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung speichert keine Authentisierungsdaten auf einem Endgerät oder in einer darauf befindlichen Softwarekomponente. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung erlaubt keinen Upload von Dateien. Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Bei der digitalen Gesundheitsanwendung handelt es sich um eine rein webbasierte Anwendung. Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung verarbeitet keine Daten, die durch die nutzende Person oder durch nicht durch die digitale Gesundheitsanwendung kontrollierte Quellen bereitgestellt werden. Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung greift weder auf Sensoren eines mobilen Endgeräts noch auf externe Hardware zu. Trifft nicht zu Die digitale Gesundheitsanwendung tauscht keine Daten mit externer Hardware aus. Zutreffend Zutreffend Zutreffend Nein",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung speichert keine Authentisierungsdaten auf einem Endgerä...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der medizinischen Inhalte und die Gewährleistung der Patientensicherheit.",
+      "content_preview": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der me...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-afe954d9f8:field_value",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_preview": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Interoperabilität"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-angaben-zur-interoperabilitaet-8867f27412:field_value",
+      "title": "Angaben zur Interoperabilität"
+    },
+    {
+      "content": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versicherten getragenen Sensoren zur Messung und Übertragung von Vitalwerten (Wearables) austauscht. Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versiche...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Robustheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-angaben-zur-robustheit-0a511476df:field_value",
+      "title": "Angaben zur Robustheit"
+    },
+    {
+      "content": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
+      "content_preview": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digi...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zum Verbraucherschutz"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-angaben-zum-verbraucherschutz-05cd17969e:field_value",
+      "title": "Angaben zum Verbraucherschutz"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit-8fe873c531:field_value",
+      "title": "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
+    },
+    {
+      "content": "Die digitale Gesundheitsanwendung wird nicht über eine Plattform für mobile Anwendungen angeboten. Zutreffend Zutreffend",
+      "content_preview": "Die digitale Gesundheitsanwendung wird nicht über eine Plattform für mobile Anwendungen angeboten. Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Unterstützung der Leistungserbringende"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-unterstuetzung-der-leistungserbringende-d4e78dfd75:field_value",
+      "title": "Unterstützung der Leistungserbringende"
+    },
+    {
+      "content": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen.",
+      "content_preview": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Triff...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Qualität der medizinischen Inhalte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte-a6d05ceeb6:field_value",
+      "title": "Angaben zur Qualität der medizinischen Inhalte"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Patientensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-angaben-zur-patientensicherheit-7a67651ccd:field_value",
+      "title": "Angaben zur Patientensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Der Preis der Verordnungseinheit vorvida 001 hat sich rückwirkend zum 01.10.2025 von 192,01 € zu 185,00 € geändert.",
+      "content_preview": "Der Preis der Verordnungseinheit vorvida 001 hat sich rückwirkend zum 01.10.2025 von 192,01 € zu 185,00 € geändert.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Änderungshistorie",
+        "20.10.2025 Preisänderung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00868:aenderungshistorie-20-10-2025-preisaenderung-5e4781e8d6:field_value",
+      "title": "20.10.2025 Preisänderung"
+    }
+  ],
+  "diga_id": "00868",
+  "name": "vorvida",
+  "rendered_structure_metadata": {
+    "accordions_opened": 0,
+    "content_section_count": 71,
+    "field_value_count": 54,
+    "rendered_at": "2026-06-22T19:04:29.466288+00:00",
+    "source_kind": "visible_directory"
+  },
+  "source_kind": "visible_directory",
+  "timestamp": "20260622T190144Z",
+  "url": "https://diga.bfarm.de/de/verzeichnis/00868"
+}

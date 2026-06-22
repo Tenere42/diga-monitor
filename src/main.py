@@ -12,7 +12,7 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 
-from src.change_events import build_change_events, save_change_events
+from src.change_events import build_change_events, save_change_events, word_level_diff
 from src.diff import diff_snapshots, render_report
 from src.fetch_diga import fetch_diga_entries
 from src.notifications import is_notifiable_event, notify_changes, send_test_notification
@@ -29,6 +29,8 @@ from src.snapshot import DEFAULT_SNAPSHOT_DIR, Snapshot, latest_snapshot_paths, 
 
 
 DEFAULT_SIMULATION_DIR = Path("data/simulations")
+VISIBLE_BASELINE_DIR = Path("data/rendered_structure/latest")
+VISIBLE_RUN_DIR = Path("outputs/rendered_structure/runs")
 ORTHOPY_REMOVED_SENTENCE = "Für die DiGA konnte kein positiver Versorgungseffekt nachgewiesen werden."
 
 
@@ -80,6 +82,16 @@ def build_parser() -> argparse.ArgumentParser:
     )
     render_parser.add_argument("--no-pdf", action="store_true", help="Do not write a PDF file.")
     render_parser.add_argument("--no-png", action="store_true", help="Do not write a full-page PNG screenshot.")
+    baseline_parser = subparsers.add_parser(
+        "build-rendered-baseline",
+        help="Render all known DiGA entries and store visible structure baselines.",
+    )
+    baseline_parser.add_argument("--limit", type=int, help="Limit rendered entries for local tests.")
+    baseline_parser.add_argument(
+        "--archive-rendered-pages",
+        action="store_true",
+        help="Also save PDF/PNG rendered page archives while building the baseline.",
+    )
     for command_name in ("inspect-structure", "inspect-rendered-structure"):
         inspect_parser = subparsers.add_parser(
             command_name,
@@ -160,6 +172,12 @@ def main() -> int:
     if args.command == "render-entry":
         return render_entry_command(args)
 
+    if args.command == "build-rendered-baseline":
+        return build_rendered_baseline_command(
+            limit=args.limit,
+            archive_rendered_pages=args.archive_rendered_pages,
+        )
+
     if args.command in {"inspect-structure", "inspect-rendered-structure"}:
         return inspect_structure_command(args)
 
@@ -186,7 +204,7 @@ def run_monitor(
 ) -> int:
     started = time.perf_counter()
     if render_changed_entries:
-        print("Render-on-change active: changed DiGA entries will be rendered and text change events will be enriched.")
+        print("Render-on-change active: FHIR changes trigger rendering; visible content_sections drive user-facing events.")
     else:
         print("Render-on-change inactive.")
     previous_paths = latest_snapshot_paths(snapshot_dir, limit=1)
@@ -198,6 +216,15 @@ def run_monitor(
         enrich_entries_with_rendered_structure(entries, archive_rendered_pages=archive_rendered_pages)
     new_snapshot_path = save_snapshot(entries, snapshot_dir)
     detected_at = datetime.now(timezone.utc).isoformat()
+    if with_rendered_structure:
+        baseline_stats = save_visible_baselines_from_entries(entries, detected_at)
+        print(
+            "Visible rendered baselines: "
+            f"{baseline_stats['created']} created, "
+            f"{baseline_stats['updated']} updated, "
+            f"{baseline_stats['existing']} already present, "
+            f"{baseline_stats['skipped']} skipped."
+        )
     print(f"Saved snapshot: {new_snapshot_path}")
 
     if not previous_paths:
@@ -232,21 +259,32 @@ def run_monitor(
     report = diff_snapshots(old_snapshot, new_snapshot)
     events = []
     if report.has_changes:
-        events = build_change_events(report, old_snapshot, new_snapshot, detected_at)
+        trigger_events = build_change_events(report, old_snapshot, new_snapshot, detected_at)
+        events = trigger_events
         if render_changed_entries:
             rendered_entries = render_changed_entry_archives(
-                events=events,
+                events=trigger_events,
                 entries=new_snapshot.entries,
                 detected_at=detected_at,
                 archive_rendered_pages=archive_rendered_pages,
             )
             if rendered_entries:
-                enriched_count = enrich_text_events_from_rendered_sections(events, rendered_entries)
+                events = build_visible_change_events_from_rendered_baselines(
+                    trigger_events=trigger_events,
+                    rendered_entries=rendered_entries,
+                    entries=new_snapshot.entries,
+                    detected_at=detected_at,
+                )
                 print(f"Rendered changed DiGA entries: {len(rendered_entries)}")
-                print(f"Enriched text change locations from rendered content_sections: {enriched_count}")
-        changes_path = save_change_events(events, detected_at=detected_at)
-        if changes_path:
-            print(f"Saved change events: {changes_path}")
+                print(f"Visible content_section change events: {len(events)}")
+            else:
+                events = []
+        if events:
+            changes_path = save_change_events(events, detected_at=detected_at)
+            if changes_path:
+                print(f"Saved change events: {changes_path}")
+        elif render_changed_entries:
+            print("No visible content_section changes detected. FHIR changes were used as trigger only.")
     print(f"Detected change events: {len(events)}")
     append_scan_history(
         scan_timestamp=detected_at,
@@ -294,8 +332,123 @@ def render_entry_command(args: argparse.Namespace) -> int:
     return 0
 
 
+def build_rendered_baseline_command(limit: int | None = None, archive_rendered_pages: bool = False) -> int:
+    started = time.perf_counter()
+    detected_at = datetime.now(timezone.utc).isoformat()
+    entries = fetch_diga_entries()
+    total_available = len(entries)
+    if limit is not None:
+        entries = entries[: max(limit, 0)]
+        print(f"Limited rendered baseline build to {len(entries)} of {total_available} DiGA entries.")
+
+    print(f"Building visible rendered baselines in {VISIBLE_BASELINE_DIR}")
+    success_paths: list[Path] = []
+    failures: list[dict[str, str]] = []
+    for index, entry in enumerate(entries, start=1):
+        diga_id = str(entry.get("id") or "")
+        name = str(entry.get("name") or diga_id)
+        url = str(entry.get("bfarm_directory_url") or "")
+        if not diga_id or not url:
+            failures.append({"diga_id": diga_id, "name": name, "error": "missing id or BfArM URL"})
+            print(f"[{index}/{len(entries)}] Skipping {name}: missing id or BfArM URL")
+            continue
+        print(f"[{index}/{len(entries)}] Rendering baseline for {name} ({diga_id})")
+        try:
+            payload = render_visible_structure_payload(
+                entry=entry,
+                detected_at=detected_at,
+                archive_rendered_pages=archive_rendered_pages,
+            )
+        except Exception as exc:
+            failures.append({"diga_id": diga_id, "name": name, "error": str(exc)})
+            print(f"    failed: {exc}")
+            continue
+
+        baseline_path = visible_baseline_path(diga_id, name)
+        save_visible_baseline(payload, baseline_path)
+        success_paths.append(baseline_path)
+        print(
+            "    saved: "
+            f"{baseline_path} "
+            f"({len(payload.get('content_sections') or [])} content_sections)"
+        )
+
+    duration = time.perf_counter() - started
+    print()
+    print("Rendered baseline build complete.")
+    print(f"DiGA total available: {total_available}")
+    print(f"DiGA processed: {len(entries)}")
+    print(f"Successfully rendered: {len(success_paths)}")
+    print(f"Failed: {len(failures)}")
+    print(f"Duration seconds: {duration:.1f}")
+    if success_paths:
+        print("Generated baseline files:")
+        for path in success_paths:
+            print(f"- {path}")
+    if failures:
+        print("Failures:")
+        for failure in failures:
+            print(f"- {failure['name']} ({failure['diga_id']}): {failure['error']}")
+        return 1
+    return 0
+
+
 def env_flag(name: str) -> bool:
     return str(os.getenv(name, "")).strip().lower() in {"1", "true", "yes", "on"}
+
+
+def render_visible_structure_payload(
+    entry: dict[str, object],
+    detected_at: str,
+    archive_rendered_pages: bool = False,
+) -> dict[str, object]:
+    diga_id = str(entry.get("id") or "")
+    name = str(entry.get("name") or diga_id)
+    url = str(entry.get("bfarm_directory_url") or "")
+    if not diga_id or not url:
+        raise ValueError("missing DiGA id or BfArM directory URL")
+
+    if archive_rendered_pages:
+        rendered = render_diga_entry(
+            url=url,
+            diga_id=diga_id,
+            output_root=Path("data/rendered_pages"),
+            slug=name,
+            timestamp=scan_timestamp_for_path(detected_at),
+            save_pdf=True,
+            save_png=True,
+        )
+        structure_path = Path(str(rendered["structure_path"]))
+        with structure_path.open("r", encoding="utf-8") as file:
+            payload = json.load(file)
+        payload["name"] = name
+        payload["source_kind"] = "visible_directory"
+        payload["rendered_structure_metadata"] = {
+            "source_kind": "visible_directory",
+            "rendered_at": rendered.get("timestamp"),
+            "accordions_opened": rendered.get("accordions_opened"),
+            "content_section_count": rendered.get("content_section_count"),
+            "field_value_count": rendered.get("field_value_count"),
+            "archive": {
+                "pdf_path": rendered.get("pdf_path"),
+                "png_path": rendered.get("png_path"),
+                "structure_path": rendered.get("structure_path"),
+            },
+        }
+        return payload
+
+    rendered = render_diga_content_sections(url=url, diga_id=diga_id)
+    return {
+        "diga_id": diga_id,
+        "name": name,
+        "url": url,
+        "timestamp": scan_timestamp_for_path(detected_at),
+        "source_kind": "visible_directory",
+        "content_sections": rendered["content_sections"],
+        "rendered_structure_metadata": {
+            key: value for key, value in rendered.items() if key != "content_sections"
+        },
+    }
 
 
 def enrich_entries_with_rendered_structure(
@@ -390,6 +543,7 @@ def render_changed_entry_archives(
             result = render_diga_entry(
                 url=url,
                 diga_id=diga_id,
+                output_root=Path("data/rendered_pages") if archive_rendered_pages else VISIBLE_RUN_DIR,
                 slug=name,
                 timestamp=timestamp,
                 save_pdf=archive_rendered_pages,
@@ -421,6 +575,304 @@ def render_changed_entry_archives(
             print(f"    pdf: {result.get('pdf_path')}")
             print(f"    png: {result.get('png_path')}")
     return rendered_entries
+
+
+def build_visible_change_events_from_rendered_baselines(
+    trigger_events: list[dict[str, object]],
+    rendered_entries: dict[str, dict[str, object]],
+    entries: list[dict[str, object]],
+    detected_at: str,
+) -> list[dict[str, object]]:
+    entries_by_id = {str(entry.get("id")): entry for entry in entries if entry.get("id")}
+    trigger_events_by_id: dict[str, list[dict[str, object]]] = {}
+    for event in trigger_events:
+        diga_id = str(event.get("diga_id") or "")
+        if diga_id:
+            trigger_events_by_id.setdefault(diga_id, []).append(event)
+
+    visible_events: list[dict[str, object]] = []
+    rendered_ids: set[str] = set()
+    for diga_id, rendered in rendered_entries.items():
+        rendered_ids.add(diga_id)
+        content_sections = rendered.get("content_sections")
+        if not isinstance(content_sections, list):
+            print(f"Visible baseline skipped for {diga_id}: rendered structure has no content_sections.")
+            visible_events.extend(
+                legacy_fallback_events(
+                    trigger_events_by_id.get(diga_id, []),
+                    "rendered structure has no content_sections",
+                )
+            )
+            continue
+
+        entry = entries_by_id.get(diga_id, {})
+        trigger_group = trigger_events_by_id.get(diga_id, [])
+        name = str(rendered.get("name") or entry.get("name") or diga_id)
+        baseline_path = visible_baseline_path(diga_id, name)
+        current_payload = load_rendered_structure_payload(rendered)
+        if not current_payload:
+            current_payload = {
+                "diga_id": diga_id,
+                "url": rendered.get("url") or entry.get("bfarm_directory_url"),
+                "timestamp": scan_timestamp_for_path(detected_at),
+                "content_sections": content_sections,
+            }
+
+        previous_payload = load_json_file(baseline_path)
+        save_visible_baseline(current_payload, visible_run_structure_path(diga_id, name, detected_at))
+        if not previous_payload:
+            save_visible_baseline(current_payload, baseline_path)
+            print(f"Visible baseline created for {name} ({diga_id}); no visible diff emitted on first baseline.")
+            if has_trigger_change_type(trigger_group, "new_diga"):
+                visible_events.append(new_diga_baseline_event(trigger_group, entry, rendered, detected_at))
+            else:
+                visible_events.extend(
+                    legacy_fallback_events(
+                        trigger_group,
+                        "visible baseline did not exist before this scan",
+                    )
+                )
+            continue
+
+        try:
+            section_changes = diff_content_section_lists(
+                previous_payload.get("content_sections", []),
+                current_payload.get("content_sections", []),
+            )
+        except Exception as exc:
+            print(f"Visible baseline diff failed for {name} ({diga_id}): {exc}")
+            visible_events.extend(legacy_fallback_events(trigger_group, f"visible baseline diff failed: {exc}"))
+            continue
+
+        save_visible_baseline(current_payload, baseline_path)
+        if not section_changes:
+            print(f"Visible baseline diff for {name} ({diga_id}): no visible changes.")
+            continue
+
+        previous_snapshot_timestamp = timestamp_value(trigger_group, "previous_snapshot_timestamp", latest=False)
+        current_snapshot_timestamp = timestamp_value(trigger_group, "current_snapshot_timestamp", latest=True)
+        for index, change in enumerate(section_changes, start=1):
+            visible_events.append(
+                visible_section_change_event(
+                    change=change,
+                    index=index,
+                    detected_at=detected_at,
+                    diga_id=diga_id,
+                    entry=entry,
+                    rendered=rendered,
+                    previous_snapshot_timestamp=previous_snapshot_timestamp,
+                    current_snapshot_timestamp=current_snapshot_timestamp,
+                )
+            )
+        print(f"Visible baseline diff for {name} ({diga_id}): {len(section_changes)} visible change(s).")
+
+    for diga_id, trigger_group in trigger_events_by_id.items():
+        if diga_id in rendered_ids:
+            continue
+        visible_events.extend(
+            legacy_fallback_events(
+                trigger_group,
+                "render-on-change did not produce a rendered structure",
+            )
+        )
+
+    return visible_events
+
+
+def visible_section_change_event(
+    change: dict[str, object],
+    index: int,
+    detected_at: str,
+    diga_id: str,
+    entry: dict[str, object],
+    rendered: dict[str, object],
+    previous_snapshot_timestamp: str,
+    current_snapshot_timestamp: str,
+) -> dict[str, object]:
+    before = str(change.get("before") or "")
+    after = str(change.get("after") or "")
+    display_path = str(change.get("display_path") or "Nicht eindeutig zugeordneter Eintrag")
+    content_type = str(change.get("content_type") or "")
+    raw_change_type = str(change.get("change_type") or "")
+    is_textual = content_type != "field_value"
+    event: dict[str, object] = {
+        "detected_at": detected_at,
+        "diga_id": diga_id,
+        "diga_name": rendered.get("name") or entry.get("name") or diga_id,
+        "manufacturer": entry.get("manufacturer"),
+        "bfarm_directory_url": rendered.get("url") or entry.get("bfarm_directory_url"),
+        "change_type": "text_change" if is_textual else "other_field_change",
+        "changed_field": f"visible_directory.{safe_key(diga_id)}.{index}",
+        "field_name": f"visible_directory.{safe_key(diga_id)}.{index}",
+        "previous_value": before or None,
+        "new_value": after or None,
+        "previous_snapshot_timestamp": previous_snapshot_timestamp,
+        "current_snapshot_timestamp": current_snapshot_timestamp,
+        "user_facing_field_label": display_path,
+        "display_path": display_path,
+        "source_kind": "visible_directory",
+        "confidence": "high",
+        "localization_confidence": "high",
+        "content_section_change_type": raw_change_type,
+        "content_section_content_type": content_type,
+        "summary_de": visible_change_summary(raw_change_type, display_path),
+    }
+    if is_textual:
+        event["word_diff"] = word_level_diff(before, after)
+        event["text_change_kind"] = visible_text_change_kind(raw_change_type, before, after)
+    return event
+
+
+def has_trigger_change_type(events: list[dict[str, object]], change_type: str) -> bool:
+    return any(str(event.get("change_type") or "") == change_type for event in events)
+
+
+def new_diga_baseline_event(
+    trigger_events: list[dict[str, object]],
+    entry: dict[str, object],
+    rendered: dict[str, object],
+    detected_at: str,
+) -> dict[str, object]:
+    source = next((event for event in trigger_events if event.get("change_type") == "new_diga"), {})
+    event = dict(source)
+    event.update(
+        {
+            "detected_at": detected_at,
+            "diga_id": source.get("diga_id") or entry.get("id"),
+            "diga_name": source.get("diga_name") or rendered.get("name") or entry.get("name"),
+            "manufacturer": source.get("manufacturer") or entry.get("manufacturer"),
+            "bfarm_directory_url": source.get("bfarm_directory_url")
+            or rendered.get("url")
+            or entry.get("bfarm_directory_url"),
+            "change_type": "new_diga",
+            "changed_field": "visible_directory.new_diga",
+            "field_name": "visible_directory.new_diga",
+            "previous_value": None,
+            "new_value": "Neu im DiGA-Verzeichnis aufgenommen",
+            "user_facing_field_label": "Neue DiGA im Verzeichnis",
+            "display_path": "Neue DiGA im Verzeichnis",
+            "source_kind": "visible_directory",
+            "confidence": "high",
+            "localization_confidence": "high",
+            "summary_de": "Neue DiGA im Verzeichnis.",
+        }
+    )
+    return event
+
+
+def legacy_fallback_events(events: list[dict[str, object]], reason: str) -> list[dict[str, object]]:
+    fallback_events = []
+    for event in events:
+        fallback = dict(event)
+        mark_legacy_fallback(fallback)
+        fallback["fallback_reason"] = reason
+        fallback_events.append(fallback)
+    if fallback_events:
+        diga_name = fallback_events[0].get("diga_name") or fallback_events[0].get("diga_id")
+        print(f"Using legacy fallback for {diga_name}: {reason}")
+    return fallback_events
+
+
+def visible_text_change_kind(raw_change_type: str, before: str, after: str) -> str:
+    if raw_change_type == "removed_section" or (before and not after):
+        return "text_removed"
+    if raw_change_type == "added_section" or (after and not before):
+        return "text_added"
+    return "text_modified"
+
+
+def visible_change_summary(raw_change_type: str, display_path: str) -> str:
+    if raw_change_type == "added_section":
+        return f"Im Abschnitt '{display_path}' wurde sichtbarer Inhalt ergänzt."
+    if raw_change_type == "removed_section":
+        return f"Im Abschnitt '{display_path}' wurde sichtbarer Inhalt entfernt."
+    if raw_change_type == "changed_field_value":
+        return f"Im Abschnitt '{display_path}' wurde ein sichtbarer Wert geändert."
+    return f"Im Abschnitt '{display_path}' wurde sichtbarer Text geändert."
+
+
+def visible_baseline_path(diga_id: str, name: str) -> Path:
+    return VISIBLE_BASELINE_DIR / f"{safe_key(diga_id)}_{safe_key(name)}_structure.json"
+
+
+def visible_run_structure_path(diga_id: str, name: str, detected_at: str) -> Path:
+    return VISIBLE_RUN_DIR / scan_timestamp_for_path(detected_at) / f"{safe_key(diga_id)}_{safe_key(name)}_structure.json"
+
+
+def load_rendered_structure_payload(rendered: dict[str, object]) -> dict[str, object] | None:
+    structure_path = rendered.get("structure_path")
+    if not structure_path:
+        return None
+    return load_json_file(Path(str(structure_path)))
+
+
+def load_json_file(path: Path) -> dict[str, object] | None:
+    if not path.exists():
+        return None
+    try:
+        with path.open("r", encoding="utf-8") as file:
+            payload = json.load(file)
+    except (OSError, json.JSONDecodeError) as exc:
+        print(f"Could not read JSON file {path}: {exc}")
+        return None
+    return payload if isinstance(payload, dict) else None
+
+
+def save_visible_baseline(payload: dict[str, object], path: Path) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8") as file:
+        json.dump(payload, file, ensure_ascii=False, indent=2, sort_keys=True)
+        file.write("\n")
+
+
+def save_visible_baselines_from_entries(
+    entries: list[dict[str, object]],
+    detected_at: str,
+    overwrite_existing: bool = False,
+) -> dict[str, int]:
+    stats = {"created": 0, "updated": 0, "existing": 0, "skipped": 0}
+    for entry in entries:
+        diga_id = str(entry.get("id") or "")
+        name = str(entry.get("name") or diga_id)
+        sections = entry.get("content_sections")
+        if not diga_id or not isinstance(sections, list) or not sections:
+            stats["skipped"] += 1
+            continue
+
+        payload: dict[str, object] = {
+            "diga_id": diga_id,
+            "name": name,
+            "url": entry.get("bfarm_directory_url"),
+            "timestamp": scan_timestamp_for_path(detected_at),
+            "source_kind": "visible_directory",
+            "content_sections": sections,
+            "rendered_structure_metadata": entry.get("rendered_structure_metadata", {}),
+        }
+        run_path = visible_run_structure_path(diga_id, name, detected_at)
+        baseline_path = visible_baseline_path(diga_id, name)
+        save_visible_baseline(payload, run_path)
+        if baseline_path.exists():
+            if overwrite_existing:
+                save_visible_baseline(payload, baseline_path)
+                stats["updated"] += 1
+                continue
+            stats["existing"] += 1
+            continue
+        save_visible_baseline(payload, baseline_path)
+        stats["created"] += 1
+    return stats
+
+
+def timestamp_value(events: list[dict[str, object]], key: str, latest: bool) -> str:
+    values = [str(event.get(key) or "") for event in events if event.get(key)]
+    if not values:
+        return ""
+    return max(values) if latest else min(values)
+
+
+def safe_key(value: object) -> str:
+    normalized = re.sub(r"[^a-zA-Z0-9]+", "-", str(value or "").lower()).strip("-")
+    return normalized or "diga"
 
 
 def enrich_text_events_from_rendered_sections(

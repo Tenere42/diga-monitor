@@ -1,0 +1,1123 @@
+{
+  "content_sections": [
+    {
+      "content": "INKA ermöglicht ein intuitives Selbstmanagement, bei dem Flüssigkeitsaufnahme, Koffeinkonsum, Miktion, Drang und Medikation einfach mithilfe eines Miktionstagebuchs dokumentieren werden können. Ein intelligentes System analysiert und visualisiert die Eingaben. Die bereitgestellten Informationen zu Therapiefortschritten und -erfolgen geben wichtige Einblicke in Verhaltensweisen und deren Wechselwirkungen mit Beschwerden und tragen zu Adhärenz und Motivation bei. Zusätzlich stellt die INKA auf Grundlage der analysierten Daten personalisierte Verhaltens- und Trainingsempfehlungen bereit. INKA bietet ein auf die Bedürfnisse zugeschnittenes und medizinisch erprobtes Beckenboden-Trainings-Programm mit Text- und Video-Anleitungen. Bei akuten Harndrang-Episoden stellt die App einen schnellen Zugang zu multimodularen Harndrangablenkungsmethoden (z.B. kognitive Übungen und gezielte Muskelanspannungstechniken) bereit. Ein Bildungsbereich vermittelt einfach verständlich Wissen über die Indikation Überaktive Blase und Harninkontinenz. INKA erklärt mit Texten, Videos und spielerischen Elementen die Zusammenhänge und Hintergründe dieser Themen. INKA kombiniert leitliniengerechte Therapiemethoden und bietet eine multimodale Behandlung der überaktiven Blase. Dank innovativer Algorithmen kann die Behandlung an die individuellen Bedürfnisse von Patientinnen und Patienten jeden Alters und Geschlechts angepasst werden.",
+      "content_preview": "INKA ermöglicht ein intuitives Selbstmanagement, bei dem Flüssigkeitsaufnahme, Koffeinkonsum, Miktion, Drang und Medikation einfach mithilfe eines Miktionstagebuchs dokumentieren werden können. Ein intelligentes System analysiert und vis...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "INKA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:inka-57bc327544:section",
+      "title": "INKA"
+    },
+    {
+      "content": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_preview": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:field_value",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_preview": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "INKA",
+      "content_preview": "INKA",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Name der DiGA im DiGA-Verzeichnis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v-132a49921b:field_value",
+      "title": "Name der DiGA im DiGA-Verzeichnis"
+    },
+    {
+      "content": "03.02.2026",
+      "content_preview": "03.02.2026",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Erstmalige Aufnahme in das DiGA-Verzeichnis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in--0901792b12:field_value",
+      "title": "Erstmalige Aufnahme in das DiGA-Verzeichnis"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Modul"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-modul-0b2f60dd90:field_value",
+      "title": "Modul"
+    },
+    {
+      "content": "INKA",
+      "content_preview": "INKA",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Name der DiGA (Kurzform)"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-kurzform-be25f49996:field_value",
+      "title": "Name der DiGA (Kurzform)"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-andere-namen-und-modell-ab7acb1427:field_value",
+      "title": "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
+    },
+    {
+      "content": "App",
+      "content_preview": "App",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Art der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga-f41af95c79:field_value",
+      "title": "Art der DiGA"
+    },
+    {
+      "content": "im Apple App Store Deutschland",
+      "content_preview": "im Apple App Store Deutschland",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Die digitale Gesundheitsanwendung ist verfügbar"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit-70a197df25:field_value",
+      "title": "Die digitale Gesundheitsanwendung ist verfügbar"
+    },
+    {
+      "content": "im Google Play Store Deutschland",
+      "content_preview": "im Google Play Store Deutschland",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Deutschland",
+      "content_preview": "Deutschland",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Standorte der Datenverarbeitung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera-426183d1fc:field_value",
+      "title": "Standorte der Datenverarbeitung"
+    },
+    {
+      "content": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an",
+      "content_preview": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Bewertungsentscheidung des BfArM"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung--cdc10aad7c:field_value",
+      "title": "Bewertungsentscheidung des BfArM"
+    },
+    {
+      "content": "• Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der Technik und • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) als erfüllt. Die Datenverarbeitung findet laut Hersteller ausschließlich in Deutschland statt. Das BfArM bewertet dieses Vorgehen als konform im Sinne der DiGAV. Als Erprobungsstudie gilt die bereits begonnene randomisierte kontrollierte Studie (RCT) mit dem Titel „Open-label, controlled, randomized, multicenter study to demonstrate the effect of the INKA digital therapy companion on symptoms of overactive bladder (with or without urinary incontinence)” mit einem Beobachtungszeitraum von 12 Wochen. Dabei sollen 350 Patientinnen und Patienten mit der Diagnose Überaktive Blase (Overactive Bladder, OAB) im Verhältnis 1 : 1 in 2 Gruppen randomisiert werden. Die Teilnehmenden der Interventionsgruppe (IG) erhalten die Standardtherapie (Treatment As Usual, TAU) und die DiGA. Die Teilnehmenden der Kontrollgruppe (KG) erhalten TAU. Als primärer Endpunkt gilt die durchschnittliche Veränderung der Anzahl der täglichen Miktionen pro 24 Stunden anhand eines Blasenprotokolls zwischen IG und KG nach 12 Wochen im Vergleich zur Baseline. Zu den sekundären Endpunkten zählen die durchschnittliche Veränderung zwischen IG und KG nach 12 Wochen im Vergleich zur Baseline anhand des Blasenprotokolls in Bezug auf das Urinvolumen (ml) pro Blasenentleerung, die Anzahl der pro Tag verwendeten Einlagen, die durchschnittliche Intensität des Harndrangs (auf einer Skala von 0 – 4), die durchschnittliche Anzahl der Blasenentleerungen während des Tages und während der Nacht, die durchschnittliche Anzahl der Urinverluste pro Tag sowie die durchschnittliche Veränderung der Krankheitssymptome anhand des International Consultation on Incontinence Questionnaire Overactive Bladder (ICIQ-OAB) und die durchschnittliche Veränderung der Lebensqualität anhand des International Consultation on Incontinence Questionnaire Overactive Bladder Quality of Life (ICIQ-OABqol) jeweils zwischen IG und KG nach 12 Wochen im Vergleich zur Baseline. Als Begründung der Versorgungsverbesserung wurde eine Interimsanalyse der laufenden Erprobungsstudie vorgelegt. Als Zeitpunkt für die Interimsanalyse war geplant, wenn 50 % der Studienteilnehmenden das Blasenprotokoll nach 12 Wochen ausgefüllt hatten. Insgesamt wurden 185 Patientinnen und Patienten im Rahmen der Interimsanalyse ausgewertet. Von den 185 Teilnehmenden wurden 93 der IG (50,27 %) und 92 der KG (49,73 %) zugeordnet. Bis zum Ende der Studie brachen insgesamt 18 Teilnehmende (9,7 %) die Teilnahme an der Studie ab und wurden als Drop-out klassifiziert, davon 15 der 93 Teilnehmenden in der IG (16,1 %) und 3 der 92 Teilnehmenden in der KG (3,3 %). Gemäß der Intention-To-Treat-Population (ITT-Population) bei Ersetzung fehlender Werte durch eine referenzbasierte Imputation zeigte sich nach 12 Wochen eine statistisch signifikante durchschnittliche Veränderung der Anzahl der täglichen Miktionen pro 24 Stunden von -1,18 [95-%-Konfidenzintervall (95-%-KI): (-1,79; -0,57)], p = 0,000194 als Differenz zwischen IG und KG. Auch in den sekundären Endpunkten zeigten sich teilweise Verbesserungen, in Bezug auf die Inkontinenzhäufigkeit (Anzahl der Urinverluste, PAD-Nutzung) konnte kein relevanter Effekt gezeigt werden. Entsprechend bewertet das BfArM die in § 139e des Fünften Buches Sozialgesetzbuch (SGB V) sowie in der DiGAV festgelegten Voraussetzungen zur vorläufigen Aufnahme auf Erprobung in das Verzeichnis nach § 139e Absatz 1 SGB V für die Indikationen N32.8: Sonstige näher bezeichnete Krankheiten der Harnblase und N39.42: Dranginkontinenz und in Bezug auf den positiven Versorgungseffekt „Verbesserung des Gesundheitszustands“ als erfüllt.",
+      "content_preview": "• Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der Technik und • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Ge...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_preview": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Angaben zum Medizinprodukt"
+    },
+    {
+      "content": "INKA ist eine digitale Anwendung zur unterstützenden Begleitung der Behandlung von Patientinnen und Patienten mit überaktiver Blase (OAB). INKA dient zur: - Überwachung des Therapiefortschritts - Linderung von Symptomen - Verhaltenserkennung und -änderung - und der Erhöhung der Lebensqualität.",
+      "content_preview": "INKA ist eine digitale Anwendung zur unterstützenden Begleitung der Behandlung von Patientinnen und Patienten mit überaktiver Blase (OAB). INKA dient zur: - Überwachung des Therapiefortschritts - Linderung von Symptomen - Verhaltenserken...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "Medizinische Zweckbestimmung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Medizinische Zweckbestimmung"
+    },
+    {
+      "content": "INKA verfügt über ein Programm zur Motivation von Patientinnen und Patienten sowie verschiedenen Funktionen zur personalisierten Therapieunterstützung und -überwachung, wie zum Beispiel: - Beckenbodentraining - Lerninhalte über Krankheit, Ursachen, Verhalten - Trinkempfehlungen - Blasentraining oder Ablenkungsübungen. Das Mindestalter für die Verwendung der App ist 18 Jahre. Patientinnen und Patienten sollten Erfahrung mit der Nutzung eines Smartphones haben. INKA ist für folgende Indikationen bestimmt: - Überaktive Blase in Reinform (ICD Code: N32.8) - Überaktive Blase in den Varianten: - Dranginkontinenz als Teil des Symptomkomplexes der Überaktiven Blase, sofern keine Infektion oder andere Ätiologie vorliegt (ICD Code: N39.42) - Mischinkontinenz bestehend aus Überaktiver Blase in Kombination mit einer Belastungsinkontinenz, wenn die Überaktive Blase das vorherrschende Beschwerdebild ist (ICD Code: N32.8 oder N39.42 jeweils in Kombination mit N39.3).",
+      "content_preview": "INKA verfügt über ein Programm zur Motivation von Patientinnen und Patienten sowie verschiedenen Funktionen zur personalisierten Therapieunterstützung und -überwachung, wie zum Beispiel: - Beckenbodentraining - Lerninhalte über Krankheit...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Risikoklasse I nach MDR",
+      "content_preview": "Risikoklasse I nach MDR",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Risikoklasse Medizinprodukt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-risikoklasse-medizinpro-f524843e03:field_value",
+      "title": "Risikoklasse Medizinprodukt"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Name der Benannten Stelle"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-benannten-stel-6c42808513:field_value",
+      "title": "Name der Benannten Stelle"
+    },
+    {
+      "content": "Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt.",
+      "content_preview": "Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Kennnummer der Benannten Stelle"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-kennnummer-der-benannte-885261bcc3:field_value",
+      "title": "Kennnummer der Benannten Stelle"
+    },
+    {
+      "content": "SRN: DE-MF-000005572",
+      "content_preview": "SRN: DE-MF-000005572",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Identifikationsnummer Eudamed"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-identifikationsnummer-e-c5d45b28a3:field_value",
+      "title": "Identifikationsnummer Eudamed"
+    },
+    {
+      "content": "426070508MD-INKADiGA22TC",
+      "content_preview": "426070508MD-INKADiGA22TC",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Basis UDI-DI im Sinne der MDR"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-basis-udi-di-im-sinne-d-af1d25d65e:field_value",
+      "title": "Basis UDI-DI im Sinne der MDR"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "UDI-DI im Sinne der MDR"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-udi-di-im-sinne-der-mdr-73125832d2:field_value",
+      "title": "UDI-DI im Sinne der MDR"
+    },
+    {
+      "content": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_preview": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Weitere Informationen zur DiGA"
+    },
+    {
+      "content": "Zielsetzung INKA ist ein digitaler Therapiebegleiter für Männer und Frauen mit überaktiver Blase (OAB), unabhängig davon, ob sie bereits Medikamente erhalten. Diese patentierte 12-wöchige Therapie kombiniert verschiedene Funktionen und personalisierte Ansätze, um Betroffene umfassend zu unterstützen und zu adhärentem Verhalten zu motivieren.",
+      "content_preview": "Zielsetzung INKA ist ein digitaler Therapiebegleiter für Männer und Frauen mit überaktiver Blase (OAB), unabhängig davon, ob sie bereits Medikamente erhalten. Diese patentierte 12-wöchige Therapie kombiniert verschiedene Funktionen und p...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Wirkungsweise und Inhalte Die INKA-App enthält ein detailliertes Miktionstagebuch, in dem Patientinnen und Patienten ihren Koffeinkonsum, Trinkmenge, Miktionshäufigkeit sowie Dranggefühl dokumentieren können. Ein intelligenter Algorithmus liefert personalisierte Hinweise zum Patientinnen- und Patienten-Verhalten, während die benutzerfreundliche Darstellung hilft, Zusammenhänge zu erkennen und die Motivation zu steigern. INKA integriert gezielte Beckenboden-Übungen, die die Fähigkeit zur wiederholten Kontraktion und Entspannung der relevanten Muskulatur fördern. Diese Übungen werden durch Text, Audio und Videoanleitungen und interaktive Softwareelemente vermittelt. Zusätzlich passt sich der Schwierigkeitsgrad immer dem Trainingszustand der Patientinnen und Patienten an. Ein weiterer Schwerpunkt liegt auf dem Blasentraining und der kognitiven Verhaltenstherapie, um das Miktionsvolumen zu erhöhen und die Miktionsfrequenz zu verringern. Verschiedene kognitive und meditative Module zur Drangvermeidung sowie edukative Spiele zum Verhalten, der Erkrankung und der Symptomatik stehen hierbei zur Verfügung. Bei akutem Drang ermöglicht der “Drang”-Button den schnellen Zugang zu sofort anwendbaren Harndarngvermeidungsstrategien. Zudem stehen Übungen zur Muskelkontraktion zur Veringerung des Dringlichkeitsempfindens zur Verfügung. Die edukativen Elemente der App liefern Bildungsinhalte zur Überaktiven Blase und Harninkontinenz sowie der dazugehörigen Symptomatik. Patientinnen und Patienten haben die Möglichkeit, ihren Symptomverlauf und Therapiefortschritt zu beobachten und werden durch Belohnungen bei adhärentem Therapie-Verhalten motiviert. INKA bietet eine ganzheitliche Unterstützung für Menschen mit überaktiver Blase, indem es Informationen, Übungen und personalisierte Hinweise in einer benutzerfreundlichen App vereint. Ärztinnen und Ärzte können nach Zustimmung der Patientinnen und Patienten in Form eines standardisierten Reports Einblick in die App-Adhärenz und Test-Ergebnisse, wie bspw. Blasenprotokoll, erhalten. Nutzung Tägliche Nutzung der App zum Tracking von Flüssigkeitsaufnahme, Miktionstagebuch und Medikationseinnahme. Für das Beckenbodentraining ist die Empfehlung abhängig von der Trainigsphase (I-IV) und umfasst zum Start zwei Einheiten täglich. Für das Blasentraining werden ebenfalls zwei kurze Trainingseinheiten am Tag empfohlen.",
+      "content_preview": "Wirkungsweise und Inhalte Die INKA-App enthält ein detailliertes Miktionstagebuch, in dem Patientinnen und Patienten ihren Koffeinkonsum, Trinkmenge, Miktionshäufigkeit sowie Dranggefühl dokumentieren können. Ein intelligenter Algorithmu...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Um einen langfristigen und nachhaltigen Therapieerfolg zu erreichen, zielt INKA darauf ab, das gesundheitsrelevante Verhalten von Patientinnen und Patienten mit Überaktiver Blase in Reinform (N32.8) oder mit Dranginkontinenz (N39.42) positiv zu beeinflussen.",
+      "content_preview": "Um einen langfristigen und nachhaltigen Therapieerfolg zu erreichen, zielt INKA darauf ab, das gesundheitsrelevante Verhalten von Patientinnen und Patienten mit Überaktiver Blase in Reinform (N32.8) oder mit Dranginkontinenz (N39.42) pos...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Funktionen der digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-funktionen-der-digitale-90c70ec142:field_value",
+      "title": "Funktionen der digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Individualisiertes Gesundheitsmanagement durch Selbsttracking und Therapieüberwachung Regelmäßige Dokumentation, Analyse und Visualisierung von relevanten Parametern der OAB, etwa: • Flüssigkeitsmenge • Koffeinkonsums • Medikation und Erstellen eines Medikationsplans • täglichen Miktionen helfen Patientinnen und Patienten beim besseren Verständnis der Krankheit und des Selbstmanagements. Weiterhin bietet die INKA: • Erstellen eines Berichts für die behandelnden Ärtztinnen und Ärzte • Überwachung und Visualisierung des Therapiefortschritts • Bereitstellen leitliniengerechter Fragebögen und Tests Verhaltenstherapie und Education: Die INKA hat ein erprobtes Motivationskonzept zur Steigerung der Adhärenz , welches u.a. folgende Aspekte umfasst: • Motivation durch Visualisierung von Erfolgen mit personalisierten Benachrichtigungen und Erfolgsmitteilungen • Erinnerung an Medikamenteneinnahme • Vermittlung von Harntraktvermeidungsstragien innerhalb eines modularen Blasentrainings • Anleitung zu wissenschaftlich fundiertem, modularen Beckenbodentraining • Leitliniengerechte Wissensvermittlung durch \"e-learning\" • Indikationsspezifische Verhaltensempfehlungen",
+      "content_preview": "Individualisiertes Gesundheitsmanagement durch Selbsttracking und Therapieüberwachung Regelmäßige Dokumentation, Analyse und Visualisierung von relevanten Parametern der OAB, etwa: • Flüssigkeitsmenge • Koffeinkonsums • Medikation und Er...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "med. Einrichtungen: • Prof. Dr. Andreas Wiedemann, Klinik Witten, Pferdebachstraße 27, 58455 Witten • Dr. Silke von der Heide, Kasseler Landstraße 25b, 37081 Göttingen Organisationen: • USE-ing GmbH, Zettachring 8a, 70567 Stuttgart • fbeta GmbH, Akazienstraße 31, 10823 Berlin",
+      "content_preview": "med. Einrichtungen: • Prof. Dr. Andreas Wiedemann, Klinik Witten, Pferdebachstraße 27, 58455 Witten • Dr. Silke von der Heide, Kasseler Landstraße 25b, 37081 Göttingen Organisationen: • USE-ing GmbH, Zettachring 8a, 70567 Stuttgart • fbe...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-und-adresse-beteil-71b7ba97e5:field_value",
+      "title": "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
+    },
+    {
+      "content": "Blasentraining Cameron AP, Chung DE, Dielubanza EJ, Enemchukwu E, Ginsberg DA, Helfand BT, Linder BJ, Reynolds WS, Rovner ES, Souter L, Suskind AM, Takacs E, Welk B, Smith AL. The AUA/SUFU Guideline on the Diagnosis and Treatment of Idiopathic Overactive Bladder. J Urol. 2024 Jul;212(1):11-20. doi: 10.1097/JU.0000000000003985",
+      "content_preview": "Blasentraining Cameron AP, Chung DE, Dielubanza EJ, Enemchukwu E, Ginsberg DA, Helfand BT, Linder BJ, Reynolds WS, Rovner ES, Souter L, Suskind AM, Takacs E, Welk B, Smith AL. The AUA/SUFU Guideline on the Diagnosis and Treatment of Idio...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-literaturquellen-wie-z--8d5491f412:field_value",
+      "title": "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
+    },
+    {
+      "content": "Gormley EA, Lightner DJ, Burgio KL, Chai TC, Clemens JQ, Culkin DJ, Das AK, Foster HE Jr, Scarpero HM, Tessier CD, Vasavada SP; American Urological Association; Society of Urodynamics, Female Pelvic Medicine & Urogenital Reconstruction. Diagnosis and treatment of overactive bladder (non-neurogenic) in adults: AUA/SUFU guideline. J Urol. 2012 Dec;188(6 Suppl):2455-63. doi: 10.1016/j.juro.2012.09.079 Beckenbodentraining Russo E, Caretto M, Giannini A, Bitzer J, Cano A, Ceausu I, Chedraui P, Durmusoglu F, Erkkola R, Goulis DG, Kiesel L, Lambrinoudaki I, Hirschberg AL, Lopes P, Pines A, Rees M, van Trotsenburg M, Simoncini T. Management of urinary incontinence in postmenopausal women: An EMAS clinical guide. Maturitas. 2021 Jan;143:223-230. doi: 10.1016/j.maturitas.2020.09.005. Burkhard FC, Bosch JLHR, Cruz F et al. European Association of Urology. EAU Guidelines: Urinary Incontinence in Adults. 2020. EAU Guidelines Office, Arnhem, The Netherlands. http://uroweb.org/guidelines/compilations-of-all-guidelines/ Trinkverhalten, Koffein Arnold J, McLeod N, Thani-Gasalam R, Rashid P. Overactive bladder syndrome - management and treatment options. Aust Fam Physician. 2012 Nov;41(11):878-83. PMID: 23145420 Corcos J, Przydacz M, Campeau L, Gray G, Hickling D, Honeine C, Radomski SB, Stothers L, Wagg A, Lond F. CUA guideline on adult overactive bladder. Can Urol Assoc J. 2017 May;11(5):E142-E173. doi: 10.5489/cuaj.4586 Patientenschulung Corcos J, Przydacz M, Campeau L, Gray G, Hickling D, Honeine C, Radomski SB, Stothers L, Wagg A, Lond F. CUA guideline on adult overactive bladder. Can Urol Assoc J. 2017 May;11(5):E142-E173. doi: 10.5489/cuaj.4586 Malik, R.D., Kowalik, C.G. Patient Education for Overactive Bladder in the Digital Era. Curr Bladder Dysfunct Rep 14, 186–190 (2019). https://doi.org/10.1007/s11884-019-00520-z Fragebogen ICIQ-UI-SF Uren AD, Cotterill N, Pardoe M, Abrams P. The International Consultation on Incontinence Questionnaires (ICIQ): An update on status and direction. Neurourol Urodyn. 2020 Aug;39(6):1889-1896. doi: 10.1002/nau.24437. Blasenprotokoll Gormley EA, Lightner DJ, Burgio KL, Chai TC, Clemens JQ, Culkin DJ, Das AK, Foster HE Jr, Scarpero HM, Tessier CD, Vasavada SP; American Urological Association; Society of Urodynamics, Female Pelvic Medicine & Urogenital Reconstruction. Diagnosis and treatment of overactive bladder (non-neurogenic) in adults: AUA/SUFU guideline. J Urol. 2012 Dec;188(6 Suppl):2455-63. doi: 10.1016/j.juro.2012.09.079 Burkhard FC, Bosch JLHR, Cruz F et al. European Association of Urology. EAU Guidelines: Urinary Incontinence in Adults. 2020. EAU Guidelines Office, Arnhem, The Netherlands. http://uroweb.org/guidelines/compilations-of-all-guidelines/ Motivation durch Belohnung zur Steigerung der Adhärenz Salai, A-M A Wee Bit More Interaction: Designing and Evaluating an Overactive Bladder CHI '19: Proceedings of the 2019 CHI Conference on Human Factors in Computing SystemsMay 2019Paper No.: 703Pages 1–14https://doi.org/10.1145/3290605.3300933 Eine vollständige Liste der Literatur finden Sie hier: https://www.meine-inka.de/literaturreferenzen/",
+      "content_preview": "Gormley EA, Lightner DJ, Burgio KL, Chai TC, Clemens JQ, Culkin DJ, Das AK, Foster HE Jr, Scarpero HM, Tessier CD, Vasavada SP; American Urological Association; Society of Urodynamics, Female Pelvic Medicine & Urogenital Reconstruction. ...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_preview": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Beteiligung vom medizinischen Fachpersonal"
+    },
+    {
+      "content": "Grundlegend besteht die Rolle der Ärztin oder des Artztes in der Regelversorgung zunächst darin, die Diagnose Überaktive Blase zu stellen und geeigneten Patientinnen und Patieten die App INKA zu verordnen, daran anschließend die Durchführung eines informativen und aufklärenden Gesprächs über INKA. Im weiteren Verlauf: Überprüfung des Fortschrittes von Patientinnen und Patienten. Hierzu können Patientinnen und Patienten freiwillig einen Bericht über ihren Verlauf erstellen und mit der behandelnden Ärztin oder dem behandelnden Arzt digital oder als Ausdruck teilen.",
+      "content_preview": "Grundlegend besteht die Rolle der Ärztin oder des Artztes in der Regelversorgung zunächst darin, die Diagnose Überaktive Blase zu stellen und geeigneten Patientinnen und Patieten die App INKA zu verordnen, daran anschließend die Durchfüh...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Ärztinnen/ Ärzte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Ärztinnen/ Ärzte"
+    },
+    {
+      "content": "Ja",
+      "content_preview": "Ja",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Erforderliche vertragsärztliche Tätigkeiten in Zusammenhang mit der Nutzung der DiGA als Gebührenordnungsposition"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Erforderliche vertragsärztliche Tätigkeiten in Zusammenhang mit der Nutzung der DiGA als Gebührenordnungsposition"
+    },
+    {
+      "content": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfohlen wird.",
+      "content_preview": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfoh...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-6922aa5eb2:field_value",
+      "title": "Anwendungshinweise"
+    },
+    {
+      "content": "1. Ärztliche Verordnung und Aufklärung: Leistungserbringerinnen und Leistungserbringer werden durch Dr. Pfleger Arzneimittel GmbH über die DiGA \"INKA\", Indikationen und Kontraindikationen informiert. Somit wird sichergestellt, dass die DIGA nur an Patientinnen und Patienten verordnet wird, die der Zweckbestimmung entsprechen.",
+      "content_preview": "1. Ärztliche Verordnung und Aufklärung: Leistungserbringerinnen und Leistungserbringer werden durch Dr. Pfleger Arzneimittel GmbH über die DiGA \"INKA\", Indikationen und Kontraindikationen informiert. Somit wird sichergestellt, dass die D...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Hinweise für eine sichere Anwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw-13263bcc58:field_value",
+      "title": "Hinweise für eine sichere Anwendung"
+    },
+    {
+      "content": "2. Registrierungsprozess Während des Registrierungsprozesses wird nochmals auf die Datenschutzinformationen, sowie die AGBs hingewiesen bzw. diese präsentiert. 3. Nutzungshinweise und Instruktionen: Alle Therapieinhalte verfügen über detaillierte Einleitungen. Die gesamte Therapie, inklusive des Beckenbodentrainings haben außerdem ein detailliertes Einleitungsvideo. Vor jeder Übungseinheit werden den Patientinnen und Patienten detaillierte Nutzungshinweise und Instruktionsvideos bereitgestellt, um eine korrekte Durchführung zu gewährleisten. Dabei werden die Instruktionen von einem professionellen Sprecher einfach und verständlich erklärt, sind aber auch jederzeit in Textform verfügbar. 4. Regelmäßige Wartung und Updates: Um die Funktionalität und Qualität der DiGA zu gewährleisten, erfolgen regelmäßige Wartungen und Updates, die auch der Behebung von Bugs dienen. Durch diese Maßnahmen gewährleisten wir eine qualitätsgesicherte Anwendung der DiGA \"INKA\".",
+      "content_preview": "2. Registrierungsprozess Während des Registrierungsprozesses wird nochmals auf die Datenschutzinformationen, sowie die AGBs hingewiesen bzw. diese präsentiert. 3. Nutzungshinweise und Instruktionen: Alle Therapieinhalte verfügen über det...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Die Mindestdauer der Nutzung beläuft sich auf 90 Tage.",
+      "content_preview": "Die Mindestdauer der Nutzung beläuft sich auf 90 Tage.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Vom Hersteller für erforderlich gehaltene Mindestdauer"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-vom-hersteller-fuer-erf-bbada5828c:field_value",
+      "title": "Vom Hersteller für erforderlich gehaltene Mindestdauer"
+    },
+    {
+      "content": "Die Dauer der Anwendung von INKA wird individuell von den Leistungserbringern auf Grundlage des therapeutischen Bedarfs festgelegt. Eine allgemeine Höchstdauer ist explizit nicht definiert.",
+      "content_preview": "Die Dauer der Anwendung von INKA wird individuell von den Leistungserbringern auf Grundlage des therapeutischen Bedarfs festgelegt. Eine allgemeine Höchstdauer ist explizit nicht definiert.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Vom Hersteller für erforderlich gehaltene Höchstdauer"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-vom-hersteller-fuer-erf-bbada5828c:field_value",
+      "title": "Vom Hersteller für erforderlich gehaltene Höchstdauer"
+    },
+    {
+      "content": "Android: Version 10 oder höher Apple: iOS 15 oder höher",
+      "content_preview": "Android: Version 10 oder höher Apple: iOS 15 oder höher",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-kompatibilitaetszusagen-2e7efe3e1b:field_value",
+      "title": "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
+    },
+    {
+      "content": "https://www.meine-inka.de/kompatibilitaet/",
+      "content_preview": "https://www.meine-inka.de/kompatibilitaet/",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Um Interoperabilität in maschinenlesbarer Form herzustellen, ermöglicht INKA den Datenaustausch im interoperablen FHIR-Standard. Dazu werden folgende FHIR-Ressourcen als XML-Datei im Auszug nach dem KBV MIO DiGA Toolkit hinterlegt:",
+      "content_preview": "Um Interoperabilität in maschinenlesbarer Form herzustellen, ermöglicht INKA den Datenaustausch im interoperablen FHIR-Standard. Dazu werden folgende FHIR-Ressourcen als XML-Datei im Auszug nach dem KBV MIO DiGA Toolkit hinterlegt:",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Möglichkeiten von standardisiertem Datenimport und Datenexport"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-moeglichkeiten-von-stan-a818cc9f27:field_value",
+      "title": "Möglichkeiten von standardisiertem Datenimport und Datenexport"
+    },
+    {
+      "content": "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_DIGA_Provenance https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_DIGA_Bundle https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_DIGA_DeviceDefinition_DIGA https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_DIGA_Device_DIGA https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_DIGA_Patient https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_DIGA_Composition https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_DIGA_Medication https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_DIGA_Observation_Nutrition_Intake https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_DIGA_Observation_Free https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_DIGA_Appointment https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_DIGA_MedicationAdministration_Medication_Intake https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_DIGA_QuestionnaireResponse https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_DIGA_MedicationStatement_Medication_Information https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_DIGA_Observation_Score_or_Assessment_by_Scale https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_DIGA_Questionnaire DiGA-Nutzende haben zusätzlich die Möglichkeit, eine übersichtliche Zusammenfassung aller Therapieaktivitäten in Form eines menschenlesbaren Datenberichts (PDF-Format) zu exportieren.",
+      "content_preview": "https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_DIGA_Provenance https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_DIGA_Bundle https://fhir.kbv.de/StructureDefinition/KBV_PR_MIO_DIGA_DeviceDefinition_DIGA https://fhir.kbv.de/Structure...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zu-den-von-der--1e522ad432:field_value",
+      "title": "Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen"
+    },
+    {
+      "content": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs. weitere, durch Sie selbst aufzubringende Kosten, sofern Sie bestimmte zusätzlich angebotene und von der Verschreibung nicht abgedeckte Leistungen in Anspruch nehmen möchten.",
+      "content_preview": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs....",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-429bde377d:field_value",
+      "title": "Angaben zum Preis"
+    },
+    {
+      "content": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+      "content_preview": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis",
+        "Preismodell"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis-6eb719186f:field_value",
+      "title": "Preismodell"
+    },
+    {
+      "content": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "content_preview": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "670,49 €",
+      "content_preview": "670,49 €",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-kosten-z-b-starterpaket-5641b0bf97:field_value",
+      "title": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
+    },
+    {
+      "content": "670,49 €",
+      "content_preview": "670,49 €",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-nutzung-der-dig-7a56e117b7:field_value",
+      "title": "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Anmerkungen zum Preismodell"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-anmerkungen-zum-f3f338f2f7:field_value",
+      "title": "Weitere Anmerkungen zum Preismodell"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Erläuterung Mehrkosten"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-erlaeuterung-mehrkosten-7813cc6074:field_value",
+      "title": "Erläuterung Mehrkosten"
+    },
+    {
+      "content": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_preview": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Verbesserungen für Patienten können entweder medizinischer Art sein (z.B. Verringerung von Schmerzen, Beitrag zur Heilung der Erkrankung) oder den Erkennungs- und Behandlungsprozess direkt unterstützen und erleichtern (z.B. Informationen zur individuellen Erkrankungssituation, Unterstützung bei der Einhaltung der zwischen Patient und Arzt gemeinsam vereinbarten therapeutischen Maßnahmen).",
+      "content_preview": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Ve...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:informationen-zum-positiven-versorgungseffekt-253662cf50:field_value",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche Weise dies ggfs. bereits wissenschaftlich nachgewiesen wurde. Falls der positive Versorgungseffekt noch nicht abschließend nachgewiesen aber bereits so plausibel dargelegt wurde, dass die DiGA befristet zur entsprechenden Erprobung aufgenommen wurde, wird angegeben, für welchen Zeitraum dies erfolgt ist. Sofern (auch) ein Nachweis zum Erhalt der Erwerbsfähigkeit für die DiGA erbracht wurde oder eine Nachweisführung geplant ist, finden Sie hier eine Beschreibung und nähere Angaben zum Nachweis sowie zum Studiendesign. Sofern die DiGA (auch) ein diagnostisches Instrument darstellt, also mindestens in Teilen dazu vorgesehen ist, Informationen z.B. für die Erkennung oder Diagnose von Krankheitszuständen zu liefern, hat der Hersteller dies benannt und beschrieben sowie Sensitivität und Spezifität als wichtige Bewertungsgrößen angegeben.",
+      "content_preview": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche We...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Medizinischer Nutzen",
+      "content_preview": "Medizinischer Nutzen",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Angaben zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse-5449921803:field_value",
+      "title": "Angaben zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Verbesserung des Gesundheitszustands",
+      "content_preview": "Verbesserung des Gesundheitszustands",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Nähere Angaben zum medizinischen Nutzen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen--90ce965dee:field_value",
+      "title": "Nähere Angaben zum medizinischen Nutzen"
+    },
+    {
+      "content": "Durch den digitalen Therapiebegleiter INKA wird eine Verbesserung des Gesundheitszustands erreicht: Die Anwendung der App führt zu einer Reduktion der Anzahl der täglichen Miktionen (gemessen mit dem 3-Tage-Blasenprotokoll gemäß ICIQ).",
+      "content_preview": "Durch den digitalen Therapiebegleiter INKA wird eine Verbesserung des Gesundheitszustands erreicht: Die Anwendung der App führt zu einer Reduktion der Anzahl der täglichen Miktionen (gemessen mit dem 3-Tage-Blasenprotokoll gemäß ICIQ).",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Beschreibung des medizinischen Nutzens"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut-a677995e79:field_value",
+      "title": "Beschreibung des medizinischen Nutzens"
+    },
+    {
+      "content": "Titel der Studie: Offene, kontrollierte, randomisierte, multizentrische Studie zum Nachweis der Wirkung des digitalen Therapiebegleiters INKA auf die Symptome der überaktiven Blase (mit oder ohne Harninkontinenz)",
+      "content_preview": "Titel der Studie: Offene, kontrollierte, randomisierte, multizentrische Studie zum Nachweis der Wirkung des digitalen Therapiebegleiters INKA auf die Symptome der überaktiven Blase (mit oder ohne Harninkontinenz)",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Studie/n im PICO-Schema"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema-2cb668dadb:field_value",
+      "title": "Studie/n im PICO-Schema"
+    },
+    {
+      "content": "Patientinnen und Patienten/Population: Männer und Frauen ≥ 18 Jahre mit folgenden Indikationsgebieten: Überaktive Blase mit oder ohne Harninkontinenz (ICD Code N.32.8), Dranginkontinenz (ICD Code N39.42) oder Mischinkontinenz, sofern die überaktive Blase das vorherrschende Symptom ist (ICD Codes N32.8 + N39.3; N39.42 + N39.3). Intervention: 12-wöchige Nutzung der App INKA als personalisierten Therapiebegleiter Comparison (Kontrolle): Keine zusätzliche Nutzung der App INKA Outcome: Nachweis der Reduktion der durchschnittlichen Anzahl der täglichen Miktionen anhand des Blasenprotokolls. Nachweis der Verbesserung der Krankheitssymptome im ICIQ-OAB. Nachweis der Verbesserung der Lebensqualität im ICIQ-OABqol.",
+      "content_preview": "Patientinnen und Patienten/Population: Männer und Frauen ≥ 18 Jahre mit folgenden Indikationsgebieten: Überaktive Blase mit oder ohne Harninkontinenz (ICD Code N.32.8), Dranginkontinenz (ICD Code N39.42) oder Mischinkontinenz, sofern die...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Studientitel: Offene, kontrollierte, randomisierte, multizentrische Studie zum Nachweis der Wirkung des digitalen Therapiebegleiters INKA auf die Symptome der überaktiven Blase (mit oder ohne Harninkontinenz)",
+      "content_preview": "Studientitel: Offene, kontrollierte, randomisierte, multizentrische Studie zum Nachweis der Wirkung des digitalen Therapiebegleiters INKA auf die Symptome der überaktiven Blase (mit oder ohne Harninkontinenz)",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u-804896bae6:field_value",
+      "title": "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
+    },
+    {
+      "content": "Studiendesign: Zur Untersuchung der Wirksamkeit des digitalen Therapiebegleiters INKA auf die Sypmtome der überaktiven Blase wird eine randomisierte, kontrollierte, offene, multizentrische, zweiarmige Studie durchgeführt. Teilnehmende der Interventionsgruppe erhalten für 12 Wochen den digitalen Therapiebegleiter INKA, während die Kontrollgruppe lediglich Zugang zur Standardversorgung erhält. Population Für die Studie ist der Einschluss von insgesamt 350 Patientinnen und Patienten mit diagnostizierter überaktiver Blase (mit oder ohne Harninkontinenz oder Mischinkontinenz) vorgesehen. Die Studienpopulation umfasst zwei Kohorten, eine mit stabiler pharmakologischer Behandlung (OAB „med\"\"-Kohorte), und eine ohne pharmakologische Behandlung (OAB „naiv\"\"-Kohorte). Die Kohorten werden in der primären Analyse gemeinsam ausgewertet. Die Teilnehmenden werden im Verhältnis 1:1 mittels stratifizierter Randomisierung der INKA-Gruppe bzw. der Kontrollgruppe zugeteilt. Studienziele: Primäres Ziel: Untersuchung der Wirksamkeit von INKA im Hinblick auf die Anzahl täglicher Miktionen (3-Tage-Blasenprotokoll gemäß ICIQ) nach 12 wöchiger Interventionsdauer. Sekundäre Ziele: Untersuchung der Wirksamkeit von INKA auf • weitere Krankheitsspezifische Symptome, gemessen mit dem 3-tägigen Blasenprotokoll nach ICIQ und dem Fragebogen ICIQ-OAB • die Lebensqualität, gemessen mit dem Fragebogen ICIQ-OABqol Registrierung der Studie: im DRKS: DRKS00032952 (https://drks.de/search/de/trial/DRKS00032952) Die Studienergebnisse sollen in einem Fachjournal und auf der Webseite des Herstellers veröffentlicht werden.",
+      "content_preview": "Studiendesign: Zur Untersuchung der Wirksamkeit des digitalen Therapiebegleiters INKA auf die Sypmtome der überaktiven Blase wird eine randomisierte, kontrollierte, offene, multizentrische, zweiarmige Studie durchgeführt. Teilnehmende de...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Dies ist/sind die vom Hersteller angeführten Studie/n:"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:informationen-zum-positiven-versorgungseffekt-dies-ist-sind-die-vom-hersteller-a-81dc280904:field_value",
+      "title": "Dies ist/sind die vom Hersteller angeführten Studie/n:"
+    },
+    {
+      "content": "Die Studie wird im Rahmen der Aufnahme zur Erprobung durchgeführt und wird nach der Erprobungsphase im DRKS und auf der Anwendungswebseite veröffentlicht.",
+      "content_preview": "Die Studie wird im Rahmen der Aufnahme zur Erprobung durchgeführt und wird nach der Erprobungsphase im DRKS und auf der Anwendungswebseite veröffentlicht.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "fbeta GmbH",
+      "content_preview": "fbeta GmbH",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:informationen-zum-positiven-versorgungseffekt-herstellerunabhaengige-institution-85ca65af54:field_value",
+      "title": "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
+    },
+    {
+      "content": "Nein",
+      "content_preview": "Nein",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Die DiGA enthält ein diagnostisches Instrument"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch-eded43f154:field_value",
+      "title": "Die DiGA enthält ein diagnostisches Instrument"
+    },
+    {
+      "content": "12",
+      "content_preview": "12",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Länge des Zeitraumes der vorläufigen Aufnahme"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:informationen-zum-positiven-versorgungseffekt-laenge-des-zeitraumes-der-vorlaeuf-d645f91b3b:field_value",
+      "title": "Länge des Zeitraumes der vorläufigen Aufnahme"
+    },
+    {
+      "content": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird. Die Anforderungen an die Datensicherheit werden durch Vorlage eines Zertifikats gemäß § 139e Absatz 10 Fünftes Buch Sozialgesetzbuch nachgewiesen. Detaillierte Informationen zu den einzelnen Anforderungen können Sie auf der Webseite des Bundesamts für Sicherheit in der Informationstechnik unter der Technischen Richtlinie \"BSI TR-03161\" finden: https://www.bsi.bund.de/dok/TR-03161 Bis zur Vorlage des Zertifikats gelten für den Bereich Datensicherheit die Anforderungen der nachfolgend dargestellten Checkliste.",
+      "content_preview": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen v...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:field_value",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Einschränkung auf ein privates IT Gerät der nutzende Person(siehe IFU) Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Bedingt durch die Vigilanzpflicht können sich weitere Verarbeitungstätigkeiten ergeben. Darüber wird in der Datenschutzerklärung informiert (Zwecke, Empfänger, Rechtsgrundlage, Speicherdauer). Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine technische Möglichkeit einer Verknüpfung oder eines Datenaustauschs mit anderen digitalen Gesundheitsanwendung Trifft nicht zu Die digitale Gesundheitsanwendung unterstützt keine Offenbarung von Informationen der betroffenen Person oder über die betroffene Person für die Öffentlichkeit oder eine für die betroffene Person nicht eingrenzbare Personengruppe.",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Einschränkung auf ein privates IT Gerät der nutzende Person(siehe IFU) Zutreffend Zutreff...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit",
+        "Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:informationen-zu-datenschutz-und-datensicherheit-datensicherheit-14af255f91:field_value",
+      "title": "Datensicherheit"
+    },
+    {
+      "content": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der medizinischen Inhalte und die Gewährleistung der Patientensicherheit.",
+      "content_preview": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der me...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-afe954d9f8:field_value",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_preview": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Interoperabilität"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-angaben-zur-interoperabilitaet-8867f27412:field_value",
+      "title": "Angaben zur Interoperabilität"
+    },
+    {
+      "content": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versicherten getragenen Sensoren zur Messung und Übertragung von Vitalwerten (Wearables) austauscht Zutreffend Trifft nicht zu Der Hersteller hat keine eigenen Profilierungen vorgenommen. Zutreffend",
+      "content_preview": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versiche...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Robustheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-angaben-zur-robustheit-0a511476df:field_value",
+      "title": "Angaben zur Robustheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen",
+      "content_preview": "Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zum Verbraucherschutz"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-angaben-zum-verbraucherschutz-05cd17969e:field_value",
+      "title": "Angaben zum Verbraucherschutz"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit-8fe873c531:field_value",
+      "title": "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Unterstützung der Leistungserbringende"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-unterstuetzung-der-leistungserbringende-d4e78dfd75:field_value",
+      "title": "Unterstützung der Leistungserbringende"
+    },
+    {
+      "content": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen.",
+      "content_preview": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Triff...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Qualität der medizinischen Inhalte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte-a6d05ceeb6:field_value",
+      "title": "Angaben zur Qualität der medizinischen Inhalte"
+    },
+    {
+      "content": "Zutreffend Zutreffend Trifft nicht zu Die Studie ist noch nicht abgeschlossen und noch nicht veröffentlicht. Sie wird aber sobald die Ergebnisse vorliegen, auf der Anwendungswebseite und im DRKS veröffentlicht Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Trifft nicht zu Die Studie ist noch nicht abgeschlossen und noch nicht veröffentlicht. Sie wird aber sobald die Ergebnisse vorliegen, auf der Anwendungswebseite und im DRKS veröffentlicht Zutreffend Zutreffend Zutre...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Patientensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-angaben-zur-patientensicherheit-7a67651ccd:field_value",
+      "title": "Angaben zur Patientensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02906:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    }
+  ],
+  "diga_id": "02906",
+  "name": "INKA",
+  "rendered_structure_metadata": {
+    "accordions_opened": 0,
+    "content_section_count": 87,
+    "field_value_count": 60,
+    "rendered_at": "2026-06-22T19:17:24.043529+00:00",
+    "source_kind": "visible_directory"
+  },
+  "source_kind": "visible_directory",
+  "timestamp": "20260622T190144Z",
+  "url": "https://diga.bfarm.de/de/verzeichnis/02906"
+}

@@ -1,0 +1,908 @@
+{
+  "content_sections": [
+    {
+      "content": "elevida ist eine digitale Gesundheitsanwendung für Menschen mit einer Multiplen Sklerose, bei denen zusätzlich eine Fatigue vorliegt und die mindestens 18 Jahre alt sind. Von einer Fatigue spricht man dann, wenn eine anhaltende Müdigkeit oder Erschöpfung besteht. elevida verfolgt das Ziel, die Fatigue zu reduzieren. Das Programm soll in Ergänzung zu einer sonst üblichen Behandlung (zum Beispiel beim Haus- oder Facharzt) eingesetzt werden. elevida basiert auf etablierten psychotherapeutischen Ansätzen und Verfahren insbesondere der kognitiven Verhaltenstherapie (KVT). elevida ist zur Eigenanwendung durch den Patienten für 180 Tage bestimmt. Die Wirksamkeit von elevida wurde in einer klinischen Studie untersucht und in einer wissenschaftlichen Fachzeitschrift veröffentlicht. An dieser Studie nahmen 275 Patienten teil, die an einer Multiplen Sklerose und zusätzlich auch an einer Fatigue litten. In dieser Studie zeigte sich, dass bei Patienten, die zusätzlich zu einer sonst üblichen Behandlung elevida nutzten, die Fatigue deutlich stärker abgenommen hatte als bei Patienten, die nur eine sonst übliche Behandlung erhielten. Die Verordnungsdauer von elevida beträgt 90 Tage. Zur Stabilisierung der Effekte ist eine Nutzung für 180 Tage empfohlen.",
+      "content_preview": "elevida ist eine digitale Gesundheitsanwendung für Menschen mit einer Multiplen Sklerose, bei denen zusätzlich eine Fatigue vorliegt und die mindestens 18 Jahre alt sind. Von einer Fatigue spricht man dann, wenn eine anhaltende Müdigkeit...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "gaia-group.com/de/"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:gaia-group-com-de-8c79d17e94:field_value",
+      "title": "gaia-group.com/de/"
+    },
+    {
+      "content": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_preview": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:field_value",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_preview": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "elevida",
+      "content_preview": "elevida",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Name der DiGA im DiGA-Verzeichnis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v-132a49921b:field_value",
+      "title": "Name der DiGA im DiGA-Verzeichnis"
+    },
+    {
+      "content": "15.12.2020",
+      "content_preview": "15.12.2020",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Erstmalige Aufnahme in das DiGA-Verzeichnis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in--0901792b12:field_value",
+      "title": "Erstmalige Aufnahme in das DiGA-Verzeichnis"
+    },
+    {
+      "content": "Browserbasierte Webanwendung",
+      "content_preview": "Browserbasierte Webanwendung",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Art der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga-f41af95c79:field_value",
+      "title": "Art der DiGA"
+    },
+    {
+      "content": "als browserbasierte Webanwendung",
+      "content_preview": "als browserbasierte Webanwendung",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Die digitale Gesundheitsanwendung ist verfügbar"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit-70a197df25:field_value",
+      "title": "Die digitale Gesundheitsanwendung ist verfügbar"
+    },
+    {
+      "content": "Deutschland",
+      "content_preview": "Deutschland",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Standorte der Datenverarbeitung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera-426183d1fc:field_value",
+      "title": "Standorte der Datenverarbeitung"
+    },
+    {
+      "content": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an • Sicherheit und Funktionstauglichkeit des Medizinproduktes • Datenschutz und Datensicherheit nach dem Stand der Technik • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) als erfüllt.",
+      "content_preview": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an • Sicherheit und Funktionstauglichkeit des Medizinproduktes • Datenschutz und Datensicherheit nach dem Stand der T...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Bewertungsentscheidung des BfArM"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung--cdc10aad7c:field_value",
+      "title": "Bewertungsentscheidung des BfArM"
+    },
+    {
+      "content": "Laut Hersteller findet die die Datenverarbeitung im Zusammenhang mit der Nutzung von elevida in Deutschland statt. Der Nachweis des positiven Versorgungseffekts stützt sich auf folgende randomisierte kontrollierte klinische Studie (RCT): Pöttgen J, Moss-Morris R, Wendebourg JM et al. Randomised controlled trial of a self-guided online fatigue intervention in multiple sclerosis. J Neurol Neurosurg Psychiatry. 2018 Sep; 89(9):970-976. In diese Studie wurden der Publikation nach 275 Patienten mit einer Multiplen Sklerose eingeschlossen, die unter einer Fatigue litten und mindestens 18 Jahre alt waren. Patienten in der Interventionsgruppe erhielten die übliche medizinische Versorgung und zusätzlich Zugang zum Programm elevida, während die Patienten in der Kontrollgruppe die übliche medizinische Versorgung erhielten. Nach 24 Wochen erhielten auch die Patienten in der Kontrollgruppe Zugang zu elevida. In der Interventionsgruppe wurde nach 12 Wochen (primärer Erhebungszeitpunkt) ein signifikant niedrigerer Chalder Fatigue Scale Score ermittelt im Vergleich zur Kontrollgruppe (ITT-Analyse: Zwischengruppendifferenz 2.74 Punkte; 95 % CI 1.16 - 4.32; p = 0.0007; Effektstärke Cohen’s d = 0.53). Die Unterschiede waren auch nach 24 Wochen nachweisbar (ITT-Analyse: Zwischengruppendifferenz 2.19 Punkte; 95 % CI 0.57 - 3.82; p = 0.0080). Bei der Chalder Fatigue Scale handelt es sich um eine Indikations-unspezifische Fatigue-Skala, die den Ausprägungsgrad physischer und mentaler Fatigue erfasst. Damit hat die klinische Studie gezeigt, dass elevida zusätzlich zu der üblichen medizinischen Behandlung die Fatigue wirksam reduziert. Entsprechend bewertet das BfArM die in §139e SGB V sowie in der DiGAV festgelegten Voraussetzungen zur Aufnahme in das Verzeichnis nach §139e Abs. 1 SGB V als erfüllt.",
+      "content_preview": "Laut Hersteller findet die die Datenverarbeitung im Zusammenhang mit der Nutzung von elevida in Deutschland statt. Der Nachweis des positiven Versorgungseffekts stützt sich auf folgende randomisierte kontrollierte klinische Studie (RCT):...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_preview": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Angaben zum Medizinprodukt"
+    },
+    {
+      "content": "elevida ist dafür bestimmt, therapeutische Techniken und Übungen anzubieten, die auf evidenzbasierten psychologisch-psychotherapeutischen Therapieverfahren beruhen und die für Patienten mit Multipler Sklerose (MS) und gleichzeitiger Fatigue (anhaltende Müdigkeit beziehungsweise Erschöpfung) geeignet sind, sie beim Management ihrer Fatigue zu unterstützen. elevida ist zur eigenständigen Nutzung in Ergänzung zur üblichen Versorgung von Patienten bestimmt, die mindestens 18 Jahre alt sind. elevida ist weder dafür bestimmt, Behandlungen durch einen Leistungserbringer im Gesundheitswesen zu ersetzen noch dafür bestimmt, Informationen für diagnostische oder therapeutische Entscheidungen zu liefern.",
+      "content_preview": "elevida ist dafür bestimmt, therapeutische Techniken und Übungen anzubieten, die auf evidenzbasierten psychologisch-psychotherapeutischen Therapieverfahren beruhen und die für Patienten mit Multipler Sklerose (MS) und gleichzeitiger Fati...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "Medizinische Zweckbestimmung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Medizinische Zweckbestimmung"
+    },
+    {
+      "content": "Risikoklasse I nach MDR",
+      "content_preview": "Risikoklasse I nach MDR",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "Risikoklasse Medizinprodukt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Risikoklasse Medizinprodukt"
+    },
+    {
+      "content": "4260670631416",
+      "content_preview": "4260670631416",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "UDI - Unique Device Identifier im Sinne der MDR"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "UDI - Unique Device Identifier im Sinne der MDR"
+    },
+    {
+      "content": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_preview": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Weitere Informationen zur DiGA"
+    },
+    {
+      "content": "elevida ist eine digitale Gesundheitsanwendung für Menschen mit einer Multiplen Sklerose, bei denen zusätzlich eine Fatigue vorliegt und die mindestens 18 Jahre alt sind. Von einer Fatigue spricht man dann, wenn eine anhaltende Müdigkeit oder Erschöpfung besteht. elevida verfolgt das Ziel, die Fatigue zu reduzieren. Das Programm soll in Ergänzung zu einer sonst üblichen Behandlung (zum Beispiel beim Haus- oder Facharzt) eingesetzt werden. elevida basiert auf etablierten psychotherapeutischen Ansätzen und Verfahren insbesondere der kognitiven Verhaltenstherapie (KVT). elevida weist folgende Struktur auf: Zunächst werden die Zielsetzung und wesentlichen Funktionen des Programms erläutert. Dann vermittelt das Programm folgende Inhalte: • Aktivität und Erholung. Das Programm schlägt dem Nutzer tägliche Aktivitäten und Erholungszeiten vor und motiviert dazu, einen Aktivitäts- und Erholungsplan für die Woche zu erstellen. • Zusammenhang zwischen der eigenen Aufmerksamkeit und der Schwere der Fatigue-bezogenen Symptome. Das Programm ermutigt den Nutzer dazu, ein Tagebuch über die Symptome zu führen. • Grundlagen der kognitiven Verhaltenstherapie. Darüber hinaus wird auf die Bedeutung der Selbstbeobachtung eingegangen und empfohlen, ein Fatigue „Logbuch“ über eine Woche zu führen. • Stressmanagement. Es wird mit dem Nutzer erarbeitet, welche konkreten Situationen zu Stress führen und welche Techniken es auf Basis der kognitiven Verhaltenstherapie gibt, mit Stress besser umzugehen. • Schlaf und Schlafmanagement. Es vermittelt Informationen über Schlaf bei Patienten mit einer Multiplen Sklerose und Techniken für einen erholsamen Schlaf. • Umgang mit nicht-hilfreichen Gedanken. elevida erläutert, wie man nicht-hilfreiche Gedanken erkennt, sich von ihnen gedanklich distanzieren und durch hilfreichere andere Gedanken ersetzen kann. • Soziale Unterstützung. Es vermittelt Ansätze, das eigene soziale Netzwerk besser zu verstehen, und Möglichkeiten zu prüfen, inwieweit dieses Netzwerk einen selbst unterstützen kann. • Vorbeugung von Fatigue und Wiederholung der wesentlichen Inhalte des Programms in Form eines Quizzes. - elevida kann innerhalb eines Zeitraums von 180 Tagen nach erstmaliger Registrierung genutzt werden. Es wird empfohlen, elevida ein- bis zweimal wöchentlich für jeweils mindestens eine halbe Stunde zu nutzen. elevida stellt eine reine webbasierte Anwendung dar. Eine Installation ist nicht erforderlich. Jedoch werden für die Nutzung von elevida ein Internetzugang und ein aktueller Webbrowser benötigt.",
+      "content_preview": "elevida ist eine digitale Gesundheitsanwendung für Menschen mit einer Multiplen Sklerose, bei denen zusätzlich eine Fatigue vorliegt und die mindestens 18 Jahre alt sind. Von einer Fatigue spricht man dann, wenn eine anhaltende Müdigkeit...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "elevida weist eine Haupt- und mehrere unterstützende Nebenfunktionen auf. Die Hauptfunktion besteht in einem Dialog. Das bedeutet, dass elevida dem Nutzer kurze therapeutisch hilfreiche Informationen anbietet und der Nutzer dann aus einer festgelegten Anzahl von vorgegebenen Antwortmöglichkeiten diejenige auswählt, die ihn/sie am meisten interessiert und/oder am besten zur individuellen Situation passt. elevida geht dann auf diese Antwortmöglichkeit empathisch ein und vermittelt nachfolgend die nächste Information, auf die der Nutzer dann wiederum reagieren kann usw. Auf diese Weise entsteht eine Kommunikationsdynamik. Patienten werden zudem dazu motiviert, Tagebücher oder Protokolle zu führen und Hausaufgaben zu bearbeiten, um bestimmte Übungen oder Inhalte besser in den Alltag zu integrieren. Der Nutzer kann elevida zu jeder Zeit unterbrechen und dann an der Stelle fortfahren, an der er/sie das Programm verlassen hat. Nutzer werden regelmäßig daran erinnert, Pausen einzulegen. elevida verfügt über eine Reihe weiterer Funktionen. Hierzu gehören: • Kurze Textnachrichten als SMS (optional) oder per E-Mail, die wesentliche therapeutische Inhalte kurz und prägnant wiederholen oder zur weiteren Nutzung von elevida motivieren. • Möglichkeit der Selbstüberprüfung im Hinblick auf die eigene Aufmerksamkeit gegenüber der Fatigue, das Fitnesslevel und den Umgang mit Fatigue. • Arbeitsblätter und Zusammenfassungen (PDF) zur Unterstützung der Umsetzung der Übungen und zum Wiederholen wichtiger Inhalte, die heruntergeladen werden können. • Audios zur Anleitung therapeutischer Übungen oder zur näheren Erläuterung bestimmter Inhalte.",
+      "content_preview": "elevida weist eine Haupt- und mehrere unterstützende Nebenfunktionen auf. Die Hauptfunktion besteht in einem Dialog. Das bedeutet, dass elevida dem Nutzer kurze therapeutisch hilfreiche Informationen anbietet und der Nutzer dann aus eine...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Funktionen der digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Funktionen der digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Universitätsklinikum Hamburg-Eppendorf Klinik und Poliklinik für Neurologie Martinistraße 52 20246 Hamburg - Charité – Universitätsmedizin Berlin Bereich Neuropsychiatrie Hindenburgdamm 30 12203 Berlin",
+      "content_preview": "Universitätsklinikum Hamburg-Eppendorf Klinik und Poliklinik für Neurologie Martinistraße 52 20246 Hamburg - Charité – Universitätsmedizin Berlin Bereich Neuropsychiatrie Hindenburgdamm 30 12203 Berlin",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
+    },
+    {
+      "content": "Benedict RH, Munschauer F, Linn R, et al. Mult Scler 2003;9:95–101. https://journals.sagepub.com/doi/abs/10.1191/1352458503ms861oa - Braley TJ, Chervin RD. Sleep. 2010 Aug;33(8):1061-7. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2910465/ - Cakt BD, Nacir B, Genç H et al. Am J Phys Med Rehabil. 2010 Jun;89(6):446-57. https://journals.lww.com/ajpmr/Abstract/2010/06000/Cycling_Progressive_Resistance_Training_for_People.2.aspx - Cella M, Chalder T. J Psychosom Res 2010;69:17–22. https://www.sciencedirect.com/science/article/abs/pii/S0022399909004176?via%3Dihub - Chwastiak LA, Gibbons LE, Ehde DM, et al. J Psychosom Res 2005;59:291–8. https://www.sciencedirect.com/science/article/abs/pii/S0022399905001 - Cosio D, Jin L, Siddique J, Mohr DC. Ann Behav Med. 2011 Apr;41(2):227-34. - Dalgas U, Stenager E, Jakobsen J et al. Mult Scler. 2010 Apr;16(4):480-90. Drummond LM. CBT for Adults: A Practical Guide for Clinicians. RCPsych Publications: London. 2014. - Dryden W, Branch R (Eds.). The CBT handbook. Sage: London. 2011. - Finlayson M, Preissner K, Cho C et al. Mult Scler. 2011 Sep;17(9):1130-40. - Fisk JD, Pontefract A, Ritvo PG, et al. Can J Neurol Sci 1994;21:9–14. - Ghahari S, Leigh Packer T, Passmore AE. Clin Rehabil. 2010 Aug;24(8):727-44. - Gold SM, Schulz H, Stein H, et al. J Neurol Sci 2010;290–102–6. - Gold SM, Heesen C, Schulz H, et al. Mult Scler 2001;7:119–30. - Grossman P, Kappos L, Gensicke H et al. Neurology. 2010 Sep 28;75(13):1141-9. - Hayes HA, Gappmaier E, LaStayo PC. J Neurol Phys Ther. 2011 Mar;35(1):2-10. - Hebert JR, Corboy JR, Manago MM et al. Phys Ther. 2011 Aug;91(8):1166-83. - Hofmann SG. An introduction to modern CBT: Psychological solutions to mental health problems. John Wiley &Sons: Chichester. 2011. - Hohol MJ, Orav EJ, Weiner HL. Neurology 1995;45:251–5. - Hugos CL, Copperman LF, Fuller BE et al. Mult Scler. 2010 Jun;16(6):724-32. - Kargarfard M, Etemadifar M, Baker P et al. Arch Phys Med Rehabil. 2012 Oct;93(10):1701-8. - Klefbeck B, Hamrah Nedjad J. Arch Phys Med Rehabil. 2003 Jul;84(7):994-9. - Knoop H, van Kessel K, Moss-Morris R. Psychol Med. 2012 Jan;42(1):205-13. - Kos D, Duportail M, D'hooghe M et al. Mult Scler. 2007 Sep;13(8):996-1003. - Krupp L. Mult Scler 2006;12:367–8. - Learmonth YC, Motl RW, Sandroff BM, et al. BMC Neurol 2013;13:37. - Mathiowetz VG, Finlayson ML, Matuska KM et al. Mult Scler. 2005 Oct;11(5):592-601. - Mohr DC, Goodkin DE, Bacchetti P et al. Neurology.2000;55:55—61.31. - Mohr DC, Hart SL, Goldberg A. Psychosom Med. 2003 Jul-Aug;65(4):542-7. - Mohr DC, Lovera J, Brown T et al. Neurology 2012;79(5):412-9. - Moss-Morris R, McCrone P, Yardley L, et al. Behav Res Ther 2012;50:415–21. - Mostert S, Kesselring J. Mult Scler. 2002 Apr;8(2):161-8. - Oken BS, Kishiyama S, Zajdel D et al. Neurology. 2004 Jun 8;62(11):2058-64. - Penner IK, Raselli C, Stöcklin M, et al. Mult Scler 2009;15–1509–17. - Pilutti LA, Greenlee TA, Motl RW, et al. Psychosom Med 2013;75:575–80. - Rietberg MB, Van Wegen EE, Kwakkel G. Disabil Rehabil 2010;32:1870–6. - Sage N, Sowden M, Chorlton E et al. CBT for chronic illness and palliative care: A workbook and toolkit. John Wiley & Sons: Chichester. 2013. - Skinner V, Wrycraft N. CBT fundamentals: Theory and cases. McGraw-Hill Education (UK): Maldenhead. 2014. - Smith MM, Arnett PA. Mult Scler 2005;11:602–9. - Thomas S, Thomas PW, Kersten P et al. J Neurol Neurosurg Psychiatry. 2013 Oct;84(10):1092-9. - Turnbull JC, Kersten P, Habib M, et al. Arch Phys Med Rehabil 2000;81:1034–8. - van den Berg M, Dawes H, Wade DT et al. J Neurol Neurosurg Psychiatry. 2006 Apr;77(4):531-3. - van Kessel K, Moss-Morris R, Willoughby E et al. Psychosom Med 2008;70:205–13. - Velikonja O, Curić K, Ozura A et al. Clin Neurol Neurosurg. 2010 Sep;112(7):597-601. - Weinges-Evers N, Brandt AU, Bock M, et al. Mult Scler 2010;16:1134–40. - White CA. Cognitive behaviour therapy for chronic medical problems: A guide to assessment and treatment in practice. John Wiley & Sons Ltd. : Chiches",
+      "content_preview": "Benedict RH, Munschauer F, Linn R, et al. Mult Scler 2003;9:95–101. https://journals.sagepub.com/doi/abs/10.1191/1352458503ms861oa - Braley TJ, Chervin RD. Sleep. 2010 Aug;33(8):1061-7. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC291046...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
+    },
+    {
+      "content": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_preview": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Beteiligung vom medizinischen Fachpersonal"
+    },
+    {
+      "content": "Diagnosestellung, Information und Aufklärungsgespräch über elevida, Verordnung von elevida, Nachbeobachtung im Rahmen der üblichen Therapie, wie zum Beispiel: Frage nach Verlauf der Beschwerden; Nachfrage, ob die Patientin / der Patient das Programm als hilfreich empfunden hat; Motivation zur weiteren Therapienutzung.",
+      "content_preview": "Diagnosestellung, Information und Aufklärungsgespräch über elevida, Verordnung von elevida, Nachbeobachtung im Rahmen der üblichen Therapie, wie zum Beispiel: Frage nach Verlauf der Beschwerden; Nachfrage, ob die Patientin / der Patient ...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Ärztinnen/ Ärzte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Ärztinnen/ Ärzte"
+    },
+    {
+      "content": "Diagnosestellung, Information und Aufklärungsgespräch über elevida, Verordnung von elevida, Nachbeobachtung im Rahmen der üblichen Therapie, wie zum Beispiel: Frage nach Verlauf der Beschwerden; Nachfrage, ob die Patientin / der Patient das Programm als hilfreich empfunden hat; Motivation zur weiteren Therapienutzung.",
+      "content_preview": "Diagnosestellung, Information und Aufklärungsgespräch über elevida, Verordnung von elevida, Nachbeobachtung im Rahmen der üblichen Therapie, wie zum Beispiel: Frage nach Verlauf der Beschwerden; Nachfrage, ob die Patientin / der Patient ...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Psychotherapeutinnen/ Psychotherapeuten"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Psychotherapeutinnen/ Psychotherapeuten"
+    },
+    {
+      "content": "Nein",
+      "content_preview": "Nein",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
+    },
+    {
+      "content": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfohlen wird.",
+      "content_preview": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfoh...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-6922aa5eb2:field_value",
+      "title": "Anwendungshinweise"
+    },
+    {
+      "content": "Gemäß der Zweckbestimmung sollte das Produkt nur bei Patienten mit einer Multiplen Sklerose angewendet werden, die zusätzlich unter einer Fatigue (d. h. anhaltender Müdigkeit beziehungsweise Erschöpfung) leiden und mindestens 18 Jahre alt sind. Eine Änderung bestehender Medikationen und/oder Behandlungen darf nicht ohne Rücksprache mit dem Arzt/ Psychotherapeuten erfolgen. Patienten sollten ihren Arzt oder Psychotherapeuten kontaktieren, wenn sich ihr Befinden oder ihre Stimmung längere Zeit (mehrere Tage/Wochen) nicht bessern oder sich akut verschlechtern sollten.",
+      "content_preview": "Gemäß der Zweckbestimmung sollte das Produkt nur bei Patienten mit einer Multiplen Sklerose angewendet werden, die zusätzlich unter einer Fatigue (d. h. anhaltender Müdigkeit beziehungsweise Erschöpfung) leiden und mindestens 18 Jahre al...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Hinweise für eine sichere Anwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw-13263bcc58:field_value",
+      "title": "Hinweise für eine sichere Anwendung"
+    },
+    {
+      "content": "Zielgruppe der DiGA sind Menschen mit einer Multiplen Sklerose, bei denen zusätzlich eine Fatigue vorliegt. Weitere Ausschlusskriterien sind die Nicht-Verfügbarkeit eines internetfähigen Endgerätes sowie keine ausreichenden Sprachkenntnisse in Deutsch oder Englisch.",
+      "content_preview": "Zielgruppe der DiGA sind Menschen mit einer Multiplen Sklerose, bei denen zusätzlich eine Fatigue vorliegt. Weitere Ausschlusskriterien sind die Nicht-Verfügbarkeit eines internetfähigen Endgerätes sowie keine ausreichenden Sprachkenntni...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Weitere Ausschlusskriterien"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-weit-3d658a5f5f:field_value",
+      "title": "Weitere Ausschlusskriterien"
+    },
+    {
+      "content": "Bei elevida handelt es sich um ein Programm zur Unterstützung des Selbstmanagements von chronisch erkrankten Patienten. Die Mindestdauer der Nutzung beträgt 90 Tage.",
+      "content_preview": "Bei elevida handelt es sich um ein Programm zur Unterstützung des Selbstmanagements von chronisch erkrankten Patienten. Die Mindestdauer der Nutzung beträgt 90 Tage.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Vom Hersteller für erforderlich gehaltene Mindestdauer"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "title": "Vom Hersteller für erforderlich gehaltene Mindestdauer"
+    },
+    {
+      "content": "Die Nutzungsdauer von elevida wird neben dem klinischen Zustand des Patienten von weiteren individuellen Eigenschaften (z. B. Vorerfahrungen mit kognitiver Verhaltenstherapie, persönlicher Nutzen zum Beispiel durch die Umsetzung von Empfehlungen aus dem Programm) abhängen. Aus Herstellersicht würde nichts gegen eine tägliche Nutzung sprechen. Die empfohlene Nutzung von elevida beträgt ein- bis zweimal wöchentlich für jeweils mindestens eine halbe Stunde.",
+      "content_preview": "Die Nutzungsdauer von elevida wird neben dem klinischen Zustand des Patienten von weiteren individuellen Eigenschaften (z. B. Vorerfahrungen mit kognitiver Verhaltenstherapie, persönlicher Nutzen zum Beispiel durch die Umsetzung von Empf...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Vom Hersteller für erforderlich gehaltene Höchstdauer"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "title": "Vom Hersteller für erforderlich gehaltene Höchstdauer"
+    },
+    {
+      "content": "elevida ist eine webbasierte Applikation. Zur Nutzung werden ein Internetfähiges Endgerät, ein Internetzugang sowie ein aktueller Browser benötigt (Chrome, Edge, Mozilla, Safari). Weiterhin werden eine E-Mail-Adresse und optional eine Mobilnummer für den SMS-Service benötigt. Die aktuellen Browserversionen finden sich auf der Produktwebseite https://elevida.de/ im Abschnitt \"Kompatibilitätszusagen Browser/ Nutzungsvoraussetzungen\". Wir empfehlen zudem eine minimale (logische) Auflösung von 320 x 568 Pixel und für die Audios eine Bandbreite von 192 kBit/s.",
+      "content_preview": "elevida ist eine webbasierte Applikation. Zur Nutzung werden ein Internetfähiges Endgerät, ein Internetzugang sowie ein aktueller Browser benötigt (Chrome, Edge, Mozilla, Safari). Weiterhin werden eine E-Mail-Adresse und optional eine Mo...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-komp-0b84064997:field_value",
+      "title": "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
+    },
+    {
+      "content": "Zur Herstellung von Datenportabilität und semantischer und technischer Interoperabilität wird als Standard HL7® FHIR® (https://www.hl7.org/fhir/) mit dem MIO DiGA Toolkit in der Version 1.1.0 verwendet. Unter dem Menüpunkt “Persönliche Daten” sehen Nutzerinnen und Nutzer einen Überblick über die von ihnen bearbeiteten Inhalte und den Verlauf ihrer Selbsteinschätzung mittels der Skalen zur Selbsteinschätzung (z. B. körperlicher Belastbarkeitscheck). Diese Daten können über einen Button “PDF erstellen” als menschenlesbares Format exportiert werden.“ Die DiGA ermöglicht zudem auf Wunsch des Versicherten einen manuellen oder automatisierten Export in die elektronische Patientenakte (ePA) Version 3.0.",
+      "content_preview": "Zur Herstellung von Datenportabilität und semantischer und technischer Interoperabilität wird als Standard HL7® FHIR® (https://www.hl7.org/fhir/) mit dem MIO DiGA Toolkit in der Version 1.1.0 verwendet. Unter dem Menüpunkt “Persönliche D...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Möglichkeiten von standardisiertem Datenimport und Datenexport"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-moeg-b860ee673e:field_value",
+      "title": "Möglichkeiten von standardisiertem Datenimport und Datenexport"
+    },
+    {
+      "content": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs. weitere, durch Sie selbst aufzubringende Kosten, sofern Sie bestimmte zusätzlich angebotene und von der Verschreibung nicht abgedeckte Leistungen in Anspruch nehmen möchten.",
+      "content_preview": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs....",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-429bde377d:field_value",
+      "title": "Angaben zum Preis"
+    },
+    {
+      "content": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "content_preview": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis",
+        "Preismodell"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis-6eb719186f:field_value",
+      "title": "Preismodell"
+    },
+    {
+      "content": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+      "content_preview": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Es fällt einmalig eine Lizenzgebühr von 243,00 € pro Lizenz (inkl. Mehrwertsteuer) an. Die Lizenz erlaubt die Nutzung von elevida für die Mindestverordnungsdauer von 90 Tagen.",
+      "content_preview": "Es fällt einmalig eine Lizenzgebühr von 243,00 € pro Lizenz (inkl. Mehrwertsteuer) an. Die Lizenz erlaubt die Nutzung von elevida für die Mindestverordnungsdauer von 90 Tagen.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-kosten-z-b-starterpaket-5641b0bf97:field_value",
+      "title": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
+    },
+    {
+      "content": "Bei einer weiteren Nutzung der DiGA für zusätzliche 90 Tage ist eine weitere Verordnung notwendig. Es fällt einmalig eine Lizenzgebühr von 243,00 € pro Lizenz (inkl. Mehrwertsteuer) an.",
+      "content_preview": "Bei einer weiteren Nutzung der DiGA für zusätzliche 90 Tage ist eine weitere Verordnung notwendig. Es fällt einmalig eine Lizenzgebühr von 243,00 € pro Lizenz (inkl. Mehrwertsteuer) an.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-nutzung-der-dig-7a56e117b7:field_value",
+      "title": "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Anmerkungen zum Preismodell"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-anmerkungen-zum-f3f338f2f7:field_value",
+      "title": "Weitere Anmerkungen zum Preismodell"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Erläuterung Mehrkosten"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-erlaeuterung-mehrkosten-7813cc6074:field_value",
+      "title": "Erläuterung Mehrkosten"
+    },
+    {
+      "content": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_preview": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Verbesserungen für Patienten können entweder medizinischer Art sein (z.B. Verringerung von Schmerzen, Beitrag zur Heilung der Erkrankung) oder den Erkennungs- und Behandlungsprozess direkt unterstützen und erleichtern (z.B. Informationen zur individuellen Erkrankungssituation, Unterstützung bei der Einhaltung der zwischen Patient und Arzt gemeinsam vereinbarten therapeutischen Maßnahmen).",
+      "content_preview": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Ve...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:informationen-zum-positiven-versorgungseffekt-253662cf50:field_value",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche Weise dies ggfs. bereits wissenschaftlich nachgewiesen wurde. Falls der positive Versorgungseffekt noch nicht abschließend nachgewiesen aber bereits so plausibel dargelegt wurde, dass die DiGA befristet zur entsprechenden Erprobung aufgenommen wurde, wird angegeben, für welchen Zeitraum dies erfolgt ist. Sofern (auch) ein Nachweis zum Erhalt der Erwerbsfähigkeit für die DiGA erbracht wurde oder eine Nachweisführung geplant ist, finden Sie hier eine Beschreibung und nähere Angaben zum Nachweis sowie zum Studiendesign. Sofern die DiGA (auch) ein diagnostisches Instrument darstellt, also mindestens in Teilen dazu vorgesehen ist, Informationen z.B. für die Erkennung oder Diagnose von Krankheitszuständen zu liefern, hat der Hersteller dies benannt und beschrieben sowie Sensitivität und Spezifität als wichtige Bewertungsgrößen angegeben.",
+      "content_preview": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche We...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Medizinischer Nutzen",
+      "content_preview": "Medizinischer Nutzen",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Angaben zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse-5449921803:field_value",
+      "title": "Angaben zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Verbesserung des Gesundheitszustands",
+      "content_preview": "Verbesserung des Gesundheitszustands",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Nähere Angaben zum medizinischen Nutzen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen--90ce965dee:field_value",
+      "title": "Nähere Angaben zum medizinischen Nutzen"
+    },
+    {
+      "content": "Der medizinische Nutzen von elevida besteht in der Verbesserung des Gesundheitszustands durch Reduktion der Fatigue.",
+      "content_preview": "Der medizinische Nutzen von elevida besteht in der Verbesserung des Gesundheitszustands durch Reduktion der Fatigue.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Beschreibung des medizinischen Nutzens"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut-a677995e79:field_value",
+      "title": "Beschreibung des medizinischen Nutzens"
+    },
+    {
+      "content": "Der Nachweis positiver Versorgungseffekte für elevida wurde im Rahmen einer randomisierten kontrollierten klinischen Studie erbracht (Pöttgen et al., J Neurol Neurosurg Psychiatry. 2018 Sep;89(9):970-976.). „Randomisiert“ bedeutet, dass die Patienten nach dem Zufallsprinzip auf eine von zwei Behandlungsgruppen aufgeteilt wurden. „Kontrolliert“ bedeutet, dass die Ergebnisse aus der einen Gruppe mit denen der anderen Gruppe verglichen und die Unterschiede mit statistischen Methoden untersucht wurden.",
+      "content_preview": "Der Nachweis positiver Versorgungseffekte für elevida wurde im Rahmen einer randomisierten kontrollierten klinischen Studie erbracht (Pöttgen et al., J Neurol Neurosurg Psychiatry. 2018 Sep;89(9):970-976.). „Randomisiert“ bedeutet, dass ...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Studie/n im PICO-Schema"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema-2cb668dadb:field_value",
+      "title": "Studie/n im PICO-Schema"
+    },
+    {
+      "content": "In diese Studie wurden 275 Patienten mit einer Multiplen Sklerose eingeschlossen, die unter einer Fatigue (d. h. einer anhaltenden Müdigkeit oder Erschöpfung) litten und mindestens 18 Jahre alt waren. Diese Patienten wurden zufällig entweder der Interventions- oder Kotrollgruppe zugewiesen. Patienten in der Interventionsgruppe, d. h. in der Behandlungsgruppe, in der elevida benutzt werden sollte, erhielten die übliche medizinische Versorgung und zusätzlich Zugang zum Programm elevida, während die Patienten in der Kontrollgruppe die übliche medizinische Versorgung erhielten. Nach Ende der Studie, das heißt nach 24 Wochen, erhielten auch die Patienten in der Kontrollgruppe Zugang zu elevida. Nach 12 Wochen zeigte sich, dass bei Patienten in der Interventionsgruppe durch elevida die Fatigue signifikant stärker abgenommen hatte als bei Patienten in der Kontrollgruppe. Die Unterschiede waren auch nach 24 Wochen vorhanden. Darüber hinaus ergab sich, dass Patienten in der Interventionsgruppe durch elevida • signifikant geringere Angstsymptome • ein signifikant besseres Denken und • eine signifikant bessere Beweglichkeit der Beine aufwiesen als Patienten in der Kontrollgruppe. Zusammenfassend zeigt diese klinische Studie, dass elevida zusätzlich zu einer üblichen medizinischen Behandlung die Fatigue wirksam reduziert und sich auch positiv auf andere Beschwerden auswirkt.",
+      "content_preview": "In diese Studie wurden 275 Patienten mit einer Multiplen Sklerose eingeschlossen, die unter einer Fatigue (d. h. einer anhaltenden Müdigkeit oder Erschöpfung) litten und mindestens 18 Jahre alt waren. Diese Patienten wurden zufällig entw...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Die Wirksamkeit und Sicherheit von elevida wurde im Rahmen einer randomisierten kontrollierten klinischen Studie (RCT) untersucht und veröffentlicht: Pöttgen J, Moss-Morris R, Wendebourg JM et al. Randomised controlled trial of a self-guided online fatigue intervention in multiple sclerosis. J Neurol Neurosurg Psychiatry. 2018 Sep;89(9):970-976.",
+      "content_preview": "Die Wirksamkeit und Sicherheit von elevida wurde im Rahmen einer randomisierten kontrollierten klinischen Studie (RCT) untersucht und veröffentlicht: Pöttgen J, Moss-Morris R, Wendebourg JM et al. Randomised controlled trial of a self-gu...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u-804896bae6:field_value",
+      "title": "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
+    },
+    {
+      "content": "Nachfolgend sind die wesentlichen Aspekte der Studie zusammengefasst. - Hauptergebnis: Die Kombination aus elevida und der üblichen medizinischen Behandlung führte bei Patienten mit Multipler Sklerose (MS), die zusätzlich an einer Fatigue litten, zu einer signifikant stärkeren Reduktion der Fatigue als die übliche medizinische Behandlung allein. Ferner führte die Kombination zu einer signifikanten Reduktion der Angstsymptome und zu einer signifikanten Verbesserung bestimmter Aspekte der krankheitsbezogenen Lebensqualität: Ermüdung, Denkfähigkeit, und Beweglichkeit der Beine. Weiterhin führte die Kombinationsbehandlung zu einer signifikant verbesserten Bewältigung der Aktivitäten des täglichen Lebens. - Zielsetzung: Primäre Zielsetzung der Studie war es zu untersuchen, ob das online-Programm elevida, das auf kognitiver Verhaltenstherapie (KVT) basiert, zu einer Verbesserung der Fatigue bei Patienten mit MS führt. Vorgehen: Die Wirksamkeit von elevida wurde in einer zweiarmigen Studie untersucht, in der die Teilnehmer 1:1 auf zwei verschiedene Gruppen randomisiert wurden: • Interventionsgruppe, in der die Teilnehmer zusätzlich zur üblichen medizinischen Versorgung Zugang zum Programm elevida erhielten. • Kontrollgruppe, in der die Teilnehmer die übliche medizinische Versorgung erhielten. Nach Ende der Studie (nach 24 Wochen) erhielten auch die Patienten in der Kontrollgruppe Zugang zu elevida. Patienten: In die Studie wurden 275 Patienten mit einer MS eingeschlossen, die unter einer Fatigue (d. h. einer anhaltenden Müdigkeit oder Erschöpfung) litten und mindestens 18 Jahre alt waren. - Intervention: elevida ist ein webbasiertes Programm für Patienten, die an einer MS leiden und bei denen zusätzlich eine Fatigue besteht. elevida vermittelt etablierte Methoden und Übungen aus der KVT. - Ergebnisse: In der Interventionsgruppe wurde nach 12 Wochen eine signifikante Verringerung der Fatigue festgestellt. Die Unterschiede waren auch nach 24 Wochen nachweisbar. Signifikante Vorteile der Kombination aus elevida und der üblichen medizinischen Behandlung zeigten sich nach 12 Wochen auch im Hinblick auf die MS-spezifische motorische und kognitive Fatigue, Angst, das Denken, die Beweglichkeit der unteren Extremitäten sowie die Bewältigung der Aktivitäten des täglichen Lebens. - Studienregistrierung: Die Studie wurde wie folgt registriert: ISRCTN registry (number ISRCTN25692173).",
+      "content_preview": "Nachfolgend sind die wesentlichen Aspekte der Studie zusammengefasst. - Hauptergebnis: Die Kombination aus elevida und der üblichen medizinischen Behandlung führte bei Patienten mit Multipler Sklerose (MS), die zusätzlich an einer Fatigu...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Pöttgen J, Moss-Morris R, Wendebourg JM, Feddersen L, Lau S, Köpke S, Meyer B, Friede T, Penner IK, Heesen C, Gold SM. Randomised controlled trial of a self-guided online fatigue intervention in multiple sclerosis. J Neurol Neurosurg Psychiatry. 2018 Sep;89(9):970-976. doi: 10.1136/jnnp-2017-317463. Epub 2018 Mar 16. PMID: 29549193.",
+      "content_preview": "Pöttgen J, Moss-Morris R, Wendebourg JM, Feddersen L, Lau S, Köpke S, Meyer B, Friede T, Penner IK, Heesen C, Gold SM. Randomised controlled trial of a self-guided online fatigue intervention in multiple sclerosis. J Neurol Neurosurg Psy...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Dies ist/sind die vom Hersteller angeführten Studie/n:"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:informationen-zum-positiven-versorgungseffekt-dies-ist-sind-die-vom-hersteller-a-81dc280904:field_value",
+      "title": "Dies ist/sind die vom Hersteller angeführten Studie/n:"
+    },
+    {
+      "content": "Nein",
+      "content_preview": "Nein",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Die DiGA enthält ein diagnostisches Instrument"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch-eded43f154:field_value",
+      "title": "Die DiGA enthält ein diagnostisches Instrument"
+    },
+    {
+      "content": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird. Die Anforderungen an die Datensicherheit werden durch Vorlage eines Zertifikats gemäß § 139e Absatz 10 Fünftes Buch Sozialgesetzbuch nachgewiesen. Detaillierte Informationen zu den einzelnen Anforderungen können Sie auf der Webseite des Bundesamts für Sicherheit in der Informationstechnik unter der Technischen Richtlinie \"BSI TR-03161\" finden: https://www.bsi.bund.de/dok/TR-03161 Bis zur Vorlage des Zertifikats gelten für den Bereich Datensicherheit die Anforderungen der nachfolgend dargestellten Checkliste.",
+      "content_preview": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen v...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:field_value",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die Nutzung der digitalen Gesundheitsanwendung ist auf ein privates IT-System der nutzenden Person beschränkt. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die Nutzung der digitalen Gesundheitsanwendung ist auf ein privates IT-System der nutzend...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit",
+        "Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:informationen-zu-datenschutz-und-datensicherheit-datensicherheit-14af255f91:field_value",
+      "title": "Datensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung speichert keine Authentisierungsdaten auf einem Endgerät oder in einer darauf befindlichen Softwarekomponente. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung erlaubt keinen Upload von Dateien. Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Bei der digitalen Gesundheitsanwendung handelt es sich um eine rein webbasierte Anwendung. Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung verarbeitet keine Daten, die durch die nutzende Person oder durch nicht durch die digitale Gesundheitsanwendung kontrollierte Quellen bereitgestellt werden. Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung greift weder auf Sensoren eines mobilen Endgeräts noch auf externe Hardware zu. Trifft nicht zu Die digitale Gesundheitsanwendung tauscht keine Daten mit externer Hardware aus. Zutreffend Zutreffend Zutreffend Nein",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung speichert keine Authentisierungsdaten auf einem Endgerä...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der medizinischen Inhalte und die Gewährleistung der Patientensicherheit.",
+      "content_preview": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der me...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-afe954d9f8:field_value",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_preview": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Interoperabilität"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-angaben-zur-interoperabilitaet-8867f27412:field_value",
+      "title": "Angaben zur Interoperabilität"
+    },
+    {
+      "content": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versicherten getragenen Sensoren zur Messung und Übertragung von Vitalwerten (Wearables) austauscht. Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versiche...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Robustheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-angaben-zur-robustheit-0a511476df:field_value",
+      "title": "Angaben zur Robustheit"
+    },
+    {
+      "content": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
+      "content_preview": "Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren oder aus anderen externen Quellen zu erfassen und sieht auch keine Eingabe von Daten vor. Trifft nicht zu Die digi...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zum Verbraucherschutz"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-angaben-zum-verbraucherschutz-05cd17969e:field_value",
+      "title": "Angaben zum Verbraucherschutz"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit-8fe873c531:field_value",
+      "title": "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
+    },
+    {
+      "content": "Die digitale Gesundheitsanwendung wird nicht über eine Plattform für mobile Anwendungen angeboten. Zutreffend Zutreffend",
+      "content_preview": "Die digitale Gesundheitsanwendung wird nicht über eine Plattform für mobile Anwendungen angeboten. Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Unterstützung der Leistungserbringende"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-unterstuetzung-der-leistungserbringende-d4e78dfd75:field_value",
+      "title": "Unterstützung der Leistungserbringende"
+    },
+    {
+      "content": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen.",
+      "content_preview": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Triff...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Qualität der medizinischen Inhalte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte-a6d05ceeb6:field_value",
+      "title": "Angaben zur Qualität der medizinischen Inhalte"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Patientensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-angaben-zur-patientensicherheit-7a67651ccd:field_value",
+      "title": "Angaben zur Patientensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00419:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    }
+  ],
+  "diga_id": "00419",
+  "name": "elevida",
+  "rendered_structure_metadata": {
+    "accordions_opened": 0,
+    "content_section_count": 69,
+    "field_value_count": 52,
+    "rendered_at": "2026-06-22T19:03:12.635787+00:00",
+    "source_kind": "visible_directory"
+  },
+  "source_kind": "visible_directory",
+  "timestamp": "20260622T190144Z",
+  "url": "https://diga.bfarm.de/de/verzeichnis/00419"
+}

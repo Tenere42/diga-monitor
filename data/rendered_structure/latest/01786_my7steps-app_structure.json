@@ -1,0 +1,1026 @@
+{
+  "content_sections": [
+    {
+      "content": "Das Medizinprodukt My7steps App ist eine webbasierte Intervention zur Reduzierung psychischer Beschwerden. Es ist ein niedrigschwelliges Angebot für Menschen, die psychosoziale Schwierigkeiten und Probleme mit der Bewältigung ihres Alltags haben.",
+      "content_preview": "Das Medizinprodukt My7steps App ist eine webbasierte Intervention zur Reduzierung psychischer Beschwerden. Es ist ein niedrigschwelliges Angebot für Menschen, die psychosoziale Schwierigkeiten und Probleme mit der Bewältigung ihres Allta...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "diga.my7steps.org/imprint"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:diga-my7steps-org-imprint-f285e2020d:field_value",
+      "title": "diga.my7steps.org/imprint"
+    },
+    {
+      "content": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_preview": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:field_value",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_preview": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "My7steps App",
+      "content_preview": "My7steps App",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Name der DiGA im DiGA-Verzeichnis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v-132a49921b:field_value",
+      "title": "Name der DiGA im DiGA-Verzeichnis"
+    },
+    {
+      "content": "17.02.2023",
+      "content_preview": "17.02.2023",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Erstmalige Aufnahme in das DiGA-Verzeichnis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in--0901792b12:field_value",
+      "title": "Erstmalige Aufnahme in das DiGA-Verzeichnis"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Modul"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-modul-0b2f60dd90:field_value",
+      "title": "Modul"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-andere-namen-und-modell-ab7acb1427:field_value",
+      "title": "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
+    },
+    {
+      "content": "Browserbasierte Webanwendung",
+      "content_preview": "Browserbasierte Webanwendung",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Art der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga-f41af95c79:field_value",
+      "title": "Art der DiGA"
+    },
+    {
+      "content": "als browserbasierte Webanwendung",
+      "content_preview": "als browserbasierte Webanwendung",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Die digitale Gesundheitsanwendung ist verfügbar"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit-70a197df25:field_value",
+      "title": "Die digitale Gesundheitsanwendung ist verfügbar"
+    },
+    {
+      "content": "Die Datenverarbeitung im Zusammenhang mit der Nutzung von My7steps App findet in Deutschland statt.",
+      "content_preview": "Die Datenverarbeitung im Zusammenhang mit der Nutzung von My7steps App findet in Deutschland statt.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Standorte der Datenverarbeitung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera-426183d1fc:field_value",
+      "title": "Standorte der Datenverarbeitung"
+    },
+    {
+      "content": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) die Anforderungen an",
+      "content_preview": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) die Anforderungen an",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Bewertungsentscheidung des BfArM"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung--cdc10aad7c:field_value",
+      "title": "Bewertungsentscheidung des BfArM"
+    },
+    {
+      "content": "• Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der Technik und • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) als erfüllt. Die Datenverarbeitung findet laut Hersteller ausschließlich in der Europäischen Union statt. Das BfArM bewertet dieses Vorgehen als konform im Sinne der DiGAV. Als Erprobungsstudie mit dem Titel „My7steps App Erprobungsstudie“ wurde eine randomisierte kontrollierte Studie (RCT) mit einem 12-wöchigen Beobachtungszeitraum durchgeführt. Dabei wurden 253 Patientinnen und Patienten im Verhältnis 1 : 1 in 2 Gruppen randomisiert. Die Patientinnen und Patienten der Interventionsgruppe (IG) erhielten die übliche Regelversorgung und Zugang zur DiGA. Die Patientinnen und Patienten der Kontrollgruppe (KG) erhielten die Regelversorgung. Als primärer Endpunkt galt der Patient Health Questionnaire-9 (PHQ-9). Zu den sekundären Endpunkten zählten die Connor-Davidson Resilience Scale (CD-Risc-10) und die Sense of Coherence Scale Leipziger Kurzform (SOC-L9). Von den 253 in die Studie eingeschlossenen Teilnehmenden wurden 8 im Verlauf der Studie als Drop-out klassifiziert (3,16 %). Fehlende Werte wurden mittels eines multiplen Imputationsverfahrens ersetzt. Die depressive Symptomatik mittels PHQ-9 reduzierte sich in der Intention-To-Treat-Population (ITT-Population) von Baseline zur Post-Messung (nach 12 Wochen, 4 Wochen nach dem Programmende) statistisch signifikant in der IG (-2,76) im Vergleich zu KG (-0,94) [Adjustierte Mittelwertsdifferenz: -1,88 (95-%-Konfidenzintervall (KI): [-2,38; -1,39]); p < 0,001; Cohen‘s d: -0,51 (95-%-KI: [0,26; 0,76]). Gemessen am PHQ-9 in der ITT-Population und nach Ersetzen fehlender Werte durch die Baseline-Observation-Carried-Forward-Imputation (BOCF-Imputation, die in der Regel einer Non-Responder-Imputation entspricht) erfüllten in der IG 49 (38,6 %) der Patientinnen und Patienten mindestens die MCID (definiert als RCI größer 1,96, was einem Cut-Off Wert von 3,23, basierend auf der Standardabweichung der vorliegenden Studie, entspricht), 37 (29,1 %) verbesserten sich um mindestens 5 Punkte, 30 (23,6 %) erreichten einen PHQ-9 Wert von ≤ 9 (partielle Remission) und 9 (7,1 %) einen PHQ-9 Wert von ≤ 4 samt einer 5-Punkte-Reduktion (vollständige Remission). Dem gegenüber erfüllten diese Kriterien in der KG 31 (24,6 %, MCID), 23 (18,3 %, 5-Punkte-Veränderung), 17 (13,5 %, partielle Remission) und 5 (4,0 %, vollständige Remission). In den Subgruppenergebnissen des PHQ-9 gab es deskriptive Unterschiede in Bezug auf das Geschlecht und die verschiedenen Schweregrade. Insbesondere in der Subgruppe männlicher Studienteilnehmer mit mittelgradigen Depressionen (n = 21 Patienten IG, n = 12 Patienten in der KG) zeigte sich in der KG eine größere Verbesserung (-4,42) im PHQ-9 als in der IG (-2,64). Die beobachteten Unterschiede erscheinen in diesen Subgruppen jedoch klinisch nicht plausibel. Therapieeffekte in der IG zeigten sich unabhängig davon, ob eine begleitende Therapie durchgeführt wurde. Die explorativen sekundären Endpunkte (Resilienz und Kohärenzgefühl) zeigten ebenfalls relevante Verbesserungen innerhalb der Patientenpopulation. Entsprechend bewertet das BfArM die in § 139e des Fünften Buches Sozialgesetzbuch (SGB V) sowie in der DiGAV festgelegten Voraussetzungen zur endgültigen Aufnahme in das Verzeichnis nach § 139e Absatz 1 SGB V als erfüllt.",
+      "content_preview": "• Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der Technik und • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Ge...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_preview": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Angaben zum Medizinprodukt"
+    },
+    {
+      "content": "Das Medizinprodukt My7steps App ist eine webbasierte Intervention zur Reduzierung psychischer Beschwerden. Es ist ein niedrigschwelliges Angebot für Menschen, die psychosoziale Schwierigkeiten und Probleme mit der Bewältigung ihres Alltags haben. - My7steps App ist eine Intervention zur Behandlung oder Linderung von: - ICD-10-GM F32.0 Leichte depressive Episode, - ICD-10-GM F32.1 Mittelgradige depressive Episode, - ICD-10-GM F33.0 Rezidivierende depressive Störung, gegenwärtig leichte Episode, - ICD-10-GM F33.1 Rezidivierende depressive Störung, gegenwärtig mittelgradige Episode - und ihrer Symptome.",
+      "content_preview": "Das Medizinprodukt My7steps App ist eine webbasierte Intervention zur Reduzierung psychischer Beschwerden. Es ist ein niedrigschwelliges Angebot für Menschen, die psychosoziale Schwierigkeiten und Probleme mit der Bewältigung ihres Allta...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "Medizinische Zweckbestimmung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Medizinische Zweckbestimmung"
+    },
+    {
+      "content": "Risikoklasse I nach MDR",
+      "content_preview": "Risikoklasse I nach MDR",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "Risikoklasse Medizinprodukt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Risikoklasse Medizinprodukt"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "Name der Benannten Stelle"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Name der Benannten Stelle"
+    },
+    {
+      "content": "Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt.",
+      "content_preview": "Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Kennnummer der Benannten Stelle"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-kennnummer-der-benannte-885261bcc3:field_value",
+      "title": "Kennnummer der Benannten Stelle"
+    },
+    {
+      "content": "DE-MF-000014074",
+      "content_preview": "DE-MF-000014074",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Identifikationsnummer Eudamed"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-identifikationsnummer-e-c5d45b28a3:field_value",
+      "title": "Identifikationsnummer Eudamed"
+    },
+    {
+      "content": "04262502390461",
+      "content_preview": "04262502390461",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "UDI - Unique Device Identifier im Sinne der MDR"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-udi-unique-device-ident-16a2c37ee0:field_value",
+      "title": "UDI - Unique Device Identifier im Sinne der MDR"
+    },
+    {
+      "content": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_preview": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Weitere Informationen zur DiGA"
+    },
+    {
+      "content": "Das Medizinprodukt My7steps App ist eine webbasierte Intervention zur Reduzierung psychischer Beschwerden. Es ist ein niedrigschwelliges Angebot für Menschen, die psychosoziale Schwierigkeiten und Probleme mit der Bewältigung ihres Alltags haben. - In My7steps App sind psychotherapeutische Prinzipien digitalisiert umgesetzt. Sie sind so umgesetzt, dass Sie allein und in Ihrem Tempo Ihre Gedankenwege und Gefühle so bearbeiten, dass Sie Ihre Situation beim Nutzen von My7steps App wirksam positiv verändern können. So individuell wie digital möglich, werden Sie Schritt für Schritt durch My7steps App geleitet. - My7steps App besteht aus sieben Schritten. Innerhalb von My7steps App erhalten Sie Informationen. Sie werden gebeten Situationen einzuordnen oder aufzuschreiben und es werden Ihnen zu bearbeitende Aufgaben und Übungen gestellt oder Erklärungen in Form von Filmen und Tonaufnahmen präsentiert. My7steps App reagiert dabei interaktiv auf Ihre individuellen Antworten und variiert weitere Inhalte dementsprechend. - ZWECKBESTIMMUNG – MEDIZINISCHE INDIKATION - My7steps App ist eine Intervention zur Behandlung oder Linderung von: - ICD-10-GM F32.0 Leichte depressive Episode, ICD-10-GM F32.1 Mittelgradige depressive Episode, ICD-10-GM F33.0 Rezidivierende depressive Störung, gegenwärtig leichte Episode, ICD-10-GM F33.1 Rezidivierende depressive Störung, gegenwärtig mittelgradige Episode und ihrer Symptome. - INHALT VON My7steps App - My7steps App besteht aus sieben Schritten, die sich in drei Phasen gliedern lassen: - PHASE I Schritt 1: Einschätzung der Symptome - Genaueres Verständnis der Dinge, die im Alltag belasten Schritt 2: Einschätzung der psychosozialen Stressoren - Erkennen und Verstehen der belastenden Hintergründe für das momentane Befinden - PHASE II Schritt 3: Innere Situation - Verstehen der eigenen inneren Situation und Herausarbeitung des dominanten Grundgefühls Schritt 4: Hauptbeschwerde - Was den Alltag am meisten einschränkt Schritt 5: Lösung - Eine passende praktikable Lösung sehen und formulieren Schritt 6: Schritte zur Lösung - Überlegen, ausprobieren, versuchen, und nach und nach Erfolge erzielen - PHASE III Schritt 7: Festigung - Reflexion des gesamten Prozesses, die für einen wichtigen Punkte festhalten, mit neu gewonnenen Erkenntnissen in die Zukunft schauen und gekräftigt sein für kommende Anforderungen - Die einzelnen Schritte bilden die digitale Intervention, welche die Patientin/der Patient selbständig durchläuft. Die Schritte bauen aufeinander auf und werden nacheinander bearbeitet. Sollte sich die Patientin/der Patient auf einem für ihn unpassenden Pfad befinden, ist es möglich, an ausgewählten Punkten innerhalb von My7steps App einen oder mehrere Schritte zurückzugehen und einen anderen Pfad auszuwählen - - FÜR WEN IST My7steps App GEEIGNET? - My7steps App ist für alle Altersgruppen ab 18 Jahre und für alle Geschlechter gleichermaßen geeignet. My7steps App erfordert gute Kenntnisse in der ausgewählten Sprache. Patientinnen und Patienten müssen in der Lage sein, die Benutzeroberfläche eines Internetbrowsers auf der My7steps App läuft (siehe dazu Systemvoraussetzungen) zu bedienen und die Texte dort lesen können. Sie benötigen keine Schulung, um My7steps App nutzen zu können. Es sind lediglich Grundkenntnisse in der Nutzung von PC und Smartphone erforderlich. - - DAUER DER ANWENDUNG - Empfohlen wird eine Anwendungsdauer von 60 Tagen, um ausreichend Zeit zu gewähren für die Integration persönlicher Verhaltensänderungen in das eigene Leben. Während der aktiven Nutzung der Intervention wird ein ununterbrochener Zugang zum Internet benötigt. - NUTZERSPRACHE Die Intervention erfordert gute Kenntnisse in einer der unterstützten Sprachen.",
+      "content_preview": "Das Medizinprodukt My7steps App ist eine webbasierte Intervention zur Reduzierung psychischer Beschwerden. Es ist ein niedrigschwelliges Angebot für Menschen, die psychosoziale Schwierigkeiten und Probleme mit der Bewältigung ihres Allta...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Das Medizinprodukt My7steps App ist eine webbasierte Intervention zur Reduzierung psychischer Beschwerden. Es ist ein niedrigschwelliges Angebot für Menschen, die psychosoziale Schwierigkeiten und Probleme mit der Bewältigung ihres Alltags haben. - In My7steps App sind psychotherapeutische Prinzipien digitalisiert umgesetzt. Sie sind so umgesetzt, dass Patientinnen und Patienten allein und in ihrem Tempo ihre Gedankenwege und Gefühle so bearbeiten, dass sie ihre Situation beim Nutzen von My7steps App wirksam positiv verändern können. So individuell wie digital möglich, werden sie Schritt für Schritt durch My7steps App geleitet. - My7steps App führt durch die folgenden sieben Schritte: - Schritt 1: Symptome - Genaueres Verständnis der Dinge, die im Alltag belasten Schritt 2: Psychosoziale Stressoren - Erkennen und Verstehen der belastenden Hintergründe für das momentane Befinden Schritt 3: Innere Situation - Verstehen der eigenen, inneren Situation und Herausarbeitung des dominanten Grundgefühls Schritt 4: Hauptbeschwerde - Was den Alltag am meisten einschränkt Schritt 5: Lösungen - Eine passende praktikable Lösung sehen und formulieren Schritt 6: Schritte zur Lösung - Überlegen, ausprobieren, versuchen, und nach und nach Erfolge erzielen Schritt 7: Festigung - Den gesamten Prozess betrachten, die für einen wichtigen Punkte festhalten, mit neu gewonnenen Erkenntnissen in die Zukunft schauen und gekräftigt sein für kommende Anforderungen - Die Schritte bauen aufeinander auf und werden nacheinander bearbeitet. Sollte es mit einem Weg zu keinem passenden Vorgehen kommen, ist es innerhalb von My7steps App an ausgewählten Punkten möglich einen oder mehrere Schritte zurückzugehen und einen anderen Weg zu erproben.",
+      "content_preview": "Das Medizinprodukt My7steps App ist eine webbasierte Intervention zur Reduzierung psychischer Beschwerden. Es ist ein niedrigschwelliges Angebot für Menschen, die psychosoziale Schwierigkeiten und Probleme mit der Bewältigung ihres Allta...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Funktionen der digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Funktionen der digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Verhaltenstherapie Falkenried MVZ GmbH Medizinisches Versorgungszentrum für Psychotherapie, Psychiatrie, Psychosomatik Falkenried 7 20251 Hamburg",
+      "content_preview": "Verhaltenstherapie Falkenried MVZ GmbH Medizinisches Versorgungszentrum für Psychotherapie, Psychiatrie, Psychosomatik Falkenried 7 20251 Hamburg",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Name und Adresse beteiligter medizinischer Einrichtungen und Organisationen bei der Entwicklung der DiGA"
+    },
+    {
+      "content": "1. Missmahl I, Brugmann B. Value-based Counseling (Kultur und Religion als sinnstiftendes Element einer psychodynamischen Kurzzeitintervention). Psychotherapie-Wissenschaft [Internet]. 2019;9(1):39–49. Available from: https://doi.org/10.30820/1664-9583-2019-1-39 2. Missmahl I. Value-based counselling: Reflections on fourteen years of psychosocial support in Afghanistan. Intervention. 2018;16(3):256–60. 3. Antonovsky A. The salutogenic model as a theory to guide health promotion. Health Promot Int. 1996;11(1):11–8. 4. Becker CM, Glascoff MA, Felts WM. Salutogenesis 30 Years Later: Where do we go from here? Int Electron J Health Educ [Internet]. 2010;(13):25–32. Available from: http://files.eric.ed.gov/fulltext/EJ895721.pdf 5. Barak A, Klein B, Proudfoot JG. Defining internet-supported therapeutic interventions. Ann Behav Med. 2009;38(1):4–17. 6. Domhardt M, Geßlein H, von Rezori RE, Baumeister H. Internet- and mobile-based interventions for anxiety disorders: A meta-analytic review of intervention components. Depress Anxiety. 2019;36(3):213–24. 7. Cuijpers P, Kleiboer A, Karyotaki E, Riper H. Internet and mobile interventions for depression: Opportunities and challenges. Depress Anxiety. 2017 Jul;34(7):596–602. 8. Van Ameringen M, Turna J, Khalesi Z, Pullia K, Patterson B. There is an app for that! The current state of mobile applications (apps) for DSM-5 obsessive-compulsive disorder, posttraumatic stress disorder, anxiety and mood disorders. Depress Anxiety. 2017;34(6):526–39. 9. Marshall JM, Dunstan DA, Bartik W. The Digital Psychiatrist: In Search of Evidence-Based Apps for Anxiety and Depression. Front Psychiatry. 2019;10(November):1–7. 10. Sander L, Ebert DD, Baumeister H. Internet- und mobilebasierte Psychotherapie der Depression. Fortschritte der Neurol Psychiatr. 2017;85(1):48–58. 11. Stiles-Shields C, Montague E, Kwasny MJ, Mohr DC. Behavioral and cognitive intervention strategies delivered via coached apps for depression: Pilot trial. Psychol Serv. 2019 May;16(2):233–8. 12. McCloud T, Jones R, Lewis G, Bell V, Tsakanikos E. Effectiveness of a mobile app intervention for anxiety and depression symptoms in university students: Randomized controlled trial. JMIR mHealth uHealth. 2020;8(7):1–15. 13. Bruehlman-Senecal E, Hook CJ, Pfeifer JH, FitzGerald C, Davis B, Delucchi KL, et al. Smartphone app to address loneliness among college students: Pilot randomized controlled trial. JMIR Ment Heal. 2020;7(10):1–20. 14. Porras-Segovia A, Diaz-Olivan I, Gutierrez-Rojas L, Dunne H, Moreno M, Baca-Garcia E. Apps for Depression: Are They Ready to Work? Curr Psychiatry Rep. 2020 Feb;22(3):11. 15. Khademian F, Aslani A, Bastani P. The effects of mobile apps on stress, anxiety, and depression: Overview of systematic reviews. Int J Technol Assess Health Care. 2020;(18). 16. Sucala M, Cuijpers P, Muench F, Cardos R, Soflau R, Dobrean A, et al. Anxiety: There is an app for that. A systematic review of anxiety apps. Depress Anxiety. 2017 Jun;34(6):518–25. 17. Ebert DD, Zarski AC, Christensen H, Stikkelbroek Y, Cuijpers P, Berking M, et al. Internet and computerbased cognitive behavioral therapy for anxiety and depression in youth: A meta-analysis of randomized controlled outcome trials. PLoS One. 2015;10(3):1–15. 18. Barak A, Hen L, Boniel-Nissim M, Shapira N. A comprehensive review and a meta-analysis of the effectiveness of internet-based psychotherapeutic interventions. J Technol Hum Serv. 2008;26(2–4):109–60. - Die vollständige Liste der wissenschaftlichen Referenzen findet sich auf der Startseite der DiGA unter https://diga.my7steps.org",
+      "content_preview": "1. Missmahl I, Brugmann B. Value-based Counseling (Kultur und Religion als sinnstiftendes Element einer psychodynamischen Kurzzeitintervention). Psychotherapie-Wissenschaft [Internet]. 2019;9(1):39–49. Available from: https://doi.org/10....",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
+    },
+    {
+      "content": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_preview": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Beteiligung vom medizinischen Fachpersonal"
+    },
+    {
+      "content": "- Stellung der Diagnose - Information und Aufklärung zu My7steps App - Verschreibung von My7steps App - Verlaufskontrolle zur Intervention - Motivation zur weiteren Interventionsnutzung",
+      "content_preview": "- Stellung der Diagnose - Information und Aufklärung zu My7steps App - Verschreibung von My7steps App - Verlaufskontrolle zur Intervention - Motivation zur weiteren Interventionsnutzung",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Ärztinnen/ Ärzte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Ärztinnen/ Ärzte"
+    },
+    {
+      "content": "- Stellung der Diagnose - Information und Aufklärung zu My7steps App - Verschreibung von My7steps App - Verlaufskontrolle zur Intervention - Motivation zur weiteren Interventionsnutzung",
+      "content_preview": "- Stellung der Diagnose - Information und Aufklärung zu My7steps App - Verschreibung von My7steps App - Verlaufskontrolle zur Intervention - Motivation zur weiteren Interventionsnutzung",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Psychotherapeutinnen/ Psychotherapeuten"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Psychotherapeutinnen/ Psychotherapeuten"
+    },
+    {
+      "content": "Nein",
+      "content_preview": "Nein",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
+    },
+    {
+      "content": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfohlen wird.",
+      "content_preview": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfoh...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-6922aa5eb2:field_value",
+      "title": "Anwendungshinweise"
+    },
+    {
+      "content": "My7steps App ist für Patientinnen und Patienten geeignet, die sich in einer leichten bis moderaten depressiven Phase oder in einer widerkehrenden leichten bis moderaten Depression befinden. - Patientinnen und Patienten können My7steps App nutzten, wenn sie 18 Jahre oder älter sind, über gute Kenntnisse in einer der angebotenen Sprachen verfügen und in der Lage sind, Texte zu lesen oder zu hören. - My7steps App darf nicht genutzt werden, wenn: · in den letzten vier Wochen eine Selbsttötung geplant oder versucht wurde, · ein Arzt oder ein psychologischer Psychotherapeut festgestellt hat, dass die Patientin oder der Patient den Bezug zur Realität in starkem Ausmaß verloren hat oder · ein Arzt oder ein psychologischer Psychotherapeut festgestellt hat, dass die Patientin oder der Patient schwer depressiv ist. - Die Qualität der Nutzung von My7steps App wird durch die folgenden teilmaschinellen Abläufe und Informationen sichergestellt: 1. Während der Verwendung, in der Gebrauchsanweisung und auf der Produktseite wird über den genauen Anwendungsbereich, die Ungeeignetheit zur Verwendung bei bestimmten Krankheiten und andere Ausschlusskriterien informiert. 2. Die Gebrauchsanweisung steht während der Nutzung und auf der Produktseite in allen angebotenen Sprachen zur Verfügung. 3. Das Vorliegen der Ungeeignetheit zur Verwendung bei bestimmten Krankheiten oder anderer Ausschlusskriterien wird bei der Registrierung und Nutzung vom System überprüft. Stellt das System einen der Punkte fest, werden sofort Sicherheitsmaßnahmen eingeleitet. Sicherheitsmaßnahmen können Warnungen, persönlicher Kontakt mit einer Counselorin oder einem Counselor oder Sperrung der Nutzung sein. 4. Falsche oder keine Eingaben während der Nutzung werden durch das System verhindert. Warnungen und Hinweise helfen die richtigen Eingaben zu machen. 5. Von der Patientin oder dem Patienten selbst verfasste Texte werden überwacht, um eine Verschlechterung des Gesundheitszustandes zu erkennen und um Hilfe durch eine Counselorin oder einen Counselor anbieten zu können. - Ein Sicherheitssystem sorgt dafür, dass My7steps App richtig benutzt wird. Es besteht aus zwei Teilen. Ein Teil ist eine maschinelle Erkennung und der andere Teil ist eine menschliche Begleitung durch eine Counselorin oder einen Counselor. Counselorinnen und Counselor sind erfahrene Psychologinnen bzw. Psychologen. Sie beurteilen vom System erzeugte Warnungen während der Nutzung von My7steps App. Sie kümmern sich in einer solchen Situation um die Gesundheit der Patientin oder des Patienten.",
+      "content_preview": "My7steps App ist für Patientinnen und Patienten geeignet, die sich in einer leichten bis moderaten depressiven Phase oder in einer widerkehrenden leichten bis moderaten Depression befinden. - Patientinnen und Patienten können My7steps Ap...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Hinweise für eine sichere Anwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw-13263bcc58:field_value",
+      "title": "Hinweise für eine sichere Anwendung"
+    },
+    {
+      "content": "My7steps App darf nicht genutzt werden, wenn Nutzende in den letzten vier Wochen eine Selbsttötung geplant oder versucht hat.",
+      "content_preview": "My7steps App darf nicht genutzt werden, wenn Nutzende in den letzten vier Wochen eine Selbsttötung geplant oder versucht hat.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Weitere Ausschlusskriterien"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-weit-3d658a5f5f:field_value",
+      "title": "Weitere Ausschlusskriterien"
+    },
+    {
+      "content": "Empfohlen wird eine Anwendungsdauer von 60 Tagen, um ausreichend Zeit zu gewähren für die Integration persönlicher Verhaltensänderungen in das eigene Leben.",
+      "content_preview": "Empfohlen wird eine Anwendungsdauer von 60 Tagen, um ausreichend Zeit zu gewähren für die Integration persönlicher Verhaltensänderungen in das eigene Leben.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Vom Hersteller für erforderlich gehaltene Mindestdauer"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "title": "Vom Hersteller für erforderlich gehaltene Mindestdauer"
+    },
+    {
+      "content": "Aufgrund der therapeutischen Methodik der DiGA besteht grundsätzlich keine Notwendigkeit für eine Folgeverordnung, jedoch kann diese im Einzelfall im Nachgang zur Erstverordnung verordnet werden",
+      "content_preview": "Aufgrund der therapeutischen Methodik der DiGA besteht grundsätzlich keine Notwendigkeit für eine Folgeverordnung, jedoch kann diese im Einzelfall im Nachgang zur Erstverordnung verordnet werden",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Vom Hersteller für erforderlich gehaltene Höchstdauer"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "title": "Vom Hersteller für erforderlich gehaltene Höchstdauer"
+    },
+    {
+      "content": "My7steps App kann auf allen internetfähigen Geräten (Laptop, PC, Tablet, Smartphone, usw.) genutzt werden, die über einen Web-Browser mit mindestens der Versionsnummer wie folgt verfügen: - Google Chrome 85 Mozilla Firefox 78 Apple Safari 13.1 Microsoft Edge 85 Damit My7steps App genutzt werden kann, muss das Gerät während der aktiven Nutzung mit dem Internet verbunden sein. - Weitergehende technische Mindestanforderungen an das System bestehen für die Nutzung von My7steps App nicht. - Diese Hinweise finden sich auf der entsprechenden Website der digitalen Gesundheitsanwendung: https://diga.my7steps.org/",
+      "content_preview": "My7steps App kann auf allen internetfähigen Geräten (Laptop, PC, Tablet, Smartphone, usw.) genutzt werden, die über einen Web-Browser mit mindestens der Versionsnummer wie folgt verfügen: - Google Chrome 85 Mozilla Firefox 78 Apple Safar...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-komp-0b84064997:field_value",
+      "title": "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
+    },
+    {
+      "content": "My7steps App bietet als Teil der bereitgestellten Exportfunktionen eine herunterladbare, ausdruckbare und menschenlesbare Zusammenfassung der Therapiedokumentation an. Dafür wird der Patientin oder dem Patienten während der Behandlung und im Abschluss der Behandlung ein für den Druck und die Speicherung ins PDF-Format gelayoutetes Journal bereitgestellt. Der menschenlesbare und ausdruckbare Export wird im Profil unter dem Punkt “Zusammenfassung Deiner Daten” angeboten. Diese Daten stehen im Verordnungszeitraum der digitalen Gesundheitsanwendung My7steps App zur Verfügung. Um die Interoperabilität und Portabilität zu gewährleisten, können die relevanten Daten in einem maschinenlesbaren Format exportiert werden. Dafür müssen betroffene Personen sich einloggen, im Menü “Profil” auswählen und laden sich ihre Daten unter dem Punkt “Datenschutz” herunter. Die Daten werden gem. der Festlegung für die semantische und syntaktische Interoperabilität von Daten der elektronischen Patientenakte nach § 335 Absatz 2a des Fünften Buches Sozialgesetzbuch als medizinische Informationsobjekt DiGA Toolkit bereitgestellt.",
+      "content_preview": "My7steps App bietet als Teil der bereitgestellten Exportfunktionen eine herunterladbare, ausdruckbare und menschenlesbare Zusammenfassung der Therapiedokumentation an. Dafür wird der Patientin oder dem Patienten während der Behandlung un...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Möglichkeiten von standardisiertem Datenimport und Datenexport"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-moeg-b860ee673e:field_value",
+      "title": "Möglichkeiten von standardisiertem Datenimport und Datenexport"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-anga-c3b43d0732:field_value",
+      "title": "Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen"
+    },
+    {
+      "content": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs. weitere, durch Sie selbst aufzubringende Kosten, sofern Sie bestimmte zusätzlich angebotene und von der Verschreibung nicht abgedeckte Leistungen in Anspruch nehmen möchten.",
+      "content_preview": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs....",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-429bde377d:field_value",
+      "title": "Angaben zum Preis"
+    },
+    {
+      "content": "Kosten (z. B. Starterpaket) ohne Hardware für 60 Tage",
+      "content_preview": "Kosten (z. B. Starterpaket) ohne Hardware für 60 Tage",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis",
+        "Preismodell"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis-6eb719186f:field_value",
+      "title": "Preismodell"
+    },
+    {
+      "content": "Weitere Nutzung der DiGA für zusätzliche 60 Tage",
+      "content_preview": "Weitere Nutzung der DiGA für zusätzliche 60 Tage",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "0,00 €",
+      "content_preview": "0,00 €",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Nutzung der DiGA für zusätzliche 60 Tage"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-nutzung-der-dig-7a56e117b7:field_value",
+      "title": "Weitere Nutzung der DiGA für zusätzliche 60 Tage"
+    },
+    {
+      "content": "207,00 €",
+      "content_preview": "207,00 €",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Kosten (z. B. Starterpaket) ohne Hardware für 60 Tage"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-kosten-z-b-starterpaket-5641b0bf97:field_value",
+      "title": "Kosten (z. B. Starterpaket) ohne Hardware für 60 Tage"
+    },
+    {
+      "content": "Es wird preislich und hinsichtlich der Bezeichnungen sowie der DiGA-VE-ID zwischen einer Erstverordnung My7steps App ErstVO 001 und einer Folgeverordnung My7steps App FolgeVO 002 unterschieden.",
+      "content_preview": "Es wird preislich und hinsichtlich der Bezeichnungen sowie der DiGA-VE-ID zwischen einer Erstverordnung My7steps App ErstVO 001 und einer Folgeverordnung My7steps App FolgeVO 002 unterschieden.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Anmerkungen zum Preismodell"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-anmerkungen-zum-f3f338f2f7:field_value",
+      "title": "Weitere Anmerkungen zum Preismodell"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Erläuterung Mehrkosten"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-erlaeuterung-mehrkosten-7813cc6074:field_value",
+      "title": "Erläuterung Mehrkosten"
+    },
+    {
+      "content": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_preview": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Verbesserungen für Patienten können entweder medizinischer Art sein (z.B. Verringerung von Schmerzen, Beitrag zur Heilung der Erkrankung) oder den Erkennungs- und Behandlungsprozess direkt unterstützen und erleichtern (z.B. Informationen zur individuellen Erkrankungssituation, Unterstützung bei der Einhaltung der zwischen Patient und Arzt gemeinsam vereinbarten therapeutischen Maßnahmen).",
+      "content_preview": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Ve...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:informationen-zum-positiven-versorgungseffekt-253662cf50:field_value",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche Weise dies ggfs. bereits wissenschaftlich nachgewiesen wurde. Falls der positive Versorgungseffekt noch nicht abschließend nachgewiesen aber bereits so plausibel dargelegt wurde, dass die DiGA befristet zur entsprechenden Erprobung aufgenommen wurde, wird angegeben, für welchen Zeitraum dies erfolgt ist. Sofern (auch) ein Nachweis zum Erhalt der Erwerbsfähigkeit für die DiGA erbracht wurde oder eine Nachweisführung geplant ist, finden Sie hier eine Beschreibung und nähere Angaben zum Nachweis sowie zum Studiendesign. Sofern die DiGA (auch) ein diagnostisches Instrument darstellt, also mindestens in Teilen dazu vorgesehen ist, Informationen z.B. für die Erkennung oder Diagnose von Krankheitszuständen zu liefern, hat der Hersteller dies benannt und beschrieben sowie Sensitivität und Spezifität als wichtige Bewertungsgrößen angegeben.",
+      "content_preview": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche We...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Medizinischer Nutzen",
+      "content_preview": "Medizinischer Nutzen",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Angaben zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse-5449921803:field_value",
+      "title": "Angaben zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Verbesserung des Gesundheitszustands",
+      "content_preview": "Verbesserung des Gesundheitszustands",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Nähere Angaben zum medizinischen Nutzen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen--90ce965dee:field_value",
+      "title": "Nähere Angaben zum medizinischen Nutzen"
+    },
+    {
+      "content": "Der medizinische Nutzen von My7steps App besteht vor allem in einer Verbesserung des Gesundheitszustands und der Reduzierung von psychischen Beschwerden.",
+      "content_preview": "Der medizinische Nutzen von My7steps App besteht vor allem in einer Verbesserung des Gesundheitszustands und der Reduzierung von psychischen Beschwerden.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Beschreibung des medizinischen Nutzens"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut-a677995e79:field_value",
+      "title": "Beschreibung des medizinischen Nutzens"
+    },
+    {
+      "content": "Patient: Patientinnen und Patienten zwischen 18 und 65 Jahren, die die diagnostischen Kriterien einer leichten oder mittelgradigen depressiven Episode (ICD-10: F32.0, F32.1, F33.0, F33.1) erfüllen.",
+      "content_preview": "Patient: Patientinnen und Patienten zwischen 18 und 65 Jahren, die die diagnostischen Kriterien einer leichten oder mittelgradigen depressiven Episode (ICD-10: F32.0, F32.1, F33.0, F33.1) erfüllen.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Studie/n im PICO-Schema"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema-2cb668dadb:field_value",
+      "title": "Studie/n im PICO-Schema"
+    },
+    {
+      "content": "Interventionsgruppe (IG): Die Patientinnen und Patienten der IG erhielten die übliche Regelversorgung und Zugang zur digitalen Gesundheitsanwendung (DiGA). Kontrollgruppe (KG): Die Patientinnen und Patienten der KG erhielten die übliche Regelversorgung. Endpunkte: Primär: Veränderung der depressiven Symptomatik anhand des Patient Health Questionnaire-9 (PHQ-9) nach 3 Monaten im Vergleich zur Baseline Sekundär (explorativ): - Veränderung der Resilienz anhand der Connor-Davidson Resilience Scale (CD-Risc-10) nach 3 Monaten im Vergleich zur Baseline - Veränderung der Kohärenz anhand der Sense of Coherence Scale Leipziger Kurzform (SOC-L9) nach 3 Monaten im Vergleich zur Baseline",
+      "content_preview": "Interventionsgruppe (IG): Die Patientinnen und Patienten der IG erhielten die übliche Regelversorgung und Zugang zur digitalen Gesundheitsanwendung (DiGA). Kontrollgruppe (KG): Die Patientinnen und Patienten der KG erhielten die übliche ...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Die Studie zum Nachweis des positiven Versorgungseffekts wurde als randomisierte, kontrollierte zweiarmige Studie konzipiert; es wurden 253 Patientinnen und Patienten mit leichten und mittelgradigen depressiven Symptomatiken untersucht. Die Studienteilnehmerinnen und Studienteilnehmer der Interventionsgruppe erhielten neben der üblichen medizinischen Versorgung Zugang zur webbasierte Selbsthilfe-Intervention My7steps App. Die Warte-Kontrollgruppe erhielt die übliche medizinische Versorgung und nach Beendigung der Studie Zugang zur Intervention. Im Rahmen einer diagnostische Videovisite werden die Ein- und Ausschlusskriterien überprüft, Diagnosen gestellt und die Studienteilnehmerinnen und Studienteilnehmer abschließend mit verdeckter Zuteilung remote randomisiert. Die Zuordnung der Studienteilnehmerinnen und Studienteilnehmer erfolgt mittels stratifizierter Blockrandomisierung (1:1) mit permutierten Blöcken variabler Länge. Die erste, telefonische Studienvisite erfolgte umgehend nach der Allokation und umfasste die Baseline-Messung und ggf. Ausgabe der Intervention. Der Behandlungszeitraum der Interventionsgruppe betrug 2 Monate, der Beobachtungszeitraum der Studie betrug 3 Monate. Nach Abschluss des Beobachtungszeitraums wurde im Rahmen der zweiten, telefonischen Studienvisite die Post-Messung vorgenommen. Die primäre Zielgröße stellte der Schweregrad der depressiven Symptomatik dar, der mit Hilfe des Patient Health Questionnaire (PHQ-9) erhoben wurde. Darüber hinaus wurden die persönliche Belastbarkeit (Connor-Davidson Resilience Scale: CD-Risc-10) und das Kohärenzgefühl (Sense of Coherence Scale: SOC-L9) erfasst. Die Studie wurde beim Deutschen Register klinischer Studien (DRKS) registriert unter der DRKS-ID DRKS00025530.",
+      "content_preview": "Die Studie zum Nachweis des positiven Versorgungseffekts wurde als randomisierte, kontrollierte zweiarmige Studie konzipiert; es wurden 253 Patientinnen und Patienten mit leichten und mittelgradigen depressiven Symptomatiken untersucht. ...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u-804896bae6:field_value",
+      "title": "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
+    },
+    {
+      "content": "Eine vollumfängliche Publikation der Ergebnisse ist für 2025 über die Webseite des Herstellers geplant.",
+      "content_preview": "Eine vollumfängliche Publikation der Ergebnisse ist für 2025 über die Webseite des Herstellers geplant.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Dies ist/sind die vom Hersteller angeführten Studie/n:"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:informationen-zum-positiven-versorgungseffekt-dies-ist-sind-die-vom-hersteller-a-81dc280904:field_value",
+      "title": "Dies ist/sind die vom Hersteller angeführten Studie/n:"
+    },
+    {
+      "content": "Im Rahmen der Entwicklung des Evaluationskonzeptes waren mehrere herstellerunabhängige, wissenschaftliche Institutionen beteiligt: - fbeta GmbH (Akazienstraße 31, 10823 Berlin). - Verhaltenstherapie Falkenried MVZ GmbH (Falkenried 7, 20251 Hamburg) - Universitätsklinikum Hamburg-Eppendorf, Arbeitsbereich Suchtmedizin und abhängiges Verhalten (Martinistraße 52, 20251 Hamburg) - KoMIT - Kompetenzzentrum Mensch, Innovation & Technik GmbH (Starterzentrum 1, Gebäude A1 2, 66123 Saarbrücken).",
+      "content_preview": "Im Rahmen der Entwicklung des Evaluationskonzeptes waren mehrere herstellerunabhängige, wissenschaftliche Institutionen beteiligt: - fbeta GmbH (Akazienstraße 31, 10823 Berlin). - Verhaltenstherapie Falkenried MVZ GmbH (Falkenried 7, 202...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:informationen-zum-positiven-versorgungseffekt-herstellerunabhaengige-institution-85ca65af54:field_value",
+      "title": "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
+    },
+    {
+      "content": "Nein",
+      "content_preview": "Nein",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Die DiGA enthält ein diagnostisches Instrument"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch-eded43f154:field_value",
+      "title": "Die DiGA enthält ein diagnostisches Instrument"
+    },
+    {
+      "content": "24 Monate (12 Monate initial, 12 Monate Verlängerung)",
+      "content_preview": "24 Monate (12 Monate initial, 12 Monate Verlängerung)",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Länge des Zeitraumes der vorläufigen Aufnahme"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:informationen-zum-positiven-versorgungseffekt-laenge-des-zeitraumes-der-vorlaeuf-d645f91b3b:field_value",
+      "title": "Länge des Zeitraumes der vorläufigen Aufnahme"
+    },
+    {
+      "content": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird. Die Anforderungen an die Datensicherheit werden durch Vorlage eines Zertifikats gemäß § 139e Absatz 10 Fünftes Buch Sozialgesetzbuch nachgewiesen. Detaillierte Informationen zu den einzelnen Anforderungen können Sie auf der Webseite des Bundesamts für Sicherheit in der Informationstechnik unter der Technischen Richtlinie \"BSI TR-03161\" finden: https://www.bsi.bund.de/dok/TR-03161 Bis zur Vorlage des Zertifikats gelten für den Bereich Datensicherheit die Anforderungen der nachfolgend dargestellten Checkliste.",
+      "content_preview": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen v...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:field_value",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine technische Möglichkeit einer Verknüpfung oder eines Datenaustauschs mit anderen digitalen Gesundheitsanwendungen. Trifft nicht zu Die digitale Gesundheitsanwendung unterstützt keine Offenbarung von Informationen der betroffenen Person oder über die betroffene Person für die Öffentlichkeit oder eine für die betroffene Person nicht eingrenzbare Personengruppe.",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutref...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit",
+        "Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:informationen-zu-datenschutz-und-datensicherheit-datensicherheit-14af255f91:field_value",
+      "title": "Datensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung speichert keine Authentisierungsdaten auf einem Endgerät oder in einer darauf befindlichen Softwarekomponente. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung erlaubt keinen Upload von Dateien. Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Bei der digitalen Gesundheitsanwendung handelt es sich um eine rein webbasierte Anwendung. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung greift weder auf Sensoren eines mobilen Endgeräts noch auf externe Hardware zu. Trifft nicht zu Die digitale Gesundheitsanwendung tauscht keine Daten mit externer Hardware aus. Zutreffend Zutreffend Zutreffend Nein",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung speichert keine Authentisierungsdaten auf einem Endgerä...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der medizinischen Inhalte und die Gewährleistung der Patientensicherheit.",
+      "content_preview": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der me...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-afe954d9f8:field_value",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_preview": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Interoperabilität"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-angaben-zur-interoperabilitaet-8867f27412:field_value",
+      "title": "Angaben zur Interoperabilität"
+    },
+    {
+      "content": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versicherten getragenen Sensoren zur Messung und Übertragung von Vitalwerten (Wearables) austauscht. Zutreffend Trifft nicht zu Der Hersteller hat keine eigenen Profilierungen vorgenommen. Zutreffend",
+      "content_preview": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versiche...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Robustheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-angaben-zur-robustheit-0a511476df:field_value",
+      "title": "Angaben zur Robustheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
+      "content_preview": "Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zum Verbraucherschutz"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-angaben-zum-verbraucherschutz-05cd17969e:field_value",
+      "title": "Angaben zum Verbraucherschutz"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit-8fe873c531:field_value",
+      "title": "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
+    },
+    {
+      "content": "Die digitale Gesundheitsanwendung wird nicht über eine Plattform für mobile Anwendungen angeboten. Zutreffend Zutreffend",
+      "content_preview": "Die digitale Gesundheitsanwendung wird nicht über eine Plattform für mobile Anwendungen angeboten. Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Unterstützung der Leistungserbringende"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-unterstuetzung-der-leistungserbringende-d4e78dfd75:field_value",
+      "title": "Unterstützung der Leistungserbringende"
+    },
+    {
+      "content": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen.",
+      "content_preview": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Triff...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Qualität der medizinischen Inhalte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte-a6d05ceeb6:field_value",
+      "title": "Angaben zur Qualität der medizinischen Inhalte"
+    },
+    {
+      "content": "Zutreffend Zutreffend Trifft nicht zu Die Studie ist vor kurzem fertiggestellt worden und wird zeitnah zur Veröffentlichung gebracht. Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine Gesundheitsinformationen an. Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine Gesundheitsinformationen an. Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine Gesundheitsinformationen an. Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine Gesundheitsinformationen an. Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine Gesundheitsinformationen an.",
+      "content_preview": "Zutreffend Zutreffend Trifft nicht zu Die Studie ist vor kurzem fertiggestellt worden und wird zeitnah zur Veröffentlichung gebracht. Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine Gesundheitsinformationen an. Zutreffend ...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Patientensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-angaben-zur-patientensicherheit-7a67651ccd:field_value",
+      "title": "Angaben zur Patientensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Der Preis der Verordnungseinheit My7steps App ErstVO 001 hat sich rückwirkend zum 15.11.2025 von 199,00 € auf 207,00 € geändert. Die Verordnungseinheit My7steps App FolgeVO 002 wurde zum 15.11.2025 mit einem Preis von 0,00 € hinzugefügt.",
+      "content_preview": "Der Preis der Verordnungseinheit My7steps App ErstVO 001 hat sich rückwirkend zum 15.11.2025 von 199,00 € auf 207,00 € geändert. Die Verordnungseinheit My7steps App FolgeVO 002 wurde zum 15.11.2025 mit einem Preis von 0,00 € hinzugefügt.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Änderungshistorie",
+        "17.11.2025 Preisänderung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "01786:aenderungshistorie-17-11-2025-preisaenderung-5b041e7b23:field_value",
+      "title": "17.11.2025 Preisänderung"
+    }
+  ],
+  "diga_id": "01786",
+  "name": "My7steps App",
+  "rendered_structure_metadata": {
+    "accordions_opened": 0,
+    "content_section_count": 78,
+    "field_value_count": 61,
+    "rendered_at": "2026-06-22T19:11:51.686535+00:00",
+    "source_kind": "visible_directory"
+  },
+  "source_kind": "visible_directory",
+  "timestamp": "20260622T190144Z",
+  "url": "https://diga.bfarm.de/de/verzeichnis/01786"
+}

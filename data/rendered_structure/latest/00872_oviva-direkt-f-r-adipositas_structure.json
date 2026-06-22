@@ -1,0 +1,970 @@
+{
+  "content_sections": [
+    {
+      "content": "Oviva Direkt für Adipositas ist die digitale Therapie zur Behandlung von starkem Übergewicht und unterstützt Menschen täglich dabei, ihre Gewohnheiten zu ändern und ihr Gewicht zu reduzieren. Die DiGA-App ist ein digitaler Helfer im Alltag von Patientinnen und Patienten und ermöglicht die gängige Behandlung zum Abnehmen (multimodale Adipositastherapie) auf dem Smartphone.",
+      "content_preview": "Oviva Direkt für Adipositas ist die digitale Therapie zur Behandlung von starkem Übergewicht und unterstützt Menschen täglich dabei, ihre Gewohnheiten zu ändern und ihr Gewicht zu reduzieren. Die DiGA-App ist ein digitaler Helfer im Allt...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "oviva.com/de/de/direkt/"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:oviva-com-de-de-direkt-cca621ea09:field_value",
+      "title": "oviva.com/de/de/direkt/"
+    },
+    {
+      "content": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_preview": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:field_value",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_preview": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Oviva Direkt für Adipositas",
+      "content_preview": "Oviva Direkt für Adipositas",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Name der DiGA im DiGA-Verzeichnis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v-132a49921b:field_value",
+      "title": "Name der DiGA im DiGA-Verzeichnis"
+    },
+    {
+      "content": "03.10.2021",
+      "content_preview": "03.10.2021",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Erstmalige Aufnahme in das DiGA-Verzeichnis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in--0901792b12:field_value",
+      "title": "Erstmalige Aufnahme in das DiGA-Verzeichnis"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Modul"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-modul-0b2f60dd90:field_value",
+      "title": "Modul"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-andere-namen-und-modell-ab7acb1427:field_value",
+      "title": "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
+    },
+    {
+      "content": "App",
+      "content_preview": "App",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Art der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga-f41af95c79:field_value",
+      "title": "Art der DiGA"
+    },
+    {
+      "content": "im Apple App Store Deutschland",
+      "content_preview": "im Apple App Store Deutschland",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Die digitale Gesundheitsanwendung ist verfügbar"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit-70a197df25:field_value",
+      "title": "Die digitale Gesundheitsanwendung ist verfügbar"
+    },
+    {
+      "content": "im Google Play Store Deutschland",
+      "content_preview": "im Google Play Store Deutschland",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Deutschland, Europäische Union, Schweiz, Vereinigtes Königreich, USA",
+      "content_preview": "Deutschland, Europäische Union, Schweiz, Vereinigtes Königreich, USA",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Standorte der Datenverarbeitung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera-426183d1fc:field_value",
+      "title": "Standorte der Datenverarbeitung"
+    },
+    {
+      "content": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an • Sicherheit und Funktionstauglichkeit des Medizinproduktes • Datenschutz und Datensicherheit nach dem Stand der Technik • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Gesundheitsanwendung-Verordnung (DiGAV) als erfüllt. Der Hersteller hat bestätigt, dass keine personenbezogenen Daten in ein Land ohne Angemessenheitsbeschluss, wie nach dem Urteil „Schrems II“ den USA, fließen. - Nach Aufnahme zur Erprobung wurden die Studienergebnisse der Erprobungsstudie zum Ende des Erprobungszeitraums eingereicht. Darüber hinaus wurden Real-World-Daten (RWD) aus dem Versorgungsalltag eingereicht. - Es wurde eine zweiarmige randomisiert kontrollierte Studie (RCT) mit dem Titel „Weight Management with a Digital Lifestyle Intervention in Persons With Obesity“ vorgelegt, die unter der Nummer DRKS00025291 im Deutschen Register Klinischer Studien (DRKS) registriert wurde. - Die primäre Beobachtungsdauer betrug 12 Wochen. Die Interventionsgruppe (IG) erhielt Zugang zur Standardversorgung und zur DiGA. Die Kontrollgruppe (KG) erhielt Zugang zur Standardversorgung. Der primäre Endpunkt war die relative Gewichtsveränderung nach 12 Wochen gemessen anhand einer Bioimpedanz-Analyse. Die sekundären Endpunkte waren die relative Gewichtsveränderung nach 24 Wochen (nur IG), der European Quality of Life 5 Dimensions 5 Level Version (EQ-5D-5L), die EQ Visual Analogue Scale (EQ-VAS) und die Body composition bzw. Fettmasse (anhand einer Bioimpedanz-Analyse). Nach 24 Wochen erfolgte ein Follow-up, wobei die Teilnehmenden der IG zwischen 12 Wochen und 24 Wochen die DiGA nicht weiter angewendet haben. - In die RCT wurden insgesamt 168 Patientinnen und Patienten eingeschlossen und randomisiert (IG: 84; KG: 84). Nach 12-wöchiger Studiendauer ergab sich zur Abschlussuntersuchung eine Drop-out-Rate von 17,3 % (IG: 25,0 %; KG: 9,5 %). Die RWD umfassten 842 Patientinnen und Patienten, die mindestens zu Beginn und nach 90 Tagen ihr Gewicht angegeben haben (Completer). - Im Rahmen der Analyse gemäß Intention-To-Treat-Prinzip (ITT-Prinzip) der RCT ergab sich ein statistisch signifikanter und relevanter Vorteil der IG gegenüber der KG in Bezug auf die Verbesserung des Gesundheitszustands gemessen anhand der relativen Gewichtsveränderung [adjustierte Differenz in der Veränderung von Baseline: -2,9; 95-%-Konfidenzintervall (KI): -3,7 – -2,1; p-Wert: < 0,001; Cohens d: 1,14]. Die IG reduzierte das Gewicht dabei um -3,2 %. Die Differenz zwischen IG und KG war auch unter konservativen Annahmen statistisch signifikant (-2,2; 95-%-KI: -3,0 – -1,3; p-Wert: < 0,001; Cohens d: 0,81). Im Gegensatz zur KG (10,7 %) reduzierte der Großteil der IG das Gewicht um über 3 % (58,3 %, p < 0,001). Die Subgruppenanalysen nach Alter, Geschlecht und Body-Mass-Index-Kategorie (BMI-Kategorie) zeigten weitestgehend konsistente Ergebnisse. Neben der relativen Gewichtsveränderung zeigte sich ebenfalls ein signifikanter Vorteil der IG gegenüber der KG in der Abnahme der Fettmasse. Des Weiteren wurden Tendenzen hinsichtlich einer Verbesserung der Lebensqualität mittels EQ-VAS gezeigt. Auf Basis der Follow-up-Daten nach 24 Wochen konnte für die IG gezeigt werden, dass der Großteil der Patientinnen und Patienten die Gewichtsreduzierung erhalten (37,3 %) oder erweitern konnte (25,4 %). Die RWD konnten die Ergebnisse der RCT zum Großteil für Completer bestätigen. Es zeigten sich vergleichbare Ergebnisse für die Subgruppen nach Alter, Geschlecht und BMI-Kategorie. - Entsprechend bewertet das BfArM die in § 139e des Fünften Buches Sozialgesetzbuch (SGB V) sowie in der DiGAV festgelegten Voraussetzungen zur endgültigen Aufnahme in das Verzeichnis nach § 139e Absatz 1 SGB V für die Indikationen E66.00: Adipositas durch übermäßige Kalorienzufuhr: Adipositas Grad I (WHO) bei Patienten von 18 Jahren und älter und E66.01: Adipositas durch übermäßige Kalorienzufuhr: Adipositas Grad II (WHO) bei Patienten von 18 Jahren und älter in Bezug auf den positiven Versorgungseffekt „Verbesserung des Gesundheitszustands“ als erfüllt.",
+      "content_preview": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an • Sicherheit und Funktionstauglichkeit des Medizinproduktes • Datenschutz und Datensicherheit nach dem Stand der T...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Bewertungsentscheidung des BfArM"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung--cdc10aad7c:field_value",
+      "title": "Bewertungsentscheidung des BfArM"
+    },
+    {
+      "content": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_preview": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Angaben zum Medizinprodukt"
+    },
+    {
+      "content": "Die Oviva Direkt App ist Teil eines ernährungsbezogenen Programms – mit Behandlungsplänen zur Unterstützung von Patienten bei der Umstellung ihrer Ernährung und ihrer Lebensgewohnheiten, damit sie ihre Gesundheit verbessern, die Krankheitslast verringern und günstige klinische Ergebnisse erzielen können.",
+      "content_preview": "Die Oviva Direkt App ist Teil eines ernährungsbezogenen Programms – mit Behandlungsplänen zur Unterstützung von Patienten bei der Umstellung ihrer Ernährung und ihrer Lebensgewohnheiten, damit sie ihre Gesundheit verbessern, die Krankhei...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "Medizinische Zweckbestimmung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Medizinische Zweckbestimmung"
+    },
+    {
+      "content": "Risikoklasse IIa nach MDR",
+      "content_preview": "Risikoklasse IIa nach MDR",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "Risikoklasse Medizinprodukt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Risikoklasse Medizinprodukt"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "Identifikationsnummer Eudamed"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Identifikationsnummer Eudamed"
+    },
+    {
+      "content": "iOS: 07649993906024 Android: 07649993906048",
+      "content_preview": "iOS: 07649993906024 Android: 07649993906048",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "UDI - Unique Device Identifier im Sinne der MDR"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "UDI - Unique Device Identifier im Sinne der MDR"
+    },
+    {
+      "content": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_preview": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Weitere Informationen zur DiGA"
+    },
+    {
+      "content": "Zielsetzung: Oviva Direkt für Adipositas ist eine App-basierte, leitliniengerechte Therapie zur Gewichtsreduktion für Menschen mit Adipositas. Die DiGA begleitet Patientinnen und Patienten Schritt für Schritt dabei, ihr Verhalten positiv hin zu einem gesundheitsförderlichen Lebensstil zu verändern.",
+      "content_preview": "Zielsetzung: Oviva Direkt für Adipositas ist eine App-basierte, leitliniengerechte Therapie zur Gewichtsreduktion für Menschen mit Adipositas. Die DiGA begleitet Patientinnen und Patienten Schritt für Schritt dabei, ihr Verhalten positiv...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Wirkungsweise: Oviva Direkt für Adipositas ist ein digitales, multimodales Programm und orientiert sich an den Empfehlungen der Basistherapie für Menschen mit Adipositas, bestehend aus Ernährungs-, Bewegungs- und Verhaltenstherapie. Inhalte: Oviva Direkt für Adipositas unterstützt Menschen bei der nachhaltigen Veränderung ihrer Gewohnheiten. Diese wird durch verschiedene Funktionen umgesetzt, die Selbstmonitoring, Selbstmanagement sowie Edukation fördern. Im Rahmen des Selbstmonitorings dokumentieren Patientinnen und Patienten mehrmals täglich ihr gesundheitsbezogenes Verhalten (z.B. Mahlzeiten, körperliche Aktivität, Stimmung). Getrackte Mahlzeiten werden von der DiGA analysiert und mit Hilfe von künstlicher Intelligenz in einen Ernährungskompass und tägliche Empfehlungen übersetzt. Individuelle Zielsetzungen regen zum Selbstmanagement an. Zur Erreichung dieser Ziele erhalten Patientinnen und Patienten via In-App-Alerts, Push-Notifications und E-Mails Nudges und Feedback. Zur Edukation stehen multimediale Lerninhalte, Ernährungspläne und personalisierte Rezeptsammlungen zur Verfügung, die schrittweise zur Verfügung gestellt werden. Patientinnen und Patienten schließen die Lerneinheiten mit kurzen Erfolgskontrollen ab, um das Gelernte zu konsolidieren. Nutzung: Patientinnen und Patienten nutzen Oviva Direkt für Adipositas als Begleiter im Alltag zur Steigerung von gesundheitsförderlichem Verhalten auf ihrem Smartphone. Die Nutzung erfolgt selbstständig und eigenverantwortlich. In einem initialen Gespräch mit einer Ernährungsfachkraft (ca. 1 - 2 Wochen nach Nutzungsbeginn) werden die Änderungsmotivation sowie die persönlichen Gesundheitsziele der Patientinnen und Patienten erfasst. Oviva Direkt für Adipositas unterstützt bei der Erreichung dieser Ziele, indem die Zielerreichung dokumentiert sowie Feedback und Erinnerungen (\"Nudges\") diesbezüglich für die Patientinnen und Patienten generiert werden. Sie erhalten automatisierte Chat-Nachrichten zur Unterstützung im Alltag und können sich – im Bedarfsfall – mittels des Chats an eine Ernährungsberaterin oder einen Ernährungsberater wenden. Der Austausch erfolgt lediglich zur Gewährleistung der sicheren und zweckmäßigen Anwendung des Produktes und zur Wahrung der Patientensicherheit.",
+      "content_preview": "Wirkungsweise: Oviva Direkt für Adipositas ist ein digitales, multimodales Programm und orientiert sich an den Empfehlungen der Basistherapie für Menschen mit Adipositas, bestehend aus Ernährungs-, Bewegungs- und Verhaltenstherapie. Inha...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Oviva Direkt für Adipositas unterstützt Menschen bei der nachhaltigen Veränderung ihrer Gewohnheiten. Diese wird durch verschiedene Funktionen umgesetzt, die Selbstmonitoring, Selbstmanagement sowie Edukation fördern.",
+      "content_preview": "Oviva Direkt für Adipositas unterstützt Menschen bei der nachhaltigen Veränderung ihrer Gewohnheiten. Diese wird durch verschiedene Funktionen umgesetzt, die Selbstmonitoring, Selbstmanagement sowie Edukation fördern.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Funktionen der digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-funktionen-der-digitale-90c70ec142:field_value",
+      "title": "Funktionen der digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Im Rahmen des Selbstmonitorings dokumentieren Patientinnen und Patienten mehrmals täglich ihr gesundheitsbezogenes Verhalten (z.B. Mahlzeiten, körperliche Aktivität, Stimmung). Getrackte Mahlzeiten werden von der DiGA analysiert und mit Hilfe von künstlicher Intelligenz in einen Ernährungskompass und tägliche Empfehlungen übersetzt. Individuelle Zielsetzungen regen zum Selbstmanagement an. Zur Erreichung dieser Ziele erhalten Patientinnen und Patienten via In-App-Alerts, Push-Notifications und E-Mails Nudges und Feedback. Zur Edukation stehen multimediale Lerninhalte, Ernährungspläne und personalisierte Rezeptsammlungen zur Verfügung, die schrittweise zur Verfügung gestellt werden. Patientinnen und Patienten schließen die Lerneinheiten mit kurzen Erfolgskontrollen ab, um das Gelernte zu konsolidieren.",
+      "content_preview": "Im Rahmen des Selbstmonitorings dokumentieren Patientinnen und Patienten mehrmals täglich ihr gesundheitsbezogenes Verhalten (z.B. Mahlzeiten, körperliche Aktivität, Stimmung). Getrackte Mahlzeiten werden von der DiGA analysiert und mit ...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Benecke A. Verhaltenstherapie der Adipositas. In: Herpertz S, Zwaan M, Zipfel S, Hrsg. Handbuch Essstörungen und Adipositas. Berlin, Heidelberg: Springer; 2015. S. 521-528. - Bechthold A. Food energy density and body weight. A scientific statement from the DGE. Ernaehrungs Umschau. 2014 Jan;61(1): 2–11. - Göhner W, Schlatterer M, Seelig H, Frey I, Berg A, Fuchs R. Two-year follow-up of an interdisciplinary cognitivebehavioral intervention program or obese adults. J Psychol. 2012;146:371-91. - Gomez-Marcos MA, Patino-Alonso MC, Recio-Rodriguez JI, Agudo-Conde C, Romaguera-Bosch M, Magdalena-Gonzalez O, et al. Short- and long-term effectiveness of a smartphone application for improving measures of adiposity: A randomized clinical trial – EVIDENT II study. Eur J Cardiovasc Nurs. 2018 Aug; 17: 552-562. doi: 10.1177/1474515118761870. - Hageman PA, Mroz JE, Yoerger MA, Pullen CH. Weight loss is associated with improved quality of life among rural women completers of a web-based lifestyle intervention. PLOS ONE. 2019 Nov 19;14(11):e0225446. doi: https://doi.org/10.1371/journal.pone.0225446 - Hauner H. Ernährungstherapie der Adipositas. In: Herpertz S, Zwaan M, Zipfel S, Hrsg. Handbuch Essstörungen und Adipositas. Berlin, Heidelberg: Springer; 2015. S. 503-510. - Hauner H, Berg A, Bischoff SC, Colombo-Benkmann M, Ellrott T, Heintze C, et al. Interdisziplinäre Leitlinie der Qualität S3 zur “Prävention und Therapie der Adipositas”. 2. Auflage 2014. Verfügbar: https://www.awmf.org/leitlinien/detail/ll/050-001.html - Hernández-Reyes A, Cámara-Martos F, Molina Recio G, Molina-Luque R, Romero-Saldaña M, Moreno Rojas R. Push Notifications From a Mobile App to Improve the Body Composition of Overweight or Obese Women: Randomized Controlled Trial. JMIR Mhealth Uhealth. 2020 Feb 12;8(2):e13747. doi: 10.2196/13747. - Painter SL, Lu W, Schneider J, James R, Shah B. Drivers of weight loss in a CDC-recognized digital diabetes prevention program. BMJ Open Diabetes Res Care. 2020 Jul;8(1):e001132. doi: 10.1136/bmjdrc-2019-001132. - Platen P. Behandlung der Adipositas – Sport und körperliche Aktivität. In: Herpertz S, Zwaan M, Zipfel S, Hrsg. Handbuch Essstörungen und Adipositas. Berlin, Heidelberg: Springer; 2015. S. 511-519.",
+      "content_preview": "Benecke A. Verhaltenstherapie der Adipositas. In: Herpertz S, Zwaan M, Zipfel S, Hrsg. Handbuch Essstörungen und Adipositas. Berlin, Heidelberg: Springer; 2015. S. 521-528. - Bechthold A. Food energy density and body weight. A scientific...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-literaturquellen-wie-z--8d5491f412:field_value",
+      "title": "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
+    },
+    {
+      "content": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_preview": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Beteiligung vom medizinischen Fachpersonal"
+    },
+    {
+      "content": "ÄRZTINNEN / ÄRZTE - Erläuterung und Verordnung von Oviva Direkt für Adipositas (auf Wunsch unterstützt der Hersteller mit erläuterndem Informationsmaterial zum Ablauf der Versorgung mit der DiGA) - Miteinbezug des sog. Arztreports in die Therapie (Der Arztreport kann von Patientinnen und Patienten innerhalb der DiGA generiert werden und enthält Informationen zur Gewichtskurve, der Lebensqualität und der Adhärenz im Therapieverlauf. Diese Informationen können bei ärztlichen Entscheidungen zur weiteren Therapie berücksichtigt werden.)",
+      "content_preview": "ÄRZTINNEN / ÄRZTE - Erläuterung und Verordnung von Oviva Direkt für Adipositas (auf Wunsch unterstützt der Hersteller mit erläuterndem Informationsmaterial zum Ablauf der Versorgung mit der DiGA) - Miteinbezug des sog. Arztreports in die...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Ärztinnen/ Ärzte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Ärztinnen/ Ärzte"
+    },
+    {
+      "content": "Ja",
+      "content_preview": "Ja",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Erforderliche vertragsärztliche Tätigkeiten in Zusammenhang mit der Nutzung der DiGA als Gebührenordnungsposition"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Erforderliche vertragsärztliche Tätigkeiten in Zusammenhang mit der Nutzung der DiGA als Gebührenordnungsposition"
+    },
+    {
+      "content": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfohlen wird.",
+      "content_preview": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfoh...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-6922aa5eb2:field_value",
+      "title": "Anwendungshinweise"
+    },
+    {
+      "content": "Patientinnen und Patienten sollten - fließend Deutsch sprechen - in der Lage sein, mäßige körperliche Aktivitäten selbständig durchzuführen - motiviert sein, ihren Lebensstil zu ändern und ihr Gewicht zu reduzieren - im Besitz eines Smartphones sein",
+      "content_preview": "Patientinnen und Patienten sollten - fließend Deutsch sprechen - in der Lage sein, mäßige körperliche Aktivitäten selbständig durchzuführen - motiviert sein, ihren Lebensstil zu ändern und ihr Gewicht zu reduzieren - im Besitz eines Smar...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Hinweise für eine sichere Anwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw-13263bcc58:field_value",
+      "title": "Hinweise für eine sichere Anwendung"
+    },
+    {
+      "content": "- Aktive Essstörung - Schwere psychische Erkrankung - Instabiler Drogen- oder Alkoholmissbrauch - Schwangerschaft und Stillzeit - Body-Mass-Index größer als 40 kg/m² - Vor kurzem erfolgte bariatrische Operation - Fortschreitende Komorbiditäten & andere Komplikationen (z. B. Edmonton Obesity Staging System Stadium 3) - Sekundäre Formen der Adipositas (z. B. Prader-Willi-Syndrom, Hypogonadismus) - Niereninsuffizienz",
+      "content_preview": "- Aktive Essstörung - Schwere psychische Erkrankung - Instabiler Drogen- oder Alkoholmissbrauch - Schwangerschaft und Stillzeit - Body-Mass-Index größer als 40 kg/m² - Vor kurzem erfolgte bariatrische Operation - Fortschreitende Komorbid...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Weitere Ausschlusskriterien"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-weit-3d658a5f5f:field_value",
+      "title": "Weitere Ausschlusskriterien"
+    },
+    {
+      "content": "Mindestdauer = 3 Monate. Oviva Direkt für Adipositas verfolgt das Ziel, über eine dauerhafte Verhaltensänderung eine nachhaltige Gewichtsreduktion herbeizuführen. Basierend auf der letzten Leitlinie zur Prävention und Therapie der Adipositas ist eine Reduktion von 5 – 10 % des initialen Gewichts innerhalb von 6 - 12 Monaten im Rahmen von vergleichbaren konservativen Behandlungen erwartbar. Bei erfolgreichem Therapieverlauf ist eine Folgeverordnung empfehlenswert.",
+      "content_preview": "Mindestdauer = 3 Monate. Oviva Direkt für Adipositas verfolgt das Ziel, über eine dauerhafte Verhaltensänderung eine nachhaltige Gewichtsreduktion herbeizuführen. Basierend auf der letzten Leitlinie zur Prävention und Therapie der Adipos...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Vom Hersteller für erforderlich gehaltene Mindestdauer"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "title": "Vom Hersteller für erforderlich gehaltene Mindestdauer"
+    },
+    {
+      "content": "Die Höchstdauer ist in Abhängigkeit vom therapeutischen Erfolg der Patientinnen und Patienten individuell zu bestimmen und kann nicht generisch definiert werden.",
+      "content_preview": "Die Höchstdauer ist in Abhängigkeit vom therapeutischen Erfolg der Patientinnen und Patienten individuell zu bestimmen und kann nicht generisch definiert werden.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Vom Hersteller für erforderlich gehaltene Höchstdauer"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-vom--dcf54207d4:field_value",
+      "title": "Vom Hersteller für erforderlich gehaltene Höchstdauer"
+    },
+    {
+      "content": "Die Oviva Direkt App ist kompatibel mit Geräten des Herstellers Apple und mit Geräten der Hersteller Samsung, Google, Motorola, Sony, Xiaomi und weiteren, auf denen das genannte Betriebssystem läuft.",
+      "content_preview": "Die Oviva Direkt App ist kompatibel mit Geräten des Herstellers Apple und mit Geräten der Hersteller Samsung, Google, Motorola, Sony, Xiaomi und weiteren, auf denen das genannte Betriebssystem läuft.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-komp-0b84064997:field_value",
+      "title": "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
+    },
+    {
+      "content": "Die App unterstützt die Anbindung weiterer Anwendungen zur Übertragung von Bewegungs- und Körpergewichtsdaten: Apple Health & GoogleFit. Alternativ ist eine Anbindung von Wearables via Bluetooth basierend auf den Standards der Bluetooth SIG und ISO/IEEE 11073 an die Oviva Direkt App möglich. (https://oviva.com/de/de/oviva-direkt/rechtliche-hinweise/)",
+      "content_preview": "Die App unterstützt die Anbindung weiterer Anwendungen zur Übertragung von Bewegungs- und Körpergewichtsdaten: Apple Health & GoogleFit. Alternativ ist eine Anbindung von Wearables via Bluetooth basierend auf den Standards der Bluetooth ...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Oviva Direkt verwendet für die Herstellung der Interoperabilität der digitalen Gesundheitsanwendung folgenden Standard: „FHIR“® (Fast Healthcare Interoperability Resources) Urheber: Health Level Seven International (HL7) Version: 4.0\" Wir haben in unserer DiGA eine Exportfunktion implementiert, welche von PatientInnen und Patienten jederzeit durch Knopfdruck initiiert werden kann. Darauf erhalten PatientInnen eine E-Mail mit einem Download-Link und via der DiGA App in der authentifizierten Umgebung ein Passwort zugestellt. Folgen Patientinnen und Patienten dem Link und geben das erhaltene Passwort zur Authentifizierung ein, steht ein ZIP File im Download bereit, welches sowohl einen maschinenlesbaren als auch einen menschenlesbaren Export der Daten beinhaltet. Für den maschinenlesbaren Teil nutzen wir nutzen den Standard HL7 FHIR R4 (4.0.1) mit den Basisprofilen DE soweit diese definiert sind. Für alle weiteren Ressourcen nutzen wir LOINC / SNOMED CT Codings & Terminologie um die Interoperabilität sicherzustellen. Wo dies ebenfalls nicht möglich ist, werden wir unsere eigene Terminologie publizieren und via Vesta-Verzeichnis zugänglich machen. Der menschenlesbare Export wird dem Patienten als PDF zur Verfügung gestellt.",
+      "content_preview": "Oviva Direkt verwendet für die Herstellung der Interoperabilität der digitalen Gesundheitsanwendung folgenden Standard: „FHIR“® (Fast Healthcare Interoperability Resources) Urheber: Health Level Seven International (HL7) Version: 4.0\" Wi...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Möglichkeiten von standardisiertem Datenimport und Datenexport"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-moeglichkeiten-von-stan-a818cc9f27:field_value",
+      "title": "Möglichkeiten von standardisiertem Datenimport und Datenexport"
+    },
+    {
+      "content": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs. weitere, durch Sie selbst aufzubringende Kosten, sofern Sie bestimmte zusätzlich angebotene und von der Verschreibung nicht abgedeckte Leistungen in Anspruch nehmen möchten.",
+      "content_preview": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs....",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-429bde377d:field_value",
+      "title": "Angaben zum Preis"
+    },
+    {
+      "content": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "content_preview": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis",
+        "Preismodell"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis-6eb719186f:field_value",
+      "title": "Preismodell"
+    },
+    {
+      "content": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+      "content_preview": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "243,00 €",
+      "content_preview": "243,00 €",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-kosten-z-b-starterpaket-5641b0bf97:field_value",
+      "title": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
+    },
+    {
+      "content": "243,00 €",
+      "content_preview": "243,00 €",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-nutzung-der-dig-7a56e117b7:field_value",
+      "title": "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Anmerkungen zum Preismodell"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-anmerkungen-zum-f3f338f2f7:field_value",
+      "title": "Weitere Anmerkungen zum Preismodell"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Erläuterung Mehrkosten"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-erlaeuterung-mehrkosten-7813cc6074:field_value",
+      "title": "Erläuterung Mehrkosten"
+    },
+    {
+      "content": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_preview": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Verbesserungen für Patienten können entweder medizinischer Art sein (z.B. Verringerung von Schmerzen, Beitrag zur Heilung der Erkrankung) oder den Erkennungs- und Behandlungsprozess direkt unterstützen und erleichtern (z.B. Informationen zur individuellen Erkrankungssituation, Unterstützung bei der Einhaltung der zwischen Patient und Arzt gemeinsam vereinbarten therapeutischen Maßnahmen).",
+      "content_preview": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Ve...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:informationen-zum-positiven-versorgungseffekt-253662cf50:field_value",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche Weise dies ggfs. bereits wissenschaftlich nachgewiesen wurde. Falls der positive Versorgungseffekt noch nicht abschließend nachgewiesen aber bereits so plausibel dargelegt wurde, dass die DiGA befristet zur entsprechenden Erprobung aufgenommen wurde, wird angegeben, für welchen Zeitraum dies erfolgt ist. Sofern (auch) ein Nachweis zum Erhalt der Erwerbsfähigkeit für die DiGA erbracht wurde oder eine Nachweisführung geplant ist, finden Sie hier eine Beschreibung und nähere Angaben zum Nachweis sowie zum Studiendesign. Sofern die DiGA (auch) ein diagnostisches Instrument darstellt, also mindestens in Teilen dazu vorgesehen ist, Informationen z.B. für die Erkennung oder Diagnose von Krankheitszuständen zu liefern, hat der Hersteller dies benannt und beschrieben sowie Sensitivität und Spezifität als wichtige Bewertungsgrößen angegeben.",
+      "content_preview": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche We...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Medizinischer Nutzen",
+      "content_preview": "Medizinischer Nutzen",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Angaben zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse-5449921803:field_value",
+      "title": "Angaben zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Verbesserung des Gesundheitszustands",
+      "content_preview": "Verbesserung des Gesundheitszustands",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Nähere Angaben zum medizinischen Nutzen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen--90ce965dee:field_value",
+      "title": "Nähere Angaben zum medizinischen Nutzen"
+    },
+    {
+      "content": "Der medizinische Nutzen besteht in einer Verbesserung des Gesundheitszustandes durch einen klinisch relevanten Gewichtsverlust. Die Therapie zielt auf eine verbesserte Selbstaufmerksamkeit, gesteigerte Selbstmanagementfähigkeiten und ein gesteigertes Krankheitsverständnis ab. Durch die Änderung des Ernährungs- und Bewegungsverhaltens (Verhaltensmodifikation) ermöglichen und verstetigen diese Faktoren die intendierte, nachhaltige Gewichtsreduktion.",
+      "content_preview": "Der medizinische Nutzen besteht in einer Verbesserung des Gesundheitszustandes durch einen klinisch relevanten Gewichtsverlust. Die Therapie zielt auf eine verbesserte Selbstaufmerksamkeit, gesteigerte Selbstmanagementfähigkeiten und ein...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Beschreibung des medizinischen Nutzens"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut-a677995e79:field_value",
+      "title": "Beschreibung des medizinischen Nutzens"
+    },
+    {
+      "content": "In der vorliegenden Studie wurde die Wirksamkeit von Oviva Direkt bei Adipositas bei erwachsenen Patientinnen und Patienten mit starkem Übergewicht und einem Body-Mass-Index (BMI) zwischen 30 und 40 kg/m² untersucht. - Die Teilnehmenden wurden in zwei Gruppen aufgeteilt. Die Interventionsgruppe erhielt für 12 Wochen die Therapie mit Oviva Direkt für Adipositas, während die Kontrollgruppe zunächst wartete und erst nach 12 Wochen Zugang zur DiGA erhielt. - Primäres Ziel der Studie war es, den Effekt von Oviva Direkt für Adipositas auf das Körpergewicht nach 12 Wochen zu untersuchen und diese Veränderung mit der Kontrollgruppe zu vergleichen. Darüber hinaus wurden Daten zur Veränderung des Körpergewichts nach 24 Wochen, der Änderung der gesundheitsbezogenen Lebensqualität, der Körperzusammensetzung und Fettmasse, sowie zur Benutzerfreundlichkeit und -akzeptanz der App erhoben und ausgewertet.",
+      "content_preview": "In der vorliegenden Studie wurde die Wirksamkeit von Oviva Direkt bei Adipositas bei erwachsenen Patientinnen und Patienten mit starkem Übergewicht und einem Body-Mass-Index (BMI) zwischen 30 und 40 kg/m² untersucht. - Die Teilnehmenden ...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Studie/n im PICO-Schema"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema-2cb668dadb:field_value",
+      "title": "Studie/n im PICO-Schema"
+    },
+    {
+      "content": "Oviva Direkt für Adipositas ist ein App-basiertes Programm zur Gewichtsreduktion, welches sich an den Empfehlungen der medizinischen Leitlinien orientiert und aus Ernährungs-, Bewegungs- und Verhaltenstherapie besteht. - Zur Evaluation des positiven Versorgungseffekts (medizinischer Nutzen = Verbesserung des Gesundheitszustands = Gewichtsreduktion zur Adipositastherapie) wurde eine klinische Studie durchgeführt. Im Rahmen der sechsmonatigen Studie werden 156 Personen mit starkem Übergewicht (18 - 70 Jahre, Body-Mass-Index (BMI) 30 – 40 kg/m²) nach dem Zufallsprinzips in zwei Gruppen aufgeteilt. Teilnehmende der sogenannten Interventionsgruppe erhielten nach Studienstart für 12 Wochen Zugang zur Therapie Oviva Direkt für Adipositas. Teilnehmende der Wartegruppe erhalten zunächst keine Behandlung (entsprechend der realen Versorgung für Menschen mit starkem Übergewicht) und beginnen die Behandlung nach Ablauf von zwölf Wochen, wobei ihre Messwerte ohne Behandlung als Vergleichswerte für den Interventionseffekt verwendet werden. Die Studie hat drei Messzeitpunkte, zu denen die Teilnehmende persönlich zum Studienstart, nach 12 Wochen und nach 24 Wochen in das Studienzentrum kamen. - Primäres Ziel der Studie war es, den Effekt von Oviva Direkt für Adipositas auf das Körpergewicht nach 12 Wochen zu untersuchen und diese Veränderung mit der Kontrollgruppe zu vergleichen. Die Messung des Körpergewichtes erfolgte vor Ort im Studienzentrum durch das Studienpersonal der Technischen Universität München. - Im Ergebnis zeigte die Studie, dass die Therapie mit Oviva Direkt für Adipositas nach 12 Wochen zu einer mittleren Reduktion des Körpergewichts von 3.2 % ± 3.0 im Vergleich zum Ausgangsgewicht führte. Der Unterschied zur Wartegruppe war statistisch signifikant (p < 0,001). Die statistische Signifikanz des Gruppenunterschieds konnte mit konservativen Verfahren zur Ersetzung von fehlenden Werten bestätigt werden. Neben der relativen Gewichtsveränderung zeigte sich ebenfalls ein signifikanter Vorteil der Interventionsgruppe im Vergleich zur Kontrollgruppe in der Abnahme der Fettmasse. Des Weiteren wurden Tendenzen hinsichtlich einer Verbesserung der Lebensqualität gezeigt. Auf Basis der Ergebnisse nach 24 Wochen konnte für die Interventionsgruppe gezeigt werden, dass der Großteil der Patientinnen und Patienten die Gewichtsreduzierung erhalten (37,3 %) oder erweitern konnte (25,4 %). - Die Studie wurde im Deutschen Register Klinischer Studien (DRKS) final registriert (Studiennummer: DRKS00025291). Die Ergebnisse der Studie werden auf der Webseite des Herstellers veröffentlicht. Eine Veröffentlichung in einer internationalen Fachzeitschrift wird angestrebt.",
+      "content_preview": "Oviva Direkt für Adipositas ist ein App-basiertes Programm zur Gewichtsreduktion, welches sich an den Empfehlungen der medizinischen Leitlinien orientiert und aus Ernährungs-, Bewegungs- und Verhaltenstherapie besteht. - Zur Evaluation d...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u-804896bae6:field_value",
+      "title": "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
+    },
+    {
+      "content": "Die Studie wird nach Fertigstellung auf der Webseite von Oviva Direkt für Adipositas veröffentlicht. Gleichzeitig wird eine Publikation in einer Fachzeitschrift angestrebt.",
+      "content_preview": "Die Studie wird nach Fertigstellung auf der Webseite von Oviva Direkt für Adipositas veröffentlicht. Gleichzeitig wird eine Publikation in einer Fachzeitschrift angestrebt.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Dies ist/sind die vom Hersteller angeführten Studie/n:"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:informationen-zum-positiven-versorgungseffekt-dies-ist-sind-die-vom-hersteller-a-81dc280904:field_value",
+      "title": "Dies ist/sind die vom Hersteller angeführten Studie/n:"
+    },
+    {
+      "content": "Holzapfel, Christina; Prof. Dr. rer. nat. E-Mail: christina.holzapfel(at)tum.de Homepage: https://www.mri.tum.de/ernaehrungsmedizin Postadresse: Institut für Ernährungsmedizin, Klinikum rechts der Isar, Technische Universität München, 80992 München, Georg-Brauchle-Ring 62 - Hauner, Hans; Univ.-Prof. Dr. med. E-Mail: hans.hauner(at)tum.de Homepage: https://www.mri.tum.de/ernaehrungsmedizin, https://www.ekfz.tum.de/ Postadresse: Institut für Ernährungsmedizin, Klinikum rechts der Isar, Technische Universität München, 80992 München, Georg-Brauchle-Ring 62",
+      "content_preview": "Holzapfel, Christina; Prof. Dr. rer. nat. E-Mail: christina.holzapfel(at)tum.de Homepage: https://www.mri.tum.de/ernaehrungsmedizin Postadresse: Institut für Ernährungsmedizin, Klinikum rechts der Isar, Technische Universität München, 80...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:informationen-zum-positiven-versorgungseffekt-herstellerunabhaengige-institution-85ca65af54:field_value",
+      "title": "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
+    },
+    {
+      "content": "Nein",
+      "content_preview": "Nein",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Die DiGA enthält ein diagnostisches Instrument"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch-eded43f154:field_value",
+      "title": "Die DiGA enthält ein diagnostisches Instrument"
+    },
+    {
+      "content": "21 Monate (12 Monate initial, 9 Monate Verlängerung)",
+      "content_preview": "21 Monate (12 Monate initial, 9 Monate Verlängerung)",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Länge des Zeitraumes der vorläufigen Aufnahme"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:informationen-zum-positiven-versorgungseffekt-laenge-des-zeitraumes-der-vorlaeuf-d645f91b3b:field_value",
+      "title": "Länge des Zeitraumes der vorläufigen Aufnahme"
+    },
+    {
+      "content": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird. Die Anforderungen an die Datensicherheit werden durch Vorlage eines Zertifikats gemäß § 139e Absatz 10 Fünftes Buch Sozialgesetzbuch nachgewiesen. Detaillierte Informationen zu den einzelnen Anforderungen können Sie auf der Webseite des Bundesamts für Sicherheit in der Informationstechnik unter der Technischen Richtlinie \"BSI TR-03161\" finden: https://www.bsi.bund.de/dok/TR-03161 Bis zur Vorlage des Zertifikats gelten für den Bereich Datensicherheit die Anforderungen der nachfolgend dargestellten Checkliste.",
+      "content_preview": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen v...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:field_value",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die Nutzung der digitalen Gesundheitsanwendung ist auf ein privates IT-System der nutzenden Person beschränkt. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine technische Möglichkeit einer Verknüpfung oder eines Datenaustauschs mit anderen digitalen Gesundheitsanwendungen. Trifft nicht zu Die digitale Gesundheitsanwendung unterstützt keine Offenbarung von Informationen der betroffenen Person oder über die betroffene Person für die Öffentlichkeit oder eine für die betroffene Person nicht eingrenzbare Personengruppe.",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die Nutzung der digitalen Gesundheitsanwendung ist auf ein privates IT-System der nutzend...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit",
+        "Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:informationen-zu-datenschutz-und-datensicherheit-datensicherheit-14af255f91:field_value",
+      "title": "Datensicherheit"
+    },
+    {
+      "content": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der medizinischen Inhalte und die Gewährleistung der Patientensicherheit.",
+      "content_preview": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der me...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-afe954d9f8:field_value",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_preview": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Interoperabilität"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-angaben-zur-interoperabilitaet-8867f27412:field_value",
+      "title": "Angaben zur Interoperabilität"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Robustheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-angaben-zur-robustheit-0a511476df:field_value",
+      "title": "Angaben zur Robustheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
+      "content_preview": "Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zum Verbraucherschutz"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-angaben-zum-verbraucherschutz-05cd17969e:field_value",
+      "title": "Angaben zum Verbraucherschutz"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit-8fe873c531:field_value",
+      "title": "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Unterstützung der Leistungserbringende"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-unterstuetzung-der-leistungserbringende-d4e78dfd75:field_value",
+      "title": "Unterstützung der Leistungserbringende"
+    },
+    {
+      "content": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen.",
+      "content_preview": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Triff...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Qualität der medizinischen Inhalte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte-a6d05ceeb6:field_value",
+      "title": "Angaben zur Qualität der medizinischen Inhalte"
+    },
+    {
+      "content": "Zutreffend Zutreffend Trifft nicht zu Studien, insbesondere die Evaluationsstudie, werden nach Abschluss auf der Webseite publiziert. Studien der Oviva AG aus vergleichbaren Versorgungskontexten sind auf der Webseite veröffentlicht. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Trifft nicht zu Studien, insbesondere die Evaluationsstudie, werden nach Abschluss auf der Webseite publiziert. Studien der Oviva AG aus vergleichbaren Versorgungskontexten sind auf der Webseite veröffentlicht. Zutr...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Patientensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-angaben-zur-patientensicherheit-7a67651ccd:field_value",
+      "title": "Angaben zur Patientensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Der Preis der Verordnungseinheit Oviva Direkt hat sich rückwirkend zum 05.05.2026 von 220,90 € zu 243,00 € geändert.",
+      "content_preview": "Der Preis der Verordnungseinheit Oviva Direkt hat sich rückwirkend zum 05.05.2026 von 220,90 € zu 243,00 € geändert.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Änderungshistorie",
+        "11.05.2026 Preisänderung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "00872:aenderungshistorie-11-05-2026-preisaenderung-2fb1221444:field_value",
+      "title": "11.05.2026 Preisänderung"
+    }
+  ],
+  "diga_id": "00872",
+  "name": "Oviva Direkt für Adipositas",
+  "rendered_structure_metadata": {
+    "accordions_opened": 0,
+    "content_section_count": 74,
+    "field_value_count": 57,
+    "rendered_at": "2026-06-22T19:04:40.678729+00:00",
+    "source_kind": "visible_directory"
+  },
+  "source_kind": "visible_directory",
+  "timestamp": "20260622T190144Z",
+  "url": "https://diga.bfarm.de/de/verzeichnis/00872"
+}

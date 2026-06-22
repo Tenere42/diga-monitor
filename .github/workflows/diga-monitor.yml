@@ -91,7 +91,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          for path in data/snapshots outputs/changes outputs/scan_history.json outputs/content_section_dry_run; do
+          for path in data/snapshots outputs/changes outputs/scan_history.json outputs/content_section_dry_run data/rendered_structure/latest; do
             if [ -e "$path" ]; then
               git add -f "$path"
             else

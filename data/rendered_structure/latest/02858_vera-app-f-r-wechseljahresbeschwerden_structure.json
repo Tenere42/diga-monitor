@@ -1,0 +1,1197 @@
+{
+  "content_sections": [
+    {
+      "content": "Die Vera-App wurde von der Endo-Health GmbH entwickelt und im Jahr 2024 unter der Basis UDI-DI: 426071973VERADX als Medizinprodukt der Risikoklasse 1 zugelassen. Wie in der medizinischen Zweckbestimmung beschrieben, unterstützt die Vera-App Patientinnen mit Wechseljahres-Beschwerden durch evidenzbasierte und leitlinienkonforme Inhalte, Methoden und Übungen der multimodalen Behandlung von Wechseljahres-Beschwerden. Die Vera-App richtet sich an Betroffene mit mindestens mittelschweren Wechseljahres-Beschwerden, für die die Diagnose „Zustände im Zusammenhang mit der Menopause und dem Klimakterium (N95.1)“ vorliegt. Mittelschwere Wechseljahres-Beschwerden liegen vor, wenn auf der Menopause Rating Scale (MRS-II) mindestens 9 Punkte erreicht werden.",
+      "content_preview": "Die Vera-App wurde von der Endo-Health GmbH entwickelt und im Jahr 2024 unter der Basis UDI-DI: 426071973VERADX als Medizinprodukt der Risikoklasse 1 zugelassen. Wie in der medizinischen Zweckbestimmung beschrieben, unterstützt die Vera-...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "diga.veraapp.de/"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:diga-veraapp-de-5d7560c7a3:field_value",
+      "title": "diga.veraapp.de/"
+    },
+    {
+      "content": "Allgemeine Kontraindikationen sind nicht angegeben. Die Vera-App ist eine Smartphone-Anwendung, die Patientinnen Selbstmanagement-Strategien vermittelt und als Begleittherapie zu anderen Therapien im Rahmen der Standardversorgung eingesetzt werden kann. Zudem kann sie im Rahmen der Tertiären Prävention einer weiteren Verschlechterung der Symptome und Lebensqualität vorbeugen.",
+      "content_preview": "Allgemeine Kontraindikationen sind nicht angegeben. Die Vera-App ist eine Smartphone-Anwendung, die Patientinnen Selbstmanagement-Strategien vermittelt und als Begleittherapie zu anderen Therapien im Rahmen der Standardversorgung eingese...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Vera-App für Wechseljahresbeschwerden"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:vera-app-fuer-wechseljahresbeschwerden-e507abf13d:section",
+      "title": "Vera-App für Wechseljahresbeschwerden"
+    },
+    {
+      "content": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_preview": "Hier finden Sie weitergehende Informationen zur DiGA.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:field_value",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_preview": "Dies umfasst beispielsweise besondere Angaben zur DiGA als Medizinprodukt, zu ihrer konkreten Anwendung sowie zum ausgelobten positiven Versorgungseffekt und der Beteiligung medizinischen Fachpersonals an der Anwendung der DiGA.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Vera-App für Wechseljahresbeschwerden",
+      "content_preview": "Vera-App für Wechseljahresbeschwerden",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Name der DiGA im DiGA-Verzeichnis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-im-diga-v-132a49921b:field_value",
+      "title": "Name der DiGA im DiGA-Verzeichnis"
+    },
+    {
+      "content": "20.01.2026",
+      "content_preview": "20.01.2026",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Erstmalige Aufnahme in das DiGA-Verzeichnis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-erstmalige-aufnahme-in--0901792b12:field_value",
+      "title": "Erstmalige Aufnahme in das DiGA-Verzeichnis"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Modul"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-modul-0b2f60dd90:field_value",
+      "title": "Modul"
+    },
+    {
+      "content": "Vera-App",
+      "content_preview": "Vera-App",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Name der DiGA (Kurzform)"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-name-der-diga-kurzform-be25f49996:field_value",
+      "title": "Name der DiGA (Kurzform)"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-andere-namen-und-modell-ab7acb1427:field_value",
+      "title": "Andere Namen und Modelle, falls in EU-Mitgliedsstaaten abweichend"
+    },
+    {
+      "content": "App",
+      "content_preview": "App",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Art der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-art-der-diga-f41af95c79:field_value",
+      "title": "Art der DiGA"
+    },
+    {
+      "content": "im Apple App Store Deutschland",
+      "content_preview": "im Apple App Store Deutschland",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Die digitale Gesundheitsanwendung ist verfügbar"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-die-digitale-gesundheit-70a197df25:field_value",
+      "title": "Die digitale Gesundheitsanwendung ist verfügbar"
+    },
+    {
+      "content": "im Google Play Store Deutschland",
+      "content_preview": "im Google Play Store Deutschland",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Deutschland",
+      "content_preview": "Deutschland",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Standorte der Datenverarbeitung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-standorte-der-datenvera-426183d1fc:field_value",
+      "title": "Standorte der Datenverarbeitung"
+    },
+    {
+      "content": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an",
+      "content_preview": "Auf Basis der vom Hersteller im Antragsverfahren vorgelegten Angaben und Nachweise bewertet das BfArM die Anforderungen an",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Bewertungsentscheidung des BfArM"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-bewertungsentscheidung--cdc10aad7c:field_value",
+      "title": "Bewertungsentscheidung des BfArM"
+    },
+    {
+      "content": "• Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der Technik und • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Gesundheitsanwendungen-Verordnung (DiGAV) als erfüllt. Die Datenverarbeitung findet laut Hersteller ausschließlich in Deutschland statt. Das BfArM bewertet dieses Vorgehen als konform im Sinne der DiGAV. Als Erprobungsstudie ist eine zweiarmige, offene, randomisierte, kontrollierte Studie mit dem Titel „Evaluation of a Mobile Menopause Application“ (EMMA) mit einer Beobachtungszeit von 24 Wochen geplant. Der primäre Endpunkt der Erprobungsstudie ist die Veränderung der Lebensqualität operationalisiert durch den Menopause-Specific Quality of Life Questionnaire (MENQOL) nach 12 Wochen im Vergleich zur Baseline. Weitere hierarchisch getestete sekundäre Endpunkte sind jeweils die Veränderung nach 12 Wochen im Vergleich zur Baseline der menopausalen Beschwerden mit der Menopause Rating Scale (MRS II), der täglichen Beeinträchtigung durch Hitzewallungen mit der Hot Flash Related Daily Interference Scale (HFRDIS), der Einschränkungen in Alltagsaktivitäten mit der Activity-impairment-Domäne des Work Productivity and Activity Impairement Questionnaire for Menopause (WPAI-Menopause) und der Patientenaktivierung im Patient Activation Measure 13 (PAM-13). Die „Verbesserung des Gesundheitszustands“ gilt als nachgewiesen, wenn im Rahmen der Erprobungsstudie eine statistisch signifikante und klinisch relevante Verbesserung der selbstbeurteilten menopausalen Beschwerden gemessen anhand des MRS II nach 12 Wochen im Vergleich zur Baseline in der IG im Vergleich zur KG oder eine statistisch signifikante und klinisch relevante Verbesserung der selbstbeurteilten täglichen Beeinträchtigung durch Hitzewallungen gemessen anhand der HFRDIS nach 12 Wochen im Vergleich zur Baseline in der Interventionsgruppse (IG) im Vergleich zur Kontrollgruppe (KG) gezeigt werden kann. Zusätzlich muss jeweils nachgewiesen werden, dass kein negativer Trend im MRS II bzw. HFRDIS nach 12 Wochen in im Vergleich zur Baseline in der IG im Vergleich zur KG vorliegt. Die „Verbesserung der Lebensqualität“ gilt als nachgewiesen, wenn im Rahmen der Erprobungsstudie eine statistisch signifikante und klinisch relevante Verbesserung der selbstberichteten gesundheitsbezogenen Lebensqualität gemessen anhand des MENQOL nach 12 Wochen im Vergleich zur Baseline in der IG im Vergleich zur KG gezeigt werden kann. Zusätzlich muss nachgewiesen werden, dass kein negativer Trend im MRS II und HFRDIS nach 12 Wochen im Vergleich zur Baseline in der IG im Vergleich zur KG vorliegt. Die „Bewältigung krankheitsbedingter Schwierigkeiten im Alltag“ gilt als nachgewiesen, wenn im Rahmen der Erprobungsstudie eine statistisch signifikante und patientenrelevante Verbesserung der selbstberichteten Einschränkungen in Alltagsaktivitäten gemessen anhand der Activity-impairment-Domäne des WPAI-Menopause nach 12 Wochen im Vergleich zur Baseline in der IG im Vergleich zur KG gezeigt werden kann und eine statistische signifikante Verbesserung in einem validierten Messinstrument für die Symptomschwere der Wechseljahresbeschwerden (z. B. MRS II oder HFRDIS) nach 12 Wochen im Vergleich zur Baseline im Vergleich zur KG vorliegt. Für die vorläufige Aufnahme wurden die Ergebnisse einer offenen, kontrollierten, explorativen Studie mit dem Titel „Pilotstudie zur Untersuchung des Einflusses einer App auf die Lebensqualität und Beschwerden von Menschen in den Wechseljahren“ mit einem Beobachtungszeitraum von 12 Wochen eingereicht. Die Endpunkte wurden zur Baseline (T0), nach 4 Wochen (T1), nach 8 Wochen (T2) und nach 12 Wochen (T3) erhoben. Die untersuchten explorativen Endpunkte waren jeweils die Veränderung nach 12 Wochen im Vergleich zur Baseline für den MENQOL, die MRS II, der WPAI-Menopause (im speziellen: Activity-impairment-Domäne), die HFRDIS, der Cognitive Failure Questionnaire (CFQ), die Depression Anxiety Stress Scale (DASS-21), der Fatigue Severity Scale (FSS) Questionnaire und der Insomnia Severity Index (ISI) Questionnaire. Für die Begründung der Versorgungsverbesserung wurden vom Hersteller der MENQOL (Verbesserung der Lebensqualität), MRS II (Verbesserung des Gesundheitszustands) und die Activity-impairment-Domäne des WPAI-Menopause (Bewältigung krankheitsbedingter Schwierigkeiten im Alltag) herangezogen. Es wurden insgesamt 224 Patientinnen im Verhältnis 1 : 1 in 2 Gruppen in die Studie eingeschlossen. Eine Verblindung hat nicht stattgefunden. Die Studie ist am 09.08.2024 gestartet und wurde am 30.12.2024 beendet. Aufgrund von Mängeln bei der Randomisierung gilt die Studie nicht als randomisiert, sondern lediglich als kontrolliert. In der vorgelegten Studie wurden Patientinnen ab dem 18. Lebensjahr mit den Indikationen N95.1 (Zustände im Zusammenhang mit der Menopause und dem Klimakterium), N95.3 (Zustände im Zusammenhang mit artifizieller Menopause), N95.8 (Sonstige näher bezeichnete klimakterische Störungen) sowie N95.9 (Klimakterische Störung, nicht näher bezeichnet) mit einem beliebigen MRS-II-Baseline-Wert und mit hormoneller, nicht-hormoneller oder keiner Begleittherapie zu Baseline eingeschlossen. Im Antragsverfahren wurden die Ergebnisse für eine modifizierte Intention-To-Treat-Population (mITT-Population) ausgewertet. Diese umfasste Patientinnen mit MRS II ≥ 9, ohne Hormonersatztherapie zur Baseline und mit der Diagnose N95.1. Entsprechend werden im Folgenden die Ergebnisse für die mITT-Population und nicht für die vollständige ITT-Population der Studie dargestellt. Alle Analysen wurden primär in der vollständigen mITT-Population durchgeführt, es hat kein weiterer Ausschluss von Patientinnen, zum Beispiel aufgrund von fehlenden Werten, aus der mITT-Population stattgefunden. Die berichteten Ergebnisse beruhen jeweils auf einer ANCOVA adjustiert nach Baseline und Imputation von fehlenden Werten mittels Jump-To-Reference-Imputation. In der mITT-Population wurden 79 Patientinnen in der IG und 84 Patientinnen in der KG eingeschlossen. In beiden Gruppen gab es jeweils 3 Drop-outs (3,8 % in der IG und 3,6 % in der KG). Die Auswertung der Veränderung des MRS II nach 12 Wochen im Vergleich zur Baseline ergab eine statistisch signifikante Verbesserung der IG (-4,63 Punkte) im Vergleich zur KG (-2,02 Punkte) von 2,62 Punkten (95-%-Konfidenzintervall, 95-%-KI [0,42; 4,82]; p = 0,02; Cohen’s d = 0,37). Die Auswertung der Veränderung des MENQOL nach 12 Wochen im Vergleich zur Baseline ergab eine statistisch signifikante Verbesserung der IG (-0,82 Punkte) im Vergleich zur KG (-0,36 Punkte) von 0,46 Punkten (95-%-KI [0,11; 0,80]; p = 0,01; Cohen’s d = 0,41). Die Auswertung der Veränderung der Activity-impairment-Domäne des WPAI-Menopause nach 12 Wochen im Vergleich zur Baseline ergab eine statistisch signifikante Verbesserung der IG (-15,74 Punkte) im Vergleich zur KG (-4,94 Punkte) von 10,81 Punkten (95-%-KI [2,89; 18,73]; p = 0,01; Cohen’s d = 0,39). Zwischen den Subgruppen „Nicht-hormonelle Begleitbehandlung zur Baseline“ und „Keine Begleitbehandlung zur Baseline“ wurden Unterschiede im Therapieeffekt beobachtet, die jedoch aufgrund des explorativen Charakters der Studie und Analysen nicht eindeutig auf einen tatsächlich vorliegenden relevanten Unterschied im Therapieeffekt zwischen beiden Gruppen zurückgeführt werden können. Im Rahmen der Erprobungsstudie müssen die Unterschiede in den Subgruppen genauer untersucht werden, um zu evaluieren, ob es sich um einen zufälligen oder tatsächlich vorhanden klinisch relevanten Unterschied handelt. In der Gesamtschau der Analysen der systematischen Datenauswertung kann eine vorläufige Aufnahme befürwortet werden. Entsprechend bewertet das BfArM die in § 139e des Fünften Buches Sozialgesetzbuch (SGB V) sowie in der DiGAV festgelegten Voraussetzungen zur vorläufigen Aufnahme auf Erprobung in das Verzeichnis nach § 139e Absatz 1 SGB V für die Indikationen N95.1: Zustände im Zusammenhang mit der Menopause und dem Klimakterium und in Bezug auf die positiven Versorgungseffekte „Verbesserung des Gesundheitszustands“, „Verbesserung der Lebensqualität“ und „Bewältigung krankheitsbedingter Schwierigkeiten im Alltag“ als erfüllt.",
+      "content_preview": "• Sicherheit und Funktionstauglichkeit des Medizinproduktes, • Datenschutz und Datensicherheit nach dem Stand der Technik und • die Qualität des Medizinproduktes, einschließlich Interoperabilität entsprechend den Vorgaben der Digitale Ge...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_preview": "Da als DiGA nur bereits CE-gekennzeichnete Medizinprodukte der Risikoklassen I, IIa und IIb in Frage kommen, sind im Folgenden wichtige Angaben zum Medizinprodukt aufgeführt.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Angaben zum Medizinprodukt"
+    },
+    {
+      "content": "Die Smartphone-Anwendung Vera-App unterstützt Betroffene mit Wechseljahresbeschwerden durch evidenzbasierte und leitlinienkonforme Inhalte, Methoden und Übungen der multimodalen Behandlung von Wechseljahresbeschwerden. Dazu gehören Informationen über Wechseljahresbeschwerden, Behandlungsoptionen und optimale Ansprechpersonen. Der Fokus liegt vor allem auf der Vermittlung von evidenzbasierten und leitlinienkonformen Selbstmanagementtechniken bei Wechseljahresbeschwerden sowie der Beobachtung individueller Symptome. Als Teil der multimodalen Behandlung werden wissensvermittelnde Elemente, validierte Fragebögen, Tagebücher, geführte Übungen und Techniken aus den Bereichen Gynäkologie, Physiotherapie, manuelle Therapie, Schmerztherapie, Rehabilitation, Ergotherapie, Sozialpädagogik, Bewegungstherapie, Ernährungsmedizin, Ressourcenaktivierung, Resilienzstärkung, kognitive Verhaltenstherapie und achtsamkeitsbasierte Stressreduktion zur Verfügung gestellt. Ziel des Programms ist es, Patientinnen dabei zu unterstützen, im Rahmen des Selbstmanagements ihre Wechseljahresbeschwerden zu reduzieren und ihre Lebensqualität zu verbessern. Sie werden beim eigenverantwortlichen Selbst- und Verhaltensmanagement unterstützt.",
+      "content_preview": "Die Smartphone-Anwendung Vera-App unterstützt Betroffene mit Wechseljahresbeschwerden durch evidenzbasierte und leitlinienkonforme Inhalte, Methoden und Übungen der multimodalen Behandlung von Wechseljahresbeschwerden. Dazu gehören Infor...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "Medizinische Zweckbestimmung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Medizinische Zweckbestimmung"
+    },
+    {
+      "content": "Risikoklasse I nach MDR",
+      "content_preview": "Risikoklasse I nach MDR",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "Risikoklasse Medizinprodukt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Risikoklasse Medizinprodukt"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Medizinprodukt",
+        "Name der Benannten Stelle"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-medizinprod-384e96f3fd:field_value",
+      "title": "Name der Benannten Stelle"
+    },
+    {
+      "content": "Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt.",
+      "content_preview": "Bei der Zertifizierung als Medizinprodukt war keine Benannte Stelle beteiligt.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Kennnummer der Benannten Stelle"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-kennnummer-der-benannte-885261bcc3:field_value",
+      "title": "Kennnummer der Benannten Stelle"
+    },
+    {
+      "content": "DE-MF-000006862",
+      "content_preview": "DE-MF-000006862",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Identifikationsnummer Eudamed"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-identifikationsnummer-e-c5d45b28a3:field_value",
+      "title": "Identifikationsnummer Eudamed"
+    },
+    {
+      "content": "426071973VERADX",
+      "content_preview": "426071973VERADX",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Basis UDI-DI im Sinne der MDR"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-basis-udi-di-im-sinne-d-af1d25d65e:field_value",
+      "title": "Basis UDI-DI im Sinne der MDR"
+    },
+    {
+      "content": "4260719730032",
+      "content_preview": "4260719730032",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "UDI-DI im Sinne der MDR"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-udi-di-im-sinne-der-mdr-73125832d2:field_value",
+      "title": "UDI-DI im Sinne der MDR"
+    },
+    {
+      "content": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_preview": "In dieser Rubrik wird u.a. erläutert, wie die DiGA wirkt, welche Funktionen sie umfasst und welche medizinischen Einrichtungen an ihrer Entwicklung beteiligt waren.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Weitere Informationen zur DiGA"
+    },
+    {
+      "content": "Die Vera-App bietet ein umfangreiches digitales Selbstmanagement-Programm für Patientinnen mit Wechseljahres-Beschwerden. Die Vera-App hat das Ziel Betroffene von Wechseljahres-Beschwerden im Alltag zu unterstützen, Selbstfürsorge zu fördern und nachhaltige Wege aufzuzeigen die Lebensqualität in vielen verschiedenen Lebensbereichen zu verbessern. - Die App ist für Betroffene mit mindestens mittelschweren Wechseljahres-Beschwerden geeignet, für die die Diagnose „Zustände im Zusammenhang mit der Menopause und dem Klimakterium (N95.1)“ vorliegt. Mittelschwere Wechseljahres-Beschwerden liegen vor, wenn auf der Menopause Rating Scale (MRS-II) mindestens 9 Punkte erreicht werden.",
+      "content_preview": "Die Vera-App bietet ein umfangreiches digitales Selbstmanagement-Programm für Patientinnen mit Wechseljahres-Beschwerden. Die Vera-App hat das Ziel Betroffene von Wechseljahres-Beschwerden im Alltag zu unterstützen, Selbstfürsorge zu för...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Informationen zur DiGA",
+        "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-informationen-z-9ef066c6e4:field_value",
+      "title": "Zielsetzung, Wirkungsweise, Inhalt und Nutzung der digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Das Behandlungsprogramm beinhaltet ein auf Wechseljahres-Beschwerden zugeschnittenes Tagebuch zur Dokumentation der Symptome und möglicher Einflussfaktoren wie Aktivitäten, Lebensstilfaktoren und Behandlung. Durch übersichtliche Zusammenfassung und Auswertungen der eingegebenen Daten im Zeitverlauf können individuelle Veränderungen und Zusammenhänge aufgedeckt werden. Informationen über die Krankheit und Symptome, Begleiterscheinungen und Behandlungsoptionen können im Rahmen der integrierten Lernmodule erlernt werden. Die Lerneinheiten sind dabei für den mobilen Kontext angepasst und multimedial in Text, Audio und Video aufbereitet. Vor allem werden Informationen und auch konkrete Anleitungen und Übungen zu leitliniengerechten Selbstmanagement-Techniken im individuellen Tempo vermittelt. Zu den folgenden Gebieten werden Inhalte und konkrete Übungen von erfahrenen Expertinnen und Experten spezifisch für Betroffene mit Wechseljahres-Beschwerden angeleitet und vermittelt: • Physiotherapie und Bewegung • Gynäkologie • Psychologie, Verhaltenstherapie und Kommunikation • Ernährung • Yoga • Entspannung und Stressreduktion • Achtsamkeit • Akzeptanz und Commitment • Zielsetzung • Resilienz • Soziale Unterstützung und Besonderheiten am Arbeitsplatz In der App können Patientinnen mithilfe des Tagebuches Einflussfaktoren und Erfolge von Therapie und Selbstmanagement beobachten und ihr Verhalten daran anpassen. Durch die evidenzbasierte Information und videogestützten Anleitung von Expertinnen und Experten der verschiedenen Gebiete können Nutzende wissenschaftlich fundierte Techniken direkt in den Alltag integrieren. Übungen können direkt in der App absolviert und dokumentiert werden. Selbstfürsorge und Selbstachtsamkeit werden verstärkt.",
+      "content_preview": "Das Behandlungsprogramm beinhaltet ein auf Wechseljahres-Beschwerden zugeschnittenes Tagebuch zur Dokumentation der Symptome und möglicher Einflussfaktoren wie Aktivitäten, Lebensstilfaktoren und Behandlung. Durch übersichtliche Zusammen...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Um eine langfristige Wirkung zu erzielen, zielt die Vera-App darauf ab, individuelle Unterstützung für nachhaltige Veränderungen sowie umfassende Informationen bereitzustellen.",
+      "content_preview": "Um eine langfristige Wirkung zu erzielen, zielt die Vera-App darauf ab, individuelle Unterstützung für nachhaltige Veränderungen sowie umfassende Informationen bereitzustellen.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Funktionen der digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-funktionen-der-digitale-90c70ec142:field_value",
+      "title": "Funktionen der digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Folgende Funktionen stehen hierfür zur Verfügung: * Tagebuch: Aktivitäten, Einflussfaktoren und Beschwerden können in einem Tagebuch ausführlich dokumentiert werden. Für eine regelmäßige, aber zeiteffiziente Nutzung kann täglich eine individuell angepasste Fragensammlung beantwortet werden. So lässt sich der gesamte Tag in nur 1–3 Minuten erfassen. Eine Erinnerung kann optional aktiviert werden. * Auswertung: Die App bietet umfangreiche Auswertungsübersichten über verschiedene Zeiträume und individuell auswählbare Themenbereiche. * Tages-Plan: Zu Beginn werden Nutzende durch die App geführt, setzen persönliche Ziele und starten an den wichtigsten Punkten, um sich schrittweise mit Inhalten und Übungen vertraut zu machen und eigenständig ins Lernen einzusteigen. * Inhaltsmodule: Zu zentralen Themen rund um die Wechseljahre, den Umgang mit Beschwerden und die Förderung der Lebensqualität werden Kurse in Form von Inhaltsmodulen angeboten. Diese vermitteln Wissen und leiten zur Anwendung von Selbstmanagement-Techniken an. * In-App-Übungen: Entspannungs-, Bewegungs- und weitere aktive Selbsthilfemethoden werden direkt in der App von Fachpersonen angeleitet. * SOS-Liste: Hilfreiche Methoden – aus der App oder aus dem Alltag – können von Nutzenden in einer persönlichen SOS-Liste gespeichert werden, um im Akutfall schnell darauf zugreifen zu können.",
+      "content_preview": "Folgende Funktionen stehen hierfür zur Verfügung: * Tagebuch: Aktivitäten, Einflussfaktoren und Beschwerden können in einem Tagebuch ausführlich dokumentiert werden. Für eine regelmäßige, aber zeiteffiziente Nutzung kann täglich eine ind...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Andrews R, Hale G, John B, Lancastle D. Evaluating the effects of symptom monitoring on menopausal health outcomes: a systematic review and meta-analysis. Front Glob Womens Health. 2021;2:757706.",
+      "content_preview": "Andrews R, Hale G, John B, Lancastle D. Evaluating the effects of symptom monitoring on menopausal health outcomes: a systematic review and meta-analysis. Front Glob Womens Health. 2021;2:757706.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-literaturquellen-wie-z--8d5491f412:field_value",
+      "title": "Literaturquellen (wie z.B. Leitlinien, Lehrwerke, Studien) für die DiGA"
+    },
+    {
+      "content": "Arbeitsgemeinschaft der Wissenschaftlichen Medizinischen Fachgesellschaften (AWMF). Leitlinie Peri- und Postmenopause: Diagnostik und Interventionen. AWMF-Registernr. 015-062. 2020 Jan. [S3-Leitlinie]. Arbeitsgemeinschaft der Wissenschaftlichen Medizinischen Fachgesellschaften (AWMF). Leitlinie Prophylaxe, Diagnostik und Therapie der Osteoporose bei postmenopausalen Frauen und bei Männern ab dem 50. Lebensjahr. AWMF-Registernr. 183-001. 2023 Sep. [S3-Leitlinie]. Asghari M, Mirghafourvand M, Mohammad-Alizadeh-Charandabi S, Malakouti J, Nedjat S. Effect of aerobic exercise and nutrition education quality of life and early menopause symptoms: a randomized controlled trial. Womens Health (Larchmt). 2017;57(2):173–88. Britto JB, Chellaiyan DVG, Gupta S, Nithyanandham R. How effective the mindfulness-based cognitive behavioral therapy on quality of life in women with menopause. J Midlife Health. 2022;13(2):169–74. Connolly LJ, Scott S, Morencos CM, Fulford J, Jones AM, Knapp K, et al. Impact of a novel home-based exercise intervention on health indicators in inactive premenopausal women: a 12-week randomised controlled trial. Eur J Appl Physiol. 2020;120(4):771–82. Godoy-Izquierdo D, Guevara NML, Toral MV, Galvan CT, Ballesteros AS, Garcia JFG. Improvements in health-related quality of life, cardio-metabolic health, and fitness in postmenopausal women after a supervised, multicomponent, adapted exercise program in a suited health promotion intervention: a multigroup study. Menopause. 2017;24(8):938–46. Hardy C, Griffiths A, Norton S, Hunter MS. Self-help cognitive behavior therapy for working women with problematic hot flushes and night sweats (MENOS@Work): a multicenter randomized controlled trial. Menopause. 2018;25(5):508–19. Javadivala Z, Allahverdipour H, Asghari JM, Emami A. An interventional strategy of physical activity promotion for reduction of menopause symptoms. Health Promot Perspect. 2020;10(4):383–92. Jorge MP, Santaella DF, Pontes IM, Shiramizu VK, Nascimento EB, Cabral A, et al. Hatha yoga practice decreases menopause symptoms and improves quality of life: a randomized controlled trial. Complement Ther Med. 2016;26:128–35. Jungmann S, Hettchen M, Kohl M, Kemmler W. Impact of 3 months of detraining after high intensity exercise on menopause-related symptoms in early postmenopausal women: results of the randomized controlled ACTLife project. Front Sports Act Living. 2022;4:1039754. Mansikkamäki K, Raitanen J, Nygård CH, Tomás E, Rutanen R, Luoto R. Long-term effect of physical activity on health-related quality of life among menopausal women: a 4-year follow-up study to a randomised controlled trial. BMJ Open. 2015;5(9):e008232. Monteleone P, Mascagni G, Giannini A, Genazzani AR, Simoncini T. Symptoms of menopause: global prevalence, physiology and implications. Nat Rev Endocrinol. 2018;14(4):199–215. Newton KM, Reed SD, Guthrie KA, Sherman KJ, Booth-LaForce C, Caan B, et al. Efficacy of yoga for vasomotor symptoms: a randomized controlled trial. Menopause. 2014;21(4):339–46. Reed SD, Guthrie KA, Newton KM, Anderson GL, Booth-LaForce C, Caan B, et al. Menopausal quality of life: RCT of yoga, exercise, and omega-3 supplements. Am J Obstet Gynecol. 2014;210(3):244.e1–7. Spector A, Li Z, He L, Badawy Y, Desai R. The effectiveness of psychosocial interventions on non-physiological symptoms of menopause: a systematic review and meta-analysis. J Affect Disord. 2024;352:460–72. Wong C, Yip BH, Gao T, Lam KYY, Woo DMS, Yip ALK, et al. Mindfulness-based stress reduction (MBSR) or psychoeducation for the reduction of menopausal symptoms: a randomized, controlled clinical trial. Sci Rep. 2018;8(1):6609. Volle Literaturliste auf der DiGA-Webseite: https://diga.veraapp.de/studienergebnisse-vera-app-2024/",
+      "content_preview": "Arbeitsgemeinschaft der Wissenschaftlichen Medizinischen Fachgesellschaften (AWMF). Leitlinie Peri- und Postmenopause: Diagnostik und Interventionen. AWMF-Registernr. 015-062. 2020 Jan. [S3-Leitlinie]. Arbeitsgemeinschaft der Wissenschaf...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_preview": "Im Folgenden erhalten Sie Information, wie medizinisches Fachpersonal Sie bei der Nutzung der DiGA unterstützt.",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Beteiligung vom medizinischen Fachpersonal"
+    },
+    {
+      "content": "Welche Rolle haben Ärztinnen und Ärzte bei der Vera-App? Ärztinnen und Ärzte nutzen die Vera-App selbst nicht. Sie können die App jedoch nach der Diagnose oder während der Behandlung verschreiben, wenn sie für Betroffene geeignet ist. Die medizinische Betreuung bleibt weiterhin bei den Ärztinnen und Ärzten, auch während Betroffene die App nutzen. Die Ärztinnen und Ärzte begleiten die Therapie und beraten Betroffene weiter.",
+      "content_preview": "Welche Rolle haben Ärztinnen und Ärzte bei der Vera-App? Ärztinnen und Ärzte nutzen die Vera-App selbst nicht. Sie können die App jedoch nach der Diagnose oder während der Behandlung verschreiben, wenn sie für Betroffene geeignet ist. Di...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Ärztinnen/ Ärzte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Ärztinnen/ Ärzte"
+    },
+    {
+      "content": "Welche Rolle haben Psychotherapeutinnen und Psychotherapeuten bei der Vera-App?",
+      "content_preview": "Welche Rolle haben Psychotherapeutinnen und Psychotherapeuten bei der Vera-App?",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Beteiligung vom medizinischen Fachpersonal",
+        "Psychotherapeutinnen/ Psychotherapeuten"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-beteiligung-vom-medizin-9b1bcc19cb:field_value",
+      "title": "Psychotherapeutinnen/ Psychotherapeuten"
+    },
+    {
+      "content": "Psychotherapeutinnen und Psychotherapeuten nutzen die Vera-App selbst nicht. Sie können die App jedoch nach der Diagnose oder während der Behandlung verschreiben, wenn sie für die betroffene Person geeignet ist. Die medizinische Betreuung bleibt weiterhin bei den Psychotherapeutinnen und Psychotherapeuten, auch während Betroffene die App nutzen. Die Psychotherapeutinnen und Psychotherapeuten begleiten die Therapie und beraten Betroffene weiter.",
+      "content_preview": "Psychotherapeutinnen und Psychotherapeuten nutzen die Vera-App selbst nicht. Sie können die App jedoch nach der Diagnose oder während der Behandlung verschreiben, wenn sie für die betroffene Person geeignet ist. Die medizinische Betreuun...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Nein",
+      "content_preview": "Nein",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-erforderlichkeit-vertra-723a5fea2b:field_value",
+      "title": "Erforderlichkeit vertragsärztlicher Tätigkeiten oder Tätigkeiten von Heilmittelerbringern oder Hebammen in Zusammenhang mit der Nutzung der DiGA"
+    },
+    {
+      "content": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfohlen wird.",
+      "content_preview": "Die folgenden Hinweise sind wichtig für die sichere Anwendung der DiGA. Sie beschreiben z.B., was bei der Anwendung zu beachten ist, in welchen Fällen die DiGA nicht angewendet werden darf und welche Anwendungsdauer vom Hersteller empfoh...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-6922aa5eb2:field_value",
+      "title": "Anwendungshinweise"
+    },
+    {
+      "content": "Wer kann die Vera-App nutzen und wie wird die Qualität sichergestellt? Die Vera-App richtet sich an Frauen ab 18 Jahre, mit der Diagnose von Wechseljahres-Beschwerden (\"klimakterische Störungen\") nach medizinischen Kriterien. Die Diagnose muss von einer Ärztin oder einem Arzt gestellt worden sein und sollte den folgenden Code enthalten: N95.1. Eine weitere Voraussetzung ist, dass die Wechseljahres-Beschwerden mindestens in einem mittelschweren Bereich liegen. Mittelschwere Wechseljahres-Beschwerden liegen vor, wenn auf der Menopause Rating Scale (MRS-II) mindestens 9 Punkte erreicht werden.",
+      "content_preview": "Wer kann die Vera-App nutzen und wie wird die Qualität sichergestellt? Die Vera-App richtet sich an Frauen ab 18 Jahre, mit der Diagnose von Wechseljahres-Beschwerden (\"klimakterische Störungen\") nach medizinischen Kriterien. Die Diagnos...",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Anwendungshinweise",
+        "Hinweise für eine sichere Anwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-anwendungshinweise-hinw-13263bcc58:field_value",
+      "title": "Hinweise für eine sichere Anwendung"
+    },
+    {
+      "content": "Damit die Nutzung sicher und effektiv ist, gibt es mehrere Schutzmaßnahmen: Die App kann nur mit einem Zugangscode freigeschaltet werden. Diesen Code gibt die Krankenkasse aus. Dafür muss entweder - eine ärztliche Verschreibung vorliegen oder - ein Diagnosenachweis direkt bei der Krankenkasse eingereicht werden. Zudem gibt es in der App klare Anleitungen, Erklärungen und Warnhinweise. Falls nötig (z.B. bei Angabe von besonders starken oder ungewöhnlichen Symptomen) werden Nutzende aufgefordert, eine Ärztin oder einen Arzt aufzusuchen. Es wird betont, dass Wechseljahres-Beschwerden eine umfassende medizinische Betreuung brauchen. Weitere Unterstützung Eine Gebrauchsanweisung ist jederzeit in der App und auf der Vertriebswebseite abrufbar. Technische Unterstützung („Support\") ist sowohl innerhalb als auch außerhalb der App verfügbar, um Nutzenden bei Fragen oder Problemen zu helfen.",
+      "content_preview": "Damit die Nutzung sicher und effektiv ist, gibt es mehrere Schutzmaßnahmen: Die App kann nur mit einem Zugangscode freigeschaltet werden. Diesen Code gibt die Krankenkasse aus. Dafür muss entweder - eine ärztliche Verschreibung vorliegen...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Vorgesehen ist eine Mindestdauer von 90 Tagen, eine längere Nutzung ist möglich und hängt vom individuellen Verlauf ab.",
+      "content_preview": "Vorgesehen ist eine Mindestdauer von 90 Tagen, eine längere Nutzung ist möglich und hängt vom individuellen Verlauf ab.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Vom Hersteller für erforderlich gehaltene Mindestdauer"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-vom-hersteller-fuer-erf-bbada5828c:field_value",
+      "title": "Vom Hersteller für erforderlich gehaltene Mindestdauer"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Vom Hersteller für erforderlich gehaltene Höchstdauer"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-vom-hersteller-fuer-erf-bbada5828c:field_value",
+      "title": "Vom Hersteller für erforderlich gehaltene Höchstdauer"
+    },
+    {
+      "content": "Android Die Vera-App ist mit allen Android-Geräten mit der Android-Version 13 aufwärts kompatibel.",
+      "content_preview": "Android Die Vera-App ist mit allen Android-Geräten mit der Android-Version 13 aufwärts kompatibel.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-kompatibilitaetszusagen-2e7efe3e1b:field_value",
+      "title": "Kompatibilitätszusagen in Bezug auf unterstützte Geräte"
+    },
+    {
+      "content": "iOS Die Vera-App ist mit allen iOS-Geräten der Softwareversion iOS 16 aufwärts kompatibel. Mehr dazu unter https://diga.veraapp.de/kompatibilitaet/",
+      "content_preview": "iOS Die Vera-App ist mit allen iOS-Geräten der Softwareversion iOS 16 aufwärts kompatibel. Mehr dazu unter https://diga.veraapp.de/kompatibilitaet/",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Die Datenportabilität ist sichergestellt durch den Export der gesammelten Therapie und Gesundheitsdaten.",
+      "content_preview": "Die Datenportabilität ist sichergestellt durch den Export der gesammelten Therapie und Gesundheitsdaten.",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Möglichkeiten von standardisiertem Datenimport und Datenexport"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-moeglichkeiten-von-stan-a818cc9f27:field_value",
+      "title": "Möglichkeiten von standardisiertem Datenimport und Datenexport"
+    },
+    {
+      "content": "Dieser beinhaltet die Antworten innerhalb des Beschwerde-Tagebuches, inklusive Aktivitäten und Ereignisse, absolvierte Übungen, und die Anamnese. Nutzende können ihre Daten innerhalb der Einstellungen in dem maschinenlesbaren Standardformat XML, FHIR sowie dem menschenlesbaren Format als PDF speichern und teilen. Die Vera-App erfüllt die gesetzlichen Anforderungen hinsichtlich der technischen und semantischen Interoperabilität. Die Vera-App verwendet hierfür ein interoperables Datenformat, das auf dem HL7 FHIR KBV Standard basiert. Es wurde von uns das KBV MIO Profils (MIO DiGA Toolkit v1.1.0) implementiert: https://mio.kbv.de/site/mio Das MIO DiGA Toolkit ist eine medizinische Datenstruktur, welche die KBV semantisch und syntaktisch nach §355 SGB V definiert. Mit der Umsetzung eines DiGA Toolkits wird ermöglicht, dass medizinische Daten aus der DiGA nicht nur für die versicherte Person jederzeit im Rahmen ihrer ePA-Anwendung abrufbar sind, sondern auch für die behandelnde Person im Behandlungskontext verwendbar sind.",
+      "content_preview": "Dieser beinhaltet die Antworten innerhalb des Beschwerde-Tagebuches, inklusive Aktivitäten und Ereignisse, absolvierte Übungen, und die Anamnese. Nutzende können ihre Daten innerhalb der Einstellungen in dem maschinenlesbaren Standardfor...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zu-den-von-der--1e522ad432:field_value",
+      "title": "Angaben zu den von der digitalen Gesundheitsanwendung verarbeiteten Daten aus Hilfsmitteln und Implantaten und deren Produktbezeichnungen"
+    },
+    {
+      "content": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs. weitere, durch Sie selbst aufzubringende Kosten, sofern Sie bestimmte zusätzlich angebotene und von der Verschreibung nicht abgedeckte Leistungen in Anspruch nehmen möchten.",
+      "content_preview": "Die Anwendung der DiGA ist mit Kosten verbunden, denen unterschiedliche Preismodelle zugrunde liegen können. Nachfolgend sehen Sie eine Übersicht der Kosten, die durch die gesetzliche Krankenversicherung übernommen werden. Außerdem ggfs....",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-429bde377d:field_value",
+      "title": "Angaben zum Preis"
+    },
+    {
+      "content": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "content_preview": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Angaben zum Preis",
+        "Preismodell"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-angaben-zum-preis-preis-6eb719186f:field_value",
+      "title": "Preismodell"
+    },
+    {
+      "content": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+      "content_preview": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "€598,95",
+      "content_preview": "€598,95",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-kosten-z-b-starterpaket-5641b0bf97:field_value",
+      "title": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage"
+    },
+    {
+      "content": "€598,95",
+      "content_preview": "€598,95",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-nutzung-der-dig-7a56e117b7:field_value",
+      "title": "Weitere Nutzung der DiGA für zusätzliche 90 Tage"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Weitere Anmerkungen zum Preismodell"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-weitere-anmerkungen-zum-f3f338f2f7:field_value",
+      "title": "Weitere Anmerkungen zum Preismodell"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung",
+        "Erläuterung Mehrkosten"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-erlaeuterung-mehrkosten-7813cc6074:field_value",
+      "title": "Erläuterung Mehrkosten"
+    },
+    {
+      "content": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_preview": "Es fallen keine Mehrkosten für den Patienten an.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen zur digitalen Gesundheitsanwendung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-zur-digitalen-gesundheitsanwendung-0fb579f161:section",
+      "title": "Weitere Informationen zur digitalen Gesundheitsanwendung"
+    },
+    {
+      "content": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Verbesserungen für Patienten können entweder medizinischer Art sein (z.B. Verringerung von Schmerzen, Beitrag zur Heilung der Erkrankung) oder den Erkennungs- und Behandlungsprozess direkt unterstützen und erleichtern (z.B. Informationen zur individuellen Erkrankungssituation, Unterstützung bei der Einhaltung der zwischen Patient und Arzt gemeinsam vereinbarten therapeutischen Maßnahmen).",
+      "content_preview": "Um in dieses Verzeichnis aufgenommen und damit durch die gesetzliche Krankenversicherung bezahlt zu werden, muss der Antragsteller u.a. angeben, zu welchem „positiven Versorgungseffekt“ die Anwendung seiner DiGA führt. Solche direkten Ve...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:informationen-zum-positiven-versorgungseffekt-253662cf50:field_value",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche Weise dies ggfs. bereits wissenschaftlich nachgewiesen wurde. Falls der positive Versorgungseffekt noch nicht abschließend nachgewiesen aber bereits so plausibel dargelegt wurde, dass die DiGA befristet zur entsprechenden Erprobung aufgenommen wurde, wird angegeben, für welchen Zeitraum dies erfolgt ist. Sofern (auch) ein Nachweis zum Erhalt der Erwerbsfähigkeit für die DiGA erbracht wurde oder eine Nachweisführung geplant ist, finden Sie hier eine Beschreibung und nähere Angaben zum Nachweis sowie zum Studiendesign. Sofern die DiGA (auch) ein diagnostisches Instrument darstellt, also mindestens in Teilen dazu vorgesehen ist, Informationen z.B. für die Erkennung oder Diagnose von Krankheitszuständen zu liefern, hat der Hersteller dies benannt und beschrieben sowie Sensitivität und Spezifität als wichtige Bewertungsgrößen angegeben.",
+      "content_preview": "Im Folgenden finden Sie Informationen zu dem/den vom Hersteller angegebenen positiven Versorgungseffekt/en aus diesen Bereichen (medizinischer Nutzen bzw. patientenrelevante Struktur- und Verfahrensverbesserung) sowie dazu, auf welche We...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Patientenrelevante Struktur- und Verfahrensverbesserung",
+      "content_preview": "Patientenrelevante Struktur- und Verfahrensverbesserung",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Angaben zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:informationen-zum-positiven-versorgungseffekt-angaben-zum-positiven-versorgungse-5449921803:field_value",
+      "title": "Angaben zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Medizinischer Nutzen",
+      "content_preview": "Medizinischer Nutzen",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Bewältigung krankheitsbedingter Schwierigkeiten im Alltag",
+      "content_preview": "Bewältigung krankheitsbedingter Schwierigkeiten im Alltag",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Patientenrelevante Struktur- und Verfahrensverbesserungen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:informationen-zum-positiven-versorgungseffekt-patientenrelevante-struktur-und-ve-6612535d44:field_value",
+      "title": "Patientenrelevante Struktur- und Verfahrensverbesserungen"
+    },
+    {
+      "content": "Verbesserung des Gesundheitszustands",
+      "content_preview": "Verbesserung des Gesundheitszustands",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Nähere Angaben zum medizinischen Nutzen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:informationen-zum-positiven-versorgungseffekt-naehere-angaben-zum-medizinischen--90ce965dee:field_value",
+      "title": "Nähere Angaben zum medizinischen Nutzen"
+    },
+    {
+      "content": "Verbesserung der Lebensqualität",
+      "content_preview": "Verbesserung der Lebensqualität",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Die Vera-App hilft Betroffenen mit Wechseljahres-Beschwerden, sich besser zu fühlen. Sie kann Betroffenen dabei helfen, ihre Lebensqualität zu verbessern und ihre Gesundheit zu stärken. Je nachdem, wie die App genutzt wird und welche Erfahrungen jemand schon gemacht hat, kann sie unterschiedliche Beschwerden lindern.",
+      "content_preview": "Die Vera-App hilft Betroffenen mit Wechseljahres-Beschwerden, sich besser zu fühlen. Sie kann Betroffenen dabei helfen, ihre Lebensqualität zu verbessern und ihre Gesundheit zu stärken. Je nachdem, wie die App genutzt wird und welche Erf...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Beschreibung des medizinischen Nutzens"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:informationen-zum-positiven-versorgungseffekt-beschreibung-des-medizinischen-nut-a677995e79:field_value",
+      "title": "Beschreibung des medizinischen Nutzens"
+    },
+    {
+      "content": "Die App enthält verschiedene Übungen und Angebote, die dabei helfen sollen, weniger unter den Symptomen zu leiden. Dadurch können sich die Betroffenen gesünder fühlen, ihr Alltag wird leichter und sie können selbstbestimmter mit ihrer Situation umgehen. Die Vera-App hilft unter anderem durch: - verständliche Informationen, - Achtsamkeits- und Entspannungsübungen, - weniger Stress, - Bewegungsübungen wie Physiotherapie oder Yoga, - psychologische Unterstützung (z. B. Akzeptanzübungen), - Tipps zum Umgang mit anderen Menschen, - und Informationen über eine gesunde Ernährung.",
+      "content_preview": "Die App enthält verschiedene Übungen und Angebote, die dabei helfen sollen, weniger unter den Symptomen zu leiden. Dadurch können sich die Betroffenen gesünder fühlen, ihr Alltag wird leichter und sie können selbstbestimmter mit ihrer Si...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Wie kann die Vera-App Verbesserungen in Abläufen und Strukturen für Betroffene bringen (sogenannte patientenrelevante Struktur- und Verfahrensverbesserungen)?",
+      "content_preview": "Wie kann die Vera-App Verbesserungen in Abläufen und Strukturen für Betroffene bringen (sogenannte patientenrelevante Struktur- und Verfahrensverbesserungen)?",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Nähere Beschreibung der patientenrelevanten Struktur- und Verfahrensverbesserung"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:informationen-zum-positiven-versorgungseffekt-naehere-beschreibung-der-patienten-859be4691e:field_value",
+      "title": "Nähere Beschreibung der patientenrelevanten Struktur- und Verfahrensverbesserung"
+    },
+    {
+      "content": "Wechseljahres-Beschwerden können den Alltag stark belasten. Viele Betroffene fühlen sich in dieser Lebensphase unsicher oder alleingelassen – besonders dann, wenn die Beschwerden regelmäßig auftreten und im medizinischen, sozialen und beruflichen Alltag nicht ausreichend berücksichtigt werden. Häufig werden die Wechseljahre noch immer als „normales Frauenleiden“ abgetan. Dabei ist es für das Wohlbefinden entscheidend, trotz der Beschwerden aktiv bleiben zu können und Wege zu finden, mit den Einschränkungen im Alltag besser umzugehen. Wer spürt, dass sich Beschwerden positiv beeinflussen lassen, erlebt den Alltag als weniger belastend und gewinnt an Lebensqualität. Wie unterstützt die Vera-App? Die Vera-App hilft dabei, den Alltag mit Wechseljahres-Beschwerden besser zu bewältigen und neue Handlungswege zu entdecken. Sie bietet: - Anleitungen zur Selbsthilfe, um mit körperlichen und psychischen Symptomen gezielt umzugehen, - Impulse für eine aktive Gesundheitsgestaltung, etwa durch Bewegung, Ernährung oder Entspannung, um den Alltag weniger einschränkend zu erleben und - Unterstützung im Umgang mit alltäglichen Einschränkungen und Symptomen, um das Gefühl von Hilflosigkeit zu verringern und Teilhabe zu ermöglichen.",
+      "content_preview": "Wechseljahres-Beschwerden können den Alltag stark belasten. Viele Betroffene fühlen sich in dieser Lebensphase unsicher oder alleingelassen – besonders dann, wenn die Beschwerden regelmäßig auftreten und im medizinischen, sozialen und be...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Name der Studie: Untersuchung einer mobilen App für Wechseljahres-Beschwerden (Evaluation of a Mobile Menopause Application (EMMA))",
+      "content_preview": "Name der Studie: Untersuchung einer mobilen App für Wechseljahres-Beschwerden (Evaluation of a Mobile Menopause Application (EMMA))",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Studie/n im PICO-Schema"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:informationen-zum-positiven-versorgungseffekt-studie-n-im-pico-schema-2cb668dadb:field_value",
+      "title": "Studie/n im PICO-Schema"
+    },
+    {
+      "content": "Wer kann teilnehmen (\"Patient\")? Frauen ab 18 Jahre, mit der Diagnose von Wechseljahres-Beschwerden (\"klimakterische Störungen\") nach medizinischen Kriterien. Die Diagnose muss von einer Ärztin oder einem Arzt gestellt worden sein und sollte den folgenden Code enthalten: N95.1. Eine weitere Voraussetzung ist, dass die Wechseljahres-Beschwerden mindestens in einem mittelschweren Bereich liegen. Mittelschwere Wechseljahres-Beschwerden liegen vor, wenn auf der Menopause Rating Scale (MRS-II) mindestens 9 Punkte erreicht werden. Zusätzlich darf zum Studienstart sowie in den 8 Wochen davor keine Hormonersatztherapie als Begleittherapie angewendet worden sein und während der Studie sollte keine Hormonersatztherapie geplant sein. Eine Teilnahme ist außerdem nicht möglich, wenn man während des Studienzeitraums schwanger ist oder stillt. Ebenso können Personen nicht teilnehmen, wenn sich ihre Medikamente für die Psyche in den letzten Wochen geändert haben oder während der Studiendauer geändert werden sollen. Das gilt auch, wenn 8 Wochen vor Studienbeginn eine Psychotherapie, eine Rehabilitationsmaßnahme oder eine Operation begonnen oder durchgeführt wurde oder während der Studiendauer geplant ist. Darüber hinaus ist eine Teilnahme ausgeschlossen, wenn bereits Zugang zur Endo-App oder zu einer vergleichbaren Gesundheits-App besteht oder aktuell eine entsprechende Verordnung vorliegt. Auch Personen, die gleichzeitig an einer anderen klinischen Studie teilnehmen, können nicht teilnehmen. Welche Behandlung erfolgt im Rahmen der Studie? Eine Gruppe bekommt die normale Behandlung und kann zusätzlich die Vera-App nutzen (\"Intervention\"). Die andere Gruppe bekommt zuerst nur die normale Behandlung und kann die Vera-App erst nach Abschluss der Studie (d.h. nach 24 Wochen) nutzen (\"Comparison\"). Wir vergleichen dann die Ergebnisse dieser beiden Gruppen um zu sehen, ob die Vera-App hilft. Was wird gemessen (\"Outcome\")? Die Studie überprüft, wie stark Lebensqualität und Wechseljahres-Beschwerden den Alltag beeinflussen und ob sich die Beschwerden durch die Nutzung der Vera-App verbessern. Dazu sollen durch spezielle Fragebögen die folgenden Fragen beantwortet werden: - Wie stark wirken sich die Wechseljahres-Beschwerden auf das tägliche Leben und Wohlbefinden aus? – das wird mit dem MENQOL zu Studienbeginn, nach 12 Wochen und nach 24 Wochen erfragt. - Welche typischen Beschwerden wie Hitzewallungen, Schlafprobleme oder Stimmungsschwankungen treten auf und wie stark sind sie? - das wird mit dem MRS II zu Studienbeginn und nach 12 Wochen erfragt. - Inwiefern sind Sie durch Hitzewallungen beeinträchtigt? - das wird mit der HFRDIS zu Studienbeginn und nach 12 Wochen erfragt. - Ob und wie sehr beeinträchtigen die Wechseljahres-Beschwerden tägliche Aktivitäten? - das wird mit der Activity Impairment Domäne des WPAI-Menopause Fragebogens zu Studienbeginn und nach 12 Wochen erfragt. - Wie aktiv und selbstständig geht jemand mit seiner Krankheit um - das wird mit der Patient Activation Measure 13 zu Studienbeginn und nach 12 Wochen erfragt. - Wie hoch waren die wechseljahresbedingten Fehlzeiten – das wird mit der WPAI-Menopause-Domäne zu Fehlzeiten (WPAI Menopause absenteeism domain score) zu Studienbeginn und nach 12 Wochen erfragt. - Wie hoch waren die wechseljahresbedingten Leistungseinschränkungen – das wird mit der WPAI Menopause-Domäne zu Leistungseinschränkung (WPAI Menopause presenteeism domain score) zu Studienbeginn und nach 12 Wochen erfragt. - Wie hoch war der wechseljahresbedingte Verlust der Arbeitsproduktivität – das wird mit der WPAI Menopause- Domäne zu Produktivitätsverlust (WPAI Menopause work productivity loss domain score) zu Studienbeginn und nach 12 Wochen erfragt.",
+      "content_preview": "Wer kann teilnehmen (\"Patient\")? Frauen ab 18 Jahre, mit der Diagnose von Wechseljahres-Beschwerden (\"klimakterische Störungen\") nach medizinischen Kriterien. Die Diagnose muss von einer Ärztin oder einem Arzt gestellt worden sein und so...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Wie wird die Vera-App in der Studie gestestet? Die EMMA-Studie untersucht, wie gut die Vera-App Betroffenen mit Wechseljahres-Beschwerden hilft. Dafür wird eine wissenschaftliche Methode verwendet, die sich randomisierte, offene, zweiarmige, kontrollierte Studie nennt.",
+      "content_preview": "Wie wird die Vera-App in der Studie gestestet? Die EMMA-Studie untersucht, wie gut die Vera-App Betroffenen mit Wechseljahres-Beschwerden hilft. Dafür wird eine wissenschaftliche Methode verwendet, die sich randomisierte, offene, zweiarm...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:informationen-zum-positiven-versorgungseffekt-zusammenfassung-zu-studiendesign-u-804896bae6:field_value",
+      "title": "Zusammenfassung zu Studiendesign und Ergebnissen einschließlich des Verweises auf den Ort der Registrierung der Studie/n (Patienteninformation)"
+    },
+    {
+      "content": "Ablauf der Studie Die Teilnehmenden werden zufällig in zwei Gruppen aufgeteilt. Eine Gruppe nutzt die Vera-App zusätzlich zur normalen medizinischen Versorgung für 24 Wochen. Die andere Gruppe erhält zuerst nur die normale Versorgung und kann die Vera-App erst nach Abschluss der Studie (d.h. nach 24 Wochen) nutzen. Beide Gruppen bekommen die übliche medizinische Behandlung. Was wird untersucht? Die Vera-App unterstützt Betroffene mit Wechseljahres-Beschwerden durch Inhalte, Methoden und Übungen, die auf Basis aktueller wissenschaftlich geprüfter Erkenntnisse entwickelt wurden. Das Ziel der Studie ist zu prüfen, ob die Vera-App die Lebensqualität, die Symptome der Wechseljahres-Beschwerden, Beeinträchtigung durch Hitzewallungen und Einschränkungen in Alltagsaktivitäten nach 12 Wochen stärker verbessert als die normale Versorgung allein. Veröffentlichung der Studie und ihrer Ergebnisse: - Die Studie wird offiziell in einem medizinischen Studienregister (clinicaltrials.gov) eingetragen. - Die Ergebnisse der Studie werden spätestens 12 Monate nach Studienende veröffentlicht.",
+      "content_preview": "Ablauf der Studie Die Teilnehmenden werden zufällig in zwei Gruppen aufgeteilt. Eine Gruppe nutzt die Vera-App zusätzlich zur normalen medizinischen Versorgung für 24 Wochen. Die andere Gruppe erhält zuerst nur die normale Versorgung und...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Dies ist/sind die vom Hersteller angeführten Studie/n:"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:informationen-zum-positiven-versorgungseffekt-dies-ist-sind-die-vom-hersteller-a-81dc280904:field_value",
+      "title": "Dies ist/sind die vom Hersteller angeführten Studie/n:"
+    },
+    {
+      "content": "Wir streben die Veröffentlichung der Studienergebnisse in einem peer-reviewed Journal innerhalb von 12 Monaten nach Abschluss der Studie an. Bei Verzögerung werden die Studienergebnisse im Internet auf unserer Webseite publiziert. Außerdem werden die Studienergebnisse innerhalb von 12 Monaten auf ClinicalTrials.gov veröffentlicht. Wir stellen in diesem Rahmen sicher, dass die Studienergebnisse nach den Bestimmungen von §10 Absatz 6 Satz 1 DiGAV innerhalb von 12 Monaten veröffentlicht werden.",
+      "content_preview": "Wir streben die Veröffentlichung der Studienergebnisse in einem peer-reviewed Journal innerhalb von 12 Monaten nach Abschluss der Studie an. Bei Verzögerung werden die Studienergebnisse im Internet auf unserer Webseite publiziert. Außerd...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:informationen-zum-positiven-versorgungseffekt-253662cf50:section",
+      "title": "Informationen zum positiven Versorgungseffekt"
+    },
+    {
+      "content": "_fbeta GmbH Akazienstrasse 31 10823 Berlin",
+      "content_preview": "_fbeta GmbH Akazienstrasse 31 10823 Berlin",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:informationen-zum-positiven-versorgungseffekt-herstellerunabhaengige-institution-85ca65af54:field_value",
+      "title": "Herstellerunabhängige Institution/en, welche mit der Erstellung des Evaluationskonzepts betraut waren"
+    },
+    {
+      "content": "Nein",
+      "content_preview": "Nein",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Die DiGA enthält ein diagnostisches Instrument"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:informationen-zum-positiven-versorgungseffekt-die-diga-enthaelt-ein-diagnostisch-eded43f154:field_value",
+      "title": "Die DiGA enthält ein diagnostisches Instrument"
+    },
+    {
+      "content": "12 Monate",
+      "content_preview": "12 Monate",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zum positiven Versorgungseffekt",
+        "Länge des Zeitraumes der vorläufigen Aufnahme"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:informationen-zum-positiven-versorgungseffekt-laenge-des-zeitraumes-der-vorlaeuf-d645f91b3b:field_value",
+      "title": "Länge des Zeitraumes der vorläufigen Aufnahme"
+    },
+    {
+      "content": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird. Die Anforderungen an die Datensicherheit werden durch Vorlage eines Zertifikats gemäß § 139e Absatz 10 Fünftes Buch Sozialgesetzbuch nachgewiesen. Detaillierte Informationen zu den einzelnen Anforderungen können Sie auf der Webseite des Bundesamts für Sicherheit in der Informationstechnik unter der Technischen Richtlinie \"BSI TR-03161\" finden: https://www.bsi.bund.de/dok/TR-03161 Bis zur Vorlage des Zertifikats gelten für den Bereich Datensicherheit die Anforderungen der nachfolgend dargestellten Checkliste.",
+      "content_preview": "Hier finden Sie nähere Informationen zu den Angaben des Herstellers zu den wichtigen Anforderungen an Datenschutz und Datensicherheit der DiGA. Dazu hat der Gesetzgeber für den Bereich Datenschutz eine Checkliste der wichtigsten Fragen v...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:field_value",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die Nutzung der digitalen Gesundheitsanwendung ist auf ein privates IT-System der nutzenden Person beschränkt. Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung bietet keine technische Möglichkeit einer Verknüpfung oder eines Datenaustauschs mit anderen digitalen Gesundheitsanwendungen. Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Trifft nicht zu Die Nutzung der digitalen Gesundheitsanwendung ist auf ein privates IT-System der nutzend...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:informationen-zu-datenschutz-und-datensicherheit-e36d816e60:section",
+      "title": "Informationen zu Datenschutz und Datensicherheit"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Informationen zu Datenschutz und Datensicherheit",
+        "Datensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:informationen-zu-datenschutz-und-datensicherheit-datensicherheit-14af255f91:field_value",
+      "title": "Datensicherheit"
+    },
+    {
+      "content": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der medizinischen Inhalte und die Gewährleistung der Patientensicherheit.",
+      "content_preview": "Hier finden Sie nähere Informationen zu den besonderen Anforderungen an Interoperabilität, Robustheit, Verbraucherschutz, Nutzerfreundlichkeit und Barrierefreiheit sowie an die Unterstützung der Leistungserbringenden, die Qualität der me...",
+      "content_type": "field_value",
+      "level": 3,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-afe954d9f8:field_value",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_preview": "Dazu hat der Gesetzgeber eine Checkliste der wichtigsten Fragen vorgesehen, die im Folgenden zusammen mit den Antworten des DiGA-Herstellers wiedergegeben wird.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Interoperabilität"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-angaben-zur-interoperabilitaet-8867f27412:field_value",
+      "title": "Angaben zur Interoperabilität"
+    },
+    {
+      "content": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versicherten getragenen Sensoren zur Messung und Übertragung von Vitalwerten (Wearables) austauscht. Zutreffend Trifft nicht zu Der Hersteller hat keine eigenen Profilierungen vorgenommen. Zutreffend",
+      "content_preview": "Zutreffend Trifft nicht zu Im Rahmen der bestimmungsgemäßen Nutzung der digitalen Gesundheitsanwendung ist nicht vorgesehen, dass die digitale Gesundheitsanwendung Daten mit vom Versicherten genutzten Medizingeräten oder mit vom Versiche...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Robustheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-angaben-zur-robustheit-0a511476df:field_value",
+      "title": "Angaben zur Robustheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
+      "content_preview": "Zutreffend Zutreffend Trifft nicht zu Die digitale Gesundheitsanwendung ist nicht in der Lage, Daten aus Medizingeräten oder Sensoren zu erfassen.",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zum Verbraucherschutz"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-angaben-zum-verbraucherschutz-05cd17969e:field_value",
+      "title": "Angaben zum Verbraucherschutz"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-angaben-zu-nutzerfreundlichkeit-und-barrierefreiheit-8fe873c531:field_value",
+      "title": "Angaben zu Nutzerfreundlichkeit und Barrierefreiheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Trifft nicht zu",
+      "content_preview": "Trifft nicht zu",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Unterstützung der Leistungserbringende"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-unterstuetzung-der-leistungserbringende-d4e78dfd75:field_value",
+      "title": "Unterstützung der Leistungserbringende"
+    },
+    {
+      "content": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen.",
+      "content_preview": "Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Trifft nicht zu Für die Nutzung der digitalen Gesundheitsanwendung ist keine Einbindung von Leistungserbringern vorgesehen. Triff...",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Qualität der medizinischen Inhalte"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-angaben-zur-qualitaet-der-medizinischen-inhalte-a6d05ceeb6:field_value",
+      "title": "Angaben zur Qualität der medizinischen Inhalte"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    },
+    {
+      "content": "Zutreffend",
+      "content_preview": "Zutreffend",
+      "content_type": "field_value",
+      "level": 4,
+      "path": [
+        "Weitere Informationen",
+        "Angaben zur Patientensicherheit"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-angaben-zur-patientensicherheit-7a67651ccd:field_value",
+      "title": "Angaben zur Patientensicherheit"
+    },
+    {
+      "content": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_preview": "Zutreffend Zutreffend Zutreffend Zutreffend Zutreffend",
+      "content_type": "section",
+      "level": 2,
+      "path": [
+        "Weitere Informationen"
+      ],
+      "source_kind": "visible_directory",
+      "stable_key": "02858:weitere-informationen-afe954d9f8:section",
+      "title": "Weitere Informationen"
+    }
+  ],
+  "diga_id": "02858",
+  "name": "Vera-App für Wechseljahresbeschwerden",
+  "rendered_structure_metadata": {
+    "accordions_opened": 0,
+    "content_section_count": 93,
+    "field_value_count": 62,
+    "rendered_at": "2026-06-22T19:17:00.939670+00:00",
+    "source_kind": "visible_directory"
+  },
+  "source_kind": "visible_directory",
+  "timestamp": "20260622T190144Z",
+  "url": "https://diga.bfarm.de/de/verzeichnis/02858"
+}
