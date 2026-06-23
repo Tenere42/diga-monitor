@@ -31,6 +31,7 @@ from src.snapshot import DEFAULT_SNAPSHOT_DIR, Snapshot, latest_snapshot_paths, 
 DEFAULT_SIMULATION_DIR = Path("data/simulations")
 VISIBLE_BASELINE_DIR = Path("data/rendered_structure/latest")
 VISIBLE_RUN_DIR = Path("outputs/rendered_structure/runs")
+LIFECYCLE_CHANGE_TYPES = {"new_diga", "removed_diga", "status_change"}
 ORTHOPY_REMOVED_SENTENCE = "Für die DiGA konnte kein positiver Versorgungseffekt nachgewiesen werden."
 
 
@@ -262,23 +263,45 @@ def run_monitor(
         trigger_events = build_change_events(report, old_snapshot, new_snapshot, detected_at)
         events = trigger_events
         if render_changed_entries:
+            lifecycle_events = [event for event in trigger_events if is_lifecycle_event(event)]
+            content_trigger_events = [event for event in trigger_events if not is_lifecycle_event(event)]
             rendered_entries = render_changed_entry_archives(
                 events=trigger_events,
                 entries=new_snapshot.entries,
                 detected_at=detected_at,
                 archive_rendered_pages=archive_rendered_pages,
             )
-            if rendered_entries:
-                events = build_visible_change_events_from_rendered_baselines(
-                    trigger_events=trigger_events,
-                    rendered_entries=rendered_entries,
+            content_rendered_entries = {
+                diga_id: rendered
+                for diga_id, rendered in rendered_entries.items()
+                if diga_id in event_diga_ids(content_trigger_events)
+            }
+            lifecycle_only_rendered_entries = {
+                diga_id: rendered
+                for diga_id, rendered in rendered_entries.items()
+                if diga_id in event_diga_ids(lifecycle_events) and diga_id not in content_rendered_entries
+            }
+            if lifecycle_only_rendered_entries:
+                save_rendered_baselines_without_events(
+                    rendered_entries=lifecycle_only_rendered_entries,
                     entries=new_snapshot.entries,
                     detected_at=detected_at,
                 )
+            if rendered_entries:
+                visible_events = []
+                if content_trigger_events and content_rendered_entries:
+                    visible_events = build_visible_change_events_from_rendered_baselines(
+                        trigger_events=content_trigger_events,
+                        rendered_entries=content_rendered_entries,
+                        entries=new_snapshot.entries,
+                        detected_at=detected_at,
+                    )
+                events = lifecycle_events + visible_events
                 print(f"Rendered changed DiGA entries: {len(rendered_entries)}")
-                print(f"Visible content_section change events: {len(events)}")
+                print(f"Lifecycle change events preserved: {len(lifecycle_events)}")
+                print(f"Visible content_section change events: {len(visible_events)}")
             else:
-                events = []
+                events = lifecycle_events
         if events:
             changes_path = save_change_events(events, detected_at=detected_at)
             if changes_path:
@@ -575,6 +598,42 @@ def render_changed_entry_archives(
             print(f"    pdf: {result.get('pdf_path')}")
             print(f"    png: {result.get('png_path')}")
     return rendered_entries
+
+
+def is_lifecycle_event(event: dict[str, object]) -> bool:
+    return str(event.get("change_type") or "") in LIFECYCLE_CHANGE_TYPES
+
+
+def event_diga_ids(events: list[dict[str, object]]) -> set[str]:
+    return {str(event.get("diga_id") or "") for event in events if event.get("diga_id")}
+
+
+def save_rendered_baselines_without_events(
+    rendered_entries: dict[str, dict[str, object]],
+    entries: list[dict[str, object]],
+    detected_at: str,
+) -> None:
+    entries_by_id = {str(entry.get("id")): entry for entry in entries if entry.get("id")}
+    for diga_id, rendered in rendered_entries.items():
+        entry = entries_by_id.get(diga_id, {})
+        name = str(rendered.get("name") or entry.get("name") or diga_id)
+        content_sections = rendered.get("content_sections")
+        if not isinstance(content_sections, list):
+            print(f"Lifecycle baseline skipped for {name} ({diga_id}): no rendered content_sections.")
+            continue
+        payload = load_rendered_structure_payload(rendered)
+        if not payload:
+            payload = {
+                "diga_id": diga_id,
+                "name": name,
+                "url": rendered.get("url") or entry.get("bfarm_directory_url"),
+                "timestamp": scan_timestamp_for_path(detected_at),
+                "source_kind": "visible_directory",
+                "content_sections": content_sections,
+            }
+        save_visible_baseline(payload, visible_run_structure_path(diga_id, name, detected_at))
+        save_visible_baseline(payload, visible_baseline_path(diga_id, name))
+        print(f"Lifecycle baseline updated for {name} ({diga_id}) without content diff event.")
 
 
 def build_visible_change_events_from_rendered_baselines(

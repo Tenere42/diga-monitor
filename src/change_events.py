@@ -41,6 +41,11 @@ FIELD_LABELS = {
     "bfarm_directory_url": "BfArM-Verzeichniseintrag",
 }
 UNRESOLVED_FIELD_LABEL = "Nicht eindeutig zugeordneter Eintrag"
+STATUS_VALUE_LABELS = {
+    "removed": "Gestrichen",
+    "provisional": "Vorläufig aufgenommen",
+    "listed": "Dauerhaft aufgenommen",
+}
 
 
 def build_change_events(
@@ -152,6 +157,7 @@ def base_event(
 def enrich_event(event: dict[str, Any]) -> None:
     apply_explicit_text_context(event)
     apply_text_context(event)
+    apply_lifecycle_context(event)
     event["user_facing_field_label"] = event.get("user_facing_field_label") or field_label(str(event.get("changed_field") or event.get("field_name") or ""))
     if event.get("change_type") == "text_change":
         event["text_change_kind"] = classify_text_change(event.get("word_diff") or [])
@@ -174,6 +180,30 @@ def apply_explicit_text_context(event: dict[str, Any]) -> None:
             "user_facing_field_label": "Bewertungsentscheidung des BfArM",
         }
     )
+
+
+def apply_lifecycle_context(event: dict[str, Any]) -> None:
+    change_type = event.get("change_type")
+    if change_type not in {"new_diga", "removed_diga", "status_change"}:
+        return
+
+    event["display_path"] = "Status der Listung"
+    event["user_facing_field_label"] = "Status der Listung"
+    if change_type == "new_diga":
+        event["lifecycle_event_type"] = "new_diga"
+        return
+    if change_type == "removed_diga":
+        event["lifecycle_event_type"] = "removed_diga"
+        return
+
+    before = normalize_status_value(event.get("previous_value"))
+    after = normalize_status_value(event.get("new_value"))
+    if before == "removed" and after in {"provisional", "listed"}:
+        event["lifecycle_event_type"] = "diga_reactivated"
+    elif after == "removed":
+        event["lifecycle_event_type"] = "diga_removed"
+    else:
+        event["lifecycle_event_type"] = "status_changed"
 
 
 def entry_summary(entry: dict[str, Any]) -> dict[str, Any]:
@@ -590,6 +620,11 @@ def build_summary(event: dict[str, Any]) -> str:
     if change_type == "price_change":
         return f"Die Preisangabe wurde von {format_summary_value(before)} auf {format_summary_value(after)} geändert."
     if change_type == "status_change":
+        if event.get("lifecycle_event_type") == "diga_reactivated":
+            return (
+                "Die DiGA wurde wieder im Verzeichnis aufgenommen: "
+                f"{format_summary_value(before)} → {format_summary_value(after)}."
+            )
         return f"Der Aufnahmestatus wurde von '{format_summary_value(before)}' auf '{format_summary_value(after)}' geändert."
     if change_type == "new_diga":
         return "Eine neue DiGA wurde in das Verzeichnis aufgenommen."
@@ -603,9 +638,27 @@ def build_summary(event: dict[str, Any]) -> str:
 
 
 def format_summary_value(value: Any) -> str:
+    normalized_status = normalize_status_value(value)
+    if normalized_status:
+        return STATUS_VALUE_LABELS.get(normalized_status, str(value))
     if isinstance(value, (dict, list)):
         return json.dumps(value, ensure_ascii=False, sort_keys=True)
     return str(value)
+
+
+def normalize_status_value(value: Any) -> str | None:
+    text = str(value or "").strip().lower()
+    if not text:
+        return None
+    if text in STATUS_VALUE_LABELS:
+        return text
+    if "gestrichen" in text or "removed" in text or "retired" in text:
+        return "removed"
+    if "vorl" in text or "provisional" in text or "draft" in text:
+        return "provisional"
+    if "dauerhaft" in text or "permanent" in text or "listed" in text:
+        return "listed"
+    return None
 
 
 def field_label(field_name: str) -> str:

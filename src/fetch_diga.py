@@ -246,6 +246,7 @@ def build_records(
             questionnaire_responses,
             questionnaires_by_url,
         )
+        change_history = extract_change_history(catalog_entry)
         records.append(
             {
                 "id": diga_id,
@@ -255,7 +256,7 @@ def build_records(
                     nested_value(health_app, "title"),
                 ),
                 "manufacturer": organization_name(manufacturer),
-                "status": infer_status(catalog_entry),
+                "status": infer_status(catalog_entry, change_history),
                 "indication": extract_indications(prescription_units),
                 "bfarm_directory_url": directory_ids.get(
                     diga_id,
@@ -267,7 +268,7 @@ def build_records(
                     questionnaire_responses,
                     questionnaires_by_url,
                 ),
-                "change_history": extract_change_history(catalog_entry),
+                "change_history": change_history,
                 "pricing_information": extract_pricing_information(prescription_units),
                 "source_update_notice": build_source_update_notice(
                     catalog_entry,
@@ -370,17 +371,48 @@ def references_in_resource(resource: dict[str, Any], prefix: str) -> set[str]:
     return references
 
 
-def infer_status(catalog_entry: dict[str, Any]) -> str:
+def infer_status(catalog_entry: dict[str, Any], change_history: list[dict[str, Any]] | None = None) -> str:
+    history_status = latest_status_from_change_history(change_history or [])
+    if history_status:
+        return history_status
+
     text = " ".join(str(value) for value in walk_values(catalog_entry)).lower()
+    if "gestrichen" in text or "entfernt" in text or "removed" in text or "retired" in text:
+        return "removed"
     if "dauerhaft" in text or "permanent" in text:
         return "listed"
     if "vorl\u00e4ufig" in text or "vorlaeufig" in text or "provisional" in text:
         return "provisional"
-    if "gestrichen" in text or "entfernt" in text or "removed" in text:
-        return "removed"
     if nested_value(catalog_entry, "validityPeriod.end"):
         return "removed"
     return "listed"
+
+
+def latest_status_from_change_history(history: list[dict[str, Any]]) -> str | None:
+    status_entries = []
+    for entry in history:
+        status = status_from_history_entry(entry)
+        if not status:
+            continue
+        status_entries.append((str(entry.get("date") or ""), status))
+    if not status_entries:
+        return None
+    return max(status_entries, key=lambda item: item[0])[1]
+
+
+def status_from_history_entry(entry: dict[str, Any]) -> str | None:
+    code = str(entry.get("type") or "").lower()
+    display = " ".join(
+        str(entry.get(key) or "").lower()
+        for key in ("type_display", "title")
+    )
+    if "retired" in code or "gestrichen" in display:
+        return "removed"
+    if "draft" in code or "provisional" in code or "vorl\u00e4ufig" in display:
+        return "provisional"
+    if "permanent" in code or "listed" in code or "dauerhaft" in display:
+        return "listed"
+    return None
 
 
 def extract_indications(prescription_units: list[dict[str, Any]]) -> list[str]:

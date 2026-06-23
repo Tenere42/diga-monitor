@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import difflib
 import json
+import copy
 from dataclasses import dataclass, field
 from typing import Any
 
@@ -11,7 +12,12 @@ from src.snapshot import Snapshot
 
 
 IDENTITY_KEYS = ("id", "identifier", "url", "name", "title")
-IGNORED_FIELD_PATHS = {"structured_text_sections", "content_sections", "rendered_structure_metadata"}
+IGNORED_FIELD_PATHS = {
+    "change_history",
+    "structured_text_sections",
+    "content_sections",
+    "rendered_structure_metadata",
+}
 IGNORED_FIELD_PREFIXES = ("raw_public_fhir",)
 
 
@@ -45,8 +51,8 @@ class DiffReport:
 
 
 def diff_snapshots(old_snapshot: Snapshot, new_snapshot: Snapshot) -> DiffReport:
-    old_entries = index_entries(old_snapshot.entries)
-    new_entries = index_entries(new_snapshot.entries)
+    old_entries = index_entries(normalize_entries_for_diff(old_snapshot.entries))
+    new_entries = index_entries(normalize_entries_for_diff(new_snapshot.entries))
 
     added_ids = sorted(set(new_entries) - set(old_entries))
     removed_ids = sorted(set(old_entries) - set(new_entries))
@@ -72,6 +78,48 @@ def diff_snapshots(old_snapshot: Snapshot, new_snapshot: Snapshot) -> DiffReport
         removed=[old_entries[entry_id] for entry_id in removed_ids],
         changed=changed,
     )
+
+
+def normalize_entries_for_diff(entries: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    return [normalize_entry_for_diff(entry) for entry in entries]
+
+
+def normalize_entry_for_diff(entry: dict[str, Any]) -> dict[str, Any]:
+    normalized = copy.deepcopy(entry)
+    effective_status = status_from_change_history(normalized.get("change_history"))
+    if effective_status:
+        normalized["status"] = effective_status
+    return normalized
+
+
+def status_from_change_history(history: Any) -> str | None:
+    if not isinstance(history, list):
+        return None
+    status_entries = []
+    for item in history:
+        if not isinstance(item, dict):
+            continue
+        status = status_from_history_entry(item)
+        if status:
+            status_entries.append((str(item.get("date") or ""), status))
+    if not status_entries:
+        return None
+    return max(status_entries, key=lambda item: item[0])[1]
+
+
+def status_from_history_entry(entry: dict[str, Any]) -> str | None:
+    code = str(entry.get("type") or "").lower()
+    display = " ".join(
+        str(entry.get(key) or "").lower()
+        for key in ("type_display", "title")
+    )
+    if "retired" in code or "gestrichen" in display:
+        return "removed"
+    if "draft" in code or "provisional" in code or "vorl" in display:
+        return "provisional"
+    if "permanent" in code or "listed" in code or "dauerhaft" in display:
+        return "listed"
+    return None
 
 
 def index_entries(entries: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:

@@ -50,6 +50,12 @@ FIELD_LABELS = {
     "modules": "Module / Funktionsumfang",
 }
 
+STATUS_VALUE_LABELS = {
+    "removed": "Gestrichen",
+    "provisional": "Vorläufig aufgenommen",
+    "listed": "Dauerhaft aufgenommen",
+}
+
 TEXT_KIND_LABELS = {
     "text_removed": "Text entfernt",
     "text_added": "Text ergänzt",
@@ -1197,7 +1203,9 @@ def is_removed_choice_value(event: dict[str, Any]) -> bool:
 
 
 def event_title_label(event: dict[str, Any]) -> str:
-    if event.get("change_type") == "status_change" and str(event_new_value(event)).lower() == "gestrichen":
+    if event.get("lifecycle_event_type") == "diga_reactivated":
+        return "DiGA wieder im Verzeichnis aufgenommen"
+    if event.get("change_type") == "status_change" and normalize_status_value(event_new_value(event)) == "removed":
         return "Streichung"
     return CHANGE_LABELS.get(str(event.get("change_type")), str(event.get("change_type") or "Änderung"))
 
@@ -1628,8 +1636,24 @@ def format_local_datetime(value: datetime) -> str:
 
 def format_value(value: Any) -> str:
     if isinstance(value, str):
-        return value
+        normalized_status = normalize_status_value(value)
+        return STATUS_VALUE_LABELS.get(normalized_status, value) if normalized_status else value
     return json_dumps(value)
+
+
+def normalize_status_value(value: Any) -> str | None:
+    text = str(value or "").strip().lower()
+    if not text:
+        return None
+    if text in STATUS_VALUE_LABELS:
+        return text
+    if "gestrichen" in text or "removed" in text or "retired" in text:
+        return "removed"
+    if "vorl" in text or "provisional" in text or "draft" in text:
+        return "provisional"
+    if "dauerhaft" in text or "permanent" in text or "listed" in text:
+        return "listed"
+    return None
 
 
 def json_dumps(value: Any) -> str:

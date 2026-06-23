@@ -370,6 +370,8 @@ def short_description(event: dict[str, Any]) -> str:
     if change_type == "removed_diga":
         return "Eine DiGA wurde gestrichen."
     if change_type == "status_change":
+        if event.get("lifecycle_event_type") == "diga_reactivated":
+            return "Die DiGA wurde wieder im Verzeichnis aufgenommen."
         return "Der Aufnahmestatus wurde geändert."
     if change_type == "price_change":
         return "Preisangaben wurden geändert."
@@ -427,6 +429,8 @@ def load_notification_log(path: Path = DEFAULT_NOTIFICATION_LOG_PATH) -> list[di
 
 
 def change_label(event: dict[str, Any]) -> str:
+    if event.get("lifecycle_event_type") == "diga_reactivated":
+        return "DiGA wieder aufgenommen"
     return CHANGE_LABELS.get(str(event.get("change_type")), str(event.get("change_type") or "Unbekannt"))
 
 
