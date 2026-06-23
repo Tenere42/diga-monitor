@@ -1,0 +1,29 @@
+{
+  "created_at": "2026-06-23T16:01:49.236062+00:00",
+  "event_count": 1,
+  "events": [
+    {
+      "after_value": "provisional",
+      "backfill": true,
+      "backfill_reason": "Una Health lifecycle status change was missed before catalog_entry.status became the primary lifecycle source.",
+      "before_value": "removed",
+      "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/02286",
+      "change_type": "status_change",
+      "changed_field": "status",
+      "current_snapshot_timestamp": "2026-06-23T16:01:49.236062+00:00",
+      "detected_at": "2026-06-23T16:01:49.236062+00:00",
+      "diga_id": "02286",
+      "diga_name": "Una Health für Diabetes",
+      "display_path": "Status der Listung",
+      "field_name": "status",
+      "lifecycle_event_type": "diga_reactivated",
+      "manufacturer": "Una Health GmbH",
+      "new_value": "provisional",
+      "previous_snapshot_timestamp": "2026-06-23T13:01:48.617416+00:00",
+      "previous_value": "removed",
+      "source": "historical_snapshot_backfill",
+      "summary_de": "Die DiGA wurde wieder im Verzeichnis aufgenommen: Gestrichen → Vorläufig aufgenommen.",
+      "user_facing_field_label": "Status der Listung"
+    }
+  ]
+}
