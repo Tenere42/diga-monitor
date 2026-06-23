@@ -20,10 +20,18 @@ CHANGE_LABELS = {
     "status_change": "Statusänderung",
     "text_change": "Textänderung",
     "price_change": "Preisänderung",
+    "directory_metric_change": "Verzeichnis-Zähler geändert",
     "other_field_change": "Sonstige Feldänderung",
 }
 
 FIELD_LABELS = {
+    "directory_metrics": "DiGA-Verzeichnis > Statusübersicht",
+    "directory_metrics.total_count": "Gesamtzahl DiGA",
+    "directory_metrics.active_count": "Aktive DiGA",
+    "directory_metrics.status_counts.provisional": "Vorläufig aufgenommen",
+    "directory_metrics.status_counts.permanent": "Dauerhaft aufgenommen",
+    "directory_metrics.status_counts.removed": "Gestrichen",
+    "directory_metrics.status_counts.unknown": "Status unbekannt",
     "evidence_summary_text": "Bewertungsentscheidung des BfArM",
     "descriptive_texts": "Beschreibung der DiGA",
     "pricing_information": "Vergütung / Preisangaben",
@@ -375,6 +383,11 @@ def short_description(event: dict[str, Any]) -> str:
         return "Der Aufnahmestatus wurde geändert."
     if change_type == "price_change":
         return "Preisangaben wurden geändert."
+    if change_type == "directory_metric_change":
+        label = event.get("directory_metric_label") or "Verzeichnis-Zähler"
+        before = event.get("directory_metric_before", event_previous_value(event))
+        after = event.get("directory_metric_after", event_new_value(event))
+        return f"Der Verzeichnis-Zähler '{label}' wurde von {before} auf {after} geändert."
     return "Ein Feld wurde geändert."
 
 
@@ -431,6 +444,8 @@ def load_notification_log(path: Path = DEFAULT_NOTIFICATION_LOG_PATH) -> list[di
 def change_label(event: dict[str, Any]) -> str:
     if event.get("lifecycle_event_type") == "diga_reactivated":
         return "DiGA wieder aufgenommen"
+    if event.get("change_type") == "directory_metric_change":
+        return "Verzeichnis-Zähler geändert"
     return CHANGE_LABELS.get(str(event.get("change_type")), str(event.get("change_type") or "Unbekannt"))
 
 
@@ -451,6 +466,10 @@ def event_field_name(event: dict[str, Any]) -> str:
 
 def event_previous_value(event: dict[str, Any]) -> Any:
     return event.get("previous_value", event.get("before_value"))
+
+
+def event_new_value(event: dict[str, Any]) -> Any:
+    return event.get("new_value", event.get("after_value"))
 
 
 def parse_datetime(value: Any) -> datetime | None:

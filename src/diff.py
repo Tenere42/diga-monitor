@@ -41,16 +41,25 @@ class ChangedEntry:
 
 
 @dataclass
+class DirectoryMetricChange:
+    field_path: str
+    label: str
+    before: Any
+    after: Any
+
+
+@dataclass
 class DiffReport:
     old_snapshot: str
     new_snapshot: str
     added: list[dict[str, Any]]
     removed: list[dict[str, Any]]
     changed: list[ChangedEntry]
+    directory_metric_changes: list[DirectoryMetricChange] = field(default_factory=list)
 
     @property
     def has_changes(self) -> bool:
-        return bool(self.added or self.removed or self.changed)
+        return bool(self.added or self.removed or self.changed or self.directory_metric_changes)
 
 
 def diff_snapshots(old_snapshot: Snapshot, new_snapshot: Snapshot) -> DiffReport:
@@ -80,7 +89,47 @@ def diff_snapshots(old_snapshot: Snapshot, new_snapshot: Snapshot) -> DiffReport
         added=[new_entries[entry_id] for entry_id in added_ids],
         removed=[old_entries[entry_id] for entry_id in removed_ids],
         changed=changed,
+        directory_metric_changes=diff_directory_metrics(
+            old_snapshot.directory_metrics,
+            new_snapshot.directory_metrics,
+        ),
     )
+
+
+def diff_directory_metrics(
+    before: dict[str, Any],
+    after: dict[str, Any],
+) -> list[DirectoryMetricChange]:
+    metric_specs = [
+        ("total_count", "Gesamtzahl DiGA"),
+        ("status_counts.provisional", "Vorläufig aufgenommen"),
+        ("status_counts.permanent", "Dauerhaft aufgenommen"),
+        ("status_counts.removed", "Gestrichen"),
+        ("status_counts.unknown", "Status unbekannt"),
+    ]
+    changes = []
+    for path, label in metric_specs:
+        before_value = nested_metric_value(before, path)
+        after_value = nested_metric_value(after, path)
+        if before_value != after_value:
+            changes.append(
+                DirectoryMetricChange(
+                    field_path=f"directory_metrics.{path}",
+                    label=label,
+                    before=before_value,
+                    after=after_value,
+                )
+            )
+    return changes
+
+
+def nested_metric_value(metrics: dict[str, Any], path: str) -> Any:
+    value: Any = metrics
+    for part in path.split("."):
+        if not isinstance(value, dict):
+            return None
+        value = value.get(part)
+    return value
 
 
 def normalize_entries_for_diff(entries: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -289,6 +338,7 @@ def render_report(report: DiffReport) -> str:
 
     lines.extend(render_added(report.added))
     lines.extend(render_removed(report.removed))
+    lines.extend(render_directory_metric_changes(report.directory_metric_changes))
     lines.extend(render_changed(report.changed))
     return "\n".join(lines).rstrip()
 
@@ -309,6 +359,16 @@ def render_removed(entries: list[dict[str, Any]]) -> list[str]:
     lines = [f"Removed entries ({len(entries)}):"]
     for entry in entries:
         lines.append(f"  - {display_name(entry)} [{entry_identity(entry, 'unknown')}]")
+    lines.append("")
+    return lines
+
+
+def render_directory_metric_changes(changes: list[DirectoryMetricChange]) -> list[str]:
+    if not changes:
+        return []
+    lines = [f"Directory metric changes ({len(changes)}):"]
+    for change in changes:
+        lines.append(f"  * {change.label}: {change.before} -> {change.after}")
     lines.append("")
     return lines
 

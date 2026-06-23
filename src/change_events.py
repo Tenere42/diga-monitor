@@ -30,6 +30,7 @@ TEXT_CONTEXT_KEYS = (
 )
 
 FIELD_LABELS = {
+    "directory_metrics": "DiGA-Verzeichnis > Statusübersicht",
     "evidence_summary_text": "Bewertungsentscheidung des BfArM",
     "descriptive_texts": "Beschreibung der DiGA",
     "pricing_information": "Vergütung / Preisangaben",
@@ -39,6 +40,14 @@ FIELD_LABELS = {
     "manufacturer": "Hersteller",
     "name": "Name der DiGA",
     "bfarm_directory_url": "BfArM-Verzeichniseintrag",
+}
+DIRECTORY_METRIC_LABELS = {
+    "directory_metrics.total_count": "Gesamtzahl DiGA",
+    "directory_metrics.active_count": "Aktive DiGA",
+    "directory_metrics.status_counts.provisional": "Vorläufig aufgenommen",
+    "directory_metrics.status_counts.permanent": "Dauerhaft aufgenommen",
+    "directory_metrics.status_counts.removed": "Gestrichen",
+    "directory_metrics.status_counts.unknown": "Status unbekannt",
 }
 UNRESOLVED_FIELD_LABEL = "Nicht eindeutig zugeordneter Eintrag"
 STATUS_VALUE_LABELS = {
@@ -115,7 +124,57 @@ def build_change_events(
             enrich_event(event)
             events.append(event)
 
+    for metric_change in report.directory_metric_changes:
+        event = directory_metric_event(
+            detected_at=detected_at,
+            metric_change=metric_change,
+            previous_snapshot_timestamp=previous_snapshot_timestamp,
+            current_snapshot_timestamp=current_snapshot_timestamp,
+        )
+        events.append(event)
+
     return events
+
+
+def directory_metric_event(
+    detected_at: str,
+    metric_change: Any,
+    previous_snapshot_timestamp: str,
+    current_snapshot_timestamp: str,
+) -> dict[str, Any]:
+    label = getattr(metric_change, "label", None) or DIRECTORY_METRIC_LABELS.get(
+        str(getattr(metric_change, "field_path", "")),
+        "Verzeichnis-Zähler",
+    )
+    before_count = getattr(metric_change, "before", None)
+    after_count = getattr(metric_change, "after", None)
+    before_value = f"{label}: {before_count}"
+    after_value = f"{label}: {after_count}"
+    field_name = str(getattr(metric_change, "field_path", "directory_metrics"))
+    event = {
+        "detected_at": detected_at,
+        "diga_id": "__directory__",
+        "diga_name": "DiGA-Verzeichnis",
+        "manufacturer": "BfArM",
+        "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis",
+        "change_type": "directory_metric_change",
+        "changed_field": field_name,
+        "previous_value": before_value,
+        "new_value": after_value,
+        "previous_snapshot_timestamp": previous_snapshot_timestamp,
+        "current_snapshot_timestamp": current_snapshot_timestamp,
+        "field_name": field_name,
+        "before_value": before_value,
+        "after_value": after_value,
+        "display_path": "DiGA-Verzeichnis > Statusübersicht",
+        "user_facing_field_label": "DiGA-Verzeichnis > Statusübersicht",
+        "directory_metric_label": label,
+        "directory_metric_before": before_count,
+        "directory_metric_after": after_count,
+        "directory_metric": True,
+        "summary_de": f"Der Verzeichnis-Zähler '{label}' wurde von {before_count} auf {after_count} geändert.",
+    }
+    return event
 
 
 def base_event(
@@ -620,6 +679,9 @@ def build_summary(event: dict[str, Any]) -> str:
         return f"Im Abschnitt '{label}' wurde Text geändert."
     if change_type == "price_change":
         return f"Die Preisangabe wurde von {format_summary_value(before)} auf {format_summary_value(after)} geändert."
+    if change_type == "directory_metric_change":
+        label = event.get("directory_metric_label") or field_label(str(event.get("changed_field") or "directory_metrics"))
+        return f"Der Verzeichnis-Zähler '{label}' wurde von {format_summary_value(before)} auf {format_summary_value(after)} geändert."
     if change_type == "status_change":
         if event.get("lifecycle_event_type") == "diga_reactivated":
             return (
@@ -663,6 +725,8 @@ def normalize_status_value(value: Any) -> str | None:
 
 
 def field_label(field_name: str) -> str:
+    if field_name in DIRECTORY_METRIC_LABELS:
+        return DIRECTORY_METRIC_LABELS[field_name]
     root = field_name.split(".", 1)[0]
     return FIELD_LABELS.get(field_name) or FIELD_LABELS.get(root) or root or "Unbekannter Bereich"
 

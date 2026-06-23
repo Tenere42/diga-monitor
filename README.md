@@ -4,6 +4,8 @@ A small Python CLI and Streamlit MVP for monitoring changes in the BfArM DiGA di
 
 The app stores local JSON snapshots, compares each new snapshot with the previous one, writes structured change events, and shows a pure change feed. It does not duplicate the public DiGA directory.
 
+Each snapshot also stores directory-level aggregate metrics, including total DiGA count and counts by listing status. These metrics act as a cross-check for lifecycle changes: if the status counters change but no matching DiGA-level lifecycle event is detected, the monitor logs a warning so status parsing problems are visible.
+
 ## Features
 
 - Fetch DiGA entries from the public BfArM DiGA directory/FHIR data
@@ -11,6 +13,7 @@ The app stores local JSON snapshots, compares each new snapshot with the previou
 - Detect new DiGA entries
 - Detect removed DiGA entries
 - Detect status, text, price, and other field changes
+- Detect directory-level counter changes as a lifecycle cross-check
 - Detect tiny text changes inside long text fields
 - Produce a readable diff report in the terminal
 - Store structured change events in `outputs/changes`

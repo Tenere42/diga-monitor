@@ -25,13 +25,21 @@ from src.render_directory import (
 )
 from src.scan_history import append_scan_history
 from src.simulations import run_simulation
-from src.snapshot import DEFAULT_SNAPSHOT_DIR, Snapshot, latest_snapshot_paths, list_snapshot_paths, load_snapshot, save_snapshot
+from src.snapshot import (
+    DEFAULT_SNAPSHOT_DIR,
+    Snapshot,
+    calculate_directory_metrics,
+    latest_snapshot_paths,
+    list_snapshot_paths,
+    load_snapshot,
+    save_snapshot,
+)
 
 
 DEFAULT_SIMULATION_DIR = Path("data/simulations")
 VISIBLE_BASELINE_DIR = Path("data/rendered_structure/latest")
 VISIBLE_RUN_DIR = Path("outputs/rendered_structure/runs")
-LIFECYCLE_CHANGE_TYPES = {"new_diga", "removed_diga", "status_change"}
+PRESERVED_CHANGE_TYPES = {"new_diga", "removed_diga", "status_change", "directory_metric_change"}
 ORTHOPY_REMOVED_SENTENCE = "Für die DiGA konnte kein positiver Versorgungseffekt nachgewiesen werden."
 
 
@@ -309,6 +317,7 @@ def run_monitor(
         elif render_changed_entries:
             print("No visible content_section changes detected. FHIR changes were used as trigger only.")
     print(f"Detected change events: {len(events)}")
+    warn_for_unmatched_directory_metric_changes(events)
     append_scan_history(
         scan_timestamp=detected_at,
         number_of_diga=len(entries),
@@ -601,7 +610,18 @@ def render_changed_entry_archives(
 
 
 def is_lifecycle_event(event: dict[str, object]) -> bool:
-    return str(event.get("change_type") or "") in LIFECYCLE_CHANGE_TYPES
+    return str(event.get("change_type") or "") in PRESERVED_CHANGE_TYPES
+
+
+def warn_for_unmatched_directory_metric_changes(events: list[dict[str, object]]) -> None:
+    if not any(event.get("change_type") == "directory_metric_change" for event in events):
+        return
+    has_lifecycle_event = any(
+        str(event.get("change_type") or "") in {"new_diga", "removed_diga", "status_change"}
+        for event in events
+    )
+    if not has_lifecycle_event:
+        print("Directory metric changed but no matching DiGA-level lifecycle event found.")
 
 
 def event_diga_ids(events: list[dict[str, object]]) -> set[str]:
@@ -1274,6 +1294,7 @@ def simulate_orthopy_change(snapshot_dir: Path, notify: bool = False, dry_run: b
         path=simulated_snapshot_path,
         created_at=previous_known_timestamp,
         entries=simulated_entries,
+        directory_metrics=calculate_directory_metrics(simulated_entries, calculated_at=previous_known_timestamp),
     )
 
     detected_at = datetime.now(timezone.utc).isoformat()
@@ -1352,6 +1373,7 @@ def save_simulated_snapshot(
     payload = {
         "created_at": created_at,
         "entry_count": len(entries),
+        "directory_metrics": calculate_directory_metrics(entries, calculated_at=created_at),
         "simulation": True,
         "simulation_source_snapshot": str(real_snapshot_path),
         "entries": entries,

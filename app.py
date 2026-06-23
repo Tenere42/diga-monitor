@@ -29,10 +29,18 @@ CHANGE_LABELS = {
     "status_change": "Statusänderung",
     "text_change": "Textänderung",
     "price_change": "Preisänderung",
+    "directory_metric_change": "Verzeichnis-Zähler geändert",
     "other_field_change": "Sonstige Feldänderung",
 }
 
 FIELD_LABELS = {
+    "directory_metrics": "DiGA-Verzeichnis > Statusübersicht",
+    "directory_metrics.total_count": "Gesamtzahl DiGA",
+    "directory_metrics.active_count": "Aktive DiGA",
+    "directory_metrics.status_counts.provisional": "Vorläufig aufgenommen",
+    "directory_metrics.status_counts.permanent": "Dauerhaft aufgenommen",
+    "directory_metrics.status_counts.removed": "Gestrichen",
+    "directory_metrics.status_counts.unknown": "Status unbekannt",
     "evidence_summary_text": "Bewertungsentscheidung des BfArM",
     "descriptive_texts": "Beschreibung der DiGA",
     "pricing_information": "Vergütung / Preisangaben",
@@ -1204,6 +1212,8 @@ def is_removed_choice_value(event: dict[str, Any]) -> bool:
 
 
 def event_title_label(event: dict[str, Any]) -> str:
+    if event.get("change_type") == "directory_metric_change":
+        return "Verzeichnis-Zähler geändert"
     if event.get("lifecycle_event_type") == "diga_reactivated":
         return "DiGA wieder im Verzeichnis aufgenommen"
     if event.get("change_type") == "status_change" and normalize_status_value(event_new_value(event)) == "removed":
