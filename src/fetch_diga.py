@@ -247,6 +247,7 @@ def build_records(
             questionnaires_by_url,
         )
         change_history = extract_change_history(catalog_entry)
+        status_metadata = infer_status_metadata(catalog_entry, change_history)
         records.append(
             {
                 "id": diga_id,
@@ -256,7 +257,10 @@ def build_records(
                     nested_value(health_app, "title"),
                 ),
                 "manufacturer": organization_name(manufacturer),
-                "status": infer_status(catalog_entry, change_history),
+                "status": status_metadata["status"],
+                "status_raw": status_metadata["status_raw"],
+                "status_source": status_metadata["status_source"],
+                "status_confidence": status_metadata["status_confidence"],
                 "indication": extract_indications(prescription_units),
                 "bfarm_directory_url": directory_ids.get(
                     diga_id,
@@ -372,20 +376,55 @@ def references_in_resource(resource: dict[str, Any], prefix: str) -> set[str]:
 
 
 def infer_status(catalog_entry: dict[str, Any], change_history: list[dict[str, Any]] | None = None) -> str:
+    return infer_status_metadata(catalog_entry, change_history)["status"]
+
+
+def infer_status_metadata(
+    catalog_entry: dict[str, Any],
+    change_history: list[dict[str, Any]] | None = None,
+) -> dict[str, str | None]:
+    """Infer current listing status from structured lifecycle fields only.
+
+    CatalogEntry.status is the primary current-status source. validityPeriod.end
+    may describe historical list periods and must not override the current status.
+    """
+
+    raw_status = catalog_entry.get("status")
+    status = map_catalog_entry_status(raw_status)
+    if status != "unknown":
+        return {
+            "status": status,
+            "status_raw": str(raw_status),
+            "status_source": "catalog_entry.status",
+            "status_confidence": "high",
+        }
+
     history_status = latest_status_from_change_history(change_history or [])
     if history_status:
-        return history_status
+        return {
+            "status": history_status,
+            "status_raw": latest_status_raw_from_change_history(change_history or []),
+            "status_source": "change_history",
+            "status_confidence": "legacy_fallback",
+        }
 
-    text = " ".join(str(value) for value in walk_values(catalog_entry)).lower()
-    if "gestrichen" in text or "entfernt" in text or "removed" in text or "retired" in text:
-        return "removed"
-    if "dauerhaft" in text or "permanent" in text:
-        return "listed"
-    if "vorl\u00e4ufig" in text or "vorlaeufig" in text or "provisional" in text:
+    return {
+        "status": "unknown",
+        "status_raw": str(raw_status) if raw_status is not None else None,
+        "status_source": "unknown",
+        "status_confidence": "low",
+    }
+
+
+def map_catalog_entry_status(value: Any) -> str:
+    status = str(value or "").strip().lower()
+    if status in {"draft", "preliminary", "provisional"}:
         return "provisional"
-    if nested_value(catalog_entry, "validityPeriod.end"):
+    if status in {"active", "final", "permanent", "listed"}:
+        return "permanent"
+    if status in {"retired", "removed", "revoked", "inactive"}:
         return "removed"
-    return "listed"
+    return "unknown"
 
 
 def latest_status_from_change_history(history: list[dict[str, Any]]) -> str | None:
@@ -395,6 +434,18 @@ def latest_status_from_change_history(history: list[dict[str, Any]]) -> str | No
         if not status:
             continue
         status_entries.append((str(entry.get("date") or ""), status))
+    if not status_entries:
+        return None
+    return max(status_entries, key=lambda item: item[0])[1]
+
+
+def latest_status_raw_from_change_history(history: list[dict[str, Any]]) -> str | None:
+    status_entries = []
+    for entry in history:
+        status = status_from_history_entry(entry)
+        if status:
+            raw_status = str(entry.get("type") or entry.get("title") or "")
+            status_entries.append((str(entry.get("date") or ""), raw_status))
     if not status_entries:
         return None
     return max(status_entries, key=lambda item: item[0])[1]
@@ -411,7 +462,7 @@ def status_from_history_entry(entry: dict[str, Any]) -> str | None:
     if "draft" in code or "provisional" in code or "vorl\u00e4ufig" in display:
         return "provisional"
     if "permanent" in code or "listed" in code or "dauerhaft" in display:
-        return "listed"
+        return "permanent"
     return None
 
 

@@ -53,6 +53,7 @@ FIELD_LABELS = {
 STATUS_VALUE_LABELS = {
     "removed": "Gestrichen",
     "provisional": "Vorläufig aufgenommen",
+    "permanent": "Dauerhaft aufgenommen",
     "listed": "Dauerhaft aufgenommen",
 }
 
@@ -1651,8 +1652,8 @@ def normalize_status_value(value: Any) -> str | None:
         return "removed"
     if "vorl" in text or "provisional" in text or "draft" in text:
         return "provisional"
-    if "dauerhaft" in text or "permanent" in text or "listed" in text:
-        return "listed"
+    if "dauerhaft" in text or "permanent" in text or "listed" in text or "active" in text:
+        return "permanent"
     return None
 
 

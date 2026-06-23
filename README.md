@@ -62,6 +62,20 @@ $env:DIGA_API_TOKEN="your-token"
 
 If no token is set, the scraper requests the same short-lived public token flow used by the directory frontend. It does not use mock data.
 
+### Listing Status Source
+
+The current DiGA listing status is derived from the structured FHIR `CatalogEntry.status` field.
+
+Status mapping:
+
+- `draft`, `preliminary`, `provisional` -> `provisional`
+- `active`, `final`, `permanent` -> `permanent`
+- `retired`, `removed`, `revoked`, `inactive` -> `removed`
+
+The `CatalogEntry.validityPeriod.end` field is stored as source data only. It is not treated as the current listing status, because it can remain present for historical periods even after a DiGA is reactivated.
+
+If `CatalogEntry.status` is missing or unknown, the monitor may use the structured status entries from `change_history` as a legacy fallback. It does not infer lifecycle status from free text, the BfArM assessment text, rendered `content_sections`, or arbitrary descriptive fields.
+
 ## E-Mail Notifications
 
 E-Mail Notifications use SMTP and are optional. The monitor sends an email only when real DiGA changes are detected. It skips baseline imports, no-change scans, development cleanup events, and simulated events.

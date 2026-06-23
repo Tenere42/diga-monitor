@@ -14,6 +14,9 @@ from src.snapshot import Snapshot
 IDENTITY_KEYS = ("id", "identifier", "url", "name", "title")
 IGNORED_FIELD_PATHS = {
     "change_history",
+    "status_confidence",
+    "status_raw",
+    "status_source",
     "structured_text_sections",
     "content_sections",
     "rendered_structure_metadata",
@@ -86,10 +89,45 @@ def normalize_entries_for_diff(entries: list[dict[str, Any]]) -> list[dict[str, 
 
 def normalize_entry_for_diff(entry: dict[str, Any]) -> dict[str, Any]:
     normalized = copy.deepcopy(entry)
-    effective_status = status_from_change_history(normalized.get("change_history"))
+    status_source = str(normalized.get("status_source") or "").strip()
+    if status_source:
+        effective_status = normalize_status_value(normalized.get("status"))
+        if effective_status:
+            normalized["status"] = effective_status
+            normalized.setdefault("status_confidence", entry.get("status_confidence") or "high")
+            return normalized
+
+    history_status = status_from_change_history(normalized.get("change_history"))
+    if history_status:
+        normalized["status"] = history_status
+        normalized["status_source"] = normalized.get("status_source") or "change_history"
+        normalized["status_confidence"] = normalized.get("status_confidence") or "legacy_fallback"
+        return normalized
+
+    effective_status = normalize_status_value(normalized.get("status"))
     if effective_status:
         normalized["status"] = effective_status
+        normalized["status_confidence"] = normalized.get("status_confidence") or "legacy_fallback"
+        normalized["status_source"] = normalized.get("status_source") or "snapshot.status"
+        return normalized
+
+    normalized["status"] = "unknown"
+    normalized["status_source"] = normalized.get("status_source") or "unknown"
+    normalized["status_confidence"] = normalized.get("status_confidence") or "low"
     return normalized
+
+
+def normalize_status_value(value: Any) -> str | None:
+    text = str(value or "").strip().lower()
+    if not text or text == "unknown":
+        return None
+    if text in {"draft", "preliminary", "provisional"}:
+        return "provisional"
+    if text in {"active", "final", "permanent", "listed"}:
+        return "permanent"
+    if text in {"retired", "removed", "revoked", "inactive"}:
+        return "removed"
+    return None
 
 
 def status_from_change_history(history: Any) -> str | None:
@@ -118,7 +156,7 @@ def status_from_history_entry(entry: dict[str, Any]) -> str | None:
     if "draft" in code or "provisional" in code or "vorl" in display:
         return "provisional"
     if "permanent" in code or "listed" in code or "dauerhaft" in display:
-        return "listed"
+        return "permanent"
     return None
 
 

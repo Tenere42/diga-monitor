@@ -44,6 +44,7 @@ UNRESOLVED_FIELD_LABEL = "Nicht eindeutig zugeordneter Eintrag"
 STATUS_VALUE_LABELS = {
     "removed": "Gestrichen",
     "provisional": "Vorläufig aufgenommen",
+    "permanent": "Dauerhaft aufgenommen",
     "listed": "Dauerhaft aufgenommen",
 }
 
@@ -198,7 +199,7 @@ def apply_lifecycle_context(event: dict[str, Any]) -> None:
 
     before = normalize_status_value(event.get("previous_value"))
     after = normalize_status_value(event.get("new_value"))
-    if before == "removed" and after in {"provisional", "listed"}:
+    if before == "removed" and after in {"provisional", "permanent", "listed"}:
         event["lifecycle_event_type"] = "diga_reactivated"
     elif after == "removed":
         event["lifecycle_event_type"] = "diga_removed"
@@ -656,8 +657,8 @@ def normalize_status_value(value: Any) -> str | None:
         return "removed"
     if "vorl" in text or "provisional" in text or "draft" in text:
         return "provisional"
-    if "dauerhaft" in text or "permanent" in text or "listed" in text:
-        return "listed"
+    if "dauerhaft" in text or "permanent" in text or "listed" in text or "active" in text:
+        return "permanent"
     return None
 
 
