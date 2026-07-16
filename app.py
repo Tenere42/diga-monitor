@@ -1493,7 +1493,12 @@ def duplicate_event_signature(event: dict[str, Any]) -> tuple[str, ...]:
     if event.get("change_type") == "text_change":
         changed_phrase = changed_phrase_signature(event)
         if changed_phrase:
-            return ("text_change", changed_phrase)
+            return (
+                "text_change",
+                str(event.get("original_changed_field") or event_field_name(event)),
+                field_label(event),
+                changed_phrase,
+            )
     return (
         event_field_name(event),
         normalize_display_value(event_previous_value(event)),

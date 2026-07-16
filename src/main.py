@@ -808,19 +808,24 @@ def build_visible_change_events_from_rendered_baselines(
 
         previous_snapshot_timestamp = timestamp_value(trigger_group, "previous_snapshot_timestamp", latest=False)
         current_snapshot_timestamp = timestamp_value(trigger_group, "current_snapshot_timestamp", latest=True)
-        for index, change in enumerate(section_changes, start=1):
-            visible_events.append(
-                visible_section_change_event(
-                    change=change,
-                    index=index,
-                    detected_at=detected_at,
-                    diga_id=diga_id,
-                    entry=entry,
-                    rendered=rendered,
-                    previous_snapshot_timestamp=previous_snapshot_timestamp,
-                    current_snapshot_timestamp=current_snapshot_timestamp,
-                )
-            )
+        new_visible_events = visible_events_for_trigger_group(
+            trigger_group=trigger_group,
+            section_changes=section_changes,
+            detected_at=detected_at,
+            diga_id=diga_id,
+            entry=entry,
+            rendered=rendered,
+            previous_snapshot_timestamp=previous_snapshot_timestamp,
+            current_snapshot_timestamp=current_snapshot_timestamp,
+        )
+        visible_events.extend(new_visible_events)
+        has_resolved_visible_event = any(
+            str(event.get("change_type") or "") != "visible_diff_unresolved"
+            for event in new_visible_events
+        )
+        if not has_resolved_visible_event:
+            print(f"Visible baseline diff for {name} ({diga_id}) produced no preservable content events.")
+            continue
         baseline_updates.append(
             visible_baseline_update(
                 payload=current_payload,
@@ -844,6 +849,167 @@ def build_visible_change_events_from_rendered_baselines(
         )
 
     return visible_events, baseline_updates
+
+
+def visible_events_for_trigger_group(
+    trigger_group: list[dict[str, object]],
+    section_changes: list[dict[str, object]],
+    detected_at: str,
+    diga_id: str,
+    entry: dict[str, object],
+    rendered: dict[str, object],
+    previous_snapshot_timestamp: str,
+    current_snapshot_timestamp: str,
+) -> list[dict[str, object]]:
+    events: list[dict[str, object]] = []
+    content_triggers = [event for event in trigger_group if should_preserve_unresolved_content_event(event)]
+    for index, trigger_event in enumerate(content_triggers, start=1):
+        matches, match_reason = confident_section_changes_for_trigger(trigger_event, section_changes)
+        if not matches:
+            events.extend(
+                legacy_fallback_events(
+                    [trigger_event],
+                    f"visible baseline diff did not match this FHIR content change: {match_reason}",
+                )
+            )
+            continue
+        event = visible_section_change_event(
+            change=matches[0][2],
+            index=index,
+            detected_at=detected_at,
+            diga_id=diga_id,
+            entry=entry,
+            rendered=rendered,
+            previous_snapshot_timestamp=previous_snapshot_timestamp,
+            current_snapshot_timestamp=current_snapshot_timestamp,
+        )
+        event["original_change_type"] = trigger_event.get("change_type")
+        event["original_changed_field"] = trigger_event.get("changed_field") or trigger_event.get("field_name")
+        event["trigger_previous_value"] = trigger_event.get("previous_value", trigger_event.get("before_value"))
+        event["trigger_new_value"] = trigger_event.get("new_value", trigger_event.get("after_value"))
+        event["visible_changes"] = [
+            visible_change_detail(change, score)
+            for score, _candidate_index, change in matches
+        ]
+        event["visible_match_reason"] = match_reason
+        event["visible_match_count"] = len(matches)
+        events.append(event)
+    return events
+
+
+VISIBLE_MATCH_MIN_SCORE = 0.18
+VISIBLE_MATCH_CLEAR_MARGIN = 0.15
+VISIBLE_MATCH_STRONG_SCORE = 0.85
+
+
+def confident_section_changes_for_trigger(
+    trigger_event: dict[str, object],
+    section_changes: list[dict[str, object]],
+) -> tuple[list[tuple[float, int, dict[str, object]]], str]:
+    ranked = ranked_section_changes_for_trigger(trigger_event, section_changes)
+    if not ranked:
+        return [], "no visible section changes were available"
+
+    candidates = [candidate for candidate in ranked if candidate[0] >= VISIBLE_MATCH_MIN_SCORE]
+    if not candidates:
+        return [], f"best score below threshold {VISIBLE_MATCH_MIN_SCORE:.2f}"
+
+    strong_candidates = [candidate for candidate in candidates if candidate[0] >= VISIBLE_MATCH_STRONG_SCORE]
+    if strong_candidates:
+        return strong_candidates, (
+            f"{len(strong_candidates)} visible section change(s) matched with direct content evidence"
+        )
+
+    best = candidates[0]
+    if len(candidates) == 1:
+        return [best], "single visible section change passed the minimum score threshold"
+
+    second = candidates[1]
+    separation = best[0] - second[0]
+    # Conservative ambiguity rule:
+    # A non-strong match is accepted only when the best score clears the minimum
+    # threshold and is at least 0.15 higher than the second-best candidate.
+    # Otherwise the visible location is treated as ambiguous and the original
+    # FHIR event is preserved as visible_diff_unresolved.
+    if separation >= VISIBLE_MATCH_CLEAR_MARGIN:
+        return [best], (
+            f"best visible section separated from second-best by {separation:.2f}"
+        )
+    return [], (
+        "ambiguous visible section match "
+        f"(best={best[0]:.2f}, second={second[0]:.2f}, required_margin={VISIBLE_MATCH_CLEAR_MARGIN:.2f})"
+    )
+
+
+def ranked_section_changes_for_trigger(
+    trigger_event: dict[str, object],
+    section_changes: list[dict[str, object]],
+) -> list[tuple[float, int, dict[str, object]]]:
+    ranked = [
+        (score_section_change_for_trigger(trigger_event, change), index, change)
+        for index, change in enumerate(section_changes)
+    ]
+    return sorted(ranked, key=lambda item: (-item[0], item[1]))
+
+
+def best_section_change_for_trigger(
+    trigger_event: dict[str, object],
+    section_changes: list[dict[str, object]],
+) -> dict[str, object] | None:
+    matches, _reason = confident_section_changes_for_trigger(trigger_event, section_changes)
+    return matches[0][2] if matches else None
+
+
+def score_section_change_for_trigger(
+    trigger_event: dict[str, object],
+    section_change: dict[str, object],
+) -> float:
+    display_path = normalize_match_text(section_change.get("display_path") or "")
+    change_text = normalize_match_text(
+        " ".join(
+            str(section_change.get(key) or "")
+            for key in ("before", "after", "diff_excerpt", "display_path")
+        )
+    )
+    trigger_text = normalize_match_text(
+        " ".join(
+            str(trigger_event.get(key) or "")
+            for key in ("previous_value", "before_value", "new_value", "after_value")
+        )
+    )
+    field_context = normalize_match_text(
+        " ".join(
+            str(trigger_event.get(key) or "")
+            for key in ("display_path", "user_facing_field_label", "changed_field", "field_name")
+        )
+    )
+    score = 0.0
+    if field_context and display_path and (field_context in display_path or display_path in field_context):
+        score = max(score, 0.75)
+
+    change_type = str(trigger_event.get("change_type") or "")
+    if change_type == "price_change" and any(marker in display_path for marker in ("preis", "kosten", "vergütung")):
+        score = max(score, 0.8)
+
+    for key in ("before", "after"):
+        value = section_change.get(key)
+        if not isinstance(value, str):
+            continue
+        normalized_section_value = normalize_match_text(value)
+        if normalized_section_value and normalized_section_value in trigger_text:
+            score = max(score, 0.9)
+
+    for key in ("previous_value", "before_value", "new_value", "after_value"):
+        value = trigger_event.get(key)
+        if not isinstance(value, str):
+            continue
+        for snippet in split_match_windows(value):
+            normalized = normalize_match_text(snippet)
+            if normalized and normalized in change_text:
+                score = max(score, 0.9)
+            else:
+                score = max(score, token_overlap(normalized, change_text))
+    return score
 
 
 def visible_section_change_event(
@@ -888,6 +1054,20 @@ def visible_section_change_event(
         event["word_diff"] = word_level_diff(before, after)
         event["text_change_kind"] = visible_text_change_kind(raw_change_type, before, after)
     return event
+
+
+def visible_change_detail(change: dict[str, object], match_score: float) -> dict[str, object]:
+    display_path = str(change.get("display_path") or "Nicht eindeutig zugeordneter Eintrag")
+    return {
+        "display_path": display_path,
+        "field_label": str(change.get("field_label") or change.get("subsection_title") or display_path),
+        "section": str(change.get("section") or change.get("section_title") or ""),
+        "content_type": str(change.get("content_type") or ""),
+        "change_type": str(change.get("change_type") or ""),
+        "before": change.get("before"),
+        "after": change.get("after"),
+        "match_score": round(match_score, 3),
+    }
 
 
 def has_trigger_change_type(events: list[dict[str, object]], change_type: str) -> bool:

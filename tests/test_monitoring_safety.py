@@ -9,6 +9,7 @@ from pathlib import Path
 from unittest import mock
 
 from scripts import monitoring_health_check
+import app
 from src import main
 from src.scan_history import append_scan_history, load_scan_history
 from src.snapshot import save_snapshot
@@ -45,6 +46,16 @@ def section(content: str) -> dict[str, object]:
         "stable_key": "beschreibung-kurztext",
         "content": content,
         "content_type": "section",
+    }
+
+
+def named_section(path: list[str], stable_key: str, content: str, content_type: str = "section") -> dict[str, object]:
+    return {
+        "path": path,
+        "display_path": " > ".join(path),
+        "stable_key": stable_key,
+        "content": content,
+        "content_type": content_type,
     }
 
 
@@ -99,6 +110,9 @@ class MonitoringSafetyTests(unittest.TestCase):
                             "diga_id": "12345",
                             "diga_name": "Test DiGA",
                             "change_type": "text_change",
+                            "changed_field": "descriptive_texts.field",
+                            "previous_value": "old text",
+                            "new_value": "new text",
                             "previous_snapshot_timestamp": "2026-01-01T00:00:00+00:00",
                             "current_snapshot_timestamp": "2026-01-01T01:00:00+00:00",
                         }
@@ -122,6 +136,356 @@ class MonitoringSafetyTests(unittest.TestCase):
 
             self.assertEqual(json.loads(baseline_path.read_text(encoding="utf-8")), new_payload)
             self.assertTrue(list((history / "12345").glob("*_structure.json")))
+
+    def test_render_success_preserves_exactly_one_event_per_fhir_content_change(self) -> None:
+        with temporary_directory() as temp:
+            root = Path(temp)
+            latest = root / "latest"
+            baseline_path = latest / "12345_test-diga_structure.json"
+            old_payload = {
+                "diga_id": "12345",
+                "content_sections": [
+                    named_section(["Beschreibung", "Zweck"], "zweck", "alter Zweck"),
+                    named_section(["Beschreibung", "Technik"], "technik", "alte Technik"),
+                ],
+            }
+            new_payload = {
+                "diga_id": "12345",
+                "content_sections": [
+                    named_section(["Beschreibung", "Zweck"], "zweck", "neuer Zweck"),
+                    named_section(["Beschreibung", "Technik"], "technik", "neue Technik"),
+                ],
+            }
+            write_json(baseline_path, old_payload)
+
+            with mock.patch.object(main, "VISIBLE_BASELINE_DIR", latest):
+                events, updates = main.build_visible_change_events_from_rendered_baselines(
+                    trigger_events=[
+                        {
+                            "diga_id": "12345",
+                            "diga_name": "Test DiGA",
+                            "change_type": "text_change",
+                            "changed_field": "descriptive_texts.zweck",
+                            "display_path": "Beschreibung > Zweck",
+                            "previous_value": "alter Zweck",
+                            "new_value": "neuer Zweck",
+                        },
+                        {
+                            "diga_id": "12345",
+                            "diga_name": "Test DiGA",
+                            "change_type": "text_change",
+                            "changed_field": "descriptive_texts.technik",
+                            "display_path": "Beschreibung > Technik",
+                            "previous_value": "alte Technik",
+                            "new_value": "neue Technik",
+                        },
+                    ],
+                    rendered_entries={
+                        "12345": {
+                            "name": "Test DiGA",
+                            "url": "https://example.test",
+                            "content_sections": new_payload["content_sections"],
+                        }
+                    },
+                    entries=[sample_entry()],
+                    detected_at="2026-01-01T01:00:00+00:00",
+                )
+
+            self.assertEqual(len(events), 2)
+            self.assertEqual(len(updates), 1)
+            self.assertEqual(
+                [event.get("original_changed_field") for event in events],
+                ["descriptive_texts.zweck", "descriptive_texts.technik"],
+            )
+
+    def test_ambiguous_visible_candidates_preserve_fhir_event_as_unresolved(self) -> None:
+        with temporary_directory() as temp:
+            root = Path(temp)
+            latest = root / "latest"
+            write_json(
+                latest / "12345_test-diga_structure.json",
+                {
+                    "diga_id": "12345",
+                    "content_sections": [
+                        named_section(["Beschreibung", "A"], "a", "alter Text A"),
+                        named_section(["Beschreibung", "B"], "b", "alter Text B"),
+                    ],
+                },
+            )
+
+            with mock.patch.object(main, "VISIBLE_BASELINE_DIR", latest):
+                events, updates = main.build_visible_change_events_from_rendered_baselines(
+                    trigger_events=[
+                        {
+                            "diga_id": "12345",
+                            "diga_name": "Test DiGA",
+                            "change_type": "text_change",
+                            "changed_field": "descriptive_texts.unknown",
+                            "display_path": "Beschreibung",
+                            "previous_value": "FHIR alter Inhalt",
+                            "new_value": "FHIR neuer Inhalt",
+                        }
+                    ],
+                    rendered_entries={
+                        "12345": {
+                            "name": "Test DiGA",
+                            "url": "https://example.test",
+                            "content_sections": [
+                                named_section(["Beschreibung", "A"], "a", "neuer Text A"),
+                                named_section(["Beschreibung", "B"], "b", "neuer Text B"),
+                            ],
+                        }
+                    },
+                    entries=[sample_entry()],
+                    detected_at="2026-01-01T01:00:00+00:00",
+                )
+
+            self.assertEqual(updates, [])
+            self.assertEqual(len(events), 1)
+            self.assertEqual(events[0]["change_type"], "visible_diff_unresolved")
+            self.assertIn("ambiguous visible section match", events[0]["fallback_reason"])
+
+    def test_clear_visible_candidate_is_selected(self) -> None:
+        with temporary_directory() as temp:
+            root = Path(temp)
+            latest = root / "latest"
+            write_json(
+                latest / "12345_test-diga_structure.json",
+                {
+                    "diga_id": "12345",
+                    "content_sections": [
+                        named_section(["Beschreibung", "Zweck"], "zweck", "alter Zweck"),
+                        named_section(["Beschreibung", "Technik"], "technik", "alte Technik"),
+                    ],
+                },
+            )
+
+            with mock.patch.object(main, "VISIBLE_BASELINE_DIR", latest):
+                events, updates = main.build_visible_change_events_from_rendered_baselines(
+                    trigger_events=[
+                        {
+                            "diga_id": "12345",
+                            "diga_name": "Test DiGA",
+                            "change_type": "text_change",
+                            "changed_field": "descriptive_texts.zweck",
+                            "display_path": "Beschreibung > Zweck",
+                            "previous_value": "alter Zweck",
+                            "new_value": "neuer Zweck",
+                        }
+                    ],
+                    rendered_entries={
+                        "12345": {
+                            "name": "Test DiGA",
+                            "url": "https://example.test",
+                            "content_sections": [
+                                named_section(["Beschreibung", "Zweck"], "zweck", "neuer Zweck"),
+                                named_section(["Beschreibung", "Technik"], "technik", "neue Technik"),
+                            ],
+                        }
+                    },
+                    entries=[sample_entry()],
+                    detected_at="2026-01-01T01:00:00+00:00",
+                )
+
+            self.assertEqual(len(events), 1)
+            self.assertEqual(len(updates), 1)
+            self.assertEqual(events[0]["change_type"], "text_change")
+            self.assertEqual(events[0]["display_path"], "Beschreibung > Zweck")
+            self.assertEqual(events[0]["visible_match_count"], 1)
+
+    def test_single_weak_visible_candidate_is_not_auto_assigned(self) -> None:
+        with temporary_directory() as temp:
+            root = Path(temp)
+            latest = root / "latest"
+            write_json(
+                latest / "12345_test-diga_structure.json",
+                {
+                    "diga_id": "12345",
+                    "content_sections": [named_section(["Beschreibung", "A"], "a", "vollig anderer alter Text")],
+                },
+            )
+
+            with mock.patch.object(main, "VISIBLE_BASELINE_DIR", latest):
+                events, updates = main.build_visible_change_events_from_rendered_baselines(
+                    trigger_events=[
+                        {
+                            "diga_id": "12345",
+                            "diga_name": "Test DiGA",
+                            "change_type": "text_change",
+                            "changed_field": "descriptive_texts.zielgruppe",
+                            "previous_value": "Patientengruppe Erwachsene",
+                            "new_value": "Patientengruppe Jugendliche",
+                        }
+                    ],
+                    rendered_entries={
+                        "12345": {
+                            "name": "Test DiGA",
+                            "url": "https://example.test",
+                            "content_sections": [
+                                named_section(["Beschreibung", "A"], "a", "vollig anderer neuer Text")
+                            ],
+                        }
+                    },
+                    entries=[sample_entry()],
+                    detected_at="2026-01-01T01:00:00+00:00",
+                )
+
+            self.assertEqual(updates, [])
+            self.assertEqual(len(events), 1)
+            self.assertEqual(events[0]["change_type"], "visible_diff_unresolved")
+            self.assertIn("below threshold", events[0]["fallback_reason"])
+
+    def test_one_fhir_trigger_can_preserve_multiple_visible_details(self) -> None:
+        with temporary_directory() as temp:
+            root = Path(temp)
+            latest = root / "latest"
+            write_json(
+                latest / "12345_test-diga_structure.json",
+                {
+                    "diga_id": "12345",
+                    "content_sections": [
+                        named_section(["Beschreibung", "Ziel"], "ziel", "alter Zieltext"),
+                        named_section(["Beschreibung", "Nutzen"], "nutzen", "alter Nutzentext"),
+                    ],
+                },
+            )
+
+            with mock.patch.object(main, "VISIBLE_BASELINE_DIR", latest):
+                events, updates = main.build_visible_change_events_from_rendered_baselines(
+                    trigger_events=[
+                        {
+                            "diga_id": "12345",
+                            "diga_name": "Test DiGA",
+                            "change_type": "text_change",
+                            "changed_field": "descriptive_texts.combined",
+                            "previous_value": "alter Zieltext alter Nutzentext",
+                            "new_value": "neuer Zieltext neuer Nutzentext",
+                        }
+                    ],
+                    rendered_entries={
+                        "12345": {
+                            "name": "Test DiGA",
+                            "url": "https://example.test",
+                            "content_sections": [
+                                named_section(["Beschreibung", "Ziel"], "ziel", "neuer Zieltext"),
+                                named_section(["Beschreibung", "Nutzen"], "nutzen", "neuer Nutzentext"),
+                            ],
+                        }
+                    },
+                    entries=[sample_entry()],
+                    detected_at="2026-01-01T01:00:00+00:00",
+                )
+
+            self.assertEqual(len(events), 1)
+            self.assertEqual(len(updates), 1)
+            self.assertEqual(events[0]["original_changed_field"], "descriptive_texts.combined")
+            self.assertEqual(events[0]["visible_match_count"], 2)
+            self.assertCountEqual(
+                [detail["display_path"] for detail in events[0]["visible_changes"]],
+                ["Beschreibung > Ziel", "Beschreibung > Nutzen"],
+            )
+
+    def test_one_fhir_trigger_with_multiple_ambiguous_sections_is_unresolved(self) -> None:
+        with temporary_directory() as temp:
+            root = Path(temp)
+            latest = root / "latest"
+            write_json(
+                latest / "12345_test-diga_structure.json",
+                {
+                    "diga_id": "12345",
+                    "content_sections": [
+                        named_section(["Beschreibung", "A"], "a", "alter Abschnitt A"),
+                        named_section(["Beschreibung", "B"], "b", "alter Abschnitt B"),
+                    ],
+                },
+            )
+
+            with mock.patch.object(main, "VISIBLE_BASELINE_DIR", latest):
+                events, updates = main.build_visible_change_events_from_rendered_baselines(
+                    trigger_events=[
+                        {
+                            "diga_id": "12345",
+                            "diga_name": "Test DiGA",
+                            "change_type": "text_change",
+                            "changed_field": "descriptive_texts.combined",
+                            "display_path": "Beschreibung",
+                            "previous_value": "nicht lokalisierter alter Inhalt",
+                            "new_value": "nicht lokalisierter neuer Inhalt",
+                        }
+                    ],
+                    rendered_entries={
+                        "12345": {
+                            "name": "Test DiGA",
+                            "url": "https://example.test",
+                            "content_sections": [
+                                named_section(["Beschreibung", "A"], "a", "neuer Abschnitt A"),
+                                named_section(["Beschreibung", "B"], "b", "neuer Abschnitt B"),
+                            ],
+                        }
+                    },
+                    entries=[sample_entry()],
+                    detected_at="2026-01-01T01:00:00+00:00",
+                )
+
+            self.assertEqual(updates, [])
+            self.assertEqual(len(events), 1)
+            self.assertEqual(events[0]["change_type"], "visible_diff_unresolved")
+            self.assertNotIn("visible_changes", events[0])
+
+    def test_multiple_digas_preserve_one_event_per_fhir_content_change(self) -> None:
+        with temporary_directory() as temp:
+            root = Path(temp)
+            latest = root / "latest"
+            write_json(
+                latest / "12345_test-diga_structure.json",
+                {"diga_id": "12345", "content_sections": [named_section(["Beschreibung", "A"], "a", "alt A")]},
+            )
+            write_json(
+                latest / "67890_second-diga_structure.json",
+                {"diga_id": "67890", "content_sections": [named_section(["Beschreibung", "B"], "b", "alt B")]},
+            )
+
+            with mock.patch.object(main, "VISIBLE_BASELINE_DIR", latest):
+                events, updates = main.build_visible_change_events_from_rendered_baselines(
+                    trigger_events=[
+                        {
+                            "diga_id": "12345",
+                            "diga_name": "Test DiGA",
+                            "change_type": "text_change",
+                            "changed_field": "descriptive_texts.a",
+                            "display_path": "Beschreibung > A",
+                            "previous_value": "alt A",
+                            "new_value": "neu A",
+                        },
+                        {
+                            "diga_id": "67890",
+                            "diga_name": "Second DiGA",
+                            "change_type": "text_change",
+                            "changed_field": "descriptive_texts.b",
+                            "display_path": "Beschreibung > B",
+                            "previous_value": "alt B",
+                            "new_value": "neu B",
+                        },
+                    ],
+                    rendered_entries={
+                        "12345": {
+                            "name": "Test DiGA",
+                            "url": "https://example.test/1",
+                            "content_sections": [named_section(["Beschreibung", "A"], "a", "neu A")],
+                        },
+                        "67890": {
+                            "name": "Second DiGA",
+                            "url": "https://example.test/2",
+                            "content_sections": [named_section(["Beschreibung", "B"], "b", "neu B")],
+                        },
+                    },
+                    entries=[sample_entry(), {**sample_entry(), "id": "67890", "name": "Second DiGA"}],
+                    detected_at="2026-01-01T01:00:00+00:00",
+                )
+
+            self.assertEqual(len(events), 2)
+            self.assertEqual(len(updates), 2)
+            self.assertEqual({event.get("diga_id") for event in events}, {"12345", "67890"})
 
     def test_fhir_change_without_visible_diff_is_preserved_as_unresolved(self) -> None:
         with temporary_directory() as temp:
@@ -232,6 +596,42 @@ class MonitoringSafetyTests(unittest.TestCase):
 
         self.assertEqual(events, [])
 
+    def test_metadata_only_trigger_does_not_update_visible_baseline(self) -> None:
+        with temporary_directory() as temp:
+            root = Path(temp)
+            latest = root / "latest"
+            baseline_path = latest / "12345_test-diga_structure.json"
+            write_json(
+                baseline_path,
+                {"diga_id": "12345", "content_sections": [named_section(["Beschreibung", "A"], "a", "alt A")]},
+            )
+
+            with mock.patch.object(main, "VISIBLE_BASELINE_DIR", latest):
+                events, updates = main.build_visible_change_events_from_rendered_baselines(
+                    trigger_events=[
+                        {
+                            "diga_id": "12345",
+                            "diga_name": "Test DiGA",
+                            "change_type": "text_change",
+                            "changed_field": "source_update_notice.last_updated_at",
+                            "previous_value": "2026-01-01",
+                            "new_value": "2026-01-02",
+                        }
+                    ],
+                    rendered_entries={
+                        "12345": {
+                            "name": "Test DiGA",
+                            "url": "https://example.test",
+                            "content_sections": [named_section(["Beschreibung", "A"], "a", "neu A")],
+                        }
+                    },
+                    entries=[sample_entry()],
+                    detected_at="2026-01-01T01:00:00+00:00",
+                )
+
+            self.assertEqual(events, [])
+            self.assertEqual(updates, [])
+
     def test_visible_baseline_diff_failure_leaves_latest_unchanged(self) -> None:
         with temporary_directory() as temp:
             root = Path(temp)
@@ -273,6 +673,42 @@ class MonitoringSafetyTests(unittest.TestCase):
     def test_lifecycle_event_is_preserved(self) -> None:
         event = {"change_type": "status_change"}
         self.assertTrue(main.is_lifecycle_event(event))
+
+    def test_repeated_identical_snapshots_are_idempotent(self) -> None:
+        with temporary_directory() as temp:
+            root = Path(temp)
+            snapshot_dir = root / "snapshots"
+            first = save_snapshot([sample_entry()], snapshot_dir)
+            second = save_snapshot([sample_entry()], snapshot_dir)
+            from src.diff import diff_snapshots
+            from src.change_events import build_change_events
+            from src.snapshot import load_snapshot
+
+            report = diff_snapshots(load_snapshot(first), load_snapshot(second))
+            self.assertFalse(report.has_changes)
+            self.assertEqual(build_change_events(report, load_snapshot(first), load_snapshot(second)), [])
+
+    def test_dashboard_dedup_keeps_same_phrase_in_different_fields(self) -> None:
+        event_a = {
+            "change_type": "text_change",
+            "changed_field": "visible_directory.1",
+            "original_changed_field": "descriptive_texts.a",
+            "display_path": "Beschreibung > A",
+            "previous_value": "alter Text",
+            "new_value": "neuer Text",
+            "word_diff": [{"op": "insert", "text": "neu"}],
+        }
+        event_b = {
+            "change_type": "text_change",
+            "changed_field": "visible_directory.2",
+            "original_changed_field": "descriptive_texts.b",
+            "display_path": "Beschreibung > B",
+            "previous_value": "alter Text",
+            "new_value": "neuer Text",
+            "word_diff": [{"op": "insert", "text": "neu"}],
+        }
+
+        self.assertEqual(len(app.deduplicate_events([event_a, event_b])), 2)
 
     def test_health_check_detects_missing_current_run_history(self) -> None:
         with temporary_directory() as temp:
