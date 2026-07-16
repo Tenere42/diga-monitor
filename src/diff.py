@@ -13,11 +13,9 @@ from src.snapshot import Snapshot
 
 IDENTITY_KEYS = ("id", "identifier", "url", "name", "title")
 IGNORED_FIELD_PATHS = {
-    "change_history",
     "status_confidence",
     "status_raw",
     "status_source",
-    "structured_text_sections",
     "content_sections",
     "rendered_structure_metadata",
 }

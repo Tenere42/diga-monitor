@@ -21,6 +21,7 @@ CHANGE_LABELS = {
     "text_change": "Textänderung",
     "price_change": "Preisänderung",
     "directory_metric_change": "Verzeichnis-Zähler geändert",
+    "visible_diff_unresolved": "Änderung erkannt",
     "other_field_change": "Sonstige Feldänderung",
 }
 

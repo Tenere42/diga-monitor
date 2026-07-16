@@ -85,13 +85,17 @@ jobs:
           DIGA_RENDER_CHANGED_ENTRIES: "true"
         run: python -m src.main run --notify
 
+      - name: Validate monitoring outputs
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.notification_test != 'true' }}
+        run: python scripts/monitoring_health_check.py --require-current-run --max-snapshot-age-hours 6
+
       - name: Commit and push monitoring outputs
         if: ${{ github.event_name != 'workflow_dispatch' || inputs.notification_test != 'true' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          for path in data/snapshots outputs/changes outputs/scan_history.json outputs/content_section_dry_run data/rendered_structure/latest; do
+          for path in data/snapshots outputs/changes outputs/scan_history.json outputs/content_section_dry_run data/rendered_structure/latest data/rendered_structure/history; do
             if [ -e "$path" ]; then
               git add -f "$path"
             else
@@ -100,10 +104,11 @@ jobs:
           done
 
           if git diff --cached --quiet; then
-            echo "No monitoring changes to commit."
-            exit 0
+            echo "::error::No monitoring changes to commit after a normal monitor run. A successful scan must persist a new snapshot and scan_history entry."
+            exit 1
           fi
 
           git commit -m "Update DiGA monitoring data"
           git pull --rebase origin main
           git push origin main
+          python scripts/monitoring_health_check.py --verify-head --max-snapshot-age-hours 6

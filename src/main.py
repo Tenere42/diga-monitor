@@ -7,6 +7,7 @@ import copy
 import json
 import os
 import re
+import shutil
 import sys
 import time
 from datetime import datetime, timezone
@@ -38,6 +39,7 @@ from src.snapshot import (
 
 DEFAULT_SIMULATION_DIR = Path("data/simulations")
 VISIBLE_BASELINE_DIR = Path("data/rendered_structure/latest")
+VISIBLE_HISTORY_DIR = Path("data/rendered_structure/history")
 VISIBLE_RUN_DIR = Path("outputs/rendered_structure/runs")
 PRESERVED_CHANGE_TYPES = {"new_diga", "removed_diga", "status_change", "directory_metric_change"}
 ORTHOPY_REMOVED_SENTENCE = "Für die DiGA konnte kein positiver Versorgungseffekt nachgewiesen werden."
@@ -225,18 +227,18 @@ def run_monitor(
         enrich_entries_with_rendered_structure(entries, archive_rendered_pages=archive_rendered_pages)
     new_snapshot_path = save_snapshot(entries, snapshot_dir)
     detected_at = datetime.now(timezone.utc).isoformat()
-    if with_rendered_structure:
-        baseline_stats = save_visible_baselines_from_entries(entries, detected_at)
-        print(
-            "Visible rendered baselines: "
-            f"{baseline_stats['created']} created, "
-            f"{baseline_stats['updated']} updated, "
-            f"{baseline_stats['existing']} already present, "
-            f"{baseline_stats['skipped']} skipped."
-        )
     print(f"Saved snapshot: {new_snapshot_path}")
 
     if not previous_paths:
+        if with_rendered_structure:
+            baseline_stats = save_visible_baselines_from_entries(entries, detected_at)
+            print(
+                "Visible rendered baselines: "
+                f"{baseline_stats['created']} created, "
+                f"{baseline_stats['updated']} updated, "
+                f"{baseline_stats['existing']} already present, "
+                f"{baseline_stats['skipped']} skipped."
+            )
         append_scan_history(
             scan_timestamp=detected_at,
             number_of_diga=len(entries),
@@ -270,6 +272,7 @@ def run_monitor(
     if report.has_changes:
         trigger_events = build_change_events(report, old_snapshot, new_snapshot, detected_at)
         events = trigger_events
+        pending_baseline_updates: list[dict[str, object]] = []
         if render_changed_entries:
             lifecycle_events = [event for event in trigger_events if is_lifecycle_event(event)]
             content_trigger_events = [event for event in trigger_events if not is_lifecycle_event(event)]
@@ -284,36 +287,25 @@ def run_monitor(
                 for diga_id, rendered in rendered_entries.items()
                 if diga_id in event_diga_ids(content_trigger_events)
             }
-            lifecycle_only_rendered_entries = {
-                diga_id: rendered
-                for diga_id, rendered in rendered_entries.items()
-                if diga_id in event_diga_ids(lifecycle_events) and diga_id not in content_rendered_entries
-            }
-            if lifecycle_only_rendered_entries:
-                save_rendered_baselines_without_events(
-                    rendered_entries=lifecycle_only_rendered_entries,
+            visible_events = []
+            if content_trigger_events:
+                visible_events, visible_baseline_updates = build_visible_change_events_from_rendered_baselines(
+                    trigger_events=content_trigger_events,
+                    rendered_entries=content_rendered_entries,
                     entries=new_snapshot.entries,
                     detected_at=detected_at,
                 )
-            if rendered_entries:
-                visible_events = []
-                if content_trigger_events and content_rendered_entries:
-                    visible_events = build_visible_change_events_from_rendered_baselines(
-                        trigger_events=content_trigger_events,
-                        rendered_entries=content_rendered_entries,
-                        entries=new_snapshot.entries,
-                        detected_at=detected_at,
-                    )
-                events = lifecycle_events + visible_events
-                print(f"Rendered changed DiGA entries: {len(rendered_entries)}")
-                print(f"Lifecycle change events preserved: {len(lifecycle_events)}")
-                print(f"Visible content_section change events: {len(visible_events)}")
-            else:
-                events = lifecycle_events
+                pending_baseline_updates.extend(visible_baseline_updates)
+            events = lifecycle_events + visible_events
+            print(f"Rendered changed DiGA entries: {len(rendered_entries)}")
+            print(f"Lifecycle change events preserved: {len(lifecycle_events)}")
+            print(f"Visible content_section change events: {len(visible_events)}")
         if events:
             changes_path = save_change_events(events, detected_at=detected_at)
             if changes_path:
                 print(f"Saved change events: {changes_path}")
+            if render_changed_entries and pending_baseline_updates:
+                apply_visible_baseline_updates(pending_baseline_updates)
         elif render_changed_entries:
             print("No visible content_section changes detected. FHIR changes were used as trigger only.")
     print(f"Detected change events: {len(events)}")
@@ -397,7 +389,13 @@ def build_rendered_baseline_command(limit: int | None = None, archive_rendered_p
             continue
 
         baseline_path = visible_baseline_path(diga_id, name)
-        save_visible_baseline(payload, baseline_path)
+        replace_visible_baseline(
+            payload=payload,
+            path=baseline_path,
+            diga_id=diga_id,
+            detected_at=detected_at,
+            archive_existing=True,
+        )
         success_paths.append(baseline_path)
         print(
             "    saved: "
@@ -628,12 +626,78 @@ def event_diga_ids(events: list[dict[str, object]]) -> set[str]:
     return {str(event.get("diga_id") or "") for event in events if event.get("diga_id")}
 
 
-def save_rendered_baselines_without_events(
+def visible_baseline_update(
+    payload: dict[str, object],
+    path: Path,
+    diga_id: str,
+    name: str,
+    detected_at: str,
+    archive_existing: bool,
+) -> dict[str, object]:
+    return {
+        "payload": payload,
+        "path": path,
+        "diga_id": diga_id,
+        "name": name,
+        "detected_at": detected_at,
+        "archive_existing": archive_existing,
+    }
+
+
+def apply_visible_baseline_updates(updates: list[dict[str, object]]) -> None:
+    for update in updates:
+        payload = update.get("payload")
+        path = update.get("path")
+        if not isinstance(payload, dict) or not isinstance(path, Path):
+            continue
+        diga_id = str(update.get("diga_id") or payload.get("diga_id") or "")
+        detected_at = str(update.get("detected_at") or payload.get("timestamp") or "")
+        archive_existing = bool(update.get("archive_existing"))
+        replace_visible_baseline(
+            payload=payload,
+            path=path,
+            diga_id=diga_id,
+            detected_at=detected_at,
+            archive_existing=archive_existing,
+        )
+        print(f"Visible baseline latest updated: {path}")
+
+
+def replace_visible_baseline(
+    payload: dict[str, object],
+    path: Path,
+    diga_id: str,
+    detected_at: str,
+    archive_existing: bool,
+) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    if archive_existing and path.exists():
+        archive_visible_baseline(path, diga_id=diga_id, detected_at=detected_at)
+    save_visible_baseline(payload, path)
+
+
+def archive_visible_baseline(path: Path, diga_id: str, detected_at: str) -> Path | None:
+    if not path.exists():
+        return None
+    timestamp = scan_timestamp_for_path(detected_at)
+    archive_dir = VISIBLE_HISTORY_DIR / safe_key(diga_id or path.stem)
+    archive_dir.mkdir(parents=True, exist_ok=True)
+    archive_path = archive_dir / f"{timestamp}_structure.json"
+    if archive_path.exists():
+        archive_path = archive_dir / f"{timestamp}_{int(time.time() * 1000)}_structure.json"
+    shutil.copy2(path, archive_path)
+    print(f"Archived previous visible baseline: {archive_path}")
+    return archive_path
+
+
+def baseline_updates_from_rendered_entries(
     rendered_entries: dict[str, dict[str, object]],
     entries: list[dict[str, object]],
     detected_at: str,
-) -> None:
+    archive_existing: bool,
+) -> list[dict[str, object]]:
     entries_by_id = {str(entry.get("id")): entry for entry in entries if entry.get("id")}
+    updates: list[dict[str, object]] = []
     for diga_id, rendered in rendered_entries.items():
         entry = entries_by_id.get(diga_id, {})
         name = str(rendered.get("name") or entry.get("name") or diga_id)
@@ -652,8 +716,17 @@ def save_rendered_baselines_without_events(
                 "content_sections": content_sections,
             }
         save_visible_baseline(payload, visible_run_structure_path(diga_id, name, detected_at))
-        save_visible_baseline(payload, visible_baseline_path(diga_id, name))
-        print(f"Lifecycle baseline updated for {name} ({diga_id}) without content diff event.")
+        updates.append(
+            visible_baseline_update(
+                payload=payload,
+                path=visible_baseline_path(diga_id, name),
+                diga_id=diga_id,
+                name=name,
+                detected_at=detected_at,
+                archive_existing=archive_existing,
+            )
+        )
+    return updates
 
 
 def build_visible_change_events_from_rendered_baselines(
@@ -661,7 +734,7 @@ def build_visible_change_events_from_rendered_baselines(
     rendered_entries: dict[str, dict[str, object]],
     entries: list[dict[str, object]],
     detected_at: str,
-) -> list[dict[str, object]]:
+) -> tuple[list[dict[str, object]], list[dict[str, object]]]:
     entries_by_id = {str(entry.get("id")): entry for entry in entries if entry.get("id")}
     trigger_events_by_id: dict[str, list[dict[str, object]]] = {}
     for event in trigger_events:
@@ -670,6 +743,7 @@ def build_visible_change_events_from_rendered_baselines(
             trigger_events_by_id.setdefault(diga_id, []).append(event)
 
     visible_events: list[dict[str, object]] = []
+    baseline_updates: list[dict[str, object]] = []
     rendered_ids: set[str] = set()
     for diga_id, rendered in rendered_entries.items():
         rendered_ids.add(diga_id)
@@ -700,8 +774,7 @@ def build_visible_change_events_from_rendered_baselines(
         previous_payload = load_json_file(baseline_path)
         save_visible_baseline(current_payload, visible_run_structure_path(diga_id, name, detected_at))
         if not previous_payload:
-            save_visible_baseline(current_payload, baseline_path)
-            print(f"Visible baseline created for {name} ({diga_id}); no visible diff emitted on first baseline.")
+            print(f"Visible baseline missing for {name} ({diga_id}); preserving FHIR fallback without updating latest baseline.")
             if has_trigger_change_type(trigger_group, "new_diga"):
                 visible_events.append(new_diga_baseline_event(trigger_group, entry, rendered, detected_at))
             else:
@@ -723,9 +796,14 @@ def build_visible_change_events_from_rendered_baselines(
             visible_events.extend(legacy_fallback_events(trigger_group, f"visible baseline diff failed: {exc}"))
             continue
 
-        save_visible_baseline(current_payload, baseline_path)
         if not section_changes:
             print(f"Visible baseline diff for {name} ({diga_id}): no visible changes.")
+            visible_events.extend(
+                legacy_fallback_events(
+                    trigger_group,
+                    "visible baseline diff found no visible content_section changes",
+                )
+            )
             continue
 
         previous_snapshot_timestamp = timestamp_value(trigger_group, "previous_snapshot_timestamp", latest=False)
@@ -743,6 +821,16 @@ def build_visible_change_events_from_rendered_baselines(
                     current_snapshot_timestamp=current_snapshot_timestamp,
                 )
             )
+        baseline_updates.append(
+            visible_baseline_update(
+                payload=current_payload,
+                path=baseline_path,
+                diga_id=diga_id,
+                name=name,
+                detected_at=detected_at,
+                archive_existing=True,
+            )
+        )
         print(f"Visible baseline diff for {name} ({diga_id}): {len(section_changes)} visible change(s).")
 
     for diga_id, trigger_group in trigger_events_by_id.items():
@@ -755,7 +843,7 @@ def build_visible_change_events_from_rendered_baselines(
             )
         )
 
-    return visible_events
+    return visible_events, baseline_updates
 
 
 def visible_section_change_event(
@@ -842,14 +930,49 @@ def new_diga_baseline_event(
 def legacy_fallback_events(events: list[dict[str, object]], reason: str) -> list[dict[str, object]]:
     fallback_events = []
     for event in events:
+        if not should_preserve_unresolved_content_event(event):
+            continue
         fallback = dict(event)
-        mark_legacy_fallback(fallback)
+        fallback["original_change_type"] = fallback.get("change_type")
+        fallback["original_changed_field"] = fallback.get("changed_field") or fallback.get("field_name")
+        fallback["change_type"] = "visible_diff_unresolved"
+        fallback["source_kind"] = "visible_diff_unresolved"
+        fallback["confidence"] = "visible_diff_unresolved"
+        fallback["localization_confidence"] = "visible_diff_unresolved"
+        fallback["display_path"] = "Änderung erkannt, sichtbarer Abschnitt nicht eindeutig zugeordnet"
+        fallback["user_facing_field_label"] = "Änderung erkannt, sichtbarer Abschnitt nicht eindeutig zugeordnet"
+        fallback["summary_de"] = (
+            "Eine fachliche Änderung wurde erkannt, der sichtbare Abschnitt konnte aber "
+            "nicht eindeutig zugeordnet werden."
+        )
         fallback["fallback_reason"] = reason
         fallback_events.append(fallback)
     if fallback_events:
         diga_name = fallback_events[0].get("diga_name") or fallback_events[0].get("diga_id")
         print(f"Using legacy fallback for {diga_name}: {reason}")
     return fallback_events
+
+
+def should_preserve_unresolved_content_event(event: dict[str, object]) -> bool:
+    change_type = str(event.get("change_type") or "")
+    if change_type in PRESERVED_CHANGE_TYPES:
+        return False
+
+    field_name = str(event.get("changed_field") or event.get("field_name") or "").lower()
+    if not field_name:
+        return False
+    if field_name in {"change_history", "structured_text_sections", "content_sections", "rendered_structure_metadata"}:
+        return False
+    if field_name.startswith(("change_history.", "structured_text_sections.", "content_sections.", "rendered_structure_metadata.")):
+        return False
+    if field_name == "raw_public_fhir" or field_name.startswith("raw_public_fhir."):
+        return False
+    if field_name == "source_update_notice" or field_name.startswith("source_update_notice."):
+        return False
+    if any(marker in field_name for marker in ("last_updated", "updated_at", "timestamp", "checked_sources")):
+        return False
+
+    return change_type in {"text_change", "price_change", "other_field_change"}
 
 
 def visible_text_change_kind(raw_change_type: str, before: str, after: str) -> str:
@@ -899,9 +1022,11 @@ def load_json_file(path: Path) -> dict[str, object] | None:
 
 def save_visible_baseline(payload: dict[str, object], path: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open("w", encoding="utf-8") as file:
+    temp_path = path.with_name(f".{path.name}.tmp")
+    with temp_path.open("w", encoding="utf-8") as file:
         json.dump(payload, file, ensure_ascii=False, indent=2, sort_keys=True)
         file.write("\n")
+    temp_path.replace(path)
 
 
 def save_visible_baselines_from_entries(

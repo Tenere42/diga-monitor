@@ -30,6 +30,7 @@ CHANGE_LABELS = {
     "text_change": "Textänderung",
     "price_change": "Preisänderung",
     "directory_metric_change": "Verzeichnis-Zähler geändert",
+    "visible_diff_unresolved": "Änderung erkannt",
     "other_field_change": "Sonstige Feldänderung",
 }
 
@@ -330,6 +331,8 @@ def render_event_details(event: dict[str, Any]) -> None:
     change_type = event.get("change_type", "other_field_change")
     if change_type == "text_change" and event.get("word_diff"):
         render_text_change(event)
+    elif change_type == "visible_diff_unresolved":
+        render_unresolved_visible_diff(event)
     elif change_type == "price_change":
         render_price_change(event)
     elif change_type == "new_diga":
@@ -357,12 +360,25 @@ def render_adjustment_header(index: int, event: dict[str, Any]) -> None:
             )
     if event.get("localization_confidence") == "low":
         st.caption("Die Änderung wurde erkannt, konnte aber keinem sichtbaren Abschnitt eindeutig zugeordnet werden.")
+    if event.get("change_type") == "visible_diff_unresolved":
+        st.caption("Die Änderung wurde erkannt, der sichtbare Abschnitt konnte aber nicht eindeutig zugeordnet werden.")
 
 
 def render_before_after(event: dict[str, Any]) -> None:
     before_value = event_previous_value(event)
     after_value = event_new_value(event)
     render_before_after_html(value_to_html(before_value), value_to_html(after_value))
+
+
+def render_unresolved_visible_diff(event: dict[str, Any]) -> None:
+    st.caption("Der Monitor hat eine fachliche Änderung in den BfArM-Daten erkannt. Die sichtbare Stelle im Verzeichnis konnte in diesem Lauf nicht eindeutig zugeordnet werden.")
+    if event.get("original_change_type") == "price_change":
+        render_price_change(event)
+        return
+    if event.get("word_diff"):
+        render_text_change(event)
+        return
+    render_before_after(event)
 
 
 def render_price_change(event: dict[str, Any]) -> None:
@@ -1214,6 +1230,8 @@ def is_removed_choice_value(event: dict[str, Any]) -> bool:
 def event_title_label(event: dict[str, Any]) -> str:
     if event.get("change_type") == "directory_metric_change":
         return "Verzeichnis-Zähler geändert"
+    if event.get("change_type") == "visible_diff_unresolved":
+        return "Änderung erkannt"
     if event.get("lifecycle_event_type") == "diga_reactivated":
         return "DiGA wieder im Verzeichnis aufgenommen"
     if event.get("change_type") == "status_change" and normalize_status_value(event_new_value(event)) == "removed":

@@ -7,6 +7,7 @@ venv/
 
 __pycache__/
 *.pyc
+work/
 
 data/snapshots/*
 !data/snapshots/.gitkeep
