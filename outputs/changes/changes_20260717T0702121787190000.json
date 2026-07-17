@@ -1,0 +1,992 @@
+{
+  "created_at": "2026-07-17T07:02:12.178719+00:00",
+  "event_count": 2,
+  "events": [
+    {
+      "accordion_title": "Beschreibung der DiGA",
+      "after_value": null,
+      "before_value": "Zutreffend",
+      "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/01282",
+      "change_type": "visible_diff_unresolved",
+      "changed_field": "descriptive_texts.questionnaire.923",
+      "confidence": "visible_diff_unresolved",
+      "current_snapshot_timestamp": "2026-07-17T07:02:11.722673+00:00",
+      "detected_at": "2026-07-17T07:02:12.178719+00:00",
+      "diga_id": "01282",
+      "diga_name": "Kranus Edera",
+      "display_path": "Änderung erkannt, sichtbarer Abschnitt nicht eindeutig zugeordnet",
+      "fallback_reason": "render-on-change did not produce a rendered structure",
+      "field_label": "Nicht eindeutig zugeordneter Eintrag",
+      "field_name": "descriptive_texts.questionnaire.923",
+      "localization_confidence": "visible_diff_unresolved",
+      "main_section": "Beschreibung der DiGA",
+      "manufacturer": "Kranus Health GmbH",
+      "new_value": null,
+      "original_change_type": "other_field_change",
+      "original_changed_field": "descriptive_texts.questionnaire.923",
+      "previous_snapshot_timestamp": "2026-07-17T04:02:09.098389+00:00",
+      "previous_value": "Zutreffend",
+      "question_label": "Nicht eindeutig zugeordneter Eintrag",
+      "section_title": "Beschreibung der DiGA",
+      "source_area_label": "Beschreibung der DiGA",
+      "source_kind": "visible_diff_unresolved",
+      "subsection_title": "Nicht eindeutig zugeordneter Eintrag",
+      "summary_de": "Eine fachliche Änderung wurde erkannt, der sichtbare Abschnitt konnte aber nicht eindeutig zugeordnet werden.",
+      "tab_label": "Beschreibung der DiGA",
+      "user_facing_field_label": "Änderung erkannt, sichtbarer Abschnitt nicht eindeutig zugeordnet"
+    },
+    {
+      "accordion_title": "Beschreibung der DiGA",
+      "after_value": "Absolute Kontraindikationen gemäß Gebrauchsanweisung, die sich nicht nach ICD-10 kodieren lassen: Trifft nicht zu Relative Ausschlusskriterien, die sich nach ICD-10 kodieren lassen (inkl. ICD-10-Codes) und im Ermessen des Leistungserbringenden liegen: - Blutdruck über 170/100 mmHg (I10 Hypertonie) - Linksventrikuläre Dysfunktion oder Herzinsuffizienz NYHA III-IV (I50.13, I50.14) Relative Ausschlusskriterien, die sich nicht nach ICD-10 kodieren lassen und im Ermessen des Leistungserbringenden liegen: - Mehr als 3 kardiovaskuläre Risikofaktoren (arterielle Hypertonie > 150/90 mmHg, Diabetes mellitus, Dyslipoproteinämie, Nikotinabusus, Bewegungsmangel) - Kardiomyopathien - Moderate, stabile oder instabile Angina pectoris - Herzinfarkt oder Schlaganfall in den letzten 6 Wochen - Moderate bis schwere Valvulopathien - Herzarrhythmien mit hohem Risiko - Unfähigkeit physisch am Programm teilzunehmen Studienspezifische methodische Ausschlusskriterien: - Aktuell durchgeführte Autoinjektionstherapie (SKAT, MUSE) - Z. n. Prostatektomie (Prostataentfernung), Bestrahlung oder Seeds der Prostata - Nervenerkrankungen (z. B. Multiple Sklerose (MS), Parkinson, Z. n. Schlaganfall, Demenz, psychiatrische Erkrankungen) - Z. n. Unfall mit Beteiligung des Beckens, des Penis oder der Wirbelsäule - Z. n. größerer Operation im kleinen Becken mit wahrscheinlicher Beeinträchtigung der neurovaskulären Versorgung (z. B. Rektumresektion, Harnblasenentfernung)",
+      "before_value": "- Mehr als 3 kardiovaskuläre Risikofaktoren (arterielle Hypertonie > 150/90 mmHg, Diabetes mellitus, Dyslipoproteinämie, Nikotinabusus, Bewegungsmangel) - Moderate, stabile oder instabile Angina pectoris - Linksventrikuläre Dysfunktion oder Herzinsuffizienz NYHA III-IV - Herzarrhythmien mit hohem Risiko - Moderate bis schwere Valvulopathien - Kardiomyopathien - Blutdruck über 170/100 mmHg - Herzinfarkt oder Schlaganfall in den letzten 6 Wochen - Z. n. Prostatektomie (Prostataentfernung), Bestrahlung oder Seeds der Prostata - Z. n. größerer Operation im kleinen Becken mit wahrscheinlicher Beeinträchtigung der neurovaskulären Versorgung (z.B. Rektumresektion, Harnblasenentfernung) - Nervenerkrankungen (z. B. Multiple Sklerose (MS), Parkinson, Z. n. Schlaganfall, Demenz, psychiatrische Erkrankungen) - Z. n. Unfall mit Beteiligung des Beckens/des Penis/der Wirbelsäule - Aktuell durchgeführte Autoinjektionstherapie (SKAT, MUSE) - Unfähigkeit physisch am Programm teilzunehmen",
+      "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/01282",
+      "change_type": "visible_diff_unresolved",
+      "changed_field": "descriptive_texts.questionnaire.Weitere nicht durch Kontraindikationen abgedeckte Ausschlusskriterien",
+      "confidence": "visible_diff_unresolved",
+      "current_snapshot_timestamp": "2026-07-17T07:02:11.722673+00:00",
+      "detected_at": "2026-07-17T07:02:12.178719+00:00",
+      "diga_id": "01282",
+      "diga_name": "Kranus Edera",
+      "display_path": "Änderung erkannt, sichtbarer Abschnitt nicht eindeutig zugeordnet",
+      "fallback_reason": "render-on-change did not produce a rendered structure",
+      "field_label": "Weitere nicht durch Kontraindikationen abgedeckte Ausschlusskriterien",
+      "field_name": "descriptive_texts.questionnaire.Weitere nicht durch Kontraindikationen abgedeckte Ausschlusskriterien",
+      "localization_confidence": "visible_diff_unresolved",
+      "main_section": "Beschreibung der DiGA",
+      "manufacturer": "Kranus Health GmbH",
+      "new_value": "Absolute Kontraindikationen gemäß Gebrauchsanweisung, die sich nicht nach ICD-10 kodieren lassen: Trifft nicht zu Relative Ausschlusskriterien, die sich nach ICD-10 kodieren lassen (inkl. ICD-10-Codes) und im Ermessen des Leistungserbringenden liegen: - Blutdruck über 170/100 mmHg (I10 Hypertonie) - Linksventrikuläre Dysfunktion oder Herzinsuffizienz NYHA III-IV (I50.13, I50.14) Relative Ausschlusskriterien, die sich nicht nach ICD-10 kodieren lassen und im Ermessen des Leistungserbringenden liegen: - Mehr als 3 kardiovaskuläre Risikofaktoren (arterielle Hypertonie > 150/90 mmHg, Diabetes mellitus, Dyslipoproteinämie, Nikotinabusus, Bewegungsmangel) - Kardiomyopathien - Moderate, stabile oder instabile Angina pectoris - Herzinfarkt oder Schlaganfall in den letzten 6 Wochen - Moderate bis schwere Valvulopathien - Herzarrhythmien mit hohem Risiko - Unfähigkeit physisch am Programm teilzunehmen Studienspezifische methodische Ausschlusskriterien: - Aktuell durchgeführte Autoinjektionstherapie (SKAT, MUSE) - Z. n. Prostatektomie (Prostataentfernung), Bestrahlung oder Seeds der Prostata - Nervenerkrankungen (z. B. Multiple Sklerose (MS), Parkinson, Z. n. Schlaganfall, Demenz, psychiatrische Erkrankungen) - Z. n. Unfall mit Beteiligung des Beckens, des Penis oder der Wirbelsäule - Z. n. größerer Operation im kleinen Becken mit wahrscheinlicher Beeinträchtigung der neurovaskulären Versorgung (z. B. Rektumresektion, Harnblasenentfernung)",
+      "original_change_type": "text_change",
+      "original_changed_field": "descriptive_texts.questionnaire.Weitere nicht durch Kontraindikationen abgedeckte Ausschlusskriterien",
+      "previous_snapshot_timestamp": "2026-07-17T04:02:09.098389+00:00",
+      "previous_value": "- Mehr als 3 kardiovaskuläre Risikofaktoren (arterielle Hypertonie > 150/90 mmHg, Diabetes mellitus, Dyslipoproteinämie, Nikotinabusus, Bewegungsmangel) - Moderate, stabile oder instabile Angina pectoris - Linksventrikuläre Dysfunktion oder Herzinsuffizienz NYHA III-IV - Herzarrhythmien mit hohem Risiko - Moderate bis schwere Valvulopathien - Kardiomyopathien - Blutdruck über 170/100 mmHg - Herzinfarkt oder Schlaganfall in den letzten 6 Wochen - Z. n. Prostatektomie (Prostataentfernung), Bestrahlung oder Seeds der Prostata - Z. n. größerer Operation im kleinen Becken mit wahrscheinlicher Beeinträchtigung der neurovaskulären Versorgung (z.B. Rektumresektion, Harnblasenentfernung) - Nervenerkrankungen (z. B. Multiple Sklerose (MS), Parkinson, Z. n. Schlaganfall, Demenz, psychiatrische Erkrankungen) - Z. n. Unfall mit Beteiligung des Beckens/des Penis/der Wirbelsäule - Aktuell durchgeführte Autoinjektionstherapie (SKAT, MUSE) - Unfähigkeit physisch am Programm teilzunehmen",
+      "question_label": "Weitere nicht durch Kontraindikationen abgedeckte Ausschlusskriterien",
+      "section_title": "Beschreibung der DiGA",
+      "source_area_label": "Beschreibung der DiGA",
+      "source_kind": "visible_diff_unresolved",
+      "stable_key": "descriptive-texts|beschreibung-der-diga|beschreibung-der-diga|weitere-nicht-durch-kontraindikationen-abgedeckte-ausschlusskriterien|questionnaire-weitere-nicht-durch-kontraindikationen-abgedeckte-ausschlusskriterien",
+      "subsection_title": "Weitere nicht durch Kontraindikationen abgedeckte Ausschlusskriterien",
+      "summary_de": "Eine fachliche Änderung wurde erkannt, der sichtbare Abschnitt konnte aber nicht eindeutig zugeordnet werden.",
+      "tab_label": "Beschreibung der DiGA",
+      "text_change_kind": "mixed_text_change",
+      "user_facing_field_label": "Änderung erkannt, sichtbarer Abschnitt nicht eindeutig zugeordnet",
+      "word_diff": [
+        {
+          "op": "insert",
+          "text": "Absolute"
+        },
+        {
+          "op": "insert",
+          "text": "Kontraindikationen"
+        },
+        {
+          "op": "insert",
+          "text": "gemäß"
+        },
+        {
+          "op": "insert",
+          "text": "Gebrauchsanweisung,"
+        },
+        {
+          "op": "insert",
+          "text": "die"
+        },
+        {
+          "op": "insert",
+          "text": "sich"
+        },
+        {
+          "op": "insert",
+          "text": "nicht"
+        },
+        {
+          "op": "insert",
+          "text": "nach"
+        },
+        {
+          "op": "insert",
+          "text": "ICD-10"
+        },
+        {
+          "op": "insert",
+          "text": "kodieren"
+        },
+        {
+          "op": "insert",
+          "text": "lassen:"
+        },
+        {
+          "op": "insert",
+          "text": "Trifft"
+        },
+        {
+          "op": "insert",
+          "text": "nicht"
+        },
+        {
+          "op": "insert",
+          "text": "zu"
+        },
+        {
+          "op": "insert",
+          "text": "Relative"
+        },
+        {
+          "op": "insert",
+          "text": "Ausschlusskriterien,"
+        },
+        {
+          "op": "insert",
+          "text": "die"
+        },
+        {
+          "op": "insert",
+          "text": "sich"
+        },
+        {
+          "op": "insert",
+          "text": "nach"
+        },
+        {
+          "op": "insert",
+          "text": "ICD-10"
+        },
+        {
+          "op": "insert",
+          "text": "kodieren"
+        },
+        {
+          "op": "insert",
+          "text": "lassen"
+        },
+        {
+          "op": "insert",
+          "text": "(inkl."
+        },
+        {
+          "op": "insert",
+          "text": "ICD-10-Codes)"
+        },
+        {
+          "op": "insert",
+          "text": "und"
+        },
+        {
+          "op": "insert",
+          "text": "im"
+        },
+        {
+          "op": "insert",
+          "text": "Ermessen"
+        },
+        {
+          "op": "insert",
+          "text": "des"
+        },
+        {
+          "op": "insert",
+          "text": "Leistungserbringenden"
+        },
+        {
+          "op": "insert",
+          "text": "liegen:"
+        },
+        {
+          "op": "insert",
+          "text": "-"
+        },
+        {
+          "op": "insert",
+          "text": "Blutdruck"
+        },
+        {
+          "op": "insert",
+          "text": "über"
+        },
+        {
+          "op": "insert",
+          "text": "170/100"
+        },
+        {
+          "op": "insert",
+          "text": "mmHg"
+        },
+        {
+          "op": "insert",
+          "text": "(I10"
+        },
+        {
+          "op": "insert",
+          "text": "Hypertonie)"
+        },
+        {
+          "op": "insert",
+          "text": "-"
+        },
+        {
+          "op": "insert",
+          "text": "Linksventrikuläre"
+        },
+        {
+          "op": "insert",
+          "text": "Dysfunktion"
+        },
+        {
+          "op": "insert",
+          "text": "oder"
+        },
+        {
+          "op": "insert",
+          "text": "Herzinsuffizienz"
+        },
+        {
+          "op": "insert",
+          "text": "NYHA"
+        },
+        {
+          "op": "insert",
+          "text": "III-IV"
+        },
+        {
+          "op": "insert",
+          "text": "(I50.13,"
+        },
+        {
+          "op": "insert",
+          "text": "I50.14)"
+        },
+        {
+          "op": "insert",
+          "text": "Relative"
+        },
+        {
+          "op": "insert",
+          "text": "Ausschlusskriterien,"
+        },
+        {
+          "op": "insert",
+          "text": "die"
+        },
+        {
+          "op": "insert",
+          "text": "sich"
+        },
+        {
+          "op": "insert",
+          "text": "nicht"
+        },
+        {
+          "op": "insert",
+          "text": "nach"
+        },
+        {
+          "op": "insert",
+          "text": "ICD-10"
+        },
+        {
+          "op": "insert",
+          "text": "kodieren"
+        },
+        {
+          "op": "insert",
+          "text": "lassen"
+        },
+        {
+          "op": "insert",
+          "text": "und"
+        },
+        {
+          "op": "insert",
+          "text": "im"
+        },
+        {
+          "op": "insert",
+          "text": "Ermessen"
+        },
+        {
+          "op": "insert",
+          "text": "des"
+        },
+        {
+          "op": "insert",
+          "text": "Leistungserbringenden"
+        },
+        {
+          "op": "insert",
+          "text": "liegen:"
+        },
+        {
+          "op": "equal",
+          "text": "-"
+        },
+        {
+          "op": "equal",
+          "text": "Mehr"
+        },
+        {
+          "op": "equal",
+          "text": "als"
+        },
+        {
+          "op": "equal",
+          "text": "3"
+        },
+        {
+          "op": "equal",
+          "text": "kardiovaskuläre"
+        },
+        {
+          "op": "equal",
+          "text": "Risikofaktoren"
+        },
+        {
+          "op": "equal",
+          "text": "(arterielle"
+        },
+        {
+          "op": "equal",
+          "text": "Hypertonie"
+        },
+        {
+          "op": "equal",
+          "text": ">"
+        },
+        {
+          "op": "equal",
+          "text": "150/90"
+        },
+        {
+          "op": "equal",
+          "text": "mmHg,"
+        },
+        {
+          "op": "equal",
+          "text": "Diabetes"
+        },
+        {
+          "op": "equal",
+          "text": "mellitus,"
+        },
+        {
+          "op": "equal",
+          "text": "Dyslipoproteinämie,"
+        },
+        {
+          "op": "equal",
+          "text": "Nikotinabusus,"
+        },
+        {
+          "op": "equal",
+          "text": "Bewegungsmangel)"
+        },
+        {
+          "op": "equal",
+          "text": "-"
+        },
+        {
+          "op": "insert",
+          "text": "Kardiomyopathien"
+        },
+        {
+          "op": "insert",
+          "text": "-"
+        },
+        {
+          "op": "equal",
+          "text": "Moderate,"
+        },
+        {
+          "op": "equal",
+          "text": "stabile"
+        },
+        {
+          "op": "equal",
+          "text": "oder"
+        },
+        {
+          "op": "equal",
+          "text": "instabile"
+        },
+        {
+          "op": "equal",
+          "text": "Angina"
+        },
+        {
+          "op": "equal",
+          "text": "pectoris"
+        },
+        {
+          "op": "delete",
+          "text": "-"
+        },
+        {
+          "op": "delete",
+          "text": "Linksventrikuläre"
+        },
+        {
+          "op": "delete",
+          "text": "Dysfunktion"
+        },
+        {
+          "op": "delete",
+          "text": "oder"
+        },
+        {
+          "op": "delete",
+          "text": "Herzinsuffizienz"
+        },
+        {
+          "op": "delete",
+          "text": "NYHA"
+        },
+        {
+          "op": "delete",
+          "text": "III-IV"
+        },
+        {
+          "op": "delete",
+          "text": "-"
+        },
+        {
+          "op": "delete",
+          "text": "Herzarrhythmien"
+        },
+        {
+          "op": "delete",
+          "text": "mit"
+        },
+        {
+          "op": "delete",
+          "text": "hohem"
+        },
+        {
+          "op": "delete",
+          "text": "Risiko"
+        },
+        {
+          "op": "delete",
+          "text": "-"
+        },
+        {
+          "op": "delete",
+          "text": "Moderate"
+        },
+        {
+          "op": "delete",
+          "text": "bis"
+        },
+        {
+          "op": "delete",
+          "text": "schwere"
+        },
+        {
+          "op": "delete",
+          "text": "Valvulopathien"
+        },
+        {
+          "op": "delete",
+          "text": "-"
+        },
+        {
+          "op": "delete",
+          "text": "Kardiomyopathien"
+        },
+        {
+          "op": "delete",
+          "text": "-"
+        },
+        {
+          "op": "delete",
+          "text": "Blutdruck"
+        },
+        {
+          "op": "delete",
+          "text": "über"
+        },
+        {
+          "op": "delete",
+          "text": "170/100"
+        },
+        {
+          "op": "delete",
+          "text": "mmHg"
+        },
+        {
+          "op": "equal",
+          "text": "-"
+        },
+        {
+          "op": "equal",
+          "text": "Herzinfarkt"
+        },
+        {
+          "op": "equal",
+          "text": "oder"
+        },
+        {
+          "op": "equal",
+          "text": "Schlaganfall"
+        },
+        {
+          "op": "equal",
+          "text": "in"
+        },
+        {
+          "op": "equal",
+          "text": "den"
+        },
+        {
+          "op": "equal",
+          "text": "letzten"
+        },
+        {
+          "op": "equal",
+          "text": "6"
+        },
+        {
+          "op": "equal",
+          "text": "Wochen"
+        },
+        {
+          "op": "equal",
+          "text": "-"
+        },
+        {
+          "op": "insert",
+          "text": "Moderate"
+        },
+        {
+          "op": "insert",
+          "text": "bis"
+        },
+        {
+          "op": "insert",
+          "text": "schwere"
+        },
+        {
+          "op": "insert",
+          "text": "Valvulopathien"
+        },
+        {
+          "op": "insert",
+          "text": "-"
+        },
+        {
+          "op": "insert",
+          "text": "Herzarrhythmien"
+        },
+        {
+          "op": "insert",
+          "text": "mit"
+        },
+        {
+          "op": "insert",
+          "text": "hohem"
+        },
+        {
+          "op": "insert",
+          "text": "Risiko"
+        },
+        {
+          "op": "insert",
+          "text": "-"
+        },
+        {
+          "op": "insert",
+          "text": "Unfähigkeit"
+        },
+        {
+          "op": "insert",
+          "text": "physisch"
+        },
+        {
+          "op": "insert",
+          "text": "am"
+        },
+        {
+          "op": "insert",
+          "text": "Programm"
+        },
+        {
+          "op": "insert",
+          "text": "teilzunehmen"
+        },
+        {
+          "op": "insert",
+          "text": "Studienspezifische"
+        },
+        {
+          "op": "insert",
+          "text": "methodische"
+        },
+        {
+          "op": "insert",
+          "text": "Ausschlusskriterien:"
+        },
+        {
+          "op": "insert",
+          "text": "-"
+        },
+        {
+          "op": "insert",
+          "text": "Aktuell"
+        },
+        {
+          "op": "insert",
+          "text": "durchgeführte"
+        },
+        {
+          "op": "insert",
+          "text": "Autoinjektionstherapie"
+        },
+        {
+          "op": "insert",
+          "text": "(SKAT,"
+        },
+        {
+          "op": "insert",
+          "text": "MUSE)"
+        },
+        {
+          "op": "insert",
+          "text": "-"
+        },
+        {
+          "op": "equal",
+          "text": "Z."
+        },
+        {
+          "op": "equal",
+          "text": "n."
+        },
+        {
+          "op": "equal",
+          "text": "Prostatektomie"
+        },
+        {
+          "op": "equal",
+          "text": "(Prostataentfernung),"
+        },
+        {
+          "op": "equal",
+          "text": "Bestrahlung"
+        },
+        {
+          "op": "equal",
+          "text": "oder"
+        },
+        {
+          "op": "equal",
+          "text": "Seeds"
+        },
+        {
+          "op": "equal",
+          "text": "der"
+        },
+        {
+          "op": "equal",
+          "text": "Prostata"
+        },
+        {
+          "op": "delete",
+          "text": "-"
+        },
+        {
+          "op": "delete",
+          "text": "Z."
+        },
+        {
+          "op": "delete",
+          "text": "n."
+        },
+        {
+          "op": "delete",
+          "text": "größerer"
+        },
+        {
+          "op": "delete",
+          "text": "Operation"
+        },
+        {
+          "op": "delete",
+          "text": "im"
+        },
+        {
+          "op": "delete",
+          "text": "kleinen"
+        },
+        {
+          "op": "delete",
+          "text": "Becken"
+        },
+        {
+          "op": "delete",
+          "text": "mit"
+        },
+        {
+          "op": "delete",
+          "text": "wahrscheinlicher"
+        },
+        {
+          "op": "delete",
+          "text": "Beeinträchtigung"
+        },
+        {
+          "op": "delete",
+          "text": "der"
+        },
+        {
+          "op": "delete",
+          "text": "neurovaskulären"
+        },
+        {
+          "op": "delete",
+          "text": "Versorgung"
+        },
+        {
+          "op": "delete",
+          "text": "(z.B."
+        },
+        {
+          "op": "delete",
+          "text": "Rektumresektion,"
+        },
+        {
+          "op": "delete",
+          "text": "Harnblasenentfernung)"
+        },
+        {
+          "op": "equal",
+          "text": "-"
+        },
+        {
+          "op": "equal",
+          "text": "Nervenerkrankungen"
+        },
+        {
+          "op": "equal",
+          "text": "(z."
+        },
+        {
+          "op": "equal",
+          "text": "B."
+        },
+        {
+          "op": "equal",
+          "text": "Multiple"
+        },
+        {
+          "op": "equal",
+          "text": "Sklerose"
+        },
+        {
+          "op": "equal",
+          "text": "(MS),"
+        },
+        {
+          "op": "equal",
+          "text": "Parkinson,"
+        },
+        {
+          "op": "equal",
+          "text": "Z."
+        },
+        {
+          "op": "equal",
+          "text": "n."
+        },
+        {
+          "op": "equal",
+          "text": "Schlaganfall,"
+        },
+        {
+          "op": "equal",
+          "text": "Demenz,"
+        },
+        {
+          "op": "equal",
+          "text": "psychiatrische"
+        },
+        {
+          "op": "equal",
+          "text": "Erkrankungen)"
+        },
+        {
+          "op": "equal",
+          "text": "-"
+        },
+        {
+          "op": "equal",
+          "text": "Z."
+        },
+        {
+          "op": "equal",
+          "text": "n."
+        },
+        {
+          "op": "equal",
+          "text": "Unfall"
+        },
+        {
+          "op": "equal",
+          "text": "mit"
+        },
+        {
+          "op": "equal",
+          "text": "Beteiligung"
+        },
+        {
+          "op": "equal",
+          "text": "des"
+        },
+        {
+          "op": "delete",
+          "text": "Beckens/des"
+        },
+        {
+          "op": "delete",
+          "text": "Penis/der"
+        },
+        {
+          "op": "insert",
+          "text": "Beckens,"
+        },
+        {
+          "op": "insert",
+          "text": "des"
+        },
+        {
+          "op": "insert",
+          "text": "Penis"
+        },
+        {
+          "op": "insert",
+          "text": "oder"
+        },
+        {
+          "op": "insert",
+          "text": "der"
+        },
+        {
+          "op": "equal",
+          "text": "Wirbelsäule"
+        },
+        {
+          "op": "equal",
+          "text": "-"
+        },
+        {
+          "op": "delete",
+          "text": "Aktuell"
+        },
+        {
+          "op": "delete",
+          "text": "durchgeführte"
+        },
+        {
+          "op": "delete",
+          "text": "Autoinjektionstherapie"
+        },
+        {
+          "op": "delete",
+          "text": "(SKAT,"
+        },
+        {
+          "op": "delete",
+          "text": "MUSE)"
+        },
+        {
+          "op": "delete",
+          "text": "-"
+        },
+        {
+          "op": "delete",
+          "text": "Unfähigkeit"
+        },
+        {
+          "op": "delete",
+          "text": "physisch"
+        },
+        {
+          "op": "delete",
+          "text": "am"
+        },
+        {
+          "op": "delete",
+          "text": "Programm"
+        },
+        {
+          "op": "delete",
+          "text": "teilzunehmen"
+        },
+        {
+          "op": "insert",
+          "text": "Z."
+        },
+        {
+          "op": "insert",
+          "text": "n."
+        },
+        {
+          "op": "insert",
+          "text": "größerer"
+        },
+        {
+          "op": "insert",
+          "text": "Operation"
+        },
+        {
+          "op": "insert",
+          "text": "im"
+        },
+        {
+          "op": "insert",
+          "text": "kleinen"
+        },
+        {
+          "op": "insert",
+          "text": "Becken"
+        },
+        {
+          "op": "insert",
+          "text": "mit"
+        },
+        {
+          "op": "insert",
+          "text": "wahrscheinlicher"
+        },
+        {
+          "op": "insert",
+          "text": "Beeinträchtigung"
+        },
+        {
+          "op": "insert",
+          "text": "der"
+        },
+        {
+          "op": "insert",
+          "text": "neurovaskulären"
+        },
+        {
+          "op": "insert",
+          "text": "Versorgung"
+        },
+        {
+          "op": "insert",
+          "text": "(z."
+        },
+        {
+          "op": "insert",
+          "text": "B."
+        },
+        {
+          "op": "insert",
+          "text": "Rektumresektion,"
+        },
+        {
+          "op": "insert",
+          "text": "Harnblasenentfernung)"
+        }
+      ]
+    }
+  ]
+}
