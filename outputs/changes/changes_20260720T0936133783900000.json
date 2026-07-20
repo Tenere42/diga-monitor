@@ -1,0 +1,315 @@
+{
+  "created_at": "2026-07-20T09:36:13.378390+00:00",
+  "event_count": 1,
+  "events": [
+    {
+      "accordion_title": "Beschreibung der DiGA",
+      "after_value": "Axia nutzt zur Gewährleistung der Interoperabilität die Version 1.1.0 des MIO DiGA Toolkits. Nutzerinnen und Nutzer können jederzeit per Klick einen Datenexport erstellen – sowohl in maschinenlesbarer Form gemäß dem FHIR-Standard (Fast Healthcare Interoperability Resources) als auch in einer menschenlesbaren Variante im PDF-Format. Die DiGA ermöglicht zudem auf Wunsch des Versicherten einen manuellen oder automatisierten Export in die elektronische Patientenakte (ePA) Version 3.0.",
+      "before_value": "Axia nutzt zur Gewährleistung der Interoperabilität die Version 1.1.0 des MIO DiGA Toolkits. Nutzerinnen und Nutzer können jederzeit per Klick einen Datenexport erstellen – sowohl in maschinenlesbarer Form gemäß dem FHIR-Standard (Fast Healthcare Interoperability Resources) als auch in einer menschenlesbaren Variante im PDF-Format. Ebenso ist ein Export in die ePA möglich.",
+      "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/02856",
+      "change_type": "visible_diff_unresolved",
+      "changed_field": "descriptive_texts.questionnaire.Angaben zur Herstellung von Datenportabilität und semantischer und technischer Interoperabilität der in der digitalen Gesundheitsanwendung genutzten Standards und Profile",
+      "confidence": "visible_diff_unresolved",
+      "current_snapshot_timestamp": "2026-07-20T09:36:13.019842+00:00",
+      "detected_at": "2026-07-20T09:36:13.378390+00:00",
+      "diga_id": "02856",
+      "diga_name": "Axia - für axiale Spondyloarthritis (axSpA)",
+      "display_path": "Änderung erkannt, sichtbarer Abschnitt nicht eindeutig zugeordnet",
+      "fallback_reason": "render-on-change did not produce a rendered structure",
+      "field_label": "Angaben zur Herstellung von Datenportabilität und semantischer und technischer Interoperabilität der in der digitalen Gesundheitsanwendung genutzten Standards und Profile",
+      "field_name": "descriptive_texts.questionnaire.Angaben zur Herstellung von Datenportabilität und semantischer und technischer Interoperabilität der in der digitalen Gesundheitsanwendung genutzten Standards und Profile",
+      "localization_confidence": "visible_diff_unresolved",
+      "main_section": "Beschreibung der DiGA",
+      "manufacturer": "Applimeda GmbH",
+      "new_value": "Axia nutzt zur Gewährleistung der Interoperabilität die Version 1.1.0 des MIO DiGA Toolkits. Nutzerinnen und Nutzer können jederzeit per Klick einen Datenexport erstellen – sowohl in maschinenlesbarer Form gemäß dem FHIR-Standard (Fast Healthcare Interoperability Resources) als auch in einer menschenlesbaren Variante im PDF-Format. Die DiGA ermöglicht zudem auf Wunsch des Versicherten einen manuellen oder automatisierten Export in die elektronische Patientenakte (ePA) Version 3.0.",
+      "original_change_type": "text_change",
+      "original_changed_field": "descriptive_texts.questionnaire.Angaben zur Herstellung von Datenportabilität und semantischer und technischer Interoperabilität der in der digitalen Gesundheitsanwendung genutzten Standards und Profile",
+      "previous_snapshot_timestamp": "2026-07-20T07:02:46.263057+00:00",
+      "previous_value": "Axia nutzt zur Gewährleistung der Interoperabilität die Version 1.1.0 des MIO DiGA Toolkits. Nutzerinnen und Nutzer können jederzeit per Klick einen Datenexport erstellen – sowohl in maschinenlesbarer Form gemäß dem FHIR-Standard (Fast Healthcare Interoperability Resources) als auch in einer menschenlesbaren Variante im PDF-Format. Ebenso ist ein Export in die ePA möglich.",
+      "question_label": "Angaben zur Herstellung von Datenportabilität und semantischer und technischer Interoperabilität der in der digitalen Gesundheitsanwendung genutzten Standards und Profile",
+      "section_title": "Beschreibung der DiGA",
+      "source_area_label": "Beschreibung der DiGA",
+      "source_kind": "visible_diff_unresolved",
+      "stable_key": "descriptive-texts|beschreibung-der-diga|beschreibung-der-diga|angaben-zur-herstellung-von-datenportabilit-t-und-semantischer-und-technischer-interoperabilit-t-der-in-der-digitalen-gesundheitsanwendung-genutzten-standards-und-profile|questionnaire-angaben-zur-herstellung-von-datenportabilit-t-und-semantischer-und-technischer-interoperabilit-t-der-in-der-digitalen-gesundheitsanwendung-genutzten-standards-und-profile",
+      "subsection_title": "Angaben zur Herstellung von Datenportabilität und semantischer und technischer Interoperabilität der in der digitalen Gesundheitsanwendung genutzten Standards und Profile",
+      "summary_de": "Eine fachliche Änderung wurde erkannt, der sichtbare Abschnitt konnte aber nicht eindeutig zugeordnet werden.",
+      "tab_label": "Beschreibung der DiGA",
+      "text_change_kind": "mixed_text_change",
+      "user_facing_field_label": "Änderung erkannt, sichtbarer Abschnitt nicht eindeutig zugeordnet",
+      "word_diff": [
+        {
+          "op": "equal",
+          "text": "Axia"
+        },
+        {
+          "op": "equal",
+          "text": "nutzt"
+        },
+        {
+          "op": "equal",
+          "text": "zur"
+        },
+        {
+          "op": "equal",
+          "text": "Gewährleistung"
+        },
+        {
+          "op": "equal",
+          "text": "der"
+        },
+        {
+          "op": "equal",
+          "text": "Interoperabilität"
+        },
+        {
+          "op": "equal",
+          "text": "die"
+        },
+        {
+          "op": "equal",
+          "text": "Version"
+        },
+        {
+          "op": "equal",
+          "text": "1.1.0"
+        },
+        {
+          "op": "equal",
+          "text": "des"
+        },
+        {
+          "op": "equal",
+          "text": "MIO"
+        },
+        {
+          "op": "equal",
+          "text": "DiGA"
+        },
+        {
+          "op": "equal",
+          "text": "Toolkits."
+        },
+        {
+          "op": "equal",
+          "text": "Nutzerinnen"
+        },
+        {
+          "op": "equal",
+          "text": "und"
+        },
+        {
+          "op": "equal",
+          "text": "Nutzer"
+        },
+        {
+          "op": "equal",
+          "text": "können"
+        },
+        {
+          "op": "equal",
+          "text": "jederzeit"
+        },
+        {
+          "op": "equal",
+          "text": "per"
+        },
+        {
+          "op": "equal",
+          "text": "Klick"
+        },
+        {
+          "op": "equal",
+          "text": "einen"
+        },
+        {
+          "op": "equal",
+          "text": "Datenexport"
+        },
+        {
+          "op": "equal",
+          "text": "erstellen"
+        },
+        {
+          "op": "equal",
+          "text": "–"
+        },
+        {
+          "op": "equal",
+          "text": "sowohl"
+        },
+        {
+          "op": "equal",
+          "text": "in"
+        },
+        {
+          "op": "equal",
+          "text": "maschinenlesbarer"
+        },
+        {
+          "op": "equal",
+          "text": "Form"
+        },
+        {
+          "op": "equal",
+          "text": "gemäß"
+        },
+        {
+          "op": "equal",
+          "text": "dem"
+        },
+        {
+          "op": "equal",
+          "text": "FHIR-Standard"
+        },
+        {
+          "op": "equal",
+          "text": "(Fast"
+        },
+        {
+          "op": "equal",
+          "text": "Healthcare"
+        },
+        {
+          "op": "equal",
+          "text": "Interoperability"
+        },
+        {
+          "op": "equal",
+          "text": "Resources)"
+        },
+        {
+          "op": "equal",
+          "text": "als"
+        },
+        {
+          "op": "equal",
+          "text": "auch"
+        },
+        {
+          "op": "equal",
+          "text": "in"
+        },
+        {
+          "op": "equal",
+          "text": "einer"
+        },
+        {
+          "op": "equal",
+          "text": "menschenlesbaren"
+        },
+        {
+          "op": "equal",
+          "text": "Variante"
+        },
+        {
+          "op": "equal",
+          "text": "im"
+        },
+        {
+          "op": "equal",
+          "text": "PDF-Format."
+        },
+        {
+          "op": "delete",
+          "text": "Ebenso"
+        },
+        {
+          "op": "delete",
+          "text": "ist"
+        },
+        {
+          "op": "insert",
+          "text": "Die"
+        },
+        {
+          "op": "insert",
+          "text": "DiGA"
+        },
+        {
+          "op": "insert",
+          "text": "ermöglicht"
+        },
+        {
+          "op": "insert",
+          "text": "zudem"
+        },
+        {
+          "op": "insert",
+          "text": "auf"
+        },
+        {
+          "op": "insert",
+          "text": "Wunsch"
+        },
+        {
+          "op": "insert",
+          "text": "des"
+        },
+        {
+          "op": "insert",
+          "text": "Versicherten"
+        },
+        {
+          "op": "delete",
+          "text": "ein"
+        },
+        {
+          "op": "insert",
+          "text": "einen"
+        },
+        {
+          "op": "insert",
+          "text": "manuellen"
+        },
+        {
+          "op": "insert",
+          "text": "oder"
+        },
+        {
+          "op": "insert",
+          "text": "automatisierten"
+        },
+        {
+          "op": "equal",
+          "text": "Export"
+        },
+        {
+          "op": "equal",
+          "text": "in"
+        },
+        {
+          "op": "equal",
+          "text": "die"
+        },
+        {
+          "op": "insert",
+          "text": "elektronische"
+        },
+        {
+          "op": "insert",
+          "text": "Patientenakte"
+        },
+        {
+          "op": "delete",
+          "text": "ePA"
+        },
+        {
+          "op": "insert",
+          "text": "(ePA)"
+        },
+        {
+          "op": "delete",
+          "text": "möglich."
+        },
+        {
+          "op": "insert",
+          "text": "Version"
+        },
+        {
+          "op": "insert",
+          "text": "3.0."
+        }
+      ]
+    }
+  ]
+}
