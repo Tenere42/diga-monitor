@@ -1,0 +1,807 @@
+{
+  "created_at": "2026-07-20T13:02:46.195430+00:00",
+  "event_count": 5,
+  "events": [
+    {
+      "accordion_title": "Beschreibung der DiGA",
+      "after_value": null,
+      "before_value": "Zutreffend",
+      "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/02173",
+      "change_type": "visible_diff_unresolved",
+      "changed_field": "descriptive_texts.questionnaire.923",
+      "confidence": "visible_diff_unresolved",
+      "current_snapshot_timestamp": "2026-07-20T13:02:45.810039+00:00",
+      "detected_at": "2026-07-20T13:02:46.195430+00:00",
+      "diga_id": "02173",
+      "diga_name": "eCovery - Therapie bei Schmerzen im unteren Rücken",
+      "display_path": "Änderung erkannt, sichtbarer Abschnitt nicht eindeutig zugeordnet",
+      "fallback_reason": "render-on-change did not produce a rendered structure",
+      "field_label": "Nicht eindeutig zugeordneter Eintrag",
+      "field_name": "descriptive_texts.questionnaire.923",
+      "localization_confidence": "visible_diff_unresolved",
+      "main_section": "Beschreibung der DiGA",
+      "manufacturer": "eCovery GmbH",
+      "new_value": null,
+      "original_change_type": "other_field_change",
+      "original_changed_field": "descriptive_texts.questionnaire.923",
+      "previous_snapshot_timestamp": "2026-07-20T10:02:11.093841+00:00",
+      "previous_value": "Zutreffend",
+      "question_label": "Nicht eindeutig zugeordneter Eintrag",
+      "section_title": "Beschreibung der DiGA",
+      "source_area_label": "Beschreibung der DiGA",
+      "source_kind": "visible_diff_unresolved",
+      "subsection_title": "Nicht eindeutig zugeordneter Eintrag",
+      "summary_de": "Eine fachliche Änderung wurde erkannt, der sichtbare Abschnitt konnte aber nicht eindeutig zugeordnet werden.",
+      "tab_label": "Beschreibung der DiGA",
+      "user_facing_field_label": "Änderung erkannt, sichtbarer Abschnitt nicht eindeutig zugeordnet"
+    },
+    {
+      "accordion_title": "Informationen zum positiven Versorgungseffekt",
+      "after_value": "20 Monate (12 Monate initial, 8 Monate Verlängerung)",
+      "before_value": "19 Monate (12 Monate initial, 7 Monate Verlängerung)",
+      "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/02173",
+      "change_type": "visible_diff_unresolved",
+      "changed_field": "descriptive_texts.questionnaire.Angabe Erprobungszeitraum (höchstens 12 Monate)",
+      "confidence": "visible_diff_unresolved",
+      "current_snapshot_timestamp": "2026-07-20T13:02:45.810039+00:00",
+      "detected_at": "2026-07-20T13:02:46.195430+00:00",
+      "diga_id": "02173",
+      "diga_name": "eCovery - Therapie bei Schmerzen im unteren Rücken",
+      "display_path": "Änderung erkannt, sichtbarer Abschnitt nicht eindeutig zugeordnet",
+      "fallback_reason": "render-on-change did not produce a rendered structure",
+      "field_label": "Angabe Erprobungszeitraum (höchstens 12 Monate)",
+      "field_name": "descriptive_texts.questionnaire.Angabe Erprobungszeitraum (höchstens 12 Monate)",
+      "localization_confidence": "visible_diff_unresolved",
+      "main_section": "Informationen zum positiven Versorgungseffekt",
+      "manufacturer": "eCovery GmbH",
+      "new_value": "20 Monate (12 Monate initial, 8 Monate Verlängerung)",
+      "original_change_type": "text_change",
+      "original_changed_field": "descriptive_texts.questionnaire.Angabe Erprobungszeitraum (höchstens 12 Monate)",
+      "previous_snapshot_timestamp": "2026-07-20T10:02:11.093841+00:00",
+      "previous_value": "19 Monate (12 Monate initial, 7 Monate Verlängerung)",
+      "question_label": "Angabe Erprobungszeitraum (höchstens 12 Monate)",
+      "section_title": "Informationen zum positiven Versorgungseffekt",
+      "source_area_label": "Informationen zum positiven Versorgungseffekt",
+      "source_kind": "visible_diff_unresolved",
+      "stable_key": "descriptive-texts|informationen-zum-positiven-versorgungseffekt|informationen-zum-positiven-versorgungseffekt|angabe-erprobungszeitraum-h-chstens-12-monate|questionnaire-angabe-erprobungszeitraum-h-chstens-12-monate",
+      "subsection_title": "Angabe Erprobungszeitraum (höchstens 12 Monate)",
+      "summary_de": "Eine fachliche Änderung wurde erkannt, der sichtbare Abschnitt konnte aber nicht eindeutig zugeordnet werden.",
+      "tab_label": "Informationen zum positiven Versorgungseffekt",
+      "text_change_kind": "mixed_text_change",
+      "user_facing_field_label": "Änderung erkannt, sichtbarer Abschnitt nicht eindeutig zugeordnet",
+      "word_diff": [
+        {
+          "op": "delete",
+          "text": "19"
+        },
+        {
+          "op": "insert",
+          "text": "20"
+        },
+        {
+          "op": "equal",
+          "text": "Monate"
+        },
+        {
+          "op": "equal",
+          "text": "(12"
+        },
+        {
+          "op": "equal",
+          "text": "Monate"
+        },
+        {
+          "op": "equal",
+          "text": "initial,"
+        },
+        {
+          "op": "delete",
+          "text": "7"
+        },
+        {
+          "op": "insert",
+          "text": "8"
+        },
+        {
+          "op": "equal",
+          "text": "Monate"
+        },
+        {
+          "op": "equal",
+          "text": "Verlängerung)"
+        }
+      ]
+    },
+    {
+      "accordion_title": "Beschreibung der DiGA",
+      "after_value": "Schwangerschaftsfeststellung als Nebenbefund Sturzneigung, anderenorts nicht klassifiziert Blindheit und Sehbeeinträchtigung Bösartige Neubildung sonstiger und ungenau bezeichneter Lokalisationen Sekundäre und nicht näher bezeichnete bösartige Neubildung der Lymphknoten Sekundäre bösartige Neubildung der Atmungs- und Verdauungsorgane Sekundäre bösartige Neubildung an sonstigen und nicht näher bezeichneten Lokalisationen Bösartige Neubildung ohne Angabe der Lokalisation Fieber sonstiger und unbekannter Ursache Malaise und Fatigue Akute Infektion der oberen Atemwege, nicht näher bezeichnet Bakterielle Infektion nicht näher bezeichneter Lokalisation Virusinfektion, nicht näher bezeichnet Lumbale und sonstige Bandscheibenschäden mit Myelopathie Lumbale und sonstige Bandscheibenschäden mit Radikulopathie Leichte Intelligenzminderung Mittelgradige Intelligenzminderung Schwere Intelligenzminderung Schwerste Intelligenzminderung Dissoziierte Intelligenz Andere Intelligenzminderung Nicht näher bezeichnete Intelligenzminderung",
+      "before_value": "Schwangerschaftsfeststellung als Nebenbefund Sturzneigung, anderenorts nicht klassifiziert Blindheit und Sehbeeinträchtigung Bösartige Neubildung sonstiger und ungenau bezeichneter Lokalisationen Sekundäre und nicht näher bezeichnete bösartige Neubildung der Lymphknoten Sekundäre bösartige Neubildung der Atmungs- und Verdauungsorgane Sekundäre bösartige Neubildung an sonstigen und nicht näher bezeichneten Lokalisationen Bösartige Neubildung ohne Angabe der Lokalisation Fieber sonstiger und unbekannter Ursache Unwohlsein und Ermüdung Akute Infektion der oberen Atemwege, nicht näher bezeichnet Bakterielle Infektion nicht näher bezeichneter Lokalisation Virusinfektion, nicht näher bezeichnet Lumbale und sonstige Bandscheibenschäden mit Myelopathie Lumbale und sonstige Bandscheibenschäden mit Radikulopathie Leichte Intelligenzminderung Mittelgradige Intelligenzminderung Schwere Intelligenzminderung Schwerste Intelligenzminderung Dissoziierte Intelligenz Andere Intelligenzminderung Nicht näher bezeichnete Intelligenzminderung",
+      "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/02173",
+      "change_type": "visible_diff_unresolved",
+      "changed_field": "descriptive_texts.questionnaire.Angaben zu medizinischen Kontraindikationen der digitalen Gesundheitsanwendung",
+      "confidence": "visible_diff_unresolved",
+      "current_snapshot_timestamp": "2026-07-20T13:02:45.810039+00:00",
+      "detected_at": "2026-07-20T13:02:46.195430+00:00",
+      "diga_id": "02173",
+      "diga_name": "eCovery - Therapie bei Schmerzen im unteren Rücken",
+      "display_path": "Änderung erkannt, sichtbarer Abschnitt nicht eindeutig zugeordnet",
+      "fallback_reason": "render-on-change did not produce a rendered structure",
+      "field_label": "Angaben zu medizinischen Kontraindikationen der digitalen Gesundheitsanwendung",
+      "field_name": "descriptive_texts.questionnaire.Angaben zu medizinischen Kontraindikationen der digitalen Gesundheitsanwendung",
+      "localization_confidence": "visible_diff_unresolved",
+      "main_section": "Beschreibung der DiGA",
+      "manufacturer": "eCovery GmbH",
+      "new_value": "Schwangerschaftsfeststellung als Nebenbefund Sturzneigung, anderenorts nicht klassifiziert Blindheit und Sehbeeinträchtigung Bösartige Neubildung sonstiger und ungenau bezeichneter Lokalisationen Sekundäre und nicht näher bezeichnete bösartige Neubildung der Lymphknoten Sekundäre bösartige Neubildung der Atmungs- und Verdauungsorgane Sekundäre bösartige Neubildung an sonstigen und nicht näher bezeichneten Lokalisationen Bösartige Neubildung ohne Angabe der Lokalisation Fieber sonstiger und unbekannter Ursache Malaise und Fatigue Akute Infektion der oberen Atemwege, nicht näher bezeichnet Bakterielle Infektion nicht näher bezeichneter Lokalisation Virusinfektion, nicht näher bezeichnet Lumbale und sonstige Bandscheibenschäden mit Myelopathie Lumbale und sonstige Bandscheibenschäden mit Radikulopathie Leichte Intelligenzminderung Mittelgradige Intelligenzminderung Schwere Intelligenzminderung Schwerste Intelligenzminderung Dissoziierte Intelligenz Andere Intelligenzminderung Nicht näher bezeichnete Intelligenzminderung",
+      "original_change_type": "text_change",
+      "original_changed_field": "descriptive_texts.questionnaire.Angaben zu medizinischen Kontraindikationen der digitalen Gesundheitsanwendung",
+      "previous_snapshot_timestamp": "2026-07-20T10:02:11.093841+00:00",
+      "previous_value": "Schwangerschaftsfeststellung als Nebenbefund Sturzneigung, anderenorts nicht klassifiziert Blindheit und Sehbeeinträchtigung Bösartige Neubildung sonstiger und ungenau bezeichneter Lokalisationen Sekundäre und nicht näher bezeichnete bösartige Neubildung der Lymphknoten Sekundäre bösartige Neubildung der Atmungs- und Verdauungsorgane Sekundäre bösartige Neubildung an sonstigen und nicht näher bezeichneten Lokalisationen Bösartige Neubildung ohne Angabe der Lokalisation Fieber sonstiger und unbekannter Ursache Unwohlsein und Ermüdung Akute Infektion der oberen Atemwege, nicht näher bezeichnet Bakterielle Infektion nicht näher bezeichneter Lokalisation Virusinfektion, nicht näher bezeichnet Lumbale und sonstige Bandscheibenschäden mit Myelopathie Lumbale und sonstige Bandscheibenschäden mit Radikulopathie Leichte Intelligenzminderung Mittelgradige Intelligenzminderung Schwere Intelligenzminderung Schwerste Intelligenzminderung Dissoziierte Intelligenz Andere Intelligenzminderung Nicht näher bezeichnete Intelligenzminderung",
+      "question_label": "Angaben zu medizinischen Kontraindikationen der digitalen Gesundheitsanwendung",
+      "section_title": "Beschreibung der DiGA",
+      "source_area_label": "Beschreibung der DiGA",
+      "source_kind": "visible_diff_unresolved",
+      "stable_key": "descriptive-texts|beschreibung-der-diga|beschreibung-der-diga|angaben-zu-medizinischen-kontraindikationen-der-digitalen-gesundheitsanwendung|questionnaire-angaben-zu-medizinischen-kontraindikationen-der-digitalen-gesundheitsanwendung",
+      "subsection_title": "Angaben zu medizinischen Kontraindikationen der digitalen Gesundheitsanwendung",
+      "summary_de": "Eine fachliche Änderung wurde erkannt, der sichtbare Abschnitt konnte aber nicht eindeutig zugeordnet werden.",
+      "tab_label": "Beschreibung der DiGA",
+      "text_change_kind": "mixed_text_change",
+      "user_facing_field_label": "Änderung erkannt, sichtbarer Abschnitt nicht eindeutig zugeordnet",
+      "word_diff": [
+        {
+          "op": "equal",
+          "text": "Schwangerschaftsfeststellung"
+        },
+        {
+          "op": "equal",
+          "text": "als"
+        },
+        {
+          "op": "equal",
+          "text": "Nebenbefund"
+        },
+        {
+          "op": "equal",
+          "text": "Sturzneigung,"
+        },
+        {
+          "op": "equal",
+          "text": "anderenorts"
+        },
+        {
+          "op": "equal",
+          "text": "nicht"
+        },
+        {
+          "op": "equal",
+          "text": "klassifiziert"
+        },
+        {
+          "op": "equal",
+          "text": "Blindheit"
+        },
+        {
+          "op": "equal",
+          "text": "und"
+        },
+        {
+          "op": "equal",
+          "text": "Sehbeeinträchtigung"
+        },
+        {
+          "op": "equal",
+          "text": "Bösartige"
+        },
+        {
+          "op": "equal",
+          "text": "Neubildung"
+        },
+        {
+          "op": "equal",
+          "text": "sonstiger"
+        },
+        {
+          "op": "equal",
+          "text": "und"
+        },
+        {
+          "op": "equal",
+          "text": "ungenau"
+        },
+        {
+          "op": "equal",
+          "text": "bezeichneter"
+        },
+        {
+          "op": "equal",
+          "text": "Lokalisationen"
+        },
+        {
+          "op": "equal",
+          "text": "Sekundäre"
+        },
+        {
+          "op": "equal",
+          "text": "und"
+        },
+        {
+          "op": "equal",
+          "text": "nicht"
+        },
+        {
+          "op": "equal",
+          "text": "näher"
+        },
+        {
+          "op": "equal",
+          "text": "bezeichnete"
+        },
+        {
+          "op": "equal",
+          "text": "bösartige"
+        },
+        {
+          "op": "equal",
+          "text": "Neubildung"
+        },
+        {
+          "op": "equal",
+          "text": "der"
+        },
+        {
+          "op": "equal",
+          "text": "Lymphknoten"
+        },
+        {
+          "op": "equal",
+          "text": "Sekundäre"
+        },
+        {
+          "op": "equal",
+          "text": "bösartige"
+        },
+        {
+          "op": "equal",
+          "text": "Neubildung"
+        },
+        {
+          "op": "equal",
+          "text": "der"
+        },
+        {
+          "op": "equal",
+          "text": "Atmungs-"
+        },
+        {
+          "op": "equal",
+          "text": "und"
+        },
+        {
+          "op": "equal",
+          "text": "Verdauungsorgane"
+        },
+        {
+          "op": "equal",
+          "text": "Sekundäre"
+        },
+        {
+          "op": "equal",
+          "text": "bösartige"
+        },
+        {
+          "op": "equal",
+          "text": "Neubildung"
+        },
+        {
+          "op": "equal",
+          "text": "an"
+        },
+        {
+          "op": "equal",
+          "text": "sonstigen"
+        },
+        {
+          "op": "equal",
+          "text": "und"
+        },
+        {
+          "op": "equal",
+          "text": "nicht"
+        },
+        {
+          "op": "equal",
+          "text": "näher"
+        },
+        {
+          "op": "equal",
+          "text": "bezeichneten"
+        },
+        {
+          "op": "equal",
+          "text": "Lokalisationen"
+        },
+        {
+          "op": "equal",
+          "text": "Bösartige"
+        },
+        {
+          "op": "equal",
+          "text": "Neubildung"
+        },
+        {
+          "op": "equal",
+          "text": "ohne"
+        },
+        {
+          "op": "equal",
+          "text": "Angabe"
+        },
+        {
+          "op": "equal",
+          "text": "der"
+        },
+        {
+          "op": "equal",
+          "text": "Lokalisation"
+        },
+        {
+          "op": "equal",
+          "text": "Fieber"
+        },
+        {
+          "op": "equal",
+          "text": "sonstiger"
+        },
+        {
+          "op": "equal",
+          "text": "und"
+        },
+        {
+          "op": "equal",
+          "text": "unbekannter"
+        },
+        {
+          "op": "equal",
+          "text": "Ursache"
+        },
+        {
+          "op": "delete",
+          "text": "Unwohlsein"
+        },
+        {
+          "op": "insert",
+          "text": "Malaise"
+        },
+        {
+          "op": "equal",
+          "text": "und"
+        },
+        {
+          "op": "delete",
+          "text": "Ermüdung"
+        },
+        {
+          "op": "insert",
+          "text": "Fatigue"
+        },
+        {
+          "op": "equal",
+          "text": "Akute"
+        },
+        {
+          "op": "equal",
+          "text": "Infektion"
+        },
+        {
+          "op": "equal",
+          "text": "der"
+        },
+        {
+          "op": "equal",
+          "text": "oberen"
+        },
+        {
+          "op": "equal",
+          "text": "Atemwege,"
+        },
+        {
+          "op": "equal",
+          "text": "nicht"
+        },
+        {
+          "op": "equal",
+          "text": "näher"
+        },
+        {
+          "op": "equal",
+          "text": "bezeichnet"
+        },
+        {
+          "op": "equal",
+          "text": "Bakterielle"
+        },
+        {
+          "op": "equal",
+          "text": "Infektion"
+        },
+        {
+          "op": "equal",
+          "text": "nicht"
+        },
+        {
+          "op": "equal",
+          "text": "näher"
+        },
+        {
+          "op": "equal",
+          "text": "bezeichneter"
+        },
+        {
+          "op": "equal",
+          "text": "Lokalisation"
+        },
+        {
+          "op": "equal",
+          "text": "Virusinfektion,"
+        },
+        {
+          "op": "equal",
+          "text": "nicht"
+        },
+        {
+          "op": "equal",
+          "text": "näher"
+        },
+        {
+          "op": "equal",
+          "text": "bezeichnet"
+        },
+        {
+          "op": "equal",
+          "text": "Lumbale"
+        },
+        {
+          "op": "equal",
+          "text": "und"
+        },
+        {
+          "op": "equal",
+          "text": "sonstige"
+        },
+        {
+          "op": "equal",
+          "text": "Bandscheibenschäden"
+        },
+        {
+          "op": "equal",
+          "text": "mit"
+        },
+        {
+          "op": "equal",
+          "text": "Myelopathie"
+        },
+        {
+          "op": "equal",
+          "text": "Lumbale"
+        },
+        {
+          "op": "equal",
+          "text": "und"
+        },
+        {
+          "op": "equal",
+          "text": "sonstige"
+        },
+        {
+          "op": "equal",
+          "text": "Bandscheibenschäden"
+        },
+        {
+          "op": "equal",
+          "text": "mit"
+        },
+        {
+          "op": "equal",
+          "text": "Radikulopathie"
+        },
+        {
+          "op": "equal",
+          "text": "Leichte"
+        },
+        {
+          "op": "equal",
+          "text": "Intelligenzminderung"
+        },
+        {
+          "op": "equal",
+          "text": "Mittelgradige"
+        },
+        {
+          "op": "equal",
+          "text": "Intelligenzminderung"
+        },
+        {
+          "op": "equal",
+          "text": "Schwere"
+        },
+        {
+          "op": "equal",
+          "text": "Intelligenzminderung"
+        },
+        {
+          "op": "equal",
+          "text": "Schwerste"
+        },
+        {
+          "op": "equal",
+          "text": "Intelligenzminderung"
+        },
+        {
+          "op": "equal",
+          "text": "Dissoziierte"
+        },
+        {
+          "op": "equal",
+          "text": "Intelligenz"
+        },
+        {
+          "op": "equal",
+          "text": "Andere"
+        },
+        {
+          "op": "equal",
+          "text": "Intelligenzminderung"
+        },
+        {
+          "op": "equal",
+          "text": "Nicht"
+        },
+        {
+          "op": "equal",
+          "text": "näher"
+        },
+        {
+          "op": "equal",
+          "text": "bezeichnete"
+        },
+        {
+          "op": "equal",
+          "text": "Intelligenzminderung"
+        }
+      ]
+    },
+    {
+      "accordion_title": "Informationen zum positiven Versorgungseffekt",
+      "after_value": "2026-08-27",
+      "before_value": "2026-07-27",
+      "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/02173",
+      "change_type": "visible_diff_unresolved",
+      "changed_field": "descriptive_texts.questionnaire.Datum des Endes des Erprobungszeitraumes",
+      "confidence": "visible_diff_unresolved",
+      "current_snapshot_timestamp": "2026-07-20T13:02:45.810039+00:00",
+      "detected_at": "2026-07-20T13:02:46.195430+00:00",
+      "diga_id": "02173",
+      "diga_name": "eCovery - Therapie bei Schmerzen im unteren Rücken",
+      "display_path": "Änderung erkannt, sichtbarer Abschnitt nicht eindeutig zugeordnet",
+      "fallback_reason": "render-on-change did not produce a rendered structure",
+      "field_label": "Datum des Endes des Erprobungszeitraumes",
+      "field_name": "descriptive_texts.questionnaire.Datum des Endes des Erprobungszeitraumes",
+      "localization_confidence": "visible_diff_unresolved",
+      "main_section": "Informationen zum positiven Versorgungseffekt",
+      "manufacturer": "eCovery GmbH",
+      "new_value": "2026-08-27",
+      "original_change_type": "text_change",
+      "original_changed_field": "descriptive_texts.questionnaire.Datum des Endes des Erprobungszeitraumes",
+      "previous_snapshot_timestamp": "2026-07-20T10:02:11.093841+00:00",
+      "previous_value": "2026-07-27",
+      "question_label": "Datum des Endes des Erprobungszeitraumes",
+      "section_title": "Informationen zum positiven Versorgungseffekt",
+      "source_area_label": "Informationen zum positiven Versorgungseffekt",
+      "source_kind": "visible_diff_unresolved",
+      "stable_key": "descriptive-texts|informationen-zum-positiven-versorgungseffekt|informationen-zum-positiven-versorgungseffekt|datum-des-endes-des-erprobungszeitraumes|questionnaire-datum-des-endes-des-erprobungszeitraumes",
+      "subsection_title": "Datum des Endes des Erprobungszeitraumes",
+      "summary_de": "Eine fachliche Änderung wurde erkannt, der sichtbare Abschnitt konnte aber nicht eindeutig zugeordnet werden.",
+      "tab_label": "Informationen zum positiven Versorgungseffekt",
+      "text_change_kind": "text_modified",
+      "user_facing_field_label": "Änderung erkannt, sichtbarer Abschnitt nicht eindeutig zugeordnet",
+      "word_diff": [
+        {
+          "op": "delete",
+          "text": "2026-07-27"
+        },
+        {
+          "op": "insert",
+          "text": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "after_value": [
+        "M42.16 Osteochondrose der Wirbelsäule beim Erwachsenen: Lumbalbereich",
+        "M42.17 Osteochondrose der Wirbelsäule beim Erwachsenen: Lumbosakralbereich",
+        "M42.96 Osteochondrose der Wirbelsäule, nicht näher bezeichnet: Lumbalbereich",
+        "M42.97 Osteochondrose der Wirbelsäule, nicht näher bezeichnet: Lumbosakralbereich",
+        "M54.06 Pannikulitis in der Nacken- und Rückenregion: Lumbalbereich",
+        "M54.07 Pannikulitis in der Nacken- und Rückenregion: Lumbosakralbereich",
+        "M54.16 Radikulopathie: Lumbalbereich",
+        "M54.17 Radikulopathie: Lumbosakralbereich",
+        "M54.3 Ischialgie",
+        "M54.4 Lumboischialgie",
+        "M54.5 Kreuzschmerz",
+        "M54.86 Sonstige Rückenschmerzen: Lumbalbereich",
+        "M54.87 Sonstige Rückenschmerzen: Lumbosakralbereich",
+        "M54.96 Rückenschmerzen, nicht näher bezeichnet: Lumbalbereich",
+        "M99.03 Segmentale und somatische Funktionsstörungen: Lumbalbereich [lumbosakral]",
+        "M99.83 Sonstige biomechanische Funktionsstörungen: Lumbalbereich [lumbosakral]",
+        "M99.93 Biomechanische Funktionsstörung, nicht näher bezeichnet: Lumbalbereich [lumbosakral]",
+        "M54.97 Rückenschmerzen, nicht näher bezeichnet: Lumbosakralbereich",
+        "Z33 Schwangerschaftsfeststellung als Nebenbefund",
+        "R29.6 Sturzneigung, anderenorts nicht klassifiziert",
+        "H54 Blindheit und Sehbeeinträchtigung",
+        "C76 Bösartige Neubildung sonstiger und ungenau bezeichneter Lokalisationen",
+        "C77 Sekundäre und nicht näher bezeichnete bösartige Neubildung der Lymphknoten",
+        "C78 Sekundäre bösartige Neubildung der Atmungs- und Verdauungsorgane",
+        "C79 Sekundäre bösartige Neubildung an sonstigen und nicht näher bezeichneten Lokalisationen",
+        "C80 Bösartige Neubildung ohne Angabe der Lokalisation",
+        "R50 Fieber sonstiger und unbekannter Ursache",
+        "R53 Malaise und Fatigue",
+        "J06.9 Akute Infektion der oberen Atemwege, nicht näher bezeichnet",
+        "A49 Bakterielle Infektion nicht näher bezeichneter Lokalisation",
+        "B34.9 Virusinfektion, nicht näher bezeichnet",
+        "M51.0 Lumbale und sonstige Bandscheibenschäden mit Myelopathie",
+        "M51.1 Lumbale und sonstige Bandscheibenschäden mit Radikulopathie",
+        "F70 Leichte Intelligenzminderung",
+        "F71 Mittelgradige Intelligenzminderung",
+        "F72 Schwere Intelligenzminderung",
+        "F73 Schwerste Intelligenzminderung",
+        "F74 Dissoziierte Intelligenz",
+        "F78 Andere Intelligenzminderung",
+        "F79 Nicht näher bezeichnete Intelligenzminderung"
+      ],
+      "before_value": [
+        "M42.16 Osteochondrose der Wirbelsäule beim Erwachsenen: Lumbalbereich",
+        "M42.17 Osteochondrose der Wirbelsäule beim Erwachsenen: Lumbosakralbereich",
+        "M42.96 Osteochondrose der Wirbelsäule, nicht näher bezeichnet: Lumbalbereich",
+        "M42.97 Osteochondrose der Wirbelsäule, nicht näher bezeichnet: Lumbosakralbereich",
+        "M54.06 Pannikulitis in der Nacken- und Rückenregion: Lumbalbereich",
+        "M54.07 Pannikulitis in der Nacken- und Rückenregion: Lumbosakralbereich",
+        "M54.16 Radikulopathie: Lumbalbereich",
+        "M54.17 Radikulopathie: Lumbosakralbereich",
+        "M54.3 Ischialgie",
+        "M54.4 Lumboischialgie",
+        "M54.5 Kreuzschmerz",
+        "M54.86 Sonstige Rückenschmerzen: Lumbalbereich",
+        "M54.87 Sonstige Rückenschmerzen: Lumbosakralbereich",
+        "M54.96 Rückenschmerzen, nicht näher bezeichnet: Lumbalbereich",
+        "M99.03 Segmentale und somatische Funktionsstörungen: Lumbalbereich [lumbosakral]",
+        "M99.83 Sonstige biomechanische Funktionsstörungen: Lumbalbereich [lumbosakral]",
+        "M99.93 Biomechanische Funktionsstörung, nicht näher bezeichnet: Lumbalbereich [lumbosakral]",
+        "M54.97 Rückenschmerzen, nicht näher bezeichnet: Lumbosakralbereich",
+        "Z33 Schwangerschaftsfeststellung als Nebenbefund",
+        "R29.6 Sturzneigung, anderenorts nicht klassifiziert",
+        "H54 Blindheit und Sehbeeinträchtigung",
+        "C76 Bösartige Neubildung sonstiger und ungenau bezeichneter Lokalisationen",
+        "C77 Sekundäre und nicht näher bezeichnete bösartige Neubildung der Lymphknoten",
+        "C78 Sekundäre bösartige Neubildung der Atmungs- und Verdauungsorgane",
+        "C79 Sekundäre bösartige Neubildung an sonstigen und nicht näher bezeichneten Lokalisationen",
+        "C80 Bösartige Neubildung ohne Angabe der Lokalisation",
+        "R50 Fieber sonstiger und unbekannter Ursache",
+        "R53 Unwohlsein und Ermüdung",
+        "J06.9 Akute Infektion der oberen Atemwege, nicht näher bezeichnet",
+        "A49 Bakterielle Infektion nicht näher bezeichneter Lokalisation",
+        "B34.9 Virusinfektion, nicht näher bezeichnet",
+        "M51.0 Lumbale und sonstige Bandscheibenschäden mit Myelopathie",
+        "M51.1 Lumbale und sonstige Bandscheibenschäden mit Radikulopathie",
+        "F70 Leichte Intelligenzminderung",
+        "F71 Mittelgradige Intelligenzminderung",
+        "F72 Schwere Intelligenzminderung",
+        "F73 Schwerste Intelligenzminderung",
+        "F74 Dissoziierte Intelligenz",
+        "F78 Andere Intelligenzminderung",
+        "F79 Nicht näher bezeichnete Intelligenzminderung"
+      ],
+      "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/02173",
+      "change_type": "visible_diff_unresolved",
+      "changed_field": "indication",
+      "confidence": "visible_diff_unresolved",
+      "current_snapshot_timestamp": "2026-07-20T13:02:45.810039+00:00",
+      "detected_at": "2026-07-20T13:02:46.195430+00:00",
+      "diga_id": "02173",
+      "diga_name": "eCovery - Therapie bei Schmerzen im unteren Rücken",
+      "display_path": "Änderung erkannt, sichtbarer Abschnitt nicht eindeutig zugeordnet",
+      "fallback_reason": "render-on-change did not produce a rendered structure",
+      "field_name": "indication",
+      "localization_confidence": "visible_diff_unresolved",
+      "manufacturer": "eCovery GmbH",
+      "new_value": [
+        "M42.16 Osteochondrose der Wirbelsäule beim Erwachsenen: Lumbalbereich",
+        "M42.17 Osteochondrose der Wirbelsäule beim Erwachsenen: Lumbosakralbereich",
+        "M42.96 Osteochondrose der Wirbelsäule, nicht näher bezeichnet: Lumbalbereich",
+        "M42.97 Osteochondrose der Wirbelsäule, nicht näher bezeichnet: Lumbosakralbereich",
+        "M54.06 Pannikulitis in der Nacken- und Rückenregion: Lumbalbereich",
+        "M54.07 Pannikulitis in der Nacken- und Rückenregion: Lumbosakralbereich",
+        "M54.16 Radikulopathie: Lumbalbereich",
+        "M54.17 Radikulopathie: Lumbosakralbereich",
+        "M54.3 Ischialgie",
+        "M54.4 Lumboischialgie",
+        "M54.5 Kreuzschmerz",
+        "M54.86 Sonstige Rückenschmerzen: Lumbalbereich",
+        "M54.87 Sonstige Rückenschmerzen: Lumbosakralbereich",
+        "M54.96 Rückenschmerzen, nicht näher bezeichnet: Lumbalbereich",
+        "M99.03 Segmentale und somatische Funktionsstörungen: Lumbalbereich [lumbosakral]",
+        "M99.83 Sonstige biomechanische Funktionsstörungen: Lumbalbereich [lumbosakral]",
+        "M99.93 Biomechanische Funktionsstörung, nicht näher bezeichnet: Lumbalbereich [lumbosakral]",
+        "M54.97 Rückenschmerzen, nicht näher bezeichnet: Lumbosakralbereich",
+        "Z33 Schwangerschaftsfeststellung als Nebenbefund",
+        "R29.6 Sturzneigung, anderenorts nicht klassifiziert",
+        "H54 Blindheit und Sehbeeinträchtigung",
+        "C76 Bösartige Neubildung sonstiger und ungenau bezeichneter Lokalisationen",
+        "C77 Sekundäre und nicht näher bezeichnete bösartige Neubildung der Lymphknoten",
+        "C78 Sekundäre bösartige Neubildung der Atmungs- und Verdauungsorgane",
+        "C79 Sekundäre bösartige Neubildung an sonstigen und nicht näher bezeichneten Lokalisationen",
+        "C80 Bösartige Neubildung ohne Angabe der Lokalisation",
+        "R50 Fieber sonstiger und unbekannter Ursache",
+        "R53 Malaise und Fatigue",
+        "J06.9 Akute Infektion der oberen Atemwege, nicht näher bezeichnet",
+        "A49 Bakterielle Infektion nicht näher bezeichneter Lokalisation",
+        "B34.9 Virusinfektion, nicht näher bezeichnet",
+        "M51.0 Lumbale und sonstige Bandscheibenschäden mit Myelopathie",
+        "M51.1 Lumbale und sonstige Bandscheibenschäden mit Radikulopathie",
+        "F70 Leichte Intelligenzminderung",
+        "F71 Mittelgradige Intelligenzminderung",
+        "F72 Schwere Intelligenzminderung",
+        "F73 Schwerste Intelligenzminderung",
+        "F74 Dissoziierte Intelligenz",
+        "F78 Andere Intelligenzminderung",
+        "F79 Nicht näher bezeichnete Intelligenzminderung"
+      ],
+      "original_change_type": "other_field_change",
+      "original_changed_field": "indication",
+      "previous_snapshot_timestamp": "2026-07-20T10:02:11.093841+00:00",
+      "previous_value": [
+        "M42.16 Osteochondrose der Wirbelsäule beim Erwachsenen: Lumbalbereich",
+        "M42.17 Osteochondrose der Wirbelsäule beim Erwachsenen: Lumbosakralbereich",
+        "M42.96 Osteochondrose der Wirbelsäule, nicht näher bezeichnet: Lumbalbereich",
+        "M42.97 Osteochondrose der Wirbelsäule, nicht näher bezeichnet: Lumbosakralbereich",
+        "M54.06 Pannikulitis in der Nacken- und Rückenregion: Lumbalbereich",
+        "M54.07 Pannikulitis in der Nacken- und Rückenregion: Lumbosakralbereich",
+        "M54.16 Radikulopathie: Lumbalbereich",
+        "M54.17 Radikulopathie: Lumbosakralbereich",
+        "M54.3 Ischialgie",
+        "M54.4 Lumboischialgie",
+        "M54.5 Kreuzschmerz",
+        "M54.86 Sonstige Rückenschmerzen: Lumbalbereich",
+        "M54.87 Sonstige Rückenschmerzen: Lumbosakralbereich",
+        "M54.96 Rückenschmerzen, nicht näher bezeichnet: Lumbalbereich",
+        "M99.03 Segmentale und somatische Funktionsstörungen: Lumbalbereich [lumbosakral]",
+        "M99.83 Sonstige biomechanische Funktionsstörungen: Lumbalbereich [lumbosakral]",
+        "M99.93 Biomechanische Funktionsstörung, nicht näher bezeichnet: Lumbalbereich [lumbosakral]",
+        "M54.97 Rückenschmerzen, nicht näher bezeichnet: Lumbosakralbereich",
+        "Z33 Schwangerschaftsfeststellung als Nebenbefund",
+        "R29.6 Sturzneigung, anderenorts nicht klassifiziert",
+        "H54 Blindheit und Sehbeeinträchtigung",
+        "C76 Bösartige Neubildung sonstiger und ungenau bezeichneter Lokalisationen",
+        "C77 Sekundäre und nicht näher bezeichnete bösartige Neubildung der Lymphknoten",
+        "C78 Sekundäre bösartige Neubildung der Atmungs- und Verdauungsorgane",
+        "C79 Sekundäre bösartige Neubildung an sonstigen und nicht näher bezeichneten Lokalisationen",
+        "C80 Bösartige Neubildung ohne Angabe der Lokalisation",
+        "R50 Fieber sonstiger und unbekannter Ursache",
+        "R53 Unwohlsein und Ermüdung",
+        "J06.9 Akute Infektion der oberen Atemwege, nicht näher bezeichnet",
+        "A49 Bakterielle Infektion nicht näher bezeichneter Lokalisation",
+        "B34.9 Virusinfektion, nicht näher bezeichnet",
+        "M51.0 Lumbale und sonstige Bandscheibenschäden mit Myelopathie",
+        "M51.1 Lumbale und sonstige Bandscheibenschäden mit Radikulopathie",
+        "F70 Leichte Intelligenzminderung",
+        "F71 Mittelgradige Intelligenzminderung",
+        "F72 Schwere Intelligenzminderung",
+        "F73 Schwerste Intelligenzminderung",
+        "F74 Dissoziierte Intelligenz",
+        "F78 Andere Intelligenzminderung",
+        "F79 Nicht näher bezeichnete Intelligenzminderung"
+      ],
+      "source_kind": "visible_diff_unresolved",
+      "summary_de": "Eine fachliche Änderung wurde erkannt, der sichtbare Abschnitt konnte aber nicht eindeutig zugeordnet werden.",
+      "user_facing_field_label": "Änderung erkannt, sichtbarer Abschnitt nicht eindeutig zugeordnet"
+    }
+  ]
+}
