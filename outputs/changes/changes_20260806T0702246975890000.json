@@ -1,0 +1,777 @@
+{
+  "created_at": "2026-08-06T07:02:24.697589+00:00",
+  "event_count": 3,
+  "events": [
+    {
+      "accordion_title": "Beschreibung der DiGA",
+      "after_value": "249,86 €",
+      "before_value": "599,40 €",
+      "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/02814",
+      "change_type": "visible_diff_unresolved",
+      "changed_field": "descriptive_texts.questionnaire.Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "confidence": "visible_diff_unresolved",
+      "current_snapshot_timestamp": "2026-08-06T07:02:24.237543+00:00",
+      "detected_at": "2026-08-06T07:02:24.697589+00:00",
+      "diga_id": "02814",
+      "diga_name": "attexis - die digitale Therapie bei ADHS im Erwachsenenalter",
+      "display_path": "Änderung erkannt, sichtbarer Abschnitt nicht eindeutig zugeordnet",
+      "fallback_reason": "render-on-change did not produce a rendered structure",
+      "field_label": " B. Starterpaket) ohne Hardware für 90 Tage",
+      "field_name": "descriptive_texts.questionnaire.Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "localization_confidence": "visible_diff_unresolved",
+      "main_section": "Beschreibung der DiGA",
+      "manufacturer": "GAIA AG",
+      "new_value": "249,86 €",
+      "original_change_type": "text_change",
+      "original_changed_field": "descriptive_texts.questionnaire.Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+      "previous_snapshot_timestamp": "2026-08-06T04:02:25.787803+00:00",
+      "previous_value": "599,40 €",
+      "question_label": " B. Starterpaket) ohne Hardware für 90 Tage",
+      "section_title": "Beschreibung der DiGA",
+      "source_area_label": "Beschreibung der DiGA",
+      "source_kind": "visible_diff_unresolved",
+      "stable_key": "descriptive-texts|weitere-informationen|weitere-informationen|kosten-z-b-starterpaket-ohne-hardware-f-r-90-tage|questionnaire-kosten-z-b-starterpaket-ohne-hardware-f-r-90-tage",
+      "subsection_title": " B. Starterpaket) ohne Hardware für 90 Tage",
+      "summary_de": "Eine fachliche Änderung wurde erkannt, der sichtbare Abschnitt konnte aber nicht eindeutig zugeordnet werden.",
+      "tab_label": "Beschreibung der DiGA",
+      "text_change_kind": "text_modified",
+      "user_facing_field_label": "Änderung erkannt, sichtbarer Abschnitt nicht eindeutig zugeordnet",
+      "word_diff": [
+        {
+          "op": "delete",
+          "text": "599,40"
+        },
+        {
+          "op": "insert",
+          "text": "249,86"
+        },
+        {
+          "op": "equal",
+          "text": "€"
+        }
+      ]
+    },
+    {
+      "accordion_title": "Weitere Informationen zur digitalen Gesundheitsanwendung",
+      "after_value": "249,86 €",
+      "before_value": "599,40 €",
+      "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/02814",
+      "change_type": "visible_diff_unresolved",
+      "changed_field": "descriptive_texts.questionnaire.Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+      "confidence": "visible_diff_unresolved",
+      "current_snapshot_timestamp": "2026-08-06T07:02:24.237543+00:00",
+      "detected_at": "2026-08-06T07:02:24.697589+00:00",
+      "diga_id": "02814",
+      "diga_name": "attexis - die digitale Therapie bei ADHS im Erwachsenenalter",
+      "display_path": "Änderung erkannt, sichtbarer Abschnitt nicht eindeutig zugeordnet",
+      "fallback_reason": "render-on-change did not produce a rendered structure",
+      "field_label": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+      "field_name": "descriptive_texts.questionnaire.Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+      "localization_confidence": "visible_diff_unresolved",
+      "main_section": "Weitere Informationen zur digitalen Gesundheitsanwendung",
+      "manufacturer": "GAIA AG",
+      "new_value": "249,86 €",
+      "original_change_type": "text_change",
+      "original_changed_field": "descriptive_texts.questionnaire.Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+      "previous_snapshot_timestamp": "2026-08-06T04:02:25.787803+00:00",
+      "previous_value": "599,40 €",
+      "question_label": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+      "section_title": "Weitere Informationen zur digitalen Gesundheitsanwendung",
+      "source_area_label": "Weitere Informationen zur digitalen Gesundheitsanwendung",
+      "source_kind": "visible_diff_unresolved",
+      "stable_key": "descriptive-texts|weitere-informationen-zur-digitalen-gesundheitsanwendung|weitere-informationen-zur-digitalen-gesundheitsanwendung|weitere-nutzung-der-diga-f-r-zus-tzliche-90-tage|questionnaire-weitere-nutzung-der-diga-f-r-zus-tzliche-90-tage",
+      "subsection_title": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+      "summary_de": "Eine fachliche Änderung wurde erkannt, der sichtbare Abschnitt konnte aber nicht eindeutig zugeordnet werden.",
+      "tab_label": "Weitere Informationen zur digitalen Gesundheitsanwendung",
+      "text_change_kind": "text_modified",
+      "user_facing_field_label": "Änderung erkannt, sichtbarer Abschnitt nicht eindeutig zugeordnet",
+      "word_diff": [
+        {
+          "op": "delete",
+          "text": "599,40"
+        },
+        {
+          "op": "insert",
+          "text": "249,86"
+        },
+        {
+          "op": "equal",
+          "text": "€"
+        }
+      ]
+    },
+    {
+      "after_value": [
+        {
+          "effective_period": {
+            "end": "2026-04-06",
+            "start": "2025-12-23"
+          },
+          "price_components": [
+            {
+              "extension": [
+                {
+                  "extension": [
+                    {
+                      "url": "required",
+                      "valueBoolean": false
+                    }
+                  ],
+                  "url": "https://fhir.bfarm.de/StructureDefinition/HealthAppPrescriptionUnitPropertyGroupNonRefundable"
+                }
+              ],
+              "priceComponent": [
+                {
+                  "amount": {
+                    "currency": "EUR",
+                    "value": 551.7
+                  },
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "publisher-price",
+                        "display": "Herstellerpreis",
+                        "system": "https://fhir.bfarm.de/CodeSystem/HealthAppPriceCode"
+                      }
+                    ]
+                  },
+                  "type": "informational"
+                }
+              ]
+            }
+          ],
+          "text": [
+            "EUR",
+            "Herstellerpreis"
+          ],
+          "title": "attexis 001"
+        },
+        {
+          "effective_period": {
+            "end": "2025-12-22",
+            "start": "2025-08-06"
+          },
+          "price_components": [
+            {
+              "extension": [
+                {
+                  "extension": [
+                    {
+                      "url": "required",
+                      "valueBoolean": false
+                    }
+                  ],
+                  "url": "https://fhir.bfarm.de/StructureDefinition/HealthAppPrescriptionUnitPropertyGroupNonRefundable"
+                }
+              ],
+              "priceComponent": [
+                {
+                  "amount": {
+                    "currency": "EUR",
+                    "value": 599.4
+                  },
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "publisher-price",
+                        "display": "Herstellerpreis",
+                        "system": "https://fhir.bfarm.de/CodeSystem/HealthAppPriceCode"
+                      }
+                    ]
+                  },
+                  "type": "informational"
+                }
+              ]
+            }
+          ],
+          "text": [
+            "EUR",
+            "Herstellerpreis"
+          ],
+          "title": "attexis 001"
+        },
+        {
+          "effective_period": {
+            "end": "2026-08-05",
+            "start": "2026-04-07"
+          },
+          "price_components": [
+            {
+              "extension": [
+                {
+                  "extension": [
+                    {
+                      "url": "required",
+                      "valueBoolean": false
+                    }
+                  ],
+                  "url": "https://fhir.bfarm.de/StructureDefinition/HealthAppPrescriptionUnitPropertyGroupNonRefundable"
+                }
+              ],
+              "priceComponent": [
+                {
+                  "amount": {
+                    "currency": "EUR",
+                    "value": 599.4
+                  },
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "publisher-price",
+                        "display": "Herstellerpreis",
+                        "system": "https://fhir.bfarm.de/CodeSystem/HealthAppPriceCode"
+                      }
+                    ]
+                  },
+                  "type": "informational"
+                }
+              ]
+            }
+          ],
+          "text": [
+            "EUR",
+            "Herstellerpreis"
+          ],
+          "title": "attexis 001"
+        },
+        {
+          "effective_period": {
+            "start": "2026-08-06"
+          },
+          "price_components": [
+            {
+              "extension": [
+                {
+                  "extension": [
+                    {
+                      "url": "required",
+                      "valueBoolean": false
+                    }
+                  ],
+                  "url": "https://fhir.bfarm.de/StructureDefinition/HealthAppPrescriptionUnitPropertyGroupNonRefundable"
+                }
+              ],
+              "priceComponent": [
+                {
+                  "amount": {
+                    "currency": "EUR",
+                    "value": 249.86
+                  },
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "publisher-price",
+                        "display": "Herstellerpreis",
+                        "system": "https://fhir.bfarm.de/CodeSystem/HealthAppPriceCode"
+                      }
+                    ]
+                  },
+                  "type": "informational"
+                },
+                {
+                  "amount": {
+                    "currency": "EUR",
+                    "value": 249.86
+                  },
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "maximum-amount",
+                        "display": "Vergütungs- / Höchstbetrag",
+                        "system": "https://fhir.bfarm.de/CodeSystem/HealthAppPriceCode"
+                      }
+                    ]
+                  },
+                  "type": "informational"
+                }
+              ]
+            }
+          ],
+          "text": [
+            "EUR",
+            "Herstellerpreis"
+          ],
+          "title": "attexis 001"
+        }
+      ],
+      "before_value": [
+        {
+          "effective_period": {
+            "end": "2026-04-06",
+            "start": "2025-12-23"
+          },
+          "price_components": [
+            {
+              "extension": [
+                {
+                  "extension": [
+                    {
+                      "url": "required",
+                      "valueBoolean": false
+                    }
+                  ],
+                  "url": "https://fhir.bfarm.de/StructureDefinition/HealthAppPrescriptionUnitPropertyGroupNonRefundable"
+                }
+              ],
+              "priceComponent": [
+                {
+                  "amount": {
+                    "currency": "EUR",
+                    "value": 551.7
+                  },
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "publisher-price",
+                        "display": "Herstellerpreis",
+                        "system": "https://fhir.bfarm.de/CodeSystem/HealthAppPriceCode"
+                      }
+                    ]
+                  },
+                  "type": "informational"
+                }
+              ]
+            }
+          ],
+          "text": [
+            "EUR",
+            "Herstellerpreis"
+          ],
+          "title": "attexis 001"
+        },
+        {
+          "effective_period": {
+            "end": "2025-12-22",
+            "start": "2025-08-06"
+          },
+          "price_components": [
+            {
+              "extension": [
+                {
+                  "extension": [
+                    {
+                      "url": "required",
+                      "valueBoolean": false
+                    }
+                  ],
+                  "url": "https://fhir.bfarm.de/StructureDefinition/HealthAppPrescriptionUnitPropertyGroupNonRefundable"
+                }
+              ],
+              "priceComponent": [
+                {
+                  "amount": {
+                    "currency": "EUR",
+                    "value": 599.4
+                  },
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "publisher-price",
+                        "display": "Herstellerpreis",
+                        "system": "https://fhir.bfarm.de/CodeSystem/HealthAppPriceCode"
+                      }
+                    ]
+                  },
+                  "type": "informational"
+                }
+              ]
+            }
+          ],
+          "text": [
+            "EUR",
+            "Herstellerpreis"
+          ],
+          "title": "attexis 001"
+        },
+        {
+          "effective_period": {
+            "start": "2026-04-07"
+          },
+          "price_components": [
+            {
+              "extension": [
+                {
+                  "extension": [
+                    {
+                      "url": "required",
+                      "valueBoolean": false
+                    }
+                  ],
+                  "url": "https://fhir.bfarm.de/StructureDefinition/HealthAppPrescriptionUnitPropertyGroupNonRefundable"
+                }
+              ],
+              "priceComponent": [
+                {
+                  "amount": {
+                    "currency": "EUR",
+                    "value": 599.4
+                  },
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "publisher-price",
+                        "display": "Herstellerpreis",
+                        "system": "https://fhir.bfarm.de/CodeSystem/HealthAppPriceCode"
+                      }
+                    ]
+                  },
+                  "type": "informational"
+                }
+              ]
+            }
+          ],
+          "text": [
+            "EUR",
+            "Herstellerpreis"
+          ],
+          "title": "attexis 001"
+        }
+      ],
+      "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/02814",
+      "change_type": "visible_diff_unresolved",
+      "changed_field": "pricing_information",
+      "confidence": "visible_diff_unresolved",
+      "current_snapshot_timestamp": "2026-08-06T07:02:24.237543+00:00",
+      "detected_at": "2026-08-06T07:02:24.697589+00:00",
+      "diga_id": "02814",
+      "diga_name": "attexis - die digitale Therapie bei ADHS im Erwachsenenalter",
+      "display_path": "Änderung erkannt, sichtbarer Abschnitt nicht eindeutig zugeordnet",
+      "fallback_reason": "render-on-change did not produce a rendered structure",
+      "field_name": "pricing_information",
+      "localization_confidence": "visible_diff_unresolved",
+      "manufacturer": "GAIA AG",
+      "new_value": [
+        {
+          "effective_period": {
+            "end": "2026-04-06",
+            "start": "2025-12-23"
+          },
+          "price_components": [
+            {
+              "extension": [
+                {
+                  "extension": [
+                    {
+                      "url": "required",
+                      "valueBoolean": false
+                    }
+                  ],
+                  "url": "https://fhir.bfarm.de/StructureDefinition/HealthAppPrescriptionUnitPropertyGroupNonRefundable"
+                }
+              ],
+              "priceComponent": [
+                {
+                  "amount": {
+                    "currency": "EUR",
+                    "value": 551.7
+                  },
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "publisher-price",
+                        "display": "Herstellerpreis",
+                        "system": "https://fhir.bfarm.de/CodeSystem/HealthAppPriceCode"
+                      }
+                    ]
+                  },
+                  "type": "informational"
+                }
+              ]
+            }
+          ],
+          "text": [
+            "EUR",
+            "Herstellerpreis"
+          ],
+          "title": "attexis 001"
+        },
+        {
+          "effective_period": {
+            "end": "2025-12-22",
+            "start": "2025-08-06"
+          },
+          "price_components": [
+            {
+              "extension": [
+                {
+                  "extension": [
+                    {
+                      "url": "required",
+                      "valueBoolean": false
+                    }
+                  ],
+                  "url": "https://fhir.bfarm.de/StructureDefinition/HealthAppPrescriptionUnitPropertyGroupNonRefundable"
+                }
+              ],
+              "priceComponent": [
+                {
+                  "amount": {
+                    "currency": "EUR",
+                    "value": 599.4
+                  },
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "publisher-price",
+                        "display": "Herstellerpreis",
+                        "system": "https://fhir.bfarm.de/CodeSystem/HealthAppPriceCode"
+                      }
+                    ]
+                  },
+                  "type": "informational"
+                }
+              ]
+            }
+          ],
+          "text": [
+            "EUR",
+            "Herstellerpreis"
+          ],
+          "title": "attexis 001"
+        },
+        {
+          "effective_period": {
+            "end": "2026-08-05",
+            "start": "2026-04-07"
+          },
+          "price_components": [
+            {
+              "extension": [
+                {
+                  "extension": [
+                    {
+                      "url": "required",
+                      "valueBoolean": false
+                    }
+                  ],
+                  "url": "https://fhir.bfarm.de/StructureDefinition/HealthAppPrescriptionUnitPropertyGroupNonRefundable"
+                }
+              ],
+              "priceComponent": [
+                {
+                  "amount": {
+                    "currency": "EUR",
+                    "value": 599.4
+                  },
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "publisher-price",
+                        "display": "Herstellerpreis",
+                        "system": "https://fhir.bfarm.de/CodeSystem/HealthAppPriceCode"
+                      }
+                    ]
+                  },
+                  "type": "informational"
+                }
+              ]
+            }
+          ],
+          "text": [
+            "EUR",
+            "Herstellerpreis"
+          ],
+          "title": "attexis 001"
+        },
+        {
+          "effective_period": {
+            "start": "2026-08-06"
+          },
+          "price_components": [
+            {
+              "extension": [
+                {
+                  "extension": [
+                    {
+                      "url": "required",
+                      "valueBoolean": false
+                    }
+                  ],
+                  "url": "https://fhir.bfarm.de/StructureDefinition/HealthAppPrescriptionUnitPropertyGroupNonRefundable"
+                }
+              ],
+              "priceComponent": [
+                {
+                  "amount": {
+                    "currency": "EUR",
+                    "value": 249.86
+                  },
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "publisher-price",
+                        "display": "Herstellerpreis",
+                        "system": "https://fhir.bfarm.de/CodeSystem/HealthAppPriceCode"
+                      }
+                    ]
+                  },
+                  "type": "informational"
+                },
+                {
+                  "amount": {
+                    "currency": "EUR",
+                    "value": 249.86
+                  },
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "maximum-amount",
+                        "display": "Vergütungs- / Höchstbetrag",
+                        "system": "https://fhir.bfarm.de/CodeSystem/HealthAppPriceCode"
+                      }
+                    ]
+                  },
+                  "type": "informational"
+                }
+              ]
+            }
+          ],
+          "text": [
+            "EUR",
+            "Herstellerpreis"
+          ],
+          "title": "attexis 001"
+        }
+      ],
+      "original_change_type": "price_change",
+      "original_changed_field": "pricing_information",
+      "previous_snapshot_timestamp": "2026-08-06T04:02:25.787803+00:00",
+      "previous_value": [
+        {
+          "effective_period": {
+            "end": "2026-04-06",
+            "start": "2025-12-23"
+          },
+          "price_components": [
+            {
+              "extension": [
+                {
+                  "extension": [
+                    {
+                      "url": "required",
+                      "valueBoolean": false
+                    }
+                  ],
+                  "url": "https://fhir.bfarm.de/StructureDefinition/HealthAppPrescriptionUnitPropertyGroupNonRefundable"
+                }
+              ],
+              "priceComponent": [
+                {
+                  "amount": {
+                    "currency": "EUR",
+                    "value": 551.7
+                  },
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "publisher-price",
+                        "display": "Herstellerpreis",
+                        "system": "https://fhir.bfarm.de/CodeSystem/HealthAppPriceCode"
+                      }
+                    ]
+                  },
+                  "type": "informational"
+                }
+              ]
+            }
+          ],
+          "text": [
+            "EUR",
+            "Herstellerpreis"
+          ],
+          "title": "attexis 001"
+        },
+        {
+          "effective_period": {
+            "end": "2025-12-22",
+            "start": "2025-08-06"
+          },
+          "price_components": [
+            {
+              "extension": [
+                {
+                  "extension": [
+                    {
+                      "url": "required",
+                      "valueBoolean": false
+                    }
+                  ],
+                  "url": "https://fhir.bfarm.de/StructureDefinition/HealthAppPrescriptionUnitPropertyGroupNonRefundable"
+                }
+              ],
+              "priceComponent": [
+                {
+                  "amount": {
+                    "currency": "EUR",
+                    "value": 599.4
+                  },
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "publisher-price",
+                        "display": "Herstellerpreis",
+                        "system": "https://fhir.bfarm.de/CodeSystem/HealthAppPriceCode"
+                      }
+                    ]
+                  },
+                  "type": "informational"
+                }
+              ]
+            }
+          ],
+          "text": [
+            "EUR",
+            "Herstellerpreis"
+          ],
+          "title": "attexis 001"
+        },
+        {
+          "effective_period": {
+            "start": "2026-04-07"
+          },
+          "price_components": [
+            {
+              "extension": [
+                {
+                  "extension": [
+                    {
+                      "url": "required",
+                      "valueBoolean": false
+                    }
+                  ],
+                  "url": "https://fhir.bfarm.de/StructureDefinition/HealthAppPrescriptionUnitPropertyGroupNonRefundable"
+                }
+              ],
+              "priceComponent": [
+                {
+                  "amount": {
+                    "currency": "EUR",
+                    "value": 599.4
+                  },
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "publisher-price",
+                        "display": "Herstellerpreis",
+                        "system": "https://fhir.bfarm.de/CodeSystem/HealthAppPriceCode"
+                      }
+                    ]
+                  },
+                  "type": "informational"
+                }
+              ]
+            }
+          ],
+          "text": [
+            "EUR",
+            "Herstellerpreis"
+          ],
+          "title": "attexis 001"
+        }
+      ],
+      "source_kind": "visible_diff_unresolved",
+      "summary_de": "Eine fachliche Änderung wurde erkannt, der sichtbare Abschnitt konnte aber nicht eindeutig zugeordnet werden.",
+      "user_facing_field_label": "Änderung erkannt, sichtbarer Abschnitt nicht eindeutig zugeordnet"
+    }
+  ]
+}
