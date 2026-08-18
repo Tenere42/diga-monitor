@@ -1,0 +1,120 @@
+{
+  "created_at": "2026-08-18T10:03:57.600128+00:00",
+  "event_count": 2,
+  "events": [
+    {
+      "accordion_title": "Beschreibung der DiGA",
+      "after_value": "Android 11.0.0 oder neuer",
+      "before_value": "Android 10.0.0 oder neuer",
+      "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/00872",
+      "change_type": "visible_diff_unresolved",
+      "changed_field": "descriptive_texts.questionnaire.Softwarekompatibilität Android-App",
+      "confidence": "visible_diff_unresolved",
+      "current_snapshot_timestamp": "2026-08-18T10:03:57.332246+00:00",
+      "detected_at": "2026-08-18T10:03:57.600128+00:00",
+      "diga_id": "00872",
+      "diga_name": "Oviva Direkt für Adipositas",
+      "display_path": "Änderung erkannt, sichtbarer Abschnitt nicht eindeutig zugeordnet",
+      "fallback_reason": "render-on-change did not produce a rendered structure",
+      "field_label": "Softwarekompatibilität Android-App",
+      "field_name": "descriptive_texts.questionnaire.Softwarekompatibilität Android-App",
+      "localization_confidence": "visible_diff_unresolved",
+      "main_section": "Beschreibung der DiGA",
+      "manufacturer": "Oviva AG (Zweigniederlassung Deutschland)",
+      "new_value": "Android 11.0.0 oder neuer",
+      "original_change_type": "text_change",
+      "original_changed_field": "descriptive_texts.questionnaire.Softwarekompatibilität Android-App",
+      "previous_snapshot_timestamp": "2026-08-18T07:07:22.405738+00:00",
+      "previous_value": "Android 10.0.0 oder neuer",
+      "question_label": "Softwarekompatibilität Android-App",
+      "section_title": "Beschreibung der DiGA",
+      "source_area_label": "Beschreibung der DiGA",
+      "source_kind": "visible_diff_unresolved",
+      "stable_key": "descriptive-texts|beschreibung-der-diga|beschreibung-der-diga|softwarekompatibilit-t-android-app|questionnaire-softwarekompatibilit-t-android-app",
+      "subsection_title": "Softwarekompatibilität Android-App",
+      "summary_de": "Eine fachliche Änderung wurde erkannt, der sichtbare Abschnitt konnte aber nicht eindeutig zugeordnet werden.",
+      "tab_label": "Beschreibung der DiGA",
+      "text_change_kind": "text_modified",
+      "user_facing_field_label": "Änderung erkannt, sichtbarer Abschnitt nicht eindeutig zugeordnet",
+      "word_diff": [
+        {
+          "op": "equal",
+          "text": "Android"
+        },
+        {
+          "op": "delete",
+          "text": "10.0.0"
+        },
+        {
+          "op": "insert",
+          "text": "11.0.0"
+        },
+        {
+          "op": "equal",
+          "text": "oder"
+        },
+        {
+          "op": "equal",
+          "text": "neuer"
+        }
+      ]
+    },
+    {
+      "accordion_title": "Beschreibung der DiGA",
+      "after_value": "iOS 18.0 oder neuer",
+      "before_value": "iOS 16.0 oder neuer",
+      "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/00872",
+      "change_type": "visible_diff_unresolved",
+      "changed_field": "descriptive_texts.questionnaire.Softwarekompatibilität iOS-App",
+      "confidence": "visible_diff_unresolved",
+      "current_snapshot_timestamp": "2026-08-18T10:03:57.332246+00:00",
+      "detected_at": "2026-08-18T10:03:57.600128+00:00",
+      "diga_id": "00872",
+      "diga_name": "Oviva Direkt für Adipositas",
+      "display_path": "Änderung erkannt, sichtbarer Abschnitt nicht eindeutig zugeordnet",
+      "fallback_reason": "render-on-change did not produce a rendered structure",
+      "field_label": "Softwarekompatibilität iOS-App",
+      "field_name": "descriptive_texts.questionnaire.Softwarekompatibilität iOS-App",
+      "localization_confidence": "visible_diff_unresolved",
+      "main_section": "Beschreibung der DiGA",
+      "manufacturer": "Oviva AG (Zweigniederlassung Deutschland)",
+      "new_value": "iOS 18.0 oder neuer",
+      "original_change_type": "text_change",
+      "original_changed_field": "descriptive_texts.questionnaire.Softwarekompatibilität iOS-App",
+      "previous_snapshot_timestamp": "2026-08-18T07:07:22.405738+00:00",
+      "previous_value": "iOS 16.0 oder neuer",
+      "question_label": "Softwarekompatibilität iOS-App",
+      "section_title": "Beschreibung der DiGA",
+      "source_area_label": "Beschreibung der DiGA",
+      "source_kind": "visible_diff_unresolved",
+      "stable_key": "descriptive-texts|beschreibung-der-diga|beschreibung-der-diga|softwarekompatibilit-t-ios-app|questionnaire-softwarekompatibilit-t-ios-app",
+      "subsection_title": "Softwarekompatibilität iOS-App",
+      "summary_de": "Eine fachliche Änderung wurde erkannt, der sichtbare Abschnitt konnte aber nicht eindeutig zugeordnet werden.",
+      "tab_label": "Beschreibung der DiGA",
+      "text_change_kind": "text_modified",
+      "user_facing_field_label": "Änderung erkannt, sichtbarer Abschnitt nicht eindeutig zugeordnet",
+      "word_diff": [
+        {
+          "op": "equal",
+          "text": "iOS"
+        },
+        {
+          "op": "delete",
+          "text": "16.0"
+        },
+        {
+          "op": "insert",
+          "text": "18.0"
+        },
+        {
+          "op": "equal",
+          "text": "oder"
+        },
+        {
+          "op": "equal",
+          "text": "neuer"
+        }
+      ]
+    }
+  ]
+}
