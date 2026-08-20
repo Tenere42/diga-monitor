@@ -4834,5 +4834,11 @@
     "number_of_diga": 79,
     "scan_duration_seconds": 6.397,
     "scan_timestamp": "2026-08-19T22:02:51.204421+00:00"
+  },
+  {
+    "changes_detected": 3,
+    "number_of_diga": 79,
+    "scan_duration_seconds": 6.066,
+    "scan_timestamp": "2026-08-20T01:03:45.944781+00:00"
   }
 ]
