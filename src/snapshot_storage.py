@@ -19,6 +19,16 @@ class SnapshotArchiveError(RuntimeError):
     """Raised when durable snapshot archival cannot be completed."""
 
 
+def normalized_env_value(name: str) -> str | None:
+    raw_value = os.getenv(name)
+    if raw_value is None:
+        return None
+    value = raw_value.strip()
+    if "\r" in value or "\n" in value:
+        raise SnapshotArchiveError(f"Malformed R2 configuration: {name} contains an embedded newline")
+    return value
+
+
 @dataclass
 class R2SnapshotArchive:
     client: Any
@@ -28,10 +38,10 @@ class R2SnapshotArchive:
     @classmethod
     def from_env(cls) -> "R2SnapshotArchive | None":
         values = {
-            "endpoint_url": os.getenv("R2_ENDPOINT"),
-            "bucket": os.getenv("R2_BUCKET_NAME"),
-            "aws_access_key_id": os.getenv("R2_ACCESS_KEY_ID"),
-            "aws_secret_access_key": os.getenv("R2_SECRET_ACCESS_KEY"),
+            "endpoint_url": normalized_env_value("R2_ENDPOINT"),
+            "bucket": normalized_env_value("R2_BUCKET_NAME"),
+            "aws_access_key_id": normalized_env_value("R2_ACCESS_KEY_ID"),
+            "aws_secret_access_key": normalized_env_value("R2_SECRET_ACCESS_KEY"),
         }
         configured = [bool(value) for value in values.values()]
         required = os.getenv("R2_ARCHIVE_REQUIRED", "").strip().lower() in {"1", "true", "yes", "on"}

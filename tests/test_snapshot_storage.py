@@ -2,11 +2,15 @@ from __future__ import annotations
 
 import gzip
 import json
+import os
+import sys
+import types
 import unittest
 import uuid
 from contextlib import contextmanager
 from datetime import datetime, timezone
 from pathlib import Path
+from unittest import mock
 
 from src.snapshot_storage import R2SnapshotArchive, SnapshotArchiveError, finalize_snapshot_storage
 
@@ -56,7 +60,98 @@ def write_snapshot(path: Path, created_at: str, name: str) -> None:
     )
 
 
+def archive_from_environment(values: dict[str, str]) -> tuple[R2SnapshotArchive, dict[str, object]]:
+    captured: dict[str, object] = {}
+
+    def client(service: str, **kwargs: object) -> FakeS3Client:
+        captured["service"] = service
+        captured.update(kwargs)
+        return FakeS3Client()
+
+    boto3 = types.SimpleNamespace(client=client)
+    with (
+        mock.patch.dict(os.environ, values, clear=True),
+        mock.patch.dict(sys.modules, {"boto3": boto3}),
+    ):
+        archive = R2SnapshotArchive.from_env()
+    if archive is None:
+        raise AssertionError("Expected configured R2 archive")
+    return archive, captured
+
+
 class SnapshotStorageTests(unittest.TestCase):
+    def test_clean_environment_credentials_are_passed_to_s3_client(self) -> None:
+        archive, captured = archive_from_environment(
+            {
+                "R2_ENDPOINT": "https://account.r2.cloudflarestorage.com",
+                "R2_BUCKET_NAME": "diga-monitor",
+                "R2_ACCESS_KEY_ID": "clean-access-key",
+                "R2_SECRET_ACCESS_KEY": "clean-secret-key",
+                "R2_ARCHIVE_REQUIRED": "true",
+            }
+        )
+
+        self.assertEqual(archive.bucket, "diga-monitor")
+        self.assertEqual(captured["aws_access_key_id"], "clean-access-key")
+        self.assertEqual(captured["aws_secret_access_key"], "clean-secret-key")
+
+    def test_credentials_with_trailing_newline_are_trimmed(self) -> None:
+        _archive, captured = archive_from_environment(
+            {
+                "R2_ENDPOINT": "https://account.r2.cloudflarestorage.com\n",
+                "R2_BUCKET_NAME": "diga-monitor\r\n",
+                "R2_ACCESS_KEY_ID": "access-key\n",
+                "R2_SECRET_ACCESS_KEY": "secret-key\r\n",
+                "R2_ARCHIVE_REQUIRED": "true",
+            }
+        )
+
+        self.assertEqual(captured["endpoint_url"], "https://account.r2.cloudflarestorage.com")
+        self.assertEqual(captured["aws_access_key_id"], "access-key")
+        self.assertEqual(captured["aws_secret_access_key"], "secret-key")
+
+    def test_configuration_with_leading_and_trailing_spaces_is_trimmed(self) -> None:
+        archive, captured = archive_from_environment(
+            {
+                "R2_ENDPOINT": "  https://account.r2.cloudflarestorage.com  ",
+                "R2_BUCKET_NAME": "  diga-monitor  ",
+                "R2_ACCESS_KEY_ID": "  access-key  ",
+                "R2_SECRET_ACCESS_KEY": "  secret-key  ",
+                "R2_ARCHIVE_REQUIRED": "true",
+            }
+        )
+
+        self.assertEqual(archive.bucket, "diga-monitor")
+        self.assertEqual(captured["aws_access_key_id"], "access-key")
+        self.assertEqual(captured["aws_secret_access_key"], "secret-key")
+
+    def test_embedded_credential_newline_is_rejected_without_secret_value(self) -> None:
+        base = {
+            "R2_ENDPOINT": "https://account.r2.cloudflarestorage.com",
+            "R2_BUCKET_NAME": "diga-monitor",
+            "R2_ACCESS_KEY_ID": "access-key",
+            "R2_SECRET_ACCESS_KEY": "secret-key",
+            "R2_ARCHIVE_REQUIRED": "true",
+        }
+        malformed = {
+            "R2_ACCESS_KEY_ID": "private-access\nkey",
+            "R2_SECRET_ACCESS_KEY": "private-secret\r\nkey",
+        }
+
+        for variable, secret_value in malformed.items():
+            with self.subTest(variable=variable), mock.patch.dict(
+                os.environ,
+                {**base, variable: secret_value},
+                clear=True,
+            ):
+                with self.assertRaises(SnapshotArchiveError) as raised:
+                    R2SnapshotArchive.from_env()
+                message = str(raised.exception)
+                self.assertIn(variable, message)
+                self.assertNotIn(secret_value, message)
+                self.assertNotIn("private-access", message)
+                self.assertNotIn("private-secret", message)
+
     def test_unchanged_scan_keeps_one_baseline_without_change_archive(self) -> None:
         with temporary_directory() as temp:
             root = Path(temp)
