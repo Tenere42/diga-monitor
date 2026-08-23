@@ -18,8 +18,17 @@ class WorkflowScheduleTests(unittest.TestCase):
     def test_concurrency_and_r2_configuration(self) -> None:
         workflow = WORKFLOW.read_text(encoding="utf-8")
         self.assertIn("concurrency:\n  group: diga-monitor\n  cancel-in-progress: false", workflow)
-        for name in ("R2_ENDPOINT", "R2_BUCKET_NAME", "R2_ACCESS_KEY_ID", "R2_SECRET_ACCESS_KEY"):
-            self.assertIn(name, workflow)
+        self.assertIn("R2_ENDPOINT: ${{ vars.R2_ENDPOINT || vars.S3_ENDPOINT }}", workflow)
+        self.assertIn("R2_BUCKET_NAME: ${{ vars.R2_BUCKET_NAME || 'diga-monitor' }}", workflow)
+        self.assertIn(
+            "R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID || secrets.ACCESS_KEY_ID }}",
+            workflow,
+        )
+        self.assertIn(
+            "R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY || secrets.SECRET_ACCESS_KEY }}",
+            workflow,
+        )
+        self.assertIn('R2_ARCHIVE_REQUIRED: "true"', workflow)
         self.assertNotIn("data/snapshots outputs/changes", workflow)
 
 
