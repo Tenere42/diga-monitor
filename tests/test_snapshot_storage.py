@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import gzip
+import io
 import json
 import os
 import sys
@@ -8,6 +9,7 @@ import types
 import unittest
 import uuid
 from contextlib import contextmanager
+from contextlib import redirect_stdout
 from datetime import datetime, timezone
 from pathlib import Path
 from unittest import mock
@@ -80,6 +82,32 @@ def archive_from_environment(values: dict[str, str]) -> tuple[R2SnapshotArchive,
 
 
 class SnapshotStorageTests(unittest.TestCase):
+    def test_configuration_metadata_reports_shape_without_values(self) -> None:
+        access_key = "diagnostic-access-key\n"
+        secret_key = "diagnostic-secret-key"
+        output = io.StringIO()
+        values = {
+            "R2_ENDPOINT": "https://account.r2.cloudflarestorage.com",
+            "R2_BUCKET_NAME": "diga-monitor",
+            "R2_ACCESS_KEY_ID": access_key,
+            "R2_SECRET_ACCESS_KEY": secret_key,
+            "R2_ARCHIVE_REQUIRED": "true",
+        }
+
+        with redirect_stdout(output):
+            archive, captured = archive_from_environment(values)
+
+        diagnostics = output.getvalue()
+        self.assertEqual(archive.bucket, "diga-monitor")
+        self.assertEqual(captured["aws_access_key_id"], access_key.strip())
+        self.assertIn("[python-raw] R2_ACCESS_KEY_ID", diagnostics)
+        self.assertIn("contains_lf=True", diagnostics)
+        self.assertIn("boundary_whitespace=True", diagnostics)
+        self.assertIn("[python-normalized] R2_ACCESS_KEY_ID", diagnostics)
+        self.assertIn("contains_lf=False", diagnostics)
+        self.assertNotIn(access_key.strip(), diagnostics)
+        self.assertNotIn(secret_key, diagnostics)
+
     def test_clean_environment_credentials_are_passed_to_s3_client(self) -> None:
         archive, captured = archive_from_environment(
             {

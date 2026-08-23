@@ -72,6 +72,36 @@ jobs:
           DASHBOARD_URL: ${{ secrets.DASHBOARD_URL }}
         run: python -m src.main notify-test
 
+      - name: Diagnose R2 configuration metadata
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.notification_test != 'true' }}
+        env:
+          R2_ENDPOINT: ${{ vars.R2_ENDPOINT || vars.S3_ENDPOINT }}
+          R2_BUCKET_NAME: ${{ vars.R2_BUCKET_NAME || 'diga-monitor' }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID || secrets.ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY || secrets.SECRET_ACCESS_KEY }}
+        run: |
+          python - <<'PY'
+          import os
+
+          for name in (
+              "R2_ENDPOINT",
+              "R2_BUCKET_NAME",
+              "R2_ACCESS_KEY_ID",
+              "R2_SECRET_ACCESS_KEY",
+          ):
+              value = os.getenv(name)
+              present = value is not None and value != ""
+              length = len(value) if value is not None else 0
+              has_lf = "\n" in value if value is not None else False
+              has_cr = "\r" in value if value is not None else False
+              boundary_whitespace = value != value.strip() if value is not None else False
+              print(
+                  f"::notice::{name} metadata: present={present} length={length} "
+                  f"contains_lf={has_lf} contains_cr={has_cr} "
+                  f"boundary_whitespace={boundary_whitespace}"
+              )
+          PY
+
       - name: Run DiGA monitor
         if: ${{ github.event_name != 'workflow_dispatch' || inputs.notification_test != 'true' }}
         env:

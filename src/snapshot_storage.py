@@ -13,14 +13,36 @@ from typing import Any
 
 
 DEFAULT_BASELINE_PATH = Path("data/baseline/current_snapshot.json")
+R2_CONFIGURATION_NAMES = (
+    "R2_ENDPOINT",
+    "R2_BUCKET_NAME",
+    "R2_ACCESS_KEY_ID",
+    "R2_SECRET_ACCESS_KEY",
+)
 
 
 class SnapshotArchiveError(RuntimeError):
     """Raised when durable snapshot archival cannot be completed."""
 
 
-def normalized_env_value(name: str) -> str | None:
-    raw_value = os.getenv(name)
+def configuration_metadata(value: str | None) -> dict[str, bool | int]:
+    return {
+        "present": value is not None and value != "",
+        "length": len(value) if value is not None else 0,
+        "contains_lf": "\n" in value if value is not None else False,
+        "contains_cr": "\r" in value if value is not None else False,
+        "boundary_whitespace": value != value.strip() if value is not None else False,
+    }
+
+
+def log_configuration_metadata(stage: str, values: dict[str, str | None]) -> None:
+    for name in R2_CONFIGURATION_NAMES:
+        metadata = configuration_metadata(values.get(name))
+        details = " ".join(f"{key}={value}" for key, value in metadata.items())
+        print(f"R2 configuration metadata [{stage}] {name}: {details}")
+
+
+def normalized_env_value(name: str, raw_value: str | None) -> str | None:
     if raw_value is None:
         return None
     value = raw_value.strip()
@@ -37,11 +59,18 @@ class R2SnapshotArchive:
 
     @classmethod
     def from_env(cls) -> "R2SnapshotArchive | None":
+        raw_values = {name: os.getenv(name) for name in R2_CONFIGURATION_NAMES}
+        log_configuration_metadata("python-raw", raw_values)
+        normalized_values = {
+            name: normalized_env_value(name, raw_values[name])
+            for name in R2_CONFIGURATION_NAMES
+        }
+        log_configuration_metadata("python-normalized", normalized_values)
         values = {
-            "endpoint_url": normalized_env_value("R2_ENDPOINT"),
-            "bucket": normalized_env_value("R2_BUCKET_NAME"),
-            "aws_access_key_id": normalized_env_value("R2_ACCESS_KEY_ID"),
-            "aws_secret_access_key": normalized_env_value("R2_SECRET_ACCESS_KEY"),
+            "endpoint_url": normalized_values["R2_ENDPOINT"],
+            "bucket": normalized_values["R2_BUCKET_NAME"],
+            "aws_access_key_id": normalized_values["R2_ACCESS_KEY_ID"],
+            "aws_secret_access_key": normalized_values["R2_SECRET_ACCESS_KEY"],
         }
         configured = [bool(value) for value in values.values()]
         required = os.getenv("R2_ARCHIVE_REQUIRED", "").strip().lower() in {"1", "true", "yes", "on"}

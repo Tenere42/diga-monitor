@@ -29,6 +29,15 @@ class WorkflowScheduleTests(unittest.TestCase):
             workflow,
         )
         self.assertIn('R2_ARCHIVE_REQUIRED: "true"', workflow)
+        self.assertIn("- name: Diagnose R2 configuration metadata", workflow)
+        for metadata in (
+            "present=",
+            "length=",
+            "contains_lf=",
+            "contains_cr=",
+            "boundary_whitespace=",
+        ):
+            self.assertIn(metadata, workflow)
         self.assertNotIn("data/snapshots outputs/changes", workflow)
 
 
