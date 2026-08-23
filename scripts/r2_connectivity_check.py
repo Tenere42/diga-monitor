@@ -8,6 +8,7 @@ it again.
 from __future__ import annotations
 
 import uuid
+from dataclasses import dataclass
 from typing import Any
 
 from src.snapshot_storage import R2SnapshotArchive, SnapshotArchiveError
@@ -17,14 +18,23 @@ class R2ConnectivityError(RuntimeError):
     """Raised when a connectivity-check stage fails."""
 
 
-def safe_error_metadata(exc: Exception) -> str:
+@dataclass(frozen=True)
+class OperationResult:
+    operation: str
+    passed: bool
+    status: str
+    code: str
+    message: str
+
+
+def safe_error_metadata(exc: Exception) -> tuple[str, str]:
     """Return status and error code only, never an exception message."""
     response = getattr(exc, "response", {})
     if not isinstance(response, dict):
-        return "status=unknown code=unknown"
+        return "unknown", "unknown"
     status = response.get("ResponseMetadata", {}).get("HTTPStatusCode", "unknown")
     code = response.get("Error", {}).get("Code", "unknown")
-    return f"status={status} code={code}"
+    return str(status), str(code)
 
 
 def is_not_found(exc: Exception) -> bool:
@@ -36,36 +46,57 @@ def is_not_found(exc: Exception) -> bool:
     return status == 404 or str(code) in {"404", "NoSuchKey", "NotFound"}
 
 
-def _call(stage: str, operation: Any, **kwargs: Any) -> Any:
+def _call(operation_name: str, operation: Any, **kwargs: Any) -> OperationResult:
     try:
-        return operation(**kwargs)
+        operation(**kwargs)
     except Exception as exc:
-        raise R2ConnectivityError(
-            f"R2 connectivity check failed at {stage}: {safe_error_metadata(exc)}"
-        ) from None
+        status, code = safe_error_metadata(exc)
+        return OperationResult(
+            operation_name, False, status, code, "request rejected"
+        )
+    return OperationResult(operation_name, True, "success", "success", "request succeeded")
 
 
-def run_connectivity_check(archive: R2SnapshotArchive, key: str | None = None) -> None:
-    """Verify list, head, put, and delete access without touching archive data."""
+def run_connectivity_check(
+    archive: R2SnapshotArchive,
+    key: str | None = None,
+) -> list[OperationResult]:
+    """Test each R2 operation independently and always attempt cleanup."""
     key = key or f"diagnostics/connectivity-{uuid.uuid4().hex}.txt"
     client = archive.client
     bucket = archive.bucket
-    uploaded = False
-
-    _call("ListBucket", client.list_objects_v2, Bucket=bucket, MaxKeys=1)
+    results: list[OperationResult] = []
 
     try:
         client.head_object(Bucket=bucket, Key=key)
     except Exception as exc:
-        if not is_not_found(exc):
-            raise R2ConnectivityError(
-                "R2 connectivity check failed at HeadObject-before-upload: "
-                f"{safe_error_metadata(exc)}"
-            ) from None
+        status, code = safe_error_metadata(exc)
+        if is_not_found(exc):
+            results.append(
+                OperationResult(
+                    "HeadObject nonexistent", True, status, code, "expected object-not-found response"
+                )
+            )
+        else:
+            results.append(
+                OperationResult("HeadObject nonexistent", False, status, code, "request rejected")
+            )
     else:
-        raise R2ConnectivityError("R2 connectivity check generated a non-unique temporary key")
+        results.append(
+            OperationResult(
+                "HeadObject nonexistent",
+                False,
+                "success",
+                "UnexpectedExistingObject",
+                "diagnostic key unexpectedly exists; it was not modified",
+            )
+        )
+        results.append(
+            _call("ListObjectsV2", client.list_objects_v2, Bucket=bucket, MaxKeys=1)
+        )
+        return results
 
-    try:
+    results.append(
         _call(
             "PutObject",
             client.put_object,
@@ -74,11 +105,17 @@ def run_connectivity_check(archive: R2SnapshotArchive, key: str | None = None) -
             Body=b"DiGA Monitor R2 connectivity check\n",
             ContentType="text/plain",
         )
-        uploaded = True
-        _call("HeadObject-after-upload", client.head_object, Bucket=bucket, Key=key)
-    finally:
-        if uploaded:
-            _call("DeleteObject", client.delete_object, Bucket=bucket, Key=key)
+    )
+    results.append(
+        _call("HeadObject uploaded", client.head_object, Bucket=bucket, Key=key)
+    )
+    results.append(
+        _call("DeleteObject cleanup", client.delete_object, Bucket=bucket, Key=key)
+    )
+    results.append(
+        _call("ListObjectsV2", client.list_objects_v2, Bucket=bucket, MaxKeys=1)
+    )
+    return results
 
 
 def main() -> int:
@@ -86,12 +123,17 @@ def main() -> int:
         archive = R2SnapshotArchive.from_env()
         if archive is None:
             raise R2ConnectivityError("R2 configuration is not present")
-        run_connectivity_check(archive)
+        results = run_connectivity_check(archive)
     except (SnapshotArchiveError, R2ConnectivityError) as exc:
         print(str(exc))
         return 1
-    print("R2 connectivity check passed: ListBucket, HeadObject, PutObject, and DeleteObject")
-    return 0
+    for result in results:
+        outcome = "PASS" if result.passed else "FAIL"
+        print(
+            f"{outcome} {result.operation}: status={result.status} "
+            f"code={result.code} message={result.message}"
+        )
+    return 0 if all(result.passed for result in results) else 1
 
 
 if __name__ == "__main__":
