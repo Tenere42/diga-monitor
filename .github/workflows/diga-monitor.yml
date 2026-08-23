@@ -10,7 +10,8 @@ on:
   repository_dispatch:
     types: [scheduled-scan]
   schedule:
-    - cron: "17 6,12,18 * * *"
+    - cron: "0 6,9,12,15,18 * * *"
+      timezone: "Europe/Zurich"
 
 concurrency:
   group: diga-monitor
@@ -83,6 +84,11 @@ jobs:
           DASHBOARD_URL: ${{ secrets.DASHBOARD_URL }}
           DIGA_API_TOKEN: ${{ secrets.DIGA_API_TOKEN }}
           DIGA_RENDER_CHANGED_ENTRIES: "true"
+          R2_ENDPOINT: ${{ vars.R2_ENDPOINT }}
+          R2_BUCKET_NAME: ${{ vars.R2_BUCKET_NAME }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_ARCHIVE_REQUIRED: "true"
         run: python -m src.main run --notify
 
       - name: Validate monitoring outputs
@@ -95,7 +101,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          for path in data/snapshots outputs/changes outputs/scan_history.json outputs/content_section_dry_run data/rendered_structure/latest data/rendered_structure/history; do
+          for path in data/baseline/current_snapshot.json outputs/changes outputs/scan_history.json outputs/content_section_dry_run data/rendered_structure/latest data/rendered_structure/history; do
             if [ -e "$path" ]; then
               git add -f "$path"
             else
@@ -104,7 +110,7 @@ jobs:
           done
 
           if git diff --cached --quiet; then
-            echo "::error::No monitoring changes to commit after a normal monitor run. A successful scan must persist a new snapshot and scan_history entry."
+            echo "::error::No monitoring changes to commit after a normal monitor run. A successful scan must persist the operational baseline and scan_history entry."
             exit 1
           fi
 

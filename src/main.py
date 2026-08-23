@@ -35,6 +35,7 @@ from src.snapshot import (
     load_snapshot,
     save_snapshot,
 )
+from src.snapshot_storage import finalize_snapshot_storage, operational_baseline_path
 
 
 DEFAULT_SIMULATION_DIR = Path("data/simulations")
@@ -218,16 +219,18 @@ def run_monitor(
         print("Render-on-change active: FHIR changes trigger rendering; visible content_sections drive user-facing events.")
     else:
         print("Render-on-change inactive.")
-    previous_paths = latest_snapshot_paths(snapshot_dir, limit=1)
+    baseline_path = operational_baseline_path(snapshot_dir)
+    previous_paths = [baseline_path] if baseline_path.exists() else latest_snapshot_paths(snapshot_dir, limit=1)
     entries = fetch_diga_entries()
     if limit is not None:
         entries = entries[: max(limit, 0)]
         print(f"Limited scan to {len(entries)} DiGA entries.")
     if with_rendered_structure:
         enrich_entries_with_rendered_structure(entries, archive_rendered_pages=archive_rendered_pages)
-    new_snapshot_path = save_snapshot(entries, snapshot_dir)
+    candidate_dir = Path("work/snapshots") if snapshot_dir == DEFAULT_SNAPSHOT_DIR else snapshot_dir.parent / "work_snapshots"
+    new_snapshot_path = save_snapshot(entries, candidate_dir)
     detected_at = datetime.now(timezone.utc).isoformat()
-    print(f"Saved snapshot: {new_snapshot_path}")
+    print(f"Prepared candidate snapshot: {new_snapshot_path}")
 
     if not previous_paths:
         if with_rendered_structure:
@@ -239,6 +242,14 @@ def run_monitor(
                 f"{baseline_stats['existing']} already present, "
                 f"{baseline_stats['skipped']} skipped."
             )
+        baseline_path = finalize_snapshot_storage(
+            previous=None,
+            candidate=new_snapshot_path,
+            detected_at=datetime.fromisoformat(detected_at),
+            has_changes=False,
+            baseline=baseline_path,
+        )
+        print(f"Operational baseline updated: {baseline_path}")
         append_scan_history(
             scan_timestamp=detected_at,
             number_of_diga=len(entries),
@@ -265,6 +276,7 @@ def run_monitor(
         )
         if notify:
             notify_changes([], dry_run=dry_run)
+        new_snapshot_path.unlink(missing_ok=True)
         print("Limited test scan: skipped production snapshot diff and normal change event generation.")
         return 0
     report = diff_snapshots(old_snapshot, new_snapshot)
@@ -310,6 +322,14 @@ def run_monitor(
             print("No visible content_section changes detected. FHIR changes were used as trigger only.")
     print(f"Detected change events: {len(events)}")
     warn_for_unmatched_directory_metric_changes(events)
+    baseline_path = finalize_snapshot_storage(
+        previous=old_snapshot.path,
+        candidate=new_snapshot.path,
+        detected_at=datetime.fromisoformat(detected_at),
+        has_changes=report.has_changes,
+        baseline=baseline_path,
+    )
+    print(f"Operational baseline updated: {baseline_path}")
     append_scan_history(
         scan_timestamp=detected_at,
         number_of_diga=len(entries),
@@ -1049,6 +1069,19 @@ def visible_section_change_event(
         "content_section_change_type": raw_change_type,
         "content_section_content_type": content_type,
         "summary_de": visible_change_summary(raw_change_type, display_path),
+        "snapshot_context": {
+            key: entry[key]
+            for key in (
+                "id",
+                "identifier",
+                "name",
+                "manufacturer",
+                "bfarm_directory_url",
+                "descriptive_texts",
+                "structured_text_sections",
+            )
+            if entry.get(key) is not None
+        },
     }
     if is_textual:
         event["word_diff"] = word_level_diff(before, after)

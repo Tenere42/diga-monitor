@@ -2,14 +2,15 @@
 
 A small Python CLI and Streamlit MVP for monitoring changes in the BfArM DiGA directory.
 
-The app stores local JSON snapshots, compares each new snapshot with the previous one, writes structured change events, and shows a pure change feed. It does not duplicate the public DiGA directory.
+The app compares each scan with one operational JSON baseline, writes structured change events, archives selected full snapshots in Cloudflare R2, and shows a pure change feed. It does not duplicate the public DiGA directory.
 
 Each snapshot also stores directory-level aggregate metrics, including total DiGA count and counts by listing status. These metrics act as a cross-check for lifecycle changes: if the status counters change but no matching DiGA-level lifecycle event is detected, the monitor logs a warning so status parsing problems are visible.
 
 ## Features
 
 - Fetch DiGA entries from the public BfArM DiGA directory/FHIR data
-- Store timestamped snapshots locally as JSON
+- Keep one current operational baseline in `data/baseline/current_snapshot.json`
+- Archive change pairs and weekly compressed checkpoints in Cloudflare R2
 - Detect new DiGA entries
 - Detect removed DiGA entries
 - Detect status, text, price, and other field changes
@@ -28,7 +29,8 @@ Each snapshot also stores directory-level aggregate metrics, including total DiG
 |-- app.py
 |-- .env.example
 |-- data/
-|   |-- snapshots/
+|   |-- baseline/
+|   |-- snapshots/        # legacy history; retained until a separate migration
 |   `-- simulations/
 |-- outputs/
 |   `-- changes/
@@ -38,7 +40,8 @@ Each snapshot also stores directory-level aggregate metrics, including total DiG
 |   |-- fetch_diga.py
 |   |-- main.py
 |   |-- render_directory.py
-|   `-- snapshot.py
+|   |-- snapshot.py
+|   `-- snapshot_storage.py
 |-- README.md
 `-- requirements.txt
 ```
@@ -160,7 +163,7 @@ Notification attempts are logged in `outputs/notification_log.json`.
 
 ## CLI Usage
 
-Create a new snapshot and compare it with the previous one:
+Fetch the directory, compare it with the operational baseline, and replace that baseline after successful archival:
 
 ```powershell
 python -m src.main run
@@ -175,13 +178,13 @@ Fetch entries and print them without saving:
 python -m src.main fetch
 ```
 
-Compare the latest two saved snapshots:
+Compare the latest two legacy local snapshots:
 
 ```powershell
 python -m src.main diff
 ```
 
-List saved snapshots:
+List legacy local snapshots:
 
 ```powershell
 python -m src.main snapshots
@@ -360,7 +363,7 @@ Simulated events are hidden by default. Enable `Simulationen anzeigen` to test t
 
 ## Scheduling
 
-For regular checks, run the CLI with Windows Task Scheduler, cron, GitHub Actions, or another scheduler:
+GitHub Actions is the regular production scheduler. For local diagnostics, the CLI can still be run manually:
 
 ```powershell
 python -m src.main run
@@ -370,28 +373,20 @@ The command exits successfully even when no changes are found, making it suitabl
 
 ## Recommended Production Schedule
 
-Run the monitor 3 times per day via GitHub Actions:
+GitHub Actions runs the monitor five times per day at these local times in Zurich:
 
 ```text
-06:17 UTC
-12:17 UTC
-18:17 UTC
+06:00, 09:00, 12:00, 15:00, 18:00 Europe/Zurich
 ```
 
-During German summer time, this is approximately:
+The `Europe/Zurich` timezone automatically follows CET/CEST changes. Actual execution can be delayed by GitHub depending on runner availability and platform load.
 
-```text
-08:17
-14:17
-20:17
-```
-
-GitHub Actions schedules are defined in UTC. Actual execution can be delayed by GitHub depending on runner availability and platform load.
-
-GitHub Actions cron:
+GitHub Actions schedule:
 
 ```yaml
-17 6,12,18 * * *
+schedule:
+  - cron: "0 6,9,12,15,18 * * *"
+    timezone: "Europe/Zurich"
 ```
 
 Rendered page archives are not enabled in the scheduled workflow by default. If browser rendering is later activated in GitHub Actions, the workflow must install Chromium with:
@@ -402,11 +397,11 @@ python -m playwright install chromium
 
 PDF and PNG archives can become large, so enable this only deliberately and consider whether rendered artifacts should be committed or stored externally.
 
-## External Scheduler
+## Optional External Fallback
 
-GitHub Actions scheduled runs can be delayed or skipped by GitHub. For more reliable fixed daily scans, use cron-job.org or a similar external scheduler to trigger the workflow through the GitHub API.
+GitHub Actions is the only regular automatic scheduler. cron-job.org is not used for regular scans. The `repository_dispatch` trigger with event type `scheduled-scan` remains available as an optional external or manual fallback.
 
-Create 3 external cron jobs and send this request:
+An external service can send this request when the fallback is deliberately needed:
 
 ```text
 POST https://api.github.com/repos/Tenere42/diga-monitor/dispatches
@@ -428,6 +423,14 @@ Accept: application/vnd.github+json
 ```
 
 Do not store the token in this repository. Configure it only in the external scheduler's protected secret or header settings.
+
+## Snapshot Storage and R2
+
+Every successful scan atomically replaces `data/baseline/current_snapshot.json`. An unchanged scan creates no historical full snapshot. When the existing change detection reports a change, the previous and current full snapshots are uploaded as gzip-compressed JSON to `full-snapshots/changes/` in R2. The first successful scan in each ISO week also uploads one compressed checkpoint to `full-snapshots/checkpoints/`.
+
+GitHub Actions reads the R2 endpoint and bucket from repository variables `R2_ENDPOINT` and `R2_BUCKET_NAME`, and credentials from secrets `R2_ACCESS_KEY_ID` and `R2_SECRET_ACCESS_KEY`. No credentials are stored in the repository. A production run fails before replacing the baseline if required R2 archival fails.
+
+The existing `data/snapshots` history is intentionally left untouched. New change events embed the compact entry context needed by the dashboard; older events continue to fall back to legacy snapshots. Before deleting the legacy 14+ GB history, run a separate migration that uploads and verifies the old snapshots and backfills or validates dashboard context for every older event.
 
 ## Notes About BfArM Integration
 

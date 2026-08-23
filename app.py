@@ -1383,6 +1383,9 @@ def is_reclassified_evidence_description_event(event: dict[str, Any]) -> bool:
 
 
 def current_snapshot_entry(event: dict[str, Any]) -> dict[str, Any] | None:
+    snapshot_context = event.get("snapshot_context")
+    if isinstance(snapshot_context, dict):
+        return snapshot_context
     snapshot_path = snapshot_path_for_timestamp(event.get("current_snapshot_timestamp"))
     if not snapshot_path:
         return None
@@ -1583,10 +1586,6 @@ def timestamp_value(events: list[dict[str, Any]], key: str, latest: bool) -> Any
 
 
 def latest_scan_timestamp(scan_history: list[dict[str, Any]]) -> str:
-    snapshot_timestamp = latest_snapshot_timestamp()
-    if snapshot_timestamp:
-        return format_local_datetime(snapshot_timestamp)
-
     history_dates = [
         parsed
         for scan in scan_history
@@ -1594,6 +1593,10 @@ def latest_scan_timestamp(scan_history: list[dict[str, Any]]) -> str:
     ]
     if history_dates:
         return format_local_datetime(max(history_dates))
+
+    snapshot_timestamp = latest_snapshot_timestamp()
+    if snapshot_timestamp:
+        return format_local_datetime(snapshot_timestamp)
 
     return "Noch kein erfolgreicher Scan"
 

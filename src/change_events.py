@@ -202,6 +202,7 @@ def base_event(
         "field_name": field_name,
         "before_value": before_value,
         "after_value": after_value,
+        "snapshot_context": snapshot_context(entry),
     }
     if isinstance(entry.get("structured_text_sections"), list):
         context = context_from_sections(entry["structured_text_sections"], field_name)
@@ -212,6 +213,19 @@ def base_event(
             event["user_facing_field_label"] = format_text_context_label(context)
     enrich_event(event)
     return event
+
+
+def snapshot_context(entry: dict[str, Any]) -> dict[str, Any]:
+    keys = (
+        "id",
+        "identifier",
+        "name",
+        "manufacturer",
+        "bfarm_directory_url",
+        "descriptive_texts",
+        "structured_text_sections",
+    )
+    return {key: entry[key] for key in keys if entry.get(key) is not None}
 
 
 def enrich_event(event: dict[str, Any]) -> None:

@@ -10,7 +10,7 @@ from pathlib import Path
 from typing import Any
 
 
-SNAPSHOT_DIR = Path("data/snapshots")
+BASELINE_PATH = Path("data/baseline/current_snapshot.json")
 SCAN_HISTORY_PATH = Path("outputs/scan_history.json")
 
 
@@ -21,14 +21,13 @@ def main_with_args(argv: list[str] | None = None) -> int:
     parser.add_argument("--verify-head", action="store_true")
     args = parser.parse_args(argv)
 
-    latest_snapshot = latest_snapshot_path()
-    if latest_snapshot is None:
-        print("::error::No committed snapshot file exists under data/snapshots.")
+    if not BASELINE_PATH.exists():
+        print("::error::No operational baseline exists at data/baseline/current_snapshot.json.")
         return 1
 
-    latest_snapshot_time = parse_snapshot_timestamp(latest_snapshot)
-    if latest_snapshot_time is None:
-        print(f"::error::Could not parse latest snapshot timestamp: {latest_snapshot}")
+    baseline_time = load_baseline_timestamp()
+    if baseline_time is None:
+        print(f"::error::Operational baseline has no parseable created_at: {BASELINE_PATH}")
         return 1
 
     history = load_scan_history()
@@ -41,30 +40,30 @@ def main_with_args(argv: list[str] | None = None) -> int:
         return 1
 
     if args.require_current_run:
-        if abs((latest_history_time - latest_snapshot_time).total_seconds()) > 15 * 60:
+        if abs((latest_history_time - baseline_time).total_seconds()) > 15 * 60:
             print(
-                "::error::Latest scan_history entry does not match the latest snapshot. "
-                f"snapshot={latest_snapshot_time.isoformat()} scan_history={latest_history_time.isoformat()}"
+                "::error::Latest scan_history entry does not match the operational baseline. "
+                f"baseline={baseline_time.isoformat()} scan_history={latest_history_time.isoformat()}"
             )
             return 1
 
-    age_hours = (datetime.now(timezone.utc) - latest_snapshot_time).total_seconds() / 3600
+    age_hours = (datetime.now(timezone.utc) - baseline_time).total_seconds() / 3600
     if age_hours > args.max_snapshot_age_hours:
         print(
-            "::warning::Latest committed snapshot is stale: "
-            f"{latest_snapshot.name} is {age_hours:.1f} hours old."
+            "::warning::Operational baseline is stale: "
+            f"{BASELINE_PATH} is {age_hours:.1f} hours old."
         )
 
     if args.verify_head:
         head_files = git_head_files()
-        if latest_snapshot.as_posix() not in head_files:
-            print(f"::error::Latest snapshot is not present in HEAD: {latest_snapshot}")
+        if BASELINE_PATH.as_posix() not in head_files:
+            print(f"::error::Operational baseline is not present in HEAD: {BASELINE_PATH}")
             return 1
         if SCAN_HISTORY_PATH.as_posix() not in head_files:
             print(f"::error::Scan history is not present in HEAD: {SCAN_HISTORY_PATH}")
             return 1
 
-    print(f"::notice::Monitoring outputs healthy. latest_snapshot={latest_snapshot}")
+    print(f"::notice::Monitoring outputs healthy. operational_baseline={BASELINE_PATH}")
     return 0
 
 
@@ -72,17 +71,13 @@ def main() -> int:
     return main_with_args()
 
 
-def latest_snapshot_path() -> Path | None:
-    snapshots = sorted(SNAPSHOT_DIR.glob("diga_snapshot_*.json"))
-    return snapshots[-1] if snapshots else None
-
-
-def parse_snapshot_timestamp(path: Path) -> datetime | None:
-    raw = path.name.removeprefix("diga_snapshot_").removesuffix(".json")
+def load_baseline_timestamp() -> datetime | None:
     try:
-        return datetime.strptime(raw, "%Y%m%dT%H%M%S%fZ").replace(tzinfo=timezone.utc)
-    except ValueError:
+        with BASELINE_PATH.open(encoding="utf-8") as file:
+            payload = json.load(file)
+    except (OSError, json.JSONDecodeError):
         return None
+    return parse_datetime(payload.get("created_at")) if isinstance(payload, dict) else None
 
 
 def load_scan_history() -> list[dict[str, Any]]:

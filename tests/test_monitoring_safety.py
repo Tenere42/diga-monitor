@@ -65,7 +65,17 @@ def write_json(path: Path, payload: dict[str, object]) -> None:
 
 
 class MonitoringSafetyTests(unittest.TestCase):
-    def test_normal_scan_without_changes_persists_snapshot_and_history(self) -> None:
+    def test_dashboard_prefers_embedded_snapshot_context(self) -> None:
+        context = {"id": "12345", "name": "Test DiGA", "descriptive_texts": {"field": "value"}}
+        with mock.patch.object(app, "snapshot_path_for_timestamp", side_effect=AssertionError("legacy lookup used")):
+            self.assertEqual(app.current_snapshot_entry({"snapshot_context": context}), context)
+
+    def test_dashboard_scan_status_prefers_scan_history_over_legacy_snapshots(self) -> None:
+        history = [{"scan_timestamp": "2026-08-23T15:00:00+00:00"}]
+        with mock.patch.object(app, "latest_snapshot_timestamp", return_value=datetime(2026, 1, 1, tzinfo=timezone.utc)):
+            self.assertIn("23.08.2026", app.latest_scan_timestamp(history))
+
+    def test_normal_scan_without_changes_replaces_only_operational_baseline(self) -> None:
         with temporary_directory() as temp:
             root = Path(temp)
             snapshot_dir = root / "snapshots"
@@ -83,8 +93,35 @@ class MonitoringSafetyTests(unittest.TestCase):
                 result = main.run_monitor(snapshot_dir=snapshot_dir, notify=False)
 
             self.assertEqual(result, 0)
-            self.assertEqual(len(list(snapshot_dir.glob("diga_snapshot_*.json"))), 2)
+            self.assertEqual(len(list(snapshot_dir.glob("diga_snapshot_*.json"))), 1)
+            self.assertTrue((root / "baseline" / "current_snapshot.json").exists())
+            self.assertFalse(list((root / "work_snapshots").glob("diga_snapshot_*.json")))
             self.assertEqual(len(load_scan_history(history_path)), 1)
+
+    def test_scan_with_change_updates_baseline_and_persists_event(self) -> None:
+        with temporary_directory() as temp:
+            root = Path(temp)
+            snapshot_dir = root / "snapshots"
+            history_path = root / "scan_history.json"
+            save_snapshot([sample_entry()], snapshot_dir)
+            changed_entry = {**sample_entry(), "manufacturer": "Changed GmbH"}
+
+            def append_local_history(**kwargs: object) -> None:
+                append_scan_history(path=history_path, **kwargs)
+
+            with (
+                mock.patch.object(main, "fetch_diga_entries", return_value=[changed_entry]),
+                mock.patch.object(main, "append_scan_history", side_effect=append_local_history),
+                mock.patch.object(main, "save_change_events") as save_events,
+                mock.patch.object(main, "notify_changes"),
+            ):
+                result = main.run_monitor(snapshot_dir=snapshot_dir, notify=False)
+
+            self.assertEqual(result, 0)
+            self.assertTrue(save_events.called)
+            baseline = json.loads((root / "baseline" / "current_snapshot.json").read_text(encoding="utf-8"))
+            self.assertEqual(baseline["entries"][0]["manufacturer"], "Changed GmbH")
+            self.assertEqual(load_scan_history(history_path)[0]["changes_detected"], 1)
 
     def test_visible_baseline_is_replaced_only_after_successful_diff_and_apply(self) -> None:
         with temporary_directory() as temp:
@@ -713,10 +750,9 @@ class MonitoringSafetyTests(unittest.TestCase):
     def test_health_check_detects_missing_current_run_history(self) -> None:
         with temporary_directory() as temp:
             root = Path(temp)
-            snapshot_dir = root / "data" / "snapshots"
+            baseline_path = root / "data" / "baseline" / "current_snapshot.json"
             history_path = root / "outputs" / "scan_history.json"
-            snapshot_dir.mkdir(parents=True)
-            (snapshot_dir / "diga_snapshot_20260101T000000000000Z.json").write_text("{}", encoding="utf-8")
+            write_json(baseline_path, {"created_at": "2026-01-01T00:00:00+00:00", "entries": []})
             append_scan_history(
                 "2026-01-01T03:00:00+00:00",
                 number_of_diga=1,
@@ -725,7 +761,7 @@ class MonitoringSafetyTests(unittest.TestCase):
                 path=history_path,
             )
             with (
-                mock.patch.object(monitoring_health_check, "SNAPSHOT_DIR", snapshot_dir),
+                mock.patch.object(monitoring_health_check, "BASELINE_PATH", baseline_path),
                 mock.patch.object(monitoring_health_check, "SCAN_HISTORY_PATH", history_path),
             ):
                 self.assertNotEqual(
@@ -733,15 +769,13 @@ class MonitoringSafetyTests(unittest.TestCase):
                     0,
                 )
 
-    def test_health_check_warns_for_stale_snapshot(self) -> None:
+    def test_health_check_warns_for_stale_baseline(self) -> None:
         stale = datetime.now(timezone.utc) - timedelta(hours=7)
         with temporary_directory() as temp:
             root = Path(temp)
-            snapshot_dir = root / "data" / "snapshots"
+            baseline_path = root / "data" / "baseline" / "current_snapshot.json"
             history_path = root / "outputs" / "scan_history.json"
-            snapshot_dir.mkdir(parents=True)
-            timestamp = stale.strftime("%Y%m%dT%H%M%S%fZ")
-            (snapshot_dir / f"diga_snapshot_{timestamp}.json").write_text("{}", encoding="utf-8")
+            write_json(baseline_path, {"created_at": stale.isoformat(), "entries": []})
             append_scan_history(
                 stale.isoformat(),
                 number_of_diga=1,
@@ -750,7 +784,7 @@ class MonitoringSafetyTests(unittest.TestCase):
                 path=history_path,
             )
             with (
-                mock.patch.object(monitoring_health_check, "SNAPSHOT_DIR", snapshot_dir),
+                mock.patch.object(monitoring_health_check, "BASELINE_PATH", baseline_path),
                 mock.patch.object(monitoring_health_check, "SCAN_HISTORY_PATH", history_path),
             ):
                 self.assertEqual(monitoring_health_check.main_with_args(["--max-snapshot-age-hours", "6"]), 0)
