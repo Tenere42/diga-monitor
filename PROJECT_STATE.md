@@ -17,7 +17,7 @@ DiGA Monitor is in production. The scheduler runs at 06:00, 09:00, 12:00, 15:00,
 
 ## Last completed work
 
-R2 storage for new archives/checkpoints was established. The latest audit found that the legacy history still requires migration and verification before deletion.
+R2 storage for new archives/checkpoints was established. The latest audit found that the legacy history still requires migration and verification before deletion. The Claude PR review workflow was configured with GitHub OIDC and Anthropic Workload Identity Federation.
 
 ## Current branch / PR
 
