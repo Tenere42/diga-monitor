@@ -33,6 +33,8 @@ class R2ConnectivityWorkflowTests(unittest.TestCase):
 
     def test_workflow_has_minimal_permissions(self) -> None:
         self.assertIn("permissions:\n  contents: read", self.workflow)
+        self.assertIn("migrate-legacy-history:\n    if: inputs.mode == 'legacy-history-migration'\n    permissions:\n      contents: write", self.workflow)
+        self.assertIn("python -m scripts.legacy_history_migration --backfill --execute-r2", self.workflow)
 
 
 if __name__ == "__main__":

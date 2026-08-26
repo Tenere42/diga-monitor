@@ -28,6 +28,33 @@
       "previous_value": "Android 10.0.0 oder neuer",
       "question_label": "Softwarekompatibilität Android-App",
       "section_title": "Beschreibung der DiGA",
+      "snapshot_context": {
+        "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/00872",
+        "descriptive_texts": {
+          "questionnaire.Softwarekompatibilität Android-App": "Android 11.0.0 oder neuer"
+        },
+        "id": "00872",
+        "manufacturer": "Oviva AG (Zweigniederlassung Deutschland)",
+        "name": "Oviva Direkt für Adipositas",
+        "structured_text_sections": [
+          {
+            "accordion_title": "Beschreibung der DiGA",
+            "display_path": "Beschreibung der DiGA > Softwarekompatibilität Android-App",
+            "field_label": "Softwarekompatibilität Android-App",
+            "field_path": "descriptive_texts.questionnaire.Softwarekompatibilität Android-App",
+            "localization_confidence": "high",
+            "main_section": "Beschreibung der DiGA",
+            "question_label": "Softwarekompatibilität Android-App",
+            "raw_text": "Android 11.0.0 oder neuer",
+            "section_title": "Beschreibung der DiGA",
+            "source_area_label": "Beschreibung der DiGA",
+            "stable_key": "descriptive-texts|beschreibung-der-diga|beschreibung-der-diga|softwarekompatibilit-t-android-app|questionnaire-softwarekompatibilit-t-android-app",
+            "subsection_title": "Softwarekompatibilität Android-App",
+            "tab_label": "Beschreibung der DiGA",
+            "text": "Android 11.0.0 oder neuer"
+          }
+        ]
+      },
       "source_area_label": "Beschreibung der DiGA",
       "source_kind": "visible_diff_unresolved",
       "stable_key": "descriptive-texts|beschreibung-der-diga|beschreibung-der-diga|softwarekompatibilit-t-android-app|questionnaire-softwarekompatibilit-t-android-app",
@@ -85,6 +112,33 @@
       "previous_value": "iOS 16.0 oder neuer",
       "question_label": "Softwarekompatibilität iOS-App",
       "section_title": "Beschreibung der DiGA",
+      "snapshot_context": {
+        "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/00872",
+        "descriptive_texts": {
+          "questionnaire.Softwarekompatibilität iOS-App": "iOS 18.0 oder neuer"
+        },
+        "id": "00872",
+        "manufacturer": "Oviva AG (Zweigniederlassung Deutschland)",
+        "name": "Oviva Direkt für Adipositas",
+        "structured_text_sections": [
+          {
+            "accordion_title": "Beschreibung der DiGA",
+            "display_path": "Beschreibung der DiGA > Softwarekompatibilität iOS-App",
+            "field_label": "Softwarekompatibilität iOS-App",
+            "field_path": "descriptive_texts.questionnaire.Softwarekompatibilität iOS-App",
+            "localization_confidence": "high",
+            "main_section": "Beschreibung der DiGA",
+            "question_label": "Softwarekompatibilität iOS-App",
+            "raw_text": "iOS 18.0 oder neuer",
+            "section_title": "Beschreibung der DiGA",
+            "source_area_label": "Beschreibung der DiGA",
+            "stable_key": "descriptive-texts|beschreibung-der-diga|beschreibung-der-diga|softwarekompatibilit-t-ios-app|questionnaire-softwarekompatibilit-t-ios-app",
+            "subsection_title": "Softwarekompatibilität iOS-App",
+            "tab_label": "Beschreibung der DiGA",
+            "text": "iOS 18.0 oder neuer"
+          }
+        ]
+      },
       "source_area_label": "Beschreibung der DiGA",
       "source_kind": "visible_diff_unresolved",
       "stable_key": "descriptive-texts|beschreibung-der-diga|beschreibung-der-diga|softwarekompatibilit-t-ios-app|questionnaire-softwarekompatibilit-t-ios-app",

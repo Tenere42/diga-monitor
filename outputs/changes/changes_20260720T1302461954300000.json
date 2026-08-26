@@ -28,6 +28,12 @@
       "previous_value": "Zutreffend",
       "question_label": "Nicht eindeutig zugeordneter Eintrag",
       "section_title": "Beschreibung der DiGA",
+      "snapshot_context": {
+        "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/02173",
+        "id": "02173",
+        "manufacturer": "eCovery GmbH",
+        "name": "eCovery - Therapie bei Schmerzen im unteren Rücken"
+      },
       "source_area_label": "Beschreibung der DiGA",
       "source_kind": "visible_diff_unresolved",
       "subsection_title": "Nicht eindeutig zugeordneter Eintrag",
@@ -61,6 +67,33 @@
       "previous_value": "19 Monate (12 Monate initial, 7 Monate Verlängerung)",
       "question_label": "Angabe Erprobungszeitraum (höchstens 12 Monate)",
       "section_title": "Informationen zum positiven Versorgungseffekt",
+      "snapshot_context": {
+        "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/02173",
+        "descriptive_texts": {
+          "questionnaire.Angabe Erprobungszeitraum (höchstens 12 Monate)": "20 Monate (12 Monate initial, 8 Monate Verlängerung)"
+        },
+        "id": "02173",
+        "manufacturer": "eCovery GmbH",
+        "name": "eCovery - Therapie bei Schmerzen im unteren Rücken",
+        "structured_text_sections": [
+          {
+            "accordion_title": "Informationen zum positiven Versorgungseffekt",
+            "display_path": "Informationen zum positiven Versorgungseffekt > Angabe Erprobungszeitraum (höchstens 12 Monate)",
+            "field_label": "Angabe Erprobungszeitraum (höchstens 12 Monate)",
+            "field_path": "descriptive_texts.questionnaire.Angabe Erprobungszeitraum (höchstens 12 Monate)",
+            "localization_confidence": "high",
+            "main_section": "Informationen zum positiven Versorgungseffekt",
+            "question_label": "Angabe Erprobungszeitraum (höchstens 12 Monate)",
+            "raw_text": "20 Monate (12 Monate initial, 8 Monate Verlängerung)",
+            "section_title": "Informationen zum positiven Versorgungseffekt",
+            "source_area_label": "Informationen zum positiven Versorgungseffekt",
+            "stable_key": "descriptive-texts|informationen-zum-positiven-versorgungseffekt|informationen-zum-positiven-versorgungseffekt|angabe-erprobungszeitraum-h-chstens-12-monate|questionnaire-angabe-erprobungszeitraum-h-chstens-12-monate",
+            "subsection_title": "Angabe Erprobungszeitraum (höchstens 12 Monate)",
+            "tab_label": "Informationen zum positiven Versorgungseffekt",
+            "text": "20 Monate (12 Monate initial, 8 Monate Verlängerung)"
+          }
+        ]
+      },
       "source_area_label": "Informationen zum positiven Versorgungseffekt",
       "source_kind": "visible_diff_unresolved",
       "stable_key": "descriptive-texts|informationen-zum-positiven-versorgungseffekt|informationen-zum-positiven-versorgungseffekt|angabe-erprobungszeitraum-h-chstens-12-monate|questionnaire-angabe-erprobungszeitraum-h-chstens-12-monate",
@@ -138,6 +171,33 @@
       "previous_value": "Schwangerschaftsfeststellung als Nebenbefund Sturzneigung, anderenorts nicht klassifiziert Blindheit und Sehbeeinträchtigung Bösartige Neubildung sonstiger und ungenau bezeichneter Lokalisationen Sekundäre und nicht näher bezeichnete bösartige Neubildung der Lymphknoten Sekundäre bösartige Neubildung der Atmungs- und Verdauungsorgane Sekundäre bösartige Neubildung an sonstigen und nicht näher bezeichneten Lokalisationen Bösartige Neubildung ohne Angabe der Lokalisation Fieber sonstiger und unbekannter Ursache Unwohlsein und Ermüdung Akute Infektion der oberen Atemwege, nicht näher bezeichnet Bakterielle Infektion nicht näher bezeichneter Lokalisation Virusinfektion, nicht näher bezeichnet Lumbale und sonstige Bandscheibenschäden mit Myelopathie Lumbale und sonstige Bandscheibenschäden mit Radikulopathie Leichte Intelligenzminderung Mittelgradige Intelligenzminderung Schwere Intelligenzminderung Schwerste Intelligenzminderung Dissoziierte Intelligenz Andere Intelligenzminderung Nicht näher bezeichnete Intelligenzminderung",
       "question_label": "Angaben zu medizinischen Kontraindikationen der digitalen Gesundheitsanwendung",
       "section_title": "Beschreibung der DiGA",
+      "snapshot_context": {
+        "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/02173",
+        "descriptive_texts": {
+          "questionnaire.Angaben zu medizinischen Kontraindikationen der digitalen Gesundheitsanwendung": "Schwangerschaftsfeststellung als Nebenbefund Sturzneigung, anderenorts nicht klassifiziert Blindheit und Sehbeeinträchtigung Bösartige Neubildung sonstiger und ungenau bezeichneter Lokalisationen Sekundäre und nicht näher bezeichnete bösartige Neubildung der Lymphknoten Sekundäre bösartige Neubildung der Atmungs- und Verdauungsorgane Sekundäre bösartige Neubildung an sonstigen und nicht näher bezeichneten Lokalisationen Bösartige Neubildung ohne Angabe der Lokalisation Fieber sonstiger und unbekannter Ursache Malaise und Fatigue Akute Infektion der oberen Atemwege, nicht näher bezeichnet Bakterielle Infektion nicht näher bezeichneter Lokalisation Virusinfektion, nicht näher bezeichnet Lumbale und sonstige Bandscheibenschäden mit Myelopathie Lumbale und sonstige Bandscheibenschäden mit Radikulopathie Leichte Intelligenzminderung Mittelgradige Intelligenzminderung Schwere Intelligenzminderung Schwerste Intelligenzminderung Dissoziierte Intelligenz Andere Intelligenzminderung Nicht näher bezeichnete Intelligenzminderung"
+        },
+        "id": "02173",
+        "manufacturer": "eCovery GmbH",
+        "name": "eCovery - Therapie bei Schmerzen im unteren Rücken",
+        "structured_text_sections": [
+          {
+            "accordion_title": "Beschreibung der DiGA",
+            "display_path": "Beschreibung der DiGA > Angaben zu medizinischen Kontraindikationen der digitalen Gesundheitsanwendung",
+            "field_label": "Angaben zu medizinischen Kontraindikationen der digitalen Gesundheitsanwendung",
+            "field_path": "descriptive_texts.questionnaire.Angaben zu medizinischen Kontraindikationen der digitalen Gesundheitsanwendung",
+            "localization_confidence": "high",
+            "main_section": "Beschreibung der DiGA",
+            "question_label": "Angaben zu medizinischen Kontraindikationen der digitalen Gesundheitsanwendung",
+            "raw_text": "Schwangerschaftsfeststellung als Nebenbefund Sturzneigung, anderenorts nicht klassifiziert Blindheit und Sehbeeinträchtigung Bösartige Neubildung sonstiger und ungenau bezeichneter Lokalisationen Sekundäre und nicht näher bezeichnete bösartige Neubildung der Lymphknoten Sekundäre bösartige Neubildung der Atmungs- und Verdauungsorgane Sekundäre bösartige Neubildung an sonstigen und nicht näher bezeichneten Lokalisationen Bösartige Neubildung ohne Angabe der Lokalisation Fieber sonstiger und unbekannter Ursache Malaise und Fatigue Akute Infektion der oberen Atemwege, nicht näher bezeichnet Bakterielle Infektion nicht näher bezeichneter Lokalisation Virusinfektion, nicht näher bezeichnet Lumbale und sonstige Bandscheibenschäden mit Myelopathie Lumbale und sonstige Bandscheibenschäden mit Radikulopathie Leichte Intelligenzminderung Mittelgradige Intelligenzminderung Schwere Intelligenzminderung Schwerste Intelligenzminderung Dissoziierte Intelligenz Andere Intelligenzminderung Nicht näher bezeichnete Intelligenzminderung",
+            "section_title": "Beschreibung der DiGA",
+            "source_area_label": "Beschreibung der DiGA",
+            "stable_key": "descriptive-texts|beschreibung-der-diga|beschreibung-der-diga|angaben-zu-medizinischen-kontraindikationen-der-digitalen-gesundheitsanwendung|questionnaire-angaben-zu-medizinischen-kontraindikationen-der-digitalen-gesundheitsanwendung",
+            "subsection_title": "Angaben zu medizinischen Kontraindikationen der digitalen Gesundheitsanwendung",
+            "tab_label": "Beschreibung der DiGA",
+            "text": "Schwangerschaftsfeststellung als Nebenbefund Sturzneigung, anderenorts nicht klassifiziert Blindheit und Sehbeeinträchtigung Bösartige Neubildung sonstiger und ungenau bezeichneter Lokalisationen Sekundäre und nicht näher bezeichnete bösartige Neubildung der Lymphknoten Sekundäre bösartige Neubildung der Atmungs- und Verdauungsorgane Sekundäre bösartige Neubildung an sonstigen und nicht näher bezeichneten Lokalisationen Bösartige Neubildung ohne Angabe der Lokalisation Fieber sonstiger und unbekannter Ursache Malaise und Fatigue Akute Infektion der oberen Atemwege, nicht näher bezeichnet Bakterielle Infektion nicht näher bezeichneter Lokalisation Virusinfektion, nicht näher bezeichnet Lumbale und sonstige Bandscheibenschäden mit Myelopathie Lumbale und sonstige Bandscheibenschäden mit Radikulopathie Leichte Intelligenzminderung Mittelgradige Intelligenzminderung Schwere Intelligenzminderung Schwerste Intelligenzminderung Dissoziierte Intelligenz Andere Intelligenzminderung Nicht näher bezeichnete Intelligenzminderung"
+          }
+        ]
+      },
       "source_area_label": "Beschreibung der DiGA",
       "source_kind": "visible_diff_unresolved",
       "stable_key": "descriptive-texts|beschreibung-der-diga|beschreibung-der-diga|angaben-zu-medizinischen-kontraindikationen-der-digitalen-gesundheitsanwendung|questionnaire-angaben-zu-medizinischen-kontraindikationen-der-digitalen-gesundheitsanwendung",
@@ -595,6 +655,33 @@
       "previous_value": "2026-07-27",
       "question_label": "Datum des Endes des Erprobungszeitraumes",
       "section_title": "Informationen zum positiven Versorgungseffekt",
+      "snapshot_context": {
+        "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/02173",
+        "descriptive_texts": {
+          "questionnaire.Datum des Endes des Erprobungszeitraumes": "2026-08-27"
+        },
+        "id": "02173",
+        "manufacturer": "eCovery GmbH",
+        "name": "eCovery - Therapie bei Schmerzen im unteren Rücken",
+        "structured_text_sections": [
+          {
+            "accordion_title": "Informationen zum positiven Versorgungseffekt",
+            "display_path": "Informationen zum positiven Versorgungseffekt > Datum des Endes des Erprobungszeitraumes",
+            "field_label": "Datum des Endes des Erprobungszeitraumes",
+            "field_path": "descriptive_texts.questionnaire.Datum des Endes des Erprobungszeitraumes",
+            "localization_confidence": "high",
+            "main_section": "Informationen zum positiven Versorgungseffekt",
+            "question_label": "Datum des Endes des Erprobungszeitraumes",
+            "raw_text": "2026-08-27",
+            "section_title": "Informationen zum positiven Versorgungseffekt",
+            "source_area_label": "Informationen zum positiven Versorgungseffekt",
+            "stable_key": "descriptive-texts|informationen-zum-positiven-versorgungseffekt|informationen-zum-positiven-versorgungseffekt|datum-des-endes-des-erprobungszeitraumes|questionnaire-datum-des-endes-des-erprobungszeitraumes",
+            "subsection_title": "Datum des Endes des Erprobungszeitraumes",
+            "tab_label": "Informationen zum positiven Versorgungseffekt",
+            "text": "2026-08-27"
+          }
+        ]
+      },
       "source_area_label": "Informationen zum positiven Versorgungseffekt",
       "source_kind": "visible_diff_unresolved",
       "stable_key": "descriptive-texts|informationen-zum-positiven-versorgungseffekt|informationen-zum-positiven-versorgungseffekt|datum-des-endes-des-erprobungszeitraumes|questionnaire-datum-des-endes-des-erprobungszeitraumes",
@@ -799,6 +886,12 @@
         "F78 Andere Intelligenzminderung",
         "F79 Nicht näher bezeichnete Intelligenzminderung"
       ],
+      "snapshot_context": {
+        "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/02173",
+        "id": "02173",
+        "manufacturer": "eCovery GmbH",
+        "name": "eCovery - Therapie bei Schmerzen im unteren Rücken"
+      },
       "source_kind": "visible_diff_unresolved",
       "summary_de": "Eine fachliche Änderung wurde erkannt, der sichtbare Abschnitt konnte aber nicht eindeutig zugeordnet werden.",
       "user_facing_field_label": "Änderung erkannt, sichtbarer Abschnitt nicht eindeutig zugeordnet"

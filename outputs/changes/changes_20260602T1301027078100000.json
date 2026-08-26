@@ -18,6 +18,15 @@
       "previous_snapshot_timestamp": "2026-06-01T23:21:09.838706+00:00",
       "previous_value": "12 Monate",
       "section_title": "Informationen zum positiven Versorgungseffekt",
+      "snapshot_context": {
+        "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/02568",
+        "descriptive_texts": {
+          "questionnaire.Angabe Erprobungszeitraum (höchstens 12 Monate)": "17 Monate (12 Monate initial, 5 Monate Verlängerung)"
+        },
+        "id": "02568",
+        "manufacturer": "MiNDNET e-Health Solutions GmbH",
+        "name": "ORIKO ADHS-Therapie"
+      },
       "source_area_label": "Informationen zum positiven Versorgungseffekt",
       "subsection_title": "Angabe Erprobungszeitraum (höchstens 12 Monate)",
       "summary_de": "Im Abschnitt 'Informationen zum positiven Versorgungseffekt > Angabe Erprobungszeitraum (höchstens 12 Monate)' wurde Text geändert.",
@@ -78,6 +87,15 @@
       "previous_snapshot_timestamp": "2026-06-01T23:21:09.838706+00:00",
       "previous_value": "2026-07-08",
       "section_title": "Informationen zum positiven Versorgungseffekt",
+      "snapshot_context": {
+        "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/02568",
+        "descriptive_texts": {
+          "questionnaire.Datum des Endes des Erprobungszeitraumes": "2026-12-08"
+        },
+        "id": "02568",
+        "manufacturer": "MiNDNET e-Health Solutions GmbH",
+        "name": "ORIKO ADHS-Therapie"
+      },
       "source_area_label": "Informationen zum positiven Versorgungseffekt",
       "subsection_title": "Datum des Endes des Erprobungszeitraumes",
       "summary_de": "Im Abschnitt 'Informationen zum positiven Versorgungseffekt > Datum des Endes des Erprobungszeitraumes' wurde Text geändert.",
@@ -241,6 +259,12 @@
           "source": "manufacturer"
         }
       ],
+      "snapshot_context": {
+        "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/02568",
+        "id": "02568",
+        "manufacturer": "MiNDNET e-Health Solutions GmbH",
+        "name": "ORIKO ADHS-Therapie"
+      },
       "summary_de": "Im Abschnitt 'Aktualisierungshinweis im DiGA-Verzeichnis' wurde ein Wert geändert.",
       "user_facing_field_label": "Aktualisierungshinweis im DiGA-Verzeichnis"
     },
@@ -259,6 +283,12 @@
       "new_value": "2026-06-02T09:43:08.192+02:00",
       "previous_snapshot_timestamp": "2026-06-01T23:21:09.838706+00:00",
       "previous_value": "2026-04-10T14:24:03.755+02:00",
+      "snapshot_context": {
+        "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/02568",
+        "id": "02568",
+        "manufacturer": "MiNDNET e-Health Solutions GmbH",
+        "name": "ORIKO ADHS-Therapie"
+      },
       "summary_de": "Die Formulierung im Abschnitt 'Aktualisierungshinweis im DiGA-Verzeichnis' wurde angepasst.",
       "text_change_kind": "text_modified",
       "user_facing_field_label": "Aktualisierungshinweis im DiGA-Verzeichnis",
@@ -288,6 +318,12 @@
       "new_value": "Zuletzt aktualisiert am 02.06.2026 um 07:43",
       "previous_snapshot_timestamp": "2026-06-01T23:21:09.838706+00:00",
       "previous_value": "Zuletzt aktualisiert am 10.04.2026 um 12:24",
+      "snapshot_context": {
+        "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/02568",
+        "id": "02568",
+        "manufacturer": "MiNDNET e-Health Solutions GmbH",
+        "name": "ORIKO ADHS-Therapie"
+      },
       "summary_de": "Im Abschnitt 'Aktualisierungshinweis im DiGA-Verzeichnis' wurde Text geändert.",
       "text_change_kind": "mixed_text_change",
       "user_facing_field_label": "Aktualisierungshinweis im DiGA-Verzeichnis",

@@ -1386,48 +1386,7 @@ def current_snapshot_entry(event: dict[str, Any]) -> dict[str, Any] | None:
     snapshot_context = event.get("snapshot_context")
     if isinstance(snapshot_context, dict):
         return snapshot_context
-    snapshot_path = snapshot_path_for_timestamp(event.get("current_snapshot_timestamp"))
-    if not snapshot_path:
-        return None
-    entries = load_snapshot_entries(str(snapshot_path))
-    candidates = [
-        str(event.get("diga_id") or "").lower(),
-        str(event.get("diga_name") or "").lower(),
-        str(event.get("bfarm_directory_url") or "").lower(),
-    ]
-    for entry in entries:
-        entry_keys = {
-            str(entry.get("id") or "").lower(),
-            str(entry.get("identifier") or "").lower(),
-            str(entry.get("name") or "").lower(),
-            str(entry.get("bfarm_directory_url") or "").lower(),
-        }
-        if any(candidate and candidate in entry_keys for candidate in candidates):
-            return entry
     return None
-
-
-def snapshot_path_for_timestamp(value: Any) -> Path | None:
-    target = parse_datetime(value)
-    if not target:
-        return None
-    candidates = [
-        (abs((parsed - target).total_seconds()), path)
-        for path in SNAPSHOT_DIR.glob(f"{SNAPSHOT_FILENAME_PREFIX}*{SNAPSHOT_FILENAME_SUFFIX}")
-        if (parsed := parse_snapshot_timestamp(path))
-    ]
-    if not candidates:
-        return None
-    _delta, path = min(candidates, key=lambda item: item[0])
-    return path
-
-
-@st.cache_data(show_spinner=False)
-def load_snapshot_entries(path: str) -> list[dict[str, Any]]:
-    with Path(path).open("r", encoding="utf-8") as file:
-        payload = json.load(file)
-    entries = payload.get("entries", [])
-    return entries if isinstance(entries, list) else []
 
 
 def normalized_description_blob(entry: dict[str, Any]) -> str:

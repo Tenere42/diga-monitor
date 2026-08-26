@@ -21,6 +21,12 @@
       "new_value": "provisional",
       "previous_snapshot_timestamp": "2026-06-23T13:01:48.617416+00:00",
       "previous_value": "removed",
+      "snapshot_context": {
+        "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/02286",
+        "id": "02286",
+        "manufacturer": "Una Health GmbH",
+        "name": "Una Health für Diabetes"
+      },
       "source": "historical_snapshot_backfill",
       "summary_de": "Die DiGA wurde wieder im Verzeichnis aufgenommen: Gestrichen → Vorläufig aufgenommen.",
       "user_facing_field_label": "Status der Listung"

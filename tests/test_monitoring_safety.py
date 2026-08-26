@@ -67,8 +67,17 @@ def write_json(path: Path, payload: dict[str, object]) -> None:
 class MonitoringSafetyTests(unittest.TestCase):
     def test_dashboard_prefers_embedded_snapshot_context(self) -> None:
         context = {"id": "12345", "name": "Test DiGA", "descriptive_texts": {"field": "value"}}
-        with mock.patch.object(app, "snapshot_path_for_timestamp", side_effect=AssertionError("legacy lookup used")):
+        with mock.patch.object(app, "SNAPSHOT_DIR") as snapshot_dir:
             self.assertEqual(app.current_snapshot_entry({"snapshot_context": context}), context)
+            self.assertIsNone(app.current_snapshot_entry({"current_snapshot_timestamp": "2026-01-01T00:00:00+00:00"}))
+            snapshot_dir.glob.assert_not_called()
+
+    def test_all_historical_events_have_embedded_context(self) -> None:
+        events = []
+        for path in sorted(Path("outputs/changes").glob("changes_*.json")):
+            events.extend(json.loads(path.read_text(encoding="utf-8")).get("events", []))
+        self.assertEqual(len(events), 369)
+        self.assertTrue(all(isinstance(event.get("snapshot_context"), dict) for event in events))
 
     def test_dashboard_scan_status_prefers_scan_history_over_legacy_snapshots(self) -> None:
         history = [{"scan_timestamp": "2026-08-23T15:00:00+00:00"}]

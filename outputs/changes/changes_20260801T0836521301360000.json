@@ -235,6 +235,12 @@
         "F40.00 Agoraphobie: Ohne Angabe einer Panikstörung",
         "F40.01 Agoraphobie: Mit Panikstörung"
       ],
+      "snapshot_context": {
+        "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/00300",
+        "id": "00300",
+        "manufacturer": "Sympatient GmbH",
+        "name": "Invirto - Die Therapie gegen Angst"
+      },
       "source_kind": "visible_diff_unresolved",
       "summary_de": "Eine fachliche Änderung wurde erkannt, der sichtbare Abschnitt konnte aber nicht eindeutig zugeordnet werden.",
       "user_facing_field_label": "Änderung erkannt, sichtbarer Abschnitt nicht eindeutig zugeordnet"
@@ -372,6 +378,12 @@
         "C41 Bösartige Neubildung des Knochens und des Gelenkknorpels sonstiger und nicht näher bezeichneter Lokalisationen",
         "I80 Thrombose, Phlebitis und Thrombophlebitis"
       ],
+      "snapshot_context": {
+        "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/00993",
+        "id": "00993",
+        "manufacturer": "Mawendo GmbH",
+        "name": "Mawendo"
+      },
       "source_kind": "visible_diff_unresolved",
       "summary_de": "Eine fachliche Änderung wurde erkannt, der sichtbare Abschnitt konnte aber nicht eindeutig zugeordnet werden.",
       "user_facing_field_label": "Änderung erkannt, sichtbarer Abschnitt nicht eindeutig zugeordnet"
@@ -425,6 +437,12 @@
         "R52.1 Chronischer unbeeinflussbarer Schmerz",
         "R52.2 Sonstiger chronischer Schmerz"
       ],
+      "snapshot_context": {
+        "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/01304",
+        "id": "01304",
+        "manufacturer": "GET.ON Institut für Online Gesundheitstrainings GmbH",
+        "name": "HelloBetter Chronische Schmerzen"
+      },
       "source_kind": "visible_diff_unresolved",
       "summary_de": "Eine fachliche Änderung wurde erkannt, der sichtbare Abschnitt konnte aber nicht eindeutig zugeordnet werden.",
       "user_facing_field_label": "Änderung erkannt, sichtbarer Abschnitt nicht eindeutig zugeordnet"
