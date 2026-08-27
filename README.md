@@ -432,7 +432,7 @@ GitHub Actions reads the R2 endpoint and bucket from repository variables `R2_EN
 
 An R2 token with **Object Read & Write** access scoped to the `diga-monitor` bucket is sufficient. It must permit listing objects, reading object metadata, uploading objects, and deleting the temporary object used by the optional connectivity check. With the same R2 environment variables set, run `python -m scripts.r2_connectivity_check` to verify `ListBucket`, `HeadObject`, `PutObject`, and `DeleteObject` access. The command uses a unique key below `diagnostics/`, removes it afterward, and never prints configuration values.
 
-The existing `data/snapshots` history is intentionally left untouched. New change events embed the compact entry context needed by the dashboard; older events continue to fall back to legacy snapshots. Before deleting the legacy 14+ GB history, run a separate migration that uploads and verifies the old snapshots and backfills or validates dashboard context for every older event.
+The existing `data/snapshots` history remains untouched pending the final cleanup decision. All historical change events now embed the compact context needed by the dashboard, and production baseline/scan-status paths no longer fall back to the legacy directory. The verified minimal retention set and restore evidence are recorded in `data/audit/legacy_history_manifest.json`.
 
 ## Notes About BfArM Integration
 

@@ -220,7 +220,9 @@ def run_monitor(
     else:
         print("Render-on-change inactive.")
     baseline_path = operational_baseline_path(snapshot_dir)
-    previous_paths = [baseline_path] if baseline_path.exists() else latest_snapshot_paths(snapshot_dir, limit=1)
+    previous_paths = [baseline_path] if baseline_path.exists() else []
+    if not previous_paths and snapshot_dir != DEFAULT_SNAPSHOT_DIR:
+        previous_paths = latest_snapshot_paths(snapshot_dir, limit=1)
     entries = fetch_diga_entries()
     if limit is not None:
         entries = entries[: max(limit, 0)]
