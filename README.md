@@ -154,7 +154,7 @@ py -m src.main notify-test
 py -m src.main notify-test --dry-run
 ```
 
-`notify-test` checks the SMTP configuration and sends a message with subject `DiGA Monitor Test Notification`. It exits with a non-zero status if required variables are missing or SMTP delivery fails.
+`notify-test` checks the SMTP configuration and sends exactly one simulated price-change message with subject `[TEST / SIMULATION] DiGA Watch: 1 Änderung(en) erkannt`. It exits with a non-zero status if required variables are missing or SMTP delivery fails.
 
 In GitHub Actions, open the `DiGA Monitor` workflow manually with `Run workflow` and set `notification_test` to `true`. This sends only the test email and skips the normal DiGA scan and commit step.
 
