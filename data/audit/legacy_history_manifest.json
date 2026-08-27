@@ -1,7 +1,7 @@
 {
   "all_verified": true,
   "bucket": "diga-monitor",
-  "object_count": 44,
+  "object_count": 57,
   "objects": [
     {
       "archive_kind": "legacy-history",
@@ -31,6 +31,7 @@
       "legacy_source_path": "data/snapshots/diga_snapshot_20260601T161727630319Z.json",
       "roles": [
         "earliest",
+        "unique-monitored-state",
         "weekly-checkpoint"
       ],
       "stored_sha256": "479ae559d1b1e803d0be1a9f91b9519e398fa46bf039b1cbb15dfc7259055447",
@@ -48,11 +49,29 @@
       "legacy_source_match": true,
       "legacy_source_path": "data/snapshots/diga_snapshot_20260602T130102618838Z.json",
       "roles": [
-        "event-context"
+        "event-context",
+        "unique-monitored-state"
       ],
       "stored_sha256": "72fee909b9eb3ab23bdcf7ca374cabe56ff9fd807a81e986581a7cad67ac96a4",
       "timestamp": "2026-06-02T13:01:02.618820+00:00",
       "uncompressed_size": 7505403,
+      "verified": true
+    },
+    {
+      "archive_kind": "legacy-history",
+      "calculated_sha256": "ed1c3ecbd2415cb6bed8e19c847dd79980fd77e1f817513ead38721c8f12805d",
+      "compressed_size": 3080144,
+      "internal_created_at": "2026-06-02T22:38:29.681932+00:00",
+      "json_parse": true,
+      "key": "full-snapshots/legacy/diga_snapshot_20260602T223829681951Z.json.gz",
+      "legacy_source_match": true,
+      "legacy_source_path": "data/snapshots/diga_snapshot_20260602T223829681951Z.json",
+      "roles": [
+        "unique-monitored-state"
+      ],
+      "stored_sha256": "ed1c3ecbd2415cb6bed8e19c847dd79980fd77e1f817513ead38721c8f12805d",
+      "timestamp": "2026-06-02T22:38:29.681932+00:00",
+      "uncompressed_size": 17868171,
       "verified": true
     },
     {
@@ -65,7 +84,8 @@
       "legacy_source_match": true,
       "legacy_source_path": "data/snapshots/diga_snapshot_20260603T145003390916Z.json",
       "roles": [
-        "event-context"
+        "event-context",
+        "unique-monitored-state"
       ],
       "stored_sha256": "5780a6e7d26096b7e0d10231512bc693dd1f8a54960c3432535b7634ac8d63ab",
       "timestamp": "2026-06-03T14:50:03.390900+00:00",
@@ -82,7 +102,8 @@
       "legacy_source_match": true,
       "legacy_source_path": "data/snapshots/diga_snapshot_20260607T010216151232Z.json",
       "roles": [
-        "event-context"
+        "event-context",
+        "unique-monitored-state"
       ],
       "stored_sha256": "04c7ba2ba1023f705e45a8ca59d1d5953d1b7e58133bccccd7e76a84375d2e11",
       "timestamp": "2026-06-07T01:02:16.151215+00:00",
@@ -133,7 +154,8 @@
       "legacy_source_match": true,
       "legacy_source_path": "data/snapshots/diga_snapshot_20260609T010103624335Z.json",
       "roles": [
-        "event-context"
+        "event-context",
+        "unique-monitored-state"
       ],
       "stored_sha256": "af90dc18d37884c71ea4091e126a4de631f09b621dc2e4c0f9f06166bfa4fe0f",
       "timestamp": "2026-06-09T01:01:03.624315+00:00",
@@ -167,7 +189,8 @@
       "legacy_source_match": true,
       "legacy_source_path": "data/snapshots/diga_snapshot_20260611T100111098041Z.json",
       "roles": [
-        "event-context"
+        "event-context",
+        "unique-monitored-state"
       ],
       "stored_sha256": "d099630cf716152649c4b1cd31dff709f05e368ee53bfd85ea5b07a7dcb43dbe",
       "timestamp": "2026-06-11T10:01:11.098025+00:00",
@@ -184,7 +207,8 @@
       "legacy_source_match": true,
       "legacy_source_path": "data/snapshots/diga_snapshot_20260611T220104297336Z.json",
       "roles": [
-        "event-context"
+        "event-context",
+        "unique-monitored-state"
       ],
       "stored_sha256": "d4244d5d97f5438bab770f75a7c4b4737dd899d2841dcc574b32c8e5d3ac071a",
       "timestamp": "2026-06-11T22:01:04.297312+00:00",
@@ -218,7 +242,8 @@
       "legacy_source_match": true,
       "legacy_source_path": "data/snapshots/diga_snapshot_20260616T130131386227Z.json",
       "roles": [
-        "event-context"
+        "event-context",
+        "unique-monitored-state"
       ],
       "stored_sha256": "4dad196071e232b05ded117b04aeb12d26ced44221a753b302fc0129a6720424",
       "timestamp": "2026-06-16T13:01:31.386207+00:00",
@@ -235,7 +260,8 @@
       "legacy_source_match": true,
       "legacy_source_path": "data/snapshots/diga_snapshot_20260619T010128604926Z.json",
       "roles": [
-        "event-context"
+        "event-context",
+        "unique-monitored-state"
       ],
       "stored_sha256": "7ff4667b390e3427c431aa06b0805ff411983f3bfe30bc706e345ba90090cd0c",
       "timestamp": "2026-06-19T01:01:28.604905+00:00",
@@ -286,7 +312,8 @@
       "legacy_source_match": true,
       "legacy_source_path": "data/snapshots/diga_snapshot_20260622T100137443975Z.json",
       "roles": [
-        "event-context"
+        "event-context",
+        "unique-monitored-state"
       ],
       "stored_sha256": "e8fbf739c16eaf041184b5f1f554aac739b04cbedcd88ddf94043eb188bfeece",
       "timestamp": "2026-06-22T10:01:37.443959+00:00",
@@ -320,11 +347,46 @@
       "legacy_source_match": true,
       "legacy_source_path": "data/snapshots/diga_snapshot_20260623T160149236092Z.json",
       "roles": [
-        "event-context"
+        "event-context",
+        "unique-monitored-state"
       ],
       "stored_sha256": "1f1d83c49b51b0b8ac53d870f1fcdc666f3b0d70235f23d697ef9fb730422582",
       "timestamp": "2026-06-23T16:01:49.236062+00:00",
       "uncompressed_size": 37045067,
+      "verified": true
+    },
+    {
+      "archive_kind": "legacy-history",
+      "calculated_sha256": "f7e8eea899be38fbfaece19d5bfdfa790a0809c597e769eba1bad0ea07212d5e",
+      "compressed_size": 4171484,
+      "internal_created_at": "2026-06-25T01:01:43.554427+00:00",
+      "json_parse": true,
+      "key": "full-snapshots/legacy/diga_snapshot_20260625T010143554539Z.json.gz",
+      "legacy_source_match": true,
+      "legacy_source_path": "data/snapshots/diga_snapshot_20260625T010143554539Z.json",
+      "roles": [
+        "unique-monitored-state"
+      ],
+      "stored_sha256": "f7e8eea899be38fbfaece19d5bfdfa790a0809c597e769eba1bad0ea07212d5e",
+      "timestamp": "2026-06-25T01:01:43.554427+00:00",
+      "uncompressed_size": 37054205,
+      "verified": true
+    },
+    {
+      "archive_kind": "legacy-history",
+      "calculated_sha256": "f11a20788e3028fd2bd2fe85e518d351b37b152d76959ed0d7b3f87b5bb7c967",
+      "compressed_size": 4171569,
+      "internal_created_at": "2026-06-26T13:01:44.322174+00:00",
+      "json_parse": true,
+      "key": "full-snapshots/legacy/diga_snapshot_20260626T130144322269Z.json.gz",
+      "legacy_source_match": true,
+      "legacy_source_path": "data/snapshots/diga_snapshot_20260626T130144322269Z.json",
+      "roles": [
+        "unique-monitored-state"
+      ],
+      "stored_sha256": "f11a20788e3028fd2bd2fe85e518d351b37b152d76959ed0d7b3f87b5bb7c967",
+      "timestamp": "2026-06-26T13:01:44.322174+00:00",
+      "uncompressed_size": 37054972,
       "verified": true
     },
     {
@@ -346,6 +408,74 @@
     },
     {
       "archive_kind": "legacy-history",
+      "calculated_sha256": "c594d17b21470a0cb5cf70ddd874de5e6aa8a4dd6c34c7eee9260ce4e7aef6b7",
+      "compressed_size": 4171559,
+      "internal_created_at": "2026-06-30T01:01:48.019349+00:00",
+      "json_parse": true,
+      "key": "full-snapshots/legacy/diga_snapshot_20260630T010148019425Z.json.gz",
+      "legacy_source_match": true,
+      "legacy_source_path": "data/snapshots/diga_snapshot_20260630T010148019425Z.json",
+      "roles": [
+        "unique-monitored-state"
+      ],
+      "stored_sha256": "c594d17b21470a0cb5cf70ddd874de5e6aa8a4dd6c34c7eee9260ce4e7aef6b7",
+      "timestamp": "2026-06-30T01:01:48.019349+00:00",
+      "uncompressed_size": 37054972,
+      "verified": true
+    },
+    {
+      "archive_kind": "legacy-history",
+      "calculated_sha256": "a4c46a0017d4788a2f9521a741e1a364d91ea969b561e3b5019cf0805f84d6f4",
+      "compressed_size": 4171446,
+      "internal_created_at": "2026-06-30T10:02:05.322306+00:00",
+      "json_parse": true,
+      "key": "full-snapshots/legacy/diga_snapshot_20260630T100205322400Z.json.gz",
+      "legacy_source_match": true,
+      "legacy_source_path": "data/snapshots/diga_snapshot_20260630T100205322400Z.json",
+      "roles": [
+        "unique-monitored-state"
+      ],
+      "stored_sha256": "a4c46a0017d4788a2f9521a741e1a364d91ea969b561e3b5019cf0805f84d6f4",
+      "timestamp": "2026-06-30T10:02:05.322306+00:00",
+      "uncompressed_size": 37053904,
+      "verified": true
+    },
+    {
+      "archive_kind": "legacy-history",
+      "calculated_sha256": "e0241ab9d88f929e2c59b86efc8ed92f404252521d85c8e9a4e1913ff3543ced",
+      "compressed_size": 4171695,
+      "internal_created_at": "2026-07-02T09:34:35.553568+00:00",
+      "json_parse": true,
+      "key": "full-snapshots/legacy/diga_snapshot_20260702T093435553657Z.json.gz",
+      "legacy_source_match": true,
+      "legacy_source_path": "data/snapshots/diga_snapshot_20260702T093435553657Z.json",
+      "roles": [
+        "unique-monitored-state"
+      ],
+      "stored_sha256": "e0241ab9d88f929e2c59b86efc8ed92f404252521d85c8e9a4e1913ff3543ced",
+      "timestamp": "2026-07-02T09:34:35.553568+00:00",
+      "uncompressed_size": 37055549,
+      "verified": true
+    },
+    {
+      "archive_kind": "legacy-history",
+      "calculated_sha256": "118d991ce68a1947a0dc66c3dd5b272b37387713b2c5dfef0a716778e6f35e1a",
+      "compressed_size": 4171354,
+      "internal_created_at": "2026-07-02T13:01:55.148600+00:00",
+      "json_parse": true,
+      "key": "full-snapshots/legacy/diga_snapshot_20260702T130155148685Z.json.gz",
+      "legacy_source_match": true,
+      "legacy_source_path": "data/snapshots/diga_snapshot_20260702T130155148685Z.json",
+      "roles": [
+        "unique-monitored-state"
+      ],
+      "stored_sha256": "118d991ce68a1947a0dc66c3dd5b272b37387713b2c5dfef0a716778e6f35e1a",
+      "timestamp": "2026-07-02T13:01:55.148600+00:00",
+      "uncompressed_size": 37051689,
+      "verified": true
+    },
+    {
+      "archive_kind": "legacy-history",
       "calculated_sha256": "cf2e50b130101d1623f8a56fbee88a361c5136e370e8b1dae2a05dd1ee4d78f4",
       "compressed_size": 4171350,
       "internal_created_at": "2026-07-06T01:02:03.160275+00:00",
@@ -363,6 +493,23 @@
     },
     {
       "archive_kind": "legacy-history",
+      "calculated_sha256": "06f6cf58275ed5050988c3723e3fb7e4ae3a9345eaae8723865e8348f9b52bdb",
+      "compressed_size": 4172525,
+      "internal_created_at": "2026-07-08T13:02:23.572807+00:00",
+      "json_parse": true,
+      "key": "full-snapshots/legacy/diga_snapshot_20260708T130223572885Z.json.gz",
+      "legacy_source_match": true,
+      "legacy_source_path": "data/snapshots/diga_snapshot_20260708T130223572885Z.json",
+      "roles": [
+        "unique-monitored-state"
+      ],
+      "stored_sha256": "06f6cf58275ed5050988c3723e3fb7e4ae3a9345eaae8723865e8348f9b52bdb",
+      "timestamp": "2026-07-08T13:02:23.572807+00:00",
+      "uncompressed_size": 37056069,
+      "verified": true
+    },
+    {
+      "archive_kind": "legacy-history",
       "calculated_sha256": "7cc7030faa62765032c7ebb43162d3ca8d6ce2e03a8752d29f466ca2743ef2ce",
       "compressed_size": 4172529,
       "internal_created_at": "2026-07-13T01:02:15.545075+00:00",
@@ -376,6 +523,74 @@
       "stored_sha256": "7cc7030faa62765032c7ebb43162d3ca8d6ce2e03a8752d29f466ca2743ef2ce",
       "timestamp": "2026-07-13T01:02:15.545075+00:00",
       "uncompressed_size": 37056069,
+      "verified": true
+    },
+    {
+      "archive_kind": "legacy-history",
+      "calculated_sha256": "ba7f035e4bb0dd371b09d2aa77c98b4d6c07a59d613e0c7deab4f457d51393b1",
+      "compressed_size": 4172537,
+      "internal_created_at": "2026-07-13T09:49:24.185080+00:00",
+      "json_parse": true,
+      "key": "full-snapshots/legacy/diga_snapshot_20260713T094924185164Z.json.gz",
+      "legacy_source_match": true,
+      "legacy_source_path": "data/snapshots/diga_snapshot_20260713T094924185164Z.json",
+      "roles": [
+        "unique-monitored-state"
+      ],
+      "stored_sha256": "ba7f035e4bb0dd371b09d2aa77c98b4d6c07a59d613e0c7deab4f457d51393b1",
+      "timestamp": "2026-07-13T09:49:24.185080+00:00",
+      "uncompressed_size": 37056069,
+      "verified": true
+    },
+    {
+      "archive_kind": "legacy-history",
+      "calculated_sha256": "740ba865f25aef2a5afc50be367edef8429f01def11809fa0dccaefdb17b198d",
+      "compressed_size": 4172543,
+      "internal_created_at": "2026-07-14T10:02:25.512385+00:00",
+      "json_parse": true,
+      "key": "full-snapshots/legacy/diga_snapshot_20260714T100225512473Z.json.gz",
+      "legacy_source_match": true,
+      "legacy_source_path": "data/snapshots/diga_snapshot_20260714T100225512473Z.json",
+      "roles": [
+        "unique-monitored-state"
+      ],
+      "stored_sha256": "740ba865f25aef2a5afc50be367edef8429f01def11809fa0dccaefdb17b198d",
+      "timestamp": "2026-07-14T10:02:25.512385+00:00",
+      "uncompressed_size": 37056069,
+      "verified": true
+    },
+    {
+      "archive_kind": "legacy-history",
+      "calculated_sha256": "aea9fa36a5b38f3df0e1f781f408f735f8ab94ce15ce8d6ad850ac9f8337492e",
+      "compressed_size": 4174580,
+      "internal_created_at": "2026-07-14T13:02:22.603555+00:00",
+      "json_parse": true,
+      "key": "full-snapshots/legacy/diga_snapshot_20260714T130222603649Z.json.gz",
+      "legacy_source_match": true,
+      "legacy_source_path": "data/snapshots/diga_snapshot_20260714T130222603649Z.json",
+      "roles": [
+        "unique-monitored-state"
+      ],
+      "stored_sha256": "aea9fa36a5b38f3df0e1f781f408f735f8ab94ce15ce8d6ad850ac9f8337492e",
+      "timestamp": "2026-07-14T13:02:22.603555+00:00",
+      "uncompressed_size": 37062186,
+      "verified": true
+    },
+    {
+      "archive_kind": "legacy-history",
+      "calculated_sha256": "64f8287d0a4acaa748fe49554b814d63c6e87a1749898eb911bfc2cf3952bac8",
+      "compressed_size": 4174836,
+      "internal_created_at": "2026-07-16T07:02:59.343090+00:00",
+      "json_parse": true,
+      "key": "full-snapshots/legacy/diga_snapshot_20260716T070259343177Z.json.gz",
+      "legacy_source_match": true,
+      "legacy_source_path": "data/snapshots/diga_snapshot_20260716T070259343177Z.json",
+      "roles": [
+        "unique-monitored-state"
+      ],
+      "stored_sha256": "64f8287d0a4acaa748fe49554b814d63c6e87a1749898eb911bfc2cf3952bac8",
+      "timestamp": "2026-07-16T07:02:59.343090+00:00",
+      "uncompressed_size": 37066403,
       "verified": true
     },
     {
@@ -405,7 +620,8 @@
       "legacy_source_match": true,
       "legacy_source_path": "data/snapshots/diga_snapshot_20260717T070211722766Z.json",
       "roles": [
-        "event-context"
+        "event-context",
+        "unique-monitored-state"
       ],
       "stored_sha256": "ad9e2e24132ccd123d6eb89d157598c25338918cda94f89cc4c941fe61ba4de6",
       "timestamp": "2026-07-17T07:02:11.722673+00:00",
@@ -439,7 +655,8 @@
       "legacy_source_match": true,
       "legacy_source_path": "data/snapshots/diga_snapshot_20260720T093613019916Z.json",
       "roles": [
-        "event-context"
+        "event-context",
+        "unique-monitored-state"
       ],
       "stored_sha256": "58a66fbd7992a7f51b3645de940e7279c6faa1a27c17ef86b274e35d64b99c92",
       "timestamp": "2026-07-20T09:36:13.019842+00:00",
@@ -456,7 +673,8 @@
       "legacy_source_match": true,
       "legacy_source_path": "data/snapshots/diga_snapshot_20260720T130245810125Z.json",
       "roles": [
-        "event-context"
+        "event-context",
+        "unique-monitored-state"
       ],
       "stored_sha256": "2f07677b21aa3c0c4c4e0655cedd3ee4b501a44a6e0624b9898b12a484945f47",
       "timestamp": "2026-07-20T13:02:45.810039+00:00",
@@ -473,10 +691,28 @@
       "legacy_source_match": true,
       "legacy_source_path": "data/snapshots/diga_snapshot_20260720T143514939741Z.json",
       "roles": [
-        "event-context"
+        "event-context",
+        "unique-monitored-state"
       ],
       "stored_sha256": "b86d68cbc31e7cb131057a0f2da1393bf8ed6f85c695d2f5e70dacf76c882d6a",
       "timestamp": "2026-07-20T14:35:14.939632+00:00",
+      "uncompressed_size": 37070462,
+      "verified": true
+    },
+    {
+      "archive_kind": "legacy-history",
+      "calculated_sha256": "f1f4c2b1ab7baca79ac1e8c92d49e76e8c0e8e3defa82aa4c5ea926f743c88aa",
+      "compressed_size": 4175386,
+      "internal_created_at": "2026-07-24T08:45:15.289629+00:00",
+      "json_parse": true,
+      "key": "full-snapshots/legacy/diga_snapshot_20260724T084515289728Z.json.gz",
+      "legacy_source_match": true,
+      "legacy_source_path": "data/snapshots/diga_snapshot_20260724T084515289728Z.json",
+      "roles": [
+        "unique-monitored-state"
+      ],
+      "stored_sha256": "f1f4c2b1ab7baca79ac1e8c92d49e76e8c0e8e3defa82aa4c5ea926f743c88aa",
+      "timestamp": "2026-07-24T08:45:15.289629+00:00",
       "uncompressed_size": 37070462,
       "verified": true
     },
@@ -507,7 +743,8 @@
       "legacy_source_match": true,
       "legacy_source_path": "data/snapshots/diga_snapshot_20260801T070223227770Z.json",
       "roles": [
-        "event-context"
+        "event-context",
+        "unique-monitored-state"
       ],
       "stored_sha256": "f9f0097c7ba7773a26099523a832f3d01095a2a86fe49763606516ea8d89e36e",
       "timestamp": "2026-08-01T07:02:23.227684+00:00",
@@ -558,7 +795,8 @@
       "legacy_source_match": true,
       "legacy_source_path": "data/snapshots/diga_snapshot_20260806T070224237634Z.json",
       "roles": [
-        "event-context"
+        "event-context",
+        "unique-monitored-state"
       ],
       "stored_sha256": "858395762bcdc306b284efba2752176e9a7db834c0eb8eab8f3ed2158ba57cca",
       "timestamp": "2026-08-06T07:02:24.237543+00:00",
@@ -575,7 +813,8 @@
       "legacy_source_match": true,
       "legacy_source_path": "data/snapshots/diga_snapshot_20260807T010233507858Z.json",
       "roles": [
-        "event-context"
+        "event-context",
+        "unique-monitored-state"
       ],
       "stored_sha256": "0501dc146c65dd2ae7a92a6b41436cabbe6c58debf4d963a1b99216f7b9d3e1d",
       "timestamp": "2026-08-07T01:02:33.507783+00:00",
@@ -626,7 +865,8 @@
       "legacy_source_match": true,
       "legacy_source_path": "data/snapshots/diga_snapshot_20260810T100240532494Z.json",
       "roles": [
-        "event-context"
+        "event-context",
+        "unique-monitored-state"
       ],
       "stored_sha256": "9662853bce7a55c92bfd3a861909c9417c0f44407f9040d11c4a6d7c0ca5383a",
       "timestamp": "2026-08-10T10:02:40.532412+00:00",
@@ -643,7 +883,8 @@
       "legacy_source_match": true,
       "legacy_source_path": "data/snapshots/diga_snapshot_20260813T192810931407Z.json",
       "roles": [
-        "event-context"
+        "event-context",
+        "unique-monitored-state"
       ],
       "stored_sha256": "306cbe9da40b93147d57c87df5aa9a55e5f83f9f223ef8475f00e66e274b9542",
       "timestamp": "2026-08-13T19:28:10.931336+00:00",
@@ -694,7 +935,8 @@
       "legacy_source_match": true,
       "legacy_source_path": "data/snapshots/diga_snapshot_20260818T100357332306Z.json",
       "roles": [
-        "event-context"
+        "event-context",
+        "unique-monitored-state"
       ],
       "stored_sha256": "3a860804bd9feb9dba53c52424aa08eb9bcf534478c1ba0b7ee87e490570c18b",
       "timestamp": "2026-08-18T10:03:57.332246+00:00",
@@ -711,7 +953,8 @@
       "legacy_source_match": true,
       "legacy_source_path": "data/snapshots/diga_snapshot_20260820T010345633011Z.json",
       "roles": [
-        "event-context"
+        "event-context",
+        "unique-monitored-state"
       ],
       "stored_sha256": "64a6fb681f8eac98704d75b015050272ca2973bc9ccba911d41d06fda1b1cc68",
       "timestamp": "2026-08-20T01:03:45.632939+00:00",
