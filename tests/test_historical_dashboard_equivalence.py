@@ -48,7 +48,9 @@ class HistoricalDashboardEquivalenceTests(unittest.TestCase):
             if not timestamp:
                 return None
             source = closest_snapshot(sources, str(timestamp))
-            snapshot = cache.setdefault(source.path, json.loads(git_bytes(source.path)))
+            if source.path not in cache:
+                cache[source.path] = json.loads(git_bytes(source.path))
+            snapshot = cache[source.path]
             return matching_entry(snapshot, event)
 
         with mock.patch.object(app, "current_snapshot_entry", side_effect=legacy_entry):
