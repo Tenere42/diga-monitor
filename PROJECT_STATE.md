@@ -2,7 +2,7 @@
 
 ## Current objective
 
-Maintain the production DiGA Monitor with GitHub as source of truth and use the Codex-Claude CLI Duo Loop for independent read-only review of larger, risky, or architecture-relevant changes.
+Reduce Streamlit rerun latency without changing historical events, dashboard semantics, scanner behavior, or the Baseline/R2 architecture.
 
 ## Production status
 
@@ -17,10 +17,11 @@ DiGA Monitor is in production. The scheduler runs at 06:00, 09:00, 12:00, 15:00,
 - All 842 legacy JSON snapshots have been removed from the current tree while retaining `data/snapshots/.gitkeep`; no R2 object or historical Git object was changed.
 - GitHub is the shared source of truth for code and project handoff state.
 - Codex is the primary implementer and orchestrator. For substantial changes it invokes the authenticated local Claude Code CLI as a read-only reviewer with restricted tools and at most three review rounds.
+- Dashboard inputs use content-addressed Streamlit caching: file-content signatures invalidate cached change events and scan history automatically on deployment changes.
 
 ## Last completed work
 
-Merged the verified tree-only legacy snapshot cleanup and established the local Codex-Claude Duo Loop for future substantial changes. The loop does not require the Claude GitHub Action or GitHub OIDC/WIF.
+Profiled the dashboard data path and added content-addressed caching for change events, real-event preparation, and scan history. Future change files use compact JSON and identity-only `snapshot_context`; existing historical files and their semantics remain unchanged.
 
 ## Current branch / PR
 
@@ -36,6 +37,7 @@ Merged the verified tree-only legacy snapshot cleanup and established the local 
 - Restore integration: the R2 baseline object was restored to an isolated `data/baseline/current_snapshot.json` and loaded through the production loader with 79 entries.
 - Cleanup verification passed before merge, including dashboard, scan/baseline, simulation/CLI, manifest, and restore checks.
 - Claude CLI 2.1.223 is authenticated; non-interactive `claude -p`, restricted read-only tools, workspace reads, and Codex output capture have been verified.
+- Dashboard benchmark fixture: 31 change files (17,763,374 bytes), 369 events, 252 real events, 21 groups, and 162 rendered adjustments. The measured end-to-end warm rerun path improved from about 452 ms uncached to about 99 ms cached in the local benchmark harness.
 
 ## Open risks/blockers
 
@@ -44,7 +46,7 @@ Merged the verified tree-only legacy snapshot cleanup and established the local 
 
 ## Next recommended step
 
-Use the documented Duo Loop on the next larger or riskier change; continue handling small, obviously low-risk changes without mandatory Claude review.
+Verify the dashboard performance change in CI and production after the read-only Claude review; retain the full historical rendering because the measured dataset contains only 21 groups and no rendering limit was justified.
 
 ## Last updated
 

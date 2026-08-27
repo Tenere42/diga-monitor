@@ -13,7 +13,8 @@ from zoneinfo import ZoneInfo
 import streamlit as st
 
 from src.change_events import DEFAULT_CHANGES_DIR, load_change_events
-from src.scan_history import load_scan_history
+from src.dashboard_cache import change_files_signature, scan_history_signature
+from src.scan_history import DEFAULT_SCAN_HISTORY_PATH, load_scan_history
 
 
 TRACKING_START_DATE = date(2026, 5, 31)
@@ -82,10 +83,12 @@ def main() -> None:
     st.set_page_config(page_title="DiGA Monitor", layout="wide")
     render_page_header()
 
-    events = load_change_events(DEFAULT_CHANGES_DIR)
-    events = sorted(events, key=lambda event: event.get("detected_at", ""), reverse=True)
-    real_events = [event for event in events if is_real_change_event(event)]
-    scan_history = load_scan_history()
+    real_events, scan_history = load_dashboard_data(
+        str(DEFAULT_CHANGES_DIR),
+        change_files_signature(DEFAULT_CHANGES_DIR),
+        str(DEFAULT_SCAN_HISTORY_PATH),
+        scan_history_signature(DEFAULT_SCAN_HISTORY_PATH),
+    )
 
     render_status_information(real_events, scan_history)
 
@@ -103,6 +106,21 @@ def main() -> None:
     render_group_summary(grouped_events, filtered_events)
     for group in grouped_events:
         render_event_group(group)
+
+
+@st.cache_data(show_spinner=False, max_entries=2)
+def load_dashboard_data(
+    changes_dir: str,
+    changes_signature: str,
+    scan_history_path: str,
+    history_signature: str,
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    """Load and prepare dashboard inputs behind content-addressed cache keys."""
+    del changes_signature, history_signature
+    events = load_change_events(Path(changes_dir))
+    events = sorted(events, key=lambda event: event.get("detected_at", ""), reverse=True)
+    real_events = [event for event in events if is_real_change_event(event)]
+    return real_events, load_scan_history(Path(scan_history_path))
 
 
 def render_page_header() -> None:

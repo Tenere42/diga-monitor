@@ -216,14 +216,13 @@ def base_event(
 
 
 def snapshot_context(entry: dict[str, Any]) -> dict[str, Any]:
+    """Keep identity context without duplicating full descriptive entry content."""
     keys = (
         "id",
         "identifier",
         "name",
         "manufacturer",
         "bfarm_directory_url",
-        "descriptive_texts",
-        "structured_text_sections",
     )
     return {key: entry[key] for key in keys if entry.get(key) is not None}
 
@@ -778,7 +777,7 @@ def save_change_events(
         "events": events,
     }
     with output_path.open("w", encoding="utf-8") as file:
-        json.dump(payload, file, ensure_ascii=False, indent=2, sort_keys=True)
+        json.dump(payload, file, ensure_ascii=False, separators=(",", ":"), sort_keys=True)
         file.write("\n")
     return output_path
 

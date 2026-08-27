@@ -13,7 +13,7 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 
-from src.change_events import build_change_events, save_change_events, word_level_diff
+from src.change_events import build_change_events, save_change_events, snapshot_context, word_level_diff
 from src.diff import diff_snapshots, render_report
 from src.fetch_diga import fetch_diga_entries
 from src.notifications import is_notifiable_event, notify_changes, send_test_notification
@@ -1056,19 +1056,7 @@ def visible_section_change_event(
         "content_section_change_type": raw_change_type,
         "content_section_content_type": content_type,
         "summary_de": visible_change_summary(raw_change_type, display_path),
-        "snapshot_context": {
-            key: entry[key]
-            for key in (
-                "id",
-                "identifier",
-                "name",
-                "manufacturer",
-                "bfarm_directory_url",
-                "descriptive_texts",
-                "structured_text_sections",
-            )
-            if entry.get(key) is not None
-        },
+        "snapshot_context": snapshot_context(entry),
     }
     if is_textual:
         event["word_diff"] = word_level_diff(before, after)
