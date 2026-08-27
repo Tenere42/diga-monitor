@@ -71,6 +71,7 @@ def notify_changes(
     events: list[dict[str, Any]],
     dry_run: bool = False,
     include_simulated: bool = False,
+    test_mode: bool = False,
 ) -> bool:
     real_events = [
         event
@@ -91,8 +92,9 @@ def notify_changes(
         print_notification_status("Notification skipped: no real changes detected.")
         return False
 
-    subject = f"DiGA Watch: {len(real_events)} Änderung(en) erkannt"
-    body = build_email_body(real_events, os.getenv("DASHBOARD_URL", ""))
+    subject_prefix = "[TEST / SIMULATION] " if test_mode else ""
+    subject = f"{subject_prefix}DiGA Watch: {len(real_events)} Änderung(en) erkannt"
+    body = build_email_body(real_events, os.getenv("DASHBOARD_URL", ""), test_mode=test_mode)
 
     if dry_run:
         print("Dry-run: email would be sent with this content:")
@@ -118,7 +120,7 @@ def notify_changes(
             settings.smtp.email_from,
             settings.recipients,
             subject,
-            build_email_body(real_events, settings.dashboard_url),
+            build_email_body(real_events, settings.dashboard_url, test_mode=test_mode),
         )
         send_email(settings.smtp, messages)
     except MissingNotificationConfig as exc:
@@ -155,77 +157,28 @@ def notify_changes(
 
 
 def send_test_notification(dry_run: bool = False) -> bool:
-    subject = "DiGA Monitor Test Notification"
-    body = "Dies ist eine Testbenachrichtigung des DiGA Monitors."
-    recipients = configured_recipients()
-    recipient = format_recipients(recipients)
-
-    try:
-        settings = load_notification_settings()
-        print_notification_status("Notification configuration complete.")
-    except MissingNotificationConfig as exc:
-        message = f"Notification configuration incomplete. Missing: {', '.join(exc.missing)}"
-        log_notification(
-            recipient=recipient,
-            number_of_changes=0,
-            subject=subject,
-            status="failed",
-            error_message=message,
-        )
-        print_notification_status(message, level="warning")
-        return False
-    except Exception as exc:
-        message = f"Notification configuration failed: {exc}"
-        log_notification(
-            recipient=recipient,
-            number_of_changes=0,
-            subject=subject,
-            status="failed",
-            error_message=message,
-        )
-        print_notification_status(message, level="warning")
-        return False
-
-    if dry_run:
-        print("Dry-run: test email would be sent with this content:")
-        print()
-        print(f"To: {format_recipients(settings.recipients)}")
-        print(f"Subject: {subject}")
-        print()
-        print(body)
-        log_notification(
-            recipient=format_recipients(settings.recipients),
-            number_of_changes=0,
-            subject=subject,
-            status="skipped",
-            error_message="Dry-run: test email not sent.",
-        )
-        print_notification_status("Notification test dry-run: email content printed; no SMTP email sent.")
-        return True
-
-    try:
-        messages = build_email_messages(settings.smtp.email_from, settings.recipients, subject, body)
-        send_email(settings.smtp, messages)
-    except Exception as exc:
-        message = f"Notification failed: {exc}"
-        log_notification(
-            recipient=format_recipients(settings.recipients),
-            number_of_changes=0,
-            subject=subject,
-            status="failed",
-            error_message=message,
-        )
-        print_notification_status(message, level="warning")
-        return False
-
-    log_notification(
-        recipient=format_recipients(settings.recipients),
-        number_of_changes=0,
-        subject=subject,
-        status="sent",
+    now = datetime.now(timezone.utc)
+    event = {
+        "detected_at": now.isoformat(),
+        "diga_id": "TEST-DIGA-NOTIFICATION",
+        "diga_name": "Test DiGA",
+        "manufacturer": "Test Hersteller",
+        "change_type": "price_change",
+        "changed_field": "pricing_information",
+        "previous_value": "499,00 €",
+        "new_value": "529,00 €",
+        "previous_snapshot_timestamp": now.isoformat(),
+        "current_snapshot_timestamp": now.isoformat(),
+        "simulated": True,
+        "simulation_category": "E-Mail End-to-End-Test",
+        "summary_de": "Simulierte Preisänderung von 499,00 € auf 529,00 €.",
+    }
+    return notify_changes(
+        [event],
+        dry_run=dry_run,
+        include_simulated=True,
+        test_mode=True,
     )
-    print_notification_status(f"Notification sent to: {format_recipients(settings.recipients)}")
-    return True
 
 
 def required_notification_env_vars() -> list[str]:
@@ -318,7 +271,11 @@ def print_notification_status(message: str, level: str = "notice") -> None:
     print(message)
 
 
-def build_email_body(events: list[dict[str, Any]], dashboard_url: str) -> str:
+def build_email_body(
+    events: list[dict[str, Any]],
+    dashboard_url: str,
+    test_mode: bool = False,
+) -> str:
     visible_events = events[:10]
     previous_times = [
         parsed
@@ -333,7 +290,17 @@ def build_email_body(events: list[dict[str, Any]], dashboard_url: str) -> str:
     previous_label = format_datetime(min(previous_times)) if previous_times else "-"
     current_label = format_datetime(max(current_times)) if current_times else "-"
 
-    lines = [
+    lines = []
+    if test_mode:
+        lines.extend(
+            [
+                "TEST / SIMULATION",
+                "Keine echte BfArM-Änderung. Diese Nachricht prüft ausschließlich den Benachrichtigungspfad.",
+                "",
+            ]
+        )
+
+    lines.extend([
         "Hallo,",
         "",
         f"DiGA Watch hat {len(events)} Änderung(en) im BfArM DiGA-Verzeichnis erkannt.",
@@ -344,7 +311,7 @@ def build_email_body(events: list[dict[str, Any]], dashboard_url: str) -> str:
         "",
         "Änderungen:",
         "",
-    ]
+    ])
 
     for index, event in enumerate(visible_events, start=1):
         lines.extend(render_event_summary(index, event))
@@ -373,6 +340,17 @@ def render_event_summary(index: int, event: dict[str, Any]) -> list[str]:
         f"   Geändert in: {field_label(event)}",
         f"   Kurzbeschreibung: {event.get('summary_de') or short_description(event)}",
     ]
+
+    if event.get("manufacturer"):
+        lines.append(f"   Hersteller: {event['manufacturer']}")
+
+    if event.get("change_type") == "price_change":
+        lines.extend(
+            [
+                f"   Vorher: {event.get('previous_value', '-')}",
+                f"   Nachher: {event.get('new_value', '-')}",
+            ]
+        )
 
     if event.get("change_type") == "text_change":
         text_summary = text_change_summary(event)

@@ -6,15 +6,60 @@ from unittest import mock
 
 from src.notifications import (
     MissingNotificationConfig,
+    build_email_body,
     build_email_messages,
     configured_recipients,
     load_notification_settings,
     notify_changes,
+    send_test_notification,
     send_email,
 )
 
 
 class NotificationConfigurationTests(unittest.TestCase):
+    def test_test_notification_uses_normal_notification_path_with_one_simulated_change(self) -> None:
+        with mock.patch("src.notifications.notify_changes", return_value=True) as notify:
+            self.assertTrue(send_test_notification())
+
+        events = notify.call_args.args[0]
+        self.assertEqual(len(events), 1)
+        self.assertEqual(events[0]["diga_name"], "Test DiGA")
+        self.assertEqual(events[0]["manufacturer"], "Test Hersteller")
+        self.assertEqual(events[0]["change_type"], "price_change")
+        self.assertEqual(events[0]["previous_value"], "499,00 €")
+        self.assertEqual(events[0]["new_value"], "529,00 €")
+        self.assertTrue(events[0]["simulated"])
+        self.assertEqual(
+            notify.call_args.kwargs,
+            {"dry_run": False, "include_simulated": True, "test_mode": True},
+        )
+
+    def test_test_email_body_contains_all_acceptance_criteria(self) -> None:
+        event = {
+            "detected_at": "2026-08-27T12:00:00+00:00",
+            "diga_name": "Test DiGA",
+            "manufacturer": "Test Hersteller",
+            "change_type": "price_change",
+            "changed_field": "pricing_information",
+            "previous_value": "499,00 €",
+            "new_value": "529,00 €",
+            "summary_de": "Simulierte Preisänderung von 499,00 € auf 529,00 €.",
+        }
+        body = build_email_body([event], "https://example.com/dashboard", test_mode=True)
+
+        for expected in (
+            "TEST / SIMULATION",
+            "Keine echte BfArM-Änderung",
+            "Test DiGA",
+            "Test Hersteller",
+            "Preisänderung",
+            "499,00 €",
+            "529,00 €",
+            "27.08.2026",
+            "https://example.com/dashboard",
+        ):
+            self.assertIn(expected, body)
+
     def test_recipient_configuration_is_external_and_future_multi_recipient_ready(self) -> None:
         with mock.patch.dict(
             os.environ,
