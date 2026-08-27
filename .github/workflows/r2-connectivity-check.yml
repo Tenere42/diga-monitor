@@ -77,7 +77,7 @@ jobs:
 
       - name: Commit verified manifest and event contexts
         run: |
-          if git diff --quiet -- outputs/changes data/audit/legacy_history_manifest.json; then
+          if [ -z "$(git status --porcelain -- outputs/changes data/audit/legacy_history_manifest.json)" ]; then
             echo "Migration outputs already current."
             exit 0
           fi
