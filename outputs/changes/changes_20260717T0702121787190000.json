@@ -28,6 +28,12 @@
       "previous_value": "Zutreffend",
       "question_label": "Nicht eindeutig zugeordneter Eintrag",
       "section_title": "Beschreibung der DiGA",
+      "snapshot_context": {
+        "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/01282",
+        "id": "01282",
+        "manufacturer": "Kranus Health GmbH",
+        "name": "Kranus Edera"
+      },
       "source_area_label": "Beschreibung der DiGA",
       "source_kind": "visible_diff_unresolved",
       "subsection_title": "Nicht eindeutig zugeordneter Eintrag",
@@ -61,6 +67,33 @@
       "previous_value": "- Mehr als 3 kardiovaskuläre Risikofaktoren (arterielle Hypertonie > 150/90 mmHg, Diabetes mellitus, Dyslipoproteinämie, Nikotinabusus, Bewegungsmangel) - Moderate, stabile oder instabile Angina pectoris - Linksventrikuläre Dysfunktion oder Herzinsuffizienz NYHA III-IV - Herzarrhythmien mit hohem Risiko - Moderate bis schwere Valvulopathien - Kardiomyopathien - Blutdruck über 170/100 mmHg - Herzinfarkt oder Schlaganfall in den letzten 6 Wochen - Z. n. Prostatektomie (Prostataentfernung), Bestrahlung oder Seeds der Prostata - Z. n. größerer Operation im kleinen Becken mit wahrscheinlicher Beeinträchtigung der neurovaskulären Versorgung (z.B. Rektumresektion, Harnblasenentfernung) - Nervenerkrankungen (z. B. Multiple Sklerose (MS), Parkinson, Z. n. Schlaganfall, Demenz, psychiatrische Erkrankungen) - Z. n. Unfall mit Beteiligung des Beckens/des Penis/der Wirbelsäule - Aktuell durchgeführte Autoinjektionstherapie (SKAT, MUSE) - Unfähigkeit physisch am Programm teilzunehmen",
       "question_label": "Weitere nicht durch Kontraindikationen abgedeckte Ausschlusskriterien",
       "section_title": "Beschreibung der DiGA",
+      "snapshot_context": {
+        "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/01282",
+        "descriptive_texts": {
+          "questionnaire.Weitere nicht durch Kontraindikationen abgedeckte Ausschlusskriterien": "Absolute Kontraindikationen gemäß Gebrauchsanweisung, die sich nicht nach ICD-10 kodieren lassen: Trifft nicht zu Relative Ausschlusskriterien, die sich nach ICD-10 kodieren lassen (inkl. ICD-10-Codes) und im Ermessen des Leistungserbringenden liegen: - Blutdruck über 170/100 mmHg (I10 Hypertonie) - Linksventrikuläre Dysfunktion oder Herzinsuffizienz NYHA III-IV (I50.13, I50.14) Relative Ausschlusskriterien, die sich nicht nach ICD-10 kodieren lassen und im Ermessen des Leistungserbringenden liegen: - Mehr als 3 kardiovaskuläre Risikofaktoren (arterielle Hypertonie > 150/90 mmHg, Diabetes mellitus, Dyslipoproteinämie, Nikotinabusus, Bewegungsmangel) - Kardiomyopathien - Moderate, stabile oder instabile Angina pectoris - Herzinfarkt oder Schlaganfall in den letzten 6 Wochen - Moderate bis schwere Valvulopathien - Herzarrhythmien mit hohem Risiko - Unfähigkeit physisch am Programm teilzunehmen Studienspezifische methodische Ausschlusskriterien: - Aktuell durchgeführte Autoinjektionstherapie (SKAT, MUSE) - Z. n. Prostatektomie (Prostataentfernung), Bestrahlung oder Seeds der Prostata - Nervenerkrankungen (z. B. Multiple Sklerose (MS), Parkinson, Z. n. Schlaganfall, Demenz, psychiatrische Erkrankungen) - Z. n. Unfall mit Beteiligung des Beckens, des Penis oder der Wirbelsäule - Z. n. größerer Operation im kleinen Becken mit wahrscheinlicher Beeinträchtigung der neurovaskulären Versorgung (z. B. Rektumresektion, Harnblasenentfernung)"
+        },
+        "id": "01282",
+        "manufacturer": "Kranus Health GmbH",
+        "name": "Kranus Edera",
+        "structured_text_sections": [
+          {
+            "accordion_title": "Beschreibung der DiGA",
+            "display_path": "Beschreibung der DiGA > Weitere nicht durch Kontraindikationen abgedeckte Ausschlusskriterien",
+            "field_label": "Weitere nicht durch Kontraindikationen abgedeckte Ausschlusskriterien",
+            "field_path": "descriptive_texts.questionnaire.Weitere nicht durch Kontraindikationen abgedeckte Ausschlusskriterien",
+            "localization_confidence": "high",
+            "main_section": "Beschreibung der DiGA",
+            "question_label": "Weitere nicht durch Kontraindikationen abgedeckte Ausschlusskriterien",
+            "raw_text": "Absolute Kontraindikationen gemäß Gebrauchsanweisung, die sich nicht nach ICD-10 kodieren lassen: Trifft nicht zu Relative Ausschlusskriterien, die sich nach ICD-10 kodieren lassen (inkl. ICD-10-Codes) und im Ermessen des Leistungserbringenden liegen: - Blutdruck über 170/100 mmHg (I10 Hypertonie) - Linksventrikuläre Dysfunktion oder Herzinsuffizienz NYHA III-IV (I50.13, I50.14) Relative Ausschlusskriterien, die sich nicht nach ICD-10 kodieren lassen und im Ermessen des Leistungserbringenden liegen: - Mehr als 3 kardiovaskuläre Risikofaktoren (arterielle Hypertonie > 150/90 mmHg, Diabetes mellitus, Dyslipoproteinämie, Nikotinabusus, Bewegungsmangel) - Kardiomyopathien - Moderate, stabile oder instabile Angina pectoris - Herzinfarkt oder Schlaganfall in den letzten 6 Wochen - Moderate bis schwere Valvulopathien - Herzarrhythmien mit hohem Risiko - Unfähigkeit physisch am Programm teilzunehmen Studienspezifische methodische Ausschlusskriterien: - Aktuell durchgeführte Autoinjektionstherapie (SKAT, MUSE) - Z. n. Prostatektomie (Prostataentfernung), Bestrahlung oder Seeds der Prostata - Nervenerkrankungen (z. B. Multiple Sklerose (MS), Parkinson, Z. n. Schlaganfall, Demenz, psychiatrische Erkrankungen) - Z. n. Unfall mit Beteiligung des Beckens, des Penis oder der Wirbelsäule - Z. n. größerer Operation im kleinen Becken mit wahrscheinlicher Beeinträchtigung der neurovaskulären Versorgung (z. B. Rektumresektion, Harnblasenentfernung)",
+            "section_title": "Beschreibung der DiGA",
+            "source_area_label": "Beschreibung der DiGA",
+            "stable_key": "descriptive-texts|beschreibung-der-diga|beschreibung-der-diga|weitere-nicht-durch-kontraindikationen-abgedeckte-ausschlusskriterien|questionnaire-weitere-nicht-durch-kontraindikationen-abgedeckte-ausschlusskriterien",
+            "subsection_title": "Weitere nicht durch Kontraindikationen abgedeckte Ausschlusskriterien",
+            "tab_label": "Beschreibung der DiGA",
+            "text": "Absolute Kontraindikationen gemäß Gebrauchsanweisung, die sich nicht nach ICD-10 kodieren lassen: Trifft nicht zu Relative Ausschlusskriterien, die sich nach ICD-10 kodieren lassen (inkl. ICD-10-Codes) und im Ermessen des Leistungserbringenden liegen: - Blutdruck über 170/100 mmHg (I10 Hypertonie) - Linksventrikuläre Dysfunktion oder Herzinsuffizienz NYHA III-IV (I50.13, I50.14) Relative Ausschlusskriterien, die sich nicht nach ICD-10 kodieren lassen und im Ermessen des Leistungserbringenden liegen: - Mehr als 3 kardiovaskuläre Risikofaktoren (arterielle Hypertonie > 150/90 mmHg, Diabetes mellitus, Dyslipoproteinämie, Nikotinabusus, Bewegungsmangel) - Kardiomyopathien - Moderate, stabile oder instabile Angina pectoris - Herzinfarkt oder Schlaganfall in den letzten 6 Wochen - Moderate bis schwere Valvulopathien - Herzarrhythmien mit hohem Risiko - Unfähigkeit physisch am Programm teilzunehmen Studienspezifische methodische Ausschlusskriterien: - Aktuell durchgeführte Autoinjektionstherapie (SKAT, MUSE) - Z. n. Prostatektomie (Prostataentfernung), Bestrahlung oder Seeds der Prostata - Nervenerkrankungen (z. B. Multiple Sklerose (MS), Parkinson, Z. n. Schlaganfall, Demenz, psychiatrische Erkrankungen) - Z. n. Unfall mit Beteiligung des Beckens, des Penis oder der Wirbelsäule - Z. n. größerer Operation im kleinen Becken mit wahrscheinlicher Beeinträchtigung der neurovaskulären Versorgung (z. B. Rektumresektion, Harnblasenentfernung)"
+          }
+        ]
+      },
       "source_area_label": "Beschreibung der DiGA",
       "source_kind": "visible_diff_unresolved",
       "stable_key": "descriptive-texts|beschreibung-der-diga|beschreibung-der-diga|weitere-nicht-durch-kontraindikationen-abgedeckte-ausschlusskriterien|questionnaire-weitere-nicht-durch-kontraindikationen-abgedeckte-ausschlusskriterien",

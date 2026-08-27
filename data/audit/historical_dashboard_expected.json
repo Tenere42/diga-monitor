@@ -1,0 +1,7 @@
+{
+  "dashboard_projection_sha256": "96daa8ad6a12277e9758f6aab229fbc9bfcf35f5827bb0aac6b7fb03ba56f197",
+  "event_count": 369,
+  "group_count": 22,
+  "schema_version": 1,
+  "source": "Legacy snapshot-fallback projection captured and verified before removing the runtime fallback"
+}

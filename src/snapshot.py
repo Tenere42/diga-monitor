@@ -9,7 +9,9 @@ from pathlib import Path
 from typing import Any
 
 
-DEFAULT_SNAPSHOT_DIR = Path("data/snapshots")
+# Ephemeral candidates and explicit local experiments only. The durable operational
+# source is data/baseline/current_snapshot.json; legacy data/snapshots is not runtime input.
+DEFAULT_SNAPSHOT_DIR = Path("work/snapshots")
 
 
 @dataclass(frozen=True)

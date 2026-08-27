@@ -67,13 +67,20 @@ def write_json(path: Path, payload: dict[str, object]) -> None:
 class MonitoringSafetyTests(unittest.TestCase):
     def test_dashboard_prefers_embedded_snapshot_context(self) -> None:
         context = {"id": "12345", "name": "Test DiGA", "descriptive_texts": {"field": "value"}}
-        with mock.patch.object(app, "snapshot_path_for_timestamp", side_effect=AssertionError("legacy lookup used")):
-            self.assertEqual(app.current_snapshot_entry({"snapshot_context": context}), context)
+        self.assertEqual(app.current_snapshot_entry({"snapshot_context": context}), context)
+        self.assertIsNone(app.current_snapshot_entry({"current_snapshot_timestamp": "2026-01-01T00:00:00+00:00"}))
 
-    def test_dashboard_scan_status_prefers_scan_history_over_legacy_snapshots(self) -> None:
+    def test_all_historical_events_have_embedded_context(self) -> None:
+        events = []
+        for path in sorted(Path("outputs/changes").glob("changes_*.json")):
+            events.extend(json.loads(path.read_text(encoding="utf-8")).get("events", []))
+        self.assertEqual(len(events), 369)
+        self.assertTrue(all(isinstance(event.get("snapshot_context"), dict) for event in events))
+
+    def test_dashboard_scan_status_uses_scan_history_without_legacy_fallback(self) -> None:
         history = [{"scan_timestamp": "2026-08-23T15:00:00+00:00"}]
-        with mock.patch.object(app, "latest_snapshot_timestamp", return_value=datetime(2026, 1, 1, tzinfo=timezone.utc)):
-            self.assertIn("23.08.2026", app.latest_scan_timestamp(history))
+        self.assertIn("23.08.2026", app.latest_scan_timestamp(history))
+        self.assertEqual(app.latest_scan_timestamp([]), "Noch kein erfolgreicher Scan")
 
     def test_normal_scan_without_changes_replaces_only_operational_baseline(self) -> None:
         with temporary_directory() as temp:

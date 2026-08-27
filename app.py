@@ -19,10 +19,6 @@ from src.scan_history import load_scan_history
 TRACKING_START_DATE = date(2026, 5, 31)
 DISPLAY_TIMEZONE = ZoneInfo("Europe/Berlin")
 UNRESOLVED_FIELD_LABEL = "Nicht eindeutig zugeordneter Eintrag"
-SNAPSHOT_DIR = Path("data/snapshots")
-SNAPSHOT_FILENAME_PREFIX = "diga_snapshot_"
-SNAPSHOT_FILENAME_SUFFIX = ".json"
-
 CHANGE_LABELS = {
     "new_diga": "Neue DiGA",
     "removed_diga": "Nicht mehr gefunden",
@@ -1386,48 +1382,7 @@ def current_snapshot_entry(event: dict[str, Any]) -> dict[str, Any] | None:
     snapshot_context = event.get("snapshot_context")
     if isinstance(snapshot_context, dict):
         return snapshot_context
-    snapshot_path = snapshot_path_for_timestamp(event.get("current_snapshot_timestamp"))
-    if not snapshot_path:
-        return None
-    entries = load_snapshot_entries(str(snapshot_path))
-    candidates = [
-        str(event.get("diga_id") or "").lower(),
-        str(event.get("diga_name") or "").lower(),
-        str(event.get("bfarm_directory_url") or "").lower(),
-    ]
-    for entry in entries:
-        entry_keys = {
-            str(entry.get("id") or "").lower(),
-            str(entry.get("identifier") or "").lower(),
-            str(entry.get("name") or "").lower(),
-            str(entry.get("bfarm_directory_url") or "").lower(),
-        }
-        if any(candidate and candidate in entry_keys for candidate in candidates):
-            return entry
     return None
-
-
-def snapshot_path_for_timestamp(value: Any) -> Path | None:
-    target = parse_datetime(value)
-    if not target:
-        return None
-    candidates = [
-        (abs((parsed - target).total_seconds()), path)
-        for path in SNAPSHOT_DIR.glob(f"{SNAPSHOT_FILENAME_PREFIX}*{SNAPSHOT_FILENAME_SUFFIX}")
-        if (parsed := parse_snapshot_timestamp(path))
-    ]
-    if not candidates:
-        return None
-    _delta, path = min(candidates, key=lambda item: item[0])
-    return path
-
-
-@st.cache_data(show_spinner=False)
-def load_snapshot_entries(path: str) -> list[dict[str, Any]]:
-    with Path(path).open("r", encoding="utf-8") as file:
-        payload = json.load(file)
-    entries = payload.get("entries", [])
-    return entries if isinstance(entries, list) else []
 
 
 def normalized_description_blob(entry: dict[str, Any]) -> str:
@@ -1594,33 +1549,7 @@ def latest_scan_timestamp(scan_history: list[dict[str, Any]]) -> str:
     if history_dates:
         return format_local_datetime(max(history_dates))
 
-    snapshot_timestamp = latest_snapshot_timestamp()
-    if snapshot_timestamp:
-        return format_local_datetime(snapshot_timestamp)
-
     return "Noch kein erfolgreicher Scan"
-
-
-def latest_snapshot_timestamp() -> datetime | None:
-    timestamps = [
-        parsed
-        for path in SNAPSHOT_DIR.glob(f"{SNAPSHOT_FILENAME_PREFIX}*{SNAPSHOT_FILENAME_SUFFIX}")
-        if (parsed := parse_snapshot_timestamp(path))
-    ]
-    if not timestamps:
-        return None
-    return max(timestamps)
-
-
-def parse_snapshot_timestamp(path: Path) -> datetime | None:
-    filename = path.name
-    if not filename.startswith(SNAPSHOT_FILENAME_PREFIX) or not filename.endswith(SNAPSHOT_FILENAME_SUFFIX):
-        return None
-    raw_timestamp = filename.removeprefix(SNAPSHOT_FILENAME_PREFIX).removesuffix(SNAPSHOT_FILENAME_SUFFIX)
-    try:
-        return datetime.strptime(raw_timestamp, "%Y%m%dT%H%M%S%fZ").replace(tzinfo=timezone.utc)
-    except ValueError:
-        return None
 
 
 def latest_real_change_timestamp(events: list[dict[str, Any]]) -> str:

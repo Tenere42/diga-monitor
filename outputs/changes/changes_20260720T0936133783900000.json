@@ -28,6 +28,33 @@
       "previous_value": "Axia nutzt zur Gewährleistung der Interoperabilität die Version 1.1.0 des MIO DiGA Toolkits. Nutzerinnen und Nutzer können jederzeit per Klick einen Datenexport erstellen – sowohl in maschinenlesbarer Form gemäß dem FHIR-Standard (Fast Healthcare Interoperability Resources) als auch in einer menschenlesbaren Variante im PDF-Format. Ebenso ist ein Export in die ePA möglich.",
       "question_label": "Angaben zur Herstellung von Datenportabilität und semantischer und technischer Interoperabilität der in der digitalen Gesundheitsanwendung genutzten Standards und Profile",
       "section_title": "Beschreibung der DiGA",
+      "snapshot_context": {
+        "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/02856",
+        "descriptive_texts": {
+          "questionnaire.Angaben zur Herstellung von Datenportabilität und semantischer und technischer Interoperabilität der in der digitalen Gesundheitsanwendung genutzten Standards und Profile": "Axia nutzt zur Gewährleistung der Interoperabilität die Version 1.1.0 des MIO DiGA Toolkits. Nutzerinnen und Nutzer können jederzeit per Klick einen Datenexport erstellen – sowohl in maschinenlesbarer Form gemäß dem FHIR-Standard (Fast Healthcare Interoperability Resources) als auch in einer menschenlesbaren Variante im PDF-Format. Die DiGA ermöglicht zudem auf Wunsch des Versicherten einen manuellen oder automatisierten Export in die elektronische Patientenakte (ePA) Version 3.0."
+        },
+        "id": "02856",
+        "manufacturer": "Applimeda GmbH",
+        "name": "Axia - für axiale Spondyloarthritis (axSpA)",
+        "structured_text_sections": [
+          {
+            "accordion_title": "Beschreibung der DiGA",
+            "display_path": "Beschreibung der DiGA > Angaben zur Herstellung von Datenportabilität und semantischer und technischer Interoperabilität der in der digitalen Gesundheitsanwendung genutzten Standards und Profile",
+            "field_label": "Angaben zur Herstellung von Datenportabilität und semantischer und technischer Interoperabilität der in der digitalen Gesundheitsanwendung genutzten Standards und Profile",
+            "field_path": "descriptive_texts.questionnaire.Angaben zur Herstellung von Datenportabilität und semantischer und technischer Interoperabilität der in der digitalen Gesundheitsanwendung genutzten Standards und Profile",
+            "localization_confidence": "high",
+            "main_section": "Beschreibung der DiGA",
+            "question_label": "Angaben zur Herstellung von Datenportabilität und semantischer und technischer Interoperabilität der in der digitalen Gesundheitsanwendung genutzten Standards und Profile",
+            "raw_text": "Axia nutzt zur Gewährleistung der Interoperabilität die Version 1.1.0 des MIO DiGA Toolkits. Nutzerinnen und Nutzer können jederzeit per Klick einen Datenexport erstellen – sowohl in maschinenlesbarer Form gemäß dem FHIR-Standard (Fast Healthcare Interoperability Resources) als auch in einer menschenlesbaren Variante im PDF-Format. Die DiGA ermöglicht zudem auf Wunsch des Versicherten einen manuellen oder automatisierten Export in die elektronische Patientenakte (ePA) Version 3.0.",
+            "section_title": "Beschreibung der DiGA",
+            "source_area_label": "Beschreibung der DiGA",
+            "stable_key": "descriptive-texts|beschreibung-der-diga|beschreibung-der-diga|angaben-zur-herstellung-von-datenportabilit-t-und-semantischer-und-technischer-interoperabilit-t-der-in-der-digitalen-gesundheitsanwendung-genutzten-standards-und-profile|questionnaire-angaben-zur-herstellung-von-datenportabilit-t-und-semantischer-und-technischer-interoperabilit-t-der-in-der-digitalen-gesundheitsanwendung-genutzten-standards-und-profile",
+            "subsection_title": "Angaben zur Herstellung von Datenportabilität und semantischer und technischer Interoperabilität der in der digitalen Gesundheitsanwendung genutzten Standards und Profile",
+            "tab_label": "Beschreibung der DiGA",
+            "text": "Axia nutzt zur Gewährleistung der Interoperabilität die Version 1.1.0 des MIO DiGA Toolkits. Nutzerinnen und Nutzer können jederzeit per Klick einen Datenexport erstellen – sowohl in maschinenlesbarer Form gemäß dem FHIR-Standard (Fast Healthcare Interoperability Resources) als auch in einer menschenlesbaren Variante im PDF-Format. Die DiGA ermöglicht zudem auf Wunsch des Versicherten einen manuellen oder automatisierten Export in die elektronische Patientenakte (ePA) Version 3.0."
+          }
+        ]
+      },
       "source_area_label": "Beschreibung der DiGA",
       "source_kind": "visible_diff_unresolved",
       "stable_key": "descriptive-texts|beschreibung-der-diga|beschreibung-der-diga|angaben-zur-herstellung-von-datenportabilit-t-und-semantischer-und-technischer-interoperabilit-t-der-in-der-digitalen-gesundheitsanwendung-genutzten-standards-und-profile|questionnaire-angaben-zur-herstellung-von-datenportabilit-t-und-semantischer-und-technischer-interoperabilit-t-der-in-der-digitalen-gesundheitsanwendung-genutzten-standards-und-profile",

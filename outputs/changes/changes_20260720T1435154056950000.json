@@ -28,6 +28,33 @@
       "previous_value": "243,00 €",
       "question_label": " B. Starterpaket) ohne Hardware für 90 Tage",
       "section_title": "Beschreibung der DiGA",
+      "snapshot_context": {
+        "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/00872",
+        "descriptive_texts": {
+          "questionnaire.Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage": "218,70 €"
+        },
+        "id": "00872",
+        "manufacturer": "Oviva AG (Zweigniederlassung Deutschland)",
+        "name": "Oviva Direkt für Adipositas",
+        "structured_text_sections": [
+          {
+            "accordion_title": "Weitere Informationen",
+            "display_path": "Weitere Informationen > Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+            "field_label": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+            "field_path": "descriptive_texts.questionnaire.Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+            "localization_confidence": "high",
+            "main_section": "Weitere Informationen",
+            "question_label": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+            "raw_text": "218,70 €",
+            "section_title": "Weitere Informationen",
+            "source_area_label": "Weitere Informationen",
+            "stable_key": "descriptive-texts|weitere-informationen|weitere-informationen|kosten-z-b-starterpaket-ohne-hardware-f-r-90-tage|questionnaire-kosten-z-b-starterpaket-ohne-hardware-f-r-90-tage",
+            "subsection_title": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
+            "tab_label": "Weitere Informationen",
+            "text": "218,70 €"
+          }
+        ]
+      },
       "source_area_label": "Beschreibung der DiGA",
       "source_kind": "visible_diff_unresolved",
       "stable_key": "descriptive-texts|weitere-informationen|weitere-informationen|kosten-z-b-starterpaket-ohne-hardware-f-r-90-tage|questionnaire-kosten-z-b-starterpaket-ohne-hardware-f-r-90-tage",
@@ -77,6 +104,33 @@
       "previous_value": "243,00 €",
       "question_label": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
       "section_title": "Weitere Informationen zur digitalen Gesundheitsanwendung",
+      "snapshot_context": {
+        "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/00872",
+        "descriptive_texts": {
+          "questionnaire.Weitere Nutzung der DiGA für zusätzliche 90 Tage": "218,70 €"
+        },
+        "id": "00872",
+        "manufacturer": "Oviva AG (Zweigniederlassung Deutschland)",
+        "name": "Oviva Direkt für Adipositas",
+        "structured_text_sections": [
+          {
+            "accordion_title": "Weitere Informationen zur digitalen Gesundheitsanwendung",
+            "display_path": "Weitere Informationen zur digitalen Gesundheitsanwendung > Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+            "field_label": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+            "field_path": "descriptive_texts.questionnaire.Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+            "localization_confidence": "high",
+            "main_section": "Weitere Informationen zur digitalen Gesundheitsanwendung",
+            "question_label": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+            "raw_text": "218,70 €",
+            "section_title": "Weitere Informationen zur digitalen Gesundheitsanwendung",
+            "source_area_label": "Weitere Informationen zur digitalen Gesundheitsanwendung",
+            "stable_key": "descriptive-texts|weitere-informationen-zur-digitalen-gesundheitsanwendung|weitere-informationen-zur-digitalen-gesundheitsanwendung|weitere-nutzung-der-diga-f-r-zus-tzliche-90-tage|questionnaire-weitere-nutzung-der-diga-f-r-zus-tzliche-90-tage",
+            "subsection_title": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
+            "tab_label": "Weitere Informationen zur digitalen Gesundheitsanwendung",
+            "text": "218,70 €"
+          }
+        ]
+      },
       "source_area_label": "Weitere Informationen zur digitalen Gesundheitsanwendung",
       "source_kind": "visible_diff_unresolved",
       "stable_key": "descriptive-texts|weitere-informationen-zur-digitalen-gesundheitsanwendung|weitere-informationen-zur-digitalen-gesundheitsanwendung|weitere-nutzung-der-diga-f-r-zus-tzliche-90-tage|questionnaire-weitere-nutzung-der-diga-f-r-zus-tzliche-90-tage",
@@ -1729,6 +1783,12 @@
           "title": "Oviva Direkt"
         }
       ],
+      "snapshot_context": {
+        "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/00872",
+        "id": "00872",
+        "manufacturer": "Oviva AG (Zweigniederlassung Deutschland)",
+        "name": "Oviva Direkt für Adipositas"
+      },
       "source_kind": "visible_diff_unresolved",
       "summary_de": "Eine fachliche Änderung wurde erkannt, der sichtbare Abschnitt konnte aber nicht eindeutig zugeordnet werden.",
       "user_facing_field_label": "Änderung erkannt, sichtbarer Abschnitt nicht eindeutig zugeordnet"

@@ -11,7 +11,8 @@ from src.change_events import save_change_events, word_level_diff
 from src.change_events import classify_text_change
 from src.diff import display_name, entry_identity
 from src.notifications import build_email_body, log_notification
-from src.snapshot import DEFAULT_SNAPSHOT_DIR, latest_snapshot_paths, load_snapshot
+from src.snapshot import DEFAULT_SNAPSHOT_DIR, load_snapshot
+from src.snapshot_storage import operational_baseline_path
 
 
 DEFAULT_SIMULATION_REPORT_PATH = Path("outputs/simulation_report.md")
@@ -79,11 +80,11 @@ def run_simulation(
 
 
 def load_simulation_context(snapshot_dir: Path) -> tuple[dict[str, Any], str, str]:
-    paths = latest_snapshot_paths(snapshot_dir, limit=2)
-    if not paths:
-        raise ValueError("No real snapshot found. Run `py -m src.main run` first.")
-    current_snapshot = load_snapshot(paths[-1])
-    previous_snapshot = load_snapshot(paths[-2]) if len(paths) > 1 else current_snapshot
+    baseline_path = operational_baseline_path(snapshot_dir)
+    if not baseline_path.exists():
+        raise ValueError("No operational baseline found. Run `py -m src.main run` first.")
+    current_snapshot = load_snapshot(baseline_path)
+    previous_snapshot = current_snapshot
     entry = find_orthopy_entry(current_snapshot.entries) or current_snapshot.entries[0]
     return entry, previous_snapshot.created_at, current_snapshot.created_at
 

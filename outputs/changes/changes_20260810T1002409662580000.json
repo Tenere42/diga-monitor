@@ -31,6 +31,12 @@
       },
       "previous_snapshot_timestamp": "2026-08-10T08:06:37.516496+00:00",
       "previous_value": null,
+      "snapshot_context": {
+        "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/02857",
+        "id": "02857",
+        "manufacturer": "Endo Health GmbH",
+        "name": "isi PMS App"
+      },
       "summary_de": "Eine neue DiGA wurde in das Verzeichnis aufgenommen.",
       "user_facing_field_label": "Status der Listung"
     },
@@ -54,6 +60,7 @@
       "new_value": "Gesamtzahl DiGA: 79",
       "previous_snapshot_timestamp": "2026-08-10T08:06:37.516496+00:00",
       "previous_value": "Gesamtzahl DiGA: 78",
+      "snapshot_context": {},
       "summary_de": "Der Verzeichnis-Zähler 'Gesamtzahl DiGA' wurde von 78 auf 79 geändert.",
       "user_facing_field_label": "DiGA-Verzeichnis > Statusübersicht"
     },
@@ -77,6 +84,7 @@
       "new_value": "Vorläufig aufgenommen: 11",
       "previous_snapshot_timestamp": "2026-08-10T08:06:37.516496+00:00",
       "previous_value": "Vorläufig aufgenommen: 10",
+      "snapshot_context": {},
       "summary_de": "Der Verzeichnis-Zähler 'Vorläufig aufgenommen' wurde von 10 auf 11 geändert.",
       "user_facing_field_label": "DiGA-Verzeichnis > Statusübersicht"
     }
