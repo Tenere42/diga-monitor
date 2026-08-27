@@ -1,12 +1,11 @@
 from __future__ import annotations
 
-import copy
+import hashlib
 import json
 import sys
 import types
 import unittest
 from pathlib import Path
-from unittest import mock
 
 try:
     import streamlit  # noqa: F401
@@ -14,7 +13,8 @@ except ModuleNotFoundError:
     sys.modules["streamlit"] = types.ModuleType("streamlit")
 
 import app
-from src.legacy_history import closest_snapshot, git_bytes, git_snapshot_sources, matching_entry
+
+EXPECTED_PATH = Path("data/audit/historical_dashboard_expected.json")
 
 
 def events_from_repository() -> list[dict]:
@@ -33,42 +33,25 @@ def without_storage_context(value):
 
 
 class HistoricalDashboardEquivalenceTests(unittest.TestCase):
-    def test_all_historical_dashboard_output_matches_without_legacy_directory(self) -> None:
-        current_events = events_from_repository()
-        self.assertEqual(len(current_events), 369)
-        legacy_events = copy.deepcopy(current_events)
-        for event in legacy_events:
-            event.pop("snapshot_context", None)
-
-        sources = git_snapshot_sources()
-        cache = {}
-
-        def legacy_entry(event):
-            timestamp = event.get("current_snapshot_timestamp")
-            if not timestamp:
-                return None
-            source = closest_snapshot(sources, str(timestamp))
-            if source.path not in cache:
-                cache[source.path] = json.loads(git_bytes(source.path))
-            snapshot = cache[source.path]
-            return matching_entry(snapshot, event)
-
-        with mock.patch.object(app, "current_snapshot_entry", side_effect=legacy_entry):
-            legacy_groups = app.group_events_by_diga(legacy_events)
-            legacy_classification = [
-                (app.is_metadata_event(event), app.has_user_visible_change(event), app.is_reclassified_evidence_description_event(event))
-                for event in legacy_events
-            ]
-
-        current_groups = app.group_events_by_diga(current_events)
-        current_classification = [
+    def test_all_historical_dashboard_output_matches_committed_legacy_projection(self) -> None:
+        expected = json.loads(EXPECTED_PATH.read_text(encoding="utf-8"))
+        events = events_from_repository()
+        groups = without_storage_context(app.group_events_by_diga(events))
+        classification = [
             (app.is_metadata_event(event), app.has_user_visible_change(event), app.is_reclassified_evidence_description_event(event))
-            for event in current_events
+            for event in events
         ]
-        self.assertEqual(len(current_groups), 22)
-        self.assertEqual(without_storage_context(current_groups), without_storage_context(legacy_groups))
-        self.assertEqual(current_classification, legacy_classification)
-        self.assertTrue(all(isinstance(event.get("snapshot_context"), dict) for event in current_events))
+        projection = json.dumps(
+            {"groups": groups, "classification": classification},
+            ensure_ascii=False,
+            sort_keys=True,
+            separators=(",", ":"),
+            default=str,
+        ).encode("utf-8")
+        self.assertEqual(len(events), expected["event_count"])
+        self.assertEqual(len(groups), expected["group_count"])
+        self.assertEqual(hashlib.sha256(projection).hexdigest(), expected["dashboard_projection_sha256"])
+        self.assertTrue(all(isinstance(event.get("snapshot_context"), dict) for event in events))
 
 
 if __name__ == "__main__":
