@@ -12,11 +12,14 @@ from pathlib import Path
 from typing import Any, Callable, Iterable
 
 from src.change_events import normalize_monitor_text, removed_text_candidates, strip_leading_section_label
+from src.diff import IGNORED_FIELD_PATHS, IGNORED_FIELD_PREFIXES, normalize_entry_for_diff
+from src.snapshot import load_directory_metrics, load_snapshot
 
 
 SNAPSHOT_PREFIX = "data/snapshots/diga_snapshot_"
 SNAPSHOT_SUFFIX = "Z.json"
 DEFAULT_MANIFEST_PATH = Path("data/audit/legacy_history_manifest.json")
+DEFAULT_RETENTION_REPORT_PATH = Path("data/audit/legacy_retention_report.json")
 
 
 @dataclass(frozen=True)
@@ -50,6 +53,86 @@ def git_snapshot_sources(ref: str = "HEAD") -> list[SnapshotSource]:
 
 def git_bytes(path: str, ref: str = "HEAD") -> bytes:
     return subprocess.check_output(["git", "show", f"{ref}:{path}"])
+
+
+def monitored_state_payload(snapshot: dict[str, Any]) -> dict[str, Any]:
+    """Return precisely the state considered by the production snapshot diff."""
+    entries = []
+    for entry in snapshot.get("entries", []):
+        if isinstance(entry, dict):
+            entries.append(_without_ignored_fields(normalize_entry_for_diff(entry)))
+    entries.sort(key=lambda item: str(item.get("id") or item.get("identifier") or item.get("url") or item.get("name") or item.get("title") or ""))
+    metrics = load_directory_metrics(snapshot, entries)
+    status_counts = metrics.get("status_counts") if isinstance(metrics.get("status_counts"), dict) else {}
+    return {
+        "entries": entries,
+        "directory_metrics": {
+            "total_count": metrics.get("total_count", len(entries)),
+            "status_counts": {
+                name: status_counts.get(name)
+                for name in ("provisional", "permanent", "removed", "unknown")
+            },
+        },
+    }
+
+
+def _without_ignored_fields(value: Any, path: str = "") -> Any:
+    if path in IGNORED_FIELD_PATHS or any(path == prefix or path.startswith(f"{prefix}.") for prefix in IGNORED_FIELD_PREFIXES):
+        return None
+    if isinstance(value, dict):
+        return {
+            key: cleaned
+            for key in sorted(value)
+            if (cleaned := _without_ignored_fields(value[key], f"{path}.{key}".lstrip("."))) is not None
+        }
+    if isinstance(value, list):
+        return [_without_ignored_fields(item, path) for item in value]
+    return value
+
+
+def monitored_state_sha256(snapshot: dict[str, Any]) -> str:
+    canonical = json.dumps(monitored_state_payload(snapshot), ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+    return hashlib.sha256(canonical.encode("utf-8")).hexdigest()
+
+
+def build_retention_report(
+    sources: list[SnapshotSource],
+    read_source: Callable[[str], bytes] = git_bytes,
+) -> dict[str, Any]:
+    """Classify every legacy snapshot and retain one representative per monitored state."""
+    representatives: dict[str, str] = {}
+    snapshots = []
+    for source in sources:
+        payload = json.loads(read_source(source.path))
+        state_sha = monitored_state_sha256(payload)
+        representative = representatives.setdefault(state_sha, source.path)
+        snapshots.append(
+            {
+                "source_path": source.path,
+                "created_at": payload.get("created_at"),
+                "source_size": source.size,
+                "monitored_state_sha256": state_sha,
+                "retained_representative": representative,
+                "redundant": source.path != representative,
+            }
+        )
+    unique_paths = sorted(representatives.values())
+    return {
+        "schema_version": 1,
+        "comparison_semantics": "src.diff monitored fields; ignored raw_public_fhir and diagnostic/render metadata",
+        "snapshot_count": len(snapshots),
+        "unique_monitored_state_count": len(unique_paths),
+        "redundant_snapshot_count": len(snapshots) - len(unique_paths),
+        "all_snapshots_classified": len(snapshots) == len(sources),
+        "all_unique_states_have_representative": len(representatives) == len(unique_paths),
+        "unique_state_representatives": unique_paths,
+        "snapshots": snapshots,
+    }
+
+
+def write_retention_report(report: dict[str, Any], path: Path = DEFAULT_RETENTION_REPORT_PATH) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(report, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
 
 def closest_snapshot(sources: Iterable[SnapshotSource], value: str) -> SnapshotSource:
@@ -181,8 +264,11 @@ def migration_sources(
     all_sources: list[SnapshotSource],
     event_sources: Iterable[str],
     baseline_path: Path = Path("data/baseline/current_snapshot.json"),
+    unique_state_sources: Iterable[str] = (),
 ) -> list[dict[str, Any]]:
     roles: dict[str, set[str]] = {path: {"event-context"} for path in event_sources}
+    for path in unique_state_sources:
+        roles.setdefault(path, set()).add("unique-monitored-state")
     roles.setdefault(all_sources[0].path, set()).add("earliest")
     roles.setdefault(all_sources[-1].path, set()).add("last-legacy")
     seen_weeks: set[tuple[int, int]] = set()
@@ -297,6 +383,25 @@ def execute_r2_migration(
     return manifest
 
 
+def verify_manifest_objects(client: Any, bucket: str, manifest: dict[str, Any]) -> dict[str, Any]:
+    """Reverify retained R2 objects without requiring any legacy source files."""
+    verified = []
+    for entry in manifest.get("objects", []):
+        response = client.get_object(Bucket=bucket, Key=entry["key"])
+        compressed = response["Body"].read()
+        raw = gzip.decompress(compressed)
+        json.loads(raw)
+        calculated = hashlib.sha256(raw).hexdigest()
+        stored = str(response.get("Metadata", {}).get("sha256") or "")
+        expected = str(entry.get("calculated_sha256") or entry.get("stored_sha256") or "")
+        if calculated != stored or calculated != expected:
+            raise ValueError(f"R2 manifest verification failed: {entry['key']}")
+        verified.append(entry["key"])
+    if len(verified) != int(manifest.get("object_count", -1)):
+        raise ValueError("R2 manifest object count does not match verified objects")
+    return {"verified_r2_objects": len(verified), "all_verified": True, "source_files_required": False}
+
+
 def restore_object(client: Any, bucket: str, entry: dict[str, Any], target: Path) -> dict[str, Any]:
     response = client.get_object(Bucket=bucket, Key=entry["key"])
     raw = gzip.decompress(response["Body"].read())
@@ -307,3 +412,20 @@ def restore_object(client: Any, bucket: str, entry: dict[str, Any], target: Path
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_bytes(raw)
     return {"key": entry["key"], "target": str(target), "created_at": payload.get("created_at"), "sha256": calculated}
+
+
+def restore_baseline_integration(client: Any, bucket: str, entry: dict[str, Any], root: Path) -> dict[str, Any]:
+    """Restore an R2 object as an isolated operational baseline and load it through production code."""
+    baseline = root / "data" / "baseline" / "current_snapshot.json"
+    restored = restore_object(client, bucket, entry, baseline)
+    loaded = load_snapshot(baseline)
+    if loaded.created_at != restored["created_at"] or not isinstance(loaded.entries, list):
+        raise ValueError("Restored baseline cannot be loaded by the production snapshot path")
+    return {
+        **restored,
+        "baseline_path": str(baseline),
+        "entry_count": len(loaded.entries),
+        "load_path_verified": True,
+        "isolated": True,
+        "successful": True,
+    }

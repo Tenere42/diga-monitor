@@ -31,7 +31,6 @@ from src.snapshot import (
     Snapshot,
     calculate_directory_metrics,
     latest_snapshot_paths,
-    list_snapshot_paths,
     load_snapshot,
     save_snapshot,
 )
@@ -77,8 +76,6 @@ def build_parser() -> argparse.ArgumentParser:
     )
     notify_test_parser.add_argument("--dry-run", action="store_true", help="Print the test email without sending it.")
     subparsers.add_parser("fetch", help="Fetch entries and print them without saving a snapshot.")
-    subparsers.add_parser("diff", help="Compare the latest two saved snapshots.")
-    subparsers.add_parser("snapshots", help="List saved snapshots.")
     render_parser = subparsers.add_parser(
         "render-entry",
         help="Render one public BfArM DiGA detail page as optional PDF/PNG audit archive.",
@@ -155,18 +152,6 @@ def main() -> int:
         print(json.dumps(entries, ensure_ascii=False, indent=2, sort_keys=True))
         return 0
 
-    if args.command == "snapshots":
-        paths = list_snapshot_paths(args.snapshot_dir)
-        if not paths:
-            print("No snapshots found.")
-            return 0
-        for path in paths:
-            print(path)
-        return 0
-
-    if args.command == "diff":
-        return diff_latest(args.snapshot_dir)
-
     if args.command == "run":
         return run_monitor(
             args.snapshot_dir,
@@ -229,7 +214,7 @@ def run_monitor(
         print(f"Limited scan to {len(entries)} DiGA entries.")
     if with_rendered_structure:
         enrich_entries_with_rendered_structure(entries, archive_rendered_pages=archive_rendered_pages)
-    candidate_dir = Path("work/snapshots") if snapshot_dir == DEFAULT_SNAPSHOT_DIR else snapshot_dir.parent / "work_snapshots"
+    candidate_dir = snapshot_dir if snapshot_dir == DEFAULT_SNAPSHOT_DIR else snapshot_dir.parent / "work_snapshots"
     new_snapshot_path = save_snapshot(entries, candidate_dir)
     detected_at = datetime.now(timezone.utc).isoformat()
     print(f"Prepared candidate snapshot: {new_snapshot_path}")
@@ -1567,18 +1552,6 @@ def diff_content_sections_command(args: argparse.Namespace) -> int:
     return 0
 
 
-def diff_latest(snapshot_dir: Path) -> int:
-    paths = latest_snapshot_paths(snapshot_dir, limit=2)
-    if len(paths) < 2:
-        print("Need at least two snapshots to produce a diff report.")
-        return 1
-
-    old_snapshot = load_snapshot(paths[0])
-    new_snapshot = load_snapshot(paths[1])
-    print(render_report(diff_snapshots(old_snapshot, new_snapshot)))
-    return 0
-
-
 def run_simulation_command(snapshot_dir: Path, scenario: str, notify: bool = False, dry_run: bool = False) -> int:
     if notify and not dry_run:
         print("Simulation notifications are dry-run only. Add --dry-run to print the email body.")
@@ -1601,17 +1574,13 @@ def simulate_orthopy_change(snapshot_dir: Path, notify: bool = False, dry_run: b
         print("Simulation notifications are dry-run only. Add --dry-run to print the email body.")
         return 1
 
-    paths = latest_snapshot_paths(snapshot_dir, limit=2)
-    if not paths:
-        print("No real snapshot found. Run `py -m src.main run` first.")
+    baseline_path = operational_baseline_path(snapshot_dir)
+    if not baseline_path.exists():
+        print("No operational baseline found. Run `py -m src.main run` first.")
         return 1
 
-    latest_real_snapshot = load_snapshot(paths[-1])
-    previous_known_timestamp = (
-        load_snapshot(paths[-2]).created_at
-        if len(paths) > 1
-        else latest_real_snapshot.created_at
-    )
+    latest_real_snapshot = load_snapshot(baseline_path)
+    previous_known_timestamp = latest_real_snapshot.created_at
     simulated_entries = copy.deepcopy(latest_real_snapshot.entries)
     orthopy_entry = find_orthopy_entry(simulated_entries)
     if orthopy_entry is None:

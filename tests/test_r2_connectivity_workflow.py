@@ -33,7 +33,12 @@ class R2ConnectivityWorkflowTests(unittest.TestCase):
 
     def test_workflow_has_minimal_permissions(self) -> None:
         self.assertIn("permissions:\n  contents: read", self.workflow)
-        self.assertIn("migrate-legacy-history:\n    if: inputs.mode == 'legacy-history-migration'\n    permissions:\n      contents: write", self.workflow)
+        self.assertNotIn("contents: write", self.workflow)
+        self.assertNotIn("git push", self.workflow)
+        self.assertIn("pull-requests: read", self.workflow)
+        self.assertIn('if [ "$TARGET_REF" = "main" ]', self.workflow)
+        self.assertIn("concurrency:", self.workflow)
+        self.assertIn("actions/upload-artifact@v4", self.workflow)
         self.assertIn("python -m scripts.legacy_history_migration --backfill --execute-r2", self.workflow)
 
 

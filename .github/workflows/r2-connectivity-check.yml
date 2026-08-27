@@ -68,11 +68,31 @@ jobs:
 
   migrate-legacy-history:
     if: inputs.mode == 'legacy-history-migration'
+    concurrency:
+      group: r2-legacy-history-migration
+      cancel-in-progress: false
     permissions:
-      contents: write
+      contents: read
+      pull-requests: read
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     steps:
+      - name: Require a non-main pull-request branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TARGET_REF: ${{ github.ref_name }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          if [ "$TARGET_REF" = "main" ]; then
+            echo "::error::Legacy migration must run from a pull-request branch, never main."
+            exit 1
+          fi
+          pr_count="$(gh api "repos/$REPOSITORY/pulls?head=${REPOSITORY%%/*}:$TARGET_REF&base=main&state=open" --jq 'length')"
+          if [ "$pr_count" -lt 1 ]; then
+            echo "::error::Branch must have an open pull request against main."
+            exit 1
+          fi
+
       - name: Check out repository without legacy snapshot checkout
         uses: actions/checkout@v4
         with:
@@ -100,14 +120,14 @@ jobs:
           R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY || secrets.SECRET_ACCESS_KEY }}
         run: python -m scripts.legacy_history_migration --backfill --execute-r2
 
-      - name: Commit verified manifest and event contexts
+      - name: Package verified migration results for the pull-request branch
         run: |
-          if [ -z "$(git status --porcelain -- outputs/changes data/audit/legacy_history_manifest.json)" ]; then
-            echo "Migration outputs already current."
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add outputs/changes data/audit/legacy_history_manifest.json
-          git commit -m "Backfill and verify legacy history"
-          git push
+          tar -czf legacy-history-results.tar.gz outputs/changes data/audit/legacy_history_manifest.json data/audit/legacy_retention_report.json
+
+      - name: Upload verified migration results
+        uses: actions/upload-artifact@v4
+        with:
+          name: legacy-history-results-${{ github.run_id }}
+          path: legacy-history-results.tar.gz
+          if-no-files-found: error
+          retention-days: 14

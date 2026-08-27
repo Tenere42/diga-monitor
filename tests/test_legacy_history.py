@@ -10,10 +10,13 @@ from pathlib import Path
 from src.legacy_history import (
     SnapshotSource,
     backfill_event_contexts,
+    build_retention_report,
     closest_snapshot,
     execute_r2_migration,
     migration_sources,
     restore_object,
+    restore_baseline_integration,
+    verify_manifest_objects,
 )
 
 
@@ -113,6 +116,28 @@ class LegacyHistoryTests(unittest.TestCase):
         self.assertEqual(manifest_path.read_bytes(), manifest_bytes)
         self.assertEqual(Path(restored["target"]).read_bytes(), payload)
         self.assertTrue(first["objects"][0]["verified"])
+        integrated = restore_baseline_integration(client, "bucket", first["objects"][0], root / "integration")
+        self.assertTrue(integrated["load_path_verified"])
+        self.assertEqual(integrated["entry_count"], 0)
+        self.assertEqual(verify_manifest_objects(client, "bucket", first)["verified_r2_objects"], 1)
+
+    def test_retention_report_classifies_every_snapshot_and_keeps_every_unique_state(self) -> None:
+        sources = [
+            self.source("data/snapshots/diga_snapshot_20260601T000000000000Z.json", "2026-06-01T00:00:00+00:00"),
+            self.source("data/snapshots/diga_snapshot_20260601T010000000000Z.json", "2026-06-01T01:00:00+00:00"),
+            self.source("data/snapshots/diga_snapshot_20260601T020000000000Z.json", "2026-06-01T02:00:00+00:00"),
+        ]
+        payloads = {
+            sources[0].path: {"created_at": "a", "entries": [{"id": "1", "name": "A", "raw_public_fhir": {"version": 1}}]},
+            sources[1].path: {"created_at": "b", "entries": [{"id": "1", "name": "A", "raw_public_fhir": {"version": 2}}]},
+            sources[2].path: {"created_at": "c", "entries": [{"id": "1", "name": "B", "raw_public_fhir": {"version": 2}}]},
+        }
+        report = build_retention_report(sources, lambda path: json.dumps(payloads[path]).encode())
+        self.assertEqual(report["snapshot_count"], 3)
+        self.assertEqual(report["unique_monitored_state_count"], 2)
+        self.assertEqual(report["redundant_snapshot_count"], 1)
+        self.assertTrue(report["all_snapshots_classified"])
+        self.assertTrue(report["all_unique_states_have_representative"])
 
     def test_plan_includes_event_weekly_edges_and_baseline(self) -> None:
         sources = [
