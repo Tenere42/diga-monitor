@@ -38,6 +38,7 @@ Profiled the dashboard data path and added content-addressed caching for change 
 - Cleanup verification passed before merge, including dashboard, scan/baseline, simulation/CLI, manifest, and restore checks.
 - Claude CLI 2.1.223 is authenticated; non-interactive `claude -p`, restricted read-only tools, workspace reads, and Codex output capture have been verified.
 - Dashboard benchmark fixture: 31 change files (17,763,374 bytes), 369 events, 252 real events, 21 groups, and 162 rendered adjustments. The measured end-to-end warm rerun path improved from about 452 ms uncached to about 99 ms cached in the local benchmark harness.
+- GitHub Actions run 33094466784: all 54 tests passed for the dashboard performance change.
 
 ## Open risks/blockers
 
@@ -46,7 +47,7 @@ Profiled the dashboard data path and added content-addressed caching for change 
 
 ## Next recommended step
 
-Verify the dashboard performance change in CI and production after the read-only Claude review; retain the full historical rendering because the measured dataset contains only 21 groups and no rendering limit was justified.
+Observe the deployed Streamlit rerun latency; retain the full historical rendering because the measured dataset contains only 21 groups and no rendering limit was justified.
 
 ## Last updated
 
