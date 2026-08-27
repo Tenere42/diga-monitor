@@ -49,6 +49,7 @@ For larger, riskier, or architecture-relevant changes, Codex uses Claude Code CL
 - After fixes, rerun relevant tests and linters. Request another Claude review only when the response caused substantive changes.
 - Stop after Claude reports no substantive issues or after at most three Claude review rounds, whichever comes first. Codex remains accountable for the result; Claude is a reviewer, not a gatekeeper.
 - Create or update the pull request after the review loop is complete, and summarize Claude's findings, accepted changes, and substantive rejections in the handoff.
+- When a pull request receives a Claude CLI review, add a compact `Claude Review` section to the pull request description or update it before handoff. Record the number of review rounds, Claude's substantive findings, the findings Codex accepted and the resulting changes, any substantive findings Codex rejected with a short reason, and the final result as either `no substantive open findings` or `open findings`. Do not post complete internal logs or unnecessarily long Claude output.
 - Small, obviously low-risk changes do not require a Claude review.
 - If Claude CLI is unavailable or fails, do not block delivery: report the limitation transparently and perform an explicit Codex self-review instead.
 - This local CLI review loop does not depend on the Claude GitHub Action, GitHub OIDC, or Workload Identity Federation.
