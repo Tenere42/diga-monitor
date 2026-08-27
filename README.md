@@ -88,7 +88,7 @@ E-Mail Notifications use SMTP and are optional. The monitor sends an email only 
 
 Copy `.env.example` to `.env` locally and fill in your own values. Do not commit `.env`.
 
-Required local environment variables and GitHub Actions Secrets:
+Required local environment variables and GitHub Actions configuration:
 
 ```powershell
 $env:SMTP_HOST="smtp.example.com"
@@ -96,25 +96,25 @@ $env:SMTP_PORT="587"
 $env:SMTP_USERNAME="your-smtp-username"
 $env:SMTP_PASSWORD="your-smtp-password"
 $env:EMAIL_FROM="diga-watch@example.com"
-$env:EMAIL_TO="recipient@example.com"
+$env:DIGA_MONITOR_EMAIL_TO="recipient@example.com"
 $env:DASHBOARD_URL="http://localhost:8501"
 ```
 
 Use placeholders like these when setting up the values. Do not commit real credentials.
 
-| Secret | Value to enter | Example |
+| Setting | Value to enter | Example |
 | --- | --- | --- |
 | `SMTP_HOST` | SMTP server hostname from your mail provider | `smtp.example.com` |
 | `SMTP_PORT` | SMTP port, usually with STARTTLS | `587` |
 | `SMTP_USERNAME` | SMTP login username | `diga-monitor@example.com` |
 | `SMTP_PASSWORD` | SMTP password or app password | `replace-with-provider-app-password` |
 | `EMAIL_FROM` | Sender address shown in the email | `diga-monitor@example.com` |
-| `EMAIL_TO` | Recipient address for alerts | `alerts@example.com` |
+| `DIGA_MONITOR_EMAIL_TO` | Recipient address(es) for alerts, comma-separated when needed | `alerts@example.com` |
 | `DASHBOARD_URL` | Public or local URL of the Streamlit dashboard | `https://your-dashboard.streamlit.app` |
 
 In GitHub, create each value under:
 
-`Settings > Secrets and variables > Actions > New repository secret`
+Store SMTP credentials and sender configuration under `Settings > Secrets and variables > Actions > Secrets`. Store the non-secret recipient configuration under `Settings > Secrets and variables > Actions > Variables`.
 
 Required secret names:
 
@@ -124,9 +124,16 @@ SMTP_PORT
 SMTP_USERNAME
 SMTP_PASSWORD
 EMAIL_FROM
-EMAIL_TO
 DASHBOARD_URL
 ```
+
+Required repository variable:
+
+```text
+DIGA_MONITOR_EMAIL_TO
+```
+
+Email body creation, recipient resolution, and SMTP delivery are separate. The current production variable contains one recipient; the resolver already accepts a comma-separated list so a future subscription source can be added without changing change detection. No public subscription or newsletter management is implemented.
 
 Run with email notification enabled:
 

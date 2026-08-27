@@ -18,14 +18,15 @@ DiGA Monitor is in production. The scheduler runs at 06:00, 09:00, 12:00, 15:00,
 - GitHub is the shared source of truth for code and project handoff state.
 - Codex is the primary implementer and orchestrator. For substantial changes it invokes the authenticated local Claude Code CLI as a read-only reviewer with restricted tools and at most three review rounds.
 - Dashboard inputs use content-addressed Streamlit caching: file-content signatures invalidate cached change events and scan history automatically on deployment changes.
+- Notification recipients are resolved independently from message creation and SMTP transport. Production uses the GitHub repository variable `DIGA_MONITOR_EMAIL_TO`; no recipient address is hardcoded in Python.
 
 ## Last completed work
 
-Profiled the dashboard data path and added content-addressed caching for change events, real-event preparation, and scan history. Future change files use compact JSON and identity-only `snapshot_context`; existing historical files and their semantics remain unchanged.
+Profiled and optimized the dashboard data path. Prepared the notification layer for externally configured single or multiple recipients while intentionally leaving newsletter subscriptions, signup, storage, and opt-in out of scope.
 
 ## Current branch / PR
 
-- Branch: `main`
+- Branch: `codex/notification-recipient-config`
 - Legacy cleanup merge: `e5c96da083a818cc9009d1b6dab6acb3d83b665e`
 - No Git-history rewrite has occurred.
 
@@ -47,7 +48,7 @@ Profiled the dashboard data path and added content-addressed caching for change 
 
 ## Next recommended step
 
-Observe the deployed Streamlit rerun latency; retain the full historical rendering because the measured dataset contains only 21 groups and no rendering limit was justified.
+Review and merge the notification-recipient configuration PR after tests and the read-only Claude review pass.
 
 ## Last updated
 

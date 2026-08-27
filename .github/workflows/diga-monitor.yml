@@ -45,11 +45,11 @@ jobs:
           SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
-          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          DIGA_MONITOR_EMAIL_TO: ${{ vars.DIGA_MONITOR_EMAIL_TO }}
           DASHBOARD_URL: ${{ secrets.DASHBOARD_URL }}
         run: |
           missing=()
-          for name in SMTP_HOST SMTP_PORT SMTP_USERNAME SMTP_PASSWORD EMAIL_FROM EMAIL_TO DASHBOARD_URL; do
+          for name in SMTP_HOST SMTP_PORT SMTP_USERNAME SMTP_PASSWORD EMAIL_FROM DIGA_MONITOR_EMAIL_TO DASHBOARD_URL; do
             if [ -z "${!name}" ]; then
               missing+=("$name")
             fi
@@ -68,7 +68,7 @@ jobs:
           SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
-          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          DIGA_MONITOR_EMAIL_TO: ${{ vars.DIGA_MONITOR_EMAIL_TO }}
           DASHBOARD_URL: ${{ secrets.DASHBOARD_URL }}
         run: python -m src.main notify-test
 
@@ -110,7 +110,7 @@ jobs:
           SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
-          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          DIGA_MONITOR_EMAIL_TO: ${{ vars.DIGA_MONITOR_EMAIL_TO }}
           DASHBOARD_URL: ${{ secrets.DASHBOARD_URL }}
           DIGA_API_TOKEN: ${{ secrets.DIGA_API_TOKEN }}
           DIGA_RENDER_CHANGED_ENTRIES: "true"

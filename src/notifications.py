@@ -50,7 +50,12 @@ class SmtpConfig:
     username: str
     password: str
     email_from: str
-    email_to: str
+
+
+@dataclass(frozen=True)
+class NotificationSettings:
+    smtp: SmtpConfig
+    recipients: tuple[str, ...]
     dashboard_url: str
 
 
@@ -72,7 +77,8 @@ def notify_changes(
         for event in events
         if is_notifiable_event(event, include_simulated=include_simulated)
     ]
-    recipient = os.getenv("EMAIL_TO", "")
+    recipients = configured_recipients()
+    recipient = format_recipients(recipients)
 
     if not real_events:
         log_notification(
@@ -91,7 +97,7 @@ def notify_changes(
     if dry_run:
         print("Dry-run: email would be sent with this content:")
         print()
-        print(f"To: {recipient or '(EMAIL_TO nicht gesetzt)'}")
+        print(f"To: {recipient or '(DIGA_MONITOR_EMAIL_TO nicht gesetzt)'}")
         print(f"Subject: {subject}")
         print()
         print(body)
@@ -106,9 +112,15 @@ def notify_changes(
         return False
 
     try:
-        config = load_smtp_config()
+        settings = load_notification_settings()
         print_notification_status("Notification configuration complete.")
-        send_email(config, subject, body)
+        messages = build_email_messages(
+            settings.smtp.email_from,
+            settings.recipients,
+            subject,
+            build_email_body(real_events, settings.dashboard_url),
+        )
+        send_email(settings.smtp, messages)
     except MissingNotificationConfig as exc:
         message = f"Notification configuration incomplete. Missing: {', '.join(exc.missing)}"
         log_notification(
@@ -133,22 +145,23 @@ def notify_changes(
         return False
 
     log_notification(
-        recipient=config.email_to,
+        recipient=format_recipients(settings.recipients),
         number_of_changes=len(real_events),
         subject=subject,
         status="sent",
     )
-    print_notification_status(f"Notification sent to: {config.email_to}")
+    print_notification_status(f"Notification sent to: {format_recipients(settings.recipients)}")
     return True
 
 
 def send_test_notification(dry_run: bool = False) -> bool:
     subject = "DiGA Monitor Test Notification"
     body = "Dies ist eine Testbenachrichtigung des DiGA Monitors."
-    recipient = os.getenv("EMAIL_TO", "")
+    recipients = configured_recipients()
+    recipient = format_recipients(recipients)
 
     try:
-        config = load_smtp_config()
+        settings = load_notification_settings()
         print_notification_status("Notification configuration complete.")
     except MissingNotificationConfig as exc:
         message = f"Notification configuration incomplete. Missing: {', '.join(exc.missing)}"
@@ -176,12 +189,12 @@ def send_test_notification(dry_run: bool = False) -> bool:
     if dry_run:
         print("Dry-run: test email would be sent with this content:")
         print()
-        print(f"To: {config.email_to}")
+        print(f"To: {format_recipients(settings.recipients)}")
         print(f"Subject: {subject}")
         print()
         print(body)
         log_notification(
-            recipient=config.email_to,
+            recipient=format_recipients(settings.recipients),
             number_of_changes=0,
             subject=subject,
             status="skipped",
@@ -191,11 +204,12 @@ def send_test_notification(dry_run: bool = False) -> bool:
         return True
 
     try:
-        send_email(config, subject, body)
+        messages = build_email_messages(settings.smtp.email_from, settings.recipients, subject, body)
+        send_email(settings.smtp, messages)
     except Exception as exc:
         message = f"Notification failed: {exc}"
         log_notification(
-            recipient=config.email_to,
+            recipient=format_recipients(settings.recipients),
             number_of_changes=0,
             subject=subject,
             status="failed",
@@ -205,29 +219,34 @@ def send_test_notification(dry_run: bool = False) -> bool:
         return False
 
     log_notification(
-        recipient=config.email_to,
+        recipient=format_recipients(settings.recipients),
         number_of_changes=0,
         subject=subject,
         status="sent",
     )
-    print_notification_status(f"Notification sent to: {config.email_to}")
+    print_notification_status(f"Notification sent to: {format_recipients(settings.recipients)}")
     return True
 
 
-def required_smtp_env_vars() -> list[str]:
+def required_notification_env_vars() -> list[str]:
     return [
         "SMTP_HOST",
         "SMTP_PORT",
         "SMTP_USERNAME",
         "SMTP_PASSWORD",
         "EMAIL_FROM",
-        "EMAIL_TO",
+        "DIGA_MONITOR_EMAIL_TO",
         "DASHBOARD_URL",
     ]
 
 
-def load_smtp_config() -> SmtpConfig:
-    missing = [name for name in required_smtp_env_vars() if not os.getenv(name)]
+def load_notification_settings() -> NotificationSettings:
+    recipients = configured_recipients()
+    missing = [
+        name
+        for name in required_notification_env_vars()
+        if not os.getenv(name) or (name == "DIGA_MONITOR_EMAIL_TO" and not recipients)
+    ]
     if missing:
         raise MissingNotificationConfig(missing)
 
@@ -236,28 +255,59 @@ def load_smtp_config() -> SmtpConfig:
     except ValueError as exc:
         raise ValueError("SMTP_PORT must be a number.") from exc
 
-    return SmtpConfig(
-        host=os.environ["SMTP_HOST"],
-        port=port,
-        username=os.environ["SMTP_USERNAME"],
-        password=os.environ["SMTP_PASSWORD"],
-        email_from=os.environ["EMAIL_FROM"],
-        email_to=os.environ["EMAIL_TO"],
+    return NotificationSettings(
+        smtp=SmtpConfig(
+            host=os.environ["SMTP_HOST"],
+            port=port,
+            username=os.environ["SMTP_USERNAME"],
+            password=os.environ["SMTP_PASSWORD"],
+            email_from=os.environ["EMAIL_FROM"],
+        ),
+        recipients=recipients,
         dashboard_url=os.environ["DASHBOARD_URL"],
     )
 
 
-def send_email(config: SmtpConfig, subject: str, body: str) -> None:
-    message = EmailMessage()
-    message["Subject"] = subject
-    message["From"] = config.email_from
-    message["To"] = config.email_to
-    message.set_content(body)
+def configured_recipients() -> tuple[str, ...]:
+    raw = os.getenv("DIGA_MONITOR_EMAIL_TO", "")
+    recipients = []
+    seen = set()
+    for candidate in raw.replace(";", ",").split(","):
+        recipient = candidate.strip()
+        normalized = recipient.casefold()
+        if recipient and normalized not in seen:
+            recipients.append(recipient)
+            seen.add(normalized)
+    return tuple(recipients)
 
+
+def format_recipients(recipients: tuple[str, ...]) -> str:
+    return ", ".join(recipients)
+
+
+def build_email_messages(
+    email_from: str,
+    recipients: tuple[str, ...],
+    subject: str,
+    body: str,
+) -> tuple[EmailMessage, ...]:
+    messages = []
+    for recipient in recipients:
+        message = EmailMessage()
+        message["Subject"] = subject
+        message["From"] = email_from
+        message["To"] = recipient
+        message.set_content(body)
+        messages.append(message)
+    return tuple(messages)
+
+
+def send_email(config: SmtpConfig, messages: tuple[EmailMessage, ...]) -> None:
     with smtplib.SMTP(config.host, config.port, timeout=30) as smtp:
         smtp.starttls()
         smtp.login(config.username, config.password)
-        smtp.send_message(message)
+        for message in messages:
+            smtp.send_message(message)
 
 
 def print_notification_status(message: str, level: str = "notice") -> None:
