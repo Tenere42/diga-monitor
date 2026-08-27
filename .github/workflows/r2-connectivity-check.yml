@@ -1,6 +1,9 @@
 name: R2 Connectivity Check
 
 on:
+  push:
+    branches:
+      - codex/legacy-history-cleanup-prep
   workflow_dispatch:
     inputs:
       mode:
@@ -67,7 +70,7 @@ jobs:
         run: python -m scripts.r2_connectivity_check
 
   migrate-legacy-history:
-    if: inputs.mode == 'legacy-history-migration'
+    if: github.event_name == 'push' || inputs.mode == 'legacy-history-migration'
     concurrency:
       group: r2-legacy-history-migration
       cancel-in-progress: false
