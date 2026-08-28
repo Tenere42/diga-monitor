@@ -331,7 +331,7 @@ def run_monitor(
 
 
 def run_notify_test(dry_run: bool = False) -> int:
-    print("Running SMTP notification configuration and delivery test.")
+    print("Running Brevo API notification configuration and delivery test.")
     return 0 if send_test_notification(dry_run=dry_run) else 1
 
 

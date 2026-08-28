@@ -19,7 +19,7 @@ Each snapshot also stores directory-level aggregate metrics, including total DiG
 - Produce a readable diff report in the terminal
 - Store structured change events in `outputs/changes`
 - Store scan history in `outputs/scan_history.json`
-- Send optional SMTP email notifications for real changes
+- Send optional Brevo Transactional Email API notifications for real changes
 - Show detected changes in a Streamlit feed
 
 ## Project Structure
@@ -326,7 +326,7 @@ Preview the notification email for the Orthopy simulation:
 py -m src.main simulate-orthopy-change --notify --dry-run
 ```
 
-Simulation notifications are dry-run only. They print the email body but never send SMTP email.
+Simulation notifications are dry-run only. They print the email body but never send email.
 
 ## Change Feed Dashboard
 
