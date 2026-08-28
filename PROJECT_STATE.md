@@ -18,7 +18,7 @@ DiGA Monitor is in production. The scheduler runs at 06:00, 09:00, 12:00, 15:00,
 - GitHub is the shared source of truth for code and project handoff state.
 - Codex is the primary implementer and orchestrator. For substantial changes it invokes the authenticated local Claude Code CLI as a read-only reviewer with restricted tools and at most three review rounds.
 - Dashboard inputs use content-addressed Streamlit caching: file-content signatures invalidate cached change events and scan history automatically on deployment changes.
-- Notification recipients are resolved independently from message creation and SMTP transport. Production uses the GitHub repository variable `DIGA_MONITOR_EMAIL_TO`; no recipient address is hardcoded in Python.
+- Notification recipients are resolved independently from message creation and Brevo Transactional Email API transport. Production uses the GitHub repository variable `DIGA_MONITOR_EMAIL_TO`; no recipient address is hardcoded in Python.
 
 ## Last completed work
 

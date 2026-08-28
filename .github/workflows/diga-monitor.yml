@@ -40,16 +40,13 @@ jobs:
 
       - name: Check notification configuration
         env:
-          SMTP_HOST: ${{ vars.SMTP_HOST }}
-          SMTP_PORT: ${{ vars.SMTP_PORT }}
-          SMTP_USERNAME: ${{ vars.SMTP_USERNAME }}
-          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
           EMAIL_FROM: ${{ vars.EMAIL_FROM }}
           DIGA_MONITOR_EMAIL_TO: ${{ vars.DIGA_MONITOR_EMAIL_TO }}
           DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
         run: |
           missing=()
-          for name in SMTP_HOST SMTP_PORT SMTP_USERNAME SMTP_PASSWORD EMAIL_FROM DIGA_MONITOR_EMAIL_TO DASHBOARD_URL; do
+          for name in BREVO_API_KEY EMAIL_FROM DIGA_MONITOR_EMAIL_TO DASHBOARD_URL; do
             if [ -z "${!name}" ]; then
               missing+=("$name")
             fi
@@ -63,10 +60,7 @@ jobs:
       - name: Run notification test
         if: ${{ github.event_name == 'workflow_dispatch' && inputs.notification_test == 'true' }}
         env:
-          SMTP_HOST: ${{ vars.SMTP_HOST }}
-          SMTP_PORT: ${{ vars.SMTP_PORT }}
-          SMTP_USERNAME: ${{ vars.SMTP_USERNAME }}
-          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
           EMAIL_FROM: ${{ vars.EMAIL_FROM }}
           DIGA_MONITOR_EMAIL_TO: ${{ vars.DIGA_MONITOR_EMAIL_TO }}
           DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
@@ -105,10 +99,7 @@ jobs:
       - name: Run DiGA monitor
         if: ${{ github.event_name != 'workflow_dispatch' || inputs.notification_test != 'true' }}
         env:
-          SMTP_HOST: ${{ vars.SMTP_HOST }}
-          SMTP_PORT: ${{ vars.SMTP_PORT }}
-          SMTP_USERNAME: ${{ vars.SMTP_USERNAME }}
-          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
           EMAIL_FROM: ${{ vars.EMAIL_FROM }}
           DIGA_MONITOR_EMAIL_TO: ${{ vars.DIGA_MONITOR_EMAIL_TO }}
           DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}

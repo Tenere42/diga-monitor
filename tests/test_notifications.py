@@ -1,23 +1,62 @@
 from __future__ import annotations
 
+import json
 import os
 import unittest
 from unittest import mock
 
 from src.notifications import (
+    BREVO_EMAIL_API_URL,
+    BrevoConfig,
     MissingNotificationConfig,
     build_email_body,
-    build_email_messages,
+    build_email_message,
     configured_recipients,
     load_notification_settings,
     notify_changes,
-    send_test_notification,
     send_email,
+    send_test_notification,
 )
 
 
-class NotificationConfigurationTests(unittest.TestCase):
-    def test_test_notification_uses_normal_notification_path_with_one_simulated_change(self) -> None:
+ENVIRONMENT = {
+    "BREVO_API_KEY": "test-api-key",
+    "EMAIL_FROM": "sender@example.com",
+    "DIGA_MONITOR_EMAIL_TO": "recipient@example.com",
+    "DASHBOARD_URL": "https://example.com/dashboard",
+}
+
+
+def event(name: str = "Test DiGA") -> dict[str, str]:
+    return {
+        "detected_at": "2026-08-27T12:00:00+00:00",
+        "diga_name": name,
+        "manufacturer": "Test Hersteller",
+        "change_type": "price_change",
+        "changed_field": "pricing_information",
+        "previous_value": "499,00 €",
+        "new_value": "529,00 €",
+        "summary_de": "Simulierte Preisänderung von 499,00 € auf 529,00 €.",
+    }
+
+
+class FakeResponse:
+    def __init__(self, status_code: int, payload: object) -> None:
+        self.status = status_code
+        self.payload = json.dumps(payload).encode()
+
+    def read(self) -> bytes:
+        return self.payload
+
+    def __enter__(self) -> "FakeResponse":
+        return self
+
+    def __exit__(self, *args: object) -> None:
+        return None
+
+
+class NotificationTests(unittest.TestCase):
+    def test_test_notification_uses_normal_path_with_one_simulated_change(self) -> None:
         with mock.patch("src.notifications.notify_changes", return_value=True) as notify:
             self.assertTrue(send_test_notification())
 
@@ -35,18 +74,7 @@ class NotificationConfigurationTests(unittest.TestCase):
         )
 
     def test_test_email_body_contains_all_acceptance_criteria(self) -> None:
-        event = {
-            "detected_at": "2026-08-27T12:00:00+00:00",
-            "diga_name": "Test DiGA",
-            "manufacturer": "Test Hersteller",
-            "change_type": "price_change",
-            "changed_field": "pricing_information",
-            "previous_value": "499,00 €",
-            "new_value": "529,00 €",
-            "summary_de": "Simulierte Preisänderung von 499,00 € auf 529,00 €.",
-        }
-        body = build_email_body([event], "https://example.com/dashboard", test_mode=True)
-
+        body = build_email_body([event()], ENVIRONMENT["DASHBOARD_URL"], test_mode=True)
         for expected in (
             "TEST / SIMULATION",
             "Keine echte BfArM-Änderung",
@@ -56,117 +84,122 @@ class NotificationConfigurationTests(unittest.TestCase):
             "499,00 €",
             "529,00 €",
             "27.08.2026",
-            "https://example.com/dashboard",
+            ENVIRONMENT["DASHBOARD_URL"],
         ):
             self.assertIn(expected, body)
 
-    def test_recipient_configuration_is_external_and_future_multi_recipient_ready(self) -> None:
+    def test_recipient_configuration_is_external_and_multi_recipient_ready(self) -> None:
         with mock.patch.dict(
             os.environ,
             {"DIGA_MONITOR_EMAIL_TO": "first@example.com, SECOND@example.com;first@example.com"},
             clear=True,
         ):
-            self.assertEqual(
-                configured_recipients(),
-                ("first@example.com", "SECOND@example.com"),
-            )
+            self.assertEqual(configured_recipients(), ("first@example.com", "SECOND@example.com"))
 
-    def test_legacy_email_to_does_not_configure_production_recipient(self) -> None:
-        environment = {
-            "SMTP_HOST": "smtp.example.com",
-            "SMTP_PORT": "587",
-            "SMTP_USERNAME": "username",
-            "SMTP_PASSWORD": "password",
-            "EMAIL_FROM": "sender@example.com",
-            "EMAIL_TO": "legacy@example.com",
-            "DASHBOARD_URL": "https://example.com",
-        }
+    def test_missing_api_key_is_reported(self) -> None:
+        environment = {key: value for key, value in ENVIRONMENT.items() if key != "BREVO_API_KEY"}
         with mock.patch.dict(os.environ, environment, clear=True):
             with self.assertRaises(MissingNotificationConfig) as raised:
                 load_notification_settings()
-        self.assertIn("DIGA_MONITOR_EMAIL_TO", raised.exception.missing)
+        self.assertEqual(raised.exception.missing, ["BREVO_API_KEY"])
 
-    def test_notification_settings_keep_smtp_and_recipients_separate(self) -> None:
-        environment = {
-            "SMTP_HOST": "smtp.example.com",
-            "SMTP_PORT": "587",
-            "SMTP_USERNAME": "username",
-            "SMTP_PASSWORD": "password",
-            "EMAIL_FROM": "sender@example.com",
-            "DIGA_MONITOR_EMAIL_TO": "recipient@example.com",
-            "DASHBOARD_URL": "https://example.com",
-        }
-        with mock.patch.dict(os.environ, environment, clear=True):
-            settings = load_notification_settings()
-        self.assertEqual(settings.recipients, ("recipient@example.com",))
-        self.assertEqual(settings.smtp.email_from, "sender@example.com")
-
-    def test_whitespace_only_recipient_configuration_is_rejected(self) -> None:
-        environment = {
-            "SMTP_HOST": "smtp.example.com",
-            "SMTP_PORT": "587",
-            "SMTP_USERNAME": "username",
-            "SMTP_PASSWORD": "password",
-            "EMAIL_FROM": "sender@example.com",
-            "DIGA_MONITOR_EMAIL_TO": " , ; ",
-            "DASHBOARD_URL": "https://example.com",
-        }
-        with mock.patch.dict(os.environ, environment, clear=True):
-            with self.assertRaises(MissingNotificationConfig) as raised:
-                load_notification_settings()
-        self.assertIn("DIGA_MONITOR_EMAIL_TO", raised.exception.missing)
-
-    def test_message_creation_and_smtp_delivery_are_separate(self) -> None:
-        messages = build_email_messages(
-            "sender@example.com",
-            ("first@example.com", "second@example.com"),
-            "Subject",
-            "Body",
-        )
-        self.assertEqual([message["To"] for message in messages], ["first@example.com", "second@example.com"])
-
-        settings_environment = {
-            "SMTP_HOST": "smtp.example.com",
-            "SMTP_PORT": "587",
-            "SMTP_USERNAME": "username",
-            "SMTP_PASSWORD": "password",
-            "EMAIL_FROM": "sender@example.com",
-            "DIGA_MONITOR_EMAIL_TO": "first@example.com,second@example.com",
-            "DASHBOARD_URL": "https://example.com",
-        }
-        with mock.patch.dict(os.environ, settings_environment, clear=True):
-            smtp_config = load_notification_settings().smtp
-        with mock.patch("src.notifications.smtplib.SMTP") as smtp_type:
-            send_email(smtp_config, messages)
-        smtp = smtp_type.return_value.__enter__.return_value
-        self.assertEqual(smtp.send_message.call_count, 2)
-
-    def test_notification_send_failure_is_caught_and_logged(self) -> None:
-        environment = {
-            "SMTP_HOST": "smtp.example.com",
-            "SMTP_PORT": "587",
-            "SMTP_USERNAME": "username",
-            "SMTP_PASSWORD": "password",
-            "EMAIL_FROM": "sender@example.com",
-            "DIGA_MONITOR_EMAIL_TO": "recipient@example.com",
-            "DASHBOARD_URL": "https://example.com",
-        }
-        event = {
-            "detected_at": "2026-08-27T12:00:00+00:00",
-            "diga_name": "Test DiGA",
-            "changed_field": "manufacturer",
-            "previous_value": "Before",
-            "new_value": "After",
-        }
-        with (
-            mock.patch.dict(os.environ, environment, clear=True),
-            mock.patch("src.notifications.send_email", side_effect=RuntimeError("SMTP failed")),
-            mock.patch("src.notifications.log_notification") as log_notification,
+    def test_whitespace_only_recipients_are_rejected(self) -> None:
+        with mock.patch.dict(
+            os.environ,
+            {**ENVIRONMENT, "DIGA_MONITOR_EMAIL_TO": " , ; "},
+            clear=True,
         ):
-            self.assertFalse(notify_changes([event]))
+            with self.assertRaises(MissingNotificationConfig) as raised:
+                load_notification_settings()
+        self.assertIn("DIGA_MONITOR_EMAIL_TO", raised.exception.missing)
 
-        self.assertEqual(log_notification.call_args.kwargs["status"], "failed")
-        self.assertIn("SMTP failed", log_notification.call_args.kwargs["error_message"])
+    def test_message_creation_is_separate_and_idempotent(self) -> None:
+        with mock.patch.dict(os.environ, {"GITHUB_RUN_ID": "12345"}, clear=True):
+            first = build_email_message(
+                "sender@example.com",
+                ("first@example.com", "second@example.com"),
+                "Subject",
+                "Body",
+            )
+            second = build_email_message(
+                "sender@example.com",
+                ("first@example.com", "second@example.com"),
+                "Changed on retry",
+                "Changed on retry",
+            )
+        self.assertEqual(first["headers"], second["headers"])
+        self.assertEqual(first["to"], [{"email": "first@example.com"}, {"email": "second@example.com"}])
+        self.assertTrue(first["headers"]["idempotencyKey"])
+
+    def test_successful_brevo_api_send(self) -> None:
+        config = BrevoConfig(api_key="secret-key", email_from="sender@example.com")
+        message = build_email_message("sender@example.com", ("recipient@example.com",), "Subject", "Body")
+        with mock.patch(
+            "src.notifications.urlopen",
+            return_value=FakeResponse(201, {"messageId": "message-123"}),
+        ) as open_url:
+            self.assertEqual(send_email(config, message), "message-123")
+
+        self.assertEqual(open_url.call_count, 1)
+        request = open_url.call_args.args[0]
+        self.assertEqual(request.full_url, BREVO_EMAIL_API_URL)
+        self.assertEqual(request.get_header("Api-key"), "secret-key")
+        self.assertEqual(json.loads(request.data), message)
+
+    def test_invalid_api_key_is_reported_without_secret(self) -> None:
+        config = BrevoConfig(api_key="never-log-this-key", email_from="sender@example.com")
+        response = FakeResponse(401, {"code": "unauthorized", "message": "Key never-log-this-key invalid"})
+        with mock.patch("src.notifications.urlopen", return_value=response):
+            with self.assertRaisesRegex(RuntimeError, r"HTTP 401") as raised:
+                send_email(config, {})
+        self.assertNotIn(config.api_key, str(raised.exception))
+        self.assertIn("[redacted]", str(raised.exception))
+
+    def test_api_error_is_caught_and_logged_without_secret(self) -> None:
+        secret = ENVIRONMENT["BREVO_API_KEY"]
+        with (
+            mock.patch.dict(os.environ, ENVIRONMENT, clear=True),
+            mock.patch(
+                "src.notifications.urlopen",
+                return_value=FakeResponse(500, {"message": f"provider failure {secret}"}),
+            ),
+            mock.patch("src.notifications.log_notification") as notification_log,
+            mock.patch("builtins.print") as output,
+        ):
+            self.assertFalse(notify_changes([event()]))
+
+        logged_error = notification_log.call_args.kwargs["error_message"]
+        printed = " ".join(str(call.args[0]) for call in output.call_args_list)
+        self.assertEqual(notification_log.call_args.kwargs["status"], "failed")
+        self.assertNotIn(secret, logged_error)
+        self.assertNotIn(secret, printed)
+        self.assertIn("HTTP 500", logged_error)
+
+    def test_no_changes_does_not_call_brevo(self) -> None:
+        with (
+            mock.patch.dict(os.environ, ENVIRONMENT, clear=True),
+            mock.patch("src.notifications.urlopen") as open_url,
+            mock.patch("src.notifications.log_notification"),
+        ):
+            self.assertFalse(notify_changes([]))
+        open_url.assert_not_called()
+
+    def test_multiple_changes_send_one_consolidated_request(self) -> None:
+        with (
+            mock.patch.dict(os.environ, ENVIRONMENT, clear=True),
+            mock.patch(
+                "src.notifications.urlopen",
+                return_value=FakeResponse(201, {"messageId": "message-456"}),
+            ) as open_url,
+            mock.patch("src.notifications.log_notification"),
+        ):
+            self.assertTrue(notify_changes([event("First DiGA"), event("Second DiGA")]))
+
+        self.assertEqual(open_url.call_count, 1)
+        payload = json.loads(open_url.call_args.args[0].data)
+        self.assertEqual(payload["subject"], "DiGA Watch: 2 Änderung(en) erkannt")
+        self.assertIn("First DiGA", payload["textContent"])
+        self.assertIn("Second DiGA", payload["textContent"])
 
 
 if __name__ == "__main__":

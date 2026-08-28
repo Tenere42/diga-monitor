@@ -84,17 +84,14 @@ If `CatalogEntry.status` is missing or unknown, the monitor may use the structur
 
 ## E-Mail Notifications
 
-E-Mail Notifications use SMTP and are optional. The monitor sends an email only when real DiGA changes are detected. It skips baseline imports, no-change scans, development cleanup events, and simulated events.
+E-Mail Notifications use the Brevo Transactional Email API over HTTPS and are optional. The monitor sends an email only when real DiGA changes are detected. It skips baseline imports, no-change scans, development cleanup events, and simulated events.
 
 Copy `.env.example` to `.env` locally and fill in your own values. Do not commit `.env`.
 
 Required local environment variables and GitHub Actions configuration:
 
 ```powershell
-$env:SMTP_HOST="smtp.example.com"
-$env:SMTP_PORT="587"
-$env:SMTP_USERNAME="your-smtp-username"
-$env:SMTP_PASSWORD="your-smtp-password"
+$env:BREVO_API_KEY="your-brevo-api-key"
 $env:EMAIL_FROM="diga-watch@example.com"
 $env:DIGA_MONITOR_EMAIL_TO="recipient@example.com"
 $env:DASHBOARD_URL="http://localhost:8501"
@@ -104,36 +101,30 @@ Use placeholders like these when setting up the values. Do not commit real crede
 
 | Setting | Value to enter | Example |
 | --- | --- | --- |
-| `SMTP_HOST` | SMTP server hostname from your mail provider | `smtp.example.com` |
-| `SMTP_PORT` | SMTP port, usually with STARTTLS | `587` |
-| `SMTP_USERNAME` | SMTP login username | `diga-monitor@example.com` |
-| `SMTP_PASSWORD` | SMTP password or app password | `replace-with-provider-app-password` |
+| `BREVO_API_KEY` | Brevo API v3 key for Transactional Email | `replace-with-brevo-api-key` |
 | `EMAIL_FROM` | Sender address shown in the email | `diga-monitor@example.com` |
 | `DIGA_MONITOR_EMAIL_TO` | Recipient address(es) for alerts, comma-separated when needed | `alerts@example.com` |
 | `DASHBOARD_URL` | Public or local URL of the Streamlit dashboard | `https://your-dashboard.streamlit.app` |
 
 In GitHub, create each value under:
 
-Store SMTP credentials and sender configuration under `Settings > Secrets and variables > Actions > Secrets`. Store the non-secret recipient configuration under `Settings > Secrets and variables > Actions > Variables`.
+Store the Brevo API key under `Settings > Secrets and variables > Actions > Secrets`. Store sender, recipient, and dashboard configuration under `Settings > Secrets and variables > Actions > Variables`.
 
 Required secret names:
 
 ```text
-SMTP_HOST
-SMTP_PORT
-SMTP_USERNAME
-SMTP_PASSWORD
-EMAIL_FROM
-DASHBOARD_URL
+BREVO_API_KEY
 ```
 
 Required repository variable:
 
 ```text
+EMAIL_FROM
 DIGA_MONITOR_EMAIL_TO
+DASHBOARD_URL
 ```
 
-Email body creation, recipient resolution, and SMTP delivery are separate. The current production variable contains one recipient; the resolver already accepts a comma-separated list so a future subscription source can be added without changing change detection. No public subscription or newsletter management is implemented.
+Email body creation, recipient resolution, and Brevo API delivery are separate. The current production variable contains one recipient; the resolver already accepts a comma-separated list so a future subscription source can be added without changing change detection. No public subscription or newsletter management is implemented.
 
 Run with email notification enabled:
 
@@ -154,7 +145,7 @@ py -m src.main notify-test
 py -m src.main notify-test --dry-run
 ```
 
-`notify-test` checks the SMTP configuration and sends exactly one simulated price-change message with subject `[TEST / SIMULATION] DiGA Watch: 1 Änderung(en) erkannt`. It exits with a non-zero status if required variables are missing or SMTP delivery fails.
+`notify-test` checks the Brevo API configuration and sends exactly one simulated price-change message with subject `[TEST / SIMULATION] DiGA Watch: 1 Änderung(en) erkannt`. It exits with a non-zero status if required variables are missing or API delivery fails.
 
 In GitHub Actions, open the `DiGA Monitor` workflow manually with `Run workflow` and set `notification_test` to `true`. This sends only the test email and skips the normal DiGA scan and commit step.
 

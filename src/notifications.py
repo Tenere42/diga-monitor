@@ -1,18 +1,20 @@
-"""SMTP email notifications for DiGA change events."""
+"""Brevo Transactional Email API notifications for DiGA change events."""
 
 from __future__ import annotations
 
 import json
 import os
-import smtplib
+import uuid
 from dataclasses import dataclass
 from datetime import datetime, timezone
-from email.message import EmailMessage
 from pathlib import Path
 from typing import Any
+from urllib.error import HTTPError
+from urllib.request import Request, urlopen
 
 
 DEFAULT_NOTIFICATION_LOG_PATH = Path("outputs/notification_log.json")
+BREVO_EMAIL_API_URL = "https://api.brevo.com/v3/smtp/email"
 
 CHANGE_LABELS = {
     "new_diga": "Neue DiGA",
@@ -44,23 +46,20 @@ FIELD_LABELS = {
 
 
 @dataclass(frozen=True)
-class SmtpConfig:
-    host: str
-    port: int
-    username: str
-    password: str
+class BrevoConfig:
+    api_key: str
     email_from: str
 
 
 @dataclass(frozen=True)
 class NotificationSettings:
-    smtp: SmtpConfig
+    brevo: BrevoConfig
     recipients: tuple[str, ...]
     dashboard_url: str
 
 
 class MissingNotificationConfig(ValueError):
-    """Raised when SMTP email notification configuration is incomplete."""
+    """Raised when email notification configuration is incomplete."""
 
     def __init__(self, missing: list[str]) -> None:
         self.missing = missing
@@ -110,19 +109,19 @@ def notify_changes(
             status="skipped",
             error_message="Dry-run: email not sent.",
         )
-        print_notification_status("Notification dry-run: email content printed; no SMTP email sent.")
+        print_notification_status("Notification dry-run: email content printed; no API email sent.")
         return False
 
     try:
         settings = load_notification_settings()
         print_notification_status("Notification configuration complete.")
-        messages = build_email_messages(
-            settings.smtp.email_from,
+        message = build_email_message(
+            settings.brevo.email_from,
             settings.recipients,
             subject,
             build_email_body(real_events, settings.dashboard_url, test_mode=test_mode),
         )
-        send_email(settings.smtp, messages)
+        message_id = send_email(settings.brevo, message)
     except MissingNotificationConfig as exc:
         message = f"Notification configuration incomplete. Missing: {', '.join(exc.missing)}"
         log_notification(
@@ -152,6 +151,7 @@ def notify_changes(
         subject=subject,
         status="sent",
     )
+    print_notification_status(f"Brevo API accepted notification: {message_id}")
     print_notification_status(f"Notification sent to: {format_recipients(settings.recipients)}")
     return True
 
@@ -183,10 +183,7 @@ def send_test_notification(dry_run: bool = False) -> bool:
 
 def required_notification_env_vars() -> list[str]:
     return [
-        "SMTP_HOST",
-        "SMTP_PORT",
-        "SMTP_USERNAME",
-        "SMTP_PASSWORD",
+        "BREVO_API_KEY",
         "EMAIL_FROM",
         "DIGA_MONITOR_EMAIL_TO",
         "DASHBOARD_URL",
@@ -203,17 +200,9 @@ def load_notification_settings() -> NotificationSettings:
     if missing:
         raise MissingNotificationConfig(missing)
 
-    try:
-        port = int(os.environ["SMTP_PORT"])
-    except ValueError as exc:
-        raise ValueError("SMTP_PORT must be a number.") from exc
-
     return NotificationSettings(
-        smtp=SmtpConfig(
-            host=os.environ["SMTP_HOST"],
-            port=port,
-            username=os.environ["SMTP_USERNAME"],
-            password=os.environ["SMTP_PASSWORD"],
+        brevo=BrevoConfig(
+            api_key=os.environ["BREVO_API_KEY"],
             email_from=os.environ["EMAIL_FROM"],
         ),
         recipients=recipients,
@@ -238,29 +227,67 @@ def format_recipients(recipients: tuple[str, ...]) -> str:
     return ", ".join(recipients)
 
 
-def build_email_messages(
+def build_email_message(
     email_from: str,
     recipients: tuple[str, ...],
     subject: str,
     body: str,
-) -> tuple[EmailMessage, ...]:
-    messages = []
-    for recipient in recipients:
-        message = EmailMessage()
-        message["Subject"] = subject
-        message["From"] = email_from
-        message["To"] = recipient
-        message.set_content(body)
-        messages.append(message)
-    return tuple(messages)
+) -> dict[str, Any]:
+    message = {
+        "sender": {"email": email_from, "name": "DiGA Watch"},
+        "to": [{"email": recipient} for recipient in recipients],
+        "subject": subject,
+        "textContent": body,
+    }
+    run_id = os.getenv("GITHUB_RUN_ID")
+    idempotency_source = run_id or json.dumps(message, ensure_ascii=False, sort_keys=True)
+    message["headers"] = {
+        "idempotencyKey": str(uuid.uuid5(uuid.NAMESPACE_URL, idempotency_source))
+    }
+    return message
 
 
-def send_email(config: SmtpConfig, messages: tuple[EmailMessage, ...]) -> None:
-    with smtplib.SMTP(config.host, config.port, timeout=30) as smtp:
-        smtp.starttls()
-        smtp.login(config.username, config.password)
-        for message in messages:
-            smtp.send_message(message)
+def send_email(config: BrevoConfig, message: dict[str, Any]) -> str:
+    request = Request(
+        BREVO_EMAIL_API_URL,
+        data=json.dumps(message, ensure_ascii=False).encode("utf-8"),
+        method="POST",
+        headers={
+            "accept": "application/json",
+            "api-key": config.api_key,
+            "content-type": "application/json",
+        },
+    )
+    try:
+        with urlopen(request, timeout=30) as response:
+            status_code = response.status
+            response_body = response.read()
+    except HTTPError as exc:
+        response_body = exc.read()
+        raise RuntimeError(format_brevo_error(exc.code, response_body, config.api_key)) from exc
+
+    if status_code != 201:
+        raise RuntimeError(format_brevo_error(status_code, response_body, config.api_key))
+
+    try:
+        message_id = json.loads(response_body)["messageId"]
+    except (KeyError, TypeError, ValueError, UnicodeDecodeError) as exc:
+        raise RuntimeError("Brevo API returned HTTP 201 without a messageId.") from exc
+    return str(message_id)
+
+
+def format_brevo_error(status_code: int, response_body: bytes, api_key: str) -> str:
+    detail = ""
+    try:
+        payload = json.loads(response_body)
+        if isinstance(payload, dict):
+            detail = str(payload.get("message") or payload.get("code") or "")
+    except (ValueError, UnicodeDecodeError):
+        pass
+    if api_key:
+        detail = detail.replace(api_key, "[redacted]")
+    suffix = f": {detail[:300]}" if detail else ""
+    return f"Brevo API request failed with HTTP {status_code}{suffix}"
 
 
 def print_notification_status(message: str, level: str = "notice") -> None:
