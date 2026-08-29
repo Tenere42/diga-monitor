@@ -55,7 +55,7 @@ jobs:
           if [ ${#missing[@]} -eq 0 ]; then
             echo "::notice::Notification configuration complete."
           else
-            echo "::notice::Notification configuration incomplete. Missing: ${missing[*]}"
+            echo "::warning::Notification configuration incomplete. Email delivery will be skipped. Missing: ${missing[*]}"
           fi
 
       - name: Run notification test

@@ -9,7 +9,12 @@ from unittest import mock
 from urllib.error import HTTPError
 
 from scripts.anthropic_auth_check import ANTHROPIC_MODELS_URL, check_anthropic_api_key, main as auth_main
-from scripts.claude_review import AUTH_OVERRIDES_TO_REMOVE, isolated_claude_environment, run_review
+from scripts.claude_review import (
+    AUTH_OVERRIDES_TO_REMOVE,
+    isolated_claude_environment,
+    resolve_claude_executable,
+    run_review,
+)
 
 
 class FakeResponse:
@@ -112,6 +117,14 @@ class ClaudeReviewTests(unittest.TestCase):
         self.assertNotIn("test-secret-key", stdout.getvalue())
         self.assertIn("[redacted]", stdout.getvalue())
         self.assertNotEqual(environment["CLAUDE_CONFIG_DIR"], str(Path.home() / ".claude"))
+
+    def test_executable_is_portable_and_fails_clearly_when_missing(self) -> None:
+        with mock.patch("scripts.claude_review.shutil.which", return_value="/usr/local/bin/claude"):
+            self.assertEqual(resolve_claude_executable(None), Path("/usr/local/bin/claude"))
+        with mock.patch("scripts.claude_review.shutil.which", return_value=None):
+            with self.assertRaisesRegex(RuntimeError, "Claude executable was not found"):
+                resolve_claude_executable(None)
+        self.assertEqual(resolve_claude_executable(Path("custom-claude")), Path("custom-claude"))
 
 
 if __name__ == "__main__":

@@ -1,9 +1,11 @@
 from __future__ import annotations
 
 import json
+import io
 import os
 import unittest
 from unittest import mock
+from urllib.error import HTTPError
 
 from src.notifications import (
     BREVO_EMAIL_API_URL,
@@ -74,6 +76,14 @@ class NotificationTests(unittest.TestCase):
             {"dry_run": False, "include_simulated": True, "test_mode": True},
         )
 
+    def test_test_notification_dry_run_succeeds_without_delivery(self) -> None:
+        with mock.patch("src.notifications.notify_changes", return_value=False) as notify:
+            self.assertTrue(send_test_notification(dry_run=True))
+        self.assertEqual(
+            notify.call_args.kwargs,
+            {"dry_run": True, "include_simulated": True, "test_mode": True},
+        )
+
     def test_test_email_body_contains_all_acceptance_criteria(self) -> None:
         body = build_email_body([event()], ENVIRONMENT["DASHBOARD_URL"], test_mode=True)
         for expected in (
@@ -122,26 +132,17 @@ class NotificationTests(unittest.TestCase):
         self.assertEqual(settings.brevo.email_from_name, "DiGA Tracker")
         self.assertEqual(settings.recipients, ("recipient@example.com",))
 
-    def test_message_creation_is_separate_and_idempotent(self) -> None:
-        with mock.patch.dict(os.environ, {"GITHUB_RUN_ID": "12345"}, clear=True):
-            first = build_email_message(
-                "sender@example.com",
-                "Sender Name",
-                ("first@example.com", "second@example.com"),
-                "Subject",
-                "Body",
-            )
-            second = build_email_message(
-                "sender@example.com",
-                "Sender Name",
-                ("first@example.com", "second@example.com"),
-                "Changed on retry",
-                "Changed on retry",
-            )
-        self.assertEqual(first["headers"], second["headers"])
-        self.assertEqual(first["sender"], {"email": "sender@example.com", "name": "Sender Name"})
-        self.assertEqual(first["to"], [{"email": "first@example.com"}, {"email": "second@example.com"}])
-        self.assertTrue(first["headers"]["idempotencyKey"])
+    def test_message_creation_preserves_sender_and_recipients_without_custom_headers(self) -> None:
+        message = build_email_message(
+            "sender@example.com",
+            "Sender Name",
+            ("first@example.com", "second@example.com"),
+            "Subject",
+            "Body",
+        )
+        self.assertEqual(message["sender"], {"email": "sender@example.com", "name": "Sender Name"})
+        self.assertEqual(message["to"], [{"email": "first@example.com"}, {"email": "second@example.com"}])
+        self.assertNotIn("headers", message)
 
     def test_successful_brevo_api_send(self) -> None:
         config = BrevoConfig(api_key="secret-key", email_from="sender@example.com", email_from_name="Sender Name")
@@ -164,8 +165,14 @@ class NotificationTests(unittest.TestCase):
         config = BrevoConfig(
             api_key="never-log-this-key", email_from="sender@example.com", email_from_name="Sender Name"
         )
-        response = FakeResponse(401, {"code": "unauthorized", "message": "Key never-log-this-key invalid"})
-        with mock.patch("src.notifications.urlopen", return_value=response):
+        error = HTTPError(
+            BREVO_EMAIL_API_URL,
+            401,
+            "Unauthorized",
+            {},
+            io.BytesIO(b'{"message":"Key never-log-this-key invalid"}'),
+        )
+        with mock.patch("src.notifications.urlopen", side_effect=error):
             with self.assertRaisesRegex(RuntimeError, r"HTTP 401") as raised:
                 send_email(config, {})
         self.assertNotIn(config.api_key, str(raised.exception))
@@ -175,10 +182,13 @@ class NotificationTests(unittest.TestCase):
         secret = ENVIRONMENT["BREVO_API_KEY"]
         with (
             mock.patch.dict(os.environ, ENVIRONMENT, clear=True),
-            mock.patch(
-                "src.notifications.urlopen",
-                return_value=FakeResponse(500, {"message": f"provider failure {secret}"}),
-            ),
+            mock.patch("src.notifications.urlopen", side_effect=HTTPError(
+                BREVO_EMAIL_API_URL,
+                500,
+                "Server Error",
+                {},
+                io.BytesIO(json.dumps({"message": f"provider failure {secret}"}).encode()),
+            )),
             mock.patch("src.notifications.log_notification") as notification_log,
             mock.patch("builtins.print") as output,
         ):
@@ -208,6 +218,7 @@ class NotificationTests(unittest.TestCase):
                 return_value=FakeResponse(201, {"messageId": "message-456"}),
             ) as open_url,
             mock.patch("src.notifications.log_notification"),
+            mock.patch("builtins.print") as output,
         ):
             self.assertTrue(notify_changes([event("First DiGA"), event("Second DiGA")]))
 
@@ -218,6 +229,9 @@ class NotificationTests(unittest.TestCase):
         self.assertEqual(payload["subject"], "DiGA Watch: 2 Änderung(en) erkannt")
         self.assertIn("First DiGA", payload["textContent"])
         self.assertIn("Second DiGA", payload["textContent"])
+        printed = " ".join(str(call.args[0]) for call in output.call_args_list)
+        self.assertNotIn("recipient@example.com", printed)
+        self.assertIn("1 recipient(s)", printed)
 
 
 if __name__ == "__main__":

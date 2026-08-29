@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import os
+import shutil
 import subprocess
 import sys
 import tempfile
@@ -12,7 +13,6 @@ from pathlib import Path
 from scripts.anthropic_auth_check import check_anthropic_api_key
 
 
-DEFAULT_CLAUDE_EXECUTABLE = Path(r"C:\Users\HaukeRienhoff-Orthop\.local\bin\claude.exe")
 AUTH_OVERRIDES_TO_REMOVE = (
     "ANTHROPIC_AUTH_TOKEN",
     "ANTHROPIC_BASE_URL",
@@ -78,14 +78,24 @@ def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--pr-number", required=True, type=int)
     parser.add_argument("--base-ref", default="origin/main")
-    parser.add_argument("--claude-executable", type=Path, default=DEFAULT_CLAUDE_EXECUTABLE)
+    parser.add_argument("--claude-executable", type=Path)
     return parser
+
+
+def resolve_claude_executable(configured: Path | None) -> Path:
+    if configured is not None:
+        return configured
+    discovered = shutil.which("claude")
+    if not discovered:
+        raise RuntimeError("Claude executable was not found; pass --claude-executable explicitly.")
+    return Path(discovered)
 
 
 def main() -> int:
     args = build_parser().parse_args()
     try:
-        return run_review(args.claude_executable, review_prompt(args.pr_number, args.base_ref))
+        executable = resolve_claude_executable(args.claude_executable)
+        return run_review(executable, review_prompt(args.pr_number, args.base_ref))
     except RuntimeError as exc:
         print(f"Claude review preflight failed: {exc}", file=sys.stderr)
         return 1

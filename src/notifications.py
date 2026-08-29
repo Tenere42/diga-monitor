@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import json
 import os
-import uuid
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
@@ -94,9 +93,8 @@ def notify_changes(
 
     subject_prefix = "[TEST / SIMULATION] " if test_mode else ""
     subject = f"{subject_prefix}DiGA Watch: {len(real_events)} Änderung(en) erkannt"
-    body = build_email_body(real_events, os.getenv("DASHBOARD_URL", ""), test_mode=test_mode)
-
     if dry_run:
+        body = build_email_body(real_events, os.getenv("DASHBOARD_URL", ""), test_mode=test_mode)
         print("Dry-run: email would be sent with this content:")
         print()
         print(f"To: {recipient or '(DIGA_MONITOR_EMAIL_TO nicht gesetzt)'}")
@@ -154,7 +152,7 @@ def notify_changes(
         status="sent",
     )
     print_notification_status(f"Brevo API accepted notification: {message_id}")
-    print_notification_status(f"Notification sent to: {format_recipients(settings.recipients)}")
+    print_notification_status(f"Notification sent to {len(settings.recipients)} recipient(s).")
     return True
 
 
@@ -175,12 +173,13 @@ def send_test_notification(dry_run: bool = False) -> bool:
         "simulation_category": "E-Mail End-to-End-Test",
         "summary_de": "Simulierte Preisänderung von 499,00 € auf 529,00 €.",
     }
-    return notify_changes(
+    sent = notify_changes(
         [event],
         dry_run=dry_run,
         include_simulated=True,
         test_mode=True,
     )
+    return dry_run or sent
 
 
 def required_notification_env_vars() -> list[str]:
@@ -238,18 +237,12 @@ def build_email_message(
     subject: str,
     body: str,
 ) -> dict[str, Any]:
-    message = {
+    return {
         "sender": {"email": email_from, "name": email_from_name},
         "to": [{"email": recipient} for recipient in recipients],
         "subject": subject,
         "textContent": body,
     }
-    run_id = os.getenv("GITHUB_RUN_ID")
-    idempotency_source = run_id or json.dumps(message, ensure_ascii=False, sort_keys=True)
-    message["headers"] = {
-        "idempotencyKey": str(uuid.uuid5(uuid.NAMESPACE_URL, idempotency_source))
-    }
-    return message
 
 
 def send_email(config: BrevoConfig, message: dict[str, Any]) -> str:

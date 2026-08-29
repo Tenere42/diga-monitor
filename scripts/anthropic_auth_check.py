@@ -32,7 +32,7 @@ def check_anthropic_api_key(api_key: str | None = None) -> None:
     except HTTPError as exc:
         exc.read()
         raise RuntimeError(f"Anthropic API authentication/connectivity check failed with HTTP {exc.code}.") from None
-    except URLError as exc:
+    except URLError:
         raise RuntimeError("Anthropic API connectivity check could not reach the API.") from None
 
     if status != 200:

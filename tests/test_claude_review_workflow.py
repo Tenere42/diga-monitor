@@ -19,6 +19,7 @@ class ClaudeReviewWorkflowTests(unittest.TestCase):
         self.assertNotIn("id-token: write", workflow)
         self.assertNotIn("pull-requests: write", workflow)
         self.assertIn("contents: read", workflow)
+        self.assertIn("github.event.pull_request.head.repo.full_name == github.repository", workflow)
 
     def test_auth_check_precedes_read_only_review(self) -> None:
         workflow = WORKFLOW.read_text(encoding="utf-8")
