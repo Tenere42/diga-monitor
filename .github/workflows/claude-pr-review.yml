@@ -44,5 +44,5 @@ jobs:
             findings and a concise top-level review summary. If there are no
             findings, state that explicitly.
           claude_args: |
-            --max-turns 10
+            --max-turns 20
             --allowedTools "Read,Grep,Glob,mcp__github_inline_comment__create_inline_comment,Bash(git diff:*),Bash(gh pr comment:*),Bash(gh pr diff:*),Bash(gh pr view:*)"

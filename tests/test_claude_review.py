@@ -103,7 +103,7 @@ class ClaudeReviewTests(unittest.TestCase):
                 "--allowedTools",
                 "Read,Grep,Glob,Bash(git diff*)",
                 "--max-turns",
-                "10",
+                "20",
             ],
         )
         self.assertNotIn("Edit", command)
