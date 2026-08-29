@@ -44,6 +44,7 @@ jobs:
           DIGA_MONITOR_EMAIL_FROM: ${{ vars.DIGA_MONITOR_EMAIL_FROM }}
           DIGA_MONITOR_EMAIL_FROM_NAME: ${{ vars.DIGA_MONITOR_EMAIL_FROM_NAME }}
           DIGA_MONITOR_EMAIL_TO: ${{ vars.DIGA_MONITOR_EMAIL_TO }}
+          DIGA_MONITOR_DASHBOARD_URL: ${{ vars.DIGA_MONITOR_DASHBOARD_URL }}
           DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
         run: |
           missing=()
@@ -65,6 +66,7 @@ jobs:
           DIGA_MONITOR_EMAIL_FROM: ${{ vars.DIGA_MONITOR_EMAIL_FROM }}
           DIGA_MONITOR_EMAIL_FROM_NAME: ${{ vars.DIGA_MONITOR_EMAIL_FROM_NAME }}
           DIGA_MONITOR_EMAIL_TO: ${{ vars.DIGA_MONITOR_EMAIL_TO }}
+          DIGA_MONITOR_DASHBOARD_URL: ${{ vars.DIGA_MONITOR_DASHBOARD_URL }}
           DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
         run: python -m src.main notify-test
 
@@ -105,6 +107,7 @@ jobs:
           DIGA_MONITOR_EMAIL_FROM: ${{ vars.DIGA_MONITOR_EMAIL_FROM }}
           DIGA_MONITOR_EMAIL_FROM_NAME: ${{ vars.DIGA_MONITOR_EMAIL_FROM_NAME }}
           DIGA_MONITOR_EMAIL_TO: ${{ vars.DIGA_MONITOR_EMAIL_TO }}
+          DIGA_MONITOR_DASHBOARD_URL: ${{ vars.DIGA_MONITOR_DASHBOARD_URL }}
           DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
           DIGA_API_TOKEN: ${{ secrets.DIGA_API_TOKEN }}
           DIGA_RENDER_CHANGED_ENTRIES: "true"

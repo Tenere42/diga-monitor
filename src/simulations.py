@@ -10,7 +10,7 @@ from typing import Any
 from src.change_events import save_change_events, word_level_diff
 from src.change_events import classify_text_change
 from src.diff import display_name, entry_identity
-from src.notifications import build_email_body, log_notification
+from src.notifications import build_email_body, log_notification, resolve_dashboard_url
 from src.snapshot import DEFAULT_SNAPSHOT_DIR, load_snapshot
 from src.snapshot_storage import operational_baseline_path
 
@@ -60,14 +60,14 @@ def run_simulation(
     write_simulation_report(events, output_path)
 
     if notify:
-        subject = f"DiGA Watch: {len(events)} Änderung(en) erkannt"
+        subject = f"DiGA Tracker: {len(events)} Änderung(en) erkannt"
         print()
         print("Dry-run: email would be sent with this content:")
         print()
         print("To: (Simulation, kein E-Mail-Versand)")
         print(f"Subject: {subject}")
         print()
-        print(build_email_body(events, dashboard_url_from_env()))
+        print(build_email_body(events, resolve_dashboard_url()))
         log_notification(
             recipient="(Simulation, kein E-Mail-Versand)",
             number_of_changes=len(events),
@@ -273,9 +273,3 @@ def write_simulation_report(events: list[dict[str, Any]], event_file: Path | Non
             )
         )
     DEFAULT_SIMULATION_REPORT_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")
-
-
-def dashboard_url_from_env() -> str:
-    import os
-
-    return os.getenv("DASHBOARD_URL", "")
