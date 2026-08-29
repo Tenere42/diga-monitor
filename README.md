@@ -118,14 +118,15 @@ Required secret names:
 BREVO_API_KEY
 ```
 
-Required repository variable:
+Required repository variables:
 
 ```text
 DIGA_MONITOR_EMAIL_FROM
 DIGA_MONITOR_EMAIL_FROM_NAME
 DIGA_MONITOR_EMAIL_TO
-DASHBOARD_URL
 ```
+
+`DASHBOARD_URL` is an optional repository variable used for the dashboard link in the message body; missing it does not block delivery.
 
 Email body creation, recipient resolution, and Brevo API delivery are separate. The current production variable contains one recipient; the resolver already accepts a comma-separated list so a future subscription source can be added without changing change detection. No public subscription or newsletter management is implemented.
 
@@ -148,7 +149,7 @@ py -m src.main notify-test
 py -m src.main notify-test --dry-run
 ```
 
-`notify-test` checks the Brevo API configuration and sends exactly one simulated price-change message with subject `[TEST / SIMULATION] DiGA Watch: 1 Änderung(en) erkannt`. The message is also marked `TEST / SIMULATION` in its body. It creates no snapshot, baseline, history, change-event, or R2 output and exits with a non-zero status if required variables are missing or API delivery fails.
+Without `--dry-run`, `notify-test` checks the Brevo API configuration and sends exactly one simulated price-change message with subject `[TEST / SIMULATION] DiGA Watch: 1 Änderung(en) erkannt`. The message is also marked `TEST / SIMULATION` in its body. It creates no snapshot, baseline, history, change-event, or R2 output and exits with a non-zero status if required variables are missing or API delivery fails. With `--dry-run`, it only renders the simulation locally and therefore does not require mail credentials.
 
 In GitHub Actions, open the `DiGA Monitor` workflow manually with `Run workflow` and set `notification_test` to `true`. This sends only the test email and skips the normal DiGA scan and commit step.
 

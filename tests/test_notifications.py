@@ -132,6 +132,13 @@ class NotificationTests(unittest.TestCase):
         self.assertEqual(settings.brevo.email_from_name, "DiGA Tracker")
         self.assertEqual(settings.recipients, ("recipient@example.com",))
 
+    def test_dashboard_url_is_optional(self) -> None:
+        environment = {key: value for key, value in ENVIRONMENT.items() if key != "DASHBOARD_URL"}
+        with mock.patch.dict(os.environ, environment, clear=True):
+            settings = load_notification_settings()
+
+        self.assertEqual(settings.dashboard_url, "")
+
     def test_message_creation_preserves_sender_and_recipients_without_custom_headers(self) -> None:
         message = build_email_message(
             "sender@example.com",
@@ -151,7 +158,7 @@ class NotificationTests(unittest.TestCase):
         )
         with mock.patch(
             "src.notifications.urlopen",
-            return_value=FakeResponse(201, {"messageId": "message-123"}),
+            return_value=FakeResponse(202, {"messageId": "message-123"}),
         ) as open_url:
             self.assertEqual(send_email(config, message), "message-123")
 

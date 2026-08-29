@@ -47,7 +47,7 @@ jobs:
           DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
         run: |
           missing=()
-          for name in BREVO_API_KEY DIGA_MONITOR_EMAIL_FROM DIGA_MONITOR_EMAIL_FROM_NAME DIGA_MONITOR_EMAIL_TO DASHBOARD_URL; do
+          for name in BREVO_API_KEY DIGA_MONITOR_EMAIL_FROM DIGA_MONITOR_EMAIL_FROM_NAME DIGA_MONITOR_EMAIL_TO; do
             if [ -z "${!name}" ]; then
               missing+=("$name")
             fi

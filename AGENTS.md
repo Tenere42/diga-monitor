@@ -44,7 +44,7 @@ For larger, riskier, or architecture-relevant changes, Codex uses Claude Code CL
 - Run `python -m scripts.claude_review --pr-number <PR>`; the wrapper invokes the verified Claude executable without depending on `PATH`.
 - Automated reviews require `ANTHROPIC_API_KEY`. GitHub receives it only from the repository secret named `ANTHROPIC_API_KEY`; local runs receive it only from the process environment. Never use, print, persist, or renew personal OAuth credentials for automated reviews.
 - The wrapper must pass the Anthropic connectivity preflight before invoking Claude, remove OAuth/provider override variables from the child process, and use an isolated temporary `CLAUDE_CONFIG_DIR` so stored personal login state cannot take precedence or act as a fallback.
-- Give Claude the task context and the complete relevant diff. Restrict it to `--allowedTools "Read,Grep,Glob,Bash(git diff*)"` and cap each review with `--max-turns 20`.
+- Give Claude the task context and the complete relevant diff. Restrict it to `--allowedTools "Read,Grep,Glob,Bash(git diff:*)"` and cap each review with `--max-turns 20`.
 - Claude must not edit files, run unrestricted shell commands, commit, push, or mutate GitHub state.
 - Codex captures and critically triages Claude's findings. Fix valid findings, assess debatable suggestions on their merits, and do not blindly accept incorrect or out-of-scope feedback.
 - Document a short reason when rejecting a substantive finding.

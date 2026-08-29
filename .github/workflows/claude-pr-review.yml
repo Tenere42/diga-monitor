@@ -45,5 +45,4 @@ jobs:
         run: |
           python -m scripts.claude_review \
             --pr-number "$PR_NUMBER" \
-            --base-ref origin/main \
-            --claude-executable "$(command -v claude)"
+            --base-ref origin/main

@@ -2,7 +2,7 @@
 
 ## Current objective
 
-Use API-key-only authentication for automated Claude Code reviews without relying on personal OAuth state.
+Finalize the production Brevo sender configuration and its API-key-authenticated Claude review for PR #5.
 
 ## Production status
 
@@ -22,7 +22,7 @@ DiGA Monitor is in production. The scheduler runs at 06:00, 09:00, 12:00, 15:00,
 
 ## Last completed work
 
-Replaced personal OAuth and GitHub federation dependencies in automated Claude reviews with the repository secret/environment variable `ANTHROPIC_API_KEY`, a fail-closed API connectivity check, and an isolated read-only local review wrapper.
+Replaced personal OAuth and GitHub federation dependencies in automated Claude reviews with the repository secret/environment variable `ANTHROPIC_API_KEY`, a fail-closed API connectivity check, and an isolated read-only local review wrapper. The API-key preflight and read-only review now pass in GitHub Actions; accepted notification and review-safety findings were applied.
 
 ## Current branch / PR
 
@@ -45,11 +45,11 @@ Replaced personal OAuth and GitHub federation dependencies in automated Claude r
 ## Open risks/blockers
 
 - Historical Git objects remain available because no history rewrite was performed.
-- `ANTHROPIC_API_KEY` is absent from both the local Codex process and the GitHub Claude Review workflow (confirmed by run 33252730181). The fail-closed preflight skipped the review without falling back to OAuth.
+- `ANTHROPIC_API_KEY` remains intentionally unavailable to the local Codex process; GitHub Actions now supplies it exclusively from the repository secret.
 
 ## Next recommended step
 
-Add the GitHub repository Actions secret `ANTHROPIC_API_KEY`, then rerun the Claude PR Review workflow for PR #5.
+Merge PR #5 after its final full test run is green.
 
 ## Last updated
 

@@ -55,7 +55,7 @@ def run_review(claude_executable: Path, prompt: str) -> int:
                 "-p",
                 prompt,
                 "--allowedTools",
-                "Read,Grep,Glob,Bash(git diff*)",
+                "Read,Grep,Glob,Bash(git diff:*)",
                 "--max-turns",
                 "20",
             ],

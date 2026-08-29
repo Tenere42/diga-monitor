@@ -106,7 +106,7 @@ class ClaudeReviewTests(unittest.TestCase):
                 "-p",
                 "Review PR",
                 "--allowedTools",
-                "Read,Grep,Glob,Bash(git diff*)",
+                "Read,Grep,Glob,Bash(git diff:*)",
                 "--max-turns",
                 "20",
             ],

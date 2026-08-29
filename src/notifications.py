@@ -188,7 +188,6 @@ def required_notification_env_vars() -> list[str]:
         "DIGA_MONITOR_EMAIL_FROM",
         "DIGA_MONITOR_EMAIL_FROM_NAME",
         "DIGA_MONITOR_EMAIL_TO",
-        "DASHBOARD_URL",
     ]
 
 
@@ -209,7 +208,7 @@ def load_notification_settings() -> NotificationSettings:
             email_from_name=os.environ["DIGA_MONITOR_EMAIL_FROM_NAME"],
         ),
         recipients=recipients,
-        dashboard_url=os.environ["DASHBOARD_URL"],
+        dashboard_url=os.getenv("DASHBOARD_URL", ""),
     )
 
 
@@ -264,13 +263,15 @@ def send_email(config: BrevoConfig, message: dict[str, Any]) -> str:
         response_body = exc.read()
         raise RuntimeError(format_brevo_error(exc.code, response_body, config.api_key)) from exc
 
-    if status_code != 201:
+    if not 200 <= status_code < 300:
         raise RuntimeError(format_brevo_error(status_code, response_body, config.api_key))
 
     try:
         message_id = json.loads(response_body)["messageId"]
     except (KeyError, TypeError, ValueError, UnicodeDecodeError) as exc:
-        raise RuntimeError("Brevo API returned HTTP 201 without a messageId.") from exc
+        raise RuntimeError(
+            f"Brevo API returned HTTP {status_code} without a messageId."
+        ) from exc
     return str(message_id)
 
 
