@@ -331,6 +331,18 @@ py -m src.main simulate-orthopy-change --notify --dry-run
 
 Simulation notifications are dry-run only. They print the email body but never send email.
 
+## Claude Code review authentication
+
+Automated Codex → Claude Code reviews use Anthropic API-key authentication only. Create one repository Actions secret named `ANTHROPIC_API_KEY`; do not store the key in repository files, variables, workflow inputs, command-line arguments, or logs. The Claude PR Review workflow validates the secret against the Anthropic API before starting the review and fails with a redacted error when the secret is missing or rejected.
+
+Local automated reviews use the same environment variable and the repository wrapper:
+
+```powershell
+python -m scripts.claude_review --pr-number 5
+```
+
+The wrapper removes OAuth and alternate-provider overrides from Claude's child environment and uses a temporary empty Claude configuration directory. Existing personal Claude settings remain untouched but cannot be used by this automated path. Claude receives read-only inspection tools only; Codex remains responsible for triaging findings and making any accepted changes.
+
 ## Change Feed Dashboard
 
 Start the local Streamlit app:
