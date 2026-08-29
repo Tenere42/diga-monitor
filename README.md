@@ -95,7 +95,7 @@ $env:BREVO_API_KEY="your-brevo-api-key"
 $env:DIGA_MONITOR_EMAIL_FROM="updates@diga-tracker.de"
 $env:DIGA_MONITOR_EMAIL_FROM_NAME="DiGA Tracker"
 $env:DIGA_MONITOR_EMAIL_TO="recipient@example.com"
-$env:DASHBOARD_URL="http://localhost:8501"
+$env:DIGA_MONITOR_DASHBOARD_URL="https://diga-tracker.de"
 ```
 
 Use placeholders like these when setting up the values. Do not commit real credentials.
@@ -106,7 +106,8 @@ Use placeholders like these when setting up the values. Do not commit real crede
 | `DIGA_MONITOR_EMAIL_FROM` | Verified Brevo sender address shown in the email | `updates@diga-tracker.de` |
 | `DIGA_MONITOR_EMAIL_FROM_NAME` | Sender name shown in the email | `DiGA Tracker` |
 | `DIGA_MONITOR_EMAIL_TO` | Recipient address(es) for alerts, comma-separated when needed | `alerts@example.com` |
-| `DASHBOARD_URL` | Public or local URL of the Streamlit dashboard | `https://your-dashboard.streamlit.app` |
+| `DIGA_MONITOR_DASHBOARD_URL` | Preferred public dashboard URL shown in the email | `https://diga-tracker.de` |
+| `DASHBOARD_URL` | Legacy/technical fallback, used only if `DIGA_MONITOR_DASHBOARD_URL` is not set (e.g. the current Streamlit hosting URL) | `https://your-dashboard.streamlit.app` |
 
 In GitHub, create each value under:
 
@@ -126,7 +127,7 @@ DIGA_MONITOR_EMAIL_FROM_NAME
 DIGA_MONITOR_EMAIL_TO
 ```
 
-`DASHBOARD_URL` is an optional repository variable used for the dashboard link in the message body; missing it does not block delivery.
+`DIGA_MONITOR_DASHBOARD_URL` is the preferred optional repository variable for the dashboard link in the message body; production target is `https://diga-tracker.de`. `DASHBOARD_URL` remains supported as a documented technical fallback (e.g. the current Streamlit hosting URL) and is only used when `DIGA_MONITOR_DASHBOARD_URL` is not set. No dashboard URL is hardcoded in code; missing both does not block delivery.
 
 Email body creation, recipient resolution, and Brevo API delivery are separate. The current production variable contains one recipient; the resolver already accepts a comma-separated list so a future subscription source can be added without changing change detection. No public subscription or newsletter management is implemented.
 
@@ -149,7 +150,7 @@ py -m src.main notify-test
 py -m src.main notify-test --dry-run
 ```
 
-Without `--dry-run`, `notify-test` checks the Brevo API configuration and sends exactly one simulated price-change message with subject `[TEST / SIMULATION] DiGA Watch: 1 Änderung(en) erkannt`. The message is also marked `TEST / SIMULATION` in its body. It creates no snapshot, baseline, history, change-event, or R2 output and exits with a non-zero status if required variables are missing or API delivery fails. With `--dry-run`, it only renders the simulation locally and therefore does not require mail credentials.
+Without `--dry-run`, `notify-test` checks the Brevo API configuration and sends exactly one simulated price-change message with subject `[TEST / SIMULATION] DiGA Tracker: 1 Änderung(en) erkannt`. The message is also marked `TEST / SIMULATION` in its body. It creates no snapshot, baseline, history, change-event, or R2 output and exits with a non-zero status if required variables are missing or API delivery fails. With `--dry-run`, it only renders the simulation locally and therefore does not require mail credentials.
 
 In GitHub Actions, open the `DiGA Monitor` workflow manually with `Run workflow` and set `notification_test` to `true`. This sends only the test email and skips the normal DiGA scan and commit step.
 

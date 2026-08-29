@@ -9,6 +9,8 @@ from urllib.error import HTTPError
 
 from src.notifications import (
     BREVO_EMAIL_API_URL,
+    DASHBOARD_URL_ENV_VAR,
+    LEGACY_DASHBOARD_URL_ENV_VAR,
     BrevoConfig,
     MissingNotificationConfig,
     build_email_body,
@@ -16,6 +18,7 @@ from src.notifications import (
     configured_recipients,
     load_notification_settings,
     notify_changes,
+    resolve_dashboard_url,
     send_email,
     send_test_notification,
 )
@@ -98,6 +101,78 @@ class NotificationTests(unittest.TestCase):
             ENVIRONMENT["DASHBOARD_URL"],
         ):
             self.assertIn(expected, body)
+        self.assertNotIn("DiGA Watch", body)
+
+    def test_email_body_uses_diga_tracker_branding(self) -> None:
+        body = build_email_body([event()], ENVIRONMENT["DASHBOARD_URL"])
+        self.assertIn("DiGA Tracker hat 1 Änderung(en)", body)
+        self.assertIn("DiGA Tracker", body.splitlines()[-1])
+        self.assertNotIn("DiGA Watch", body)
+
+    def test_notify_changes_subject_uses_diga_tracker_branding(self) -> None:
+        with (
+            mock.patch.dict(os.environ, ENVIRONMENT, clear=True),
+            mock.patch(
+                "src.notifications.urlopen",
+                return_value=FakeResponse(201, {"messageId": "message-789"}),
+            ) as open_url,
+            mock.patch("src.notifications.log_notification"),
+        ):
+            self.assertTrue(notify_changes([event()]))
+
+        payload = json.loads(open_url.call_args.args[0].data)
+        self.assertEqual(payload["subject"], "DiGA Tracker: 1 Änderung(en) erkannt")
+        self.assertNotIn("DiGA Watch", payload["subject"])
+        self.assertNotIn("DiGA Watch", payload["textContent"])
+
+    def test_test_notification_subject_is_marked_test_simulation_with_new_branding(self) -> None:
+        with (
+            mock.patch.dict(os.environ, ENVIRONMENT, clear=True),
+            mock.patch(
+                "src.notifications.urlopen",
+                return_value=FakeResponse(201, {"messageId": "message-test-1"}),
+            ) as open_url,
+            mock.patch("src.notifications.log_notification"),
+        ):
+            self.assertTrue(send_test_notification())
+
+        payload = json.loads(open_url.call_args.args[0].data)
+        self.assertEqual(payload["subject"], "[TEST / SIMULATION] DiGA Tracker: 1 Änderung(en) erkannt")
+        self.assertIn("TEST / SIMULATION", payload["textContent"])
+        self.assertNotIn("DiGA Watch", payload["subject"])
+        self.assertNotIn("DiGA Watch", payload["textContent"])
+
+    def test_resolve_dashboard_url_prefers_new_variable_over_legacy(self) -> None:
+        with mock.patch.dict(
+            os.environ,
+            {
+                DASHBOARD_URL_ENV_VAR: "https://diga-tracker.de",
+                LEGACY_DASHBOARD_URL_ENV_VAR: "https://legacy.streamlit.app",
+            },
+            clear=True,
+        ):
+            self.assertEqual(resolve_dashboard_url(), "https://diga-tracker.de")
+
+    def test_resolve_dashboard_url_falls_back_to_legacy_variable(self) -> None:
+        with mock.patch.dict(
+            os.environ,
+            {LEGACY_DASHBOARD_URL_ENV_VAR: "https://legacy.streamlit.app"},
+            clear=True,
+        ):
+            self.assertEqual(resolve_dashboard_url(), "https://legacy.streamlit.app")
+
+    def test_resolve_dashboard_url_is_empty_without_any_configuration(self) -> None:
+        with mock.patch.dict(os.environ, {}, clear=True):
+            self.assertEqual(resolve_dashboard_url(), "")
+
+    def test_load_notification_settings_dashboard_url_comes_from_configuration(self) -> None:
+        with mock.patch.dict(
+            os.environ,
+            {**ENVIRONMENT, DASHBOARD_URL_ENV_VAR: "https://diga-tracker.de"},
+            clear=True,
+        ):
+            settings = load_notification_settings()
+        self.assertEqual(settings.dashboard_url, "https://diga-tracker.de")
 
     def test_recipient_configuration_is_external_and_multi_recipient_ready(self) -> None:
         with mock.patch.dict(
@@ -233,7 +308,7 @@ class NotificationTests(unittest.TestCase):
         payload = json.loads(open_url.call_args.args[0].data)
         self.assertEqual(payload["sender"], {"email": "updates@diga-tracker.de", "name": "DiGA Tracker"})
         self.assertEqual(payload["to"], [{"email": "recipient@example.com"}])
-        self.assertEqual(payload["subject"], "DiGA Watch: 2 Änderung(en) erkannt")
+        self.assertEqual(payload["subject"], "DiGA Tracker: 2 Änderung(en) erkannt")
         self.assertIn("First DiGA", payload["textContent"])
         self.assertIn("Second DiGA", payload["textContent"])
         printed = " ".join(str(call.args[0]) for call in output.call_args_list)

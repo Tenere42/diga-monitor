@@ -15,6 +15,12 @@ from urllib.request import Request, urlopen
 DEFAULT_NOTIFICATION_LOG_PATH = Path("outputs/notification_log.json")
 BREVO_EMAIL_API_URL = "https://api.brevo.com/v3/smtp/email"
 
+# Preferred dashboard URL variable, matching the DIGA_MONITOR_EMAIL_* naming
+# convention. DASHBOARD_URL is kept as a legacy/technical fallback (e.g. the
+# current Streamlit hosting URL) for as long as it remains configured.
+DASHBOARD_URL_ENV_VAR = "DIGA_MONITOR_DASHBOARD_URL"
+LEGACY_DASHBOARD_URL_ENV_VAR = "DASHBOARD_URL"
+
 CHANGE_LABELS = {
     "new_diga": "Neue DiGA",
     "removed_diga": "Nicht mehr gefunden",
@@ -58,6 +64,18 @@ class NotificationSettings:
     dashboard_url: str
 
 
+def resolve_dashboard_url() -> str:
+    """Return the configured public dashboard URL.
+
+    Prefers ``DIGA_MONITOR_DASHBOARD_URL`` (production target:
+    https://diga-tracker.de); falls back to the legacy ``DASHBOARD_URL``
+    variable, which continues to work as a documented technical fallback
+    (e.g. the current Streamlit hosting URL) for as long as it stays set.
+    No URL is hardcoded here; an unset environment yields an empty string.
+    """
+    return os.getenv(DASHBOARD_URL_ENV_VAR) or os.getenv(LEGACY_DASHBOARD_URL_ENV_VAR, "")
+
+
 class MissingNotificationConfig(ValueError):
     """Raised when email notification configuration is incomplete."""
 
@@ -84,7 +102,7 @@ def notify_changes(
         log_notification(
             recipient=recipient,
             number_of_changes=0,
-            subject="DiGA Watch: 0 Änderung(en) erkannt",
+            subject="DiGA Tracker: 0 Änderung(en) erkannt",
             status="skipped",
             error_message="Keine echten Änderungen erkannt.",
         )
@@ -92,9 +110,9 @@ def notify_changes(
         return False
 
     subject_prefix = "[TEST / SIMULATION] " if test_mode else ""
-    subject = f"{subject_prefix}DiGA Watch: {len(real_events)} Änderung(en) erkannt"
+    subject = f"{subject_prefix}DiGA Tracker: {len(real_events)} Änderung(en) erkannt"
     if dry_run:
-        body = build_email_body(real_events, os.getenv("DASHBOARD_URL", ""), test_mode=test_mode)
+        body = build_email_body(real_events, resolve_dashboard_url(), test_mode=test_mode)
         print("Dry-run: email would be sent with this content:")
         print()
         print(f"To: {recipient or '(DIGA_MONITOR_EMAIL_TO nicht gesetzt)'}")
@@ -208,7 +226,7 @@ def load_notification_settings() -> NotificationSettings:
             email_from_name=os.environ["DIGA_MONITOR_EMAIL_FROM_NAME"],
         ),
         recipients=recipients,
-        dashboard_url=os.getenv("DASHBOARD_URL", ""),
+        dashboard_url=resolve_dashboard_url(),
     )
 
 
@@ -329,7 +347,7 @@ def build_email_body(
     lines.extend([
         "Hallo,",
         "",
-        f"DiGA Watch hat {len(events)} Änderung(en) im BfArM DiGA-Verzeichnis erkannt.",
+        f"DiGA Tracker hat {len(events)} Änderung(en) im BfArM DiGA-Verzeichnis erkannt.",
         "",
         "Zeitraum:",
         f"Letzter bekannter Zustand: {previous_label}",
@@ -350,10 +368,10 @@ def build_email_body(
     lines.extend(
         [
             "Dashboard:",
-            dashboard_url or "(DASHBOARD_URL nicht gesetzt)",
+            dashboard_url or "(DIGA_MONITOR_DASHBOARD_URL nicht gesetzt)",
             "",
             "Viele Grüße",
-            "DiGA Watch",
+            "DiGA Tracker",
         ]
     )
     return "\n".join(lines)
