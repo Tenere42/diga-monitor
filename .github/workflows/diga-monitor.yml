@@ -40,16 +40,14 @@ jobs:
 
       - name: Check notification configuration
         env:
-          SMTP_HOST: ${{ secrets.SMTP_HOST }}
-          SMTP_PORT: ${{ secrets.SMTP_PORT }}
-          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
-          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
-          EMAIL_TO: ${{ secrets.EMAIL_TO }}
-          DASHBOARD_URL: ${{ secrets.DASHBOARD_URL }}
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          DIGA_MONITOR_EMAIL_FROM: ${{ vars.DIGA_MONITOR_EMAIL_FROM }}
+          DIGA_MONITOR_EMAIL_FROM_NAME: ${{ vars.DIGA_MONITOR_EMAIL_FROM_NAME }}
+          DIGA_MONITOR_EMAIL_TO: ${{ vars.DIGA_MONITOR_EMAIL_TO }}
+          DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
         run: |
           missing=()
-          for name in SMTP_HOST SMTP_PORT SMTP_USERNAME SMTP_PASSWORD EMAIL_FROM EMAIL_TO DASHBOARD_URL; do
+          for name in BREVO_API_KEY DIGA_MONITOR_EMAIL_FROM DIGA_MONITOR_EMAIL_FROM_NAME DIGA_MONITOR_EMAIL_TO; do
             if [ -z "${!name}" ]; then
               missing+=("$name")
             fi
@@ -57,19 +55,17 @@ jobs:
           if [ ${#missing[@]} -eq 0 ]; then
             echo "::notice::Notification configuration complete."
           else
-            echo "::notice::Notification configuration incomplete. Missing: ${missing[*]}"
+            echo "::warning::Notification configuration incomplete. Email delivery will be skipped. Missing: ${missing[*]}"
           fi
 
       - name: Run notification test
         if: ${{ github.event_name == 'workflow_dispatch' && inputs.notification_test == 'true' }}
         env:
-          SMTP_HOST: ${{ secrets.SMTP_HOST }}
-          SMTP_PORT: ${{ secrets.SMTP_PORT }}
-          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
-          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
-          EMAIL_TO: ${{ secrets.EMAIL_TO }}
-          DASHBOARD_URL: ${{ secrets.DASHBOARD_URL }}
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          DIGA_MONITOR_EMAIL_FROM: ${{ vars.DIGA_MONITOR_EMAIL_FROM }}
+          DIGA_MONITOR_EMAIL_FROM_NAME: ${{ vars.DIGA_MONITOR_EMAIL_FROM_NAME }}
+          DIGA_MONITOR_EMAIL_TO: ${{ vars.DIGA_MONITOR_EMAIL_TO }}
+          DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
         run: python -m src.main notify-test
 
       - name: Diagnose R2 configuration metadata
@@ -105,13 +101,11 @@ jobs:
       - name: Run DiGA monitor
         if: ${{ github.event_name != 'workflow_dispatch' || inputs.notification_test != 'true' }}
         env:
-          SMTP_HOST: ${{ secrets.SMTP_HOST }}
-          SMTP_PORT: ${{ secrets.SMTP_PORT }}
-          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
-          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
-          EMAIL_TO: ${{ secrets.EMAIL_TO }}
-          DASHBOARD_URL: ${{ secrets.DASHBOARD_URL }}
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          DIGA_MONITOR_EMAIL_FROM: ${{ vars.DIGA_MONITOR_EMAIL_FROM }}
+          DIGA_MONITOR_EMAIL_FROM_NAME: ${{ vars.DIGA_MONITOR_EMAIL_FROM_NAME }}
+          DIGA_MONITOR_EMAIL_TO: ${{ vars.DIGA_MONITOR_EMAIL_TO }}
+          DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
           DIGA_API_TOKEN: ${{ secrets.DIGA_API_TOKEN }}
           DIGA_RENDER_CHANGED_ENTRIES: "true"
           R2_ENDPOINT: ${{ vars.R2_ENDPOINT || vars.S3_ENDPOINT }}

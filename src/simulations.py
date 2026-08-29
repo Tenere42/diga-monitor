@@ -64,12 +64,12 @@ def run_simulation(
         print()
         print("Dry-run: email would be sent with this content:")
         print()
-        print("To: (Simulation, kein SMTP-Versand)")
+        print("To: (Simulation, kein E-Mail-Versand)")
         print(f"Subject: {subject}")
         print()
         print(build_email_body(events, dashboard_url_from_env()))
         log_notification(
-            recipient="(Simulation, kein SMTP-Versand)",
+            recipient="(Simulation, kein E-Mail-Versand)",
             number_of_changes=len(events),
             subject=subject,
             status="skipped",

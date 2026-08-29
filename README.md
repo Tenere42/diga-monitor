@@ -19,7 +19,7 @@ Each snapshot also stores directory-level aggregate metrics, including total DiG
 - Produce a readable diff report in the terminal
 - Store structured change events in `outputs/changes`
 - Store scan history in `outputs/scan_history.json`
-- Send optional SMTP email notifications for real changes
+- Send optional Brevo Transactional Email API notifications for real changes
 - Show detected changes in a Streamlit feed
 
 ## Project Structure
@@ -84,49 +84,51 @@ If `CatalogEntry.status` is missing or unknown, the monitor may use the structur
 
 ## E-Mail Notifications
 
-E-Mail Notifications use SMTP and are optional. The monitor sends an email only when real DiGA changes are detected. It skips baseline imports, no-change scans, development cleanup events, and simulated events.
+E-Mail Notifications use the Brevo Transactional Email API over HTTPS and are optional. The monitor sends an email only when real DiGA changes are detected. It skips baseline imports, no-change scans, development cleanup events, and simulated events.
 
 Copy `.env.example` to `.env` locally and fill in your own values. Do not commit `.env`.
 
-Required local environment variables and GitHub Actions Secrets:
+Required local environment variables and GitHub Actions configuration:
 
 ```powershell
-$env:SMTP_HOST="smtp.example.com"
-$env:SMTP_PORT="587"
-$env:SMTP_USERNAME="your-smtp-username"
-$env:SMTP_PASSWORD="your-smtp-password"
-$env:EMAIL_FROM="diga-watch@example.com"
-$env:EMAIL_TO="recipient@example.com"
+$env:BREVO_API_KEY="your-brevo-api-key"
+$env:DIGA_MONITOR_EMAIL_FROM="updates@diga-tracker.de"
+$env:DIGA_MONITOR_EMAIL_FROM_NAME="DiGA Tracker"
+$env:DIGA_MONITOR_EMAIL_TO="recipient@example.com"
 $env:DASHBOARD_URL="http://localhost:8501"
 ```
 
 Use placeholders like these when setting up the values. Do not commit real credentials.
 
-| Secret | Value to enter | Example |
+| Setting | Value to enter | Example |
 | --- | --- | --- |
-| `SMTP_HOST` | SMTP server hostname from your mail provider | `smtp.example.com` |
-| `SMTP_PORT` | SMTP port, usually with STARTTLS | `587` |
-| `SMTP_USERNAME` | SMTP login username | `diga-monitor@example.com` |
-| `SMTP_PASSWORD` | SMTP password or app password | `replace-with-provider-app-password` |
-| `EMAIL_FROM` | Sender address shown in the email | `diga-monitor@example.com` |
-| `EMAIL_TO` | Recipient address for alerts | `alerts@example.com` |
+| `BREVO_API_KEY` | Brevo API v3 key for Transactional Email | `replace-with-brevo-api-key` |
+| `DIGA_MONITOR_EMAIL_FROM` | Verified Brevo sender address shown in the email | `updates@diga-tracker.de` |
+| `DIGA_MONITOR_EMAIL_FROM_NAME` | Sender name shown in the email | `DiGA Tracker` |
+| `DIGA_MONITOR_EMAIL_TO` | Recipient address(es) for alerts, comma-separated when needed | `alerts@example.com` |
 | `DASHBOARD_URL` | Public or local URL of the Streamlit dashboard | `https://your-dashboard.streamlit.app` |
 
 In GitHub, create each value under:
 
-`Settings > Secrets and variables > Actions > New repository secret`
+Store the Brevo API key under `Settings > Secrets and variables > Actions > Secrets`. Store sender, recipient, and dashboard configuration under `Settings > Secrets and variables > Actions > Variables`.
 
 Required secret names:
 
 ```text
-SMTP_HOST
-SMTP_PORT
-SMTP_USERNAME
-SMTP_PASSWORD
-EMAIL_FROM
-EMAIL_TO
-DASHBOARD_URL
+BREVO_API_KEY
 ```
+
+Required repository variables:
+
+```text
+DIGA_MONITOR_EMAIL_FROM
+DIGA_MONITOR_EMAIL_FROM_NAME
+DIGA_MONITOR_EMAIL_TO
+```
+
+`DASHBOARD_URL` is an optional repository variable used for the dashboard link in the message body; missing it does not block delivery.
+
+Email body creation, recipient resolution, and Brevo API delivery are separate. The current production variable contains one recipient; the resolver already accepts a comma-separated list so a future subscription source can be added without changing change detection. No public subscription or newsletter management is implemented.
 
 Run with email notification enabled:
 
@@ -147,7 +149,7 @@ py -m src.main notify-test
 py -m src.main notify-test --dry-run
 ```
 
-`notify-test` checks the SMTP configuration and sends a message with subject `DiGA Monitor Test Notification`. It exits with a non-zero status if required variables are missing or SMTP delivery fails.
+Without `--dry-run`, `notify-test` checks the Brevo API configuration and sends exactly one simulated price-change message with subject `[TEST / SIMULATION] DiGA Watch: 1 Änderung(en) erkannt`. The message is also marked `TEST / SIMULATION` in its body. It creates no snapshot, baseline, history, change-event, or R2 output and exits with a non-zero status if required variables are missing or API delivery fails. With `--dry-run`, it only renders the simulation locally and therefore does not require mail credentials.
 
 In GitHub Actions, open the `DiGA Monitor` workflow manually with `Run workflow` and set `notification_test` to `true`. This sends only the test email and skips the normal DiGA scan and commit step.
 
@@ -328,7 +330,19 @@ Preview the notification email for the Orthopy simulation:
 py -m src.main simulate-orthopy-change --notify --dry-run
 ```
 
-Simulation notifications are dry-run only. They print the email body but never send SMTP email.
+Simulation notifications are dry-run only. They print the email body but never send email.
+
+## Claude Code review authentication
+
+Automated Codex → Claude Code reviews use Anthropic API-key authentication only. Create one repository Actions secret named `ANTHROPIC_API_KEY`; do not store the key in repository files, variables, workflow inputs, command-line arguments, or logs. The Claude PR Review workflow validates the secret against the Anthropic API before starting the pinned Claude CLI and fails with a redacted error when the secret is missing or rejected. The workflow has read-only repository permission and writes findings only to its job log for Codex to triage.
+
+Local automated reviews use the same environment variable and the repository wrapper:
+
+```powershell
+python -m scripts.claude_review --pr-number 5
+```
+
+The wrapper removes OAuth and alternate-provider overrides from Claude's child environment and uses a temporary empty Claude configuration directory. Existing personal Claude settings remain untouched but cannot be used by this automated path. Claude receives read-only inspection tools only; Codex remains responsible for triaging findings and making any accepted changes.
 
 ## Change Feed Dashboard
 

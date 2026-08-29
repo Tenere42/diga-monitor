@@ -2,7 +2,7 @@
 
 ## Current objective
 
-Reduce Streamlit rerun latency without changing historical events, dashboard semantics, scanner behavior, or the Baseline/R2 architecture.
+Finalize the production Brevo sender configuration and its API-key-authenticated Claude review for PR #5.
 
 ## Production status
 
@@ -16,16 +16,17 @@ DiGA Monitor is in production. The scheduler runs at 06:00, 09:00, 12:00, 15:00,
 - A reproducible audit classified all 842 legacy snapshots into 35 unique monitored states and 807 redundant snapshots. The resulting retention plan contains 57 deduplicated legacy/event/checkpoint/boundary/baseline objects, all verified in R2.
 - All 842 legacy JSON snapshots have been removed from the current tree while retaining `data/snapshots/.gitkeep`; no R2 object or historical Git object was changed.
 - GitHub is the shared source of truth for code and project handoff state.
-- Codex is the primary implementer and orchestrator. For substantial changes it invokes the authenticated local Claude Code CLI as a read-only reviewer with restricted tools and at most three review rounds.
+- Codex is the primary implementer and orchestrator. For substantial changes it invokes Claude Code through `scripts.claude_review`, which requires `ANTHROPIC_API_KEY`, passes a redacted connectivity preflight, isolates Claude from personal OAuth state, and grants read-only tools for at most three review rounds.
 - Dashboard inputs use content-addressed Streamlit caching: file-content signatures invalidate cached change events and scan history automatically on deployment changes.
+- Notification sender and recipients are resolved independently from message creation and Brevo Transactional Email API transport. Production uses `DIGA_MONITOR_EMAIL_FROM`, `DIGA_MONITOR_EMAIL_FROM_NAME`, and `DIGA_MONITOR_EMAIL_TO`; no email address is hardcoded in Python.
 
 ## Last completed work
 
-Profiled the dashboard data path and added content-addressed caching for change events, real-event preparation, and scan history. Future change files use compact JSON and identity-only `snapshot_context`; existing historical files and their semantics remain unchanged.
+Replaced personal OAuth and GitHub federation dependencies in automated Claude reviews with the repository secret/environment variable `ANTHROPIC_API_KEY`, a fail-closed API connectivity check, and an isolated read-only local review wrapper. The API-key preflight and read-only review now pass in GitHub Actions; accepted notification and review-safety findings were applied.
 
 ## Current branch / PR
 
-- Branch: `main`
+- Branch: `codex/notification-recipient-config`
 - Legacy cleanup merge: `e5c96da083a818cc9009d1b6dab6acb3d83b665e`
 - No Git-history rewrite has occurred.
 
@@ -36,19 +37,20 @@ Profiled the dashboard data path and added content-addressed caching for change 
 - R2: 57/57 retention objects verified by stored and calculated SHA-256, decompression, JSON parse, `created_at`, and source comparison.
 - Restore integration: the R2 baseline object was restored to an isolated `data/baseline/current_snapshot.json` and loaded through the production loader with 79 entries.
 - Cleanup verification passed before merge, including dashboard, scan/baseline, simulation/CLI, manifest, and restore checks.
-- Claude CLI 2.1.223 is authenticated; non-interactive `claude -p`, restricted read-only tools, workspace reads, and Codex output capture have been verified.
+- Claude CLI 2.1.223 is installed. Automated authentication no longer uses its stored personal OAuth account; it requires `ANTHROPIC_API_KEY` and an isolated temporary config directory.
 - Dashboard benchmark fixture: 31 change files (17,763,374 bytes), 369 events, 252 real events, 21 groups, and 162 rendered adjustments. The measured end-to-end warm rerun path improved from about 452 ms uncached to about 99 ms cached in the local benchmark harness.
 - GitHub Actions run 33094466784: all 54 tests passed for the dashboard performance change.
+- GitHub Actions run 33252731862: all 74 tests passed for the API-key-only Claude review integration.
 
 ## Open risks/blockers
 
 - Historical Git objects remain available because no history rewrite was performed.
-- Claude CLI currently uses its verified absolute Windows path because its directory is not in `PATH`.
+- `ANTHROPIC_API_KEY` remains intentionally unavailable to the local Codex process; GitHub Actions now supplies it exclusively from the repository secret.
 
 ## Next recommended step
 
-Observe the deployed Streamlit rerun latency; retain the full historical rendering because the measured dataset contains only 21 groups and no rendering limit was justified.
+Merge PR #5 after its final full test run is green.
 
 ## Last updated
 
-2026-08-27
+2026-08-29
