@@ -333,7 +333,7 @@ Simulation notifications are dry-run only. They print the email body but never s
 
 ## Claude Code review authentication
 
-Automated Codex → Claude Code reviews use Anthropic API-key authentication only. Create one repository Actions secret named `ANTHROPIC_API_KEY`; do not store the key in repository files, variables, workflow inputs, command-line arguments, or logs. The Claude PR Review workflow validates the secret against the Anthropic API before starting the review and fails with a redacted error when the secret is missing or rejected.
+Automated Codex → Claude Code reviews use Anthropic API-key authentication only. Create one repository Actions secret named `ANTHROPIC_API_KEY`; do not store the key in repository files, variables, workflow inputs, command-line arguments, or logs. The Claude PR Review workflow validates the secret against the Anthropic API before starting the pinned Claude CLI and fails with a redacted error when the secret is missing or rejected. The workflow has read-only repository permission and writes findings only to its job log for Codex to triage.
 
 Local automated reviews use the same environment variable and the repository wrapper:
 
