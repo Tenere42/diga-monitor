@@ -25,6 +25,8 @@ class ClaudeReviewWorkflowTests(unittest.TestCase):
         self.assertLess(check_position, review_position)
         self.assertIn("run: python scripts/anthropic_auth_check.py", workflow)
         self.assertIn("--max-turns 10", workflow)
+        self.assertIn("Read,Grep,Glob", workflow)
+        self.assertIn("Bash(git diff:*)", workflow)
         self.assertNotIn("Bash(git commit", workflow)
         self.assertNotIn("Bash(git push", workflow)
 
