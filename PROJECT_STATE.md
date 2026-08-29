@@ -40,11 +40,12 @@ Replaced personal OAuth and GitHub federation dependencies in automated Claude r
 - Claude CLI 2.1.223 is installed. Automated authentication no longer uses its stored personal OAuth account; it requires `ANTHROPIC_API_KEY` and an isolated temporary config directory.
 - Dashboard benchmark fixture: 31 change files (17,763,374 bytes), 369 events, 252 real events, 21 groups, and 162 rendered adjustments. The measured end-to-end warm rerun path improved from about 452 ms uncached to about 99 ms cached in the local benchmark harness.
 - GitHub Actions run 33094466784: all 54 tests passed for the dashboard performance change.
+- GitHub Actions run 33252731862: all 74 tests passed for the API-key-only Claude review integration.
 
 ## Open risks/blockers
 
 - Historical Git objects remain available because no history rewrite was performed.
-- The `ANTHROPIC_API_KEY` environment variable is not currently available in the local Codex process. A live local connectivity check and PR #5 review must remain skipped until the GitHub repository secret exists.
+- `ANTHROPIC_API_KEY` is absent from both the local Codex process and the GitHub Claude Review workflow (confirmed by run 33252730181). The fail-closed preflight skipped the review without falling back to OAuth.
 
 ## Next recommended step
 
