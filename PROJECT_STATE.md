@@ -2,7 +2,7 @@
 
 ## Current objective
 
-Reduce Streamlit rerun latency without changing historical events, dashboard semantics, scanner behavior, or the Baseline/R2 architecture.
+Use the verified Brevo sender `DiGA Tracker <updates@diga-tracker.de>` for production change notifications without changing recipients, detection, or persistence.
 
 ## Production status
 
@@ -18,11 +18,11 @@ DiGA Monitor is in production. The scheduler runs at 06:00, 09:00, 12:00, 15:00,
 - GitHub is the shared source of truth for code and project handoff state.
 - Codex is the primary implementer and orchestrator. For substantial changes it invokes the authenticated local Claude Code CLI as a read-only reviewer with restricted tools and at most three review rounds.
 - Dashboard inputs use content-addressed Streamlit caching: file-content signatures invalidate cached change events and scan history automatically on deployment changes.
-- Notification recipients are resolved independently from message creation and Brevo Transactional Email API transport. Production uses the GitHub repository variable `DIGA_MONITOR_EMAIL_TO`; no recipient address is hardcoded in Python.
+- Notification sender and recipients are resolved independently from message creation and Brevo Transactional Email API transport. Production uses `DIGA_MONITOR_EMAIL_FROM`, `DIGA_MONITOR_EMAIL_FROM_NAME`, and `DIGA_MONITOR_EMAIL_TO`; no email address is hardcoded in Python.
 
 ## Last completed work
 
-Profiled and optimized the dashboard data path. Prepared the notification layer for externally configured single or multiple recipients while intentionally leaving newsletter subscriptions, signup, storage, and opt-in out of scope.
+Configured the verified Brevo sender through GitHub repository variables and retained the externally configured single or multiple recipient path. Newsletter subscriptions, signup, storage, and opt-in remain intentionally out of scope.
 
 ## Current branch / PR
 
@@ -48,8 +48,8 @@ Profiled and optimized the dashboard data path. Prepared the notification layer 
 
 ## Next recommended step
 
-Review and merge the notification-recipient configuration PR after tests and the read-only Claude review pass.
+Review and merge the notification configuration PR after tests and the read-only Claude review pass, then manually trigger the one-time TEST / SIMULATION email.
 
 ## Last updated
 
-2026-08-27
+2026-08-29

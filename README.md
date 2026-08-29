@@ -92,7 +92,8 @@ Required local environment variables and GitHub Actions configuration:
 
 ```powershell
 $env:BREVO_API_KEY="your-brevo-api-key"
-$env:EMAIL_FROM="diga-watch@example.com"
+$env:DIGA_MONITOR_EMAIL_FROM="updates@diga-tracker.de"
+$env:DIGA_MONITOR_EMAIL_FROM_NAME="DiGA Tracker"
 $env:DIGA_MONITOR_EMAIL_TO="recipient@example.com"
 $env:DASHBOARD_URL="http://localhost:8501"
 ```
@@ -102,7 +103,8 @@ Use placeholders like these when setting up the values. Do not commit real crede
 | Setting | Value to enter | Example |
 | --- | --- | --- |
 | `BREVO_API_KEY` | Brevo API v3 key for Transactional Email | `replace-with-brevo-api-key` |
-| `EMAIL_FROM` | Sender address shown in the email | `diga-monitor@example.com` |
+| `DIGA_MONITOR_EMAIL_FROM` | Verified Brevo sender address shown in the email | `updates@diga-tracker.de` |
+| `DIGA_MONITOR_EMAIL_FROM_NAME` | Sender name shown in the email | `DiGA Tracker` |
 | `DIGA_MONITOR_EMAIL_TO` | Recipient address(es) for alerts, comma-separated when needed | `alerts@example.com` |
 | `DASHBOARD_URL` | Public or local URL of the Streamlit dashboard | `https://your-dashboard.streamlit.app` |
 
@@ -119,7 +121,8 @@ BREVO_API_KEY
 Required repository variable:
 
 ```text
-EMAIL_FROM
+DIGA_MONITOR_EMAIL_FROM
+DIGA_MONITOR_EMAIL_FROM_NAME
 DIGA_MONITOR_EMAIL_TO
 DASHBOARD_URL
 ```
@@ -145,7 +148,7 @@ py -m src.main notify-test
 py -m src.main notify-test --dry-run
 ```
 
-`notify-test` checks the Brevo API configuration and sends exactly one simulated price-change message with subject `[TEST / SIMULATION] DiGA Watch: 1 Änderung(en) erkannt`. It exits with a non-zero status if required variables are missing or API delivery fails.
+`notify-test` checks the Brevo API configuration and sends exactly one simulated price-change message with subject `[TEST / SIMULATION] DiGA Watch: 1 Änderung(en) erkannt`. The message is also marked `TEST / SIMULATION` in its body. It creates no snapshot, baseline, history, change-event, or R2 output and exits with a non-zero status if required variables are missing or API delivery fails.
 
 In GitHub Actions, open the `DiGA Monitor` workflow manually with `Run workflow` and set `notification_test` to `true`. This sends only the test email and skips the normal DiGA scan and commit step.
 

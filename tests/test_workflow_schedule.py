@@ -40,6 +40,23 @@ class WorkflowScheduleTests(unittest.TestCase):
             self.assertIn(metadata, workflow)
         self.assertNotIn("data/snapshots outputs/changes", workflow)
 
+    def test_notification_sender_and_manual_test_are_safely_configured(self) -> None:
+        workflow = WORKFLOW.read_text(encoding="utf-8")
+        self.assertEqual(
+            workflow.count("DIGA_MONITOR_EMAIL_FROM: ${{ vars.DIGA_MONITOR_EMAIL_FROM }}"),
+            3,
+        )
+        self.assertEqual(
+            workflow.count("DIGA_MONITOR_EMAIL_FROM_NAME: ${{ vars.DIGA_MONITOR_EMAIL_FROM_NAME }}"),
+            3,
+        )
+        self.assertNotIn("EMAIL_FROM: ${{ vars.EMAIL_FROM }}", workflow)
+        self.assertIn("run: python -m src.main notify-test", workflow)
+        self.assertIn(
+            "github.event_name != 'workflow_dispatch' || inputs.notification_test != 'true'",
+            workflow,
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

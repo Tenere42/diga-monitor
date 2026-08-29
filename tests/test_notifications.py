@@ -21,7 +21,8 @@ from src.notifications import (
 
 ENVIRONMENT = {
     "BREVO_API_KEY": "test-api-key",
-    "EMAIL_FROM": "sender@example.com",
+    "DIGA_MONITOR_EMAIL_FROM": "updates@diga-tracker.de",
+    "DIGA_MONITOR_EMAIL_FROM_NAME": "DiGA Tracker",
     "DIGA_MONITOR_EMAIL_TO": "recipient@example.com",
     "DASHBOARD_URL": "https://example.com/dashboard",
 }
@@ -113,27 +114,40 @@ class NotificationTests(unittest.TestCase):
                 load_notification_settings()
         self.assertIn("DIGA_MONITOR_EMAIL_TO", raised.exception.missing)
 
+    def test_sender_settings_are_loaded_from_environment(self) -> None:
+        with mock.patch.dict(os.environ, ENVIRONMENT, clear=True):
+            settings = load_notification_settings()
+
+        self.assertEqual(settings.brevo.email_from, "updates@diga-tracker.de")
+        self.assertEqual(settings.brevo.email_from_name, "DiGA Tracker")
+        self.assertEqual(settings.recipients, ("recipient@example.com",))
+
     def test_message_creation_is_separate_and_idempotent(self) -> None:
         with mock.patch.dict(os.environ, {"GITHUB_RUN_ID": "12345"}, clear=True):
             first = build_email_message(
                 "sender@example.com",
+                "Sender Name",
                 ("first@example.com", "second@example.com"),
                 "Subject",
                 "Body",
             )
             second = build_email_message(
                 "sender@example.com",
+                "Sender Name",
                 ("first@example.com", "second@example.com"),
                 "Changed on retry",
                 "Changed on retry",
             )
         self.assertEqual(first["headers"], second["headers"])
+        self.assertEqual(first["sender"], {"email": "sender@example.com", "name": "Sender Name"})
         self.assertEqual(first["to"], [{"email": "first@example.com"}, {"email": "second@example.com"}])
         self.assertTrue(first["headers"]["idempotencyKey"])
 
     def test_successful_brevo_api_send(self) -> None:
-        config = BrevoConfig(api_key="secret-key", email_from="sender@example.com")
-        message = build_email_message("sender@example.com", ("recipient@example.com",), "Subject", "Body")
+        config = BrevoConfig(api_key="secret-key", email_from="sender@example.com", email_from_name="Sender Name")
+        message = build_email_message(
+            "sender@example.com", "Sender Name", ("recipient@example.com",), "Subject", "Body"
+        )
         with mock.patch(
             "src.notifications.urlopen",
             return_value=FakeResponse(201, {"messageId": "message-123"}),
@@ -147,7 +161,9 @@ class NotificationTests(unittest.TestCase):
         self.assertEqual(json.loads(request.data), message)
 
     def test_invalid_api_key_is_reported_without_secret(self) -> None:
-        config = BrevoConfig(api_key="never-log-this-key", email_from="sender@example.com")
+        config = BrevoConfig(
+            api_key="never-log-this-key", email_from="sender@example.com", email_from_name="Sender Name"
+        )
         response = FakeResponse(401, {"code": "unauthorized", "message": "Key never-log-this-key invalid"})
         with mock.patch("src.notifications.urlopen", return_value=response):
             with self.assertRaisesRegex(RuntimeError, r"HTTP 401") as raised:
@@ -197,6 +213,8 @@ class NotificationTests(unittest.TestCase):
 
         self.assertEqual(open_url.call_count, 1)
         payload = json.loads(open_url.call_args.args[0].data)
+        self.assertEqual(payload["sender"], {"email": "updates@diga-tracker.de", "name": "DiGA Tracker"})
+        self.assertEqual(payload["to"], [{"email": "recipient@example.com"}])
         self.assertEqual(payload["subject"], "DiGA Watch: 2 Änderung(en) erkannt")
         self.assertIn("First DiGA", payload["textContent"])
         self.assertIn("Second DiGA", payload["textContent"])

@@ -49,6 +49,7 @@ FIELD_LABELS = {
 class BrevoConfig:
     api_key: str
     email_from: str
+    email_from_name: str
 
 
 @dataclass(frozen=True)
@@ -117,6 +118,7 @@ def notify_changes(
         print_notification_status("Notification configuration complete.")
         message = build_email_message(
             settings.brevo.email_from,
+            settings.brevo.email_from_name,
             settings.recipients,
             subject,
             build_email_body(real_events, settings.dashboard_url, test_mode=test_mode),
@@ -184,7 +186,8 @@ def send_test_notification(dry_run: bool = False) -> bool:
 def required_notification_env_vars() -> list[str]:
     return [
         "BREVO_API_KEY",
-        "EMAIL_FROM",
+        "DIGA_MONITOR_EMAIL_FROM",
+        "DIGA_MONITOR_EMAIL_FROM_NAME",
         "DIGA_MONITOR_EMAIL_TO",
         "DASHBOARD_URL",
     ]
@@ -203,7 +206,8 @@ def load_notification_settings() -> NotificationSettings:
     return NotificationSettings(
         brevo=BrevoConfig(
             api_key=os.environ["BREVO_API_KEY"],
-            email_from=os.environ["EMAIL_FROM"],
+            email_from=os.environ["DIGA_MONITOR_EMAIL_FROM"],
+            email_from_name=os.environ["DIGA_MONITOR_EMAIL_FROM_NAME"],
         ),
         recipients=recipients,
         dashboard_url=os.environ["DASHBOARD_URL"],
@@ -229,12 +233,13 @@ def format_recipients(recipients: tuple[str, ...]) -> str:
 
 def build_email_message(
     email_from: str,
+    email_from_name: str,
     recipients: tuple[str, ...],
     subject: str,
     body: str,
 ) -> dict[str, Any]:
     message = {
-        "sender": {"email": email_from, "name": "DiGA Watch"},
+        "sender": {"email": email_from, "name": email_from_name},
         "to": [{"email": recipient} for recipient in recipients],
         "subject": subject,
         "textContent": body,

@@ -41,12 +41,13 @@ jobs:
       - name: Check notification configuration
         env:
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
-          EMAIL_FROM: ${{ vars.EMAIL_FROM }}
+          DIGA_MONITOR_EMAIL_FROM: ${{ vars.DIGA_MONITOR_EMAIL_FROM }}
+          DIGA_MONITOR_EMAIL_FROM_NAME: ${{ vars.DIGA_MONITOR_EMAIL_FROM_NAME }}
           DIGA_MONITOR_EMAIL_TO: ${{ vars.DIGA_MONITOR_EMAIL_TO }}
           DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
         run: |
           missing=()
-          for name in BREVO_API_KEY EMAIL_FROM DIGA_MONITOR_EMAIL_TO DASHBOARD_URL; do
+          for name in BREVO_API_KEY DIGA_MONITOR_EMAIL_FROM DIGA_MONITOR_EMAIL_FROM_NAME DIGA_MONITOR_EMAIL_TO DASHBOARD_URL; do
             if [ -z "${!name}" ]; then
               missing+=("$name")
             fi
@@ -61,7 +62,8 @@ jobs:
         if: ${{ github.event_name == 'workflow_dispatch' && inputs.notification_test == 'true' }}
         env:
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
-          EMAIL_FROM: ${{ vars.EMAIL_FROM }}
+          DIGA_MONITOR_EMAIL_FROM: ${{ vars.DIGA_MONITOR_EMAIL_FROM }}
+          DIGA_MONITOR_EMAIL_FROM_NAME: ${{ vars.DIGA_MONITOR_EMAIL_FROM_NAME }}
           DIGA_MONITOR_EMAIL_TO: ${{ vars.DIGA_MONITOR_EMAIL_TO }}
           DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
         run: python -m src.main notify-test
@@ -100,7 +102,8 @@ jobs:
         if: ${{ github.event_name != 'workflow_dispatch' || inputs.notification_test != 'true' }}
         env:
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
-          EMAIL_FROM: ${{ vars.EMAIL_FROM }}
+          DIGA_MONITOR_EMAIL_FROM: ${{ vars.DIGA_MONITOR_EMAIL_FROM }}
+          DIGA_MONITOR_EMAIL_FROM_NAME: ${{ vars.DIGA_MONITOR_EMAIL_FROM_NAME }}
           DIGA_MONITOR_EMAIL_TO: ${{ vars.DIGA_MONITOR_EMAIL_TO }}
           DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
           DIGA_API_TOKEN: ${{ secrets.DIGA_API_TOKEN }}
