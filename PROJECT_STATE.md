@@ -2,9 +2,10 @@
 
 ## Current objective
 
-No active implementation task is in flight. PR #5 (production Brevo sender
-and API-key-authenticated Claude review) has been merged. Awaiting the next
-ChatGPT decision/spec before starting new implementation work.
+No active implementation task is in flight. The DiGA Tracker rebrand and
+configurable dashboard URL have been merged. Awaiting the next ChatGPT
+decision/spec before starting new implementation work. The public domain
+`https://diga-tracker.de` is not yet live; see "Next recommended step".
 
 ## Production status
 
@@ -21,11 +22,34 @@ DiGA Monitor is in production. The scheduler runs at 06:00, 09:00, 12:00, 15:00,
 - Codex is the primary implementer and orchestrator. For substantial changes it invokes Claude Code through `scripts.claude_review`, which requires `ANTHROPIC_API_KEY`, passes a redacted connectivity preflight, isolates Claude from personal OAuth state, and grants read-only tools for at most three review rounds.
 - Dashboard inputs use content-addressed Streamlit caching: file-content signatures invalidate cached change events and scan history automatically on deployment changes.
 - Notification sender and recipients are resolved independently from message creation and Brevo Transactional Email API transport. Production uses `DIGA_MONITOR_EMAIL_FROM`, `DIGA_MONITOR_EMAIL_FROM_NAME`, and `DIGA_MONITOR_EMAIL_TO`; no email address is hardcoded in Python.
+- Public notification identity is unified on **DiGA Tracker** (email subject, greeting, signature, and the `notify-test` simulation; the `TEST / SIMULATION` marker itself is unchanged).
+- The dashboard link in notification emails is resolved by `resolve_dashboard_url()` in `src/notifications.py`: it prefers `DIGA_MONITOR_DASHBOARD_URL` (production target `https://diga-tracker.de`, naming-consistent with the other `DIGA_MONITOR_EMAIL_*` variables) and falls back to the legacy `DASHBOARD_URL` variable (e.g. the current Streamlit hosting URL) for as long as that stays set. No dashboard URL is hardcoded in source.
 
 ## Last completed work
 
-Merged PR #5 (`codex/notification-recipient-config` → `main`, commit
-`5c95bde68c54f01583ffb4fac62c0d8d2e06886f`): production Brevo sender
+Merged branch `codex/rebrand-diga-tracker` → `main` (merge commit on top of
+`9aafc42`): unified the public notification identity on "DiGA Tracker" and
+made the public dashboard URL configuration-driven via the new
+`DIGA_MONITOR_DASHBOARD_URL` variable (legacy `DASHBOARD_URL` kept as a
+documented technical fallback). Scope confined to branding strings, the
+dashboard-URL resolver, `.env.example`, the DiGA Monitor workflow, README,
+and tests; no R2, baseline, history, or change-detection logic was touched.
+
+**Claude Review — deliberately overridden:** the Claude PR Review run for
+this branch authenticated successfully via the API-key preflight and failed
+exclusively with "Credit balance is too low," producing no substantive
+findings to accept or reject. GitHub Actions unit tests for the branch
+(`R2 Connectivity Check`, `mode=tests`) passed per the user's direct report.
+The user explicitly decided to override the review-gate for this PR given
+(a) the auth preflight worked, (b) the only failure was insufficient
+Anthropic API credit, (c) tests were green, and (d) the change was scoped to
+branding/dashboard-URL configuration only. Codex/Claude performed an
+explicit self-review of the final diff instead (branding-string sweep,
+dashboard-URL fallback order, workflow/env-var wiring, test coverage) and
+found no issues before merging.
+
+Previously: merged PR #5 (`codex/notification-recipient-config` → `main`,
+commit `5c95bde68c54f01583ffb4fac62c0d8d2e06886f`): production Brevo sender
 configuration and API-key-authenticated Claude review. 77/77 tests passed
 before merge; the final Claude review rerun authenticated successfully and
 produced no new findings, but failed exclusively with "Credit balance is too
@@ -34,7 +58,7 @@ low" and was consciously overridden for the merge.
 ## Current branch / PR
 
 - Branch: `main` (no active implementation branch or open work-in-progress PR).
-- Local `main` was 468 commits behind `origin/main` at the start of this session; it has been fast-forwarded and now matches `origin/main` exactly.
+- `codex/rebrand-diga-tracker` is merged into `main` and is a candidate for deletion, pending confirmation.
 - Branches `codex/legacy-history-cleanup-prep`, `codex/notification-recipient-config`, `codex/remove-legacy-snapshots`, and `infra/claude-github-review` are fully merged (0 commits ahead of `main`) and are candidates for deletion, pending confirmation.
 - Open PR #2 ("Test Claude PR review end to end", branch `test/claude-review-e2e`) is explicitly marked "Do not merge" in its description — a harmless one-sentence `PROJECT_STATE.md` change used only to validate the Claude PR review workflow, GitHub OIDC, and Anthropic Workload Identity Federation end to end. It remains open and untouched.
 - Legacy cleanup merge: `e5c96da083a818cc9009d1b6dab6acb3d83b665e`
@@ -52,6 +76,7 @@ low" and was consciously overridden for the merge.
 - GitHub Actions run 33094466784: all 54 tests passed for the dashboard performance change.
 - GitHub Actions run 33252731862: all 74 tests passed for the API-key-only Claude review integration.
 - No Python interpreter is available in this session's local environment, so `tests/` could not be re-run locally this session; test status above reflects the last GitHub Actions runs prior to the PR #5 merge. Rely on GitHub Actions for the authoritative result on the next change.
+- `R2 Connectivity Check` (`mode=tests`, i.e. `python -m unittest discover -s tests`) on `codex/rebrand-diga-tracker` passed per the user's direct report before the rebrand merge; the exact run was not independently re-verified via the GitHub API in this session due to the unauthenticated rate limit (see below).
 
 ## Open risks/blockers
 
@@ -59,12 +84,25 @@ low" and was consciously overridden for the merge.
 - `ANTHROPIC_API_KEY` remains intentionally unavailable to the local Codex process; GitHub Actions now supplies it exclusively from the repository secret.
 - No Python interpreter is installed in this session's local environment; local test/lint execution is not currently possible here.
 - Several remote branches are fully merged into `main` and unused; deletion has not been requested or performed.
+- Neither Claude Code nor Codex in this environment has GitHub API/UI write credentials (no `gh` CLI, no `GITHUB_TOKEN`, no authenticated browser session); triggering `workflow_dispatch` runs and opening/merging pull requests currently requires the user to click the corresponding GitHub UI buttons. Direct `git push`/local merge remains available and was used to land this change.
+- `DIGA_MONITOR_DASHBOARD_URL` is not yet set as a GitHub Actions repository variable, so the dashboard link in production email still falls back to the legacy `DASHBOARD_URL` value until someone sets it (see "Next recommended step").
+- The domain `https://diga-tracker.de` is not yet configured at the registrar (GoDaddy) or pointed at Streamlit; no DNS or Streamlit custom-domain change has been made.
 
 ## Next recommended step
 
-No implementation work is pending. Await the next ChatGPT decision/spec, or a
-decision on closing PR #2 and pruning the fully-merged stale branches.
+No code implementation work is pending. Remaining steps are manual/external:
+
+1. In GitHub, set the repository variable `DIGA_MONITOR_DASHBOARD_URL` to
+   `https://diga-tracker.de` under `Settings > Secrets and variables >
+   Actions > Variables` (once the domain is live; until then the legacy
+   `DASHBOARD_URL` fallback keeps working).
+2. At the registrar (GoDaddy), point `diga-tracker.de` at the Streamlit
+   deployment (custom domain / CNAME per Streamlit's instructions), then
+   configure the custom domain in Streamlit Community Cloud. Not done yet;
+   explicitly out of scope for this change per the user's instruction.
+3. Otherwise, await the next ChatGPT decision/spec, or a decision on closing
+   PR #2 and pruning the fully-merged stale branches.
 
 ## Last updated
 
-2026-08-29
+2026-08-29 (DiGA Tracker rebrand merge)
