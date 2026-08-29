@@ -2,7 +2,9 @@
 
 ## Current objective
 
-Finalize the production Brevo sender configuration and its API-key-authenticated Claude review for PR #5.
+No active implementation task is in flight. PR #5 (production Brevo sender
+and API-key-authenticated Claude review) has been merged. Awaiting the next
+ChatGPT decision/spec before starting new implementation work.
 
 ## Production status
 
@@ -22,11 +24,19 @@ DiGA Monitor is in production. The scheduler runs at 06:00, 09:00, 12:00, 15:00,
 
 ## Last completed work
 
-Replaced personal OAuth and GitHub federation dependencies in automated Claude reviews with the repository secret/environment variable `ANTHROPIC_API_KEY`, a fail-closed API connectivity check, and an isolated read-only local review wrapper. The API-key preflight and read-only review now pass in GitHub Actions; accepted notification and review-safety findings were applied.
+Merged PR #5 (`codex/notification-recipient-config` → `main`, commit
+`5c95bde68c54f01583ffb4fac62c0d8d2e06886f`): production Brevo sender
+configuration and API-key-authenticated Claude review. 77/77 tests passed
+before merge; the final Claude review rerun authenticated successfully and
+produced no new findings, but failed exclusively with "Credit balance is too
+low" and was consciously overridden for the merge.
 
 ## Current branch / PR
 
-- Branch: `codex/notification-recipient-config`
+- Branch: `main` (no active implementation branch or open work-in-progress PR).
+- Local `main` was 468 commits behind `origin/main` at the start of this session; it has been fast-forwarded and now matches `origin/main` exactly.
+- Branches `codex/legacy-history-cleanup-prep`, `codex/notification-recipient-config`, `codex/remove-legacy-snapshots`, and `infra/claude-github-review` are fully merged (0 commits ahead of `main`) and are candidates for deletion, pending confirmation.
+- Open PR #2 ("Test Claude PR review end to end", branch `test/claude-review-e2e`) is explicitly marked "Do not merge" in its description — a harmless one-sentence `PROJECT_STATE.md` change used only to validate the Claude PR review workflow, GitHub OIDC, and Anthropic Workload Identity Federation end to end. It remains open and untouched.
 - Legacy cleanup merge: `e5c96da083a818cc9009d1b6dab6acb3d83b665e`
 - No Git-history rewrite has occurred.
 
@@ -41,15 +51,19 @@ Replaced personal OAuth and GitHub federation dependencies in automated Claude r
 - Dashboard benchmark fixture: 31 change files (17,763,374 bytes), 369 events, 252 real events, 21 groups, and 162 rendered adjustments. The measured end-to-end warm rerun path improved from about 452 ms uncached to about 99 ms cached in the local benchmark harness.
 - GitHub Actions run 33094466784: all 54 tests passed for the dashboard performance change.
 - GitHub Actions run 33252731862: all 74 tests passed for the API-key-only Claude review integration.
+- No Python interpreter is available in this session's local environment, so `tests/` could not be re-run locally this session; test status above reflects the last GitHub Actions runs prior to the PR #5 merge. Rely on GitHub Actions for the authoritative result on the next change.
 
 ## Open risks/blockers
 
 - Historical Git objects remain available because no history rewrite was performed.
 - `ANTHROPIC_API_KEY` remains intentionally unavailable to the local Codex process; GitHub Actions now supplies it exclusively from the repository secret.
+- No Python interpreter is installed in this session's local environment; local test/lint execution is not currently possible here.
+- Several remote branches are fully merged into `main` and unused; deletion has not been requested or performed.
 
 ## Next recommended step
 
-Merge PR #5 after its final full test run is green.
+No implementation work is pending. Await the next ChatGPT decision/spec, or a
+decision on closing PR #2 and pruning the fully-merged stale branches.
 
 ## Last updated
 
