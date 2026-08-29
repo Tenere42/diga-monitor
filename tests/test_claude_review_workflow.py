@@ -11,6 +11,7 @@ class ClaudeReviewWorkflowTests(unittest.TestCase):
         workflow = WORKFLOW.read_text(encoding="utf-8")
         self.assertIn("ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}", workflow)
         self.assertIn("anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}", workflow)
+        self.assertIn("github_token: ${{ secrets.GITHUB_TOKEN }}", workflow)
         self.assertNotIn("claude_code_oauth_token", workflow)
         self.assertNotIn("anthropic_federation_rule_id", workflow)
         self.assertNotIn("anthropic_organization_id", workflow)
