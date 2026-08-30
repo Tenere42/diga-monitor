@@ -483,7 +483,12 @@ Required environment variables (documented in `.env.example`):
 `BREVO_NEWSLETTER_LIST_ID`, `BREVO_DOI_TEMPLATE_ID`, `BREVO_DOI_REDIRECT_URL`,
 `NEWSLETTER_LEGAL_READY`, `DIGA_TRACKER_OPERATOR_ADDRESS`,
 `DIGA_TRACKER_OPERATOR_CONTACT_EMAIL`, `DIGA_TRACKER_OPERATOR_REGISTER_INFO`,
-`DIGA_TRACKER_DATA_RETENTION_PERIOD`. The Brevo API key must additionally
+`DIGA_TRACKER_DATA_RETENTION_PERIOD`, and
+`DIGA_TRACKER_INTERNATIONAL_TRANSFER_BASIS` (the actual legal basis/safeguard
+for any international transfer via Brevo/Railway — never a deferred
+placeholder). All five `DIGA_TRACKER_*` legal-fact variables are required by
+`src/legal_content.py`'s readiness gate; missing any one of them keeps the
+entire feature hidden. The Brevo API key must additionally
 have Contacts, Double Opt-in, and Email Campaign scope — verify this in the
 Brevo dashboard before going live; it has not been exercised against a real
 Brevo account as part of this change.

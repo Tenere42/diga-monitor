@@ -61,17 +61,24 @@ REQUIRED_SUBSCRIBER_ALERT_ENV_VARS = [
     "DIGA_MONITOR_EMAIL_FROM_NAME",
     "BREVO_NEWSLETTER_LIST_ID",
 ]
-# Reviewed trade-off (raised in adversarial review): this list shares
-# three variable *names* with src/notifications.py's admin-path config
-# (BREVO_API_KEY, DIGA_MONITOR_EMAIL_FROM, DIGA_MONITOR_EMAIL_FROM_NAME).
-# That is deliberate, not accidental coupling: both paths legitimately
-# send as the same verified "DiGA Tracker" Brevo sender identity, and
-# each module reads os.environ independently via its own function here
-# vs. src.notifications.load_notification_settings() -- there is no
-# shared mutable state or shared function whose bug could corrupt both
-# paths. The one setting that actually defines *who receives what* is
-# fully independent: BREVO_NEWSLETTER_LIST_ID (confirmed subscribers)
-# vs. DIGA_MONITOR_EMAIL_TO (admin recipients) never overlap.
+# Reviewed trade-off (raised in adversarial review, refined after a
+# second review pass): this list shares three variable *names* with
+# src/notifications.py's admin-path config (BREVO_API_KEY,
+# DIGA_MONITOR_EMAIL_FROM, DIGA_MONITOR_EMAIL_FROM_NAME). That is
+# deliberate, not accidental coupling: both paths legitimately send as
+# the same verified "DiGA Tracker" Brevo sender identity, and each
+# module reads os.environ independently via its own config-loading
+# function (load_subscriber_alert_settings() here vs.
+# src.notifications.load_notification_settings()) -- neither shares
+# mutable state or a config-loading function with the other. This
+# module does import four *pure, stateless* helpers from
+# src/notifications.py (format_brevo_error, is_notifiable_event,
+# print_notification_status, resolve_dashboard_url) -- none of them
+# touch audience/recipient selection, so a bug in one cannot corrupt
+# *who* receives which message. The setting that actually defines that
+# is fully independent: BREVO_NEWSLETTER_LIST_ID (confirmed
+# subscribers) vs. DIGA_MONITOR_EMAIL_TO (admin recipients) never
+# overlap.
 
 
 class MissingSubscriberAlertConfig(ValueError):
