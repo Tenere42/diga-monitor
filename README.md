@@ -470,28 +470,36 @@ no subscriber database of its own.
   double opt-in.
 - The signup form, the subscriber-alert dispatch's public visibility, and
   the Datenschutzerklärung (`?view=datenschutz`, reachable from the dashboard
-  footer) are all gated behind `NEWSLETTER_LEGAL_READY` and the required
-  `DIGA_TRACKER_OPERATOR_*` variables in `src/legal_content.py`. Until a
-  human sets all of them to confirmed, real values, the entire feature
-  (including the footer link) stays invisible on the public site — the app
-  never renders a placeholder for missing legal content.
+  footer) are all gated behind `NEWSLETTER_LEGAL_READY` and the two required
+  `DIGA_TRACKER_*` variables in `src/legal_content.py`. Until a human sets
+  all of them to confirmed, real values, the entire feature (including the
+  footer link) stays invisible on the public site — the app never renders a
+  placeholder for missing legal content.
+- Minimal disclosure: only facts with an identified legal basis are
+  required. A postal address and commercial register entry are
+  intentionally **not** collected or rendered — under the Swiss revDSG
+  baseline this project uses, a reachable contact email satisfies Art. 19
+  DSG's "Kontaktdaten" requirement for a privacy notice, and Impressum-style
+  identification duties (which typically do require a postal address) are
+  separately out of scope (see below). The international-transfer statement
+  is likewise not free-form human input; it is a fixed, sourced statement in
+  `src/legal_content.py` based on Brevo's and Railway's own published Data
+  Processing Agreements. See `docs/legal-notes.md` for the full reasoning
+  and sources.
 - See `docs/legal-notes.md` for the documented "no Impressum in this scope"
   assumption, the open GDPR/Art. 27 EU-representative legal check, and the
   cookie/tracking technical analysis.
 
 Required environment variables (documented in `.env.example`):
 `BREVO_NEWSLETTER_LIST_ID`, `BREVO_DOI_TEMPLATE_ID`, `BREVO_DOI_REDIRECT_URL`,
-`NEWSLETTER_LEGAL_READY`, `DIGA_TRACKER_OPERATOR_ADDRESS`,
-`DIGA_TRACKER_OPERATOR_CONTACT_EMAIL`, `DIGA_TRACKER_OPERATOR_REGISTER_INFO`,
-`DIGA_TRACKER_DATA_RETENTION_PERIOD`, and
-`DIGA_TRACKER_INTERNATIONAL_TRANSFER_BASIS` (the actual legal basis/safeguard
-for any international transfer via Brevo/Railway — never a deferred
-placeholder). All five `DIGA_TRACKER_*` legal-fact variables are required by
-`src/legal_content.py`'s readiness gate; missing any one of them keeps the
-entire feature hidden. The Brevo API key must additionally
-have Contacts, Double Opt-in, and Email Campaign scope — verify this in the
-Brevo dashboard before going live; it has not been exercised against a real
-Brevo account as part of this change.
+`NEWSLETTER_LEGAL_READY`, `DIGA_TRACKER_OPERATOR_CONTACT_EMAIL` (a reachable
+contact address, not necessarily a postal one), and
+`DIGA_TRACKER_DATA_RETENTION_PERIOD`. Both `DIGA_TRACKER_*` legal-fact
+variables are required by `src/legal_content.py`'s readiness gate; missing
+either one keeps the entire feature hidden. The Brevo API key must
+additionally have Contacts, Double Opt-in, and Email Campaign scope — verify
+this in the Brevo dashboard before going live; it has not been exercised
+against a real Brevo account as part of this change.
 
 ## Snapshot Storage and R2
 

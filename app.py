@@ -203,9 +203,7 @@ def render_datenschutz_page() -> None:
 
     st.subheader("Datenschutzerklärung")
     st.markdown(f"**Verantwortlicher:** {html.escape(profile.name)}")
-    st.markdown(f"**Anschrift:** {html.escape(profile.address)}")
     st.markdown(f"**Kontakt:** {html.escape(profile.contact_email)}")
-    st.markdown(f"**Registereintrag:** {html.escape(profile.register_info)}")
 
     st.markdown(
         """
@@ -242,7 +240,7 @@ Abonnentenstatus.
     )
     st.markdown(f"**Speicherdauer:** {html.escape(profile.data_retention_period)}")
     st.markdown("### Auslandsübermittlung")
-    st.markdown(html.escape(profile.international_transfer_basis))
+    st.markdown(html.escape(profile.international_transfer_statement))
     st.markdown(
         """
 ### Betroffenenrechte

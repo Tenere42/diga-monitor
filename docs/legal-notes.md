@@ -7,11 +7,86 @@ without confirmation from qualified legal counsel before or at the point
 they become materially relevant (see each section's trigger condition).
 
 Verantwortlicher (data controller) for the newsletter feature is confirmed
-by the project owner as **Leevsten GmbH**. No other operator fact (address,
-contact, register entry, retention period, international-transfer basis) is
-assumed, invented, or hardcoded anywhere in this codebase — see
+by the project owner as **Leevsten GmbH**. Only facts with an identified
+legal basis are collected from the project owner (see "Minimal disclosure"
+below); nothing is invented anywhere in this codebase — see
 `src/legal_content.py`, whose readiness gate keeps the entire feature
 invisible on the public site until those facts are supplied and confirmed.
+
+## Minimal disclosure: address and register info are not collected
+
+**Correction (this section supersedes an earlier version of the gate).** An
+earlier implementation pass required a postal address, a commercial
+register entry, and a free-form "international transfer basis" sentence
+from the project owner before the feature could go live. On review, this
+was flagged as inconsistent with the project's minimal-disclosure
+principle and the project owner's private residential address doubling as
+the Leevsten GmbH address. It has been corrected as follows.
+
+**Address.** Not collected, not required, not rendered. Under the Swiss
+revDSG baseline this project uses, Art. 19 DSG requires "Identität und
+Kontaktdaten des Verantwortlichen" (identity and contact details of the
+controller) in a privacy notice — this is satisfied by the confirmed name
+("Leevsten GmbH") plus a reachable contact **email** address; DSG's Art. 19
+minimum-content list does not itself require a postal address. A postal
+address is more characteristic of German Impressum duties (§5 TMG/DDG),
+which this project has separately decided are out of scope (see below) as
+a non-commercial Swiss information offering. This is a documented legal
+assumption, not a certified legal conclusion — re-examine with counsel if
+challenged, and always before the Impressum-scope trigger below is hit
+(since an Impressum, if ever required, would typically require an
+address).
+
+**Commercial register entry (Handelsregister-Nr./UID).** Not collected,
+not required, not rendered, for the same reason: it is an Impressum-style
+identification duty, not part of DSG Art. 19's privacy-notice minimum
+content.
+
+**International transfer.** Not collected as free-form human input.
+Requiring the project owner to invent or informally state "the basis" for
+international transfer risked producing an unverified, possibly inaccurate
+legal claim. Instead, `src/legal_content.py::INTERNATIONAL_TRANSFER_STATEMENT`
+is a fixed statement, sourced from Brevo's and Railway's own published Data
+Processing Agreements (checked 2026-08-30):
+
+- Railway Data Processing Addendum, https://railway.com/legal/dpa (fetched
+  directly; verbatim): Section 9.1 — "Company's primary processing
+  operations take place in the United States"; the DPA also permits hosting
+  in the Netherlands or Singapore depending on configuration (per
+  https://station.railway.com/questions/eu-safe-6c98d8a5 and Railway's own
+  compliance docs, https://docs.railway.com/enterprise/compliance). Section
+  9.2 — EU transfers use the EU Standard Contractual Clauses (or the EU-US
+  Data Privacy Framework); Section 9.4 — UK SCCs for UK transfers; Section
+  9.5 — the Switzerland-adapted SCCs for Swiss transfers. Railway's
+  subprocessor list is published at https://trust.railway.com/item/subprocessors.
+- Brevo Data Processing Agreement (Annex 2),
+  https://corp-backend.brevo.com/wp-content/uploads/2024/08/BREVO-Annex-2-DPA-150524.pdf,
+  and Brevo's GDPR help article,
+  https://help.brevo.com/hc/en-us/articles/360001258744-How-does-Brevo-comply-with-the-GDPR
+  — indexed/summarized content (the primary PDF could not be extracted as
+  plain text with the tools available for this pass, so this reflects a
+  search-engine-indexed summary of the document's own stated content, not a
+  directly fetched verbatim quote): personal data may be transferred to the
+  United States and India, countries without a European Commission adequacy
+  decision; Brevo states it applies the Standard Contractual Clauses and
+  additional measures for such transfers.
+
+**Verification caveat, explicitly stated in the public statement itself:**
+this reflects the vendors' publicly documented *standard* terms, not a
+review of Leevsten GmbH's actual signed contracts with them (which this
+codebase has no access to). If Leevsten GmbH ever negotiates non-standard
+terms with either vendor, or either vendor's public documentation changes,
+this statement must be re-verified and updated in code — not silently
+re-confirmed by a human typing a new sentence into an environment variable,
+which is exactly the pattern this correction removes.
+
+**What remains required from the project owner:** only
+`DIGA_TRACKER_OPERATOR_CONTACT_EMAIL` (a reachable contact for
+privacy/data-subject-rights requests) and `DIGA_TRACKER_DATA_RETENTION_PERIOD`
+(an operational fact only Leevsten GmbH can state — e.g. "until consent is
+withdrawn"). Both still fail-closed: `NEWSLETTER_LEGAL_READY` cannot become
+effectively "true" while either is unset or visually blank (see
+`_has_visible_content()` in `src/legal_content.py`).
 
 ## Assumption: no Impressum in the current scope
 
