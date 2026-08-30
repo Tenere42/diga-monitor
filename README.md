@@ -95,7 +95,7 @@ $env:BREVO_API_KEY="your-brevo-api-key"
 $env:DIGA_MONITOR_EMAIL_FROM="updates@diga-tracker.de"
 $env:DIGA_MONITOR_EMAIL_FROM_NAME="DiGA Tracker"
 $env:DIGA_MONITOR_EMAIL_TO="recipient@example.com"
-$env:DIGA_MONITOR_DASHBOARD_URL="https://diga-tracker.de"
+$env:DIGA_MONITOR_DASHBOARD_URL="https://www.diga-tracker.de"
 ```
 
 Use placeholders like these when setting up the values. Do not commit real credentials.
@@ -106,7 +106,7 @@ Use placeholders like these when setting up the values. Do not commit real crede
 | `DIGA_MONITOR_EMAIL_FROM` | Verified Brevo sender address shown in the email | `updates@diga-tracker.de` |
 | `DIGA_MONITOR_EMAIL_FROM_NAME` | Sender name shown in the email | `DiGA Tracker` |
 | `DIGA_MONITOR_EMAIL_TO` | Recipient address(es) for alerts, comma-separated when needed | `alerts@example.com` |
-| `DIGA_MONITOR_DASHBOARD_URL` | Preferred public dashboard URL shown in the email | `https://diga-tracker.de` |
+| `DIGA_MONITOR_DASHBOARD_URL` | Preferred public dashboard URL shown in the email | `https://www.diga-tracker.de` |
 | `DASHBOARD_URL` | Legacy/technical fallback, used only if `DIGA_MONITOR_DASHBOARD_URL` is not set (e.g. the current Streamlit hosting URL) | `https://your-dashboard.streamlit.app` |
 
 In GitHub, create each value under:
@@ -127,7 +127,7 @@ DIGA_MONITOR_EMAIL_FROM_NAME
 DIGA_MONITOR_EMAIL_TO
 ```
 
-`DIGA_MONITOR_DASHBOARD_URL` is the preferred optional repository variable for the dashboard link in the message body; production target is `https://diga-tracker.de`. `DASHBOARD_URL` remains supported as a documented technical fallback (e.g. the current Streamlit hosting URL) and is only used when `DIGA_MONITOR_DASHBOARD_URL` is not set. No dashboard URL is hardcoded in code; missing both does not block delivery.
+`DIGA_MONITOR_DASHBOARD_URL` is the preferred optional repository variable for the dashboard link in the message body; production value is `https://www.diga-tracker.de` (the verified, reachable production domain; the bare `diga-tracker.de` redirects to it). `DASHBOARD_URL` remains supported as a documented technical fallback and is only used when `DIGA_MONITOR_DASHBOARD_URL` is not set. No dashboard URL is hardcoded in code; missing both does not block delivery.
 
 Email body creation, recipient resolution, and Brevo API delivery are separate. The current production variable contains one recipient; the resolver already accepts a comma-separated list so a future subscription source can be added without changing change detection. No public subscription or newsletter management is implemented.
 
@@ -378,7 +378,7 @@ Simulated events are hidden by default. Enable `Simulationen anzeigen` to test t
 
 ### Deployment (Railway)
 
-The public dashboard is deployed on Railway from this repository (`main` branch), building with Railway's default Railpack builder. Two repo-based config files remove the need to maintain any settings manually in the Railway dashboard:
+**Railway is the production dashboard hosting.** The public dashboard is live at **`https://www.diga-tracker.de`** (the bare `diga-tracker.de` redirects to it); the domain is verified and reachable. Streamlit Community Cloud is no longer the production host. The dashboard is deployed on Railway from this repository (`main` branch), building with Railway's default Railpack builder. Two repo-based config files remove the need to maintain any settings manually in the Railway dashboard:
 
 - [`.python-version`](../.python-version) pins the runtime to `3.11`, matching the Python version used by the `DiGA Monitor` GitHub Actions workflow.
 - [`railway.json`](../railway.json) sets `deploy.startCommand` to `streamlit run app.py --server.address=0.0.0.0 --server.port=$PORT --server.headless=true`, so Railway starts the app on the `$PORT` it assigns without a manually configured Start Command. `--server.headless=true` prevents Streamlit from waiting on its first-run email prompt in a non-interactive container.

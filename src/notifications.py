@@ -16,8 +16,9 @@ DEFAULT_NOTIFICATION_LOG_PATH = Path("outputs/notification_log.json")
 BREVO_EMAIL_API_URL = "https://api.brevo.com/v3/smtp/email"
 
 # Preferred dashboard URL variable, matching the DIGA_MONITOR_EMAIL_* naming
-# convention. DASHBOARD_URL is kept as a legacy/technical fallback (e.g. the
-# current Streamlit hosting URL) for as long as it remains configured.
+# convention. Production value: https://www.diga-tracker.de (Railway-hosted;
+# Streamlit Community Cloud is no longer production). DASHBOARD_URL is kept
+# as a legacy/technical fallback for as long as it remains configured.
 DASHBOARD_URL_ENV_VAR = "DIGA_MONITOR_DASHBOARD_URL"
 LEGACY_DASHBOARD_URL_ENV_VAR = "DASHBOARD_URL"
 
@@ -67,11 +68,11 @@ class NotificationSettings:
 def resolve_dashboard_url() -> str:
     """Return the configured public dashboard URL.
 
-    Prefers ``DIGA_MONITOR_DASHBOARD_URL`` (production target:
-    https://diga-tracker.de); falls back to the legacy ``DASHBOARD_URL``
-    variable, which continues to work as a documented technical fallback
-    (e.g. the current Streamlit hosting URL) for as long as it stays set.
-    No URL is hardcoded here; an unset environment yields an empty string.
+    Prefers ``DIGA_MONITOR_DASHBOARD_URL`` (production value:
+    https://www.diga-tracker.de, Railway-hosted); falls back to the legacy
+    ``DASHBOARD_URL`` variable, which continues to work as a documented
+    technical fallback for as long as it stays set. No URL is hardcoded
+    here; an unset environment yields an empty string.
     """
     return os.getenv(DASHBOARD_URL_ENV_VAR) or os.getenv(LEGACY_DASHBOARD_URL_ENV_VAR, "")
 

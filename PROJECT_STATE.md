@@ -2,10 +2,12 @@
 
 ## Current objective
 
-No active implementation task is in flight. The DiGA Tracker rebrand and
-configurable dashboard URL have been merged. Awaiting the next ChatGPT
-decision/spec before starting new implementation work. The public domain
-`https://diga-tracker.de` is not yet live; see "Next recommended step".
+No active implementation task is in flight. The DiGA Tracker rebrand, the
+Railway migration of the public dashboard, and the production URL switch to
+`https://www.diga-tracker.de` are complete in code/docs. One manual step
+remains: setting the `DIGA_MONITOR_DASHBOARD_URL` GitHub repository variable
+(see "Next recommended step"). Awaiting the next ChatGPT decision/spec
+before starting new implementation work.
 
 ## Production status
 
@@ -23,11 +25,36 @@ DiGA Monitor is in production. The scheduler runs at 06:00, 09:00, 12:00, 15:00,
 - Dashboard inputs use content-addressed Streamlit caching: file-content signatures invalidate cached change events and scan history automatically on deployment changes.
 - Notification sender and recipients are resolved independently from message creation and Brevo Transactional Email API transport. Production uses `DIGA_MONITOR_EMAIL_FROM`, `DIGA_MONITOR_EMAIL_FROM_NAME`, and `DIGA_MONITOR_EMAIL_TO`; no email address is hardcoded in Python.
 - Public notification identity is unified on **DiGA Tracker** (email subject, greeting, signature, and the `notify-test` simulation; the `TEST / SIMULATION` marker itself is unchanged).
-- The dashboard link in notification emails is resolved by `resolve_dashboard_url()` in `src/notifications.py`: it prefers `DIGA_MONITOR_DASHBOARD_URL` (production target `https://diga-tracker.de`, naming-consistent with the other `DIGA_MONITOR_EMAIL_*` variables) and falls back to the legacy `DASHBOARD_URL` variable (e.g. the current Streamlit hosting URL) for as long as that stays set. No dashboard URL is hardcoded in source.
+- The dashboard link in notification emails is resolved by `resolve_dashboard_url()` in `src/notifications.py`: it prefers `DIGA_MONITOR_DASHBOARD_URL` (naming-consistent with the other `DIGA_MONITOR_EMAIL_*` variables) and falls back to the legacy `DASHBOARD_URL` variable for as long as that stays set — code-verified precedence, unchanged this session. No dashboard URL is hardcoded in source.
+- **Railway is now the production dashboard hosting.** The public dashboard (`app.py`, Streamlit) is deployed on Railway from this repository's `main` branch (Railpack build; repo-based `railway.json` sets `deploy.startCommand`, `.python-version` pins the Python runtime — see commit `1370a7f`). **Streamlit Community Cloud is no longer the production host.**
+- **Production public URL: `https://www.diga-tracker.de`.** The domain is verified and reachable; `diga-tracker.de` (bare/apex) redirects to `https://www.diga-tracker.de`. DNS itself is managed outside this repository (GoDaddy + Railway custom domain) and was not touched here.
+- The `DIGA_MONITOR_DASHBOARD_URL` GitHub repository variable should be set to `https://www.diga-tracker.de` so production notification emails link to the new domain; as of this update it has not yet been set (Claude Code/Codex has no GitHub write credentials in this environment — see "Next recommended step"), so email links still resolve to whatever the legacy `DASHBOARD_URL` variable currently holds.
 
 ## Last completed work
 
-Merged branch `codex/rebrand-diga-tracker` → `main` (merge commit on top of
+Documented the production URL switch to `https://www.diga-tracker.de`
+(Railway-hosted dashboard, verified and reachable; `diga-tracker.de`
+redirects to the `www` host; Streamlit Community Cloud is no longer
+production). Code precedence for `DIGA_MONITOR_DASHBOARD_URL` over the
+legacy `DASHBOARD_URL` was re-verified and needed no change. Setting the
+`DIGA_MONITOR_DASHBOARD_URL` GitHub repository variable itself remains a
+manual step (see "Next recommended step") — no GitHub write credentials
+are available in this environment. No R2, baseline, history, or
+change-detection logic was touched; no test email was sent; no DNS change
+was made.
+
+Before that: prepared the repository for the Railway migration (commit
+`1370a7f` on `main`, committed directly per the small/low-risk rule since
+it only added deploy config/docs/tests and changed no monitoring, R2, or
+email logic): added `railway.json` (`deploy.startCommand`:
+`streamlit run app.py --server.address=0.0.0.0 --server.port=$PORT
+--server.headless=true`) so Railway needs no manually maintained Start
+Command, added `.python-version` (`3.11`) for a deterministic Railpack
+build, added `tests/test_railway_config.py`, and documented the setup in
+README.md. `requirements.txt` was already complete for `app.py` (its only
+third-party import is `streamlit`).
+
+Before that: merged branch `codex/rebrand-diga-tracker` → `main` (merge commit on top of
 `9aafc42`): unified the public notification identity on "DiGA Tracker" and
 made the public dashboard URL configuration-driven via the new
 `DIGA_MONITOR_DASHBOARD_URL` variable (legacy `DASHBOARD_URL` kept as a
@@ -84,25 +111,23 @@ low" and was consciously overridden for the merge.
 - `ANTHROPIC_API_KEY` remains intentionally unavailable to the local Codex process; GitHub Actions now supplies it exclusively from the repository secret.
 - No Python interpreter is installed in this session's local environment; local test/lint execution is not currently possible here.
 - Several remote branches are fully merged into `main` and unused; deletion has not been requested or performed.
-- Neither Claude Code nor Codex in this environment has GitHub API/UI write credentials (no `gh` CLI, no `GITHUB_TOKEN`, no authenticated browser session); triggering `workflow_dispatch` runs and opening/merging pull requests currently requires the user to click the corresponding GitHub UI buttons. Direct `git push`/local merge remains available and was used to land this change.
-- `DIGA_MONITOR_DASHBOARD_URL` is not yet set as a GitHub Actions repository variable, so the dashboard link in production email still falls back to the legacy `DASHBOARD_URL` value until someone sets it (see "Next recommended step").
-- The domain `https://diga-tracker.de` is not yet configured at the registrar (GoDaddy) or pointed at Streamlit; no DNS or Streamlit custom-domain change has been made.
+- Neither Claude Code nor Codex in this environment has GitHub API/UI write credentials (no `gh` CLI, no `GITHUB_TOKEN`, no authenticated browser session, no connected "Claude in Chrome"); setting repository variables, triggering `workflow_dispatch` runs, and opening/merging pull requests currently requires the user to act in the GitHub UI. Direct `git push`/local merge remains available and was used to land code/doc changes.
+- `DIGA_MONITOR_DASHBOARD_URL` is not yet set as a GitHub Actions repository variable even though the production domain is now live; production notification emails still link to whatever the legacy `DASHBOARD_URL` variable currently holds until someone sets it (see "Next recommended step"). This is a configuration gap only — code precedence is already correct.
 
 ## Next recommended step
 
-No code implementation work is pending. Remaining steps are manual/external:
+No code implementation work is pending. One manual GitHub step remains:
 
-1. In GitHub, set the repository variable `DIGA_MONITOR_DASHBOARD_URL` to
-   `https://diga-tracker.de` under `Settings > Secrets and variables >
-   Actions > Variables` (once the domain is live; until then the legacy
-   `DASHBOARD_URL` fallback keeps working).
-2. At the registrar (GoDaddy), point `diga-tracker.de` at the Streamlit
-   deployment (custom domain / CNAME per Streamlit's instructions), then
-   configure the custom domain in Streamlit Community Cloud. Not done yet;
-   explicitly out of scope for this change per the user's instruction.
-3. Otherwise, await the next ChatGPT decision/spec, or a decision on closing
-   PR #2 and pruning the fully-merged stale branches.
+1. In the `Tenere42/diga-monitor` repository, go to
+   `Settings > Secrets and variables > Actions > Variables` and set (or
+   update) the repository variable `DIGA_MONITOR_DASHBOARD_URL` to
+   `https://www.diga-tracker.de`. This is the only step needed to switch
+   production notification emails to the new domain; everything else
+   (Railway hosting, DNS, redirect, code precedence) is already in place.
+2. Otherwise, await the next ChatGPT decision/spec, or a decision on closing
+   PR #2 and pruning the fully-merged stale branches (including
+   `codex/rebrand-diga-tracker`, already merged).
 
 ## Last updated
 
-2026-08-29 (DiGA Tracker rebrand merge)
+2026-08-29 (production URL switch to https://www.diga-tracker.de on Railway)
