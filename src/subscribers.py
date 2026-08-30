@@ -140,13 +140,24 @@ def request_double_optin(email: str) -> SignupResult:
     try:
         _post_brevo(config.api_key, payload)
     except HTTPError as exc:
-        body = exc.read()
-        if _is_duplicate_signup_error(exc.code, body):
-            return SignupResult(
-                SignupOutcome.ALREADY_PENDING_OR_CONFIRMED,
-                "Diese E-Mail-Adresse ist bereits angemeldet. Falls du noch keine "
-                "Bestaetigungs-E-Mail erhalten hast, pruefe bitte deinen Spam-Ordner.",
-            )
+        # exc.read() and the duplicate-error classification below are
+        # wrapped in their own try/except: a broken/reset connection
+        # while streaming Brevo's error response body can make
+        # exc.read() itself raise, and an exception raised inside this
+        # except-block is a *sibling* of -- not caught by -- the
+        # `except Exception:` clause further down. Without this inner
+        # guard, that would break request_double_optin's "never raises"
+        # contract and surface a raw traceback to the visitor.
+        try:
+            body = exc.read()
+            if _is_duplicate_signup_error(exc.code, body):
+                return SignupResult(
+                    SignupOutcome.ALREADY_PENDING_OR_CONFIRMED,
+                    "Diese E-Mail-Adresse ist bereits angemeldet. Falls du noch keine "
+                    "Bestaetigungs-E-Mail erhalten hast, pruefe bitte deinen Spam-Ordner.",
+                )
+        except Exception:
+            pass
         return SignupResult(
             SignupOutcome.ERROR,
             "Die Anmeldung konnte nicht verarbeitet werden. Bitte versuche es spaeter erneut.",

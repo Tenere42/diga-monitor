@@ -133,6 +133,23 @@ class RequestDoubleOptinTests(unittest.TestCase):
             result = request_double_optin("visitor@example.com")
         self.assertEqual(result.outcome, SignupOutcome.ERROR)
 
+    def test_broken_error_response_body_never_propagates(self) -> None:
+        # Regression for a real gap found in adversarial review: a
+        # broken/reset connection while streaming Brevo's HTTP error
+        # response body makes HTTPError.read() itself raise. That raise
+        # happens inside the `except HTTPError` handler and is a sibling
+        # of -- not caught by -- the module's `except Exception` clause,
+        # so without an inner guard it would violate the "never raises"
+        # contract and surface a raw exception to the visitor.
+        error = http_error(400, {"code": "duplicate_parameter", "message": "irrelevant"})
+        error.read = mock.Mock(side_effect=ConnectionResetError("connection reset"))
+        with (
+            mock.patch.dict(os.environ, ENVIRONMENT, clear=True),
+            mock.patch("src.subscribers.urlopen", side_effect=error),
+        ):
+            result = request_double_optin("visitor@example.com")  # must not raise
+        self.assertEqual(result.outcome, SignupOutcome.ERROR)
+
     def test_unexpected_exception_never_propagates(self) -> None:
         with (
             mock.patch.dict(os.environ, ENVIRONMENT, clear=True),

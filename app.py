@@ -241,14 +241,10 @@ Abonnentenstatus.
 """
     )
     st.markdown(f"**Speicherdauer:** {html.escape(profile.data_retention_period)}")
+    st.markdown("### Auslandsübermittlung")
+    st.markdown(html.escape(profile.international_transfer_basis))
     st.markdown(
         """
-### Auslandsübermittlung
-Die Datenverarbeitung durch Brevo und Railway kann Datenübermittlungen ins
-Ausland einschliessen. Details zu den jeweils eingesetzten Serverstandorten
-und Übermittlungsgarantien werden hier ergänzt, sobald sie abschliessend
-geprüft sind.
-
 ### Betroffenenrechte
 Dir stehen je nach anwendbarem Recht (revDSG und/oder DSGVO) insbesondere
 das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der

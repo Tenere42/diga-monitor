@@ -61,6 +61,17 @@ REQUIRED_SUBSCRIBER_ALERT_ENV_VARS = [
     "DIGA_MONITOR_EMAIL_FROM_NAME",
     "BREVO_NEWSLETTER_LIST_ID",
 ]
+# Reviewed trade-off (raised in adversarial review): this list shares
+# three variable *names* with src/notifications.py's admin-path config
+# (BREVO_API_KEY, DIGA_MONITOR_EMAIL_FROM, DIGA_MONITOR_EMAIL_FROM_NAME).
+# That is deliberate, not accidental coupling: both paths legitimately
+# send as the same verified "DiGA Tracker" Brevo sender identity, and
+# each module reads os.environ independently via its own function here
+# vs. src.notifications.load_notification_settings() -- there is no
+# shared mutable state or shared function whose bug could corrupt both
+# paths. The one setting that actually defines *who receives what* is
+# fully independent: BREVO_NEWSLETTER_LIST_ID (confirmed subscribers)
+# vs. DIGA_MONITOR_EMAIL_TO (admin recipients) never overlap.
 
 
 class MissingSubscriberAlertConfig(ValueError):
@@ -91,6 +102,13 @@ def dispatch_subscriber_alerts(
             events, dry_run=dry_run, include_simulated=include_simulated
         )
     except Exception as exc:  # noqa: BLE001 - deliberate fault-isolation boundary
+        # Deliberately `Exception`, not `BaseException`: KeyboardInterrupt/
+        # SystemExit must keep propagating so Ctrl+C and sys.exit() still
+        # work. This does not weaken the fault-isolation guarantee for the
+        # scan pipeline -- by the time this function is called, change
+        # detection, baseline finalization, R2 archival, and the admin
+        # notification have already run and persisted (see call order in
+        # src/main.py); nothing here can un-do or corrupt that.
         # The fallback logging/reporting below must itself never raise --
         # e.g. a disk-full or read-only-filesystem error while writing the
         # log would otherwise escape this function a second time. This

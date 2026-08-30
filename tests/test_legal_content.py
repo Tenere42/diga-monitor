@@ -19,6 +19,7 @@ READY_ENV = {
     "DIGA_TRACKER_OPERATOR_CONTACT_EMAIL": "datenschutz@example.com",
     "DIGA_TRACKER_OPERATOR_REGISTER_INFO": "CHE-000.000.000, Handelsregister ZH",
     "DIGA_TRACKER_DATA_RETENTION_PERIOD": "Bis zum Widerruf der Einwilligung",
+    "DIGA_TRACKER_INTERNATIONAL_TRANSFER_BASIS": "Keine Datenuebermittlung ausserhalb der Schweiz/EU.",
 }
 
 
@@ -55,6 +56,33 @@ class LegalContentReadinessTests(unittest.TestCase):
             self.assertEqual(profile.contact_email, READY_ENV["DIGA_TRACKER_OPERATOR_CONTACT_EMAIL"])
             self.assertEqual(profile.register_info, READY_ENV["DIGA_TRACKER_OPERATOR_REGISTER_INFO"])
             self.assertEqual(profile.data_retention_period, READY_ENV["DIGA_TRACKER_DATA_RETENTION_PERIOD"])
+            self.assertEqual(
+                profile.international_transfer_basis,
+                READY_ENV["DIGA_TRACKER_INTERNATIONAL_TRANSFER_BASIS"],
+            )
+
+    def test_zero_width_space_only_value_is_treated_as_missing(self) -> None:
+        # Regression for a real gap found in adversarial review:
+        # str.strip() does not remove U+200B ZERO WIDTH SPACE, so a
+        # required field set to only invisible characters must not pass
+        # the readiness check -- it would render as a blank operator
+        # fact on the public Datenschutzerklärung page otherwise.
+        env = dict(READY_ENV)
+        env["DIGA_TRACKER_OPERATOR_ADDRESS"] = "​" * 3  # ZERO WIDTH SPACE only, no visible content
+        with mock.patch.dict(os.environ, env, clear=True):
+            self.assertFalse(is_legal_content_ready())
+            self.assertIn("DIGA_TRACKER_OPERATOR_ADDRESS", missing_operator_fields())
+            self.assertIsNone(load_operator_profile())
+
+    def test_zero_width_space_mixed_with_real_content_still_counts_as_present(self) -> None:
+        # A field containing invisible characters *alongside* real
+        # content is a harmless cosmetic issue, not a blank field -- it
+        # must not be blocked (that would make the gate too strict to
+        # ever pass with ordinary copy-pasted text).
+        env = dict(READY_ENV)
+        env["DIGA_TRACKER_OPERATOR_ADDRESS"] = "Musterstrasse 1​, 8000 Zuerich"
+        with mock.patch.dict(os.environ, env, clear=True):
+            self.assertTrue(is_legal_content_ready())
 
     def test_operator_name_is_leevsten_gmbh_and_not_environment_driven(self) -> None:
         # The Verantwortlicher name is a confirmed constant, not read from
