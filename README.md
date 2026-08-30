@@ -448,6 +448,46 @@ Accept: application/vnd.github+json
 
 Do not store the token in this repository. Configure it only in the external scheduler's protected secret or header settings.
 
+## Newsletter (DiGA Tracker Alerts)
+
+Visitors can subscribe to DiGA Tracker Alerts (an email whenever the monitor
+detects a relevant DiGA-directory change) directly from the dashboard. Brevo
+is the sole system of record for subscriber status; this repository stores
+no subscriber database of its own.
+
+- `src/subscribers.py` triggers Brevo's native double opt-in
+  (`/v3/contacts/doubleOptinConfirmation`) when a visitor submits the signup
+  form in `app.py`. A subscription only becomes active once the visitor
+  confirms it via the link Brevo emails them.
+- `src/subscriber_alerts.py` dispatches a Brevo email campaign to the
+  confirmed subscriber list whenever `src/main.py`'s scan pipeline detects a
+  real change — strictly *in addition to*, never instead of, the existing
+  admin notification described above. This dispatch is fault-isolated: any
+  failure here is caught and logged, and never affects change detection,
+  baseline updates, R2 archival, or the admin notification.
+- Every DiGA Tracker Alert includes Brevo's native unsubscribe mechanism; no
+  login is required to unsubscribe, and resubscribing requires a fresh
+  double opt-in.
+- The signup form, the subscriber-alert dispatch's public visibility, and
+  the Datenschutzerklärung (`?view=datenschutz`, reachable from the dashboard
+  footer) are all gated behind `NEWSLETTER_LEGAL_READY` and the required
+  `DIGA_TRACKER_OPERATOR_*` variables in `src/legal_content.py`. Until a
+  human sets all of them to confirmed, real values, the entire feature
+  (including the footer link) stays invisible on the public site — the app
+  never renders a placeholder for missing legal content.
+- See `docs/legal-notes.md` for the documented "no Impressum in this scope"
+  assumption, the open GDPR/Art. 27 EU-representative legal check, and the
+  cookie/tracking technical analysis.
+
+Required environment variables (documented in `.env.example`):
+`BREVO_NEWSLETTER_LIST_ID`, `BREVO_DOI_TEMPLATE_ID`, `BREVO_DOI_REDIRECT_URL`,
+`NEWSLETTER_LEGAL_READY`, `DIGA_TRACKER_OPERATOR_ADDRESS`,
+`DIGA_TRACKER_OPERATOR_CONTACT_EMAIL`, `DIGA_TRACKER_OPERATOR_REGISTER_INFO`,
+`DIGA_TRACKER_DATA_RETENTION_PERIOD`. The Brevo API key must additionally
+have Contacts, Double Opt-in, and Email Campaign scope — verify this in the
+Brevo dashboard before going live; it has not been exercised against a real
+Brevo account as part of this change.
+
 ## Snapshot Storage and R2
 
 Every successful scan atomically replaces `data/baseline/current_snapshot.json`. An unchanged scan creates no historical full snapshot. When the existing change detection reports a change, the previous and current full snapshots are uploaded as gzip-compressed JSON to `full-snapshots/changes/` in R2. The first successful scan in each ISO week also uploads one compressed checkpoint to `full-snapshots/checkpoints/`.

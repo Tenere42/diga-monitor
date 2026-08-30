@@ -14,6 +14,8 @@ import streamlit as st
 
 from src.change_events import DEFAULT_CHANGES_DIR, load_change_events
 from src.dashboard_cache import change_files_signature, scan_history_signature
+from src.legal_content import is_legal_content_ready, load_operator_profile
+from src.subscribers import SignupOutcome, request_double_optin
 from src.scan_history import DEFAULT_SCAN_HISTORY_PATH, load_scan_history
 
 
@@ -81,6 +83,19 @@ LONG_TEXT_EXCERPT_CHARS = 500
 
 def main() -> None:
     st.set_page_config(page_title="DiGA Monitor", layout="wide")
+
+    # Query-param routing to the Datenschutzerklaerung, kept inside this
+    # single app rather than a new Streamlit page so the existing default
+    # view/design is untouched. If the newsletter feature is not yet
+    # legal-ready, an unrecognized/unready "?view=datenschutz" silently
+    # falls through to the normal dashboard -- never a broken or
+    # placeholder-only page.
+    if st.query_params.get("view") == "datenschutz" and is_legal_content_ready():
+        render_page_header()
+        render_datenschutz_page()
+        render_public_footer()
+        return
+
     render_page_header()
 
     real_events, scan_history = load_dashboard_data(
@@ -97,15 +112,157 @@ def main() -> None:
     st.divider()
     if not filtered_events:
         st.info("Keine echten Änderungen seit Tracking Beginn erkannt.")
+        render_newsletter_signup_section()
+        render_public_footer()
         return
 
     grouped_events = group_events_by_diga(filtered_events)
     if not grouped_events:
         st.info("Keine echten Änderungen seit Tracking Beginn erkannt.")
+        render_newsletter_signup_section()
+        render_public_footer()
         return
     render_group_summary(grouped_events, filtered_events)
     for group in grouped_events:
         render_event_group(group)
+
+    render_newsletter_signup_section()
+    render_public_footer()
+
+
+def render_newsletter_signup_section() -> None:
+    """Public DiGA Tracker Alerts signup. Renders nothing at all -- no
+    form, no placeholder, no text -- unless the newsletter feature is
+    legal-ready (see src/legal_content.py). Subscriber state lives
+    entirely in Brevo; this function never stores an email address.
+    """
+    if not is_legal_content_ready():
+        return
+
+    st.divider()
+    st.subheader("DiGA Tracker Alerts abonnieren")
+    st.write(
+        "Erhalte eine Benachrichtigung, sobald der DiGA Tracker eine relevante "
+        "Änderung im BfArM DiGA-Verzeichnis erkennt."
+    )
+    with st.form("newsletter_signup_form", clear_on_submit=True):
+        email = st.text_input("E-Mail-Adresse", placeholder="name@beispiel.de")
+        consent = st.checkbox(
+            "Ich habe die Datenschutzerklärung gelesen und bin mit dem Empfang "
+            "der DiGA Tracker Alerts einverstanden."
+        )
+        submitted = st.form_submit_button("Updates abonnieren")
+
+    if not submitted:
+        return
+    if not consent:
+        st.warning("Bitte bestätige, dass du die Datenschutzerklärung gelesen hast.")
+        return
+
+    result = request_double_optin(email)
+    if result.outcome == SignupOutcome.CONFIRMATION_SENT:
+        st.success(result.message_de)
+    elif result.outcome == SignupOutcome.ALREADY_PENDING_OR_CONFIRMED:
+        st.info(result.message_de)
+    elif result.outcome == SignupOutcome.INVALID_EMAIL:
+        st.warning(result.message_de)
+    else:
+        st.error(result.message_de)
+
+
+def render_public_footer() -> None:
+    """Footer linking to the Datenschutzerklärung. Renders nothing at all
+    unless the newsletter feature is legal-ready -- there is no version of
+    this footer that links to a page that doesn't fully exist yet.
+    """
+    if not is_legal_content_ready():
+        return
+
+    st.divider()
+    st.markdown(
+        '<div style="font-size:0.85rem;color:#6b7280;">'
+        "DiGA Tracker &middot; "
+        '<a href="?view=datenschutz" target="_self">Datenschutzerklärung</a>'
+        "</div>",
+        unsafe_allow_html=True,
+    )
+
+
+def render_datenschutz_page() -> None:
+    """Render the Datenschutzerklärung. Only ever called when
+    ``is_legal_content_ready()`` is True (see call sites), so
+    ``load_operator_profile()`` is guaranteed to return a complete,
+    human-confirmed profile here -- never a partial or placeholder one.
+    """
+    profile = load_operator_profile()
+    if profile is None:
+        # Defensive only: unreachable given the call-site gate above,
+        # since is_legal_content_ready() already guarantees a complete
+        # profile. Render nothing rather than a partial/placeholder page.
+        return
+
+    st.subheader("Datenschutzerklärung")
+    st.markdown(f"**Verantwortlicher:** {html.escape(profile.name)}")
+    st.markdown(f"**Anschrift:** {html.escape(profile.address)}")
+    st.markdown(f"**Kontakt:** {html.escape(profile.contact_email)}")
+    st.markdown(f"**Registereintrag:** {html.escape(profile.register_info)}")
+
+    st.markdown(
+        """
+### Verarbeitete Daten und Zweck
+Wenn du DiGA Tracker Alerts abonnierst, verarbeiten wir deine E-Mail-Adresse
+sowie die von Brevo im Double-Opt-in-Verfahren erfassten Bestätigungsdaten
+(Zeitpunkt der Anmeldung und der Bestätigung), um dir Benachrichtigungen über
+Änderungen im BfArM DiGA-Verzeichnis zuzusenden.
+
+### Rechtsgrundlage
+Die Verarbeitung erfolgt auf Grundlage deiner ausdrücklichen Einwilligung. Als
+Schweizer Anbieter richten wir uns primär nach dem revidierten
+Bundesgesetz über den Datenschutz (revDSG). Aufgrund der klaren Ausrichtung
+dieses Angebots auf Deutschland (deutschsprachiges Angebot, `.de`-Domain,
+Fokus auf das deutsche DiGA-System) berücksichtigen wir zusätzlich
+DSGVO-relevante Anforderungen, soweit sie zur Anwendung kommen.
+
+### Double-Opt-in und Abmeldung
+Deine Anmeldung wird erst wirksam, nachdem du sie über einen Bestätigungslink
+in einer E-Mail bestätigt hast (Double-Opt-in, technisch umgesetzt über
+Brevo). Jede DiGA Tracker Alert-E-Mail enthält einen funktionierenden
+Abmeldelink ohne Login-Zwang. Nach einer Abmeldung erhältst du keine
+weiteren Alerts, bis du dich erneut über den vollständigen
+Double-Opt-in-Prozess anmeldest.
+
+### Auftragsverarbeitung und Empfänger
+Für den Versand und die Verwaltung der Abonnentendaten nutzen wir Brevo
+(Sendinblue SAS bzw. deren verbundene Unternehmen) als Auftragsverarbeiter.
+Die technische Bereitstellung dieser Website erfolgt über Railway. Es
+erfolgt keine eigene Speicherung deiner E-Mail-Adresse in einer separaten
+Datenbank dieses Projekts; Brevo ist alleiniges System of Record für deinen
+Abonnentenstatus.
+"""
+    )
+    st.markdown(f"**Speicherdauer:** {html.escape(profile.data_retention_period)}")
+    st.markdown(
+        """
+### Auslandsübermittlung
+Die Datenverarbeitung durch Brevo und Railway kann Datenübermittlungen ins
+Ausland einschliessen. Details zu den jeweils eingesetzten Serverstandorten
+und Übermittlungsgarantien werden hier ergänzt, sobald sie abschliessend
+geprüft sind.
+
+### Betroffenenrechte
+Dir stehen je nach anwendbarem Recht (revDSG und/oder DSGVO) insbesondere
+das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der
+Verarbeitung sowie der Widerruf deiner Einwilligung zu. Wende dich hierfür
+an die oben genannte Kontaktadresse.
+
+### Offener rechtlicher Prüfpunkt
+Ob aufgrund der Ausrichtung dieses Angebots auf Deutschland eine
+Anwendbarkeit der DSGVO und damit ggf. auch die Pflicht zur Benennung
+eines EU-Vertreters nach Art. 27 DSGVO besteht, ist derzeit als offener
+rechtlicher Prüfpunkt dokumentiert und noch nicht abschliessend geklärt
+(siehe `docs/legal-notes.md`).
+"""
+    )
 
 
 @st.cache_data(show_spinner=False, max_entries=2)

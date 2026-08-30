@@ -17,6 +17,7 @@ from src.change_events import build_change_events, save_change_events, snapshot_
 from src.diff import diff_snapshots, render_report
 from src.fetch_diga import fetch_diga_entries
 from src.notifications import is_notifiable_event, notify_changes, send_test_notification
+from src.subscriber_alerts import dispatch_subscriber_alerts
 from src.render_directory import (
     diff_content_section_files,
     diff_content_section_lists,
@@ -324,10 +325,29 @@ def run_monitor(
         scan_duration_seconds=time.perf_counter() - started,
     )
     if notify:
-        notify_changes(events, dry_run=dry_run)
+        notify_and_dispatch_subscriber_alerts(events, dry_run=dry_run)
     print()
     print(render_report(report))
     return 0
+
+
+def notify_and_dispatch_subscriber_alerts(events: list[dict[str, object]], dry_run: bool = False) -> None:
+    """Run the existing admin notification, then the subscriber-alert
+    dispatch, strictly in that order and fully isolated from each other.
+
+    The admin notification (``notify_changes``) is untouched, existing
+    production behavior. The subscriber-alert dispatch happens only after
+    it, and its own function never raises by contract (see
+    ``src/subscriber_alerts.py``); the try/except here is defense in
+    depth so that even an unexpected raise there can never propagate into
+    the scan pipeline that already completed change detection, baseline
+    finalization, and R2 archival by the time this function is called.
+    """
+    notify_changes(events, dry_run=dry_run)
+    try:
+        dispatch_subscriber_alerts(events, dry_run=dry_run)
+    except Exception as exc:  # noqa: BLE001 - must never affect scan result
+        print(f"Subscriber alert dispatch raised unexpectedly (isolated): {exc}")
 
 
 def run_notify_test(dry_run: bool = False) -> int:
