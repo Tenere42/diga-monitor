@@ -376,6 +376,15 @@ If no change events exist, the app shows `Keine Änderungen erkannt.`
 
 Simulated events are hidden by default. Enable `Simulationen anzeigen` to test the feed with generated events such as the Orthopy BfArM assessment text removal.
 
+### Deployment (Railway)
+
+The public dashboard is deployed on Railway from this repository (`main` branch), building with Railway's default Railpack builder. Two repo-based config files remove the need to maintain any settings manually in the Railway dashboard:
+
+- [`.python-version`](../.python-version) pins the runtime to `3.11`, matching the Python version used by the `DiGA Monitor` GitHub Actions workflow.
+- [`railway.json`](../railway.json) sets `deploy.startCommand` to `streamlit run app.py --server.address=0.0.0.0 --server.port=$PORT --server.headless=true`, so Railway starts the app on the `$PORT` it assigns without a manually configured Start Command. `--server.headless=true` prevents Streamlit from waiting on its first-run email prompt in a non-interactive container.
+
+Region, replica count, serverless, and public networking are configured directly in the Railway dashboard and are not managed by this repository. Scheduled monitoring (GitHub Actions), R2 archival, and Brevo email notifications are independent of the dashboard deployment and are unaffected by it.
+
 ## Scheduling
 
 GitHub Actions is the regular production scheduler. For local diagnostics, the CLI can still be run manually:
