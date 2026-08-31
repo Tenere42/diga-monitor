@@ -84,7 +84,7 @@ LONG_TEXT_EXCERPT_CHARS = 500
 def main() -> None:
     st.set_page_config(page_title="DiGA Monitor", layout="wide")
 
-    # Query-param routing to the Datenschutzerklaerung, kept inside this
+    # Query-param routing to newsletter status/legal views, kept inside this
     # single app rather than a new Streamlit page so the existing default
     # view/design is untouched. If the newsletter feature is not yet
     # legal-ready, an unrecognized/unready "?view=datenschutz" silently
@@ -93,6 +93,11 @@ def main() -> None:
     if st.query_params.get("view") == "datenschutz" and is_legal_content_ready():
         render_page_header()
         render_datenschutz_page()
+        render_public_footer()
+        return
+    if st.query_params.get("view") == "confirmed" and is_legal_content_ready():
+        render_page_header()
+        render_subscription_confirmed_page()
         render_public_footer()
         return
 
@@ -185,6 +190,23 @@ def render_public_footer() -> None:
         '<a href="?view=datenschutz" target="_self">Datenschutzerklärung</a>'
         "</div>",
         unsafe_allow_html=True,
+    )
+
+
+def render_subscription_confirmed_page() -> None:
+    """Render the landing state reached only after Brevo completed DOI.
+
+    The route is protected by the same fail-closed legal gate as the signup
+    and privacy page.  It deliberately does not accept an email address or
+    modify contact state; Brevo remains the sole source of confirmation.
+    """
+    if not is_legal_content_ready():
+        return
+
+    st.success("Deine Anmeldung ist bestätigt.")
+    st.write(
+        "Du erhältst künftig DiGA Tracker Alerts bei relevanten Änderungen "
+        "im BfArM DiGA-Verzeichnis."
     )
 
 

@@ -41,6 +41,15 @@ class NotifyAndDispatchIsolationTests(unittest.TestCase):
 
         notify_mock.assert_called_once_with(EVENTS, dry_run=True)
 
+    def test_subscriber_dispatch_receives_the_same_events_and_dry_run_arguments(self) -> None:
+        with (
+            mock.patch("src.main.notify_changes"),
+            mock.patch("src.main.dispatch_subscriber_alerts") as dispatch_mock,
+        ):
+            notify_and_dispatch_subscriber_alerts(EVENTS, dry_run=True)
+
+        dispatch_mock.assert_called_once_with(EVENTS, dry_run=True)
+
     def test_t7_subscriber_alert_exception_never_propagates(self) -> None:
         with (
             mock.patch("src.main.notify_changes") as notify_mock,

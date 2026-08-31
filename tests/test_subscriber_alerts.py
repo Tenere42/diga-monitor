@@ -22,6 +22,9 @@ ENVIRONMENT = {
     "DIGA_MONITOR_EMAIL_FROM": "updates@diga-tracker.de",
     "DIGA_MONITOR_EMAIL_FROM_NAME": "DiGA Tracker",
     "BREVO_NEWSLETTER_LIST_ID": "99",
+    "NEWSLETTER_LEGAL_READY": "true",
+    "DIGA_TRACKER_OPERATOR_CONTACT_EMAIL": "privacy@example.com",
+    "DIGA_TRACKER_DATA_RETENTION_PERIOD": "confirmed test retention period",
 }
 
 
@@ -81,6 +84,21 @@ class AlertHtmlBodyTests(unittest.TestCase):
 
 
 class DispatchSubscriberAlertsTests(unittest.TestCase):
+    def test_legal_gate_blocks_campaign_even_with_complete_brevo_config(self) -> None:
+        environment = dict(ENVIRONMENT)
+        environment["NEWSLETTER_LEGAL_READY"] = "false"
+        with (
+            mock.patch.dict(os.environ, environment, clear=True),
+            mock.patch("src.subscriber_alerts.urlopen") as urlopen_mock,
+            mock.patch("src.subscriber_alerts._log_subscriber_alert") as log_mock,
+        ):
+            result = dispatch_subscriber_alerts([real_change_event()])
+
+        self.assertFalse(result)
+        urlopen_mock.assert_not_called()
+        self.assertEqual(log_mock.call_args.kwargs["status"], "skipped")
+        self.assertEqual(log_mock.call_args.kwargs["number_of_changes"], 1)
+
     def test_t1_relevant_change_triggers_alert(self) -> None:
         with (
             mock.patch.dict(os.environ, ENVIRONMENT, clear=True),

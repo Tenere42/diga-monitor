@@ -38,6 +38,7 @@ from typing import Any
 from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
+from src.legal_content import is_legal_content_ready
 from src.notifications import (
     format_brevo_error,
     is_notifiable_event,
@@ -144,6 +145,19 @@ def _dispatch_subscriber_alerts(
     dry_run: bool,
     include_simulated: bool,
 ) -> bool:
+    # This is an independent fail-closed boundary.  The public UI gate alone
+    # is insufficient because this function is invoked by the scheduled scan
+    # process, not by app.py.  No campaign may be created until the operator
+    # has explicitly completed the legal-readiness configuration.
+    if not is_legal_content_ready():
+        _log_subscriber_alert(
+            status="skipped",
+            number_of_changes=len(events),
+            error_message="Newsletter legal readiness gate is closed.",
+        )
+        print_notification_status("Subscriber alert skipped: legal readiness gate is closed.")
+        return False
+
     real_events = [
         event
         for event in events

@@ -8,6 +8,7 @@ from urllib.error import HTTPError
 
 from src.subscribers import (
     BREVO_DOI_API_URL,
+    MAX_EMAIL_LENGTH,
     MissingSignupConfig,
     SignupOutcome,
     is_valid_email,
@@ -51,6 +52,22 @@ class EmailValidationTests(unittest.TestCase):
         for candidate in ["", "not-an-email", "missing-domain@", "@missing-local.de", "spaces in@email.com"]:
             self.assertFalse(is_valid_email(candidate), candidate)
 
+    def test_all_c0_control_characters_are_rejected_in_local_and_domain_parts(self) -> None:
+        for code_point in range(0x20):
+            control = chr(code_point)
+            self.assertFalse(is_valid_email(f"user{control}name@example.com"), code_point)
+            self.assertFalse(is_valid_email(f"user@example{control}.com"), code_point)
+
+    def test_email_at_maximum_length_is_accepted(self) -> None:
+        candidate = f"{'a' * (MAX_EMAIL_LENGTH - len('@example.com'))}@example.com"
+        self.assertEqual(len(candidate), MAX_EMAIL_LENGTH)
+        self.assertTrue(is_valid_email(candidate))
+
+    def test_email_over_maximum_length_is_rejected(self) -> None:
+        candidate = f"{'a' * (MAX_EMAIL_LENGTH + 1 - len('@example.com'))}@example.com"
+        self.assertEqual(len(candidate), MAX_EMAIL_LENGTH + 1)
+        self.assertFalse(is_valid_email(candidate))
+
 
 class SignupConfigTests(unittest.TestCase):
     def test_missing_config_lists_every_missing_variable(self) -> None:
@@ -79,6 +96,17 @@ class RequestDoubleOptinTests(unittest.TestCase):
         with mock.patch("src.subscribers.urlopen") as urlopen_mock:
             result = request_double_optin("not-an-email")
         self.assertEqual(result.outcome, SignupOutcome.INVALID_EMAIL)
+        urlopen_mock.assert_not_called()
+
+    def test_overlong_email_returns_clear_error_without_calling_brevo(self) -> None:
+        candidate = f"{'a' * (MAX_EMAIL_LENGTH + 1 - len('@example.com'))}@example.com"
+        with mock.patch("src.subscribers.urlopen") as urlopen_mock:
+            result = request_double_optin(candidate)
+        self.assertEqual(result.outcome, SignupOutcome.INVALID_EMAIL)
+        self.assertEqual(
+            result.message_de,
+            "Die E-Mail-Adresse darf maximal 254 Zeichen lang sein.",
+        )
         urlopen_mock.assert_not_called()
 
     def test_missing_config_never_calls_brevo(self) -> None:

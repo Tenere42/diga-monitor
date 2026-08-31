@@ -36,10 +36,11 @@ from urllib.request import Request, urlopen
 
 BREVO_DOI_API_URL = "https://api.brevo.com/v3/contacts/doubleOptinConfirmation"
 
-# Deliberately simple: good enough to reject obvious typos client-side
-# without pretending to be a full RFC 5322 validator. Brevo performs the
-# authoritative validation server-side.
-EMAIL_PATTERN = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
+# Deliberately simple: good enough to reject obvious typos and unsafe control
+# characters client-side without pretending to be a full RFC 5322 validator.
+# Brevo performs the authoritative validation server-side.
+EMAIL_PATTERN = re.compile(r"^[^@\s\x00-\x1f]+@[^@\s\x00-\x1f]+\.[^@\s\x00-\x1f]+$")
+MAX_EMAIL_LENGTH = 254
 
 REQUIRED_SIGNUP_ENV_VARS = [
     "BREVO_API_KEY",
@@ -86,7 +87,8 @@ class SignupConfig:
 def is_valid_email(value: str) -> bool:
     if not value:
         return False
-    return bool(EMAIL_PATTERN.match(value.strip()))
+    candidate = value.strip()
+    return len(candidate) <= MAX_EMAIL_LENGTH and bool(EMAIL_PATTERN.match(candidate))
 
 
 def load_signup_config() -> SignupConfig:
@@ -116,6 +118,11 @@ def request_double_optin(email: str) -> SignupResult:
     message and returned, never surfaced as a stack trace to a visitor.
     """
     candidate = (email or "").strip()
+    if len(candidate) > MAX_EMAIL_LENGTH:
+        return SignupResult(
+            SignupOutcome.INVALID_EMAIL,
+            "Die E-Mail-Adresse darf maximal 254 Zeichen lang sein.",
+        )
     if not is_valid_email(candidate):
         return SignupResult(
             SignupOutcome.INVALID_EMAIL,

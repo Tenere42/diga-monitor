@@ -46,6 +46,22 @@ class NewsletterGateTests(unittest.TestCase):
         markdown_html = mock_st.markdown.call_args.args[0]
         self.assertIn("?view=datenschutz", markdown_html)
 
+    def test_confirmation_page_reports_completed_double_optin(self) -> None:
+        with (
+            mock.patch("app.is_legal_content_ready", return_value=True),
+            mock.patch("app.st") as mock_st,
+        ):
+            app.render_subscription_confirmed_page()
+        mock_st.success.assert_called_once_with("Deine Anmeldung ist bestätigt.")
+
+    def test_confirmation_page_renders_nothing_when_not_legal_ready(self) -> None:
+        with (
+            mock.patch("app.is_legal_content_ready", return_value=False),
+            mock.patch("app.st") as mock_st,
+        ):
+            app.render_subscription_confirmed_page()
+        self.assertEqual(len(mock_st.method_calls), 0)
+
     def test_datenschutz_page_never_reached_without_a_complete_profile(self) -> None:
         # Defensive branch: even if somehow called while not ready, it
         # must render nothing rather than a partial page.
