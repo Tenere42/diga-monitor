@@ -501,6 +501,14 @@ additionally have Contacts, Double Opt-in, and Email Campaign scope — verify
 this in the Brevo dashboard before going live; it has not been exercised
 against a real Brevo account as part of this change.
 
+### Local newsletter E2E test on Windows
+
+Copy `.env.local.example` to `.env.local`, replace the two placeholder values
+for the Brevo API key and confirmed retention text, then double-click
+`scripts\run_local_e2e_test.bat`. The launcher keeps the environment local to
+that process and opens the Streamlit app at `http://localhost:8501`; it does
+not run the monitor or change production configuration.
+
 ## Snapshot Storage and R2
 
 Every successful scan atomically replaces `data/baseline/current_snapshot.json`. An unchanged scan creates no historical full snapshot. When the existing change detection reports a change, the previous and current full snapshots are uploaded as gzip-compressed JSON to `full-snapshots/changes/` in R2. The first successful scan in each ISO week also uploads one compressed checkpoint to `full-snapshots/checkpoints/`.
