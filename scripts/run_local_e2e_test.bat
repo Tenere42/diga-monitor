@@ -1,9 +1,12 @@
 @echo off
 setlocal DisableDelayedExpansion
+chcp 65001 >nul
+set "PYTHONUTF8=1"
+set "PYTHONIOENCODING=utf-8"
 cd /d "%~dp0.."
 
 if not exist ".env.local" (
-    echo Bitte kopiere .env.local.example zu .env.local und trage dort deinen echten BREVO_API_KEY und die echte Aufbewahrungsdauer ein, dann starte dieses Skript erneut.
+    echo FEHLER: .env.local wurde nicht gefunden.
     pause
     exit /b 1
 )
@@ -15,22 +18,37 @@ for /f "usebackq eol=# tokens=1,* delims==" %%A in (".env.local") do (
 set "NEWSLETTER_LEGAL_READY=true"
 set "BREVO_DOI_REDIRECT_URL=http://localhost:8501/?view=confirmed"
 
-echo Der lokale DiGA-Tracker startet. Im Browser: http://localhost:8501
-
 where python >nul 2>nul
-if not errorlevel 1 goto run_python
+if errorlevel 1 (
+    echo FEHLER: Python wurde nicht gefunden.
+    pause
+    exit /b 1
+)
 
-where py >nul 2>nul
-if not errorlevel 1 goto run_py
+echo.
+echo Pruefe Python-Abhaengigkeiten...
+python -m streamlit --version >nul 2>nul
 
-echo Python wurde nicht gefunden. Bitte installiere Python und starte dieses Skript erneut.
-pause
-exit /b 1
+if errorlevel 1 (
+    echo Streamlit ist noch nicht installiert.
+    echo Installiere jetzt die Projekt-Abhaengigkeiten...
+    python -m pip install -r requirements.txt
 
-:run_python
+    if errorlevel 1 (
+        echo.
+        echo FEHLER bei der Installation der Abhaengigkeiten.
+        pause
+        exit /b 1
+    )
+)
+
+echo.
+echo Starte lokalen DiGA Tracker...
+echo Browser: http://localhost:8501
+echo.
+
 python -m streamlit run app.py
-exit /b %errorlevel%
 
-:run_py
-py -m streamlit run app.py
-exit /b %errorlevel%
+echo.
+echo Der DiGA Tracker wurde beendet oder es ist ein Fehler aufgetreten.
+pause
