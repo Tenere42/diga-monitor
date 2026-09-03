@@ -1,0 +1,27 @@
+name: One-off reposition newsletter signup
+
+on:
+  push:
+    paths:
+      - '.github/workflows/oneoff-reposition-newsletter.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  reposition:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Reposition signup and clean up one-off files
+        run: |
+          python scripts/reposition_newsletter_signup.py
+          git rm scripts/reposition_newsletter_signup.py .github/workflows/oneoff-reposition-newsletter.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app.py
+          git commit -m "Move newsletter signup to top of dashboard"
+          git push
