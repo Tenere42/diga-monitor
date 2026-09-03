@@ -46,6 +46,10 @@ jobs:
           DIGA_MONITOR_EMAIL_TO: ${{ vars.DIGA_MONITOR_EMAIL_TO }}
           DIGA_MONITOR_DASHBOARD_URL: ${{ vars.DIGA_MONITOR_DASHBOARD_URL }}
           DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
+          NEWSLETTER_LEGAL_READY: ${{ vars.NEWSLETTER_LEGAL_READY }}
+          DIGA_TRACKER_OPERATOR_CONTACT_EMAIL: ${{ vars.DIGA_TRACKER_OPERATOR_CONTACT_EMAIL }}
+          DIGA_TRACKER_DATA_RETENTION_PERIOD: ${{ vars.DIGA_TRACKER_DATA_RETENTION_PERIOD }}
+          BREVO_NEWSLETTER_LIST_ID: ${{ vars.BREVO_NEWSLETTER_LIST_ID }}
         run: |
           missing=()
           for name in BREVO_API_KEY DIGA_MONITOR_EMAIL_FROM DIGA_MONITOR_EMAIL_FROM_NAME DIGA_MONITOR_EMAIL_TO; do
@@ -57,6 +61,17 @@ jobs:
             echo "::notice::Notification configuration complete."
           else
             echo "::warning::Notification configuration incomplete. Email delivery will be skipped. Missing: ${missing[*]}"
+          fi
+          subscriber_alert_missing=()
+          for name in NEWSLETTER_LEGAL_READY DIGA_TRACKER_OPERATOR_CONTACT_EMAIL DIGA_TRACKER_DATA_RETENTION_PERIOD BREVO_NEWSLETTER_LIST_ID; do
+            if [ -z "${!name}" ]; then
+              subscriber_alert_missing+=("$name")
+            fi
+          done
+          if [ ${#subscriber_alert_missing[@]} -eq 0 ]; then
+            echo "::notice::Subscriber alert configuration complete."
+          else
+            echo "::warning::Subscriber alert configuration incomplete. Subscriber alert delivery will be skipped. Missing: ${subscriber_alert_missing[*]}"
           fi
 
       - name: Run notification test
@@ -109,6 +124,10 @@ jobs:
           DIGA_MONITOR_EMAIL_TO: ${{ vars.DIGA_MONITOR_EMAIL_TO }}
           DIGA_MONITOR_DASHBOARD_URL: ${{ vars.DIGA_MONITOR_DASHBOARD_URL }}
           DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
+          NEWSLETTER_LEGAL_READY: ${{ vars.NEWSLETTER_LEGAL_READY }}
+          DIGA_TRACKER_OPERATOR_CONTACT_EMAIL: ${{ vars.DIGA_TRACKER_OPERATOR_CONTACT_EMAIL }}
+          DIGA_TRACKER_DATA_RETENTION_PERIOD: ${{ vars.DIGA_TRACKER_DATA_RETENTION_PERIOD }}
+          BREVO_NEWSLETTER_LIST_ID: ${{ vars.BREVO_NEWSLETTER_LIST_ID }}
           DIGA_API_TOKEN: ${{ secrets.DIGA_API_TOKEN }}
           DIGA_RENDER_CHANGED_ENTRIES: "true"
           R2_ENDPOINT: ${{ vars.R2_ENDPOINT || vars.S3_ENDPOINT }}

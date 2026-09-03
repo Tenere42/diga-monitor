@@ -57,6 +57,25 @@ class WorkflowScheduleTests(unittest.TestCase):
             workflow,
         )
 
+    def test_subscriber_alert_configuration_is_passed_as_repository_variables(self) -> None:
+        workflow = WORKFLOW.read_text(encoding="utf-8")
+        run_monitor_step = workflow.split("      - name: Run DiGA monitor", 1)[1].split(
+            "      - name: Validate monitoring outputs", 1
+        )[0]
+        for name in (
+            "NEWSLETTER_LEGAL_READY",
+            "DIGA_TRACKER_OPERATOR_CONTACT_EMAIL",
+            "DIGA_TRACKER_DATA_RETENTION_PERIOD",
+            "BREVO_NEWSLETTER_LIST_ID",
+        ):
+            self.assertIn(f"{name}: ${{{{ vars.{name} }}}}", run_monitor_step)
+            self.assertNotIn(f"secrets.{name}", workflow)
+
+    def test_doi_signup_configuration_is_not_passed_to_monitor_workflow(self) -> None:
+        workflow = WORKFLOW.read_text(encoding="utf-8")
+        self.assertNotIn("BREVO_DOI_TEMPLATE_ID", workflow)
+        self.assertNotIn("BREVO_DOI_REDIRECT_URL", workflow)
+
 
 if __name__ == "__main__":
     unittest.main()

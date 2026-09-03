@@ -39,10 +39,11 @@ ChatGPT decision/spec
 
 ## Codex-Claude Duo Loop
 
-For larger, riskier, or architecture-relevant changes, Codex uses Claude Code CLI as an independent read-only reviewer after Codex has implemented the change and run its own tests and linters.
+For larger, riskier, or architecture-relevant changes, use the local Gauntlet workflow: Codex implements and runs tests and linters; Claude Code orchestrates independent Claude-Critic reviews; Claude Code then performs Git plumbing (add, commit, and push) on the implementation branch.
 
-- Run `python -m scripts.claude_review --pr-number <PR>`; the wrapper invokes the verified Claude executable without depending on `PATH`.
-- Automated reviews require `ANTHROPIC_API_KEY`. GitHub receives it only from the repository secret named `ANTHROPIC_API_KEY`; local runs receive it only from the process environment. Never use, print, persist, or renew personal OAuth credentials for automated reviews.
+- The automatic GitHub Actions Claude PR review has been removed and is no longer the standard review path.
+- `python -m scripts.claude_review --pr-number <PR>` remains available as a manually invoked local review tool; the wrapper invokes the verified Claude executable without depending on `PATH`.
+- Manual automated reviews require `ANTHROPIC_API_KEY` from the local process environment. Never use, print, persist, or renew personal OAuth credentials for automated reviews.
 - The wrapper must pass the Anthropic connectivity preflight before invoking Claude, remove OAuth/provider override variables from the child process, and use an isolated temporary `CLAUDE_CONFIG_DIR` so stored personal login state cannot take precedence or act as a fallback.
 - Give Claude the task context and the complete relevant diff. Restrict it to `--allowedTools "Read,Grep,Glob,Bash(git diff:*)"` and cap each review with `--max-turns 20`.
 - Claude must not edit files, run unrestricted shell commands, commit, push, or mutate GitHub state.
@@ -54,7 +55,7 @@ For larger, riskier, or architecture-relevant changes, Codex uses Claude Code CL
 - When a pull request receives a Claude CLI review, add a compact `Claude Review` section to the pull request description or update it before handoff. Record the number of review rounds, Claude's substantive findings, the findings Codex accepted and the resulting changes, any substantive findings Codex rejected with a short reason, and the final result as either `no substantive open findings` or `open findings`. Do not post complete internal logs or unnecessarily long Claude output.
 - Small, obviously low-risk changes do not require a Claude review.
 - If Claude CLI is unavailable or fails, do not block delivery: report the limitation transparently and perform an explicit Codex self-review instead.
-- Both the local CLI loop and Claude GitHub Action use Anthropic API-key authentication. They do not depend on personal OAuth, GitHub OIDC, or Workload Identity Federation.
+- The manual local CLI review uses Anthropic API-key authentication and does not depend on personal OAuth, GitHub OIDC, or Workload Identity Federation.
 
 ## Safety and Production
 

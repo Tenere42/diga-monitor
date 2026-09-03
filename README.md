@@ -335,9 +335,9 @@ Simulation notifications are dry-run only. They print the email body but never s
 
 ## Claude Code review authentication
 
-Automated Codex → Claude Code reviews use Anthropic API-key authentication only. Create one repository Actions secret named `ANTHROPIC_API_KEY`; do not store the key in repository files, variables, workflow inputs, command-line arguments, or logs. The Claude PR Review workflow validates the secret against the Anthropic API before starting the pinned Claude CLI and fails with a redacted error when the secret is missing or rejected. The workflow has read-only repository permission and writes findings only to its job log for Codex to triage.
+The automatic GitHub Actions Claude PR review has been removed. Reviews now run through the local Gauntlet workflow: Codex implements, Claude Code orchestrates independent Claude-Critic reviews, and Claude Code handles Git plumbing. Do not store `ANTHROPIC_API_KEY` in repository files, variables, workflow inputs, command-line arguments, or logs.
 
-Local automated reviews use the same environment variable and the repository wrapper:
+The repository wrapper remains available for manually invoked local automated reviews and uses `ANTHROPIC_API_KEY`:
 
 ```powershell
 python -m scripts.claude_review --pr-number 5
@@ -447,6 +447,67 @@ Accept: application/vnd.github+json
 ```
 
 Do not store the token in this repository. Configure it only in the external scheduler's protected secret or header settings.
+
+## Newsletter (DiGA Tracker Alerts)
+
+Visitors can subscribe to DiGA Tracker Alerts (an email whenever the monitor
+detects a relevant DiGA-directory change) directly from the dashboard. Brevo
+is the sole system of record for subscriber status; this repository stores
+no subscriber database of its own.
+
+- `src/subscribers.py` triggers Brevo's native double opt-in
+  (`/v3/contacts/doubleOptinConfirmation`) when a visitor submits the signup
+  form in `app.py`. A subscription only becomes active once the visitor
+  confirms it via the link Brevo emails them.
+- `src/subscriber_alerts.py` dispatches a Brevo email campaign to the
+  confirmed subscriber list whenever `src/main.py`'s scan pipeline detects a
+  real change — strictly *in addition to*, never instead of, the existing
+  admin notification described above. This dispatch is fault-isolated: any
+  failure here is caught and logged, and never affects change detection,
+  baseline updates, R2 archival, or the admin notification.
+- Every DiGA Tracker Alert includes Brevo's native unsubscribe mechanism; no
+  login is required to unsubscribe, and resubscribing requires a fresh
+  double opt-in.
+- The signup form, the subscriber-alert dispatch's public visibility, and
+  the Datenschutzerklärung (`?view=datenschutz`, reachable from the dashboard
+  footer) are all gated behind `NEWSLETTER_LEGAL_READY` and the two required
+  `DIGA_TRACKER_*` variables in `src/legal_content.py`. Until a human sets
+  all of them to confirmed, real values, the entire feature (including the
+  footer link) stays invisible on the public site — the app never renders a
+  placeholder for missing legal content.
+- Minimal disclosure: only facts with an identified legal basis are
+  required. A postal address and commercial register entry are
+  intentionally **not** collected or rendered — under the Swiss revDSG
+  baseline this project uses, a reachable contact email satisfies Art. 19
+  DSG's "Kontaktdaten" requirement for a privacy notice, and Impressum-style
+  identification duties (which typically do require a postal address) are
+  separately out of scope (see below). The international-transfer statement
+  is likewise not free-form human input; it is a fixed, sourced statement in
+  `src/legal_content.py` based on Brevo's and Railway's own published Data
+  Processing Agreements. See `docs/legal-notes.md` for the full reasoning
+  and sources.
+- See `docs/legal-notes.md` for the documented "no Impressum in this scope"
+  assumption, the open GDPR/Art. 27 EU-representative legal check, and the
+  cookie/tracking technical analysis.
+
+Required environment variables (documented in `.env.example`):
+`BREVO_NEWSLETTER_LIST_ID`, `BREVO_DOI_TEMPLATE_ID`, `BREVO_DOI_REDIRECT_URL`,
+`NEWSLETTER_LEGAL_READY`, `DIGA_TRACKER_OPERATOR_CONTACT_EMAIL` (a reachable
+contact address, not necessarily a postal one), and
+`DIGA_TRACKER_DATA_RETENTION_PERIOD`. Both `DIGA_TRACKER_*` legal-fact
+variables are required by `src/legal_content.py`'s readiness gate; missing
+either one keeps the entire feature hidden. The Brevo API key must
+additionally have Contacts, Double Opt-in, and Email Campaign scope — verify
+this in the Brevo dashboard before going live; it has not been exercised
+against a real Brevo account as part of this change.
+
+### Local newsletter E2E test on Windows
+
+Copy `.env.local.example` to `.env.local`, replace the two placeholder values
+for the Brevo API key and confirmed retention text, then double-click
+`scripts\run_local_e2e_test.bat`. The launcher keeps the environment local to
+that process and opens the Streamlit app at `http://localhost:8501`; it does
+not run the monitor or change production configuration.
 
 ## Snapshot Storage and R2
 
