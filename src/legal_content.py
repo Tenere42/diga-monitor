@@ -45,10 +45,13 @@ legal basis, and nothing more. In particular:
 
 from __future__ import annotations
 
+import logging
 import os
 import unicodedata
 from dataclasses import dataclass
 
+
+logger = logging.getLogger(__name__)
 
 OPERATOR_NAME = "Leevsten GmbH"
 
@@ -109,10 +112,21 @@ class OperatorProfile:
 def is_legal_content_ready() -> bool:
     """True only when a human has explicitly flipped the switch AND every
     required fact is present. Never true by omission or default.
+
+    During the temporary production diagnostic, emit only boolean presence
+    information. No environment variable values or subscriber data are logged.
     """
-    if os.getenv(LEGAL_READY_ENV_VAR, "").strip().lower() != "true":
-        return False
-    return not missing_operator_fields()
+    switch_true = os.getenv(LEGAL_READY_ENV_VAR, "").strip().lower() == "true"
+    missing = missing_operator_fields()
+    ready = switch_true and not missing
+    logger.warning(
+        "NEWSLETTER_RUNTIME_GATE switch_true=%s contact_present=%s retention_present=%s ready=%s",
+        switch_true,
+        "DIGA_TRACKER_OPERATOR_CONTACT_EMAIL" not in missing,
+        "DIGA_TRACKER_DATA_RETENTION_PERIOD" not in missing,
+        ready,
+    )
+    return ready
 
 
 def missing_operator_fields() -> list[str]:
