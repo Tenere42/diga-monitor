@@ -102,6 +102,7 @@ def main() -> None:
         return
 
     render_page_header()
+    render_newsletter_signup_section()
 
     real_events, scan_history = load_dashboard_data(
         str(DEFAULT_CHANGES_DIR),
@@ -117,21 +118,18 @@ def main() -> None:
     st.divider()
     if not filtered_events:
         st.info("Keine echten Änderungen seit Tracking Beginn erkannt.")
-        render_newsletter_signup_section()
         render_public_footer()
         return
 
     grouped_events = group_events_by_diga(filtered_events)
     if not grouped_events:
         st.info("Keine echten Änderungen seit Tracking Beginn erkannt.")
-        render_newsletter_signup_section()
         render_public_footer()
         return
     render_group_summary(grouped_events, filtered_events)
     for group in grouped_events:
         render_event_group(group)
 
-    render_newsletter_signup_section()
     render_public_footer()
 
 
