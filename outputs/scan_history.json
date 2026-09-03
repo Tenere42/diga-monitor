@@ -5182,5 +5182,71 @@
     "number_of_diga": 79,
     "scan_duration_seconds": 5.937,
     "scan_timestamp": "2026-08-30T09:37:18.483562+00:00"
+  },
+  {
+    "changes_detected": 0,
+    "number_of_diga": 79,
+    "scan_duration_seconds": 8.032,
+    "scan_timestamp": "2026-08-30T14:36:37.420396+00:00"
+  },
+  {
+    "changes_detected": 0,
+    "number_of_diga": 79,
+    "scan_duration_seconds": 7.603,
+    "scan_timestamp": "2026-08-30T18:58:07.901175+00:00"
+  },
+  {
+    "changes_detected": 0,
+    "number_of_diga": 79,
+    "scan_duration_seconds": 10.79,
+    "scan_timestamp": "2026-08-31T10:18:58.861946+00:00"
+  },
+  {
+    "changes_detected": 0,
+    "number_of_diga": 79,
+    "scan_duration_seconds": 6.282,
+    "scan_timestamp": "2026-08-31T19:20:04.562827+00:00"
+  },
+  {
+    "changes_detected": 6,
+    "number_of_diga": 79,
+    "scan_duration_seconds": 10.937,
+    "scan_timestamp": "2026-09-01T09:02:50.127796+00:00"
+  },
+  {
+    "changes_detected": 0,
+    "number_of_diga": 79,
+    "scan_duration_seconds": 6.85,
+    "scan_timestamp": "2026-09-01T14:26:20.697595+00:00"
+  },
+  {
+    "changes_detected": 0,
+    "number_of_diga": 79,
+    "scan_duration_seconds": 7.75,
+    "scan_timestamp": "2026-09-01T19:03:35.326122+00:00"
+  },
+  {
+    "changes_detected": 0,
+    "number_of_diga": 79,
+    "scan_duration_seconds": 7.483,
+    "scan_timestamp": "2026-09-02T08:16:47.753459+00:00"
+  },
+  {
+    "changes_detected": 0,
+    "number_of_diga": 79,
+    "scan_duration_seconds": 6.002,
+    "scan_timestamp": "2026-09-02T13:59:22.069873+00:00"
+  },
+  {
+    "changes_detected": 0,
+    "number_of_diga": 79,
+    "scan_duration_seconds": 5.786,
+    "scan_timestamp": "2026-09-02T19:07:58.651362+00:00"
+  },
+  {
+    "changes_detected": 0,
+    "number_of_diga": 79,
+    "scan_duration_seconds": 7.738,
+    "scan_timestamp": "2026-09-03T08:26:01.873376+00:00"
   }
 ]
