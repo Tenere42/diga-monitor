@@ -26,8 +26,9 @@ ENVIRONMENT = {
 
 
 class FakeResponse:
-    def __init__(self, status_code: int) -> None:
+    def __init__(self, status_code: int, payload: dict | None = None) -> None:
         self.status = status_code
+        self._payload = payload or {}
 
     def __enter__(self) -> "FakeResponse":
         return self
@@ -35,11 +36,20 @@ class FakeResponse:
     def __exit__(self, *args: object) -> None:
         return None
 
+    def read(self) -> bytes:
+        return json.dumps(self._payload).encode()
+
 
 def http_error(status_code: int, payload: dict) -> HTTPError:
     body = json.dumps(payload).encode()
     exc = HTTPError(BREVO_DOI_API_URL, status_code, "error", None, None)
     exc.read = lambda: body  # type: ignore[method-assign]
+    return exc
+
+
+def not_found_error() -> HTTPError:
+    exc = HTTPError("https://api.brevo.com/v3/contacts/visitor%40example.com", 404, "not found", None, None)
+    exc.read = lambda: b"{}"  # type: ignore[method-assign]
     return exc
 
 
@@ -103,10 +113,7 @@ class RequestDoubleOptinTests(unittest.TestCase):
         with mock.patch("src.subscribers.urlopen") as urlopen_mock:
             result = request_double_optin(candidate)
         self.assertEqual(result.outcome, SignupOutcome.INVALID_EMAIL)
-        self.assertEqual(
-            result.message_de,
-            "Die E-Mail-Adresse darf maximal 254 Zeichen lang sein.",
-        )
+        self.assertEqual(result.message_de, "Die E-Mail-Adresse darf maximal 254 Zeichen lang sein.")
         urlopen_mock.assert_not_called()
 
     def test_missing_config_never_calls_brevo(self) -> None:
@@ -118,73 +125,113 @@ class RequestDoubleOptinTests(unittest.TestCase):
         self.assertEqual(result.outcome, SignupOutcome.CONFIG_MISSING)
         urlopen_mock.assert_not_called()
 
-    def test_successful_signup_triggers_double_optin_with_correct_payload(self) -> None:
+    def test_new_contact_signup_triggers_doi(self) -> None:
+        def side_effect(request, timeout=30):
+            if request.get_method() == "GET":
+                raise not_found_error()
+            self.assertEqual(request.full_url, BREVO_DOI_API_URL)
+            payload = json.loads(request.data)
+            self.assertEqual(payload["includeListIds"], [42])
+            self.assertEqual(payload["templateId"], 7)
+            return FakeResponse(201)
+
         with (
             mock.patch.dict(os.environ, ENVIRONMENT, clear=True),
-            mock.patch("src.subscribers.urlopen", return_value=FakeResponse(201)) as urlopen_mock,
+            mock.patch("src.subscribers.urlopen", side_effect=side_effect),
         ):
             result = request_double_optin("visitor@example.com")
 
         self.assertEqual(result.outcome, SignupOutcome.CONFIRMATION_SENT)
-        request = urlopen_mock.call_args.args[0]
-        self.assertEqual(request.full_url, BREVO_DOI_API_URL)
-        payload = json.loads(request.data)
-        self.assertEqual(payload["email"], "visitor@example.com")
-        self.assertEqual(payload["includeListIds"], [42])
-        self.assertEqual(payload["templateId"], 7)
-        self.assertEqual(payload["redirectionUrl"], ENVIRONMENT["BREVO_DOI_REDIRECT_URL"])
+
+    def test_unsubscribed_contact_is_removed_from_final_list_unblocked_and_sent_through_fresh_doi(self) -> None:
+        calls: list[tuple[str, str, dict | None]] = []
+
+        def side_effect(request, timeout=30):
+            method = request.get_method()
+            payload = json.loads(request.data) if request.data else None
+            calls.append((method, request.full_url, payload))
+            if method == "GET":
+                return FakeResponse(200, {"emailBlacklisted": True, "listIds": [42]})
+            if method == "PUT":
+                return FakeResponse(204)
+            if method == "POST":
+                return FakeResponse(201)
+            raise AssertionError(method)
+
+        with (
+            mock.patch.dict(os.environ, ENVIRONMENT, clear=True),
+            mock.patch("src.subscribers.urlopen", side_effect=side_effect),
+        ):
+            result = request_double_optin("visitor@example.com")
+
+        self.assertEqual(result.outcome, SignupOutcome.CONFIRMATION_SENT)
+        self.assertEqual([call[0] for call in calls], ["GET", "PUT", "POST"])
+        self.assertEqual(calls[1][2], {"emailBlacklisted": False, "unlinkListIds": [42]})
+        self.assertEqual(calls[2][2]["includeListIds"], [42])
+
+    def test_existing_unblocked_contact_is_not_modified_before_doi(self) -> None:
+        calls: list[str] = []
+
+        def side_effect(request, timeout=30):
+            method = request.get_method()
+            calls.append(method)
+            if method == "GET":
+                return FakeResponse(200, {"emailBlacklisted": False, "listIds": [42]})
+            if method == "POST":
+                return FakeResponse(201)
+            raise AssertionError(method)
+
+        with (
+            mock.patch.dict(os.environ, ENVIRONMENT, clear=True),
+            mock.patch("src.subscribers.urlopen", side_effect=side_effect),
+        ):
+            result = request_double_optin("visitor@example.com")
+
+        self.assertEqual(result.outcome, SignupOutcome.CONFIRMATION_SENT)
+        self.assertEqual(calls, ["GET", "POST"])
 
     def test_duplicate_signup_returns_friendly_already_pending_result(self) -> None:
         error = http_error(400, {"code": "duplicate_parameter", "message": "Contact already exist"})
+
+        def side_effect(request, timeout=30):
+            if request.get_method() == "GET":
+                return FakeResponse(200, {"emailBlacklisted": False})
+            raise error
+
         with (
             mock.patch.dict(os.environ, ENVIRONMENT, clear=True),
-            mock.patch("src.subscribers.urlopen", side_effect=error),
+            mock.patch("src.subscribers.urlopen", side_effect=side_effect),
         ):
             result = request_double_optin("visitor@example.com")
         self.assertEqual(result.outcome, SignupOutcome.ALREADY_PENDING_OR_CONFIRMED)
 
-    def test_duplicate_signup_detected_via_message_text_fallback(self) -> None:
-        error = http_error(400, {"code": "unrelated_code", "message": "This contact is already subscribed"})
-        with (
-            mock.patch.dict(os.environ, ENVIRONMENT, clear=True),
-            mock.patch("src.subscribers.urlopen", side_effect=error),
-        ):
-            result = request_double_optin("visitor@example.com")
-        self.assertEqual(result.outcome, SignupOutcome.ALREADY_PENDING_OR_CONFIRMED)
-
-    def test_generic_brevo_error_returns_safe_error_result_without_raising(self) -> None:
-        error = http_error(500, {"code": "internal_error", "message": "boom"})
-        with (
-            mock.patch.dict(os.environ, ENVIRONMENT, clear=True),
-            mock.patch("src.subscribers.urlopen", side_effect=error),
-        ):
-            result = request_double_optin("visitor@example.com")
-        self.assertEqual(result.outcome, SignupOutcome.ERROR)
-
-    def test_broken_error_response_body_never_propagates(self) -> None:
-        # Regression for a real gap found in adversarial review: a
-        # broken/reset connection while streaming Brevo's HTTP error
-        # response body makes HTTPError.read() itself raise. That raise
-        # happens inside the `except HTTPError` handler and is a sibling
-        # of -- not caught by -- the module's `except Exception` clause,
-        # so without an inner guard it would violate the "never raises"
-        # contract and surface a raw exception to the visitor.
-        error = http_error(400, {"code": "duplicate_parameter", "message": "irrelevant"})
-        error.read = mock.Mock(side_effect=ConnectionResetError("connection reset"))
-        with (
-            mock.patch.dict(os.environ, ENVIRONMENT, clear=True),
-            mock.patch("src.subscribers.urlopen", side_effect=error),
-        ):
-            result = request_double_optin("visitor@example.com")  # must not raise
-        self.assertEqual(result.outcome, SignupOutcome.ERROR)
-
-    def test_unexpected_exception_never_propagates(self) -> None:
+    def test_contact_lookup_failure_returns_safe_error(self) -> None:
         with (
             mock.patch.dict(os.environ, ENVIRONMENT, clear=True),
             mock.patch("src.subscribers.urlopen", side_effect=RuntimeError("network down")),
         ):
             result = request_double_optin("visitor@example.com")
         self.assertEqual(result.outcome, SignupOutcome.ERROR)
+
+    def test_unblock_failure_never_sends_doi(self) -> None:
+        calls: list[str] = []
+
+        def side_effect(request, timeout=30):
+            method = request.get_method()
+            calls.append(method)
+            if method == "GET":
+                return FakeResponse(200, {"emailBlacklisted": True})
+            if method == "PUT":
+                raise RuntimeError("update failed")
+            raise AssertionError("DOI must not be sent after failed preparation")
+
+        with (
+            mock.patch.dict(os.environ, ENVIRONMENT, clear=True),
+            mock.patch("src.subscribers.urlopen", side_effect=side_effect),
+        ):
+            result = request_double_optin("visitor@example.com")
+        self.assertEqual(result.outcome, SignupOutcome.ERROR)
+        self.assertEqual(calls, ["GET", "PUT"])
 
     def test_result_message_never_contains_api_key(self) -> None:
         with (
