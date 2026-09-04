@@ -1,26 +1,15 @@
 """Public newsletter signup via Brevo's native double opt-in.
 
 Brevo is the sole system of record for subscriber status. This module
-holds no subscriber database of its own -- it only ever makes one
-outbound call per signup attempt, to Brevo's
-``/v3/contacts/doubleOptinConfirmation`` endpoint, and returns a
-German-language, user-facing result. No email address is logged,
+holds no subscriber database of its own. No email address is logged,
 persisted, or written to disk by this module.
 
-Deliberately separate from ``src/notifications.py`` (existing admin
-change-notification path) and from ``src/subscriber_alerts.py`` (the
-alert-campaign dispatch triggered by change detection): a bug here
-cannot affect either of those.
-
-NOTE for whoever wires this up against a real Brevo account: the exact
-duplicate-signup error shape (``code``/``message`` on a 400 response)
-below is based on Brevo's publicly documented contact-API error
-conventions at the time this was written, and has **not** been verified
-against a live call (making that call would itself send a real email --
-disallowed without explicit approval). Verify the exact error `code`
-Brevo returns for an already-confirmed or already-pending contact
-against a real account before relying on this classification in
-production, and adjust ``_classify_duplicate`` if it differs.
+The signup flow also handles an explicit re-subscription after a previous
+unsubscribe. Brevo keeps such contacts as ``emailBlacklisted=true``. Before
+starting a new DOI flow we therefore check the existing contact. If it is
+blocklisted, we atomically remove it from the confirmed subscriber list and
+clear the marketing blocklist, then start a fresh DOI flow. This keeps the
+contact outside the alert audience until the new DOI is completed.
 """
 
 from __future__ import annotations
@@ -31,14 +20,13 @@ import re
 from dataclasses import dataclass
 from typing import Any
 from urllib.error import HTTPError
+from urllib.parse import quote
 from urllib.request import Request, urlopen
 
 
 BREVO_DOI_API_URL = "https://api.brevo.com/v3/contacts/doubleOptinConfirmation"
+BREVO_CONTACTS_API_URL = "https://api.brevo.com/v3/contacts"
 
-# Deliberately simple: good enough to reject obvious typos and unsafe control
-# characters client-side without pretending to be a full RFC 5322 validator.
-# Brevo performs the authoritative validation server-side.
 EMAIL_PATTERN = re.compile(r"^[^@\s\x00-\x1f]+@[^@\s\x00-\x1f]+\.[^@\s\x00-\x1f]+$")
 MAX_EMAIL_LENGTH = 254
 
@@ -49,9 +37,6 @@ REQUIRED_SIGNUP_ENV_VARS = [
     "BREVO_DOI_REDIRECT_URL",
 ]
 
-# Brevo error codes/messages that indicate "this address is already a
-# pending or confirmed contact" rather than a real failure. See the
-# module docstring: verify against a live account before production use.
 _DUPLICATE_ERROR_CODES = {"duplicate_parameter", "contact_already_exist"}
 _DUPLICATE_MESSAGE_MARKERS = ("already exist", "already subscribed", "duplicate")
 
@@ -111,12 +96,7 @@ def load_signup_config() -> SignupConfig:
 
 
 def request_double_optin(email: str) -> SignupResult:
-    """Trigger Brevo's native double opt-in flow for ``email``.
-
-    Never raises. Every failure mode -- invalid input, missing config,
-    network/API error -- is translated into a safe, honest German
-    message and returned, never surfaced as a stack trace to a visitor.
-    """
+    """Trigger Brevo's DOI flow and safely support explicit re-subscription."""
     candidate = (email or "").strip()
     if len(candidate) > MAX_EMAIL_LENGTH:
         return SignupResult(
@@ -126,7 +106,7 @@ def request_double_optin(email: str) -> SignupResult:
     if not is_valid_email(candidate):
         return SignupResult(
             SignupOutcome.INVALID_EMAIL,
-            "Bitte gib eine gueltige E-Mail-Adresse ein.",
+            "Bitte gib eine gültige E-Mail-Adresse ein.",
         )
 
     try:
@@ -134,7 +114,17 @@ def request_double_optin(email: str) -> SignupResult:
     except MissingSignupConfig:
         return SignupResult(
             SignupOutcome.CONFIG_MISSING,
-            "Die Anmeldung ist aktuell nicht verfuegbar. Bitte versuche es spaeter erneut.",
+            "Die Anmeldung ist aktuell nicht verfügbar. Bitte versuche es später erneut.",
+        )
+
+    try:
+        blocked = _is_marketing_blocklisted(config.api_key, candidate)
+        if blocked:
+            _prepare_resubscribe(config.api_key, candidate, config.list_id)
+    except Exception:
+        return SignupResult(
+            SignupOutcome.ERROR,
+            "Die erneute Anmeldung konnte nicht vorbereitet werden. Bitte versuche es später erneut.",
         )
 
     payload = {
@@ -147,39 +137,78 @@ def request_double_optin(email: str) -> SignupResult:
     try:
         _post_brevo(config.api_key, payload)
     except HTTPError as exc:
-        # exc.read() and the duplicate-error classification below are
-        # wrapped in their own try/except: a broken/reset connection
-        # while streaming Brevo's error response body can make
-        # exc.read() itself raise, and an exception raised inside this
-        # except-block is a *sibling* of -- not caught by -- the
-        # `except Exception:` clause further down. Without this inner
-        # guard, that would break request_double_optin's "never raises"
-        # contract and surface a raw traceback to the visitor.
         try:
             body = exc.read()
             if _is_duplicate_signup_error(exc.code, body):
                 return SignupResult(
                     SignupOutcome.ALREADY_PENDING_OR_CONFIRMED,
                     "Diese E-Mail-Adresse ist bereits angemeldet. Falls du noch keine "
-                    "Bestaetigungs-E-Mail erhalten hast, pruefe bitte deinen Spam-Ordner.",
+                    "Bestätigungs-E-Mail erhalten hast, prüfe bitte deinen Spam-Ordner.",
                 )
         except Exception:
             pass
         return SignupResult(
             SignupOutcome.ERROR,
-            "Die Anmeldung konnte nicht verarbeitet werden. Bitte versuche es spaeter erneut.",
+            "Die Anmeldung konnte nicht verarbeitet werden. Bitte versuche es später erneut.",
         )
     except Exception:
         return SignupResult(
             SignupOutcome.ERROR,
-            "Die Anmeldung konnte nicht verarbeitet werden. Bitte versuche es spaeter erneut.",
+            "Die Anmeldung konnte nicht verarbeitet werden. Bitte versuche es später erneut.",
         )
 
     return SignupResult(
         SignupOutcome.CONFIRMATION_SENT,
-        "Fast geschafft: Wir haben dir eine Bestaetigungs-E-Mail geschickt. "
-        "Bitte bestaetige deine Anmeldung ueber den Link darin.",
+        "Fast geschafft: Wir haben dir eine Bestätigungs-E-Mail geschickt. "
+        "Bitte bestätige deine Anmeldung über den Link darin.",
     )
+
+
+def _contact_url(email: str) -> str:
+    return f"{BREVO_CONTACTS_API_URL}/{quote(email, safe='')}"
+
+
+def _is_marketing_blocklisted(api_key: str, email: str) -> bool:
+    request = Request(
+        _contact_url(email),
+        method="GET",
+        headers={"accept": "application/json", "api-key": api_key},
+    )
+    try:
+        with urlopen(request, timeout=30) as response:
+            payload = json.loads(response.read().decode("utf-8"))
+    except HTTPError as exc:
+        if exc.code == 404:
+            return False
+        raise
+    return bool(payload.get("emailBlacklisted")) if isinstance(payload, dict) else False
+
+
+def _prepare_resubscribe(api_key: str, email: str, list_id: int) -> None:
+    """Remove a previously unsubscribed contact from the final list and unblock it.
+
+    Both fields are updated in one Brevo request. The subsequent DOI request is
+    what may add the contact back to the confirmed list, so subscriber alerts
+    remain fail-closed until confirmation.
+    """
+    payload = {
+        "emailBlacklisted": False,
+        "unlinkListIds": [list_id],
+    }
+    request = Request(
+        _contact_url(email),
+        data=json.dumps(payload).encode("utf-8"),
+        method="PUT",
+        headers={
+            "accept": "application/json",
+            "api-key": api_key,
+            "content-type": "application/json",
+        },
+    )
+    with urlopen(request, timeout=30) as response:
+        status_code = response.status
+    if not 200 <= status_code < 300:
+        raise RuntimeError(f"Brevo contact update failed with HTTP {status_code}")
 
 
 def _is_duplicate_signup_error(status_code: int, response_body: bytes) -> bool:
