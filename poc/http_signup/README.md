@@ -352,6 +352,18 @@ curl -X POST http://localhost:8600/api/newsletter/subscribe \
   -d '{"email": "you@example.com", "consent": true}'
 ```
 
+## Temporary production-like validation on Railway
+
+See **[DEPLOYMENT.md](DEPLOYMENT.md)** for a ready-to-execute runbook:
+deploying this exact code as a second, temporary Railway service
+alongside the existing app (no changes to it), which Railway variables
+are needed and how to reuse the existing Brevo secrets without copying
+them, and how to run `scripts/smoke_test_production.py` against the
+deployed instance to confirm a real double-opt-in email is triggered.
+That script is deliberately separate from the automated test suite
+above -- it makes real HTTP requests and, when explicitly told to,
+sends a real email.
+
 With no `BREVO_*` env vars set, any well-formed request safely resolves
 to `config_error` — no real subscriber or email is ever created without
 deliberately exporting real Brevo credentials first.

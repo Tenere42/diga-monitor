@@ -1,0 +1,6 @@
+{
+  "$schema": "https://railway.com/railway.schema.json",
+  "deploy": {
+    "startCommand": "pip install -r poc/http_signup/requirements.txt --quiet && python -m uvicorn poc.http_signup.asgi_app:app --host 0.0.0.0 --port $PORT"
+  }
+}
