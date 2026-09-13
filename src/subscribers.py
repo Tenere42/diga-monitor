@@ -159,8 +159,8 @@ def request_double_optin(email: str) -> SignupResult:
 
     return SignupResult(
         SignupOutcome.CONFIRMATION_SENT,
-        "Fast geschafft: Wir haben dir eine Bestätigungs-E-Mail geschickt. "
-        "Bitte bestätige deine Anmeldung über den Link darin.",
+        "Fast geschafft! Bitte bestätige deine E-Mail-Adresse über den "
+        "Bestätigungslink, den wir dir gerade geschickt haben.",
     )
 
 

@@ -133,11 +133,31 @@ def main() -> None:
     render_public_footer()
 
 
+# Session-state keys for the signup form below. Both hold only transient,
+# in-browser-session state -- never written to disk or logged, and cleared
+# (pending email) the moment the Brevo request finishes.
+_NEWSLETTER_PENDING_EMAIL_KEY = "newsletter_pending_email"
+_NEWSLETTER_RESULT_KEY = "newsletter_signup_result"
+_CONSENT_REQUIRED_OUTCOME = "consent_required"
+
+
 def render_newsletter_signup_section() -> None:
     """Public DiGA Tracker Alerts signup. Renders nothing at all -- no
     form, no placeholder, no text -- unless the newsletter feature is
     legal-ready (see src/legal_content.py). Subscriber state lives
-    entirely in Brevo; this function never stores an email address.
+    entirely in Brevo; this function never stores an email address beyond
+    the single in-flight request needed to call Brevo.
+
+    Uses a two-step submit so the button can show a real loading/disabled
+    state *while* the Brevo request is in flight (not just for the instant
+    the script reruns): the first rerun records the submitted email and
+    triggers a second rerun; that second rerun renders the form disabled,
+    performs the request inside ``st.spinner``, and triggers a third rerun
+    to show the result. The result itself is kept in ``st.session_state``
+    (not a local variable) so the confirmation/error banner stays visible
+    across any later rerun of the page -- e.g. from interacting with an
+    unrelated widget further down -- instead of silently disappearing
+    after the one script run that produced it.
     """
     if not is_legal_content_ready():
         return
@@ -148,29 +168,81 @@ def render_newsletter_signup_section() -> None:
         "Erhalte eine Benachrichtigung, sobald der DiGA Tracker eine relevante "
         "Änderung im BfArM DiGA-Verzeichnis erkennt."
     )
+
+    pending_email = st.session_state.get(_NEWSLETTER_PENDING_EMAIL_KEY)
+    is_submitting = pending_email is not None
+
     with st.form("newsletter_signup_form", clear_on_submit=True):
-        email = st.text_input("E-Mail-Adresse", placeholder="name@beispiel.de")
+        email = st.text_input(
+            "E-Mail-Adresse", placeholder="name@beispiel.de", disabled=is_submitting
+        )
         consent = st.checkbox(
             "Ich habe die Datenschutzerklärung gelesen und bin mit dem Empfang "
-            "der DiGA Tracker Alerts einverstanden."
+            "der DiGA Tracker Alerts einverstanden.",
+            disabled=is_submitting,
         )
-        submitted = st.form_submit_button("Updates abonnieren")
+        submitted = st.form_submit_button(
+            "Wird gesendet …" if is_submitting else "Updates abonnieren",
+            disabled=is_submitting,
+        )
 
-    if not submitted:
-        return
-    if not consent:
-        st.warning("Bitte bestätige, dass du die Datenschutzerklärung gelesen hast.")
+    if submitted and not is_submitting:
+        if not consent:
+            _store_newsletter_result(
+                _CONSENT_REQUIRED_OUTCOME,
+                "Bitte bestätige, dass du die Datenschutzerklärung gelesen hast.",
+            )
+        else:
+            st.session_state[_NEWSLETTER_PENDING_EMAIL_KEY] = email
+            st.session_state[_NEWSLETTER_RESULT_KEY] = None
+            st.rerun()
+            return
+
+    if is_submitting:
+        # Known, accepted edge case (raised in review): if the browser session
+        # is replaced mid-request -- a hard refresh or a failed websocket
+        # reconnect while this call is still in flight -- the pending marker
+        # above is lost with it, so a user could in principle submit again
+        # before the original request finishes. This is not a data-integrity
+        # issue: Brevo's own duplicate-DOI handling already covers repeat
+        # requests for the same address (see the ALREADY_PENDING_OR_CONFIRMED
+        # branch below), so the worst case is a second, harmless "already
+        # pending" result or DOI email -- never a corrupted or silently lost
+        # signup. Full prevention would need server-side idempotency, which
+        # is out of scope for this UX fix.
+        with st.spinner("Wir senden dir eine Bestätigungs-E-Mail …"):
+            result = request_double_optin(pending_email)
+        st.session_state[_NEWSLETTER_PENDING_EMAIL_KEY] = None
+        _store_newsletter_result(result.outcome, result.message_de)
+        st.rerun()
         return
 
-    result = request_double_optin(email)
-    if result.outcome == SignupOutcome.CONFIRMATION_SENT:
-        st.success(result.message_de)
-    elif result.outcome == SignupOutcome.ALREADY_PENDING_OR_CONFIRMED:
-        st.info(result.message_de)
-    elif result.outcome == SignupOutcome.INVALID_EMAIL:
-        st.warning(result.message_de)
+    _render_newsletter_result_banner()
+
+
+def _store_newsletter_result(outcome: str, message: str) -> None:
+    st.session_state[_NEWSLETTER_RESULT_KEY] = {"outcome": outcome, "message": message}
+
+
+def _render_newsletter_result_banner() -> None:
+    """Render the persisted signup result, if any. A no-op before the
+    first submission and after a full page reload (session_state is
+    per-session), but survives any in-session rerun triggered by
+    something other than this form -- see the docstring above.
+    """
+    result = st.session_state.get(_NEWSLETTER_RESULT_KEY)
+    if not result:
+        return
+    outcome = result["outcome"]
+    message = result["message"]
+    if outcome == SignupOutcome.CONFIRMATION_SENT:
+        st.success(message)
+    elif outcome == SignupOutcome.ALREADY_PENDING_OR_CONFIRMED:
+        st.info(message)
+    elif outcome in (SignupOutcome.INVALID_EMAIL, _CONSENT_REQUIRED_OUTCOME):
+        st.warning(message)
     else:
-        st.error(result.message_de)
+        st.error(message)
 
 
 def render_public_footer() -> None:

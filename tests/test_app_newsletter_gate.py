@@ -33,6 +33,7 @@ class NewsletterGateTests(unittest.TestCase):
             mock.patch("app.is_legal_content_ready", return_value=True),
             mock.patch("app.st") as mock_st,
         ):
+            mock_st.session_state = {}
             mock_st.form_submit_button.return_value = False
             app.render_newsletter_signup_section()
         mock_st.subheader.assert_called_once_with("DiGA Tracker Alerts abonnieren")
