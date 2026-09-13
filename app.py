@@ -202,6 +202,60 @@ def render_newsletter_signup_section() -> None:
     no ``logging.basicConfig()`` anywhere, so the stdlib's default root
     log level (WARNING) would otherwise silently drop INFO-level lines
     before they ever reach Railway's log stream.
+
+    Production incident record (do not remove without re-reading): a
+    reproduction on the production Railway deployment showed
+    NEWSLETTER_FORM_RENDER and one NEWSLETTER_WIDGET_STATE line for the
+    initial page load, but a real click on the submit button produced no
+    further NEWSLETTER_WIDGET_STATE line (the earliest marker below --
+    earlier than NEWSLETTER_SUBMIT_RECEIVED) and no other observed
+    server-side rerun/logging effect, within what was visible in
+    Railway's runtime log view. A follow-up controlled comparison made
+    this file substantially less likely to be the cause, though it
+    cannot fully exclude it (see caveats below):
+    - On the direct `*.up.railway.app` URL -- separately confirmed to
+      reproduce the same symptom as the custom domain, making a cause
+      specific to the custom domain's DNS/CDN chain less likely --
+      browser instrumentation (patching ``WebSocket.prototype.send``)
+      showed the browser *attempted to send* a WebSocket frame
+      immediately after the click. This does not by itself prove the
+      frame reached Railway's edge, reached the Python process, or was
+      well-formed; only that the browser's own ``send()`` call fired.
+      This strongly argues against a DOM/CSS click-interception issue
+      (though it cannot categorically rule out a transient overlay or
+      event-handler interference at some other moment): separately,
+      ``elementFromPoint()`` at the button's exact center returned the
+      button's own child node, i.e. nothing overlaps or intercepts
+      clicks there at the time this was checked.
+    - The exact same code, on the exact same Streamlit version (1.63.0,
+      matching production's own
+      ``NEWSLETTER_FORM_RENDER streamlit_version=...`` log line) run
+      **locally** via the identical click method correctly reached the
+      missing-consent branch and rendered the expected warning -- i.e.
+      the click-to-rerun path in this file handled an equivalent real
+      click correctly under real (non-mocked) Streamlit execution
+      locally. This does not by itself prove production's exact
+      WebSocket frame would be handled identically, since the
+      connection, session, and server process differ between the two
+      environments.
+    - No explicit `key=` collision, no custom global CSS/HTML overlay
+      anywhere in app.py that could intercept clicks (checked: every
+      ``unsafe_allow_html`` block in this file uses scoped class
+      selectors, none targets buttons/inputs/forms or sets
+      position/z-index/pointer-events broadly).
+    Conclusion: the evidence above points away from this file and
+    towards something in production's runtime, network path, or
+    process/replica topology -- not a proof that this file cannot be
+    contributing, since no tool available in this investigation could
+    observe the Python process's own receipt (or non-receipt) of that
+    specific WebSocket frame. Concretely still worth checking next, all
+    requiring Railway-side access this investigation did not have:
+    whether the frame is actually received (Railway edge/proxy logs, a
+    WS close code, or Streamlit's own verbose/debug log level), whether
+    more than one replica is running without session affinity, and
+    whether the exact bytes sent match a well-formed Streamlit
+    forward-message. None of that is Brevo credentials or apparent from
+    this file alone.
     """
     if not is_legal_content_ready():
         return
