@@ -206,7 +206,14 @@ def render_newsletter_signup_section() -> None:
     if not is_legal_content_ready():
         return
 
-    logger.warning("NEWSLETTER_FORM_RENDER")
+    # Includes the actually-running Streamlit version: requirements.txt only
+    # pins `streamlit>=1.35.0` with no upper bound and no lockfile, so the
+    # exact version resolved and installed by Railway's build is otherwise
+    # unknown here and could differ from a developer's local environment.
+    logger.warning(
+        "NEWSLETTER_FORM_RENDER streamlit_version=%s",
+        getattr(st, "__version__", "unknown"),
+    )
 
     st.divider()
     st.subheader("DiGA Tracker Alerts abonnieren")
@@ -219,18 +226,63 @@ def render_newsletter_signup_section() -> None:
     is_submitting = pending_email is not None
 
     with st.form("newsletter_signup_form", clear_on_submit=True):
+        # Explicit `key=` on every widget here: their `disabled` value (and
+        # the button's label) change between reruns of this same function
+        # (see is_submitting above), and Streamlit derives an auto-key from
+        # a widget's own parameters when none is given. An explicit key
+        # removes any dependency on that derivation -- and thus on exactly
+        # which parameters Streamlit's auto-key hashing does or doesn't
+        # include across versions -- for identifying "the same widget"
+        # across reruns. This did not come out of a proven bug (see the
+        # NEWSLETTER_WIDGET_STATE diagnostic below), but it is Streamlit's
+        # own recommended practice for widgets whose parameters vary across
+        # reruns, and it is free and risk-free, so there is no reason not
+        # to have it regardless.
         email = st.text_input(
-            "E-Mail-Adresse", placeholder="name@beispiel.de", disabled=is_submitting
+            "E-Mail-Adresse",
+            placeholder="name@beispiel.de",
+            disabled=is_submitting,
+            key="newsletter_email_input",
         )
         consent = st.checkbox(
             "Ich habe die Datenschutzerklärung gelesen und bin mit dem Empfang "
             "der DiGA Tracker Alerts einverstanden.",
             disabled=is_submitting,
+            key="newsletter_consent_checkbox",
         )
         submitted = st.form_submit_button(
             "Wird gesendet …" if is_submitting else "Updates abonnieren",
             disabled=is_submitting,
+            key="newsletter_submit_button",
         )
+
+    # Unconditional -- fires on every render of this section, regardless of
+    # whether this run is a submission. Diagnostic addition after a
+    # production reproduction showed NEWSLETTER_FORM_RENDER but none of the
+    # markers below it: that leaves it ambiguous whether Streamlit ever
+    # evaluated `submitted=True` for a real click (a code-level question)
+    # or whether the click's message never reached this process at all (an
+    # infrastructure/websocket question, outside this function's control).
+    # This line is supporting, not conclusive, evidence for telling those
+    # apart on the next reproduction -- it is emitted for every visitor and
+    # every rerun (dashboard filters included), with no per-click
+    # correlation id, so during a shared/busy window a `submitted=False`
+    # line is not provably "the" click being investigated. It is much more
+    # informative in an isolated reproduction (a single fresh browser tab,
+    # nobody else interacting with the page, log lines read immediately
+    # after the click by timestamp): a click with literally no new
+    # NEWSLETTER_WIDGET_STATE line at all afterwards points at the click
+    # never reaching the server; one that does appear with submitted=False
+    # would point at Streamlit itself not associating the click with this
+    # widget, reopening the code-level question. No PII either way:
+    # `email_provided`/`consent` are booleans, never the address itself.
+    logger.warning(
+        "NEWSLETTER_WIDGET_STATE submitted=%s is_submitting=%s email_provided=%s consent=%s",
+        submitted,
+        is_submitting,
+        bool(email),
+        bool(consent),
+    )
 
     if submitted and not is_submitting:
         logger.warning("NEWSLETTER_SUBMIT_RECEIVED")
