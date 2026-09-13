@@ -1,0 +1,17 @@
+# Dependencies for the HTTP newsletter signup PoC (poc/http_signup/).
+#
+# Not installed automatically and NOT part of the production app's
+# requirements.txt -- this PoC is not started in production. starlette
+# and uvicorn are already present transitively (Streamlit itself is
+# built on both as of the streamlit version pinned in the main
+# requirements.txt), so in practice nothing new needs installing to run
+# this PoC in an environment that already has the main app's
+# dependencies. Listed explicitly here anyway so this directory's
+# dependencies are self-documenting and don't silently rely on that
+# transitive relationship.
+starlette>=1.0
+uvicorn>=0.34
+
+# Dev/test only -- needed for starlette.testclient.TestClient, used by
+# tests/test_routes_integration.py. Not needed to just run the server.
+httpx>=0.28
