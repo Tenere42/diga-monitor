@@ -4,7 +4,9 @@ from __future__ import annotations
 
 import html
 import json
+import logging
 import re
+import traceback
 from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -17,6 +19,9 @@ from src.dashboard_cache import change_files_signature, scan_history_signature
 from src.legal_content import is_legal_content_ready, load_operator_profile
 from src.subscribers import SignupOutcome, request_double_optin
 from src.scan_history import DEFAULT_SCAN_HISTORY_PATH, load_scan_history
+
+
+logger = logging.getLogger(__name__)
 
 
 TRACKING_START_DATE = date(2026, 5, 31)
@@ -134,11 +139,37 @@ def main() -> None:
 
 
 # Session-state keys for the signup form below. Both hold only transient,
-# in-browser-session state -- never written to disk or logged, and cleared
-# (pending email) the moment the Brevo request finishes.
+# in-browser-session state -- never written to disk, and never logged
+# themselves (the diagnostic log lines below log fixed marker strings and,
+# at most, a Brevo outcome *code* such as "confirmation_sent" -- never the
+# email address). Cleared (pending email) the moment the Brevo request
+# finishes.
 _NEWSLETTER_PENDING_EMAIL_KEY = "newsletter_pending_email"
 _NEWSLETTER_RESULT_KEY = "newsletter_signup_result"
 _CONSENT_REQUIRED_OUTCOME = "consent_required"
+_NEWSLETTER_UNEXPECTED_ERROR_MESSAGE = (
+    "Bei der Anmeldung ist ein unerwarteter Fehler aufgetreten. "
+    "Bitte versuche es später erneut."
+)
+# Closed allowlist for the outcome code logged in NEWSLETTER_REQUEST_RESULT.
+# request_double_optin() only ever returns one of these fixed SignupOutcome
+# constants (never anything derived from the email or other user input),
+# but the log line maps through this allowlist anyway rather than logging
+# `result.outcome` directly, so a future change to that contract can never
+# turn this log line into a free-text/PII sink by accident.
+_KNOWN_SIGNUP_OUTCOMES = frozenset(
+    {
+        SignupOutcome.CONFIRMATION_SENT,
+        SignupOutcome.ALREADY_PENDING_OR_CONFIRMED,
+        SignupOutcome.INVALID_EMAIL,
+        SignupOutcome.CONFIG_MISSING,
+        SignupOutcome.ERROR,
+    }
+)
+
+
+def _safe_outcome_for_log(outcome: str) -> str:
+    return outcome if outcome in _KNOWN_SIGNUP_OUTCOMES else "unknown"
 
 
 def render_newsletter_signup_section() -> None:
@@ -146,7 +177,9 @@ def render_newsletter_signup_section() -> None:
     form, no placeholder, no text -- unless the newsletter feature is
     legal-ready (see src/legal_content.py). Subscriber state lives
     entirely in Brevo; this function never stores an email address beyond
-    the single in-flight request needed to call Brevo.
+    the single in-flight request needed to call Brevo, and never logs one
+    (see the diagnostic log lines below and the module-level constants
+    above).
 
     Uses a two-step submit so the button can show a real loading/disabled
     state *while* the Brevo request is in flight (not just for the instant
@@ -158,9 +191,22 @@ def render_newsletter_signup_section() -> None:
     across any later rerun of the page -- e.g. from interacting with an
     unrelated widget further down -- instead of silently disappearing
     after the one script run that produced it.
+
+    Diagnostic logging: this function logs a fixed set of PII-free marker
+    lines (``NEWSLETTER_FORM_RENDER``, ``NEWSLETTER_SUBMIT_RECEIVED``,
+    ``NEWSLETTER_PENDING_SET``, ``NEWSLETTER_REQUEST_START``,
+    ``NEWSLETTER_REQUEST_RESULT``, ``NEWSLETTER_RERUN_TRIGGERED``) so a
+    stuck or silently failing signup can be diagnosed from Railway's
+    runtime logs alone. Logged at WARNING level to match the existing
+    ``NEWSLETTER_RUNTIME_GATE`` line in src/legal_content.py: this app has
+    no ``logging.basicConfig()`` anywhere, so the stdlib's default root
+    log level (WARNING) would otherwise silently drop INFO-level lines
+    before they ever reach Railway's log stream.
     """
     if not is_legal_content_ready():
         return
+
+    logger.warning("NEWSLETTER_FORM_RENDER")
 
     st.divider()
     st.subheader("DiGA Tracker Alerts abonnieren")
@@ -187,6 +233,7 @@ def render_newsletter_signup_section() -> None:
         )
 
     if submitted and not is_submitting:
+        logger.warning("NEWSLETTER_SUBMIT_RECEIVED")
         if not consent:
             _store_newsletter_result(
                 _CONSENT_REQUIRED_OUTCOME,
@@ -195,6 +242,8 @@ def render_newsletter_signup_section() -> None:
         else:
             st.session_state[_NEWSLETTER_PENDING_EMAIL_KEY] = email
             st.session_state[_NEWSLETTER_RESULT_KEY] = None
+            logger.warning("NEWSLETTER_PENDING_SET")
+            logger.warning("NEWSLETTER_RERUN_TRIGGERED")
             st.rerun()
             return
 
@@ -210,10 +259,42 @@ def render_newsletter_signup_section() -> None:
         # pending" result or DOI email -- never a corrupted or silently lost
         # signup. Full prevention would need server-side idempotency, which
         # is out of scope for this UX fix.
-        with st.spinner("Wir senden dir eine Bestätigungs-E-Mail …"):
-            result = request_double_optin(pending_email)
-        st.session_state[_NEWSLETTER_PENDING_EMAIL_KEY] = None
-        _store_newsletter_result(result.outcome, result.message_de)
+        try:
+            logger.warning("NEWSLETTER_REQUEST_START")
+            with st.spinner("Wir senden dir eine Bestätigungs-E-Mail …"):
+                result = request_double_optin(pending_email)
+            logger.warning(
+                "NEWSLETTER_REQUEST_RESULT result=%s", _safe_outcome_for_log(result.outcome)
+            )
+            st.session_state[_NEWSLETTER_PENDING_EMAIL_KEY] = None
+            _store_newsletter_result(result.outcome, result.message_de)
+        except Exception as exc:
+            # request_double_optin() is documented and tested to never
+            # raise -- it converts every failure mode (invalid input,
+            # missing config, network/API error) into a safe SignupResult
+            # itself. This is a defensive backstop for anything unexpected
+            # outside that contract (e.g. an environment/runtime issue),
+            # covering the request call, the spinner, and the result
+            # bookkeeping right below it, so a production error anywhere in
+            # this block can never look like nothing happened.
+            #
+            # Deliberately log only the exception TYPE and a sanitized
+            # traceback (file/line/source text per frame via
+            # traceback.format_tb) -- never str(exc)/exc.args, and never
+            # logger.exception()'s default formatting, both of which would
+            # include the exception's own message. That message is outside
+            # this function's control and, unlike everywhere else in this
+            # module, cannot be proven to never contain the email address
+            # or other request data if request_double_optin()'s
+            # never-raises contract were ever broken by a future change.
+            logger.warning(
+                "NEWSLETTER_REQUEST_UNEXPECTED_ERROR exception_type=%s\n%s",
+                type(exc).__name__,
+                "".join(traceback.format_tb(exc.__traceback__)),
+            )
+            st.session_state[_NEWSLETTER_PENDING_EMAIL_KEY] = None
+            _store_newsletter_result(SignupOutcome.ERROR, _NEWSLETTER_UNEXPECTED_ERROR_MESSAGE)
+        logger.warning("NEWSLETTER_RERUN_TRIGGERED")
         st.rerun()
         return
 
