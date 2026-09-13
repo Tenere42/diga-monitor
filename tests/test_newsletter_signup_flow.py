@@ -55,6 +55,79 @@ class NewsletterSignupFlowTests(unittest.TestCase):
             "Bitte bestätige, dass du die Datenschutzerklärung gelesen hast."
         )
 
+    def test_form_render_log_includes_the_running_streamlit_version(self) -> None:
+        # requirements.txt only pins streamlit>=1.35.0 with no upper bound
+        # and no lockfile, so this is the only way to see, from Railway's
+        # logs alone, whether production is actually running a materially
+        # different Streamlit version than a developer's local environment.
+        with self.assertLogs("app", level="WARNING") as log_ctx:
+            with mock.patch("app.st") as mock_st:
+                mock_st.__version__ = "1.63.0"
+                mock_st.session_state = {}
+                self._run(mock_st, submitted=False)
+        self.assertIn(
+            "NEWSLETTER_FORM_RENDER streamlit_version=1.63.0", "\n".join(log_ctx.output)
+        )
+
+    def test_widgets_have_explicit_keys(self) -> None:
+        # Their `disabled` value and (for the button) label change across
+        # reruns of this function; an explicit key removes any dependency
+        # on Streamlit's auto-key derivation for identifying "the same
+        # widget" across those reruns.
+        with mock.patch("app.st") as mock_st:
+            mock_st.session_state = {}
+            self._run(mock_st, submitted=False)
+        self.assertEqual(
+            mock_st.text_input.call_args.kwargs["key"], "newsletter_email_input"
+        )
+        self.assertEqual(
+            mock_st.checkbox.call_args.kwargs["key"], "newsletter_consent_checkbox"
+        )
+        self.assertEqual(
+            mock_st.form_submit_button.call_args.kwargs["key"], "newsletter_submit_button"
+        )
+
+    def test_widget_state_diagnostic_fires_unconditionally_without_email(self) -> None:
+        """Regression test for the follow-up production diagnosis: this
+        line must fire on every render (not just on a submission), so an
+        isolated single-session reproduction (one fresh tab, no other
+        interactions) can tell "the click never reached the server" apart
+        from "Streamlit evaluated submitted=False for a real click". It is
+        supporting, not conclusive, evidence in a busier/shared window --
+        it carries no per-click correlation id (see app.py's comment).
+        """
+        secret_email = "secret-visitor@example.com"
+
+        with self.assertLogs("app", level="WARNING") as log_ctx:
+            with mock.patch("app.st") as mock_st:
+                mock_st.session_state = {}
+                mock_st.text_input.return_value = secret_email
+                self._run(mock_st, submitted=False, consent=False)
+        joined = "\n".join(log_ctx.output)
+        self.assertIn(
+            "NEWSLETTER_WIDGET_STATE submitted=False is_submitting=False "
+            "email_provided=True consent=False",
+            joined,
+        )
+        self.assertNotIn(secret_email, joined)
+
+        with self.assertLogs("app", level="WARNING") as log_ctx:
+            with (
+                mock.patch("app.st") as mock_st,
+                mock.patch("app.request_double_optin") as mock_request,
+            ):
+                mock_st.session_state = {}
+                mock_st.text_input.return_value = secret_email
+                self._run(mock_st, submitted=True, consent=True)
+        mock_request.assert_not_called()
+        joined = "\n".join(log_ctx.output)
+        self.assertIn(
+            "NEWSLETTER_WIDGET_STATE submitted=True is_submitting=False "
+            "email_provided=True consent=True",
+            joined,
+        )
+        self.assertNotIn(secret_email, joined)
+
     def test_pending_state_disables_the_form_and_shows_a_loading_label(self) -> None:
         with mock.patch("app.st") as mock_st:
             mock_st.session_state = {app._NEWSLETTER_PENDING_EMAIL_KEY: "visitor@example.com"}
