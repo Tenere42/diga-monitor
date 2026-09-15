@@ -15,11 +15,13 @@ contact outside the alert audience until the new DOI is completed.
 from __future__ import annotations
 
 import json
+import logging
 import os
 import re
+import socket
 from dataclasses import dataclass
 from typing import Any
-from urllib.error import HTTPError
+from urllib.error import HTTPError, URLError
 from urllib.parse import quote
 from urllib.request import Request, urlopen
 
@@ -39,6 +41,88 @@ REQUIRED_SIGNUP_ENV_VARS = [
 
 _DUPLICATE_ERROR_CODES = {"duplicate_parameter", "contact_already_exist"}
 _DUPLICATE_MESSAGE_MARKERS = ("already exist", "already subscribed", "duplicate")
+logger = logging.getLogger(__name__)
+
+# Only fixed labels are emitted. Brevo response messages and exception strings
+# may contain contact addresses, request URLs, or credentials.
+_SAFE_BREVO_ERROR_CODES = frozenset(
+    {
+        "duplicate_parameter",
+        "contact_already_exist",
+        "invalid_parameter",
+        "unauthorized",
+        "not_found",
+    }
+)
+
+
+class _UnexpectedBrevoStatus(RuntimeError):
+    def __init__(self, status: int) -> None:
+        self.status = status
+        super().__init__("Unexpected Brevo HTTP status")
+
+
+def _brevo_error_code(body: bytes) -> str:
+    try:
+        payload = json.loads(body)
+    except (ValueError, UnicodeDecodeError, TypeError):
+        return "unknown"
+    code = payload.get("code") if isinstance(payload, dict) else None
+    return code if isinstance(code, str) and code in _SAFE_BREVO_ERROR_CODES else "unknown"
+
+
+def _log_brevo_failure(stage: str, exc: Exception, *, body: bytes = b"") -> None:
+    if isinstance(exc, (HTTPError, _UnexpectedBrevoStatus)):
+        raw_status = exc.code if isinstance(exc, HTTPError) else exc.status
+        status = (
+            raw_status
+            if isinstance(raw_status, int) and 100 <= raw_status <= 599
+            else "unknown"
+        )
+        category = {
+            400: "bad_request",
+            401: "unauthorized",
+            403: "forbidden",
+            404: "not_found",
+            429: "rate_limited",
+        }.get(
+            status,
+            "upstream_server_error"
+            if isinstance(status, int) and status >= 500
+            else "other_http",
+        )
+        exception_type = (
+            "HTTPError" if isinstance(exc, HTTPError) else "UnexpectedStatus"
+        )
+    elif isinstance(exc, (socket.timeout, TimeoutError)) or (
+        isinstance(exc, URLError)
+        and isinstance(exc.reason, (socket.timeout, TimeoutError))
+    ):
+        status, category, exception_type = "none", "timeout", "TimeoutError"
+    elif isinstance(exc, URLError):
+        status, category, exception_type = "none", "network", "URLError"
+    elif isinstance(exc, (ValueError, UnicodeDecodeError, TypeError, KeyError)):
+        status, category, exception_type = (
+            "none",
+            "unexpected_response",
+            "ResponseError",
+        )
+    else:
+        status, category, exception_type = (
+            "none",
+            "unexpected_failure",
+            "OtherError",
+        )
+
+    logger.warning(
+        "BREVO_SIGNUP_FAILURE stage=%s http_status=%s category=%s "
+        "exception_type=%s brevo_code=%s",
+        stage,
+        status,
+        category,
+        exception_type,
+        _brevo_error_code(body) if isinstance(exc, HTTPError) else "unknown",
+    )
 
 
 class SignupOutcome:
@@ -77,9 +161,14 @@ def is_valid_email(value: str) -> bool:
 
 
 def load_signup_config() -> SignupConfig:
-    missing = [name for name in REQUIRED_SIGNUP_ENV_VARS if not os.getenv(name, "").strip()]
+    missing = [
+        name
+        for name in REQUIRED_SIGNUP_ENV_VARS
+        if not os.getenv(name, "").strip()
+    ]
     if missing:
         raise MissingSignupConfig(missing)
+
     try:
         list_id = int(os.environ["BREVO_NEWSLETTER_LIST_ID"])
         template_id = int(os.environ["BREVO_DOI_TEMPLATE_ID"])
@@ -87,6 +176,7 @@ def load_signup_config() -> SignupConfig:
         raise MissingSignupConfig(
             ["BREVO_NEWSLETTER_LIST_ID/BREVO_DOI_TEMPLATE_ID (must be numeric)"]
         ) from exc
+
     return SignupConfig(
         api_key=os.environ["BREVO_API_KEY"],
         list_id=list_id,
@@ -98,11 +188,13 @@ def load_signup_config() -> SignupConfig:
 def request_double_optin(email: str) -> SignupResult:
     """Trigger Brevo's DOI flow and safely support explicit re-subscription."""
     candidate = (email or "").strip()
+
     if len(candidate) > MAX_EMAIL_LENGTH:
         return SignupResult(
             SignupOutcome.INVALID_EMAIL,
             "Die E-Mail-Adresse darf maximal 254 Zeichen lang sein.",
         )
+
     if not is_valid_email(candidate):
         return SignupResult(
             SignupOutcome.INVALID_EMAIL,
@@ -121,10 +213,12 @@ def request_double_optin(email: str) -> SignupResult:
         blocked = _is_marketing_blocklisted(config.api_key, candidate)
         if blocked:
             _prepare_resubscribe(config.api_key, candidate, config.list_id)
-    except Exception:
+    except Exception as exc:
+        _log_brevo_failure("contact_check_or_prepare", exc)
         return SignupResult(
             SignupOutcome.ERROR,
-            "Die erneute Anmeldung konnte nicht vorbereitet werden. Bitte versuche es später erneut.",
+            "Die erneute Anmeldung konnte nicht vorbereitet werden. "
+            "Bitte versuche es später erneut.",
         )
 
     payload = {
@@ -137,6 +231,7 @@ def request_double_optin(email: str) -> SignupResult:
     try:
         _post_brevo(config.api_key, payload)
     except HTTPError as exc:
+        body = b""
         try:
             body = exc.read()
             if _is_duplicate_signup_error(exc.code, body):
@@ -147,14 +242,19 @@ def request_double_optin(email: str) -> SignupResult:
                 )
         except Exception:
             pass
+
+        _log_brevo_failure("doi_post", exc, body=body)
         return SignupResult(
             SignupOutcome.ERROR,
-            "Die Anmeldung konnte nicht verarbeitet werden. Bitte versuche es später erneut.",
+            "Die Anmeldung konnte nicht verarbeitet werden. "
+            "Bitte versuche es später erneut.",
         )
-    except Exception:
+    except Exception as exc:
+        _log_brevo_failure("doi_post", exc)
         return SignupResult(
             SignupOutcome.ERROR,
-            "Die Anmeldung konnte nicht verarbeitet werden. Bitte versuche es später erneut.",
+            "Die Anmeldung konnte nicht verarbeitet werden. "
+            "Bitte versuche es später erneut.",
         )
 
     return SignupResult(
@@ -172,8 +272,12 @@ def _is_marketing_blocklisted(api_key: str, email: str) -> bool:
     request = Request(
         _contact_url(email),
         method="GET",
-        headers={"accept": "application/json", "api-key": api_key},
+        headers={
+            "accept": "application/json",
+            "api-key": api_key,
+        },
     )
+
     try:
         with urlopen(request, timeout=30) as response:
             payload = json.loads(response.read().decode("utf-8"))
@@ -181,6 +285,7 @@ def _is_marketing_blocklisted(api_key: str, email: str) -> bool:
         if exc.code == 404:
             return False
         raise
+
     return bool(payload.get("emailBlacklisted")) if isinstance(payload, dict) else False
 
 
@@ -195,6 +300,7 @@ def _prepare_resubscribe(api_key: str, email: str, list_id: int) -> None:
         "emailBlacklisted": False,
         "unlinkListIds": [list_id],
     }
+
     request = Request(
         _contact_url(email),
         data=json.dumps(payload).encode("utf-8"),
@@ -205,25 +311,32 @@ def _prepare_resubscribe(api_key: str, email: str, list_id: int) -> None:
             "content-type": "application/json",
         },
     )
+
     with urlopen(request, timeout=30) as response:
         status_code = response.status
+
     if not 200 <= status_code < 300:
-        raise RuntimeError(f"Brevo contact update failed with HTTP {status_code}")
+        raise _UnexpectedBrevoStatus(status_code)
 
 
 def _is_duplicate_signup_error(status_code: int, response_body: bytes) -> bool:
     if status_code != 400:
         return False
+
     try:
         payload = json.loads(response_body)
     except (ValueError, UnicodeDecodeError):
         return False
+
     if not isinstance(payload, dict):
         return False
+
     code = str(payload.get("code") or "").strip()
     message = str(payload.get("message") or "").lower()
+
     if code in _DUPLICATE_ERROR_CODES:
         return True
+
     return any(marker in message for marker in _DUPLICATE_MESSAGE_MARKERS)
 
 
@@ -238,7 +351,9 @@ def _post_brevo(api_key: str, payload: dict[str, Any]) -> None:
             "content-type": "application/json",
         },
     )
+
     with urlopen(request, timeout=30) as response:
         status_code = response.status
+
     if not 200 <= status_code < 300:
-        raise RuntimeError(f"Brevo API request failed with HTTP {status_code}")
+        raise _UnexpectedBrevoStatus(status_code)
