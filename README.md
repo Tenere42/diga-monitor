@@ -1,5 +1,30 @@
 # DiGA Directory Change Monitor
 
+## Dashboard visual foundation (Phase A)
+
+The public Streamlit UI uses **DiGA Tracker** branding. Presentation tokens and
+responsive styles live in `assets/styles.css`; `src/ui.py` loads that stylesheet
+relative to the repository and provides small HTML presentation helpers.
+`.streamlit/config.toml` contains only the monochrome light theme. No external
+font service or frontend framework is required.
+
+The layout uses 16px mobile gutters, a 72rem maximum outer content width, and
+larger gutters from 48rem. Before/after panels stack on phones. Diff additions
+are underlined and deletions struck through, with accessible text labels;
+listing-status labels remain visible. The former OS dark-mode overrides have
+been removed. Native Streamlit selector dependencies are documented at the top
+of the stylesheet and should be checked when upgrading Streamlit.
+
+Phase A preserves the existing page sequence, filters, event semantics,
+newsletter state machine and legal routes. It does not add the proposed hero,
+market KPIs, search, navigation, or a separate history page.
+
+Focused offline checks: `python -m unittest discover -s tests -p test_ui_foundation.py`.
+These include Streamlit AppTest with a mocked newsletter backend; no real signup
+or Brevo request is made. Browser viewport checks at 375, 430, 768 and 1440px
+(plus 320 and 390px) remain a required visual review before Phase B. AppTest
+checks Python/widget behavior, not pixel layout.
+
 A small Python CLI and Streamlit MVP for monitoring changes in the BfArM DiGA directory.
 
 The app compares each scan with one operational JSON baseline, writes structured change events, archives selected full snapshots in Cloudflare R2, and shows a pure change feed. It does not duplicate the public DiGA directory.

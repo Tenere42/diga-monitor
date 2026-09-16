@@ -2,12 +2,37 @@
 
 ## Current objective
 
-No active implementation task is in flight. The DiGA Tracker rebrand, the
-Railway migration of the public dashboard, and the production URL switch to
-`https://www.diga-tracker.de` are complete in code/docs. One manual step
-remains: setting the `DIGA_MONITOR_DASHBOARD_URL` GitHub repository variable
-(see "Next recommended step"). Awaiting the next ChatGPT decision/spec
-before starting new implementation work.
+Phase A of the black-and-white UI foundation is implemented on
+`codex/ui-redesign-black-white`, based on GitHub main
+`b682241c18d4b3ef58a81d0c50f605dab727cb02`. It is not merged or deployed.
+Only presentation, public branding, focused tests and documentation changed.
+Phase B (homepage information architecture, KPIs and history navigation) is
+explicitly deferred until visual review.
+
+### Phase A validation / handoff — 2026-09-16
+
+- Central CSS tokens, a presentation-only `src/ui.py`, and a light monochrome
+  Streamlit theme replace scattered colored/OS-dark-mode presentation rules.
+- Newsletter functions, business helpers, cache inputs, routes and render order
+  were compared against the starting commit; behavioral code is unchanged.
+  Full current-data comparison: 380 raw events, 263 eligible events, 25 groups,
+  173 displayed adjustments; ordering/grouping and four date-filter cases match.
+- The starting main suite has two pre-existing failures: historical tests expect
+  369 events, but current data contains 380. Protected fixtures and existing
+  tests were not changed to conceal this mismatch.
+- Nine new presentation/Streamlit AppTest checks pass, including mocked signup,
+  consent, reruns/result persistence and existing legal routes. No real Brevo
+  request or signup was performed. Full suite: 169 tests, 167 pass, the same
+  two baseline historical-count failures, no new failures.
+- Claude was unavailable per task instruction. Codex self-review checked the
+  protected-file boundary, unchanged business/newsletter logic, CSS hooks,
+  non-color semantics, branding and Phase A scope. An obsolete native CSS hook
+  and an overly broad text-color rule were removed during review.
+- Browser access to the local preview was denied. Actual mobile/desktop
+  rendering, overflow, keyboard focus and touch targets still need visual
+  review at 320/375/390/430/768/1440px before Phase B. AppTest is not a visual test.
+- The older production/configuration notes below are historical context, not a
+  fresh verification of Railway settings or repository variables.
 
 ## Production status
 
@@ -84,7 +109,8 @@ low" and was consciously overridden for the merge.
 
 ## Current branch / PR
 
-- Branch: `main` (no active implementation branch or open work-in-progress PR).
+- Active implementation branch: `codex/ui-redesign-black-white` (Phase A only;
+  not merged or deployed).
 - `codex/rebrand-diga-tracker` is merged into `main` and is a candidate for deletion, pending confirmation.
 - Branches `codex/legacy-history-cleanup-prep`, `codex/notification-recipient-config`, `codex/remove-legacy-snapshots`, and `infra/claude-github-review` are fully merged (0 commits ahead of `main`) and are candidates for deletion, pending confirmation.
 - Open PR #2 ("Test Claude PR review end to end", branch `test/claude-review-e2e`) is explicitly marked "Do not merge" in its description — a harmless one-sentence `PROJECT_STATE.md` change used only to validate the Claude PR review workflow, GitHub OIDC, and Anthropic Workload Identity Federation end to end. It remains open and untouched.
@@ -116,7 +142,13 @@ low" and was consciously overridden for the merge.
 
 ## Next recommended step
 
-No code implementation work is pending. One manual GitHub step remains:
+Review the Phase A branch visually before planning Phase B. Resolve the two
+pre-existing historical-test count expectations in a separate, authorized
+data/test-maintenance task; this presentation change deliberately leaves them
+untouched. Do not merge or deploy this branch without a subsequent decision.
+
+The following production URL configuration follow-up is retained from the
+earlier handoff and was not re-verified during Phase A:
 
 1. In the `Tenere42/diga-monitor` repository, go to
    `Settings > Secrets and variables > Actions > Variables` and set (or
@@ -130,4 +162,4 @@ No code implementation work is pending. One manual GitHub step remains:
 
 ## Last updated
 
-2026-08-29 (production URL switch to https://www.diga-tracker.de on Railway)
+2026-09-16 (Phase A presentation foundation; production unchanged)

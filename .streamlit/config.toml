@@ -1,0 +1,8 @@
+# Presentation only. Server, deployment and runtime settings stay unchanged.
+[theme]
+base = "light"
+primaryColor = "#171717"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f5f5f5"
+textColor = "#171717"
+font = "sans serif"

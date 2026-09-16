@@ -14,6 +14,7 @@ from zoneinfo import ZoneInfo
 
 import streamlit as st
 
+from src.ui import diff_text_html, public_header_html, stylesheet_html
 from src.change_events import DEFAULT_CHANGES_DIR, load_change_events
 from src.dashboard_cache import change_files_signature, scan_history_signature
 from src.legal_content import is_legal_content_ready, load_operator_profile
@@ -87,7 +88,8 @@ LONG_TEXT_EXCERPT_CHARS = 500
 
 
 def main() -> None:
-    st.set_page_config(page_title="DiGA Monitor", layout="wide")
+    st.set_page_config(page_title="DiGA Tracker", layout="wide")
+    st.markdown(stylesheet_html(), unsafe_allow_html=True)
 
     # Query-param routing to newsletter status/legal views, kept inside this
     # single app rather than a new Streamlit page so the existing default
@@ -388,7 +390,7 @@ def render_public_footer() -> None:
 
     st.divider()
     st.markdown(
-        '<div style="font-size:0.85rem;color:#6b7280;">'
+        '<div class="diga-footer">'
         "DiGA Tracker &middot; "
         '<a href="?view=datenschutz" target="_self">Datenschutzerklärung</a>'
         "</div>",
@@ -500,73 +502,7 @@ def load_dashboard_data(
 
 
 def render_page_header() -> None:
-    st.markdown(
-        """
-        <style>
-        :root {
-            --diga-header-title: #111827;
-            --diga-header-text: #1f2937;
-            --diga-header-muted: #4b5563;
-            --diga-header-value: #111827;
-            --diga-diff-added-bg: rgba(22, 163, 74, 0.16);
-            --diga-diff-added-border: #16a34a;
-            --diga-diff-removed-bg: rgba(220, 38, 38, 0.16);
-            --diga-diff-removed-border: #dc2626;
-        }
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --diga-header-title: #f9fafb;
-                --diga-header-text: #f3f4f6;
-                --diga-header-muted: #d1d5db;
-                --diga-header-value: #ffffff;
-                --diga-diff-added-bg: rgba(34, 197, 94, 0.24);
-                --diga-diff-added-border: #22c55e;
-                --diga-diff-removed-bg: rgba(248, 113, 113, 0.24);
-                --diga-diff-removed-border: #f87171;
-            }
-        }
-        .diga-page-header {
-            margin-bottom: 1rem;
-        }
-        .diga-page-title {
-            color: var(--diga-header-title);
-            font-size: 2.5rem;
-            font-weight: 700;
-            line-height: 1.15;
-            margin: 0 0 0.35rem;
-        }
-        .diga-page-subtitle {
-            color: var(--diga-header-text);
-            font-size: 1.08rem;
-            line-height: 1.45;
-            margin: 0;
-        }
-        .diga-page-source {
-            color: var(--diga-header-muted);
-            font-size: 0.9rem;
-            line-height: 1.45;
-            margin-top: 0.35rem;
-        }
-        @media (max-width: 720px) {
-            .diga-page-title {
-                font-size: 2rem;
-            }
-            .diga-page-subtitle {
-                font-size: 1rem;
-            }
-            .diga-page-source {
-                font-size: 0.92rem;
-            }
-        }
-        </style>
-        <header class="diga-page-header">
-            <h1 class="diga-page-title">DiGA Monitor</h1>
-            <p class="diga-page-subtitle">Änderungen im DiGA-Verzeichnis transparent verfolgen</p>
-            <div class="diga-page-source">Quelle: Offizielles DiGA-Verzeichnis des BfArM</div>
-        </header>
-        """,
-        unsafe_allow_html=True,
-    )
+    st.markdown(public_header_html(), unsafe_allow_html=True)
 
 
 def render_filters(events: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -593,44 +529,6 @@ def render_status_information(
     real_events: list[dict[str, Any]],
     scan_history: list[dict[str, Any]],
 ) -> None:
-    st.markdown(
-        """
-        <style>
-        .status-grid {
-            display: grid;
-            grid-template-columns: repeat(3, minmax(0, 1fr));
-            gap: 1rem;
-            margin: 1rem 0 1.25rem;
-        }
-        .status-item {
-            color: var(--diga-header-value);
-            font-size: 1rem;
-            line-height: 1.45;
-        }
-        .status-label {
-            color: var(--diga-header-muted);
-            font-weight: 600;
-            white-space: nowrap;
-        }
-        .status-value {
-            color: var(--diga-header-value);
-            font-weight: 500;
-            margin-top: 0.15rem;
-            white-space: nowrap;
-        }
-        @media (max-width: 720px) {
-            .status-grid {
-                grid-template-columns: 1fr;
-            }
-            .status-label,
-            .status-value {
-                white-space: normal;
-            }
-        }
-        </style>
-        """,
-        unsafe_allow_html=True,
-    )
     items = [
         ("Tracking aktiv seit:", "31.05.2026"),
         ("Letzter erfolgreicher Scan:", latest_scan_timestamp(scan_history)),
@@ -873,16 +771,10 @@ def render_long_text_change(event: dict[str, Any]) -> None:
 
 
 def change_excerpt_html(text: str, tone: str) -> str:
-    border_color = "#ef4444" if tone == "removed" else "#16a34a"
-    background = "rgba(239, 68, 68, 0.14)" if tone == "removed" else "rgba(22, 163, 74, 0.14)"
     return (
-        "<div style='"
-        f"border-left:4px solid {border_color};"
-        f"background:{background};"
-        "color:inherit;padding:0.75rem 0.85rem;border-radius:6px;"
-        "line-height:1.65;overflow-wrap:anywhere;white-space:normal;'>"
-        f"{html.escape(text)}"
-        "</div>"
+        '<div class="diga-excerpt">'
+        f'{diff_text_html(text, removed=tone == "removed")}'
+        '</div>'
     )
 
 
@@ -932,18 +824,12 @@ def render_word_diff(tokens: list[dict[str, str]]) -> str:
         text = html.escape(token.get("text", ""))
         op = token.get("op")
         if op == "insert":
-            parts.append(
-                "<span style='background:var(--diga-diff-added-bg, rgba(22,163,74,0.18));color:inherit;"
-                f"border-bottom:2px solid var(--diga-diff-added-border, #16a34a);padding:0 2px'>{text}</span>"
-            )
+            parts.append(diff_text_html(token.get("text", ""), removed=False))
         elif op == "delete":
-            parts.append(
-                "<span style='background:var(--diga-diff-removed-bg, rgba(239,68,68,0.18));color:inherit;"
-                f"border-bottom:2px solid var(--diga-diff-removed-border, #ef4444);text-decoration:line-through;padding:0 2px'>{text}</span>"
-            )
+            parts.append(diff_text_html(token.get("text", ""), removed=True))
         else:
             parts.append(text)
-    return "<div style='line-height:1.8'>" + " ".join(parts) + "</div>"
+    return '<div class="diga-diff">' + " ".join(parts) + "</div>"
 
 
 def compact_text_diff(
@@ -1015,22 +901,16 @@ def render_diff_column(tokens: list[dict[str, str]], side: str) -> str:
         op = token.get("op")
         text = html.escape(token.get("text", ""))
         if op == "delete" and side == "before":
-            parts.append(
-                "<mark style='background:var(--diga-diff-removed-bg, rgba(239,68,68,0.18));color:inherit;"
-                f"border-bottom:2px solid var(--diga-diff-removed-border, #ef4444);text-decoration:line-through;padding:0 2px'>{text}</mark>"
-            )
+            parts.append(diff_text_html(token.get("text", ""), removed=True))
         elif op == "insert" and side == "after":
-            parts.append(
-                "<mark style='background:var(--diga-diff-added-bg, rgba(22,163,74,0.18));color:inherit;"
-                f"border-bottom:2px solid var(--diga-diff-added-border, #16a34a);padding:0 2px'>{text}</mark>"
-            )
+            parts.append(diff_text_html(token.get("text", ""), removed=False))
         elif op == "ellipsis":
-            parts.append(f"<span style='color:#6b7280'>{text}</span>")
+            parts.append(f'<span class="diga-muted">{text}</span>')
         elif op in {"removed_placeholder", "added_placeholder"}:
-            parts.append(f"<span style='color:#6b7280;font-style:italic'>{text}</span>")
+            parts.append(f'<span class="diga-placeholder">{text}</span>')
         else:
             parts.append(text)
-    return "<div style='line-height:1.8'>" + " ".join(parts) + "</div>"
+    return '<div class="diga-diff">' + " ".join(parts) + "</div>"
 
 
 def render_simulation_summary(events: list[dict[str, Any]]) -> None:
@@ -1078,41 +958,6 @@ def render_wrapped_text(value: Any) -> None:
     text = text.replace("\n", "<br>")
     st.markdown(
         f"""
-        <style>
-        .full-text-box {{
-            white-space: normal;
-            overflow-wrap: anywhere;
-            word-break: break-word;
-            line-height: 1.65;
-            border: 1px solid var(--diga-full-text-border, #cbd5e1);
-            border-radius: 8px;
-            padding: 0.85rem;
-            background: var(--diga-full-text-bg, #f8fafc);
-            color: var(--diga-full-text-color, #111827);
-            max-height: 28rem;
-            overflow-y: auto;
-            overflow-x: hidden;
-            margin: 0.35rem 0 1rem;
-        }}
-        .full-text-box * {{
-            color: inherit;
-        }}
-        @media (prefers-color-scheme: dark) {{
-            :root {{
-                --diga-full-text-bg: #111827;
-                --diga-full-text-color: #f9fafb;
-                --diga-full-text-border: #4b5563;
-            }}
-        }}
-        @media (max-width: 720px) {{
-            .full-text-box {{
-                max-height: none;
-                font-size: 0.98rem;
-                line-height: 1.7;
-                padding: 0.8rem;
-            }}
-        }}
-        </style>
         <div class="full-text-box">{text}</div>
         """,
         unsafe_allow_html=True,
@@ -1375,46 +1220,6 @@ def render_before_after_html(before_html: str, after_html: str, stacked: bool = 
     grid_class = "before-after-grid before-after-grid-stacked" if stacked else "before-after-grid"
     st.markdown(
         f"""
-        <style>
-        .before-after-grid {{
-            display: grid;
-            grid-template-columns: repeat(2, minmax(0, 1fr));
-            gap: 0.85rem;
-            margin-top: 0.35rem;
-        }}
-        .before-after-card {{
-            border: 1px solid rgba(148, 163, 184, 0.45);
-            border-radius: 8px;
-            padding: 0.85rem;
-            background: rgba(148, 163, 184, 0.07);
-            min-width: 0;
-        }}
-        .before-after-label {{
-            color: var(--diga-header-muted, #4b5563);
-            font-size: 0.84rem;
-            font-weight: 700;
-            letter-spacing: 0.02em;
-            margin-bottom: 0.45rem;
-            text-transform: uppercase;
-        }}
-        .before-after-content {{
-            color: inherit;
-            line-height: 1.65;
-            overflow-wrap: anywhere;
-            white-space: normal;
-        }}
-        .before-after-content p {{
-            margin: 0;
-        }}
-        .before-after-grid-stacked {{
-            grid-template-columns: 1fr;
-        }}
-        @media (max-width: 720px) {{
-            .before-after-grid {{
-                grid-template-columns: 1fr;
-            }}
-        }}
-        </style>
         <div class="{grid_class}">
             <section class="before-after-card">
                 <div class="before-after-label">Vorher</div>
@@ -1481,8 +1286,7 @@ def render_inline_value(value: Any) -> str:
     if not status_style:
         return html.escape(text)
     return (
-        "<span style='display:inline-flex;align-items:center;border-radius:999px;"
-        "padding:0.18rem 0.55rem;font-weight:600;font-size:0.92rem;"
+        "<span class='diga-status' style='"
         f"{status_style}'>{html.escape(text)}</span>"
     )
 
@@ -1490,11 +1294,11 @@ def render_inline_value(value: Any) -> str:
 def status_badge_style(value: str) -> str | None:
     normalized = value.strip().lower()
     if "vorläufig" in normalized:
-        return "background:#fff3bf;color:#7a4f01;border:1px solid #ffd43b;"
+        return "background:var(--color-white);color:var(--color-text);border:1px dashed var(--color-border-strong);"
     if "dauerhaft" in normalized:
-        return "background:#d3f9d8;color:#14532d;border:1px solid #69db7c;"
+        return "background:var(--color-surface);color:var(--color-text);border:1px solid var(--color-border-strong);"
     if "gestrichen" in normalized:
-        return "background:#ffe3e3;color:#8a1f1f;border:1px solid #ffa8a8;"
+        return "background:var(--color-white);color:var(--color-text);border:1px solid var(--color-border-strong);text-decoration:line-through;"
     return None
 
 
