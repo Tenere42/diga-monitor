@@ -109,7 +109,7 @@
 /* BaseWeb wraps checkbox/input focus; keep a visible focus ring on the native
    control without replacing controls or hiding their accessible labels. */
 [data-testid="stTextInput"]:focus-within,
-[data-testid="stDateInput"]:focus-within {
+[data-testid="stSelectbox"]:focus-within {
     outline: 2px solid var(--color-black);
     outline-offset: 3px;
     border-radius: var(--radius-sm);
@@ -283,7 +283,8 @@
     align-items: center;
     margin-top: var(--space-5);
 }
-.block-container .diga-button {
+.block-container .diga-button,
+.block-container [data-testid="stLinkButton"] a {
     box-sizing: border-box;
     display: inline-flex;
     align-items: center;
@@ -301,13 +302,8 @@
     text-decoration: none;
     line-height: 1.5;
 }
-.block-container .diga-button:hover { background: var(--color-text-secondary); }
-.block-container .diga-button-secondary {
-    background: var(--color-bg);
-    color: var(--color-text);
-    border-color: var(--color-border-strong);
-}
-.block-container .diga-button-secondary:hover { background: var(--color-surface); }
+.block-container .diga-button:hover,
+.block-container [data-testid="stLinkButton"] a:hover { background: var(--color-text-secondary); }
 .block-container .diga-text-link {
     display: inline-flex;
     align-items: center;
@@ -397,3 +393,20 @@
    on the actual input via the existing control-level :focus-visible rule. */
 [data-testid="stRadio"] [role="radiogroup"] { flex-wrap: wrap; gap: var(--space-2); }
 [data-testid="stRadio"] label { min-height: 2.75rem; max-width: 100%; }
+
+/* Shared primary navigation; stack detail actions at every viewport size. */
+.diga-detail-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: var(--space-3);
+    max-width: 24rem;
+    margin-top: var(--space-5);
+}
+[data-testid="stSelectbox"] [role="combobox"] { min-height: 3rem; }
+[data-testid="stHeading"] h1 { font-size: clamp(2rem, 5vw, 2.75rem); text-wrap: balance; }
+@media (max-width: 47.99rem) {
+    .block-container .diga-button,
+    .block-container [data-testid="stLinkButton"] a { width: 100%; }
+    .diga-detail-actions { max-width: none; }
+}

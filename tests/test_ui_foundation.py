@@ -141,7 +141,7 @@ with (
         at.button(key='newsletter_submit_button').click().run()
         self.assertFalse(at.exception)
         self.assertEqual(at.success[0].value, 'Mock confirmation; no email sent.')
-        at.date_input[0].set_value((date(2026, 9, 1), date(2026, 9, 16))).run()
+        at.selectbox(key='changes_period').set_value(14).run()
         self.assertFalse(at.exception)
         self.assertEqual(at.success[0].value, 'Mock confirmation; no email sent.')
 

@@ -90,11 +90,10 @@ class MarketMetricTests(unittest.TestCase):
 
 
 class RecentChangeTests(unittest.TestCase):
-    def test_homepage_matches_full_dashboard_default_date_range(self):
+    def test_homepage_keeps_all_groups_since_tracking_start(self):
         events = [event(1), event(2, "2026-05-30T12:00:00Z"), event(3, "invalid"),
                   event(4, "2026-05-30T22:00:00Z")]
-        with patch.object(app.st, 'date_input', return_value=(app.TRACKING_START_DATE, date(2026, 9, 16))):
-            full_groups = app.group_events_by_diga(app.render_filters(events))
+        full_groups = app.group_events_by_diga([events[0], events[3]])
         self.assertEqual(app.homepage_event_groups(events), full_groups)
         self.assertEqual(len(full_groups), 2)
 
@@ -221,18 +220,20 @@ with (
         self.assertEqual(markup.count('id="newsletter"'), 1)
         self.assertIn('href="#newsletter"', markup)
         self.assertIn('Das Verzeichnis in Zahlen', markup)
-        for label in ('Aktiv', 'Dauerhaft', 'Vorläufig', 'Änderungen · 30 Tage'):
+        for label in ('Aktiv', 'Dauerhaft gelistet', 'Vorläufig gelistet', 'Änderungen · 30 Tage'):
             self.assertIn('<dt>' + label + '</dt>', markup)
         self.assertNotIn('Marktstand', markup)
         self.assertNotIn('Europe/Berlin', markup)
 
     def test_full_changes_route_retains_filter_details_and_single_signup(self):
         at = self.run_view('changes')
-        self.assertEqual(len(at.date_input), 1)
+        self.assertEqual(len(at.selectbox), 1)
         self.assertEqual(len(at.text_input), 2)
         markup = '\n'.join(m.value for m in at.markdown if not m.value.startswith('<style>'))
         self.assertNotIn('hero-title', markup)
-        self.assertIn('class="before-after-grid', markup)
+        self.assertNotIn('class="before-after-grid', markup)
+        self.assertIn('Details ansehen', markup)
+        self.assertFalse(at.expander)
         self.assertIn('id="change-', markup)
 
     def test_homepage_signup_result_survives_rerun_without_duplicate_form(self):

@@ -2,10 +2,46 @@
 
 ## Current objective
 
-Phase B (mobile-first public homepage) is implemented locally on
-`codex/ui-redesign-black-white`, starting exactly from the approved Phase A commit
-`40888b3f675a9977156cadb5c1e3e8dff9365110`. It is not merged or deployed to production. The user reports a separate branch-connected Railway ui-preview environment.
-No protected monitoring/storage/subscriber/configuration/data files changed.
+UI/UX refinements are implemented on `codex/ui-ux-refinements`, based on
+`efbb61e5ae7c14825c54684d08de37ed93ab758f` of `codex/ui-redesign-black-white`.
+This is a stacked change on the existing redesign, not a replacement based on
+older `main`. Nothing has been merged or deployed by this task.
+
+### UI/UX refinements — 2026-09-16
+
+- Homepage KPIs say “Dauerhaft gelistet” / “Vorläufig gelistet”; newsletter
+  introduction matches the requested text exactly. Signup behavior is unchanged.
+- Overview is “Alle Änderungen”; individual detail heading is “Änderungen”.
+  Removed the duplicate “Änderungen im Detail” expander. All its events already
+  use the same full detail renderer behind “Details ansehen”; no values lost.
+- Removed generic localization failure sentences while retaining before/after
+  values, text diffs, price information and specific factual diagnostics.
+- Shared black/white primary styles cover homepage CTA, overview/home navigation,
+  detail overview link, BfArM links (including native links), and bottom “Zurück”.
+  Bottom external/back actions stack at every width. Mobile buttons are full-width,
+  with 48px minimum targets, consistent padding/radius and hover/focus cues.
+- Replaced date range calendar with 7/14/30/90/180 Tage dropdown, default 30.
+  Start = Berlin today minus (days - 1); both boundaries inclusive. Event timestamps
+  convert to Berlin calendar dates before filtering; tomorrow is excluded.
+- Validation: full unittest suite: 212 tests, 210 passed, two existing historical-data failures
+  (380 current events versus frozen expectations of 369). Both independently
+  reproduced against unchanged base app.py. New calendar tests cover all periods,
+  full today, midnight boundaries, DST, leap day, year boundary and invalid dates.
+  Navigation, all detail events, BfArM URL preservation, labels, duplicate removal,
+  newsletter reruns and responsive CSS contracts are tested. git diff --check and
+  compileall pass. Logs are in ignored work/ui-refinements-*.log.
+- Claude: CLI exists, but required API-key preflight failed because
+  ANTHROPIC_API_KEY is unavailable. No review findings were produced; no OAuth
+  fallback attempted. Explicit Codex self-review found and addressed the remaining
+  native BfArM links needing the shared primary style; no substantive open code
+  findings. Monitoring, storage, data, newsletter behavior and deployment config
+  have no implementation changes.
+- Visual QA is outstanding: local Playwright could not start (WinError 5), and
+  browser-control access to the local preview was denied by approval review.
+  No browser viewport/overflow/appearance validation is claimed. Verify on phones
+  and desktop before merge/deploy. Automated checks do not replace visual QA.
+- Publication: GitHub connector rejected the write needed to publish this branch
+  because approval policy is never. Local commit only; no push or PR created.
 
 ### Phase C.1 simplified homepage and direct details — 2026-09-16
 

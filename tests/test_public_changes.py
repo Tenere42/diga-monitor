@@ -115,6 +115,7 @@ class PublicViewTests(unittest.TestCase):
         markup=' '.join(m.value for m in at.markdown)
         self.assertIn('Frieda Menova',markup)
         self.assertNotIn('### Untire',markup)
+        at.selectbox(key='changes_period').set_value(180).run()
         at.text_input(key='changes_search').set_value('isi PMS').run()
         markup=' '.join(m.value for m in at.markdown)
         self.assertIn('isi PMS App',markup)

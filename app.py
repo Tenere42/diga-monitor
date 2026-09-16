@@ -131,7 +131,8 @@ def render_changes_view(real_events: list[dict[str, Any]], scan_history: list[di
     if "detail" in st.query_params:
         render_change_detail(real_events, st.query_params.get("detail", ""))
         return
-    st.title("Änderungen")
+    st.markdown('<a class="diga-button" href="./" target="_self">Zurück</a>', unsafe_allow_html=True)
+    st.title("Alle Änderungen")
     st.caption("Alle erkannten Änderungen im BfArM DiGA Verzeichnis.")
     public_events = [e for e in real_events if is_real_change_event(e) and is_public(e)]
     query = st.text_input("DiGA oder Hersteller suchen", key="changes_search")
@@ -152,38 +153,42 @@ def render_changes_view(real_events: list[dict[str, Any]], scan_history: list[di
                 st.markdown(f'<div class="diga-pills">{badges}</div>', unsafe_allow_html=True)
                 st.caption(format_datetime(group['detected_at']).replace(' ', ', ', 1) + ' Uhr')
                 st.markdown(f'<a class="diga-text-link" href="?view=changes&amp;detail={change_group_anchor(group)}" target="_self">Details ansehen</a>', unsafe_allow_html=True)
-                with st.expander("Änderungen im Detail"):
-                    for event in group['events']:
-                        render_public_details(event)
     render_newsletter_signup_section()
 
 
 def render_change_detail(real_events: list[dict[str, Any]], detail_id: str) -> None:
     """Resolve against complete public daily groups, independently of filter state."""
-    st.title("Änderungsdetails")
+    st.title("Änderungen")
     matches = [group for group in homepage_event_groups(real_events)
                if change_group_anchor(group) == detail_id]
     if len(matches) != 1:
         st.info("Diese Änderung konnte nicht gefunden werden.")
-        st.markdown('<a class="diga-text-link" href="?view=changes" target="_self">Alle Änderungen ansehen</a>', unsafe_allow_html=True)
+        st.markdown('<a class="diga-button" href="?view=changes" target="_self">Alle Änderungen ansehen</a>', unsafe_allow_html=True)
         return
     group = matches[0]
-    st.markdown('<a class="diga-text-link" href="?view=changes" target="_self">← Alle Änderungen</a>', unsafe_allow_html=True)
+    st.markdown('<a class="diga-button" href="?view=changes" target="_self">← Alle Änderungen</a>', unsafe_allow_html=True)
     st.markdown(f'## {html.escape(str(group["diga_name"]))}')
     badges = ''.join(f'<span class="diga-pill">{label}</span>' for label in public_labels(group['events']))
     st.markdown(f'<div class="diga-pills">{badges}</div>', unsafe_allow_html=True)
     st.caption(format_datetime(group['detected_at']).replace(' ', ', ', 1) + ' Uhr')
     for event in group['events']:
         render_public_details(event)
-    if group.get('bfarm_directory_url'):
-        st.link_button("BfArM-Eintrag öffnen", group['bfarm_directory_url'])
+    external = (
+        f'<a class="diga-button" href="{html.escape(str(group["bfarm_directory_url"]), quote=True)}" '
+        'target="_blank" rel="noopener noreferrer">BfArM-Eintrag öffnen</a>'
+        if group.get("bfarm_directory_url") else ""
+    )
+    st.markdown(
+        '<nav class="diga-detail-actions" aria-label="Weitere Navigation">' + external +
+        '<a class="diga-button" href="?view=changes" target="_self">Zurück</a></nav>',
+        unsafe_allow_html=True,
+    )
 
 
 def render_public_details(event: dict[str, Any]) -> None:
     """Keep established diffs/prices; simplify only unresolved presentation wording."""
     if event.get("change_type") == "visible_diff_unresolved":
         st.markdown(f"**{public_subject(event).title()}**")
-        st.caption("Die genaue Stelle im Eintrag konnte nicht zugeordnet werden.")
         if event.get("original_change_type") == "price_change":
             render_price_change(event)
         elif event.get("word_diff"):
@@ -253,12 +258,7 @@ def homepage_change_items(groups: list[dict[str, Any]], limit: int = 5) -> list[
 
 
 def homepage_event_groups(real_events: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    """Use the full dashboard's default date range without rendering its widget.
-
-    render_filters defaults to TRACKING_START_DATE through the later of today
-    and the latest event. Thus every dated event on/after tracking start is in
-    range; undated and pre-tracking records must not leak into the preview/KPI.
-    """
+    """All public groups since tracking start, independent of overview filters."""
     dated_events = [event for event in real_events
                     if is_real_change_event(event) and is_public(event)
                     and (day := event_date(event)) is not None and day >= TRACKING_START_DATE]
@@ -286,8 +286,8 @@ def render_homepage(real_events: list[dict[str, Any]], scan_history: list[dict[s
         market = None
     cards = [
         ("Aktiv", market.active if market else None),
-        ("Dauerhaft", market.permanent if market else None),
-        ("Vorläufig", market.provisional if market else None),
+        ("Dauerhaft gelistet", market.permanent if market else None),
+        ("Vorläufig gelistet", market.provisional if market else None),
         ("Änderungen · 30 Tage", recent_adjustment_count(groups, today)),
     ]
     note = homepage_freshness(scan_history, market)
@@ -377,8 +377,8 @@ def render_newsletter_signup_section() -> None:
     st.markdown('<div id="newsletter" class="diga-anchor"></div>', unsafe_allow_html=True)
     st.subheader("Keine Änderung verpassen.")
     st.write(
-        "DiGA Tracker verfolgt neue DiGA, Statusänderungen, Preise und weitere "
-        "Änderungen im BfArM DiGA Verzeichnis. Mit den Updates bleibst du auf dem Laufenden."
+        "Das DiGA Verzeichnis ändert sich ständig. Neue DiGA kommen hinzu, bestehende "
+        "ändern sich (z.B. Preis, Laufzeiten, Evidenz, usw.) oder werden entfernt."
     )
 
     pending_email = st.session_state.get(_NEWSLETTER_PENDING_EMAIL_KEY)
@@ -666,23 +666,15 @@ def render_page_header() -> None:
 
 
 def render_filters(events: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    event_dates = [event_date(event) for event in events if event_date(event)]
-    min_date = TRACKING_START_DATE
-    max_date = max(event_dates + [TRACKING_START_DATE, date.today()])
-    selected_range = st.date_input(
-        "Zeitraum",
-        value=(TRACKING_START_DATE, max_date),
-        min_value=TRACKING_START_DATE,
-        max_value=max_date,
-    )
+    days = st.selectbox("Zeitraum", (7, 14, 30, 90, 180), index=2,
+                        format_func=lambda value: f"{value} Tage", key="changes_period")
+    return filter_recent_events(events, days, datetime.now(DISPLAY_TIMEZONE).date())
 
-    start_date, end_date = normalize_date_range(selected_range, min_date, max_date)
 
-    return [
-        event
-        for event in events
-        if event_date_in_range(event, start_date, end_date)
-    ]
+def filter_recent_events(events: list[dict[str, Any]], days: int, today: date) -> list[dict[str, Any]]:
+    """Inclusive Berlin calendar dates, independent of timestamp hours and DST."""
+    start = today - timedelta(days=days - 1)
+    return [event for event in events if event_date_in_range(event, start, today)]
 
 
 def render_status_information(
@@ -802,14 +794,7 @@ def render_adjustment_header(index: int, event: dict[str, Any]) -> None:
         if internal_key:
             st.caption(f"Interner Schlüssel: {internal_key}")
         if is_removed_choice_value(event):
-            st.caption(
-                "Ein interner Auswahlwert wurde entfernt. "
-                "Der sichtbare Abschnitt konnte nicht eindeutig zugeordnet werden."
-            )
-    if event.get("localization_confidence") == "low":
-        st.caption("Die Änderung wurde erkannt, konnte aber keinem sichtbaren Abschnitt eindeutig zugeordnet werden.")
-    if event.get("change_type") == "visible_diff_unresolved":
-        st.caption("Die Änderung wurde erkannt, der sichtbare Abschnitt konnte aber nicht eindeutig zugeordnet werden.")
+            st.caption("Ein interner Auswahlwert wurde entfernt.")
 
 
 def render_before_after(event: dict[str, Any]) -> None:
@@ -819,7 +804,6 @@ def render_before_after(event: dict[str, Any]) -> None:
 
 
 def render_unresolved_visible_diff(event: dict[str, Any]) -> None:
-    st.caption("Der Monitor hat eine fachliche Änderung in den BfArM-Daten erkannt. Die sichtbare Stelle im Verzeichnis konnte in diesem Lauf nicht eindeutig zugeordnet werden.")
     if event.get("original_change_type") == "price_change":
         render_price_change(event)
         return

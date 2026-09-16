@@ -76,7 +76,7 @@ def recent_changes_html(items: list[dict[str, Any]]) -> str:
     return (
         '<section class="diga-recent" aria-labelledby="recent-title">'
         '<h2 id="recent-title">Letzte Änderungen</h2>' + content +
-        '<a class="diga-button diga-button-secondary" href="?view=changes" target="_self">'
+        '<a class="diga-button" href="?view=changes" target="_self">'
         'Alle Änderungen ansehen</a></section>'
     )
 
