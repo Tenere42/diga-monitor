@@ -37,6 +37,23 @@ ChatGPT decision/spec
 - Prefer the direct GitHub Connector for GitHub operations.
 - Prefer direct connectors and APIs; use local PowerShell or CLI workarounds only when necessary.
 
+## External API Debugging
+
+When functionality depends on an external API or service, verify that dependency before investigating application-level architecture or implementing workarounds.
+
+Use this diagnostic order:
+
+1. Run the smallest possible authenticated connectivity request using the exact credential and environment used by the failing deployment.
+2. Verify credential validity and permissions, then required IDs, endpoints, URLs, and other service configuration.
+3. Test the integration function in isolation.
+4. Only after the external dependency is proven healthy, investigate framework behavior, session state, routing, deployment architecture, or other application-level causes.
+
+- Never treat the presence of an environment variable as evidence that its credential is valid.
+- For HTTP integrations, surface and classify the upstream HTTP status early (for example `401 unauthorized`, `403 forbidden`, `429 rate_limited`) without logging secrets, email addresses, tokens, or unsafe raw response bodies.
+- Prefer a direct connectivity/authentication check over building a parallel PoC or workaround when authentication has not yet been independently verified.
+- Apply this principle consistently to Brevo, R2, GitHub, Railway, and other external dependencies.
+- If an external API returns `401` or `403`, investigate credentials and permissions before changing application code unless there is concrete evidence that the request itself is malformed.
+
 ## Codex-Claude Duo Loop
 
 For larger, riskier, or architecture-relevant changes, use the local Gauntlet workflow: Codex implements and runs tests and linters; Claude Code orchestrates independent Claude-Critic reviews; Claude Code then performs Git plumbing (add, commit, and push) on the implementation branch.
