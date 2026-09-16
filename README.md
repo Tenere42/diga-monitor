@@ -1,5 +1,24 @@
 # DiGA Directory Change Monitor
 
+## Public changes (Phase C)
+
+The homepage and `?view=changes` use `src/public_changes.py` for concrete DiGA
+identity checks and shared NEU / AKTUALISIERT / ENTFERNT classification. Update
+subjects are STATUS, PREIS, EVIDENZ, ANWENDUNG, TECHNIK, DATENSCHUTZ, HERSTELLER
+and ANGABEN. Reactivation is a status update; it is not a new DiGA.
+
+Directory-counter diagnostics remain stored but are excluded from both public
+views and the 30-day adjustment KPI. The other three KPIs remain snapshot-based.
+Search matches DiGA/manufacturer locally; primary filters select lifecycle
+categories and the existing date filter remains available. Expandable groups
+retain established before/after, price and textual diff rendering.
+
+Grouping remains DiGA ID + Berlin calendar date, potentially spanning several
+scans. Mixed lifecycle groups retain multiple category badges. Public filtering
+does not rewrite historical events or change monitoring/deduplication semantics.
+The newsletter checkbox no longer outlines its entire wrapper on focus; native
+control keyboard focus and email input focus remain. The mobile menu is unchanged.
+
 ## Public homepage (Phase B)
 
 The default route now shows compact navigation, the DiGA Tracker hero, four

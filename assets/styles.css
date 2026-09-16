@@ -108,7 +108,6 @@
 }
 /* BaseWeb wraps checkbox/input focus; keep a visible focus ring on the native
    control without replacing controls or hiding their accessible labels. */
-[data-testid="stCheckbox"]:focus-within,
 [data-testid="stTextInput"]:focus-within,
 [data-testid="stDateInput"]:focus-within {
     outline: 2px solid var(--color-black);
@@ -441,3 +440,8 @@
 .diga-recent-item time { display: block; }
 .diga-recent-item h3 { margin-top: 0; }
 .diga-hero h1 { max-width: 14ch; }
+
+/* Consent taps must not outline the entire label wrapper. Keyboard focus stays
+   on the actual input via the existing control-level :focus-visible rule. */
+[data-testid="stRadio"] [role="radiogroup"] { flex-wrap: wrap; gap: var(--space-2); }
+[data-testid="stRadio"] label { min-height: 2.75rem; max-width: 100%; }

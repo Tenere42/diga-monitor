@@ -19,6 +19,7 @@ from src.ui import (
     about_html, diff_text_html, hero_html, market_snapshot_html,
     public_header_html, recent_changes_html, stylesheet_html,
 )
+from src.public_changes import is_public, labels as public_labels, matches as public_matches, subject as public_subject
 from src.homepage_data import MARKET_SNAPSHOT_PATH, MarketSnapshot, load_market_snapshot
 from src.change_events import DEFAULT_CHANGES_DIR, load_change_events
 from src.dashboard_cache import change_files_signature, files_content_signature, scan_history_signature
@@ -126,26 +127,47 @@ def main() -> None:
 
 
 def render_changes_view(real_events: list[dict[str, Any]], scan_history: list[dict[str, Any]]) -> None:
-    """The original full dashboard, with its existing filter/group/detail pipeline."""
+    """Public filters leave the underlying daily grouping and detail semantics intact."""
     st.title("Änderungen")
-    render_newsletter_signup_section()
-    render_status_information(real_events, scan_history)
-
-    filtered_events = render_filters(real_events)
-
-    st.divider()
-    if not filtered_events:
-        st.info("Keine echten Änderungen seit Tracking Beginn erkannt.")
-        return
-
+    st.caption("Alle erkannten Änderungen im BfArM DiGA Verzeichnis.")
+    public_events = [e for e in real_events if is_real_change_event(e) and is_public(e)]
+    query = st.text_input("DiGA oder Hersteller suchen", key="changes_search")
+    selected = st.radio("Art der Änderung", ["Alle", "Neu", "Aktualisiert", "Entfernt"],
+                        horizontal=True, key="changes_category")
+    filtered_events = render_filters(public_events)
+    filtered_events = [e for e in filtered_events if public_matches(e, selected, query)]
     grouped_events = group_events_by_diga(filtered_events)
     if not grouped_events:
-        st.info("Keine echten Änderungen seit Tracking Beginn erkannt.")
-        return
-    render_group_summary(grouped_events, filtered_events)
-    for group in grouped_events:
-        st.markdown(f'<div id="{change_group_anchor(group)}" class="diga-anchor"></div>', unsafe_allow_html=True)
-        render_event_group(group)
+        st.info("Keine Änderungen für diese Auswahl gefunden.")
+    else:
+        st.caption(f"{len(grouped_events)} Einträge · {sum(len(g['events']) for g in grouped_events)} Anpassungen")
+        for group in grouped_events:
+            st.markdown(f'<div id="{change_group_anchor(group)}" class="diga-anchor"></div>', unsafe_allow_html=True)
+            with st.container(border=True):
+                st.markdown(f'### {html.escape(str(group["diga_name"]))}')
+                badges = ''.join(f'<span class="diga-pill">{label}</span>' for label in public_labels(group['events']))
+                st.markdown(f'<div class="diga-pills">{badges}</div>', unsafe_allow_html=True)
+                st.caption(format_datetime(group['detected_at']).replace(' ', ', ', 1) + ' Uhr')
+                with st.expander("Änderungen im Detail"):
+                    for event in group['events']:
+                        render_public_details(event)
+    render_newsletter_signup_section()
+
+
+def render_public_details(event: dict[str, Any]) -> None:
+    """Keep established diffs/prices; simplify only unresolved presentation wording."""
+    if event.get("change_type") == "visible_diff_unresolved":
+        st.markdown(f"**{public_subject(event).title()}**")
+        st.caption("Die genaue Stelle im Eintrag konnte nicht zugeordnet werden.")
+        if event.get("original_change_type") == "price_change":
+            render_price_change(event)
+        elif event.get("word_diff"):
+            render_text_change(event)
+        else:
+            render_before_after(event)
+    else:
+        st.markdown(f'**{html.escape(field_label(event))}**')
+        render_event_details(event)
 
 
 @st.cache_data(show_spinner=False)
@@ -162,7 +184,7 @@ def recent_adjustment_count(groups: list[dict[str, Any]], today: date) -> int:
     The KPI counts adjustments, not unique DiGA or DiGA/day groups.
     """
     start = today - timedelta(days=29)
-    return sum(event_date_in_range(event, start, today)
+    return sum(is_public(event) and event_date_in_range(event, start, today)
                for group in groups for event in group["events"])
 
 
@@ -175,15 +197,12 @@ def change_group_anchor(group: dict[str, Any]) -> str:
 def homepage_change_items(groups: list[dict[str, Any]], limit: int = 5) -> list[dict[str, Any]]:
     """Slice existing newest-first groups without regrouping, filtering or reordering."""
     items = []
-    for group in groups[:limit]:
+    for group in [g for g in groups if all(is_public(e) for e in g["events"])][:limit]:
         events = group["events"]
         event = events[0]
         kind = event.get("change_type")
-        labels = {"new_diga": "NEU", "removed_diga": "ENTFERNT",
-                  "status_change": "STATUS", "price_change": "PREIS",
-                  "text_change": "TEXT", "directory_metric_change": "VERZEICHNIS"}
         summary = {"new_diga": "Neu im DiGA Verzeichnis",
-                   "removed_diga": "Nicht mehr im Verzeichnis",
+                   "removed_diga": "Aus dem DiGA Verzeichnis entfernt",
                    "text_change": "Verzeichniseintrag aktualisiert"}.get(kind, "Eintrag aktualisiert")
         if kind == "status_change":
             statuses = {"provisional": "Vorläufig", "permanent": "Dauerhaft",
@@ -201,7 +220,7 @@ def homepage_change_items(groups: list[dict[str, Any]], limit: int = 5) -> list[
             "manufacturer": str(group.get("manufacturer") or ""),
             "timestamp": str(group["detected_at"] or ""),
             "date_label": format_datetime(group["detected_at"]).replace(" ", " · ", 1),
-            "labels": [labels.get(kind, "ÄNDERUNG")],
+            "labels": public_labels(events),
             "summary": summary,
             "anchor": change_group_anchor(group),
         })
@@ -216,7 +235,8 @@ def homepage_event_groups(real_events: list[dict[str, Any]]) -> list[dict[str, A
     range; undated and pre-tracking records must not leak into the preview/KPI.
     """
     dated_events = [event for event in real_events
-                    if (day := event_date(event)) is not None and day >= TRACKING_START_DATE]
+                    if is_real_change_event(event) and is_public(event)
+                    and (day := event_date(event)) is not None and day >= TRACKING_START_DATE]
     return group_events_by_diga(dated_events)
 
 

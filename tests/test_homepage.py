@@ -128,7 +128,7 @@ class RecentChangeTests(unittest.TestCase):
         items = app.homepage_change_items(app.group_events_by_diga([event(1, "2026-09-01T23:00:00Z")]))
         self.assertEqual(items[0]["date_label"], "02.09.2026 · 01:00")
         self.assertEqual(items[0]["summary"], "Vorläufig → Dauerhaft")
-        self.assertEqual(items[0]["labels"], ["STATUS"])
+        self.assertEqual(items[0]["labels"], ["AKTUALISIERT", "STATUS"])
 
     def test_preview_html_escapes_names_labels_and_summaries(self):
         groups = app.group_events_by_diga([{**event(1), "diga_name": '<script>alert("x")</script>'}])
@@ -229,7 +229,7 @@ with (
     def test_full_changes_route_retains_filter_details_and_single_signup(self):
         at = self.run_view('changes')
         self.assertEqual(len(at.date_input), 1)
-        self.assertEqual(len(at.text_input), 1)
+        self.assertEqual(len(at.text_input), 2)
         markup = '\n'.join(m.value for m in at.markdown if not m.value.startswith('<style>'))
         self.assertNotIn('hero-title', markup)
         self.assertIn('class="before-after-grid', markup)

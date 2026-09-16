@@ -7,6 +7,59 @@ Phase B (mobile-first public homepage) is implemented locally on
 `40888b3f675a9977156cadb5c1e3e8dff9365110`. It is not merged or deployed to production. The user reports a separate branch-connected Railway ui-preview environment.
 No protected monitoring/storage/subscriber/configuration/data files changed.
 
+### Phase C public Changes view — 2026-09-16
+
+- Started clean at `58af253b7254b8d385c3084ce8bc06e946cc62aa` on the existing
+  redesign branch. Public-only adapter `src/public_changes.py` centralizes
+  concrete identity validation, NEU / AKTUALISIERT / ENTFERNT and subjects
+  STATUS / PREIS / EVIDENZ / ANWENDUNG / TECHNIK / DATENSCHUTZ / HERSTELLER /
+  ANGABEN. Trusted fields precede context; uncertain localization falls back to
+  ANGABEN unless original fields support a subject. Reactivation and status
+  changes to removed remain AKTUALISIERT; only removed_diga maps to ENTFERNT.
+- Synthetic directory_metric_change, sentinel identity/name and missing concrete
+  identity are excluded only at the public boundary. Raw history, monitoring,
+  technical exclusions, no-op detection, deduplication and grouping are unchanged.
+  Current corpus: 380 stored events preserved, 23 public groups / 169 displayed
+  adjustments (four aggregate adjustments removed from the former 25 / 173).
+- Homepage previews and Changes badges share classification. Five public groups
+  maximum; existing stable identity/date anchors retained. Public 30-day KPI
+  still counts deduplicated displayed adjustments, not groups/unique DiGA, but
+  excludes aggregate diagnostics. At Sep 16: 13 rather than 15. Snapshot KPIs
+  Aktiv/Dauerhaft/Vorläufig remain unchanged. A new DiGA plus its two counter
+  events contributes one public adjustment.
+- Changes view: name/manufacturer search over loaded public events, Alle/Neu/
+  Aktualisiert/Entfernt controls, existing date filter, chronological compact
+  groups with wrapping badges and expandable existing before/after details.
+  Newsletter appears once after the feed, including empty filter results.
+  Unresolved details retain original price/text rendering with simpler wording.
+- Daily grouping still combines multiple scans. Mixed lifecycle days retain all
+  represented category badges; filters select matching events before grouping.
+  No per-scan rewrite or change to stored timestamps/identity was introduced.
+- Freshness function is unchanged: latest scan_history timestamp, snapshot
+  fallback, Berlin conversion, including zero-change scans. Preview staleness
+  remains a branch-local artifact issue; no runtime GitHub/R2 fetching added.
+- Removed checkbox-wrapper focus-within outline. Existing control focus-visible
+  and actual email input focus styles remain. Newsletter backend, keys, consent,
+  pending/result state, routes and DOI functions are unchanged. No live Brevo.
+  Native mobile menu retained; no scroll-to-close or JavaScript added.
+- Full suite: 201 tests, 199 passed, two unchanged historical failures expecting
+  369 rather than 380 events, zero new failures. Tests cover taxonomy, identity,
+  aggregate exclusion/KPI, public chronology/details, search/filters, mixed
+  lifecycle groups, uncertain context and checkbox CSS. Existing newsletter,
+  privacy/confirmation and freshness tests continue to pass.
+- Codex self-review: AST comparison confirms only four existing app functions
+  changed (Changes renderer, homepage preview/groups, public adjustment count).
+  All existing business/detail functions, newsletter, freshness and caches are
+  identical. Protected paths, raw data, historical tests and configuration have
+  no diff. Low-confidence context cannot override trusted field classification;
+  generic manufacturer words in clinical-purpose text do not become HERSTELLER.
+- Structural responsive review targets 320/375/390/430/768/1440px: bounded width,
+  wrapping badge/filter rows, existing before/after wrapping and touch targets.
+  Browser visual QA remains required on Railway ui-preview; no actual viewport
+  render is claimed. Mobile checkbox keyboard focus needs real-device verification.
+- No merge or production deployment. One normal push will be attempted after
+  commit; external publication is required if the known sandbox proxy blocks it.
+
 ### Phase B.2 mobile polish — 2026-09-16
 
 - Started clean at `c8bd320c908773fe855dfa66a8518ae6616ca847` on
