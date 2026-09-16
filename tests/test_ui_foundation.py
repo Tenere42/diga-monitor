@@ -23,11 +23,12 @@ class PresentationTests(unittest.TestCase):
             finally:
                 os.chdir(previous)
 
-    def test_public_header_has_product_brand_and_existing_description(self) -> None:
+    def test_public_header_has_product_brand_and_compact_navigation(self) -> None:
         markup = public_header_html()
-        self.assertIn('>DiGA Tracker</h1>', markup)
+        self.assertIn('>DiGA Tracker</a>', markup)
         self.assertNotIn('DiGA Monitor', markup)
-        self.assertIn('Änderungen im DiGA-Verzeichnis transparent verfolgen', markup)
+        self.assertIn('href="?view=changes"', markup)
+        self.assertIn('<summary>Menü</summary>', markup)
 
     def test_diff_text_is_escaped_and_explained_without_color(self) -> None:
         for removed, tag, label in ((True, 'del', 'Entfernt'), (False, 'ins', 'Ergänzt')):
@@ -124,7 +125,9 @@ with (
 '''
 
     def test_newsletter_consent_submission_and_result_survive_filter_rerun(self) -> None:
-        at = AppTest.from_string(self.PREVIEW, default_timeout=30).run()
+        at = AppTest.from_string(self.PREVIEW, default_timeout=30)
+        at.query_params['view'] = 'changes'
+        at.run()
         self.assertFalse(at.exception)
         at.text_input(key='newsletter_email_input').set_value('test@example.invalid')
         at.button(key='newsletter_submit_button').click().run()

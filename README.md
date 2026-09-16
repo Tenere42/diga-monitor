@@ -1,5 +1,35 @@
 # DiGA Directory Change Monitor
 
+## Public homepage (Phase B)
+
+The default route now shows compact navigation, the DiGA Tracker hero, four
+market-summary cards, five newest DiGA/date change groups, a short explanation,
+and one existing newsletter form. Native HTML anchors connect the hero actions
+to the explanation and signup; a native `details` menu handles mobile navigation
+without JavaScript. `?view=changes` retains the full date-filtered dashboard and
+all existing comparisons. `?view=datenschutz` and `?view=confirmed` keep their
+existing legal readiness gates. No additional legal destination is invented.
+
+Market counts come from `data/baseline/current_snapshot.json`, already persisted
+by the monitoring workflow. `src/homepage_data.py` validates its stored aggregates
+against the existing snapshot status rules and returns only a small summary to a
+separate content-addressed cache. Active means permanent + provisional, excluding
+removed and unknown statuses. The snapshot timestamp is visible; missing or
+inconsistent data displays as unavailable, not zero. No runtime R2/API query or
+historical-event reconstruction is used for market counts.
+
+The fourth card counts displayed, deduplicated **adjustments** in the 30 Berlin
+calendar days ending today (inclusive), using the existing full-dashboard default
+date range and grouping. It does not count raw scanner events, unique DiGA, or
+groups. Preview order/grouping is inherited from that same pipeline. Each preview
+links to its existing full-detail group; names and summary content are HTML-escaped.
+
+Phase B extends the Phase A tokens and stylesheet, with two KPI columns on phones
+and four from 64rem. Newsletter widget keys, consent, pending/disabled states,
+result persistence and DOI calls are unchanged. Tests use a mocked DOI function.
+Browser visual checks (320/375/390/430/768/1440px), native-menu behavior and anchor
+scrolling remain outstanding because browser access was denied in this environment.
+
 ## Dashboard visual foundation (Phase A)
 
 The public Streamlit UI uses **DiGA Tracker** branding. Presentation tokens and
@@ -15,9 +45,11 @@ listing-status labels remain visible. The former OS dark-mode overrides have
 been removed. Native Streamlit selector dependencies are documented at the top
 of the stylesheet and should be checked when upgrading Streamlit.
 
-Phase A preserves the existing page sequence, filters, event semantics,
+Phase A preserved the existing page sequence, filters, event semantics,
 newsletter state machine and legal routes. It does not add the proposed hero,
-market KPIs, search, navigation, or a separate history page.
+market KPIs, search, navigation, or a separate history page. Phase B above adds
+the homepage and reuses the existing history experience; search/filter chips
+remain out of scope.
 
 Focused offline checks: `python -m unittest discover -s tests -p test_ui_foundation.py`.
 These include Streamlit AppTest with a mocked newsletter backend; no real signup

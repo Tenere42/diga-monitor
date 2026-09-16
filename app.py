@@ -3,20 +3,25 @@
 from __future__ import annotations
 
 import html
+import hashlib
 import json
 import logging
 import re
 import traceback
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 from zoneinfo import ZoneInfo
 
 import streamlit as st
 
-from src.ui import diff_text_html, public_header_html, stylesheet_html
+from src.ui import (
+    about_html, diff_text_html, hero_html, market_snapshot_html,
+    public_header_html, recent_changes_html, stylesheet_html,
+)
+from src.homepage_data import MARKET_SNAPSHOT_PATH, MarketSnapshot, load_market_snapshot
 from src.change_events import DEFAULT_CHANGES_DIR, load_change_events
-from src.dashboard_cache import change_files_signature, scan_history_signature
+from src.dashboard_cache import change_files_signature, files_content_signature, scan_history_signature
 from src.legal_content import is_legal_content_ready, load_operator_profile
 from src.subscribers import SignupOutcome, request_double_optin
 from src.scan_history import DEFAULT_SCAN_HISTORY_PATH, load_scan_history
@@ -91,12 +96,8 @@ def main() -> None:
     st.set_page_config(page_title="DiGA Tracker", layout="wide")
     st.markdown(stylesheet_html(), unsafe_allow_html=True)
 
-    # Query-param routing to newsletter status/legal views, kept inside this
-    # single app rather than a new Streamlit page so the existing default
-    # view/design is untouched. If the newsletter feature is not yet
-    # legal-ready, an unrecognized/unready "?view=datenschutz" silently
-    # falls through to the normal dashboard -- never a broken or
-    # placeholder-only page.
+    # Preserve the fail-closed legal/DOI routes. Unknown or unready routes
+    # fall through to the public homepage; confirmation never mutates contacts.
     if st.query_params.get("view") == "datenschutz" and is_legal_content_ready():
         render_page_header()
         render_datenschutz_page()
@@ -109,7 +110,6 @@ def main() -> None:
         return
 
     render_page_header()
-    render_newsletter_signup_section()
 
     real_events, scan_history = load_dashboard_data(
         str(DEFAULT_CHANGES_DIR),
@@ -118,6 +118,17 @@ def main() -> None:
         scan_history_signature(DEFAULT_SCAN_HISTORY_PATH),
     )
 
+    if st.query_params.get("view") == "changes":
+        render_changes_view(real_events, scan_history)
+    else:
+        render_homepage(real_events, scan_history)
+    render_public_footer()
+
+
+def render_changes_view(real_events: list[dict[str, Any]], scan_history: list[dict[str, Any]]) -> None:
+    """The original full dashboard, with its existing filter/group/detail pipeline."""
+    st.title("Änderungen")
+    render_newsletter_signup_section()
     render_status_information(real_events, scan_history)
 
     filtered_events = render_filters(real_events)
@@ -125,19 +136,105 @@ def main() -> None:
     st.divider()
     if not filtered_events:
         st.info("Keine echten Änderungen seit Tracking Beginn erkannt.")
-        render_public_footer()
         return
 
     grouped_events = group_events_by_diga(filtered_events)
     if not grouped_events:
         st.info("Keine echten Änderungen seit Tracking Beginn erkannt.")
-        render_public_footer()
         return
     render_group_summary(grouped_events, filtered_events)
     for group in grouped_events:
+        st.markdown(f'<div id="{change_group_anchor(group)}" class="diga-anchor"></div>', unsafe_allow_html=True)
         render_event_group(group)
 
-    render_public_footer()
+
+@st.cache_data(show_spinner=False)
+def load_homepage_market(path: str, content_signature: str) -> MarketSnapshot | None:
+    """Separate content-addressed cache; existing dashboard cache inputs stay intact."""
+    del content_signature
+    return load_market_snapshot(Path(path))
+
+
+def recent_adjustment_count(groups: list[dict[str, Any]], today: date) -> int:
+    """Displayed, deduplicated adjustments in 30 Berlin calendar days, including today.
+
+    Input is the unchanged group_events_by_diga output, not raw scanner counts.
+    The KPI counts adjustments, not unique DiGA or DiGA/day groups.
+    """
+    start = today - timedelta(days=29)
+    return sum(event_date_in_range(event, start, today)
+               for group in groups for event in group["events"])
+
+
+def change_group_anchor(group: dict[str, Any]) -> str:
+    """Stable presentation anchor for an existing DiGA/date group."""
+    identity = f'{event_diga_key(group["events"][0])}|{group["date"]}'
+    return "change-" + hashlib.sha256(identity.encode("utf-8")).hexdigest()[:16]
+
+
+def homepage_change_items(groups: list[dict[str, Any]], limit: int = 5) -> list[dict[str, Any]]:
+    """Slice existing newest-first groups without regrouping, filtering or reordering."""
+    items = []
+    for group in groups[:limit]:
+        events = group["events"]
+        event = events[0]
+        summary = field_label(event)
+        if event.get("change_type") == "status_change":
+            summary = f'{format_value(event_previous_value(event))} → {format_value(event_new_value(event))}'
+        elif event.get("change_type") == "price_change":
+            summary = str(analyze_price_change(event_previous_value(event), event_new_value(event))["title"])
+        if len(events) > 1:
+            summary = f'{len(events)} fachliche Anpassungen · {summary}'
+        items.append({
+            "name": str(group["diga_name"]),
+            "manufacturer": str(group.get("manufacturer") or ""),
+            "timestamp": str(group["detected_at"] or ""),
+            "date_label": format_datetime(group["detected_at"]),
+            "labels": list(dict.fromkeys(event_title_label(item) for item in events)),
+            "summary": summary,
+            "anchor": change_group_anchor(group),
+        })
+    return items
+
+
+def homepage_event_groups(real_events: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Use the full dashboard's default date range without rendering its widget.
+
+    render_filters defaults to TRACKING_START_DATE through the later of today
+    and the latest event. Thus every dated event on/after tracking start is in
+    range; undated and pre-tracking records must not leak into the preview/KPI.
+    """
+    dated_events = [event for event in real_events
+                    if (day := event_date(event)) is not None and day >= TRACKING_START_DATE]
+    return group_events_by_diga(dated_events)
+
+
+def render_homepage(real_events: list[dict[str, Any]], scan_history: list[dict[str, Any]]) -> None:
+    st.markdown(hero_html(newsletter_ready=is_legal_content_ready()), unsafe_allow_html=True)
+    groups = homepage_event_groups(real_events)
+    today = datetime.now(DISPLAY_TIMEZONE).date()
+    try:
+        signature = files_content_signature((MARKET_SNAPSHOT_PATH,))
+        market = load_homepage_market(str(MARKET_SNAPSHOT_PATH), signature)
+    except OSError:
+        market = None
+    cards = [
+        ("Aktive DiGA", market.active if market else None),
+        ("Dauerhaft aufgenommen", market.permanent if market else None),
+        ("Vorläufig aufgenommen", market.provisional if market else None),
+        ("Änderungen · 30 Tage", recent_adjustment_count(groups, today)),
+    ]
+    note = (f"Marktstand: {format_datetime(market.as_of)} (Europe/Berlin). "
+            "Quelle: zuletzt gespeicherter BfArM-Verzeichnisstand; keine Live-Abfrage. "
+            if market else "Marktzahlen derzeit nicht verfügbar. ")
+    if market and market.unknown:
+        note += f"{market.unknown} Einträge ohne zugeordneten Status sind nicht als aktiv gezählt. "
+    note += (f"Änderungen: fachliche Anpassungen vom {(today - timedelta(days=29)).strftime('%d.%m.%Y')} "
+             f"bis {today.strftime('%d.%m.%Y')}. Zuletzt geprüft: {latest_scan_timestamp(scan_history)}.")
+    st.markdown(market_snapshot_html(cards, note), unsafe_allow_html=True)
+    st.markdown(recent_changes_html(homepage_change_items(groups)), unsafe_allow_html=True)
+    st.markdown(about_html(), unsafe_allow_html=True)
+    render_newsletter_signup_section()
 
 
 # Session-state keys for the signup form below. Both hold only transient,
@@ -218,7 +315,8 @@ def render_newsletter_signup_section() -> None:
     )
 
     st.divider()
-    st.subheader("DiGA Tracker Alerts abonnieren")
+    st.markdown('<div id="newsletter" class="diga-anchor"></div>', unsafe_allow_html=True)
+    st.subheader("Keine Änderung verpassen.")
     st.write(
         "Erhalte eine Benachrichtigung, sobald der DiGA Tracker eine relevante "
         "Änderung im BfArM DiGA-Verzeichnis erkennt."
@@ -502,7 +600,10 @@ def load_dashboard_data(
 
 
 def render_page_header() -> None:
-    st.markdown(public_header_html(), unsafe_allow_html=True)
+    st.markdown(public_header_html(
+        newsletter_ready=is_legal_content_ready(),
+        homepage=st.query_params.get("view") not in {"changes", "datenschutz", "confirmed"},
+    ), unsafe_allow_html=True)
 
 
 def render_filters(events: list[dict[str, Any]]) -> list[dict[str, Any]]:

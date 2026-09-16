@@ -242,3 +242,188 @@
     .diga-diff-del { text-decoration-line: line-through; }
     [data-testid="stAlert"] { filter: none; }
 }
+
+/* Phase B builds on the same tokens. Navigation is plain links + <details>;
+   all homepage markup is owned CSS, with no script or generated DOM selectors. */
+.diga-site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-4);
+    padding-block: var(--space-2) var(--space-5);
+    border-bottom: 1px solid var(--color-border);
+}
+.block-container .diga-brand {
+    font-size: 1.125rem;
+    font-weight: 750;
+    letter-spacing: -0.035em;
+    text-decoration: none;
+    padding-block: var(--space-2);
+}
+.diga-desktop-nav { display: none; }
+.diga-mobile-menu { position: relative; flex-shrink: 0; }
+.diga-mobile-menu summary {
+    cursor: pointer;
+    min-height: 2.75rem;
+    display: flex;
+    align-items: center;
+    padding-inline: var(--space-3);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    list-style: none;
+    font-size: var(--text-meta);
+    font-weight: 600;
+}
+.diga-mobile-menu summary::-webkit-details-marker { display: none; }
+.diga-mobile-menu[open] summary { border-color: var(--color-border-strong); }
+.diga-mobile-menu nav {
+    position: absolute;
+    top: calc(100% + var(--space-2));
+    right: 0;
+    z-index: 3;
+    width: min(17rem, calc(100vw - 2rem));
+    box-sizing: border-box;
+    padding: var(--space-2);
+    border: 1px solid var(--color-border-strong);
+    border-radius: var(--radius-md);
+    background: var(--color-bg);
+}
+.diga-mobile-menu nav a {
+    display: block;
+    padding: var(--space-3);
+    text-decoration: none;
+}
+.diga-mobile-menu nav a:hover { background: var(--color-surface); }
+.diga-hero { padding-block: var(--space-7); }
+.diga-eyebrow {
+    color: var(--color-text-muted);
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+    font-weight: 650;
+    line-height: 1.6;
+    margin: 0 0 var(--space-4);
+}
+[data-testid="stMarkdownContainer"] .diga-hero h1 {
+    font-size: clamp(2.5rem, 6vw, 4.75rem);
+    letter-spacing: -0.05em;
+    font-weight: 750;
+    line-height: 1.08;
+    margin: 0 0 var(--space-5);
+    padding: 0;
+    overflow-wrap: anywhere;
+}
+.diga-hero-copy {
+    max-width: 36rem;
+    color: var(--color-text-secondary);
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    margin: 0;
+}
+.diga-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-3) var(--space-5);
+    align-items: center;
+    margin-top: var(--space-5);
+}
+.block-container .diga-button {
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 3rem;
+    max-width: 100%;
+    padding: var(--space-3) var(--space-5);
+    border: 1px solid var(--color-black);
+    border-radius: var(--radius-sm);
+    background: var(--color-black);
+    color: var(--color-white);
+    font-weight: 600;
+    font-size: var(--text-meta);
+    text-align: center;
+    text-decoration: none;
+    line-height: 1.5;
+}
+.block-container .diga-button:hover { background: var(--color-text-secondary); }
+.block-container .diga-button-secondary {
+    background: var(--color-bg);
+    color: var(--color-text);
+    border-color: var(--color-border-strong);
+}
+.block-container .diga-button-secondary:hover { background: var(--color-surface); }
+.block-container .diga-text-link {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.75rem;
+    font-size: var(--text-meta);
+    font-weight: 600;
+}
+.diga-market, .diga-recent, .diga-about { margin-bottom: var(--space-7); }
+.diga-meta {
+    color: var(--color-text-muted);
+    font-size: var(--text-meta);
+    line-height: 1.65;
+    overflow-wrap: anywhere;
+}
+.diga-kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-3);
+    margin: var(--space-3) 0 var(--space-4);
+}
+.diga-kpi {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    gap: var(--space-2);
+    min-width: 0;
+    padding: var(--space-4);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    background: var(--color-surface);
+}
+.diga-kpi dt { font-size: var(--text-meta); color: var(--color-text-secondary); line-height: 1.5; }
+.diga-kpi dd { margin: 0; font-size: 2.25rem; font-weight: 650; letter-spacing: -0.04em; line-height: 1.1; }
+.diga-recent-list { list-style: none; margin: 0 0 var(--space-5); padding: 0; }
+.diga-recent-item { padding-block: var(--space-5); border-top: 1px solid var(--color-border); }
+.diga-recent-item h3 { margin: var(--space-2) 0 var(--space-3); padding: 0; }
+.diga-pills { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+.diga-pill {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1.5;
+    padding: var(--space-1) var(--space-2);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-wrap: anywhere;
+}
+.diga-change-summary { font-size: var(--text-meta); margin: var(--space-3) 0 var(--space-1); }
+.diga-recent-item .diga-meta { margin-bottom: var(--space-1); }
+.diga-about { max-width: 42rem; padding-top: var(--space-5); }
+.diga-about p:not(.diga-eyebrow) { color: var(--color-text-secondary); line-height: 1.75; }
+.diga-about, .diga-anchor { scroll-margin-top: 5rem; }
+/* Single native newsletter submit control: retain widget key/state/disabled
+   behavior; only its presentation is changed to match the hero CTA. */
+[data-testid="stFormSubmitButton"] button {
+    background: var(--color-black);
+    border-color: var(--color-black);
+    color: var(--color-white);
+    min-height: 3rem;
+}
+[data-testid="stFormSubmitButton"] button:disabled { opacity: 0.55; }
+
+@media (min-width: 48rem) {
+    .diga-mobile-menu { display: none; }
+    .diga-desktop-nav { display: flex; flex-wrap: wrap; gap: var(--space-5); align-items: center; }
+    .diga-desktop-nav a { font-size: var(--text-meta); padding-block: var(--space-3); text-decoration: none; }
+    .diga-desktop-nav .diga-nav-cta { text-decoration: underline; text-underline-offset: 0.2em; }
+    .diga-hero { padding-block: 4.5rem; }
+    .diga-kpi { padding: var(--space-5); }
+}
+@media (min-width: 64rem) {
+    .diga-kpi-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    .diga-recent-item article { max-width: 48rem; }
+}

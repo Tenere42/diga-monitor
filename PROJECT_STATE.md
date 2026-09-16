@@ -2,12 +2,53 @@
 
 ## Current objective
 
-Phase A of the black-and-white UI foundation is implemented on
-`codex/ui-redesign-black-white`, based on GitHub main
-`b682241c18d4b3ef58a81d0c50f605dab727cb02`. It is not merged or deployed.
-Only presentation, public branding, focused tests and documentation changed.
-Phase B (homepage information architecture, KPIs and history navigation) is
-explicitly deferred until visual review.
+Phase B (mobile-first public homepage) is implemented locally on
+`codex/ui-redesign-black-white`, starting exactly from the approved Phase A commit
+`40888b3f675a9977156cadb5c1e3e8dff9365110`. It is not merged or deployed.
+No protected monitoring/storage/subscriber/configuration/data files changed.
+
+### Phase B validation / handoff — 2026-09-16
+
+- Default route: compact desktop links/native mobile menu, requested hero copy
+  and anchor CTAs, four KPIs, five newest existing DiGA/date groups, explanation,
+  one existing signup form, and existing privacy footer. No JavaScript/framework,
+  new search/filter chips, duplicate signup widgets or invented legal content.
+- `?view=changes` contains the original full filter/group/detail experience.
+  Privacy and confirmation routes preserve their readiness gate and behavior.
+- KPI source: tracked `data/baseline/current_snapshot.json`, persisted by the
+  existing monitor workflow. `directory_metrics.active_count` excludes removed
+  and unknown entries and equals permanent + provisional; the other market
+  cards use `status_counts.permanent` and `status_counts.provisional`.
+  The read-only adapter validates all aggregates against existing
+  `calculate_directory_metrics` semantics; missing/inconsistent input is
+  unavailable, not zero. Cached summary is keyed by snapshot content signature.
+- Inspected snapshot: 2026-09-15 19:24 UTC (21:24 Berlin), 80 total entries,
+  62 active = 50 permanent + 12 provisional, 18 removed, 0 unknown. UI shows the
+  snapshot's date explicitly and makes no live-data claim.
+- Fourth KPI: deduplicated displayed adjustments in 30 Berlin calendar days,
+  today included. For 2026-09-16: Aug 18–Sep 16, 15 adjustments. Counts are
+  calculated from the unchanged full-dashboard grouping; no market status is
+  inferred from change history. The homepage uses the full dashboard's default
+  date eligibility (dated records on/after tracking start).
+- Before/after comparison: 380 stored events, 263 eligible events, 25 groups,
+  173 displayed adjustments; ordering/grouping, four date filters and every price
+  analysis match Phase A. Existing business helpers/cache/legal functions are
+  unchanged. Newsletter changes are limited to its heading and scroll anchor.
+- Full suite: 186 tests, 184 pass, the same two pre-existing failures expecting
+  369 historical events instead of 380. No protected fixtures were edited.
+  New tests cover market semantics/inconsistency/unavailability/cache refresh,
+  recent order/limit/date boundaries/escaping, routes, one form and mocked signup.
+  No real Brevo request or signup occurred.
+- Codex self-review (Claude unavailable): corrected a preview edge case that
+  could include undated/pre-tracking records; added a default-filter equivalence
+  test. Removed empty manufacturer markup. No business-logic or protected-file
+  changes, duplicated forms, color-only cues, new generated selectors or scope
+  expansion found. Mobile styling uses owned classes and the Phase A tokens.
+- Browser access was denied earlier; actual rendering and menu/anchor/focus/
+  overflow behavior remain unverified at 320/375/390/430/768/1440px. AppTest only
+  verifies server/widget behavior. Visual review is required before deployment.
+- Sandbox network remains disabled; no further connectivity debugging or push
+  attempted. Publish the local commit externally when ready. Main untouched.
 
 ### Phase A validation / handoff — 2026-09-16
 
@@ -109,7 +150,7 @@ low" and was consciously overridden for the merge.
 
 ## Current branch / PR
 
-- Active implementation branch: `codex/ui-redesign-black-white` (Phase A only;
+- Active implementation branch: `codex/ui-redesign-black-white` (Phase A + B;
   not merged or deployed).
 - `codex/rebrand-diga-tracker` is merged into `main` and is a candidate for deletion, pending confirmation.
 - Branches `codex/legacy-history-cleanup-prep`, `codex/notification-recipient-config`, `codex/remove-legacy-snapshots`, and `infra/claude-github-review` are fully merged (0 commits ahead of `main`) and are candidates for deletion, pending confirmation.
@@ -142,7 +183,7 @@ low" and was consciously overridden for the merge.
 
 ## Next recommended step
 
-Review the Phase A branch visually before planning Phase B. Resolve the two
+Review the Phase B homepage visually before planning Phase C. Resolve the two
 pre-existing historical-test count expectations in a separate, authorized
 data/test-maintenance task; this presentation change deliberately leaves them
 untouched. Do not merge or deploy this branch without a subsequent decision.
@@ -162,4 +203,4 @@ earlier handoff and was not re-verified during Phase A:
 
 ## Last updated
 
-2026-09-16 (Phase A presentation foundation; production unchanged)
+2026-09-16 (Phase B homepage; production unchanged)
