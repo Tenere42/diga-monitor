@@ -3,19 +3,26 @@
 from __future__ import annotations
 
 import html
+import hashlib
 import json
 import logging
 import re
 import traceback
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 from zoneinfo import ZoneInfo
 
 import streamlit as st
 
+from src.ui import (
+    diff_text_html, hero_html, market_snapshot_html,
+    public_header_html, recent_changes_html, stylesheet_html,
+)
+from src.public_changes import is_public, labels as public_labels, matches as public_matches, subject as public_subject
+from src.homepage_data import MARKET_SNAPSHOT_PATH, MarketSnapshot, load_market_snapshot
 from src.change_events import DEFAULT_CHANGES_DIR, load_change_events
-from src.dashboard_cache import change_files_signature, scan_history_signature
+from src.dashboard_cache import change_files_signature, files_content_signature, scan_history_signature
 from src.legal_content import is_legal_content_ready, load_operator_profile
 from src.subscribers import SignupOutcome, request_double_optin
 from src.scan_history import DEFAULT_SCAN_HISTORY_PATH, load_scan_history
@@ -87,14 +94,11 @@ LONG_TEXT_EXCERPT_CHARS = 500
 
 
 def main() -> None:
-    st.set_page_config(page_title="DiGA Monitor", layout="wide")
+    st.set_page_config(page_title="DiGA Tracker", layout="wide")
+    st.markdown(stylesheet_html(), unsafe_allow_html=True)
 
-    # Query-param routing to newsletter status/legal views, kept inside this
-    # single app rather than a new Streamlit page so the existing default
-    # view/design is untouched. If the newsletter feature is not yet
-    # legal-ready, an unrecognized/unready "?view=datenschutz" silently
-    # falls through to the normal dashboard -- never a broken or
-    # placeholder-only page.
+    # Preserve the fail-closed legal/DOI routes. Unknown or unready routes
+    # fall through to the public homepage; confirmation never mutates contacts.
     if st.query_params.get("view") == "datenschutz" and is_legal_content_ready():
         render_page_header()
         render_datenschutz_page()
@@ -107,7 +111,6 @@ def main() -> None:
         return
 
     render_page_header()
-    render_newsletter_signup_section()
 
     real_events, scan_history = load_dashboard_data(
         str(DEFAULT_CHANGES_DIR),
@@ -116,26 +119,181 @@ def main() -> None:
         scan_history_signature(DEFAULT_SCAN_HISTORY_PATH),
     )
 
-    render_status_information(real_events, scan_history)
+    if st.query_params.get("view") == "changes":
+        render_changes_view(real_events, scan_history)
+    else:
+        render_homepage(real_events, scan_history)
+    render_public_footer()
 
-    filtered_events = render_filters(real_events)
 
-    st.divider()
-    if not filtered_events:
-        st.info("Keine echten Änderungen seit Tracking Beginn erkannt.")
-        render_public_footer()
+def render_changes_view(real_events: list[dict[str, Any]], scan_history: list[dict[str, Any]]) -> None:
+    """Public filters leave the underlying daily grouping and detail semantics intact."""
+    if "detail" in st.query_params:
+        render_change_detail(real_events, st.query_params.get("detail", ""))
         return
-
+    st.markdown('<a class="diga-button" href="./" target="_self">Zurück</a>', unsafe_allow_html=True)
+    st.title("Alle Änderungen")
+    st.caption("Alle erkannten Änderungen im BfArM DiGA Verzeichnis.")
+    public_events = [e for e in real_events if is_real_change_event(e) and is_public(e)]
+    query = st.text_input("DiGA oder Hersteller suchen", key="changes_search")
+    selected = st.radio("Art der Änderung", ["Alle", "Neu", "Aktualisiert", "Entfernt"],
+                        horizontal=True, key="changes_category")
+    filtered_events = render_filters(public_events)
+    filtered_events = [e for e in filtered_events if public_matches(e, selected, query)]
     grouped_events = group_events_by_diga(filtered_events)
     if not grouped_events:
-        st.info("Keine echten Änderungen seit Tracking Beginn erkannt.")
-        render_public_footer()
-        return
-    render_group_summary(grouped_events, filtered_events)
-    for group in grouped_events:
-        render_event_group(group)
+        st.info("Keine Änderungen für diese Auswahl gefunden.")
+    else:
+        st.caption(f"{len(grouped_events)} Einträge · {sum(len(g['events']) for g in grouped_events)} Anpassungen")
+        for group in grouped_events:
+            st.markdown(f'<div id="{change_group_anchor(group)}" class="diga-anchor"></div>', unsafe_allow_html=True)
+            with st.container(border=True):
+                st.markdown(f'### {html.escape(str(group["diga_name"]))}')
+                badges = ''.join(f'<span class="diga-pill">{label}</span>' for label in public_labels(group['events']))
+                st.markdown(f'<div class="diga-pills">{badges}</div>', unsafe_allow_html=True)
+                st.caption(format_datetime(group['detected_at']).replace(' ', ', ', 1) + ' Uhr')
+                st.markdown(f'<a class="diga-text-link" href="?view=changes&amp;detail={change_group_anchor(group)}" target="_self">Details ansehen</a>', unsafe_allow_html=True)
+    render_newsletter_signup_section()
 
-    render_public_footer()
+
+def render_change_detail(real_events: list[dict[str, Any]], detail_id: str) -> None:
+    """Resolve against complete public daily groups, independently of filter state."""
+    st.title("Änderungen")
+    matches = [group for group in homepage_event_groups(real_events)
+               if change_group_anchor(group) == detail_id]
+    if len(matches) != 1:
+        st.info("Diese Änderung konnte nicht gefunden werden.")
+        st.markdown('<a class="diga-button" href="?view=changes" target="_self">Alle Änderungen ansehen</a>', unsafe_allow_html=True)
+        return
+    group = matches[0]
+    st.markdown('<a class="diga-button" href="?view=changes" target="_self">← Alle Änderungen</a>', unsafe_allow_html=True)
+    st.markdown(f'## {html.escape(str(group["diga_name"]))}')
+    badges = ''.join(f'<span class="diga-pill">{label}</span>' for label in public_labels(group['events']))
+    st.markdown(f'<div class="diga-pills">{badges}</div>', unsafe_allow_html=True)
+    st.caption(format_datetime(group['detected_at']).replace(' ', ', ', 1) + ' Uhr')
+    for event in group['events']:
+        render_public_details(event)
+    external = (
+        f'<a class="diga-button" href="{html.escape(str(group["bfarm_directory_url"]), quote=True)}" '
+        'target="_blank" rel="noopener noreferrer">BfArM-Eintrag öffnen</a>'
+        if group.get("bfarm_directory_url") else ""
+    )
+    st.markdown(
+        '<nav class="diga-detail-actions" aria-label="Weitere Navigation">' + external +
+        '<a class="diga-button" href="?view=changes" target="_self">Zurück</a></nav>',
+        unsafe_allow_html=True,
+    )
+
+
+def render_public_details(event: dict[str, Any]) -> None:
+    """Keep established diffs/prices; simplify only unresolved presentation wording."""
+    if event.get("change_type") == "visible_diff_unresolved":
+        st.markdown(f"**{public_subject(event).title()}**")
+        if event.get("original_change_type") == "price_change":
+            render_price_change(event)
+        elif event.get("word_diff"):
+            render_text_change(event)
+        else:
+            render_before_after(event)
+    else:
+        st.markdown(f'**{html.escape(field_label(event))}**')
+        render_event_details(event)
+
+
+@st.cache_data(show_spinner=False)
+def load_homepage_market(path: str, content_signature: str) -> MarketSnapshot | None:
+    """Separate content-addressed cache; existing dashboard cache inputs stay intact."""
+    del content_signature
+    return load_market_snapshot(Path(path))
+
+
+def recent_adjustment_count(groups: list[dict[str, Any]], today: date) -> int:
+    """Displayed, deduplicated adjustments in 30 Berlin calendar days, including today.
+
+    Input is the unchanged group_events_by_diga output, not raw scanner counts.
+    The KPI counts adjustments, not unique DiGA or DiGA/day groups.
+    """
+    start = today - timedelta(days=29)
+    return sum(is_public(event) and event_date_in_range(event, start, today)
+               for group in groups for event in group["events"])
+
+
+def change_group_anchor(group: dict[str, Any]) -> str:
+    """Stable presentation anchor for an existing DiGA/date group."""
+    identity = f'{event_diga_key(group["events"][0])}|{group["date"]}'
+    return "change-" + hashlib.sha256(identity.encode("utf-8")).hexdigest()[:16]
+
+
+def homepage_change_items(groups: list[dict[str, Any]], limit: int = 5) -> list[dict[str, Any]]:
+    """Slice existing newest-first groups without regrouping, filtering or reordering."""
+    items = []
+    for group in [g for g in groups if all(is_public(e) for e in g["events"])][:limit]:
+        events = group["events"]
+        event = events[0]
+        kind = event.get("change_type")
+        summary = {"new_diga": "Neu im DiGA Verzeichnis",
+                   "removed_diga": "Aus dem DiGA Verzeichnis entfernt",
+                   "text_change": "Verzeichniseintrag aktualisiert"}.get(kind, "Eintrag aktualisiert")
+        if kind == "status_change":
+            statuses = {"provisional": "Vorläufig", "permanent": "Dauerhaft",
+                        "listed": "Dauerhaft", "removed": "Gestrichen"}
+            before = statuses.get(str(event_previous_value(event)))
+            after = statuses.get(str(event_new_value(event)))
+            summary = f"{before} → {after}" if before and after else "Aufnahmestatus geändert"
+        elif kind == "price_change":
+            analysis = analyze_price_change(event_previous_value(event), event_new_value(event))
+            summary = "Preisangaben aktualisiert" if analysis["show_raw"] else str(analysis["title"])
+        if len(events) > 1:
+            summary += f" · +{len(events) - 1} weitere Anpassungen"
+        items.append({
+            "name": str(group["diga_name"]),
+            "manufacturer": str(group.get("manufacturer") or ""),
+            "timestamp": str(group["detected_at"] or ""),
+            "date_label": format_datetime(group["detected_at"]).replace(" ", " · ", 1),
+            "labels": public_labels(events),
+            "summary": summary,
+            "anchor": change_group_anchor(group),
+        })
+    return items
+
+
+def homepage_event_groups(real_events: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """All public groups since tracking start, independent of overview filters."""
+    dated_events = [event for event in real_events
+                    if is_real_change_event(event) and is_public(event)
+                    and (day := event_date(event)) is not None and day >= TRACKING_START_DATE]
+    return group_events_by_diga(dated_events)
+
+
+def homepage_freshness(scan_history: list[dict[str, Any]], market: MarketSnapshot | None) -> str:
+    """Latest recorded scan, with validated snapshot timestamp as fallback."""
+    dates = [parsed for scan in scan_history
+             if (parsed := parse_datetime(scan.get("scan_timestamp"))) is not None]
+    timestamp = max(dates) if dates else parse_datetime(market.as_of) if market else None
+    if timestamp is None:
+        return "Zuletzt geprüft: nicht verfügbar"
+    return "Zuletzt geprüft: " + timestamp.astimezone(DISPLAY_TIMEZONE).strftime("%d.%m.%Y, %H:%M Uhr")
+
+
+def render_homepage(real_events: list[dict[str, Any]], scan_history: list[dict[str, Any]]) -> None:
+    st.markdown(hero_html(newsletter_ready=is_legal_content_ready()), unsafe_allow_html=True)
+    groups = homepage_event_groups(real_events)
+    today = datetime.now(DISPLAY_TIMEZONE).date()
+    try:
+        signature = files_content_signature((MARKET_SNAPSHOT_PATH,))
+        market = load_homepage_market(str(MARKET_SNAPSHOT_PATH), signature)
+    except OSError:
+        market = None
+    cards = [
+        ("Aktiv", market.active if market else None),
+        ("Dauerhaft gelistet", market.permanent if market else None),
+        ("Vorläufig gelistet", market.provisional if market else None),
+        ("Änderungen · 30 Tage", recent_adjustment_count(groups, today)),
+    ]
+    note = homepage_freshness(scan_history, market)
+    st.markdown(market_snapshot_html(cards, note), unsafe_allow_html=True)
+    st.markdown(recent_changes_html(homepage_change_items(groups)), unsafe_allow_html=True)
+    render_newsletter_signup_section()
 
 
 # Session-state keys for the signup form below. Both hold only transient,
@@ -216,10 +374,11 @@ def render_newsletter_signup_section() -> None:
     )
 
     st.divider()
-    st.subheader("DiGA Tracker Alerts abonnieren")
+    st.markdown('<div id="newsletter" class="diga-anchor"></div>', unsafe_allow_html=True)
+    st.subheader("Keine Änderung verpassen.")
     st.write(
-        "Erhalte eine Benachrichtigung, sobald der DiGA Tracker eine relevante "
-        "Änderung im BfArM DiGA-Verzeichnis erkennt."
+        "Das DiGA Verzeichnis ändert sich ständig. Neue DiGA kommen hinzu, bestehende "
+        "ändern sich (z.B. Preis, Laufzeiten, Evidenz, usw.) oder werden entfernt."
     )
 
     pending_email = st.session_state.get(_NEWSLETTER_PENDING_EMAIL_KEY)
@@ -388,7 +547,7 @@ def render_public_footer() -> None:
 
     st.divider()
     st.markdown(
-        '<div style="font-size:0.85rem;color:#6b7280;">'
+        '<div class="diga-footer">'
         "DiGA Tracker &middot; "
         '<a href="?view=datenschutz" target="_self">Datenschutzerklärung</a>'
         "</div>",
@@ -500,137 +659,28 @@ def load_dashboard_data(
 
 
 def render_page_header() -> None:
-    st.markdown(
-        """
-        <style>
-        :root {
-            --diga-header-title: #111827;
-            --diga-header-text: #1f2937;
-            --diga-header-muted: #4b5563;
-            --diga-header-value: #111827;
-            --diga-diff-added-bg: rgba(22, 163, 74, 0.16);
-            --diga-diff-added-border: #16a34a;
-            --diga-diff-removed-bg: rgba(220, 38, 38, 0.16);
-            --diga-diff-removed-border: #dc2626;
-        }
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --diga-header-title: #f9fafb;
-                --diga-header-text: #f3f4f6;
-                --diga-header-muted: #d1d5db;
-                --diga-header-value: #ffffff;
-                --diga-diff-added-bg: rgba(34, 197, 94, 0.24);
-                --diga-diff-added-border: #22c55e;
-                --diga-diff-removed-bg: rgba(248, 113, 113, 0.24);
-                --diga-diff-removed-border: #f87171;
-            }
-        }
-        .diga-page-header {
-            margin-bottom: 1rem;
-        }
-        .diga-page-title {
-            color: var(--diga-header-title);
-            font-size: 2.5rem;
-            font-weight: 700;
-            line-height: 1.15;
-            margin: 0 0 0.35rem;
-        }
-        .diga-page-subtitle {
-            color: var(--diga-header-text);
-            font-size: 1.08rem;
-            line-height: 1.45;
-            margin: 0;
-        }
-        .diga-page-source {
-            color: var(--diga-header-muted);
-            font-size: 0.9rem;
-            line-height: 1.45;
-            margin-top: 0.35rem;
-        }
-        @media (max-width: 720px) {
-            .diga-page-title {
-                font-size: 2rem;
-            }
-            .diga-page-subtitle {
-                font-size: 1rem;
-            }
-            .diga-page-source {
-                font-size: 0.92rem;
-            }
-        }
-        </style>
-        <header class="diga-page-header">
-            <h1 class="diga-page-title">DiGA Monitor</h1>
-            <p class="diga-page-subtitle">Änderungen im DiGA-Verzeichnis transparent verfolgen</p>
-            <div class="diga-page-source">Quelle: Offizielles DiGA-Verzeichnis des BfArM</div>
-        </header>
-        """,
-        unsafe_allow_html=True,
-    )
+    st.markdown(public_header_html(
+        newsletter_ready=is_legal_content_ready(),
+        homepage=st.query_params.get("view") not in {"changes", "datenschutz", "confirmed"},
+    ), unsafe_allow_html=True)
 
 
 def render_filters(events: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    event_dates = [event_date(event) for event in events if event_date(event)]
-    min_date = TRACKING_START_DATE
-    max_date = max(event_dates + [TRACKING_START_DATE, date.today()])
-    selected_range = st.date_input(
-        "Zeitraum",
-        value=(TRACKING_START_DATE, max_date),
-        min_value=TRACKING_START_DATE,
-        max_value=max_date,
-    )
+    days = st.selectbox("Zeitraum", (7, 14, 30, 90, 180), index=2,
+                        format_func=lambda value: f"{value} Tage", key="changes_period")
+    return filter_recent_events(events, days, datetime.now(DISPLAY_TIMEZONE).date())
 
-    start_date, end_date = normalize_date_range(selected_range, min_date, max_date)
 
-    return [
-        event
-        for event in events
-        if event_date_in_range(event, start_date, end_date)
-    ]
+def filter_recent_events(events: list[dict[str, Any]], days: int, today: date) -> list[dict[str, Any]]:
+    """Inclusive Berlin calendar dates, independent of timestamp hours and DST."""
+    start = today - timedelta(days=days - 1)
+    return [event for event in events if event_date_in_range(event, start, today)]
 
 
 def render_status_information(
     real_events: list[dict[str, Any]],
     scan_history: list[dict[str, Any]],
 ) -> None:
-    st.markdown(
-        """
-        <style>
-        .status-grid {
-            display: grid;
-            grid-template-columns: repeat(3, minmax(0, 1fr));
-            gap: 1rem;
-            margin: 1rem 0 1.25rem;
-        }
-        .status-item {
-            color: var(--diga-header-value);
-            font-size: 1rem;
-            line-height: 1.45;
-        }
-        .status-label {
-            color: var(--diga-header-muted);
-            font-weight: 600;
-            white-space: nowrap;
-        }
-        .status-value {
-            color: var(--diga-header-value);
-            font-weight: 500;
-            margin-top: 0.15rem;
-            white-space: nowrap;
-        }
-        @media (max-width: 720px) {
-            .status-grid {
-                grid-template-columns: 1fr;
-            }
-            .status-label,
-            .status-value {
-                white-space: normal;
-            }
-        }
-        </style>
-        """,
-        unsafe_allow_html=True,
-    )
     items = [
         ("Tracking aktiv seit:", "31.05.2026"),
         ("Letzter erfolgreicher Scan:", latest_scan_timestamp(scan_history)),
@@ -744,14 +794,7 @@ def render_adjustment_header(index: int, event: dict[str, Any]) -> None:
         if internal_key:
             st.caption(f"Interner Schlüssel: {internal_key}")
         if is_removed_choice_value(event):
-            st.caption(
-                "Ein interner Auswahlwert wurde entfernt. "
-                "Der sichtbare Abschnitt konnte nicht eindeutig zugeordnet werden."
-            )
-    if event.get("localization_confidence") == "low":
-        st.caption("Die Änderung wurde erkannt, konnte aber keinem sichtbaren Abschnitt eindeutig zugeordnet werden.")
-    if event.get("change_type") == "visible_diff_unresolved":
-        st.caption("Die Änderung wurde erkannt, der sichtbare Abschnitt konnte aber nicht eindeutig zugeordnet werden.")
+            st.caption("Ein interner Auswahlwert wurde entfernt.")
 
 
 def render_before_after(event: dict[str, Any]) -> None:
@@ -761,7 +804,6 @@ def render_before_after(event: dict[str, Any]) -> None:
 
 
 def render_unresolved_visible_diff(event: dict[str, Any]) -> None:
-    st.caption("Der Monitor hat eine fachliche Änderung in den BfArM-Daten erkannt. Die sichtbare Stelle im Verzeichnis konnte in diesem Lauf nicht eindeutig zugeordnet werden.")
     if event.get("original_change_type") == "price_change":
         render_price_change(event)
         return
@@ -873,16 +915,10 @@ def render_long_text_change(event: dict[str, Any]) -> None:
 
 
 def change_excerpt_html(text: str, tone: str) -> str:
-    border_color = "#ef4444" if tone == "removed" else "#16a34a"
-    background = "rgba(239, 68, 68, 0.14)" if tone == "removed" else "rgba(22, 163, 74, 0.14)"
     return (
-        "<div style='"
-        f"border-left:4px solid {border_color};"
-        f"background:{background};"
-        "color:inherit;padding:0.75rem 0.85rem;border-radius:6px;"
-        "line-height:1.65;overflow-wrap:anywhere;white-space:normal;'>"
-        f"{html.escape(text)}"
-        "</div>"
+        '<div class="diga-excerpt">'
+        f'{diff_text_html(text, removed=tone == "removed")}'
+        '</div>'
     )
 
 
@@ -932,18 +968,12 @@ def render_word_diff(tokens: list[dict[str, str]]) -> str:
         text = html.escape(token.get("text", ""))
         op = token.get("op")
         if op == "insert":
-            parts.append(
-                "<span style='background:var(--diga-diff-added-bg, rgba(22,163,74,0.18));color:inherit;"
-                f"border-bottom:2px solid var(--diga-diff-added-border, #16a34a);padding:0 2px'>{text}</span>"
-            )
+            parts.append(diff_text_html(token.get("text", ""), removed=False))
         elif op == "delete":
-            parts.append(
-                "<span style='background:var(--diga-diff-removed-bg, rgba(239,68,68,0.18));color:inherit;"
-                f"border-bottom:2px solid var(--diga-diff-removed-border, #ef4444);text-decoration:line-through;padding:0 2px'>{text}</span>"
-            )
+            parts.append(diff_text_html(token.get("text", ""), removed=True))
         else:
             parts.append(text)
-    return "<div style='line-height:1.8'>" + " ".join(parts) + "</div>"
+    return '<div class="diga-diff">' + " ".join(parts) + "</div>"
 
 
 def compact_text_diff(
@@ -1015,22 +1045,16 @@ def render_diff_column(tokens: list[dict[str, str]], side: str) -> str:
         op = token.get("op")
         text = html.escape(token.get("text", ""))
         if op == "delete" and side == "before":
-            parts.append(
-                "<mark style='background:var(--diga-diff-removed-bg, rgba(239,68,68,0.18));color:inherit;"
-                f"border-bottom:2px solid var(--diga-diff-removed-border, #ef4444);text-decoration:line-through;padding:0 2px'>{text}</mark>"
-            )
+            parts.append(diff_text_html(token.get("text", ""), removed=True))
         elif op == "insert" and side == "after":
-            parts.append(
-                "<mark style='background:var(--diga-diff-added-bg, rgba(22,163,74,0.18));color:inherit;"
-                f"border-bottom:2px solid var(--diga-diff-added-border, #16a34a);padding:0 2px'>{text}</mark>"
-            )
+            parts.append(diff_text_html(token.get("text", ""), removed=False))
         elif op == "ellipsis":
-            parts.append(f"<span style='color:#6b7280'>{text}</span>")
+            parts.append(f'<span class="diga-muted">{text}</span>')
         elif op in {"removed_placeholder", "added_placeholder"}:
-            parts.append(f"<span style='color:#6b7280;font-style:italic'>{text}</span>")
+            parts.append(f'<span class="diga-placeholder">{text}</span>')
         else:
             parts.append(text)
-    return "<div style='line-height:1.8'>" + " ".join(parts) + "</div>"
+    return '<div class="diga-diff">' + " ".join(parts) + "</div>"
 
 
 def render_simulation_summary(events: list[dict[str, Any]]) -> None:
@@ -1078,41 +1102,6 @@ def render_wrapped_text(value: Any) -> None:
     text = text.replace("\n", "<br>")
     st.markdown(
         f"""
-        <style>
-        .full-text-box {{
-            white-space: normal;
-            overflow-wrap: anywhere;
-            word-break: break-word;
-            line-height: 1.65;
-            border: 1px solid var(--diga-full-text-border, #cbd5e1);
-            border-radius: 8px;
-            padding: 0.85rem;
-            background: var(--diga-full-text-bg, #f8fafc);
-            color: var(--diga-full-text-color, #111827);
-            max-height: 28rem;
-            overflow-y: auto;
-            overflow-x: hidden;
-            margin: 0.35rem 0 1rem;
-        }}
-        .full-text-box * {{
-            color: inherit;
-        }}
-        @media (prefers-color-scheme: dark) {{
-            :root {{
-                --diga-full-text-bg: #111827;
-                --diga-full-text-color: #f9fafb;
-                --diga-full-text-border: #4b5563;
-            }}
-        }}
-        @media (max-width: 720px) {{
-            .full-text-box {{
-                max-height: none;
-                font-size: 0.98rem;
-                line-height: 1.7;
-                padding: 0.8rem;
-            }}
-        }}
-        </style>
         <div class="full-text-box">{text}</div>
         """,
         unsafe_allow_html=True,
@@ -1375,46 +1364,6 @@ def render_before_after_html(before_html: str, after_html: str, stacked: bool = 
     grid_class = "before-after-grid before-after-grid-stacked" if stacked else "before-after-grid"
     st.markdown(
         f"""
-        <style>
-        .before-after-grid {{
-            display: grid;
-            grid-template-columns: repeat(2, minmax(0, 1fr));
-            gap: 0.85rem;
-            margin-top: 0.35rem;
-        }}
-        .before-after-card {{
-            border: 1px solid rgba(148, 163, 184, 0.45);
-            border-radius: 8px;
-            padding: 0.85rem;
-            background: rgba(148, 163, 184, 0.07);
-            min-width: 0;
-        }}
-        .before-after-label {{
-            color: var(--diga-header-muted, #4b5563);
-            font-size: 0.84rem;
-            font-weight: 700;
-            letter-spacing: 0.02em;
-            margin-bottom: 0.45rem;
-            text-transform: uppercase;
-        }}
-        .before-after-content {{
-            color: inherit;
-            line-height: 1.65;
-            overflow-wrap: anywhere;
-            white-space: normal;
-        }}
-        .before-after-content p {{
-            margin: 0;
-        }}
-        .before-after-grid-stacked {{
-            grid-template-columns: 1fr;
-        }}
-        @media (max-width: 720px) {{
-            .before-after-grid {{
-                grid-template-columns: 1fr;
-            }}
-        }}
-        </style>
         <div class="{grid_class}">
             <section class="before-after-card">
                 <div class="before-after-label">Vorher</div>
@@ -1481,8 +1430,7 @@ def render_inline_value(value: Any) -> str:
     if not status_style:
         return html.escape(text)
     return (
-        "<span style='display:inline-flex;align-items:center;border-radius:999px;"
-        "padding:0.18rem 0.55rem;font-weight:600;font-size:0.92rem;"
+        "<span class='diga-status' style='"
         f"{status_style}'>{html.escape(text)}</span>"
     )
 
@@ -1490,11 +1438,11 @@ def render_inline_value(value: Any) -> str:
 def status_badge_style(value: str) -> str | None:
     normalized = value.strip().lower()
     if "vorläufig" in normalized:
-        return "background:#fff3bf;color:#7a4f01;border:1px solid #ffd43b;"
+        return "background:var(--color-white);color:var(--color-text);border:1px dashed var(--color-border-strong);"
     if "dauerhaft" in normalized:
-        return "background:#d3f9d8;color:#14532d;border:1px solid #69db7c;"
+        return "background:var(--color-surface);color:var(--color-text);border:1px solid var(--color-border-strong);"
     if "gestrichen" in normalized:
-        return "background:#ffe3e3;color:#8a1f1f;border:1px solid #ffa8a8;"
+        return "background:var(--color-white);color:var(--color-text);border:1px solid var(--color-border-strong);text-decoration:line-through;"
     return None
 
 

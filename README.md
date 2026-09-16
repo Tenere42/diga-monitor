@@ -1,5 +1,107 @@
 # DiGA Directory Change Monitor
 
+## Direct change details (Phase C.1)
+
+The public header contains only a DiGA Tracker home link. The homepage proceeds
+from hero and KPIs through latest changes directly to the existing newsletter
+and footer; its short introduction explains the monitored changes.
+
+`?view=changes` opens the searchable/filterable overview.
+`?view=changes&detail=change-<hash>` opens exactly one public DiGA/date group,
+including all its adjustments, without overview controls. The identifier reuses
+the stable existing DiGA ID + Berlin-date hash. Invalid/unavailable groups show
+a not-found message; synthetic directory groups cannot resolve. The back link
+returns to the overview, and the brand returns home. Links survive reloads;
+daily groups may still gain adjustments from subsequent scans on the same day.
+
+## Public changes (Phase C)
+
+The homepage and `?view=changes` use `src/public_changes.py` for concrete DiGA
+identity checks and shared NEU / AKTUALISIERT / ENTFERNT classification. Update
+subjects are STATUS, PREIS, EVIDENZ, ANWENDUNG, TECHNIK, DATENSCHUTZ, HERSTELLER
+and ANGABEN. Reactivation is a status update; it is not a new DiGA.
+
+Directory-counter diagnostics remain stored but are excluded from both public
+views and the 30-day adjustment KPI. The other three KPIs remain snapshot-based.
+Search matches DiGA/manufacturer locally; primary filters select lifecycle
+categories and the existing date filter remains available. Expandable groups
+retain established before/after, price and textual diff rendering.
+
+Grouping remains DiGA ID + Berlin calendar date, potentially spanning several
+scans. Mixed lifecycle groups retain multiple category badges. Public filtering
+does not rewrite historical events or change monitoring/deduplication semantics.
+The newsletter checkbox no longer outlines its entire wrapper on focus; native
+control keyboard focus and email input focus remain. The menu was subsequently removed in Phase C.1.
+
+## Public homepage (Phase B)
+
+The default route now shows compact navigation, the DiGA Tracker hero, four
+market-summary cards, five newest DiGA/date change groups, a short explanation,
+and one existing newsletter form. The single hero CTA links to signup. `?view=changes` retains the full date-filtered dashboard and
+all existing comparisons. `?view=datenschutz` and `?view=confirmed` keep their
+existing legal readiness gates. No additional legal destination is invented.
+
+Market counts come from `data/baseline/current_snapshot.json`, already persisted
+by the monitoring workflow. `src/homepage_data.py` validates its stored aggregates
+against the existing snapshot status rules and returns only a small summary to a
+separate content-addressed cache. Active means permanent + provisional, excluding
+removed and unknown statuses. A subtle freshness line shows the latest recorded
+scan in Berlin time, falling back to the validated snapshot timestamp. Missing
+or inconsistent market data displays as unavailable, not zero. No runtime R2/API query or
+historical-event reconstruction is used for market counts.
+
+The fourth card counts displayed, deduplicated **adjustments** in the 30 Berlin
+calendar days ending today (inclusive), using the existing full-dashboard default
+date range and grouping. It does not count raw scanner events, unique DiGA, or
+groups. Preview order/grouping is inherited from that same pipeline. Each preview
+links to its existing full-detail group; names and summary content are HTML-escaped.
+
+Phase B extends the Phase A tokens and stylesheet, with two KPI columns on phones
+and four from 64rem. Newsletter widget keys, consent, pending/disabled states,
+result persistence and DOI calls are unchanged. Tests use a mocked DOI function.
+Browser visual checks (320/375/390/430/768/1440px), native-menu behavior and anchor
+scrolling remain outstanding because browser access was denied in this environment.
+
+Phase B.2 simplifies the hero to “Alle DiGA. Alle Änderungen.”, shortens KPI
+labels, and limits each recent preview to name, a short type label, compact
+summary, timestamp and detail link. Manufacturer paragraphs and verbose field
+names remain in the full dashboard rather than the homepage.
+
+Chrome CSS uses Streamlit 1.63 hooks `stMainMenu` and
+`stStatusWidgetRunningIcon`. Only the menu and animated running icon are hidden;
+connection status, Stop/Rerun controls, native spinners and newsletter feedback
+remain visible. The native header is placed in normal flow to avoid overlapping
+the compact public header. Recheck these hooks after Streamlit upgrades.
+Content-signature caches and required newsletter reruns are unchanged; cold
+loads, file hashing and navigation can still cause visible loading.
+
+## Dashboard visual foundation (Phase A)
+
+The public Streamlit UI uses **DiGA Tracker** branding. Presentation tokens and
+responsive styles live in `assets/styles.css`; `src/ui.py` loads that stylesheet
+relative to the repository and provides small HTML presentation helpers.
+`.streamlit/config.toml` contains only the monochrome light theme. No external
+font service or frontend framework is required.
+
+The layout uses 16px mobile gutters, a 72rem maximum outer content width, and
+larger gutters from 48rem. Before/after panels stack on phones. Diff additions
+are underlined and deletions struck through, with accessible text labels;
+listing-status labels remain visible. The former OS dark-mode overrides have
+been removed. Native Streamlit selector dependencies are documented at the top
+of the stylesheet and should be checked when upgrading Streamlit.
+
+Phase A preserved the existing page sequence, filters, event semantics,
+newsletter state machine and legal routes. It does not add the proposed hero,
+market KPIs, search, navigation, or a separate history page. Phase B above adds
+the homepage and reuses the existing history experience; search/filter chips
+remain out of scope.
+
+Focused offline checks: `python -m unittest discover -s tests -p test_ui_foundation.py`.
+These include Streamlit AppTest with a mocked newsletter backend; no real signup
+or Brevo request is made. Browser viewport checks at 375, 430, 768 and 1440px
+(plus 320 and 390px) remain a required visual review before Phase B. AppTest
+checks Python/widget behavior, not pixel layout.
+
 A small Python CLI and Streamlit MVP for monitoring changes in the BfArM DiGA directory.
 
 The app compares each scan with one operational JSON baseline, writes structured change events, archives selected full snapshots in Cloudflare R2, and shows a pure change feed. It does not duplicate the public DiGA directory.

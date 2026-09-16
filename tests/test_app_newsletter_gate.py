@@ -36,7 +36,7 @@ class NewsletterGateTests(unittest.TestCase):
             mock_st.session_state = {}
             mock_st.form_submit_button.return_value = False
             app.render_newsletter_signup_section()
-        mock_st.subheader.assert_called_once_with("DiGA Tracker Alerts abonnieren")
+        mock_st.subheader.assert_called_once_with("Keine Änderung verpassen.")
 
     def test_footer_links_to_datenschutz_view_when_legal_ready(self) -> None:
         with (
