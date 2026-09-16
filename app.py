@@ -178,19 +178,30 @@ def homepage_change_items(groups: list[dict[str, Any]], limit: int = 5) -> list[
     for group in groups[:limit]:
         events = group["events"]
         event = events[0]
-        summary = field_label(event)
-        if event.get("change_type") == "status_change":
-            summary = f'{format_value(event_previous_value(event))} → {format_value(event_new_value(event))}'
-        elif event.get("change_type") == "price_change":
-            summary = str(analyze_price_change(event_previous_value(event), event_new_value(event))["title"])
+        kind = event.get("change_type")
+        labels = {"new_diga": "NEU", "removed_diga": "ENTFERNT",
+                  "status_change": "STATUS", "price_change": "PREIS",
+                  "text_change": "TEXT", "directory_metric_change": "VERZEICHNIS"}
+        summary = {"new_diga": "Neu im DiGA Verzeichnis",
+                   "removed_diga": "Nicht mehr im Verzeichnis",
+                   "text_change": "Verzeichniseintrag aktualisiert"}.get(kind, "Eintrag aktualisiert")
+        if kind == "status_change":
+            statuses = {"provisional": "Vorläufig", "permanent": "Dauerhaft",
+                        "listed": "Dauerhaft", "removed": "Gestrichen"}
+            before = statuses.get(str(event_previous_value(event)))
+            after = statuses.get(str(event_new_value(event)))
+            summary = f"{before} → {after}" if before and after else "Aufnahmestatus geändert"
+        elif kind == "price_change":
+            analysis = analyze_price_change(event_previous_value(event), event_new_value(event))
+            summary = "Preisangaben aktualisiert" if analysis["show_raw"] else str(analysis["title"])
         if len(events) > 1:
-            summary = f'{len(events)} fachliche Anpassungen · {summary}'
+            summary += f" · +{len(events) - 1} weitere Anpassungen"
         items.append({
             "name": str(group["diga_name"]),
             "manufacturer": str(group.get("manufacturer") or ""),
             "timestamp": str(group["detected_at"] or ""),
-            "date_label": format_datetime(group["detected_at"]),
-            "labels": list(dict.fromkeys(event_title_label(item) for item in events)),
+            "date_label": format_datetime(group["detected_at"]).replace(" ", " · ", 1),
+            "labels": [labels.get(kind, "ÄNDERUNG")],
             "summary": summary,
             "anchor": change_group_anchor(group),
         })
@@ -209,6 +220,16 @@ def homepage_event_groups(real_events: list[dict[str, Any]]) -> list[dict[str, A
     return group_events_by_diga(dated_events)
 
 
+def homepage_freshness(scan_history: list[dict[str, Any]], market: MarketSnapshot | None) -> str:
+    """Latest recorded scan, with validated snapshot timestamp as fallback."""
+    dates = [parsed for scan in scan_history
+             if (parsed := parse_datetime(scan.get("scan_timestamp"))) is not None]
+    timestamp = max(dates) if dates else parse_datetime(market.as_of) if market else None
+    if timestamp is None:
+        return "Zuletzt geprüft: nicht verfügbar"
+    return "Zuletzt geprüft: " + timestamp.astimezone(DISPLAY_TIMEZONE).strftime("%d.%m.%Y, %H:%M Uhr")
+
+
 def render_homepage(real_events: list[dict[str, Any]], scan_history: list[dict[str, Any]]) -> None:
     st.markdown(hero_html(newsletter_ready=is_legal_content_ready()), unsafe_allow_html=True)
     groups = homepage_event_groups(real_events)
@@ -219,18 +240,12 @@ def render_homepage(real_events: list[dict[str, Any]], scan_history: list[dict[s
     except OSError:
         market = None
     cards = [
-        ("Aktive DiGA", market.active if market else None),
-        ("Dauerhaft aufgenommen", market.permanent if market else None),
-        ("Vorläufig aufgenommen", market.provisional if market else None),
+        ("Aktiv", market.active if market else None),
+        ("Dauerhaft", market.permanent if market else None),
+        ("Vorläufig", market.provisional if market else None),
         ("Änderungen · 30 Tage", recent_adjustment_count(groups, today)),
     ]
-    note = (f"Marktstand: {format_datetime(market.as_of)} (Europe/Berlin). "
-            "Quelle: zuletzt gespeicherter BfArM-Verzeichnisstand; keine Live-Abfrage. "
-            if market else "Marktzahlen derzeit nicht verfügbar. ")
-    if market and market.unknown:
-        note += f"{market.unknown} Einträge ohne zugeordneten Status sind nicht als aktiv gezählt. "
-    note += (f"Änderungen: fachliche Anpassungen vom {(today - timedelta(days=29)).strftime('%d.%m.%Y')} "
-             f"bis {today.strftime('%d.%m.%Y')}. Zuletzt geprüft: {latest_scan_timestamp(scan_history)}.")
+    note = homepage_freshness(scan_history, market)
     st.markdown(market_snapshot_html(cards, note), unsafe_allow_html=True)
     st.markdown(recent_changes_html(homepage_change_items(groups)), unsafe_allow_html=True)
     st.markdown(about_html(), unsafe_allow_html=True)

@@ -4,8 +4,7 @@
 
 The default route now shows compact navigation, the DiGA Tracker hero, four
 market-summary cards, five newest DiGA/date change groups, a short explanation,
-and one existing newsletter form. Native HTML anchors connect the hero actions
-to the explanation and signup; a native `details` menu handles mobile navigation
+and one existing newsletter form. The single hero CTA links to signup; navigation links to the explanation; a native `details` menu handles mobile navigation
 without JavaScript. `?view=changes` retains the full date-filtered dashboard and
 all existing comparisons. `?view=datenschutz` and `?view=confirmed` keep their
 existing legal readiness gates. No additional legal destination is invented.
@@ -14,8 +13,9 @@ Market counts come from `data/baseline/current_snapshot.json`, already persisted
 by the monitoring workflow. `src/homepage_data.py` validates its stored aggregates
 against the existing snapshot status rules and returns only a small summary to a
 separate content-addressed cache. Active means permanent + provisional, excluding
-removed and unknown statuses. The snapshot timestamp is visible; missing or
-inconsistent data displays as unavailable, not zero. No runtime R2/API query or
+removed and unknown statuses. A subtle freshness line shows the latest recorded
+scan in Berlin time, falling back to the validated snapshot timestamp. Missing
+or inconsistent market data displays as unavailable, not zero. No runtime R2/API query or
 historical-event reconstruction is used for market counts.
 
 The fourth card counts displayed, deduplicated **adjustments** in the 30 Berlin
@@ -29,6 +29,19 @@ and four from 64rem. Newsletter widget keys, consent, pending/disabled states,
 result persistence and DOI calls are unchanged. Tests use a mocked DOI function.
 Browser visual checks (320/375/390/430/768/1440px), native-menu behavior and anchor
 scrolling remain outstanding because browser access was denied in this environment.
+
+Phase B.2 simplifies the hero to “Alle DiGA. Alle Änderungen.”, shortens KPI
+labels, and limits each recent preview to name, a short type label, compact
+summary, timestamp and detail link. Manufacturer paragraphs and verbose field
+names remain in the full dashboard rather than the homepage.
+
+Chrome CSS uses Streamlit 1.63 hooks `stMainMenu` and
+`stStatusWidgetRunningIcon`. Only the menu and animated running icon are hidden;
+connection status, Stop/Rerun controls, native spinners and newsletter feedback
+remain visible. The native header is placed in normal flow to avoid overlapping
+the compact public header. Recheck these hooks after Streamlit upgrades.
+Content-signature caches and required newsletter reruns are unchanged; cold
+loads, file hashing and navigation can still cause visible loading.
 
 ## Dashboard visual foundation (Phase A)
 

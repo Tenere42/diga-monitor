@@ -44,7 +44,7 @@
     width: 100%;
     max-width: var(--content-max-width);
     margin-inline: auto;
-    padding: 4rem var(--gutter-mobile) var(--space-7);
+    padding: var(--space-4) var(--gutter-mobile) var(--space-6);
     font-family: var(--font-body);
     font-size: var(--text-body);
     line-height: 1.65;
@@ -250,7 +250,7 @@
     align-items: center;
     justify-content: space-between;
     gap: var(--space-4);
-    padding-block: var(--space-2) var(--space-5);
+    padding-block: 0 var(--space-3);
     border-bottom: 1px solid var(--color-border);
 }
 .block-container .diga-brand {
@@ -294,7 +294,7 @@
     text-decoration: none;
 }
 .diga-mobile-menu nav a:hover { background: var(--color-surface); }
-.diga-hero { padding-block: var(--space-7); }
+.diga-hero { padding-block: var(--space-6); }
 .diga-eyebrow {
     color: var(--color-text-muted);
     font-size: 0.75rem;
@@ -358,7 +358,7 @@
     font-size: var(--text-meta);
     font-weight: 600;
 }
-.diga-market, .diga-recent, .diga-about { margin-bottom: var(--space-7); }
+.diga-market, .diga-recent, .diga-about { margin-bottom: var(--space-6); }
 .diga-meta {
     color: var(--color-text-muted);
     font-size: var(--text-meta);
@@ -385,7 +385,7 @@
 .diga-kpi dt { font-size: var(--text-meta); color: var(--color-text-secondary); line-height: 1.5; }
 .diga-kpi dd { margin: 0; font-size: 2.25rem; font-weight: 650; letter-spacing: -0.04em; line-height: 1.1; }
 .diga-recent-list { list-style: none; margin: 0 0 var(--space-5); padding: 0; }
-.diga-recent-item { padding-block: var(--space-5); border-top: 1px solid var(--color-border); }
+.diga-recent-item { padding-block: var(--space-3); border-top: 1px solid var(--color-border); }
 .diga-recent-item h3 { margin: var(--space-2) 0 var(--space-3); padding: 0; }
 .diga-pills { display: flex; flex-wrap: wrap; gap: var(--space-2); }
 .diga-pill {
@@ -402,7 +402,7 @@
 }
 .diga-change-summary { font-size: var(--text-meta); margin: var(--space-3) 0 var(--space-1); }
 .diga-recent-item .diga-meta { margin-bottom: var(--space-1); }
-.diga-about { max-width: 42rem; padding-top: var(--space-5); }
+.diga-about { max-width: 42rem; padding-top: var(--space-3); }
 .diga-about p:not(.diga-eyebrow) { color: var(--color-text-secondary); line-height: 1.75; }
 .diga-about, .diga-anchor { scroll-margin-top: 5rem; }
 /* Single native newsletter submit control: retain widget key/state/disabled
@@ -420,10 +420,24 @@
     .diga-desktop-nav { display: flex; flex-wrap: wrap; gap: var(--space-5); align-items: center; }
     .diga-desktop-nav a { font-size: var(--text-meta); padding-block: var(--space-3); text-decoration: none; }
     .diga-desktop-nav .diga-nav-cta { text-decoration: underline; text-underline-offset: 0.2em; }
-    .diga-hero { padding-block: 4.5rem; }
+    .diga-hero { padding-block: var(--space-7); }
     .diga-kpi { padding: var(--space-5); }
 }
 @media (min-width: 64rem) {
     .diga-kpi-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
     .diga-recent-item article { max-width: 48rem; }
 }
+
+/* Verified against Streamlit 1.63's installed frontend bundle:
+   stMainMenu wraps the framework menu; stStatusWidgetRunningIcon is only its
+   animated running icon. Never hide stStatusWidget: it also reports connection
+   errors and contains Stop/Rerun controls. Native spinners, alerts, forms,
+   toolbar controls and application navigation remain visible. Recheck on upgrades. */
+[data-testid="stMainMenu"],
+[data-testid="stStatusWidgetRunningIcon"] { display: none; }
+[data-testid="stHeader"] { position: static; height: auto; min-height: 0; }
+.diga-brand { min-width: 0; }
+.diga-kpi dt, .diga-recent-item h3 { overflow-wrap: anywhere; }
+.diga-recent-item time { display: block; }
+.diga-recent-item h3 { margin-top: 0; }
+.diga-hero h1 { max-width: 14ch; }

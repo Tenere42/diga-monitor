@@ -126,9 +126,9 @@ class RecentChangeTests(unittest.TestCase):
 
     def test_preview_reuses_status_labels_and_local_time(self):
         items = app.homepage_change_items(app.group_events_by_diga([event(1, "2026-09-01T23:00:00Z")]))
-        self.assertEqual(items[0]["date_label"], "02.09.2026 01:00")
-        self.assertEqual(items[0]["summary"], "Vorläufig aufgenommen → Dauerhaft aufgenommen")
-        self.assertEqual(items[0]["labels"], ["Statusänderung"])
+        self.assertEqual(items[0]["date_label"], "02.09.2026 · 01:00")
+        self.assertEqual(items[0]["summary"], "Vorläufig → Dauerhaft")
+        self.assertEqual(items[0]["labels"], ["STATUS"])
 
     def test_preview_html_escapes_names_labels_and_summaries(self):
         groups = app.group_events_by_diga([{**event(1), "diga_name": '<script>alert("x")</script>'}])
@@ -141,6 +141,47 @@ class RecentChangeTests(unittest.TestCase):
         self.assertIn('—', market_snapshot_html([("Aktive DiGA", None)], "Nicht verfügbar"))
         self.assertIn('Bisher keine fachlichen Änderungen', recent_changes_html([]))
         self.assertNotIn('#newsletter', hero_html(newsletter_ready=False))
+
+
+class HomepagePolishTests(unittest.TestCase):
+    def test_exact_hero_and_single_cta(self):
+        markup = hero_html(newsletter_ready=True)
+        self.assertIn('Alle DiGA. Alle Änderungen.', markup)
+        self.assertIn('Wir verfolgen alle Änderungen im BfArM DiGA Verzeichnis und halten dich auf dem Laufenden.', markup)
+        for removed in ('TRANSPARENT.', 'diga-eyebrow', 'automatisch', 'Mehr erfahren'):
+            self.assertNotIn(removed, markup)
+        self.assertEqual(markup.count('<a '), 1)
+        self.assertIn('href="#newsletter"', markup)
+
+
+    def test_freshness_berlin_dst_and_fallback(self):
+        self.assertEqual(app.homepage_freshness([{'scan_timestamp': '2026-09-16T13:42:00Z'}], None),
+                         'Zuletzt geprüft: 16.09.2026, 15:42 Uhr')
+        self.assertEqual(app.homepage_freshness([{'scan_timestamp': '2026-01-01T23:30:00Z'}], None),
+                         'Zuletzt geprüft: 02.01.2026, 00:30 Uhr')
+        market = app.MarketSnapshot(1, 1, 0, 0, '2026-09-15T19:24:11Z')
+        self.assertEqual(app.homepage_freshness([{'scan_timestamp': 'invalid'}], market),
+                         'Zuletzt geprüft: 15.09.2026, 21:24 Uhr')
+        self.assertEqual(app.homepage_freshness([], None), 'Zuletzt geprüft: nicht verfügbar')
+
+    def test_chrome_rules_preserve_connection_status_and_controls(self):
+        css = Path('assets/styles.css').read_text(encoding='utf-8')
+        self.assertIn('[data-testid="stStatusWidgetRunningIcon"] { display: none; }', css)
+        self.assertNotIn('[data-testid="stStatusWidget"]', css)
+        self.assertNotIn('[data-testid="stToolbar"]', css)
+        self.assertIn(':focus-visible', css)
+
+    def test_compact_preview_does_not_expose_long_fields_or_manufacturer(self):
+        record = {**event(1), 'change_type': 'text_change', 'changed_field': 'descriptive_texts.long',
+                  'previous_value': 'old evidence ' * 100, 'new_value': 'new evidence ' * 100,
+                  'manufacturer': 'Long manufacturer ' * 100}
+        items = app.homepage_change_items(app.group_events_by_diga([record]))
+        markup = recent_changes_html(items)
+        self.assertIn('Verzeichniseintrag aktualisiert', markup)
+        for forbidden in ('old evidence', 'new evidence', 'Long manufacturer', 'descriptive_texts.long'):
+            self.assertNotIn(forbidden, markup)
+        self.assertLess(markup.index('<h3>'), markup.index('<time '))
+        self.assertIn('?view=changes#change-', markup)
 
 
 class HomepageRouteTests(unittest.TestCase):
@@ -179,6 +220,11 @@ with (
         self.assertEqual(len(at.date_input), 0)
         self.assertEqual(markup.count('id="newsletter"'), 1)
         self.assertIn('href="#newsletter"', markup)
+        self.assertIn('Das Verzeichnis in Zahlen', markup)
+        for label in ('Aktiv', 'Dauerhaft', 'Vorläufig', 'Änderungen · 30 Tage'):
+            self.assertIn('<dt>' + label + '</dt>', markup)
+        self.assertNotIn('Marktstand', markup)
+        self.assertNotIn('Europe/Berlin', markup)
 
     def test_full_changes_route_retains_filter_details_and_single_signup(self):
         at = self.run_view('changes')

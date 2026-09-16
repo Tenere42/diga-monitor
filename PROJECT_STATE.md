@@ -4,8 +4,50 @@
 
 Phase B (mobile-first public homepage) is implemented locally on
 `codex/ui-redesign-black-white`, starting exactly from the approved Phase A commit
-`40888b3f675a9977156cadb5c1e3e8dff9365110`. It is not merged or deployed.
+`40888b3f675a9977156cadb5c1e3e8dff9365110`. It is not merged or deployed to production. The user reports a separate branch-connected Railway ui-preview environment.
 No protected monitoring/storage/subscriber/configuration/data files changed.
+
+### Phase B.2 mobile polish — 2026-09-16
+
+- Started clean at `c8bd320c908773fe855dfa66a8518ae6616ca847` on
+  `codex/ui-redesign-black-white`, following the user's real-iPhone review.
+- Hero now reads “Alle DiGA. Alle Änderungen.” with the exact requested short
+  copy and one gated signup CTA; eyebrow and secondary CTA removed. Explanation
+  reduced to one paragraph. No newsletter, routing or legal behavior changed.
+- “Das Verzeichnis in Zahlen” uses Aktiv / Dauerhaft / Vorläufig / Änderungen ·
+  30 Tage. All validated KPI calculations and unavailable states are unchanged.
+  Freshness uses the latest parseable scan timestamp, validated snapshot fallback,
+  then an explicit unavailable state; Berlin formatting without a timezone label.
+- Maximum five existing newest eligible groups retained. Name first, one short
+  taxonomy label, compact status/price/text summary, timestamp and stable detail
+  link; no manufacturer paragraph or verbose field/evidence text. Additional
+  adjustments are indicated by count. Full changes dashboard remains intact.
+- Reduced top/hero/section/list spacing using existing tokens. Native mobile
+  disclosure retained; 44px navigation targets, wrapping text, two-column phone
+  KPIs/four desktop columns, and focus rules retained. No framework or script.
+- Installed Streamlit 1.63 frontend confirms `stMainMenu` and
+  `stStatusWidgetRunningIcon` hooks. Self-review rejected hiding `stStatusWidget`
+  because it also contains connection errors and Stop/Rerun controls. Only the
+  menu/running animation are hidden; native header moved into normal flow.
+- Loading review: both data caches already use show_spinner=False. Content
+  signatures still read files on reruns; cold loads and query navigation still
+  require work. No cache/invalidation or required signup rerun was bypassed.
+  No measured browser performance claim is made.
+- Full suite: 190 tests, 188 passed, the same two historical failures; zero new
+  regressions. Added exact copy, compact preview, Berlin summer/winter freshness,
+  fallback and narrow-chrome coverage. Existing routes, one form, consent and
+  mocked result persistence pass. No live Brevo request.
+- Codex self-review: only homepage_change_items/render_homepage changed among
+  pre-existing app functions. Newsletter, dashboard, caches and business helpers
+  are AST-identical to the starting commit. Full-data Phase A comparison remains
+  identical: 380 raw, 263 eligible, 25 groups, 173 adjustments; four date filters
+  and all price analyses match. Protected files and historical tests unchanged.
+- Structural CSS review targets 320/375/390/430/768/1440px; actual browser widths
+  tested: none. Prior browser permission denial was not debugged again. Real-device
+  QA on the branch's Railway ui-preview remains required after publication;
+  clipping/overflow, menu, focus, anchor behavior and actual spacing are unverified.
+- No merge or production deployment. One normal push attempt is planned after
+  the focused local commit; if sandbox networking blocks it, publish externally.
 
 ### Phase B.1 QA attempt / blocked visual review — 2026-09-16
 

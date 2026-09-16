@@ -43,12 +43,10 @@ def hero_html(*, newsletter_ready: bool) -> str:
                if newsletter_ready else "")
     return (
         '<section class="diga-hero" aria-labelledby="hero-title">'
-        '<p class="diga-eyebrow">TRANSPARENT. AKTUELL. UNABHÄNGIG.</p>'
-        '<h1 id="hero-title">Der DiGA Markt<br>auf einen Blick.</h1>'
-        '<p class="diga-hero-copy">Wir verfolgen automatisch alle Änderungen im '
-        'BfArM DiGA-Verzeichnis und halten dich auf dem Laufenden.</p>'
-        f'<div class="diga-actions">{primary}'
-        '<a class="diga-text-link" href="#about" target="_self">Mehr erfahren</a></div>'
+        '<h1 id="hero-title">Alle DiGA. Alle Änderungen.</h1>'
+        '<p class="diga-hero-copy">Wir verfolgen alle Änderungen im '
+        'BfArM DiGA Verzeichnis und halten dich auf dem Laufenden.</p>'
+        f'<div class="diga-actions">{primary}</div>'
         '</section>'
     )
 
@@ -62,7 +60,7 @@ def market_snapshot_html(cards: list[tuple[str, int | None]], note: str) -> str:
     )
     return (
         '<section class="diga-market" aria-labelledby="market-title">'
-        '<h2 id="market-title">Der Markt in Zahlen</h2>'
+        '<h2 id="market-title">Das Verzeichnis in Zahlen</h2>'
         f'<dl class="diga-kpi-grid">{blocks}</dl>'
         f'<p class="diga-meta">{html.escape(note)}</p></section>'
     )
@@ -73,16 +71,13 @@ def recent_changes_html(items: list[dict[str, Any]]) -> str:
     for item in items:
         pills = ''.join(f'<span class="diga-pill">{html.escape(label)}</span>'
                         for label in item['labels'])
-        manufacturer = (f'<p class="diga-meta">{html.escape(item["manufacturer"])}</p>'
-                        if item['manufacturer'] else '')
         rows.append(
             '<li class="diga-recent-item"><article>'
-            f'<time class="diga-meta" datetime="{html.escape(item["timestamp"], quote=True)}">'
-            f'{html.escape(item["date_label"])}</time>'
             f'<h3>{html.escape(item["name"])}</h3>'
             f'<div class="diga-pills">{pills}</div>'
             f'<p class="diga-change-summary">{html.escape(item["summary"])}</p>'
-            f'{manufacturer}'
+            f'<time class="diga-meta" datetime="{html.escape(item["timestamp"], quote=True)}">'
+            f'{html.escape(item["date_label"])}</time>'
             f'<a class="diga-text-link" href="?view=changes#{html.escape(item["anchor"], quote=True)}" '
             f'target="_self" aria-label="Details zu {html.escape(item["name"], quote=True)}">Details ansehen</a>'
             '</article></li>'
@@ -100,14 +95,10 @@ def recent_changes_html(items: list[dict[str, Any]]) -> str:
 def about_html() -> str:
     return (
         '<section id="about" class="diga-about" aria-labelledby="about-title">'
-        '<p class="diga-eyebrow">ÜBER DIGA TRACKER</p>'
         '<h2 id="about-title">Was wir beobachten</h2>'
-        '<p>DiGA Tracker verfolgt automatisch Änderungen im offiziellen '
-        'DiGA-Verzeichnis des BfArM – darunter Aufnahmestatus, Preisangaben '
-        'und Inhalte der Verzeichniseinträge.</p>'
-        '<p>Wir zeigen, was sich zwischen zwei Prüfungen verändert hat. '
-        'Zeitangaben beziehen sich auf die Erkennung durch unseren Monitor. '
-        'DiGA Tracker ist ein unabhängiges Angebot und kein Angebot des BfArM.</p>'
+        '<p>DiGA Tracker beobachtet Änderungen an Status, Preisen und Einträgen '
+        'im offiziellen BfArM DiGA Verzeichnis. Ein unabhängiges Angebot, '
+        'nicht vom BfArM.</p>'
         '<a class="diga-text-link" href="https://diga.bfarm.de/de/verzeichnis" '
         'target="_blank" rel="noopener noreferrer">Zum offiziellen DiGA-Verzeichnis</a>'
         '</section>'
