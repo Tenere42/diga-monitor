@@ -7,6 +7,54 @@ Phase B (mobile-first public homepage) is implemented locally on
 `40888b3f675a9977156cadb5c1e3e8dff9365110`. It is not merged or deployed.
 No protected monitoring/storage/subscriber/configuration/data files changed.
 
+### Phase B.1 QA attempt / blocked visual review — 2026-09-16
+
+- Started clean on `codex/ui-redesign-black-white` at
+  `905391b4cb4b96fd2dc3cf12f0aa8cbeb617d5ff`. Implementation unchanged;
+  this is a documentation-only handoff, not completed visual QA.
+- Started Streamlit 1.63 locally at `http://127.0.0.1:8507` using the ignored
+  preview harness with dummy legal facts and a mocked DOI function. No live
+  Brevo request or signup was made.
+- Chrome browser automation rejected the local URL because a saved browser
+  permission blocks it. Retried once after the user reported enabling access;
+  the same policy denial remained. No alternate browser or permission bypass
+  was attempted. Actual viewports reviewed: **none**. All requested widths
+  (320/375/390/430/768/1440px), screenshots, menu/anchor/keyboard behavior,
+  touch targets, visual signup states, and horizontal overflow remain unverified.
+- No browser-confirmed visual defect or UI fix. Existing AppTest checks pass
+  for homepage structure, a single signup form, consent, mocked submission and
+  result persistence, changes filters/details, and privacy/confirmation routes.
+  These checks do not establish visual correctness or pending/error appearance.
+- Full suite rerun: 186 tests, 184 pass, the same two historical-test failures;
+  zero new failures. Read-only Phase A comparison also passes: 380 raw / 263
+  eligible events, 25 groups, 173 adjustments, four date-filter cases and all
+  price analyses identical. Existing newsletter behavioral AST is identical
+  after excluding the Phase B heading/anchor; 110 other existing helpers match.
+- Historical discrepancy proven from Git: the frozen audit at
+  `7f162516c4c285454a75b33217d8d5e812480553` contains 369 events, ending with
+  `changes_20260824T0754472624370000.json`. Its projection through current code
+  still has 22 groups and exactly matches the committed SHA-256
+  `96daa8ad6a12277e9758f6aab229fbc9bfcf35f5827bb0aac6b7fb03ba56f197`.
+  No original change files differ. Monitoring commits `f8569bf`, `197c314`,
+  and `10d17cd` added September 1/7/9 files with 6/3/2 events respectively:
+  369 + 11 = 380, with no exact duplicate events. This is corpus growth,
+  not altered eligibility, deduplication, or UI event processing.
+- A count-only test update would still be incorrect: the September 7 file
+  includes two `directory_metric_change` events for `__directory__` without
+  `snapshot_context`, as intentionally emitted by the pre-existing
+  `directory_metric_event` producer. All other current events have embedded
+  context. The old safety assertion assumes every event is a per-DiGA event.
+  Tests and protected audit fixtures were left unchanged. A follow-up should
+  scope frozen projection equivalence to its original corpus and distinguish
+  directory-level events from per-DiGA context checks, preserving both safeguards.
+- Self-review: only this handoff document changed; no protected files, data,
+  secrets, production configuration, or application behavior changed. README
+  requires no update. No merge or deployment. Network remains sandbox-disabled
+  (`CODEX_SANDBOX_NETWORK_DISABLED=1`, HTTPS proxy `http://127.0.0.1:9`), so
+  publication is unavailable and no push was attempted.
+- Remaining gate: resolve the saved browser permission before completing actual
+  visual/interaction QA. This branch is not yet visually cleared for merge.
+
 ### Phase B validation / handoff — 2026-09-16
 
 - Default route: compact desktop links/native mobile menu, requested hero copy
