@@ -16,7 +16,7 @@ from zoneinfo import ZoneInfo
 import streamlit as st
 
 from src.ui import (
-    about_html, diff_text_html, hero_html, market_snapshot_html,
+    diff_text_html, hero_html, market_snapshot_html,
     public_header_html, recent_changes_html, stylesheet_html,
 )
 from src.public_changes import is_public, labels as public_labels, matches as public_matches, subject as public_subject
@@ -128,6 +128,9 @@ def main() -> None:
 
 def render_changes_view(real_events: list[dict[str, Any]], scan_history: list[dict[str, Any]]) -> None:
     """Public filters leave the underlying daily grouping and detail semantics intact."""
+    if "detail" in st.query_params:
+        render_change_detail(real_events, st.query_params.get("detail", ""))
+        return
     st.title("Änderungen")
     st.caption("Alle erkannten Änderungen im BfArM DiGA Verzeichnis.")
     public_events = [e for e in real_events if is_real_change_event(e) and is_public(e)]
@@ -148,10 +151,32 @@ def render_changes_view(real_events: list[dict[str, Any]], scan_history: list[di
                 badges = ''.join(f'<span class="diga-pill">{label}</span>' for label in public_labels(group['events']))
                 st.markdown(f'<div class="diga-pills">{badges}</div>', unsafe_allow_html=True)
                 st.caption(format_datetime(group['detected_at']).replace(' ', ', ', 1) + ' Uhr')
+                st.markdown(f'<a class="diga-text-link" href="?view=changes&amp;detail={change_group_anchor(group)}" target="_self">Details ansehen</a>', unsafe_allow_html=True)
                 with st.expander("Änderungen im Detail"):
                     for event in group['events']:
                         render_public_details(event)
     render_newsletter_signup_section()
+
+
+def render_change_detail(real_events: list[dict[str, Any]], detail_id: str) -> None:
+    """Resolve against complete public daily groups, independently of filter state."""
+    st.title("Änderungsdetails")
+    matches = [group for group in homepage_event_groups(real_events)
+               if change_group_anchor(group) == detail_id]
+    if len(matches) != 1:
+        st.info("Diese Änderung konnte nicht gefunden werden.")
+        st.markdown('<a class="diga-text-link" href="?view=changes" target="_self">Alle Änderungen ansehen</a>', unsafe_allow_html=True)
+        return
+    group = matches[0]
+    st.markdown('<a class="diga-text-link" href="?view=changes" target="_self">← Alle Änderungen</a>', unsafe_allow_html=True)
+    st.markdown(f'## {html.escape(str(group["diga_name"]))}')
+    badges = ''.join(f'<span class="diga-pill">{label}</span>' for label in public_labels(group['events']))
+    st.markdown(f'<div class="diga-pills">{badges}</div>', unsafe_allow_html=True)
+    st.caption(format_datetime(group['detected_at']).replace(' ', ', ', 1) + ' Uhr')
+    for event in group['events']:
+        render_public_details(event)
+    if group.get('bfarm_directory_url'):
+        st.link_button("BfArM-Eintrag öffnen", group['bfarm_directory_url'])
 
 
 def render_public_details(event: dict[str, Any]) -> None:
@@ -268,7 +293,6 @@ def render_homepage(real_events: list[dict[str, Any]], scan_history: list[dict[s
     note = homepage_freshness(scan_history, market)
     st.markdown(market_snapshot_html(cards, note), unsafe_allow_html=True)
     st.markdown(recent_changes_html(homepage_change_items(groups)), unsafe_allow_html=True)
-    st.markdown(about_html(), unsafe_allow_html=True)
     render_newsletter_signup_section()
 
 
@@ -353,8 +377,8 @@ def render_newsletter_signup_section() -> None:
     st.markdown('<div id="newsletter" class="diga-anchor"></div>', unsafe_allow_html=True)
     st.subheader("Keine Änderung verpassen.")
     st.write(
-        "Erhalte eine Benachrichtigung, sobald der DiGA Tracker eine relevante "
-        "Änderung im BfArM DiGA-Verzeichnis erkennt."
+        "DiGA Tracker verfolgt neue DiGA, Statusänderungen, Preise und weitere "
+        "Änderungen im BfArM DiGA Verzeichnis. Mit den Updates bleibst du auf dem Laufenden."
     )
 
     pending_email = st.session_state.get(_NEWSLETTER_PENDING_EMAIL_KEY)

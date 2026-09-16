@@ -135,7 +135,7 @@ class RecentChangeTests(unittest.TestCase):
         markup = recent_changes_html(app.homepage_change_items(groups))
         self.assertNotIn('<script>', markup)
         self.assertIn('&lt;script&gt;', markup)
-        self.assertIn('?view=changes#change-', markup)
+        self.assertIn('?view=changes&amp;detail=change-', markup)
 
     def test_missing_metrics_and_empty_preview_have_explicit_states(self):
         self.assertIn('—', market_snapshot_html([("Aktive DiGA", None)], "Nicht verfügbar"))
@@ -181,7 +181,7 @@ class HomepagePolishTests(unittest.TestCase):
         for forbidden in ('old evidence', 'new evidence', 'Long manufacturer', 'descriptive_texts.long'):
             self.assertNotIn(forbidden, markup)
         self.assertLess(markup.index('<h3>'), markup.index('<time '))
-        self.assertIn('?view=changes#change-', markup)
+        self.assertIn('?view=changes&amp;detail=change-', markup)
 
 
 class HomepageRouteTests(unittest.TestCase):
@@ -211,7 +211,7 @@ with (
     def test_default_homepage_section_order_preview_limit_and_single_signup(self):
         at = self.run_view()
         markup = '\n'.join(m.value for m in at.markdown if not m.value.startswith('<style>'))
-        markers = ['diga-site-header', 'hero-title', 'market-title', 'recent-title', 'id="about"', 'id="newsletter"', 'diga-footer']
+        markers = ['diga-site-header', 'hero-title', 'market-title', 'recent-title', 'id="newsletter"', 'diga-footer']
         self.assertEqual([markup.index(m) for m in markers], sorted(markup.index(m) for m in markers))
         self.assertEqual(markup.count('<li class="diga-recent-item">'), 5)
         self.assertEqual(len(at.text_input), 1)

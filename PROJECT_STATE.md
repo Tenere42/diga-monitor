@@ -7,6 +7,42 @@ Phase B (mobile-first public homepage) is implemented locally on
 `40888b3f675a9977156cadb5c1e3e8dff9365110`. It is not merged or deployed to production. The user reports a separate branch-connected Railway ui-preview environment.
 No protected monitoring/storage/subscriber/configuration/data files changed.
 
+### Phase C.1 simplified homepage and direct details — 2026-09-16
+
+- Started clean at `6b7860123e57b4ad50124ddb7c43536fb75b1193` on the redesign
+  branch. Header now contains only the DiGA Tracker homepage link. Removed
+  disclosure/desktop navigation markup and obsolete menu, eyebrow and about CSS.
+- Homepage sequence: hero, KPIs, latest changes, existing newsletter, footer.
+  Removed the entire standalone explanation section; merged concise factual
+  copy about new DiGA/status/prices/other changes into the newsletter introduction.
+  No duplicate form, new widgets, consent/state/DOI change or live Brevo calls.
+- Homepage and overview detail links use `?view=changes&detail=change-<hash>`.
+  Identifier reuses the unchanged SHA-256-derived DiGA ID + Berlin date group
+  anchor, never a position. General overview remains `?view=changes`.
+- Direct routing resolves against the complete eligible public daily groups,
+  before any search/lifecycle/date controls. Exactly one matched group renders
+  all its adjustments through existing detail functions, with badges/time and
+  available BfArM link. Invalid, empty, directory or ambiguous IDs fail closed
+  with a not-found message and overview link. No silent fallback to another item.
+- Detail has a restrained back-to-overview link; brand returns home. URL state
+  survives reruns/fresh AppTest sessions; ordinary links allow browser history.
+  No DOM/hash dependency. Existing daily grouping and mutable same-day group
+  contents remain intentional; this is not an immutable per-scan event URL.
+- Full suite: 205 tests, 203 passed, the same two historical failures, zero new
+  regressions. New checks cover simplified homepage, one form, direct links,
+  correct full-group rendering, reload/overview navigation, invalid/sentinel IDs
+  and identity/date stability. Existing legal routes, newsletter and Phase C
+  public semantics/freshness tests pass. Updated obsolete header expectations
+  and AppTest's list-valued query-param assertion during review.
+- Self-review: newsletter AST identical after normalizing only introduction
+  copy. Existing taxonomy/KPI/freshness/grouping/dedup/detail/price helpers are
+  unchanged. Protected paths and raw data have no diff. Removed unused section
+  wrappers/styles rather than leaving empty space. Desktop width and wrapping
+  rules remain. No merge or production deployment; one normal push after commit.
+- Actual browser QA remains outstanding on Railway ui-preview at
+  320/375/390/430/768/1440px, including long details, focus, spacing and browser
+  back behavior. AppTest does not establish visual correctness.
+
 ### Phase C public Changes view — 2026-09-16
 
 - Started clean at `58af253b7254b8d385c3084ce8bc06e946cc62aa` on the existing

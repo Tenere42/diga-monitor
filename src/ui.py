@@ -19,21 +19,10 @@ def stylesheet_html() -> str:
 
 
 def public_header_html(*, newsletter_ready: bool = False, homepage: bool = False) -> str:
-    """Native links and a semantic mobile disclosure; no JavaScript or widget state."""
-    about = "#about" if homepage else "./#about"
-    signup = "#newsletter" if homepage else "./#newsletter"
-    links = (
-        '<a href="?view=changes" target="_self">Änderungen</a>'
-        f'<a href="{about}" target="_self">Über uns</a>'
-    )
-    if newsletter_ready:
-        links += f'<a class="diga-nav-cta" href="{signup}" target="_self">Updates abonnieren</a>'
+    """A single home link on every public route."""
     return (
         '<header class="diga-site-header">'
         '<a class="diga-brand" href="./" target="_self" aria-label="DiGA Tracker – Startseite">DiGA Tracker</a>'
-        f'<nav class="diga-desktop-nav" aria-label="Hauptnavigation">{links}</nav>'
-        '<details class="diga-mobile-menu"><summary>Menü</summary>'
-        f'<nav aria-label="Mobile Navigation">{links}</nav></details>'
         '</header>'
     )
 
@@ -78,7 +67,7 @@ def recent_changes_html(items: list[dict[str, Any]]) -> str:
             f'<p class="diga-change-summary">{html.escape(item["summary"])}</p>'
             f'<time class="diga-meta" datetime="{html.escape(item["timestamp"], quote=True)}">'
             f'{html.escape(item["date_label"])}</time>'
-            f'<a class="diga-text-link" href="?view=changes#{html.escape(item["anchor"], quote=True)}" '
+            f'<a class="diga-text-link" href="?view=changes&amp;detail={html.escape(item["anchor"], quote=True)}" '
             f'target="_self" aria-label="Details zu {html.escape(item["name"], quote=True)}">Details ansehen</a>'
             '</article></li>'
         )
@@ -89,19 +78,6 @@ def recent_changes_html(items: list[dict[str, Any]]) -> str:
         '<h2 id="recent-title">Letzte Änderungen</h2>' + content +
         '<a class="diga-button diga-button-secondary" href="?view=changes" target="_self">'
         'Alle Änderungen ansehen</a></section>'
-    )
-
-
-def about_html() -> str:
-    return (
-        '<section id="about" class="diga-about" aria-labelledby="about-title">'
-        '<h2 id="about-title">Was wir beobachten</h2>'
-        '<p>DiGA Tracker beobachtet Änderungen an Status, Preisen und Einträgen '
-        'im offiziellen BfArM DiGA Verzeichnis. Ein unabhängiges Angebot, '
-        'nicht vom BfArM.</p>'
-        '<a class="diga-text-link" href="https://diga.bfarm.de/de/verzeichnis" '
-        'target="_blank" rel="noopener noreferrer">Zum offiziellen DiGA-Verzeichnis</a>'
-        '</section>'
     )
 
 

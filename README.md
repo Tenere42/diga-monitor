@@ -1,5 +1,19 @@
 # DiGA Directory Change Monitor
 
+## Direct change details (Phase C.1)
+
+The public header contains only a DiGA Tracker home link. The homepage proceeds
+from hero and KPIs through latest changes directly to the existing newsletter
+and footer; its short introduction explains the monitored changes.
+
+`?view=changes` opens the searchable/filterable overview.
+`?view=changes&detail=change-<hash>` opens exactly one public DiGA/date group,
+including all its adjustments, without overview controls. The identifier reuses
+the stable existing DiGA ID + Berlin-date hash. Invalid/unavailable groups show
+a not-found message; synthetic directory groups cannot resolve. The back link
+returns to the overview, and the brand returns home. Links survive reloads;
+daily groups may still gain adjustments from subsequent scans on the same day.
+
 ## Public changes (Phase C)
 
 The homepage and `?view=changes` use `src/public_changes.py` for concrete DiGA
@@ -17,14 +31,13 @@ Grouping remains DiGA ID + Berlin calendar date, potentially spanning several
 scans. Mixed lifecycle groups retain multiple category badges. Public filtering
 does not rewrite historical events or change monitoring/deduplication semantics.
 The newsletter checkbox no longer outlines its entire wrapper on focus; native
-control keyboard focus and email input focus remain. The mobile menu is unchanged.
+control keyboard focus and email input focus remain. The menu was subsequently removed in Phase C.1.
 
 ## Public homepage (Phase B)
 
 The default route now shows compact navigation, the DiGA Tracker hero, four
 market-summary cards, five newest DiGA/date change groups, a short explanation,
-and one existing newsletter form. The single hero CTA links to signup; navigation links to the explanation; a native `details` menu handles mobile navigation
-without JavaScript. `?view=changes` retains the full date-filtered dashboard and
+and one existing newsletter form. The single hero CTA links to signup. `?view=changes` retains the full date-filtered dashboard and
 all existing comparisons. `?view=datenschutz` and `?view=confirmed` keep their
 existing legal readiness gates. No additional legal destination is invented.
 

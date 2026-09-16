@@ -23,12 +23,14 @@ class PresentationTests(unittest.TestCase):
             finally:
                 os.chdir(previous)
 
-    def test_public_header_has_product_brand_and_compact_navigation(self) -> None:
+    def test_public_header_has_only_product_home_link(self) -> None:
         markup = public_header_html()
         self.assertIn('>DiGA Tracker</a>', markup)
         self.assertNotIn('DiGA Monitor', markup)
-        self.assertIn('href="?view=changes"', markup)
-        self.assertIn('<summary>Menü</summary>', markup)
+        self.assertIn('href="./"', markup)
+        self.assertEqual(markup.count('<a '), 1)
+        self.assertNotIn('Menü', markup)
+        self.assertNotIn('<details', markup)
 
     def test_diff_text_is_escaped_and_explained_without_color(self) -> None:
         for removed, tag, label in ((True, 'del', 'Entfernt'), (False, 'ins', 'Ergänzt')):
