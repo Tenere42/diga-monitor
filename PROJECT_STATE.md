@@ -2,6 +2,36 @@
 
 ## Current objective
 
+### Change-notification email — 2026-09-17
+
+- New branch `codex/change-notification-email` from main `0568e7879a260351fe2a82897150d494acc6709b`.
+  PR #15 remains separate and unmerged at `0d4abc29baa64e855c9d6bfea3f96b308c731ce7`.
+- Existing admin transactional and subscriber Campaign API paths share a new
+  concise HTML/text renderer and repository template. One card per DiGA/public
+  day, reliable German labels, neutral fallback and individual stable detail links.
+- Shared link helpers preserve existing anchor hashes. Full historical email-link
+  coverage resolves to current public groups. Missing old records retain the
+  existing graceful fallback. No session state or subscriber PII in links.
+- Subscriber campaigns retain native Brevo unsubscribe and confirmed-list
+  delivery. Campaign text is provider-generated; deterministic local text previews
+  are included. Admin transactional mail carries both HTML and text parts.
+- `DIGA_TRACKER_IMPRESSUM_URL` is required for subscriber sends. Read-only live
+  inspection found only Datenschutz; repository legal notes explicitly confirm
+  no Impressum page. No URL/legal content was invented. Supply a real published
+  destination before rollout; missing configuration safely prevents campaigns.
+- Final suite: 226 tests, 223 passed; three unchanged baseline failures
+  (386 vs 369 twice, 25 vs 23 groups). Compileall and diff whitespace checks pass.
+- Four synthetic email fixtures inspected at desktop/390px/320px: correct CTA
+  counts, long-name wrapping, footer/unsubscribe, no horizontal overflow.
+  Actual Gmail/Apple Mail/Outlook and delivered text/unsubscribe need an approved
+  controlled test. No real emails or contact changes were made.
+- Claude authentication preflight failed: ANTHROPIC_API_KEY unavailable; no OAuth
+  fallback. Codex self-review completed; technical-only cards and unsafe error
+  logging were fixed. Detailed architecture, QA and rollout notes are in
+  `docs/change-notification-email.md`.
+- Main advanced during work to `eeca4a0` (operational data only). No history/data
+  was edited. Do not merge either PR, deploy, or modify Brevo without approval.
+
 UI/UX refinements are implemented on `codex/ui-ux-refinements`, based on
 `efbb61e5ae7c14825c54684d08de37ed93ab758f` of `codex/ui-redesign-black-white`.
 This is a stacked change on the existing redesign, not a replacement based on
