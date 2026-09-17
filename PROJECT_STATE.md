@@ -6,6 +6,35 @@ Mobile newsletter/DOI polish is prepared on `codex/mobile-newsletter-doi-polish`
 from verified current main `72a87f0960ca3f93ebb45e175a6be6a79ec123d3` (PR #14
 merged the previous UI refinements). This task must not merge or deploy.
 
+### Public status and detail actions — 2026-09-17
+
+- Continued on the same `codex/mobile-newsletter-doi-polish` branch after
+  `67fffe4c4072de81232997dbd661cb6f7ca4589a`; no branch replacement.
+- Central presentation labels: provisional → vorläufig, permanent/listed →
+  dauerhaft, removed → entfernt. Explicit status fields also handle known
+  aliases and unknown categories without exposing raw enums. Exact scalar enums,
+  nested status metadata, before/after values and homepage summaries use this
+  mapping; arbitrary prose and non-status technical aliases are not translated.
+- Re-entry removed → provisional renders entfernt → vorläufig. Display helpers
+  copy/format values without modifying stored events or assuming transition order.
+- Removed the entire “Warum wurde diese Änderung erkannt?” component and nested
+  raw-data expander. Parsed prices retain their summaries; unparseable price
+  changes retain actual before/after values directly, without the internal box.
+- Removed the inline BfArM action from compact lifecycle metadata. The standardized
+  bottom area is the sole external action on public details, including URLs found
+  inside new/removed entry data. Invalid/missing entry links are omitted; Zurück
+  remains. Existing valid diga.bfarm.de entry URLs are preserved exactly.
+- Full suite: 223 tests, 220 passed, same three baseline failures. Re-ran those
+  against verified current main 72a87f0: two failures at 386 vs 369 events and one
+  at 25 vs 23 public groups, identical to this branch. New status/transition,
+  non-mutation, price-information retention, absent-expander and single-link
+  AppTest checks pass. compileall and git diff --check pass.
+- Newsletter/DOI functions compared by AST to 67fffe4 and remain unchanged;
+  subscriber code, mobile CSS, dependency/configuration changes and prepared
+  Brevo email template have no diff from that commit. No production data changes.
+- Publication remains blocked by the known approval policy; no push attempted.
+  Nothing merged, deployed or activated in Brevo.
+
 ### Mobile newsletter and DOI polish — 2026-09-17
 
 - Native Brevo `redirectionUrl` now normalizes the known legacy production

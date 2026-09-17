@@ -11,6 +11,7 @@ import traceback
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
+from urllib.parse import urlsplit
 from zoneinfo import ZoneInfo
 
 import streamlit as st
@@ -71,10 +72,10 @@ FIELD_LABELS = {
 }
 
 STATUS_VALUE_LABELS = {
-    "removed": "Gestrichen",
-    "provisional": "Vorläufig aufgenommen",
-    "permanent": "Dauerhaft aufgenommen",
-    "listed": "Dauerhaft aufgenommen",
+    "removed": "entfernt",
+    "provisional": "vorläufig",
+    "permanent": "dauerhaft",
+    "listed": "dauerhaft",
 }
 
 TEXT_KIND_LABELS = {
@@ -170,10 +171,11 @@ def render_change_detail(real_events: list[dict[str, Any]], detail_id: str) -> N
     st.caption(format_datetime(group['detected_at']).replace(' ', ', ', 1) + ' Uhr')
     for event in group['events']:
         render_public_details(event)
+    bfarm_url = detail_bfarm_url(group)
     external = (
-        f'<a class="diga-button" href="{html.escape(str(group["bfarm_directory_url"]), quote=True)}" '
+        f'<a class="diga-button" href="{html.escape(bfarm_url, quote=True)}" '
         'target="_blank" rel="noopener noreferrer">BfArM-Eintrag öffnen</a>'
-        if group.get("bfarm_directory_url") else ""
+        if bfarm_url else ""
     )
     st.markdown(
         '<nav class="diga-detail-actions" aria-label="Weitere Navigation">' + external +
@@ -182,9 +184,34 @@ def render_change_detail(real_events: list[dict[str, Any]], detail_id: str) -> N
     )
 
 
+def detail_bfarm_url(group: dict[str, Any]) -> str | None:
+    """One bottom action, including lifecycle events with an embedded entry URL."""
+    candidates = [group.get("bfarm_directory_url")]
+    for event in group.get("events", []):
+        candidates.append(event.get("bfarm_directory_url"))
+        for value in (event_new_value(event), event_previous_value(event)):
+            if isinstance(value, dict):
+                candidates.append(value.get("bfarm_directory_url"))
+    for candidate in candidates:
+        if not isinstance(candidate, str):
+            continue
+        try:
+            url = urlsplit(candidate)
+            if url.scheme in {"https", "http"} and url.hostname == "diga.bfarm.de":
+                return candidate
+        except ValueError:
+            continue
+    return None
+
+
 def render_public_details(event: dict[str, Any]) -> None:
     """Keep established diffs/prices; simplify only unresolved presentation wording."""
-    if event.get("change_type") == "visible_diff_unresolved":
+    if event.get("change_type") == "status_change" or (
+        event.get("original_changed_field") or event_field_name(event)
+    ) == "status":
+        st.markdown("**Aufnahmestatus**")
+        render_before_after(event)
+    elif event.get("change_type") == "visible_diff_unresolved":
         st.markdown(f"**{public_subject(event).title()}**")
         if event.get("original_change_type") == "price_change":
             render_price_change(event)
@@ -232,11 +259,9 @@ def homepage_change_items(groups: list[dict[str, Any]], limit: int = 5) -> list[
                    "removed_diga": "Aus dem DiGA Verzeichnis entfernt",
                    "text_change": "Verzeichniseintrag aktualisiert"}.get(kind, "Eintrag aktualisiert")
         if kind == "status_change":
-            statuses = {"provisional": "Vorläufig", "permanent": "Dauerhaft",
-                        "listed": "Dauerhaft", "removed": "Gestrichen"}
-            before = statuses.get(str(event_previous_value(event)))
-            after = statuses.get(str(event_new_value(event)))
-            summary = f"{before} → {after}" if before and after else "Aufnahmestatus geändert"
+            before = status_display_label(event_previous_value(event), categorical=True)
+            after = status_display_label(event_new_value(event), categorical=True)
+            summary = f"{before} → {after}"
         elif kind == "price_change":
             analysis = analyze_price_change(event_previous_value(event), event_new_value(event))
             summary = "Preisangaben aktualisiert" if analysis["show_raw"] else str(analysis["title"])
@@ -788,6 +813,11 @@ def render_adjustment_header(index: int, event: dict[str, Any]) -> None:
 def render_before_after(event: dict[str, Any]) -> None:
     before_value = event_previous_value(event)
     after_value = event_new_value(event)
+    if event.get("change_type") == "status_change" or (
+        event.get("original_changed_field") or event_field_name(event)
+    ) == "status":
+        before_value = status_display_label(before_value, categorical=True)
+        after_value = status_display_label(after_value, categorical=True)
     render_before_after_html(value_to_html(before_value), value_to_html(after_value))
 
 
@@ -807,21 +837,14 @@ def render_price_change(event: dict[str, Any]) -> None:
     if analysis.get("note"):
         st.caption(str(analysis["note"]))
 
-    render_before_after_html(
-        lines_to_html(analysis["before_lines"]),
-        lines_to_html(analysis["after_lines"]),
-    )
-
-    with st.expander("Warum wurde diese Änderung erkannt?"):
-        st.markdown(analysis["explanation"])
-        if analysis.get("show_raw"):
-            with st.expander("Rohdaten anzeigen"):
-                st.markdown("**Geändertes Feld**")
-                st.write(event_field_name(event))
-                st.markdown("**Vorher**")
-                st.json(event_previous_value(event))
-                st.markdown("**Nachher**")
-                st.json(event_new_value(event))
+    if analysis.get("show_raw"):
+        # Retain actual values even when the price parser cannot summarize them.
+        render_before_after(event)
+    else:
+        render_before_after_html(
+            lines_to_html(analysis["before_lines"]),
+            lines_to_html(analysis["after_lines"]),
+        )
 
 
 def render_new_diga(event: dict[str, Any]) -> None:
@@ -847,14 +870,12 @@ def render_compact_entry(value: Any, include_status_label: str) -> None:
     rows = [
         ("Name", value.get("name")),
         ("Hersteller", value.get("manufacturer")),
-        (include_status_label, value.get("status")),
+        (include_status_label, status_display_label(value.get("status"), categorical=True)),
         ("Anwendungsgebiet / Indikation", value.get("indication")),
     ]
     for label, item in rows:
         if item:
             st.markdown(f"**{label}:** {html.escape(format_inline_value(item))}")
-    if value.get("bfarm_directory_url"):
-        st.link_button("BfArM-Eintrag öffnen", value["bfarm_directory_url"])
 
 
 def render_text_change(event: dict[str, Any]) -> None:
@@ -1372,7 +1393,7 @@ def value_to_html(value: Any) -> str:
         return "<p><em>Kein Wert vorhanden</em></p>"
     if isinstance(value, dict):
         rows = [
-            f"<p><strong>{html.escape(field_label(str(key)))}:</strong> {html.escape(format_inline_value(item))}</p>"
+            f"<p><strong>{html.escape(field_label(str(key)))}:</strong> {html.escape(format_inline_value(item, status=str(key) == 'status'))}</p>"
             for key, item in value.items()
             if item is not None
         ]
@@ -1392,7 +1413,7 @@ def render_value_box(container: Any, value: Any) -> None:
     if isinstance(value, dict):
         for key, item in value.items():
             if item is not None:
-                container.markdown(f"**{field_label(str(key))}:** {html.escape(format_inline_value(item))}")
+                container.markdown(f"**{field_label(str(key))}:** {html.escape(format_inline_value(item, status=str(key) == 'status'))}")
         return
     if isinstance(value, list):
         if not value:
@@ -1404,12 +1425,31 @@ def render_value_box(container: Any, value: Any) -> None:
     container.markdown(render_inline_value(value), unsafe_allow_html=True)
 
 
-def format_inline_value(value: Any) -> str:
+def status_display_label(value: Any, *, categorical: bool = False) -> str:
+    """Translate exact status enums only; never rewrite arbitrary prose or data."""
+    text = str(value or "").strip()
+    key = text.casefold()
+    if key in STATUS_VALUE_LABELS:
+        return STATUS_VALUE_LABELS[key]
+    if categorical:
+        aliases = {"draft": "provisional", "preliminary": "provisional",
+                   "active": "permanent", "final": "permanent",
+                   "retired": "removed", "revoked": "removed", "inactive": "removed",
+                   "vorläufig": "provisional", "vorläufig aufgenommen": "provisional",
+                   "dauerhaft": "permanent", "dauerhaft aufgenommen": "permanent",
+                   "entfernt": "removed", "gestrichen": "removed"}
+        return STATUS_VALUE_LABELS[aliases[key]] if key in aliases else "unbekannt"
+    return str(value)
+
+
+def format_inline_value(value: Any, *, status: bool = False) -> str:
+    if status:
+        return status_display_label(value, categorical=True)
     if isinstance(value, dict):
-        return ", ".join(f"{key}: {format_inline_value(item)}" for key, item in value.items() if item is not None)
+        return ", ".join(f"{key}: {format_inline_value(item, status=str(key) == 'status')}" for key, item in value.items() if item is not None)
     if isinstance(value, list):
         return ", ".join(format_inline_value(item) for item in value)
-    return str(value)
+    return status_display_label(value)
 
 
 def render_inline_value(value: Any) -> str:
@@ -1429,7 +1469,7 @@ def status_badge_style(value: str) -> str | None:
         return "background:var(--color-white);color:var(--color-text);border:1px dashed var(--color-border-strong);"
     if "dauerhaft" in normalized:
         return "background:var(--color-surface);color:var(--color-text);border:1px solid var(--color-border-strong);"
-    if "gestrichen" in normalized:
+    if normalized == "entfernt" or "gestrichen" in normalized:
         return "background:var(--color-white);color:var(--color-text);border:1px solid var(--color-border-strong);text-decoration:line-through;"
     return None
 
@@ -1930,11 +1970,21 @@ def format_local_datetime(value: datetime) -> str:
     return value.astimezone(DISPLAY_TIMEZONE).strftime("%d.%m.%Y %H:%M")
 
 
+def status_values_for_display(value: Any, *, categorical: bool = False) -> Any:
+    """Copy nested display data without modifying canonical stored values."""
+    if isinstance(value, dict):
+        return {key: status_values_for_display(item, categorical=str(key) == "status")
+                for key, item in value.items()}
+    if isinstance(value, list):
+        return [status_values_for_display(item, categorical=categorical) for item in value]
+    if isinstance(value, str) or categorical:
+        return status_display_label(value, categorical=categorical)
+    return value
+
+
 def format_value(value: Any) -> str:
-    if isinstance(value, str):
-        normalized_status = normalize_status_value(value)
-        return STATUS_VALUE_LABELS.get(normalized_status, value) if normalized_status else value
-    return json_dumps(value)
+    display_value = status_values_for_display(value)
+    return display_value if isinstance(display_value, str) else json_dumps(display_value)
 
 
 def normalize_status_value(value: Any) -> str | None:
