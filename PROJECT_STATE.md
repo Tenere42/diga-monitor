@@ -2,6 +2,26 @@
 
 ## Current objective
 
+### PR #15 verification — 2026-09-17
+
+- Re-ran all 223 tests: 220 pass, the same three historical-count failures
+  (386 versus 369 twice; 25 versus 23 groups). No history/data changed.
+- Local Edge/Playwright QA at 1440px and 390px, including 390x420 focused
+  newsletter viewport: homepage, consent validation, mocked signup success,
+  overview navigation and re-entry detail checked. No horizontal overflow.
+- Fixed the narrow newsletter submit wrapper using native
+  `use_container_width=True`. Re-entry shows entfernt → vorläufig, one BfArM
+  action, and no internal diagnostic expander. DOI HTML inspected at both widths.
+- Browser QA used a local-only fixture with mocked signup and a synthetic
+  re-entry; no real email/contact mutation. Physical iOS keyboard and actual
+  Gmail/Outlook rendering remain unverified. Local baseline snapshot is absent,
+  so homepage market KPIs correctly show unavailable values.
+- Brevo API key/template ID and Claude API key are unavailable. Repository DOI
+  template remains prepared only; live activation requires explicit approval,
+  native token verification and a controlled end-to-end DOI test.
+- Ready for code review/merge decision with the known baseline failures and
+  device/provider QA limitations above. Do not merge or activate automatically.
+
 Mobile newsletter/DOI polish is prepared on `codex/mobile-newsletter-doi-polish`
 from verified current main `72a87f0960ca3f93ebb45e175a6be6a79ec123d3` (PR #14
 merged the previous UI refinements). This task must not merge or deploy.

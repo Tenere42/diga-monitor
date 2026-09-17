@@ -441,6 +441,7 @@ def _render_newsletter_signup_content() -> None:
         )
         submitted = st.form_submit_button(
             "Wird gesendet …" if is_submitting else "Updates abonnieren",
+            use_container_width=True,
             disabled=is_submitting,
             key="newsletter_submit_button",
         )
