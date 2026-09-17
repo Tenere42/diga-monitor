@@ -126,7 +126,7 @@ class RecentChangeTests(unittest.TestCase):
     def test_preview_reuses_status_labels_and_local_time(self):
         items = app.homepage_change_items(app.group_events_by_diga([event(1, "2026-09-01T23:00:00Z")]))
         self.assertEqual(items[0]["date_label"], "02.09.2026 · 01:00")
-        self.assertEqual(items[0]["summary"], "Vorläufig → Dauerhaft")
+        self.assertEqual(items[0]["summary"], "vorläufig → dauerhaft")
         self.assertEqual(items[0]["labels"], ["AKTUALISIERT", "STATUS"])
 
     def test_preview_html_escapes_names_labels_and_summaries(self):

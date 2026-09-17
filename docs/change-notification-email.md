@@ -88,11 +88,26 @@ The synthetic previews use `https://example.invalid/impressum` explicitly as a
 fixture, never as a production fallback. The existing Datenschutz route and
 legal gate are retained. Admin-only messages use the Impressum URL when supplied.
 
-Before production use, separately approve merge/deployment, provide the actual
-Impressum URL, verify confirmed-list configuration, and authorize a controlled
-test audience. Inspect Gmail desktop/mobile, Apple Mail and Outlook plus delivered
-plain text and native unsubscribe; confirm subsequent suppression with test-only
-contacts. No bulk/full-list send is part of verification.
+The owner subsequently authorized merging PR #15 and exactly one production-list
+notification, conditional on a real Impressum. PR #15 is merged; PR #16 must
+remain unmerged until the owner inspects the received email. Production Railway
+variable names and the public site were inspected: no Impressum URL or company
+address/representative/register data is configured. Existing legal documentation
+explicitly did not collect these facts. Missing publishable facts are the full
+company address (including country), authorized representative(s), and commercial
+register/UID details; tax/VAT identification applicability also needs confirmation.
+These are missing facts for the requested company-identification page, not a new
+legal determination about which jurisdiction's duties apply. No URL or legal
+content was invented and no partial legal page was published.
+
+**Live test stopped before any campaign creation or send.** Zero notifications
+were triggered; there is no production simulated change, campaign ID, acceptance,
+delivery or generated unsubscribe result. The stated one-subscriber audience was
+not independently counted. No production history, R2 snapshots, baseline or events
+were changed. After the missing facts are supplied, publish and verify the real
+page, configure the variable in the actual scheduler environment, and run the
+single authorized subscriber-path test without automatic retry. Inspect delivered
+HTML/plain text, native unsubscribe and mobile rendering before merge approval.
 
 ## Local QA and review
 
@@ -114,12 +129,25 @@ configuration and PII-safe errors. It found and fixed technical-only cards and
 unsafe provider-error logging. No substantive code findings remain; the rollout
 configuration/client/provider checks above remain open.
 
-Final test run on the unchanged branch base `0568e78`: 226 tests, 223 passed.
-The three failures remain the independently reproduced baseline expectations:
-386 versus 369 events in two historical tests and 25 versus 23 public groups.
-No data/count expectations were changed. Compileall and `git diff --check` pass.
-Latest remote main later advanced to `eeca4a0` with monitoring data only; this
-branch preserves its original base and includes none of those operational files.
+Integration verification after merging main `89fc043614b1fbb471e4835653d54fb7c95d8b38`:
+237 tests, 234 passed. The same three accepted historical-count failures remain:
+392 versus 369 events in two tests and 27 versus 23 public groups. Main's imported
+monitoring data explains the updated actual counts; no expectations were changed.
+Compileall over app/src/scripts/tests and staged/unstaged whitespace checks pass.
+The sole merge conflict was PROJECT_STATE documentation. Operational data files
+are identical to main; PR #16's diff contains no history or baseline changes.
+Claude preflight still fails for a missing API key; repeated self-review covered
+the integrated routing, lifecycle labels, filtering, HTML escaping, list-only
+Campaign payload, failure isolation, configuration gates and safe error logging.
+No new substantive findings remain.
+
+Repeated browser QA on integrated previews at 1000, 390 and 320px found no
+horizontal overflow across all four fixtures. Long-name two-card screenshots were
+visually checked at all three widths. The deployed homepage, real ACTICORE1 detail
+and Datenschutz destinations resolve. Synthetic fixture detail IDs intentionally
+do not identify production records. The Impressum fixture is deliberately invalid
+and the unsubscribe token can only resolve through Brevo; neither is represented
+as a verified live link. Historical link equivalence tests pass for all real groups.
 
 ## Provider references (checked 2026-09-17)
 

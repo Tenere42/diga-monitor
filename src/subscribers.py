@@ -91,8 +91,26 @@ def load_signup_config() -> SignupConfig:
         api_key=os.environ["BREVO_API_KEY"],
         list_id=list_id,
         template_id=template_id,
-        redirect_url=os.environ["BREVO_DOI_REDIRECT_URL"],
+        redirect_url=doi_return_url(os.environ["BREVO_DOI_REDIRECT_URL"]),
     )
+
+
+def doi_return_url(configured_url: str) -> str:
+    """Migrate only our legacy production return route; preserve other environments.
+
+    Passed to Brevo as redirectionUrl, never used as the email confirmation link.
+    Brevo redirects after its native DOI step; no browser script or subscriber
+    mutation is involved. Already-issued legacy links render the homepage too.
+    """
+    value = configured_url.strip()
+    production_returns = {
+        f"https://{host}{suffix}"
+        for host in ("www.diga-tracker.de", "diga-tracker.de")
+        for suffix in ("", "/", "?view=confirmed", "/?view=confirmed")
+    }
+    if value in production_returns:
+        return "https://www.diga-tracker.de"
+    return value
 
 
 def request_double_optin(email: str) -> SignupResult:

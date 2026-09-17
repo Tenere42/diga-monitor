@@ -38,8 +38,10 @@ control keyboard focus and email input focus remain. The menu was subsequently r
 The default route now shows compact navigation, the DiGA Tracker hero, four
 market-summary cards, five newest DiGA/date change groups, a short explanation,
 and one existing newsletter form. The single hero CTA links to signup. `?view=changes` retains the full date-filtered dashboard and
-all existing comparisons. `?view=datenschutz` and `?view=confirmed` keep their
-existing legal readiness gates. No additional legal destination is invented.
+all existing comparisons. `?view=datenschutz` keeps its legal readiness gate.
+Legacy `?view=confirmed` links now render the homepage without claiming subscriber
+status from a URL parameter. See [newsletter DOI/mobile polish](docs/newsletter-doi-polish.md)
+for the redirect mechanism, reviewable email asset and remaining live QA.
 
 Market counts come from `data/baseline/current_snapshot.json`, already persisted
 by the monitoring workflow. `src/homepage_data.py` validates its stored aggregates

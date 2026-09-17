@@ -133,6 +133,7 @@ class RequestDoubleOptinTests(unittest.TestCase):
             payload = json.loads(request.data)
             self.assertEqual(payload["includeListIds"], [42])
             self.assertEqual(payload["templateId"], 7)
+            self.assertEqual(payload["redirectionUrl"], "https://www.diga-tracker.de")
             return FakeResponse(201)
 
         with (
