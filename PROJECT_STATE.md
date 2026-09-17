@@ -2,10 +2,44 @@
 
 ## Current objective
 
-UI/UX refinements are implemented on `codex/ui-ux-refinements`, based on
-`efbb61e5ae7c14825c54684d08de37ed93ab758f` of `codex/ui-redesign-black-white`.
-This is a stacked change on the existing redesign, not a replacement based on
-older `main`. Nothing has been merged or deployed by this task.
+Mobile newsletter/DOI polish is prepared on `codex/mobile-newsletter-doi-polish`
+from verified current main `72a87f0960ca3f93ebb45e175a6be6a79ec123d3` (PR #14
+merged the previous UI refinements). This task must not merge or deploy.
+
+### Mobile newsletter and DOI polish — 2026-09-17
+
+- Native Brevo `redirectionUrl` now normalizes the known legacy production
+  confirmation destination to `https://www.diga-tracker.de`. Custom preview
+  destinations remain untouched. Previously issued `?view=confirmed` URLs render
+  the ordinary homepage. No unsigned-query success banner or subscriber mutation.
+- Newsletter uses a keyed normal-flow container, safe-area spacing, dynamic
+  mobile app viewport height, 16px input text, 48px input/button targets and
+  comfortable card padding. No fixed/sticky signup, fixed card height or JS scroll.
+- Native `enter_to_submit=False` removes Streamlit's Enter instruction at source;
+  validation and accessibility text are not hidden. Explicit submit remains.
+  Minimum Streamlit raised to 1.39 for that API.
+- Inline HTML DOI email asset: `templates/brevo-doi-confirmation.html`. White,
+  restrained 560px fluid layout, black full-width CTA and documented native API
+  placeholder `{{ params.DOIurl }}`. Existing template ID and sender are untouched.
+  This is a reviewable artifact, NOT an uploaded/activated Brevo template.
+- Brevo key/template ID are absent. Active email markup/token expression and live
+  delivery, confirmation, redirect and list transitions could not be checked.
+  See docs/newsletter-doi-polish.md for rollout/QA requirements. No live contact
+  mutation, test email, production config edit, merge or deployment occurred.
+- Full suite: 217 tests, 214 passed; the same three failures were reproduced on
+  clean current main before editing: historical event counts 386 vs 369 (two
+  tests) and public group count 25 vs 23 (one test). All new/relevant tests pass.
+  git diff --check and compileall pass. AST comparison verifies DOI request,
+  re-subscription, transport, consent, transient email cleanup and logging are
+  unchanged, apart from the native form option and redirect configuration.
+- Claude preflight: ANTHROPIC_API_KEY unavailable; self-review completed.
+  Saved browser permission still blocks local preview; no prohibited workaround
+  attempted. iPhone keyboard, 390px/reduced viewport and email-client rendering
+  remain unverified. Automated checks are not visual QA.
+- Source obtained through the read-only GitHub connector because git fetch cannot
+  reach its configured proxy. Imported main commit and tree match GitHub hashes.
+  Sparse checkout excludes the 38MB operational data/baseline blob; its tracked
+  Git entry is preserved unchanged. Current source/history event files are exact.
 
 ### UI/UX refinements — 2026-09-16
 

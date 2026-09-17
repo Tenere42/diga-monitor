@@ -68,8 +68,7 @@ class PresentationTests(unittest.TestCase):
         self.assertEqual(app.render_inline_value('<unbekannt>'), '&lt;unbekannt&gt;')
 
     def test_legal_routes_keep_gate_and_do_not_load_feed_or_submit(self) -> None:
-        for view, renderer in (('datenschutz', 'render_datenschutz_page'),
-                               ('confirmed', 'render_subscription_confirmed_page')):
+        for view, renderer in (('datenschutz', 'render_datenschutz_page'),):
             with (
                 self.subTest(view=view),
                 mock.patch('app.st') as streamlit,
@@ -96,7 +95,6 @@ class PresentationTests(unittest.TestCase):
                 mock.patch('app.st') as streamlit,
                 mock.patch('app.is_legal_content_ready', return_value=False),
                 mock.patch('app.render_datenschutz_page') as privacy,
-                mock.patch('app.render_subscription_confirmed_page') as confirmed,
                 mock.patch('app.load_dashboard_data', return_value=([], [])) as load,
                 mock.patch('app.render_filters', return_value=[]),
                 mock.patch('app.request_double_optin') as submit,
@@ -105,7 +103,6 @@ class PresentationTests(unittest.TestCase):
                 app.main()
                 load.assert_called_once()
                 privacy.assert_not_called()
-                confirmed.assert_not_called()
                 submit.assert_not_called()
 
 
@@ -146,8 +143,7 @@ with (
         self.assertEqual(at.success[0].value, 'Mock confirmation; no email sent.')
 
     def test_existing_routes_render_without_newsletter_form(self) -> None:
-        for view, expected in (('datenschutz', 'Datenschutzerklärung'),
-                               ('confirmed', 'Deine Anmeldung ist bestätigt.')):
+        for view, expected in (('datenschutz', 'Datenschutzerklärung'),):
             with self.subTest(view=view):
                 at = AppTest.from_string(self.PREVIEW, default_timeout=30)
                 at.query_params['view'] = view

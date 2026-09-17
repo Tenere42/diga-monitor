@@ -104,11 +104,8 @@ def main() -> None:
         render_datenschutz_page()
         render_public_footer()
         return
-    if st.query_params.get("view") == "confirmed" and is_legal_content_ready():
-        render_page_header()
-        render_subscription_confirmed_page()
-        render_public_footer()
-        return
+    # Old DOI email return URLs (?view=confirmed) also render the homepage.
+    # A query parameter is not proof of confirmation; only Brevo owns that state.
 
     render_page_header()
 
@@ -331,6 +328,14 @@ def _safe_outcome_for_log(outcome: str) -> str:
 
 
 def render_newsletter_signup_section() -> None:
+    """Normal-flow, keyed section for narrowly scoped mobile signup styling."""
+    if not is_legal_content_ready():
+        return
+    with st.container(key="newsletter_signup"):
+        _render_newsletter_signup_content()
+
+
+def _render_newsletter_signup_content() -> None:
     """Public DiGA Tracker Alerts signup. Renders nothing at all -- no
     form, no placeholder, no text -- unless the newsletter feature is
     legal-ready (see src/legal_content.py). Subscriber state lives
@@ -365,7 +370,7 @@ def render_newsletter_signup_section() -> None:
         return
 
     # Includes the actually-running Streamlit version: requirements.txt only
-    # pins `streamlit>=1.35.0` with no upper bound and no lockfile, so the
+    # pins `streamlit>=1.39.0` with no upper bound and no lockfile, so the
     # exact version resolved and installed by Railway's build is otherwise
     # unknown here and could differ from a developer's local environment.
     logger.warning(
@@ -384,7 +389,7 @@ def render_newsletter_signup_section() -> None:
     pending_email = st.session_state.get(_NEWSLETTER_PENDING_EMAIL_KEY)
     is_submitting = pending_email is not None
 
-    with st.form("newsletter_signup_form", clear_on_submit=True):
+    with st.form("newsletter_signup_form", clear_on_submit=True, enter_to_submit=False):
         # Explicit `key=` on every widget here: their `disabled` value (and
         # the button's label) change between reruns of this same function
         # (see is_submitting above), and Streamlit derives an auto-key from
@@ -552,23 +557,6 @@ def render_public_footer() -> None:
         '<a href="?view=datenschutz" target="_self">Datenschutzerklärung</a>'
         "</div>",
         unsafe_allow_html=True,
-    )
-
-
-def render_subscription_confirmed_page() -> None:
-    """Render the landing state reached only after Brevo completed DOI.
-
-    The route is protected by the same fail-closed legal gate as the signup
-    and privacy page.  It deliberately does not accept an email address or
-    modify contact state; Brevo remains the sole source of confirmation.
-    """
-    if not is_legal_content_ready():
-        return
-
-    st.success("Deine Anmeldung ist bestätigt.")
-    st.write(
-        "Du erhältst künftig DiGA Tracker Alerts bei relevanten Änderungen "
-        "im BfArM DiGA-Verzeichnis."
     )
 
 
