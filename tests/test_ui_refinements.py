@@ -96,7 +96,7 @@ class NavigationTests(unittest.TestCase):
         self.assertLess(markup.index('BfArM-Eintrag öffnen'), markup.index('Zurück'))
 
     def test_unresolved_detail_retains_values_without_generic_sentence(self):
-        row = {**event(1), 'change_type': 'visible_diff_unresolved',
+        row = {**event(1), 'change_type': 'visible_diff_unresolved', 'changed_field': 'name',
                'previous_value': 'Unique old value', 'new_value': 'Unique new value'}
         with patch.object(app, 'st') as st:
             app.render_public_details(row)

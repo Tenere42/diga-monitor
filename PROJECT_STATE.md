@@ -2,10 +2,93 @@
 
 ## Current objective
 
-UI/UX refinements are implemented on `codex/ui-ux-refinements`, based on
-`efbb61e5ae7c14825c54684d08de37ed93ab758f` of `codex/ui-redesign-black-white`.
-This is a stacked change on the existing redesign, not a replacement based on
-older `main`. Nothing has been merged or deployed by this task.
+### PR #15 verification — 2026-09-17
+
+- Re-ran all 223 tests: 220 pass, the same three historical-count failures
+  (386 versus 369 twice; 25 versus 23 groups). No history/data changed.
+- Local Edge/Playwright QA at 1440px and 390px, including 390x420 focused
+  newsletter viewport: homepage, consent validation, mocked signup success,
+  overview navigation and re-entry detail checked. No horizontal overflow.
+- Fixed the narrow newsletter submit wrapper using native
+  `use_container_width=True`. Re-entry shows entfernt → vorläufig, one BfArM
+  action, and no internal diagnostic expander. DOI HTML inspected at both widths.
+- Browser QA used a local-only fixture with mocked signup and a synthetic
+  re-entry; no real email/contact mutation. Physical iOS keyboard and actual
+  Gmail/Outlook rendering remain unverified. Local baseline snapshot is absent,
+  so homepage market KPIs correctly show unavailable values.
+- Brevo API key/template ID and Claude API key are unavailable. Repository DOI
+  template remains prepared only; live activation requires explicit approval,
+  native token verification and a controlled end-to-end DOI test.
+- Ready for code review/merge decision with the known baseline failures and
+  device/provider QA limitations above. Do not merge or activate automatically.
+
+Mobile newsletter/DOI polish is prepared on `codex/mobile-newsletter-doi-polish`
+from verified current main `72a87f0960ca3f93ebb45e175a6be6a79ec123d3` (PR #14
+merged the previous UI refinements). This task must not merge or deploy.
+
+### Public status and detail actions — 2026-09-17
+
+- Continued on the same `codex/mobile-newsletter-doi-polish` branch after
+  `67fffe4c4072de81232997dbd661cb6f7ca4589a`; no branch replacement.
+- Central presentation labels: provisional → vorläufig, permanent/listed →
+  dauerhaft, removed → entfernt. Explicit status fields also handle known
+  aliases and unknown categories without exposing raw enums. Exact scalar enums,
+  nested status metadata, before/after values and homepage summaries use this
+  mapping; arbitrary prose and non-status technical aliases are not translated.
+- Re-entry removed → provisional renders entfernt → vorläufig. Display helpers
+  copy/format values without modifying stored events or assuming transition order.
+- Removed the entire “Warum wurde diese Änderung erkannt?” component and nested
+  raw-data expander. Parsed prices retain their summaries; unparseable price
+  changes retain actual before/after values directly, without the internal box.
+- Removed the inline BfArM action from compact lifecycle metadata. The standardized
+  bottom area is the sole external action on public details, including URLs found
+  inside new/removed entry data. Invalid/missing entry links are omitted; Zurück
+  remains. Existing valid diga.bfarm.de entry URLs are preserved exactly.
+- Full suite: 223 tests, 220 passed, same three baseline failures. Re-ran those
+  against verified current main 72a87f0: two failures at 386 vs 369 events and one
+  at 25 vs 23 public groups, identical to this branch. New status/transition,
+  non-mutation, price-information retention, absent-expander and single-link
+  AppTest checks pass. compileall and git diff --check pass.
+- Newsletter/DOI functions compared by AST to 67fffe4 and remain unchanged;
+  subscriber code, mobile CSS, dependency/configuration changes and prepared
+  Brevo email template have no diff from that commit. No production data changes.
+- Publication remains blocked by the known approval policy; no push attempted.
+  Nothing merged, deployed or activated in Brevo.
+
+### Mobile newsletter and DOI polish — 2026-09-17
+
+- Native Brevo `redirectionUrl` now normalizes the known legacy production
+  confirmation destination to `https://www.diga-tracker.de`. Custom preview
+  destinations remain untouched. Previously issued `?view=confirmed` URLs render
+  the ordinary homepage. No unsigned-query success banner or subscriber mutation.
+- Newsletter uses a keyed normal-flow container, safe-area spacing, dynamic
+  mobile app viewport height, 16px input text, 48px input/button targets and
+  comfortable card padding. No fixed/sticky signup, fixed card height or JS scroll.
+- Native `enter_to_submit=False` removes Streamlit's Enter instruction at source;
+  validation and accessibility text are not hidden. Explicit submit remains.
+  Minimum Streamlit raised to 1.39 for that API.
+- Inline HTML DOI email asset: `templates/brevo-doi-confirmation.html`. White,
+  restrained 560px fluid layout, black full-width CTA and documented native API
+  placeholder `{{ params.DOIurl }}`. Existing template ID and sender are untouched.
+  This is a reviewable artifact, NOT an uploaded/activated Brevo template.
+- Brevo key/template ID are absent. Active email markup/token expression and live
+  delivery, confirmation, redirect and list transitions could not be checked.
+  See docs/newsletter-doi-polish.md for rollout/QA requirements. No live contact
+  mutation, test email, production config edit, merge or deployment occurred.
+- Full suite: 217 tests, 214 passed; the same three failures were reproduced on
+  clean current main before editing: historical event counts 386 vs 369 (two
+  tests) and public group count 25 vs 23 (one test). All new/relevant tests pass.
+  git diff --check and compileall pass. AST comparison verifies DOI request,
+  re-subscription, transport, consent, transient email cleanup and logging are
+  unchanged, apart from the native form option and redirect configuration.
+- Claude preflight: ANTHROPIC_API_KEY unavailable; self-review completed.
+  Saved browser permission still blocks local preview; no prohibited workaround
+  attempted. iPhone keyboard, 390px/reduced viewport and email-client rendering
+  remain unverified. Automated checks are not visual QA.
+- Source obtained through the read-only GitHub connector because git fetch cannot
+  reach its configured proxy. Imported main commit and tree match GitHub hashes.
+  Sparse checkout excludes the 38MB operational data/baseline blob; its tracked
+  Git entry is preserved unchanged. Current source/history event files are exact.
 
 ### UI/UX refinements — 2026-09-16
 

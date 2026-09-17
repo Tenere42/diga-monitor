@@ -410,3 +410,53 @@
     .block-container [data-testid="stLinkButton"] a { width: 100%; }
     .diga-detail-actions { max-width: none; }
 }
+
+/* Newsletter focus stays in normal document flow. No fixed height, sticky
+   section, scripted scrolling or hidden validation. 16px prevents iOS zoom. */
+.st-key-newsletter_signup {
+    position: static;
+    min-width: 0;
+    scroll-margin-block-start: calc(env(safe-area-inset-top, 0px) + 1.5rem);
+    padding-block: var(--space-4) var(--space-5);
+}
+.st-key-newsletter_signup [data-testid="stForm"] {
+    padding: var(--space-5);
+    height: auto;
+    overflow: visible;
+}
+.st-key-newsletter_signup [data-testid="stTextInput"] input {
+    font-size: 16px;
+    min-height: 3rem;
+    line-height: 1.5;
+    padding-block: var(--space-3);
+    scroll-margin-block: calc(env(safe-area-inset-top, 0px) + 6rem) 4rem;
+}
+.st-key-newsletter_signup [data-testid="stFormSubmitButton"] button {
+    min-height: 3rem;
+    width: 100%;
+    margin-top: var(--space-2);
+}
+@media (max-width: 47.99rem) {
+    .block-container {
+        padding-top: calc(env(safe-area-inset-top, 0px) + var(--space-4));
+        padding-bottom: calc(env(safe-area-inset-bottom, 0px) + var(--space-6));
+        padding-left: max(var(--gutter-mobile), env(safe-area-inset-left, 0px));
+        padding-right: max(var(--gutter-mobile), env(safe-area-inset-right, 0px));
+    }
+    [data-testid="stAppViewContainer"] {
+        box-sizing: border-box;
+        padding-top: env(safe-area-inset-top, 0px);
+    }
+    [data-testid="stMain"] {
+        scroll-padding-top: calc(env(safe-area-inset-top, 0px) + var(--space-4));
+        scroll-padding-bottom: calc(env(safe-area-inset-bottom, 0px) + var(--space-6));
+    }
+    .st-key-newsletter_signup [data-testid="stForm"] { padding: var(--space-4); }
+}
+/* Let the app viewport follow expanding/collapsing mobile browser chrome;
+   the newsletter itself remains content-sized when the viewport shrinks. */
+@supports (height: 100dvh) {
+    @media (max-width: 47.99rem) {
+        [data-testid="stAppViewContainer"] { height: 100dvh; }
+    }
+}
