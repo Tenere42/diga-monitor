@@ -18,10 +18,17 @@
   repository variables and Railway production variables.
 - Main monitoring-data update `6edc3e5` integrated before production rollout.
   Production temporarily tracks this PR branch; restore main after approved merge.
-- Brevo HTTP 200 preflight on production list #3 found 4 email-eligible contacts
-  and 1 blocklisted contact (5 total), contrary to the assumed sole subscriber.
-  Audience clarification requested before any send. Zero campaigns/notifications;
-  contacts and production history/baseline/R2 data unchanged. PR #16 stays open.
+- Owner confirmed all four eligible addresses are theirs and authorized one
+  campaign. Campaign #3 accepted at 2026-09-18T13:48:37Z, then marked sent.
+  Gmail receipt verified: expected HTML, plain-text MIME and personalized native
+  unsubscribe link/header. No unsubscribe click. Aggregate delivery counters were
+  initially still zero; receipt at all four addresses is not yet established.
+- Exactly one send through the real subscriber path replayed ACTICORE1's existing
+  2026-09-16 new_diga event in memory. No persisted simulation. Runtime data/outputs
+  hashes and contact membership/status hashes unchanged; zero R2 calls.
+- PR #16 remains unmerged and awaits owner email inspection and merge approval.
+  Detailed test evidence and remaining mail-client limits are in
+  docs/change-notification-email.md.
 
 ## Previous integration record
 

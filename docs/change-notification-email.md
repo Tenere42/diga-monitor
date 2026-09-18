@@ -89,17 +89,47 @@ GitHub Actions repository variables and Railway production service variables.
 Production page content and layout passed desktop/390px/320px checks without
 horizontal overflow. Datenschutz remains at `/?view=datenschutz`.
 
-**Live-send audience blocker:** authenticated read-only Brevo production queries
-returned HTTP 200 for list #3. The list summary reports 4 subscribers and 1
-blocklisted contact; the contacts endpoint confirms 5 contacts total, 4 with email
-and emailBlacklisted=false and 1 blocklisted. Only counts were output, not addresses.
-This differs from the owner's expected single subscriber. Audience clarification
-is required before the one authorized campaign can be sent without emailing other
-contacts. No campaign was created, no send was attempted, and no contacts changed.
-No simulated event was written and no production history/baseline/R2 data altered.
+## Controlled live test — 2026-09-18
 
-PR #16 must remain unmerged until the owner has inspected the received email and
-explicitly approved merging. Do not automatically retry a future live send.
+The owner confirmed all four eligible addresses belong to them and authorized one
+campaign to all four. Read-only preflight found five contacts in production list
+#3: four email-eligible and one blocklisted. No contacts or list settings changed.
+
+The initial console command did not reach the send gate (no attempt marker or
+send log; Brevo still had only the September 3 campaign). Its formatting was
+corrected and syntax validated before running the one-shot script. The script
+then called `dispatch_subscriber_alerts(..., include_simulated=True)` exactly once,
+using the production runtime configuration and actual subscriber Campaign path.
+It used an in-memory replay of ACTICORE1 (ID 02940), `new_diga`, from
+2026-09-16T14:30:11.482070+00:00: previously absent, now provisionally listed.
+The stable detail URL is `/?view=changes&detail=change-e3d1a4b6ae3d3cb1`.
+No new event was persisted or made visible on the tracker.
+
+Brevo campaign **3** was accepted on 2026-09-18 at 13:48:37 UTC; provider status
+became `sent`, with sentDate 15:49:19 +02:00. Subject: "Es gibt Updates im DiGA
+Verzeichnis"; sender: "DiGA Tracker" <updates@diga-tracker.de>. Four eligible
+recipients were authorized; the blocklisted contact was excluded by Brevo's
+native campaign suppression. No transactional admin email or second campaign
+was triggered. There was no retry of a campaign send.
+
+Receipt was independently verified in Gmail. Rendered HTML contains the expected
+German ACTICORE1 card and all footer links. Original MIME includes multipart/
+alternative, text/plain and text/html; the plain-text part contains ACTICORE1,
+Neue DiGA, Impressum, Datenschutz, Abmelden and HTTPS links, with no unresolved
+unsubscribe token. Brevo generated a personalized HTTPS link on
+r.mail.diga-tracker.de and List-Unsubscribe headers. The unsubscribe link was
+not followed and the subscriber was not unsubscribed. Actual phone/Outlook/Apple
+Mail inspection remains for the owner; responsive browser previews passed earlier.
+At the initial report check Brevo's aggregate sent/delivered counters were still
+zero despite status sent and verified Gmail receipt; full four-address delivery
+was not yet independently established.
+
+Before/after hashes of all runtime data/outputs files matched. Contact membership
+and blocklist-status hashes matched. The test made zero R2 calls and invoked no
+scanner, baseline writer or history writer. Only the attempt marker and test log
+were written under /tmp. Exactly one campaign send was triggered.
+
+PR #16 remains unmerged pending the owner's inspection and explicit approval.
 
 ## Local QA and review
 
