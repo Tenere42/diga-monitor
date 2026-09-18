@@ -12,6 +12,9 @@ from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
 
+from src.notification_email import render_html, render_text, email_items
+
+
 DEFAULT_NOTIFICATION_LOG_PATH = Path("outputs/notification_log.json")
 BREVO_EMAIL_API_URL = "https://api.brevo.com/v3/smtp/email"
 
@@ -85,6 +88,17 @@ class MissingNotificationConfig(ValueError):
         super().__init__(f"Missing email configuration: {', '.join(missing)}")
 
 
+class BrevoAPIError(RuntimeError):
+    """Status-only exception; never stores provider bodies or recipient data."""
+    def __init__(self, status_code: int):
+        self.status_code = int(status_code)
+        super().__init__(f"Brevo API request failed with HTTP {self.status_code}")
+
+
+def safe_error(exc: Exception) -> str:
+    return f"HTTP {exc.status_code}" if isinstance(exc, BrevoAPIError) else type(exc).__name__
+
+
 def notify_changes(
     events: list[dict[str, Any]],
     dry_run: bool = False,
@@ -99,7 +113,7 @@ def notify_changes(
     recipients = configured_recipients()
     recipient = format_recipients(recipients)
 
-    if not real_events:
+    if not real_events or not email_items(real_events):
         log_notification(
             recipient=recipient,
             number_of_changes=0,
@@ -116,7 +130,7 @@ def notify_changes(
         body = build_email_body(real_events, resolve_dashboard_url(), test_mode=test_mode)
         print("Dry-run: email would be sent with this content:")
         print()
-        print(f"To: {recipient or '(DIGA_MONITOR_EMAIL_TO nicht gesetzt)'}")
+        print(f"Recipients: {len(recipients)}")
         print(f"Subject: {subject}")
         print()
         print(body)
@@ -139,6 +153,8 @@ def notify_changes(
             settings.recipients,
             subject,
             build_email_body(real_events, settings.dashboard_url, test_mode=test_mode),
+            render_html(real_events, settings.dashboard_url, test_mode=test_mode,
+                        impressum_url=os.getenv("DIGA_TRACKER_IMPRESSUM_URL", "")),
         )
         message_id = send_email(settings.brevo, message)
     except MissingNotificationConfig as exc:
@@ -153,7 +169,7 @@ def notify_changes(
         print_notification_status(message)
         return False
     except Exception as exc:
-        message = f"Notification failed: {exc}"
+        message = f"Notification failed ({safe_error(exc)})."
         log_notification(
             recipient=recipient,
             number_of_changes=len(real_events),
@@ -254,12 +270,14 @@ def build_email_message(
     recipients: tuple[str, ...],
     subject: str,
     body: str,
+    html_body: str | None = None,
 ) -> dict[str, Any]:
     return {
         "sender": {"email": email_from, "name": email_from_name},
         "to": [{"email": recipient} for recipient in recipients],
         "subject": subject,
         "textContent": body,
+        **({"htmlContent": html_body} if html_body else {}),
     }
 
 
@@ -280,10 +298,10 @@ def send_email(config: BrevoConfig, message: dict[str, Any]) -> str:
             response_body = response.read()
     except HTTPError as exc:
         response_body = exc.read()
-        raise RuntimeError(format_brevo_error(exc.code, response_body, config.api_key)) from exc
+        raise BrevoAPIError(exc.code) from None
 
     if not 200 <= status_code < 300:
-        raise RuntimeError(format_brevo_error(status_code, response_body, config.api_key))
+        raise BrevoAPIError(status_code)
 
     try:
         message_id = json.loads(response_body)["messageId"]
@@ -295,17 +313,8 @@ def send_email(config: BrevoConfig, message: dict[str, Any]) -> str:
 
 
 def format_brevo_error(status_code: int, response_body: bytes, api_key: str) -> str:
-    detail = ""
-    try:
-        payload = json.loads(response_body)
-        if isinstance(payload, dict):
-            detail = str(payload.get("message") or payload.get("code") or "")
-    except (ValueError, UnicodeDecodeError):
-        pass
-    if api_key:
-        detail = detail.replace(api_key, "[redacted]")
-    suffix = f": {detail[:300]}" if detail else ""
-    return f"Brevo API request failed with HTTP {status_code}{suffix}"
+    # Provider response bodies may contain contact addresses or echoed secrets.
+    return f"Brevo API request failed with HTTP {status_code}"
 
 
 def print_notification_status(message: str, level: str = "notice") -> None:
@@ -321,61 +330,8 @@ def build_email_body(
     dashboard_url: str,
     test_mode: bool = False,
 ) -> str:
-    visible_events = events[:10]
-    previous_times = [
-        parsed
-        for event in events
-        if (parsed := parse_datetime(event.get("previous_snapshot_timestamp")))
-    ]
-    current_times = [
-        parsed
-        for event in events
-        if (parsed := parse_datetime(event.get("current_snapshot_timestamp") or event.get("detected_at")))
-    ]
-    previous_label = format_datetime(min(previous_times)) if previous_times else "-"
-    current_label = format_datetime(max(current_times)) if current_times else "-"
-
-    lines = []
-    if test_mode:
-        lines.extend(
-            [
-                "TEST / SIMULATION",
-                "Keine echte BfArM-Änderung. Diese Nachricht prüft ausschließlich den Benachrichtigungspfad.",
-                "",
-            ]
-        )
-
-    lines.extend([
-        "Hallo,",
-        "",
-        f"DiGA Tracker hat {len(events)} Änderung(en) im BfArM DiGA-Verzeichnis erkannt.",
-        "",
-        "Zeitraum:",
-        f"Letzter bekannter Zustand: {previous_label}",
-        f"Neuer Zustand: {current_label}",
-        "",
-        "Änderungen:",
-        "",
-    ])
-
-    for index, event in enumerate(visible_events, start=1):
-        lines.extend(render_event_summary(index, event))
-        lines.append("")
-
-    if len(events) > len(visible_events):
-        lines.append("Weitere simulierte Änderungen im Dashboard.")
-        lines.append("")
-
-    lines.extend(
-        [
-            "Dashboard:",
-            dashboard_url or "(DIGA_MONITOR_DASHBOARD_URL nicht gesetzt)",
-            "",
-            "Viele Grüße",
-            "DiGA Tracker",
-        ]
-    )
-    return "\n".join(lines)
+    return render_text(events, dashboard_url, test_mode=test_mode,
+                       impressum_url=os.getenv("DIGA_TRACKER_IMPRESSUM_URL", ""))
 
 
 def render_event_summary(index: int, event: dict[str, Any]) -> list[str]:
@@ -492,7 +448,7 @@ def log_notification(
     log_entries = load_notification_log(path)
     entry = {
         "sent_at": datetime.now(timezone.utc).isoformat(),
-        "recipient": recipient,
+        "recipient_count": len([r for r in recipient.split(",") if r.strip()]),
         "number_of_changes": number_of_changes,
         "subject": subject,
         "status": status,

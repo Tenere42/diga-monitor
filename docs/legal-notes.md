@@ -1,3 +1,12 @@
+## Impressum scope update — 2026-09-18
+
+The owner explicitly supplied and authorized publication of the operator facts
+now rendered at `/impressum`: Leevsten GmbH, Sustenweg 1, 8048 Zürich, Schweiz;
+Geschäftsführer Hauke Rienhoff; UID CHE-186.794.937; Handelsregister-Nr.
+CH-020.4.092.215-4; Handelsregister des Kantons Zürich. No VAT number is asserted.
+This supersedes earlier statements below that an Impressum is out of scope or
+that the company address has not been provided. The privacy gate is unchanged.
+
 # Legal Notes — DiGA Tracker Newsletter (DiGA Tracker Alerts)
 
 This document tracks legal assumptions and open questions for the public

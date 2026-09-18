@@ -22,6 +22,7 @@ ENVIRONMENT = {
     "DIGA_MONITOR_EMAIL_FROM": "updates@diga-tracker.de",
     "DIGA_MONITOR_EMAIL_FROM_NAME": "DiGA Tracker",
     "BREVO_NEWSLETTER_LIST_ID": "99",
+    "DIGA_TRACKER_IMPRESSUM_URL": "https://www.diga-tracker.de/impressum",
     "NEWSLETTER_LEGAL_READY": "true",
     "DIGA_TRACKER_OPERATOR_CONTACT_EMAIL": "privacy@example.com",
     "DIGA_TRACKER_DATA_RETENTION_PERIOD": "confirmed test retention period",
@@ -71,7 +72,7 @@ class SubscriberAlertSettingsTests(unittest.TestCase):
 
 class AlertHtmlBodyTests(unittest.TestCase):
     def test_body_always_contains_a_working_unsubscribe_link(self) -> None:
-        body = build_alert_html_body([real_change_event()], "https://www.diga-tracker.de")
+        body = build_alert_html_body([real_change_event()], "https://www.diga-tracker.de", ENVIRONMENT['DIGA_TRACKER_IMPRESSUM_URL'])
         self.assertIn(BREVO_UNSUBSCRIBE_MERGE_TAG, body)
 
     def test_body_never_contains_individual_recipient_addresses(self) -> None:
@@ -79,7 +80,7 @@ class AlertHtmlBodyTests(unittest.TestCase):
         # in the first place -- Brevo's Campaign API resolves the audience
         # server-side from the confirmed list. This asserts that nothing
         # resembling a recipient email is ever interpolated into the body.
-        body = build_alert_html_body([real_change_event()], "https://www.diga-tracker.de")
+        body = build_alert_html_body([real_change_event()], "https://www.diga-tracker.de", ENVIRONMENT['DIGA_TRACKER_IMPRESSUM_URL'])
         self.assertNotIn("@", body.replace("diga-tracker.de", ""))
 
 

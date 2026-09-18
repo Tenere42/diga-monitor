@@ -625,6 +625,10 @@ The existing `data/snapshots` history remains untouched pending the final cleanu
 
 ## Notes About BfArM Integration
 
+The repository-controlled notification email, local HTML/text preview command,
+native Brevo unsubscribe flow, and required Impressum URL configuration are
+documented in [Change-notification email](docs/change-notification-email.md).
+
 The official BfArM DiGA API is documented as a FHIR-based REST API. The BfArM documentation lists the current DiGA FHIR base URL as `https://diga.bfarm.de/api/fhir/v3.0/` and notes that API users receive a confidential bearer token after approval.
 
 The current `src/fetch_diga.py` module:

@@ -2,6 +2,83 @@
 
 ## Current objective
 
+### Impressum follow-up — 2026-09-18
+
+- Owner supplied and authorized publication of Leevsten GmbH operator details.
+  `/impressum` now uses native Streamlit page routing and the existing styling.
+  Footer links to Impressum independently of the newsletter gate; Datenschutz
+  keeps its existing readiness gate and uses a root-relative URL.
+- Local desktop/390px/320px page QA passed without horizontal overflow.
+  Suite: 238 tests, 235 pass; only three accepted historical-count failures.
+  Compilation and whitespace checks pass. Route tests were updated for the
+  extracted tracker page callback; entrypoint navigation registration is tested.
+- VAT information omitted. Preview and production branch deployments succeeded.
+  https://www.diga-tracker.de/impressum verified with correct content, legal links,
+  and no overflow at desktop/390/320px. The URL is configured in GitHub Actions
+  repository variables and Railway production variables.
+- Main monitoring-data update `6edc3e5` integrated before production rollout.
+  Production temporarily tracks this PR branch; restore main after approved merge.
+- Owner confirmed all four eligible addresses are theirs and authorized one
+  campaign. Campaign #3 accepted at 2026-09-18T13:48:37Z, then marked sent.
+  Gmail receipt verified: expected HTML, plain-text MIME and personalized native
+  unsubscribe link/header. No unsubscribe click. Aggregate delivery counters were
+  initially still zero; receipt at all four addresses is not yet established.
+- Exactly one send through the real subscriber path replayed ACTICORE1's existing
+  2026-09-16 new_diga event in memory. No persisted simulation. Runtime data/outputs
+  hashes and contact membership/status hashes unchanged; zero R2 calls.
+- PR #16 remains unmerged and awaits owner email inspection and merge approval.
+  Detailed test evidence and remaining mail-client limits are in
+  docs/change-notification-email.md.
+
+## Previous integration record
+
+### Change-notification email — 2026-09-17
+
+- New branch `codex/change-notification-email` from main `0568e7879a260351fe2a82897150d494acc6709b`.
+  PR #15 merged with explicit owner approval at `89fc043614b1fbb471e4835653d54fb7c95d8b38`; Railway deployment succeeded.
+  PR #16 integrates this main commit and remains open, explicitly not approved for merge.
+- Existing admin transactional and subscriber Campaign API paths share a new
+  concise HTML/text renderer and repository template. One card per DiGA/public
+  day, reliable German labels, neutral fallback and individual stable detail links.
+- Shared link helpers preserve existing anchor hashes. Full historical email-link
+  coverage resolves to current public groups. Missing old records retain the
+  existing graceful fallback. No session state or subscriber PII in links.
+- Subscriber campaigns retain native Brevo unsubscribe and confirmed-list
+  delivery. Campaign text is provider-generated; deterministic local text previews
+  are included. Admin transactional mail carries both HTML and text parts.
+- `DIGA_TRACKER_IMPRESSUM_URL` is required for subscriber sends. Read-only live
+  inspection found only Datenschutz; repository legal notes explicitly confirm
+  no Impressum page. No URL/legal content was invented. Supply a real published
+  destination before rollout; missing configuration safely prevents campaigns.
+- Integrated suite: 237 tests, 234 passed; three accepted baseline failures
+  (392 vs 369 twice, 27 vs 23 groups after importing main monitoring data). Compileall and diff whitespace checks pass.
+- Four synthetic email fixtures inspected at desktop/390px/320px: correct CTA
+  counts, long-name wrapping, footer/unsubscribe, no horizontal overflow.
+  Repeated in Chrome after integration: all four fixtures at 1000/390/320px;
+  inspected long-name layout screenshots at each width. Production homepage,
+  actual ACTICORE1 detail and Datenschutz routes resolve. Synthetic fixture
+  destinations are not real records; Impressum/unsubscribe delivery remain gated.
+  Actual mail-client rendering and delivered text/unsubscribe remain unverified.
+- Claude authentication preflight failed: ANTHROPIC_API_KEY unavailable; no OAuth
+  fallback. Codex self-review completed; technical-only cards and unsafe error
+  logging were fixed. Detailed architecture, QA and rollout notes are in
+  `docs/change-notification-email.md`.
+- Production config inspection found no Impressum destination or operator postal
+  address, representative, or register/UID details. Existing privacy data only
+  identifies Leevsten GmbH and its privacy contact. No legal facts were invented.
+  The owner authorized one live subscriber test conditional on legal readiness;
+  that prerequisite is unsatisfied, so zero campaigns/notifications were triggered.
+  No production history, baseline, R2 data or Brevo configuration was changed.
+  Imported operational files are byte-identical to merged main. Only PROJECT_STATE
+  conflicted during integration; both relevant sections were retained.
+- Supply verified publishable company details before implementing/configuring
+  Impressum and running the single no-retry live test. Do not merge PR #16 until
+  the owner has inspected the received email and explicitly approved the merge.
+
+UI/UX refinements are implemented on `codex/ui-ux-refinements`, based on
+`efbb61e5ae7c14825c54684d08de37ed93ab758f` of `codex/ui-redesign-black-white`.
+This is a stacked change on the existing redesign, not a replacement based on
+older `main`. Nothing has been merged or deployed by this task.
 ### PR #15 verification — 2026-09-17
 
 - Re-ran all 223 tests: 220 pass, the same three historical-count failures

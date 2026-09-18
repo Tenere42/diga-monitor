@@ -43,7 +43,7 @@ class DoiReturnTests(unittest.TestCase):
               patch.object(app, 'render_homepage') as home,
               patch.object(app, 'request_double_optin') as doi):
             st.query_params = {'view': 'confirmed'}
-            app.main()
+            app.render_tracker_page()
         home.assert_called_once_with([], [])
         doi.assert_not_called()
         st.success.assert_not_called()

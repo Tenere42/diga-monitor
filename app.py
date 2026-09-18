@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import html
-import hashlib
 import json
 import logging
 import re
@@ -27,6 +26,7 @@ from src.dashboard_cache import change_files_signature, files_content_signature,
 from src.legal_content import is_legal_content_ready, load_operator_profile
 from src.subscribers import SignupOutcome, request_double_optin
 from src.scan_history import DEFAULT_SCAN_HISTORY_PATH, load_scan_history
+from src.change_links import group_anchor, diga_key, local_event_date
 
 
 logger = logging.getLogger(__name__)
@@ -98,6 +98,38 @@ def main() -> None:
     st.set_page_config(page_title="DiGA Tracker", layout="wide")
     st.markdown(stylesheet_html(), unsafe_allow_html=True)
 
+    page = st.navigation([
+        st.Page(render_tracker_page, title="DiGA Tracker", default=True),
+        st.Page(render_impressum_page, title="Impressum", url_path="impressum"),
+    ], position="hidden")
+    page.run()
+
+
+def render_impressum_page() -> None:
+    """Operator facts supplied and approved for publication by the owner."""
+    render_page_header()
+    st.title("Impressum")
+    st.markdown("""
+**Leevsten GmbH**
+
+Sustenweg 1
+
+8048 Zürich
+
+Schweiz
+
+**Geschäftsführer:** Hauke Rienhoff
+
+**UID:** CHE-186.794.937
+
+**Handelsregister-Nr.:** CH-020.4.092.215-4
+
+**Handelsregister:** Handelsregister des Kantons Zürich
+""")
+    render_public_footer()
+
+
+def render_tracker_page() -> None:
     # Preserve the fail-closed legal/DOI routes. Unknown or unready routes
     # fall through to the public homepage; confirmation never mutates contacts.
     if st.query_params.get("view") == "datenschutz" and is_legal_content_ready():
@@ -244,8 +276,7 @@ def recent_adjustment_count(groups: list[dict[str, Any]], today: date) -> int:
 
 def change_group_anchor(group: dict[str, Any]) -> str:
     """Stable presentation anchor for an existing DiGA/date group."""
-    identity = f'{event_diga_key(group["events"][0])}|{group["date"]}'
-    return "change-" + hashlib.sha256(identity.encode("utf-8")).hexdigest()[:16]
+    return group_anchor(event_diga_key(group["events"][0]), group["date"])
 
 
 def homepage_change_items(groups: list[dict[str, Any]], limit: int = 5) -> list[dict[str, Any]]:
@@ -569,19 +600,15 @@ def _render_newsletter_result_banner() -> None:
 
 
 def render_public_footer() -> None:
-    """Footer linking to the Datenschutzerklärung. Renders nothing at all
-    unless the newsletter feature is legal-ready -- there is no version of
-    this footer that links to a page that doesn't fully exist yet.
-    """
-    if not is_legal_content_ready():
-        return
-
+    """Impressum is public; privacy remains behind its existing readiness gate."""
+    privacy = (
+        ' &middot; <a href="/?view=datenschutz" target="_self">Datenschutzerklärung</a>'
+        if is_legal_content_ready() else ""
+    )
     st.divider()
     st.markdown(
-        '<div class="diga-footer">'
-        "DiGA Tracker &middot; "
-        '<a href="?view=datenschutz" target="_self">Datenschutzerklärung</a>'
-        "</div>",
+        '<div class="diga-footer">DiGA Tracker &middot; '
+        '<a href="/impressum" target="_self">Impressum</a>' + privacy + '</div>',
         unsafe_allow_html=True,
     )
 
@@ -1681,12 +1708,7 @@ def event_group_title(group: dict[str, Any]) -> str:
 
 
 def event_diga_key(event: dict[str, Any]) -> str:
-    return str(
-        event.get("diga_id")
-        or event.get("diga_name")
-        or event.get("bfarm_directory_url")
-        or "unknown"
-    ).lower()
+    return diga_key(event)
 
 
 def is_metadata_event(event: dict[str, Any]) -> bool:
@@ -1931,8 +1953,7 @@ def latest_real_change_timestamp(events: list[dict[str, Any]]) -> str:
 
 
 def event_date(event: dict[str, Any]) -> date | None:
-    parsed = parse_datetime(event.get("detected_at"))
-    return parsed.astimezone(DISPLAY_TIMEZONE).date() if parsed else None
+    return local_event_date(event)
 
 
 def event_date_in_range(event: dict[str, Any], start_date: date, end_date: date) -> bool:

@@ -80,9 +80,7 @@ class PresentationTests(unittest.TestCase):
                 mock.patch('app.request_double_optin') as submit,
             ):
                 streamlit.query_params = {'view': view}
-                app.main()
-                streamlit.set_page_config.assert_called_once_with(page_title='DiGA Tracker', layout='wide')
-                self.assertIn('<style>', streamlit.markdown.call_args.args[0])
+                app.render_tracker_page()
                 render.assert_called_once_with()
                 footer.assert_called_once_with()
                 load.assert_not_called()
@@ -100,7 +98,7 @@ class PresentationTests(unittest.TestCase):
                 mock.patch('app.request_double_optin') as submit,
             ):
                 streamlit.query_params = {'view': view}
-                app.main()
+                app.render_tracker_page()
                 load.assert_called_once()
                 privacy.assert_not_called()
                 submit.assert_not_called()
@@ -120,7 +118,7 @@ with (
     patch("app.load_operator_profile", return_value=profile),
     patch("app.request_double_optin", return_value=result),
 ):
-    app.main()
+    app.render_tracker_page()
 '''
 
     def test_newsletter_consent_submission_and_result_survive_filter_rerun(self) -> None:

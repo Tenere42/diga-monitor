@@ -28,7 +28,6 @@ first).
 
 from __future__ import annotations
 
-import html
 import json
 import os
 from dataclasses import dataclass
@@ -39,8 +38,11 @@ from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
 from src.legal_content import is_legal_content_ready
+from src.notification_email import render_html, render_text, email_items, HEADLINE
+from src.change_links import safe_web_url
 from src.notifications import (
-    format_brevo_error,
+    BrevoAPIError,
+    safe_error,
     is_notifiable_event,
     print_notification_status,
     resolve_dashboard_url,
@@ -61,6 +63,7 @@ REQUIRED_SUBSCRIBER_ALERT_ENV_VARS = [
     "DIGA_MONITOR_EMAIL_FROM",
     "DIGA_MONITOR_EMAIL_FROM_NAME",
     "BREVO_NEWSLETTER_LIST_ID",
+    "DIGA_TRACKER_IMPRESSUM_URL",
 ]
 # Reviewed trade-off (raised in adversarial review, refined after a
 # second review pass): this list shares three variable *names* with
@@ -73,7 +76,7 @@ REQUIRED_SUBSCRIBER_ALERT_ENV_VARS = [
 # src.notifications.load_notification_settings()) -- neither shares
 # mutable state or a config-loading function with the other. This
 # module does import four *pure, stateless* helpers from
-# src/notifications.py (format_brevo_error, is_notifiable_event,
+# src/notifications.py (safe error reporting, is_notifiable_event,
 # print_notification_status, resolve_dashboard_url) -- none of them
 # touch audience/recipient selection, so a bug in one cannot corrupt
 # *who* receives which message. The setting that actually defines that
@@ -95,6 +98,7 @@ class SubscriberAlertSettings:
     email_from_name: str
     list_id: int
     dashboard_url: str
+    impressum_url: str
 
 
 def dispatch_subscriber_alerts(
@@ -126,13 +130,13 @@ def dispatch_subscriber_alerts(
             _log_subscriber_alert(
                 status="failed",
                 number_of_changes=len(events),
-                error_message=f"Unerwarteter Fehler im Subscriber-Alert-Pfad: {exc}",
+                error_message=f"Subscriber alert failed ({safe_error(exc)}).",
             )
         except Exception:  # noqa: BLE001 - logging must never break isolation
             pass
         try:
             print_notification_status(
-                f"Subscriber alert dispatch failed (isolated, scan pipeline unaffected): {exc}",
+                f"Subscriber alert dispatch failed ({safe_error(exc)}; scan pipeline unaffected).",
                 level="warning",
             )
         except Exception:  # noqa: BLE001 - reporting must never break isolation
@@ -164,7 +168,7 @@ def _dispatch_subscriber_alerts(
         if is_notifiable_event(event, include_simulated=include_simulated)
     ]
 
-    if not real_events:
+    if not real_events or not email_items(real_events):
         _log_subscriber_alert(
             status="skipped",
             number_of_changes=0,
@@ -173,7 +177,7 @@ def _dispatch_subscriber_alerts(
         print_notification_status("Subscriber alert skipped: no real changes detected.")
         return False
 
-    subject = f"DiGA Tracker Alert: {len(real_events)} Aenderung(en) erkannt"
+    subject = HEADLINE
 
     if dry_run:
         print("Dry-run: subscriber alert campaign would be created with this content:")
@@ -200,7 +204,7 @@ def _dispatch_subscriber_alerts(
         print_notification_status(message)
         return False
 
-    html_body = build_alert_html_body(real_events, settings.dashboard_url)
+    html_body = build_alert_html_body(real_events, settings.dashboard_url, settings.impressum_url)
     campaign_id = create_campaign(settings, subject, html_body)
     send_campaign_now(settings, campaign_id)
 
@@ -226,38 +230,32 @@ def load_subscriber_alert_settings() -> SubscriberAlertSettings:
         list_id = int(os.environ["BREVO_NEWSLETTER_LIST_ID"])
     except ValueError as exc:
         raise MissingSubscriberAlertConfig(["BREVO_NEWSLETTER_LIST_ID (must be numeric)"]) from exc
+    try:
+        safe_web_url(os.environ["DIGA_TRACKER_IMPRESSUM_URL"])
+    except ValueError as exc:
+        raise MissingSubscriberAlertConfig(["DIGA_TRACKER_IMPRESSUM_URL (valid HTTPS URL required)"]) from exc
     return SubscriberAlertSettings(
         api_key=os.environ["BREVO_API_KEY"],
         email_from=os.environ["DIGA_MONITOR_EMAIL_FROM"],
         email_from_name=os.environ["DIGA_MONITOR_EMAIL_FROM_NAME"],
         list_id=list_id,
         dashboard_url=resolve_dashboard_url(),
+        impressum_url=os.environ["DIGA_TRACKER_IMPRESSUM_URL"],
     )
 
 
-def build_alert_html_body(events: list[dict[str, Any]], dashboard_url: str) -> str:
-    visible_events = events[:10]
-    items = "".join(
-        f"<li>{_escape(event.get('diga_name', 'Unbekannte DiGA'))}: "
-        f"{_escape(event.get('summary_de') or 'Aenderung erkannt.')}</li>"
-        for event in visible_events
-    )
-    more_note = (
-        "<p>Weitere Aenderungen im Dashboard.</p>" if len(events) > len(visible_events) else ""
-    )
-    dashboard_link = dashboard_url or "https://www.diga-tracker.de"
-    return (
-        "<html><body>"
-        f"<p>DiGA Tracker hat {len(events)} Aenderung(en) im BfArM DiGA-Verzeichnis erkannt.</p>"
-        f"<ul>{items}</ul>"
-        f"{more_note}"
-        f'<p>Dashboard: <a href="{dashboard_link}">{dashboard_link}</a></p>'
-        "<p>Viele Gruesse<br>DiGA Tracker</p>"
-        f'<p style="font-size:12px;color:#6b7280;">'
-        f'Du erhaeltst diese E-Mail, weil du DiGA Tracker Alerts abonniert hast. '
-        f'<a href="{BREVO_UNSUBSCRIBE_MERGE_TAG}">Abmelden</a></p>'
-        "</body></html>"
-    )
+def build_alert_html_body(events: list[dict[str, Any]], dashboard_url: str,
+                          impressum_url: str = "") -> str:
+    return render_html(events, dashboard_url, unsubscribe=True,
+                       impressum_url=impressum_url or os.getenv("DIGA_TRACKER_IMPRESSUM_URL", ""))
+
+
+def build_alert_text_body(events: list[dict[str, Any]], dashboard_url: str,
+                          impressum_url: str = "") -> str:
+    # Campaign API has no textContent input. Brevo generates the delivered text
+    # alternative from HTML; this deterministic equivalent is for local review.
+    return render_text(events, dashboard_url, unsubscribe=True,
+                       impressum_url=impressum_url or os.getenv("DIGA_TRACKER_IMPRESSUM_URL", ""))
 
 
 def create_campaign(settings: SubscriberAlertSettings, subject: str, html_content: str) -> int:
@@ -273,7 +271,7 @@ def create_campaign(settings: SubscriberAlertSettings, subject: str, html_conten
         "POST", BREVO_CAMPAIGNS_API_URL, settings.api_key, payload
     )
     if not 200 <= status_code < 300:
-        raise RuntimeError(format_brevo_error(status_code, response_body, settings.api_key))
+        raise BrevoAPIError(status_code)
     try:
         return int(json.loads(response_body)["id"])
     except (KeyError, TypeError, ValueError, UnicodeDecodeError) as exc:
@@ -286,7 +284,7 @@ def send_campaign_now(settings: SubscriberAlertSettings, campaign_id: int) -> No
     url = f"{BREVO_CAMPAIGNS_API_URL}/{campaign_id}/sendNow"
     status_code, response_body = _brevo_request("POST", url, settings.api_key, None)
     if not 200 <= status_code < 300:
-        raise RuntimeError(format_brevo_error(status_code, response_body, settings.api_key))
+        raise BrevoAPIError(status_code)
 
 
 def _brevo_request(
@@ -350,7 +348,3 @@ def _load_subscriber_alert_log(path: Path | None = None) -> list[dict[str, Any]]
     if isinstance(payload, list):
         return [item for item in payload if isinstance(item, dict)]
     return []
-
-
-def _escape(value: Any) -> str:
-    return html.escape(str(value))

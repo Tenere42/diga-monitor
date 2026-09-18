@@ -93,11 +93,7 @@ class NotificationTests(unittest.TestCase):
             "TEST / SIMULATION",
             "Keine echte BfArM-Änderung",
             "Test DiGA",
-            "Test Hersteller",
             "Preisänderung",
-            "499,00 €",
-            "529,00 €",
-            "27.08.2026",
             ENVIRONMENT["DASHBOARD_URL"],
         ):
             self.assertIn(expected, body)
@@ -105,8 +101,10 @@ class NotificationTests(unittest.TestCase):
 
     def test_email_body_uses_diga_tracker_branding(self) -> None:
         body = build_email_body([event()], ENVIRONMENT["DASHBOARD_URL"])
-        self.assertIn("DiGA Tracker hat 1 Änderung(en)", body)
-        self.assertIn("DiGA Tracker", body.splitlines()[-1])
+        self.assertIn("Wir haben 1 Änderung erkannt.", body)
+        self.assertIn("Es gibt Updates im DiGA Verzeichnis", body)
+        self.assertNotIn("Geändert in", body)
+        self.assertNotIn("499,00 €", body)
         self.assertNotIn("DiGA Watch", body)
 
     def test_notify_changes_subject_uses_diga_tracker_branding(self) -> None:
@@ -258,7 +256,7 @@ class NotificationTests(unittest.TestCase):
             with self.assertRaisesRegex(RuntimeError, r"HTTP 401") as raised:
                 send_email(config, {})
         self.assertNotIn(config.api_key, str(raised.exception))
-        self.assertIn("[redacted]", str(raised.exception))
+        self.assertEqual(str(raised.exception), "Brevo API request failed with HTTP 401")
 
     def test_api_error_is_caught_and_logged_without_secret(self) -> None:
         secret = ENVIRONMENT["BREVO_API_KEY"]
