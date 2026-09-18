@@ -74,40 +74,32 @@ subscribers to transactional mail to force the text part.
 
 ## Configuration and rollout
 
-`DIGA_TRACKER_IMPRESSUM_URL` must be the actual published HTTPS Impressum URL.
-The website currently has no Impressum route, so no fake destination or legal
-content was invented. Subscriber configuration fails closed while this setting
-is absent/invalid. Configure the GitHub repository variable and any scheduler
-environment after the real URL is confirmed; workflow wiring is included.
-Read-only production inspection on 2026-09-17 confirmed that the rendered footer
-links only to `https://www.diga-tracker.de/?view=datenschutz`. That page is headed
-Datenschutzerklärung, not Impressum. `app.py` implements that gated privacy route;
-`docs/legal-notes.md` explicitly records that no Impressum page was implemented.
-The privacy URL is therefore not silently reused under an Impressum label.
-The synthetic previews use `https://example.invalid/impressum` explicitly as a
-fixture, never as a production fallback. The existing Datenschutz route and
-legal gate are retained. Admin-only messages use the Impressum URL when supplied.
+The owner supplied and approved the company details on 2026-09-18. The public
+Impressum is implemented using native Streamlit routing at
+https://www.diga-tracker.de/impressum, with a footer link beside Datenschutz.
+Only the supplied company facts are published; no VAT number is asserted.
+The page was verified in the existing Railway ui-preview environment first,
+then deployed to production directly from this PR branch without merging PR #16.
+Latest main monitoring data was integrated before deployment to avoid regressing
+the website snapshot. Production and preview currently track this branch;
+restore production's source to main after eventual merge approval.
 
-The owner subsequently authorized merging PR #15 and exactly one production-list
-notification, conditional on a real Impressum. PR #15 is merged; PR #16 must
-remain unmerged until the owner inspects the received email. Production Railway
-variable names and the public site were inspected: no Impressum URL or company
-address/representative/register data is configured. Existing legal documentation
-explicitly did not collect these facts. Missing publishable facts are the full
-company address (including country), authorized representative(s), and commercial
-register/UID details; tax/VAT identification applicability also needs confirmation.
-These are missing facts for the requested company-identification page, not a new
-legal determination about which jurisdiction's duties apply. No URL or legal
-content was invented and no partial legal page was published.
+`DIGA_TRACKER_IMPRESSUM_URL=https://www.diga-tracker.de/impressum` was saved in
+GitHub Actions repository variables and Railway production service variables.
+Production page content and layout passed desktop/390px/320px checks without
+horizontal overflow. Datenschutz remains at `/?view=datenschutz`.
 
-**Live test stopped before any campaign creation or send.** Zero notifications
-were triggered; there is no production simulated change, campaign ID, acceptance,
-delivery or generated unsubscribe result. The stated one-subscriber audience was
-not independently counted. No production history, R2 snapshots, baseline or events
-were changed. After the missing facts are supplied, publish and verify the real
-page, configure the variable in the actual scheduler environment, and run the
-single authorized subscriber-path test without automatic retry. Inspect delivered
-HTML/plain text, native unsubscribe and mobile rendering before merge approval.
+**Live-send audience blocker:** authenticated read-only Brevo production queries
+returned HTTP 200 for list #3. The list summary reports 4 subscribers and 1
+blocklisted contact; the contacts endpoint confirms 5 contacts total, 4 with email
+and emailBlacklisted=false and 1 blocklisted. Only counts were output, not addresses.
+This differs from the owner's expected single subscriber. Audience clarification
+is required before the one authorized campaign can be sent without emailing other
+contacts. No campaign was created, no send was attempted, and no contacts changed.
+No simulated event was written and no production history/baseline/R2 data altered.
+
+PR #16 must remain unmerged until the owner has inspected the received email and
+explicitly approved merging. Do not automatically retry a future live send.
 
 ## Local QA and review
 
@@ -130,7 +122,7 @@ unsafe provider-error logging. No substantive code findings remain; the rollout
 configuration/client/provider checks above remain open.
 
 Integration verification after merging main `89fc043614b1fbb471e4835653d54fb7c95d8b38`:
-237 tests, 234 passed. The same three accepted historical-count failures remain:
+238 tests, 235 passed. The same three accepted historical-count failures remain:
 392 versus 369 events in two tests and 27 versus 23 public groups. Main's imported
 monitoring data explains the updated actual counts; no expectations were changed.
 Compileall over app/src/scripts/tests and staged/unstaged whitespace checks pass.

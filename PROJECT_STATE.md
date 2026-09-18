@@ -12,8 +12,16 @@
   Suite: 238 tests, 235 pass; only three accepted historical-count failures.
   Compilation and whitespace checks pass. Route tests were updated for the
   extracted tracker page callback; entrypoint navigation registration is tested.
-- VAT information omitted. No live send yet. Deployment/configuration verification
-  is pending; PR #16 must remain unmerged until the owner inspects the email.
+- VAT information omitted. Preview and production branch deployments succeeded.
+  https://www.diga-tracker.de/impressum verified with correct content, legal links,
+  and no overflow at desktop/390/320px. The URL is configured in GitHub Actions
+  repository variables and Railway production variables.
+- Main monitoring-data update `6edc3e5` integrated before production rollout.
+  Production temporarily tracks this PR branch; restore main after approved merge.
+- Brevo HTTP 200 preflight on production list #3 found 4 email-eligible contacts
+  and 1 blocklisted contact (5 total), contrary to the assumed sole subscriber.
+  Audience clarification requested before any send. Zero campaigns/notifications;
+  contacts and production history/baseline/R2 data unchanged. PR #16 stays open.
 
 ## Previous integration record
 
