@@ -2,6 +2,23 @@
 
 ## Current objective
 
+### PR #16 approved and merged — 2026-09-18
+
+- Owner inspected and approved the live email. PR #16 merged at
+  `5206b2eb85142d34241faf557fd808c7b10c0044`, from approved HEAD
+  `f1791c4626a0c2a9e2a5016425715288a165ada1`.
+- Final suite on that exact HEAD: 238 tests, 235 passed, only the three accepted
+  historical-count failures. Compilation and whitespace checks passed; tree clean.
+- Railway production source restored to main. Final production deployment/smoke
+  evidence is recorded in PR #16's final handoff. Notification settings retained.
+- No additional campaign/test email or contact mutation during finalization.
+  No monitoring data changed by the merge. One-shot live-test files were only in
+  the old runtime's /tmp and are not part of the repository or deployed source.
+- The earlier "unmerged" and "PR branch production" notes below are historical
+  records superseded by this entry. No further send is authorized by finalization.
+
+## Earlier implementation and test record
+
 ### Impressum follow-up — 2026-09-18
 
 - Owner supplied and authorized publication of Leevsten GmbH operator details.
