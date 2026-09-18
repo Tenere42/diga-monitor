@@ -2,6 +2,21 @@
 
 ## Current objective
 
+### Impressum follow-up — 2026-09-18
+
+- Owner supplied and authorized publication of Leevsten GmbH operator details.
+  `/impressum` now uses native Streamlit page routing and the existing styling.
+  Footer links to Impressum independently of the newsletter gate; Datenschutz
+  keeps its existing readiness gate and uses a root-relative URL.
+- Local desktop/390px/320px page QA passed without horizontal overflow.
+  Suite: 238 tests, 235 pass; only three accepted historical-count failures.
+  Compilation and whitespace checks pass. Route tests were updated for the
+  extracted tracker page callback; entrypoint navigation registration is tested.
+- VAT information omitted. No live send yet. Deployment/configuration verification
+  is pending; PR #16 must remain unmerged until the owner inspects the email.
+
+## Previous integration record
+
 ### Change-notification email — 2026-09-17
 
 - New branch `codex/change-notification-email` from main `0568e7879a260351fe2a82897150d494acc6709b`.

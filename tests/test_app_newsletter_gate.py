@@ -12,6 +12,13 @@ import app
 
 
 class NewsletterGateTests(unittest.TestCase):
+    def test_router_registers_public_impressum_and_runs_selected_page(self) -> None:
+        with mock.patch("app.st") as streamlit:
+            app.main()
+        streamlit.Page.assert_any_call(app.render_impressum_page, title="Impressum", url_path="impressum")
+        streamlit.navigation.return_value.run.assert_called_once_with()
+        streamlit.set_page_config.assert_called_once_with(page_title="DiGA Tracker", layout="wide")
+
     def test_signup_section_renders_nothing_when_not_legal_ready(self) -> None:
         with (
             mock.patch("app.is_legal_content_ready", return_value=False),
@@ -20,13 +27,15 @@ class NewsletterGateTests(unittest.TestCase):
             app.render_newsletter_signup_section()
         self.assertEqual(len(mock_st.method_calls), 0)
 
-    def test_footer_renders_nothing_when_not_legal_ready(self) -> None:
+    def test_footer_keeps_impressum_public_and_privacy_gated(self) -> None:
         with (
             mock.patch("app.is_legal_content_ready", return_value=False),
             mock.patch("app.st") as mock_st,
         ):
             app.render_public_footer()
-        self.assertEqual(len(mock_st.method_calls), 0)
+        markup = mock_st.markdown.call_args.args[0]
+        self.assertIn('href="/impressum"', markup)
+        self.assertNotIn("datenschutz", markup)
 
     def test_signup_section_renders_something_when_legal_ready(self) -> None:
         with (
