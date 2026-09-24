@@ -101,6 +101,8 @@ def main() -> None:
     page = st.navigation([
         st.Page(render_tracker_page, title="DiGA Tracker", default=True),
         st.Page(render_impressum_page, title="Impressum", url_path="impressum"),
+        st.Page(render_privacy_route, title="Datenschutz", url_path="datenschutz"),
+        st.Page(render_license_route, title="Lizenz & Copyright", url_path="lizenz"),
     ], position="hidden")
     page.run()
 
@@ -125,14 +127,26 @@ Schweiz
 **Handelsregister-Nr.:** CH-020.4.092.215-4
 
 **Handelsregister:** Handelsregister des Kantons Zürich
+
+### Eigene Inhalte und externe Links
+Wir erstellen die Informationen sorgfältig. Automatisch erkannte Änderungen können
+jedoch unvollständig oder fehlerhaft sein; prüfe wichtige Angaben an der offiziellen
+Quelle. Gesetzliche Haftungsansprüche bleiben unberührt. Für Inhalte verlinkter
+fremder Websites sind deren jeweilige Anbieter verantwortlich. Hinweise auf
+rechtswidrige Inhalte prüfen wir und entfernen betroffene Links gegebenenfalls.
+
+### Unabhängigkeit
+Der DiGA Tracker ist ein unabhängiges Informationsangebot der Leevsten GmbH und
+steht in keiner Verbindung zum Bundesinstitut für Arzneimittel und Medizinprodukte
+(BfArM). Maßgebliche Quelle für den offiziellen Listungsstatus einer DiGA ist das
+[DiGA Verzeichnis des BfArM](https://diga.bfarm.de/de/verzeichnis).
 """)
     render_public_footer()
 
 
 def render_tracker_page() -> None:
-    # Preserve the fail-closed legal/DOI routes. Unknown or unready routes
-    # fall through to the public homepage; confirmation never mutates contacts.
-    if st.query_params.get("view") == "datenschutz" and is_legal_content_ready():
+    # Keep old email privacy links working independently of newsletter availability.
+    if st.query_params.get("view") == "datenschutz":
         render_page_header()
         render_datenschutz_page()
         render_public_footer()
@@ -600,88 +614,38 @@ def _render_newsletter_result_banner() -> None:
 
 
 def render_public_footer() -> None:
-    """Impressum is public; privacy remains behind its existing readiness gate."""
-    privacy = (
-        ' &middot; <a href="/?view=datenschutz" target="_self">Datenschutzerklärung</a>'
-        if is_legal_content_ready() else ""
-    )
+    """Public legal links; extend only when real consent settings exist."""
     st.divider()
     st.markdown(
-        '<div class="diga-footer">DiGA Tracker &middot; '
-        '<a href="/impressum" target="_self">Impressum</a>' + privacy + '</div>',
-        unsafe_allow_html=True,
+        '<footer class="diga-footer"><span>© 2026 DiGA Tracker</span>'
+        '<nav aria-label="Rechtliche Informationen">'
+        '<a href="/impressum" target="_self">Impressum</a>'
+        '<a href="/datenschutz" target="_self">Datenschutz</a>'
+        '<a href="/lizenz" target="_self">Lizenz &amp; Copyright</a>'
+        '</nav></footer>', unsafe_allow_html=True,
     )
+
+
+def render_legal_document(filename: str) -> None:
+    st.markdown((Path(__file__).parent / "content" / "legal" / filename).read_text(encoding="utf-8"))
 
 
 def render_datenschutz_page() -> None:
-    """Render the Datenschutzerklärung. Only ever called when
-    ``is_legal_content_ready()`` is True (see call sites), so
-    ``load_operator_profile()`` is guaranteed to return a complete,
-    human-confirmed profile here -- never a partial or placeholder one.
-    """
-    profile = load_operator_profile()
-    if profile is None:
-        # Defensive only: unreachable given the call-site gate above,
-        # since is_legal_content_ready() already guarantees a complete
-        # profile. Render nothing rather than a partial/placeholder page.
-        return
+    st.title("Datenschutz")
+    render_legal_document("datenschutz.md")
 
-    st.subheader("Datenschutzerklärung")
-    st.markdown(f"**Verantwortlicher:** {html.escape(profile.name)}")
-    st.markdown(f"**Kontakt:** {html.escape(profile.contact_email)}")
 
-    st.markdown(
-        """
-### Verarbeitete Daten und Zweck
-Wenn du DiGA Tracker Alerts abonnierst, verarbeiten wir deine E-Mail-Adresse
-sowie die von Brevo im Double-Opt-in-Verfahren erfassten Bestätigungsdaten
-(Zeitpunkt der Anmeldung und der Bestätigung), um dir Benachrichtigungen über
-Änderungen im BfArM DiGA-Verzeichnis zuzusenden.
+def render_privacy_route() -> None:
+    render_page_header()
+    render_datenschutz_page()
+    render_public_footer()
 
-### Rechtsgrundlage
-Die Verarbeitung erfolgt auf Grundlage deiner ausdrücklichen Einwilligung. Als
-Schweizer Anbieter richten wir uns primär nach dem revidierten
-Bundesgesetz über den Datenschutz (revDSG). Aufgrund der klaren Ausrichtung
-dieses Angebots auf Deutschland (deutschsprachiges Angebot, `.de`-Domain,
-Fokus auf das deutsche DiGA-System) berücksichtigen wir zusätzlich
-DSGVO-relevante Anforderungen, soweit sie zur Anwendung kommen.
 
-### Double-Opt-in und Abmeldung
-Deine Anmeldung wird erst wirksam, nachdem du sie über einen Bestätigungslink
-in einer E-Mail bestätigt hast (Double-Opt-in, technisch umgesetzt über
-Brevo). Jede DiGA Tracker Alert-E-Mail enthält einen funktionierenden
-Abmeldelink ohne Login-Zwang. Nach einer Abmeldung erhältst du keine
-weiteren Alerts, bis du dich erneut über den vollständigen
-Double-Opt-in-Prozess anmeldest.
-
-### Auftragsverarbeitung und Empfänger
-Für den Versand und die Verwaltung der Abonnentendaten nutzen wir Brevo
-(Sendinblue SAS bzw. deren verbundene Unternehmen) als Auftragsverarbeiter.
-Die technische Bereitstellung dieser Website erfolgt über Railway. Es
-erfolgt keine eigene Speicherung deiner E-Mail-Adresse in einer separaten
-Datenbank dieses Projekts; Brevo ist alleiniges System of Record für deinen
-Abonnentenstatus.
-"""
-    )
-    st.markdown(f"**Speicherdauer:** {html.escape(profile.data_retention_period)}")
-    st.markdown("### Auslandsübermittlung")
-    st.markdown(html.escape(profile.international_transfer_statement))
-    st.markdown(
-        """
-### Betroffenenrechte
-Dir stehen je nach anwendbarem Recht (revDSG und/oder DSGVO) insbesondere
-das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der
-Verarbeitung sowie der Widerruf deiner Einwilligung zu. Wende dich hierfür
-an die oben genannte Kontaktadresse.
-
-### Offener rechtlicher Prüfpunkt
-Ob aufgrund der Ausrichtung dieses Angebots auf Deutschland eine
-Anwendbarkeit der DSGVO und damit ggf. auch die Pflicht zur Benennung
-eines EU-Vertreters nach Art. 27 DSGVO besteht, ist derzeit als offener
-rechtlicher Prüfpunkt dokumentiert und noch nicht abschliessend geklärt
-(siehe `docs/legal-notes.md`).
-"""
-    )
+def render_license_route() -> None:
+    render_page_header()
+    st.title("Lizenz & Copyright")
+    render_legal_document("lizenz.md")
+    render_public_footer()
 
 
 @st.cache_data(show_spinner=False, max_entries=2)

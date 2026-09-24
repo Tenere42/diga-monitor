@@ -1,4 +1,4 @@
-# Presentation only. Server, deployment and runtime settings stay unchanged.
+# Theme and privacy-preserving browser settings.
 [theme]
 base = "light"
 primaryColor = "#171717"
@@ -6,3 +6,6 @@ backgroundColor = "#ffffff"
 secondaryBackgroundColor = "#f5f5f5"
 textColor = "#171717"
 font = "sans serif"
+
+[browser]
+gatherUsageStats = false

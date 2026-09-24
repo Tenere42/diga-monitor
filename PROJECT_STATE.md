@@ -2,6 +2,18 @@
 
 ## Current objective
 
+### Public legal pages — 2026-09-24
+- Branch codex/legal-pages starts from current origin/main (070fb6d).
+- Public Datenschutz and Lizenz & Copyright routes, compact legal footer,
+  concise Impressum additions; old privacy query links remain supported.
+- Optional Streamlit telemetry disabled in repository config; production untouched.
+- 37 relevant tests pass; mobile 320/390 and desktop 1280 have no horizontal overflow.
+- See docs/legal-pages.md for evidence and unresolved retention, email tracking,
+  transfer/processor and jurisdiction questions requiring owner/legal input.
+- Commit/push and PR only; do not merge or manually deploy this work.
+
+## Previous objective
+
 ### PR #16 approved and merged — 2026-09-18
 
 - Owner inspected and approved the live email. PR #16 merged at
