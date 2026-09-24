@@ -1,46 +1,9 @@
-"""Operator/legal readiness gate for the public newsletter feature.
+"""Readiness gate for newsletter signup and dispatch only.
 
-The newsletter signup form, the confirmed-subscriber alert dispatch, and
-the Datenschutzerklaerung page are all gated behind ``is_legal_content_ready``.
-Until every legally required fact below is confirmed (either by a human
-via environment configuration, or -- for the international-transfer
-statement -- sourced from the payment/hosting providers' own published
-documentation, never invented here), the entire feature stays invisible
-on the public site: **no placeholder text, no partial page, no dead
-link is ever shown to a visitor.** This module holds no subscriber data
-of any kind.
-
-Verantwortlicher (data controller) is confirmed as "Leevsten GmbH" by the
-project owner.
-
-Minimal-disclosure principle (explicit project decision, see
-docs/legal-notes.md): this module requires only what has an identified
-legal basis, and nothing more. In particular:
-
-- A postal/street address is intentionally NOT required and NOT
-  collected here. Under the Swiss revDSG baseline this project uses
-  (Art. 19 DSG: "Identität und Kontaktdaten des Verantwortlichen"),
-  contact data does not have to mean a physical address -- a reachable
-  contact email is sufficient contact data for a privacy notice. A
-  German-style Impressum (which typically does require a postal
-  address) is explicitly out of scope for this project (see
-  docs/legal-notes.md) as a non-commercial Swiss information offering.
-  Do not add an address field back without first re-establishing that a
-  concrete legal duty requires one -- the project owner's address is
-  also their private residential address and must not be published
-  without that established necessity.
-- Commercial register information is intentionally NOT required and NOT
-  collected here for the same reason: it is an Impressum-style
-  identification duty, not a DSG Art. 19 privacy-notice requirement.
-- The international-transfer statement is NOT collected as free-form
-  human input (a prior version of this gate did that and was corrected
-  after review). Instead it is a fixed, sourced statement below, based
-  on the two vendors this feature actually uses -- Brevo (email/DOI
-  delivery) and Railway (hosting) -- and their own published Data
-  Processing Agreements/documentation. See docs/legal-notes.md for the
-  exact sources and the date they were checked. If those vendors'
-  terms change, this statement must be re-verified and updated, not
-  just re-confirmed by a human typing a new sentence.
+Public legal pages remain available independently. Operator publication was
+approved for the Impressum; this gate still requires configured newsletter facts.
+Legacy transfer text is retained for existing profile consumers, not rendered by
+the public privacy page. See content/legal/datenschutz.md and docs/legal-pages.md.
 """
 
 from __future__ import annotations

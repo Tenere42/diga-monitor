@@ -67,12 +67,12 @@ class PresentationTests(unittest.TestCase):
                 self.assertIn(cue, markup)
         self.assertEqual(app.render_inline_value('<unbekannt>'), '&lt;unbekannt&gt;')
 
-    def test_legal_routes_keep_gate_and_do_not_load_feed_or_submit(self) -> None:
+    def test_legacy_privacy_route_is_public_and_does_not_load_feed_or_submit(self) -> None:
         for view, renderer in (('datenschutz', 'render_datenschutz_page'),):
             with (
                 self.subTest(view=view),
                 mock.patch('app.st') as streamlit,
-                mock.patch('app.is_legal_content_ready', return_value=True),
+                mock.patch('app.is_legal_content_ready', return_value=False),
                 mock.patch('app.' + renderer) as render,
                 mock.patch('app.render_page_header'),
                 mock.patch('app.render_public_footer') as footer,
@@ -87,7 +87,7 @@ class PresentationTests(unittest.TestCase):
                 submit.assert_not_called()
 
     def test_unready_legal_routes_still_fall_through_to_dashboard(self) -> None:
-        for view in ('datenschutz', 'confirmed'):
+        for view in ('confirmed',):
             with (
                 self.subTest(view=view),
                 mock.patch('app.st') as streamlit,
@@ -126,6 +126,9 @@ with (
         at.query_params['view'] = 'changes'
         at.run()
         self.assertFalse(at.exception)
+        self.assertFalse(at.checkbox(key='newsletter_consent_checkbox').value)
+        self.assertTrue(any('href="/datenschutz" target="_self">Datenschutzerklärung</a>' in e.value for e in at.markdown))
+        self.assertIn('dort beschriebenen Auswertung', at.checkbox(key='newsletter_consent_checkbox').label)
         at.text_input(key='newsletter_email_input').set_value('test@example.invalid')
         at.button(key='newsletter_submit_button').click().run()
         self.assertFalse(at.exception)
@@ -140,15 +143,32 @@ with (
         self.assertFalse(at.exception)
         self.assertEqual(at.success[0].value, 'Mock confirmation; no email sent.')
 
+    def test_public_legal_pages_render_without_data_or_newsletter(self) -> None:
+        for renderer, title in (("render_privacy_route", "Datenschutz"),
+                                ("render_license_route", "Lizenz & Copyright"),
+                                ("render_impressum_page", "Impressum")):
+            with self.subTest(renderer=renderer):
+                script = f"""
+from unittest.mock import patch
+import app
+with patch("app.is_legal_content_ready", return_value=False), patch("app.load_dashboard_data", side_effect=AssertionError("No feed needed")), patch("app.request_double_optin", side_effect=AssertionError("No email allowed")):
+    app.{renderer}()
+"""
+                at = AppTest.from_string(script, default_timeout=30).run()
+                self.assertFalse(at.exception)
+                self.assertIn(title, [e.value for e in at.title])
+                self.assertFalse(at.text_input)
+                self.assertTrue(any('href="/lizenz"' in e.value for e in at.markdown))
+
     def test_existing_routes_render_without_newsletter_form(self) -> None:
-        for view, expected in (('datenschutz', 'Datenschutzerklärung'),):
+        for view, expected in (('datenschutz', 'Datenschutz'),):
             with self.subTest(view=view):
                 at = AppTest.from_string(self.PREVIEW, default_timeout=30)
                 at.query_params['view'] = view
                 at.run()
                 self.assertFalse(at.exception)
                 self.assertEqual(len(at.text_input), 0)
-                values = [e.value for e in (*at.subheader, *at.success)]
+                values = [e.value for e in (*at.title, *at.subheader, *at.success)]
                 self.assertIn(expected, values)
 
 

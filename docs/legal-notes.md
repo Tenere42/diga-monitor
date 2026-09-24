@@ -1,3 +1,10 @@
+## Current public notice — 2026-09-24
+The owner confirms datenschutz@diga-tracker.de is working and tested. It is the only
+published privacy email. Opening/click tracking is intentionally retained and
+covered by the updated signup wording. See docs/legal-pages.md for the current
+public routes and internal legal follow-up; historical gate descriptions below
+do not apply to access to public legal pages.
+
 ## Impressum scope update — 2026-09-18
 
 The owner explicitly supplied and authorized publication of the operator facts
