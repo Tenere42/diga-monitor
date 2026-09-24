@@ -66,6 +66,14 @@ class NewsletterGateTests(unittest.TestCase):
         mock_st.title.assert_called_once_with("Datenschutz")
         self.assertIn("Leevsten GmbH", mock_st.markdown.call_args.args[0])
 
+    def test_privacy_notice_contains_confirmed_tracking_without_public_todos(self) -> None:
+        from pathlib import Path
+        text = (Path(app.__file__).parent / "content/legal/datenschutz.md").read_text(encoding="utf-8")
+        for phrase in ("noch zu", "noch nicht", "offener rechtlicher Prüfpunkt", "EU-Vertretung"):
+            self.assertNotIn(phrase, text)
+        self.assertIn("Öffnungs- und Klickmessung", text)
+        self.assertIn("datenschutz@diga-tracker.de", text)
+
     def test_no_placeholder_marker_ever_appears_in_source(self) -> None:
         with open("app.py", "r", encoding="utf-8") as file:
             source = file.read()

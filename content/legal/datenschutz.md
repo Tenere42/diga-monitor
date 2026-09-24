@@ -8,8 +8,8 @@ IP-Adresse und technische Verbindungsdaten an den Hostingdienst übermittelt, da
 Seiten ausgeliefert und Verbindungen abgesichert werden können. Betriebs- und
 Fehlerprotokolle dienen der Fehleranalyse und Sicherheit. Die Anwendung protokolliert
 auch technische Statusmeldungen des Newsletterformulars, ohne dort die eingegebene
-E-Mail-Adresse auszugeben. Umfang und Aufbewahrungsdauer der Infrastrukturprotokolle
-sind noch nicht abschließend dokumentiert; wir nennen deshalb keine feste Löschfrist.
+E-Mail-Adresse auszugeben. Technische Protokolle werden nur so lange aufbewahrt,
+wie dies für Betrieb, Sicherheit und anwendbare rechtliche Pflichten erforderlich ist.
 
 ## Newsletter und Double Opt In
 Wenn du DiGA Tracker Alerts bestellst, verarbeitet die Anwendung deine E-Mail-Adresse
@@ -22,17 +22,23 @@ Du kannst deine Einwilligung jederzeit für die Zukunft über den Abmeldelink in
 Alerts widerrufen. Brevo verwaltet auch Sperrinformationen, die weitere Sendungen
 verhindern. Ein Löschungsbegehren kannst du an die oben genannte Kontaktadresse richten.
 Abonnements bestehen bis zur Abmeldung. Erforderliche Einwilligungsnachweise und
-Sperrinformationen können darüber hinaus aufbewahrt werden; konkrete Fristen dafür
-sind noch zu bestätigen.
+Sperrinformationen sowie Informationen zur Erfüllung rechtlicher Pflichten können
+darüber hinaus aufbewahrt werden, soweit dies für diese Zwecke erforderlich ist.
 
 ## Brevo und E-Mail-Auswertung
-Brevo verarbeitet Empfänger- und Zustelldaten für den Versand. In den verwendeten
-Kampagnen kommen personalisierte Weiterleitungslinks zum Einsatz. Brevo unterstützt
-auch Öffnungsmessung über ein Zählpixel; die Standardkonfiguration sieht Öffnungs-
-und Klickmessung vor. Dabei können Zeitpunkt, IP-Adresse und technische Angaben
-zum E-Mail-Programm verarbeitet werden. Die genaue kontoabhängige Konfiguration,
-Aufbewahrung und Einwilligung für diese Auswertung sind noch zu klären. Eine
-Newsletteranmeldung wird hier nicht als pauschale Zustimmung zu jeder Auswertung dargestellt.
+Brevo verarbeitet Empfänger- und Zustelldaten für den Versand. Für DiGA Tracker
+Alerts nutzen wir außerdem Öffnungs- und Klickmessung über Zählpixel und
+personalisierte Weiterleitungslinks. Damit analysieren wir die Nutzung der Alerts,
+können nachvollziehen, ob sie empfangen und genutzt werden, und verbessern den
+Alert-Dienst. Die Auswertung kann erfassen, ob eine E-Mail geöffnet oder ein Link
+angeklickt wurde und wann die Interaktion stattfand. Soweit technisch verarbeitet,
+können dabei auch IP-Adresse und Angaben zum E-Mail-Programm oder Gerät anfallen.
+Nicht jede dieser Angaben ist bei jeder Interaktion verfügbar.
+
+Deine Einwilligung bei der Anmeldung umfasst den Empfang und diese beschriebene
+Auswertung. Du kannst sie jederzeit für die Zukunft über den Abmeldelink in den
+Alerts widerrufen. Auswertungsdaten werden nur so lange verarbeitet, wie dies
+für die beschriebenen Zwecke und anwendbare rechtliche Pflichten erforderlich ist.
 
 ## Technische Speicherung und externe Inhalte
 Der Anwendungscode bindet keine Werbenetzwerke, Analyse-Skripte, Drittanbieter-Embeds
@@ -40,7 +46,9 @@ oder extern geladenen Webfonts ein. Die optionale Streamlit-Nutzungsstatistik is
 in der Anwendungskonfiguration deaktiviert. Streamlit nutzt technischen Sitzungszustand
 und kann einen Schutz-Cookie gegen gefälschte Anfragen setzen. Es gibt keinen eigenen
 Code zur Speicherung von Trackingkennungen in localStorage oder sessionStorage.
-Dies ist keine Aussage über Cookies auf verlinkten fremden Websites oder in E-Mails.
+Diese technischen Sitzungs- und Sicherheitsmechanismen sind von Analyse- oder
+Werbetracking zu unterscheiden. Die beschriebene Öffnungs- und Klickmessung
+bezieht sich auf die E-Mails, nicht auf ein Analyse-Skript der Website.
 
 Cloudflare R2 dient serverseitig als Archiv für Snapshots des öffentlichen BfArM-
 Verzeichnisses, nicht als Abonnentenspeicher. Der Browser lädt daraus keine eingebetteten
@@ -51,16 +59,15 @@ Websitebesuche ist aus dem Anwendungscode nicht belegt.
 ## Rechtsrahmen, Empfänger und Ausland
 Für die Schweizer Betreiberin gilt das Schweizer Datenschutzrecht. Soweit die DSGVO
 anwendbar ist, sind auch deren Anforderungen zu beachten. Der Newsletterversand
-beruht auf deiner Einwilligung (soweit anwendbar Art. 6 Abs. 1 lit. a DSGVO).
-Die konkrete DSGVO-Einordnung des technischen Betriebs und der E-Mail-Auswertung
-sowie eine mögliche Pflicht zu einer EU-Vertretung sind noch zu prüfen.
+und die beschriebene E-Mail-Auswertung beruhen auf deiner Einwilligung
+(soweit anwendbar Art. 6 Abs. 1 lit. a DSGVO).
 
-Railway, Brevo und Cloudflare verarbeiten Daten im Rahmen der beschriebenen Leistungen.
-Eine europäische Hostingregion schließt Zugriffe aus anderen Ländern nicht aus.
-Railway und Brevo sehen in ihren veröffentlichten Datenschutzvereinbarungen
-Regelungen zu internationalen Übermittlungen, insbesondere Standardvertragsklauseln,
-vor. Die tatsächlich vereinbarten Verarbeitungsorte, Unterauftragnehmer und Garantien
-einschließlich der R2-Konfiguration sind noch vollständig zu bestätigen.
+Railway, Brevo und Cloudflare verarbeiten Daten im Rahmen der beschriebenen
+Leistungen. Je nach Anbieter und Dienstkonfiguration kann die Verarbeitung auch
+außerhalb der Schweiz, der EU und des EWR stattfinden. Soweit rechtlich
+erforderlich, erfolgen solche Übermittlungen unter geeigneten Datenschutzgarantien.
+Dies bedeutet nicht, dass alle Daten ausschließlich in einer bestimmten Region
+verarbeitet werden.
 
 ## Deine Rechte
 Je nach anwendbarem Recht kannst du Auskunft, Berichtigung und Löschung verlangen;

@@ -2,15 +2,17 @@
 
 ## Current objective
 
-### Public legal pages — 2026-09-24
-- Branch codex/legal-pages starts from current origin/main (070fb6d).
-- Public Datenschutz and Lizenz & Copyright routes, compact legal footer,
-  concise Impressum additions; old privacy query links remain supported.
-- Optional Streamlit telemetry disabled in repository config; production untouched.
-- 37 relevant tests pass; mobile 320/390 and desktop 1280 have no horizontal overflow.
-- See docs/legal-pages.md for evidence and unresolved retention, email tracking,
-  transfer/processor and jurisdiction questions requiring owner/legal input.
-- Commit/push and PR only; do not merge or manually deploy this work.
+### PR #17 legal pages final correction — 2026-09-24
+- Existing branch codex/legal-pages; PR #17 remains unmerged.
+- Owner verified datenschutz@diga-tracker.de and retained opening/click tracking.
+- Signup consent explicitly covers disclosed evaluation, starts unchecked and
+  stays mandatory. Adjacent privacy link uses /datenschutz and same-tab navigation;
+  its click cannot toggle the native checkbox. DOI logic unchanged.
+- Public privacy notice has purpose-based retention/general transfer language;
+  remaining legal/operational checks live only in docs/legal-pages.md.
+- 50 focused tests passed; after the actual link-target correction, all 32 affected
+  UI/signup tests passed. Mobile 320/390 checks passed without horizontal overflow.
+- No Claude, merge, manual deployment, email, contact or production-data change.
 
 ## Previous objective
 

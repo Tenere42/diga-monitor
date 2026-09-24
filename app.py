@@ -478,12 +478,27 @@ def _render_newsletter_signup_content() -> None:
             disabled=is_submitting,
             key="newsletter_email_input",
         )
-        consent = st.checkbox(
-            "Ich habe die Datenschutzerklärung gelesen und bin mit dem Empfang "
-            "der DiGA Tracker Alerts einverstanden.",
-            disabled=is_submitting,
-            key="newsletter_consent_checkbox",
-        )
+        # Keep the internal link outside the native label: following it must
+        # neither toggle consent nor submit the form. Retain a full accessible label.
+        with st.container(key="newsletter_consent_row"):
+            consent_columns = st.columns([1, 15], gap="small")
+            with consent_columns[0]:
+                consent = st.checkbox(
+                    "Ich habe die Datenschutzerklärung gelesen und bin mit dem Empfang "
+                    "und der dort beschriebenen Auswertung der DiGA Tracker Alerts einverstanden.",
+                    value=False,
+                    label_visibility="collapsed",
+                    disabled=is_submitting,
+                    key="newsletter_consent_checkbox",
+                )
+            with consent_columns[1]:
+                st.markdown(
+                    '<p class="diga-consent-text">Ich habe die '
+                    '<a href="/datenschutz" target="_self">Datenschutzerklärung</a> '
+                    'gelesen und bin mit dem Empfang und der dort beschriebenen Auswertung '
+                    'der DiGA Tracker Alerts einverstanden.</p>',
+                    unsafe_allow_html=True,
+                )
         submitted = st.form_submit_button(
             "Wird gesendet …" if is_submitting else "Updates abonnieren",
             use_container_width=True,

@@ -1,5 +1,13 @@
 # Public legal pages — 24 September 2026
 
+## Owner-confirmed final correction
+datenschutz@diga-tracker.de is verified and working (owner tested forwarding).
+Only that public address is published; no private forwarding destination is stored
+here. Opening and click tracking are intentionally retained. The mandatory,
+initially unchecked consent now links directly to /datenschutz and explicitly
+includes the evaluation described there. DOI/validation and Brevo settings remain
+unchanged. This wording does not retroactively obtain consent from existing contacts.
+
 ## Scope and evidence
 Public /datenschutz, /lizenz and /impressum use the existing Streamlit layout.
 Legacy /?view=datenschutz email links still work. Newsletter signup/dispatch
@@ -27,18 +35,21 @@ src/snapshot_storage.py, UI styles and deployment/configuration files:
 No generic cookie banner or dead Cookie Settings link was added. No remaining
 consent-requiring website tracker was established in the application code after
 disabling optional telemetry. This is not a certification of production cookie
-behavior. Email open/click measurement requires separate configuration and consent
-assessment; a website cookie banner does not resolve it.
+behavior. Email measurement is disclosed and included in the signup consent; a generic
+website cookie banner is not introduced for email measurement.
 
 Before treating the notice as legally complete, confirm:
 1. Actual infrastructure log scope and retention.
-2. Brevo tracking switches, purpose, consent mechanism and retention; retention
-   for consent evidence and suppression records.
+2. Actual provider retention for measurement, consent evidence and suppression
+   records; confirm the consent basis for existing contacts before relying on the
+   new wording for those contacts. Owner confirmed that tracking remains enabled.
 3. Contracted processors/subprocessors, processing countries and transfer
    safeguards, including R2 and production configuration overrides.
 4. Applicable GDPR grounds for technical operations and email measurement, GDPR
    territorial scope and any EU representative obligation.
-The notice explicitly identifies uncertainties instead of inventing terms.
+The public notice uses purpose-based retention and general transfer wording.
+These operational/legal checks remain internal; no locations or specific
+contractual safeguards have been invented.
 Existing configured newsletter retention does not establish these separate periods.
 No claim of an open BfArM data licence or exclusive ownership of facts is made.
 
@@ -62,3 +73,13 @@ copyright page worked; link targets and company/source attribution were reviewed
 One self-review completed. The unrelated three accepted historical-count failures
 were not rerun. No Claude review, production deployment, configuration change,
 contact update, email send or monitoring-data change.
+
+## Final correction validation
+50 focused tests passed (public routes/footer, UI integration, signup state machine
+and subscriber DOI requests). Browser QA found Streamlit markdown-label links open
+a new tab, so the final layout uses a native checkbox with its full accessible label
+and adjacent HTML text with an explicit /datenschutz target=_self link outside the
+label. The 32 affected UI/signup tests passed after that correction; unchanged
+subscriber tests were not repeated. At 320/390 CSS px there is no horizontal
+overflow, consent starts unchecked, and clicking the link navigates in the same tab.
+Only local preview with the email backend blocked was used. No production mutations.

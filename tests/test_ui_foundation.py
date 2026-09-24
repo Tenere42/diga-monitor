@@ -126,6 +126,9 @@ with (
         at.query_params['view'] = 'changes'
         at.run()
         self.assertFalse(at.exception)
+        self.assertFalse(at.checkbox(key='newsletter_consent_checkbox').value)
+        self.assertTrue(any('href="/datenschutz" target="_self">Datenschutzerklärung</a>' in e.value for e in at.markdown))
+        self.assertIn('dort beschriebenen Auswertung', at.checkbox(key='newsletter_consent_checkbox').label)
         at.text_input(key='newsletter_email_input').set_value('test@example.invalid')
         at.button(key='newsletter_submit_button').click().run()
         self.assertFalse(at.exception)
