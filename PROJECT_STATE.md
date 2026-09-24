@@ -2,17 +2,15 @@
 
 ## Current objective
 
-### PR #17 legal pages final correction — 2026-09-24
-- Existing branch codex/legal-pages; PR #17 remains unmerged.
-- Owner verified datenschutz@diga-tracker.de and retained opening/click tracking.
-- Signup consent explicitly covers disclosed evaluation, starts unchecked and
-  stays mandatory. Adjacent privacy link uses /datenschutz and same-tab navigation;
-  its click cannot toggle the native checkbox. DOI logic unchanged.
-- Public privacy notice has purpose-based retention/general transfer language;
-  remaining legal/operational checks live only in docs/legal-pages.md.
-- 50 focused tests passed; after the actual link-target correction, all 32 affected
-  UI/signup tests passed. Mobile 320/390 checks passed without horizontal overflow.
-- No Claude, merge, manual deployment, email, contact or production-data change.
+### UI/DOI hotfix — 2026-09-24
+- Branch codex/ui-doi-hotfix starts from main f32ad0c (PR #17 merged/deployed).
+- Scoped newsletter CTA state/weight correction and recent-change spacing.
+- Existing active Brevo DOI template #1 updated in place, native DOIurl preserved;
+  sender, subject, list, contact and tracking settings untouched. No email sent.
+- 56 focused tests pass. Brevo desktop/mobile preview and website desktop/390/320
+  checks pass; framework list-padding override corrected during visual QA.
+- Authorized next steps: one PR, merge if unblocked, normal Railway rollout and
+  one concise production QA pass. See docs/newsletter-doi-polish.md.
 
 ## Previous objective
 

@@ -338,8 +338,8 @@
 .diga-kpi dt { font-size: var(--text-meta); color: var(--color-text-secondary); line-height: 1.5; }
 .diga-kpi dd { margin: 0; font-size: 2.25rem; font-weight: 650; letter-spacing: -0.04em; line-height: 1.1; }
 .diga-recent-list { list-style: none; margin: 0 0 var(--space-5); padding: 0; }
-.diga-recent-item { padding-block: var(--space-3); border-top: 1px solid var(--color-border); }
-.diga-recent-item h3 { margin: var(--space-2) 0 var(--space-3); padding: 0; }
+.block-container .diga-recent-list .diga-recent-item { padding: calc(var(--space-4) + var(--space-1)) 0 var(--space-5); border-top: 1px solid var(--color-border); }
+.diga-recent-item h3 { margin: 0 0 var(--space-2); padding: 0; }
 .diga-pills { display: flex; flex-wrap: wrap; gap: var(--space-2); }
 .diga-pill {
     display: inline-block;
@@ -354,17 +354,29 @@
     overflow-wrap: anywhere;
 }
 .diga-change-summary { font-size: var(--text-meta); margin: var(--space-3) 0 var(--space-1); }
-.diga-recent-item .diga-meta { margin-bottom: var(--space-1); }
+.diga-recent-item .diga-meta { margin-bottom: var(--space-4); }
 .diga-anchor { scroll-margin-top: 5rem; }
 /* Single native newsletter submit control: retain widget key/state/disabled
    behavior; only its presentation is changed to match the hero CTA. */
-[data-testid="stFormSubmitButton"] button {
+.st-key-newsletter_signup [data-testid="stFormSubmitButton"] button {
+    font-weight: 600;
     background: var(--color-black);
     border-color: var(--color-black);
     color: var(--color-white);
     min-height: 3rem;
 }
-[data-testid="stFormSubmitButton"] button:disabled { opacity: 0.55; }
+.st-key-newsletter_signup [data-testid="stFormSubmitButton"] button p { font-weight: inherit; }
+.st-key-newsletter_signup [data-testid="stFormSubmitButton"] button:hover:not(:disabled),
+.st-key-newsletter_signup [data-testid="stFormSubmitButton"] button:active:not(:disabled) {
+    background: var(--color-text-secondary);
+    border-color: var(--color-text-secondary);
+    color: var(--color-white);
+}
+.st-key-newsletter_signup [data-testid="stFormSubmitButton"] button:focus-visible {
+    outline: 2px solid var(--color-black);
+    outline-offset: 3px;
+}
+.st-key-newsletter_signup [data-testid="stFormSubmitButton"] button:disabled { opacity: 0.55; }
 
 @media (min-width: 48rem) {
     .diga-hero { padding-block: var(--space-7); }

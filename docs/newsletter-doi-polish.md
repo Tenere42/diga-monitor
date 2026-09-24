@@ -18,25 +18,38 @@ No success banner is inferred from a public URL parameter: it cannot prove
 confirmation. Brevo remains the source of truth; no contact state is changed on
 the return page and there is no redirect script or loop.
 
-## Reviewable email asset (not published)
+## Active DOI template — updated 24 September 2026
 
-`templates/brevo-doi-confirmation.html` is an inline-styled, fluid 560px email
-template with a full-width black CTA and the requested German copy. It uses the
-native DOI API template placeholder `{{ params.DOIurl }}` unchanged. Do not
-replace it with the homepage URL or generate a token in this application.
+The app selects its existing Brevo template through BREVO_DOI_TEMPLATE_ID.
+The active Brevo template #1 (Neues Template) was inspected and updated in place
+using its existing visual editor/YAML layout. Its native confirmation expression
+was verified as {{ params.DOIurl }} and retained unchanged. Sender, subject,
+preheader, template ID/status, list/DOI configuration and tracking settings were
+not changed. The repository HTML is a portable design reference, not an automated
+upload source; Brevo's existing editor remains the live template source.
 
-The application still selects the existing `BREVO_DOI_TEMPLATE_ID`; it does not
-upload templates automatically. The live template and its current markup could
-not be inspected because no Brevo key/template ID is available in this session.
-Before an authorized email rollout, inspect and preserve the active template's
-DOI link expression (including any Brevo editor-specific metadata), sender,
-subject, DOI designation and account-required footer. If the existing native
-link differs, preserve that exact expression rather than blindly substituting.
-Review the HTML in Gmail mobile and Outlook, then validate a genuine DOI request
-with a controlled test address, list exclusion before confirmation, list inclusion
-after confirmation and final homepage destination. Plain template test sends
-alone cannot establish that a real DOI token works. No live template was edited,
-test email sent, or production configuration changed by this task.
+The active design uses white background, near-black text, Arial sans-serif,
+24px bold heading and full-width black/white CTA, with the requested German copy
+and understated homepage/Datenschutz footer. Brevo desktop/mobile preview passed.
+The saved settings page showed the updated content and Active status. No test
+email or campaign was sent; token completion/delivery was not retested live.
+
+## UI hotfix — 24 September 2026
+Newsletter hover previously fell through to Streamlit's generated hover rule;
+the widget paragraph also did not inherit the primary CTA's font weight.
+Scoped normal/hover/active, paragraph weight and focus rules now preserve the
+dark CTA and white 600-weight text without global overrides or !important.
+Disabled opacity and all native signup behavior remain.
+
+Recent entries use 20px top / 24px bottom padding around the existing divider,
+8px heading-to-badges and 16px timestamp-to-action margin. Browser QA caught the
+framework list-padding override; the final selector is scoped with enough
+specificity to apply these values. No content/typography/card redesign.
+
+Validation: 56 focused tests passed once. Local desktop/390/320 measurements show
+no overflow; normal and actual hover colors, 600 weight, keyboard focus, checkbox
+default and existing consent/DOI tests passed. The CSS-only specificity correction
+was checked in the browser. No Claude or broad review loop.
 
 ## Mobile form
 
