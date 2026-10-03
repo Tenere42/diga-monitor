@@ -7,7 +7,7 @@
   `ANTHROPIC_API_KEY`; no OAuth, no auto-merge, no deployment.
 - Root cause of the 2026-09-01 removal (05a1e89): runs failed with "Credit balance
   is too low" on the separately billed API account, not a code defect.
-- Branch `infra/claude-manual-pr-review`: `workflow_dispatch`-only workflow, PR number
+- PR #19, branch `infra/claude-manual-pr-review`: `workflow_dispatch`-only workflow, PR number
   + model input, same-repo open PRs only, trusted wrapper, read-only review job,
   separate comment job; wrapper records model and token usage.
 - Prerequisites before the first run: funded Anthropic API balance and repository
