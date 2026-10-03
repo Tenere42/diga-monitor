@@ -1,0 +1,162 @@
+name: Claude PR Review
+
+# Manual, read-only Claude review of one same-repository pull request.
+# Authentication: ANTHROPIC_API_KEY repository secret only (no OAuth, OIDC or WIF).
+# Spend per run is capped by --max-budget-usd; failed runs still report their usage.
+# The review job cannot write to GitHub; a separate job posts exactly one PR comment.
+# No merge, deployment, monitoring data, Brevo, R2 or Railway access.
+
+on:
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: "Pull request number to review"
+        required: true
+        type: number
+      model:
+        description: "Claude model"
+        required: true
+        default: claude-sonnet-5-5
+        type: choice
+        options:
+          - claude-sonnet-5-5
+          - claude-opus-5-5
+
+permissions: {}
+
+concurrency:
+  group: claude-pr-review-${{ inputs.pr_number }}
+  cancel-in-progress: false
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+      pull-requests: read
+    steps:
+      - name: Resolve pull request
+        id: pr
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ inputs.pr_number }}
+          MODEL: ${{ inputs.model }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          case "$PR_NUMBER" in ''|*[!0-9]*) echo "Invalid pull request number." >&2; exit 1;; esac
+          case "$MODEL" in claude-sonnet-5-5|claude-opus-5-5) ;; *) echo "Unsupported model." >&2; exit 1;; esac
+          data="$(gh pr view "$PR_NUMBER" --repo "$REPOSITORY" --json state,isCrossRepository,headRefOid,baseRefName)"
+          state="$(jq -r .state <<<"$data")"
+          cross="$(jq -r .isCrossRepository <<<"$data")"
+          head_sha="$(jq -r .headRefOid <<<"$data")"
+          base_ref="$(jq -r .baseRefName <<<"$data")"
+          [ "$state" = "OPEN" ] || { echo "Only open pull requests are reviewed." >&2; exit 1; }
+          [ "$cross" = "false" ] || { echo "Fork pull requests are not reviewed." >&2; exit 1; }
+          [[ "$head_sha" =~ ^[0-9a-f]{40}$ ]] || { echo "Unexpected head SHA." >&2; exit 1; }
+          [[ "$base_ref" =~ ^[A-Za-z0-9._/-]+$ ]] || { echo "Unexpected base branch." >&2; exit 1; }
+          echo "head_sha=$head_sha" >> "$GITHUB_OUTPUT"
+          echo "base_ref=$base_ref" >> "$GITHUB_OUTPUT"
+
+      - name: Check out trusted review tooling
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          path: trusted
+          persist-credentials: false
+          sparse-checkout: scripts
+          sparse-checkout-cone-mode: true
+
+      - name: Check out pull request head
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ steps.pr.outputs.head_sha }}
+          path: pr
+          fetch-depth: 0
+          persist-credentials: false
+          sparse-checkout: |
+            /*
+            !/data/snapshots/
+          sparse-checkout-cone-mode: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Install pinned Claude Code CLI
+        run: npm install --global @anthropic-ai/claude-code@2.1.285
+
+      - name: Check Anthropic API-key authentication
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python "$GITHUB_WORKSPACE/trusted/scripts/anthropic_auth_check.py"
+
+      # Runs the wrapper from the trusted checkout; the pull request is only read, never executed.
+      # The wrapper creates the diff itself; Claude only gets Read, Grep and Glob.
+      - name: Run read-only Claude review
+        working-directory: pr
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PYTHONPATH: ${{ github.workspace }}/trusted
+          PR_NUMBER: ${{ inputs.pr_number }}
+          MODEL: ${{ inputs.model }}
+          BASE_REF: ${{ steps.pr.outputs.base_ref }}
+          HEAD_SHA: ${{ steps.pr.outputs.head_sha }}
+        run: |
+          python "$GITHUB_WORKSPACE/trusted/scripts/claude_review.py" \
+            --pr-number "$PR_NUMBER" \
+            --base-ref "origin/$BASE_REF" \
+            --model "$MODEL" \
+            --head-sha "$HEAD_SHA" \
+            --max-budget-usd "1.00" \
+            --summary-file "$RUNNER_TEMP/claude-review.md"
+
+      - name: Publish job summary
+        if: always()
+        run: |
+          if [ -f "$RUNNER_TEMP/claude-review.md" ]; then
+            cat "$RUNNER_TEMP/claude-review.md" >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Upload review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: claude-review
+          path: ${{ runner.temp }}/claude-review.md
+          if-no-files-found: warn
+          retention-days: 30
+
+  # Also runs when the review failed, so that partial findings and incurred usage reach the PR.
+  comment:
+    needs: review
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      pull-requests: write
+    steps:
+      - name: Download review
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          name: claude-review
+
+      - name: Post review comment
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ inputs.pr_number }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          if [ ! -f claude-review.md ]; then
+            echo "No review summary was produced; nothing to post."
+            exit 0
+          fi
+          gh pr comment "$PR_NUMBER" --repo "$REPOSITORY" --body-file claude-review.md
