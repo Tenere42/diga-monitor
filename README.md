@@ -439,9 +439,11 @@ Simulation notifications are dry-run only. They print the email body but never s
 
 ## Claude Code review authentication
 
-The automatic GitHub Actions Claude PR review has been removed. Reviews now run through the local Gauntlet workflow: Codex implements, Claude Code orchestrates independent Claude-Critic reviews, and Claude Code handles Git plumbing. Do not store `ANTHROPIC_API_KEY` in repository files, variables, workflow inputs, command-line arguments, or logs.
+Claude reviews of pull requests run through the manual GitHub Actions workflow **Claude PR Review** (`Actions > Claude PR Review > Run workflow`, enter the PR number and pick a model). It only reviews open pull requests from this repository, has no automatic trigger, and posts one PR comment containing the findings, the reviewed HEAD SHA, the model, and token usage. It never merges, deploys, or changes monitoring data.
 
-The repository wrapper remains available for manually invoked local automated reviews and uses `ANTHROPIC_API_KEY`:
+Authentication uses only the repository Actions secret `ANTHROPIC_API_KEY` (separately billed Anthropic API usage; an earlier automatic workflow was removed after runs failed with "Credit balance is too low"). Do not store the key in repository files, variables, workflow inputs, command-line arguments, or logs, and do not use personal OAuth tokens.
+
+The same repository wrapper is available for manually invoked local reviews and uses `ANTHROPIC_API_KEY` from the process environment:
 
 ```powershell
 python -m scripts.claude_review --pr-number 5
