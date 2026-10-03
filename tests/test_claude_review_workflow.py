@@ -68,6 +68,23 @@ class ClaudeReviewWorkflowTests(unittest.TestCase):
         self.assertIn("--model \"$MODEL\"", self.workflow)
         self.assertIn("fetch-depth: 0", self.workflow)
 
+    def test_spend_is_capped(self) -> None:
+        self.assertIn('--max-budget-usd "1.00"', job_block(self.workflow, "review"))
+
+    def test_failed_reviews_still_publish_usage(self) -> None:
+        review = job_block(self.workflow, "review")
+        comment = job_block(self.workflow, "comment")
+        upload = review[review.index("- name: Upload review"):]
+        self.assertIn("if: always()", upload)
+        self.assertNotIn("if-no-files-found: error", upload)
+        self.assertIn("if: ${{ !cancelled() }}", comment)
+        self.assertIn("continue-on-error: true", comment)
+        self.assertIn("if [ ! -f claude-review.md ]", comment)
+
+    def test_claude_gets_no_shell(self) -> None:
+        self.assertNotIn("Bash(", self.workflow)
+        self.assertNotIn("--allowedTools", self.workflow)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -13,6 +13,9 @@
 - Prerequisites before the first run: funded Anthropic API balance and repository
   secret `ANTHROPIC_API_KEY`. The workflow is dispatchable only after merge to `main`.
 - First test: exactly one code PR; record model, tokens and cost in its PR.
+- NO-GO on 4fad558 addressed: failed reviews still post status and usage; the
+  wrapper generates the diff, Claude gets only Read/Grep/Glob; hard spend cap
+  `--max-budget-usd 1.00` per run.
 
 ### UI/DOI hotfix — 2026-09-24
 - Branch codex/ui-doi-hotfix starts from main f32ad0c (PR #17 merged/deployed).

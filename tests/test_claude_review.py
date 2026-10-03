@@ -17,6 +17,7 @@ from scripts.claude_review import (
     resolve_claude_executable,
     review_command,
     run_review,
+    write_pull_request_diff,
 )
 
 
@@ -86,18 +87,19 @@ class ClaudeReviewTests(unittest.TestCase):
 
     def _run(self, stdout: str, returncode: int = 0, **kwargs: object) -> tuple[int, mock.MagicMock, str]:
         completed = subprocess.CompletedProcess(args=[], returncode=returncode, stdout=stdout, stderr="")
+        kwargs.setdefault("pr_number", 7)
         with (
             mock.patch.dict(os.environ, {"ANTHROPIC_API_KEY": "test-secret-key"}, clear=True),
             mock.patch("scripts.claude_review.check_anthropic_api_key"),
             mock.patch(
-                "scripts.claude_review.tempfile.TemporaryDirectory"
-            ) as temporary_directory,
+                "scripts.claude_review.write_pull_request_diff",
+                side_effect=lambda base, directory: (directory / "pull-request.diff", " a.py | 1 +"),
+            ),
             mock.patch("scripts.claude_review.subprocess.run", return_value=completed) as run,
             mock.patch("sys.stdout", new_callable=io.StringIO) as output,
             mock.patch("sys.stderr", new_callable=io.StringIO),
         ):
-            temporary_directory.return_value.__enter__.return_value = "isolated-config"
-            code = run_review(Path("claude"), "Review PR", **kwargs)
+            code = run_review(Path("claude"), **kwargs)
         return code, run, output.getvalue()
 
     def test_review_is_read_only_isolated_and_redacts_output(self) -> None:
@@ -107,18 +109,23 @@ class ClaudeReviewTests(unittest.TestCase):
 
         command = run.call_args.args[0]
         environment = run.call_args.kwargs["env"]
+        diff_directory = command[command.index("--add-dir") + 1]
         self.assertEqual(
             command,
             [
                 "claude",
                 "-p",
-                "Review PR",
+                command[2],
                 "--tools",
-                "Read,Grep,Glob,Bash",
+                "Read,Grep,Glob",
                 "--allowedTools",
-                "Read,Grep,Glob,Bash(git diff:*)",
+                "Read,Grep,Glob",
+                "--add-dir",
+                diff_directory,
                 "--max-turns",
                 "20",
+                "--max-budget-usd",
+                "1.00",
                 "--setting-sources",
                 "user",
                 "--strict-mcp-config",
@@ -129,18 +136,38 @@ class ClaudeReviewTests(unittest.TestCase):
                 "claude-sonnet-5-5",
             ],
         )
-        self.assertNotIn("Edit", command)
-        self.assertNotIn("Write", command)
+        self.assertIn(str(Path(diff_directory) / "pull-request.diff"), command[2])
+        self.assertNotEqual(diff_directory, environment["CLAUDE_CONFIG_DIR"])
+        for tool in ("Bash", "Edit", "Write"):
+            self.assertNotIn(tool, " ".join(command[3:]))
         self.assertNotIn("test-secret-key", " ".join(command))
         self.assertNotIn("test-secret-key", output)
         self.assertIn("[redacted]", output)
         self.assertNotEqual(environment["CLAUDE_CONFIG_DIR"], str(Path.home() / ".claude"))
 
+    def test_trusted_wrapper_generates_diff_without_external_drivers(self) -> None:
+        completed = subprocess.CompletedProcess(args=[], returncode=0, stdout="diff --git a/x b/x\n", stderr="")
+        with (
+            tempfile.TemporaryDirectory() as directory,
+            mock.patch("scripts.claude_review.subprocess.run", return_value=completed) as run,
+        ):
+            diff_path, _ = write_pull_request_diff("origin/main", Path(directory))
+            self.assertEqual(diff_path.read_text(encoding="utf-8"), "diff --git a/x b/x\n")
+        self.assertEqual(run.call_count, 2)
+        for call in run.call_args_list:
+            command = call.args[0]
+            self.assertEqual(command[:2], ["git", "diff"])
+            for option in ("--no-ext-diff", "--no-textconv"):
+                self.assertIn(option, command)
+            self.assertEqual(command[-1], "origin/main...HEAD")
+            self.assertNotIn("--output", " ".join(command))
+
     def test_project_settings_and_model_default_are_not_used(self) -> None:
-        command = review_command(Path("claude"), "Review PR", None)
+        command = review_command(Path("claude"), "Review PR", None, Path("diff-dir"))
         self.assertNotIn("--model", command)
         self.assertEqual(command[command.index("--setting-sources") + 1], "user")
         self.assertIn("--strict-mcp-config", command)
+        self.assertEqual(command[command.index("--max-budget-usd") + 1], "1.00")
 
     def test_summary_records_model_tokens_cost_and_head(self) -> None:
         payload = json.dumps(
@@ -169,21 +196,35 @@ class ClaudeReviewTests(unittest.TestCase):
         self.assertEqual(code, 0)
         self.assertEqual(summary.strip(), output.strip())
         self.assertIn("PR #42 · HEAD `" + "a" * 40 + "`", summary)
+        self.assertIn("Status: completed", summary)
         self.assertIn("No substantive findings.", summary)
         self.assertIn("`claude-sonnet-5-5`: input 1,200, output 340, cache read 50,000, cache write 8,000 tokens", summary)
-        self.assertIn("total cost estimate: USD 0.1234", summary)
+        self.assertIn("total cost estimate: USD 0.1234 (budget limit USD 1.00)", summary)
         self.assertIn("turns: 7 (limit 20)", summary)
 
-    def test_error_result_fails_and_still_reports_usage(self) -> None:
-        payload = json.dumps({"subtype": "error_max_turns", "is_error": True, "usage": {"input_tokens": 5}})
-        code, _, output = self._run(payload)
-        self.assertEqual(code, 1)
-        self.assertIn("error_max_turns", output)
-        self.assertIn("input 5", output)
+    def test_failed_review_still_writes_summary_with_cost(self) -> None:
+        for subtype in ("error_max_turns", "error_max_budget_usd"):
+            payload = json.dumps(
+                {"subtype": subtype, "is_error": True, "total_cost_usd": 0.98, "usage": {"input_tokens": 5}}
+            )
+            with self.subTest(subtype=subtype), tempfile.TemporaryDirectory() as directory:
+                summary_file = Path(directory) / "review.md"
+                code, _, _ = self._run(payload, returncode=1, summary_file=summary_file)
+                summary = summary_file.read_text(encoding="utf-8")
+                self.assertEqual(code, 1)
+                self.assertIn("**Status: failed**", summary)
+                self.assertIn(subtype, summary)
+                self.assertIn("input 5", summary)
+                self.assertIn("USD 0.9800", summary)
 
-    def test_unparseable_output_fails(self) -> None:
-        code, _, _ = self._run("Credit balance is too low", returncode=1)
+    def test_unparseable_output_fails_and_still_writes_summary(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            summary_file = Path(directory) / "review.md"
+            code, _, _ = self._run("Credit balance is too low", returncode=1, summary_file=summary_file)
+            summary = summary_file.read_text(encoding="utf-8")
         self.assertEqual(code, 1)
+        self.assertIn("no_parseable_output", summary)
+        self.assertIn("usage not reported", summary)
 
     def test_executable_is_portable_and_fails_clearly_when_missing(self) -> None:
         with mock.patch("scripts.claude_review.shutil.which", return_value="/usr/local/bin/claude"):
