@@ -9,3 +9,7 @@ font = "sans serif"
 
 [browser]
 gatherUsageStats = false
+
+# Public social preview image only.
+[server]
+enableStaticServing = true

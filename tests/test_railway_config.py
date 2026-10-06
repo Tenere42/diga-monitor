@@ -14,10 +14,11 @@ class RailwayConfigTests(unittest.TestCase):
         config = json.loads(RAILWAY_CONFIG.read_text(encoding="utf-8"))
         start_command = config["deploy"]["startCommand"]
 
-        self.assertTrue(start_command.startswith("streamlit run app.py "))
-        self.assertIn("--server.address=0.0.0.0", start_command)
-        self.assertIn("--server.port=$PORT", start_command)
-        self.assertIn("--server.headless=true", start_command)
+        self.assertEqual(start_command, "python scripts/start_dashboard.py")
+        launcher = (ROOT / "scripts/start_dashboard.py").read_text()
+        self.assertIn("--server.address=0.0.0.0", launcher)
+        self.assertIn("os.environ.get('PORT', '8501')", launcher)
+        self.assertIn("--server.headless=true", launcher)
 
     def test_railway_json_does_not_hardcode_a_port(self) -> None:
         config = json.loads(RAILWAY_CONFIG.read_text(encoding="utf-8"))

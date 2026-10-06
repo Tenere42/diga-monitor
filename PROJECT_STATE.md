@@ -2,6 +2,13 @@
 
 ## Current objective
 
+### LinkedIn social preview — 2026-10-06
+- Prepared black/white 1200×630 PNG and crawler-readable Open Graph/Twitter metadata.
+- Railway launcher updates the installed Streamlit HTML shell before exec; no proxy or application logic change.
+- Public image served through Streamlit static serving. Launcher fails explicitly if upstream HTML structure changes.
+- Seven focused tests pass; real local HTTP checks confirm title/meta, PNG content type and server health.
+- Claude CLI/API key unavailable; explicit self-review completed. Production/LinkedIn cache verification pending rollout.
+
 ### Compact alert footer — 2026-10-06
 - Owner requested equal-style inline links: Impressum · Datenschutz · abbestellen · feedback.
 - Native Brevo unsubscribe token retained; feedback opens mailto:hallo@diga-tracker.de.
