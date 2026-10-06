@@ -118,7 +118,7 @@ def render_html(events: list[dict], base: str = PUBLIC_URL, *, unsubscribe: bool
     if unsubscribe:
         # Keep Brevo's native token intact through string.Template rendering.
         legal += f' &nbsp;·&nbsp; <a href="{UNSUBSCRIBE}" style="color:#555555;">abbestellen</a>'
-    legal += ' &nbsp;·&nbsp; <a href="mailto:hallo@diga-tracker.de" style="color:#555555;">feedback</a>'
+    legal += ' &nbsp;·&nbsp; <a href="mailto:hello@diga-tracker.de" style="color:#555555;">Feedback</a>'
     return Template(TEMPLATE.read_text(encoding="utf-8")).substitute(
         headline=HEADLINE, intro=intro(len(items)), cards="".join(cards), legal=legal,
         home=escape(page_url(base), quote=True),
@@ -141,5 +141,5 @@ def render_text(events: list[dict], base: str = PUBLIC_URL, *, unsubscribe: bool
     lines.append("Datenschutz: " + page_url(base, view="datenschutz"))
     if unsubscribe:
         lines.append("abbestellen: " + UNSUBSCRIBE)
-    lines.append("feedback: mailto:hallo@diga-tracker.de")
+    lines.append("Feedback: mailto:hello@diga-tracker.de")
     return "\n".join(lines)
