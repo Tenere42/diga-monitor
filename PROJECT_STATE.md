@@ -3,17 +3,18 @@
 ## Current objective
 
 ### Alert unsubscribe visibility — 2026-10-06
-- Branch `codex/alerts-unsubscribe` from main `b0ddfe5`; no merge/deployment.
-- Public campaign footer now says “Alerts abbestellen”, with explicit 16px,
-  bold/underlined styling and a 48px click target; native Brevo token preserved.
-- Internal transactional mail already explains the described legal-links-only
-  footer and is restricted to `DIGA_MONITOR_EMAIL_TO`. Original message headers
-  are unavailable, so attribution of the received mail remains unconfirmed.
-- 69 focused tests pass; four local fixtures pass Edge at 1000/390/320px.
-  Claude API key unavailable; explicit Codex self-review completed.
-- No sends, contact mutations, tracking/configuration or monitoring data changes.
-  Personal link resolution, delivered text/headers and post-unsubscribe exclusion
-  still require the separately authorized test in `docs/alerts-unsubscribe.md`.
+- PR #20 merged into main at `3ede4c6213014a52ac544c75092d734ab6602caa`.
+- 69 relevant tests rerun and passed before merge; explicit Codex diff review
+  and git diff --check passed. No additional Claude review for this small change.
+- Public alerts use a visible “Alerts abbestellen” link with the native
+  `{{ unsubscribe }}` token. Audience, DOI and tracking settings unchanged.
+- Separate manually edited Brevo campaign #4 targeted only isolated test list #4.
+  Receipt and personal link resolution confirmed; Brevo recorded unsubscribe
+  and campaign blocklisting for the sole authorized test contact at 10:56 Berlin.
+- This manual campaign does not validate PR-generated delivered MIME/headers,
+  DOI, or a second-send suppression attempt. Those checks remain outstanding.
+- Railway automatically started deploying the merge; success pending verification.
+- Internal transactional attribution of the original email remains unproven.
 
 ### UI/DOI hotfix — 2026-09-24
 - Branch codex/ui-doi-hotfix starts from main f32ad0c (PR #17 merged/deployed).
