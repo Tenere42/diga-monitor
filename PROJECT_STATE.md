@@ -2,6 +2,14 @@
 
 ## Current objective
 
+### Compact alert footer — 2026-10-06
+- Owner requested equal-style inline links: Impressum · Datenschutz · abbestellen · feedback.
+- Native Brevo unsubscribe token retained; feedback opens mailto:hallo@diga-tracker.de.
+- hallo mailbox/forwarding is NOT verified as configured; owner must configure before public sending.
+- Regular template masthead remains DiGA Tracker only. Leevsten addition was confined to manual test campaign #5.
+- 16 notification rendering/transport tests passed, diff whitespace check and explicit self-review passed.
+- No new email sent, no contacts or tracking settings changed.
+
 ### Alert unsubscribe visibility — 2026-10-06
 - PR #20 merged into main at `3ede4c6213014a52ac544c75092d734ab6602caa`.
 - 69 relevant tests rerun and passed before merge; explicit Codex diff review
