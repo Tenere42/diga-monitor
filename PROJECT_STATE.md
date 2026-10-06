@@ -2,6 +2,21 @@
 
 ## Current objective
 
+### Manual Claude PR review workflow — 2026-10-03
+- Owner GO on 2026-10-03 for option B: manual GitHub Actions review with
+  `ANTHROPIC_API_KEY`; no OAuth, no auto-merge, no deployment.
+- Root cause of the 2026-09-01 removal (05a1e89): runs failed with "Credit balance
+  is too low" on the separately billed API account, not a code defect.
+- PR #19, branch `infra/claude-manual-pr-review`: `workflow_dispatch`-only workflow, PR number
+  + model input, same-repo open PRs only, trusted wrapper, read-only review job,
+  separate comment job; wrapper records model and token usage.
+- Prerequisites before the first run: funded Anthropic API balance and repository
+  secret `ANTHROPIC_API_KEY`. The workflow is dispatchable only after merge to `main`.
+- First test: exactly one code PR; record model, tokens and cost in its PR.
+- NO-GO on 4fad558 addressed: failed reviews still post status and usage; the
+  wrapper generates the diff, Claude gets only Read/Grep/Glob; hard spend cap
+  `--max-budget-usd 1.00` per run.
+
 ### UI/DOI hotfix — 2026-09-24
 - Branch codex/ui-doi-hotfix starts from main f32ad0c (PR #17 merged/deployed).
 - Scoped newsletter CTA state/weight correction and recent-change spacing.
@@ -491,7 +506,7 @@ DiGA Monitor is in production. The scheduler runs at 06:00, 09:00, 12:00, 15:00,
 - A reproducible audit classified all 842 legacy snapshots into 35 unique monitored states and 807 redundant snapshots. The resulting retention plan contains 57 deduplicated legacy/event/checkpoint/boundary/baseline objects, all verified in R2.
 - All 842 legacy JSON snapshots have been removed from the current tree while retaining `data/snapshots/.gitkeep`; no R2 object or historical Git object was changed.
 - GitHub is the shared source of truth for code and project handoff state.
-- The automatic GitHub Actions Claude PR review has been removed. Substantial changes use the local Gauntlet workflow: Codex implements, Claude Code orchestrates independent Claude-Critic reviews, and Claude Code performs Git plumbing. `scripts.claude_review` remains available as a manually invoked local review tool with API-key authentication, a redacted connectivity preflight, isolated Claude configuration, and read-only tools.
+- Claude PR reviews run via the manual `Claude PR Review` GitHub workflow (API key only, read-only, one PR comment). Substantial changes otherwise use the local Gauntlet workflow: Codex implements, Claude Code orchestrates independent Claude-Critic reviews, and Claude Code performs Git plumbing. `scripts.claude_review` remains available as a manually invoked local review tool with API-key authentication, a redacted connectivity preflight, isolated Claude configuration, and read-only tools.
 - Dashboard inputs use content-addressed Streamlit caching: file-content signatures invalidate cached change events and scan history automatically on deployment changes.
 - Notification sender and recipients are resolved independently from message creation and Brevo Transactional Email API transport. Production uses `DIGA_MONITOR_EMAIL_FROM`, `DIGA_MONITOR_EMAIL_FROM_NAME`, and `DIGA_MONITOR_EMAIL_TO`; no email address is hardcoded in Python.
 - Public notification identity is unified on **DiGA Tracker** (email subject, greeting, signature, and the `notify-test` simulation; the `TEST / SIMULATION` marker itself is unchanged).
