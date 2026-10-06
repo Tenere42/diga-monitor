@@ -116,7 +116,9 @@ def render_html(events: list[dict], base: str = PUBLIC_URL, *, unsubscribe: bool
         raise ValueError("Subscriber email requires a configured Impressum URL")
     legal += f'<a href="{escape(page_url(base, view="datenschutz"), quote=True)}" style="color:#555555;">Datenschutz</a>'
     if unsubscribe:
-        legal += f'<br><br><a href="{UNSUBSCRIBE}" style="color:#555555;">Abmelden</a>'
+        # Keep Brevo's native token intact through string.Template rendering.
+        # Explicit inline styles make this action readable in mobile mail clients.
+        legal += f'<br><br><a href="{UNSUBSCRIBE}" style="display:inline-block;padding:12px 0;font-size:16px;line-height:24px;font-weight:bold;text-decoration:underline;color:#111111;">Alerts abbestellen</a>'
     return Template(TEMPLATE.read_text(encoding="utf-8")).substitute(
         headline=HEADLINE, intro=intro(len(items)), cards="".join(cards), legal=legal,
         home=escape(page_url(base), quote=True),
@@ -138,5 +140,5 @@ def render_text(events: list[dict], base: str = PUBLIC_URL, *, unsubscribe: bool
         raise ValueError("Subscriber email requires a configured Impressum URL")
     lines.append("Datenschutz: " + page_url(base, view="datenschutz"))
     if unsubscribe:
-        lines.append("Abmelden: " + UNSUBSCRIBE)
+        lines.append("Alerts abbestellen: " + UNSUBSCRIBE)
     return "\n".join(lines)

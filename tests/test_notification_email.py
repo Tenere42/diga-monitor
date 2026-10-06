@@ -36,7 +36,7 @@ class NotificationEmailTests(unittest.TestCase):
             self.assertEqual(len(links),count)
             self.assertEqual(len({a['href'] for a in links}),count)
             self.assertTrue(all('detail=change-' in a['href'] for a in links))
-            self.assertEqual(soup.find('a',string='Abmelden')['href'],'{{ unsubscribe }}')
+            self.assertEqual(soup.find('a',string='Alerts abbestellen')['href'],'{{ unsubscribe }}')
 
     def test_raw_events_group_by_identity_and_public_day(self):
         row=event()
@@ -95,7 +95,7 @@ class NotificationEmailTests(unittest.TestCase):
         text=render_text(rows,unsubscribe=True,impressum_url=LEGAL)
         for row in rows:
             self.assertIn(change_url(row),text)
-        self.assertIn('Abmelden: {{ unsubscribe }}',text)
+        self.assertIn('Alerts abbestellen: {{ unsubscribe }}',text)
         self.assertIn('Impressum: '+LEGAL,text)
         for unwanted in ['100 EUR','120 EUR','2026-09','Geändert in','Hallo','Vorher','Nachher']:
             self.assertNotIn(unwanted,text)
@@ -142,13 +142,45 @@ class NotificationEmailTests(unittest.TestCase):
             send.assert_not_called()
 
     def test_provider_suppression_path_and_payload_preserved(self):
-        with patch.dict(os.environ,ENVIRONMENT,clear=True),patch('src.subscriber_alerts.urlopen',side_effect=[FakeResponse(201,{'id':1}),FakeResponse(204,{})]) as send,patch('src.subscriber_alerts._log_subscriber_alert'):
+        env = dict(ENVIRONMENT, DIGA_MONITOR_EMAIL_TO='internal@example.com')
+        with patch.dict(os.environ,env,clear=True),patch('src.subscriber_alerts.urlopen',side_effect=[FakeResponse(201,{'id':1}),FakeResponse(204,{})]) as send,patch('src.subscriber_alerts._log_subscriber_alert'):
             self.assertTrue(dispatch_subscriber_alerts([event()]))
         payload=json.loads(send.call_args_list[0].args[0].data)
         self.assertEqual(payload['recipients'],{'listIds':[99]})
         self.assertNotIn('to',payload)
         self.assertNotIn('textContent',payload) # Not supported by Campaign API.
         self.assertIn('{{ unsubscribe }}',payload['htmlContent'])
+        soup = BeautifulSoup(payload['htmlContent'], 'html.parser')
+        links = soup.find_all('a', string='Alerts abbestellen')
+        self.assertEqual(len(links), 1)
+        self.assertEqual(links[0]['href'], '{{ unsubscribe }}')
+        self.assertNotIn('internal@example.com', json.dumps(payload))
+        self.assertEqual(payload['type'], 'classic')
+        self.assertEqual(set(payload), {'name', 'subject', 'sender', 'type', 'htmlContent', 'recipients'})
+        self.assertEqual(send.call_args_list[0].args[0].full_url, 'https://api.brevo.com/v3/emailCampaigns')
+        self.assertEqual(send.call_args_list[1].args[0].full_url, 'https://api.brevo.com/v3/emailCampaigns/1/sendNow')
+
+    def test_internal_dispatch_uses_only_configured_recipients(self):
+        from src.notifications import notify_changes
+        env = dict(ENVIRONMENT, DIGA_MONITOR_EMAIL_TO='internal@example.com; second@example.com')
+        with patch.dict(os.environ, env, clear=True), patch('src.notifications.urlopen', return_value=FakeResponse(201, {'messageId': 'mock'})) as send, patch('src.notifications.log_notification'), patch('src.subscriber_alerts.urlopen') as campaigns:
+            self.assertTrue(notify_changes([event()]))
+        request = send.call_args.args[0]
+        self.assertEqual(request.full_url, 'https://api.brevo.com/v3/smtp/email')
+        payload = json.loads(request.data)
+        self.assertEqual(payload['to'], [{'email': 'internal@example.com'}, {'email': 'second@example.com'}])
+        for part in ('htmlContent', 'textContent'):
+            self.assertIn('Impressum', payload[part])
+            self.assertIn('Datenschutz', payload[part])
+            self.assertNotIn('{{ unsubscribe }}', payload[part])
+            self.assertNotIn('Alerts abbestellen', payload[part])
+        campaigns.assert_not_called()
+
+    def test_internal_dispatch_has_no_subscriber_audience_fallback(self):
+        from src.notifications import notify_changes
+        with patch.dict(os.environ, ENVIRONMENT, clear=True), patch('src.notifications.urlopen') as send, patch('src.notifications.log_notification'):
+            self.assertFalse(notify_changes([event()]))
+        send.assert_not_called()
 
     def test_provider_errors_cannot_leak_subscriber_pii(self):
         output=io.StringIO()

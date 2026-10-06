@@ -2,6 +2,19 @@
 
 ## Current objective
 
+### Alert unsubscribe visibility — 2026-10-06
+- Branch `codex/alerts-unsubscribe` from main `b0ddfe5`; no merge/deployment.
+- Public campaign footer now says “Alerts abbestellen”, with explicit 16px,
+  bold/underlined styling and a 48px click target; native Brevo token preserved.
+- Internal transactional mail already explains the described legal-links-only
+  footer and is restricted to `DIGA_MONITOR_EMAIL_TO`. Original message headers
+  are unavailable, so attribution of the received mail remains unconfirmed.
+- 69 focused tests pass; four local fixtures pass Edge at 1000/390/320px.
+  Claude API key unavailable; explicit Codex self-review completed.
+- No sends, contact mutations, tracking/configuration or monitoring data changes.
+  Personal link resolution, delivered text/headers and post-unsubscribe exclusion
+  still require the separately authorized test in `docs/alerts-unsubscribe.md`.
+
 ### UI/DOI hotfix — 2026-09-24
 - Branch codex/ui-doi-hotfix starts from main f32ad0c (PR #17 merged/deployed).
 - Scoped newsletter CTA state/weight correction and recent-change spacing.
