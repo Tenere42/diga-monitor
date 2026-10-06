@@ -36,7 +36,7 @@ class NotificationEmailTests(unittest.TestCase):
             self.assertEqual(len(links),count)
             self.assertEqual(len({a['href'] for a in links}),count)
             self.assertTrue(all('detail=change-' in a['href'] for a in links))
-            self.assertEqual(soup.find('a',string='Alerts abbestellen')['href'],'{{ unsubscribe }}')
+            self.assertEqual(soup.find('a',string='abbestellen')['href'],'{{ unsubscribe }}')
 
     def test_raw_events_group_by_identity_and_public_day(self):
         row=event()
@@ -95,7 +95,7 @@ class NotificationEmailTests(unittest.TestCase):
         text=render_text(rows,unsubscribe=True,impressum_url=LEGAL)
         for row in rows:
             self.assertIn(change_url(row),text)
-        self.assertIn('Alerts abbestellen: {{ unsubscribe }}',text)
+        self.assertIn('abbestellen: {{ unsubscribe }}',text)
         self.assertIn('Impressum: '+LEGAL,text)
         for unwanted in ['100 EUR','120 EUR','2026-09','Geändert in','Hallo','Vorher','Nachher']:
             self.assertNotIn(unwanted,text)
@@ -151,7 +151,7 @@ class NotificationEmailTests(unittest.TestCase):
         self.assertNotIn('textContent',payload) # Not supported by Campaign API.
         self.assertIn('{{ unsubscribe }}',payload['htmlContent'])
         soup = BeautifulSoup(payload['htmlContent'], 'html.parser')
-        links = soup.find_all('a', string='Alerts abbestellen')
+        links = soup.find_all('a', string='abbestellen')
         self.assertEqual(len(links), 1)
         self.assertEqual(links[0]['href'], '{{ unsubscribe }}')
         self.assertNotIn('internal@example.com', json.dumps(payload))
@@ -173,7 +173,7 @@ class NotificationEmailTests(unittest.TestCase):
             self.assertIn('Impressum', payload[part])
             self.assertIn('Datenschutz', payload[part])
             self.assertNotIn('{{ unsubscribe }}', payload[part])
-            self.assertNotIn('Alerts abbestellen', payload[part])
+            self.assertNotIn('abbestellen', payload[part])
         campaigns.assert_not_called()
 
     def test_internal_dispatch_has_no_subscriber_audience_fallback(self):
