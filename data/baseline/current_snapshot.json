@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-10-11T17:52:07.616530+00:00",
+  "created_at": "2026-10-12T11:30:20.284211+00:00",
   "directory_metrics": {
     "active_count": 63,
-    "calculated_at": "2026-10-11T17:52:07.616530+00:00",
+    "calculated_at": "2026-10-12T11:30:20.284211+00:00",
     "source": "snapshot_entries.status",
     "status_counts": {
       "permanent": 50,
@@ -179168,8 +179168,8 @@
         "questionnaire.Website des Herstellers für technischen Support der DiGA": "https://untire.app/de/haeufige-fragen/",
         "questionnaire.Website mit Informationen zum Hersteller der DiGA": "www.tiredofcancerapp.com",
         "questionnaire.Weitere Nutzung der DiGA für zusätzliche 90 Tage": "240,50 €",
-        "questionnaire.Weitere nicht durch Kontraindikationen abgedeckte Ausschlusskriterien": "Zielgruppe der DiGA sind Menschen mit Brustkrebs, bei denen zusätzlich eine krebsbedingte Fatigue (Erschöpfung) vorliegt. Weitere Ausschlusskriterien: - Erschöpfung wird durch nachweisbare medizinische Faktoren wie Dehydrierung, Anämie und Nierenfunktionsstörungen verursacht. - Behandlung einer schweren psychiatrischen Erkrankung",
-        "questionnaire.Weitere nicht durch Kontraindikationen abgedeckte Ausschlusskriterien (Patienteninformation)": "Zielgruppe der DiGA sind Menschen mit Brustkrebs, bei denen zusätzlich eine krebsbedingte Fatigue (Erschöpfung) vorliegt. Untire® ist nicht geeignet für: – Personen, deren Erschöpfung durch andere klar behandelbare Ursachen entsteht (z. B. Blutarmut, Flüssigkeitsmangel oder bestimmte Organstörungen). – Personen mit schweren psychiatrischen Erkrankungen.",
+        "questionnaire.Weitere nicht durch Kontraindikationen abgedeckte Ausschlusskriterien": "Zielgruppe der DiGA sind Menschen mit Brustkrebs, bei denen zusätzlich eine krebsbedingte Fatigue (Erschöpfung) vorliegt. Weitere Ausschlusskriterien: - Erschöpfung wird durch nachweisbare medizinische Faktoren wie Dehydrierung, Anämie und Nierenfunktionsstörungen verursacht. - Behandlung einer schweren psychiatrischen Erkrankung - Patientinnen und Patienten in Palliativtherapie",
+        "questionnaire.Weitere nicht durch Kontraindikationen abgedeckte Ausschlusskriterien (Patienteninformation)": "Zielgruppe der DiGA sind Menschen mit Brustkrebs, bei denen zusätzlich eine krebsbedingte Fatigue (Erschöpfung) vorliegt. Untire® ist nicht geeignet für: – Personen, deren Erschöpfung durch andere klar behandelbare Ursachen entsteht (z. B. Blutarmut, Flüssigkeitsmangel oder bestimmte Organstörungen). – Personen mit schweren psychiatrischen Erkrankungen. – Personen in Palliativtherapie.",
         "questionnaire.Werbe- oder Informationswebsite zur digitalen Gesundheitsanwendung": "https://untire.app/de/",
         "questionnaire.Werden Protokollierungsdaten automatisiert ausgewertet, um sicherheitsrelevante Ereignisse zu erkennen bzw. proaktiv zu verhindern?": "Zutreffend",
         "questionnaire.Werden alle Berechtigungen initial und per default restriktiv zugewiesen und können Berechtigungen ausschließlich über kontrollierte Verfahren ausgeweitet werden, die bei Änderungen der Berechtigungen für Betriebspersonal des Herstellers einer digitalen Gesundheitsanwendung wirksame Prüf- und Kontrollmechanismen nach einem Mehraugenprinzip beinhalten?": "Zutreffend",
@@ -179318,15 +179318,15 @@
       "source_update_notice": {
         "checked_sources": [
           {
-            "last_updated": "2026-09-09T17:25:59.143+02:00",
+            "last_updated": "2026-10-12T09:25:47.791+02:00",
             "source": "questionnaire_response.31"
           },
           {
-            "last_updated": "2026-09-01T09:46:06.582+02:00",
+            "last_updated": "2026-10-12T09:25:46.388+02:00",
             "source": "prescription_unit.752"
           },
           {
-            "last_updated": "2026-09-01T09:46:06.492+02:00",
+            "last_updated": "2026-10-12T09:25:46.364+02:00",
             "source": "prescription_unit.29"
           },
           {
@@ -179347,8 +179347,8 @@
           }
         ],
         "data_notice": "Wiedergabe der vom Hersteller übermittelten Angaben",
-        "last_updated_at": "2026-09-09T17:25:59.143+02:00",
-        "notice_text": "Zuletzt aktualisiert am 09.09.2026 um 15:25"
+        "last_updated_at": "2026-10-12T09:25:47.791+02:00",
+        "notice_text": "Zuletzt aktualisiert am 12.10.2026 um 07:25"
       },
       "status": "permanent",
       "status_confidence": "high",
@@ -181683,13 +181683,13 @@
           "localization_confidence": "high",
           "main_section": "Beschreibung der DiGA",
           "question_label": "Weitere nicht durch Kontraindikationen abgedeckte Ausschlusskriterien",
-          "raw_text": "Zielgruppe der DiGA sind Menschen mit Brustkrebs, bei denen zusätzlich eine krebsbedingte Fatigue (Erschöpfung) vorliegt. Weitere Ausschlusskriterien: - Erschöpfung wird durch nachweisbare medizinische Faktoren wie Dehydrierung, Anämie und Nierenfunktionsstörungen verursacht. - Behandlung einer schweren psychiatrischen Erkrankung",
+          "raw_text": "Zielgruppe der DiGA sind Menschen mit Brustkrebs, bei denen zusätzlich eine krebsbedingte Fatigue (Erschöpfung) vorliegt. Weitere Ausschlusskriterien: - Erschöpfung wird durch nachweisbare medizinische Faktoren wie Dehydrierung, Anämie und Nierenfunktionsstörungen verursacht. - Behandlung einer schweren psychiatrischen Erkrankung - Patientinnen und Patienten in Palliativtherapie",
           "section_title": "Beschreibung der DiGA",
           "source_area_label": "Beschreibung der DiGA",
           "stable_key": "descriptive-texts|beschreibung-der-diga|beschreibung-der-diga|weitere-nicht-durch-kontraindikationen-abgedeckte-ausschlusskriterien|questionnaire-weitere-nicht-durch-kontraindikationen-abgedeckte-ausschlusskriterien",
           "subsection_title": "Weitere nicht durch Kontraindikationen abgedeckte Ausschlusskriterien",
           "tab_label": "Beschreibung der DiGA",
-          "text": "Zielgruppe der DiGA sind Menschen mit Brustkrebs, bei denen zusätzlich eine krebsbedingte Fatigue (Erschöpfung) vorliegt. Weitere Ausschlusskriterien: - Erschöpfung wird durch nachweisbare medizinische Faktoren wie Dehydrierung, Anämie und Nierenfunktionsstörungen verursacht. - Behandlung einer schweren psychiatrischen Erkrankung"
+          "text": "Zielgruppe der DiGA sind Menschen mit Brustkrebs, bei denen zusätzlich eine krebsbedingte Fatigue (Erschöpfung) vorliegt. Weitere Ausschlusskriterien: - Erschöpfung wird durch nachweisbare medizinische Faktoren wie Dehydrierung, Anämie und Nierenfunktionsstörungen verursacht. - Behandlung einer schweren psychiatrischen Erkrankung - Patientinnen und Patienten in Palliativtherapie"
         },
         {
           "accordion_title": "Beschreibung der DiGA",
@@ -181699,13 +181699,13 @@
           "localization_confidence": "high",
           "main_section": "Beschreibung der DiGA",
           "question_label": "Weitere nicht durch Kontraindikationen abgedeckte Ausschlusskriterien (Patienteninformation)",
-          "raw_text": "Zielgruppe der DiGA sind Menschen mit Brustkrebs, bei denen zusätzlich eine krebsbedingte Fatigue (Erschöpfung) vorliegt. Untire® ist nicht geeignet für: – Personen, deren Erschöpfung durch andere klar behandelbare Ursachen entsteht (z. B. Blutarmut, Flüssigkeitsmangel oder bestimmte Organstörungen). – Personen mit schweren psychiatrischen Erkrankungen.",
+          "raw_text": "Zielgruppe der DiGA sind Menschen mit Brustkrebs, bei denen zusätzlich eine krebsbedingte Fatigue (Erschöpfung) vorliegt. Untire® ist nicht geeignet für: – Personen, deren Erschöpfung durch andere klar behandelbare Ursachen entsteht (z. B. Blutarmut, Flüssigkeitsmangel oder bestimmte Organstörungen). – Personen mit schweren psychiatrischen Erkrankungen. – Personen in Palliativtherapie.",
           "section_title": "Beschreibung der DiGA",
           "source_area_label": "Beschreibung der DiGA",
           "stable_key": "descriptive-texts|beschreibung-der-diga|beschreibung-der-diga|weitere-nicht-durch-kontraindikationen-abgedeckte-ausschlusskriterien-patienteninformation|questionnaire-weitere-nicht-durch-kontraindikationen-abgedeckte-ausschlusskriterien-patienteninformation",
           "subsection_title": "Weitere nicht durch Kontraindikationen abgedeckte Ausschlusskriterien (Patienteninformation)",
           "tab_label": "Beschreibung der DiGA",
-          "text": "Zielgruppe der DiGA sind Menschen mit Brustkrebs, bei denen zusätzlich eine krebsbedingte Fatigue (Erschöpfung) vorliegt. Untire® ist nicht geeignet für: – Personen, deren Erschöpfung durch andere klar behandelbare Ursachen entsteht (z. B. Blutarmut, Flüssigkeitsmangel oder bestimmte Organstörungen). – Personen mit schweren psychiatrischen Erkrankungen."
+          "text": "Zielgruppe der DiGA sind Menschen mit Brustkrebs, bei denen zusätzlich eine krebsbedingte Fatigue (Erschöpfung) vorliegt. Untire® ist nicht geeignet für: – Personen, deren Erschöpfung durch andere klar behandelbare Ursachen entsteht (z. B. Blutarmut, Flüssigkeitsmangel oder bestimmte Organstörungen). – Personen mit schweren psychiatrischen Erkrankungen. – Personen in Palliativtherapie."
         },
         {
           "accordion_title": "Beschreibung der DiGA",
