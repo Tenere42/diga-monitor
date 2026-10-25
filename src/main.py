@@ -16,7 +16,8 @@ from pathlib import Path
 from src.change_events import build_change_events, save_change_events, snapshot_context, word_level_diff
 from src.diff import diff_snapshots, render_report
 from src.fetch_diga import fetch_diga_entries
-from src.notifications import is_notifiable_event, notify_changes, send_test_notification
+from src.notifications import is_notifiable_event, notify_changes, notify_review_required, send_test_notification
+from src.public_changes import needs_review
 from src.subscriber_alerts import dispatch_subscriber_alerts
 from src.render_directory import (
     diff_content_section_files,
@@ -335,14 +336,16 @@ def notify_and_dispatch_subscriber_alerts(events: list[dict[str, object]], dry_r
     """Run the existing admin notification, then the subscriber-alert
     dispatch, strictly in that order and fully isolated from each other.
 
-    The admin notification (``notify_changes``) is untouched, existing
-    production behavior. The subscriber-alert dispatch happens only after
-    it, and its own function never raises by contract (see
+    Unexplained changes go only to the internal review notification.
+    The regular admin/subscriber alerts receive the remaining events.
+    The subscriber-alert dispatch happens after the admin notification, and its own function never raises by contract (see
     ``src/subscriber_alerts.py``); the try/except here is defense in
     depth so that even an unexpected raise there can never propagate into
     the scan pipeline that already completed change detection, baseline
     finalization, and R2 archival by the time this function is called.
     """
+    notify_review_required(events, dry_run=dry_run)
+    events = [event for event in events if not needs_review(event)]
     notify_changes(events, dry_run=dry_run)
     try:
         dispatch_subscriber_alerts(events, dry_run=dry_run)
