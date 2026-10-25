@@ -12,11 +12,25 @@ SUBJECTS = ("STATUS", "PREIS", "EVIDENZ", "ANWENDUNG", "TECHNIK", "DATENSCHUTZ",
 def normalized(value: Any) -> str:
     return re.sub(r"[\W_]+", "", str(value or "").casefold())
 
+def needs_review(event: dict) -> bool:
+    """Unexplained source changes remain auditable, but never become public alerts."""
+    field = str(event.get("original_changed_field") or event.get("changed_field") or event.get("field_name") or "")
+    if re.search(r"(?:^|\.)questionnaire\.\d+$", field):
+        return True
+    unresolved = any(event.get(k) == "visible_diff_unresolved" for k in
+                     ("change_type", "source_kind", "localization_confidence"))
+    before = event.get("previous_value", event.get("before_value"))
+    after = event.get("new_value", event.get("after_value"))
+    generic = {"zutreffend", "nicht zutreffend", "ja", "nein", "true", "false", ""}
+    return unresolved and (before is None or after is None or
+                           all(str(v).strip().casefold() in generic for v in (before, after)))
+
+
 def is_public(event: dict) -> bool:
     identity = str(event.get("diga_id") or "").strip()
     name = str(event.get("diga_name") or "").strip()
     sentinels = {"directory", "digaverzeichnis", "unknown", "unbekanntediga", "unnamedentry"}
-    return bool(normalized(identity) and normalized(name) and normalized(identity) not in sentinels
+    return bool(not needs_review(event) and normalized(identity) and normalized(name) and normalized(identity) not in sentinels
                 and normalized(name) not in sentinels
                 and event.get("change_type") in CATEGORIES
                 and not event.get("directory_metric"))

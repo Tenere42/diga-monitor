@@ -1,3 +1,10 @@
+## Unexplained change quarantine — 2026-10-25
+
+- Owner authorized public cleanup without triggering an alert and internal consultation for future unexplained source changes.
+- Shared public filter hides numeric questionnaire fields and unresolved generic yes/no/missing-value changes. Historical raw events, baseline and R2 remain untouched; 29 questionnaire.923 records (25 from October 19) are excluded retroactively.
+- Future scans send one separate internal review message to existing configured admin recipients; subscribers receive only the other changes. No scan, mail or campaign is invoked by cleanup/deployment.
+- Claude CLI unavailable in this runtime; explicit Codex self-review used.
+
 # PROJECT_STATE.md
 
 ## Current objective

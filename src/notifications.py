@@ -516,3 +516,31 @@ def parse_datetime(value: Any) -> datetime | None:
 
 def format_datetime(value: datetime) -> str:
     return value.astimezone().strftime("%d.%m.%Y %H:%M")
+
+
+def notify_review_required(events: list[dict[str, Any]], dry_run: bool = False) -> bool:
+    """Internal consultation only; never use the subscriber campaign path."""
+    from src.public_changes import needs_review
+    pending = [e for e in events if needs_review(e) and is_notifiable_event(e)]
+    if not pending:
+        return False
+    groups: dict[str, list[str]] = {}
+    for event in pending:
+        field = event_field_name(event)
+        groups.setdefault(field, []).append(str(event.get("diga_name") or event.get("diga_id")))
+    body = "Bitte prüfen: ungeklärte Änderungen im BfArM Verzeichnis.\n" \
+           "Diese Änderungen werden weder öffentlich angezeigt noch an Abonnenten versendet.\n" \
+           "Ein fehlender Wert bedeutet nicht, dass eine Aussage nicht mehr zutrifft.\n\n"
+    body += "\n".join(f"{field}: {', '.join(dict.fromkeys(names))}" for field, names in groups.items())
+    if dry_run:
+        print(f"Internal review required: {len(pending)} changes; dry-run, no email sent.")
+        return False
+    try:
+        settings = load_notification_settings()
+        message = build_email_message(settings.brevo.email_from, settings.brevo.email_from_name,
+                                      settings.recipients, "[Prüfung erforderlich] DiGA Tracker: ungeklärte Änderungen", body)
+        send_email(settings.brevo, message)
+        return True
+    except Exception as exc:
+        print_notification_status(f"Internal review notification failed: {safe_error(exc)}", level="warning")
+        return False
