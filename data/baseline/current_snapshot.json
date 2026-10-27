@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-10-27T10:08:56.709174+00:00",
+  "created_at": "2026-10-27T16:08:16.581844+00:00",
   "directory_metrics": {
     "active_count": 63,
-    "calculated_at": "2026-10-27T10:08:56.709174+00:00",
+    "calculated_at": "2026-10-27T16:08:16.581844+00:00",
     "source": "snapshot_entries.status",
     "status_counts": {
       "permanent": 51,
@@ -193386,7 +193386,7 @@
         "questionnaire.Bitte geben Sie hier einen Steckbrief zu Ihrer DiGA ein:": "Die eCovery-Therapie bei Schmerzen im unteren Rücken ist eine digitale Gesundheitsanwendung für Patientinnen und Patienten ab 18 Jahren mit unteren Rückenschmerzen. Sie umfasst einen leitlinienkonformen Trainingsplan aus Muskel-, Bewegungs- und Entspannungsübungen sowie Wissensinhalte. Auf Grundlage einer initialen Anamnese (unter Beachtung des individuellen Schmerzbefundes, ggf. vorhandener körperlicher Einschränkungen, personalisierter Ansprache und Motivation) sowie einer kontinuierlichen Berücksichtigung der Rückmeldungen zu Schmerzwerten und Schweregraden von Übungen wird der Trainingsplan individuell und automatisiert an die Bedürfnisse der Patientinnen und Patienten angepasst. Der zugrundeliegende Behandlungsalgorithmus wurde anhand eines sog. Expertensystems basierend auf gesichertem Fachwissen zum geeigneten Ablauf einer Übung und zielführenden Trainingssets, Trainingsfrequenzen und Trainingsintensitäten von Ärztinnen, Ärzten, Physiotherapeutinnen und Physiotherapeuten konzipiert. Die zuvor beschriebenen Algorithmen werden nur im sog. ausgelernten Zustand in der DiGA genutzt. Sie ermöglichen im Hinblick auf von Behandelnden und Nutzenden festgelegten Zielen personalisierte Empfehlungen, die das Umfeld beeinflussen, mit dem die DiGA interagiert. Die personalisierte Anleitung der Nutzenden zu einer aktiven Therapieauswahl, -umsetzung und -anpassung ist eine der Hauptfunktionen der DiGA und ermöglicht neben einer Anamnese, ergänzenden Übungen, Wissenseinheiten und übersichtlichen Zusammenfassung das nachhaltige Erreichen der Therapieziele. Die Anwendungsdauer beträgt 84 Tage. Die App kann selbstständig oder begleitend zu einer vor Ort stattfindenden Therapie genutzt werden.",
         "questionnaire.Datum des Beginns der Listung im Verzeichnis": "2024-12-27",
         "questionnaire.Datum des Beginns des Erprobungszeitraumes": "2024-12-27",
-        "questionnaire.Datum des Endes des Erprobungszeitraumes": "2026-10-28",
+        "questionnaire.Datum des Endes des Erprobungszeitraumes": "2026-10-26",
         "questionnaire.Die Verarbeitung personenbezogener Daten durch die digitale Gesundheitsanwendung und deren Hersteller unterfällt der Verordnung (EU) 2016/679 sowie ggf. weiteren Datenschutzregelungen.": "Zutreffend",
         "questionnaire.Die digitale Gesundheitsanwendung enthält ein diagnostisches Instrument": "Nein",
         "questionnaire.Die digitale Gesundheitsanwendung ist verfügbar": "im Apple App Store Deutschland im Google Play Store Deutschland",
@@ -193680,11 +193680,11 @@
       "source_update_notice": {
         "checked_sources": [
           {
-            "last_updated": "2026-10-27T09:36:18.164+01:00",
+            "last_updated": "2026-10-27T15:16:37.234+01:00",
             "source": "questionnaire_response.166"
           },
           {
-            "last_updated": "2026-10-27T09:36:14.954+01:00",
+            "last_updated": "2026-10-27T15:16:34.082+01:00",
             "source": "catalog_entry"
           },
           {
@@ -193709,8 +193709,8 @@
           }
         ],
         "data_notice": "Wiedergabe der vom Hersteller übermittelten Angaben",
-        "last_updated_at": "2026-10-27T09:36:18.164+01:00",
-        "notice_text": "Zuletzt aktualisiert am 27.10.2026 um 08:36"
+        "last_updated_at": "2026-10-27T15:16:37.234+01:00",
+        "notice_text": "Zuletzt aktualisiert am 27.10.2026 um 14:16"
       },
       "status": "permanent",
       "status_confidence": "high",
@@ -194093,13 +194093,13 @@
           "localization_confidence": "high",
           "main_section": "Informationen zum positiven Versorgungseffekt",
           "question_label": "Datum des Endes des Erprobungszeitraumes",
-          "raw_text": "2026-10-28",
+          "raw_text": "2026-10-26",
           "section_title": "Informationen zum positiven Versorgungseffekt",
           "source_area_label": "Informationen zum positiven Versorgungseffekt",
           "stable_key": "descriptive-texts|informationen-zum-positiven-versorgungseffekt|informationen-zum-positiven-versorgungseffekt|datum-des-endes-des-erprobungszeitraumes|questionnaire-datum-des-endes-des-erprobungszeitraumes",
           "subsection_title": "Datum des Endes des Erprobungszeitraumes",
           "tab_label": "Informationen zum positiven Versorgungseffekt",
-          "text": "2026-10-28"
+          "text": "2026-10-26"
         },
         {
           "accordion_title": "Informationen zu Datenschutz und Datensicherheit",
