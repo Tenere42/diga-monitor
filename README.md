@@ -513,7 +513,7 @@ GitHub Actions schedule:
 
 ```yaml
 schedule:
-  - cron: "0 6,9,12,15,18 * * *"
+  - cron: "13 * * * *"
     timezone: "Europe/Zurich"
 ```
 
