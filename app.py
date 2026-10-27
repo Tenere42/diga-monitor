@@ -215,7 +215,7 @@ def render_change_detail(real_events: list[dict[str, Any]], detail_id: str) -> N
     badges = ''.join(f'<span class="diga-pill">{label}</span>' for label in public_labels(group['events']))
     st.markdown(f'<div class="diga-pills">{badges}</div>', unsafe_allow_html=True)
     st.caption(format_datetime(group['detected_at']).replace(' ', ', ', 1) + ' Uhr')
-    for event in group['events']:
+    for event in sorted(group['events'], key=detail_event_priority):
         render_public_details(event)
     bfarm_url = detail_bfarm_url(group)
     external = (
@@ -228,6 +228,12 @@ def render_change_detail(real_events: list[dict[str, Any]], detail_id: str) -> N
         '<a class="diga-button" href="?view=changes" target="_self">Zurück</a></nav>',
         unsafe_allow_html=True,
     )
+
+
+def detail_event_priority(event: dict[str, Any]) -> int:
+    """Show listing status first while preserving the order of other changes."""
+    field = event.get("original_changed_field") or event_field_name(event)
+    return 0 if event.get("change_type") == "status_change" or field == "status" else 1
 
 
 def detail_bfarm_url(group: dict[str, Any]) -> str | None:

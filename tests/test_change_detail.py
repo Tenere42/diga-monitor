@@ -47,7 +47,7 @@ class DirectDetailTests(unittest.TestCase):
         # Every adjustment goes through the same full detail renderer, in order.
         with patch.object(app, 'render_public_details') as render, patch.object(app,'st'):
             app.render_change_detail(app.load_change_events(app.DEFAULT_CHANGES_DIR),identifier)
-        self.assertEqual([c.args[0] for c in render.call_args_list],group['events'])
+        self.assertEqual([c.args[0] for c in render.call_args_list], sorted(group['events'], key=app.detail_event_priority))
         at.run()
         self.assertFalse(at.exception)
         self.assertEqual(at.query_params['detail'],[identifier])
@@ -58,6 +58,19 @@ class DirectDetailTests(unittest.TestCase):
         self.assertEqual(len(at.selectbox),1)
         fresh=self.run_detail(identifier)
         self.assertEqual(fresh.title[0].value,'Änderungen')
+
+    def test_listing_status_appears_before_text_changes(self):
+        text1 = {'change_type': 'text_change', 'changed_field': 'evidence'}
+        status = {'change_type': 'status_change', 'changed_field': 'status'}
+        text2 = {'change_type': 'text_change', 'changed_field': 'description'}
+        group = {'events': [text1, text2, status], 'diga_name': 'eCovery', 'detected_at': '2026-10-27T09:56:12+00:00'}
+        with patch.object(app, 'homepage_event_groups', return_value=[group]), \
+             patch.object(app, 'change_group_anchor', return_value='group'), \
+             patch.object(app, 'public_labels', return_value=[]), \
+             patch.object(app, 'detail_bfarm_url', return_value=None), \
+             patch.object(app, 'render_public_details') as render, patch.object(app, 'st'):
+            app.render_change_detail([], 'group')
+        self.assertEqual([call.args[0] for call in render.call_args_list], [status, text1, text2])
 
     def test_invalid_empty_and_directory_details_fail_closed(self):
         rows=app.load_change_events(app.DEFAULT_CHANGES_DIR)
