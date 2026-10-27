@@ -72,6 +72,21 @@ class DirectDetailTests(unittest.TestCase):
             app.render_change_detail([], 'group')
         self.assertEqual([call.args[0] for call in render.call_args_list], [status, text1, text2])
 
+    def test_lifecycle_changes_precede_other_details(self):
+        text1 = {'change_type': 'text_change', 'changed_field': 'evidence'}
+        text2 = {'change_type': 'text_change', 'changed_field': 'description'}
+        for kind in ('new_diga', 'removed_diga', 'status_change'):
+            with self.subTest(kind=kind):
+                listing = {'change_type': kind, 'changed_field': '<entry>'}
+                group = {'events': [text1, text2, listing], 'diga_name': 'Test', 'detected_at': '2026-10-27T09:56:12+00:00'}
+                with patch.object(app, 'homepage_event_groups', return_value=[group]), \
+                     patch.object(app, 'change_group_anchor', return_value='group'), \
+                     patch.object(app, 'public_labels', return_value=[]), \
+                     patch.object(app, 'detail_bfarm_url', return_value=None), \
+                     patch.object(app, 'render_public_details') as render, patch.object(app, 'st'):
+                    app.render_change_detail([], 'group')
+                self.assertEqual([call.args[0] for call in render.call_args_list], [listing, text1, text2])
+
     def test_invalid_empty_and_directory_details_fail_closed(self):
         rows=app.load_change_events(app.DEFAULT_CHANGES_DIR)
         directory=next(g for g in app.group_events_by_diga(rows) if g['diga_name']=='DiGA-Verzeichnis')
