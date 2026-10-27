@@ -231,9 +231,9 @@ def render_change_detail(real_events: list[dict[str, Any]], detail_id: str) -> N
 
 
 def detail_event_priority(event: dict[str, Any]) -> int:
-    """Show listing status first while preserving the order of other changes."""
+    """Show listing changes first while preserving the order of other changes."""
     field = event.get("original_changed_field") or event_field_name(event)
-    return 0 if event.get("change_type") == "status_change" or field == "status" else 1
+    return 0 if event.get("change_type") in {"new_diga", "removed_diga", "status_change"} or field == "status" else 1
 
 
 def detail_bfarm_url(group: dict[str, Any]) -> str | None:
