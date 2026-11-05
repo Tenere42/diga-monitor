@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-11-05T12:52:44.113099+00:00",
+  "created_at": "2026-11-05T20:54:24.454294+00:00",
   "directory_metrics": {
     "active_count": 63,
-    "calculated_at": "2026-11-05T12:52:44.113099+00:00",
+    "calculated_at": "2026-11-05T20:54:24.454294+00:00",
     "source": "snapshot_entries.status",
     "status_counts": {
       "permanent": 51,
@@ -221763,6 +221763,14 @@
       "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/02815",
       "change_history": [
         {
+          "date": "2026-11-05",
+          "remark": "Der Preis der Verordnungseinheit Kranus Mictera 001 hat sich rückwirkend zum 27.10.2026 von 681,30 € zu 253,99 € geändert.",
+          "text": "2026-11-05 Preisänderung Der Preis der Verordnungseinheit Kranus Mictera 001 hat sich rückwirkend zum 27.10.2026 von 681,30 € zu 253,99 € geändert.",
+          "title": "Preisänderung",
+          "type": "generic",
+          "type_display": "Generischer Eintrag"
+        },
+        {
           "date": "2025-10-27",
           "remark": null,
           "text": "2025-10-27 Status der Listung ist „Dauerhaft aufgenommen“",
@@ -221848,7 +221856,7 @@
         "questionnaire.Kann die betroffene Person vom Hersteller der digitalen Gesundheitsanwendung Auskunft zu den über sie gespeicherten personenbezogenen Daten in dem in Artikel 15 der Verordnung (EU) 2016/679 festgelegten Umfang erhalten?": "Zutreffend",
         "questionnaire.Kann die betroffene Person vom Hersteller der digitalen Gesundheitsanwendung die Berichtigung von sie betreffenden unrichtigen personenbezogenen Daten und die Vervollständigung von sie betreffenden unvollständigen personenbezogenen Daten verlangen?": "Zutreffend",
         "questionnaire.Kompatibilitätszusagen des Herstellers der DiGA in Bezug auf unterstützte Plattformen und Geräte sowie in Bezug auf erforderliches Zubehör und sonstige Produktbestandteile mit Verweis auf den entsprechenden Abschnitt der Website der DiGA": "iOS: Digitale Gesundheitsanwendungen von Kranus Health sind mit Apple Geräten der Softwareversion iOS 15.x aufwärts kompatibel. - Android: Digitale Gesundheitsanwendungen von Kranus Health sind mit Android Geräten der Softwareversion Android Pie (Version 9.x) aufwärts kompatibel und mit dem Google Play Store kompatibel sind. - Weitere Informationen finden Sie unter: https://www.kranushealth.com/de/kompatibilitaet/",
-        "questionnaire.Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage": "681,30 €",
+        "questionnaire.Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage": "253,99 €",
         "questionnaire.Kurzfassung zum vorliegenden oder geplanten Nachweis des positiven Versorgungseffektes nach PICO-Schema": "Titel: Prospektiv randomisierte Studie zur multimodalen Selbstbehandlung von Frauen mit Inkontinenzbeschwerden mit einer digitalen Gesundheitsanwendung Patientenpopulation: Bei der Geburt dem weiblichen Geschlecht zugewiesene Personen ≥ 18 Jahre mit Inkontinenz unterschiedlicher Genese (Belastungsinkontinenz N39.3, Dranginkontinenz N39.42, Mischinkontinenz) Intervention: 12 Wochen Zugang zur DiGA Kranus Mictera zusätzlich zur Standardversorgung Comparison: Kein Zugang zur DiGA, Zugang zur Standardversorgung Outcomes: - Verbesserung des Gesundheitszustands : Nachweis der Verringerung der Inkontinenzepisoden - Verbesserung des Gesundheitszustands: Nachweis der Verbesserung der Krankheitssymptome (ICIQ-SF) - Verbesserung der Lebensqualität: Nachweis der Verbesserung der Lebensqualität (I-QoL) - Verbesserung der Patientensouveränität/ Patientenaktivierung (Patient Activation Measure-13) - Verbesserung der Bewältigung krankheitsbedingter Schwierigkeiten im Alltag (limiting behaviour scale des I-QoL)",
         "questionnaire.Kurzfassung zum vorliegenden oder geplanten Nachweis des positiven Versorgungseffektes nach PICO-Schema (Patienteninformation)": "Titel der Studie: Prospektiv randomisierte Studie zur multimodalen Selbstbehandlung von Frauen mit Inkontinenzbeschwerden mit einer digitalen Gesundheitsanwendung (Digitale Inkontinenz Studie- DINKS) Patientinnen, die geeignet waren: Die Studie richtete sich an Personen, die bei der Geburt dem weiblichen Geschlecht zugewiesen wurden, mindestens 18 Jahre alt waren und unter verschiedenen Formen von Harninkontinenz leiden (Belastungsinkontinenz, bei der Harnverlust durch körperliche Anstrengung wie z.B. Husten entsteht, Dranginkontinenz, bei der ein plötzliches starkes Harndranggefühl auftritt, oder Mischformen beider Arten). Wie sah die Behandlung aus? Teilnehmende erhielten entweder für 12 Wochen Zugang zur digitalen Anwendung Kranus Mictera zusätzlich zur normalen Behandlung oder bleiben ausschließlich bei der Standardversorgung ohne die digitale Anwendung. Was wurde untersucht? Die Studie hat geprüft, wie Kranus Mictera die Gesundheit und die Lebensqualität der Teilnehmenden verbessert. Dabei wurden folgende Bereiche genau betrachtet: - Inkontinenzepisoden: Es wurde gemessen, wie oft es zu ungewolltem Harnverlust gekommen ist und ob die Anzahl durch die Anwendung reduziert werden konnte. - Symptome lindern: Der Fragebogen ICIQ-SF (International Consultation on Incontinence Questionnaire - Short Form) hilft dabei, die Auswirkungen der Harninkontinenz auf den Alltag und die Stärke der Beschwerden zu bewerten. - Lebensqualität steigern: Mit dem I-QoL (Incontinence Quality of Life Questionnaire) wurde untersucht, ob sich die Lebensqualität der Betroffenen durch die Behandlung verbessert. - Selbstbestimmung fördern: Der Patient Activation Measure-13-Fragebogen überprüft, wie aktiv und eigenständig die Teilnehmenden im Umgang mit ihrer Erkrankung werden. - Besser mit der Erkrankung umgehen: Mit der limiting behaviour scale des I-QoL-Fragebogens wird gemessen, ob die Anwendung hilft, besser mit den durch die Erkrankung verursachten Herausforderungen im Alltag umzugehen.",
         "questionnaire.Medizinische Zweckbestimmung entsprechend den Angaben des Herstellers auf der Kennzeichnung, in der Gebrauchsanweisung oder dem Werbe- oder Verkaufsmaterial bzw. den Werbe- oder Verkaufsangaben": "Das Kranus Mictera Programm ist für die Selbstbehandlung von Patientinnen mit Harninkontinenz unterschiedlicher Ätiologie bestimmt.",
@@ -221897,7 +221905,7 @@
         "questionnaire.Veröffentlicht der Hersteller die medizinische Zweckbestimmung der digitalen Gesundheitsanwendung?": "Zutreffend",
         "questionnaire.Website des Herstellers für technischen Support der DiGA": "https://www.kranushealth.com/de/home/",
         "questionnaire.Website mit Informationen zum Hersteller der DiGA": "https://www.kranushealth.com/de/home/",
-        "questionnaire.Weitere Nutzung der DiGA für zusätzliche 90 Tage": "681,30 €",
+        "questionnaire.Weitere Nutzung der DiGA für zusätzliche 90 Tage": "253,99 €",
         "questionnaire.Weitere nicht durch Kontraindikationen abgedeckte Ausschlusskriterien": "Absolute Kontraindikationen, die sich nicht nach ICD-10 kodieren lassen: Trifft nicht zu. Relative Ausschlusskriterien, die sich nach ICD-10 kodieren lassen und im Ermessen des Leistungserbringenden liegen: N39.0: Harnwegsinfektion, Lokalisation nicht näher bezeichnet N21.0: Stein in der Harnblase R31: Nicht näher bezeichnete Hämaturie C67: Bösartige Neubildung der Harnblase Relative Ausschlusskriterien, die sich nicht nach ICD-10 kodieren lassen und im Ermessen des Leistungserbringenden liegen: - Unfähigkeit physisch am Therapieprogramm teilzunehmen - Aktive Schwangerschaft - Botulinumtoxin-Behandlung der Harnblase in den letzten 6 Monaten Studienspezifische methodische Ausschlusskriterien: - Generell Patientinnen, die nicht fähig sind, die Einverständniserklärung zu verstehen und selbstständig zu unterschreiben - Neu begonnene medikamentöse oder physikalische Therapie der Miktionssymptome (Anticholinergika, Beta-3 Rezeptoragonisten, Phytopharmaka, Biofeedback, EMS) in den letzten 4 Wochen - Schwere psychiatrische Störungen, die die Nutzung der App verunmöglichen - Neurologische Erkrankungen, die den Harntrakt betreffen - Tumor- und Inkontinenzoperationen im kleinen Becken - Adipositas per magna (BMI >35) - Rezidivierende Harnwegsinfektionen N39.0 (mindestens 2 innerhalb von 6 Monaten oder 3 Infektionen innerhalb eines Jahres) - Teilnahme der Patientin an einer anderen klinischen Prüfung innerhalb der letzten 4 Wochen vor dem Einschluss - Sucht- oder sonstige Erkrankungen, die es der Betreffenden nicht erlauben, Wesen und Tragweite sowie mögliche Folgen der klinischen Prüfung abzuschätzen",
         "questionnaire.Weitere nicht durch Kontraindikationen abgedeckte Ausschlusskriterien (Patienteninformation)": "Absolute Kontraindikationen, die sich nicht nach ICD-10 kodieren lassen: Trifft nicht zu. Relative Ausschlusskriterien, die sich nach ICD-10 kodieren lassen und im Ermessen des Leistungserbringenden liegen: N39.0: Harnwegsinfektion, Lokalisation nicht näher bezeichnet N21.0: Stein in der Harnblase R31: Nicht näher bezeichnete Hämaturie C67: Bösartige Neubildung der Harnblase Relative Ausschlusskriterien, die sich nicht nach ICD-10 kodieren lassen und im Ermessen des Leistungserbringenden liegen: - Unfähigkeit physisch am Therapieprogramm teilzunehmen - Aktive Schwangerschaft - Botulinumtoxin-Behandlung der Harnblase in den letzten 6 Monaten Studienspezifische methodische Ausschlusskriterien: - Generell Patientinnen, die nicht fähig sind, die Einverständniserklärung zu verstehen und selbstständig zu unterschreiben - Neu begonnene medikamentöse oder physikalische Therapie der Miktionssymptome (Anticholinergika, Beta-3 Rezeptoragonisten, Phytopharmaka, Biofeedback, EMS) in den letzten 4 Wochen - Schwere psychiatrische Störungen, die die Nutzung der App verunmöglichen - Neurologische Erkrankungen, die den Harntrakt betreffen - Tumor- und Inkontinenzoperationen im kleinen Becken - Adipositas per magna (BMI >35) - Rezidivierende Harnwegsinfektionen N39.0 (mindestens 2 innerhalb von 6 Monaten oder 3 Infektionen innerhalb eines Jahres) - Teilnahme der Patientin an einer anderen klinischen Prüfung innerhalb der letzten 4 Wochen vor dem Einschluss - Sucht- oder sonstige Erkrankungen, die es der Betreffenden nicht erlauben, Wesen und Tragweite sowie mögliche Folgen der klinischen Prüfung abzuschätzen",
         "questionnaire.Werbe- oder Informationswebsite zur digitalen Gesundheitsanwendung": "https://www.kranushealth.com/de/therapien/inkontinenz",
@@ -221926,6 +221934,67 @@
       "pricing_information": [
         {
           "effective_period": {
+            "start": "2026-10-27"
+          },
+          "price_components": [
+            {
+              "extension": [
+                {
+                  "extension": [
+                    {
+                      "url": "required",
+                      "valueBoolean": false
+                    }
+                  ],
+                  "url": "https://fhir.bfarm.de/StructureDefinition/HealthAppPrescriptionUnitPropertyGroupNonRefundable"
+                }
+              ],
+              "priceComponent": [
+                {
+                  "amount": {
+                    "currency": "EUR",
+                    "value": 253.99
+                  },
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "publisher-price",
+                        "display": "Herstellerpreis",
+                        "system": "https://fhir.bfarm.de/CodeSystem/HealthAppPriceCode"
+                      }
+                    ]
+                  },
+                  "type": "informational"
+                },
+                {
+                  "amount": {
+                    "currency": "EUR",
+                    "value": 253.99
+                  },
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "maximum-amount",
+                        "display": "Vergütungs- / Höchstbetrag",
+                        "system": "https://fhir.bfarm.de/CodeSystem/HealthAppPriceCode"
+                      }
+                    ]
+                  },
+                  "type": "informational"
+                }
+              ]
+            }
+          ],
+          "text": [
+            "Absolute Kontraindikationen, die sich nicht nach ICD-10 kodieren lassen: Trifft nicht zu. Relative Ausschlusskriterien, die sich nach ICD-10 kodieren lassen und im Ermessen des Leistungserbringenden liegen: N39.0: Harnwegsinfektion, Lokalisation nicht näher bezeichnet N21.0: Stein in der Harnblase R31: Nicht näher bezeichnete Hämaturie C67: Bösartige Neubildung der Harnblase Relative Ausschlusskriterien, die sich nicht nach ICD-10 kodieren lassen und im Ermessen des Leistungserbringenden liegen: - Unfähigkeit physisch am Therapieprogramm teilzunehmen - Aktive Schwangerschaft - Botulinumtoxin-Behandlung der Harnblase in den letzten 6 Monaten Studienspezifische methodische Ausschlusskriterien: - Generell Patientinnen, die nicht fähig sind, die Einverständniserklärung zu verstehen und selbstständig zu unterschreiben - Neu begonnene medikamentöse oder physikalische Therapie der Miktionssymptome (Anticholinergika, Beta-3 Rezeptoragonisten, Phytopharmaka, Biofeedback, EMS) in den letzten 4 Wochen - Schwere psychiatrische Störungen, die die Nutzung der App verunmöglichen - Neurologische Erkrankungen, die den Harntrakt betreffen - Tumor- und Inkontinenzoperationen im kleinen Becken - Adipositas per magna (BMI >35) - Rezidivierende Harnwegsinfektionen N39.0 (mindestens 2 innerhalb von 6 Monaten oder 3 Infektionen innerhalb eines Jahres) - Teilnahme der Patientin an einer anderen klinischen Prüfung innerhalb der letzten 4 Wochen vor dem Einschluss - Sucht- oder sonstige Erkrankungen, die es der Betreffenden nicht erlauben, Wesen und Tragweite sowie mögliche Folgen der klinischen Prüfung abzuschätzen",
+            "EUR",
+            "Herstellerpreis"
+          ],
+          "title": "Kranus Mictera 001"
+        },
+        {
+          "effective_period": {
+            "end": "2026-10-26",
             "start": "2025-10-27"
           },
           "price_components": [
@@ -221976,22 +222045,27 @@
           "560"
         ],
         "prescription_unit_ids": [
+          "1202",
           "561"
         ]
       },
       "source_update_notice": {
         "checked_sources": [
           {
-            "last_updated": "2026-10-19T11:30:04.177+02:00",
-            "source": "prescription_unit.561"
+            "last_updated": "2026-11-05T14:30:32.460+01:00",
+            "source": "prescription_unit.1202"
           },
           {
-            "last_updated": "2026-02-06T14:36:56.752+01:00",
+            "last_updated": "2026-11-05T14:28:29.400+01:00",
             "source": "questionnaire_response.563"
           },
           {
-            "last_updated": "2025-10-27T15:35:25.534+01:00",
+            "last_updated": "2026-11-05T14:28:28.218+01:00",
             "source": "catalog_entry"
+          },
+          {
+            "last_updated": "2026-11-05T14:28:28.048+01:00",
+            "source": "prescription_unit.561"
           },
           {
             "last_updated": "2025-10-27T15:35:25.272+01:00",
@@ -222007,8 +222081,8 @@
           }
         ],
         "data_notice": "Wiedergabe der vom Hersteller übermittelten Angaben",
-        "last_updated_at": "2026-10-19T11:30:04.177+02:00",
-        "notice_text": "Zuletzt aktualisiert am 19.10.2026 um 09:30"
+        "last_updated_at": "2026-11-05T14:30:32.460+01:00",
+        "notice_text": "Zuletzt aktualisiert am 05.11.2026 um 13:30"
       },
       "status": "permanent",
       "status_confidence": "high",
@@ -223111,13 +223185,13 @@
           "localization_confidence": "high",
           "main_section": "Weitere Informationen",
           "question_label": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
-          "raw_text": "681,30 €",
+          "raw_text": "253,99 €",
           "section_title": "Weitere Informationen",
           "source_area_label": "Weitere Informationen",
           "stable_key": "descriptive-texts|weitere-informationen|weitere-informationen|kosten-z-b-starterpaket-ohne-hardware-f-r-90-tage|questionnaire-kosten-z-b-starterpaket-ohne-hardware-f-r-90-tage",
           "subsection_title": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
           "tab_label": "Weitere Informationen",
-          "text": "681,30 €"
+          "text": "253,99 €"
         },
         {
           "accordion_title": "Informationen zum positiven Versorgungseffekt",
@@ -223895,13 +223969,13 @@
           "localization_confidence": "high",
           "main_section": "Weitere Informationen zur digitalen Gesundheitsanwendung",
           "question_label": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
-          "raw_text": "681,30 €",
+          "raw_text": "253,99 €",
           "section_title": "Weitere Informationen zur digitalen Gesundheitsanwendung",
           "source_area_label": "Weitere Informationen zur digitalen Gesundheitsanwendung",
           "stable_key": "descriptive-texts|weitere-informationen-zur-digitalen-gesundheitsanwendung|weitere-informationen-zur-digitalen-gesundheitsanwendung|weitere-nutzung-der-diga-f-r-zus-tzliche-90-tage|questionnaire-weitere-nutzung-der-diga-f-r-zus-tzliche-90-tage",
           "subsection_title": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
           "tab_label": "Weitere Informationen zur digitalen Gesundheitsanwendung",
-          "text": "681,30 €"
+          "text": "253,99 €"
         },
         {
           "accordion_title": "Beschreibung der DiGA",
