@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-11-09T23:15:10.940942+00:00",
+  "created_at": "2026-11-10T13:10:31.884273+00:00",
   "directory_metrics": {
     "active_count": 63,
-    "calculated_at": "2026-11-09T23:15:10.940942+00:00",
+    "calculated_at": "2026-11-10T13:10:31.884273+00:00",
     "source": "snapshot_entries.status",
     "status_counts": {
       "permanent": 51,
@@ -113,7 +113,7 @@
         "questionnaire.Kann die betroffene Person vom Hersteller der digitalen Gesundheitsanwendung die Berichtigung von sie betreffenden unrichtigen personenbezogenen Daten und die Vervollständigung von sie betreffenden unvollständigen personenbezogenen Daten verlangen?": "Zutreffend",
         "questionnaire.Kann sich der Versicherte ausschließlich innerhalb der Vertrauensdomäne der digitalen Gesundheitsanwendung bewegen bzw. können aus der digitalen Gesundheitsanwendung heraus nur vertrauenswürdige, durch den Hersteller der digitalen Gesundheitsanwendung geprüfte externe Inhalte genutzt werden und wird der Versicherte in diesem Fall informiert, wenn die Vertrauensdomäne der digitalen Gesundheitsanwendung verlassen wird?": "Zutreffend",
         "questionnaire.Kennnummer der Benannten Stelle": "0197",
-        "questionnaire.Kompatibilitätszusagen des Herstellers der DiGA in Bezug auf unterstützte Plattformen und Geräte sowie in Bezug auf erforderliches Zubehör und sonstige Produktbestandteile mit Verweis auf den entsprechenden Abschnitt der Website der DiGA": "Die App unterstützt die Anbindung weiterer Geräte zur Übertragung von Bewegungs- und Körpergewichtsdaten. Es können Daten von Geräten folgender Hersteller eingebunden werden: Fitbit, Garmin, Polar, AppleHealth, Withings, HealthConnect, OmronConnect, Suunto, Oura. Wir raten von der Anbindung von Trackern via Drittapplikationen ab. - Vorsicht: In unseren Tests zeigten eine Reihe von Geräten zur Bewegungs- und Gewichtsmessung hohe Messunterschiede. Entscheidungen auf Basis dieser Daten sind somit potentiell fehlerbehaftet. Bei Fragen zu bestimmten Produkten kontaktieren Sie bitte den Support unter support@zanadio.de Eine aktuelle Liste kompatibler Geräte finden Sie unter: https://zanadio.de/kompatibilitaet/",
+        "questionnaire.Kompatibilitätszusagen des Herstellers der DiGA in Bezug auf unterstützte Plattformen und Geräte sowie in Bezug auf erforderliches Zubehör und sonstige Produktbestandteile mit Verweis auf den entsprechenden Abschnitt der Website der DiGA": "Die App unterstützt die Anbindung weiterer Geräte zur Übertragung von Bewegungs- und Körpergewichtsdaten. Es können Daten von Geräten folgender Hersteller eingebunden werden: Garmin, Polar, AppleHealth, Withings, HealthConnect, OmronConnect, Suunto, Oura. Vorsicht: In unseren Tests zeigten eine Reihe von Geräten zur Bewegungs- und Gewichtsmessung hohe Messunterschiede. Entscheidungen auf Basis dieser Daten sind somit potentiell fehlerbehaftet. Bei Fragen zu bestimmten Produkten kontaktieren Sie bitte den Support unter support@zanadio.de Eine aktuelle Liste kompatibler Geräte finden Sie unter: https://zanadio.de/kompatibilitaet/",
         "questionnaire.Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage": "218,00 €",
         "questionnaire.Kurzfassung zum vorliegenden oder geplanten Nachweis des positiven Versorgungseffektes nach PICO-Schema": "Population: Personen mit Adipositas (m/w/d) zwischen 18 und 65 Jahren, einem BMI zwischen 30 und 40 kg/m2 - entsprechend der ICD-10 Diagnose E66.00 und E66.01 – und einer EOSS (Edmonton Obesity Staging System) Klasse 0-2. Das EOSS bietet eine Differenzierung der Adipositas-Schweregrade. Dabei beschreibt Klasse 0 einen gesunden Menschen mit Adipositas, ohne Risikofaktoren, körperliche Symptome, Psychopathologie, bei zugleich normalen Blutdruck-, Blutfett-, Blutglukose- und Leberwerten. Klasse 1 beschreibt Adipositas mit leichter Beeinträchtigung und präklinischen Risikofaktoren, während Klasse 2 Adipositas-assoziierte chronische Erkrankungen beinhaltet. Für die Klassen 0-2 ist eine konservative Therapie indiziert. - Intervention bzw. Behandlung Ein App-basiertes 12-monatiges Behandlungsprogram (zanadio), welches aus validierten Inhalten und Interventionen aus den Bereichen Verhalten, Ernährung und Bewegung besteht und eine konservative, leitliniengerechte Behandlung der Adipositas ermöglicht. zanadio bietet Patientinnen und Patienten eine ganzheitliche steppedcare-Behandlung, die auf eine gesunde und langfristige Änderung des Lebensstiles ausgelegt ist und sich an gültigen, wissenschaftlich anerkannten Leitlinien orientiert. Die Gewichtsreduktion ist Folge einer Verhaltensänderung in Bezug auf Ernährung, Bewegung und weitere gesundheitsrelevante Gewohnheiten. Ziel der Verhaltensänderung ist eine Reduktion der täglichen Kalorienzufuhr durch die Ernährung auf der einen Seite sowie gleichzeitiger Erhöhung des Kalorienbedarfs durch Stärkung des Bewegungsverhaltens, welche im Ergebnis zu einer anhaltenden negativen Kalorienbilanz und somit einem Verlust von Körperfett und einer Gewichtsreduktion führt. Die Verhaltensänderung wird dabei durch die Anwendung verschiedener verhaltenswissenschaftlicher Methoden erzielt, welche ernährungs-, bewegungs- und verhaltenstherapeutische Interventionen umfassen. - Comparison Nichtbehandlung - Menschen mit Adipositas in Deutschland hatten bislang keinen Zugang zu einer verschreibungsfähigen konservativen Behandlungsmöglichkeit. - Outcome Der medizinische Nutzen entspricht der Verbesserung des Gesundheitszustandes und damit einhergehend einem verbesserten Wohlbefinden und einer höheren Lebensqualität. Im Rahmen des Behandlungsprogramms zanadio wird dies durch eine Gewichtsreduktion von mindestens 5% zum Ausgansgewicht bei Patientinnen und Patienten erreicht, da eine solche Gewichtsreduktion im Kontext von Adipositas den wesentlichen Faktor für eine Verbesserung des Gesundheitszustandes darstellt. Dies wird nachgewiesen durch den Verlust von Körpergewicht, der Körperfettverteilung und einer Verbesserung der allgemeinen Lebensqualität und des Wohlbefindens.",
         "questionnaire.Kurzfassung zum vorliegenden oder geplanten Nachweis des positiven Versorgungseffektes nach PICO-Schema (Patienteninformation)": "Die Patientengruppe die in der Studie untersucht wurde: Personen mit Adipositas (m/w/d) zwischen 18 und 65 Jahren, einem BMI zwischen 30 und 40 kg/m2. - In der Studie erhielt diese Gruppe folgende Therapie: App-basiertes 12-monatiges Behandlungsprogramm (zanadio), welches aus untersuchten Inhalten und Interventionen aus den Bereichen Verhalten, Ernährung und Bewegung besteht und eine konservative, leitliniengerechte Behandlung der Adipositas ermöglicht. zanadio bietet Patientinnen und Patienten eine ganzheitliche Behandlung, die auf eine gesunde und langfristige Änderung des Lebensstiles ausgelegt ist und sich an gültigen, wissenschaftlich anerkannten Leitlinien orientiert. Die Gewichtsreduktion ist Folge einer Verhaltensänderung in Bezug auf Ernährung, Bewegung und weitere gesundheitsrelevante Gewohnheiten. Ziel der Verhaltensänderung ist eine Reduktion der täglichen Kalorienzufuhr durch die Ernährung auf der einen Seite sowie gleichzeitiger Erhöhung des Kalorienbedarfs durch Stärkung des Bewegungsverhaltens, welche im Ergebnis zu einer anhaltenden negativen Kalorienbilanz und somit einem Verlust von Körperfett und einer Gewichtsreduktion führt. - Die Vergleichsgruppe in der Studie war: Nichtbehandelte Patientinnen und Patienten (dies bildete die Versorgungsrealität in Deutschland ab: zum Zeitpunkt der Studie hatten Menschen mit Adipositas in Deutschland keinen Zugang zu einer verschreibungsfähigen konservativen Behandlungsmöglichkeit) - Der Effekt, welcher in dieser Studie gezeigt wurde: Verbesserung des Gesundheitszustandes und damit einhergehend einem verbesserten Wohlbefinden und einer höheren Lebensqualität. Im Rahmen des Behandlungsprogramms zanadio wurde dies durch eine Gewichtsreduktion von mindestens 5% zum Ausgangsgewicht bei Patientinnen und Patienten erreicht, da eine solche Gewichtsreduktion im Kontext von Adipositas den wesentlichen Faktor für eine Verbesserung des Gesundheitszustandes darstellt. Dies wurde nachgewiesen durch den Verlust von Körpergewicht, der Körperfettverteilung und einer Verbesserung der allgemeinen Lebensqualität und des Wohlbefindens.",
@@ -456,16 +456,16 @@
       "source_update_notice": {
         "checked_sources": [
           {
-            "last_updated": "2026-10-19T11:40:04.201+02:00",
-            "source": "manufacturer"
-          },
-          {
-            "last_updated": "2026-07-14T10:50:47.937+02:00",
+            "last_updated": "2026-11-10T11:02:30.357+01:00",
             "source": "questionnaire_response.314"
           },
           {
-            "last_updated": "2026-07-14T10:50:44.841+02:00",
+            "last_updated": "2026-11-10T11:02:26.839+01:00",
             "source": "health_app"
+          },
+          {
+            "last_updated": "2026-10-19T11:40:04.201+02:00",
+            "source": "manufacturer"
           },
           {
             "last_updated": "2026-02-24T09:18:39.815+01:00",
@@ -493,8 +493,8 @@
           }
         ],
         "data_notice": "Wiedergabe der vom Hersteller übermittelten Angaben",
-        "last_updated_at": "2026-10-19T11:40:04.201+02:00",
-        "notice_text": "Zuletzt aktualisiert am 19.10.2026 um 09:40"
+        "last_updated_at": "2026-11-10T11:02:30.357+01:00",
+        "notice_text": "Zuletzt aktualisiert am 10.11.2026 um 10:02"
       },
       "status": "permanent",
       "status_confidence": "high",
@@ -1773,13 +1773,13 @@
           "localization_confidence": "high",
           "main_section": "Beschreibung der DiGA",
           "question_label": "Kompatibilitätszusagen des Herstellers der DiGA in Bezug auf unterstützte Plattformen und Geräte sowie in Bezug auf erforderliches Zubehör und sonstige Produktbestandteile mit Verweis auf den entsprechenden Abschnitt der Website der DiGA",
-          "raw_text": "Die App unterstützt die Anbindung weiterer Geräte zur Übertragung von Bewegungs- und Körpergewichtsdaten. Es können Daten von Geräten folgender Hersteller eingebunden werden: Fitbit, Garmin, Polar, AppleHealth, Withings, HealthConnect, OmronConnect, Suunto, Oura. Wir raten von der Anbindung von Trackern via Drittapplikationen ab. - Vorsicht: In unseren Tests zeigten eine Reihe von Geräten zur Bewegungs- und Gewichtsmessung hohe Messunterschiede. Entscheidungen auf Basis dieser Daten sind somit potentiell fehlerbehaftet. Bei Fragen zu bestimmten Produkten kontaktieren Sie bitte den Support unter support@zanadio.de Eine aktuelle Liste kompatibler Geräte finden Sie unter: https://zanadio.de/kompatibilitaet/",
+          "raw_text": "Die App unterstützt die Anbindung weiterer Geräte zur Übertragung von Bewegungs- und Körpergewichtsdaten. Es können Daten von Geräten folgender Hersteller eingebunden werden: Garmin, Polar, AppleHealth, Withings, HealthConnect, OmronConnect, Suunto, Oura. Vorsicht: In unseren Tests zeigten eine Reihe von Geräten zur Bewegungs- und Gewichtsmessung hohe Messunterschiede. Entscheidungen auf Basis dieser Daten sind somit potentiell fehlerbehaftet. Bei Fragen zu bestimmten Produkten kontaktieren Sie bitte den Support unter support@zanadio.de Eine aktuelle Liste kompatibler Geräte finden Sie unter: https://zanadio.de/kompatibilitaet/",
           "section_title": "Beschreibung der DiGA",
           "source_area_label": "Beschreibung der DiGA",
           "stable_key": "descriptive-texts|beschreibung-der-diga|beschreibung-der-diga|kompatibilit-tszusagen-des-herstellers-der-diga-in-bezug-auf-unterst-tzte-plattformen-und-ger-te-sowie-in-bezug-auf-erforderliches-zubeh-r-und-sonstige-produktbestandteile-mit-verweis-auf-den-entsprechenden-abschnitt-der-website-der-diga|questionnaire-kompatibilit-tszusagen-des-herstellers-der-diga-in-bezug-auf-unterst-tzte-plattformen-und-ger-te-sowie-in-bezug-auf-erforderliches-zubeh-r-und-sonstige-produktbestandteile-mit-verweis-auf-den-entsprechenden-abschnitt-der-website-der-diga",
           "subsection_title": "Kompatibilitätszusagen des Herstellers der DiGA in Bezug auf unterstützte Plattformen und Geräte sowie in Bezug auf erforderliches Zubehör und sonstige Produktbestandteile mit Verweis auf den entsprechenden Abschnitt der Website der DiGA",
           "tab_label": "Beschreibung der DiGA",
-          "text": "Die App unterstützt die Anbindung weiterer Geräte zur Übertragung von Bewegungs- und Körpergewichtsdaten. Es können Daten von Geräten folgender Hersteller eingebunden werden: Fitbit, Garmin, Polar, AppleHealth, Withings, HealthConnect, OmronConnect, Suunto, Oura. Wir raten von der Anbindung von Trackern via Drittapplikationen ab. - Vorsicht: In unseren Tests zeigten eine Reihe von Geräten zur Bewegungs- und Gewichtsmessung hohe Messunterschiede. Entscheidungen auf Basis dieser Daten sind somit potentiell fehlerbehaftet. Bei Fragen zu bestimmten Produkten kontaktieren Sie bitte den Support unter support@zanadio.de Eine aktuelle Liste kompatibler Geräte finden Sie unter: https://zanadio.de/kompatibilitaet/"
+          "text": "Die App unterstützt die Anbindung weiterer Geräte zur Übertragung von Bewegungs- und Körpergewichtsdaten. Es können Daten von Geräten folgender Hersteller eingebunden werden: Garmin, Polar, AppleHealth, Withings, HealthConnect, OmronConnect, Suunto, Oura. Vorsicht: In unseren Tests zeigten eine Reihe von Geräten zur Bewegungs- und Gewichtsmessung hohe Messunterschiede. Entscheidungen auf Basis dieser Daten sind somit potentiell fehlerbehaftet. Bei Fragen zu bestimmten Produkten kontaktieren Sie bitte den Support unter support@zanadio.de Eine aktuelle Liste kompatibler Geräte finden Sie unter: https://zanadio.de/kompatibilitaet/"
         },
         {
           "accordion_title": "Weitere Informationen",
