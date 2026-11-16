@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-11-15T19:30:53.949697+00:00",
+  "created_at": "2026-11-16T13:16:44.886395+00:00",
   "directory_metrics": {
     "active_count": 63,
-    "calculated_at": "2026-11-15T19:30:53.949697+00:00",
+    "calculated_at": "2026-11-16T13:16:44.886395+00:00",
     "source": "snapshot_entries.status",
     "status_counts": {
       "permanent": 51,
