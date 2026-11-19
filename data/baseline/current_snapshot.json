@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-11-18T21:41:02.235489+00:00",
+  "created_at": "2026-11-19T14:02:52.978354+00:00",
   "directory_metrics": {
     "active_count": 63,
-    "calculated_at": "2026-11-18T21:41:02.235489+00:00",
+    "calculated_at": "2026-11-19T14:02:52.978354+00:00",
     "source": "snapshot_entries.status",
     "status_counts": {
       "permanent": 51,
@@ -238640,7 +238640,7 @@
         "questionnaire.Erhält der Nutzer der digitalen Gesundheitsanwendung alle Informationen, die er für eine Nutzungsentscheidung braucht, bevor Verpflichtungen gegenüber dem Hersteller oder einem Dritten eingegangen werden? (2/2)": "Zutreffend",
         "questionnaire.Funktionen der digitalen Gesundheitsanwendung": "Um einen langfristigen und nachhaltigen Therapieerfolg zu erreichen, zielt INKA darauf ab, das gesundheitsrelevante Verhalten von Patientinnen und Patienten mit Überaktiver Blase in Reinform (N32.8) oder mit Dranginkontinenz (N39.42) positiv zu beeinflussen. Individualisiertes Gesundheitsmanagement durch Selbsttracking und Therapieüberwachung Regelmäßige Dokumentation, Analyse und Visualisierung von relevanten Parametern der OAB, etwa: • Flüssigkeitsmenge • Koffeinkonsums • Medikation und Erstellen eines Medikationsplans • täglichen Miktionen helfen Patientinnen und Patienten beim besseren Verständnis der Krankheit und des Selbstmanagements. Weiterhin bietet die INKA: • Erstellen eines Berichts für die behandelnden Ärtztinnen und Ärzte • Überwachung und Visualisierung des Therapiefortschritts • Bereitstellen leitliniengerechter Fragebögen und Tests Verhaltenstherapie und Education: Die INKA hat ein erprobtes Motivationskonzept zur Steigerung der Adhärenz , welches u.a. folgende Aspekte umfasst: • Motivation durch Visualisierung von Erfolgen mit personalisierten Benachrichtigungen und Erfolgsmitteilungen • Erinnerung an Medikamenteneinnahme • Vermittlung von Harntraktvermeidungsstragien innerhalb eines modularen Blasentrainings • Anleitung zu wissenschaftlich fundiertem, modularen Beckenbodentraining • Leitliniengerechte Wissensvermittlung durch \"e-learning\" • Indikationsspezifische Verhaltensempfehlungen",
         "questionnaire.Hardwarekompatibilität Android-App": "Die Digitale Gesundheitsanwendung INKA ist kompatibel mit den marktüblichen Android-Smartphones.",
-        "questionnaire.Hardwarekompatibilität iOS-App": "Die Digitale Gesundheitsanwendung INKA ist kompatibel mit den marktüblichen Apple-Smartphones, d.h. iPhone 6 und aufwärts.",
+        "questionnaire.Hardwarekompatibilität iOS-App": "Die Digitale Gesundheitsanwendung INKA ist kompatibel mit den marktüblichen Apple-Smartphones.",
         "questionnaire.Hat der Hersteller der digitalen Gesundheitsanwendung alle Personen, die aus ihrer Tätigkeit heraus Zugang zu personenbezogenen Daten haben, auf die Verschwiegenheit verpflichtet?": "Zutreffend",
         "questionnaire.Hat der Hersteller der digitalen Gesundheitsanwendung ein Verfahren zur regelmäßigen Überprüfung, Bewertung und Evaluierung der Wirksamkeit der technischen und organisatorischen Maßnahmen zur Gewährleistung der Sicherheit der Verarbeitung umgesetzt, mit dem alle im Zusammenhang mit der digitalen Gesundheitsanwendung eingesetzten Systeme und Prozesse erfasst sind?": "Zutreffend",
         "questionnaire.Hat der Hersteller der digitalen Gesundheitsanwendung für die digitalen Gesundheitsanwendung eine Datenschutz-Folgenabschätzung durchgeführt und die hierbei durchgeführte Risikoanalyse in die dokumentierten Prozesse eines Risikomanagements überführt, nach dem eine kontinuierliche Neubewertung von Bedrohungen und Risiken erfolgt?": "Zutreffend",
@@ -238668,7 +238668,7 @@
         "questionnaire.Kann die betroffene Person erteilte Einwilligungen einfach, barrierefrei, jederzeit und auf einem einfach verständlichen Weg mit Wirkung für die Zukunft widerrufen?": "Zutreffend",
         "questionnaire.Kann die betroffene Person vom Hersteller der digitalen Gesundheitsanwendung Auskunft zu den über sie gespeicherten personenbezogenen Daten in dem in Artikel 15 der Verordnung (EU) 2016/679 festgelegten Umfang erhalten?": "Zutreffend",
         "questionnaire.Kann die betroffene Person vom Hersteller der digitalen Gesundheitsanwendung die Berichtigung von sie betreffenden unrichtigen personenbezogenen Daten und die Vervollständigung von sie betreffenden unvollständigen personenbezogenen Daten verlangen?": "Zutreffend",
-        "questionnaire.Kompatibilitätszusagen des Herstellers der DiGA in Bezug auf unterstützte Plattformen und Geräte sowie in Bezug auf erforderliches Zubehör und sonstige Produktbestandteile mit Verweis auf den entsprechenden Abschnitt der Website der DiGA": "Android: Version 10 oder höher Apple: iOS 15 oder höher https://www.meine-inka.de/kompatibilitaet/",
+        "questionnaire.Kompatibilitätszusagen des Herstellers der DiGA in Bezug auf unterstützte Plattformen und Geräte sowie in Bezug auf erforderliches Zubehör und sonstige Produktbestandteile mit Verweis auf den entsprechenden Abschnitt der Website der DiGA": "Android: Version 14 oder höher Apple: iOS 26 oder höher https://www.meine-inka.de/kompatibilitaet/",
         "questionnaire.Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage": "670,49 €",
         "questionnaire.Kurzfassung zum vorliegenden oder geplanten Nachweis des positiven Versorgungseffektes nach PICO-Schema": "Titel der Studie: Offene, kontrollierte, randomisierte, multizentrische Studie zum Nachweis der Wirkung des digitalen Therapiebegleiters INKA auf die Symptome der überaktiven Blase (mit oder ohne Harninkontinenz) Patientinnen und Patienten/Population: Männer und Frauen ≥ 18 Jahre mit folgenden Indikationsgebieten: Überaktive Blase mit oder ohne Harninkontinenz (ICD Code N.32.8), Dranginkontinenz (ICD Code N39.42) oder Mischinkontinenz, sofern die überaktive Blase das vorherrschende Symptom ist (ICD Codes N32.8 + N39.3; N39.42 + N39.3). Intervention: 12-wöchige Nutzung der App INKA als personalisierten Therapiebegleiter Comparison (Kontrolle): Keine zusätzliche Nutzung der App INKA Outcome: Nachweis der Reduktion der durchschnittlichen Anzahl der täglichen Miktionen anhand des Blasenprotokolls. Nachweis der Verbesserung der Krankheitssymptome im ICIQ-OAB. Nachweis der Verbesserung der Lebensqualität im ICIQ-OABqol.",
         "questionnaire.Kurzfassung zum vorliegenden oder geplanten Nachweis des positiven Versorgungseffektes nach PICO-Schema (Patienteninformation)": "Titel der Studie: Offene, kontrollierte, randomisierte, multizentrische Studie zum Nachweis der Wirkung des digitalen Therapiebegleiters INKA auf die Symptome der überaktiven Blase (mit oder ohne Harninkontinenz) Patientinnen und Patienten/Population: Männer und Frauen ≥ 18 Jahre mit folgenden Indikationsgebieten: Überaktive Blase mit oder ohne Harninkontinenz (ICD Code N.32.8), Dranginkontinenz (ICD Code N39.42) oder Mischinkontinenz, sofern die überaktive Blase das vorherrschende Symptom ist (ICD Codes N32.8 + N39.3; N39.42 + N39.3). Intervention: 12-wöchige Nutzung der App INKA als personalisierten Therapiebegleiter Comparison (Kontrolle): Keine zusätzliche Nutzung der App INKA Outcome: Nachweis der Reduktion der durchschnittlichen Anzahl der täglichen Miktionen anhand des Blasenprotokolls. Nachweis der Verbesserung der Krankheitssymptome im ICIQ-OAB. Nachweis der Verbesserung der Lebensqualität im ICIQ-OABqol.",
@@ -238702,8 +238702,8 @@
         "questionnaire.Sind die Nutzungskonditionen der digitalen Gesundheitsanwendung verbraucherfreundlich gestaltet? (3/3)": "Zutreffend",
         "questionnaire.Sind die für die Herstellung der Interoperabilität der digitalen Gesundheitsanwendung genutzten Standards und Profile veröffentlicht und können diskriminierungsfrei genutzt werden?": "Zutreffend",
         "questionnaire.Sind die über die digitale Gesundheitsanwendung verarbeiteten personenbezogenen Daten dem Zweck angemessen sowie auf das für die Zwecke der Verarbeitung notwendige Maß beschränkt?": "Zutreffend",
-        "questionnaire.Softwarekompatibilität Android-App": "Android Version 10.x und höher",
-        "questionnaire.Softwarekompatibilität iOS-App": "iOS 15.x und höher",
+        "questionnaire.Softwarekompatibilität Android-App": "Android Version 14 oder höher",
+        "questionnaire.Softwarekompatibilität iOS-App": "iOS 26 oder höher",
         "questionnaire.Sprachversionen": "Deutsch",
         "questionnaire.Standorte der Datenverarbeitung": "Deutschland",
         "questionnaire.Stellt der Hersteller der digitalen Gesundheitsanwendung Mechanismen bereit, über die die betroffene Person aus der digitalen Gesundheitsanwendung heraus das Recht auf Datenportabilität wahrnehmen und die von ihr, der betroffenen Person, der digitalen Gesundheitsanwendung bereitgestellten, sie betreffenden personenbezogenen Daten in einem geeigneten Format abrufen beziehungsweise in eine andere digitale Gesundheitsanwendung überführen kann?": "Zutreffend",
@@ -238811,24 +238811,24 @@
       "source_update_notice": {
         "checked_sources": [
           {
+            "last_updated": "2026-11-19T10:31:19.196+01:00",
+            "source": "questionnaire_response.758"
+          },
+          {
+            "last_updated": "2026-11-19T10:31:15.986+01:00",
+            "source": "module.755"
+          },
+          {
+            "last_updated": "2026-11-19T10:31:15.863+01:00",
+            "source": "health_app"
+          },
+          {
             "last_updated": "2026-10-19T11:23:42.471+02:00",
             "source": "manufacturer"
           },
           {
-            "last_updated": "2026-04-21T09:59:05.887+02:00",
-            "source": "questionnaire_response.758"
-          },
-          {
             "last_updated": "2026-04-21T09:59:04.268+02:00",
             "source": "prescription_unit.756"
-          },
-          {
-            "last_updated": "2026-04-21T09:59:03.611+02:00",
-            "source": "health_app"
-          },
-          {
-            "last_updated": "2026-02-03T19:09:19.717+01:00",
-            "source": "module.755"
           },
           {
             "last_updated": "2026-02-03T16:46:08.707+01:00",
@@ -238836,8 +238836,8 @@
           }
         ],
         "data_notice": "Wiedergabe der vom Hersteller übermittelten Angaben",
-        "last_updated_at": "2026-10-19T11:23:42.471+02:00",
-        "notice_text": "Zuletzt aktualisiert am 19.10.2026 um 09:23"
+        "last_updated_at": "2026-11-19T10:31:19.196+01:00",
+        "notice_text": "Zuletzt aktualisiert am 19.11.2026 um 09:31"
       },
       "status": "provisional",
       "status_confidence": "high",
@@ -239476,13 +239476,13 @@
           "localization_confidence": "high",
           "main_section": "Beschreibung der DiGA",
           "question_label": "Hardwarekompatibilität iOS-App",
-          "raw_text": "Die Digitale Gesundheitsanwendung INKA ist kompatibel mit den marktüblichen Apple-Smartphones, d.h. iPhone 6 und aufwärts.",
+          "raw_text": "Die Digitale Gesundheitsanwendung INKA ist kompatibel mit den marktüblichen Apple-Smartphones.",
           "section_title": "Beschreibung der DiGA",
           "source_area_label": "Beschreibung der DiGA",
           "stable_key": "descriptive-texts|beschreibung-der-diga|beschreibung-der-diga|hardwarekompatibilit-t-ios-app|questionnaire-hardwarekompatibilit-t-ios-app",
           "subsection_title": "Hardwarekompatibilität iOS-App",
           "tab_label": "Beschreibung der DiGA",
-          "text": "Die Digitale Gesundheitsanwendung INKA ist kompatibel mit den marktüblichen Apple-Smartphones, d.h. iPhone 6 und aufwärts."
+          "text": "Die Digitale Gesundheitsanwendung INKA ist kompatibel mit den marktüblichen Apple-Smartphones."
         },
         {
           "accordion_title": "Beschreibung der DiGA",
@@ -239924,13 +239924,13 @@
           "localization_confidence": "high",
           "main_section": "Beschreibung der DiGA",
           "question_label": "Kompatibilitätszusagen des Herstellers der DiGA in Bezug auf unterstützte Plattformen und Geräte sowie in Bezug auf erforderliches Zubehör und sonstige Produktbestandteile mit Verweis auf den entsprechenden Abschnitt der Website der DiGA",
-          "raw_text": "Android: Version 10 oder höher Apple: iOS 15 oder höher https://www.meine-inka.de/kompatibilitaet/",
+          "raw_text": "Android: Version 14 oder höher Apple: iOS 26 oder höher https://www.meine-inka.de/kompatibilitaet/",
           "section_title": "Beschreibung der DiGA",
           "source_area_label": "Beschreibung der DiGA",
           "stable_key": "descriptive-texts|beschreibung-der-diga|beschreibung-der-diga|kompatibilit-tszusagen-des-herstellers-der-diga-in-bezug-auf-unterst-tzte-plattformen-und-ger-te-sowie-in-bezug-auf-erforderliches-zubeh-r-und-sonstige-produktbestandteile-mit-verweis-auf-den-entsprechenden-abschnitt-der-website-der-diga|questionnaire-kompatibilit-tszusagen-des-herstellers-der-diga-in-bezug-auf-unterst-tzte-plattformen-und-ger-te-sowie-in-bezug-auf-erforderliches-zubeh-r-und-sonstige-produktbestandteile-mit-verweis-auf-den-entsprechenden-abschnitt-der-website-der-diga",
           "subsection_title": "Kompatibilitätszusagen des Herstellers der DiGA in Bezug auf unterstützte Plattformen und Geräte sowie in Bezug auf erforderliches Zubehör und sonstige Produktbestandteile mit Verweis auf den entsprechenden Abschnitt der Website der DiGA",
           "tab_label": "Beschreibung der DiGA",
-          "text": "Android: Version 10 oder höher Apple: iOS 15 oder höher https://www.meine-inka.de/kompatibilitaet/"
+          "text": "Android: Version 14 oder höher Apple: iOS 26 oder höher https://www.meine-inka.de/kompatibilitaet/"
         },
         {
           "accordion_title": "Weitere Informationen",
@@ -240468,13 +240468,13 @@
           "localization_confidence": "high",
           "main_section": "Beschreibung der DiGA",
           "question_label": "Softwarekompatibilität Android-App",
-          "raw_text": "Android Version 10.x und höher",
+          "raw_text": "Android Version 14 oder höher",
           "section_title": "Beschreibung der DiGA",
           "source_area_label": "Beschreibung der DiGA",
           "stable_key": "descriptive-texts|beschreibung-der-diga|beschreibung-der-diga|softwarekompatibilit-t-android-app|questionnaire-softwarekompatibilit-t-android-app",
           "subsection_title": "Softwarekompatibilität Android-App",
           "tab_label": "Beschreibung der DiGA",
-          "text": "Android Version 10.x und höher"
+          "text": "Android Version 14 oder höher"
         },
         {
           "accordion_title": "Beschreibung der DiGA",
@@ -240484,13 +240484,13 @@
           "localization_confidence": "high",
           "main_section": "Beschreibung der DiGA",
           "question_label": "Softwarekompatibilität iOS-App",
-          "raw_text": "iOS 15.x und höher",
+          "raw_text": "iOS 26 oder höher",
           "section_title": "Beschreibung der DiGA",
           "source_area_label": "Beschreibung der DiGA",
           "stable_key": "descriptive-texts|beschreibung-der-diga|beschreibung-der-diga|softwarekompatibilit-t-ios-app|questionnaire-softwarekompatibilit-t-ios-app",
           "subsection_title": "Softwarekompatibilität iOS-App",
           "tab_label": "Beschreibung der DiGA",
-          "text": "iOS 15.x und höher"
+          "text": "iOS 26 oder höher"
         },
         {
           "accordion_title": "Beschreibung der DiGA",
