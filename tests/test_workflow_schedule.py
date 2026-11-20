@@ -12,7 +12,7 @@ class WorkflowScheduleTests(unittest.TestCase):
         self.assertIn("workflow_dispatch:", workflow)
         self.assertIn("repository_dispatch:", workflow)
         self.assertIn("types: [scheduled-scan]", workflow)
-        self.assertIn('cron: "0 6,9,12,15,18 * * *"', workflow)
+        self.assertIn('cron: "13 * * * *"', workflow)
         self.assertIn('timezone: "Europe/Zurich"', workflow)
 
     def test_concurrency_and_r2_configuration(self) -> None:
