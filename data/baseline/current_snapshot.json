@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-11-19T23:22:08.380459+00:00",
+  "created_at": "2026-11-20T13:45:38.153426+00:00",
   "directory_metrics": {
     "active_count": 63,
-    "calculated_at": "2026-11-19T23:22:08.380459+00:00",
+    "calculated_at": "2026-11-20T13:45:38.153426+00:00",
     "source": "snapshot_entries.status",
     "status_counts": {
       "permanent": 51,
@@ -181660,6 +181660,14 @@
       "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/02078",
       "change_history": [
         {
+          "date": "2026-11-20",
+          "remark": "Der Preis der Verordnungseinheit mebix 001 hat sich rückwirkend zum 14.07.2024 von 499,00 € zu 0,00 € geändert.",
+          "text": "2026-11-20 Preisänderung Der Preis der Verordnungseinheit mebix 001 hat sich rückwirkend zum 14.07.2024 von 499,00 € zu 0,00 € geändert.",
+          "title": "Preisänderung",
+          "type": "generic",
+          "type_display": "Generischer Eintrag"
+        },
+        {
           "date": "2025-07-14",
           "remark": "Die digitale Gesundheitsanwendung (DiGA) wurde am 14.07.2025 nach Prüfung der Nachweise für positive Versorgungseffekte aus dem Verzeichnis gemäß § 139e Absatz 4 Satz 8 des Fünften Buches Sozialgesetzbuch (SGB V) gestrichen. Für die DiGA konnte kein positiver Versorgungseffekt nachgewiesen werden.",
           "text": "2025-07-14 Status der Listung ist „Gestrichen“ Die digitale Gesundheitsanwendung (DiGA) wurde am 14.07.2025 nach Prüfung der Nachweise für positive Versorgungseffekte aus dem Verzeichnis gemäß § 139e Absatz 4 Satz 8 des Fünften Buches Sozialgesetzbuch (SGB V) gestrichen. Für die DiGA konnte kein positiver Versorgungseffekt nachgewiesen werden.",
@@ -181769,7 +181777,7 @@
         "questionnaire.Kann die betroffene Person vom Hersteller der digitalen Gesundheitsanwendung die Berichtigung von sie betreffenden unrichtigen personenbezogenen Daten und die Vervollständigung von sie betreffenden unvollständigen personenbezogenen Daten verlangen?": "Zutreffend",
         "questionnaire.Kann sich der Versicherte ausschließlich innerhalb der Vertrauensdomäne der digitalen Gesundheitsanwendung bewegen bzw. können aus der digitalen Gesundheitsanwendung heraus nur vertrauenswürdige, durch den Hersteller der digitalen Gesundheitsanwendung geprüfte externe Inhalte genutzt werden und wird der Versicherte in diesem Fall informiert, wenn die Vertrauensdomäne der digitalen Gesundheitsanwendung verlassen wird?": "Zutreffend",
         "questionnaire.Kompatibilitätszusagen des Herstellers der DiGA in Bezug auf unterstützte Plattformen und Geräte sowie in Bezug auf erforderliches Zubehör und sonstige Produktbestandteile mit Verweis auf den entsprechenden Abschnitt der Website der DiGA": "Android: mebix ist mit Android-Geräten der Softwareversion 10 aufwärts kompatibel. Auf Android Geräten ist ein vorinstallierter Google Play Store nötig. Die Google Fit App ist hilfreich, um Schritte zu synchronisieren. - iOS: mebix ist mit iOS-Geräten (iPhone) der Softwareversion iOS 14 aufwärts kompatibel. - Kompatibilität mit Geräten: mebix verwendet zur Erfassung externer Daten (in unserem Fall nur „Schritte“) die Smartphone-interne Schrittzähler-Funktion, um eine möglichst niedrige technische Hürde für die Nutzerinnen und Nutzer zu gewährleisten. Weitere Informationen befinden sich in der Gebrauchsanweisung unter „Installation - Mindestanforderung an IT- und Nutzungsumgebung“: https://www.mebix.de/app/gebrauchsanweisung bzw. im Bereich Interoperabilität: https://www.mebix.de/app/interoperabilitaet",
-        "questionnaire.Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage": "499,00 €",
+        "questionnaire.Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage": "0,00 €",
         "questionnaire.Kurzfassung zum vorliegenden oder geplanten Nachweis des positiven Versorgungseffektes nach PICO-Schema": "Patient: Patientinnen und Patienten mit Typ-2-Diabetes Intervention: Anwendung von mebix als Teil des Diabetes-Managements Vergleich: Vergleich der Daten, die während der Nutzung von mebix in der Interventionsgruppe gewonnen wurden, mit den Daten einer randomisierten Kontrollgruppe, die eine Placebo-App nutzt Ergebnis: Veränderungen des HbA1c-Wertes",
         "questionnaire.Kurzfassung zum vorliegenden oder geplanten Nachweis des positiven Versorgungseffektes nach PICO-Schema (Patienteninformation)": "Patient: Patientinnen und Patienten mit Typ-2-Diabetes Intervention: Anwendung von mebix als Teil des Diabetes-Managements Vergleich: Anwendung einer Placebo-App als Teil des Diabetes-Managements Ergebnis: Veränderungen des HbA1c-Wertes",
         "questionnaire.Medizinische Zweckbestimmung entsprechend den Angaben des Herstellers auf der Kennzeichnung, in der Gebrauchsanweisung oder dem Werbe- oder Verkaufsmaterial bzw. den Werbe- oder Verkaufsangaben": "Die mebix App unterstützt und befähigt Patientinnen und Patienten mit Diabetes mellitus, einer Herz-Kreislauf-Erkrankung und/oder Adipositas im Selbstmanagement ihrer chronischen Krankheit. Ziel ist eine Lebensstiländerung und damit eine Modifikation von Risikofaktoren herbeizuführen. Im Selbstmanagement müssen Patientinnen und Patienten lernen sich therapeutische Ziele zu setzen und durch geeignete Maßnahmen (z. B. Aktivität/Bewegung, Ernährung) diese Ziele zu erreichen. Dazu sind anerkannte Leitlinien in die App so implementiert worden, dass die Patientin/der Patient eine konkrete Handlungsanleitung für die nächsten Tage, Monate und Jahre erhält. Dies erfolgt in Form von regelmäßiger krankheitsspezifischer Wissensvermittlung mit Umsetzungsempfehlungen, Erinnerungen und Motivationen für den Alltag, gebündelt mit Wissenstests. In zeitlich getakteten Intervallen werden nach und nach Übungsaufgaben vorgeschlagen (z. B. Anlegen eines Bewegungsplans, Festlegung von individuell erreichbaren Gesundheitszielen, Protokollierung von Vitalwerten und aufgenommenen Nahrungsmitteln, Finden von gesünderen Nahrungsalternativen usw.). Dadurch wird eine gezielte Integration in die Lebenswelt der Patientin/des Patienten ermöglicht ohne diese zu überfordern. - Tägliches, wöchentliches und quartalsweises Feedback zeigen der Patientin/dem Patienten Erfolge bzw. Optimierungspotenzial auf ohne in die therapeutischen Hoheitsgebiete der Ärztinnen und Ärzte einzugreifen. Das Feedback erfolgt in allgemeiner Form z. B. „zu viel Zucker“ oder „Sie trinken zu wenig“. Das Feedback wird von allgemein gültigen Grenz- und Richtwerten abgeleitet. Bei Grenzüberschreitungen und anderen Auffälligkeiten wird der Patientin/ dem Patienten empfohlen, die Ärztin oder den Arzt vor Ort oder über einen telemedizinischen Zugang zu konsultieren. Die Inhalte der App werden von medizinischen Expertinnen und Experten fortlaufend aktualisiert und ergänzt.",
@@ -181832,7 +181840,7 @@
         "questionnaire.Veröffentlicht der Hersteller die medizinische Zweckbestimmung der digitalen Gesundheitsanwendung?": "Zutreffend",
         "questionnaire.Website des Herstellers für technischen Support der DiGA": "www.mebix.de/support",
         "questionnaire.Website mit Informationen zum Hersteller der DiGA": "https://www.mebix.de/app/impressum",
-        "questionnaire.Weitere Nutzung der DiGA für zusätzliche 90 Tage": "499,00 €",
+        "questionnaire.Weitere Nutzung der DiGA für zusätzliche 90 Tage": "0,00 €",
         "questionnaire.Werbe- oder Informationswebsite zur digitalen Gesundheitsanwendung": "https://www.mebix.de",
         "questionnaire.Werden Protokollierungsdaten automatisiert ausgewertet, um sicherheitsrelevante Ereignisse zu erkennen bzw. proaktiv zu verhindern?": "Zutreffend",
         "questionnaire.Werden alle Berechtigungen initial und per default restriktiv zugewiesen und können Berechtigungen ausschließlich über kontrollierte Verfahren ausgeweitet werden, die bei Änderungen der Berechtigungen für Betriebspersonal des Herstellers einer digitalen Gesundheitsanwendung wirksame Prüf- und Kontrollmechanismen nach einem Mehraugenprinzip beinhalten?": "Zutreffend",
@@ -181863,7 +181871,7 @@
       "pricing_information": [
         {
           "effective_period": {
-            "end": "2025-07-14",
+            "end": "2024-07-13",
             "start": "2023-07-14"
           },
           "price_components": [
@@ -181904,6 +181912,66 @@
             "Herstellerpreis"
           ],
           "title": "mebix 001"
+        },
+        {
+          "effective_period": {
+            "end": "2025-07-14",
+            "start": "2024-07-14"
+          },
+          "price_components": [
+            {
+              "extension": [
+                {
+                  "extension": [
+                    {
+                      "url": "required",
+                      "valueBoolean": false
+                    }
+                  ],
+                  "url": "https://fhir.bfarm.de/StructureDefinition/HealthAppPrescriptionUnitPropertyGroupNonRefundable"
+                }
+              ],
+              "priceComponent": [
+                {
+                  "amount": {
+                    "currency": "EUR",
+                    "value": 0
+                  },
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "publisher-price",
+                        "display": "Herstellerpreis",
+                        "system": "https://fhir.bfarm.de/CodeSystem/HealthAppPriceCode"
+                      }
+                    ]
+                  },
+                  "type": "informational"
+                },
+                {
+                  "amount": {
+                    "currency": "EUR",
+                    "value": 0
+                  },
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "maximum-amount",
+                        "display": "Vergütungs- / Höchstbetrag",
+                        "system": "https://fhir.bfarm.de/CodeSystem/HealthAppPriceCode"
+                      }
+                    ]
+                  },
+                  "type": "informational"
+                }
+              ]
+            }
+          ],
+          "text": [
+            "EUR",
+            "Herstellerpreis"
+          ],
+          "title": "mebix 001"
         }
       ],
       "raw_public_fhir": {
@@ -181913,22 +181981,27 @@
           "75"
         ],
         "prescription_unit_ids": [
-          "76"
+          "76",
+          "1252"
         ]
       },
       "source_update_notice": {
         "checked_sources": [
           {
-            "last_updated": "2026-10-19T11:24:32.659+02:00",
+            "last_updated": "2026-11-20T13:41:12.800+01:00",
             "source": "questionnaire_response.78"
           },
           {
-            "last_updated": "2026-10-19T11:24:31.293+02:00",
-            "source": "prescription_unit.76"
+            "last_updated": "2026-11-20T13:41:11.564+01:00",
+            "source": "catalog_entry"
           },
           {
-            "last_updated": "2025-10-06T23:26:20.575+02:00",
-            "source": "catalog_entry"
+            "last_updated": "2026-11-20T13:41:11.458+01:00",
+            "source": "prescription_unit.1252"
+          },
+          {
+            "last_updated": "2026-11-20T13:41:11.262+01:00",
+            "source": "prescription_unit.76"
           },
           {
             "last_updated": "2025-10-06T23:26:20.462+02:00",
@@ -181944,8 +182017,8 @@
           }
         ],
         "data_notice": "Wiedergabe der vom Hersteller übermittelten Angaben",
-        "last_updated_at": "2026-10-19T11:24:32.659+02:00",
-        "notice_text": "Zuletzt aktualisiert am 19.10.2026 um 09:24"
+        "last_updated_at": "2026-11-20T13:41:12.800+01:00",
+        "notice_text": "Zuletzt aktualisiert am 20.11.2026 um 12:41"
       },
       "status": "removed",
       "status_confidence": "high",
@@ -183304,13 +183377,13 @@
           "localization_confidence": "high",
           "main_section": "Weitere Informationen",
           "question_label": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
-          "raw_text": "499,00 €",
+          "raw_text": "0,00 €",
           "section_title": "Weitere Informationen",
           "source_area_label": "Weitere Informationen",
           "stable_key": "descriptive-texts|weitere-informationen|weitere-informationen|kosten-z-b-starterpaket-ohne-hardware-f-r-90-tage|questionnaire-kosten-z-b-starterpaket-ohne-hardware-f-r-90-tage",
           "subsection_title": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
           "tab_label": "Weitere Informationen",
-          "text": "499,00 €"
+          "text": "0,00 €"
         },
         {
           "accordion_title": "Informationen zum positiven Versorgungseffekt",
@@ -184312,13 +184385,13 @@
           "localization_confidence": "high",
           "main_section": "Weitere Informationen zur digitalen Gesundheitsanwendung",
           "question_label": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
-          "raw_text": "499,00 €",
+          "raw_text": "0,00 €",
           "section_title": "Weitere Informationen zur digitalen Gesundheitsanwendung",
           "source_area_label": "Weitere Informationen zur digitalen Gesundheitsanwendung",
           "stable_key": "descriptive-texts|weitere-informationen-zur-digitalen-gesundheitsanwendung|weitere-informationen-zur-digitalen-gesundheitsanwendung|weitere-nutzung-der-diga-f-r-zus-tzliche-90-tage|questionnaire-weitere-nutzung-der-diga-f-r-zus-tzliche-90-tage",
           "subsection_title": "Weitere Nutzung der DiGA für zusätzliche 90 Tage",
           "tab_label": "Weitere Informationen zur digitalen Gesundheitsanwendung",
-          "text": "499,00 €"
+          "text": "0,00 €"
         },
         {
           "accordion_title": "Beschreibung der DiGA",
