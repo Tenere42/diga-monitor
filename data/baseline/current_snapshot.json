@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-11-25T01:12:53.073520+00:00",
+  "created_at": "2026-11-25T15:13:14.210166+00:00",
   "directory_metrics": {
     "active_count": 63,
-    "calculated_at": "2026-11-25T01:12:53.073520+00:00",
+    "calculated_at": "2026-11-25T15:13:14.210166+00:00",
     "source": "snapshot_entries.status",
     "status_counts": {
       "permanent": 51,
@@ -216933,7 +216933,7 @@
       ],
       "descriptive_texts": {
         "health_app.onlineInformation": "https://oviva.com/de/de/direkt-bluthochdruck/",
-        "questionnaire.Angabe Erprobungszeitraum (höchstens 12 Monate)": "12 Monate",
+        "questionnaire.Angabe Erprobungszeitraum (höchstens 12 Monate)": "21 Monate (12 Monate initial, 9 Monate Verlängerung)",
         "questionnaire.Angaben zu der vom Hersteller für erforderlich gehaltenen Mindestdauer der Nutzung": "Als multimodale Lebensstilintervention unterstützt Oviva Direkt Bluthochdruck Menschen bei der langfristigen Veränderung ihrer Gewohnheiten. Entsprechend wird als Mindestdauer der Nutzung 6 Monate angesetzt, wobei eine Nutzung für 12 Monate dringend empfohlen wird.",
         "questionnaire.Angaben zum positiven Versorgungseffekt": "Medizinischer Nutzen",
         "questionnaire.Angaben zur Herstellung von Datenportabilität und semantischer und technischer Interoperabilität der in der digitalen Gesundheitsanwendung genutzten Standards und Profile": "Oviva Direkt verwendet für die Herstellung der Interoperabilität der digitalen Gesundheitsanwendung folgenden Standard: MIO DiGA Toolkit, Urheber: Kassenärztlichen Bundesvereinigung (KBV), Version: 1.1.0. Für den maschinenlesbaren Export wird der Standard MIO DiGA Toolkit (1.1.0) mit den Basisprofilen DE genutzt Für Daten ohne bestehende Kodierung wurde das CodeSystem und das ValueSet auf https://simplifier.net/oviva defniert. Der menschenlesbare Export wird als PDF zur Verfügung gestellt. Das PDF enthält u.a. Informationen zum Patientenprofil, dem Verlauf aller erfassten Werte (wie z.B. Blutdruck oder Gewicht) sowie dem Verlauf der vom Patienten erfassten Logs (wie z.B. Essens-Logs). Die App unterstützt die optionale Anbindung weiterer Anwendungen zur Übertragung von Gesundheitsdaten über Apple Health & Google Fit. Zusätzlich ist eine Anbindung von Wearables via Bluetooth basierend auf den Standards der Bluetooth SIG und ISO/IEEE 11073 an die Oviva Direkt App möglich. Die DiGA ermöglicht zudem auf Wunsch des Versicherten einen manuellen oder automatisierten Export in die elektronische Patientenakte (ePA) Version 3.0. Mehr Informationen unter: https://oviva.com/de/de/direkt/oviva-direkt-rechtliche-hinweise-bluthochdruck/",
@@ -216956,7 +216956,7 @@
         "questionnaire.Bitte geben Sie hier einen Steckbrief zu Ihrer DiGA ein:": "Oviva Direkt Bluthochdruck ist eine App-basierte, leitliniengerechte Therapie für Menschen mit Bluthochdruck. Die DiGA begleitet sie nachhaltig dabei, das Verhalten hin zu einem gesunden Lebensstil zu verändern. Dabei nutzt die DiGA eine KI-gestützte Analyse und Bewertung des individuellen Gesundheitsverhaltens, ergänzt durch krankheitsbezogene Wissensvermittlung sowie verhaltensbezogene Feedbackprozesse. Als Lebensstilintervention bildet sie die Grundlage der Behandlung und kann therapiebegleitend angewendet werden. Eine gleichzeitige Anwendung beispielsweise mit einer medikamentösen Behandlung, ist möglich und kann je nach individueller Indikation sinnvoll kombiniert werden.",
         "questionnaire.Datum des Beginns der Listung im Verzeichnis": "2026-01-19",
         "questionnaire.Datum des Beginns des Erprobungszeitraumes": "2026-01-19",
-        "questionnaire.Datum des Endes des Erprobungszeitraumes": "2027-01-18",
+        "questionnaire.Datum des Endes des Erprobungszeitraumes": "2027-10-18",
         "questionnaire.Die Verarbeitung personenbezogener Daten durch die digitale Gesundheitsanwendung und deren Hersteller unterfällt der Verordnung (EU) 2016/679 sowie ggf. weiteren Datenschutzregelungen.": "Zutreffend",
         "questionnaire.Die digitale Gesundheitsanwendung enthält ein diagnostisches Instrument": "Nein",
         "questionnaire.Die digitale Gesundheitsanwendung ist verfügbar": "im Apple App Store Deutschland im Google Play Store Deutschland",
@@ -217137,8 +217137,12 @@
       "source_update_notice": {
         "checked_sources": [
           {
-            "last_updated": "2026-05-22T09:38:23.384+02:00",
+            "last_updated": "2026-11-25T08:27:05.094+01:00",
             "source": "questionnaire_response.665"
+          },
+          {
+            "last_updated": "2026-11-25T08:27:03.338+01:00",
+            "source": "catalog_entry"
           },
           {
             "last_updated": "2026-04-21T09:28:30.030+02:00",
@@ -217153,17 +217157,13 @@
             "source": "health_app"
           },
           {
-            "last_updated": "2026-01-19T10:41:13.270+01:00",
-            "source": "catalog_entry"
-          },
-          {
             "last_updated": "2026-01-19T10:41:13.046+01:00",
             "source": "module.662"
           }
         ],
         "data_notice": "Wiedergabe der vom Hersteller übermittelten Angaben",
-        "last_updated_at": "2026-05-22T09:38:23.384+02:00",
-        "notice_text": "Zuletzt aktualisiert am 22.05.2026 um 07:38"
+        "last_updated_at": "2026-11-25T08:27:05.094+01:00",
+        "notice_text": "Zuletzt aktualisiert am 25.11.2026 um 07:27"
       },
       "status": "provisional",
       "status_confidence": "high",
@@ -217194,13 +217194,13 @@
           "localization_confidence": "high",
           "main_section": "Informationen zum positiven Versorgungseffekt",
           "question_label": "Angabe Erprobungszeitraum (höchstens 12 Monate)",
-          "raw_text": "12 Monate",
+          "raw_text": "21 Monate (12 Monate initial, 9 Monate Verlängerung)",
           "section_title": "Informationen zum positiven Versorgungseffekt",
           "source_area_label": "Informationen zum positiven Versorgungseffekt",
           "stable_key": "descriptive-texts|informationen-zum-positiven-versorgungseffekt|informationen-zum-positiven-versorgungseffekt|angabe-erprobungszeitraum-h-chstens-12-monate|questionnaire-angabe-erprobungszeitraum-h-chstens-12-monate",
           "subsection_title": "Angabe Erprobungszeitraum (höchstens 12 Monate)",
           "tab_label": "Informationen zum positiven Versorgungseffekt",
-          "text": "12 Monate"
+          "text": "21 Monate (12 Monate initial, 9 Monate Verlängerung)"
         },
         {
           "accordion_title": "Weitere Informationen zur digitalen Gesundheitsanwendung",
@@ -217562,13 +217562,13 @@
           "localization_confidence": "high",
           "main_section": "Informationen zum positiven Versorgungseffekt",
           "question_label": "Datum des Endes des Erprobungszeitraumes",
-          "raw_text": "2027-01-18",
+          "raw_text": "2027-10-18",
           "section_title": "Informationen zum positiven Versorgungseffekt",
           "source_area_label": "Informationen zum positiven Versorgungseffekt",
           "stable_key": "descriptive-texts|informationen-zum-positiven-versorgungseffekt|informationen-zum-positiven-versorgungseffekt|datum-des-endes-des-erprobungszeitraumes|questionnaire-datum-des-endes-des-erprobungszeitraumes",
           "subsection_title": "Datum des Endes des Erprobungszeitraumes",
           "tab_label": "Informationen zum positiven Versorgungseffekt",
-          "text": "2027-01-18"
+          "text": "2027-10-18"
         },
         {
           "accordion_title": "Informationen zu Datenschutz und Datensicherheit",
