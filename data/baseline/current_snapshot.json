@@ -1,8 +1,8 @@
 {
-  "created_at": "2026-11-27T00:55:03.918409+00:00",
+  "created_at": "2026-11-27T14:32:07.191742+00:00",
   "directory_metrics": {
     "active_count": 63,
-    "calculated_at": "2026-11-27T00:55:03.918409+00:00",
+    "calculated_at": "2026-11-27T14:32:07.191742+00:00",
     "source": "snapshot_entries.status",
     "status_counts": {
       "permanent": 51,
@@ -184703,6 +184703,14 @@
       "bfarm_directory_url": "https://diga.bfarm.de/de/verzeichnis/02090",
       "change_history": [
         {
+          "date": "2026-11-27",
+          "remark": "Der Preis der Verordnungseinheit glucura 001 hat sich rückwirkend zum 11.01.2025 von 499,80 € zu 268,67 € geändert.",
+          "text": "2026-11-27 Preisänderung Der Preis der Verordnungseinheit glucura 001 hat sich rückwirkend zum 11.01.2025 von 499,80 € zu 268,67 € geändert.",
+          "title": "Preisänderung",
+          "type": "generic",
+          "type_display": "Generischer Eintrag"
+        },
+        {
           "date": "2026-02-05",
           "remark": null,
           "text": "2026-02-05 Status der Listung ist „Dauerhaft aufgenommen“",
@@ -184814,7 +184822,7 @@
         "questionnaire.Kann die betroffene Person vom Hersteller der digitalen Gesundheitsanwendung die Berichtigung von sie betreffenden unrichtigen personenbezogenen Daten und die Vervollständigung von sie betreffenden unvollständigen personenbezogenen Daten verlangen?": "Zutreffend",
         "questionnaire.Kann sich der Versicherte ausschließlich innerhalb der Vertrauensdomäne der digitalen Gesundheitsanwendung bewegen bzw. können aus der digitalen Gesundheitsanwendung heraus nur vertrauenswürdige, durch den Hersteller der digitalen Gesundheitsanwendung geprüfte externe Inhalte genutzt werden und wird der Versicherte in diesem Fall informiert, wenn die Vertrauensdomäne der digitalen Gesundheitsanwendung verlassen wird?": "Zutreffend",
         "questionnaire.Kompatibilitätszusagen des Herstellers der DiGA in Bezug auf unterstützte Plattformen und Geräte sowie in Bezug auf erforderliches Zubehör und sonstige Produktbestandteile mit Verweis auf den entsprechenden Abschnitt der Website der DiGA": "glucura ist verfügbar auf den Betriebssystemen Apple iOS ab Version 14.0 und Google Android ab Version 8.0 und kompatibel mit Geräten der Hersteller Apple, Google, Huawei, Motorola, Samsung, Sony und weiteren, auf denen die genannten Betriebssysteme laufen. (https://glucura.de/diga-informationen/#systemanf) glucura ist mit einer Vielzahl an Blutzuckersensoren kompatibel. Voraussetzung ist lediglich, dass diese die Kriterien für die Kompatibilität des Datenexports aus CGM-Systemen erfüllen (https://glucura.de/digainformationen/#kompatibilitaet). Eine genaue Spezifikation ist im Vesta-Verzeichnis hinterlegt: https://www.vesta-gematik.de/standards/detail/standards/anbindung-von-cgm-systemen-an-digitalegesundheitsanwendungen-zur-weiterverarbeitung-der-glukosedate/",
-        "questionnaire.Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage": "499,80 €",
+        "questionnaire.Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage": "268,67 €",
         "questionnaire.Kurzfassung zum vorliegenden oder geplanten Nachweis des positiven Versorgungseffektes nach PICO-Schema": "Titel: Überprüfung der Wirksamkeit der Digitalen Gesundheitsanwendung glucura in der Behandlung von Diabetes mellitus, Typ 2 Patient: Patientinnen und Patienten ab 18 Jahren mit einem diagnostizierten Diabetes mellitus, Typ 2 (ICD-10: E11) mit einem HbA1c zur Baseline von ≥ 7,0 % und ≤ 11,0 % Intervention: Zugang zur Standardversorgung (Teilnahme am Disease-Management-Programm Diabetes mellitus, Typ 2) und Nutzung eines CGM-Geräts und der digitalen Gesundheitsanwendung Comparison: Zugang zur Standardversorgung (Teilnahme am Disease-Management-Programm Diabetes mellitus, Typ 2) und Nutzung eines CGM-Geräts und der Kontroll-App Outcome: - primärer Endpunkt: Veränderung des HbA1c Sekundäre Endpunkte: - relative Gewichtsveränderung - gesundheitsbezogene Lebensqualität, gemessen mittels Short Form-36 (SF-36) - Selbstmanagement der Problembereiche in der Diabetesbehandlung, gemessen mittels Problem Areas in Diabetes Scale (PAID) - depressive Symptomatik, gemessen mittels Patient Health Questionnaire-9 (PHQ-9)",
         "questionnaire.Kurzfassung zum vorliegenden oder geplanten Nachweis des positiven Versorgungseffektes nach PICO-Schema (Patienteninformation)": "Titel: Überprüfung der Wirksamkeit der Digitalen Gesundheitsanwendung glucura in der Behandlung von Diabetes mellitus, Typ 2 Patient: Patientinnen und Patienten (m/w/d) mit Diabetes mellitus, Typ 2 ab 18 Jahren entsprechend des Diagnoseschlüssels gemäß ICD-10-Code E11.-, die seit mindestens 3 Monaten vor Beginn der Studie im Disease-Management-Programm (DMP) Diabetes mellitus, Typ 2 versorgt werden. Intervention: Zugang zur Standardversorgung (Teilnahme am DMP Diabetes mellitus, Typ 2) und Nutzung eines CGM-Geräts und der digitalen Gesundheitsanwendung Comparison: Zugang zur Standardversorgung (Teilnahme am DMP Diabetes mellitus, Typ 2) und Nutzung eines CGM-Geräts und der Kontroll-App Outcome: primärer Endpunkt: Veränderung des HbA1c sekundäre Endpunkte: Veränderung von Gewicht, Lebensqualität, Selbstmanagement und depressiver Symptomatik.",
         "questionnaire.Medizinische Zweckbestimmung entsprechend den Angaben des Herstellers auf der Kennzeichnung, in der Gebrauchsanweisung oder dem Werbe- oder Verkaufsmaterial bzw. den Werbe- oder Verkaufsangaben": "glucura unterstützt in der Therapie von Diabetes mellitus, Typ 2. Grundlage ist die Modulation der postprandialen Blutzuckerantwort durch personalisierte niedrig-glykämische Ernährungsempfehlungen. Patientinnen und Patienten erhalten einen Report, der die innerhalb einer vorangegangenen Testphase verzehrten Mahlzeiten im Hinblick auf ihre postprandiale Blutzuckerantwort bewertet. Aus dieser Bewertung werden Ernährungsempfehlungen abgeleitet, die bei Einhaltung die Reduktion postprandialer Blutzuckerschwankungen erzielen können. Hierdurch werden eine reduzierte Insulinsensitivität, eine vorliegende Insulinresistenz und erhöhte Blutzuckerwerte positiv beeinflusst. Das führt zu einer Reduktion der mit Diabetes mellitus, Typ 2 assoziierten Symptome.",
@@ -184909,6 +184917,7 @@
       "pricing_information": [
         {
           "effective_period": {
+            "end": "2025-01-10",
             "start": "2024-01-11"
           },
           "price_components": [
@@ -184949,6 +184958,125 @@
             "Herstellerpreis"
           ],
           "title": "glucura 001"
+        },
+        {
+          "effective_period": {
+            "end": "2026-12-31",
+            "start": "2025-01-11"
+          },
+          "price_components": [
+            {
+              "extension": [
+                {
+                  "extension": [
+                    {
+                      "url": "required",
+                      "valueBoolean": false
+                    }
+                  ],
+                  "url": "https://fhir.bfarm.de/StructureDefinition/HealthAppPrescriptionUnitPropertyGroupNonRefundable"
+                }
+              ],
+              "priceComponent": [
+                {
+                  "amount": {
+                    "currency": "EUR",
+                    "value": 268.67
+                  },
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "publisher-price",
+                        "display": "Herstellerpreis",
+                        "system": "https://fhir.bfarm.de/CodeSystem/HealthAppPriceCode"
+                      }
+                    ]
+                  },
+                  "type": "informational"
+                },
+                {
+                  "amount": {
+                    "currency": "EUR",
+                    "value": 268.67
+                  },
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "maximum-amount",
+                        "display": "Vergütungs- / Höchstbetrag",
+                        "system": "https://fhir.bfarm.de/CodeSystem/HealthAppPriceCode"
+                      }
+                    ]
+                  },
+                  "type": "informational"
+                }
+              ]
+            }
+          ],
+          "text": [
+            "EUR",
+            "Herstellerpreis"
+          ],
+          "title": "glucura 001"
+        },
+        {
+          "effective_period": {
+            "start": "2027-01-01"
+          },
+          "price_components": [
+            {
+              "extension": [
+                {
+                  "extension": [
+                    {
+                      "url": "required",
+                      "valueBoolean": false
+                    }
+                  ],
+                  "url": "https://fhir.bfarm.de/StructureDefinition/HealthAppPrescriptionUnitPropertyGroupNonRefundable"
+                }
+              ],
+              "priceComponent": [
+                {
+                  "amount": {
+                    "currency": "EUR",
+                    "value": 274.58
+                  },
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "publisher-price",
+                        "display": "Herstellerpreis",
+                        "system": "https://fhir.bfarm.de/CodeSystem/HealthAppPriceCode"
+                      }
+                    ]
+                  },
+                  "type": "informational"
+                },
+                {
+                  "amount": {
+                    "currency": "EUR",
+                    "value": 274.58
+                  },
+                  "code": {
+                    "coding": [
+                      {
+                        "code": "maximum-amount",
+                        "display": "Vergütungs- / Höchstbetrag",
+                        "system": "https://fhir.bfarm.de/CodeSystem/HealthAppPriceCode"
+                      }
+                    ]
+                  },
+                  "type": "informational"
+                }
+              ]
+            }
+          ],
+          "text": [
+            "EUR",
+            "Herstellerpreis"
+          ],
+          "title": "glucura 001"
         }
       ],
       "raw_public_fhir": {
@@ -184958,17 +185086,31 @@
           "392"
         ],
         "prescription_unit_ids": [
-          "393"
+          "393",
+          "1253",
+          "1254"
         ]
       },
       "source_update_notice": {
         "checked_sources": [
           {
-            "last_updated": "2026-10-09T11:34:21.800+02:00",
+            "last_updated": "2026-11-27T10:30:05.257+01:00",
             "source": "questionnaire_response.395"
           },
           {
-            "last_updated": "2026-10-09T11:34:20.312+02:00",
+            "last_updated": "2026-11-27T10:30:03.825+01:00",
+            "source": "catalog_entry"
+          },
+          {
+            "last_updated": "2026-11-27T10:30:03.788+01:00",
+            "source": "prescription_unit.1254"
+          },
+          {
+            "last_updated": "2026-11-27T10:30:03.563+01:00",
+            "source": "prescription_unit.1253"
+          },
+          {
+            "last_updated": "2026-11-27T10:30:02.840+01:00",
             "source": "prescription_unit.393"
           },
           {
@@ -184980,17 +185122,13 @@
             "source": "health_app"
           },
           {
-            "last_updated": "2026-02-05T10:55:24.765+01:00",
-            "source": "catalog_entry"
-          },
-          {
             "last_updated": "2025-10-06T23:53:27.792+02:00",
             "source": "module.392"
           }
         ],
         "data_notice": "Wiedergabe der vom Hersteller übermittelten Angaben",
-        "last_updated_at": "2026-10-09T11:34:21.800+02:00",
-        "notice_text": "Zuletzt aktualisiert am 09.10.2026 um 09:34"
+        "last_updated_at": "2026-11-27T10:30:05.257+01:00",
+        "notice_text": "Zuletzt aktualisiert am 27.11.2026 um 09:30"
       },
       "status": "permanent",
       "status_confidence": "high",
@@ -186381,13 +186519,13 @@
           "localization_confidence": "high",
           "main_section": "Weitere Informationen",
           "question_label": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
-          "raw_text": "499,80 €",
+          "raw_text": "268,67 €",
           "section_title": "Weitere Informationen",
           "source_area_label": "Weitere Informationen",
           "stable_key": "descriptive-texts|weitere-informationen|weitere-informationen|kosten-z-b-starterpaket-ohne-hardware-f-r-90-tage|questionnaire-kosten-z-b-starterpaket-ohne-hardware-f-r-90-tage",
           "subsection_title": "Kosten (z. B. Starterpaket) ohne Hardware für 90 Tage",
           "tab_label": "Weitere Informationen",
-          "text": "499,80 €"
+          "text": "268,67 €"
         },
         {
           "accordion_title": "Informationen zum positiven Versorgungseffekt",
@@ -236506,6 +236644,10 @@
       "source_update_notice": {
         "checked_sources": [
           {
+            "last_updated": "2026-11-27T15:17:55.450+01:00",
+            "source": "manufacturer"
+          },
+          {
             "last_updated": "2026-09-16T17:25:43.487+02:00",
             "source": "health_app"
           },
@@ -236524,15 +236666,11 @@
           {
             "last_updated": "2026-09-07T14:08:46.190+02:00",
             "source": "module.1104"
-          },
-          {
-            "last_updated": "2026-09-07T14:08:46.108+02:00",
-            "source": "manufacturer"
           }
         ],
         "data_notice": "Wiedergabe der vom Hersteller übermittelten Angaben",
-        "last_updated_at": "2026-09-16T17:25:43.487+02:00",
-        "notice_text": "Zuletzt aktualisiert am 16.09.2026 um 15:25"
+        "last_updated_at": "2026-11-27T15:17:55.450+01:00",
+        "notice_text": "Zuletzt aktualisiert am 27.11.2026 um 14:17"
       },
       "status": "provisional",
       "status_confidence": "high",
