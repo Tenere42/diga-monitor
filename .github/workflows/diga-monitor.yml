@@ -10,7 +10,7 @@ on:
   repository_dispatch:
     types: [scheduled-scan]
   schedule:
-    - cron: "0 6,9,12,15,18 * * *"
+    - cron: "13 * * * *"
       timezone: "Europe/Zurich"
 
 concurrency:
